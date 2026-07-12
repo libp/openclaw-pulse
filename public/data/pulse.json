@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-12T22:06:25.923Z",
+  "generatedAt": "2026-07-12T23:08:27.915Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -26,11 +26,11 @@
     },
     {
       "capturedOn": "2026-07-12",
-      "capturedAt": "2026-07-12T22:06:25.923Z",
+      "capturedAt": "2026-07-12T23:08:27.915Z",
       "issueOpen": 3675,
-      "issueClosed": 39306,
-      "prOpen": 2798,
-      "prClosed": 57589,
+      "issueClosed": 39308,
+      "prOpen": 2792,
+      "prClosed": 57607,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -40,77 +40,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 11489,
-        "title": "[Feature Request] Group pairing flow: notify owner + read-only mode for unconfigured groups",
-        "url": "https://github.com/openclaw/openclaw/issues/11489",
+        "number": 105730,
+        "title": "macOS app has no dead-code (Periphery) CI lane; 12 dead symbols in apps/macos today",
+        "url": "https://github.com/openclaw/openclaw/issues/105730",
         "state": "open",
-        "author": "napetrov",
-        "updatedAt": "2026-07-12T22:03:16Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-12T23:07:48Z"
       },
       {
         "kind": "issue",
-        "number": 7669,
-        "title": "[Feature] Re-enable dev channel distribution tag for npm releases",
-        "url": "https://github.com/openclaw/openclaw/issues/7669",
+        "number": 102400,
+        "title": "Reply-session init conflict is silently dropped on Slack/webchat/heartbeat inbound, though Telegram already treats it as retryable",
+        "url": "https://github.com/openclaw/openclaw/issues/102400",
         "state": "open",
-        "author": "ImBIOS",
-        "updatedAt": "2026-07-12T22:02:58Z"
+        "author": "rodja",
+        "updatedAt": "2026-07-12T23:05:38Z"
+      },
+      {
+        "kind": "issue",
+        "number": 105729,
+        "title": "[Bug]: OpenAI-compatible proxy transport clamps max_completion_tokens to 1 after context precheck",
+        "url": "https://github.com/openclaw/openclaw/issues/105729",
+        "state": "open",
+        "author": "glebsergeevich",
+        "updatedAt": "2026-07-12T23:03:17Z"
+      },
+      {
+        "kind": "issue",
+        "number": 7406,
+        "title": "[Feature]: Human-readable Telegram topic names in session dropdown",
+        "url": "https://github.com/openclaw/openclaw/issues/7406",
+        "state": "open",
+        "author": "Diaspar4u",
+        "updatedAt": "2026-07-12T23:02:26Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 96189,
-        "title": "fix(subagents): wake yielded parent on no-deliverable-payload completions (closes part of #89095)",
-        "url": "https://github.com/openclaw/openclaw/pull/96189",
+        "number": 105728,
+        "title": "fix(ui): preserve MCP App previews across reloads",
+        "url": "https://github.com/openclaw/openclaw/pull/105728",
         "state": "open",
-        "author": "alfredjbclaw",
-        "updatedAt": "2026-07-12T22:06:19Z"
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-07-12T23:08:21Z"
       },
       {
         "kind": "pr",
-        "number": 104027,
-        "title": "chore(deps): bump the actions group across 1 directory with 14 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/104027",
+        "number": 105720,
+        "title": "refactor(ai): trim private Responses exports",
+        "url": "https://github.com/openclaw/openclaw/pull/105720",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-07-12T22:06:17Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-07-12T23:07:08Z"
       },
       {
         "kind": "pr",
-        "number": 102302,
-        "title": "fix(gateway): Control UI bootstrap 401s over Tailscale Serve without a token",
-        "url": "https://github.com/openclaw/openclaw/pull/102302",
+        "number": 104912,
+        "title": "fix: Control UI avatar initial breaks on emoji display names",
+        "url": "https://github.com/openclaw/openclaw/pull/104912",
         "state": "open",
-        "author": "alfredjbclaw",
-        "updatedAt": "2026-07-12T22:06:13Z"
+        "author": "xydigit-zt",
+        "updatedAt": "2026-07-12T23:07:08Z"
       },
       {
         "kind": "pr",
-        "number": 102002,
-        "title": "fix(media-understanding): downscale configured image descriptions",
-        "url": "https://github.com/openclaw/openclaw/pull/102002",
+        "number": 104907,
+        "title": "fix: ClawHub search passes unbounded limit to the API",
+        "url": "https://github.com/openclaw/openclaw/pull/104907",
         "state": "open",
-        "author": "harjothkhara",
-        "updatedAt": "2026-07-12T22:06:04Z"
+        "author": "xydigit-zt",
+        "updatedAt": "2026-07-12T23:07:01Z"
       },
       {
         "kind": "pr",
-        "number": 105711,
-        "title": "fix(ui): isolate retained test modules",
-        "url": "https://github.com/openclaw/openclaw/pull/105711",
+        "number": 101248,
+        "title": "feat(subagents): native announceTarget for subagent completion routing (#27445)",
+        "url": "https://github.com/openclaw/openclaw/pull/101248",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-12T22:06:02Z"
+        "author": "nicknmorty",
+        "updatedAt": "2026-07-12T23:05:51Z"
       },
       {
         "kind": "pr",
-        "number": 104690,
-        "title": "fix(msteams): reset sessions on app removal lifecycle",
-        "url": "https://github.com/openclaw/openclaw/pull/104690",
+        "number": 105576,
+        "title": "fix(whatsapp): honor mediaUrls precedence in channel payloads",
+        "url": "https://github.com/openclaw/openclaw/pull/105576",
         "state": "open",
-        "author": "jimmypuckett",
-        "updatedAt": "2026-07-12T22:05:51Z"
+        "author": "mcaxtr",
+        "updatedAt": "2026-07-12T23:05:35Z"
       }
     ]
   }

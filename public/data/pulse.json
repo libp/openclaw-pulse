@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-12T00:00:00.000Z",
+  "generatedAt": "2026-07-12T14:31:25.670Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -26,18 +26,101 @@
     },
     {
       "capturedOn": "2026-07-12",
-      "capturedAt": "2026-07-12T00:00:00.000Z",
-      "issueOpen": 3578,
-      "issueClosed": 39154,
-      "prOpen": 2777,
-      "prClosed": 57051,
-      "workflowRuns": null,
-      "source": "manual-post",
+      "capturedAt": "2026-07-12T14:31:25.670Z",
+      "issueOpen": 3630,
+      "issueClosed": 39257,
+      "prOpen": 2807,
+      "prClosed": 57420,
+      "workflowRuns": 40000,
+      "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
-    "prs": []
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 105462,
+        "title": "[Feature] Configurable connection retry limits and exponential backoff for SSH worker sandbox backend",
+        "url": "https://github.com/openclaw/openclaw/issues/105462",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-12T14:31:21Z"
+      },
+      {
+        "kind": "issue",
+        "number": 105461,
+        "title": "refactor(voice-call): retire runtime config compatibility",
+        "url": "https://github.com/openclaw/openclaw/issues/105461",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-07-12T14:31:03Z"
+      },
+      {
+        "kind": "issue",
+        "number": 105392,
+        "title": "refactor: reduce complexity in four agent-facing code paths",
+        "url": "https://github.com/openclaw/openclaw/issues/105392",
+        "state": "closed",
+        "author": "vincentkoc",
+        "updatedAt": "2026-07-12T14:30:00Z"
+      }
+    ],
+    "prs": [
+      {
+        "kind": "pr",
+        "number": 105396,
+        "title": "fix(channels): retain draft preview id after failed delete for retry (#104865)",
+        "url": "https://github.com/openclaw/openclaw/pull/105396",
+        "state": "open",
+        "author": "jiahjian",
+        "updatedAt": "2026-07-12T14:30:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 101777,
+        "title": "fix(codex): suppress stdout/stderr stream errors in sandbox subprocesses",
+        "url": "https://github.com/openclaw/openclaw/pull/101777",
+        "state": "open",
+        "author": "sunlit-deng",
+        "updatedAt": "2026-07-12T14:30:14Z"
+      },
+      {
+        "kind": "pr",
+        "number": 102082,
+        "title": "fix(slack): suppress progress chrome sends",
+        "url": "https://github.com/openclaw/openclaw/pull/102082",
+        "state": "open",
+        "author": "CG-Intelligence-Agent-Jack",
+        "updatedAt": "2026-07-12T14:30:00Z"
+      },
+      {
+        "kind": "pr",
+        "number": 105393,
+        "title": "fix(browser): don't steal focus on headed screenshot captures",
+        "url": "https://github.com/openclaw/openclaw/pull/105393",
+        "state": "open",
+        "author": "ObliviateRickLin",
+        "updatedAt": "2026-07-12T14:29:21Z"
+      },
+      {
+        "kind": "pr",
+        "number": 105448,
+        "title": "fix: OpenRouter OAuth denial redirects show provider errors",
+        "url": "https://github.com/openclaw/openclaw/pull/105448",
+        "state": "open",
+        "author": "VectorPeak",
+        "updatedAt": "2026-07-12T14:28:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 105460,
+        "title": "fix(agents): reject invalid bundled LSP framing",
+        "url": "https://github.com/openclaw/openclaw/pull/105460",
+        "state": "open",
+        "author": "mushuiyu886",
+        "updatedAt": "2026-07-12T14:28:34Z"
+      }
+    ]
   }
 }

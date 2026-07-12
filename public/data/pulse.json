@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-12T17:15:55.719Z",
+  "generatedAt": "2026-07-12T18:10:12.969Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -26,11 +26,11 @@
     },
     {
       "capturedOn": "2026-07-12",
-      "capturedAt": "2026-07-12T17:15:55.719Z",
-      "issueOpen": 3645,
-      "issueClosed": 39263,
-      "prOpen": 2819,
-      "prClosed": 57472,
+      "capturedAt": "2026-07-12T18:10:12.969Z",
+      "issueOpen": 3644,
+      "issueClosed": 39272,
+      "prOpen": 2828,
+      "prClosed": 57496,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -40,113 +40,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 105445,
-        "title": "[Bug]: gpt-5.6-luna is listed but OpenAI Codex Responses returns 404",
-        "url": "https://github.com/openclaw/openclaw/issues/105445",
+        "number": 105582,
+        "title": "Control UI Workboard silently loses edits made while card save is pending",
+        "url": "https://github.com/openclaw/openclaw/issues/105582",
         "state": "open",
-        "author": "laurenceputra",
-        "updatedAt": "2026-07-12T17:15:33Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-12T18:09:47Z"
       },
       {
         "kind": "issue",
-        "number": 105438,
-        "title": "[Bug] Incomplete CSS transform scale regex validation in isStyleHidden",
-        "url": "https://github.com/openclaw/openclaw/issues/105438",
+        "number": 102020,
+        "title": "[Bug]: Second message in a session fails with \"reply session initialization conflicted\" (cross-channel, position-dependent)",
+        "url": "https://github.com/openclaw/openclaw/issues/102020",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-12T17:14:16Z"
+        "author": "musubi1893",
+        "updatedAt": "2026-07-12T18:09:18Z"
       },
       {
         "kind": "issue",
-        "number": 105437,
-        "title": "[Bug] Regex compilation overhead in isStyleHidden during HTML parsing",
-        "url": "https://github.com/openclaw/openclaw/issues/105437",
+        "number": 105581,
+        "title": "[Bug]: sessions_search rescans complete transcript history per query",
+        "url": "https://github.com/openclaw/openclaw/issues/105581",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-12T17:14:15Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-12T18:08:47Z"
       },
       {
         "kind": "issue",
-        "number": 105430,
-        "title": "[Bug] TOCTOU race condition in cross-device move fallback unlinking",
-        "url": "https://github.com/openclaw/openclaw/issues/105430",
+        "number": 105588,
+        "title": "feat: add exact-turn capability projection reports",
+        "url": "https://github.com/openclaw/openclaw/issues/105588",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-12T17:14:15Z"
+        "author": "Lestat569769",
+        "updatedAt": "2026-07-12T18:07:56Z"
       },
       {
         "kind": "issue",
-        "number": 105440,
-        "title": "[Bug] Inconsistent extension trust logic in detectMimeImpl",
-        "url": "https://github.com/openclaw/openclaw/issues/105440",
+        "number": 8190,
+        "title": "Feature: Global session reset on auth switch",
+        "url": "https://github.com/openclaw/openclaw/issues/8190",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-12T17:14:13Z"
+        "author": "lancejames221b",
+        "updatedAt": "2026-07-12T18:06:52Z"
       },
       {
         "kind": "issue",
-        "number": 105441,
-        "title": "[Bug] Silently skipped line after active memory prefix block in stripActiveMemoryPromptPrefixBlocks",
-        "url": "https://github.com/openclaw/openclaw/issues/105441",
+        "number": 105586,
+        "title": "[Bug]: Stuck-session recovery loops `keep_lane reason=active_reply_work` forever on busy channels — `isActiveRunProgressStale` ignores the terminal progress reasons the detector itself flags (`terminalProgressStale=true`)",
+        "url": "https://github.com/openclaw/openclaw/issues/105586",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-12T17:14:12Z"
+        "author": "jordanhubbard",
+        "updatedAt": "2026-07-12T18:06:11Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 101598,
-        "title": "fix(microsoft-foundry): handle stdout/stderr stream errors in az login",
-        "url": "https://github.com/openclaw/openclaw/pull/101598",
+        "number": 105520,
+        "title": "fix(line): skip confirm/buttons templates with blank required fields",
+        "url": "https://github.com/openclaw/openclaw/pull/105520",
         "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-07-12T17:15:50Z"
+        "author": "edenfunf",
+        "updatedAt": "2026-07-12T18:09:38Z"
       },
       {
         "kind": "pr",
-        "number": 105546,
-        "title": "refactor(outbound): internalize audit helpers",
-        "url": "https://github.com/openclaw/openclaw/pull/105546",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-07-12T17:15:53Z"
-      },
-      {
-        "kind": "pr",
-        "number": 105547,
-        "title": "fix(media): preserve remote filename prefixes with encoded separators",
-        "url": "https://github.com/openclaw/openclaw/pull/105547",
+        "number": 105479,
+        "title": "fix(clawhub): ignore malformed retry-after headers",
+        "url": "https://github.com/openclaw/openclaw/pull/105479",
         "state": "open",
         "author": "qingminlong",
-        "updatedAt": "2026-07-12T17:15:46Z"
+        "updatedAt": "2026-07-12T18:09:38Z"
       },
       {
         "kind": "pr",
-        "number": 105545,
-        "title": "ci(release): parallelize runtime parity tiers",
-        "url": "https://github.com/openclaw/openclaw/pull/105545",
+        "number": 105475,
+        "title": "fix(matrix): preserve UTF-8 bootstrap output tails",
+        "url": "https://github.com/openclaw/openclaw/pull/105475",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-12T17:15:42Z"
+        "author": "qingminlong",
+        "updatedAt": "2026-07-12T18:09:38Z"
       },
       {
         "kind": "pr",
-        "number": 105401,
-        "title": "fix(qa): align mock catalog with selected models",
-        "url": "https://github.com/openclaw/openclaw/pull/105401",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-07-12T17:15:13Z"
-      },
-      {
-        "kind": "pr",
-        "number": 104690,
-        "title": "fix(msteams): reset sessions on app removal lifecycle",
-        "url": "https://github.com/openclaw/openclaw/pull/104690",
+        "number": 105258,
+        "title": "fix(retry): avoid status code substring matches",
+        "url": "https://github.com/openclaw/openclaw/pull/105258",
         "state": "open",
-        "author": "jimmypuckett",
-        "updatedAt": "2026-07-12T17:15:06Z"
+        "author": "destire-mio",
+        "updatedAt": "2026-07-12T18:09:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 95956,
+        "title": "Preview session workspace images and unsupported files",
+        "url": "https://github.com/openclaw/openclaw/pull/95956",
+        "state": "open",
+        "author": "Solvely-Colin",
+        "updatedAt": "2026-07-12T18:09:27Z"
+      },
+      {
+        "kind": "pr",
+        "number": 102082,
+        "title": "fix(slack): suppress progress chrome sends",
+        "url": "https://github.com/openclaw/openclaw/pull/102082",
+        "state": "open",
+        "author": "CG-Intelligence-Agent-Jack",
+        "updatedAt": "2026-07-12T18:09:06Z"
       }
     ]
   }

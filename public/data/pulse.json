@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-12T19:29:34.238Z",
+  "generatedAt": "2026-07-12T21:05:42.958Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -26,11 +26,11 @@
     },
     {
       "capturedOn": "2026-07-12",
-      "capturedAt": "2026-07-12T19:29:34.238Z",
-      "issueOpen": 3651,
-      "issueClosed": 39279,
-      "prOpen": 2800,
-      "prClosed": 57562,
+      "capturedAt": "2026-07-12T21:05:42.958Z",
+      "issueOpen": 3672,
+      "issueClosed": 39304,
+      "prOpen": 2794,
+      "prClosed": 57586,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -40,68 +40,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 105511,
-        "title": "[Bug]: LINE confirm/buttons directives with a blank required field produce an invalid template (HTTP 400, message dropped)",
-        "url": "https://github.com/openclaw/openclaw/issues/105511",
-        "state": "closed",
-        "author": "edenfunf",
-        "updatedAt": "2026-07-12T19:25:53Z"
+        "number": 105694,
+        "title": "[Bug] Event Loop Blocking CPU Bottleneck in sweepCronRunSessions (Session Reaper)",
+        "url": "https://github.com/openclaw/openclaw/issues/105694",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-12T21:04:43Z"
+      },
+      {
+        "kind": "issue",
+        "number": 11489,
+        "title": "[Feature Request] Group pairing flow: notify owner + read-only mode for unconfigured groups",
+        "url": "https://github.com/openclaw/openclaw/issues/11489",
+        "state": "open",
+        "author": "napetrov",
+        "updatedAt": "2026-07-12T21:04:41Z"
+      },
+      {
+        "kind": "issue",
+        "number": 105700,
+        "title": "[Security] Permanent System Credentials Eviction Vulnerability in Redaction Registry",
+        "url": "https://github.com/openclaw/openclaw/issues/105700",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-12T21:04:35Z"
+      },
+      {
+        "kind": "issue",
+        "number": 105629,
+        "title": "[Bug]: Apple Watch companion app crashes immediately on launch (iOS 2026.6.11)",
+        "url": "https://github.com/openclaw/openclaw/issues/105629",
+        "state": "open",
+        "author": "Cleymo",
+        "updatedAt": "2026-07-12T21:04:32Z"
+      },
+      {
+        "kind": "issue",
+        "number": 105692,
+        "title": "[Bug] Cross-Tenant Cooldown Starvation in Cooldown Probe Throttling",
+        "url": "https://github.com/openclaw/openclaw/issues/105692",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-12T21:03:59Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 105616,
-        "title": "feat(ios): add private HealthKit summaries",
-        "url": "https://github.com/openclaw/openclaw/pull/105616",
+        "number": 105029,
+        "title": "fix(gateway): revoke attach grants on deletion",
+        "url": "https://github.com/openclaw/openclaw/pull/105029",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-12T19:29:24Z"
+        "author": "arcabotai",
+        "updatedAt": "2026-07-12T21:05:39Z"
       },
       {
         "kind": "pr",
-        "number": 92011,
-        "title": "fix(agents): prevent recursive task execution during model fallback",
-        "url": "https://github.com/openclaw/openclaw/pull/92011",
+        "number": 102082,
+        "title": "fix(slack): suppress progress chrome sends",
+        "url": "https://github.com/openclaw/openclaw/pull/102082",
         "state": "open",
-        "author": "MertBasar0",
-        "updatedAt": "2026-07-12T19:29:26Z"
+        "author": "CG-Intelligence-Agent-Jack",
+        "updatedAt": "2026-07-12T21:05:38Z"
       },
       {
         "kind": "pr",
-        "number": 105640,
-        "title": "fix(media-core): untrust audio/video MIME over generic ZIP sniff",
-        "url": "https://github.com/openclaw/openclaw/pull/105640",
+        "number": 105660,
+        "title": "feat(durable): add beta3 wake replay foundation",
+        "url": "https://github.com/openclaw/openclaw/pull/105660",
         "state": "open",
-        "author": "wuqxuan",
-        "updatedAt": "2026-07-12T19:29:09Z"
+        "author": "mjnkao",
+        "updatedAt": "2026-07-12T21:05:32Z"
       },
       {
         "kind": "pr",
-        "number": 103534,
-        "title": "fix(gateway): enforce plugin-ownership check in sessions.patch",
-        "url": "https://github.com/openclaw/openclaw/pull/103534",
+        "number": 104569,
+        "title": "fix(ui): explain replace-mode filtering in model picker",
+        "url": "https://github.com/openclaw/openclaw/pull/104569",
         "state": "open",
-        "author": "cxbAsDev",
-        "updatedAt": "2026-07-12T19:29:02Z"
+        "author": "samrusani",
+        "updatedAt": "2026-07-12T21:05:23Z"
       },
       {
         "kind": "pr",
-        "number": 105635,
-        "title": "feat(ui): search session transcripts",
-        "url": "https://github.com/openclaw/openclaw/pull/105635",
+        "number": 97103,
+        "title": "[codex] fix(sessions): report archive cleanup in sessions cleanup",
+        "url": "https://github.com/openclaw/openclaw/pull/97103",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-12T19:28:57Z"
+        "author": "samrusani",
+        "updatedAt": "2026-07-12T21:05:32Z"
       },
       {
         "kind": "pr",
-        "number": 105298,
-        "title": "Tidy implementation detail in openclaw (#105266)",
-        "url": "https://github.com/openclaw/openclaw/pull/105298",
+        "number": 103797,
+        "title": "fix: severe per-message slowdown when commands.ownerAllowFrom has thousands of entries",
+        "url": "https://github.com/openclaw/openclaw/pull/103797",
         "state": "open",
-        "author": "bglglzd",
-        "updatedAt": "2026-07-12T19:28:55Z"
+        "author": "harjothkhara",
+        "updatedAt": "2026-07-12T21:05:14Z"
       }
     ]
   }

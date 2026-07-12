@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-12T14:31:25.670Z",
+  "generatedAt": "2026-07-12T16:10:11.931Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -26,11 +26,11 @@
     },
     {
       "capturedOn": "2026-07-12",
-      "capturedAt": "2026-07-12T14:31:25.670Z",
-      "issueOpen": 3630,
-      "issueClosed": 39257,
-      "prOpen": 2807,
-      "prClosed": 57420,
+      "capturedAt": "2026-07-12T16:10:11.931Z",
+      "issueOpen": 3636,
+      "issueClosed": 39260,
+      "prOpen": 2819,
+      "prClosed": 57447,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -40,50 +40,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 105462,
-        "title": "[Feature] Configurable connection retry limits and exponential backoff for SSH worker sandbox backend",
-        "url": "https://github.com/openclaw/openclaw/issues/105462",
+        "number": 105168,
+        "title": "[Feature]: Persistent identity architecture — a living case study from an AI agent",
+        "url": "https://github.com/openclaw/openclaw/issues/105168",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-12T14:31:21Z"
+        "author": "lufia-bodkin",
+        "updatedAt": "2026-07-12T16:06:13Z"
       },
       {
         "kind": "issue",
-        "number": 105461,
-        "title": "refactor(voice-call): retire runtime config compatibility",
-        "url": "https://github.com/openclaw/openclaw/issues/105461",
+        "number": 104165,
+        "title": "[Bug]: Weather Tool (china-weather/weather) Not Found in Catalog",
+        "url": "https://github.com/openclaw/openclaw/issues/104165",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-07-12T14:31:03Z"
+        "author": "yidp",
+        "updatedAt": "2026-07-12T16:06:04Z"
       },
       {
         "kind": "issue",
-        "number": 105392,
-        "title": "refactor: reduce complexity in four agent-facing code paths",
-        "url": "https://github.com/openclaw/openclaw/issues/105392",
-        "state": "closed",
-        "author": "vincentkoc",
-        "updatedAt": "2026-07-12T14:30:00Z"
+        "number": 104141,
+        "title": "Docs feedback: /start/wizard",
+        "url": "https://github.com/openclaw/openclaw/issues/104141",
+        "state": "open",
+        "author": "ahror022693-dot",
+        "updatedAt": "2026-07-12T16:05:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 104102,
+        "title": "penipu",
+        "url": "https://github.com/openclaw/openclaw/issues/104102",
+        "state": "open",
+        "author": "norawitthiticharoenrak278-ctrl",
+        "updatedAt": "2026-07-12T16:05:46Z"
+      },
+      {
+        "kind": "issue",
+        "number": 104101,
+        "title": "Docs feedback: /id/maturity/taxonomy",
+        "url": "https://github.com/openclaw/openclaw/issues/104101",
+        "state": "open",
+        "author": "norawitthiticharoenrak278-ctrl",
+        "updatedAt": "2026-07-12T16:05:38Z"
+      },
+      {
+        "kind": "issue",
+        "number": 105338,
+        "title": "Anthropic requests hardcode thinking.type=\"enabled\", causing 400+retry on every claude-sonnet-5 call",
+        "url": "https://github.com/openclaw/openclaw/issues/105338",
+        "state": "open",
+        "author": "mputiyon1985",
+        "updatedAt": "2026-07-12T16:05:15Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 105396,
-        "title": "fix(channels): retain draft preview id after failed delete for retry (#104865)",
-        "url": "https://github.com/openclaw/openclaw/pull/105396",
+        "number": 105510,
+        "title": "refactor(infra): remove JSONL socket testing alias",
+        "url": "https://github.com/openclaw/openclaw/pull/105510",
         "state": "open",
-        "author": "jiahjian",
-        "updatedAt": "2026-07-12T14:30:35Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-07-12T16:09:54Z"
       },
       {
         "kind": "pr",
-        "number": 101777,
-        "title": "fix(codex): suppress stdout/stderr stream errors in sandbox subprocesses",
-        "url": "https://github.com/openclaw/openclaw/pull/101777",
+        "number": 105372,
+        "title": "fix(ios): localize native app and watch surfaces",
+        "url": "https://github.com/openclaw/openclaw/pull/105372",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-07-12T14:30:14Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-07-12T16:09:54Z"
       },
       {
         "kind": "pr",
@@ -92,34 +119,34 @@
         "url": "https://github.com/openclaw/openclaw/pull/102082",
         "state": "open",
         "author": "CG-Intelligence-Agent-Jack",
-        "updatedAt": "2026-07-12T14:30:00Z"
+        "updatedAt": "2026-07-12T16:09:53Z"
       },
       {
         "kind": "pr",
-        "number": 105393,
-        "title": "fix(browser): don't steal focus on headed screenshot captures",
-        "url": "https://github.com/openclaw/openclaw/pull/105393",
+        "number": 89569,
+        "title": "feat(channels): add pre-auth access requests and grouped DM allowlists",
+        "url": "https://github.com/openclaw/openclaw/pull/89569",
         "state": "open",
-        "author": "ObliviateRickLin",
-        "updatedAt": "2026-07-12T14:29:21Z"
+        "author": "Hyroshima",
+        "updatedAt": "2026-07-12T16:09:00Z"
       },
       {
         "kind": "pr",
-        "number": 105448,
-        "title": "fix: OpenRouter OAuth denial redirects show provider errors",
-        "url": "https://github.com/openclaw/openclaw/pull/105448",
+        "number": 104027,
+        "title": "build(deps): bump the actions group across 1 directory with 14 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/104027",
         "state": "open",
-        "author": "VectorPeak",
-        "updatedAt": "2026-07-12T14:28:41Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-07-12T16:08:16Z"
       },
       {
         "kind": "pr",
-        "number": 105460,
-        "title": "fix(agents): reject invalid bundled LSP framing",
-        "url": "https://github.com/openclaw/openclaw/pull/105460",
+        "number": 105507,
+        "title": "fix(openai): allow omitted image model catalog",
+        "url": "https://github.com/openclaw/openclaw/pull/105507",
         "state": "open",
-        "author": "mushuiyu886",
-        "updatedAt": "2026-07-12T14:28:34Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-12T16:07:41Z"
       }
     ]
   }

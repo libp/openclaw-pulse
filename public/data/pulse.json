@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-12T18:10:12.969Z",
+  "generatedAt": "2026-07-12T19:29:34.238Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -26,11 +26,11 @@
     },
     {
       "capturedOn": "2026-07-12",
-      "capturedAt": "2026-07-12T18:10:12.969Z",
-      "issueOpen": 3644,
-      "issueClosed": 39272,
-      "prOpen": 2828,
-      "prClosed": 57496,
+      "capturedAt": "2026-07-12T19:29:34.238Z",
+      "issueOpen": 3651,
+      "issueClosed": 39279,
+      "prOpen": 2800,
+      "prClosed": 57562,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -40,113 +40,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 105582,
-        "title": "Control UI Workboard silently loses edits made while card save is pending",
-        "url": "https://github.com/openclaw/openclaw/issues/105582",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-12T18:09:47Z"
-      },
-      {
-        "kind": "issue",
-        "number": 102020,
-        "title": "[Bug]: Second message in a session fails with \"reply session initialization conflicted\" (cross-channel, position-dependent)",
-        "url": "https://github.com/openclaw/openclaw/issues/102020",
-        "state": "open",
-        "author": "musubi1893",
-        "updatedAt": "2026-07-12T18:09:18Z"
-      },
-      {
-        "kind": "issue",
-        "number": 105581,
-        "title": "[Bug]: sessions_search rescans complete transcript history per query",
-        "url": "https://github.com/openclaw/openclaw/issues/105581",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-12T18:08:47Z"
-      },
-      {
-        "kind": "issue",
-        "number": 105588,
-        "title": "feat: add exact-turn capability projection reports",
-        "url": "https://github.com/openclaw/openclaw/issues/105588",
-        "state": "open",
-        "author": "Lestat569769",
-        "updatedAt": "2026-07-12T18:07:56Z"
-      },
-      {
-        "kind": "issue",
-        "number": 8190,
-        "title": "Feature: Global session reset on auth switch",
-        "url": "https://github.com/openclaw/openclaw/issues/8190",
-        "state": "open",
-        "author": "lancejames221b",
-        "updatedAt": "2026-07-12T18:06:52Z"
-      },
-      {
-        "kind": "issue",
-        "number": 105586,
-        "title": "[Bug]: Stuck-session recovery loops `keep_lane reason=active_reply_work` forever on busy channels — `isActiveRunProgressStale` ignores the terminal progress reasons the detector itself flags (`terminalProgressStale=true`)",
-        "url": "https://github.com/openclaw/openclaw/issues/105586",
-        "state": "open",
-        "author": "jordanhubbard",
-        "updatedAt": "2026-07-12T18:06:11Z"
+        "number": 105511,
+        "title": "[Bug]: LINE confirm/buttons directives with a blank required field produce an invalid template (HTTP 400, message dropped)",
+        "url": "https://github.com/openclaw/openclaw/issues/105511",
+        "state": "closed",
+        "author": "edenfunf",
+        "updatedAt": "2026-07-12T19:25:53Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 105520,
-        "title": "fix(line): skip confirm/buttons templates with blank required fields",
-        "url": "https://github.com/openclaw/openclaw/pull/105520",
+        "number": 105616,
+        "title": "feat(ios): add private HealthKit summaries",
+        "url": "https://github.com/openclaw/openclaw/pull/105616",
         "state": "open",
-        "author": "edenfunf",
-        "updatedAt": "2026-07-12T18:09:38Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-12T19:29:24Z"
       },
       {
         "kind": "pr",
-        "number": 105479,
-        "title": "fix(clawhub): ignore malformed retry-after headers",
-        "url": "https://github.com/openclaw/openclaw/pull/105479",
+        "number": 92011,
+        "title": "fix(agents): prevent recursive task execution during model fallback",
+        "url": "https://github.com/openclaw/openclaw/pull/92011",
         "state": "open",
-        "author": "qingminlong",
-        "updatedAt": "2026-07-12T18:09:38Z"
+        "author": "MertBasar0",
+        "updatedAt": "2026-07-12T19:29:26Z"
       },
       {
         "kind": "pr",
-        "number": 105475,
-        "title": "fix(matrix): preserve UTF-8 bootstrap output tails",
-        "url": "https://github.com/openclaw/openclaw/pull/105475",
+        "number": 105640,
+        "title": "fix(media-core): untrust audio/video MIME over generic ZIP sniff",
+        "url": "https://github.com/openclaw/openclaw/pull/105640",
         "state": "open",
-        "author": "qingminlong",
-        "updatedAt": "2026-07-12T18:09:38Z"
+        "author": "wuqxuan",
+        "updatedAt": "2026-07-12T19:29:09Z"
       },
       {
         "kind": "pr",
-        "number": 105258,
-        "title": "fix(retry): avoid status code substring matches",
-        "url": "https://github.com/openclaw/openclaw/pull/105258",
+        "number": 103534,
+        "title": "fix(gateway): enforce plugin-ownership check in sessions.patch",
+        "url": "https://github.com/openclaw/openclaw/pull/103534",
         "state": "open",
-        "author": "destire-mio",
-        "updatedAt": "2026-07-12T18:09:38Z"
+        "author": "cxbAsDev",
+        "updatedAt": "2026-07-12T19:29:02Z"
       },
       {
         "kind": "pr",
-        "number": 95956,
-        "title": "Preview session workspace images and unsupported files",
-        "url": "https://github.com/openclaw/openclaw/pull/95956",
+        "number": 105635,
+        "title": "feat(ui): search session transcripts",
+        "url": "https://github.com/openclaw/openclaw/pull/105635",
         "state": "open",
-        "author": "Solvely-Colin",
-        "updatedAt": "2026-07-12T18:09:27Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-12T19:28:57Z"
       },
       {
         "kind": "pr",
-        "number": 102082,
-        "title": "fix(slack): suppress progress chrome sends",
-        "url": "https://github.com/openclaw/openclaw/pull/102082",
+        "number": 105298,
+        "title": "Tidy implementation detail in openclaw (#105266)",
+        "url": "https://github.com/openclaw/openclaw/pull/105298",
         "state": "open",
-        "author": "CG-Intelligence-Agent-Jack",
-        "updatedAt": "2026-07-12T18:09:06Z"
+        "author": "bglglzd",
+        "updatedAt": "2026-07-12T19:28:55Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-12T16:10:11.931Z",
+  "generatedAt": "2026-07-12T17:15:55.719Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -26,11 +26,11 @@
     },
     {
       "capturedOn": "2026-07-12",
-      "capturedAt": "2026-07-12T16:10:11.931Z",
-      "issueOpen": 3636,
-      "issueClosed": 39260,
+      "capturedAt": "2026-07-12T17:15:55.719Z",
+      "issueOpen": 3645,
+      "issueClosed": 39263,
       "prOpen": 2819,
-      "prClosed": 57447,
+      "prClosed": 57472,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -40,113 +40,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 105168,
-        "title": "[Feature]: Persistent identity architecture — a living case study from an AI agent",
-        "url": "https://github.com/openclaw/openclaw/issues/105168",
+        "number": 105445,
+        "title": "[Bug]: gpt-5.6-luna is listed but OpenAI Codex Responses returns 404",
+        "url": "https://github.com/openclaw/openclaw/issues/105445",
         "state": "open",
-        "author": "lufia-bodkin",
-        "updatedAt": "2026-07-12T16:06:13Z"
+        "author": "laurenceputra",
+        "updatedAt": "2026-07-12T17:15:33Z"
       },
       {
         "kind": "issue",
-        "number": 104165,
-        "title": "[Bug]: Weather Tool (china-weather/weather) Not Found in Catalog",
-        "url": "https://github.com/openclaw/openclaw/issues/104165",
+        "number": 105438,
+        "title": "[Bug] Incomplete CSS transform scale regex validation in isStyleHidden",
+        "url": "https://github.com/openclaw/openclaw/issues/105438",
         "state": "open",
-        "author": "yidp",
-        "updatedAt": "2026-07-12T16:06:04Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-12T17:14:16Z"
       },
       {
         "kind": "issue",
-        "number": 104141,
-        "title": "Docs feedback: /start/wizard",
-        "url": "https://github.com/openclaw/openclaw/issues/104141",
+        "number": 105437,
+        "title": "[Bug] Regex compilation overhead in isStyleHidden during HTML parsing",
+        "url": "https://github.com/openclaw/openclaw/issues/105437",
         "state": "open",
-        "author": "ahror022693-dot",
-        "updatedAt": "2026-07-12T16:05:55Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-12T17:14:15Z"
       },
       {
         "kind": "issue",
-        "number": 104102,
-        "title": "penipu",
-        "url": "https://github.com/openclaw/openclaw/issues/104102",
+        "number": 105430,
+        "title": "[Bug] TOCTOU race condition in cross-device move fallback unlinking",
+        "url": "https://github.com/openclaw/openclaw/issues/105430",
         "state": "open",
-        "author": "norawitthiticharoenrak278-ctrl",
-        "updatedAt": "2026-07-12T16:05:46Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-12T17:14:15Z"
       },
       {
         "kind": "issue",
-        "number": 104101,
-        "title": "Docs feedback: /id/maturity/taxonomy",
-        "url": "https://github.com/openclaw/openclaw/issues/104101",
+        "number": 105440,
+        "title": "[Bug] Inconsistent extension trust logic in detectMimeImpl",
+        "url": "https://github.com/openclaw/openclaw/issues/105440",
         "state": "open",
-        "author": "norawitthiticharoenrak278-ctrl",
-        "updatedAt": "2026-07-12T16:05:38Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-12T17:14:13Z"
       },
       {
         "kind": "issue",
-        "number": 105338,
-        "title": "Anthropic requests hardcode thinking.type=\"enabled\", causing 400+retry on every claude-sonnet-5 call",
-        "url": "https://github.com/openclaw/openclaw/issues/105338",
+        "number": 105441,
+        "title": "[Bug] Silently skipped line after active memory prefix block in stripActiveMemoryPromptPrefixBlocks",
+        "url": "https://github.com/openclaw/openclaw/issues/105441",
         "state": "open",
-        "author": "mputiyon1985",
-        "updatedAt": "2026-07-12T16:05:15Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-12T17:14:12Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 105510,
-        "title": "refactor(infra): remove JSONL socket testing alias",
-        "url": "https://github.com/openclaw/openclaw/pull/105510",
+        "number": 101598,
+        "title": "fix(microsoft-foundry): handle stdout/stderr stream errors in az login",
+        "url": "https://github.com/openclaw/openclaw/pull/101598",
+        "state": "open",
+        "author": "Alix-007",
+        "updatedAt": "2026-07-12T17:15:50Z"
+      },
+      {
+        "kind": "pr",
+        "number": 105546,
+        "title": "refactor(outbound): internalize audit helpers",
+        "url": "https://github.com/openclaw/openclaw/pull/105546",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-07-12T16:09:54Z"
+        "updatedAt": "2026-07-12T17:15:53Z"
       },
       {
         "kind": "pr",
-        "number": 105372,
-        "title": "fix(ios): localize native app and watch surfaces",
-        "url": "https://github.com/openclaw/openclaw/pull/105372",
+        "number": 105547,
+        "title": "fix(media): preserve remote filename prefixes with encoded separators",
+        "url": "https://github.com/openclaw/openclaw/pull/105547",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-07-12T16:09:54Z"
+        "author": "qingminlong",
+        "updatedAt": "2026-07-12T17:15:46Z"
       },
       {
         "kind": "pr",
-        "number": 102082,
-        "title": "fix(slack): suppress progress chrome sends",
-        "url": "https://github.com/openclaw/openclaw/pull/102082",
-        "state": "open",
-        "author": "CG-Intelligence-Agent-Jack",
-        "updatedAt": "2026-07-12T16:09:53Z"
-      },
-      {
-        "kind": "pr",
-        "number": 89569,
-        "title": "feat(channels): add pre-auth access requests and grouped DM allowlists",
-        "url": "https://github.com/openclaw/openclaw/pull/89569",
-        "state": "open",
-        "author": "Hyroshima",
-        "updatedAt": "2026-07-12T16:09:00Z"
-      },
-      {
-        "kind": "pr",
-        "number": 104027,
-        "title": "build(deps): bump the actions group across 1 directory with 14 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/104027",
-        "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-07-12T16:08:16Z"
-      },
-      {
-        "kind": "pr",
-        "number": 105507,
-        "title": "fix(openai): allow omitted image model catalog",
-        "url": "https://github.com/openclaw/openclaw/pull/105507",
+        "number": 105545,
+        "title": "ci(release): parallelize runtime parity tiers",
+        "url": "https://github.com/openclaw/openclaw/pull/105545",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-12T16:07:41Z"
+        "updatedAt": "2026-07-12T17:15:42Z"
+      },
+      {
+        "kind": "pr",
+        "number": 105401,
+        "title": "fix(qa): align mock catalog with selected models",
+        "url": "https://github.com/openclaw/openclaw/pull/105401",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-07-12T17:15:13Z"
+      },
+      {
+        "kind": "pr",
+        "number": 104690,
+        "title": "fix(msteams): reset sessions on app removal lifecycle",
+        "url": "https://github.com/openclaw/openclaw/pull/104690",
+        "state": "open",
+        "author": "jimmypuckett",
+        "updatedAt": "2026-07-12T17:15:06Z"
       }
     ]
   }

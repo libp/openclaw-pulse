@@ -1,0 +1,43 @@
+{
+  "repository": "openclaw/openclaw",
+  "generatedAt": "2026-07-12T00:00:00.000Z",
+  "snapshots": [
+    {
+      "capturedOn": "2026-03-01",
+      "capturedAt": "2026-03-01T00:00:00.000Z",
+      "issueOpen": 6480,
+      "issueClosed": 10686,
+      "prOpen": 5493,
+      "prClosed": 17907,
+      "workflowRuns": 521903,
+      "source": "manual-post",
+      "approximateDate": true
+    },
+    {
+      "capturedOn": "2026-06-14",
+      "capturedAt": "2026-06-14T00:00:00.000Z",
+      "issueOpen": 3934,
+      "issueClosed": 35875,
+      "prOpen": 3611,
+      "prClosed": 47253,
+      "workflowRuns": null,
+      "source": "manual-post",
+      "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-07-12",
+      "capturedAt": "2026-07-12T00:00:00.000Z",
+      "issueOpen": 3578,
+      "issueClosed": 39154,
+      "prOpen": 2777,
+      "prClosed": 57051,
+      "workflowRuns": null,
+      "source": "manual-post",
+      "approximateDate": false
+    }
+  ],
+  "activity": {
+    "issues": [],
+    "prs": []
+  }
+}

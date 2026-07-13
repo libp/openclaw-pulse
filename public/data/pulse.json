@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-13T11:28:10.347Z",
+  "generatedAt": "2026-07-13T15:10:13.476Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -37,72 +37,91 @@
     },
     {
       "capturedOn": "2026-07-13",
-      "capturedAt": "2026-07-13T11:28:10.347Z",
-      "issueOpen": 3704,
-      "issueClosed": 39438,
-      "prOpen": 2726,
-      "prClosed": 58050,
+      "capturedAt": "2026-07-13T15:10:13.476Z",
+      "issueOpen": 3699,
+      "issueClosed": 39476,
+      "prOpen": 2735,
+      "prClosed": 58143,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 106466,
+        "title": "refactor: replace remaining generic worker pools with p-map",
+        "url": "https://github.com/openclaw/openclaw/issues/106466",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-13T15:09:58Z"
+      },
+      {
+        "kind": "issue",
+        "number": 106445,
+        "title": "Maintainer application: requesting contribution triage/maintenance path",
+        "url": "https://github.com/openclaw/openclaw/issues/106445",
+        "state": "open",
+        "author": "arturict",
+        "updatedAt": "2026-07-13T15:09:23Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 106342,
-        "title": "fix(channels): prevent progress draft flashes when narration clears",
-        "url": "https://github.com/openclaw/openclaw/pull/106342",
-        "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-07-13T11:28:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 106287,
-        "title": "fix(ios): persist chat thinking selections",
-        "url": "https://github.com/openclaw/openclaw/pull/106287",
+        "number": 106355,
+        "title": "feat(apps): add native mobile Automations parity",
+        "url": "https://github.com/openclaw/openclaw/pull/106355",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-13T11:28:00Z"
+        "updatedAt": "2026-07-13T15:09:56Z"
       },
       {
         "kind": "pr",
-        "number": 100971,
-        "title": "add whatsapp outbound token diagnostics",
-        "url": "https://github.com/openclaw/openclaw/pull/100971",
+        "number": 106429,
+        "title": "fix(cli-backends): surface config-defined custom CLI backends in runtime model bindings (fixes #106373)",
+        "url": "https://github.com/openclaw/openclaw/pull/106429",
         "state": "open",
-        "author": "andersonjeccel",
-        "updatedAt": "2026-07-13T11:27:51Z"
+        "author": "dwc1997",
+        "updatedAt": "2026-07-13T15:09:59Z"
       },
       {
         "kind": "pr",
-        "number": 106338,
-        "title": "fix(model-catalog): keep profile-specific model rows distinct",
-        "url": "https://github.com/openclaw/openclaw/pull/106338",
+        "number": 106454,
+        "title": "fix(clawrouter): sanitize attribution headers to ByteString",
+        "url": "https://github.com/openclaw/openclaw/pull/106454",
         "state": "open",
-        "author": "zilokki-bot",
-        "updatedAt": "2026-07-13T11:27:48Z"
+        "author": "ZOOWH",
+        "updatedAt": "2026-07-13T15:09:47Z"
       },
       {
         "kind": "pr",
-        "number": 106341,
-        "title": "fix(ci): restore Control UI agent selection tests",
-        "url": "https://github.com/openclaw/openclaw/pull/106341",
+        "number": 106453,
+        "title": "fix(copilot): clean up polling abort listeners",
+        "url": "https://github.com/openclaw/openclaw/pull/106453",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-07-13T11:27:38Z"
+        "author": "ZOOWH",
+        "updatedAt": "2026-07-13T15:09:46Z"
       },
       {
         "kind": "pr",
-        "number": 106036,
-        "title": "fix(discord): bound stalled probe response reads",
-        "url": "https://github.com/openclaw/openclaw/pull/106036",
+        "number": 106206,
+        "title": "fix(agents): provide actionable recovery guidance on context overflow",
+        "url": "https://github.com/openclaw/openclaw/pull/106206",
         "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-07-13T11:27:31Z"
+        "author": "ditingdapeng",
+        "updatedAt": "2026-07-13T15:09:42Z"
+      },
+      {
+        "kind": "pr",
+        "number": 103304,
+        "title": "docs: add ClawHub glossary labels",
+        "url": "https://github.com/openclaw/openclaw/pull/103304",
+        "state": "open",
+        "author": "soldforaloss",
+        "updatedAt": "2026-07-13T15:09:41Z"
       }
     ]
   }

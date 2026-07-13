@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-13T15:10:13.476Z",
+  "generatedAt": "2026-07-13T17:22:20.302Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -37,11 +37,11 @@
     },
     {
       "capturedOn": "2026-07-13",
-      "capturedAt": "2026-07-13T15:10:13.476Z",
-      "issueOpen": 3699,
-      "issueClosed": 39476,
-      "prOpen": 2735,
-      "prClosed": 58143,
+      "capturedAt": "2026-07-13T17:22:20.302Z",
+      "issueOpen": 3760,
+      "issueClosed": 39491,
+      "prOpen": 2753,
+      "prClosed": 58202,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -51,24 +51,69 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 106466,
-        "title": "refactor: replace remaining generic worker pools with p-map",
-        "url": "https://github.com/openclaw/openclaw/issues/106466",
+        "number": 106483,
+        "title": "[Bug]: Steered group-turn replies are dropped at delivery; only the newest turn's reply reaches the channel",
+        "url": "https://github.com/openclaw/openclaw/issues/106483",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-13T15:09:58Z"
+        "author": "Jimmy-j-tcg",
+        "updatedAt": "2026-07-13T17:21:04Z"
       },
       {
         "kind": "issue",
-        "number": 106445,
-        "title": "Maintainer application: requesting contribution triage/maintenance path",
-        "url": "https://github.com/openclaw/openclaw/issues/106445",
+        "number": 106631,
+        "title": "[Bug]: /reset cancel/close timeout leaves stale ACP runtime handle — subsequent messages reuse poisoned session",
+        "url": "https://github.com/openclaw/openclaw/issues/106631",
         "state": "open",
-        "author": "arturict",
-        "updatedAt": "2026-07-13T15:09:23Z"
+        "author": "Enominera",
+        "updatedAt": "2026-07-13T17:19:54Z"
+      },
+      {
+        "kind": "issue",
+        "number": 106630,
+        "title": "[Feature]: Opt-in allowlist (hydrateEnv/passEnv) for which env vars reach spawned child processes (exec + app-server)",
+        "url": "https://github.com/openclaw/openclaw/issues/106630",
+        "state": "open",
+        "author": "2vanm",
+        "updatedAt": "2026-07-13T17:19:38Z"
+      },
+      {
+        "kind": "issue",
+        "number": 106504,
+        "title": "[UX] Per-agent model override not surfaced in 'openclaw models' output or settings UI",
+        "url": "https://github.com/openclaw/openclaw/issues/106504",
+        "state": "open",
+        "author": "SPRIC76",
+        "updatedAt": "2026-07-13T17:19:12Z"
       }
     ],
     "prs": [
+      {
+        "kind": "pr",
+        "number": 106525,
+        "title": "fix(gateway): hot-reload worktrees.cleanup config instead of restarting the gateway",
+        "url": "https://github.com/openclaw/openclaw/pull/106525",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-07-13T17:22:09Z"
+      },
+      {
+        "kind": "pr",
+        "number": 106552,
+        "title": "refactor(agents): split embedded runner orchestration",
+        "url": "https://github.com/openclaw/openclaw/pull/106552",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-13T17:22:07Z"
+      },
+      {
+        "kind": "pr",
+        "number": 103413,
+        "title": "fix(discord): inherit default_auto_archive_duration in createThreadDiscord",
+        "url": "https://github.com/openclaw/openclaw/pull/103413",
+        "state": "open",
+        "author": "wings1029",
+        "updatedAt": "2026-07-13T17:22:04Z"
+      },
       {
         "kind": "pr",
         "number": 106355,
@@ -76,52 +121,25 @@
         "url": "https://github.com/openclaw/openclaw/pull/106355",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-13T15:09:56Z"
+        "updatedAt": "2026-07-13T17:22:00Z"
       },
       {
         "kind": "pr",
-        "number": 106429,
-        "title": "fix(cli-backends): surface config-defined custom CLI backends in runtime model bindings (fixes #106373)",
-        "url": "https://github.com/openclaw/openclaw/pull/106429",
+        "number": 106632,
+        "title": "fix(test): extension planner fails after repository inventory exceeds child buffer",
+        "url": "https://github.com/openclaw/openclaw/pull/106632",
         "state": "open",
-        "author": "dwc1997",
-        "updatedAt": "2026-07-13T15:09:59Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-13T17:21:58Z"
       },
       {
         "kind": "pr",
-        "number": 106454,
-        "title": "fix(clawrouter): sanitize attribution headers to ByteString",
-        "url": "https://github.com/openclaw/openclaw/pull/106454",
+        "number": 106297,
+        "title": "fix(agents): terminate agent run on critical loop detection instead of continuing indefinitely",
+        "url": "https://github.com/openclaw/openclaw/pull/106297",
         "state": "open",
-        "author": "ZOOWH",
-        "updatedAt": "2026-07-13T15:09:47Z"
-      },
-      {
-        "kind": "pr",
-        "number": 106453,
-        "title": "fix(copilot): clean up polling abort listeners",
-        "url": "https://github.com/openclaw/openclaw/pull/106453",
-        "state": "open",
-        "author": "ZOOWH",
-        "updatedAt": "2026-07-13T15:09:46Z"
-      },
-      {
-        "kind": "pr",
-        "number": 106206,
-        "title": "fix(agents): provide actionable recovery guidance on context overflow",
-        "url": "https://github.com/openclaw/openclaw/pull/106206",
-        "state": "open",
-        "author": "ditingdapeng",
-        "updatedAt": "2026-07-13T15:09:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 103304,
-        "title": "docs: add ClawHub glossary labels",
-        "url": "https://github.com/openclaw/openclaw/pull/103304",
-        "state": "open",
-        "author": "soldforaloss",
-        "updatedAt": "2026-07-13T15:09:41Z"
+        "author": "zw-xysk",
+        "updatedAt": "2026-07-13T17:21:58Z"
       }
     ]
   }

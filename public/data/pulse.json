@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-13T22:08:37.416Z",
+  "generatedAt": "2026-07-13T23:11:39.036Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -37,100 +37,72 @@
     },
     {
       "capturedOn": "2026-07-13",
-      "capturedAt": "2026-07-13T22:08:37.416Z",
+      "capturedAt": "2026-07-13T23:11:39.036Z",
       "issueOpen": 3813,
-      "issueClosed": 39546,
-      "prOpen": 2746,
-      "prClosed": 58316,
+      "issueClosed": 39555,
+      "prOpen": 2741,
+      "prClosed": 58348,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 106847,
-        "title": "Preserve JSONC comments during OC Path insertion",
-        "url": "https://github.com/openclaw/openclaw/issues/106847",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-13T22:08:08Z"
-      },
-      {
-        "kind": "issue",
-        "number": 106839,
-        "title": "Active-memory recall fails every turn with a billing rejection on subscription-only Claude CLI setups",
-        "url": "https://github.com/openclaw/openclaw/issues/106839",
-        "state": "open",
-        "author": "bill-starfoundry",
-        "updatedAt": "2026-07-13T22:05:43Z"
-      },
-      {
-        "kind": "issue",
-        "number": 11040,
-        "title": "Feature: First-class session/task chain tracking (parent/root/trace/depth)",
-        "url": "https://github.com/openclaw/openclaw/issues/11040",
-        "state": "open",
-        "author": "alfadb",
-        "updatedAt": "2026-07-13T22:05:22Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 102379,
-        "title": "fix(msteams): normalize inbound mentions and forwards",
-        "url": "https://github.com/openclaw/openclaw/pull/102379",
+        "number": 104085,
+        "title": "fix(dreaming): drop heartbeat assistant responses from dream corpus",
+        "url": "https://github.com/openclaw/openclaw/pull/104085",
         "state": "open",
-        "author": "galiniliev",
-        "updatedAt": "2026-07-13T22:08:26Z"
+        "author": "ekinnee",
+        "updatedAt": "2026-07-13T23:11:29Z"
       },
       {
         "kind": "pr",
-        "number": 106766,
-        "title": "feat(skills): scan session history for workshop ideas",
-        "url": "https://github.com/openclaw/openclaw/pull/106766",
+        "number": 106864,
+        "title": "fix(android): stop killing long chat runs with hardcoded timeouts (#106863)",
+        "url": "https://github.com/openclaw/openclaw/pull/106864",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-13T22:08:35Z"
+        "author": "LeC-D",
+        "updatedAt": "2026-07-13T23:11:28Z"
       },
       {
         "kind": "pr",
-        "number": 106633,
-        "title": "ci: scope PR Node tests to changed targets",
-        "url": "https://github.com/openclaw/openclaw/pull/106633",
+        "number": 105323,
+        "title": "fix(security): add estimate-before-decode guard to base64 paths",
+        "url": "https://github.com/openclaw/openclaw/pull/105323",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-13T22:08:22Z"
+        "author": "xydigit-zt",
+        "updatedAt": "2026-07-13T23:11:15Z"
       },
       {
         "kind": "pr",
-        "number": 106528,
-        "title": "fix(voice-call): reject malformed media base64",
-        "url": "https://github.com/openclaw/openclaw/pull/106528",
+        "number": 102362,
+        "title": "fix(exec): memoize duplicate auto-review verdicts",
+        "url": "https://github.com/openclaw/openclaw/pull/102362",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-07-13T22:08:19Z"
+        "author": "HOYALIM",
+        "updatedAt": "2026-07-13T23:11:15Z"
       },
       {
         "kind": "pr",
-        "number": 105870,
-        "title": "fix(agents): decouple MCP retirement from browser cleanup",
-        "url": "https://github.com/openclaw/openclaw/pull/105870",
+        "number": 106542,
+        "title": "fix(zalo): bound proxy fetcher cache to 64 entries",
+        "url": "https://github.com/openclaw/openclaw/pull/106542",
         "state": "open",
-        "author": "morluto",
-        "updatedAt": "2026-07-13T22:08:16Z"
+        "author": "Pick-cat",
+        "updatedAt": "2026-07-13T23:11:03Z"
       },
       {
         "kind": "pr",
         "number": 106846,
-        "title": "refactor(channels): migrate line, qqbot, and mattermost group policy onto the scope tree",
+        "title": "refactor(config): add canonical group-policy scope-tree resolver and migrate the first six channels",
         "url": "https://github.com/openclaw/openclaw/pull/106846",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-13T22:08:12Z"
+        "updatedAt": "2026-07-13T23:10:56Z"
       }
     ]
   }

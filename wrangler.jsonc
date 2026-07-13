@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "openclaw-pulse",
+  "main": "dist/server/index.js",
+  "compatibility_date": "2025-09-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "account_id": "a0473da660061fbc782f2848aaf7e9ad",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "openclaw-pulse-db",
+      "database_id": "b03bf819-03d7-4f3d-9f8d-6cbca03c44cc"
+    }
+  ]
+}

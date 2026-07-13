@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-13T00:09:40.660Z",
+  "generatedAt": "2026-07-13T03:58:04.675Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -37,72 +37,127 @@
     },
     {
       "capturedOn": "2026-07-13",
-      "capturedAt": "2026-07-13T00:09:40.660Z",
-      "issueOpen": 3688,
-      "issueClosed": 39311,
-      "prOpen": 2788,
-      "prClosed": 57640,
+      "capturedAt": "2026-07-13T03:58:04.675Z",
+      "issueOpen": 3712,
+      "issueClosed": 39344,
+      "prOpen": 2734,
+      "prClosed": 57848,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 11517,
+        "title": "Architecture: reduce import coupling in pi-embedded-runner/attempt.ts (50+ imports) and discord monitor (30 imports)",
+        "url": "https://github.com/openclaw/openclaw/issues/11517",
+        "state": "open",
+        "author": "Jdharris06",
+        "updatedAt": "2026-07-13T03:57:51Z"
+      },
+      {
+        "kind": "issue",
+        "number": 11492,
+        "title": "[Feature]: Allow agents to resolve Slack channel IDs to names via channel-info/channel-list",
+        "url": "https://github.com/openclaw/openclaw/issues/11492",
+        "state": "open",
+        "author": "Lukavyi",
+        "updatedAt": "2026-07-13T03:57:26Z"
+      },
+      {
+        "kind": "issue",
+        "number": 105873,
+        "title": "[Bug]: # Bug Report: Tool output becomes image after workboard operations (minimax + deepseek observed separately)",
+        "url": "https://github.com/openclaw/openclaw/issues/105873",
+        "state": "open",
+        "author": "zhangxi-china",
+        "updatedAt": "2026-07-13T03:57:23Z"
+      },
+      {
+        "kind": "issue",
+        "number": 11489,
+        "title": "[Feature Request] Group pairing flow: notify owner + read-only mode for unconfigured groups",
+        "url": "https://github.com/openclaw/openclaw/issues/11489",
+        "state": "open",
+        "author": "napetrov",
+        "updatedAt": "2026-07-13T03:56:59Z"
+      },
+      {
+        "kind": "issue",
+        "number": 11487,
+        "title": "Add optional `name`/`label` field to group config entries",
+        "url": "https://github.com/openclaw/openclaw/issues/11487",
+        "state": "open",
+        "author": "geilt",
+        "updatedAt": "2026-07-13T03:56:32Z"
+      },
+      {
+        "kind": "issue",
+        "number": 11460,
+        "title": "WhatsApp: Add support for querying message reactions",
+        "url": "https://github.com/openclaw/openclaw/issues/11460",
+        "state": "open",
+        "author": "ario",
+        "updatedAt": "2026-07-13T03:56:09Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 104027,
-        "title": "chore(deps): bump the actions group across 1 directory with 14 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/104027",
+        "number": 103294,
+        "title": "refactor(push-web): move web push store to shared SQLite state DB",
+        "url": "https://github.com/openclaw/openclaw/pull/103294",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-07-13T00:09:36Z"
+        "author": "xydt-tanshanshan",
+        "updatedAt": "2026-07-13T03:57:57Z"
       },
       {
         "kind": "pr",
-        "number": 105769,
-        "title": "fix(gateway): clamp MCP loopback body timeout",
-        "url": "https://github.com/openclaw/openclaw/pull/105769",
-        "state": "open",
-        "author": "mushuiyu886",
-        "updatedAt": "2026-07-13T00:09:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 105567,
-        "title": "fix: tighten toolSearch limit from Type.Number to Type.Integer",
-        "url": "https://github.com/openclaw/openclaw/pull/105567",
+        "number": 105846,
+        "title": "fix(gateway): add base64 validation before decode in talk-realtime-relay",
+        "url": "https://github.com/openclaw/openclaw/pull/105846",
         "state": "open",
         "author": "lzyyzznl",
-        "updatedAt": "2026-07-13T00:09:35Z"
+        "updatedAt": "2026-07-13T03:57:51Z"
       },
       {
         "kind": "pr",
-        "number": 105775,
-        "title": "fix(clickclack): deliver media and configurable model replies [AI-assisted]",
-        "url": "https://github.com/openclaw/openclaw/pull/105775",
+        "number": 105952,
+        "title": "ci(loc): exclude the i18n catalog and make baseline raises reviewable",
+        "url": "https://github.com/openclaw/openclaw/pull/105952",
         "state": "open",
-        "author": "jjjhenriksen",
-        "updatedAt": "2026-07-13T00:09:30Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-13T03:57:29Z"
       },
       {
         "kind": "pr",
-        "number": 105564,
-        "title": "fix: tighten readSchema.limit from Type.Number to Type.Integer",
-        "url": "https://github.com/openclaw/openclaw/pull/105564",
+        "number": 105880,
+        "title": "fix(zalouser): add timeouts to account and group info lookups",
+        "url": "https://github.com/openclaw/openclaw/pull/105880",
         "state": "open",
-        "author": "lzyyzznl",
-        "updatedAt": "2026-07-13T00:09:25Z"
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-07-13T03:57:26Z"
       },
       {
         "kind": "pr",
-        "number": 105560,
-        "title": "fix: tighten processSchema offset/limit from Type.Number to Type.Integer",
-        "url": "https://github.com/openclaw/openclaw/pull/105560",
+        "number": 105796,
+        "title": "perf(agents): reuse prepared plugin metadata for middleware",
+        "url": "https://github.com/openclaw/openclaw/pull/105796",
         "state": "open",
-        "author": "lzyyzznl",
-        "updatedAt": "2026-07-13T00:09:25Z"
+        "author": "morluto",
+        "updatedAt": "2026-07-13T03:57:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 105955,
+        "title": "refactor(ui): localize lobster pet internals",
+        "url": "https://github.com/openclaw/openclaw/pull/105955",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-13T03:57:15Z"
       }
     ]
   }

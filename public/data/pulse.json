@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-13T03:58:04.675Z",
+  "generatedAt": "2026-07-13T07:35:55.276Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -37,11 +37,11 @@
     },
     {
       "capturedOn": "2026-07-13",
-      "capturedAt": "2026-07-13T03:58:04.675Z",
-      "issueOpen": 3712,
-      "issueClosed": 39344,
-      "prOpen": 2734,
-      "prClosed": 57848,
+      "capturedAt": "2026-07-13T07:35:55.276Z",
+      "issueOpen": 3701,
+      "issueClosed": 39393,
+      "prOpen": 2746,
+      "prClosed": 57965,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -51,113 +51,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 11517,
-        "title": "Architecture: reduce import coupling in pi-embedded-runner/attempt.ts (50+ imports) and discord monitor (30 imports)",
-        "url": "https://github.com/openclaw/openclaw/issues/11517",
-        "state": "open",
-        "author": "Jdharris06",
-        "updatedAt": "2026-07-13T03:57:51Z"
+        "number": 106118,
+        "title": "iOS: guide first launch through pairing explainer and permissions; redesign permission rows",
+        "url": "https://github.com/openclaw/openclaw/issues/106118",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-07-13T07:35:34Z"
       },
       {
         "kind": "issue",
-        "number": 11492,
-        "title": "[Feature]: Allow agents to resolve Slack channel IDs to names via channel-info/channel-list",
-        "url": "https://github.com/openclaw/openclaw/issues/11492",
+        "number": 97335,
+        "title": "Cron fallback model works in normal session but LLM request fails when triggered via cron",
+        "url": "https://github.com/openclaw/openclaw/issues/97335",
         "state": "open",
-        "author": "Lukavyi",
-        "updatedAt": "2026-07-13T03:57:26Z"
+        "author": "Suidge",
+        "updatedAt": "2026-07-13T07:35:32Z"
       },
       {
         "kind": "issue",
-        "number": 105873,
-        "title": "[Bug]: # Bug Report: Tool output becomes image after workboard operations (minimax + deepseek observed separately)",
-        "url": "https://github.com/openclaw/openclaw/issues/105873",
-        "state": "open",
-        "author": "zhangxi-china",
-        "updatedAt": "2026-07-13T03:57:23Z"
+        "number": 105998,
+        "title": "Remove stale internal deprecated compatibility from src",
+        "url": "https://github.com/openclaw/openclaw/issues/105998",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-07-13T07:35:10Z"
       },
       {
         "kind": "issue",
-        "number": 11489,
-        "title": "[Feature Request] Group pairing flow: notify owner + read-only mode for unconfigured groups",
-        "url": "https://github.com/openclaw/openclaw/issues/11489",
-        "state": "open",
-        "author": "napetrov",
-        "updatedAt": "2026-07-13T03:56:59Z"
+        "number": 105960,
+        "title": "[Feature]: Generate Android gateway protocol from canonical schemas",
+        "url": "https://github.com/openclaw/openclaw/issues/105960",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-07-13T07:34:59Z"
       },
       {
         "kind": "issue",
-        "number": 11487,
-        "title": "Add optional `name`/`label` field to group config entries",
-        "url": "https://github.com/openclaw/openclaw/issues/11487",
+        "number": 74378,
+        "title": "[Bug]: OpenClaw CLI commands remain alive as node.exe processes after execution on Windows",
+        "url": "https://github.com/openclaw/openclaw/issues/74378",
         "state": "open",
-        "author": "geilt",
-        "updatedAt": "2026-07-13T03:56:32Z"
-      },
-      {
-        "kind": "issue",
-        "number": 11460,
-        "title": "WhatsApp: Add support for querying message reactions",
-        "url": "https://github.com/openclaw/openclaw/issues/11460",
-        "state": "open",
-        "author": "ario",
-        "updatedAt": "2026-07-13T03:56:09Z"
+        "author": "2ndNuts",
+        "updatedAt": "2026-07-13T07:34:59Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 103294,
-        "title": "refactor(push-web): move web push store to shared SQLite state DB",
-        "url": "https://github.com/openclaw/openclaw/pull/103294",
-        "state": "open",
-        "author": "xydt-tanshanshan",
-        "updatedAt": "2026-07-13T03:57:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 105846,
-        "title": "fix(gateway): add base64 validation before decode in talk-realtime-relay",
-        "url": "https://github.com/openclaw/openclaw/pull/105846",
-        "state": "open",
-        "author": "lzyyzznl",
-        "updatedAt": "2026-07-13T03:57:51Z"
-      },
-      {
-        "kind": "pr",
-        "number": 105952,
-        "title": "ci(loc): exclude the i18n catalog and make baseline raises reviewable",
-        "url": "https://github.com/openclaw/openclaw/pull/105952",
+        "number": 106111,
+        "title": "improve(ios): make gateway QR pairing prominent in Settings",
+        "url": "https://github.com/openclaw/openclaw/pull/106111",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-13T03:57:29Z"
+        "updatedAt": "2026-07-13T07:35:48Z"
       },
       {
         "kind": "pr",
-        "number": 105880,
-        "title": "fix(zalouser): add timeouts to account and group info lookups",
-        "url": "https://github.com/openclaw/openclaw/pull/105880",
-        "state": "open",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-07-13T03:57:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 105796,
-        "title": "perf(agents): reuse prepared plugin metadata for middleware",
-        "url": "https://github.com/openclaw/openclaw/pull/105796",
-        "state": "open",
-        "author": "morluto",
-        "updatedAt": "2026-07-13T03:57:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 105955,
-        "title": "refactor(ui): localize lobster pet internals",
-        "url": "https://github.com/openclaw/openclaw/pull/105955",
+        "number": 106049,
+        "title": "refactor: canonicalize binary operation results",
+        "url": "https://github.com/openclaw/openclaw/pull/106049",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-13T03:57:15Z"
+        "updatedAt": "2026-07-13T07:35:39Z"
+      },
+      {
+        "kind": "pr",
+        "number": 101448,
+        "title": "fix(doctor): bound AGENTS.md and root-memory file reads",
+        "url": "https://github.com/openclaw/openclaw/pull/101448",
+        "state": "open",
+        "author": "cxbAsDev",
+        "updatedAt": "2026-07-13T07:35:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 106129,
+        "title": "feat(ios): guide first launch through pairing explainer and permissions",
+        "url": "https://github.com/openclaw/openclaw/pull/106129",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-07-13T07:35:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 105987,
+        "title": "refactor: consolidate reconnect supervisors",
+        "url": "https://github.com/openclaw/openclaw/pull/105987",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-13T07:35:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 105882,
+        "title": "test: speed timing-sensitive UI and process suites",
+        "url": "https://github.com/openclaw/openclaw/pull/105882",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-07-13T07:35:25Z"
       }
     ]
   }

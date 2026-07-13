@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-12T23:08:27.915Z",
+  "generatedAt": "2026-07-13T00:09:40.660Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -34,101 +34,75 @@
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-07-13",
+      "capturedAt": "2026-07-13T00:09:40.660Z",
+      "issueOpen": 3688,
+      "issueClosed": 39311,
+      "prOpen": 2788,
+      "prClosed": 57640,
+      "workflowRuns": 40000,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 105730,
-        "title": "macOS app has no dead-code (Periphery) CI lane; 12 dead symbols in apps/macos today",
-        "url": "https://github.com/openclaw/openclaw/issues/105730",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-12T23:07:48Z"
-      },
-      {
-        "kind": "issue",
-        "number": 102400,
-        "title": "Reply-session init conflict is silently dropped on Slack/webchat/heartbeat inbound, though Telegram already treats it as retryable",
-        "url": "https://github.com/openclaw/openclaw/issues/102400",
-        "state": "open",
-        "author": "rodja",
-        "updatedAt": "2026-07-12T23:05:38Z"
-      },
-      {
-        "kind": "issue",
-        "number": 105729,
-        "title": "[Bug]: OpenAI-compatible proxy transport clamps max_completion_tokens to 1 after context precheck",
-        "url": "https://github.com/openclaw/openclaw/issues/105729",
-        "state": "open",
-        "author": "glebsergeevich",
-        "updatedAt": "2026-07-12T23:03:17Z"
-      },
-      {
-        "kind": "issue",
-        "number": 7406,
-        "title": "[Feature]: Human-readable Telegram topic names in session dropdown",
-        "url": "https://github.com/openclaw/openclaw/issues/7406",
-        "state": "open",
-        "author": "Diaspar4u",
-        "updatedAt": "2026-07-12T23:02:26Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 105728,
-        "title": "fix(ui): preserve MCP App previews across reloads",
-        "url": "https://github.com/openclaw/openclaw/pull/105728",
+        "number": 104027,
+        "title": "chore(deps): bump the actions group across 1 directory with 14 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/104027",
         "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-07-12T23:08:21Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-07-13T00:09:36Z"
       },
       {
         "kind": "pr",
-        "number": 105720,
-        "title": "refactor(ai): trim private Responses exports",
-        "url": "https://github.com/openclaw/openclaw/pull/105720",
+        "number": 105769,
+        "title": "fix(gateway): clamp MCP loopback body timeout",
+        "url": "https://github.com/openclaw/openclaw/pull/105769",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-07-12T23:07:08Z"
+        "author": "mushuiyu886",
+        "updatedAt": "2026-07-13T00:09:38Z"
       },
       {
         "kind": "pr",
-        "number": 104912,
-        "title": "fix: Control UI avatar initial breaks on emoji display names",
-        "url": "https://github.com/openclaw/openclaw/pull/104912",
+        "number": 105567,
+        "title": "fix: tighten toolSearch limit from Type.Number to Type.Integer",
+        "url": "https://github.com/openclaw/openclaw/pull/105567",
         "state": "open",
-        "author": "xydigit-zt",
-        "updatedAt": "2026-07-12T23:07:08Z"
+        "author": "lzyyzznl",
+        "updatedAt": "2026-07-13T00:09:35Z"
       },
       {
         "kind": "pr",
-        "number": 104907,
-        "title": "fix: ClawHub search passes unbounded limit to the API",
-        "url": "https://github.com/openclaw/openclaw/pull/104907",
+        "number": 105775,
+        "title": "fix(clickclack): deliver media and configurable model replies [AI-assisted]",
+        "url": "https://github.com/openclaw/openclaw/pull/105775",
         "state": "open",
-        "author": "xydigit-zt",
-        "updatedAt": "2026-07-12T23:07:01Z"
+        "author": "jjjhenriksen",
+        "updatedAt": "2026-07-13T00:09:30Z"
       },
       {
         "kind": "pr",
-        "number": 101248,
-        "title": "feat(subagents): native announceTarget for subagent completion routing (#27445)",
-        "url": "https://github.com/openclaw/openclaw/pull/101248",
+        "number": 105564,
+        "title": "fix: tighten readSchema.limit from Type.Number to Type.Integer",
+        "url": "https://github.com/openclaw/openclaw/pull/105564",
         "state": "open",
-        "author": "nicknmorty",
-        "updatedAt": "2026-07-12T23:05:51Z"
+        "author": "lzyyzznl",
+        "updatedAt": "2026-07-13T00:09:25Z"
       },
       {
         "kind": "pr",
-        "number": 105576,
-        "title": "fix(whatsapp): honor mediaUrls precedence in channel payloads",
-        "url": "https://github.com/openclaw/openclaw/pull/105576",
+        "number": 105560,
+        "title": "fix: tighten processSchema offset/limit from Type.Number to Type.Integer",
+        "url": "https://github.com/openclaw/openclaw/pull/105560",
         "state": "open",
-        "author": "mcaxtr",
-        "updatedAt": "2026-07-12T23:05:35Z"
+        "author": "lzyyzznl",
+        "updatedAt": "2026-07-13T00:09:25Z"
       }
     ]
   }

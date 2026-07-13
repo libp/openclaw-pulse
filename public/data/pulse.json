@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-13T21:12:22.472Z",
+  "generatedAt": "2026-07-13T22:08:37.416Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -37,11 +37,11 @@
     },
     {
       "capturedOn": "2026-07-13",
-      "capturedAt": "2026-07-13T21:12:22.472Z",
-      "issueOpen": 3815,
-      "issueClosed": 39535,
-      "prOpen": 2761,
-      "prClosed": 58278,
+      "capturedAt": "2026-07-13T22:08:37.416Z",
+      "issueOpen": 3813,
+      "issueClosed": 39546,
+      "prOpen": 2746,
+      "prClosed": 58316,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -51,113 +51,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 106797,
-        "title": "[Bug]: Control UI shows owner-qualified ClawHub skill as Unavailable",
-        "url": "https://github.com/openclaw/openclaw/issues/106797",
+        "number": 106847,
+        "title": "Preserve JSONC comments during OC Path insertion",
+        "url": "https://github.com/openclaw/openclaw/issues/106847",
         "state": "open",
-        "author": "hannesrudolph",
-        "updatedAt": "2026-07-13T21:12:12Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-13T22:08:08Z"
       },
       {
         "kind": "issue",
-        "number": 98790,
-        "title": "Concurrent agent-to-agent turn forks session tree; post-compaction rebuild produces assistant-terminal request rejected by Anthropic (\"Cannot continue from message role: assistant\"); retry loop then poisons transcript permanently",
-        "url": "https://github.com/openclaw/openclaw/issues/98790",
+        "number": 106839,
+        "title": "Active-memory recall fails every turn with a billing rejection on subscription-only Claude CLI setups",
+        "url": "https://github.com/openclaw/openclaw/issues/106839",
         "state": "open",
-        "author": "Kaizen-Michael",
-        "updatedAt": "2026-07-13T21:11:58Z"
+        "author": "bill-starfoundry",
+        "updatedAt": "2026-07-13T22:05:43Z"
       },
       {
         "kind": "issue",
-        "number": 106765,
-        "title": "[Feature]: Control UI chat: restore access to native browser context menu (copy/search) on selected text",
-        "url": "https://github.com/openclaw/openclaw/issues/106765",
+        "number": 11040,
+        "title": "Feature: First-class session/task chain tracking (parent/root/trace/depth)",
+        "url": "https://github.com/openclaw/openclaw/issues/11040",
         "state": "open",
-        "author": "donald-g-beckett",
-        "updatedAt": "2026-07-13T21:11:43Z"
-      },
-      {
-        "kind": "issue",
-        "number": 106786,
-        "title": "[Bug]: gpt-5.6-* is advertised on the ChatGPT-OAuth route, then silently falls back when the provider rejects it",
-        "url": "https://github.com/openclaw/openclaw/issues/106786",
-        "state": "open",
-        "author": "YoungMoneyInvestments",
-        "updatedAt": "2026-07-13T21:11:34Z"
-      },
-      {
-        "kind": "issue",
-        "number": 106815,
-        "title": "Export stable public Gateway protocol TypeScript types for external integrations",
-        "url": "https://github.com/openclaw/openclaw/issues/106815",
-        "state": "open",
-        "author": "Huy3ko",
-        "updatedAt": "2026-07-13T21:10:35Z"
-      },
-      {
-        "kind": "issue",
-        "number": 106781,
-        "title": "[Bug]: Interrupted tool call leaves orphaned tool_use block → persistent Anthropic 400 on every subsequent run",
-        "url": "https://github.com/openclaw/openclaw/issues/106781",
-        "state": "open",
-        "author": "denorth",
-        "updatedAt": "2026-07-13T21:09:43Z"
+        "author": "alfadb",
+        "updatedAt": "2026-07-13T22:05:22Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 106792,
-        "title": "fix: recover message sessions after reply finalization stalls",
-        "url": "https://github.com/openclaw/openclaw/pull/106792",
+        "number": 102379,
+        "title": "fix(msteams): normalize inbound mentions and forwards",
+        "url": "https://github.com/openclaw/openclaw/pull/102379",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-07-13T21:12:17Z"
+        "author": "galiniliev",
+        "updatedAt": "2026-07-13T22:08:26Z"
       },
       {
         "kind": "pr",
-        "number": 106407,
-        "title": "fix(envelope): accept timestamp 0 in formatEnvelopeTimestamp",
-        "url": "https://github.com/openclaw/openclaw/pull/106407",
-        "state": "open",
-        "author": "zenglingbiao",
-        "updatedAt": "2026-07-13T21:12:10Z"
-      },
-      {
-        "kind": "pr",
-        "number": 106027,
-        "title": "fix(qa-lab): close transport before gateway teardown",
-        "url": "https://github.com/openclaw/openclaw/pull/106027",
-        "state": "open",
-        "author": "morluto",
-        "updatedAt": "2026-07-13T21:11:51Z"
-      },
-      {
-        "kind": "pr",
-        "number": 106788,
-        "title": "chore(i18n): refresh native locales",
-        "url": "https://github.com/openclaw/openclaw/pull/106788",
-        "state": "closed",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-07-13T21:11:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 106796,
-        "title": "fix(channels): warn when scalar streaming uses fallback",
-        "url": "https://github.com/openclaw/openclaw/pull/106796",
+        "number": 106766,
+        "title": "feat(skills): scan session history for workshop ideas",
+        "url": "https://github.com/openclaw/openclaw/pull/106766",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-13T21:11:13Z"
+        "updatedAt": "2026-07-13T22:08:35Z"
       },
       {
         "kind": "pr",
-        "number": 101265,
-        "title": "fix(secrets): keep startup alive when TTS SecretRefs are missing",
-        "url": "https://github.com/openclaw/openclaw/pull/101265",
+        "number": 106633,
+        "title": "ci: scope PR Node tests to changed targets",
+        "url": "https://github.com/openclaw/openclaw/pull/106633",
         "state": "open",
-        "author": "snowzlmbot",
-        "updatedAt": "2026-07-13T21:11:13Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-13T22:08:22Z"
+      },
+      {
+        "kind": "pr",
+        "number": 106528,
+        "title": "fix(voice-call): reject malformed media base64",
+        "url": "https://github.com/openclaw/openclaw/pull/106528",
+        "state": "open",
+        "author": "sunlit-deng",
+        "updatedAt": "2026-07-13T22:08:19Z"
+      },
+      {
+        "kind": "pr",
+        "number": 105870,
+        "title": "fix(agents): decouple MCP retirement from browser cleanup",
+        "url": "https://github.com/openclaw/openclaw/pull/105870",
+        "state": "open",
+        "author": "morluto",
+        "updatedAt": "2026-07-13T22:08:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 106846,
+        "title": "refactor(channels): migrate line, qqbot, and mattermost group policy onto the scope tree",
+        "url": "https://github.com/openclaw/openclaw/pull/106846",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-13T22:08:12Z"
       }
     ]
   }

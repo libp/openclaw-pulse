@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-13T17:22:20.302Z",
+  "generatedAt": "2026-07-13T19:47:28.717Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -37,11 +37,11 @@
     },
     {
       "capturedOn": "2026-07-13",
-      "capturedAt": "2026-07-13T17:22:20.302Z",
-      "issueOpen": 3760,
-      "issueClosed": 39491,
-      "prOpen": 2753,
-      "prClosed": 58202,
+      "capturedAt": "2026-07-13T19:47:28.717Z",
+      "issueOpen": 3817,
+      "issueClosed": 39515,
+      "prOpen": 2750,
+      "prClosed": 58256,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -51,95 +51,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 106483,
-        "title": "[Bug]: Steered group-turn replies are dropped at delivery; only the newest turn's reply reaches the channel",
-        "url": "https://github.com/openclaw/openclaw/issues/106483",
+        "number": 106645,
+        "title": "[Refactor] createTimeoutRace in server-close.ts calls resolve prematurely",
+        "url": "https://github.com/openclaw/openclaw/issues/106645",
         "state": "open",
-        "author": "Jimmy-j-tcg",
-        "updatedAt": "2026-07-13T17:21:04Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-13T19:47:17Z"
       },
       {
         "kind": "issue",
-        "number": 106631,
-        "title": "[Bug]: /reset cancel/close timeout leaves stale ACP runtime handle — subsequent messages reuse poisoned session",
-        "url": "https://github.com/openclaw/openclaw/issues/106631",
+        "number": 106646,
+        "title": "[Bug] Module-level cache with no invalidation path in config-presence.ts",
+        "url": "https://github.com/openclaw/openclaw/issues/106646",
         "state": "open",
-        "author": "Enominera",
-        "updatedAt": "2026-07-13T17:19:54Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-13T19:46:51Z"
       },
       {
         "kind": "issue",
-        "number": 106630,
-        "title": "[Feature]: Opt-in allowlist (hydrateEnv/passEnv) for which env vars reach spawned child processes (exec + app-server)",
-        "url": "https://github.com/openclaw/openclaw/issues/106630",
+        "number": 106653,
+        "title": "[Bug] Async race in host-hook-state.ts enqueue operations bypasses upper limit",
+        "url": "https://github.com/openclaw/openclaw/issues/106653",
         "state": "open",
-        "author": "2vanm",
-        "updatedAt": "2026-07-13T17:19:38Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-13T19:46:26Z"
       },
       {
         "kind": "issue",
-        "number": 106504,
-        "title": "[UX] Per-agent model override not surfaced in 'openclaw models' output or settings UI",
-        "url": "https://github.com/openclaw/openclaw/issues/106504",
+        "number": 106652,
+        "title": "[Bug] mergeAgentRunTerminalOutcome can discard user-visible success errors",
+        "url": "https://github.com/openclaw/openclaw/issues/106652",
         "state": "open",
-        "author": "SPRIC76",
-        "updatedAt": "2026-07-13T17:19:12Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-13T19:45:49Z"
+      },
+      {
+        "kind": "issue",
+        "number": 106651,
+        "title": "[Bug] activeRuns counter can desynchronize in run-state-machine.ts",
+        "url": "https://github.com/openclaw/openclaw/issues/106651",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-13T19:45:25Z"
+      },
+      {
+        "kind": "issue",
+        "number": 11665,
+        "title": "[Feature]: Webhook hook sessions should reuse existing session when sessionKey is consistent (multi-turn support)",
+        "url": "https://github.com/openclaw/openclaw/issues/11665",
+        "state": "open",
+        "author": "marieldejesus12",
+        "updatedAt": "2026-07-13T19:44:07Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 106525,
-        "title": "fix(gateway): hot-reload worktrees.cleanup config instead of restarting the gateway",
-        "url": "https://github.com/openclaw/openclaw/pull/106525",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-07-13T17:22:09Z"
-      },
-      {
-        "kind": "pr",
-        "number": 106552,
-        "title": "refactor(agents): split embedded runner orchestration",
-        "url": "https://github.com/openclaw/openclaw/pull/106552",
+        "number": 106758,
+        "title": "fix(migrate): import current Hermes state and provider contracts",
+        "url": "https://github.com/openclaw/openclaw/pull/106758",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-13T17:22:07Z"
+        "updatedAt": "2026-07-13T19:47:24Z"
       },
       {
         "kind": "pr",
-        "number": 103413,
-        "title": "fix(discord): inherit default_auto_archive_duration in createThreadDiscord",
-        "url": "https://github.com/openclaw/openclaw/pull/103413",
+        "number": 104692,
+        "title": "feat(msteams): support multiple bot accounts",
+        "url": "https://github.com/openclaw/openclaw/pull/104692",
         "state": "open",
-        "author": "wings1029",
-        "updatedAt": "2026-07-13T17:22:04Z"
+        "author": "jimmypuckett",
+        "updatedAt": "2026-07-13T19:47:02Z"
       },
       {
         "kind": "pr",
-        "number": 106355,
-        "title": "feat(apps): add native mobile Automations parity",
-        "url": "https://github.com/openclaw/openclaw/pull/106355",
+        "number": 101037,
+        "title": "fix(acp): preserve structured exec approval metadata",
+        "url": "https://github.com/openclaw/openclaw/pull/101037",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-13T17:22:00Z"
+        "author": "mushuiyu886",
+        "updatedAt": "2026-07-13T19:46:38Z"
       },
       {
         "kind": "pr",
-        "number": 106632,
-        "title": "fix(test): extension planner fails after repository inventory exceeds child buffer",
-        "url": "https://github.com/openclaw/openclaw/pull/106632",
+        "number": 106198,
+        "title": "fix: restore GitHub Copilot turns and account context limits",
+        "url": "https://github.com/openclaw/openclaw/pull/106198",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-13T17:21:58Z"
+        "author": "galiniliev",
+        "updatedAt": "2026-07-13T19:46:36Z"
       },
       {
         "kind": "pr",
-        "number": 106297,
-        "title": "fix(agents): terminate agent run on critical loop detection instead of continuing indefinitely",
-        "url": "https://github.com/openclaw/openclaw/pull/106297",
+        "number": 101265,
+        "title": "fix(secrets): keep startup alive when TTS SecretRefs are missing",
+        "url": "https://github.com/openclaw/openclaw/pull/101265",
         "state": "open",
-        "author": "zw-xysk",
-        "updatedAt": "2026-07-13T17:21:58Z"
+        "author": "snowzlmbot",
+        "updatedAt": "2026-07-13T19:46:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 106173,
+        "title": "fix(memory-core): clear pending-update wait timer after update settles",
+        "url": "https://github.com/openclaw/openclaw/pull/106173",
+        "state": "open",
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-07-13T19:45:28Z"
       }
     ]
   }

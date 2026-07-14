@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-14T09:16:21.436Z",
+  "generatedAt": "2026-07-14T10:56:53.672Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -48,11 +48,11 @@
     },
     {
       "capturedOn": "2026-07-14",
-      "capturedAt": "2026-07-14T09:16:21.436Z",
-      "issueOpen": 3763,
-      "issueClosed": 39701,
-      "prOpen": 2786,
-      "prClosed": 58654,
+      "capturedAt": "2026-07-14T10:56:53.672Z",
+      "issueOpen": 3764,
+      "issueClosed": 39690,
+      "prOpen": 2784,
+      "prClosed": 58704,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -62,95 +62,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 107330,
-        "title": "[Bug]: Openclaw Update 2026.7.1 Crash",
-        "url": "https://github.com/openclaw/openclaw/issues/107330",
+        "number": 107138,
+        "title": "Feature: per-agent skill visibility / allowlist",
+        "url": "https://github.com/openclaw/openclaw/issues/107138",
         "state": "open",
-        "author": "smelike",
-        "updatedAt": "2026-07-14T09:16:11Z"
+        "author": "JeffSteinbok",
+        "updatedAt": "2026-07-14T10:55:11Z"
       },
       {
         "kind": "issue",
-        "number": 107029,
-        "title": "[Architecture] Migration of transient plugin state to Agent-Scoped SQLite cache tables",
-        "url": "https://github.com/openclaw/openclaw/issues/107029",
+        "number": 107092,
+        "title": "[Bug]: Error: reply session initialization conflicted for agent:sura:feishu:group:oc_ecd1dxdd......",
+        "url": "https://github.com/openclaw/openclaw/issues/107092",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-14T09:15:04Z"
-      },
-      {
-        "kind": "issue",
-        "number": 107033,
-        "title": "Docs: loginctl enable-linger is not mentioned in node setup docs, causing silent node disconnects",
-        "url": "https://github.com/openclaw/openclaw/issues/107033",
-        "state": "open",
-        "author": "dustytext-bot",
-        "updatedAt": "2026-07-14T09:15:02Z"
-      },
-      {
-        "kind": "issue",
-        "number": 107069,
-        "title": "`before_agent_run` receives no input provenance; several producers never stamp it — internal wakes look like user input at the gate",
-        "url": "https://github.com/openclaw/openclaw/issues/107069",
-        "state": "open",
-        "author": "CanadaOrNaw",
-        "updatedAt": "2026-07-14T09:14:57Z"
+        "author": "zonynguyen",
+        "updatedAt": "2026-07-14T10:54:37Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 103984,
-        "title": "fix(compaction): count CJK text in token estimates",
-        "url": "https://github.com/openclaw/openclaw/pull/103984",
+        "number": 107397,
+        "title": "fix(config): warn before stripping JSON5 comments on config write",
+        "url": "https://github.com/openclaw/openclaw/pull/107397",
         "state": "open",
-        "author": "ZengWen-DT",
-        "updatedAt": "2026-07-14T09:16:18Z"
+        "author": "jiahjian",
+        "updatedAt": "2026-07-14T10:56:48Z"
       },
       {
         "kind": "pr",
-        "number": 106498,
-        "title": "fix(zalo): make poll error backoff abort-aware",
-        "url": "https://github.com/openclaw/openclaw/pull/106498",
+        "number": 103589,
+        "title": "refactor(qa): migrate Matrix scenarios into QA Lab",
+        "url": "https://github.com/openclaw/openclaw/pull/103589",
         "state": "open",
-        "author": "hugenshen",
-        "updatedAt": "2026-07-14T09:16:11Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-07-14T10:56:44Z"
       },
       {
         "kind": "pr",
-        "number": 98881,
-        "title": "fix(codex): guard sandbox http/request JSON.parse against non-JSON stdout",
-        "url": "https://github.com/openclaw/openclaw/pull/98881",
-        "state": "open",
-        "author": "miorbnli",
-        "updatedAt": "2026-07-14T09:15:53Z"
+        "number": 107395,
+        "title": "fix(feishu): remove stale schema builder export",
+        "url": "https://github.com/openclaw/openclaw/pull/107395",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-07-14T10:56:41Z"
       },
       {
         "kind": "pr",
-        "number": 106036,
-        "title": "fix(discord): bound stalled probe response reads",
-        "url": "https://github.com/openclaw/openclaw/pull/106036",
+        "number": 107090,
+        "title": "refactor(tasks): privatize internal registry helpers",
+        "url": "https://github.com/openclaw/openclaw/pull/107090",
+        "state": "closed",
+        "author": "lzyyzznl",
+        "updatedAt": "2026-07-14T10:56:30Z"
+      },
+      {
+        "kind": "pr",
+        "number": 106227,
+        "title": "fix(codex): handle stdout/stderr stream errors in exec resume",
+        "url": "https://github.com/openclaw/openclaw/pull/106227",
+        "state": "open",
+        "author": "LeonidasLux",
+        "updatedAt": "2026-07-14T10:56:27Z"
+      },
+      {
+        "kind": "pr",
+        "number": 106396,
+        "title": "fix(voice-call): bound stale-call reaper concurrency",
+        "url": "https://github.com/openclaw/openclaw/pull/106396",
         "state": "open",
         "author": "Alix-007",
-        "updatedAt": "2026-07-14T09:15:49Z"
-      },
-      {
-        "kind": "pr",
-        "number": 105994,
-        "title": "fix(feishu): explain content-policy delivery rejections",
-        "url": "https://github.com/openclaw/openclaw/pull/105994",
-        "state": "open",
-        "author": "sliverp",
-        "updatedAt": "2026-07-14T09:15:48Z"
-      },
-      {
-        "kind": "pr",
-        "number": 107320,
-        "title": "feat(setup): rename Crestodian to OpenClaw system agent",
-        "url": "https://github.com/openclaw/openclaw/pull/107320",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-14T09:15:43Z"
+        "updatedAt": "2026-07-14T10:56:25Z"
       }
     ]
   }

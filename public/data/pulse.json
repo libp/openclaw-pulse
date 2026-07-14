@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-14T16:38:03.811Z",
+  "generatedAt": "2026-07-14T18:16:04.480Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -48,11 +48,11 @@
     },
     {
       "capturedOn": "2026-07-14",
-      "capturedAt": "2026-07-14T16:38:03.811Z",
-      "issueOpen": 3838,
-      "issueClosed": 39716,
-      "prOpen": 2787,
-      "prClosed": 58865,
+      "capturedAt": "2026-07-14T18:16:04.480Z",
+      "issueOpen": 3842,
+      "issueClosed": 39726,
+      "prOpen": 2794,
+      "prClosed": 58894,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -62,113 +62,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 107655,
-        "title": "[Bug]: Aggregate tool-result pressure forces compaction after prompt projection already truncates successfully",
-        "url": "https://github.com/openclaw/openclaw/issues/107655",
-        "state": "open",
-        "author": "AyitLabs",
-        "updatedAt": "2026-07-14T16:37:51Z"
-      },
-      {
-        "kind": "issue",
-        "number": 107495,
-        "title": "[Bug] Subagent configuration overrides are ignored in plugin-tools-handlers.ts",
-        "url": "https://github.com/openclaw/openclaw/issues/107495",
+        "number": 106609,
+        "title": "[Bug] Unhandled Promise Rejection in channel-server.ts on Connection Reset",
+        "url": "https://github.com/openclaw/openclaw/issues/106609",
         "state": "open",
         "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-14T16:37:55Z"
+        "updatedAt": "2026-07-14T18:15:58Z"
       },
       {
         "kind": "issue",
-        "number": 107492,
-        "title": "[Performance] Duplicate parsing of CA certificates in node-extra-ca-certs.ts on every connection",
-        "url": "https://github.com/openclaw/openclaw/issues/107492",
+        "number": 107434,
+        "title": "Media attachments are dropped when an inbound turn steers an active run",
+        "url": "https://github.com/openclaw/openclaw/issues/107434",
+        "state": "open",
+        "author": "FayAndXan",
+        "updatedAt": "2026-07-14T18:15:54Z"
+      },
+      {
+        "kind": "issue",
+        "number": 106588,
+        "title": "[Bug]: VPN NEEDED users",
+        "url": "https://github.com/openclaw/openclaw/issues/106588",
+        "state": "open",
+        "author": "Nikootine7",
+        "updatedAt": "2026-07-14T18:15:49Z"
+      },
+      {
+        "kind": "issue",
+        "number": 106571,
+        "title": "[Bug] SQLite Connection and File Descriptor Leak due to Missing isOpen in Node DatabaseSync",
+        "url": "https://github.com/openclaw/openclaw/issues/106571",
         "state": "open",
         "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-14T16:37:55Z"
+        "updatedAt": "2026-07-14T18:15:43Z"
       },
       {
         "kind": "issue",
-        "number": 107496,
-        "title": "[Performance] Re-evaluating regex matching in status-message.ts for every active socket message",
-        "url": "https://github.com/openclaw/openclaw/issues/107496",
+        "number": 107532,
+        "title": "[Bug] Missing connection recovery state machine in gateway websocket client",
+        "url": "https://github.com/openclaw/openclaw/issues/107532",
         "state": "open",
         "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-14T16:37:38Z"
+        "updatedAt": "2026-07-14T18:15:34Z"
       },
       {
         "kind": "issue",
-        "number": 107497,
-        "title": "[Refactor] Consolidate duplicated telemetry reporting inside codex-synthetic-usage.ts",
-        "url": "https://github.com/openclaw/openclaw/issues/107497",
+        "number": 106563,
+        "title": "[Bug] Synchronous Throw Lease Leak in Telegram Send Operations",
+        "url": "https://github.com/openclaw/openclaw/issues/106563",
         "state": "open",
         "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-14T16:36:55Z"
-      },
-      {
-        "kind": "issue",
-        "number": 107659,
-        "title": "[Bug]: ACPX update expands to 2.1 GiB; OOM leaves core/plugin drift that startup does not repair",
-        "url": "https://github.com/openclaw/openclaw/issues/107659",
-        "state": "open",
-        "author": "bjesuiter",
-        "updatedAt": "2026-07-14T16:35:57Z"
+        "updatedAt": "2026-07-14T18:15:18Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 79702,
-        "title": "[AI-assisted] fix(openai): prefix instruction-aware embedding queries",
-        "url": "https://github.com/openclaw/openclaw/pull/79702",
+        "number": 107558,
+        "title": "PR4/5 durable core: wake controls, inspection, CLI, and Gateway",
+        "url": "https://github.com/openclaw/openclaw/pull/107558",
         "state": "open",
-        "author": "kreucher",
-        "updatedAt": "2026-07-14T16:37:51Z"
+        "author": "mjnkao",
+        "updatedAt": "2026-07-14T18:16:00Z"
       },
       {
         "kind": "pr",
-        "number": 101608,
-        "title": "fix(ai): record token usage on Responses early-abort (#100954)",
-        "url": "https://github.com/openclaw/openclaw/pull/101608",
+        "number": 106519,
+        "title": "fix(codex): bound app-server websocket handshake waits at 30s",
+        "url": "https://github.com/openclaw/openclaw/pull/106519",
         "state": "open",
-        "author": "Yigtwxx",
-        "updatedAt": "2026-07-14T16:37:43Z"
+        "author": "Pick-cat",
+        "updatedAt": "2026-07-14T18:15:55Z"
       },
       {
         "kind": "pr",
-        "number": 107478,
-        "title": "fix(workspaces): reject non-decimal --grid segments via strict parser",
-        "url": "https://github.com/openclaw/openclaw/pull/107478",
+        "number": 107556,
+        "title": "PR2/5 durable core: runtime foundation and terminal immutability guard",
+        "url": "https://github.com/openclaw/openclaw/pull/107556",
+        "state": "open",
+        "author": "mjnkao",
+        "updatedAt": "2026-07-14T18:15:54Z"
+      },
+      {
+        "kind": "pr",
+        "number": 97175,
+        "title": "fix(context-engine): bound deferred turn maintenance with a per-task timeout (AI-assisted)",
+        "url": "https://github.com/openclaw/openclaw/pull/97175",
+        "state": "open",
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-07-14T18:15:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 107697,
+        "title": "fix(ci): allow Unreleased notes for main validation",
+        "url": "https://github.com/openclaw/openclaw/pull/107697",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-14T18:15:15Z"
+      },
+      {
+        "kind": "pr",
+        "number": 107544,
+        "title": "fix(policy): reject nondecimal watch interval",
+        "url": "https://github.com/openclaw/openclaw/pull/107544",
         "state": "open",
         "author": "wangmiao0668000666",
-        "updatedAt": "2026-07-14T16:37:35Z"
-      },
-      {
-        "kind": "pr",
-        "number": 107450,
-        "title": "refactor(gateway-client): expose request dispatch boundary",
-        "url": "https://github.com/openclaw/openclaw/pull/107450",
-        "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-07-14T16:37:34Z"
-      },
-      {
-        "kind": "pr",
-        "number": 107364,
-        "title": "feat(control-ui): upload files into terminals",
-        "url": "https://github.com/openclaw/openclaw/pull/107364",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-07-14T16:37:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 101774,
-        "title": "fix(plugins): bound marketplace manifest file reads",
-        "url": "https://github.com/openclaw/openclaw/pull/101774",
-        "state": "open",
-        "author": "cxbAsDev",
-        "updatedAt": "2026-07-14T16:37:17Z"
+        "updatedAt": "2026-07-14T18:15:14Z"
       }
     ]
   }

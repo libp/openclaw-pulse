@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-14T10:56:53.672Z",
+  "generatedAt": "2026-07-14T12:39:15.634Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -48,11 +48,11 @@
     },
     {
       "capturedOn": "2026-07-14",
-      "capturedAt": "2026-07-14T10:56:53.672Z",
-      "issueOpen": 3764,
-      "issueClosed": 39690,
-      "prOpen": 2784,
-      "prClosed": 58704,
+      "capturedAt": "2026-07-14T12:39:15.634Z",
+      "issueOpen": 3772,
+      "issueClosed": 39703,
+      "prOpen": 2779,
+      "prClosed": 58761,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -62,77 +62,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 107138,
-        "title": "Feature: per-agent skill visibility / allowlist",
-        "url": "https://github.com/openclaw/openclaw/issues/107138",
+        "number": 107467,
+        "title": "[Bug]: openclaw plugins install/update on 2026.7.1 hits ENOTDIR scandir on openclaw.json after stale install path is removed",
+        "url": "https://github.com/openclaw/openclaw/issues/107467",
         "state": "open",
-        "author": "JeffSteinbok",
-        "updatedAt": "2026-07-14T10:55:11Z"
+        "author": "Valkster70",
+        "updatedAt": "2026-07-14T12:38:44Z"
       },
       {
         "kind": "issue",
-        "number": 107092,
-        "title": "[Bug]: Error: reply session initialization conflicted for agent:sura:feishu:group:oc_ecd1dxdd......",
-        "url": "https://github.com/openclaw/openclaw/issues/107092",
+        "number": 107220,
+        "title": "2026.7.1 gateway crash-loop: legacy memory sidecar `meta`/`chunks` conflicts are fatal while `files` conflicts auto-resolve",
+        "url": "https://github.com/openclaw/openclaw/issues/107220",
         "state": "open",
-        "author": "zonynguyen",
-        "updatedAt": "2026-07-14T10:54:37Z"
+        "author": "liewjiajun",
+        "updatedAt": "2026-07-14T12:37:51Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107255,
+        "title": "[Bug]: External Control UI tab cannot render gateway-auth plugin route under token auth",
+        "url": "https://github.com/openclaw/openclaw/issues/107255",
+        "state": "open",
+        "author": "paulpitchford",
+        "updatedAt": "2026-07-14T12:37:49Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107280,
+        "title": "Feature: option to suppress foreground exec non-zero exit notifications",
+        "url": "https://github.com/openclaw/openclaw/issues/107280",
+        "state": "closed",
+        "author": "riderrzn",
+        "updatedAt": "2026-07-14T12:37:17Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 107397,
-        "title": "fix(config): warn before stripping JSON5 comments on config write",
-        "url": "https://github.com/openclaw/openclaw/pull/107397",
+        "number": 107192,
+        "title": "feat: AI safety event taxonomy — UI dashboard and CLI command",
+        "url": "https://github.com/openclaw/openclaw/pull/107192",
         "state": "open",
-        "author": "jiahjian",
-        "updatedAt": "2026-07-14T10:56:48Z"
+        "author": "skoya",
+        "updatedAt": "2026-07-14T12:39:04Z"
       },
       {
         "kind": "pr",
-        "number": 103589,
-        "title": "refactor(qa): migrate Matrix scenarios into QA Lab",
-        "url": "https://github.com/openclaw/openclaw/pull/103589",
+        "number": 107468,
+        "title": "fix(agents,cron): remove pattern field from JSON Schema string constraints",
+        "url": "https://github.com/openclaw/openclaw/pull/107468",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-07-14T10:56:44Z"
+        "author": "lee-xydt",
+        "updatedAt": "2026-07-14T12:39:01Z"
       },
       {
         "kind": "pr",
-        "number": 107395,
-        "title": "fix(feishu): remove stale schema builder export",
-        "url": "https://github.com/openclaw/openclaw/pull/107395",
+        "number": 99075,
+        "title": "fix(qqbot): bound gateway websocket payloads",
+        "url": "https://github.com/openclaw/openclaw/pull/99075",
+        "state": "open",
+        "author": "sunlit-deng",
+        "updatedAt": "2026-07-14T12:38:51Z"
+      },
+      {
+        "kind": "pr",
+        "number": 99115,
+        "title": "fix(cron): support current and session: targets in initial delivery resolution",
+        "url": "https://github.com/openclaw/openclaw/pull/99115",
+        "state": "open",
+        "author": "cxbAsDev",
+        "updatedAt": "2026-07-14T12:38:49Z"
+      },
+      {
+        "kind": "pr",
+        "number": 107466,
+        "title": "fix(agents,cron): remove pattern field from JSON Schema string constraints",
+        "url": "https://github.com/openclaw/openclaw/pull/107466",
+        "state": "closed",
+        "author": "lee-xydt",
+        "updatedAt": "2026-07-14T12:38:47Z"
+      },
+      {
+        "kind": "pr",
+        "number": 107459,
+        "title": "refactor(ws): normalize raw message payloads",
+        "url": "https://github.com/openclaw/openclaw/pull/107459",
         "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-07-14T10:56:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 107090,
-        "title": "refactor(tasks): privatize internal registry helpers",
-        "url": "https://github.com/openclaw/openclaw/pull/107090",
-        "state": "closed",
-        "author": "lzyyzznl",
-        "updatedAt": "2026-07-14T10:56:30Z"
-      },
-      {
-        "kind": "pr",
-        "number": 106227,
-        "title": "fix(codex): handle stdout/stderr stream errors in exec resume",
-        "url": "https://github.com/openclaw/openclaw/pull/106227",
-        "state": "open",
-        "author": "LeonidasLux",
-        "updatedAt": "2026-07-14T10:56:27Z"
-      },
-      {
-        "kind": "pr",
-        "number": 106396,
-        "title": "fix(voice-call): bound stale-call reaper concurrency",
-        "url": "https://github.com/openclaw/openclaw/pull/106396",
-        "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-07-14T10:56:25Z"
+        "updatedAt": "2026-07-14T12:38:42Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-14T18:16:04.480Z",
+  "generatedAt": "2026-07-14T19:44:51.521Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -48,11 +48,11 @@
     },
     {
       "capturedOn": "2026-07-14",
-      "capturedAt": "2026-07-14T18:16:04.480Z",
-      "issueOpen": 3842,
-      "issueClosed": 39726,
+      "capturedAt": "2026-07-14T19:44:51.521Z",
+      "issueOpen": 3841,
+      "issueClosed": 39731,
       "prOpen": 2794,
-      "prClosed": 58894,
+      "prClosed": 58914,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -62,113 +62,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 106609,
-        "title": "[Bug] Unhandled Promise Rejection in channel-server.ts on Connection Reset",
-        "url": "https://github.com/openclaw/openclaw/issues/106609",
+        "number": 107683,
+        "title": "exec: allow-always script grants survive content changes",
+        "url": "https://github.com/openclaw/openclaw/issues/107683",
+        "state": "open",
+        "author": "yetval",
+        "updatedAt": "2026-07-14T19:44:45Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107492,
+        "title": "[Performance] Duplicate parsing of CA certificates in node-extra-ca-certs.ts on every connection",
+        "url": "https://github.com/openclaw/openclaw/issues/107492",
         "state": "open",
         "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-14T18:15:58Z"
+        "updatedAt": "2026-07-14T19:44:48Z"
       },
       {
         "kind": "issue",
-        "number": 107434,
-        "title": "Media attachments are dropped when an inbound turn steers an active run",
-        "url": "https://github.com/openclaw/openclaw/issues/107434",
-        "state": "open",
-        "author": "FayAndXan",
-        "updatedAt": "2026-07-14T18:15:54Z"
+        "number": 104294,
+        "title": "[Feature]: Cloud workers — run agent sessions on ephemeral SSH-reachable machines",
+        "url": "https://github.com/openclaw/openclaw/issues/104294",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-07-14T19:44:13Z"
       },
       {
         "kind": "issue",
-        "number": 106588,
-        "title": "[Bug]: VPN NEEDED users",
-        "url": "https://github.com/openclaw/openclaw/issues/106588",
-        "state": "open",
-        "author": "Nikootine7",
-        "updatedAt": "2026-07-14T18:15:49Z"
-      },
-      {
-        "kind": "issue",
-        "number": 106571,
-        "title": "[Bug] SQLite Connection and File Descriptor Leak due to Missing isOpen in Node DatabaseSync",
-        "url": "https://github.com/openclaw/openclaw/issues/106571",
+        "number": 107504,
+        "title": "[Bug] Silent fail-open when Tailscale interface binding fails on gateway start",
+        "url": "https://github.com/openclaw/openclaw/issues/107504",
         "state": "open",
         "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-14T18:15:43Z"
+        "updatedAt": "2026-07-14T19:43:56Z"
       },
       {
         "kind": "issue",
-        "number": 107532,
-        "title": "[Bug] Missing connection recovery state machine in gateway websocket client",
-        "url": "https://github.com/openclaw/openclaw/issues/107532",
+        "number": 96463,
+        "title": "[Bug]: Usage always 0 for custom OpenAI-compatible provider when using embedded runner (--local)",
+        "url": "https://github.com/openclaw/openclaw/issues/96463",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-14T18:15:34Z"
+        "author": "bazhang1618",
+        "updatedAt": "2026-07-14T19:43:20Z"
       },
       {
         "kind": "issue",
-        "number": 106563,
-        "title": "[Bug] Synchronous Throw Lease Leak in Telegram Send Operations",
-        "url": "https://github.com/openclaw/openclaw/issues/106563",
+        "number": 107580,
+        "title": "Feishu channel dispatch fails with 'Cannot read properties of undefined (reading run)'",
+        "url": "https://github.com/openclaw/openclaw/issues/107580",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-14T18:15:18Z"
+        "author": "easonlh",
+        "updatedAt": "2026-07-14T19:42:55Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 107558,
-        "title": "PR4/5 durable core: wake controls, inspection, CLI, and Gateway",
-        "url": "https://github.com/openclaw/openclaw/pull/107558",
+        "number": 107541,
+        "title": "fix(plugins): restore nested registry state on failed registration rollback",
+        "url": "https://github.com/openclaw/openclaw/pull/107541",
         "state": "open",
-        "author": "mjnkao",
-        "updatedAt": "2026-07-14T18:16:00Z"
+        "author": "wuqxuan",
+        "updatedAt": "2026-07-14T19:44:46Z"
       },
       {
         "kind": "pr",
-        "number": 106519,
-        "title": "fix(codex): bound app-server websocket handshake waits at 30s",
-        "url": "https://github.com/openclaw/openclaw/pull/106519",
+        "number": 107725,
+        "title": "fix: reconcile config watcher after recreation",
+        "url": "https://github.com/openclaw/openclaw/pull/107725",
         "state": "open",
-        "author": "Pick-cat",
-        "updatedAt": "2026-07-14T18:15:55Z"
+        "author": "hosanxiv",
+        "updatedAt": "2026-07-14T19:44:36Z"
       },
       {
         "kind": "pr",
-        "number": 107556,
-        "title": "PR2/5 durable core: runtime foundation and terminal immutability guard",
-        "url": "https://github.com/openclaw/openclaw/pull/107556",
+        "number": 103052,
+        "title": "fix: sleep tool — session-targeted wake, correct sandbox policy, doc fixes",
+        "url": "https://github.com/openclaw/openclaw/pull/103052",
         "state": "open",
-        "author": "mjnkao",
-        "updatedAt": "2026-07-14T18:15:54Z"
+        "author": "Dazlarus",
+        "updatedAt": "2026-07-14T19:44:30Z"
       },
       {
         "kind": "pr",
-        "number": 97175,
-        "title": "fix(context-engine): bound deferred turn maintenance with a per-task timeout (AI-assisted)",
-        "url": "https://github.com/openclaw/openclaw/pull/97175",
-        "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-07-14T18:15:25Z"
-      },
-      {
-        "kind": "pr",
-        "number": 107697,
-        "title": "fix(ci): allow Unreleased notes for main validation",
-        "url": "https://github.com/openclaw/openclaw/pull/107697",
-        "state": "open",
+        "number": 107670,
+        "title": "feat(ui): run sessions on cloud workers",
+        "url": "https://github.com/openclaw/openclaw/pull/107670",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-07-14T18:15:15Z"
+        "updatedAt": "2026-07-14T19:44:17Z"
       },
       {
         "kind": "pr",
-        "number": 107544,
-        "title": "fix(policy): reject nondecimal watch interval",
-        "url": "https://github.com/openclaw/openclaw/pull/107544",
+        "number": 102701,
+        "title": "feat: add auth list shortcut",
+        "url": "https://github.com/openclaw/openclaw/pull/102701",
         "state": "open",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-07-14T18:15:14Z"
+        "author": "ishangodawatta",
+        "updatedAt": "2026-07-14T19:44:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 106971,
+        "title": "fix(exec-approvals): handle same-process sync/async lock contention",
+        "url": "https://github.com/openclaw/openclaw/pull/106971",
+        "state": "open",
+        "author": "kagura-agent",
+        "updatedAt": "2026-07-14T19:44:09Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-14T06:23:29.844Z",
+  "generatedAt": "2026-07-14T09:16:21.436Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -48,11 +48,11 @@
     },
     {
       "capturedOn": "2026-07-14",
-      "capturedAt": "2026-07-14T06:23:29.844Z",
-      "issueOpen": 3740,
-      "issueClosed": 39687,
-      "prOpen": 2782,
-      "prClosed": 58571,
+      "capturedAt": "2026-07-14T09:16:21.436Z",
+      "issueOpen": 3763,
+      "issueClosed": 39701,
+      "prOpen": 2786,
+      "prClosed": 58654,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -62,77 +62,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 107031,
-        "title": "[Performance] Vitest OOMs from Vitest memory leaks during parallel E2E agent suites",
-        "url": "https://github.com/openclaw/openclaw/issues/107031",
+        "number": 107330,
+        "title": "[Bug]: Openclaw Update 2026.7.1 Crash",
+        "url": "https://github.com/openclaw/openclaw/issues/107330",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-14T06:20:33Z"
+        "author": "smelike",
+        "updatedAt": "2026-07-14T09:16:11Z"
       },
       {
         "kind": "issue",
-        "number": 107035,
-        "title": "[Security] Unsafe deserialization of incoming WebSocket commands in Gateway",
-        "url": "https://github.com/openclaw/openclaw/issues/107035",
+        "number": 107029,
+        "title": "[Architecture] Migration of transient plugin state to Agent-Scoped SQLite cache tables",
+        "url": "https://github.com/openclaw/openclaw/issues/107029",
         "state": "open",
         "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-14T06:20:19Z"
+        "updatedAt": "2026-07-14T09:15:04Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107033,
+        "title": "Docs: loginctl enable-linger is not mentioned in node setup docs, causing silent node disconnects",
+        "url": "https://github.com/openclaw/openclaw/issues/107033",
+        "state": "open",
+        "author": "dustytext-bot",
+        "updatedAt": "2026-07-14T09:15:02Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107069,
+        "title": "`before_agent_run` receives no input provenance; several producers never stamp it — internal wakes look like user input at the gate",
+        "url": "https://github.com/openclaw/openclaw/issues/107069",
+        "state": "open",
+        "author": "CanadaOrNaw",
+        "updatedAt": "2026-07-14T09:14:57Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 104322,
-        "title": "fix(feishu): retry transient message send failures",
-        "url": "https://github.com/openclaw/openclaw/pull/104322",
+        "number": 103984,
+        "title": "fix(compaction): count CJK text in token estimates",
+        "url": "https://github.com/openclaw/openclaw/pull/103984",
         "state": "open",
-        "author": "litang9",
-        "updatedAt": "2026-07-14T06:23:22Z"
+        "author": "ZengWen-DT",
+        "updatedAt": "2026-07-14T09:16:18Z"
       },
       {
         "kind": "pr",
-        "number": 104986,
-        "title": "fix(google): anchor model-ID regexes to prevent false-positive substring matches",
-        "url": "https://github.com/openclaw/openclaw/pull/104986",
+        "number": 106498,
+        "title": "fix(zalo): make poll error backoff abort-aware",
+        "url": "https://github.com/openclaw/openclaw/pull/106498",
         "state": "open",
-        "author": "lsr911",
-        "updatedAt": "2026-07-14T06:23:21Z"
+        "author": "hugenshen",
+        "updatedAt": "2026-07-14T09:16:11Z"
       },
       {
         "kind": "pr",
-        "number": 107206,
-        "title": "refactor(whatsapp): trim internal exports",
-        "url": "https://github.com/openclaw/openclaw/pull/107206",
-        "state": "closed",
+        "number": 98881,
+        "title": "fix(codex): guard sandbox http/request JSON.parse against non-JSON stdout",
+        "url": "https://github.com/openclaw/openclaw/pull/98881",
+        "state": "open",
+        "author": "miorbnli",
+        "updatedAt": "2026-07-14T09:15:53Z"
+      },
+      {
+        "kind": "pr",
+        "number": 106036,
+        "title": "fix(discord): bound stalled probe response reads",
+        "url": "https://github.com/openclaw/openclaw/pull/106036",
+        "state": "open",
+        "author": "Alix-007",
+        "updatedAt": "2026-07-14T09:15:49Z"
+      },
+      {
+        "kind": "pr",
+        "number": 105994,
+        "title": "fix(feishu): explain content-policy delivery rejections",
+        "url": "https://github.com/openclaw/openclaw/pull/105994",
+        "state": "open",
+        "author": "sliverp",
+        "updatedAt": "2026-07-14T09:15:48Z"
+      },
+      {
+        "kind": "pr",
+        "number": 107320,
+        "title": "feat(setup): rename Crestodian to OpenClaw system agent",
+        "url": "https://github.com/openclaw/openclaw/pull/107320",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-14T06:23:14Z"
-      },
-      {
-        "kind": "pr",
-        "number": 107028,
-        "title": "fix(plugins): keep run context available after registration",
-        "url": "https://github.com/openclaw/openclaw/pull/107028",
-        "state": "open",
-        "author": "sercada",
-        "updatedAt": "2026-07-14T06:23:13Z"
-      },
-      {
-        "kind": "pr",
-        "number": 103294,
-        "title": "refactor(push-web): move web push store to shared SQLite state DB",
-        "url": "https://github.com/openclaw/openclaw/pull/103294",
-        "state": "open",
-        "author": "xydt-tanshanshan",
-        "updatedAt": "2026-07-14T06:22:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 107204,
-        "title": "docs: document catalog terminal relay",
-        "url": "https://github.com/openclaw/openclaw/pull/107204",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-14T06:22:18Z"
+        "updatedAt": "2026-07-14T09:15:43Z"
       }
     ]
   }

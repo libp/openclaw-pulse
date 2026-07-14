@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-14T00:06:04.746Z",
+  "generatedAt": "2026-07-14T03:31:32.398Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -48,82 +48,72 @@
     },
     {
       "capturedOn": "2026-07-14",
-      "capturedAt": "2026-07-14T00:06:04.746Z",
-      "issueOpen": 3818,
-      "issueClosed": 39558,
-      "prOpen": 2748,
-      "prClosed": 58370,
+      "capturedAt": "2026-07-14T03:31:32.398Z",
+      "issueOpen": 3828,
+      "issueClosed": 39572,
+      "prOpen": 2766,
+      "prClosed": 58473,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 106920,
-        "title": "[Bug]: openclaw 2026.7.1 can't restart the gateway",
-        "url": "https://github.com/openclaw/openclaw/issues/106920",
-        "state": "open",
-        "author": "zyc-sudo",
-        "updatedAt": "2026-07-14T00:05:23Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 99404,
-        "title": "fix: escape assistant-authored transcript role headers",
-        "url": "https://github.com/openclaw/openclaw/pull/99404",
-        "state": "open",
-        "author": "snowzlmbot",
-        "updatedAt": "2026-07-14T00:06:00Z"
-      },
-      {
-        "kind": "pr",
-        "number": 106919,
-        "title": "refactor(config): share canonical deep merge",
-        "url": "https://github.com/openclaw/openclaw/pull/106919",
+        "number": 106941,
+        "title": "feat: discover OpenCode and Pi sessions on paired nodes",
+        "url": "https://github.com/openclaw/openclaw/pull/106941",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-14T00:05:58Z"
+        "updatedAt": "2026-07-14T03:31:17Z"
       },
       {
         "kind": "pr",
-        "number": 105870,
-        "title": "fix(agents): decouple MCP retirement from browser cleanup",
-        "url": "https://github.com/openclaw/openclaw/pull/105870",
+        "number": 103577,
+        "title": "fix(agents): pass attemptNumber instead of apiKeyIndex to retry callbacks (#102938)",
+        "url": "https://github.com/openclaw/openclaw/pull/103577",
         "state": "open",
-        "author": "morluto",
-        "updatedAt": "2026-07-14T00:05:58Z"
+        "author": "ruel225",
+        "updatedAt": "2026-07-14T03:31:07Z"
       },
       {
         "kind": "pr",
-        "number": 106918,
-        "title": "fix(fleet): harden logs and restore recovery",
-        "url": "https://github.com/openclaw/openclaw/pull/106918",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-14T00:05:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 104085,
-        "title": "fix(dreaming): drop heartbeat assistant responses from dream corpus",
-        "url": "https://github.com/openclaw/openclaw/pull/104085",
-        "state": "open",
-        "author": "ekinnee",
-        "updatedAt": "2026-07-14T00:05:56Z"
-      },
-      {
-        "kind": "pr",
-        "number": 106890,
-        "title": "fix(plugins): cleanup session scheduler jobs on failed registration rollback (#106825)",
-        "url": "https://github.com/openclaw/openclaw/pull/106890",
+        "number": 106897,
+        "title": "fix(retry): recognize provider-wrapped transient 5xx for session retry",
+        "url": "https://github.com/openclaw/openclaw/pull/106897",
         "state": "open",
         "author": "yangxiansheng",
-        "updatedAt": "2026-07-14T00:05:50Z"
+        "updatedAt": "2026-07-14T03:31:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 106997,
+        "title": "feat(macos): native-feel dashboard hosting — instant reopen, preload, frame autosave, ⌘N/⌘K, route memory",
+        "url": "https://github.com/openclaw/openclaw/pull/106997",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-14T03:30:52Z"
+      },
+      {
+        "kind": "pr",
+        "number": 106519,
+        "title": "fix(codex): bound app-server websocket handshake waits at 30s",
+        "url": "https://github.com/openclaw/openclaw/pull/106519",
+        "state": "open",
+        "author": "Pick-cat",
+        "updatedAt": "2026-07-14T03:30:50Z"
+      },
+      {
+        "kind": "pr",
+        "number": 106402,
+        "title": "fix(infra): use Buffer.byteLength for JSON string byte-limit fast-path guard",
+        "url": "https://github.com/openclaw/openclaw/pull/106402",
+        "state": "open",
+        "author": "Monkey-wusky",
+        "updatedAt": "2026-07-14T03:30:42Z"
       }
     ]
   }

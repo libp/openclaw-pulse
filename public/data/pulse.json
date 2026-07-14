@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-14T12:39:15.634Z",
+  "generatedAt": "2026-07-14T15:03:06.188Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -48,11 +48,11 @@
     },
     {
       "capturedOn": "2026-07-14",
-      "capturedAt": "2026-07-14T12:39:15.634Z",
-      "issueOpen": 3772,
-      "issueClosed": 39703,
-      "prOpen": 2779,
-      "prClosed": 58761,
+      "capturedAt": "2026-07-14T15:03:06.188Z",
+      "issueOpen": 3830,
+      "issueClosed": 39711,
+      "prOpen": 2784,
+      "prClosed": 58822,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -62,95 +62,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 107467,
-        "title": "[Bug]: openclaw plugins install/update on 2026.7.1 hits ENOTDIR scandir on openclaw.json after stale install path is removed",
-        "url": "https://github.com/openclaw/openclaw/issues/107467",
+        "number": 107426,
+        "title": "Package updater runs mutating doctor --fix without an explicit update option",
+        "url": "https://github.com/openclaw/openclaw/issues/107426",
         "state": "open",
-        "author": "Valkster70",
-        "updatedAt": "2026-07-14T12:38:44Z"
-      },
-      {
-        "kind": "issue",
-        "number": 107220,
-        "title": "2026.7.1 gateway crash-loop: legacy memory sidecar `meta`/`chunks` conflicts are fatal while `files` conflicts auto-resolve",
-        "url": "https://github.com/openclaw/openclaw/issues/107220",
-        "state": "open",
-        "author": "liewjiajun",
-        "updatedAt": "2026-07-14T12:37:51Z"
-      },
-      {
-        "kind": "issue",
-        "number": 107255,
-        "title": "[Bug]: External Control UI tab cannot render gateway-auth plugin route under token auth",
-        "url": "https://github.com/openclaw/openclaw/issues/107255",
-        "state": "open",
-        "author": "paulpitchford",
-        "updatedAt": "2026-07-14T12:37:49Z"
-      },
-      {
-        "kind": "issue",
-        "number": 107280,
-        "title": "Feature: option to suppress foreground exec non-zero exit notifications",
-        "url": "https://github.com/openclaw/openclaw/issues/107280",
-        "state": "closed",
-        "author": "riderrzn",
-        "updatedAt": "2026-07-14T12:37:17Z"
+        "author": "Countermarch",
+        "updatedAt": "2026-07-14T15:02:55Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 107192,
-        "title": "feat: AI safety event taxonomy — UI dashboard and CLI command",
-        "url": "https://github.com/openclaw/openclaw/pull/107192",
+        "number": 107388,
+        "title": "fix(codex): keep omitted-final source replies from releasing the turn",
+        "url": "https://github.com/openclaw/openclaw/pull/107388",
         "state": "open",
-        "author": "skoya",
-        "updatedAt": "2026-07-14T12:39:04Z"
+        "author": "mrfandu1",
+        "updatedAt": "2026-07-14T15:03:00Z"
       },
       {
         "kind": "pr",
-        "number": 107468,
-        "title": "fix(agents,cron): remove pattern field from JSON Schema string constraints",
-        "url": "https://github.com/openclaw/openclaw/pull/107468",
+        "number": 106551,
+        "title": "fix(sqlite): migration flags unstarted sessions as missing transcripts",
+        "url": "https://github.com/openclaw/openclaw/pull/106551",
         "state": "open",
-        "author": "lee-xydt",
-        "updatedAt": "2026-07-14T12:39:01Z"
+        "author": "xxxxxmax",
+        "updatedAt": "2026-07-14T15:03:00Z"
       },
       {
         "kind": "pr",
-        "number": 99075,
-        "title": "fix(qqbot): bound gateway websocket payloads",
-        "url": "https://github.com/openclaw/openclaw/pull/99075",
+        "number": 107315,
+        "title": "chore: enforce max-lines suppression ratchet",
+        "url": "https://github.com/openclaw/openclaw/pull/107315",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-07-14T12:38:51Z"
-      },
-      {
-        "kind": "pr",
-        "number": 99115,
-        "title": "fix(cron): support current and session: targets in initial delivery resolution",
-        "url": "https://github.com/openclaw/openclaw/pull/99115",
-        "state": "open",
-        "author": "cxbAsDev",
-        "updatedAt": "2026-07-14T12:38:49Z"
-      },
-      {
-        "kind": "pr",
-        "number": 107466,
-        "title": "fix(agents,cron): remove pattern field from JSON Schema string constraints",
-        "url": "https://github.com/openclaw/openclaw/pull/107466",
-        "state": "closed",
-        "author": "lee-xydt",
-        "updatedAt": "2026-07-14T12:38:47Z"
-      },
-      {
-        "kind": "pr",
-        "number": 107459,
-        "title": "refactor(ws): normalize raw message payloads",
-        "url": "https://github.com/openclaw/openclaw/pull/107459",
-        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-07-14T12:38:42Z"
+        "updatedAt": "2026-07-14T15:02:51Z"
+      },
+      {
+        "kind": "pr",
+        "number": 107119,
+        "title": "refactor(cli): add p-map concurrency limit to capability CLI file operations",
+        "url": "https://github.com/openclaw/openclaw/pull/107119",
+        "state": "open",
+        "author": "lzyyzznl",
+        "updatedAt": "2026-07-14T15:02:42Z"
+      },
+      {
+        "kind": "pr",
+        "number": 107544,
+        "title": "fix(policy): reject nondecimal watch interval",
+        "url": "https://github.com/openclaw/openclaw/pull/107544",
+        "state": "open",
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-07-14T15:02:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 86764,
+        "title": "fix(agents): persist user turn before attempt failures",
+        "url": "https://github.com/openclaw/openclaw/pull/86764",
+        "state": "open",
+        "author": "TurboTheTurtle",
+        "updatedAt": "2026-07-14T15:02:36Z"
       }
     ]
   }

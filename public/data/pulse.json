@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-14T22:12:43.689Z",
+  "generatedAt": "2026-07-14T23:10:25.343Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -48,11 +48,11 @@
     },
     {
       "capturedOn": "2026-07-14",
-      "capturedAt": "2026-07-14T22:12:43.689Z",
-      "issueOpen": 3852,
-      "issueClosed": 39737,
-      "prOpen": 2793,
-      "prClosed": 58967,
+      "capturedAt": "2026-07-14T23:10:25.343Z",
+      "issueOpen": 3855,
+      "issueClosed": 39740,
+      "prOpen": 2799,
+      "prClosed": 58981,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -62,12 +62,21 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 107530,
-        "title": "[Performance] Cache invalidation storm on concurrent plugin activation",
-        "url": "https://github.com/openclaw/openclaw/issues/107530",
+        "number": 107488,
+        "title": "[Bug] Race condition in approval-classifier.ts when tokenization exceeds max tokens",
+        "url": "https://github.com/openclaw/openclaw/issues/107488",
         "state": "open",
         "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-14T22:12:28Z"
+        "updatedAt": "2026-07-14T23:10:08Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107746,
+        "title": "`openclaw update` misidentifies pnpm 11 global installations as npm",
+        "url": "https://github.com/openclaw/openclaw/issues/107746",
+        "state": "open",
+        "author": "kostrse",
+        "updatedAt": "2026-07-14T23:09:38Z"
       },
       {
         "kind": "issue",
@@ -76,63 +85,63 @@
         "url": "https://github.com/openclaw/openclaw/issues/107575",
         "state": "open",
         "author": "stuartm1023",
-        "updatedAt": "2026-07-14T22:11:31Z"
+        "updatedAt": "2026-07-14T23:08:58Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 107119,
-        "title": "refactor(cli): add p-map concurrency limit to capability CLI file operations",
-        "url": "https://github.com/openclaw/openclaw/pull/107119",
+        "number": 104912,
+        "title": "fix: Control UI avatar initial breaks on emoji display names",
+        "url": "https://github.com/openclaw/openclaw/pull/104912",
         "state": "open",
-        "author": "lzyyzznl",
-        "updatedAt": "2026-07-14T22:12:22Z"
+        "author": "xydigit-zt",
+        "updatedAt": "2026-07-14T23:10:19Z"
       },
       {
         "kind": "pr",
-        "number": 107541,
-        "title": "fix(plugins): restore nested registry state on failed registration rollback",
-        "url": "https://github.com/openclaw/openclaw/pull/107541",
+        "number": 93116,
+        "title": "fix(xai): respect ssrfPolicy and request.allowPrivateNetwork in image_generate",
+        "url": "https://github.com/openclaw/openclaw/pull/93116",
         "state": "open",
-        "author": "wuqxuan",
-        "updatedAt": "2026-07-14T22:12:18Z"
+        "author": "xydt-tanshanshan",
+        "updatedAt": "2026-07-14T23:10:14Z"
       },
       {
         "kind": "pr",
-        "number": 104690,
-        "title": "fix(msteams): reset sessions on app removal lifecycle",
-        "url": "https://github.com/openclaw/openclaw/pull/104690",
+        "number": 104580,
+        "title": "fix(discord): add timeout to guarded gateway metadata fetches",
+        "url": "https://github.com/openclaw/openclaw/pull/104580",
         "state": "open",
-        "author": "jimmypuckett",
-        "updatedAt": "2026-07-14T22:12:17Z"
+        "author": "hugenshen",
+        "updatedAt": "2026-07-14T23:10:08Z"
       },
       {
         "kind": "pr",
-        "number": 107778,
-        "title": "fix(doctor): accept memory provider none without api key",
-        "url": "https://github.com/openclaw/openclaw/pull/107778",
-        "state": "open",
-        "author": "jincheng-xydt",
-        "updatedAt": "2026-07-14T22:12:16Z"
-      },
-      {
-        "kind": "pr",
-        "number": 107590,
-        "title": "fix(control-ui): fix the issue where avatar cannot be set (#106894)",
-        "url": "https://github.com/openclaw/openclaw/pull/107590",
-        "state": "open",
-        "author": "xy-xh",
-        "updatedAt": "2026-07-14T22:12:14Z"
-      },
-      {
-        "kind": "pr",
-        "number": 106969,
-        "title": "fix(google): reject malformed provider media base64",
-        "url": "https://github.com/openclaw/openclaw/pull/106969",
+        "number": 106473,
+        "title": "fix(logbook): reject malformed snapshot base64",
+        "url": "https://github.com/openclaw/openclaw/pull/106473",
         "state": "open",
         "author": "sunlit-deng",
-        "updatedAt": "2026-07-14T22:12:14Z"
+        "updatedAt": "2026-07-14T23:10:02Z"
+      },
+      {
+        "kind": "pr",
+        "number": 103692,
+        "title": "fix(msteams): strip internal tool-trace banners from outbound text",
+        "url": "https://github.com/openclaw/openclaw/pull/103692",
+        "state": "open",
+        "author": "ZOOWH",
+        "updatedAt": "2026-07-14T23:09:46Z"
+      },
+      {
+        "kind": "pr",
+        "number": 107794,
+        "title": "fix: prevent uninstallable source packages when AI runtime is unpublished",
+        "url": "https://github.com/openclaw/openclaw/pull/107794",
+        "state": "closed",
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-07-14T23:09:33Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-14T15:03:06.188Z",
+  "generatedAt": "2026-07-14T16:38:03.811Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -48,11 +48,11 @@
     },
     {
       "capturedOn": "2026-07-14",
-      "capturedAt": "2026-07-14T15:03:06.188Z",
-      "issueOpen": 3830,
-      "issueClosed": 39711,
-      "prOpen": 2784,
-      "prClosed": 58822,
+      "capturedAt": "2026-07-14T16:38:03.811Z",
+      "issueOpen": 3838,
+      "issueClosed": 39716,
+      "prOpen": 2787,
+      "prClosed": 58865,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -62,68 +62,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 107426,
-        "title": "Package updater runs mutating doctor --fix without an explicit update option",
-        "url": "https://github.com/openclaw/openclaw/issues/107426",
+        "number": 107655,
+        "title": "[Bug]: Aggregate tool-result pressure forces compaction after prompt projection already truncates successfully",
+        "url": "https://github.com/openclaw/openclaw/issues/107655",
         "state": "open",
-        "author": "Countermarch",
-        "updatedAt": "2026-07-14T15:02:55Z"
+        "author": "AyitLabs",
+        "updatedAt": "2026-07-14T16:37:51Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107495,
+        "title": "[Bug] Subagent configuration overrides are ignored in plugin-tools-handlers.ts",
+        "url": "https://github.com/openclaw/openclaw/issues/107495",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-14T16:37:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107492,
+        "title": "[Performance] Duplicate parsing of CA certificates in node-extra-ca-certs.ts on every connection",
+        "url": "https://github.com/openclaw/openclaw/issues/107492",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-14T16:37:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107496,
+        "title": "[Performance] Re-evaluating regex matching in status-message.ts for every active socket message",
+        "url": "https://github.com/openclaw/openclaw/issues/107496",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-14T16:37:38Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107497,
+        "title": "[Refactor] Consolidate duplicated telemetry reporting inside codex-synthetic-usage.ts",
+        "url": "https://github.com/openclaw/openclaw/issues/107497",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-14T16:36:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107659,
+        "title": "[Bug]: ACPX update expands to 2.1 GiB; OOM leaves core/plugin drift that startup does not repair",
+        "url": "https://github.com/openclaw/openclaw/issues/107659",
+        "state": "open",
+        "author": "bjesuiter",
+        "updatedAt": "2026-07-14T16:35:57Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 107388,
-        "title": "fix(codex): keep omitted-final source replies from releasing the turn",
-        "url": "https://github.com/openclaw/openclaw/pull/107388",
+        "number": 79702,
+        "title": "[AI-assisted] fix(openai): prefix instruction-aware embedding queries",
+        "url": "https://github.com/openclaw/openclaw/pull/79702",
         "state": "open",
-        "author": "mrfandu1",
-        "updatedAt": "2026-07-14T15:03:00Z"
+        "author": "kreucher",
+        "updatedAt": "2026-07-14T16:37:51Z"
       },
       {
         "kind": "pr",
-        "number": 106551,
-        "title": "fix(sqlite): migration flags unstarted sessions as missing transcripts",
-        "url": "https://github.com/openclaw/openclaw/pull/106551",
+        "number": 101608,
+        "title": "fix(ai): record token usage on Responses early-abort (#100954)",
+        "url": "https://github.com/openclaw/openclaw/pull/101608",
         "state": "open",
-        "author": "xxxxxmax",
-        "updatedAt": "2026-07-14T15:03:00Z"
+        "author": "Yigtwxx",
+        "updatedAt": "2026-07-14T16:37:43Z"
       },
       {
         "kind": "pr",
-        "number": 107315,
-        "title": "chore: enforce max-lines suppression ratchet",
-        "url": "https://github.com/openclaw/openclaw/pull/107315",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-14T15:02:51Z"
-      },
-      {
-        "kind": "pr",
-        "number": 107119,
-        "title": "refactor(cli): add p-map concurrency limit to capability CLI file operations",
-        "url": "https://github.com/openclaw/openclaw/pull/107119",
-        "state": "open",
-        "author": "lzyyzznl",
-        "updatedAt": "2026-07-14T15:02:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 107544,
-        "title": "fix(policy): reject nondecimal watch interval",
-        "url": "https://github.com/openclaw/openclaw/pull/107544",
+        "number": 107478,
+        "title": "fix(workspaces): reject non-decimal --grid segments via strict parser",
+        "url": "https://github.com/openclaw/openclaw/pull/107478",
         "state": "open",
         "author": "wangmiao0668000666",
-        "updatedAt": "2026-07-14T15:02:38Z"
+        "updatedAt": "2026-07-14T16:37:35Z"
       },
       {
         "kind": "pr",
-        "number": 86764,
-        "title": "fix(agents): persist user turn before attempt failures",
-        "url": "https://github.com/openclaw/openclaw/pull/86764",
+        "number": 107450,
+        "title": "refactor(gateway-client): expose request dispatch boundary",
+        "url": "https://github.com/openclaw/openclaw/pull/107450",
         "state": "open",
-        "author": "TurboTheTurtle",
-        "updatedAt": "2026-07-14T15:02:36Z"
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-07-14T16:37:34Z"
+      },
+      {
+        "kind": "pr",
+        "number": 107364,
+        "title": "feat(control-ui): upload files into terminals",
+        "url": "https://github.com/openclaw/openclaw/pull/107364",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-07-14T16:37:32Z"
+      },
+      {
+        "kind": "pr",
+        "number": 101774,
+        "title": "fix(plugins): bound marketplace manifest file reads",
+        "url": "https://github.com/openclaw/openclaw/pull/101774",
+        "state": "open",
+        "author": "cxbAsDev",
+        "updatedAt": "2026-07-14T16:37:17Z"
       }
     ]
   }

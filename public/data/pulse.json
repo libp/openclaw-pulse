@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-14T21:14:04.789Z",
+  "generatedAt": "2026-07-14T22:12:43.689Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -48,11 +48,11 @@
     },
     {
       "capturedOn": "2026-07-14",
-      "capturedAt": "2026-07-14T21:14:04.789Z",
-      "issueOpen": 3849,
-      "issueClosed": 39734,
-      "prOpen": 2794,
-      "prClosed": 58943,
+      "capturedAt": "2026-07-14T22:12:43.689Z",
+      "issueOpen": 3852,
+      "issueClosed": 39737,
+      "prOpen": 2793,
+      "prClosed": 58967,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -62,51 +62,24 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 107589,
-        "title": "[Bug][iOS] chat.history reconciliation duplicates and reorders replies after tool runs",
-        "url": "https://github.com/openclaw/openclaw/issues/107589",
+        "number": 107530,
+        "title": "[Performance] Cache invalidation storm on concurrent plugin activation",
+        "url": "https://github.com/openclaw/openclaw/issues/107530",
         "state": "open",
-        "author": "DoTheWorkNow",
-        "updatedAt": "2026-07-14T21:13:54Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-14T22:12:28Z"
       },
       {
         "kind": "issue",
-        "number": 107526,
-        "title": "[Bug] Incorrect MIME-type inference in media-understanding middleware",
-        "url": "https://github.com/openclaw/openclaw/issues/107526",
+        "number": 107575,
+        "title": "[Bug]: TLS certificate pin mismatch loop when connecting through Cloudflare Tunnel/Access (anycast edge certs)",
+        "url": "https://github.com/openclaw/openclaw/issues/107575",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-14T21:13:41Z"
+        "author": "stuartm1023",
+        "updatedAt": "2026-07-14T22:11:31Z"
       }
     ],
     "prs": [
-      {
-        "kind": "pr",
-        "number": 107633,
-        "title": "feat(linux): canvas UI via CLI-node + Tauri app IPC bridge",
-        "url": "https://github.com/openclaw/openclaw/pull/107633",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-14T21:13:56Z"
-      },
-      {
-        "kind": "pr",
-        "number": 107366,
-        "title": "fix(acp): keep completed run-mode sessions resumable",
-        "url": "https://github.com/openclaw/openclaw/pull/107366",
-        "state": "open",
-        "author": "henkterharmsel",
-        "updatedAt": "2026-07-14T21:13:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 106780,
-        "title": "fix(sandbox): use exit code instead of locale-dependent stderr string for stat file-not-found",
-        "url": "https://github.com/openclaw/openclaw/pull/106780",
-        "state": "open",
-        "author": "lzyyzznl",
-        "updatedAt": "2026-07-14T21:13:48Z"
-      },
       {
         "kind": "pr",
         "number": 107119,
@@ -114,25 +87,52 @@
         "url": "https://github.com/openclaw/openclaw/pull/107119",
         "state": "open",
         "author": "lzyyzznl",
-        "updatedAt": "2026-07-14T21:13:47Z"
+        "updatedAt": "2026-07-14T22:12:22Z"
       },
       {
         "kind": "pr",
-        "number": 103615,
-        "title": "refactor(qa): finish Matrix QA Lab ownership",
-        "url": "https://github.com/openclaw/openclaw/pull/103615",
+        "number": 107541,
+        "title": "fix(plugins): restore nested registry state on failed registration rollback",
+        "url": "https://github.com/openclaw/openclaw/pull/107541",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-07-14T21:13:42Z"
+        "author": "wuqxuan",
+        "updatedAt": "2026-07-14T22:12:18Z"
       },
       {
         "kind": "pr",
-        "number": 106443,
-        "title": "feat(durable): hand off wakes to session queue",
-        "url": "https://github.com/openclaw/openclaw/pull/106443",
+        "number": 104690,
+        "title": "fix(msteams): reset sessions on app removal lifecycle",
+        "url": "https://github.com/openclaw/openclaw/pull/104690",
         "state": "open",
-        "author": "mjnkao",
-        "updatedAt": "2026-07-14T21:13:41Z"
+        "author": "jimmypuckett",
+        "updatedAt": "2026-07-14T22:12:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 107778,
+        "title": "fix(doctor): accept memory provider none without api key",
+        "url": "https://github.com/openclaw/openclaw/pull/107778",
+        "state": "open",
+        "author": "jincheng-xydt",
+        "updatedAt": "2026-07-14T22:12:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 107590,
+        "title": "fix(control-ui): fix the issue where avatar cannot be set (#106894)",
+        "url": "https://github.com/openclaw/openclaw/pull/107590",
+        "state": "open",
+        "author": "xy-xh",
+        "updatedAt": "2026-07-14T22:12:14Z"
+      },
+      {
+        "kind": "pr",
+        "number": 106969,
+        "title": "fix(google): reject malformed provider media base64",
+        "url": "https://github.com/openclaw/openclaw/pull/106969",
+        "state": "open",
+        "author": "sunlit-deng",
+        "updatedAt": "2026-07-14T22:12:14Z"
       }
     ]
   }

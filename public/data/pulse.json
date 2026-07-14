@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-13T23:11:39.036Z",
+  "generatedAt": "2026-07-14T00:06:04.746Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -45,11 +45,68 @@
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-07-14",
+      "capturedAt": "2026-07-14T00:06:04.746Z",
+      "issueOpen": 3818,
+      "issueClosed": 39558,
+      "prOpen": 2748,
+      "prClosed": 58370,
+      "workflowRuns": 40000,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 106920,
+        "title": "[Bug]: openclaw 2026.7.1 can't restart the gateway",
+        "url": "https://github.com/openclaw/openclaw/issues/106920",
+        "state": "open",
+        "author": "zyc-sudo",
+        "updatedAt": "2026-07-14T00:05:23Z"
+      }
+    ],
     "prs": [
+      {
+        "kind": "pr",
+        "number": 99404,
+        "title": "fix: escape assistant-authored transcript role headers",
+        "url": "https://github.com/openclaw/openclaw/pull/99404",
+        "state": "open",
+        "author": "snowzlmbot",
+        "updatedAt": "2026-07-14T00:06:00Z"
+      },
+      {
+        "kind": "pr",
+        "number": 106919,
+        "title": "refactor(config): share canonical deep merge",
+        "url": "https://github.com/openclaw/openclaw/pull/106919",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-14T00:05:58Z"
+      },
+      {
+        "kind": "pr",
+        "number": 105870,
+        "title": "fix(agents): decouple MCP retirement from browser cleanup",
+        "url": "https://github.com/openclaw/openclaw/pull/105870",
+        "state": "open",
+        "author": "morluto",
+        "updatedAt": "2026-07-14T00:05:58Z"
+      },
+      {
+        "kind": "pr",
+        "number": 106918,
+        "title": "fix(fleet): harden logs and restore recovery",
+        "url": "https://github.com/openclaw/openclaw/pull/106918",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-14T00:05:57Z"
+      },
       {
         "kind": "pr",
         "number": 104085,
@@ -57,52 +114,16 @@
         "url": "https://github.com/openclaw/openclaw/pull/104085",
         "state": "open",
         "author": "ekinnee",
-        "updatedAt": "2026-07-13T23:11:29Z"
+        "updatedAt": "2026-07-14T00:05:56Z"
       },
       {
         "kind": "pr",
-        "number": 106864,
-        "title": "fix(android): stop killing long chat runs with hardcoded timeouts (#106863)",
-        "url": "https://github.com/openclaw/openclaw/pull/106864",
+        "number": 106890,
+        "title": "fix(plugins): cleanup session scheduler jobs on failed registration rollback (#106825)",
+        "url": "https://github.com/openclaw/openclaw/pull/106890",
         "state": "open",
-        "author": "LeC-D",
-        "updatedAt": "2026-07-13T23:11:28Z"
-      },
-      {
-        "kind": "pr",
-        "number": 105323,
-        "title": "fix(security): add estimate-before-decode guard to base64 paths",
-        "url": "https://github.com/openclaw/openclaw/pull/105323",
-        "state": "open",
-        "author": "xydigit-zt",
-        "updatedAt": "2026-07-13T23:11:15Z"
-      },
-      {
-        "kind": "pr",
-        "number": 102362,
-        "title": "fix(exec): memoize duplicate auto-review verdicts",
-        "url": "https://github.com/openclaw/openclaw/pull/102362",
-        "state": "open",
-        "author": "HOYALIM",
-        "updatedAt": "2026-07-13T23:11:15Z"
-      },
-      {
-        "kind": "pr",
-        "number": 106542,
-        "title": "fix(zalo): bound proxy fetcher cache to 64 entries",
-        "url": "https://github.com/openclaw/openclaw/pull/106542",
-        "state": "open",
-        "author": "Pick-cat",
-        "updatedAt": "2026-07-13T23:11:03Z"
-      },
-      {
-        "kind": "pr",
-        "number": 106846,
-        "title": "refactor(config): add canonical group-policy scope-tree resolver and migrate the first six channels",
-        "url": "https://github.com/openclaw/openclaw/pull/106846",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-13T23:10:56Z"
+        "author": "yangxiansheng",
+        "updatedAt": "2026-07-14T00:05:50Z"
       }
     ]
   }

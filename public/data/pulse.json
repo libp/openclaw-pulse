@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-15T22:12:47.360Z",
+  "generatedAt": "2026-07-15T23:11:35.529Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -59,11 +59,11 @@
     },
     {
       "capturedOn": "2026-07-15",
-      "capturedAt": "2026-07-15T22:12:47.360Z",
-      "issueOpen": 3886,
-      "issueClosed": 39852,
-      "prOpen": 2870,
-      "prClosed": 59412,
+      "capturedAt": "2026-07-15T23:11:35.529Z",
+      "issueOpen": 3885,
+      "issueClosed": 39854,
+      "prOpen": 2874,
+      "prClosed": 59424,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -73,113 +73,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 7359,
-        "title": "[Slack] Agent lacks visibility into own channel messages from DM sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/7359",
-        "state": "open",
-        "author": "trevorallred",
-        "updatedAt": "2026-07-15T22:11:33Z"
+        "number": 57555,
+        "title": "Built-in skill 'summarize' only supports brew install, no feedback when enable fails",
+        "url": "https://github.com/openclaw/openclaw/issues/57555",
+        "state": "closed",
+        "author": "gucasbrg",
+        "updatedAt": "2026-07-15T23:09:09Z"
       },
       {
         "kind": "issue",
-        "number": 107658,
-        "title": "[Docs Bug]: relaesa",
-        "url": "https://github.com/openclaw/openclaw/issues/107658",
+        "number": 108490,
+        "title": "Workboard workers can exit normally without committing terminal card state",
+        "url": "https://github.com/openclaw/openclaw/issues/108490",
         "state": "open",
-        "author": "fei-core",
-        "updatedAt": "2026-07-15T22:11:31Z"
-      },
-      {
-        "kind": "issue",
-        "number": 107517,
-        "title": "[Bug] Memory leak in WeakMap usage for draft progress tracking in streaming views",
-        "url": "https://github.com/openclaw/openclaw/issues/107517",
-        "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-15T22:11:03Z"
-      },
-      {
-        "kind": "issue",
-        "number": 107550,
-        "title": "[Performance] Thread pool starvation due to synchronous crypto hashing in password validation",
-        "url": "https://github.com/openclaw/openclaw/issues/107550",
-        "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-15T22:10:54Z"
-      },
-      {
-        "kind": "issue",
-        "number": 107520,
-        "title": "[Bug] Race condition on event-ledger log rotation under high concurrent load",
-        "url": "https://github.com/openclaw/openclaw/issues/107520",
-        "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-15T22:10:43Z"
-      },
-      {
-        "kind": "issue",
-        "number": 107531,
-        "title": "[Security] Privilege escalation via mock environment overrides in testing framework",
-        "url": "https://github.com/openclaw/openclaw/issues/107531",
-        "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-15T22:10:34Z"
+        "author": "buhrclaw",
+        "updatedAt": "2026-07-15T23:04:09Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 97175,
-        "title": "fix(context-engine): bound deferred turn maintenance with a per-task timeout (AI-assisted)",
-        "url": "https://github.com/openclaw/openclaw/pull/97175",
-        "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-07-15T22:12:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 108155,
-        "title": "fix(slack): restore HTTP event processing after webhook acknowledgement",
-        "url": "https://github.com/openclaw/openclaw/pull/108155",
-        "state": "open",
-        "author": "cesararevalo",
-        "updatedAt": "2026-07-15T22:12:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 108476,
-        "title": "fix(qa): keep package harness off private runtime",
-        "url": "https://github.com/openclaw/openclaw/pull/108476",
+        "number": 108493,
+        "title": "fix(ci): restore full-tree formatting",
+        "url": "https://github.com/openclaw/openclaw/pull/108493",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-15T22:12:30Z"
+        "updatedAt": "2026-07-15T23:11:06Z"
       },
       {
         "kind": "pr",
-        "number": 107623,
-        "title": "fix(codex): reject hex/exponent computer wait duration strings",
-        "url": "https://github.com/openclaw/openclaw/pull/107623",
+        "number": 108092,
+        "title": "fix(browser): keep CDP cursor text previews UTF-16 safe",
+        "url": "https://github.com/openclaw/openclaw/pull/108092",
         "state": "open",
-        "author": "Pick-cat",
-        "updatedAt": "2026-07-15T22:11:21Z"
+        "author": "zw-xysk",
+        "updatedAt": "2026-07-15T23:10:51Z"
       },
       {
         "kind": "pr",
-        "number": 104027,
-        "title": "chore(deps): bump the actions group across 1 directory with 14 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/104027",
+        "number": 104912,
+        "title": "fix: Control UI avatar initial breaks on emoji display names",
+        "url": "https://github.com/openclaw/openclaw/pull/104912",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-07-15T22:11:07Z"
+        "author": "xydigit-zt",
+        "updatedAt": "2026-07-15T23:10:45Z"
       },
       {
         "kind": "pr",
-        "number": 108469,
-        "title": "fix(cron): llama.cpp rejects unanchored cron tool schema patterns",
-        "url": "https://github.com/openclaw/openclaw/pull/108469",
+        "number": 108491,
+        "title": "fix(workboard): enforce worker terminal delivery",
+        "url": "https://github.com/openclaw/openclaw/pull/108491",
         "state": "open",
-        "author": "DecentralizedJM",
-        "updatedAt": "2026-07-15T22:10:43Z"
+        "author": "buhrclaw",
+        "updatedAt": "2026-07-15T23:10:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 107959,
+        "title": "fix(slack): bound cursor pagination with MAX_PAGES=50",
+        "url": "https://github.com/openclaw/openclaw/pull/107959",
+        "state": "open",
+        "author": "zw-xysk",
+        "updatedAt": "2026-07-15T23:09:50Z"
+      },
+      {
+        "kind": "pr",
+        "number": 108492,
+        "title": "refactor(ui): isolate sidebar session presentation",
+        "url": "https://github.com/openclaw/openclaw/pull/108492",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-15T23:09:28Z"
       }
     ]
   }

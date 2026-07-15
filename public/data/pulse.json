@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-14T23:10:25.343Z",
+  "generatedAt": "2026-07-15T00:03:58.536Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -56,56 +56,103 @@
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-07-15",
+      "capturedAt": "2026-07-15T00:03:58.536Z",
+      "issueOpen": 3862,
+      "issueClosed": 39742,
+      "prOpen": 2799,
+      "prClosed": 58997,
+      "workflowRuns": 40000,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 107488,
-        "title": "[Bug] Race condition in approval-classifier.ts when tokenization exceeds max tokens",
-        "url": "https://github.com/openclaw/openclaw/issues/107488",
+        "number": 107504,
+        "title": "[Bug] Silent fail-open when Tailscale interface binding fails on gateway start",
+        "url": "https://github.com/openclaw/openclaw/issues/107504",
         "state": "open",
         "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-14T23:10:08Z"
+        "updatedAt": "2026-07-15T00:03:47Z"
       },
       {
         "kind": "issue",
-        "number": 107746,
-        "title": "`openclaw update` misidentifies pnpm 11 global installations as npm",
-        "url": "https://github.com/openclaw/openclaw/issues/107746",
+        "number": 104501,
+        "title": "[Bug]: Control UI Quick Config — Model & Thinking card save fails silently in 2026.7.1-beta.5",
+        "url": "https://github.com/openclaw/openclaw/issues/104501",
         "state": "open",
-        "author": "kostrse",
-        "updatedAt": "2026-07-14T23:09:38Z"
+        "author": "ekinnee",
+        "updatedAt": "2026-07-15T00:03:13Z"
       },
       {
         "kind": "issue",
-        "number": 107575,
-        "title": "[Bug]: TLS certificate pin mismatch loop when connecting through Cloudflare Tunnel/Access (anycast edge certs)",
-        "url": "https://github.com/openclaw/openclaw/issues/107575",
+        "number": 107853,
+        "title": "[Bug]: Control UI Simple Personal card uses workspace-relative assistant avatar as img URL",
+        "url": "https://github.com/openclaw/openclaw/issues/107853",
         "state": "open",
-        "author": "stuartm1023",
-        "updatedAt": "2026-07-14T23:08:58Z"
+        "author": "Igallta",
+        "updatedAt": "2026-07-15T00:03:09Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107527,
+        "title": "[Security] Missing CSRF protection on local control plane HTTP routes",
+        "url": "https://github.com/openclaw/openclaw/issues/107527",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-15T00:03:09Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107852,
+        "title": "[Bug]: Control UI Simple Automations card hardcodes cron and skill counts to zero",
+        "url": "https://github.com/openclaw/openclaw/issues/107852",
+        "state": "open",
+        "author": "Igallta",
+        "updatedAt": "2026-07-15T00:03:08Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107523,
+        "title": "[Security] Session hijacking vulnerability due to predictable sequence IDs in gateway client",
+        "url": "https://github.com/openclaw/openclaw/issues/107523",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-15T00:02:29Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 104912,
-        "title": "fix: Control UI avatar initial breaks on emoji display names",
-        "url": "https://github.com/openclaw/openclaw/pull/104912",
+        "number": 107854,
+        "title": "fix: pin sessions dropped into Pinned",
+        "url": "https://github.com/openclaw/openclaw/pull/107854",
         "state": "open",
-        "author": "xydigit-zt",
-        "updatedAt": "2026-07-14T23:10:19Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-15T00:03:44Z"
       },
       {
         "kind": "pr",
-        "number": 93116,
-        "title": "fix(xai): respect ssrfPolicy and request.allowPrivateNetwork in image_generate",
-        "url": "https://github.com/openclaw/openclaw/pull/93116",
+        "number": 105978,
+        "title": "fix(slack): bound userCache growth with pruneMapToMaxSize",
+        "url": "https://github.com/openclaw/openclaw/pull/105978",
         "state": "open",
-        "author": "xydt-tanshanshan",
-        "updatedAt": "2026-07-14T23:10:14Z"
+        "author": "zw-xysk",
+        "updatedAt": "2026-07-15T00:03:27Z"
+      },
+      {
+        "kind": "pr",
+        "number": 106443,
+        "title": "feat(durable): hand off wakes to session queue",
+        "url": "https://github.com/openclaw/openclaw/pull/106443",
+        "state": "open",
+        "author": "mjnkao",
+        "updatedAt": "2026-07-15T00:03:23Z"
       },
       {
         "kind": "pr",
@@ -114,34 +161,25 @@
         "url": "https://github.com/openclaw/openclaw/pull/104580",
         "state": "open",
         "author": "hugenshen",
-        "updatedAt": "2026-07-14T23:10:08Z"
+        "updatedAt": "2026-07-15T00:03:21Z"
       },
       {
         "kind": "pr",
-        "number": 106473,
-        "title": "fix(logbook): reject malformed snapshot base64",
-        "url": "https://github.com/openclaw/openclaw/pull/106473",
+        "number": 107274,
+        "title": "fix(codex): continue after source-reply delivery instead of terminating turn",
+        "url": "https://github.com/openclaw/openclaw/pull/107274",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-07-14T23:10:02Z"
+        "author": "wangyan2026",
+        "updatedAt": "2026-07-15T00:03:09Z"
       },
       {
         "kind": "pr",
-        "number": 103692,
-        "title": "fix(msteams): strip internal tool-trace banners from outbound text",
-        "url": "https://github.com/openclaw/openclaw/pull/103692",
+        "number": 107374,
+        "title": "fix(gateway): force-discard ACP runtime after cancel/close timeout",
+        "url": "https://github.com/openclaw/openclaw/pull/107374",
         "state": "open",
-        "author": "ZOOWH",
-        "updatedAt": "2026-07-14T23:09:46Z"
-      },
-      {
-        "kind": "pr",
-        "number": 107794,
-        "title": "fix: prevent uninstallable source packages when AI runtime is unpublished",
-        "url": "https://github.com/openclaw/openclaw/pull/107794",
-        "state": "closed",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-07-14T23:09:33Z"
+        "author": "wuqxuan",
+        "updatedAt": "2026-07-15T00:02:54Z"
       }
     ]
   }

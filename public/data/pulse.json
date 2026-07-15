@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-15T11:47:12.462Z",
+  "generatedAt": "2026-07-15T14:07:46.279Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -59,72 +59,91 @@
     },
     {
       "capturedOn": "2026-07-15",
-      "capturedAt": "2026-07-15T11:47:12.462Z",
-      "issueOpen": 3864,
-      "issueClosed": 39820,
-      "prOpen": 2843,
-      "prClosed": 59296,
+      "capturedAt": "2026-07-15T14:07:46.279Z",
+      "issueOpen": 3874,
+      "issueClosed": 39825,
+      "prOpen": 2855,
+      "prClosed": 59324,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 107814,
+        "title": "[Bug]: gpt-5.3-codex-spark emits empty arguments for required tool calls",
+        "url": "https://github.com/openclaw/openclaw/issues/107814",
+        "state": "open",
+        "author": "laurenceputra",
+        "updatedAt": "2026-07-15T13:56:07Z"
+      },
+      {
+        "kind": "issue",
+        "number": 108331,
+        "title": "Session state corrupted to 'unknown' after provider 503, permanently blocks new messages",
+        "url": "https://github.com/openclaw/openclaw/issues/108331",
+        "state": "open",
+        "author": "Enominera",
+        "updatedAt": "2026-07-15T13:55:04Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 84554,
-        "title": "fix(memory-core): guard builtin fallback after qmd failures",
-        "url": "https://github.com/openclaw/openclaw/pull/84554",
+        "number": 108330,
+        "title": "fix(android): preserve emoji in tool detail previews",
+        "url": "https://github.com/openclaw/openclaw/pull/108330",
         "state": "open",
-        "author": "jetd1",
-        "updatedAt": "2026-07-15T11:46:47Z"
+        "author": "Pick-cat",
+        "updatedAt": "2026-07-15T14:07:23Z"
       },
       {
         "kind": "pr",
-        "number": 95899,
-        "title": "[AI] fix(agents): recover from non-resumable assistant tail by re-presenting last user message",
-        "url": "https://github.com/openclaw/openclaw/pull/95899",
+        "number": 108332,
+        "title": "feat: verify ClickClack setup after channel add",
+        "url": "https://github.com/openclaw/openclaw/pull/108332",
         "state": "open",
-        "author": "xydt-tanshanshan",
-        "updatedAt": "2026-07-15T11:46:45Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-07-15T14:07:19Z"
       },
       {
         "kind": "pr",
-        "number": 107672,
-        "title": "fix(shared): use UTF-8 byte length instead of String.length for avatar data URL limit",
-        "url": "https://github.com/openclaw/openclaw/pull/107672",
+        "number": 108334,
+        "title": "fix: keep unit-fast shards hermetic",
+        "url": "https://github.com/openclaw/openclaw/pull/108334",
         "state": "open",
-        "author": "wanyongstar",
-        "updatedAt": "2026-07-15T11:46:43Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-15T14:07:08Z"
       },
       {
         "kind": "pr",
-        "number": 107679,
-        "title": "fix(shared): skip drop-oldest loop when new element exceeds capacity",
-        "url": "https://github.com/openclaw/openclaw/pull/107679",
+        "number": 107720,
+        "title": "fix(skills): preserve emoji in long history scans",
+        "url": "https://github.com/openclaw/openclaw/pull/107720",
         "state": "open",
-        "author": "wanyongstar",
-        "updatedAt": "2026-07-15T11:46:01Z"
+        "author": "Leon-SK668",
+        "updatedAt": "2026-07-15T14:06:27Z"
       },
       {
         "kind": "pr",
-        "number": 97103,
-        "title": "[codex] fix(sessions): report archive cleanup in sessions cleanup",
-        "url": "https://github.com/openclaw/openclaw/pull/97103",
+        "number": 101760,
+        "title": "fix(nostr): strip internal tool-trace banners from outbound text",
+        "url": "https://github.com/openclaw/openclaw/pull/101760",
         "state": "open",
-        "author": "samrusani",
-        "updatedAt": "2026-07-15T11:46:00Z"
+        "author": "Pick-cat",
+        "updatedAt": "2026-07-15T14:05:49Z"
       },
       {
         "kind": "pr",
-        "number": 105089,
-        "title": "fix(synology-chat): bound outbound NAS response bodies to prevent Gateway OOM",
-        "url": "https://github.com/openclaw/openclaw/pull/105089",
+        "number": 107608,
+        "title": "fix(gateway): cap sessions.get when numeric limit is huge",
+        "url": "https://github.com/openclaw/openclaw/pull/107608",
         "state": "open",
-        "author": "zw-xysk",
-        "updatedAt": "2026-07-15T11:45:49Z"
+        "author": "hugenshen",
+        "updatedAt": "2026-07-15T14:05:36Z"
       }
     ]
   }

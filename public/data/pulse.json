@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-15T00:03:58.536Z",
+  "generatedAt": "2026-07-15T03:31:42.702Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -59,11 +59,11 @@
     },
     {
       "capturedOn": "2026-07-15",
-      "capturedAt": "2026-07-15T00:03:58.536Z",
-      "issueOpen": 3862,
-      "issueClosed": 39742,
-      "prOpen": 2799,
-      "prClosed": 58997,
+      "capturedAt": "2026-07-15T03:31:42.702Z",
+      "issueOpen": 3877,
+      "issueClosed": 39754,
+      "prOpen": 2811,
+      "prClosed": 59066,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -73,113 +73,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 107504,
-        "title": "[Bug] Silent fail-open when Tailscale interface binding fails on gateway start",
-        "url": "https://github.com/openclaw/openclaw/issues/107504",
+        "number": 107841,
+        "title": "[Bug]: Startup 'conflicting plugin install metadata' never resolves when stale plugin generation directories accumulate on disk (whatsapp, codex)",
+        "url": "https://github.com/openclaw/openclaw/issues/107841",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-15T00:03:47Z"
+        "author": "BrunoCerberus",
+        "updatedAt": "2026-07-15T03:31:17Z"
       },
       {
         "kind": "issue",
-        "number": 104501,
-        "title": "[Bug]: Control UI Quick Config — Model & Thinking card save fails silently in 2026.7.1-beta.5",
-        "url": "https://github.com/openclaw/openclaw/issues/104501",
+        "number": 107226,
+        "title": "`doctor --fix` silently drops the `plugins.allow` entry for a bundled→externalized plugin (codex), unregistering the agent harness — and the gateway still reports healthy",
+        "url": "https://github.com/openclaw/openclaw/issues/107226",
         "state": "open",
-        "author": "ekinnee",
-        "updatedAt": "2026-07-15T00:03:13Z"
-      },
-      {
-        "kind": "issue",
-        "number": 107853,
-        "title": "[Bug]: Control UI Simple Personal card uses workspace-relative assistant avatar as img URL",
-        "url": "https://github.com/openclaw/openclaw/issues/107853",
-        "state": "open",
-        "author": "Igallta",
-        "updatedAt": "2026-07-15T00:03:09Z"
-      },
-      {
-        "kind": "issue",
-        "number": 107527,
-        "title": "[Security] Missing CSRF protection on local control plane HTTP routes",
-        "url": "https://github.com/openclaw/openclaw/issues/107527",
-        "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-15T00:03:09Z"
-      },
-      {
-        "kind": "issue",
-        "number": 107852,
-        "title": "[Bug]: Control UI Simple Automations card hardcodes cron and skill counts to zero",
-        "url": "https://github.com/openclaw/openclaw/issues/107852",
-        "state": "open",
-        "author": "Igallta",
-        "updatedAt": "2026-07-15T00:03:08Z"
-      },
-      {
-        "kind": "issue",
-        "number": 107523,
-        "title": "[Security] Session hijacking vulnerability due to predictable sequence IDs in gateway client",
-        "url": "https://github.com/openclaw/openclaw/issues/107523",
-        "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-15T00:02:29Z"
+        "author": "Marvinthebored",
+        "updatedAt": "2026-07-15T03:30:45Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 107854,
-        "title": "fix: pin sessions dropped into Pinned",
-        "url": "https://github.com/openclaw/openclaw/pull/107854",
+        "number": 107620,
+        "title": "fix(signal): reject hex/exponent text-style span offsets",
+        "url": "https://github.com/openclaw/openclaw/pull/107620",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-15T00:03:44Z"
+        "author": "Pick-cat",
+        "updatedAt": "2026-07-15T03:31:38Z"
       },
       {
         "kind": "pr",
-        "number": 105978,
-        "title": "fix(slack): bound userCache growth with pruneMapToMaxSize",
-        "url": "https://github.com/openclaw/openclaw/pull/105978",
+        "number": 101774,
+        "title": "fix(plugins): bound marketplace manifest file reads",
+        "url": "https://github.com/openclaw/openclaw/pull/101774",
         "state": "open",
-        "author": "zw-xysk",
-        "updatedAt": "2026-07-15T00:03:27Z"
+        "author": "cxbAsDev",
+        "updatedAt": "2026-07-15T03:31:37Z"
       },
       {
         "kind": "pr",
-        "number": 106443,
-        "title": "feat(durable): hand off wakes to session queue",
-        "url": "https://github.com/openclaw/openclaw/pull/106443",
+        "number": 101773,
+        "title": "fix(security): bound plugin manifest reads in audit deep scan",
+        "url": "https://github.com/openclaw/openclaw/pull/101773",
         "state": "open",
-        "author": "mjnkao",
-        "updatedAt": "2026-07-15T00:03:23Z"
+        "author": "cxbAsDev",
+        "updatedAt": "2026-07-15T03:31:34Z"
       },
       {
         "kind": "pr",
-        "number": 104580,
-        "title": "fix(discord): add timeout to guarded gateway metadata fetches",
-        "url": "https://github.com/openclaw/openclaw/pull/104580",
+        "number": 101772,
+        "title": "fix(security): bound mcporter registry read in audit",
+        "url": "https://github.com/openclaw/openclaw/pull/101772",
         "state": "open",
-        "author": "hugenshen",
-        "updatedAt": "2026-07-15T00:03:21Z"
+        "author": "cxbAsDev",
+        "updatedAt": "2026-07-15T03:31:31Z"
       },
       {
         "kind": "pr",
-        "number": 107274,
-        "title": "fix(codex): continue after source-reply delivery instead of terminating turn",
-        "url": "https://github.com/openclaw/openclaw/pull/107274",
+        "number": 107937,
+        "title": "fix: include plugin LLM calls in usage diagnostics",
+        "url": "https://github.com/openclaw/openclaw/pull/107937",
         "state": "open",
-        "author": "wangyan2026",
-        "updatedAt": "2026-07-15T00:03:09Z"
+        "author": "Last-emo-boy",
+        "updatedAt": "2026-07-15T03:31:29Z"
       },
       {
         "kind": "pr",
-        "number": 107374,
-        "title": "fix(gateway): force-discard ACP runtime after cancel/close timeout",
-        "url": "https://github.com/openclaw/openclaw/pull/107374",
+        "number": 107070,
+        "title": "refactor(whatsapp): centralize inbound turn admission and history finalization",
+        "url": "https://github.com/openclaw/openclaw/pull/107070",
         "state": "open",
-        "author": "wuqxuan",
-        "updatedAt": "2026-07-15T00:02:54Z"
+        "author": "mcaxtr",
+        "updatedAt": "2026-07-15T03:31:24Z"
       }
     ]
   }

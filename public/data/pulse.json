@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-15T03:31:42.702Z",
+  "generatedAt": "2026-07-15T06:27:04.139Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -59,11 +59,11 @@
     },
     {
       "capturedOn": "2026-07-15",
-      "capturedAt": "2026-07-15T03:31:42.702Z",
-      "issueOpen": 3877,
-      "issueClosed": 39754,
-      "prOpen": 2811,
-      "prClosed": 59066,
+      "capturedAt": "2026-07-15T06:27:04.139Z",
+      "issueOpen": 3858,
+      "issueClosed": 39791,
+      "prOpen": 2790,
+      "prClosed": 59172,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -73,77 +73,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 107841,
-        "title": "[Bug]: Startup 'conflicting plugin install metadata' never resolves when stale plugin generation directories accumulate on disk (whatsapp, codex)",
-        "url": "https://github.com/openclaw/openclaw/issues/107841",
-        "state": "open",
-        "author": "BrunoCerberus",
-        "updatedAt": "2026-07-15T03:31:17Z"
+        "number": 108055,
+        "title": "[Bug]: Embedded terminal omits palette-aware TUI backgrounds",
+        "url": "https://github.com/openclaw/openclaw/issues/108055",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-07-15T06:25:21Z"
       },
       {
         "kind": "issue",
-        "number": 107226,
-        "title": "`doctor --fix` silently drops the `plugins.allow` entry for a bundled→externalized plugin (codex), unregistering the agent harness — and the gateway still reports healthy",
-        "url": "https://github.com/openclaw/openclaw/issues/107226",
+        "number": 107668,
+        "title": "[Feature]: claude-cli runtime should consume per-agent auth profiles for turn auth (multiple subscription accounts on one gateway)",
+        "url": "https://github.com/openclaw/openclaw/issues/107668",
         "state": "open",
-        "author": "Marvinthebored",
-        "updatedAt": "2026-07-15T03:30:45Z"
+        "author": "josh-cornelius",
+        "updatedAt": "2026-07-15T06:24:36Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 107620,
-        "title": "fix(signal): reject hex/exponent text-style span offsets",
-        "url": "https://github.com/openclaw/openclaw/pull/107620",
+        "number": 104288,
+        "title": "fix(msteams): add timeouts to SharePoint file send requests",
+        "url": "https://github.com/openclaw/openclaw/pull/104288",
+        "state": "open",
+        "author": "Alix-007",
+        "updatedAt": "2026-07-15T06:26:58Z"
+      },
+      {
+        "kind": "pr",
+        "number": 108058,
+        "title": "fix: preserve TUI restore state without JSON races",
+        "url": "https://github.com/openclaw/openclaw/pull/108058",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-15T06:26:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 106840,
+        "title": "fix: active-memory recall fails with billing rejections on subscription-only Claude CLI setups",
+        "url": "https://github.com/openclaw/openclaw/pull/106840",
+        "state": "open",
+        "author": "bill-starfoundry",
+        "updatedAt": "2026-07-15T06:26:50Z"
+      },
+      {
+        "kind": "pr",
+        "number": 106701,
+        "title": "fix: generated image previews return unauthorized",
+        "url": "https://github.com/openclaw/openclaw/pull/106701",
+        "state": "open",
+        "author": "sasan1200",
+        "updatedAt": "2026-07-15T06:26:44Z"
+      },
+      {
+        "kind": "pr",
+        "number": 107367,
+        "title": "fix(line): keep group history recorded during a mention turn",
+        "url": "https://github.com/openclaw/openclaw/pull/107367",
+        "state": "open",
+        "author": "edenfunf",
+        "updatedAt": "2026-07-15T06:26:21Z"
+      },
+      {
+        "kind": "pr",
+        "number": 106542,
+        "title": "fix(zalo): bound proxy fetcher cache to 64 entries",
+        "url": "https://github.com/openclaw/openclaw/pull/106542",
         "state": "open",
         "author": "Pick-cat",
-        "updatedAt": "2026-07-15T03:31:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 101774,
-        "title": "fix(plugins): bound marketplace manifest file reads",
-        "url": "https://github.com/openclaw/openclaw/pull/101774",
-        "state": "open",
-        "author": "cxbAsDev",
-        "updatedAt": "2026-07-15T03:31:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 101773,
-        "title": "fix(security): bound plugin manifest reads in audit deep scan",
-        "url": "https://github.com/openclaw/openclaw/pull/101773",
-        "state": "open",
-        "author": "cxbAsDev",
-        "updatedAt": "2026-07-15T03:31:34Z"
-      },
-      {
-        "kind": "pr",
-        "number": 101772,
-        "title": "fix(security): bound mcporter registry read in audit",
-        "url": "https://github.com/openclaw/openclaw/pull/101772",
-        "state": "open",
-        "author": "cxbAsDev",
-        "updatedAt": "2026-07-15T03:31:31Z"
-      },
-      {
-        "kind": "pr",
-        "number": 107937,
-        "title": "fix: include plugin LLM calls in usage diagnostics",
-        "url": "https://github.com/openclaw/openclaw/pull/107937",
-        "state": "open",
-        "author": "Last-emo-boy",
-        "updatedAt": "2026-07-15T03:31:29Z"
-      },
-      {
-        "kind": "pr",
-        "number": 107070,
-        "title": "refactor(whatsapp): centralize inbound turn admission and history finalization",
-        "url": "https://github.com/openclaw/openclaw/pull/107070",
-        "state": "open",
-        "author": "mcaxtr",
-        "updatedAt": "2026-07-15T03:31:24Z"
+        "updatedAt": "2026-07-15T06:26:16Z"
       }
     ]
   }

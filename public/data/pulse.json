@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-15T17:37:43.016Z",
+  "generatedAt": "2026-07-15T19:35:18.866Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -59,11 +59,11 @@
     },
     {
       "capturedOn": "2026-07-15",
-      "capturedAt": "2026-07-15T17:37:43.016Z",
-      "issueOpen": 3872,
-      "issueClosed": 39842,
-      "prOpen": 2865,
-      "prClosed": 59370,
+      "capturedAt": "2026-07-15T19:35:18.866Z",
+      "issueOpen": 3879,
+      "issueClosed": 39850,
+      "prOpen": 2873,
+      "prClosed": 59386,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -73,30 +73,21 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 108399,
-        "title": "Move Web Push subscriptions and VAPID identity to shared SQLite",
-        "url": "https://github.com/openclaw/openclaw/issues/108399",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-15T17:28:16Z"
-      },
-      {
-        "kind": "issue",
-        "number": 108288,
-        "title": "Refactor Reef friendship state into one SQLite authority",
-        "url": "https://github.com/openclaw/openclaw/issues/108288",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-07-15T17:21:56Z"
-      },
-      {
-        "kind": "issue",
         "number": 107658,
         "title": "[Docs Bug]: relaesa",
         "url": "https://github.com/openclaw/openclaw/issues/107658",
         "state": "open",
         "author": "fei-core",
-        "updatedAt": "2026-07-15T17:18:31Z"
+        "updatedAt": "2026-07-15T19:34:42Z"
+      },
+      {
+        "kind": "issue",
+        "number": 108421,
+        "title": "[Bug] doctor --fix does not migrate legacy whatsapp-default-allowFrom.json, preventing gateway startup after upgrade to 2026.7.2-beta.1",
+        "url": "https://github.com/openclaw/openclaw/issues/108421",
+        "state": "open",
+        "author": "smoe",
+        "updatedAt": "2026-07-15T19:34:37Z"
       },
       {
         "kind": "issue",
@@ -105,63 +96,90 @@
         "url": "https://github.com/openclaw/openclaw/issues/107517",
         "state": "open",
         "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-15T17:18:10Z"
+        "updatedAt": "2026-07-15T19:34:19Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107550,
+        "title": "[Performance] Thread pool starvation due to synchronous crypto hashing in password validation",
+        "url": "https://github.com/openclaw/openclaw/issues/107550",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-15T19:34:11Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107520,
+        "title": "[Bug] Race condition on event-ledger log rotation under high concurrent load",
+        "url": "https://github.com/openclaw/openclaw/issues/107520",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-15T19:34:03Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107531,
+        "title": "[Security] Privilege escalation via mock environment overrides in testing framework",
+        "url": "https://github.com/openclaw/openclaw/issues/107531",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-15T19:33:55Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 105089,
-        "title": "fix(synology-chat): bound outbound NAS response bodies to prevent Gateway OOM",
-        "url": "https://github.com/openclaw/openclaw/pull/105089",
-        "state": "open",
-        "author": "zw-xysk",
-        "updatedAt": "2026-07-15T17:37:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 108398,
-        "title": "feat: run and reclaim cloud worker sessions from Control UI",
-        "url": "https://github.com/openclaw/openclaw/pull/108398",
+        "number": 108386,
+        "title": "improve(ci): speed warm Node shards with sticky bind mount",
+        "url": "https://github.com/openclaw/openclaw/pull/108386",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-15T17:36:40Z"
+        "updatedAt": "2026-07-15T19:35:12Z"
       },
       {
         "kind": "pr",
-        "number": 106532,
-        "title": "refactor(gateway): adopt closedObject in recently added schema files",
-        "url": "https://github.com/openclaw/openclaw/pull/106532",
+        "number": 107623,
+        "title": "fix(codex): reject hex/exponent computer wait duration strings",
+        "url": "https://github.com/openclaw/openclaw/pull/107623",
         "state": "open",
-        "author": "cxbAsDev",
-        "updatedAt": "2026-07-15T17:36:34Z"
+        "author": "Pick-cat",
+        "updatedAt": "2026-07-15T19:34:34Z"
       },
       {
         "kind": "pr",
-        "number": 108400,
-        "title": "fix(ci): authenticate live Codex Docker release probe",
-        "url": "https://github.com/openclaw/openclaw/pull/108400",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-07-15T17:32:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 108119,
-        "title": "fix(gateway): evict stale ACP runtime handle on cancel/close timeout",
-        "url": "https://github.com/openclaw/openclaw/pull/108119",
+        "number": 84560,
+        "title": "feat(cli): support --dm-policy in channels add",
+        "url": "https://github.com/openclaw/openclaw/pull/84560",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-07-15T17:29:12Z"
+        "author": "akang1798",
+        "updatedAt": "2026-07-15T19:34:20Z"
       },
       {
         "kind": "pr",
-        "number": 108405,
-        "title": "fix(android): make onboarding layouts responsive",
-        "url": "https://github.com/openclaw/openclaw/pull/108405",
+        "number": 104027,
+        "title": "chore(deps): bump the actions group across 1 directory with 14 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/104027",
         "state": "open",
-        "author": "IWhatsskill",
-        "updatedAt": "2026-07-15T17:28:20Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-07-15T19:34:19Z"
+      },
+      {
+        "kind": "pr",
+        "number": 108155,
+        "title": "fix(slack): restore HTTP event processing after webhook acknowledgement",
+        "url": "https://github.com/openclaw/openclaw/pull/108155",
+        "state": "open",
+        "author": "cesararevalo",
+        "updatedAt": "2026-07-15T19:33:49Z"
+      },
+      {
+        "kind": "pr",
+        "number": 108024,
+        "title": "fix(agents): wake owning session after generated-media direct delivery",
+        "url": "https://github.com/openclaw/openclaw/pull/108024",
+        "state": "open",
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-07-15T19:33:36Z"
       }
     ]
   }

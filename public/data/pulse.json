@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-15T14:07:46.279Z",
+  "generatedAt": "2026-07-15T15:48:24.782Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -59,11 +59,11 @@
     },
     {
       "capturedOn": "2026-07-15",
-      "capturedAt": "2026-07-15T14:07:46.279Z",
-      "issueOpen": 3874,
-      "issueClosed": 39825,
-      "prOpen": 2855,
-      "prClosed": 59324,
+      "capturedAt": "2026-07-15T15:48:24.782Z",
+      "issueOpen": 3869,
+      "issueClosed": 39837,
+      "prOpen": 2861,
+      "prClosed": 59345,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -73,24 +73,78 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 107814,
-        "title": "[Bug]: gpt-5.3-codex-spark emits empty arguments for required tool calls",
-        "url": "https://github.com/openclaw/openclaw/issues/107814",
+        "number": 108367,
+        "title": "[Bug]: Unanchored regex pattern in schema causes 400 from Ornith1.0 model running llama.cpp when cron tool is enabled",
+        "url": "https://github.com/openclaw/openclaw/issues/108367",
         "state": "open",
-        "author": "laurenceputra",
-        "updatedAt": "2026-07-15T13:56:07Z"
+        "author": "ProFire",
+        "updatedAt": "2026-07-15T15:48:19Z"
       },
       {
         "kind": "issue",
-        "number": 108331,
-        "title": "Session state corrupted to 'unknown' after provider 503, permanently blocks new messages",
-        "url": "https://github.com/openclaw/openclaw/issues/108331",
+        "number": 108366,
+        "title": "[Feature]: Move Discord command deployment cache to SQLite",
+        "url": "https://github.com/openclaw/openclaw/issues/108366",
         "state": "open",
-        "author": "Enominera",
-        "updatedAt": "2026-07-15T13:55:04Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-15T15:42:32Z"
+      },
+      {
+        "kind": "issue",
+        "number": 108318,
+        "title": "refactor(state): move skill upload staging to SQLite",
+        "url": "https://github.com/openclaw/openclaw/issues/108318",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-07-15T15:40:49Z"
       }
     ],
     "prs": [
+      {
+        "kind": "pr",
+        "number": 106538,
+        "title": "fix(qa-channel): add timeout to qa-bus state guarded fetch",
+        "url": "https://github.com/openclaw/openclaw/pull/106538",
+        "state": "open",
+        "author": "Pick-cat",
+        "updatedAt": "2026-07-15T15:48:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 108368,
+        "title": "fix(ui): prevent agent-select avatar fetch hangs",
+        "url": "https://github.com/openclaw/openclaw/pull/108368",
+        "state": "open",
+        "author": "hugenshen",
+        "updatedAt": "2026-07-15T15:48:14Z"
+      },
+      {
+        "kind": "pr",
+        "number": 108335,
+        "title": "fix(codex): app-server failures corrupt Unicode diagnostics across stderr chunks",
+        "url": "https://github.com/openclaw/openclaw/pull/108335",
+        "state": "open",
+        "author": "mushuiyu886",
+        "updatedAt": "2026-07-15T15:48:14Z"
+      },
+      {
+        "kind": "pr",
+        "number": 108212,
+        "title": "fix(openai): treat blank env API key as unconfigured in speech provider",
+        "url": "https://github.com/openclaw/openclaw/pull/108212",
+        "state": "open",
+        "author": "lsr911",
+        "updatedAt": "2026-07-15T15:46:24Z"
+      },
+      {
+        "kind": "pr",
+        "number": 107437,
+        "title": "fix(ai): guard stream error serialization against circular non-Error values (issues #106570 #106568)",
+        "url": "https://github.com/openclaw/openclaw/pull/107437",
+        "state": "open",
+        "author": "LavyaTandel",
+        "updatedAt": "2026-07-15T15:44:37Z"
+      },
       {
         "kind": "pr",
         "number": 108330,
@@ -98,52 +152,7 @@
         "url": "https://github.com/openclaw/openclaw/pull/108330",
         "state": "open",
         "author": "Pick-cat",
-        "updatedAt": "2026-07-15T14:07:23Z"
-      },
-      {
-        "kind": "pr",
-        "number": 108332,
-        "title": "feat: verify ClickClack setup after channel add",
-        "url": "https://github.com/openclaw/openclaw/pull/108332",
-        "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-07-15T14:07:19Z"
-      },
-      {
-        "kind": "pr",
-        "number": 108334,
-        "title": "fix: keep unit-fast shards hermetic",
-        "url": "https://github.com/openclaw/openclaw/pull/108334",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-15T14:07:08Z"
-      },
-      {
-        "kind": "pr",
-        "number": 107720,
-        "title": "fix(skills): preserve emoji in long history scans",
-        "url": "https://github.com/openclaw/openclaw/pull/107720",
-        "state": "open",
-        "author": "Leon-SK668",
-        "updatedAt": "2026-07-15T14:06:27Z"
-      },
-      {
-        "kind": "pr",
-        "number": 101760,
-        "title": "fix(nostr): strip internal tool-trace banners from outbound text",
-        "url": "https://github.com/openclaw/openclaw/pull/101760",
-        "state": "open",
-        "author": "Pick-cat",
-        "updatedAt": "2026-07-15T14:05:49Z"
-      },
-      {
-        "kind": "pr",
-        "number": 107608,
-        "title": "fix(gateway): cap sessions.get when numeric limit is huge",
-        "url": "https://github.com/openclaw/openclaw/pull/107608",
-        "state": "open",
-        "author": "hugenshen",
-        "updatedAt": "2026-07-15T14:05:36Z"
+        "updatedAt": "2026-07-15T15:43:54Z"
       }
     ]
   }

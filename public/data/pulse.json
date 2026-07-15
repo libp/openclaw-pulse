@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-15T15:48:24.782Z",
+  "generatedAt": "2026-07-15T17:37:43.016Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -59,11 +59,11 @@
     },
     {
       "capturedOn": "2026-07-15",
-      "capturedAt": "2026-07-15T15:48:24.782Z",
-      "issueOpen": 3869,
-      "issueClosed": 39837,
-      "prOpen": 2861,
-      "prClosed": 59345,
+      "capturedAt": "2026-07-15T17:37:43.016Z",
+      "issueOpen": 3872,
+      "issueClosed": 39842,
+      "prOpen": 2865,
+      "prClosed": 59370,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -73,86 +73,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 108367,
-        "title": "[Bug]: Unanchored regex pattern in schema causes 400 from Ornith1.0 model running llama.cpp when cron tool is enabled",
-        "url": "https://github.com/openclaw/openclaw/issues/108367",
-        "state": "open",
-        "author": "ProFire",
-        "updatedAt": "2026-07-15T15:48:19Z"
-      },
-      {
-        "kind": "issue",
-        "number": 108366,
-        "title": "[Feature]: Move Discord command deployment cache to SQLite",
-        "url": "https://github.com/openclaw/openclaw/issues/108366",
+        "number": 108399,
+        "title": "Move Web Push subscriptions and VAPID identity to shared SQLite",
+        "url": "https://github.com/openclaw/openclaw/issues/108399",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-15T15:42:32Z"
+        "updatedAt": "2026-07-15T17:28:16Z"
       },
       {
         "kind": "issue",
-        "number": 108318,
-        "title": "refactor(state): move skill upload staging to SQLite",
-        "url": "https://github.com/openclaw/openclaw/issues/108318",
+        "number": 108288,
+        "title": "Refactor Reef friendship state into one SQLite authority",
+        "url": "https://github.com/openclaw/openclaw/issues/108288",
         "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-07-15T15:40:49Z"
+        "updatedAt": "2026-07-15T17:21:56Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107658,
+        "title": "[Docs Bug]: relaesa",
+        "url": "https://github.com/openclaw/openclaw/issues/107658",
+        "state": "open",
+        "author": "fei-core",
+        "updatedAt": "2026-07-15T17:18:31Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107517,
+        "title": "[Bug] Memory leak in WeakMap usage for draft progress tracking in streaming views",
+        "url": "https://github.com/openclaw/openclaw/issues/107517",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-15T17:18:10Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 106538,
-        "title": "fix(qa-channel): add timeout to qa-bus state guarded fetch",
-        "url": "https://github.com/openclaw/openclaw/pull/106538",
+        "number": 105089,
+        "title": "fix(synology-chat): bound outbound NAS response bodies to prevent Gateway OOM",
+        "url": "https://github.com/openclaw/openclaw/pull/105089",
         "state": "open",
-        "author": "Pick-cat",
-        "updatedAt": "2026-07-15T15:48:18Z"
+        "author": "zw-xysk",
+        "updatedAt": "2026-07-15T17:37:02Z"
       },
       {
         "kind": "pr",
-        "number": 108368,
-        "title": "fix(ui): prevent agent-select avatar fetch hangs",
-        "url": "https://github.com/openclaw/openclaw/pull/108368",
+        "number": 108398,
+        "title": "feat: run and reclaim cloud worker sessions from Control UI",
+        "url": "https://github.com/openclaw/openclaw/pull/108398",
         "state": "open",
-        "author": "hugenshen",
-        "updatedAt": "2026-07-15T15:48:14Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-15T17:36:40Z"
       },
       {
         "kind": "pr",
-        "number": 108335,
-        "title": "fix(codex): app-server failures corrupt Unicode diagnostics across stderr chunks",
-        "url": "https://github.com/openclaw/openclaw/pull/108335",
+        "number": 106532,
+        "title": "refactor(gateway): adopt closedObject in recently added schema files",
+        "url": "https://github.com/openclaw/openclaw/pull/106532",
         "state": "open",
-        "author": "mushuiyu886",
-        "updatedAt": "2026-07-15T15:48:14Z"
+        "author": "cxbAsDev",
+        "updatedAt": "2026-07-15T17:36:34Z"
       },
       {
         "kind": "pr",
-        "number": 108212,
-        "title": "fix(openai): treat blank env API key as unconfigured in speech provider",
-        "url": "https://github.com/openclaw/openclaw/pull/108212",
-        "state": "open",
-        "author": "lsr911",
-        "updatedAt": "2026-07-15T15:46:24Z"
+        "number": 108400,
+        "title": "fix(ci): authenticate live Codex Docker release probe",
+        "url": "https://github.com/openclaw/openclaw/pull/108400",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-07-15T17:32:20Z"
       },
       {
         "kind": "pr",
-        "number": 107437,
-        "title": "fix(ai): guard stream error serialization against circular non-Error values (issues #106570 #106568)",
-        "url": "https://github.com/openclaw/openclaw/pull/107437",
+        "number": 108119,
+        "title": "fix(gateway): evict stale ACP runtime handle on cancel/close timeout",
+        "url": "https://github.com/openclaw/openclaw/pull/108119",
         "state": "open",
-        "author": "LavyaTandel",
-        "updatedAt": "2026-07-15T15:44:37Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-07-15T17:29:12Z"
       },
       {
         "kind": "pr",
-        "number": 108330,
-        "title": "fix(android): preserve emoji in tool detail previews",
-        "url": "https://github.com/openclaw/openclaw/pull/108330",
+        "number": 108405,
+        "title": "fix(android): make onboarding layouts responsive",
+        "url": "https://github.com/openclaw/openclaw/pull/108405",
         "state": "open",
-        "author": "Pick-cat",
-        "updatedAt": "2026-07-15T15:43:54Z"
+        "author": "IWhatsskill",
+        "updatedAt": "2026-07-15T17:28:20Z"
       }
     ]
   }

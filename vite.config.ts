@@ -5,12 +5,12 @@ import { sites } from "./build/sites-vite-plugin";
 // macOS Seatbelt blocks FSEvents, so Codex previews need polling for HMR.
 const isCodexSeatbeltSandbox = process.env.CODEX_SANDBOX === "seatbelt";
 
-// D1/R2 bindings live in wrangler.jsonc as the single source of truth. Only
-// dev-only main + compat flags belong here: declaring bindings in both places
-// makes @cloudflare/vite-plugin emit duplicate D1 entries in dist/server.
+// Deploy config (main, compat flags, D1 binding) lives in wrangler.jsonc as the
+// single source of truth — @cloudflare/vite-plugin reads it for dev too. Only the
+// dev-time main override (source entry instead of dist) belongs here: declaring
+// arrays (flags/d1) in both places makes the plugin emit duplicates in dist/server.
 const localBindingConfig = {
   main: "./worker/index.ts",
-  compatibility_flags: ["nodejs_compat"],
 };
 
 export default defineConfig(async () => {

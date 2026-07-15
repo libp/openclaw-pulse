@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-:root { --paper:#f4f1e9; --ink:#121515; --muted:#686c69; --line:#c9c8c1; --blue:#2457e6; --orange:#ed6548; --terminal:#07131b; --green:#68f0a2; }
+:root { --paper:#f4f1e9; --ink:#121515; --muted:#686c69; --line:#c9c8c1; --blue:#2457e6; --orange:#ed6548; --terminal:#07131b; --green:#68f0a2; --teal:#1aa3a3; --purple:#7c4dff; --gold:#c98a1a; --pink:#d6336c; }
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
 body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--font-geist-sans),"Noto Sans SC",sans-serif; }
@@ -47,7 +47,7 @@ button { font:inherit; }
 .section-heading h2,.method h2 { margin:0; max-width:780px; font:600 clamp(35px,4vw,58px)/1.04 Georgia,"Songti SC",serif; letter-spacing:-.045em; }
 .section-heading>p { max-width:430px; margin:0; color:var(--muted); line-height:1.7; }
 .chart-heading { align-items:flex-start; }
-.legend { display:flex; gap:9px; }
+.legend { display:flex; gap:9px; flex-wrap:wrap; }
 .legend button { border:1px solid var(--line); background:transparent; padding:9px 12px; display:flex; align-items:center; gap:8px; cursor:pointer; opacity:.45; }
 .legend button.active { opacity:1; border-color:var(--ink); }
 .legend i { width:9px; height:9px; border-radius:50%; }.legend .issue i { background:var(--blue); }.legend .pr i { background:var(--orange); }
@@ -75,6 +75,25 @@ button { font:inherit; }
 .method { display:grid; grid-template-columns:.55fr 1.45fr; gap:60px; }.method .eyebrow { margin-top:9px; }.method h2 { font-size:clamp(34px,3.8vw,54px); }.method>div { display:grid; grid-template-columns:1fr 1fr; gap:30px; color:#555a57; line-height:1.85; }
 footer { width:min(1380px,92vw); margin:0 auto; min-height:150px; display:flex; align-items:center; justify-content:space-between; } footer div { display:flex; flex-direction:column; gap:7px; } footer span,footer a { color:var(--muted); font:11px var(--font-geist-mono),monospace; }
 @keyframes pulse { 50% { opacity:.3; transform:scale(.7); } } @keyframes line-in { from { stroke-dasharray:2000; stroke-dashoffset:2000; } to { stroke-dasharray:2000; stroke-dashoffset:0; } }
-@media (max-width:900px) { .site-header { grid-template-columns:1fr auto; }.site-header nav { display:none; }.hero { grid-template-columns:1fr; padding-top:56px; }.snapshot { max-width:620px; }.signal-strip { grid-template-columns:1fr 1fr; }.signal-strip>div:nth-child(2) { border-right:0; }.velocity-grid { grid-template-columns:1fr; }.terminal-card { min-height:230px; }.activity-grid,.method { grid-template-columns:1fr; }.section-heading { align-items:flex-start; flex-direction:column; }.method>div { grid-template-columns:1fr 1fr; } }
-@media (max-width:600px) { .site-header { padding:0 20px; }.repo-link { font-size:0; }.repo-link:after { content:"GitHub ↗"; font-size:11px; }.page-shell,footer { width:calc(100% - 36px); }.hero { min-height:auto; padding:46px 0; }.hero h1 { font-size:49px; }.intro { font-size:15px; }.snapshot-row strong { font-size:42px; }.signal-strip { grid-template-columns:1fr 1fr; }.signal-strip>div { min-height:125px; padding:21px 16px; }.signal-strip strong { font-size:28px; }.trend-panel,.velocity,.activity,.timeline,.method { padding:58px 0; }.legend { flex-wrap:wrap; }.velocity-grid,.activity-grid,.method>div { grid-template-columns:1fr; }.method { gap:30px; } footer { align-items:flex-start; flex-direction:column; justify-content:center; gap:24px; } }
+@media (max-width:900px) { .site-header { grid-template-columns:1fr auto; }.site-header nav { display:none; }.hero { grid-template-columns:1fr; padding-top:56px; }.snapshot { max-width:620px; }.signal-strip { grid-template-columns:1fr 1fr; }.signal-strip>div:nth-child(2) { border-right:0; }.velocity-grid { grid-template-columns:1fr; }.terminal-card { min-height:230px; }.activity-grid,.method { grid-template-columns:1fr; }.section-heading { align-items:flex-start; flex-direction:column; }.method>div { grid-template-columns:1fr 1fr; }.scale-grid { grid-template-columns:1fr 1fr; } }
+@media (max-width:600px) { .site-header { padding:0 20px; }.repo-link { font-size:0; }.repo-link:after { content:"GitHub ↗"; font-size:11px; }.page-shell,footer { width:calc(100% - 36px); }.hero { min-height:auto; padding:46px 0; }.hero h1 { font-size:49px; }.intro { font-size:15px; }.snapshot-row strong { font-size:42px; }.signal-strip { grid-template-columns:1fr 1fr; }.signal-strip>div { min-height:125px; padding:21px 16px; }.signal-strip strong { font-size:28px; }.trend-panel,.velocity,.activity,.timeline,.method { padding:58px 0; }.legend { flex-wrap:wrap; }.velocity-grid,.activity-grid,.method>div { grid-template-columns:1fr; }.scale-grid { grid-template-columns:1fr; } footer { align-items:flex-start; flex-direction:column; justify-content:center; gap:24px; } }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } * { animation:none!important; transition:none!important; } }
+
+/* TrendChart 叠加序列(独立归一化,虚线区分量纲不同的 closed/burn/velocity) */
+.closed-line { stroke:var(--teal); }
+.burn-line { stroke:var(--gold); stroke-dasharray:2 6; }
+.velocity-line { stroke:var(--purple); stroke-dasharray:6 4; }
+.legend .closed i { background:var(--teal); }
+.legend .burn i { background:var(--gold); }
+.legend .velocity i { background:var(--purple); }
+
+/* 仓库规模卡片 + sparkline */
+.scale-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; }
+.scale-card { min-height:200px; padding:24px; background:#f8f6ef; border:1px solid var(--ink); display:flex; flex-direction:column; }
+.scale-card span { font:600 11px var(--font-geist-mono),monospace; letter-spacing:.1em; color:var(--muted); }
+.scale-card strong { margin:14px 0 10px; font:500 clamp(34px,3.6vw,52px) var(--font-geist-mono),monospace; letter-spacing:-.05em; }
+.scale-card.gold strong { color:var(--gold); }.scale-card.teal strong { color:var(--teal); }.scale-card.purple strong { color:var(--purple); }.scale-card.pink strong { color:var(--pink); }
+.scale-card i { margin-top:auto; color:var(--muted); font:600 10px var(--font-geist-mono),monospace; letter-spacing:.1em; font-style:normal; }
+.spark { width:100%; height:28px; margin-bottom:8px; }
+.spark-line { fill:none; stroke-width:2; }
+.gold-line { stroke:var(--gold); }.teal-line { stroke:var(--teal); }.purple-line { stroke:var(--purple); }.pink-line { stroke:var(--pink); }

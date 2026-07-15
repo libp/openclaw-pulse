@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-15T21:14:21.464Z",
+  "generatedAt": "2026-07-15T22:12:47.360Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -59,11 +59,11 @@
     },
     {
       "capturedOn": "2026-07-15",
-      "capturedAt": "2026-07-15T21:14:21.464Z",
-      "issueOpen": 3881,
+      "capturedAt": "2026-07-15T22:12:47.360Z",
+      "issueOpen": 3886,
       "issueClosed": 39852,
-      "prOpen": 2869,
-      "prClosed": 59406,
+      "prOpen": 2870,
+      "prClosed": 59412,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -73,95 +73,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 9409,
-        "title": "Improve context overflow error message with specifics",
-        "url": "https://github.com/openclaw/openclaw/issues/9409",
+        "number": 7359,
+        "title": "[Slack] Agent lacks visibility into own channel messages from DM sessions",
+        "url": "https://github.com/openclaw/openclaw/issues/7359",
         "state": "open",
-        "author": "liaosvcaf",
-        "updatedAt": "2026-07-15T21:07:10Z"
+        "author": "trevorallred",
+        "updatedAt": "2026-07-15T22:11:33Z"
       },
       {
         "kind": "issue",
-        "number": 108445,
-        "title": "Move node-host identity and connection state to shared SQLite",
-        "url": "https://github.com/openclaw/openclaw/issues/108445",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-07-15T21:02:25Z"
+        "number": 107658,
+        "title": "[Docs Bug]: relaesa",
+        "url": "https://github.com/openclaw/openclaw/issues/107658",
+        "state": "open",
+        "author": "fei-core",
+        "updatedAt": "2026-07-15T22:11:31Z"
       },
       {
         "kind": "issue",
-        "number": 108460,
-        "title": "Bug: gpt-5.6-sol fails every turn with \"Responses stream completed with unresolved tool calls\"",
-        "url": "https://github.com/openclaw/openclaw/issues/108460",
+        "number": 107517,
+        "title": "[Bug] Memory leak in WeakMap usage for draft progress tracking in streaming views",
+        "url": "https://github.com/openclaw/openclaw/issues/107517",
         "state": "open",
-        "author": "snotty",
-        "updatedAt": "2026-07-15T20:56:36Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-15T22:11:03Z"
       },
       {
         "kind": "issue",
-        "number": 108459,
-        "title": "Update can leave gateway down after concurrent update.run and legacy state migration conflicts",
-        "url": "https://github.com/openclaw/openclaw/issues/108459",
+        "number": 107550,
+        "title": "[Performance] Thread pool starvation due to synchronous crypto hashing in password validation",
+        "url": "https://github.com/openclaw/openclaw/issues/107550",
         "state": "open",
-        "author": "drarturryzhov-boop",
-        "updatedAt": "2026-07-15T20:54:23Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-15T22:10:54Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107520,
+        "title": "[Bug] Race condition on event-ledger log rotation under high concurrent load",
+        "url": "https://github.com/openclaw/openclaw/issues/107520",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-15T22:10:43Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107531,
+        "title": "[Security] Privilege escalation via mock environment overrides in testing framework",
+        "url": "https://github.com/openclaw/openclaw/issues/107531",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-15T22:10:34Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 108464,
-        "title": "fix(qa): include Matrix and Slack threads in coverage inventory",
-        "url": "https://github.com/openclaw/openclaw/pull/108464",
+        "number": 97175,
+        "title": "fix(context-engine): bound deferred turn maintenance with a per-task timeout (AI-assisted)",
+        "url": "https://github.com/openclaw/openclaw/pull/97175",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-07-15T21:12:10Z"
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-07-15T22:12:42Z"
       },
       {
         "kind": "pr",
-        "number": 108440,
-        "title": "refactor(plugin-sdk): narrow wildcard barrels to explicit used exports",
-        "url": "https://github.com/openclaw/openclaw/pull/108440",
+        "number": 108155,
+        "title": "fix(slack): restore HTTP event processing after webhook acknowledgement",
+        "url": "https://github.com/openclaw/openclaw/pull/108155",
+        "state": "open",
+        "author": "cesararevalo",
+        "updatedAt": "2026-07-15T22:12:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 108476,
+        "title": "fix(qa): keep package harness off private runtime",
+        "url": "https://github.com/openclaw/openclaw/pull/108476",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-15T21:11:48Z"
+        "updatedAt": "2026-07-15T22:12:30Z"
       },
       {
         "kind": "pr",
-        "number": 93680,
-        "title": "feat(browser): side panel copilot with per-tab agent sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/93680",
+        "number": 107623,
+        "title": "fix(codex): reject hex/exponent computer wait duration strings",
+        "url": "https://github.com/openclaw/openclaw/pull/107623",
         "state": "open",
-        "author": "anagnorisis2peripeteia",
-        "updatedAt": "2026-07-15T21:10:31Z"
+        "author": "Pick-cat",
+        "updatedAt": "2026-07-15T22:11:21Z"
       },
       {
         "kind": "pr",
-        "number": 108345,
-        "title": "improve(signal): make transport ownership account-scoped",
-        "url": "https://github.com/openclaw/openclaw/pull/108345",
+        "number": 104027,
+        "title": "chore(deps): bump the actions group across 1 directory with 14 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/104027",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-07-15T21:09:23Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-07-15T22:11:07Z"
       },
       {
         "kind": "pr",
-        "number": 80388,
-        "title": "feat(plugins): add Control UI entry points",
-        "url": "https://github.com/openclaw/openclaw/pull/80388",
+        "number": 108469,
+        "title": "fix(cron): llama.cpp rejects unanchored cron tool schema patterns",
+        "url": "https://github.com/openclaw/openclaw/pull/108469",
         "state": "open",
-        "author": "Ittiz",
-        "updatedAt": "2026-07-15T21:08:04Z"
-      },
-      {
-        "kind": "pr",
-        "number": 108463,
-        "title": "docs: align QA transport and release workflow contracts",
-        "url": "https://github.com/openclaw/openclaw/pull/108463",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-07-15T21:07:40Z"
+        "author": "DecentralizedJM",
+        "updatedAt": "2026-07-15T22:10:43Z"
       }
     ]
   }

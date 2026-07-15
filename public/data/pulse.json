@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-15T06:27:04.139Z",
+  "generatedAt": "2026-07-15T09:20:59.782Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -59,11 +59,11 @@
     },
     {
       "capturedOn": "2026-07-15",
-      "capturedAt": "2026-07-15T06:27:04.139Z",
-      "issueOpen": 3858,
-      "issueClosed": 39791,
-      "prOpen": 2790,
-      "prClosed": 59172,
+      "capturedAt": "2026-07-15T09:20:59.782Z",
+      "issueOpen": 3857,
+      "issueClosed": 39810,
+      "prOpen": 2831,
+      "prClosed": 59259,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -73,77 +73,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 108055,
-        "title": "[Bug]: Embedded terminal omits palette-aware TUI backgrounds",
-        "url": "https://github.com/openclaw/openclaw/issues/108055",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-07-15T06:25:21Z"
+        "number": 107303,
+        "title": "[Bug]: Codex app-server intermittently produces no model events for 120s, then profile cooldown causes cascading fallbacks",
+        "url": "https://github.com/openclaw/openclaw/issues/107303",
+        "state": "open",
+        "author": "bruhsh",
+        "updatedAt": "2026-07-15T09:20:46Z"
       },
       {
         "kind": "issue",
-        "number": 107668,
-        "title": "[Feature]: claude-cli runtime should consume per-agent auth profiles for turn auth (multiple subscription accounts on one gateway)",
-        "url": "https://github.com/openclaw/openclaw/issues/107668",
+        "number": 106730,
+        "title": "[Bug]:",
+        "url": "https://github.com/openclaw/openclaw/issues/106730",
         "state": "open",
-        "author": "josh-cornelius",
-        "updatedAt": "2026-07-15T06:24:36Z"
+        "author": "gregb100",
+        "updatedAt": "2026-07-15T09:19:25Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107708,
+        "title": "Enhancement: Update Skill Workshop prompt to enforce actual skill content generation, not plan documents",
+        "url": "https://github.com/openclaw/openclaw/issues/107708",
+        "state": "open",
+        "author": "NossieUK",
+        "updatedAt": "2026-07-15T09:19:22Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107750,
+        "title": "Session maintenance: durable conversation pointers have no retention path, and maxEntries below the durable-pointer count causes permanent per-write cap churn",
+        "url": "https://github.com/openclaw/openclaw/issues/107750",
+        "state": "open",
+        "author": "apalmiere",
+        "updatedAt": "2026-07-15T09:18:50Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 104288,
-        "title": "fix(msteams): add timeouts to SharePoint file send requests",
-        "url": "https://github.com/openclaw/openclaw/pull/104288",
-        "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-07-15T06:26:58Z"
+        "number": 91722,
+        "title": "Refactor HTTP egress around external proxy enforcement",
+        "url": "https://github.com/openclaw/openclaw/pull/91722",
+        "state": "closed",
+        "author": "joshavant",
+        "updatedAt": "2026-07-15T09:20:48Z"
       },
       {
         "kind": "pr",
-        "number": 108058,
-        "title": "fix: preserve TUI restore state without JSON races",
-        "url": "https://github.com/openclaw/openclaw/pull/108058",
+        "number": 108197,
+        "title": "fix(ui): restore scrollbar in skill workshop board mode",
+        "url": "https://github.com/openclaw/openclaw/pull/108197",
+        "state": "open",
+        "author": "xianshishan",
+        "updatedAt": "2026-07-15T09:20:42Z"
+      },
+      {
+        "kind": "pr",
+        "number": 101248,
+        "title": "feat(subagents): native announceTarget for subagent completion routing (#27445)",
+        "url": "https://github.com/openclaw/openclaw/pull/101248",
+        "state": "open",
+        "author": "nicknmorty",
+        "updatedAt": "2026-07-15T09:19:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 107679,
+        "title": "fix(shared): skip drop-oldest loop when new element exceeds capacity",
+        "url": "https://github.com/openclaw/openclaw/pull/107679",
+        "state": "open",
+        "author": "wanyongstar",
+        "updatedAt": "2026-07-15T09:19:31Z"
+      },
+      {
+        "kind": "pr",
+        "number": 108154,
+        "title": "fix(ui): persist sessionKey to localStorage on reconnect",
+        "url": "https://github.com/openclaw/openclaw/pull/108154",
+        "state": "open",
+        "author": "xydt-tanshanshan",
+        "updatedAt": "2026-07-15T09:19:29Z"
+      },
+      {
+        "kind": "pr",
+        "number": 108211,
+        "title": "perf(ci): mount node deps from a Blacksmith sticky disk in test shards",
+        "url": "https://github.com/openclaw/openclaw/pull/108211",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-15T06:26:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 106840,
-        "title": "fix: active-memory recall fails with billing rejections on subscription-only Claude CLI setups",
-        "url": "https://github.com/openclaw/openclaw/pull/106840",
-        "state": "open",
-        "author": "bill-starfoundry",
-        "updatedAt": "2026-07-15T06:26:50Z"
-      },
-      {
-        "kind": "pr",
-        "number": 106701,
-        "title": "fix: generated image previews return unauthorized",
-        "url": "https://github.com/openclaw/openclaw/pull/106701",
-        "state": "open",
-        "author": "sasan1200",
-        "updatedAt": "2026-07-15T06:26:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 107367,
-        "title": "fix(line): keep group history recorded during a mention turn",
-        "url": "https://github.com/openclaw/openclaw/pull/107367",
-        "state": "open",
-        "author": "edenfunf",
-        "updatedAt": "2026-07-15T06:26:21Z"
-      },
-      {
-        "kind": "pr",
-        "number": 106542,
-        "title": "fix(zalo): bound proxy fetcher cache to 64 entries",
-        "url": "https://github.com/openclaw/openclaw/pull/106542",
-        "state": "open",
-        "author": "Pick-cat",
-        "updatedAt": "2026-07-15T06:26:16Z"
+        "updatedAt": "2026-07-15T09:19:23Z"
       }
     ]
   }

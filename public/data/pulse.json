@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-16T21:14:56.239Z",
+  "generatedAt": "2026-07-16T22:15:28.852Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -70,27 +70,64 @@
     },
     {
       "capturedOn": "2026-07-16",
-      "capturedAt": "2026-07-16T21:14:56.239Z",
-      "issueOpen": 3862,
-      "issueClosed": 40034,
-      "prOpen": 2893,
-      "prClosed": 60134,
+      "capturedAt": "2026-07-16T22:15:28.852Z",
+      "issueOpen": 3868,
+      "issueClosed": 40038,
+      "prOpen": 2896,
+      "prClosed": 60154,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 109352,
+        "title": "[Bug]: Final assistant text resolution has no run boundary: delivers all assistant text after the last user-role entry of the working transcript (growing exact-prefix re-sends when a context engine rewrites the transcript)",
+        "url": "https://github.com/openclaw/openclaw/issues/109352",
+        "state": "open",
+        "author": "andrea-kingautomation",
+        "updatedAt": "2026-07-16T22:14:36Z"
+      },
+      {
+        "kind": "issue",
+        "number": 109353,
+        "title": "Plugins cannot intercept inbound messages on the embedded agent path: global inbound_claim wrapper exists but is never invoked, and before_agent_reply is gated to trigger === \"cron\"",
+        "url": "https://github.com/openclaw/openclaw/issues/109353",
+        "state": "open",
+        "author": "andrea-kingautomation",
+        "updatedAt": "2026-07-16T22:13:39Z"
+      },
+      {
+        "kind": "issue",
+        "number": 109351,
+        "title": "[Bug]: Apple Watch messages force unsupported adaptive thinking on gpt-5.6-sol",
+        "url": "https://github.com/openclaw/openclaw/issues/109351",
+        "state": "open",
+        "author": "humphreyyy",
+        "updatedAt": "2026-07-16T22:12:55Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 108533,
-        "title": "fix embedded compaction hook reset API",
-        "url": "https://github.com/openclaw/openclaw/pull/108533",
+        "number": 109381,
+        "title": "fix(music): stop hanging when generated asset downloads drip forever",
+        "url": "https://github.com/openclaw/openclaw/pull/109381",
         "state": "open",
-        "author": "earlvanze",
-        "updatedAt": "2026-07-16T21:14:48Z"
+        "author": "Pick-cat",
+        "updatedAt": "2026-07-16T22:15:13Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109376,
+        "title": "Talk: add context-aware durable voice sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/109376",
+        "state": "open",
+        "author": "clifton",
+        "updatedAt": "2026-07-16T22:15:12Z"
       },
       {
         "kind": "pr",
@@ -99,43 +136,34 @@
         "url": "https://github.com/openclaw/openclaw/pull/108590",
         "state": "open",
         "author": "earlvanze",
-        "updatedAt": "2026-07-16T21:14:47Z"
+        "updatedAt": "2026-07-16T22:15:03Z"
       },
       {
         "kind": "pr",
-        "number": 109303,
-        "title": "fix: honor null inbound conversation resolution",
-        "url": "https://github.com/openclaw/openclaw/pull/109303",
+        "number": 108829,
+        "title": "feat(channels): add unified implicit mention policy",
+        "url": "https://github.com/openclaw/openclaw/pull/108829",
         "state": "open",
-        "author": "pacoa-kdbg",
-        "updatedAt": "2026-07-16T21:14:45Z"
+        "author": "iloveleon19",
+        "updatedAt": "2026-07-16T22:15:00Z"
       },
       {
         "kind": "pr",
-        "number": 109287,
-        "title": "fix(process): report actual elapsed time for early lane timeouts",
-        "url": "https://github.com/openclaw/openclaw/pull/109287",
+        "number": 108533,
+        "title": "fix embedded compaction hook reset API",
+        "url": "https://github.com/openclaw/openclaw/pull/108533",
         "state": "open",
-        "author": "ZengWen-DT",
-        "updatedAt": "2026-07-16T21:14:40Z"
+        "author": "earlvanze",
+        "updatedAt": "2026-07-16T22:14:59Z"
       },
       {
         "kind": "pr",
-        "number": 109149,
-        "title": "fix(sms): ignore blank Twilio env account fallbacks",
-        "url": "https://github.com/openclaw/openclaw/pull/109149",
+        "number": 109233,
+        "title": "fix(file-transfer): denyPaths does not deny listing the denied directory itself",
+        "url": "https://github.com/openclaw/openclaw/pull/109233",
         "state": "open",
-        "author": "RileyJJY",
-        "updatedAt": "2026-07-16T21:14:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 109309,
-        "title": "perf(anthropic): cache Claude session-catalog transcript metadata by mtime",
-        "url": "https://github.com/openclaw/openclaw/pull/109309",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-16T21:14:31Z"
+        "author": "yetval",
+        "updatedAt": "2026-07-16T22:14:46Z"
       }
     ]
   }

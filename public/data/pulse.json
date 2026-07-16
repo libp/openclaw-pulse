@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-16T11:53:14.561Z",
+  "generatedAt": "2026-07-16T14:20:35.758Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -70,72 +70,82 @@
     },
     {
       "capturedOn": "2026-07-16",
-      "capturedAt": "2026-07-16T11:53:14.561Z",
+      "capturedAt": "2026-07-16T14:20:35.758Z",
       "issueOpen": 3844,
-      "issueClosed": 39996,
-      "prOpen": 2870,
-      "prClosed": 59834,
+      "issueClosed": 40008,
+      "prOpen": 2888,
+      "prClosed": 59895,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 9912,
+        "title": "Feature: Add maxTurns/maxToolCalls config option to limit agent iterations",
+        "url": "https://github.com/openclaw/openclaw/issues/9912",
+        "state": "open",
+        "author": "AlexGn",
+        "updatedAt": "2026-07-16T14:19:02Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 108681,
-        "title": "fix(ui): load real Cron and Skills counts in Quick Settings Automations (#107852)",
-        "url": "https://github.com/openclaw/openclaw/pull/108681",
+        "number": 109060,
+        "title": "fix(tailscale): bound binary discovery commands",
+        "url": "https://github.com/openclaw/openclaw/pull/109060",
         "state": "open",
-        "author": "xydt-juyaohui",
-        "updatedAt": "2026-07-16T11:53:08Z"
+        "author": "Alix-007",
+        "updatedAt": "2026-07-16T14:20:27Z"
       },
       {
         "kind": "pr",
-        "number": 108898,
-        "title": "fix(ci): bound full release validation evidence dispatch",
-        "url": "https://github.com/openclaw/openclaw/pull/108898",
+        "number": 108724,
+        "title": "fix(agents): add tool-use terminal continuation for codex app-server toolUse stops",
+        "url": "https://github.com/openclaw/openclaw/pull/108724",
         "state": "open",
-        "author": "tzy-17",
-        "updatedAt": "2026-07-16T11:53:06Z"
+        "author": "kagura-agent",
+        "updatedAt": "2026-07-16T14:20:27Z"
       },
       {
         "kind": "pr",
-        "number": 108916,
-        "title": "fix(elevenlabs): treat blank env API key as unconfigured in speech and transcription providers",
-        "url": "https://github.com/openclaw/openclaw/pull/108916",
-        "state": "open",
-        "author": "RileyJJY",
-        "updatedAt": "2026-07-16T11:53:05Z"
+        "number": 101493,
+        "title": "fix(cli-runner): only reject restrictive runtime toolsAllow on CLI backends",
+        "url": "https://github.com/openclaw/openclaw/pull/101493",
+        "state": "closed",
+        "author": "ebarkhordar",
+        "updatedAt": "2026-07-16T14:20:23Z"
       },
       {
         "kind": "pr",
-        "number": 108970,
-        "title": "fix(vault): SecretRef resolution no longer hangs on stalled response bodies",
-        "url": "https://github.com/openclaw/openclaw/pull/108970",
-        "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-07-16T11:52:54Z"
+        "number": 107327,
+        "title": "fix(control-ui): restore userAvatar wiring in Quick Settings (#107292)",
+        "url": "https://github.com/openclaw/openclaw/pull/107327",
+        "state": "closed",
+        "author": "SymbolStar",
+        "updatedAt": "2026-07-16T14:20:22Z"
       },
       {
         "kind": "pr",
-        "number": 108896,
-        "title": "fix(ci): bound actionlint downloads in workflow sanity",
-        "url": "https://github.com/openclaw/openclaw/pull/108896",
+        "number": 102427,
+        "title": "Add experimental Claw lifecycle diagnostics",
+        "url": "https://github.com/openclaw/openclaw/pull/102427",
         "state": "open",
-        "author": "tzy-17",
-        "updatedAt": "2026-07-16T11:52:50Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-16T14:20:14Z"
       },
       {
         "kind": "pr",
-        "number": 108707,
-        "title": "fix(auto-reply): allow silent empty replies on internal prompt channe…",
-        "url": "https://github.com/openclaw/openclaw/pull/108707",
+        "number": 107323,
+        "title": "fix: external plugin tabs fail under gateway auth",
+        "url": "https://github.com/openclaw/openclaw/pull/107323",
         "state": "open",
-        "author": "Simon-XYDT",
-        "updatedAt": "2026-07-16T11:52:44Z"
+        "author": "paulpitchford",
+        "updatedAt": "2026-07-16T14:20:03Z"
       }
     ]
   }

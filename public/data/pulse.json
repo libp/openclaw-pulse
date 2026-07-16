@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-16T06:30:24.147Z",
+  "generatedAt": "2026-07-16T09:26:50.701Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -70,11 +70,11 @@
     },
     {
       "capturedOn": "2026-07-16",
-      "capturedAt": "2026-07-16T06:30:24.147Z",
-      "issueOpen": 3888,
-      "issueClosed": 39904,
-      "prOpen": 2876,
-      "prClosed": 59548,
+      "capturedAt": "2026-07-16T09:26:50.701Z",
+      "issueOpen": 3856,
+      "issueClosed": 39955,
+      "prOpen": 2857,
+      "prClosed": 59705,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -84,95 +84,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 108560,
-        "title": "Cron agentTurn jobs break on claude-cli: default toolsAllow stamp not enforceable (2026.7.1 regression)",
-        "url": "https://github.com/openclaw/openclaw/issues/108560",
+        "number": 108269,
+        "title": "[Feature]: Mattermost thread-participation auto-follow has no `thread.requireExplicitMention` opt-out (Slack has it)",
+        "url": "https://github.com/openclaw/openclaw/issues/108269",
         "state": "open",
-        "author": "steelburgerz",
-        "updatedAt": "2026-07-16T06:30:09Z"
+        "author": "iloveleon19",
+        "updatedAt": "2026-07-16T09:26:09Z"
       },
       {
         "kind": "issue",
-        "number": 108002,
-        "title": "tool_use.id sanitize-on-retry not working for invalid characters",
-        "url": "https://github.com/openclaw/openclaw/issues/108002",
+        "number": 108824,
+        "title": "[Bug]: Web terminal forwards TERM=dumb and Codex resume exits",
+        "url": "https://github.com/openclaw/openclaw/issues/108824",
         "state": "open",
-        "author": "jeffsteinbok-openclaw",
-        "updatedAt": "2026-07-16T06:30:07Z"
-      },
-      {
-        "kind": "issue",
-        "number": 107998,
-        "title": "[Bug]: auth-style HTTP headers can bypass log redaction",
-        "url": "https://github.com/openclaw/openclaw/issues/107998",
-        "state": "open",
-        "author": "ooiuuii",
-        "updatedAt": "2026-07-16T06:29:43Z"
-      },
-      {
-        "kind": "issue",
-        "number": 108580,
-        "title": "[Bug]: cron tool schema incompatible with llama.cpp grammar-constrained tool calling (2026.7.1 regression)",
-        "url": "https://github.com/openclaw/openclaw/issues/108580",
-        "state": "open",
-        "author": "arbilli82",
-        "updatedAt": "2026-07-16T06:29:09Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-16T09:25:54Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 108634,
-        "title": "fix(mattermost): keep reactions in the selected conversation",
-        "url": "https://github.com/openclaw/openclaw/pull/108634",
+        "number": 108126,
+        "title": "fix(retry): detect provider-wrapped 5xx status codes for session retry",
+        "url": "https://github.com/openclaw/openclaw/pull/108126",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-07-16T06:30:14Z"
+        "author": "zhanxingxin1998",
+        "updatedAt": "2026-07-16T09:26:36Z"
       },
       {
         "kind": "pr",
-        "number": 108662,
-        "title": "fix(cli): reject oversized --file input before reading in config patch",
-        "url": "https://github.com/openclaw/openclaw/pull/108662",
+        "number": 108808,
+        "title": "fix(state): unblock Gateway startup after APNs schema upgrade",
+        "url": "https://github.com/openclaw/openclaw/pull/108808",
         "state": "open",
-        "author": "zw-xysk",
-        "updatedAt": "2026-07-16T06:30:08Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-16T09:26:35Z"
       },
       {
         "kind": "pr",
-        "number": 107847,
-        "title": "fix(docker): keep setup chown from following symlinks",
-        "url": "https://github.com/openclaw/openclaw/pull/107847",
+        "number": 108706,
+        "title": "fix(cli): add 10s timeout to port-inspection subprocess calls",
+        "url": "https://github.com/openclaw/openclaw/pull/108706",
         "state": "open",
-        "author": "ooiuuii",
-        "updatedAt": "2026-07-16T06:30:02Z"
+        "author": "krissding",
+        "updatedAt": "2026-07-16T09:26:35Z"
       },
       {
         "kind": "pr",
-        "number": 107990,
-        "title": "fix(daemon): distinguish shared and embedded SQLite in system Node warning",
-        "url": "https://github.com/openclaw/openclaw/pull/107990",
+        "number": 108544,
+        "title": "refactor(infra): remove dead deprecated re-export alias",
+        "url": "https://github.com/openclaw/openclaw/pull/108544",
+        "state": "open",
+        "author": "krissding",
+        "updatedAt": "2026-07-16T09:26:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 108114,
+        "title": "fix(embedded-runner): clear tool-search catalog when a run aborts during prep",
+        "url": "https://github.com/openclaw/openclaw/pull/108114",
+        "state": "open",
+        "author": "0xghost42",
+        "updatedAt": "2026-07-16T09:26:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 106532,
+        "title": "refactor(gateway): adopt closedObject in recently added schema files",
+        "url": "https://github.com/openclaw/openclaw/pull/106532",
         "state": "open",
         "author": "cxbAsDev",
-        "updatedAt": "2026-07-16T06:30:15Z"
-      },
-      {
-        "kind": "pr",
-        "number": 108469,
-        "title": "fix(cron): llama.cpp rejects unanchored cron tool schema patterns",
-        "url": "https://github.com/openclaw/openclaw/pull/108469",
-        "state": "open",
-        "author": "DecentralizedJM",
-        "updatedAt": "2026-07-16T06:29:56Z"
-      },
-      {
-        "kind": "pr",
-        "number": 108006,
-        "title": "fix(tasks): key cancel button state by taskId to match the cancel action",
-        "url": "https://github.com/openclaw/openclaw/pull/108006",
-        "state": "open",
-        "author": "miorbnli",
-        "updatedAt": "2026-07-16T06:29:52Z"
+        "updatedAt": "2026-07-16T09:26:33Z"
       }
     ]
   }

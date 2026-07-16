@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-16T16:40:09.752Z",
+  "generatedAt": "2026-07-16T18:18:54.118Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -70,11 +70,11 @@
     },
     {
       "capturedOn": "2026-07-16",
-      "capturedAt": "2026-07-16T16:40:09.752Z",
-      "issueOpen": 3847,
-      "issueClosed": 40020,
-      "prOpen": 2913,
-      "prClosed": 59996,
+      "capturedAt": "2026-07-16T18:18:54.118Z",
+      "issueOpen": 3853,
+      "issueClosed": 40025,
+      "prOpen": 2903,
+      "prClosed": 60064,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -84,68 +84,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 91009,
-        "title": "Codex PreToolUse native hook relay spawns CPU-bound openclaw-hooks processes and stalls gateway RPC",
-        "url": "https://github.com/openclaw/openclaw/issues/91009",
+        "number": 109270,
+        "title": "[Bug]: ACP binding session generates new acp_session_id after gateway restart, causing resume failure with misleading 'model not found' error",
+        "url": "https://github.com/openclaw/openclaw/issues/109270",
         "state": "open",
-        "author": "aspalagin",
-        "updatedAt": "2026-07-16T16:39:18Z"
+        "author": "Enominera",
+        "updatedAt": "2026-07-16T18:18:35Z"
+      },
+      {
+        "kind": "issue",
+        "number": 104377,
+        "title": "Telegram cron announce path re-chunks post-render by HTML length, cutting mid-word (bypasses IR chunker)",
+        "url": "https://github.com/openclaw/openclaw/issues/104377",
+        "state": "closed",
+        "author": "Inhum",
+        "updatedAt": "2026-07-16T18:18:19Z"
+      },
+      {
+        "kind": "issue",
+        "number": 109268,
+        "title": "[Bug]: Quick Settings automation counters do not recover after transient initial load failure",
+        "url": "https://github.com/openclaw/openclaw/issues/109268",
+        "state": "open",
+        "author": "harjothkhara",
+        "updatedAt": "2026-07-16T18:17:50Z"
+      },
+      {
+        "kind": "issue",
+        "number": 106703,
+        "title": "Bug: browser screenshot fallback injects raw base64 into session, contaminating all subsequent tool results",
+        "url": "https://github.com/openclaw/openclaw/issues/106703",
+        "state": "open",
+        "author": "zfxl123",
+        "updatedAt": "2026-07-16T18:17:34Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 109182,
-        "title": "fix(autoreview): sync config token fixture",
-        "url": "https://github.com/openclaw/openclaw/pull/109182",
+        "number": 108533,
+        "title": "fix embedded compaction hook reset API",
+        "url": "https://github.com/openclaw/openclaw/pull/108533",
+        "state": "open",
+        "author": "earlvanze",
+        "updatedAt": "2026-07-16T18:18:42Z"
+      },
+      {
+        "kind": "pr",
+        "number": 108830,
+        "title": "fix(android): preserve emoji in shell initials",
+        "url": "https://github.com/openclaw/openclaw/pull/108830",
+        "state": "open",
+        "author": "Leon-SK668",
+        "updatedAt": "2026-07-16T18:18:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109267,
+        "title": "chore(qa): verify packaged Codex cold install",
+        "url": "https://github.com/openclaw/openclaw/pull/109267",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-07-16T18:18:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 102594,
+        "title": "fix(slack): include canonical session transcript in prompt context (extends #95390)",
+        "url": "https://github.com/openclaw/openclaw/pull/102594",
+        "state": "open",
+        "author": "joetam",
+        "updatedAt": "2026-07-16T18:18:31Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109269,
+        "title": "fix(proxy-capture): time out stalled CONNECT upstreams",
+        "url": "https://github.com/openclaw/openclaw/pull/109269",
+        "state": "open",
+        "author": "Alix-007",
+        "updatedAt": "2026-07-16T18:18:30Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109266,
+        "title": "refactor: remove stale internal deprecated compatibility",
+        "url": "https://github.com/openclaw/openclaw/pull/109266",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-16T16:40:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 108252,
-        "title": "fix(xai): release realtime reconnect delay on close",
-        "url": "https://github.com/openclaw/openclaw/pull/108252",
-        "state": "open",
-        "author": "wahaha1223",
-        "updatedAt": "2026-07-16T16:40:01Z"
-      },
-      {
-        "kind": "pr",
-        "number": 109112,
-        "title": "fix(msteams): ignore blank certificate settings",
-        "url": "https://github.com/openclaw/openclaw/pull/109112",
-        "state": "open",
-        "author": "wahaha1223",
-        "updatedAt": "2026-07-16T16:39:59Z"
-      },
-      {
-        "kind": "pr",
-        "number": 109057,
-        "title": "fix(agents): completions-API models leak tool-call preambles into chats — tag pre-tool narration as commentary",
-        "url": "https://github.com/openclaw/openclaw/pull/109057",
-        "state": "open",
-        "author": "aspalagin",
-        "updatedAt": "2026-07-16T16:39:59Z"
-      },
-      {
-        "kind": "pr",
-        "number": 94871,
-        "title": "fix(gateway): replace blocking sync I/O with async in auth/credential paths (fixes #78805)",
-        "url": "https://github.com/openclaw/openclaw/pull/94871",
-        "state": "open",
-        "author": "mazhuima",
-        "updatedAt": "2026-07-16T16:39:58Z"
-      },
-      {
-        "kind": "pr",
-        "number": 94870,
-        "title": "fix(gateway): regenerate native hook descriptors when relay unavailable after restart",
-        "url": "https://github.com/openclaw/openclaw/pull/94870",
-        "state": "open",
-        "author": "mazhuima",
-        "updatedAt": "2026-07-16T16:39:58Z"
+        "updatedAt": "2026-07-16T18:18:28Z"
       }
     ]
   }

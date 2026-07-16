@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-16T00:08:50.117Z",
+  "generatedAt": "2026-07-16T03:35:05.030Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -70,91 +70,72 @@
     },
     {
       "capturedOn": "2026-07-16",
-      "capturedAt": "2026-07-16T00:08:50.117Z",
-      "issueOpen": 3887,
-      "issueClosed": 39856,
-      "prOpen": 2875,
-      "prClosed": 59441,
+      "capturedAt": "2026-07-16T03:35:05.030Z",
+      "issueOpen": 3897,
+      "issueClosed": 39871,
+      "prOpen": 2879,
+      "prClosed": 59485,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 108498,
-        "title": "[Bug]: Control UI renders run failures as assistant messages",
-        "url": "https://github.com/openclaw/openclaw/issues/108498",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-07-16T00:06:16Z"
-      },
-      {
-        "kind": "issue",
-        "number": 108511,
-        "title": "Responses streaming transport drops tool-call argument deltas when the provider rotates per-event item_id (breaks GitHub Copilot gpt-5.6-sol tool use)",
-        "url": "https://github.com/openclaw/openclaw/issues/108511",
-        "state": "open",
-        "author": "snotty",
-        "updatedAt": "2026-07-16T00:03:34Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 107230,
-        "title": "fix(line): use precise control-command check for group mention bypass",
-        "url": "https://github.com/openclaw/openclaw/pull/107230",
+        "number": 108368,
+        "title": "fix(ui): prevent agent-select avatar fetch hangs",
+        "url": "https://github.com/openclaw/openclaw/pull/108368",
         "state": "open",
-        "author": "edenfunf",
-        "updatedAt": "2026-07-16T00:08:01Z"
+        "author": "hugenshen",
+        "updatedAt": "2026-07-16T03:34:55Z"
       },
       {
         "kind": "pr",
-        "number": 93299,
-        "title": "fix(daemon): prove Windows schtasks launch without foreground listener [AI]",
-        "url": "https://github.com/openclaw/openclaw/pull/93299",
+        "number": 107957,
+        "title": "fix(agents): keep CLI runner diagnostic tails UTF-8 safe",
+        "url": "https://github.com/openclaw/openclaw/pull/107957",
         "state": "open",
-        "author": "LiuwqGit",
-        "updatedAt": "2026-07-16T00:06:54Z"
+        "author": "sunlit-deng",
+        "updatedAt": "2026-07-16T03:34:54Z"
       },
       {
         "kind": "pr",
-        "number": 107687,
-        "title": "fix(process): default killProcessTree to true in runCommandWithTimeout",
-        "url": "https://github.com/openclaw/openclaw/pull/107687",
+        "number": 106888,
+        "title": "Add CLAW.md manifest support",
+        "url": "https://github.com/openclaw/openclaw/pull/106888",
         "state": "open",
-        "author": "LeonidasLux",
-        "updatedAt": "2026-07-16T00:06:50Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-16T03:34:53Z"
       },
       {
         "kind": "pr",
-        "number": 108474,
-        "title": "refactor(codex)!: fold the codex text provider into openai with a doctor migration",
-        "url": "https://github.com/openclaw/openclaw/pull/108474",
+        "number": 104912,
+        "title": "fix: Control UI avatar initial breaks on emoji display names",
+        "url": "https://github.com/openclaw/openclaw/pull/104912",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-16T00:06:42Z"
+        "author": "xydigit-zt",
+        "updatedAt": "2026-07-16T03:34:47Z"
       },
       {
         "kind": "pr",
-        "number": 108510,
-        "title": "feat(slack): add opt-in scoped presence events",
-        "url": "https://github.com/openclaw/openclaw/pull/108510",
+        "number": 108369,
+        "title": "fix(doctor): pass collectModelsMap for agents.list model ref scan",
+        "url": "https://github.com/openclaw/openclaw/pull/108369",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-16T00:06:17Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-07-16T03:34:44Z"
       },
       {
         "kind": "pr",
-        "number": 108506,
-        "title": "refactor(cli): split capability command modules",
-        "url": "https://github.com/openclaw/openclaw/pull/108506",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-07-16T00:06:10Z"
+        "number": 107959,
+        "title": "fix(slack): bound cursor pagination with MAX_PAGES=50",
+        "url": "https://github.com/openclaw/openclaw/pull/107959",
+        "state": "open",
+        "author": "zw-xysk",
+        "updatedAt": "2026-07-16T03:34:54Z"
       }
     ]
   }

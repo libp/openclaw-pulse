@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-16T18:18:54.118Z",
+  "generatedAt": "2026-07-16T20:11:10.367Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -70,11 +70,11 @@
     },
     {
       "capturedOn": "2026-07-16",
-      "capturedAt": "2026-07-16T18:18:54.118Z",
-      "issueOpen": 3853,
-      "issueClosed": 40025,
-      "prOpen": 2903,
-      "prClosed": 60064,
+      "capturedAt": "2026-07-16T20:11:10.367Z",
+      "issueOpen": 3864,
+      "issueClosed": 40030,
+      "prOpen": 2897,
+      "prClosed": 60108,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -84,68 +84,41 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 109270,
-        "title": "[Bug]: ACP binding session generates new acp_session_id after gateway restart, causing resume failure with misleading 'model not found' error",
-        "url": "https://github.com/openclaw/openclaw/issues/109270",
+        "number": 109285,
+        "title": "[Bug]: ACP binding sessions hang after gateway restart — stale closed:false with dead pid not cleaned up",
+        "url": "https://github.com/openclaw/openclaw/issues/109285",
         "state": "open",
         "author": "Enominera",
-        "updatedAt": "2026-07-16T18:18:35Z"
-      },
-      {
-        "kind": "issue",
-        "number": 104377,
-        "title": "Telegram cron announce path re-chunks post-render by HTML length, cutting mid-word (bypasses IR chunker)",
-        "url": "https://github.com/openclaw/openclaw/issues/104377",
-        "state": "closed",
-        "author": "Inhum",
-        "updatedAt": "2026-07-16T18:18:19Z"
-      },
-      {
-        "kind": "issue",
-        "number": 109268,
-        "title": "[Bug]: Quick Settings automation counters do not recover after transient initial load failure",
-        "url": "https://github.com/openclaw/openclaw/issues/109268",
-        "state": "open",
-        "author": "harjothkhara",
-        "updatedAt": "2026-07-16T18:17:50Z"
-      },
-      {
-        "kind": "issue",
-        "number": 106703,
-        "title": "Bug: browser screenshot fallback injects raw base64 into session, contaminating all subsequent tool results",
-        "url": "https://github.com/openclaw/openclaw/issues/106703",
-        "state": "open",
-        "author": "zfxl123",
-        "updatedAt": "2026-07-16T18:17:34Z"
+        "updatedAt": "2026-07-16T20:10:47Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 108533,
-        "title": "fix embedded compaction hook reset API",
-        "url": "https://github.com/openclaw/openclaw/pull/108533",
+        "number": 109318,
+        "title": "fix(macos): merge the WebChat window title band into the toolbar row",
+        "url": "https://github.com/openclaw/openclaw/pull/109318",
         "state": "open",
-        "author": "earlvanze",
-        "updatedAt": "2026-07-16T18:18:42Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-16T20:11:04Z"
       },
       {
         "kind": "pr",
-        "number": 108830,
-        "title": "fix(android): preserve emoji in shell initials",
-        "url": "https://github.com/openclaw/openclaw/pull/108830",
+        "number": 109233,
+        "title": "fix(file-transfer): denyPaths does not deny listing the denied directory itself",
+        "url": "https://github.com/openclaw/openclaw/pull/109233",
         "state": "open",
-        "author": "Leon-SK668",
-        "updatedAt": "2026-07-16T18:18:41Z"
+        "author": "yetval",
+        "updatedAt": "2026-07-16T20:11:04Z"
       },
       {
         "kind": "pr",
-        "number": 109267,
-        "title": "chore(qa): verify packaged Codex cold install",
-        "url": "https://github.com/openclaw/openclaw/pull/109267",
+        "number": 101248,
+        "title": "feat(subagents): native announceTarget for subagent completion routing (#27445)",
+        "url": "https://github.com/openclaw/openclaw/pull/101248",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-07-16T18:18:38Z"
+        "author": "nicknmorty",
+        "updatedAt": "2026-07-16T20:11:03Z"
       },
       {
         "kind": "pr",
@@ -154,25 +127,25 @@
         "url": "https://github.com/openclaw/openclaw/pull/102594",
         "state": "open",
         "author": "joetam",
-        "updatedAt": "2026-07-16T18:18:31Z"
+        "updatedAt": "2026-07-16T20:11:02Z"
       },
       {
         "kind": "pr",
-        "number": 109269,
-        "title": "fix(proxy-capture): time out stalled CONNECT upstreams",
-        "url": "https://github.com/openclaw/openclaw/pull/109269",
+        "number": 108533,
+        "title": "fix embedded compaction hook reset API",
+        "url": "https://github.com/openclaw/openclaw/pull/108533",
         "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-07-16T18:18:30Z"
+        "author": "earlvanze",
+        "updatedAt": "2026-07-16T20:10:51Z"
       },
       {
         "kind": "pr",
-        "number": 109266,
-        "title": "refactor: remove stale internal deprecated compatibility",
-        "url": "https://github.com/openclaw/openclaw/pull/109266",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-16T18:18:28Z"
+        "number": 109267,
+        "title": "chore(qa): verify packaged Codex cold install",
+        "url": "https://github.com/openclaw/openclaw/pull/109267",
+        "state": "closed",
+        "author": "RomneyDa",
+        "updatedAt": "2026-07-16T20:10:44Z"
       }
     ]
   }

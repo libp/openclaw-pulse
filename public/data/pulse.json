@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-16T09:26:50.701Z",
+  "generatedAt": "2026-07-16T11:53:14.561Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -70,91 +70,72 @@
     },
     {
       "capturedOn": "2026-07-16",
-      "capturedAt": "2026-07-16T09:26:50.701Z",
-      "issueOpen": 3856,
-      "issueClosed": 39955,
-      "prOpen": 2857,
-      "prClosed": 59705,
+      "capturedAt": "2026-07-16T11:53:14.561Z",
+      "issueOpen": 3844,
+      "issueClosed": 39996,
+      "prOpen": 2870,
+      "prClosed": 59834,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 108269,
-        "title": "[Feature]: Mattermost thread-participation auto-follow has no `thread.requireExplicitMention` opt-out (Slack has it)",
-        "url": "https://github.com/openclaw/openclaw/issues/108269",
-        "state": "open",
-        "author": "iloveleon19",
-        "updatedAt": "2026-07-16T09:26:09Z"
-      },
-      {
-        "kind": "issue",
-        "number": 108824,
-        "title": "[Bug]: Web terminal forwards TERM=dumb and Codex resume exits",
-        "url": "https://github.com/openclaw/openclaw/issues/108824",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-16T09:25:54Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 108126,
-        "title": "fix(retry): detect provider-wrapped 5xx status codes for session retry",
-        "url": "https://github.com/openclaw/openclaw/pull/108126",
+        "number": 108681,
+        "title": "fix(ui): load real Cron and Skills counts in Quick Settings Automations (#107852)",
+        "url": "https://github.com/openclaw/openclaw/pull/108681",
         "state": "open",
-        "author": "zhanxingxin1998",
-        "updatedAt": "2026-07-16T09:26:36Z"
+        "author": "xydt-juyaohui",
+        "updatedAt": "2026-07-16T11:53:08Z"
       },
       {
         "kind": "pr",
-        "number": 108808,
-        "title": "fix(state): unblock Gateway startup after APNs schema upgrade",
-        "url": "https://github.com/openclaw/openclaw/pull/108808",
+        "number": 108898,
+        "title": "fix(ci): bound full release validation evidence dispatch",
+        "url": "https://github.com/openclaw/openclaw/pull/108898",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-16T09:26:35Z"
+        "author": "tzy-17",
+        "updatedAt": "2026-07-16T11:53:06Z"
       },
       {
         "kind": "pr",
-        "number": 108706,
-        "title": "fix(cli): add 10s timeout to port-inspection subprocess calls",
-        "url": "https://github.com/openclaw/openclaw/pull/108706",
+        "number": 108916,
+        "title": "fix(elevenlabs): treat blank env API key as unconfigured in speech and transcription providers",
+        "url": "https://github.com/openclaw/openclaw/pull/108916",
         "state": "open",
-        "author": "krissding",
-        "updatedAt": "2026-07-16T09:26:35Z"
+        "author": "RileyJJY",
+        "updatedAt": "2026-07-16T11:53:05Z"
       },
       {
         "kind": "pr",
-        "number": 108544,
-        "title": "refactor(infra): remove dead deprecated re-export alias",
-        "url": "https://github.com/openclaw/openclaw/pull/108544",
+        "number": 108970,
+        "title": "fix(vault): SecretRef resolution no longer hangs on stalled response bodies",
+        "url": "https://github.com/openclaw/openclaw/pull/108970",
         "state": "open",
-        "author": "krissding",
-        "updatedAt": "2026-07-16T09:26:35Z"
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-07-16T11:52:54Z"
       },
       {
         "kind": "pr",
-        "number": 108114,
-        "title": "fix(embedded-runner): clear tool-search catalog when a run aborts during prep",
-        "url": "https://github.com/openclaw/openclaw/pull/108114",
+        "number": 108896,
+        "title": "fix(ci): bound actionlint downloads in workflow sanity",
+        "url": "https://github.com/openclaw/openclaw/pull/108896",
         "state": "open",
-        "author": "0xghost42",
-        "updatedAt": "2026-07-16T09:26:35Z"
+        "author": "tzy-17",
+        "updatedAt": "2026-07-16T11:52:50Z"
       },
       {
         "kind": "pr",
-        "number": 106532,
-        "title": "refactor(gateway): adopt closedObject in recently added schema files",
-        "url": "https://github.com/openclaw/openclaw/pull/106532",
+        "number": 108707,
+        "title": "fix(auto-reply): allow silent empty replies on internal prompt channe…",
+        "url": "https://github.com/openclaw/openclaw/pull/108707",
         "state": "open",
-        "author": "cxbAsDev",
-        "updatedAt": "2026-07-16T09:26:33Z"
+        "author": "Simon-XYDT",
+        "updatedAt": "2026-07-16T11:52:44Z"
       }
     ]
   }

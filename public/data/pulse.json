@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-16T20:11:10.367Z",
+  "generatedAt": "2026-07-16T21:14:56.239Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -70,65 +70,19 @@
     },
     {
       "capturedOn": "2026-07-16",
-      "capturedAt": "2026-07-16T20:11:10.367Z",
-      "issueOpen": 3864,
-      "issueClosed": 40030,
-      "prOpen": 2897,
-      "prClosed": 60108,
+      "capturedAt": "2026-07-16T21:14:56.239Z",
+      "issueOpen": 3862,
+      "issueClosed": 40034,
+      "prOpen": 2893,
+      "prClosed": 60134,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 109285,
-        "title": "[Bug]: ACP binding sessions hang after gateway restart — stale closed:false with dead pid not cleaned up",
-        "url": "https://github.com/openclaw/openclaw/issues/109285",
-        "state": "open",
-        "author": "Enominera",
-        "updatedAt": "2026-07-16T20:10:47Z"
-      }
-    ],
+    "issues": [],
     "prs": [
-      {
-        "kind": "pr",
-        "number": 109318,
-        "title": "fix(macos): merge the WebChat window title band into the toolbar row",
-        "url": "https://github.com/openclaw/openclaw/pull/109318",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-16T20:11:04Z"
-      },
-      {
-        "kind": "pr",
-        "number": 109233,
-        "title": "fix(file-transfer): denyPaths does not deny listing the denied directory itself",
-        "url": "https://github.com/openclaw/openclaw/pull/109233",
-        "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-07-16T20:11:04Z"
-      },
-      {
-        "kind": "pr",
-        "number": 101248,
-        "title": "feat(subagents): native announceTarget for subagent completion routing (#27445)",
-        "url": "https://github.com/openclaw/openclaw/pull/101248",
-        "state": "open",
-        "author": "nicknmorty",
-        "updatedAt": "2026-07-16T20:11:03Z"
-      },
-      {
-        "kind": "pr",
-        "number": 102594,
-        "title": "fix(slack): include canonical session transcript in prompt context (extends #95390)",
-        "url": "https://github.com/openclaw/openclaw/pull/102594",
-        "state": "open",
-        "author": "joetam",
-        "updatedAt": "2026-07-16T20:11:02Z"
-      },
       {
         "kind": "pr",
         "number": 108533,
@@ -136,16 +90,52 @@
         "url": "https://github.com/openclaw/openclaw/pull/108533",
         "state": "open",
         "author": "earlvanze",
-        "updatedAt": "2026-07-16T20:10:51Z"
+        "updatedAt": "2026-07-16T21:14:48Z"
       },
       {
         "kind": "pr",
-        "number": 109267,
-        "title": "chore(qa): verify packaged Codex cold install",
-        "url": "https://github.com/openclaw/openclaw/pull/109267",
-        "state": "closed",
-        "author": "RomneyDa",
-        "updatedAt": "2026-07-16T20:10:44Z"
+        "number": 108590,
+        "title": "test telegram rich model browse channel data",
+        "url": "https://github.com/openclaw/openclaw/pull/108590",
+        "state": "open",
+        "author": "earlvanze",
+        "updatedAt": "2026-07-16T21:14:47Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109303,
+        "title": "fix: honor null inbound conversation resolution",
+        "url": "https://github.com/openclaw/openclaw/pull/109303",
+        "state": "open",
+        "author": "pacoa-kdbg",
+        "updatedAt": "2026-07-16T21:14:45Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109287,
+        "title": "fix(process): report actual elapsed time for early lane timeouts",
+        "url": "https://github.com/openclaw/openclaw/pull/109287",
+        "state": "open",
+        "author": "ZengWen-DT",
+        "updatedAt": "2026-07-16T21:14:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109149,
+        "title": "fix(sms): ignore blank Twilio env account fallbacks",
+        "url": "https://github.com/openclaw/openclaw/pull/109149",
+        "state": "open",
+        "author": "RileyJJY",
+        "updatedAt": "2026-07-16T21:14:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109309,
+        "title": "perf(anthropic): cache Claude session-catalog transcript metadata by mtime",
+        "url": "https://github.com/openclaw/openclaw/pull/109309",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-16T21:14:31Z"
       }
     ]
   }

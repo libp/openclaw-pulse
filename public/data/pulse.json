@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-17T09:20:42.268Z",
+  "generatedAt": "2026-07-17T11:39:40.570Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -81,11 +81,11 @@
     },
     {
       "capturedOn": "2026-07-17",
-      "capturedAt": "2026-07-17T09:20:42.268Z",
-      "issueOpen": 3864,
-      "issueClosed": 40100,
-      "prOpen": 2964,
-      "prClosed": 60544,
+      "capturedAt": "2026-07-17T11:39:40.570Z",
+      "issueOpen": 3865,
+      "issueClosed": 40112,
+      "prOpen": 2967,
+      "prClosed": 60615,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -95,68 +95,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 109842,
-        "title": "Migrate MCP OAuth state from JSON to SQLite",
-        "url": "https://github.com/openclaw/openclaw/issues/109842",
+        "number": 109838,
+        "title": "Control UI waits up to a minute for native session catalogs across paired Macs",
+        "url": "https://github.com/openclaw/openclaw/issues/109838",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-17T09:19:53Z"
+        "updatedAt": "2026-07-17T11:39:23Z"
+      },
+      {
+        "kind": "issue",
+        "number": 109942,
+        "title": "[Bug]: OpenClaw v7.1 Dashboard Returns 400 Error with llamacpp due to Missing Regex Anchors in Auto-Generated GBNF Schema",
+        "url": "https://github.com/openclaw/openclaw/issues/109942",
+        "state": "open",
+        "author": "JasonHsu31",
+        "updatedAt": "2026-07-17T11:39:03Z"
+      },
+      {
+        "kind": "issue",
+        "number": 7909,
+        "title": "[Feature]: Add plain text copy option",
+        "url": "https://github.com/openclaw/openclaw/issues/7909",
+        "state": "open",
+        "author": "rvpoochen",
+        "updatedAt": "2026-07-17T11:38:37Z"
+      },
+      {
+        "kind": "issue",
+        "number": 106779,
+        "title": "Issue with 2026.7.1",
+        "url": "https://github.com/openclaw/openclaw/issues/106779",
+        "state": "open",
+        "author": "delimir",
+        "updatedAt": "2026-07-17T11:38:33Z"
+      },
+      {
+        "kind": "issue",
+        "number": 109503,
+        "title": "[Bug]: openclaw doctor disables workspace suggestions by default",
+        "url": "https://github.com/openclaw/openclaw/issues/109503",
+        "state": "open",
+        "author": "moguangyu5-design",
+        "updatedAt": "2026-07-17T11:38:21Z"
+      },
+      {
+        "kind": "issue",
+        "number": 109948,
+        "title": "[Bug]: Steer message during active tool call crashes embedded agent (EmbeddedAttemptSessionTakeoverError)",
+        "url": "https://github.com/openclaw/openclaw/issues/109948",
+        "state": "open",
+        "author": "Andy-Xie-1145",
+        "updatedAt": "2026-07-17T11:38:19Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 109682,
-        "title": "fix(gateway): config hot-reload permanently disables after sporadic recovered watcher errors",
-        "url": "https://github.com/openclaw/openclaw/pull/109682",
-        "state": "open",
-        "author": "YangManBOBO",
-        "updatedAt": "2026-07-17T09:20:39Z"
-      },
-      {
-        "kind": "pr",
-        "number": 82105,
-        "title": "chore(docker): bundle channel voice plugin deps",
-        "url": "https://github.com/openclaw/openclaw/pull/82105",
-        "state": "open",
-        "author": "exoulster",
-        "updatedAt": "2026-07-17T09:20:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 109755,
-        "title": "refactor(meeting-bot): extract browser meeting-bot core behind MeetingPlatformAdapter",
-        "url": "https://github.com/openclaw/openclaw/pull/109755",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-17T09:20:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 109155,
-        "title": "fix(ollama): dripping model pulls hang past idle timeout during setup",
-        "url": "https://github.com/openclaw/openclaw/pull/109155",
-        "state": "open",
-        "author": "Pick-cat",
-        "updatedAt": "2026-07-17T09:20:34Z"
-      },
-      {
-        "kind": "pr",
-        "number": 93559,
-        "title": "fix(gateway): reap stale MCP processes on session reset regardless of…",
-        "url": "https://github.com/openclaw/openclaw/pull/93559",
+        "number": 109951,
+        "title": "fix(onboarding): stop recommending tools setup cannot activate",
+        "url": "https://github.com/openclaw/openclaw/pull/109951",
         "state": "open",
         "author": "zhanxingxin1998",
-        "updatedAt": "2026-07-17T09:20:31Z"
+        "updatedAt": "2026-07-17T11:39:31Z"
       },
       {
         "kind": "pr",
-        "number": 109174,
-        "title": "fix(ci): bound macos-release git fetch with timeout",
-        "url": "https://github.com/openclaw/openclaw/pull/109174",
+        "number": 108533,
+        "title": "fix embedded compaction hook reset API",
+        "url": "https://github.com/openclaw/openclaw/pull/108533",
         "state": "open",
-        "author": "wanyongstar",
-        "updatedAt": "2026-07-17T09:20:28Z"
+        "author": "earlvanze",
+        "updatedAt": "2026-07-17T11:39:31Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109955,
+        "title": "fix: avoid false macOS gateway restart failures",
+        "url": "https://github.com/openclaw/openclaw/pull/109955",
+        "state": "open",
+        "author": "DaigoSoup",
+        "updatedAt": "2026-07-17T11:39:28Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109943,
+        "title": "fix(onboard): keep configured AI route when guarded setup is skipped",
+        "url": "https://github.com/openclaw/openclaw/pull/109943",
+        "state": "open",
+        "author": "zhanxingxin1998",
+        "updatedAt": "2026-07-17T11:39:24Z"
+      },
+      {
+        "kind": "pr",
+        "number": 96648,
+        "title": "Fix MSTeams card actions with durable receive before ACK",
+        "url": "https://github.com/openclaw/openclaw/pull/96648",
+        "state": "open",
+        "author": "youngting520",
+        "updatedAt": "2026-07-17T11:39:20Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109954,
+        "title": "test(macos): anchor chat fixture timestamps to send-time events",
+        "url": "https://github.com/openclaw/openclaw/pull/109954",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-17T11:39:17Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-17T17:30:13.107Z",
+  "generatedAt": "2026-07-17T19:31:25.125Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -81,11 +81,11 @@
     },
     {
       "capturedOn": "2026-07-17",
-      "capturedAt": "2026-07-17T17:30:13.107Z",
-      "issueOpen": 3876,
-      "issueClosed": 40126,
-      "prOpen": 3012,
-      "prClosed": 60736,
+      "capturedAt": "2026-07-17T19:31:25.125Z",
+      "issueOpen": 3879,
+      "issueClosed": 40129,
+      "prOpen": 3024,
+      "prClosed": 60759,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -95,30 +95,12 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 110103,
-        "title": "anthropic-vertex: Gateway-routed calls fail synthetic ADC auth resolution that --local and the plugin itself confirm works",
-        "url": "https://github.com/openclaw/openclaw/issues/110103",
+        "number": 109657,
+        "title": "Adopt the core durable ingress drain on the remaining channels (WhatsApp, Discord, Slack, Signal, iMessage)",
+        "url": "https://github.com/openclaw/openclaw/issues/109657",
         "state": "open",
-        "author": "danieljimz",
-        "updatedAt": "2026-07-17T17:30:10Z"
-      },
-      {
-        "kind": "issue",
-        "number": 109911,
-        "title": "Dead-lettered inbound events are unrecoverable and invisible: payload erased on fail(), re-submissions swallowed, no operator surface (outbound delivery queue has one)",
-        "url": "https://github.com/openclaw/openclaw/issues/109911",
-        "state": "open",
-        "author": "edenfunf",
-        "updatedAt": "2026-07-17T17:29:27Z"
-      },
-      {
-        "kind": "issue",
-        "number": 109684,
-        "title": "claude ACP connector: bound turns complete but never reach the bound transcript (codex/gemini pass)",
-        "url": "https://github.com/openclaw/openclaw/issues/109684",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-17T17:29:27Z"
+        "author": "obviyus",
+        "updatedAt": "2026-07-17T19:28:25Z"
       },
       {
         "kind": "issue",
@@ -127,81 +109,72 @@
         "url": "https://github.com/openclaw/openclaw/issues/110057",
         "state": "open",
         "author": "edenfunf",
-        "updatedAt": "2026-07-17T17:28:42Z"
+        "updatedAt": "2026-07-17T19:28:04Z"
       },
       {
         "kind": "issue",
-        "number": 110070,
-        "title": "Reef inbox startup replays backlog before opening WebSocket",
-        "url": "https://github.com/openclaw/openclaw/issues/110070",
+        "number": 109911,
+        "title": "Dead-lettered inbound events are unrecoverable and invisible: payload erased on fail(), re-submissions swallowed, no operator surface (outbound delivery queue has one)",
+        "url": "https://github.com/openclaw/openclaw/issues/109911",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-17T17:28:32Z"
-      },
-      {
-        "kind": "issue",
-        "number": 109503,
-        "title": "[Bug]: openclaw doctor disables workspace suggestions by default",
-        "url": "https://github.com/openclaw/openclaw/issues/109503",
-        "state": "open",
-        "author": "moguangyu5-design",
-        "updatedAt": "2026-07-17T17:28:24Z"
+        "author": "edenfunf",
+        "updatedAt": "2026-07-17T19:27:30Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 98328,
-        "title": "fix(cli-runner): use sender metadata in CLI session history user labels",
-        "url": "https://github.com/openclaw/openclaw/pull/98328",
+        "number": 110119,
+        "title": "fix(cli): deliver pre-tool assistant blocks durably",
+        "url": "https://github.com/openclaw/openclaw/pull/110119",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-07-17T17:30:10Z"
+        "author": "destire-mio",
+        "updatedAt": "2026-07-17T19:31:18Z"
       },
       {
         "kind": "pr",
-        "number": 110098,
-        "title": "improve: compose conversation tools in Code Mode",
-        "url": "https://github.com/openclaw/openclaw/pull/110098",
+        "number": 110122,
+        "title": "fix(voice-call): ngrok tunnels no longer survive cleanup",
+        "url": "https://github.com/openclaw/openclaw/pull/110122",
+        "state": "open",
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-07-17T19:31:11Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109203,
+        "title": "feat(ag-ui): AG-UI channel",
+        "url": "https://github.com/openclaw/openclaw/pull/109203",
+        "state": "open",
+        "author": "mme",
+        "updatedAt": "2026-07-17T19:31:23Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110100,
+        "title": "fix(reef): restore inbox recovery after gateway restart",
+        "url": "https://github.com/openclaw/openclaw/pull/110100",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-17T17:30:07Z"
+        "updatedAt": "2026-07-17T19:31:02Z"
       },
       {
         "kind": "pr",
-        "number": 109434,
-        "title": "chore(deps): bump the actions group across 1 directory with 13 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/109434",
+        "number": 110142,
+        "title": "test(ci): align package acceptance omission default",
+        "url": "https://github.com/openclaw/openclaw/pull/110142",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-07-17T17:30:06Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-17T19:30:46Z"
       },
       {
         "kind": "pr",
-        "number": 107991,
-        "title": "fix(ci): skip Periphery scans for unrelated PR changes",
-        "url": "https://github.com/openclaw/openclaw/pull/107991",
+        "number": 110089,
+        "title": "fix: harden recovered meeting browser sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/110089",
         "state": "open",
-        "author": "hxy91819",
-        "updatedAt": "2026-07-17T17:30:05Z"
-      },
-      {
-        "kind": "pr",
-        "number": 106789,
-        "title": "docs: respect configured Crabbox provider for agent tests",
-        "url": "https://github.com/openclaw/openclaw/pull/106789",
-        "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-07-17T17:30:04Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110083,
-        "title": "fix(infra): archive plugin-state sidecar when canonical rows are equal or newer (#109832)",
-        "url": "https://github.com/openclaw/openclaw/pull/110083",
-        "state": "open",
-        "author": "wangyan2026",
-        "updatedAt": "2026-07-17T17:29:59Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-17T19:30:44Z"
       }
     ]
   }

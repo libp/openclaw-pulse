@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-17T00:11:26.151Z",
+  "generatedAt": "2026-07-17T03:35:18.688Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -81,11 +81,11 @@
     },
     {
       "capturedOn": "2026-07-17",
-      "capturedAt": "2026-07-17T00:11:26.151Z",
-      "issueOpen": 3870,
-      "issueClosed": 40041,
-      "prOpen": 2896,
-      "prClosed": 60201,
+      "capturedAt": "2026-07-17T03:35:18.688Z",
+      "issueOpen": 3874,
+      "issueClosed": 40057,
+      "prOpen": 2930,
+      "prClosed": 60326,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -95,68 +95,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 7057,
-        "title": "Flaky tests on Windows/WSL: timeouts and ENOENT in pi-tools workspace-paths & safe-bins",
-        "url": "https://github.com/openclaw/openclaw/issues/7057",
+        "number": 109503,
+        "title": "[Bug]: openclaw doctor disables workspace suggestions by default",
+        "url": "https://github.com/openclaw/openclaw/issues/109503",
         "state": "open",
-        "author": "ThinkIbrokeIt",
-        "updatedAt": "2026-07-17T00:10:15Z"
+        "author": "moguangyu5-design",
+        "updatedAt": "2026-07-17T03:35:08Z"
+      },
+      {
+        "kind": "issue",
+        "number": 109611,
+        "title": "Add support for Kimi K3 model",
+        "url": "https://github.com/openclaw/openclaw/issues/109611",
+        "state": "open",
+        "author": "QQSHI13",
+        "updatedAt": "2026-07-17T03:34:17Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 109374,
-        "title": "chore: add live tool-surface benchmark",
-        "url": "https://github.com/openclaw/openclaw/pull/109374",
+        "number": 102296,
+        "title": "Add plan-first Claw status and remove",
+        "url": "https://github.com/openclaw/openclaw/pull/102296",
+        "state": "open",
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-17T03:35:07Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109591,
+        "title": "fix(opencode): preserve Unicode in catalog tool input",
+        "url": "https://github.com/openclaw/openclaw/pull/109591",
+        "state": "open",
+        "author": "ZengWen-DT",
+        "updatedAt": "2026-07-17T03:35:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109561,
+        "title": "fix(scripts): preserve UTF-16 surrogate pairs in firecrawl truncation",
+        "url": "https://github.com/openclaw/openclaw/pull/109561",
+        "state": "open",
+        "author": "lzyyzznl",
+        "updatedAt": "2026-07-17T03:35:00Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109609,
+        "title": "fix(push-web): ignore blank VAPID environment overrides",
+        "url": "https://github.com/openclaw/openclaw/pull/109609",
+        "state": "open",
+        "author": "mushuiyu886",
+        "updatedAt": "2026-07-17T03:34:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109589,
+        "title": "fix(acpx): preserve Unicode in catalog tool arguments",
+        "url": "https://github.com/openclaw/openclaw/pull/109589",
+        "state": "open",
+        "author": "ZengWen-DT",
+        "updatedAt": "2026-07-17T03:35:11Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109441,
+        "title": "fix(ui): follow Gateway queue mode for active-run messages",
+        "url": "https://github.com/openclaw/openclaw/pull/109441",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-17T00:11:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 109294,
-        "title": "fix: use effective daemon port flag",
-        "url": "https://github.com/openclaw/openclaw/pull/109294",
-        "state": "closed",
-        "author": "pacoa-kdbg",
-        "updatedAt": "2026-07-17T00:11:13Z"
-      },
-      {
-        "kind": "pr",
-        "number": 109254,
-        "title": "fix(ci): address reviewer findings across the perf-lever batch",
-        "url": "https://github.com/openclaw/openclaw/pull/109254",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-07-17T00:11:08Z"
-      },
-      {
-        "kind": "pr",
-        "number": 108200,
-        "title": "fix(google): bound realtime live-session HTTP requests",
-        "url": "https://github.com/openclaw/openclaw/pull/108200",
-        "state": "open",
-        "author": "zenglingbiao",
-        "updatedAt": "2026-07-17T00:10:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 109418,
-        "title": "feat: carry Featured state into Control",
-        "url": "https://github.com/openclaw/openclaw/pull/109418",
-        "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-07-17T00:10:28Z"
-      },
-      {
-        "kind": "pr",
-        "number": 108267,
-        "title": "fix(media): propagate SSRF policy to provider poll and download sub-requests",
-        "url": "https://github.com/openclaw/openclaw/pull/108267",
-        "state": "open",
-        "author": "zenglingbiao",
-        "updatedAt": "2026-07-17T00:10:25Z"
+        "updatedAt": "2026-07-17T03:34:54Z"
       }
     ]
   }

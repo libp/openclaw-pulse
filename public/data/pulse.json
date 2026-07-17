@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-17T06:26:23.981Z",
+  "generatedAt": "2026-07-17T09:20:42.268Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -81,72 +81,82 @@
     },
     {
       "capturedOn": "2026-07-17",
-      "capturedAt": "2026-07-17T06:26:23.981Z",
-      "issueOpen": 3862,
-      "issueClosed": 40087,
-      "prOpen": 2915,
-      "prClosed": 60500,
+      "capturedAt": "2026-07-17T09:20:42.268Z",
+      "issueOpen": 3864,
+      "issueClosed": 40100,
+      "prOpen": 2964,
+      "prClosed": 60544,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 109842,
+        "title": "Migrate MCP OAuth state from JSON to SQLite",
+        "url": "https://github.com/openclaw/openclaw/issues/109842",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-17T09:19:53Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 108982,
-        "title": "fix(video-generation): bound stalled video download response body ",
-        "url": "https://github.com/openclaw/openclaw/pull/108982",
+        "number": 109682,
+        "title": "fix(gateway): config hot-reload permanently disables after sporadic recovered watcher errors",
+        "url": "https://github.com/openclaw/openclaw/pull/109682",
         "state": "open",
-        "author": "hugenshen",
-        "updatedAt": "2026-07-17T06:26:08Z"
+        "author": "YangManBOBO",
+        "updatedAt": "2026-07-17T09:20:39Z"
       },
       {
         "kind": "pr",
-        "number": 108987,
-        "title": "fix(canvas): reject malformed snapshot base64",
-        "url": "https://github.com/openclaw/openclaw/pull/108987",
+        "number": 82105,
+        "title": "chore(docker): bundle channel voice plugin deps",
+        "url": "https://github.com/openclaw/openclaw/pull/82105",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-07-17T06:26:04Z"
+        "author": "exoulster",
+        "updatedAt": "2026-07-17T09:20:37Z"
       },
       {
         "kind": "pr",
-        "number": 109109,
-        "title": "fix(auto-reply): deliverBindingPayload missing abortSignal check",
-        "url": "https://github.com/openclaw/openclaw/pull/109109",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-07-17T06:26:03Z"
-      },
-      {
-        "kind": "pr",
-        "number": 109715,
-        "title": "fix(webhooks): keep routes cold when SecretRefs are unavailable",
-        "url": "https://github.com/openclaw/openclaw/pull/109715",
+        "number": 109755,
+        "title": "refactor(meeting-bot): extract browser meeting-bot core behind MeetingPlatformAdapter",
+        "url": "https://github.com/openclaw/openclaw/pull/109755",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-17T06:26:02Z"
+        "updatedAt": "2026-07-17T09:20:36Z"
       },
       {
         "kind": "pr",
-        "number": 109693,
-        "title": "fix(chat): preserve PNG attachments in native clients",
-        "url": "https://github.com/openclaw/openclaw/pull/109693",
+        "number": 109155,
+        "title": "fix(ollama): dripping model pulls hang past idle timeout during setup",
+        "url": "https://github.com/openclaw/openclaw/pull/109155",
         "state": "open",
-        "author": "keshavbotagent",
-        "updatedAt": "2026-07-17T06:26:17Z"
+        "author": "Pick-cat",
+        "updatedAt": "2026-07-17T09:20:34Z"
       },
       {
         "kind": "pr",
-        "number": 109714,
-        "title": "perf(test): poll gateway startup state faster",
-        "url": "https://github.com/openclaw/openclaw/pull/109714",
+        "number": 93559,
+        "title": "fix(gateway): reap stale MCP processes on session reset regardless of…",
+        "url": "https://github.com/openclaw/openclaw/pull/93559",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-17T06:25:47Z"
+        "author": "zhanxingxin1998",
+        "updatedAt": "2026-07-17T09:20:31Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109174,
+        "title": "fix(ci): bound macos-release git fetch with timeout",
+        "url": "https://github.com/openclaw/openclaw/pull/109174",
+        "state": "open",
+        "author": "wanyongstar",
+        "updatedAt": "2026-07-17T09:20:28Z"
       }
     ]
   }

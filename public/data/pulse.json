@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-17T22:05:54.058Z",
+  "generatedAt": "2026-07-17T23:06:59.208Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -81,11 +81,11 @@
     },
     {
       "capturedOn": "2026-07-17",
-      "capturedAt": "2026-07-17T22:05:54.058Z",
-      "issueOpen": 3882,
-      "issueClosed": 40139,
-      "prOpen": 3037,
-      "prClosed": 60787,
+      "capturedAt": "2026-07-17T23:06:59.208Z",
+      "issueOpen": 3881,
+      "issueClosed": 40147,
+      "prOpen": 3026,
+      "prClosed": 60817,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -95,77 +95,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 110025,
-        "title": "[Bug]: Heartbeat task prompts never reach the model — embedded runner collapses the model prompt to the \"[OpenClaw heartbeat poll]\" transcript placeholder, while task timestamps still advance",
-        "url": "https://github.com/openclaw/openclaw/issues/110025",
-        "state": "closed",
-        "author": "headbouyJB",
-        "updatedAt": "2026-07-17T22:05:47Z"
+        "number": 110224,
+        "title": "[Bug]: cloud-worker reconcile conflict is unrecoverable: stuck turn claim, blocked reclaim, restart destroys pending result",
+        "url": "https://github.com/openclaw/openclaw/issues/110224",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-17T23:06:28Z"
       },
       {
         "kind": "issue",
-        "number": 110199,
-        "title": "Startup-migration checkpoint gate is impossible to pass on states that emit migration warnings (infinite boot deadlock)",
-        "url": "https://github.com/openclaw/openclaw/issues/110199",
+        "number": 110222,
+        "title": "Exec tool: \"⚠️ Exec failed:\" false-positive renderer — shellcheck SYNTAX OK and other success text gets classified as tool error",
+        "url": "https://github.com/openclaw/openclaw/issues/110222",
         "state": "open",
-        "author": "niebloomj",
-        "updatedAt": "2026-07-17T22:05:35Z"
+        "author": "patelmm79",
+        "updatedAt": "2026-07-17T23:05:52Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 110094,
-        "title": "refactor(signal): remove global ingress test hook",
-        "url": "https://github.com/openclaw/openclaw/pull/110094",
+        "number": 110220,
+        "title": "fix(gateway): stop reporting user cancellations as gateway draining",
+        "url": "https://github.com/openclaw/openclaw/pull/110220",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-17T22:05:47Z"
+        "updatedAt": "2026-07-17T23:06:45Z"
       },
       {
         "kind": "pr",
-        "number": 109817,
-        "title": "feat(browser): add secure per-tab copilot panel",
-        "url": "https://github.com/openclaw/openclaw/pull/109817",
+        "number": 110200,
+        "title": "fix(update): classify unreadable plugin manifests separately from parse and migration failures",
+        "url": "https://github.com/openclaw/openclaw/pull/110200",
+        "state": "open",
+        "author": "VACInc",
+        "updatedAt": "2026-07-17T23:06:52Z"
+      },
+      {
+        "kind": "pr",
+        "number": 103513,
+        "title": "fix(feishu): bound sender name cache",
+        "url": "https://github.com/openclaw/openclaw/pull/103513",
+        "state": "open",
+        "author": "mikasa0818",
+        "updatedAt": "2026-07-17T23:06:43Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110225,
+        "title": "fix(onboarding): leave session.dmScope unset so the personal-agent default \"main\" applies",
+        "url": "https://github.com/openclaw/openclaw/pull/110225",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-17T22:05:47Z"
+        "updatedAt": "2026-07-17T23:06:41Z"
       },
       {
         "kind": "pr",
-        "number": 110183,
-        "title": "perf(ci): cut the pre-fan-out critical path and bin canonical main runs",
-        "url": "https://github.com/openclaw/openclaw/pull/110183",
+        "number": 110207,
+        "title": "fix(cli): exit cleanly on startup migration refusal",
+        "url": "https://github.com/openclaw/openclaw/pull/110207",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-17T22:05:41Z"
+        "author": "VACInc",
+        "updatedAt": "2026-07-17T23:06:38Z"
       },
       {
         "kind": "pr",
-        "number": 110197,
-        "title": "fix: pre-beta.2 state DB upgrade wedges gateway startup and doctor --fix",
-        "url": "https://github.com/openclaw/openclaw/pull/110197",
+        "number": 109978,
+        "title": "fix(google-video): cancel unread response body on download error",
+        "url": "https://github.com/openclaw/openclaw/pull/109978",
         "state": "open",
-        "author": "MatthewSynthia",
-        "updatedAt": "2026-07-17T22:05:25Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110191,
-        "title": "fix(sessions): stop Windows archive cleanup retry loops",
-        "url": "https://github.com/openclaw/openclaw/pull/110191",
-        "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-07-17T22:05:21Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110158,
-        "title": "fix(ci): script-only changes cold-start every Node job",
-        "url": "https://github.com/openclaw/openclaw/pull/110158",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-07-17T22:05:20Z"
+        "author": "coder-master-0915",
+        "updatedAt": "2026-07-17T23:06:38Z"
       }
     ]
   }

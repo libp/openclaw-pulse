@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-16T22:15:28.852Z",
+  "generatedAt": "2026-07-17T00:11:26.151Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -78,92 +78,85 @@
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-07-17",
+      "capturedAt": "2026-07-17T00:11:26.151Z",
+      "issueOpen": 3870,
+      "issueClosed": 40041,
+      "prOpen": 2896,
+      "prClosed": 60201,
+      "workflowRuns": 40000,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 109352,
-        "title": "[Bug]: Final assistant text resolution has no run boundary: delivers all assistant text after the last user-role entry of the working transcript (growing exact-prefix re-sends when a context engine rewrites the transcript)",
-        "url": "https://github.com/openclaw/openclaw/issues/109352",
+        "number": 7057,
+        "title": "Flaky tests on Windows/WSL: timeouts and ENOENT in pi-tools workspace-paths & safe-bins",
+        "url": "https://github.com/openclaw/openclaw/issues/7057",
         "state": "open",
-        "author": "andrea-kingautomation",
-        "updatedAt": "2026-07-16T22:14:36Z"
-      },
-      {
-        "kind": "issue",
-        "number": 109353,
-        "title": "Plugins cannot intercept inbound messages on the embedded agent path: global inbound_claim wrapper exists but is never invoked, and before_agent_reply is gated to trigger === \"cron\"",
-        "url": "https://github.com/openclaw/openclaw/issues/109353",
-        "state": "open",
-        "author": "andrea-kingautomation",
-        "updatedAt": "2026-07-16T22:13:39Z"
-      },
-      {
-        "kind": "issue",
-        "number": 109351,
-        "title": "[Bug]: Apple Watch messages force unsupported adaptive thinking on gpt-5.6-sol",
-        "url": "https://github.com/openclaw/openclaw/issues/109351",
-        "state": "open",
-        "author": "humphreyyy",
-        "updatedAt": "2026-07-16T22:12:55Z"
+        "author": "ThinkIbrokeIt",
+        "updatedAt": "2026-07-17T00:10:15Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 109381,
-        "title": "fix(music): stop hanging when generated asset downloads drip forever",
-        "url": "https://github.com/openclaw/openclaw/pull/109381",
+        "number": 109374,
+        "title": "chore: add live tool-surface benchmark",
+        "url": "https://github.com/openclaw/openclaw/pull/109374",
         "state": "open",
-        "author": "Pick-cat",
-        "updatedAt": "2026-07-16T22:15:13Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-17T00:11:18Z"
       },
       {
         "kind": "pr",
-        "number": 109376,
-        "title": "Talk: add context-aware durable voice sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/109376",
-        "state": "open",
-        "author": "clifton",
-        "updatedAt": "2026-07-16T22:15:12Z"
+        "number": 109294,
+        "title": "fix: use effective daemon port flag",
+        "url": "https://github.com/openclaw/openclaw/pull/109294",
+        "state": "closed",
+        "author": "pacoa-kdbg",
+        "updatedAt": "2026-07-17T00:11:13Z"
       },
       {
         "kind": "pr",
-        "number": 108590,
-        "title": "test telegram rich model browse channel data",
-        "url": "https://github.com/openclaw/openclaw/pull/108590",
-        "state": "open",
-        "author": "earlvanze",
-        "updatedAt": "2026-07-16T22:15:03Z"
+        "number": 109254,
+        "title": "fix(ci): address reviewer findings across the perf-lever batch",
+        "url": "https://github.com/openclaw/openclaw/pull/109254",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-07-17T00:11:08Z"
       },
       {
         "kind": "pr",
-        "number": 108829,
-        "title": "feat(channels): add unified implicit mention policy",
-        "url": "https://github.com/openclaw/openclaw/pull/108829",
+        "number": 108200,
+        "title": "fix(google): bound realtime live-session HTTP requests",
+        "url": "https://github.com/openclaw/openclaw/pull/108200",
         "state": "open",
-        "author": "iloveleon19",
-        "updatedAt": "2026-07-16T22:15:00Z"
+        "author": "zenglingbiao",
+        "updatedAt": "2026-07-17T00:10:44Z"
       },
       {
         "kind": "pr",
-        "number": 108533,
-        "title": "fix embedded compaction hook reset API",
-        "url": "https://github.com/openclaw/openclaw/pull/108533",
+        "number": 109418,
+        "title": "feat: carry Featured state into Control",
+        "url": "https://github.com/openclaw/openclaw/pull/109418",
         "state": "open",
-        "author": "earlvanze",
-        "updatedAt": "2026-07-16T22:14:59Z"
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-07-17T00:10:28Z"
       },
       {
         "kind": "pr",
-        "number": 109233,
-        "title": "fix(file-transfer): denyPaths does not deny listing the denied directory itself",
-        "url": "https://github.com/openclaw/openclaw/pull/109233",
+        "number": 108267,
+        "title": "fix(media): propagate SSRF policy to provider poll and download sub-requests",
+        "url": "https://github.com/openclaw/openclaw/pull/108267",
         "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-07-16T22:14:46Z"
+        "author": "zenglingbiao",
+        "updatedAt": "2026-07-17T00:10:25Z"
       }
     ]
   }

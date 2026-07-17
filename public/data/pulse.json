@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-17T03:35:18.688Z",
+  "generatedAt": "2026-07-17T06:26:23.981Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -81,91 +81,72 @@
     },
     {
       "capturedOn": "2026-07-17",
-      "capturedAt": "2026-07-17T03:35:18.688Z",
-      "issueOpen": 3874,
-      "issueClosed": 40057,
-      "prOpen": 2930,
-      "prClosed": 60326,
+      "capturedAt": "2026-07-17T06:26:23.981Z",
+      "issueOpen": 3862,
+      "issueClosed": 40087,
+      "prOpen": 2915,
+      "prClosed": 60500,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 109503,
-        "title": "[Bug]: openclaw doctor disables workspace suggestions by default",
-        "url": "https://github.com/openclaw/openclaw/issues/109503",
-        "state": "open",
-        "author": "moguangyu5-design",
-        "updatedAt": "2026-07-17T03:35:08Z"
-      },
-      {
-        "kind": "issue",
-        "number": 109611,
-        "title": "Add support for Kimi K3 model",
-        "url": "https://github.com/openclaw/openclaw/issues/109611",
-        "state": "open",
-        "author": "QQSHI13",
-        "updatedAt": "2026-07-17T03:34:17Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 102296,
-        "title": "Add plan-first Claw status and remove",
-        "url": "https://github.com/openclaw/openclaw/pull/102296",
+        "number": 108982,
+        "title": "fix(video-generation): bound stalled video download response body ",
+        "url": "https://github.com/openclaw/openclaw/pull/108982",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-17T03:35:07Z"
+        "author": "hugenshen",
+        "updatedAt": "2026-07-17T06:26:08Z"
       },
       {
         "kind": "pr",
-        "number": 109591,
-        "title": "fix(opencode): preserve Unicode in catalog tool input",
-        "url": "https://github.com/openclaw/openclaw/pull/109591",
+        "number": 108987,
+        "title": "fix(canvas): reject malformed snapshot base64",
+        "url": "https://github.com/openclaw/openclaw/pull/108987",
         "state": "open",
-        "author": "ZengWen-DT",
-        "updatedAt": "2026-07-17T03:35:06Z"
+        "author": "sunlit-deng",
+        "updatedAt": "2026-07-17T06:26:04Z"
       },
       {
         "kind": "pr",
-        "number": 109561,
-        "title": "fix(scripts): preserve UTF-16 surrogate pairs in firecrawl truncation",
-        "url": "https://github.com/openclaw/openclaw/pull/109561",
+        "number": 109109,
+        "title": "fix(auto-reply): deliverBindingPayload missing abortSignal check",
+        "url": "https://github.com/openclaw/openclaw/pull/109109",
         "state": "open",
-        "author": "lzyyzznl",
-        "updatedAt": "2026-07-17T03:35:00Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-07-17T06:26:03Z"
       },
       {
         "kind": "pr",
-        "number": 109609,
-        "title": "fix(push-web): ignore blank VAPID environment overrides",
-        "url": "https://github.com/openclaw/openclaw/pull/109609",
-        "state": "open",
-        "author": "mushuiyu886",
-        "updatedAt": "2026-07-17T03:34:59Z"
-      },
-      {
-        "kind": "pr",
-        "number": 109589,
-        "title": "fix(acpx): preserve Unicode in catalog tool arguments",
-        "url": "https://github.com/openclaw/openclaw/pull/109589",
-        "state": "open",
-        "author": "ZengWen-DT",
-        "updatedAt": "2026-07-17T03:35:11Z"
-      },
-      {
-        "kind": "pr",
-        "number": 109441,
-        "title": "fix(ui): follow Gateway queue mode for active-run messages",
-        "url": "https://github.com/openclaw/openclaw/pull/109441",
+        "number": 109715,
+        "title": "fix(webhooks): keep routes cold when SecretRefs are unavailable",
+        "url": "https://github.com/openclaw/openclaw/pull/109715",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-17T03:34:54Z"
+        "updatedAt": "2026-07-17T06:26:02Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109693,
+        "title": "fix(chat): preserve PNG attachments in native clients",
+        "url": "https://github.com/openclaw/openclaw/pull/109693",
+        "state": "open",
+        "author": "keshavbotagent",
+        "updatedAt": "2026-07-17T06:26:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109714,
+        "title": "perf(test): poll gateway startup state faster",
+        "url": "https://github.com/openclaw/openclaw/pull/109714",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-17T06:25:47Z"
       }
     ]
   }

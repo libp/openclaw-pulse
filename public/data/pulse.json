@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-17T21:07:07.310Z",
+  "generatedAt": "2026-07-17T22:05:54.058Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -81,11 +81,11 @@
     },
     {
       "capturedOn": "2026-07-17",
-      "capturedAt": "2026-07-17T21:07:07.310Z",
+      "capturedAt": "2026-07-17T22:05:54.058Z",
       "issueOpen": 3882,
-      "issueClosed": 40132,
-      "prOpen": 3031,
-      "prClosed": 60775,
+      "issueClosed": 40139,
+      "prOpen": 3037,
+      "prClosed": 60787,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -95,77 +95,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 9546,
-        "title": "[Feature Request] Add option to disable 'new messages' notification banner in WebChat",
-        "url": "https://github.com/openclaw/openclaw/issues/9546",
-        "state": "open",
-        "author": "cheqianyi",
-        "updatedAt": "2026-07-17T21:06:08Z"
+        "number": 110025,
+        "title": "[Bug]: Heartbeat task prompts never reach the model — embedded runner collapses the model prompt to the \"[OpenClaw heartbeat poll]\" transcript placeholder, while task timestamps still advance",
+        "url": "https://github.com/openclaw/openclaw/issues/110025",
+        "state": "closed",
+        "author": "headbouyJB",
+        "updatedAt": "2026-07-17T22:05:47Z"
       },
       {
         "kind": "issue",
-        "number": 110171,
-        "title": "feat(talk/realtime): voice chat should behave identically to text chat — context parity for agent-consult sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/110171",
+        "number": 110199,
+        "title": "Startup-migration checkpoint gate is impossible to pass on states that emit migration warnings (infinite boot deadlock)",
+        "url": "https://github.com/openclaw/openclaw/issues/110199",
         "state": "open",
-        "author": "JeffSteinbok",
-        "updatedAt": "2026-07-17T21:03:54Z"
+        "author": "niebloomj",
+        "updatedAt": "2026-07-17T22:05:35Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 110172,
-        "title": "perf(ci): recalibrate compact shard hints from 7-run loaded-fleet means",
-        "url": "https://github.com/openclaw/openclaw/pull/110172",
+        "number": 110094,
+        "title": "refactor(signal): remove global ingress test hook",
+        "url": "https://github.com/openclaw/openclaw/pull/110094",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-17T21:06:57Z"
+        "updatedAt": "2026-07-17T22:05:47Z"
       },
       {
         "kind": "pr",
-        "number": 101358,
-        "title": "feat: add Podman agent sandbox backend",
-        "url": "https://github.com/openclaw/openclaw/pull/101358",
-        "state": "open",
-        "author": "mrunalp",
-        "updatedAt": "2026-07-17T21:06:54Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110092,
-        "title": "fix(meeting-bot): avoid stale state during transcript and browser recovery",
-        "url": "https://github.com/openclaw/openclaw/pull/110092",
+        "number": 109817,
+        "title": "feat(browser): add secure per-tab copilot panel",
+        "url": "https://github.com/openclaw/openclaw/pull/109817",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-17T21:06:40Z"
+        "updatedAt": "2026-07-17T22:05:47Z"
       },
       {
         "kind": "pr",
-        "number": 108767,
-        "title": "fix(feishu): lock timeoutMs preflight abort for stalled DNS lookup",
-        "url": "https://github.com/openclaw/openclaw/pull/108767",
+        "number": 110183,
+        "title": "perf(ci): cut the pre-fan-out critical path and bin canonical main runs",
+        "url": "https://github.com/openclaw/openclaw/pull/110183",
         "state": "open",
-        "author": "zw-xysk",
-        "updatedAt": "2026-07-17T21:06:19Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-17T22:05:41Z"
       },
       {
         "kind": "pr",
-        "number": 108304,
-        "title": "feat: trace Claude Code CLI model calls",
-        "url": "https://github.com/openclaw/openclaw/pull/108304",
+        "number": 110197,
+        "title": "fix: pre-beta.2 state DB upgrade wedges gateway startup and doctor --fix",
+        "url": "https://github.com/openclaw/openclaw/pull/110197",
+        "state": "open",
+        "author": "MatthewSynthia",
+        "updatedAt": "2026-07-17T22:05:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110191,
+        "title": "fix(sessions): stop Windows archive cleanup retry loops",
+        "url": "https://github.com/openclaw/openclaw/pull/110191",
+        "state": "open",
+        "author": "jalehman",
+        "updatedAt": "2026-07-17T22:05:21Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110158,
+        "title": "fix(ci): script-only changes cold-start every Node job",
+        "url": "https://github.com/openclaw/openclaw/pull/110158",
         "state": "closed",
-        "author": "amknight",
-        "updatedAt": "2026-07-17T21:06:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110161,
-        "title": "fix: prevent exec output capture test timeout flake",
-        "url": "https://github.com/openclaw/openclaw/pull/110161",
-        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-17T21:06:11Z"
+        "updatedAt": "2026-07-17T22:05:20Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-17T19:31:25.125Z",
+  "generatedAt": "2026-07-17T21:07:07.310Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -81,11 +81,11 @@
     },
     {
       "capturedOn": "2026-07-17",
-      "capturedAt": "2026-07-17T19:31:25.125Z",
-      "issueOpen": 3879,
-      "issueClosed": 40129,
-      "prOpen": 3024,
-      "prClosed": 60759,
+      "capturedAt": "2026-07-17T21:07:07.310Z",
+      "issueOpen": 3882,
+      "issueClosed": 40132,
+      "prOpen": 3031,
+      "prClosed": 60775,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -95,86 +95,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 109657,
-        "title": "Adopt the core durable ingress drain on the remaining channels (WhatsApp, Discord, Slack, Signal, iMessage)",
-        "url": "https://github.com/openclaw/openclaw/issues/109657",
+        "number": 9546,
+        "title": "[Feature Request] Add option to disable 'new messages' notification banner in WebChat",
+        "url": "https://github.com/openclaw/openclaw/issues/9546",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-07-17T19:28:25Z"
+        "author": "cheqianyi",
+        "updatedAt": "2026-07-17T21:06:08Z"
       },
       {
         "kind": "issue",
-        "number": 110057,
-        "title": "Upgrading a gateway that ran a #109655-era build dead-letters pending LINE webhook events",
-        "url": "https://github.com/openclaw/openclaw/issues/110057",
+        "number": 110171,
+        "title": "feat(talk/realtime): voice chat should behave identically to text chat — context parity for agent-consult sessions",
+        "url": "https://github.com/openclaw/openclaw/issues/110171",
         "state": "open",
-        "author": "edenfunf",
-        "updatedAt": "2026-07-17T19:28:04Z"
-      },
-      {
-        "kind": "issue",
-        "number": 109911,
-        "title": "Dead-lettered inbound events are unrecoverable and invisible: payload erased on fail(), re-submissions swallowed, no operator surface (outbound delivery queue has one)",
-        "url": "https://github.com/openclaw/openclaw/issues/109911",
-        "state": "open",
-        "author": "edenfunf",
-        "updatedAt": "2026-07-17T19:27:30Z"
+        "author": "JeffSteinbok",
+        "updatedAt": "2026-07-17T21:03:54Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 110119,
-        "title": "fix(cli): deliver pre-tool assistant blocks durably",
-        "url": "https://github.com/openclaw/openclaw/pull/110119",
-        "state": "open",
-        "author": "destire-mio",
-        "updatedAt": "2026-07-17T19:31:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110122,
-        "title": "fix(voice-call): ngrok tunnels no longer survive cleanup",
-        "url": "https://github.com/openclaw/openclaw/pull/110122",
-        "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-07-17T19:31:11Z"
-      },
-      {
-        "kind": "pr",
-        "number": 109203,
-        "title": "feat(ag-ui): AG-UI channel",
-        "url": "https://github.com/openclaw/openclaw/pull/109203",
-        "state": "open",
-        "author": "mme",
-        "updatedAt": "2026-07-17T19:31:23Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110100,
-        "title": "fix(reef): restore inbox recovery after gateway restart",
-        "url": "https://github.com/openclaw/openclaw/pull/110100",
+        "number": 110172,
+        "title": "perf(ci): recalibrate compact shard hints from 7-run loaded-fleet means",
+        "url": "https://github.com/openclaw/openclaw/pull/110172",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-17T19:31:02Z"
+        "updatedAt": "2026-07-17T21:06:57Z"
       },
       {
         "kind": "pr",
-        "number": 110142,
-        "title": "test(ci): align package acceptance omission default",
-        "url": "https://github.com/openclaw/openclaw/pull/110142",
+        "number": 101358,
+        "title": "feat: add Podman agent sandbox backend",
+        "url": "https://github.com/openclaw/openclaw/pull/101358",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-17T19:30:46Z"
+        "author": "mrunalp",
+        "updatedAt": "2026-07-17T21:06:54Z"
       },
       {
         "kind": "pr",
-        "number": 110089,
-        "title": "fix: harden recovered meeting browser sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/110089",
+        "number": 110092,
+        "title": "fix(meeting-bot): avoid stale state during transcript and browser recovery",
+        "url": "https://github.com/openclaw/openclaw/pull/110092",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-17T19:30:44Z"
+        "updatedAt": "2026-07-17T21:06:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 108767,
+        "title": "fix(feishu): lock timeoutMs preflight abort for stalled DNS lookup",
+        "url": "https://github.com/openclaw/openclaw/pull/108767",
+        "state": "open",
+        "author": "zw-xysk",
+        "updatedAt": "2026-07-17T21:06:19Z"
+      },
+      {
+        "kind": "pr",
+        "number": 108304,
+        "title": "feat: trace Claude Code CLI model calls",
+        "url": "https://github.com/openclaw/openclaw/pull/108304",
+        "state": "closed",
+        "author": "amknight",
+        "updatedAt": "2026-07-17T21:06:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110161,
+        "title": "fix: prevent exec output capture test timeout flake",
+        "url": "https://github.com/openclaw/openclaw/pull/110161",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-17T21:06:11Z"
       }
     ]
   }

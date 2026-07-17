@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-17T11:39:40.570Z",
+  "generatedAt": "2026-07-17T14:01:07.593Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -81,11 +81,11 @@
     },
     {
       "capturedOn": "2026-07-17",
-      "capturedAt": "2026-07-17T11:39:40.570Z",
-      "issueOpen": 3865,
-      "issueClosed": 40112,
-      "prOpen": 2967,
-      "prClosed": 60615,
+      "capturedAt": "2026-07-17T14:01:07.593Z",
+      "issueOpen": 3868,
+      "issueClosed": 40118,
+      "prOpen": 2997,
+      "prClosed": 60691,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -95,69 +95,24 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 109838,
-        "title": "Control UI waits up to a minute for native session catalogs across paired Macs",
-        "url": "https://github.com/openclaw/openclaw/issues/109838",
+        "number": 110022,
+        "title": "Telegram: agent replies delivered twice (OpenClaw + nova senders) since 2026-07-17",
+        "url": "https://github.com/openclaw/openclaw/issues/110022",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-17T11:39:23Z"
+        "author": "novaosai-lab",
+        "updatedAt": "2026-07-17T14:01:03Z"
       },
       {
         "kind": "issue",
-        "number": 109942,
-        "title": "[Bug]: OpenClaw v7.1 Dashboard Returns 400 Error with llamacpp due to Missing Regex Anchors in Auto-Generated GBNF Schema",
-        "url": "https://github.com/openclaw/openclaw/issues/109942",
+        "number": 109657,
+        "title": "Adopt the core durable ingress drain on the remaining channels (WhatsApp, Discord, Slack, Signal, iMessage)",
+        "url": "https://github.com/openclaw/openclaw/issues/109657",
         "state": "open",
-        "author": "JasonHsu31",
-        "updatedAt": "2026-07-17T11:39:03Z"
-      },
-      {
-        "kind": "issue",
-        "number": 7909,
-        "title": "[Feature]: Add plain text copy option",
-        "url": "https://github.com/openclaw/openclaw/issues/7909",
-        "state": "open",
-        "author": "rvpoochen",
-        "updatedAt": "2026-07-17T11:38:37Z"
-      },
-      {
-        "kind": "issue",
-        "number": 106779,
-        "title": "Issue with 2026.7.1",
-        "url": "https://github.com/openclaw/openclaw/issues/106779",
-        "state": "open",
-        "author": "delimir",
-        "updatedAt": "2026-07-17T11:38:33Z"
-      },
-      {
-        "kind": "issue",
-        "number": 109503,
-        "title": "[Bug]: openclaw doctor disables workspace suggestions by default",
-        "url": "https://github.com/openclaw/openclaw/issues/109503",
-        "state": "open",
-        "author": "moguangyu5-design",
-        "updatedAt": "2026-07-17T11:38:21Z"
-      },
-      {
-        "kind": "issue",
-        "number": 109948,
-        "title": "[Bug]: Steer message during active tool call crashes embedded agent (EmbeddedAttemptSessionTakeoverError)",
-        "url": "https://github.com/openclaw/openclaw/issues/109948",
-        "state": "open",
-        "author": "Andy-Xie-1145",
-        "updatedAt": "2026-07-17T11:38:19Z"
+        "author": "obviyus",
+        "updatedAt": "2026-07-17T14:01:00Z"
       }
     ],
     "prs": [
-      {
-        "kind": "pr",
-        "number": 109951,
-        "title": "fix(onboarding): stop recommending tools setup cannot activate",
-        "url": "https://github.com/openclaw/openclaw/pull/109951",
-        "state": "open",
-        "author": "zhanxingxin1998",
-        "updatedAt": "2026-07-17T11:39:31Z"
-      },
       {
         "kind": "pr",
         "number": 108533,
@@ -165,43 +120,52 @@
         "url": "https://github.com/openclaw/openclaw/pull/108533",
         "state": "open",
         "author": "earlvanze",
-        "updatedAt": "2026-07-17T11:39:31Z"
+        "updatedAt": "2026-07-17T14:01:02Z"
       },
       {
         "kind": "pr",
-        "number": 109955,
-        "title": "fix: avoid false macOS gateway restart failures",
-        "url": "https://github.com/openclaw/openclaw/pull/109955",
-        "state": "open",
-        "author": "DaigoSoup",
-        "updatedAt": "2026-07-17T11:39:28Z"
-      },
-      {
-        "kind": "pr",
-        "number": 109943,
-        "title": "fix(onboard): keep configured AI route when guarded setup is skipped",
-        "url": "https://github.com/openclaw/openclaw/pull/109943",
+        "number": 109930,
+        "title": "fix(ui): restore first-run setup redirect after reconnect",
+        "url": "https://github.com/openclaw/openclaw/pull/109930",
         "state": "open",
         "author": "zhanxingxin1998",
-        "updatedAt": "2026-07-17T11:39:24Z"
+        "updatedAt": "2026-07-17T14:01:01Z"
       },
       {
         "kind": "pr",
-        "number": 96648,
-        "title": "Fix MSTeams card actions with durable receive before ACK",
-        "url": "https://github.com/openclaw/openclaw/pull/96648",
+        "number": 110021,
+        "title": "fix(sessions): keep Matrix DM session keys case-distinct per peer",
+        "url": "https://github.com/openclaw/openclaw/pull/110021",
         "state": "open",
-        "author": "youngting520",
-        "updatedAt": "2026-07-17T11:39:20Z"
+        "author": "yetval",
+        "updatedAt": "2026-07-17T14:01:00Z"
       },
       {
         "kind": "pr",
-        "number": 109954,
-        "title": "test(macos): anchor chat fixture timestamps to send-time events",
-        "url": "https://github.com/openclaw/openclaw/pull/109954",
+        "number": 108982,
+        "title": "fix(openai): bound stalled generated video download body reads with idle timeout",
+        "url": "https://github.com/openclaw/openclaw/pull/108982",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-17T11:39:17Z"
+        "author": "hugenshen",
+        "updatedAt": "2026-07-17T14:01:03Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110015,
+        "title": "fix: show workboard cards before task enrichment",
+        "url": "https://github.com/openclaw/openclaw/pull/110015",
+        "state": "open",
+        "author": "zilokki-bot",
+        "updatedAt": "2026-07-17T14:00:56Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109840,
+        "title": "fix(approval): preserve Unicode in native-route approval slug truncation",
+        "url": "https://github.com/openclaw/openclaw/pull/109840",
+        "state": "open",
+        "author": "loong954",
+        "updatedAt": "2026-07-17T14:00:56Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-18T06:17:02.356Z",
+  "generatedAt": "2026-07-18T08:10:59.682Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -92,11 +92,11 @@
     },
     {
       "capturedOn": "2026-07-18",
-      "capturedAt": "2026-07-18T06:17:02.356Z",
-      "issueOpen": 3862,
-      "issueClosed": 40201,
-      "prOpen": 2984,
-      "prClosed": 61065,
+      "capturedAt": "2026-07-18T08:10:59.682Z",
+      "issueOpen": 3864,
+      "issueClosed": 40210,
+      "prOpen": 2985,
+      "prClosed": 61149,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -107,57 +107,57 @@
     "prs": [
       {
         "kind": "pr",
-        "number": 110466,
-        "title": "feat(ui): logo-scare lobster visits; drop the model-auth-expiring chip",
-        "url": "https://github.com/openclaw/openclaw/pull/110466",
+        "number": 110561,
+        "title": "fix(sqlite): normalize BLOB/TEXT type mismatches during STRICT migration",
+        "url": "https://github.com/openclaw/openclaw/pull/110561",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-18T06:16:55Z"
+        "author": "wangyan2026",
+        "updatedAt": "2026-07-18T08:10:53Z"
       },
       {
         "kind": "pr",
-        "number": 100998,
-        "title": "fix(telegram): catch unhandled rejections in webhook and ingress worker shutdown",
-        "url": "https://github.com/openclaw/openclaw/pull/100998",
-        "state": "open",
-        "author": "Pick-cat",
-        "updatedAt": "2026-07-18T06:16:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110460,
-        "title": "fix: show cloud-worker progress in sessions tail",
-        "url": "https://github.com/openclaw/openclaw/pull/110460",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-18T06:16:53Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110462,
-        "title": "fix(ui): center session title on the native macOS titlebar centerline",
-        "url": "https://github.com/openclaw/openclaw/pull/110462",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-07-18T06:16:51Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110384,
-        "title": "fix(codex): UTF-8 WebSocket requests survive split writes",
-        "url": "https://github.com/openclaw/openclaw/pull/110384",
+        "number": 110480,
+        "title": "fix(ci): classify proxied APNs TLS tunnel",
+        "url": "https://github.com/openclaw/openclaw/pull/110480",
         "state": "open",
         "author": "zhangguiping-xydt",
-        "updatedAt": "2026-07-18T06:16:49Z"
+        "updatedAt": "2026-07-18T08:10:45Z"
       },
       {
         "kind": "pr",
-        "number": 110347,
-        "title": "feat(clients): session groups, batch actions, inspector, and worktree-aware creation for native chat",
-        "url": "https://github.com/openclaw/openclaw/pull/110347",
+        "number": 110162,
+        "title": "refactor(gateway): remove forward-referenced resolve in createTimeoutRace",
+        "url": "https://github.com/openclaw/openclaw/pull/110162",
+        "state": "open",
+        "author": "hakanbaysal",
+        "updatedAt": "2026-07-18T08:10:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110560,
+        "title": "fix(agents): report agent-delete cleanup failures instead of silent success",
+        "url": "https://github.com/openclaw/openclaw/pull/110560",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-18T06:16:49Z"
+        "updatedAt": "2026-07-18T08:10:29Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110506,
+        "title": "fix(tts): guard persona provider isConfigured against malformed config throws",
+        "url": "https://github.com/openclaw/openclaw/pull/110506",
+        "state": "open",
+        "author": "dwc1997",
+        "updatedAt": "2026-07-18T08:10:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110543,
+        "title": "docs(onboarding): finalize phase status and phase 7 decision",
+        "url": "https://github.com/openclaw/openclaw/pull/110543",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-18T08:10:22Z"
       }
     ]
   }

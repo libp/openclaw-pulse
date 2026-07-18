@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-18T19:29:44.620Z",
+  "generatedAt": "2026-07-18T21:04:50.818Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -92,91 +92,72 @@
     },
     {
       "capturedOn": "2026-07-18",
-      "capturedAt": "2026-07-18T19:29:44.620Z",
-      "issueOpen": 3896,
-      "issueClosed": 40227,
-      "prOpen": 3006,
-      "prClosed": 61443,
+      "capturedAt": "2026-07-18T21:04:50.818Z",
+      "issueOpen": 3894,
+      "issueClosed": 40236,
+      "prOpen": 2983,
+      "prClosed": 61492,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 110926,
-        "title": "[Feature]: Split AEON A2A store and verification owners",
-        "url": "https://github.com/openclaw/openclaw/issues/110926",
-        "state": "open",
-        "author": "StephGlansberg",
-        "updatedAt": "2026-07-18T19:28:59Z"
-      },
-      {
-        "kind": "issue",
-        "number": 110920,
-        "title": "[Bug]: LINE drops inbound media on transient download failure instead of retrying through the durable ingress drain",
-        "url": "https://github.com/openclaw/openclaw/issues/110920",
-        "state": "open",
-        "author": "edenfunf",
-        "updatedAt": "2026-07-18T19:28:29Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 110052,
-        "title": "fix(imessage): keep fast progress out of chat",
-        "url": "https://github.com/openclaw/openclaw/pull/110052",
+        "number": 109983,
+        "title": "fix(telegram-miniapp): cancel unread response body on auth error",
+        "url": "https://github.com/openclaw/openclaw/pull/109983",
         "state": "open",
-        "author": "omarshahine",
-        "updatedAt": "2026-07-18T19:29:40Z"
+        "author": "coder-master-0915",
+        "updatedAt": "2026-07-18T21:04:38Z"
       },
       {
         "kind": "pr",
-        "number": 110919,
-        "title": "test(memory-wiki): allow agent isolation proof to finish",
-        "url": "https://github.com/openclaw/openclaw/pull/110919",
-        "state": "closed",
+        "number": 110908,
+        "title": "fix(vault): aggregate provider outage diagnostics",
+        "url": "https://github.com/openclaw/openclaw/pull/110908",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-18T19:29:39Z"
+        "updatedAt": "2026-07-18T21:04:29Z"
       },
       {
         "kind": "pr",
-        "number": 110791,
-        "title": "feat(webchat): reply-to a message with hydrated reply context",
-        "url": "https://github.com/openclaw/openclaw/pull/110791",
+        "number": 110234,
+        "title": "fix(memory-wiki): reject malformed ChatGPT timestamps",
+        "url": "https://github.com/openclaw/openclaw/pull/110234",
         "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-07-18T19:29:34Z"
+        "author": "qingminlong",
+        "updatedAt": "2026-07-18T21:04:45Z"
       },
       {
         "kind": "pr",
-        "number": 110575,
-        "title": "fix: preserve same-session hook bursts",
-        "url": "https://github.com/openclaw/openclaw/pull/110575",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-07-18T19:29:30Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110853,
-        "title": "fix(imessage): prevent duplicate messages after delayed sends",
-        "url": "https://github.com/openclaw/openclaw/pull/110853",
+        "number": 109985,
+        "title": "fix(qa-lab): cancel unread response body on HTTP error + fix(vertex-adc): guard JSON.parse",
+        "url": "https://github.com/openclaw/openclaw/pull/109985",
         "state": "open",
-        "author": "omarshahine",
-        "updatedAt": "2026-07-18T19:29:22Z"
+        "author": "coder-master-0915",
+        "updatedAt": "2026-07-18T21:04:26Z"
       },
       {
         "kind": "pr",
-        "number": 110897,
-        "title": "fix(qa): provide live credentials to full profile evidence",
-        "url": "https://github.com/openclaw/openclaw/pull/110897",
-        "state": "closed",
-        "author": "RomneyDa",
-        "updatedAt": "2026-07-18T19:29:16Z"
+        "number": 107209,
+        "title": "Suppress model fallback notices in rooms",
+        "url": "https://github.com/openclaw/openclaw/pull/107209",
+        "state": "open",
+        "author": "NehoraiHadad",
+        "updatedAt": "2026-07-18T21:04:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 107744,
+        "title": "feat: AI safety/quality event taxonomy (#82548)",
+        "url": "https://github.com/openclaw/openclaw/pull/107744",
+        "state": "open",
+        "author": "skoya",
+        "updatedAt": "2026-07-18T21:04:08Z"
       }
     ]
   }

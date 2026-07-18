@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-18T21:04:50.818Z",
+  "generatedAt": "2026-07-18T22:06:17.421Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -92,72 +92,91 @@
     },
     {
       "capturedOn": "2026-07-18",
-      "capturedAt": "2026-07-18T21:04:50.818Z",
-      "issueOpen": 3894,
-      "issueClosed": 40236,
-      "prOpen": 2983,
-      "prClosed": 61492,
+      "capturedAt": "2026-07-18T22:06:17.421Z",
+      "issueOpen": 3895,
+      "issueClosed": 40241,
+      "prOpen": 2974,
+      "prClosed": 61520,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 110982,
+        "title": "[Bug]: Browser Copilot runtime bundle omits current Gateway client IDs",
+        "url": "https://github.com/openclaw/openclaw/issues/110982",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-18T22:04:53Z"
+      },
+      {
+        "kind": "issue",
+        "number": 100954,
+        "title": "fix(llm): token usage mismatch during early stream aborts on Azure OpenAI models",
+        "url": "https://github.com/openclaw/openclaw/issues/100954",
+        "state": "closed",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-18T22:03:55Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 109983,
-        "title": "fix(telegram-miniapp): cancel unread response body on auth error",
-        "url": "https://github.com/openclaw/openclaw/pull/109983",
+        "number": 110401,
+        "title": "fix(onboarding): avoid splitting surrogate pairs in recommendation reasons",
+        "url": "https://github.com/openclaw/openclaw/pull/110401",
         "state": "open",
-        "author": "coder-master-0915",
-        "updatedAt": "2026-07-18T21:04:38Z"
+        "author": "Leon-SK668",
+        "updatedAt": "2026-07-18T22:06:03Z"
       },
       {
         "kind": "pr",
-        "number": 110908,
-        "title": "fix(vault): aggregate provider outage diagnostics",
-        "url": "https://github.com/openclaw/openclaw/pull/110908",
+        "number": 99461,
+        "title": "fix: close FileHandles explicitly to prevent Node 26 GC crash",
+        "url": "https://github.com/openclaw/openclaw/pull/99461",
+        "state": "open",
+        "author": "999wwx",
+        "updatedAt": "2026-07-18T22:05:58Z"
+      },
+      {
+        "kind": "pr",
+        "number": 99349,
+        "title": "fix(codex): replace Error.message prose matching with typed error classes (#99270)",
+        "url": "https://github.com/openclaw/openclaw/pull/99349",
+        "state": "closed",
+        "author": "wlf567",
+        "updatedAt": "2026-07-18T22:05:45Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110932,
+        "title": "feat(agents): Swarm core — collector spawn, agents_wait, structured output, caps (gated)",
+        "url": "https://github.com/openclaw/openclaw/pull/110932",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-18T21:04:29Z"
+        "updatedAt": "2026-07-18T22:05:28Z"
       },
       {
         "kind": "pr",
-        "number": 110234,
-        "title": "fix(memory-wiki): reject malformed ChatGPT timestamps",
-        "url": "https://github.com/openclaw/openclaw/pull/110234",
+        "number": 109161,
+        "title": "fix(wizard): treat not-directory paths as missing in migration snapshots",
+        "url": "https://github.com/openclaw/openclaw/pull/109161",
         "state": "open",
-        "author": "qingminlong",
-        "updatedAt": "2026-07-18T21:04:45Z"
+        "author": "xydt-juyaohui",
+        "updatedAt": "2026-07-18T22:05:23Z"
       },
       {
         "kind": "pr",
-        "number": 109985,
-        "title": "fix(qa-lab): cancel unread response body on HTTP error + fix(vertex-adc): guard JSON.parse",
-        "url": "https://github.com/openclaw/openclaw/pull/109985",
+        "number": 110984,
+        "title": "refactor(plugin-sdk): consolidate persistent dedupe claim loop",
+        "url": "https://github.com/openclaw/openclaw/pull/110984",
         "state": "open",
-        "author": "coder-master-0915",
-        "updatedAt": "2026-07-18T21:04:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 107209,
-        "title": "Suppress model fallback notices in rooms",
-        "url": "https://github.com/openclaw/openclaw/pull/107209",
-        "state": "open",
-        "author": "NehoraiHadad",
-        "updatedAt": "2026-07-18T21:04:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 107744,
-        "title": "feat: AI safety/quality event taxonomy (#82548)",
-        "url": "https://github.com/openclaw/openclaw/pull/107744",
-        "state": "open",
-        "author": "skoya",
-        "updatedAt": "2026-07-18T21:04:08Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-18T22:05:22Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-18T15:13:27.161Z",
+  "generatedAt": "2026-07-18T16:10:19.313Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -92,28 +92,18 @@
     },
     {
       "capturedOn": "2026-07-18",
-      "capturedAt": "2026-07-18T15:13:27.161Z",
-      "issueOpen": 3884,
+      "capturedAt": "2026-07-18T16:10:19.313Z",
+      "issueOpen": 3888,
       "issueClosed": 40219,
-      "prOpen": 2985,
-      "prClosed": 61321,
+      "prOpen": 2996,
+      "prClosed": 61340,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 109490,
-        "title": "codex app-server: turn interrupted after client-delegated message tool result (terminate:true) — promised work never executes",
-        "url": "https://github.com/openclaw/openclaw/issues/109490",
-        "state": "open",
-        "author": "antonsbot",
-        "updatedAt": "2026-07-18T15:13:11Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
@@ -122,52 +112,52 @@
         "url": "https://github.com/openclaw/openclaw/pull/110762",
         "state": "open",
         "author": "mcaxtr",
-        "updatedAt": "2026-07-18T15:13:23Z"
+        "updatedAt": "2026-07-18T16:10:14Z"
       },
       {
         "kind": "pr",
-        "number": 110643,
-        "title": "fix(markdown): keep IR text slicing UTF-16 safe",
-        "url": "https://github.com/openclaw/openclaw/pull/110643",
+        "number": 110796,
+        "title": "fix(gateway): page SQLite transcript visits for sessions.files.list",
+        "url": "https://github.com/openclaw/openclaw/pull/110796",
         "state": "open",
-        "author": "coder-master-0915",
-        "updatedAt": "2026-07-18T15:13:23Z"
+        "author": "hugenshen",
+        "updatedAt": "2026-07-18T16:10:12Z"
       },
       {
         "kind": "pr",
-        "number": 110681,
-        "title": "feat(apps,ui): question surface parity and composer takeover",
-        "url": "https://github.com/openclaw/openclaw/pull/110681",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-18T15:13:22Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110734,
-        "title": "fix(codex-native): interrupt live Codex subagent thread on tasks cancel",
-        "url": "https://github.com/openclaw/openclaw/pull/110734",
-        "state": "open",
-        "author": "wangyan2026",
-        "updatedAt": "2026-07-18T15:13:11Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110009,
-        "title": "fix(ui): bound Nostr profile write/read requests",
-        "url": "https://github.com/openclaw/openclaw/pull/110009",
-        "state": "open",
-        "author": "xydigit-zt",
-        "updatedAt": "2026-07-18T15:13:07Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110756,
-        "title": "fix(scripts): bound GHSA patch GitHub lookups",
-        "url": "https://github.com/openclaw/openclaw/pull/110756",
+        "number": 110764,
+        "title": "fix(process): trim UTF-8 boundary on win32 in truncated command output",
+        "url": "https://github.com/openclaw/openclaw/pull/110764",
         "state": "open",
         "author": "tzy-17",
-        "updatedAt": "2026-07-18T15:13:13Z"
+        "updatedAt": "2026-07-18T16:10:12Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109034,
+        "title": "fix(qqbot): bound remote media downloads with header and idle timeouts",
+        "url": "https://github.com/openclaw/openclaw/pull/109034",
+        "state": "open",
+        "author": "hugenshen",
+        "updatedAt": "2026-07-18T16:10:11Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110742,
+        "title": "fix(cron): bound misconfigured timeoutSeconds/noOutputTimeoutSeconds to default",
+        "url": "https://github.com/openclaw/openclaw/pull/110742",
+        "state": "open",
+        "author": "tzy-17",
+        "updatedAt": "2026-07-18T16:10:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110759,
+        "title": "fix(stt-live-audio): drain ElevenLabs error response body to release socket",
+        "url": "https://github.com/openclaw/openclaw/pull/110759",
+        "state": "open",
+        "author": "tzy-17",
+        "updatedAt": "2026-07-18T16:10:03Z"
       }
     ]
   }

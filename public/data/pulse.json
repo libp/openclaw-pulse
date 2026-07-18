@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-18T11:17:42.112Z",
+  "generatedAt": "2026-07-18T13:46:28.669Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -92,72 +92,91 @@
     },
     {
       "capturedOn": "2026-07-18",
-      "capturedAt": "2026-07-18T11:17:42.112Z",
-      "issueOpen": 3867,
-      "issueClosed": 40216,
-      "prOpen": 2969,
-      "prClosed": 61245,
+      "capturedAt": "2026-07-18T13:46:28.669Z",
+      "issueOpen": 3877,
+      "issueClosed": 40219,
+      "prOpen": 2984,
+      "prClosed": 61286,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 11460,
+        "title": "WhatsApp: Add support for querying message reactions",
+        "url": "https://github.com/openclaw/openclaw/issues/11460",
+        "state": "open",
+        "author": "ario",
+        "updatedAt": "2026-07-18T13:44:39Z"
+      },
+      {
+        "kind": "issue",
+        "number": 110715,
+        "title": "[Feature]: Plivo bidirectional audio streaming for realtime voice agents in voice-call",
+        "url": "https://github.com/openclaw/openclaw/issues/110715",
+        "state": "open",
+        "author": "sarveshpatil-plivo",
+        "updatedAt": "2026-07-18T13:42:32Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 109077,
-        "title": "fix(e2e): bound non-root installer fetch",
-        "url": "https://github.com/openclaw/openclaw/pull/109077",
+        "number": 109991,
+        "title": "fix(qa-lab): cancel unread response body in parity tool-call fetch",
+        "url": "https://github.com/openclaw/openclaw/pull/109991",
         "state": "open",
-        "author": "xydigit-zt",
-        "updatedAt": "2026-07-18T11:17:40Z"
+        "author": "coder-master-0915",
+        "updatedAt": "2026-07-18T13:46:21Z"
       },
       {
         "kind": "pr",
-        "number": 109414,
-        "title": "fix(sessions): read pinned session-extension registry in upstream monitor",
-        "url": "https://github.com/openclaw/openclaw/pull/109414",
+        "number": 110714,
+        "title": "fix(oc-path): bound config file reads with size cap",
+        "url": "https://github.com/openclaw/openclaw/pull/110714",
         "state": "open",
-        "author": "xydigit-zt",
-        "updatedAt": "2026-07-18T11:17:35Z"
+        "author": "cxbAsDev",
+        "updatedAt": "2026-07-18T13:46:19Z"
       },
       {
         "kind": "pr",
-        "number": 110621,
-        "title": "fix(ui): settings language picker was oversized and unthemed",
-        "url": "https://github.com/openclaw/openclaw/pull/110621",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-07-18T11:17:30Z"
+        "number": 101429,
+        "title": "fix(shared): bound ignore-file reads during workspace scans",
+        "url": "https://github.com/openclaw/openclaw/pull/101429",
+        "state": "open",
+        "author": "cxbAsDev",
+        "updatedAt": "2026-07-18T13:46:15Z"
       },
       {
         "kind": "pr",
-        "number": 110646,
-        "title": "feat(mac): show native notification permission in dashboard Notifications settings",
-        "url": "https://github.com/openclaw/openclaw/pull/110646",
+        "number": 109680,
+        "title": "fix(amazon-bedrock): keep blank credentials from overriding AWS auth",
+        "url": "https://github.com/openclaw/openclaw/pull/109680",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-18T11:17:39Z"
+        "author": "ZengWen-DT",
+        "updatedAt": "2026-07-18T13:45:55Z"
       },
       {
         "kind": "pr",
-        "number": 110628,
-        "title": "perf(ui): lazy-load the lobster pet out of the Control UI startup graph",
-        "url": "https://github.com/openclaw/openclaw/pull/110628",
+        "number": 110699,
+        "title": "fix(gateway): keep channels responsive after startup requests finish",
+        "url": "https://github.com/openclaw/openclaw/pull/110699",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-18T11:17:27Z"
+        "author": "David-0x221Eight",
+        "updatedAt": "2026-07-18T13:45:46Z"
       },
       {
         "kind": "pr",
-        "number": 109462,
-        "title": "fix(usage-bar): clear dead watcher reference after transient error",
-        "url": "https://github.com/openclaw/openclaw/pull/109462",
+        "number": 102293,
+        "title": "Add 1Password SecretRef plugin",
+        "url": "https://github.com/openclaw/openclaw/pull/102293",
         "state": "open",
-        "author": "zenglingbiao",
-        "updatedAt": "2026-07-18T11:17:27Z"
+        "author": "sallyom",
+        "updatedAt": "2026-07-18T13:45:40Z"
       }
     ]
   }

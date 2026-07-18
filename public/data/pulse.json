@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-18T22:06:17.421Z",
+  "generatedAt": "2026-07-18T23:09:19.486Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -92,91 +92,72 @@
     },
     {
       "capturedOn": "2026-07-18",
-      "capturedAt": "2026-07-18T22:06:17.421Z",
-      "issueOpen": 3895,
-      "issueClosed": 40241,
-      "prOpen": 2974,
-      "prClosed": 61520,
+      "capturedAt": "2026-07-18T23:09:19.486Z",
+      "issueOpen": 3898,
+      "issueClosed": 40242,
+      "prOpen": 2970,
+      "prClosed": 61556,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 110982,
-        "title": "[Bug]: Browser Copilot runtime bundle omits current Gateway client IDs",
-        "url": "https://github.com/openclaw/openclaw/issues/110982",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-18T22:04:53Z"
-      },
-      {
-        "kind": "issue",
-        "number": 100954,
-        "title": "fix(llm): token usage mismatch during early stream aborts on Azure OpenAI models",
-        "url": "https://github.com/openclaw/openclaw/issues/100954",
-        "state": "closed",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-18T22:03:55Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 110401,
-        "title": "fix(onboarding): avoid splitting surrogate pairs in recommendation reasons",
-        "url": "https://github.com/openclaw/openclaw/pull/110401",
+        "number": 101477,
+        "title": "fix(cron): bound cron quarantine sidecar file reads",
+        "url": "https://github.com/openclaw/openclaw/pull/101477",
         "state": "open",
-        "author": "Leon-SK668",
-        "updatedAt": "2026-07-18T22:06:03Z"
+        "author": "cxbAsDev",
+        "updatedAt": "2026-07-18T23:09:08Z"
       },
       {
         "kind": "pr",
-        "number": 99461,
-        "title": "fix: close FileHandles explicitly to prevent Node 26 GC crash",
-        "url": "https://github.com/openclaw/openclaw/pull/99461",
+        "number": 110941,
+        "title": "feat(android): accept audio and document attachments via share sheet and composer",
+        "url": "https://github.com/openclaw/openclaw/pull/110941",
         "state": "open",
-        "author": "999wwx",
-        "updatedAt": "2026-07-18T22:05:58Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-18T23:08:42Z"
       },
       {
         "kind": "pr",
-        "number": 99349,
-        "title": "fix(codex): replace Error.message prose matching with typed error classes (#99270)",
-        "url": "https://github.com/openclaw/openclaw/pull/99349",
+        "number": 110882,
+        "title": "fix(browser): stop screenshot vision-failure fallback from injecting raw base64",
+        "url": "https://github.com/openclaw/openclaw/pull/110882",
+        "state": "open",
+        "author": "piyushbag",
+        "updatedAt": "2026-07-18T23:08:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110601,
+        "title": "fix(scripts): bound ci-run-timings git and GitHub CLI operations",
+        "url": "https://github.com/openclaw/openclaw/pull/110601",
+        "state": "open",
+        "author": "wanyongstar",
+        "updatedAt": "2026-07-18T23:08:34Z"
+      },
+      {
+        "kind": "pr",
+        "number": 108849,
+        "title": "fix(agents): use fatal UTF-8 decoding for provider JSON responses",
+        "url": "https://github.com/openclaw/openclaw/pull/108849",
         "state": "closed",
-        "author": "wlf567",
-        "updatedAt": "2026-07-18T22:05:45Z"
+        "author": "zenglingbiao",
+        "updatedAt": "2026-07-18T23:08:31Z"
       },
       {
         "kind": "pr",
-        "number": 110932,
-        "title": "feat(agents): Swarm core — collector spawn, agents_wait, structured output, caps (gated)",
-        "url": "https://github.com/openclaw/openclaw/pull/110932",
+        "number": 111017,
+        "title": "refactor(channels): share durable ingress monitor",
+        "url": "https://github.com/openclaw/openclaw/pull/111017",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-18T22:05:28Z"
-      },
-      {
-        "kind": "pr",
-        "number": 109161,
-        "title": "fix(wizard): treat not-directory paths as missing in migration snapshots",
-        "url": "https://github.com/openclaw/openclaw/pull/109161",
-        "state": "open",
-        "author": "xydt-juyaohui",
-        "updatedAt": "2026-07-18T22:05:23Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110984,
-        "title": "refactor(plugin-sdk): consolidate persistent dedupe claim loop",
-        "url": "https://github.com/openclaw/openclaw/pull/110984",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-18T22:05:22Z"
+        "updatedAt": "2026-07-18T23:08:18Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-17T23:06:59.208Z",
+  "generatedAt": "2026-07-18T00:07:23.578Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -89,83 +89,85 @@
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-07-18",
+      "capturedAt": "2026-07-18T00:07:23.578Z",
+      "issueOpen": 3880,
+      "issueClosed": 40151,
+      "prOpen": 3002,
+      "prClosed": 60868,
+      "workflowRuns": 40000,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 110224,
-        "title": "[Bug]: cloud-worker reconcile conflict is unrecoverable: stuck turn claim, blocked reclaim, restart destroys pending result",
-        "url": "https://github.com/openclaw/openclaw/issues/110224",
+        "number": 9656,
+        "title": "Feature: Handle Signal message edits (editMessage envelope)",
+        "url": "https://github.com/openclaw/openclaw/issues/9656",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-17T23:06:28Z"
-      },
-      {
-        "kind": "issue",
-        "number": 110222,
-        "title": "Exec tool: \"⚠️ Exec failed:\" false-positive renderer — shellcheck SYNTAX OK and other success text gets classified as tool error",
-        "url": "https://github.com/openclaw/openclaw/issues/110222",
-        "state": "open",
-        "author": "patelmm79",
-        "updatedAt": "2026-07-17T23:05:52Z"
+        "author": "NOVA-Openclaw",
+        "updatedAt": "2026-07-18T00:04:42Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 110220,
-        "title": "fix(gateway): stop reporting user cancellations as gateway draining",
-        "url": "https://github.com/openclaw/openclaw/pull/110220",
+        "number": 110253,
+        "title": "fix(perf): gateway startup benchmark reports n/a CPU/RSS on Windows",
+        "url": "https://github.com/openclaw/openclaw/pull/110253",
+        "state": "open",
+        "author": "paulcam206",
+        "updatedAt": "2026-07-18T00:07:20Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110242,
+        "title": "feat(gateway): typed structured questions on openclaw.chat with live option cards",
+        "url": "https://github.com/openclaw/openclaw/pull/110242",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-17T23:06:45Z"
+        "updatedAt": "2026-07-18T00:06:08Z"
       },
       {
         "kind": "pr",
-        "number": 110200,
-        "title": "fix(update): classify unreadable plugin manifests separately from parse and migration failures",
-        "url": "https://github.com/openclaw/openclaw/pull/110200",
-        "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-07-17T23:06:52Z"
-      },
-      {
-        "kind": "pr",
-        "number": 103513,
-        "title": "fix(feishu): bound sender name cache",
-        "url": "https://github.com/openclaw/openclaw/pull/103513",
-        "state": "open",
-        "author": "mikasa0818",
-        "updatedAt": "2026-07-17T23:06:43Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110225,
-        "title": "fix(onboarding): leave session.dmScope unset so the personal-agent default \"main\" applies",
-        "url": "https://github.com/openclaw/openclaw/pull/110225",
+        "number": 110255,
+        "title": "fix(test): converge Slack harness state across module reloads",
+        "url": "https://github.com/openclaw/openclaw/pull/110255",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-17T23:06:41Z"
+        "updatedAt": "2026-07-18T00:06:07Z"
       },
       {
         "kind": "pr",
-        "number": 110207,
-        "title": "fix(cli): exit cleanly on startup migration refusal",
-        "url": "https://github.com/openclaw/openclaw/pull/110207",
-        "state": "open",
+        "number": 110217,
+        "title": "fix: restore startup with legacy WhatsApp allowlists",
+        "url": "https://github.com/openclaw/openclaw/pull/110217",
+        "state": "closed",
         "author": "VACInc",
-        "updatedAt": "2026-07-17T23:06:38Z"
+        "updatedAt": "2026-07-18T00:05:55Z"
       },
       {
         "kind": "pr",
-        "number": 109978,
-        "title": "fix(google-video): cancel unread response body on download error",
-        "url": "https://github.com/openclaw/openclaw/pull/109978",
+        "number": 109282,
+        "title": "fix: make live harness planning QA fail closed",
+        "url": "https://github.com/openclaw/openclaw/pull/109282",
+        "state": "closed",
+        "author": "RomneyDa",
+        "updatedAt": "2026-07-18T00:05:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109932,
+        "title": "Bound QA runtime parity mock request reads",
+        "url": "https://github.com/openclaw/openclaw/pull/109932",
         "state": "open",
-        "author": "coder-master-0915",
-        "updatedAt": "2026-07-17T23:06:38Z"
+        "author": "ZOOWH",
+        "updatedAt": "2026-07-18T00:05:26Z"
       }
     ]
   }

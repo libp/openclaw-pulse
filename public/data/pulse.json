@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-18T13:46:28.669Z",
+  "generatedAt": "2026-07-18T15:13:27.161Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -92,11 +92,11 @@
     },
     {
       "capturedOn": "2026-07-18",
-      "capturedAt": "2026-07-18T13:46:28.669Z",
-      "issueOpen": 3877,
+      "capturedAt": "2026-07-18T15:13:27.161Z",
+      "issueOpen": 3884,
       "issueClosed": 40219,
-      "prOpen": 2984,
-      "prClosed": 61286,
+      "prOpen": 2985,
+      "prClosed": 61321,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -106,77 +106,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 11460,
-        "title": "WhatsApp: Add support for querying message reactions",
-        "url": "https://github.com/openclaw/openclaw/issues/11460",
+        "number": 109490,
+        "title": "codex app-server: turn interrupted after client-delegated message tool result (terminate:true) — promised work never executes",
+        "url": "https://github.com/openclaw/openclaw/issues/109490",
         "state": "open",
-        "author": "ario",
-        "updatedAt": "2026-07-18T13:44:39Z"
-      },
-      {
-        "kind": "issue",
-        "number": 110715,
-        "title": "[Feature]: Plivo bidirectional audio streaming for realtime voice agents in voice-call",
-        "url": "https://github.com/openclaw/openclaw/issues/110715",
-        "state": "open",
-        "author": "sarveshpatil-plivo",
-        "updatedAt": "2026-07-18T13:42:32Z"
+        "author": "antonsbot",
+        "updatedAt": "2026-07-18T15:13:11Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 109991,
-        "title": "fix(qa-lab): cancel unread response body in parity tool-call fetch",
-        "url": "https://github.com/openclaw/openclaw/pull/109991",
+        "number": 110762,
+        "title": "fix(whatsapp): preserve active connections across runtime reloads",
+        "url": "https://github.com/openclaw/openclaw/pull/110762",
+        "state": "open",
+        "author": "mcaxtr",
+        "updatedAt": "2026-07-18T15:13:23Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110643,
+        "title": "fix(markdown): keep IR text slicing UTF-16 safe",
+        "url": "https://github.com/openclaw/openclaw/pull/110643",
         "state": "open",
         "author": "coder-master-0915",
-        "updatedAt": "2026-07-18T13:46:21Z"
+        "updatedAt": "2026-07-18T15:13:23Z"
       },
       {
         "kind": "pr",
-        "number": 110714,
-        "title": "fix(oc-path): bound config file reads with size cap",
-        "url": "https://github.com/openclaw/openclaw/pull/110714",
+        "number": 110681,
+        "title": "feat(apps,ui): question surface parity and composer takeover",
+        "url": "https://github.com/openclaw/openclaw/pull/110681",
         "state": "open",
-        "author": "cxbAsDev",
-        "updatedAt": "2026-07-18T13:46:19Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-18T15:13:22Z"
       },
       {
         "kind": "pr",
-        "number": 101429,
-        "title": "fix(shared): bound ignore-file reads during workspace scans",
-        "url": "https://github.com/openclaw/openclaw/pull/101429",
+        "number": 110734,
+        "title": "fix(codex-native): interrupt live Codex subagent thread on tasks cancel",
+        "url": "https://github.com/openclaw/openclaw/pull/110734",
         "state": "open",
-        "author": "cxbAsDev",
-        "updatedAt": "2026-07-18T13:46:15Z"
+        "author": "wangyan2026",
+        "updatedAt": "2026-07-18T15:13:11Z"
       },
       {
         "kind": "pr",
-        "number": 109680,
-        "title": "fix(amazon-bedrock): keep blank credentials from overriding AWS auth",
-        "url": "https://github.com/openclaw/openclaw/pull/109680",
+        "number": 110009,
+        "title": "fix(ui): bound Nostr profile write/read requests",
+        "url": "https://github.com/openclaw/openclaw/pull/110009",
         "state": "open",
-        "author": "ZengWen-DT",
-        "updatedAt": "2026-07-18T13:45:55Z"
+        "author": "xydigit-zt",
+        "updatedAt": "2026-07-18T15:13:07Z"
       },
       {
         "kind": "pr",
-        "number": 110699,
-        "title": "fix(gateway): keep channels responsive after startup requests finish",
-        "url": "https://github.com/openclaw/openclaw/pull/110699",
+        "number": 110756,
+        "title": "fix(scripts): bound GHSA patch GitHub lookups",
+        "url": "https://github.com/openclaw/openclaw/pull/110756",
         "state": "open",
-        "author": "David-0x221Eight",
-        "updatedAt": "2026-07-18T13:45:46Z"
-      },
-      {
-        "kind": "pr",
-        "number": 102293,
-        "title": "Add 1Password SecretRef plugin",
-        "url": "https://github.com/openclaw/openclaw/pull/102293",
-        "state": "open",
-        "author": "sallyom",
-        "updatedAt": "2026-07-18T13:45:40Z"
+        "author": "tzy-17",
+        "updatedAt": "2026-07-18T15:13:13Z"
       }
     ]
   }

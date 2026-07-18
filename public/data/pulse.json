@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-18T09:44:26.347Z",
+  "generatedAt": "2026-07-18T11:17:42.112Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -92,82 +92,72 @@
     },
     {
       "capturedOn": "2026-07-18",
-      "capturedAt": "2026-07-18T09:44:26.347Z",
-      "issueOpen": 3868,
-      "issueClosed": 40214,
-      "prOpen": 2964,
-      "prClosed": 61208,
+      "capturedAt": "2026-07-18T11:17:42.112Z",
+      "issueOpen": 3867,
+      "issueClosed": 40216,
+      "prOpen": 2969,
+      "prClosed": 61245,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 110606,
-        "title": "[Bug]: Browser tool suppresses retries after transient network failures",
-        "url": "https://github.com/openclaw/openclaw/issues/110606",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-18T09:43:31Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 110542,
-        "title": "fix(agents): prefer ordered eligible credentials in discovery map",
-        "url": "https://github.com/openclaw/openclaw/pull/110542",
+        "number": 109077,
+        "title": "fix(e2e): bound non-root installer fetch",
+        "url": "https://github.com/openclaw/openclaw/pull/109077",
         "state": "open",
-        "author": "wuqxuan",
-        "updatedAt": "2026-07-18T09:44:24Z"
+        "author": "xydigit-zt",
+        "updatedAt": "2026-07-18T11:17:40Z"
       },
       {
         "kind": "pr",
-        "number": 110582,
-        "title": "feat(gateway): pre-handshake WebSocket origin gate reusing checkBrowserOrigin",
-        "url": "https://github.com/openclaw/openclaw/pull/110582",
+        "number": 109414,
+        "title": "fix(sessions): read pinned session-extension registry in upstream monitor",
+        "url": "https://github.com/openclaw/openclaw/pull/109414",
         "state": "open",
-        "author": "markfietje",
-        "updatedAt": "2026-07-18T09:44:15Z"
+        "author": "xydigit-zt",
+        "updatedAt": "2026-07-18T11:17:35Z"
       },
       {
         "kind": "pr",
-        "number": 110591,
-        "title": "Bound diagnostic config file read with size cap",
-        "url": "https://github.com/openclaw/openclaw/pull/110591",
-        "state": "open",
-        "author": "cxbAsDev",
-        "updatedAt": "2026-07-18T09:44:13Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110589,
-        "title": "fix(security): bound skill-file audit read (restore removed fs dependency)",
-        "url": "https://github.com/openclaw/openclaw/pull/110589",
+        "number": 110621,
+        "title": "fix(ui): settings language picker was oversized and unthemed",
+        "url": "https://github.com/openclaw/openclaw/pull/110621",
         "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-07-18T09:44:09Z"
+        "updatedAt": "2026-07-18T11:17:30Z"
       },
       {
         "kind": "pr",
-        "number": 108901,
-        "title": "fix(discord): bound Activity shell requests",
-        "url": "https://github.com/openclaw/openclaw/pull/108901",
+        "number": 110646,
+        "title": "feat(mac): show native notification permission in dashboard Notifications settings",
+        "url": "https://github.com/openclaw/openclaw/pull/110646",
         "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-07-18T09:44:08Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-18T11:17:39Z"
       },
       {
         "kind": "pr",
-        "number": 110593,
-        "title": "Bound batch file read with size cap in config-set-input",
-        "url": "https://github.com/openclaw/openclaw/pull/110593",
+        "number": 110628,
+        "title": "perf(ui): lazy-load the lobster pet out of the Control UI startup graph",
+        "url": "https://github.com/openclaw/openclaw/pull/110628",
         "state": "open",
-        "author": "cxbAsDev",
-        "updatedAt": "2026-07-18T09:44:00Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-18T11:17:27Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109462,
+        "title": "fix(usage-bar): clear dead watcher reference after transient error",
+        "url": "https://github.com/openclaw/openclaw/pull/109462",
+        "state": "open",
+        "author": "zenglingbiao",
+        "updatedAt": "2026-07-18T11:17:27Z"
       }
     ]
   }

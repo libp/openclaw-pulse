@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-18T03:29:27.749Z",
+  "generatedAt": "2026-07-18T06:17:02.356Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -92,91 +92,72 @@
     },
     {
       "capturedOn": "2026-07-18",
-      "capturedAt": "2026-07-18T03:29:27.749Z",
-      "issueOpen": 3878,
-      "issueClosed": 40176,
-      "prOpen": 3000,
-      "prClosed": 60963,
+      "capturedAt": "2026-07-18T06:17:02.356Z",
+      "issueOpen": 3862,
+      "issueClosed": 40201,
+      "prOpen": 2984,
+      "prClosed": 61065,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 110368,
-        "title": "[Bug]: ACP sessions in Control UI (webchat) show duplicate identical replies for each prompt",
-        "url": "https://github.com/openclaw/openclaw/issues/110368",
-        "state": "open",
-        "author": "iamtornado",
-        "updatedAt": "2026-07-18T03:29:18Z"
-      },
-      {
-        "kind": "issue",
-        "number": 110367,
-        "title": "CI: Apple localization catalog is stale on main",
-        "url": "https://github.com/openclaw/openclaw/issues/110367",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-18T03:28:52Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 110010,
-        "title": "fix(ui): bound chat avatar metadata and image fetches",
-        "url": "https://github.com/openclaw/openclaw/pull/110010",
-        "state": "open",
-        "author": "xydigit-zt",
-        "updatedAt": "2026-07-18T03:29:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110227,
-        "title": "fix(codex): retire shared app-server client only when unclaimed",
-        "url": "https://github.com/openclaw/openclaw/pull/110227",
+        "number": 110466,
+        "title": "feat(ui): logo-scare lobster visits; drop the model-auth-expiring chip",
+        "url": "https://github.com/openclaw/openclaw/pull/110466",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-18T03:29:15Z"
+        "updatedAt": "2026-07-18T06:16:55Z"
       },
       {
         "kind": "pr",
-        "number": 108291,
-        "title": "fix(channels): stale presence after installing a persisted-auth channel plugin",
-        "url": "https://github.com/openclaw/openclaw/pull/108291",
+        "number": 100998,
+        "title": "fix(telegram): catch unhandled rejections in webhook and ingress worker shutdown",
+        "url": "https://github.com/openclaw/openclaw/pull/100998",
         "state": "open",
-        "author": "xydigit-zt",
-        "updatedAt": "2026-07-18T03:29:11Z"
+        "author": "Pick-cat",
+        "updatedAt": "2026-07-18T06:16:55Z"
       },
       {
         "kind": "pr",
-        "number": 110331,
-        "title": "feat(system-agent): auto-hatch into the agent after fresh setup",
-        "url": "https://github.com/openclaw/openclaw/pull/110331",
+        "number": 110460,
+        "title": "fix: show cloud-worker progress in sessions tail",
+        "url": "https://github.com/openclaw/openclaw/pull/110460",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-18T03:29:10Z"
+        "updatedAt": "2026-07-18T06:16:53Z"
       },
       {
         "kind": "pr",
-        "number": 110165,
-        "title": "fix(imessage): cap staged attachment reads",
-        "url": "https://github.com/openclaw/openclaw/pull/110165",
-        "state": "open",
-        "author": "qingminlong",
-        "updatedAt": "2026-07-18T03:29:09Z"
+        "number": 110462,
+        "title": "fix(ui): center session title on the native macOS titlebar centerline",
+        "url": "https://github.com/openclaw/openclaw/pull/110462",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-07-18T06:16:51Z"
       },
       {
         "kind": "pr",
-        "number": 109055,
-        "title": "fix(agents): skip sender-scoped tool policy when sender identity is absent",
-        "url": "https://github.com/openclaw/openclaw/pull/109055",
+        "number": 110384,
+        "title": "fix(codex): UTF-8 WebSocket requests survive split writes",
+        "url": "https://github.com/openclaw/openclaw/pull/110384",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-07-18T03:29:08Z"
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-07-18T06:16:49Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110347,
+        "title": "feat(clients): session groups, batch actions, inspector, and worktree-aware creation for native chat",
+        "url": "https://github.com/openclaw/openclaw/pull/110347",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-18T06:16:49Z"
       }
     ]
   }

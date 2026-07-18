@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-18T08:10:59.682Z",
+  "generatedAt": "2026-07-18T09:44:26.347Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -92,72 +92,82 @@
     },
     {
       "capturedOn": "2026-07-18",
-      "capturedAt": "2026-07-18T08:10:59.682Z",
-      "issueOpen": 3864,
-      "issueClosed": 40210,
-      "prOpen": 2985,
-      "prClosed": 61149,
+      "capturedAt": "2026-07-18T09:44:26.347Z",
+      "issueOpen": 3868,
+      "issueClosed": 40214,
+      "prOpen": 2964,
+      "prClosed": 61208,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 110606,
+        "title": "[Bug]: Browser tool suppresses retries after transient network failures",
+        "url": "https://github.com/openclaw/openclaw/issues/110606",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-18T09:43:31Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 110561,
-        "title": "fix(sqlite): normalize BLOB/TEXT type mismatches during STRICT migration",
-        "url": "https://github.com/openclaw/openclaw/pull/110561",
+        "number": 110542,
+        "title": "fix(agents): prefer ordered eligible credentials in discovery map",
+        "url": "https://github.com/openclaw/openclaw/pull/110542",
         "state": "open",
-        "author": "wangyan2026",
-        "updatedAt": "2026-07-18T08:10:53Z"
+        "author": "wuqxuan",
+        "updatedAt": "2026-07-18T09:44:24Z"
       },
       {
         "kind": "pr",
-        "number": 110480,
-        "title": "fix(ci): classify proxied APNs TLS tunnel",
-        "url": "https://github.com/openclaw/openclaw/pull/110480",
+        "number": 110582,
+        "title": "feat(gateway): pre-handshake WebSocket origin gate reusing checkBrowserOrigin",
+        "url": "https://github.com/openclaw/openclaw/pull/110582",
         "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-07-18T08:10:45Z"
+        "author": "markfietje",
+        "updatedAt": "2026-07-18T09:44:15Z"
       },
       {
         "kind": "pr",
-        "number": 110162,
-        "title": "refactor(gateway): remove forward-referenced resolve in createTimeoutRace",
-        "url": "https://github.com/openclaw/openclaw/pull/110162",
+        "number": 110591,
+        "title": "Bound diagnostic config file read with size cap",
+        "url": "https://github.com/openclaw/openclaw/pull/110591",
         "state": "open",
-        "author": "hakanbaysal",
-        "updatedAt": "2026-07-18T08:10:41Z"
+        "author": "cxbAsDev",
+        "updatedAt": "2026-07-18T09:44:13Z"
       },
       {
         "kind": "pr",
-        "number": 110560,
-        "title": "fix(agents): report agent-delete cleanup failures instead of silent success",
-        "url": "https://github.com/openclaw/openclaw/pull/110560",
-        "state": "open",
+        "number": 110589,
+        "title": "fix(security): bound skill-file audit read (restore removed fs dependency)",
+        "url": "https://github.com/openclaw/openclaw/pull/110589",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-07-18T08:10:29Z"
+        "updatedAt": "2026-07-18T09:44:09Z"
       },
       {
         "kind": "pr",
-        "number": 110506,
-        "title": "fix(tts): guard persona provider isConfigured against malformed config throws",
-        "url": "https://github.com/openclaw/openclaw/pull/110506",
+        "number": 108901,
+        "title": "fix(discord): bound Activity shell requests",
+        "url": "https://github.com/openclaw/openclaw/pull/108901",
         "state": "open",
-        "author": "dwc1997",
-        "updatedAt": "2026-07-18T08:10:25Z"
+        "author": "Alix-007",
+        "updatedAt": "2026-07-18T09:44:08Z"
       },
       {
         "kind": "pr",
-        "number": 110543,
-        "title": "docs(onboarding): finalize phase status and phase 7 decision",
-        "url": "https://github.com/openclaw/openclaw/pull/110543",
+        "number": 110593,
+        "title": "Bound batch file read with size cap in config-set-input",
+        "url": "https://github.com/openclaw/openclaw/pull/110593",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-18T08:10:22Z"
+        "author": "cxbAsDev",
+        "updatedAt": "2026-07-18T09:44:00Z"
       }
     ]
   }

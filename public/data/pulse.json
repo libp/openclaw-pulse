@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-18T17:13:01.913Z",
+  "generatedAt": "2026-07-18T18:07:16.178Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -92,72 +92,100 @@
     },
     {
       "capturedOn": "2026-07-18",
-      "capturedAt": "2026-07-18T17:13:01.913Z",
-      "issueOpen": 3890,
-      "issueClosed": 40219,
-      "prOpen": 3000,
-      "prClosed": 61383,
+      "capturedAt": "2026-07-18T18:07:16.178Z",
+      "issueOpen": 3892,
+      "issueClosed": 40221,
+      "prOpen": 3005,
+      "prClosed": 61402,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 110872,
+        "title": "Recipient-addressed outbound sends: resolve people through verified routes, not raw platform ids",
+        "url": "https://github.com/openclaw/openclaw/issues/110872",
+        "state": "open",
+        "author": "smoe",
+        "updatedAt": "2026-07-18T18:03:42Z"
+      },
+      {
+        "kind": "issue",
+        "number": 110871,
+        "title": "models list crashes: Cannot read properties of undefined (reading 'input') in applyAnthropicSonnet5Cost",
+        "url": "https://github.com/openclaw/openclaw/issues/110871",
+        "state": "closed",
+        "author": "metatrash",
+        "updatedAt": "2026-07-18T18:03:40Z"
+      },
+      {
+        "kind": "issue",
+        "number": 7359,
+        "title": "[Slack] Agent lacks visibility into own channel messages from DM sessions",
+        "url": "https://github.com/openclaw/openclaw/issues/7359",
+        "state": "open",
+        "author": "trevorallred",
+        "updatedAt": "2026-07-18T18:03:20Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 110694,
-        "title": "test(shared): add unit tests for safe-record defensive guards",
-        "url": "https://github.com/openclaw/openclaw/pull/110694",
+        "number": 107744,
+        "title": "feat: AI safety/quality event taxonomy (#82548)",
+        "url": "https://github.com/openclaw/openclaw/pull/107744",
         "state": "open",
-        "author": "dwc1997",
-        "updatedAt": "2026-07-18T17:12:55Z"
+        "author": "skoya",
+        "updatedAt": "2026-07-18T18:07:09Z"
       },
       {
         "kind": "pr",
-        "number": 108789,
-        "title": "fix(status): hydrate thinking catalog for Ollama status card surface",
-        "url": "https://github.com/openclaw/openclaw/pull/108789",
+        "number": 110842,
+        "title": "fix(ui): stream-decode terminal startup UTF-8 chunks",
+        "url": "https://github.com/openclaw/openclaw/pull/110842",
         "state": "open",
-        "author": "Bartok9",
-        "updatedAt": "2026-07-18T17:12:52Z"
+        "author": "nocodet888-arch",
+        "updatedAt": "2026-07-18T18:07:06Z"
       },
       {
         "kind": "pr",
-        "number": 110691,
-        "title": "test(shared): add unit tests for levenshteinDistance",
-        "url": "https://github.com/openclaw/openclaw/pull/110691",
+        "number": 110840,
+        "title": "fix(codex): keep tool echo prefixes UTF-16 safe",
+        "url": "https://github.com/openclaw/openclaw/pull/110840",
         "state": "open",
-        "author": "dwc1997",
-        "updatedAt": "2026-07-18T17:12:37Z"
+        "author": "nocodet888-arch",
+        "updatedAt": "2026-07-18T18:07:01Z"
       },
       {
         "kind": "pr",
-        "number": 110846,
-        "title": "feat(plugin-sdk): guard ingress effects once per event",
-        "url": "https://github.com/openclaw/openclaw/pull/110846",
+        "number": 110874,
+        "title": "fix(ui): defer remembered camera auto-enable until talk reaches listening",
+        "url": "https://github.com/openclaw/openclaw/pull/110874",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-18T17:12:36Z"
+        "updatedAt": "2026-07-18T18:06:59Z"
       },
       {
         "kind": "pr",
-        "number": 110527,
-        "title": "refactor(macos): move PortGuardian state to SQLite",
-        "url": "https://github.com/openclaw/openclaw/pull/110527",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-18T17:12:32Z"
+        "number": 110568,
+        "title": "fix(matrix): journal inbound events before advancing sync token",
+        "url": "https://github.com/openclaw/openclaw/pull/110568",
+        "state": "closed",
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-07-18T18:06:18Z"
       },
       {
         "kind": "pr",
-        "number": 110441,
-        "title": "fix(nextcloud-talk): release failed room info response bodies",
-        "url": "https://github.com/openclaw/openclaw/pull/110441",
+        "number": 110384,
+        "title": "fix(codex): UTF-8 WebSocket requests survive split writes",
+        "url": "https://github.com/openclaw/openclaw/pull/110384",
         "state": "open",
-        "author": "ZengWen-DT",
-        "updatedAt": "2026-07-18T17:12:20Z"
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-07-18T18:06:18Z"
       }
     ]
   }

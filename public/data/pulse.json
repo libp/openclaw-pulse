@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-19T19:30:46.462Z",
+  "generatedAt": "2026-07-19T21:06:10.379Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -103,36 +103,109 @@
     },
     {
       "capturedOn": "2026-07-19",
-      "capturedAt": "2026-07-19T19:30:46.462Z",
-      "issueOpen": 3899,
-      "issueClosed": 40318,
-      "prOpen": 2987,
-      "prClosed": 61960,
+      "capturedAt": "2026-07-19T21:06:10.379Z",
+      "issueOpen": 3903,
+      "issueClosed": 40319,
+      "prOpen": 2988,
+      "prClosed": 61970,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 111442,
+        "title": "[Bug]: default memory hook blocks repeated channel restart recovery",
+        "url": "https://github.com/openclaw/openclaw/issues/111442",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-19T20:57:08Z"
+      },
+      {
+        "kind": "issue",
+        "number": 111454,
+        "title": "[Feature]: Telegram native Thinking indicator via Bot API 10.2",
+        "url": "https://github.com/openclaw/openclaw/issues/111454",
+        "state": "open",
+        "author": "MauricioDomenech",
+        "updatedAt": "2026-07-19T20:57:07Z"
+      },
+      {
+        "kind": "issue",
+        "number": 109079,
+        "title": "[Bug]: Cumulative cache-inclusive run usage is persisted as session context and compaction tokens",
+        "url": "https://github.com/openclaw/openclaw/issues/109079",
+        "state": "open",
+        "author": "claw0gang",
+        "updatedAt": "2026-07-19T20:57:05Z"
+      },
+      {
+        "kind": "issue",
+        "number": 111479,
+        "title": "Regression: WebChat \"Read Aloud\" 🔊 TTS button removed with no replacement",
+        "url": "https://github.com/openclaw/openclaw/issues/111479",
+        "state": "open",
+        "author": "zarfmedia",
+        "updatedAt": "2026-07-19T20:57:03Z"
+      },
+      {
+        "kind": "issue",
+        "number": 111461,
+        "title": "Support isolated native subagent workspaces with workspace-only skills",
+        "url": "https://github.com/openclaw/openclaw/issues/111461",
+        "state": "open",
+        "author": "aliahnaf2013-max",
+        "updatedAt": "2026-07-19T20:57:03Z"
+      },
+      {
+        "kind": "issue",
+        "number": 93140,
+        "title": "Bug: v2026.6.6 apply_patch and write tool fail for paths outside workspace sandbox (/tmp, absolute paths)",
+        "url": "https://github.com/openclaw/openclaw/issues/93140",
+        "state": "open",
+        "author": "Haderach-Ram",
+        "updatedAt": "2026-07-19T20:57:02Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 111516,
-        "title": "Wear: animate Talk avatar from playback audio",
-        "url": "https://github.com/openclaw/openclaw/pull/111516",
+        "number": 111532,
+        "title": "fix(control-ui): tighten About build grid spacing",
+        "url": "https://github.com/openclaw/openclaw/pull/111532",
         "state": "open",
-        "author": "IWhatsskill",
-        "updatedAt": "2026-07-19T19:30:41Z"
+        "author": "clawsweeper",
+        "updatedAt": "2026-07-19T21:05:52Z"
       },
       {
         "kind": "pr",
-        "number": 111141,
-        "title": "fix(plugins): load newest managed generation when a prior install lingers",
-        "url": "https://github.com/openclaw/openclaw/pull/111141",
+        "number": 111534,
+        "title": "fix(update): gateway restart survives inherited cross-user D-Bus environment",
+        "url": "https://github.com/openclaw/openclaw/pull/111534",
         "state": "open",
-        "author": "Marvinthebored",
-        "updatedAt": "2026-07-19T19:30:37Z"
+        "author": "SimranPabla",
+        "updatedAt": "2026-07-19T21:05:28Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111518,
+        "title": "fix: install exact app recommendations and retry failures",
+        "url": "https://github.com/openclaw/openclaw/pull/111518",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-19T21:05:27Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111339,
+        "title": "feat(ios): replace the tab bar with a black overlay sidebar (web parity + dashboard)",
+        "url": "https://github.com/openclaw/openclaw/pull/111339",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-19T21:03:50Z"
       },
       {
         "kind": "pr",
@@ -141,34 +214,16 @@
         "url": "https://github.com/openclaw/openclaw/pull/111458",
         "state": "open",
         "author": "aboleen4848-hue",
-        "updatedAt": "2026-07-19T19:30:33Z"
+        "updatedAt": "2026-07-19T21:03:08Z"
       },
       {
         "kind": "pr",
-        "number": 111517,
-        "title": "fix(onboard): honor remote flags in interactive setup",
-        "url": "https://github.com/openclaw/openclaw/pull/111517",
+        "number": 111533,
+        "title": "fix(gateway): avoid macOS startup freeze during worker reconciliation",
+        "url": "https://github.com/openclaw/openclaw/pull/111533",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-19T19:29:50Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111508,
-        "title": "fix(skills): forward owner handle to bulk security-verdict fetch for ambiguous slugs",
-        "url": "https://github.com/openclaw/openclaw/pull/111508",
-        "state": "open",
-        "author": "yuvrajlaptop2008-byte",
-        "updatedAt": "2026-07-19T19:29:50Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111497,
-        "title": "fix(workboard): keep completed artifacts after run cleanup",
-        "url": "https://github.com/openclaw/openclaw/pull/111497",
-        "state": "open",
-        "author": "ooiuuii",
-        "updatedAt": "2026-07-19T19:29:36Z"
+        "updatedAt": "2026-07-19T21:02:20Z"
       }
     ]
   }

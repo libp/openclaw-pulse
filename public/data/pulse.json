@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-19T21:06:10.379Z",
+  "generatedAt": "2026-07-19T22:08:22.212Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -103,11 +103,11 @@
     },
     {
       "capturedOn": "2026-07-19",
-      "capturedAt": "2026-07-19T21:06:10.379Z",
-      "issueOpen": 3903,
+      "capturedAt": "2026-07-19T22:08:22.212Z",
+      "issueOpen": 3908,
       "issueClosed": 40319,
-      "prOpen": 2988,
-      "prClosed": 61970,
+      "prOpen": 2991,
+      "prClosed": 61980,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -117,113 +117,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 111442,
-        "title": "[Bug]: default memory hook blocks repeated channel restart recovery",
-        "url": "https://github.com/openclaw/openclaw/issues/111442",
+        "number": 111550,
+        "title": "[Bug]: Google image generation fails with empty-string baseUrl (\"\") — nullish guards let '' through to new URL()",
+        "url": "https://github.com/openclaw/openclaw/issues/111550",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-19T20:57:08Z"
+        "author": "NOVA-Openclaw",
+        "updatedAt": "2026-07-19T22:06:21Z"
       },
       {
         "kind": "issue",
-        "number": 111454,
-        "title": "[Feature]: Telegram native Thinking indicator via Bot API 10.2",
-        "url": "https://github.com/openclaw/openclaw/issues/111454",
+        "number": 111549,
+        "title": "[Bug]: Duplicate outbound message delivery to WhatsApp — same content sent twice, one log entry with   OTEL trace context and one without",
+        "url": "https://github.com/openclaw/openclaw/issues/111549",
         "state": "open",
-        "author": "MauricioDomenech",
-        "updatedAt": "2026-07-19T20:57:07Z"
-      },
-      {
-        "kind": "issue",
-        "number": 109079,
-        "title": "[Bug]: Cumulative cache-inclusive run usage is persisted as session context and compaction tokens",
-        "url": "https://github.com/openclaw/openclaw/issues/109079",
-        "state": "open",
-        "author": "claw0gang",
-        "updatedAt": "2026-07-19T20:57:05Z"
-      },
-      {
-        "kind": "issue",
-        "number": 111479,
-        "title": "Regression: WebChat \"Read Aloud\" 🔊 TTS button removed with no replacement",
-        "url": "https://github.com/openclaw/openclaw/issues/111479",
-        "state": "open",
-        "author": "zarfmedia",
-        "updatedAt": "2026-07-19T20:57:03Z"
-      },
-      {
-        "kind": "issue",
-        "number": 111461,
-        "title": "Support isolated native subagent workspaces with workspace-only skills",
-        "url": "https://github.com/openclaw/openclaw/issues/111461",
-        "state": "open",
-        "author": "aliahnaf2013-max",
-        "updatedAt": "2026-07-19T20:57:03Z"
-      },
-      {
-        "kind": "issue",
-        "number": 93140,
-        "title": "Bug: v2026.6.6 apply_patch and write tool fail for paths outside workspace sandbox (/tmp, absolute paths)",
-        "url": "https://github.com/openclaw/openclaw/issues/93140",
-        "state": "open",
-        "author": "Haderach-Ram",
-        "updatedAt": "2026-07-19T20:57:02Z"
+        "author": "Doge50k",
+        "updatedAt": "2026-07-19T21:59:09Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 111532,
-        "title": "fix(control-ui): tighten About build grid spacing",
-        "url": "https://github.com/openclaw/openclaw/pull/111532",
+        "number": 102296,
+        "title": "Add plan-first Claw status and remove",
+        "url": "https://github.com/openclaw/openclaw/pull/102296",
         "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-07-19T21:05:52Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-19T22:08:12Z"
       },
       {
         "kind": "pr",
-        "number": 111534,
-        "title": "fix(update): gateway restart survives inherited cross-user D-Bus environment",
-        "url": "https://github.com/openclaw/openclaw/pull/111534",
+        "number": 97175,
+        "title": "fix(context-engine): bound deferred turn maintenance with a per-task timeout (AI-assisted)",
+        "url": "https://github.com/openclaw/openclaw/pull/97175",
         "state": "open",
-        "author": "SimranPabla",
-        "updatedAt": "2026-07-19T21:05:28Z"
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-07-19T22:07:49Z"
       },
       {
         "kind": "pr",
-        "number": 111518,
-        "title": "fix: install exact app recommendations and retry failures",
-        "url": "https://github.com/openclaw/openclaw/pull/111518",
+        "number": 111540,
+        "title": "fix(ui): keep steered composer messages visible until the transcript owns them",
+        "url": "https://github.com/openclaw/openclaw/pull/111540",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-19T21:05:27Z"
+        "updatedAt": "2026-07-19T22:07:20Z"
       },
       {
         "kind": "pr",
-        "number": 111339,
-        "title": "feat(ios): replace the tab bar with a black overlay sidebar (web parity + dashboard)",
-        "url": "https://github.com/openclaw/openclaw/pull/111339",
+        "number": 111544,
+        "title": "feat(localization): consolidate product surfaces",
+        "url": "https://github.com/openclaw/openclaw/pull/111544",
+        "state": "open",
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-19T22:07:15Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111530,
+        "title": "feat(ui): accept drag-and-drop attachments in the new-session composer",
+        "url": "https://github.com/openclaw/openclaw/pull/111530",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-19T21:03:50Z"
+        "updatedAt": "2026-07-19T22:07:10Z"
       },
       {
         "kind": "pr",
-        "number": 111458,
-        "title": "feat(core): add durable platform orchestration",
-        "url": "https://github.com/openclaw/openclaw/pull/111458",
+        "number": 111552,
+        "title": "feat(dashboard): persist MCP Apps as board widgets",
+        "url": "https://github.com/openclaw/openclaw/pull/111552",
         "state": "open",
-        "author": "aboleen4848-hue",
-        "updatedAt": "2026-07-19T21:03:08Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111533,
-        "title": "fix(gateway): avoid macOS startup freeze during worker reconciliation",
-        "url": "https://github.com/openclaw/openclaw/pull/111533",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-19T21:02:20Z"
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-07-19T22:07:06Z"
       }
     ]
   }

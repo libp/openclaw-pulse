@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-19T00:08:30.174Z",
+  "generatedAt": "2026-07-19T03:51:52.310Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -103,11 +103,11 @@
     },
     {
       "capturedOn": "2026-07-19",
-      "capturedAt": "2026-07-19T00:08:30.174Z",
-      "issueOpen": 3894,
-      "issueClosed": 40249,
-      "prOpen": 2964,
-      "prClosed": 61598,
+      "capturedAt": "2026-07-19T03:51:52.310Z",
+      "issueOpen": 3889,
+      "issueClosed": 40267,
+      "prOpen": 2994,
+      "prClosed": 61679,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -117,68 +117,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 111059,
-        "title": "[Bug]: QA channel replays consumed messages after Gateway restart",
-        "url": "https://github.com/openclaw/openclaw/issues/111059",
+        "number": 11977,
+        "title": "feat: add linux/riscv64 Docker image to multi-platform build",
+        "url": "https://github.com/openclaw/openclaw/issues/11977",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-19T00:07:50Z"
+        "author": "gounthar",
+        "updatedAt": "2026-07-19T03:49:37Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 110709,
-        "title": "fix(gateway): keep channel lifecycle outside released request admission",
-        "url": "https://github.com/openclaw/openclaw/pull/110709",
+        "number": 111182,
+        "title": "fix(openrouter): reject invalid UTF-8 usage responses",
+        "url": "https://github.com/openclaw/openclaw/pull/111182",
         "state": "open",
-        "author": "wuqxuan",
-        "updatedAt": "2026-07-19T00:08:26Z"
+        "author": "wahaha1223",
+        "updatedAt": "2026-07-19T03:51:43Z"
       },
       {
         "kind": "pr",
-        "number": 91192,
-        "title": "fix(tts): allow trusted local media in message_tool_only mode",
-        "url": "https://github.com/openclaw/openclaw/pull/91192",
+        "number": 111181,
+        "title": "fix(canvas): bound A2UI JSONL file reads",
+        "url": "https://github.com/openclaw/openclaw/pull/111181",
         "state": "open",
-        "author": "clawSean",
-        "updatedAt": "2026-07-19T00:08:22Z"
+        "author": "sunlit-deng",
+        "updatedAt": "2026-07-19T03:51:39Z"
       },
       {
         "kind": "pr",
-        "number": 98074,
-        "title": "feat(config): add compaction.thinkingLevel to override thinking level during compaction",
-        "url": "https://github.com/openclaw/openclaw/pull/98074",
+        "number": 96078,
+        "title": "Reject split outbound agent session ownership",
+        "url": "https://github.com/openclaw/openclaw/pull/96078",
         "state": "open",
-        "author": "mpz4life",
-        "updatedAt": "2026-07-19T00:08:08Z"
+        "author": "youngting520",
+        "updatedAt": "2026-07-19T03:51:49Z"
       },
       {
         "kind": "pr",
-        "number": 110704,
-        "title": "fix(agents): race in-flight tool promises against run abort (#103905)",
-        "url": "https://github.com/openclaw/openclaw/pull/110704",
+        "number": 111087,
+        "title": "feat(policy): check authored message routing",
+        "url": "https://github.com/openclaw/openclaw/pull/111087",
         "state": "open",
-        "author": "xydigit-zt",
-        "updatedAt": "2026-07-19T00:08:05Z"
+        "author": "omarshahine",
+        "updatedAt": "2026-07-19T03:51:20Z"
       },
       {
         "kind": "pr",
-        "number": 111038,
-        "title": "fix(apps): call chat sessions threads",
-        "url": "https://github.com/openclaw/openclaw/pull/111038",
+        "number": 111104,
+        "title": "refactor: centralize bounded file reads in fs-safe",
+        "url": "https://github.com/openclaw/openclaw/pull/111104",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-19T00:08:01Z"
+        "updatedAt": "2026-07-19T03:51:06Z"
       },
       {
         "kind": "pr",
-        "number": 111048,
-        "title": "feat: add live-validated Zoom meeting guest plugin",
-        "url": "https://github.com/openclaw/openclaw/pull/111048",
+        "number": 111139,
+        "title": "fix(telegram): preserve per-image captions in media group albums (#110690)",
+        "url": "https://github.com/openclaw/openclaw/pull/111139",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-19T00:07:58Z"
+        "author": "chenyangjun-xy",
+        "updatedAt": "2026-07-19T03:51:03Z"
       }
     ]
   }

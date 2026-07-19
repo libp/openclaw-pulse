@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-19T06:41:51.753Z",
+  "generatedAt": "2026-07-19T09:16:35.671Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -103,72 +103,127 @@
     },
     {
       "capturedOn": "2026-07-19",
-      "capturedAt": "2026-07-19T06:41:51.753Z",
-      "issueOpen": 3872,
-      "issueClosed": 40290,
-      "prOpen": 2965,
-      "prClosed": 61771,
+      "capturedAt": "2026-07-19T09:16:35.671Z",
+      "issueOpen": 3876,
+      "issueClosed": 40296,
+      "prOpen": 2980,
+      "prClosed": 61833,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 111338,
+        "title": "Docs feedback: /zh-CN/start/onboarding",
+        "url": "https://github.com/openclaw/openclaw/issues/111338",
+        "state": "open",
+        "author": "buerjiaya01",
+        "updatedAt": "2026-07-19T09:16:11Z"
+      },
+      {
+        "kind": "issue",
+        "number": 111023,
+        "title": "OpenClaw github issue creation debug probe",
+        "url": "https://github.com/openclaw/openclaw/issues/111023",
+        "state": "open",
+        "author": "kabhinav",
+        "updatedAt": "2026-07-19T09:15:56Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107517,
+        "title": "[Bug] Memory leak in WeakMap usage for draft progress tracking in streaming views",
+        "url": "https://github.com/openclaw/openclaw/issues/107517",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-19T09:15:47Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107550,
+        "title": "[Performance] Thread pool starvation due to synchronous crypto hashing in password validation",
+        "url": "https://github.com/openclaw/openclaw/issues/107550",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-19T09:15:38Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107520,
+        "title": "[Bug] Race condition on event-ledger log rotation under high concurrent load",
+        "url": "https://github.com/openclaw/openclaw/issues/107520",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-19T09:15:30Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107531,
+        "title": "[Security] Privilege escalation via mock environment overrides in testing framework",
+        "url": "https://github.com/openclaw/openclaw/issues/107531",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-19T09:15:21Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 111248,
-        "title": "fix(macos): refresh skills after local node reconnect",
-        "url": "https://github.com/openclaw/openclaw/pull/111248",
+        "number": 111333,
+        "title": "fix(tavily): reject blank extract URLs",
+        "url": "https://github.com/openclaw/openclaw/pull/111333",
         "state": "open",
-        "author": "xydigit-zt",
-        "updatedAt": "2026-07-19T06:41:43Z"
+        "author": "VectorPeak",
+        "updatedAt": "2026-07-19T09:16:25Z"
       },
       {
         "kind": "pr",
-        "number": 110588,
-        "title": "fix(minimax): persist OAuth model context metadata",
-        "url": "https://github.com/openclaw/openclaw/pull/110588",
+        "number": 110716,
+        "title": "fix(openshell): bound sandbox readFile with size cap",
+        "url": "https://github.com/openclaw/openclaw/pull/110716",
         "state": "open",
-        "author": "kapelame",
-        "updatedAt": "2026-07-19T06:41:36Z"
+        "author": "cxbAsDev",
+        "updatedAt": "2026-07-19T09:16:18Z"
       },
       {
         "kind": "pr",
-        "number": 111250,
-        "title": "fix(sessions): reject non-canonical raw transcript cursors",
-        "url": "https://github.com/openclaw/openclaw/pull/111250",
+        "number": 111332,
+        "title": "fix(agents): web_fetch leaves body open after provider fallback",
+        "url": "https://github.com/openclaw/openclaw/pull/111332",
         "state": "open",
-        "author": "ZengWen-DT",
-        "updatedAt": "2026-07-19T06:41:29Z"
+        "author": "nocodet888-arch",
+        "updatedAt": "2026-07-19T09:16:28Z"
       },
       {
         "kind": "pr",
-        "number": 111142,
-        "title": "refactor(config): config-surface reduction tranche 1 — retire dead keys, dedupe channel schemas, add growth ratchet",
-        "url": "https://github.com/openclaw/openclaw/pull/111142",
+        "number": 111299,
+        "title": "fix(agents): bound stalled SSH directory uploads with an idle watchdog",
+        "url": "https://github.com/openclaw/openclaw/pull/111299",
+        "state": "open",
+        "author": "zenglingbiao",
+        "updatedAt": "2026-07-19T09:16:12Z"
+      },
+      {
+        "kind": "pr",
+        "number": 79985,
+        "title": "docs+tests: clarify agents.list visibility scope across CLI and Gateway",
+        "url": "https://github.com/openclaw/openclaw/pull/79985",
+        "state": "open",
+        "author": "Kansodata",
+        "updatedAt": "2026-07-19T09:16:04Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111289,
+        "title": "fix(ci): enforce plugin SDK API baseline",
+        "url": "https://github.com/openclaw/openclaw/pull/111289",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-19T06:41:08Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111251,
-        "title": "fix(gateway): reject altered approval history cursors",
-        "url": "https://github.com/openclaw/openclaw/pull/111251",
-        "state": "open",
-        "author": "ZengWen-DT",
-        "updatedAt": "2026-07-19T06:41:00Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111252,
-        "title": "fix(anthropic): reject altered local session cursors",
-        "url": "https://github.com/openclaw/openclaw/pull/111252",
-        "state": "open",
-        "author": "ZengWen-DT",
-        "updatedAt": "2026-07-19T06:40:57Z"
+        "updatedAt": "2026-07-19T09:16:02Z"
       }
     ]
   }

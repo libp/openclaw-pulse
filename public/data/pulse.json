@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-19T13:51:43.153Z",
+  "generatedAt": "2026-07-19T15:13:50.589Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -103,72 +103,91 @@
     },
     {
       "capturedOn": "2026-07-19",
-      "capturedAt": "2026-07-19T13:51:43.153Z",
-      "issueOpen": 3890,
-      "issueClosed": 40305,
-      "prOpen": 2991,
-      "prClosed": 61886,
+      "capturedAt": "2026-07-19T15:13:50.589Z",
+      "issueOpen": 3893,
+      "issueClosed": 40307,
+      "prOpen": 2994,
+      "prClosed": 61914,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 92369,
+        "title": "Subagent orchestration in cron isolated sessions: no reliable way to spawn, wait, and aggregate results",
+        "url": "https://github.com/openclaw/openclaw/issues/92369",
+        "state": "open",
+        "author": "eightHundreds",
+        "updatedAt": "2026-07-19T15:12:52Z"
+      },
+      {
+        "kind": "issue",
+        "number": 79950,
+        "title": "Bug: async sessions_send results are not delivered cleanly to Telegram-bound requester session",
+        "url": "https://github.com/openclaw/openclaw/issues/79950",
+        "state": "open",
+        "author": "1001tur",
+        "updatedAt": "2026-07-19T15:12:45Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 111420,
-        "title": "fix(cron): preserve active run ownership",
-        "url": "https://github.com/openclaw/openclaw/pull/111420",
+        "number": 93087,
+        "title": "Reject unsupported diagnostics OTel grpc config",
+        "url": "https://github.com/openclaw/openclaw/pull/93087",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-19T13:51:28Z"
+        "author": "kiranmagic7",
+        "updatedAt": "2026-07-19T15:13:47Z"
       },
       {
         "kind": "pr",
-        "number": 83933,
-        "title": "fix(cron): skip deleteAfterRun and preserve counters for manual runs (#83538)",
-        "url": "https://github.com/openclaw/openclaw/pull/83933",
+        "number": 111101,
+        "title": "fix(sessions): preserve current session aliases",
+        "url": "https://github.com/openclaw/openclaw/pull/111101",
         "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-07-19T13:51:22Z"
+        "author": "bemsas",
+        "updatedAt": "2026-07-19T15:13:44Z"
       },
       {
         "kind": "pr",
-        "number": 111414,
-        "title": "test(sessions): isolate store pruning integration test",
-        "url": "https://github.com/openclaw/openclaw/pull/111414",
+        "number": 111367,
+        "title": "fix(ai): preserve compat xhigh reasoning effort",
+        "url": "https://github.com/openclaw/openclaw/pull/111367",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-19T13:51:16Z"
+        "author": "snowzlmbot",
+        "updatedAt": "2026-07-19T15:13:43Z"
       },
       {
         "kind": "pr",
-        "number": 111426,
-        "title": "refactor(plugin-sdk): retire global provider publication",
-        "url": "https://github.com/openclaw/openclaw/pull/111426",
+        "number": 111246,
+        "title": "fix(agents): stop inflating subagent spawn depth from /new rollover",
+        "url": "https://github.com/openclaw/openclaw/pull/111246",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-19T13:51:13Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-07-19T15:13:43Z"
       },
       {
         "kind": "pr",
-        "number": 111425,
-        "title": "fix(whatsapp): unscoped echo detection silently drops legitimate messages across different chats",
-        "url": "https://github.com/openclaw/openclaw/pull/111425",
+        "number": 111397,
+        "title": "fix(gateway): guard JSON.parse malformed input in parseJsonStringArray",
+        "url": "https://github.com/openclaw/openclaw/pull/111397",
         "state": "open",
-        "author": "YangManBOBO",
-        "updatedAt": "2026-07-19T13:51:12Z"
+        "author": "coder-master-0915",
+        "updatedAt": "2026-07-19T15:13:39Z"
       },
       {
         "kind": "pr",
-        "number": 111223,
-        "title": "fix(ios): render Markdown lists and thematic breaks",
-        "url": "https://github.com/openclaw/openclaw/pull/111223",
+        "number": 111343,
+        "title": "Durable Core PR 4/6: persist agent-turn front doors",
+        "url": "https://github.com/openclaw/openclaw/pull/111343",
         "state": "open",
-        "author": "metaforismo",
-        "updatedAt": "2026-07-19T13:51:10Z"
+        "author": "mjnkao",
+        "updatedAt": "2026-07-19T15:13:34Z"
       }
     ]
   }

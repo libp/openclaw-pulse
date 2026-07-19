@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-19T22:08:22.212Z",
+  "generatedAt": "2026-07-19T23:10:04.485Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -103,11 +103,11 @@
     },
     {
       "capturedOn": "2026-07-19",
-      "capturedAt": "2026-07-19T22:08:22.212Z",
-      "issueOpen": 3908,
-      "issueClosed": 40319,
-      "prOpen": 2991,
-      "prClosed": 61980,
+      "capturedAt": "2026-07-19T23:10:04.485Z",
+      "issueOpen": 3912,
+      "issueClosed": 40321,
+      "prOpen": 2993,
+      "prClosed": 61991,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -117,50 +117,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 111550,
-        "title": "[Bug]: Google image generation fails with empty-string baseUrl (\"\") — nullish guards let '' through to new URL()",
-        "url": "https://github.com/openclaw/openclaw/issues/111550",
+        "number": 111547,
+        "title": "typingMode: \"message\" is bypassed by execution-phase typing signals — typing starts before any renderable text",
+        "url": "https://github.com/openclaw/openclaw/issues/111547",
         "state": "open",
-        "author": "NOVA-Openclaw",
-        "updatedAt": "2026-07-19T22:06:21Z"
+        "author": "msobrosa",
+        "updatedAt": "2026-07-19T23:04:46Z"
       },
       {
         "kind": "issue",
-        "number": 111549,
-        "title": "[Bug]: Duplicate outbound message delivery to WhatsApp — same content sent twice, one log entry with   OTEL trace context and one without",
-        "url": "https://github.com/openclaw/openclaw/issues/111549",
+        "number": 111519,
+        "title": "[Bug]: Telegram DM replies fall back after stale DM-scope cleanup in 2026.7.2-beta.3",
+        "url": "https://github.com/openclaw/openclaw/issues/111519",
         "state": "open",
-        "author": "Doge50k",
-        "updatedAt": "2026-07-19T21:59:09Z"
+        "author": "RoonniieeX",
+        "updatedAt": "2026-07-19T23:03:15Z"
+      },
+      {
+        "kind": "issue",
+        "number": 111412,
+        "title": "[Feature]: WebChat message editing & response regeneration",
+        "url": "https://github.com/openclaw/openclaw/issues/111412",
+        "state": "open",
+        "author": "Catloer",
+        "updatedAt": "2026-07-19T23:03:14Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 102296,
-        "title": "Add plan-first Claw status and remove",
-        "url": "https://github.com/openclaw/openclaw/pull/102296",
+        "number": 111542,
+        "title": "feat(localization): consolidate runtime adoption",
+        "url": "https://github.com/openclaw/openclaw/pull/111542",
         "state": "open",
         "author": "giodl73-repo",
-        "updatedAt": "2026-07-19T22:08:12Z"
+        "updatedAt": "2026-07-19T23:09:38Z"
       },
       {
         "kind": "pr",
-        "number": 97175,
-        "title": "fix(context-engine): bound deferred turn maintenance with a per-task timeout (AI-assisted)",
-        "url": "https://github.com/openclaw/openclaw/pull/97175",
+        "number": 111543,
+        "title": "feat(localization): consolidate governance and inventory",
+        "url": "https://github.com/openclaw/openclaw/pull/111543",
         "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-07-19T22:07:49Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-19T23:09:37Z"
       },
       {
         "kind": "pr",
-        "number": 111540,
-        "title": "fix(ui): keep steered composer messages visible until the transcript owns them",
-        "url": "https://github.com/openclaw/openclaw/pull/111540",
+        "number": 111571,
+        "title": "fix(cli): reject unknown models in config set",
+        "url": "https://github.com/openclaw/openclaw/pull/111571",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-19T22:07:20Z"
+        "updatedAt": "2026-07-19T23:09:31Z"
+      },
+      {
+        "kind": "pr",
+        "number": 83988,
+        "title": "fix(tts): defer text settlement for final-mode TTS to eliminate churn (#83511)",
+        "url": "https://github.com/openclaw/openclaw/pull/83988",
+        "state": "open",
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-07-19T23:09:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111534,
+        "title": "fix(update): gateway restart survives inherited cross-user D-Bus environment",
+        "url": "https://github.com/openclaw/openclaw/pull/111534",
+        "state": "open",
+        "author": "SimranPabla",
+        "updatedAt": "2026-07-19T23:09:16Z"
       },
       {
         "kind": "pr",
@@ -169,25 +196,7 @@
         "url": "https://github.com/openclaw/openclaw/pull/111544",
         "state": "open",
         "author": "giodl73-repo",
-        "updatedAt": "2026-07-19T22:07:15Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111530,
-        "title": "feat(ui): accept drag-and-drop attachments in the new-session composer",
-        "url": "https://github.com/openclaw/openclaw/pull/111530",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-19T22:07:10Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111552,
-        "title": "feat(dashboard): persist MCP Apps as board widgets",
-        "url": "https://github.com/openclaw/openclaw/pull/111552",
-        "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-07-19T22:07:06Z"
+        "updatedAt": "2026-07-19T23:09:00Z"
       }
     ]
   }

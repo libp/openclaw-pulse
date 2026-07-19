@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-19T10:44:04.404Z",
+  "generatedAt": "2026-07-19T12:05:56.660Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -103,55 +103,63 @@
     },
     {
       "capturedOn": "2026-07-19",
-      "capturedAt": "2026-07-19T10:44:04.404Z",
-      "issueOpen": 3881,
-      "issueClosed": 40301,
-      "prOpen": 2986,
-      "prClosed": 61850,
+      "capturedAt": "2026-07-19T12:05:56.660Z",
+      "issueOpen": 3880,
+      "issueClosed": 40303,
+      "prOpen": 2978,
+      "prClosed": 61866,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 111370,
-        "title": "[Bug]: openclaw-hooks helper processes orphaned when a run terminates abnormally",
-        "url": "https://github.com/openclaw/openclaw/issues/111370",
-        "state": "open",
-        "author": "okekeobasi",
-        "updatedAt": "2026-07-19T10:43:34Z"
-      },
-      {
-        "kind": "issue",
-        "number": 111372,
-        "title": "[Bug]: Gateway restarts immediately after \"loading configuration\" - infinite SIGTERM loop on macOS",
-        "url": "https://github.com/openclaw/openclaw/issues/111372",
-        "state": "open",
-        "author": "jfunch",
-        "updatedAt": "2026-07-19T10:41:25Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 89155,
-        "title": "feat(openrouter): forward OpenClaw session id as session_id",
-        "url": "https://github.com/openclaw/openclaw/pull/89155",
+        "number": 110195,
+        "title": "fix(ui): restore WCAG AA contrast for muted webchat text (AI-assisted)",
+        "url": "https://github.com/openclaw/openclaw/pull/110195",
         "state": "open",
-        "author": "Alex-vonAllmen",
-        "updatedAt": "2026-07-19T10:43:58Z"
+        "author": "stantheman0128",
+        "updatedAt": "2026-07-19T12:05:43Z"
       },
       {
         "kind": "pr",
-        "number": 111371,
-        "title": "feat(ui): identity settings and own-identity chip",
-        "url": "https://github.com/openclaw/openclaw/pull/111371",
+        "number": 91268,
+        "title": "fix: stop doctor misreporting trusted-proxy gateways as unauthenticated",
+        "url": "https://github.com/openclaw/openclaw/pull/91268",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-19T10:43:53Z"
+        "author": "veteranbv",
+        "updatedAt": "2026-07-19T12:05:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110257,
+        "title": "fix(trajectory): session.ended timestamp matches model.completed before cleanup",
+        "url": "https://github.com/openclaw/openclaw/pull/110257",
+        "state": "open",
+        "author": "stantheman0128",
+        "updatedAt": "2026-07-19T12:05:53Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111033,
+        "title": "fix(android): stabilize Wear realtime Talk audio and tool calls",
+        "url": "https://github.com/openclaw/openclaw/pull/111033",
+        "state": "open",
+        "author": "IWhatsskill",
+        "updatedAt": "2026-07-19T12:05:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110842,
+        "title": "fix(ui): stream-decode terminal startup UTF-8 chunks",
+        "url": "https://github.com/openclaw/openclaw/pull/110842",
+        "state": "open",
+        "author": "nocodet888-arch",
+        "updatedAt": "2026-07-19T12:05:17Z"
       },
       {
         "kind": "pr",
@@ -160,34 +168,7 @@
         "url": "https://github.com/openclaw/openclaw/pull/111329",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-19T10:42:46Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111307,
-        "title": "fix(browser): retire durable tab rows whose browser never returns",
-        "url": "https://github.com/openclaw/openclaw/pull/111307",
-        "state": "open",
-        "author": "Yigtwxx",
-        "updatedAt": "2026-07-19T10:42:27Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111368,
-        "title": "fix(infra): make exec-approvals lock ownership filesystem-safe",
-        "url": "https://github.com/openclaw/openclaw/pull/111368",
-        "state": "open",
-        "author": "snowzlmbot",
-        "updatedAt": "2026-07-19T10:42:03Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111218,
-        "title": "feat(dashboard): stitch session dashboards end-to-end — live provider, show_widget pin, board commands",
-        "url": "https://github.com/openclaw/openclaw/pull/111218",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-19T10:42:03Z"
+        "updatedAt": "2026-07-19T12:04:51Z"
       }
     ]
   }

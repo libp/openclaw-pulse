@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-19T09:16:35.671Z",
+  "generatedAt": "2026-07-19T10:44:04.404Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -103,11 +103,11 @@
     },
     {
       "capturedOn": "2026-07-19",
-      "capturedAt": "2026-07-19T09:16:35.671Z",
-      "issueOpen": 3876,
-      "issueClosed": 40296,
-      "prOpen": 2980,
-      "prClosed": 61833,
+      "capturedAt": "2026-07-19T10:44:04.404Z",
+      "issueOpen": 3881,
+      "issueClosed": 40301,
+      "prOpen": 2986,
+      "prClosed": 61850,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -117,113 +117,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 111338,
-        "title": "Docs feedback: /zh-CN/start/onboarding",
-        "url": "https://github.com/openclaw/openclaw/issues/111338",
+        "number": 111370,
+        "title": "[Bug]: openclaw-hooks helper processes orphaned when a run terminates abnormally",
+        "url": "https://github.com/openclaw/openclaw/issues/111370",
         "state": "open",
-        "author": "buerjiaya01",
-        "updatedAt": "2026-07-19T09:16:11Z"
+        "author": "okekeobasi",
+        "updatedAt": "2026-07-19T10:43:34Z"
       },
       {
         "kind": "issue",
-        "number": 111023,
-        "title": "OpenClaw github issue creation debug probe",
-        "url": "https://github.com/openclaw/openclaw/issues/111023",
+        "number": 111372,
+        "title": "[Bug]: Gateway restarts immediately after \"loading configuration\" - infinite SIGTERM loop on macOS",
+        "url": "https://github.com/openclaw/openclaw/issues/111372",
         "state": "open",
-        "author": "kabhinav",
-        "updatedAt": "2026-07-19T09:15:56Z"
-      },
-      {
-        "kind": "issue",
-        "number": 107517,
-        "title": "[Bug] Memory leak in WeakMap usage for draft progress tracking in streaming views",
-        "url": "https://github.com/openclaw/openclaw/issues/107517",
-        "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-19T09:15:47Z"
-      },
-      {
-        "kind": "issue",
-        "number": 107550,
-        "title": "[Performance] Thread pool starvation due to synchronous crypto hashing in password validation",
-        "url": "https://github.com/openclaw/openclaw/issues/107550",
-        "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-19T09:15:38Z"
-      },
-      {
-        "kind": "issue",
-        "number": 107520,
-        "title": "[Bug] Race condition on event-ledger log rotation under high concurrent load",
-        "url": "https://github.com/openclaw/openclaw/issues/107520",
-        "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-19T09:15:30Z"
-      },
-      {
-        "kind": "issue",
-        "number": 107531,
-        "title": "[Security] Privilege escalation via mock environment overrides in testing framework",
-        "url": "https://github.com/openclaw/openclaw/issues/107531",
-        "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-19T09:15:21Z"
+        "author": "jfunch",
+        "updatedAt": "2026-07-19T10:41:25Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 111333,
-        "title": "fix(tavily): reject blank extract URLs",
-        "url": "https://github.com/openclaw/openclaw/pull/111333",
+        "number": 89155,
+        "title": "feat(openrouter): forward OpenClaw session id as session_id",
+        "url": "https://github.com/openclaw/openclaw/pull/89155",
         "state": "open",
-        "author": "VectorPeak",
-        "updatedAt": "2026-07-19T09:16:25Z"
+        "author": "Alex-vonAllmen",
+        "updatedAt": "2026-07-19T10:43:58Z"
       },
       {
         "kind": "pr",
-        "number": 110716,
-        "title": "fix(openshell): bound sandbox readFile with size cap",
-        "url": "https://github.com/openclaw/openclaw/pull/110716",
-        "state": "open",
-        "author": "cxbAsDev",
-        "updatedAt": "2026-07-19T09:16:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111332,
-        "title": "fix(agents): web_fetch leaves body open after provider fallback",
-        "url": "https://github.com/openclaw/openclaw/pull/111332",
-        "state": "open",
-        "author": "nocodet888-arch",
-        "updatedAt": "2026-07-19T09:16:28Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111299,
-        "title": "fix(agents): bound stalled SSH directory uploads with an idle watchdog",
-        "url": "https://github.com/openclaw/openclaw/pull/111299",
-        "state": "open",
-        "author": "zenglingbiao",
-        "updatedAt": "2026-07-19T09:16:12Z"
-      },
-      {
-        "kind": "pr",
-        "number": 79985,
-        "title": "docs+tests: clarify agents.list visibility scope across CLI and Gateway",
-        "url": "https://github.com/openclaw/openclaw/pull/79985",
-        "state": "open",
-        "author": "Kansodata",
-        "updatedAt": "2026-07-19T09:16:04Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111289,
-        "title": "fix(ci): enforce plugin SDK API baseline",
-        "url": "https://github.com/openclaw/openclaw/pull/111289",
+        "number": 111371,
+        "title": "feat(ui): identity settings and own-identity chip",
+        "url": "https://github.com/openclaw/openclaw/pull/111371",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-19T09:16:02Z"
+        "updatedAt": "2026-07-19T10:43:53Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111329,
+        "title": "feat: show cloud workspace conflicts in the Control UI",
+        "url": "https://github.com/openclaw/openclaw/pull/111329",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-19T10:42:46Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111307,
+        "title": "fix(browser): retire durable tab rows whose browser never returns",
+        "url": "https://github.com/openclaw/openclaw/pull/111307",
+        "state": "open",
+        "author": "Yigtwxx",
+        "updatedAt": "2026-07-19T10:42:27Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111368,
+        "title": "fix(infra): make exec-approvals lock ownership filesystem-safe",
+        "url": "https://github.com/openclaw/openclaw/pull/111368",
+        "state": "open",
+        "author": "snowzlmbot",
+        "updatedAt": "2026-07-19T10:42:03Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111218,
+        "title": "feat(dashboard): stitch session dashboards end-to-end — live provider, show_widget pin, board commands",
+        "url": "https://github.com/openclaw/openclaw/pull/111218",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-19T10:42:03Z"
       }
     ]
   }

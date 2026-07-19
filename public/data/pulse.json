@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-19T12:05:56.660Z",
+  "generatedAt": "2026-07-19T13:51:43.153Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -103,11 +103,11 @@
     },
     {
       "capturedOn": "2026-07-19",
-      "capturedAt": "2026-07-19T12:05:56.660Z",
-      "issueOpen": 3880,
-      "issueClosed": 40303,
-      "prOpen": 2978,
-      "prClosed": 61866,
+      "capturedAt": "2026-07-19T13:51:43.153Z",
+      "issueOpen": 3890,
+      "issueClosed": 40305,
+      "prOpen": 2991,
+      "prClosed": 61886,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -118,57 +118,57 @@
     "prs": [
       {
         "kind": "pr",
-        "number": 110195,
-        "title": "fix(ui): restore WCAG AA contrast for muted webchat text (AI-assisted)",
-        "url": "https://github.com/openclaw/openclaw/pull/110195",
-        "state": "open",
-        "author": "stantheman0128",
-        "updatedAt": "2026-07-19T12:05:43Z"
-      },
-      {
-        "kind": "pr",
-        "number": 91268,
-        "title": "fix: stop doctor misreporting trusted-proxy gateways as unauthenticated",
-        "url": "https://github.com/openclaw/openclaw/pull/91268",
-        "state": "open",
-        "author": "veteranbv",
-        "updatedAt": "2026-07-19T12:05:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110257,
-        "title": "fix(trajectory): session.ended timestamp matches model.completed before cleanup",
-        "url": "https://github.com/openclaw/openclaw/pull/110257",
-        "state": "open",
-        "author": "stantheman0128",
-        "updatedAt": "2026-07-19T12:05:53Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111033,
-        "title": "fix(android): stabilize Wear realtime Talk audio and tool calls",
-        "url": "https://github.com/openclaw/openclaw/pull/111033",
-        "state": "open",
-        "author": "IWhatsskill",
-        "updatedAt": "2026-07-19T12:05:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110842,
-        "title": "fix(ui): stream-decode terminal startup UTF-8 chunks",
-        "url": "https://github.com/openclaw/openclaw/pull/110842",
-        "state": "open",
-        "author": "nocodet888-arch",
-        "updatedAt": "2026-07-19T12:05:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111329,
-        "title": "feat: show cloud workspace conflicts in the Control UI",
-        "url": "https://github.com/openclaw/openclaw/pull/111329",
+        "number": 111420,
+        "title": "fix(cron): preserve active run ownership",
+        "url": "https://github.com/openclaw/openclaw/pull/111420",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-19T12:04:51Z"
+        "updatedAt": "2026-07-19T13:51:28Z"
+      },
+      {
+        "kind": "pr",
+        "number": 83933,
+        "title": "fix(cron): skip deleteAfterRun and preserve counters for manual runs (#83538)",
+        "url": "https://github.com/openclaw/openclaw/pull/83933",
+        "state": "open",
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-07-19T13:51:22Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111414,
+        "title": "test(sessions): isolate store pruning integration test",
+        "url": "https://github.com/openclaw/openclaw/pull/111414",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-19T13:51:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111426,
+        "title": "refactor(plugin-sdk): retire global provider publication",
+        "url": "https://github.com/openclaw/openclaw/pull/111426",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-19T13:51:13Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111425,
+        "title": "fix(whatsapp): unscoped echo detection silently drops legitimate messages across different chats",
+        "url": "https://github.com/openclaw/openclaw/pull/111425",
+        "state": "open",
+        "author": "YangManBOBO",
+        "updatedAt": "2026-07-19T13:51:12Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111223,
+        "title": "fix(ios): render Markdown lists and thematic breaks",
+        "url": "https://github.com/openclaw/openclaw/pull/111223",
+        "state": "open",
+        "author": "metaforismo",
+        "updatedAt": "2026-07-19T13:51:10Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-19T18:08:14.581Z",
+  "generatedAt": "2026-07-19T19:30:46.462Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -103,91 +103,72 @@
     },
     {
       "capturedOn": "2026-07-19",
-      "capturedAt": "2026-07-19T18:08:14.581Z",
-      "issueOpen": 3898,
-      "issueClosed": 40313,
-      "prOpen": 2985,
-      "prClosed": 61947,
+      "capturedAt": "2026-07-19T19:30:46.462Z",
+      "issueOpen": 3899,
+      "issueClosed": 40318,
+      "prOpen": 2987,
+      "prClosed": 61960,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 111406,
-        "title": "Manual 'cron run' reports false setup-timeout while the run actually executes",
-        "url": "https://github.com/openclaw/openclaw/issues/111406",
-        "state": "open",
-        "author": "MrNozz",
-        "updatedAt": "2026-07-19T18:07:55Z"
-      },
-      {
-        "kind": "issue",
-        "number": 111469,
-        "title": "Tool outputs silently discarded as empty strings in long sessions due to over-aggressive aggregate truncation",
-        "url": "https://github.com/openclaw/openclaw/issues/111469",
-        "state": "closed",
-        "author": "aaa2015",
-        "updatedAt": "2026-07-19T18:06:47Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 111430,
-        "title": "fix(ui): prevent unsafe custodian nudge answers",
-        "url": "https://github.com/openclaw/openclaw/pull/111430",
+        "number": 111516,
+        "title": "Wear: animate Talk avatar from playback audio",
+        "url": "https://github.com/openclaw/openclaw/pull/111516",
+        "state": "open",
+        "author": "IWhatsskill",
+        "updatedAt": "2026-07-19T19:30:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111141,
+        "title": "fix(plugins): load newest managed generation when a prior install lingers",
+        "url": "https://github.com/openclaw/openclaw/pull/111141",
+        "state": "open",
+        "author": "Marvinthebored",
+        "updatedAt": "2026-07-19T19:30:37Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111458,
+        "title": "feat(core): add durable platform orchestration",
+        "url": "https://github.com/openclaw/openclaw/pull/111458",
+        "state": "open",
+        "author": "aboleen4848-hue",
+        "updatedAt": "2026-07-19T19:30:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111517,
+        "title": "fix(onboard): honor remote flags in interactive setup",
+        "url": "https://github.com/openclaw/openclaw/pull/111517",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-19T18:08:05Z"
+        "updatedAt": "2026-07-19T19:29:50Z"
       },
       {
         "kind": "pr",
-        "number": 102383,
-        "title": "Manage Claw cron jobs through the gateway",
-        "url": "https://github.com/openclaw/openclaw/pull/102383",
+        "number": 111508,
+        "title": "fix(skills): forward owner handle to bulk security-verdict fetch for ambiguous slugs",
+        "url": "https://github.com/openclaw/openclaw/pull/111508",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-19T18:08:03Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111392,
-        "title": "fix(memory-core): skip unchanged Dreaming workspace state writes",
-        "url": "https://github.com/openclaw/openclaw/pull/111392",
-        "state": "open",
-        "author": "wuqxuan",
-        "updatedAt": "2026-07-19T18:08:01Z"
+        "author": "yuvrajlaptop2008-byte",
+        "updatedAt": "2026-07-19T19:29:50Z"
       },
       {
         "kind": "pr",
         "number": 111497,
-        "title": "fix(workboard): keep completed artifacts available after cleanup",
+        "title": "fix(workboard): keep completed artifacts after run cleanup",
         "url": "https://github.com/openclaw/openclaw/pull/111497",
         "state": "open",
         "author": "ooiuuii",
-        "updatedAt": "2026-07-19T18:08:11Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111391,
-        "title": "Add CLAW.md manifest support",
-        "url": "https://github.com/openclaw/openclaw/pull/111391",
-        "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-19T18:07:59Z"
-      },
-      {
-        "kind": "pr",
-        "number": 102228,
-        "title": "Install ClawHub packages for new Claw agents",
-        "url": "https://github.com/openclaw/openclaw/pull/102228",
-        "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-19T18:07:40Z"
+        "updatedAt": "2026-07-19T19:29:36Z"
       }
     ]
   }

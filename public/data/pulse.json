@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-19T17:14:43.256Z",
+  "generatedAt": "2026-07-19T18:08:14.581Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -103,72 +103,91 @@
     },
     {
       "capturedOn": "2026-07-19",
-      "capturedAt": "2026-07-19T17:14:43.256Z",
+      "capturedAt": "2026-07-19T18:08:14.581Z",
       "issueOpen": 3898,
-      "issueClosed": 40312,
-      "prOpen": 2987,
-      "prClosed": 61939,
+      "issueClosed": 40313,
+      "prOpen": 2985,
+      "prClosed": 61947,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 111406,
+        "title": "Manual 'cron run' reports false setup-timeout while the run actually executes",
+        "url": "https://github.com/openclaw/openclaw/issues/111406",
+        "state": "open",
+        "author": "MrNozz",
+        "updatedAt": "2026-07-19T18:07:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 111469,
+        "title": "Tool outputs silently discarded as empty strings in long sessions due to over-aggressive aggregate truncation",
+        "url": "https://github.com/openclaw/openclaw/issues/111469",
+        "state": "closed",
+        "author": "aaa2015",
+        "updatedAt": "2026-07-19T18:06:47Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 111437,
-        "title": "feat(talk): add realtime live translation",
-        "url": "https://github.com/openclaw/openclaw/pull/111437",
+        "number": 111430,
+        "title": "fix(ui): prevent unsafe custodian nudge answers",
+        "url": "https://github.com/openclaw/openclaw/pull/111430",
         "state": "open",
-        "author": "bickey666",
-        "updatedAt": "2026-07-19T17:14:38Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-19T18:08:05Z"
       },
       {
         "kind": "pr",
-        "number": 111438,
-        "title": "fix(discord): use UTF-16 safe truncation for voice participant labels",
-        "url": "https://github.com/openclaw/openclaw/pull/111438",
+        "number": 102383,
+        "title": "Manage Claw cron jobs through the gateway",
+        "url": "https://github.com/openclaw/openclaw/pull/102383",
         "state": "open",
-        "author": "LiuwqGit",
-        "updatedAt": "2026-07-19T17:14:33Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-19T18:08:03Z"
       },
       {
         "kind": "pr",
-        "number": 111462,
-        "title": "feat: isolate native subagent skill workspaces",
-        "url": "https://github.com/openclaw/openclaw/pull/111462",
+        "number": 111392,
+        "title": "fix(memory-core): skip unchanged Dreaming workspace state writes",
+        "url": "https://github.com/openclaw/openclaw/pull/111392",
         "state": "open",
-        "author": "aliahnaf2013-max",
-        "updatedAt": "2026-07-19T17:14:31Z"
+        "author": "wuqxuan",
+        "updatedAt": "2026-07-19T18:08:01Z"
       },
       {
         "kind": "pr",
-        "number": 111397,
-        "title": "fix(gateway): guard JSON.parse malformed input in parseJsonStringArray",
-        "url": "https://github.com/openclaw/openclaw/pull/111397",
+        "number": 111497,
+        "title": "fix(workboard): keep completed artifacts available after cleanup",
+        "url": "https://github.com/openclaw/openclaw/pull/111497",
         "state": "open",
-        "author": "coder-master-0915",
-        "updatedAt": "2026-07-19T17:14:31Z"
+        "author": "ooiuuii",
+        "updatedAt": "2026-07-19T18:08:11Z"
       },
       {
         "kind": "pr",
-        "number": 111117,
-        "title": "fix(update): keep repair JSON output parseable",
-        "url": "https://github.com/openclaw/openclaw/pull/111117",
+        "number": 111391,
+        "title": "Add CLAW.md manifest support",
+        "url": "https://github.com/openclaw/openclaw/pull/111391",
         "state": "open",
-        "author": "arcabotai",
-        "updatedAt": "2026-07-19T17:14:23Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-19T18:07:59Z"
       },
       {
         "kind": "pr",
-        "number": 89040,
-        "title": "perf: avoid event-loop stall during embedded_run bootstrap-context",
-        "url": "https://github.com/openclaw/openclaw/pull/89040",
+        "number": 102228,
+        "title": "Install ClawHub packages for new Claw agents",
+        "url": "https://github.com/openclaw/openclaw/pull/102228",
         "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-07-19T17:13:57Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-19T18:07:40Z"
       }
     ]
   }

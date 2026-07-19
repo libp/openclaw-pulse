@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-19T16:10:00.464Z",
+  "generatedAt": "2026-07-19T17:14:43.256Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -103,100 +103,72 @@
     },
     {
       "capturedOn": "2026-07-19",
-      "capturedAt": "2026-07-19T16:10:00.464Z",
-      "issueOpen": 3899,
-      "issueClosed": 40308,
-      "prOpen": 2996,
-      "prClosed": 61924,
+      "capturedAt": "2026-07-19T17:14:43.256Z",
+      "issueOpen": 3898,
+      "issueClosed": 40312,
+      "prOpen": 2987,
+      "prClosed": 61939,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 99387,
-        "title": "LLM request failed: provider rejected request schema or tool payload — intermittent crash (Telegram + Anthropic)",
-        "url": "https://github.com/openclaw/openclaw/issues/99387",
-        "state": "open",
-        "author": "gremlin-kitsune",
-        "updatedAt": "2026-07-19T16:08:10Z"
-      },
-      {
-        "kind": "issue",
-        "number": 98674,
-        "title": "[Bug]: cant click on mac app install icon",
-        "url": "https://github.com/openclaw/openclaw/issues/98674",
-        "state": "open",
-        "author": "athuljayaram",
-        "updatedAt": "2026-07-19T16:08:05Z"
-      },
-      {
-        "kind": "issue",
-        "number": 99191,
-        "title": "docs(xai): recommend grok-build-0.1 for coding-agent and ACP sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/99191",
-        "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-07-19T16:08:03Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 111108,
-        "title": "fix: stop selected channel sessions from WebChat",
-        "url": "https://github.com/openclaw/openclaw/pull/111108",
+        "number": 111437,
+        "title": "feat(talk): add realtime live translation",
+        "url": "https://github.com/openclaw/openclaw/pull/111437",
         "state": "open",
-        "author": "scotthuang",
-        "updatedAt": "2026-07-19T16:09:48Z"
+        "author": "bickey666",
+        "updatedAt": "2026-07-19T17:14:38Z"
       },
       {
         "kind": "pr",
-        "number": 109973,
-        "title": "fix(acp): defer session snapshot update after newSession/resumeSession result",
-        "url": "https://github.com/openclaw/openclaw/pull/109973",
+        "number": 111438,
+        "title": "fix(discord): use UTF-16 safe truncation for voice participant labels",
+        "url": "https://github.com/openclaw/openclaw/pull/111438",
         "state": "open",
-        "author": "xydt-tanshanshan",
-        "updatedAt": "2026-07-19T16:09:47Z"
+        "author": "LiuwqGit",
+        "updatedAt": "2026-07-19T17:14:33Z"
       },
       {
         "kind": "pr",
-        "number": 111087,
-        "title": "feat(policy): check authored message routing",
-        "url": "https://github.com/openclaw/openclaw/pull/111087",
+        "number": 111462,
+        "title": "feat: isolate native subagent skill workspaces",
+        "url": "https://github.com/openclaw/openclaw/pull/111462",
         "state": "open",
-        "author": "omarshahine",
-        "updatedAt": "2026-07-19T16:09:43Z"
+        "author": "aliahnaf2013-max",
+        "updatedAt": "2026-07-19T17:14:31Z"
       },
       {
         "kind": "pr",
-        "number": 111296,
-        "title": "fix: keep plugin update output tails utf8-safe",
-        "url": "https://github.com/openclaw/openclaw/pull/111296",
+        "number": 111397,
+        "title": "fix(gateway): guard JSON.parse malformed input in parseJsonStringArray",
+        "url": "https://github.com/openclaw/openclaw/pull/111397",
         "state": "open",
-        "author": "qingminlong",
-        "updatedAt": "2026-07-19T16:09:23Z"
+        "author": "coder-master-0915",
+        "updatedAt": "2026-07-19T17:14:31Z"
       },
       {
         "kind": "pr",
-        "number": 108007,
-        "title": "fix: make Back work within channel setup",
-        "url": "https://github.com/openclaw/openclaw/pull/108007",
+        "number": 111117,
+        "title": "fix(update): keep repair JSON output parseable",
+        "url": "https://github.com/openclaw/openclaw/pull/111117",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-07-19T16:09:23Z"
+        "author": "arcabotai",
+        "updatedAt": "2026-07-19T17:14:23Z"
       },
       {
         "kind": "pr",
-        "number": 106789,
-        "title": "docs: respect configured Crabbox provider for agent tests",
-        "url": "https://github.com/openclaw/openclaw/pull/106789",
+        "number": 89040,
+        "title": "perf: avoid event-loop stall during embedded_run bootstrap-context",
+        "url": "https://github.com/openclaw/openclaw/pull/89040",
         "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-07-19T16:09:09Z"
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-07-19T17:13:57Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-19T03:51:52.310Z",
+  "generatedAt": "2026-07-19T06:41:51.753Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -103,82 +103,72 @@
     },
     {
       "capturedOn": "2026-07-19",
-      "capturedAt": "2026-07-19T03:51:52.310Z",
-      "issueOpen": 3889,
-      "issueClosed": 40267,
-      "prOpen": 2994,
-      "prClosed": 61679,
+      "capturedAt": "2026-07-19T06:41:51.753Z",
+      "issueOpen": 3872,
+      "issueClosed": 40290,
+      "prOpen": 2965,
+      "prClosed": 61771,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 11977,
-        "title": "feat: add linux/riscv64 Docker image to multi-platform build",
-        "url": "https://github.com/openclaw/openclaw/issues/11977",
-        "state": "open",
-        "author": "gounthar",
-        "updatedAt": "2026-07-19T03:49:37Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 111182,
-        "title": "fix(openrouter): reject invalid UTF-8 usage responses",
-        "url": "https://github.com/openclaw/openclaw/pull/111182",
+        "number": 111248,
+        "title": "fix(macos): refresh skills after local node reconnect",
+        "url": "https://github.com/openclaw/openclaw/pull/111248",
         "state": "open",
-        "author": "wahaha1223",
-        "updatedAt": "2026-07-19T03:51:43Z"
+        "author": "xydigit-zt",
+        "updatedAt": "2026-07-19T06:41:43Z"
       },
       {
         "kind": "pr",
-        "number": 111181,
-        "title": "fix(canvas): bound A2UI JSONL file reads",
-        "url": "https://github.com/openclaw/openclaw/pull/111181",
+        "number": 110588,
+        "title": "fix(minimax): persist OAuth model context metadata",
+        "url": "https://github.com/openclaw/openclaw/pull/110588",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-07-19T03:51:39Z"
+        "author": "kapelame",
+        "updatedAt": "2026-07-19T06:41:36Z"
       },
       {
         "kind": "pr",
-        "number": 96078,
-        "title": "Reject split outbound agent session ownership",
-        "url": "https://github.com/openclaw/openclaw/pull/96078",
+        "number": 111250,
+        "title": "fix(sessions): reject non-canonical raw transcript cursors",
+        "url": "https://github.com/openclaw/openclaw/pull/111250",
         "state": "open",
-        "author": "youngting520",
-        "updatedAt": "2026-07-19T03:51:49Z"
+        "author": "ZengWen-DT",
+        "updatedAt": "2026-07-19T06:41:29Z"
       },
       {
         "kind": "pr",
-        "number": 111087,
-        "title": "feat(policy): check authored message routing",
-        "url": "https://github.com/openclaw/openclaw/pull/111087",
-        "state": "open",
-        "author": "omarshahine",
-        "updatedAt": "2026-07-19T03:51:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111104,
-        "title": "refactor: centralize bounded file reads in fs-safe",
-        "url": "https://github.com/openclaw/openclaw/pull/111104",
+        "number": 111142,
+        "title": "refactor(config): config-surface reduction tranche 1 — retire dead keys, dedupe channel schemas, add growth ratchet",
+        "url": "https://github.com/openclaw/openclaw/pull/111142",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-19T03:51:06Z"
+        "updatedAt": "2026-07-19T06:41:08Z"
       },
       {
         "kind": "pr",
-        "number": 111139,
-        "title": "fix(telegram): preserve per-image captions in media group albums (#110690)",
-        "url": "https://github.com/openclaw/openclaw/pull/111139",
+        "number": 111251,
+        "title": "fix(gateway): reject altered approval history cursors",
+        "url": "https://github.com/openclaw/openclaw/pull/111251",
         "state": "open",
-        "author": "chenyangjun-xy",
-        "updatedAt": "2026-07-19T03:51:03Z"
+        "author": "ZengWen-DT",
+        "updatedAt": "2026-07-19T06:41:00Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111252,
+        "title": "fix(anthropic): reject altered local session cursors",
+        "url": "https://github.com/openclaw/openclaw/pull/111252",
+        "state": "open",
+        "author": "ZengWen-DT",
+        "updatedAt": "2026-07-19T06:40:57Z"
       }
     ]
   }

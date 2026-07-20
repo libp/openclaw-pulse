@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-20T18:18:04.917Z",
+  "generatedAt": "2026-07-20T20:39:50.964Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -114,72 +114,91 @@
     },
     {
       "capturedOn": "2026-07-20",
-      "capturedAt": "2026-07-20T18:18:04.917Z",
-      "issueOpen": 3937,
-      "issueClosed": 40386,
-      "prOpen": 3072,
-      "prClosed": 62166,
+      "capturedAt": "2026-07-20T20:39:50.964Z",
+      "issueOpen": 3946,
+      "issueClosed": 40387,
+      "prOpen": 3079,
+      "prClosed": 62171,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 111954,
+        "title": "[Bug]: Slack portable tables degrade to text after outbound payload reconstruction",
+        "url": "https://github.com/openclaw/openclaw/issues/111954",
+        "state": "open",
+        "author": "rabsef-bicrym",
+        "updatedAt": "2026-07-20T20:39:31Z"
+      },
+      {
+        "kind": "issue",
+        "number": 111884,
+        "title": "[Bug]: Regression of #67988 — model picker shows alias (\"Opus\"/\"Sonnet\") instead of versioned display name, now on Opus 4.8 / Sonnet 5",
+        "url": "https://github.com/openclaw/openclaw/issues/111884",
+        "state": "open",
+        "author": "MontanaIrish",
+        "updatedAt": "2026-07-20T20:37:52Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 111181,
-        "title": "fix(canvas): bound A2UI JSONL file reads",
-        "url": "https://github.com/openclaw/openclaw/pull/111181",
+        "number": 111955,
+        "title": "fix(slack): preserve native tables during outbound delivery",
+        "url": "https://github.com/openclaw/openclaw/pull/111955",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-07-20T18:18:00Z"
+        "author": "rabsef-bicrym",
+        "updatedAt": "2026-07-20T20:39:47Z"
       },
       {
         "kind": "pr",
-        "number": 111859,
-        "title": "fix(qqbot): settle RESUME watermark after handler completes without removing ingress lifecycle",
-        "url": "https://github.com/openclaw/openclaw/pull/111859",
+        "number": 111612,
+        "title": "fix(agents): use || for empty provider/model fallback in transcript persistence",
+        "url": "https://github.com/openclaw/openclaw/pull/111612",
         "state": "open",
-        "author": "YangManBOBO",
-        "updatedAt": "2026-07-20T18:17:53Z"
+        "author": "ljy-1351",
+        "updatedAt": "2026-07-20T20:39:45Z"
       },
       {
         "kind": "pr",
-        "number": 111933,
-        "title": "feat(linux): render widgets in Quick Chat",
-        "url": "https://github.com/openclaw/openclaw/pull/111933",
+        "number": 111953,
+        "title": "fix(ui): show new task prompts immediately without duplicates",
+        "url": "https://github.com/openclaw/openclaw/pull/111953",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-20T18:17:52Z"
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-07-20T20:39:37Z"
       },
       {
         "kind": "pr",
-        "number": 111841,
-        "title": "fix(agents): allow configless gateway rebind to activate standalone owner",
-        "url": "https://github.com/openclaw/openclaw/pull/111841",
+        "number": 111951,
+        "title": "fix(browser): skip non-executable auto-discovery candidates",
+        "url": "https://github.com/openclaw/openclaw/pull/111951",
         "state": "open",
-        "author": "xialonglee",
-        "updatedAt": "2026-07-20T18:17:57Z"
+        "author": "ooiuuii",
+        "updatedAt": "2026-07-20T20:39:48Z"
       },
       {
         "kind": "pr",
-        "number": 111836,
-        "title": "fix(exa): search results can show corrupted text from malformed UTF-8",
-        "url": "https://github.com/openclaw/openclaw/pull/111836",
+        "number": 110126,
+        "title": "fix(scripts): honor repeated response content lengths",
+        "url": "https://github.com/openclaw/openclaw/pull/110126",
         "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-07-20T18:17:57Z"
+        "author": "qingminglong",
+        "updatedAt": "2026-07-20T20:39:15Z"
       },
       {
         "kind": "pr",
-        "number": 111802,
-        "title": "fix(ollama): release failed setup response bodies before returning",
-        "url": "https://github.com/openclaw/openclaw/pull/111802",
+        "number": 110569,
+        "title": "fix(scripts): bound docs glossary git lookups",
+        "url": "https://github.com/openclaw/openclaw/pull/110569",
         "state": "open",
-        "author": "dwc1997",
-        "updatedAt": "2026-07-20T18:17:41Z"
+        "author": "RileyJJY",
+        "updatedAt": "2026-07-20T20:39:14Z"
       }
     ]
   }

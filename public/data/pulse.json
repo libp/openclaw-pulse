@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-20T04:02:47.817Z",
+  "generatedAt": "2026-07-20T07:27:30.646Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -114,72 +114,82 @@
     },
     {
       "capturedOn": "2026-07-20",
-      "capturedAt": "2026-07-20T04:02:47.817Z",
-      "issueOpen": 3921,
-      "issueClosed": 40324,
-      "prOpen": 3002,
-      "prClosed": 62038,
+      "capturedAt": "2026-07-20T07:27:30.646Z",
+      "issueOpen": 3889,
+      "issueClosed": 40371,
+      "prOpen": 3011,
+      "prClosed": 62089,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 108690,
+        "title": "[Bug]: OpenClaw was upgraded from v2026.6.11 to v2026.7.1 , grammar parse failure",
+        "url": "https://github.com/openclaw/openclaw/issues/108690",
+        "state": "open",
+        "author": "brantzh",
+        "updatedAt": "2026-07-20T07:24:23Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 82540,
-        "title": "fix(wechat): preserve existing accounts across hot reload",
-        "url": "https://github.com/openclaw/openclaw/pull/82540",
+        "number": 109076,
+        "title": "fix(discord): bound webhook send body reads",
+        "url": "https://github.com/openclaw/openclaw/pull/109076",
         "state": "open",
-        "author": "NewdlDewdl",
-        "updatedAt": "2026-07-20T04:02:41Z"
+        "author": "Pick-cat",
+        "updatedAt": "2026-07-20T07:27:19Z"
       },
       {
         "kind": "pr",
-        "number": 111154,
-        "title": "fix(agent): recover disconnected gateway runs before rerunning",
-        "url": "https://github.com/openclaw/openclaw/pull/111154",
+        "number": 108089,
+        "title": "fix(commands): distinguish user No from Cancel in confirm prompts",
+        "url": "https://github.com/openclaw/openclaw/pull/108089",
         "state": "open",
-        "author": "youngting520",
-        "updatedAt": "2026-07-20T04:02:31Z"
+        "author": "ljy-1351",
+        "updatedAt": "2026-07-20T07:27:15Z"
       },
       {
         "kind": "pr",
-        "number": 86655,
-        "title": "feat(claude): add claude-bridge app-server harness extension",
-        "url": "https://github.com/openclaw/openclaw/pull/86655",
+        "number": 111688,
+        "title": "fix(android): make onboarding welcome screen scrollable",
+        "url": "https://github.com/openclaw/openclaw/pull/111688",
         "state": "open",
-        "author": "zeroaltitude",
-        "updatedAt": "2026-07-20T04:02:23Z"
+        "author": "wanyongstar",
+        "updatedAt": "2026-07-20T07:27:04Z"
       },
       {
         "kind": "pr",
-        "number": 108007,
-        "title": "fix: make Back work within channel setup",
-        "url": "https://github.com/openclaw/openclaw/pull/108007",
+        "number": 88908,
+        "title": "fix(gateway): force exit on zombie shutdown + 503 healthz during shutdown",
+        "url": "https://github.com/openclaw/openclaw/pull/88908",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-07-20T04:01:42Z"
+        "author": "amittell",
+        "updatedAt": "2026-07-20T07:26:59Z"
       },
       {
         "kind": "pr",
-        "number": 111639,
-        "title": "fix(release): release validation fails fast on stalled refs",
-        "url": "https://github.com/openclaw/openclaw/pull/111639",
-        "state": "closed",
-        "author": "Alix-007",
-        "updatedAt": "2026-07-20T04:01:15Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111583,
-        "title": "feat(agents): agent-controlled session status, attention, and TTL in the sessions tool",
-        "url": "https://github.com/openclaw/openclaw/pull/111583",
+        "number": 111678,
+        "title": "fix(gateway): make agent deletion transactional",
+        "url": "https://github.com/openclaw/openclaw/pull/111678",
         "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-07-20T04:01:12Z"
+        "updatedAt": "2026-07-20T07:26:55Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109106,
+        "title": "fix(proxy): bound debug CA generation",
+        "url": "https://github.com/openclaw/openclaw/pull/109106",
+        "state": "open",
+        "author": "Alix-007",
+        "updatedAt": "2026-07-20T07:26:06Z"
       }
     ]
   }

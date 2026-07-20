@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-20T22:12:22.611Z",
+  "generatedAt": "2026-07-20T23:13:47.036Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -114,109 +114,72 @@
     },
     {
       "capturedOn": "2026-07-20",
-      "capturedAt": "2026-07-20T22:12:22.611Z",
-      "issueOpen": 3948,
-      "issueClosed": 40388,
-      "prOpen": 3084,
-      "prClosed": 62175,
+      "capturedAt": "2026-07-20T23:13:47.036Z",
+      "issueOpen": 3952,
+      "issueClosed": 40389,
+      "prOpen": 3083,
+      "prClosed": 62180,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 111903,
-        "title": "fix(feishu): custom domain rejects uppercase HTTPS scheme",
-        "url": "https://github.com/openclaw/openclaw/issues/111903",
-        "state": "open",
-        "author": "VectorPeak",
-        "updatedAt": "2026-07-20T22:10:18Z"
-      },
-      {
-        "kind": "issue",
-        "number": 111850,
-        "title": "stt-tts Talk: aborted active-memory pre-run surfaces as user-facing \"voice config failed\"",
-        "url": "https://github.com/openclaw/openclaw/issues/111850",
-        "state": "open",
-        "author": "chrislro",
-        "updatedAt": "2026-07-20T22:10:08Z"
-      },
-      {
-        "kind": "issue",
-        "number": 111817,
-        "title": "[Bug]: ChatGPT Responses retries deterministic TLS certificate failures",
-        "url": "https://github.com/openclaw/openclaw/issues/111817",
-        "state": "open",
-        "author": "ooiuuii",
-        "updatedAt": "2026-07-20T22:10:03Z"
-      },
-      {
-        "kind": "issue",
-        "number": 111900,
-        "title": "Codex CLI resume timeouts can leave descendant processes running on Windows",
-        "url": "https://github.com/openclaw/openclaw/issues/111900",
-        "state": "open",
-        "author": "ooiuuii",
-        "updatedAt": "2026-07-20T22:09:18Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 111205,
-        "title": "feat(codex): config to disable or scope the native hook relay (#91009)",
-        "url": "https://github.com/openclaw/openclaw/pull/111205",
+        "number": 101441,
+        "title": "fix(zalouser): sanitize outbound tool traces",
+        "url": "https://github.com/openclaw/openclaw/pull/101441",
         "state": "open",
-        "author": "nvtoroy",
-        "updatedAt": "2026-07-20T22:12:09Z"
+        "author": "clawSean",
+        "updatedAt": "2026-07-20T23:13:37Z"
       },
       {
         "kind": "pr",
-        "number": 110102,
-        "title": "Plugin UI: add scoped action bridge for sandboxed tabs",
-        "url": "https://github.com/openclaw/openclaw/pull/110102",
+        "number": 88908,
+        "title": "fix(gateway): force exit on zombie shutdown + 503 healthz during shutdown",
+        "url": "https://github.com/openclaw/openclaw/pull/88908",
         "state": "open",
-        "author": "Ittiz",
-        "updatedAt": "2026-07-20T22:12:07Z"
+        "author": "amittell",
+        "updatedAt": "2026-07-20T23:13:33Z"
       },
       {
         "kind": "pr",
-        "number": 89039,
-        "title": "fix: prevent silent message loss from EmbeddedAttemptSessionTakeoverError",
-        "url": "https://github.com/openclaw/openclaw/pull/89039",
+        "number": 110608,
+        "title": "feat(matrix): add configurable read receipt timing",
+        "url": "https://github.com/openclaw/openclaw/pull/110608",
         "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-07-20T22:11:38Z"
+        "author": "beezly",
+        "updatedAt": "2026-07-20T23:13:22Z"
       },
       {
         "kind": "pr",
-        "number": 111181,
-        "title": "fix(canvas): bound A2UI JSONL file reads",
-        "url": "https://github.com/openclaw/openclaw/pull/111181",
+        "number": 93975,
+        "title": "fix(plugins): detect orphan diagnostics with explicit code marker (2-part fix)",
+        "url": "https://github.com/openclaw/openclaw/pull/93975",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-07-20T22:11:29Z"
+        "author": "ralf003",
+        "updatedAt": "2026-07-20T23:13:06Z"
       },
       {
         "kind": "pr",
-        "number": 111768,
-        "title": "fix: reject malformed UTF-8 in hosted official plugin catalog feed responses",
-        "url": "https://github.com/openclaw/openclaw/pull/111768",
+        "number": 101431,
+        "title": "fix(zalo): sanitize outbound tool traces",
+        "url": "https://github.com/openclaw/openclaw/pull/101431",
         "state": "open",
-        "author": "chenyangjun-xy",
-        "updatedAt": "2026-07-20T22:11:26Z"
+        "author": "clawSean",
+        "updatedAt": "2026-07-20T23:12:55Z"
       },
       {
         "kind": "pr",
-        "number": 104552,
-        "title": "fix(admin-http-rpc): reject oversized declared request bodies",
-        "url": "https://github.com/openclaw/openclaw/pull/104552",
+        "number": 95739,
+        "title": "feat(memory): add excludePaths option to memorySearch config",
+        "url": "https://github.com/openclaw/openclaw/pull/95739",
         "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-07-20T22:11:16Z"
+        "author": "ralf003",
+        "updatedAt": "2026-07-20T23:12:55Z"
       }
     ]
   }

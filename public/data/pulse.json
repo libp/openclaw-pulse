@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-20T07:27:30.646Z",
+  "generatedAt": "2026-07-20T11:12:17.950Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -114,11 +114,11 @@
     },
     {
       "capturedOn": "2026-07-20",
-      "capturedAt": "2026-07-20T07:27:30.646Z",
-      "issueOpen": 3889,
-      "issueClosed": 40371,
-      "prOpen": 3011,
-      "prClosed": 62089,
+      "capturedAt": "2026-07-20T11:12:17.950Z",
+      "issueOpen": 3906,
+      "issueClosed": 40374,
+      "prOpen": 3029,
+      "prClosed": 62132,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -128,68 +128,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 108690,
-        "title": "[Bug]: OpenClaw was upgraded from v2026.6.11 to v2026.7.1 , grammar parse failure",
-        "url": "https://github.com/openclaw/openclaw/issues/108690",
-        "state": "open",
-        "author": "brantzh",
-        "updatedAt": "2026-07-20T07:24:23Z"
+        "number": 111723,
+        "title": "CLAUDE_CODE_AUTO_COMPACT_WINDOW 无效：需要同时设置 autoCompactEnabled",
+        "url": "https://github.com/openclaw/openclaw/issues/111723",
+        "state": "closed",
+        "author": "Enominera",
+        "updatedAt": "2026-07-20T11:09:13Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 109076,
-        "title": "fix(discord): bound webhook send body reads",
-        "url": "https://github.com/openclaw/openclaw/pull/109076",
+        "number": 111800,
+        "title": "feat(channels): batch 3 producers drop media placeholder bodies",
+        "url": "https://github.com/openclaw/openclaw/pull/111800",
         "state": "open",
-        "author": "Pick-cat",
-        "updatedAt": "2026-07-20T07:27:19Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-20T11:11:53Z"
       },
       {
         "kind": "pr",
-        "number": 108089,
-        "title": "fix(commands): distinguish user No from Cancel in confirm prompts",
-        "url": "https://github.com/openclaw/openclaw/pull/108089",
+        "number": 97175,
+        "title": "fix(context-engine): bound deferred turn maintenance with a per-task timeout (AI-assisted)",
+        "url": "https://github.com/openclaw/openclaw/pull/97175",
         "state": "open",
-        "author": "ljy-1351",
-        "updatedAt": "2026-07-20T07:27:15Z"
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-07-20T11:11:35Z"
       },
       {
         "kind": "pr",
-        "number": 111688,
-        "title": "fix(android): make onboarding welcome screen scrollable",
-        "url": "https://github.com/openclaw/openclaw/pull/111688",
+        "number": 111801,
+        "title": "fix(security): audit symlinked workspace skill roots",
+        "url": "https://github.com/openclaw/openclaw/pull/111801",
         "state": "open",
-        "author": "wanyongstar",
-        "updatedAt": "2026-07-20T07:27:04Z"
+        "author": "dineshsuthar123",
+        "updatedAt": "2026-07-20T11:11:32Z"
       },
       {
         "kind": "pr",
-        "number": 88908,
-        "title": "fix(gateway): force exit on zombie shutdown + 503 healthz during shutdown",
-        "url": "https://github.com/openclaw/openclaw/pull/88908",
+        "number": 111716,
+        "title": "fix(process): resolve Windows commands when env aliases are blank",
+        "url": "https://github.com/openclaw/openclaw/pull/111716",
         "state": "open",
-        "author": "amittell",
-        "updatedAt": "2026-07-20T07:26:59Z"
+        "author": "LZY3538",
+        "updatedAt": "2026-07-20T11:11:22Z"
       },
       {
         "kind": "pr",
-        "number": 111678,
-        "title": "fix(gateway): make agent deletion transactional",
-        "url": "https://github.com/openclaw/openclaw/pull/111678",
+        "number": 89096,
+        "title": "fix: allow macOS gateway restart while LaunchAgent owns its port",
+        "url": "https://github.com/openclaw/openclaw/pull/89096",
+        "state": "open",
+        "author": "shawnduggan",
+        "updatedAt": "2026-07-20T11:11:15Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111761,
+        "title": "fix(mcp): prevent custom server config races and parsing errors",
+        "url": "https://github.com/openclaw/openclaw/pull/111761",
         "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-07-20T07:26:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 109106,
-        "title": "fix(proxy): bound debug CA generation",
-        "url": "https://github.com/openclaw/openclaw/pull/109106",
-        "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-07-20T07:26:06Z"
+        "updatedAt": "2026-07-20T11:11:11Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-20T11:12:17.950Z",
+  "generatedAt": "2026-07-20T13:16:20.588Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -114,11 +114,11 @@
     },
     {
       "capturedOn": "2026-07-20",
-      "capturedAt": "2026-07-20T11:12:17.950Z",
-      "issueOpen": 3906,
-      "issueClosed": 40374,
-      "prOpen": 3029,
-      "prClosed": 62132,
+      "capturedAt": "2026-07-20T13:16:20.588Z",
+      "issueOpen": 3912,
+      "issueClosed": 40380,
+      "prOpen": 3041,
+      "prClosed": 62130,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -128,68 +128,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 111723,
-        "title": "CLAUDE_CODE_AUTO_COMPACT_WINDOW 无效：需要同时设置 autoCompactEnabled",
-        "url": "https://github.com/openclaw/openclaw/issues/111723",
-        "state": "closed",
-        "author": "Enominera",
-        "updatedAt": "2026-07-20T11:09:13Z"
+        "number": 111804,
+        "title": "[Bug]: memory-wiki bridge-mode wiki_search/wiki_get/wiki_apply intermittent \"path mismatch\" causing gateway OOM",
+        "url": "https://github.com/openclaw/openclaw/issues/111804",
+        "state": "open",
+        "author": "dom521",
+        "updatedAt": "2026-07-20T13:13:23Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 111800,
-        "title": "feat(channels): batch 3 producers drop media placeholder bodies",
-        "url": "https://github.com/openclaw/openclaw/pull/111800",
+        "number": 111769,
+        "title": "fix: reject malformed UTF-8 in APNs relay response bodies",
+        "url": "https://github.com/openclaw/openclaw/pull/111769",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-20T11:11:53Z"
+        "author": "chenyangjun-xy",
+        "updatedAt": "2026-07-20T13:16:11Z"
       },
       {
         "kind": "pr",
-        "number": 97175,
-        "title": "fix(context-engine): bound deferred turn maintenance with a per-task timeout (AI-assisted)",
-        "url": "https://github.com/openclaw/openclaw/pull/97175",
+        "number": 111747,
+        "title": "fix(android): keep welcome action reachable with large text",
+        "url": "https://github.com/openclaw/openclaw/pull/111747",
+        "state": "open",
+        "author": "NianJiuZst",
+        "updatedAt": "2026-07-20T13:16:08Z"
+      },
+      {
+        "kind": "pr",
+        "number": 83988,
+        "title": "fix(tts): defer text settlement for final-mode TTS to eliminate churn (#83511)",
+        "url": "https://github.com/openclaw/openclaw/pull/83988",
         "state": "open",
         "author": "Jerry-Xin",
-        "updatedAt": "2026-07-20T11:11:35Z"
+        "updatedAt": "2026-07-20T13:16:01Z"
       },
       {
         "kind": "pr",
-        "number": 111801,
-        "title": "fix(security): audit symlinked workspace skill roots",
-        "url": "https://github.com/openclaw/openclaw/pull/111801",
-        "state": "open",
-        "author": "dineshsuthar123",
-        "updatedAt": "2026-07-20T11:11:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111716,
-        "title": "fix(process): resolve Windows commands when env aliases are blank",
-        "url": "https://github.com/openclaw/openclaw/pull/111716",
-        "state": "open",
-        "author": "LZY3538",
-        "updatedAt": "2026-07-20T11:11:22Z"
-      },
-      {
-        "kind": "pr",
-        "number": 89096,
-        "title": "fix: allow macOS gateway restart while LaunchAgent owns its port",
-        "url": "https://github.com/openclaw/openclaw/pull/89096",
-        "state": "open",
-        "author": "shawnduggan",
-        "updatedAt": "2026-07-20T11:11:15Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111761,
-        "title": "fix(mcp): prevent custom server config races and parsing errors",
-        "url": "https://github.com/openclaw/openclaw/pull/111761",
+        "number": 110725,
+        "title": "fix(tts): contract speech requests hang on stalled endpoints",
+        "url": "https://github.com/openclaw/openclaw/pull/110725",
         "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-07-20T11:11:11Z"
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-07-20T13:15:55Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111835,
+        "title": "fix(ollama): bound DNS preflight with guard-owned request timeouts",
+        "url": "https://github.com/openclaw/openclaw/pull/111835",
+        "state": "open",
+        "author": "masatohoshino",
+        "updatedAt": "2026-07-20T13:15:53Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111798,
+        "title": "fix(nostr): profile imports vary across relays on timestamp ties",
+        "url": "https://github.com/openclaw/openclaw/pull/111798",
+        "state": "open",
+        "author": "mushuiyu886",
+        "updatedAt": "2026-07-20T13:15:53Z"
       }
     ]
   }

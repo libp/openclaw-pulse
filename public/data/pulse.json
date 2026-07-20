@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-19T23:10:04.485Z",
+  "generatedAt": "2026-07-20T00:10:58.646Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -111,57 +111,59 @@
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-07-20",
+      "capturedAt": "2026-07-20T00:10:58.646Z",
+      "issueOpen": 3917,
+      "issueClosed": 40321,
+      "prOpen": 2996,
+      "prClosed": 61991,
+      "workflowRuns": 40000,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 111547,
-        "title": "typingMode: \"message\" is bypassed by execution-phase typing signals — typing starts before any renderable text",
-        "url": "https://github.com/openclaw/openclaw/issues/111547",
+        "number": 111579,
+        "title": "[Bug]: Control UI temporarily renders a sent user message twice during queue-to-history handoff",
+        "url": "https://github.com/openclaw/openclaw/issues/111579",
         "state": "open",
-        "author": "msobrosa",
-        "updatedAt": "2026-07-19T23:04:46Z"
+        "author": "sallyom",
+        "updatedAt": "2026-07-20T00:09:20Z"
       },
       {
         "kind": "issue",
-        "number": 111519,
-        "title": "[Bug]: Telegram DM replies fall back after stale DM-scope cleanup in 2026.7.2-beta.3",
-        "url": "https://github.com/openclaw/openclaw/issues/111519",
+        "number": 111578,
+        "title": "[Bug]: Gateway auth token dropped from service-env on update (recurs despite 2026.7.1 fix) + CLI can't auth locally",
+        "url": "https://github.com/openclaw/openclaw/issues/111578",
         "state": "open",
-        "author": "RoonniieeX",
-        "updatedAt": "2026-07-19T23:03:15Z"
+        "author": "tlopez80-a11y",
+        "updatedAt": "2026-07-20T00:01:42Z"
       },
       {
         "kind": "issue",
-        "number": 111412,
-        "title": "[Feature]: WebChat message editing & response regeneration",
-        "url": "https://github.com/openclaw/openclaw/issues/111412",
+        "number": 111577,
+        "title": "[Bug]: Chronic Discord invalid-session/zombie reconnect storms — inbound DMs silently dropped",
+        "url": "https://github.com/openclaw/openclaw/issues/111577",
         "state": "open",
-        "author": "Catloer",
-        "updatedAt": "2026-07-19T23:03:14Z"
+        "author": "tlopez80-a11y",
+        "updatedAt": "2026-07-20T00:01:41Z"
+      },
+      {
+        "kind": "issue",
+        "number": 111576,
+        "title": "[Bug]: Telegram agent turn ends after acknowledgement — real reply never sends (codex 0.144.1 regression)",
+        "url": "https://github.com/openclaw/openclaw/issues/111576",
+        "state": "open",
+        "author": "tlopez80-a11y",
+        "updatedAt": "2026-07-20T00:01:40Z"
       }
     ],
     "prs": [
-      {
-        "kind": "pr",
-        "number": 111542,
-        "title": "feat(localization): consolidate runtime adoption",
-        "url": "https://github.com/openclaw/openclaw/pull/111542",
-        "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-19T23:09:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111543,
-        "title": "feat(localization): consolidate governance and inventory",
-        "url": "https://github.com/openclaw/openclaw/pull/111543",
-        "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-19T23:09:37Z"
-      },
       {
         "kind": "pr",
         "number": 111571,
@@ -169,7 +171,43 @@
         "url": "https://github.com/openclaw/openclaw/pull/111571",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-19T23:09:31Z"
+        "updatedAt": "2026-07-20T00:10:20Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111377,
+        "title": "fix(agents): provide actionable recovery guidance on context overflow errors",
+        "url": "https://github.com/openclaw/openclaw/pull/111377",
+        "state": "open",
+        "author": "lee-xydt",
+        "updatedAt": "2026-07-20T00:08:37Z"
+      },
+      {
+        "kind": "pr",
+        "number": 108461,
+        "title": "fix(openai-responses): flush completed tool calls instead of throwing on response.completed",
+        "url": "https://github.com/openclaw/openclaw/pull/108461",
+        "state": "open",
+        "author": "snotty",
+        "updatedAt": "2026-07-20T00:07:54Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111154,
+        "title": "fix(agent): recover disconnected gateway runs before rerunning",
+        "url": "https://github.com/openclaw/openclaw/pull/111154",
+        "state": "open",
+        "author": "youngting520",
+        "updatedAt": "2026-07-20T00:07:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110721,
+        "title": "fix(doctor): stream heartbeat transcript scans without full-file reads",
+        "url": "https://github.com/openclaw/openclaw/pull/110721",
+        "state": "open",
+        "author": "hugenshen",
+        "updatedAt": "2026-07-20T00:06:01Z"
       },
       {
         "kind": "pr",
@@ -178,25 +216,7 @@
         "url": "https://github.com/openclaw/openclaw/pull/83988",
         "state": "open",
         "author": "Jerry-Xin",
-        "updatedAt": "2026-07-19T23:09:25Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111534,
-        "title": "fix(update): gateway restart survives inherited cross-user D-Bus environment",
-        "url": "https://github.com/openclaw/openclaw/pull/111534",
-        "state": "open",
-        "author": "SimranPabla",
-        "updatedAt": "2026-07-19T23:09:16Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111544,
-        "title": "feat(localization): consolidate product surfaces",
-        "url": "https://github.com/openclaw/openclaw/pull/111544",
-        "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-19T23:09:00Z"
+        "updatedAt": "2026-07-20T00:03:48Z"
       }
     ]
   }

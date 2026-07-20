@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-20T20:39:50.964Z",
+  "generatedAt": "2026-07-20T22:12:22.611Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -114,11 +114,11 @@
     },
     {
       "capturedOn": "2026-07-20",
-      "capturedAt": "2026-07-20T20:39:50.964Z",
-      "issueOpen": 3946,
-      "issueClosed": 40387,
-      "prOpen": 3079,
-      "prClosed": 62171,
+      "capturedAt": "2026-07-20T22:12:22.611Z",
+      "issueOpen": 3948,
+      "issueClosed": 40388,
+      "prOpen": 3084,
+      "prClosed": 62175,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -128,77 +128,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 111954,
-        "title": "[Bug]: Slack portable tables degrade to text after outbound payload reconstruction",
-        "url": "https://github.com/openclaw/openclaw/issues/111954",
+        "number": 111903,
+        "title": "fix(feishu): custom domain rejects uppercase HTTPS scheme",
+        "url": "https://github.com/openclaw/openclaw/issues/111903",
         "state": "open",
-        "author": "rabsef-bicrym",
-        "updatedAt": "2026-07-20T20:39:31Z"
+        "author": "VectorPeak",
+        "updatedAt": "2026-07-20T22:10:18Z"
       },
       {
         "kind": "issue",
-        "number": 111884,
-        "title": "[Bug]: Regression of #67988 — model picker shows alias (\"Opus\"/\"Sonnet\") instead of versioned display name, now on Opus 4.8 / Sonnet 5",
-        "url": "https://github.com/openclaw/openclaw/issues/111884",
+        "number": 111850,
+        "title": "stt-tts Talk: aborted active-memory pre-run surfaces as user-facing \"voice config failed\"",
+        "url": "https://github.com/openclaw/openclaw/issues/111850",
         "state": "open",
-        "author": "MontanaIrish",
-        "updatedAt": "2026-07-20T20:37:52Z"
+        "author": "chrislro",
+        "updatedAt": "2026-07-20T22:10:08Z"
+      },
+      {
+        "kind": "issue",
+        "number": 111817,
+        "title": "[Bug]: ChatGPT Responses retries deterministic TLS certificate failures",
+        "url": "https://github.com/openclaw/openclaw/issues/111817",
+        "state": "open",
+        "author": "ooiuuii",
+        "updatedAt": "2026-07-20T22:10:03Z"
+      },
+      {
+        "kind": "issue",
+        "number": 111900,
+        "title": "Codex CLI resume timeouts can leave descendant processes running on Windows",
+        "url": "https://github.com/openclaw/openclaw/issues/111900",
+        "state": "open",
+        "author": "ooiuuii",
+        "updatedAt": "2026-07-20T22:09:18Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 111955,
-        "title": "fix(slack): preserve native tables during outbound delivery",
-        "url": "https://github.com/openclaw/openclaw/pull/111955",
+        "number": 111205,
+        "title": "feat(codex): config to disable or scope the native hook relay (#91009)",
+        "url": "https://github.com/openclaw/openclaw/pull/111205",
         "state": "open",
-        "author": "rabsef-bicrym",
-        "updatedAt": "2026-07-20T20:39:47Z"
+        "author": "nvtoroy",
+        "updatedAt": "2026-07-20T22:12:09Z"
       },
       {
         "kind": "pr",
-        "number": 111612,
-        "title": "fix(agents): use || for empty provider/model fallback in transcript persistence",
-        "url": "https://github.com/openclaw/openclaw/pull/111612",
+        "number": 110102,
+        "title": "Plugin UI: add scoped action bridge for sandboxed tabs",
+        "url": "https://github.com/openclaw/openclaw/pull/110102",
         "state": "open",
-        "author": "ljy-1351",
-        "updatedAt": "2026-07-20T20:39:45Z"
+        "author": "Ittiz",
+        "updatedAt": "2026-07-20T22:12:07Z"
       },
       {
         "kind": "pr",
-        "number": 111953,
-        "title": "fix(ui): show new task prompts immediately without duplicates",
-        "url": "https://github.com/openclaw/openclaw/pull/111953",
+        "number": 89039,
+        "title": "fix: prevent silent message loss from EmbeddedAttemptSessionTakeoverError",
+        "url": "https://github.com/openclaw/openclaw/pull/89039",
         "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-07-20T20:39:37Z"
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-07-20T22:11:38Z"
       },
       {
         "kind": "pr",
-        "number": 111951,
-        "title": "fix(browser): skip non-executable auto-discovery candidates",
-        "url": "https://github.com/openclaw/openclaw/pull/111951",
+        "number": 111181,
+        "title": "fix(canvas): bound A2UI JSONL file reads",
+        "url": "https://github.com/openclaw/openclaw/pull/111181",
         "state": "open",
-        "author": "ooiuuii",
-        "updatedAt": "2026-07-20T20:39:48Z"
+        "author": "sunlit-deng",
+        "updatedAt": "2026-07-20T22:11:29Z"
       },
       {
         "kind": "pr",
-        "number": 110126,
-        "title": "fix(scripts): honor repeated response content lengths",
-        "url": "https://github.com/openclaw/openclaw/pull/110126",
+        "number": 111768,
+        "title": "fix: reject malformed UTF-8 in hosted official plugin catalog feed responses",
+        "url": "https://github.com/openclaw/openclaw/pull/111768",
+        "state": "open",
+        "author": "chenyangjun-xy",
+        "updatedAt": "2026-07-20T22:11:26Z"
+      },
+      {
+        "kind": "pr",
+        "number": 104552,
+        "title": "fix(admin-http-rpc): reject oversized declared request bodies",
+        "url": "https://github.com/openclaw/openclaw/pull/104552",
         "state": "open",
         "author": "qingminglong",
-        "updatedAt": "2026-07-20T20:39:15Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110569,
-        "title": "fix(scripts): bound docs glossary git lookups",
-        "url": "https://github.com/openclaw/openclaw/pull/110569",
-        "state": "open",
-        "author": "RileyJJY",
-        "updatedAt": "2026-07-20T20:39:14Z"
+        "updatedAt": "2026-07-20T22:11:16Z"
       }
     ]
   }

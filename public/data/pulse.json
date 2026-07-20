@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-20T15:22:01.464Z",
+  "generatedAt": "2026-07-20T18:18:04.917Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -114,82 +114,72 @@
     },
     {
       "capturedOn": "2026-07-20",
-      "capturedAt": "2026-07-20T15:22:01.464Z",
-      "issueOpen": 3921,
-      "issueClosed": 40384,
-      "prOpen": 3056,
-      "prClosed": 62145,
+      "capturedAt": "2026-07-20T18:18:04.917Z",
+      "issueOpen": 3937,
+      "issueClosed": 40386,
+      "prOpen": 3072,
+      "prClosed": 62166,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 84527,
-        "title": "[Feature]: Add Antigravity CLI (agy) as CLI backend to replace deprecated google-gemini-cli",
-        "url": "https://github.com/openclaw/openclaw/issues/84527",
-        "state": "open",
-        "author": "haofeif",
-        "updatedAt": "2026-07-20T15:18:20Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 111878,
-        "title": "fix(kimi-coding): remove k3[1m] from catalog, normalize to k3, raise context window",
-        "url": "https://github.com/openclaw/openclaw/pull/111878",
+        "number": 111181,
+        "title": "fix(canvas): bound A2UI JSONL file reads",
+        "url": "https://github.com/openclaw/openclaw/pull/111181",
         "state": "open",
-        "author": "xbrxr03",
-        "updatedAt": "2026-07-20T15:21:53Z"
+        "author": "sunlit-deng",
+        "updatedAt": "2026-07-20T18:18:00Z"
       },
       {
         "kind": "pr",
-        "number": 111830,
-        "title": "fix(gateway): canonicalize session keys in chat.subscribe and chat.unsubscribe handlers",
-        "url": "https://github.com/openclaw/openclaw/pull/111830",
+        "number": 111859,
+        "title": "fix(qqbot): settle RESUME watermark after handler completes without removing ingress lifecycle",
+        "url": "https://github.com/openclaw/openclaw/pull/111859",
         "state": "open",
         "author": "YangManBOBO",
-        "updatedAt": "2026-07-20T15:21:48Z"
+        "updatedAt": "2026-07-20T18:17:53Z"
       },
       {
         "kind": "pr",
-        "number": 110450,
-        "title": "fix(memory-core): bound dreaming markdown reads",
-        "url": "https://github.com/openclaw/openclaw/pull/110450",
-        "state": "open",
-        "author": "RileyJJY",
-        "updatedAt": "2026-07-20T15:21:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111834,
-        "title": "docs(web): user guide for session dashboards",
-        "url": "https://github.com/openclaw/openclaw/pull/111834",
+        "number": 111933,
+        "title": "feat(linux): render widgets in Quick Chat",
+        "url": "https://github.com/openclaw/openclaw/pull/111933",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-20T15:21:32Z"
+        "updatedAt": "2026-07-20T18:17:52Z"
       },
       {
         "kind": "pr",
-        "number": 111877,
-        "title": "fix: match current tool error format in trace line sanitizer",
-        "url": "https://github.com/openclaw/openclaw/pull/111877",
+        "number": 111841,
+        "title": "fix(agents): allow configless gateway rebind to activate standalone owner",
+        "url": "https://github.com/openclaw/openclaw/pull/111841",
         "state": "open",
-        "author": "xbrxr03",
-        "updatedAt": "2026-07-20T15:21:08Z"
+        "author": "xialonglee",
+        "updatedAt": "2026-07-20T18:17:57Z"
       },
       {
         "kind": "pr",
-        "number": 111771,
-        "title": "fix(voice-call): reject malformed WebSocket audio base64",
-        "url": "https://github.com/openclaw/openclaw/pull/111771",
+        "number": 111836,
+        "title": "fix(exa): search results can show corrupted text from malformed UTF-8",
+        "url": "https://github.com/openclaw/openclaw/pull/111836",
         "state": "open",
-        "author": "YangManBOBO",
-        "updatedAt": "2026-07-20T15:21:01Z"
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-07-20T18:17:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111802,
+        "title": "fix(ollama): release failed setup response bodies before returning",
+        "url": "https://github.com/openclaw/openclaw/pull/111802",
+        "state": "open",
+        "author": "dwc1997",
+        "updatedAt": "2026-07-20T18:17:41Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-20T13:16:20.588Z",
+  "generatedAt": "2026-07-20T15:22:01.464Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -114,11 +114,11 @@
     },
     {
       "capturedOn": "2026-07-20",
-      "capturedAt": "2026-07-20T13:16:20.588Z",
-      "issueOpen": 3912,
-      "issueClosed": 40380,
-      "prOpen": 3041,
-      "prClosed": 62130,
+      "capturedAt": "2026-07-20T15:22:01.464Z",
+      "issueOpen": 3921,
+      "issueClosed": 40384,
+      "prOpen": 3056,
+      "prClosed": 62145,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -128,68 +128,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 111804,
-        "title": "[Bug]: memory-wiki bridge-mode wiki_search/wiki_get/wiki_apply intermittent \"path mismatch\" causing gateway OOM",
-        "url": "https://github.com/openclaw/openclaw/issues/111804",
+        "number": 84527,
+        "title": "[Feature]: Add Antigravity CLI (agy) as CLI backend to replace deprecated google-gemini-cli",
+        "url": "https://github.com/openclaw/openclaw/issues/84527",
         "state": "open",
-        "author": "dom521",
-        "updatedAt": "2026-07-20T13:13:23Z"
+        "author": "haofeif",
+        "updatedAt": "2026-07-20T15:18:20Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 111769,
-        "title": "fix: reject malformed UTF-8 in APNs relay response bodies",
-        "url": "https://github.com/openclaw/openclaw/pull/111769",
+        "number": 111878,
+        "title": "fix(kimi-coding): remove k3[1m] from catalog, normalize to k3, raise context window",
+        "url": "https://github.com/openclaw/openclaw/pull/111878",
         "state": "open",
-        "author": "chenyangjun-xy",
-        "updatedAt": "2026-07-20T13:16:11Z"
+        "author": "xbrxr03",
+        "updatedAt": "2026-07-20T15:21:53Z"
       },
       {
         "kind": "pr",
-        "number": 111747,
-        "title": "fix(android): keep welcome action reachable with large text",
-        "url": "https://github.com/openclaw/openclaw/pull/111747",
+        "number": 111830,
+        "title": "fix(gateway): canonicalize session keys in chat.subscribe and chat.unsubscribe handlers",
+        "url": "https://github.com/openclaw/openclaw/pull/111830",
         "state": "open",
-        "author": "NianJiuZst",
-        "updatedAt": "2026-07-20T13:16:08Z"
+        "author": "YangManBOBO",
+        "updatedAt": "2026-07-20T15:21:48Z"
       },
       {
         "kind": "pr",
-        "number": 83988,
-        "title": "fix(tts): defer text settlement for final-mode TTS to eliminate churn (#83511)",
-        "url": "https://github.com/openclaw/openclaw/pull/83988",
+        "number": 110450,
+        "title": "fix(memory-core): bound dreaming markdown reads",
+        "url": "https://github.com/openclaw/openclaw/pull/110450",
         "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-07-20T13:16:01Z"
+        "author": "RileyJJY",
+        "updatedAt": "2026-07-20T15:21:40Z"
       },
       {
         "kind": "pr",
-        "number": 110725,
-        "title": "fix(tts): contract speech requests hang on stalled endpoints",
-        "url": "https://github.com/openclaw/openclaw/pull/110725",
-        "state": "closed",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-07-20T13:15:55Z"
+        "number": 111834,
+        "title": "docs(web): user guide for session dashboards",
+        "url": "https://github.com/openclaw/openclaw/pull/111834",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-20T15:21:32Z"
       },
       {
         "kind": "pr",
-        "number": 111835,
-        "title": "fix(ollama): bound DNS preflight with guard-owned request timeouts",
-        "url": "https://github.com/openclaw/openclaw/pull/111835",
+        "number": 111877,
+        "title": "fix: match current tool error format in trace line sanitizer",
+        "url": "https://github.com/openclaw/openclaw/pull/111877",
         "state": "open",
-        "author": "masatohoshino",
-        "updatedAt": "2026-07-20T13:15:53Z"
+        "author": "xbrxr03",
+        "updatedAt": "2026-07-20T15:21:08Z"
       },
       {
         "kind": "pr",
-        "number": 111798,
-        "title": "fix(nostr): profile imports vary across relays on timestamp ties",
-        "url": "https://github.com/openclaw/openclaw/pull/111798",
+        "number": 111771,
+        "title": "fix(voice-call): reject malformed WebSocket audio base64",
+        "url": "https://github.com/openclaw/openclaw/pull/111771",
         "state": "open",
-        "author": "mushuiyu886",
-        "updatedAt": "2026-07-20T13:15:53Z"
+        "author": "YangManBOBO",
+        "updatedAt": "2026-07-20T15:21:01Z"
       }
     ]
   }

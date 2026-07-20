@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-20T00:10:58.646Z",
+  "generatedAt": "2026-07-20T04:02:47.817Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -114,82 +114,27 @@
     },
     {
       "capturedOn": "2026-07-20",
-      "capturedAt": "2026-07-20T00:10:58.646Z",
-      "issueOpen": 3917,
-      "issueClosed": 40321,
-      "prOpen": 2996,
-      "prClosed": 61991,
+      "capturedAt": "2026-07-20T04:02:47.817Z",
+      "issueOpen": 3921,
+      "issueClosed": 40324,
+      "prOpen": 3002,
+      "prClosed": 62038,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 111579,
-        "title": "[Bug]: Control UI temporarily renders a sent user message twice during queue-to-history handoff",
-        "url": "https://github.com/openclaw/openclaw/issues/111579",
-        "state": "open",
-        "author": "sallyom",
-        "updatedAt": "2026-07-20T00:09:20Z"
-      },
-      {
-        "kind": "issue",
-        "number": 111578,
-        "title": "[Bug]: Gateway auth token dropped from service-env on update (recurs despite 2026.7.1 fix) + CLI can't auth locally",
-        "url": "https://github.com/openclaw/openclaw/issues/111578",
-        "state": "open",
-        "author": "tlopez80-a11y",
-        "updatedAt": "2026-07-20T00:01:42Z"
-      },
-      {
-        "kind": "issue",
-        "number": 111577,
-        "title": "[Bug]: Chronic Discord invalid-session/zombie reconnect storms — inbound DMs silently dropped",
-        "url": "https://github.com/openclaw/openclaw/issues/111577",
-        "state": "open",
-        "author": "tlopez80-a11y",
-        "updatedAt": "2026-07-20T00:01:41Z"
-      },
-      {
-        "kind": "issue",
-        "number": 111576,
-        "title": "[Bug]: Telegram agent turn ends after acknowledgement — real reply never sends (codex 0.144.1 regression)",
-        "url": "https://github.com/openclaw/openclaw/issues/111576",
-        "state": "open",
-        "author": "tlopez80-a11y",
-        "updatedAt": "2026-07-20T00:01:40Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 111571,
-        "title": "fix(cli): reject unknown models in config set",
-        "url": "https://github.com/openclaw/openclaw/pull/111571",
+        "number": 82540,
+        "title": "fix(wechat): preserve existing accounts across hot reload",
+        "url": "https://github.com/openclaw/openclaw/pull/82540",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-20T00:10:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111377,
-        "title": "fix(agents): provide actionable recovery guidance on context overflow errors",
-        "url": "https://github.com/openclaw/openclaw/pull/111377",
-        "state": "open",
-        "author": "lee-xydt",
-        "updatedAt": "2026-07-20T00:08:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 108461,
-        "title": "fix(openai-responses): flush completed tool calls instead of throwing on response.completed",
-        "url": "https://github.com/openclaw/openclaw/pull/108461",
-        "state": "open",
-        "author": "snotty",
-        "updatedAt": "2026-07-20T00:07:54Z"
+        "author": "NewdlDewdl",
+        "updatedAt": "2026-07-20T04:02:41Z"
       },
       {
         "kind": "pr",
@@ -198,25 +143,43 @@
         "url": "https://github.com/openclaw/openclaw/pull/111154",
         "state": "open",
         "author": "youngting520",
-        "updatedAt": "2026-07-20T00:07:18Z"
+        "updatedAt": "2026-07-20T04:02:31Z"
       },
       {
         "kind": "pr",
-        "number": 110721,
-        "title": "fix(doctor): stream heartbeat transcript scans without full-file reads",
-        "url": "https://github.com/openclaw/openclaw/pull/110721",
+        "number": 86655,
+        "title": "feat(claude): add claude-bridge app-server harness extension",
+        "url": "https://github.com/openclaw/openclaw/pull/86655",
         "state": "open",
-        "author": "hugenshen",
-        "updatedAt": "2026-07-20T00:06:01Z"
+        "author": "zeroaltitude",
+        "updatedAt": "2026-07-20T04:02:23Z"
       },
       {
         "kind": "pr",
-        "number": 83988,
-        "title": "fix(tts): defer text settlement for final-mode TTS to eliminate churn (#83511)",
-        "url": "https://github.com/openclaw/openclaw/pull/83988",
+        "number": 108007,
+        "title": "fix: make Back work within channel setup",
+        "url": "https://github.com/openclaw/openclaw/pull/108007",
         "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-07-20T00:03:48Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-07-20T04:01:42Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111639,
+        "title": "fix(release): release validation fails fast on stalled refs",
+        "url": "https://github.com/openclaw/openclaw/pull/111639",
+        "state": "closed",
+        "author": "Alix-007",
+        "updatedAt": "2026-07-20T04:01:15Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111583,
+        "title": "feat(agents): agent-controlled session status, attention, and TTL in the sessions tool",
+        "url": "https://github.com/openclaw/openclaw/pull/111583",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-07-20T04:01:12Z"
       }
     ]
   }

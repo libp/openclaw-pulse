@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-21T03:43:07.403Z",
+  "generatedAt": "2026-07-21T06:40:18.739Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -125,11 +125,11 @@
     },
     {
       "capturedOn": "2026-07-21",
-      "capturedAt": "2026-07-21T03:43:07.403Z",
-      "issueOpen": 3960,
-      "issueClosed": 40398,
-      "prOpen": 3069,
-      "prClosed": 62249,
+      "capturedAt": "2026-07-21T06:40:18.739Z",
+      "issueOpen": 3937,
+      "issueClosed": 40508,
+      "prOpen": 3040,
+      "prClosed": 62324,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -139,77 +139,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 111948,
-        "title": "[Bug]: Windows package timeout can leave command-shim descendants running",
-        "url": "https://github.com/openclaw/openclaw/issues/111948",
+        "number": 112179,
+        "title": "[Feature]: Browse the live OpenRouter text-model catalog during setup",
+        "url": "https://github.com/openclaw/openclaw/issues/112179",
         "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-07-21T03:42:49Z"
+        "author": "ajensenwaud",
+        "updatedAt": "2026-07-21T06:39:42Z"
       },
       {
         "kind": "issue",
-        "number": 112045,
-        "title": "[Feature]: Auto-route image messages to vision-capable model",
-        "url": "https://github.com/openclaw/openclaw/issues/112045",
+        "number": 111979,
+        "title": "Bug: Runtime tool calls execute after cancel",
+        "url": "https://github.com/openclaw/openclaw/issues/111979",
         "state": "open",
-        "author": "wyong74",
-        "updatedAt": "2026-07-21T03:42:03Z"
+        "author": "saflis",
+        "updatedAt": "2026-07-21T06:38:51Z"
+      },
+      {
+        "kind": "issue",
+        "number": 84527,
+        "title": "[Feature]: Add Antigravity CLI (agy) as CLI backend to replace deprecated google-gemini-cli",
+        "url": "https://github.com/openclaw/openclaw/issues/84527",
+        "state": "open",
+        "author": "haofeif",
+        "updatedAt": "2026-07-21T06:38:44Z"
+      },
+      {
+        "kind": "issue",
+        "number": 111981,
+        "title": "EmbeddedAttemptSessionTakeoverError: writer-concurrency race on shared session file surfaces as false \"all models rate-limited\"",
+        "url": "https://github.com/openclaw/openclaw/issues/111981",
+        "state": "open",
+        "author": "rlerikse",
+        "updatedAt": "2026-07-21T06:38:42Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 111534,
-        "title": "fix(update): gateway restart survives inherited cross-user D-Bus environment",
-        "url": "https://github.com/openclaw/openclaw/pull/111534",
+        "number": 110884,
+        "title": "fix(browser): prove post-action target continuity before adopting a tab",
+        "url": "https://github.com/openclaw/openclaw/pull/110884",
         "state": "open",
-        "author": "SimranPabla",
-        "updatedAt": "2026-07-21T03:43:01Z"
+        "author": "piyushbag",
+        "updatedAt": "2026-07-21T06:39:39Z"
       },
       {
         "kind": "pr",
-        "number": 111901,
-        "title": "feat(plugin-runtime): support declarative tools and single-attempt completions",
-        "url": "https://github.com/openclaw/openclaw/pull/111901",
+        "number": 112181,
+        "title": "fix(ui): localize settings navigation and Logs copy",
+        "url": "https://github.com/openclaw/openclaw/pull/112181",
         "state": "open",
-        "author": "Vicenteut",
-        "updatedAt": "2026-07-21T03:43:03Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-07-21T06:39:38Z"
       },
       {
         "kind": "pr",
-        "number": 112048,
-        "title": "chore(i18n): refresh native locales",
-        "url": "https://github.com/openclaw/openclaw/pull/112048",
+        "number": 104250,
+        "title": "fix: webChat scrollback history is too limited — older assistant replies and tool outputs disappear when scrolling…",
+        "url": "https://github.com/openclaw/openclaw/pull/104250",
         "state": "open",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-07-21T03:42:49Z"
+        "author": "mikasa0818",
+        "updatedAt": "2026-07-21T06:39:27Z"
       },
       {
         "kind": "pr",
-        "number": 111671,
-        "title": "chore(i18n): refresh native locales",
-        "url": "https://github.com/openclaw/openclaw/pull/111671",
-        "state": "closed",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-07-21T03:42:40Z"
+        "number": 109313,
+        "title": "fix(agents): do not label finish_reason error as LLM timeout",
+        "url": "https://github.com/openclaw/openclaw/pull/109313",
+        "state": "open",
+        "author": "SebTardif",
+        "updatedAt": "2026-07-21T06:39:25Z"
       },
       {
         "kind": "pr",
-        "number": 112046,
-        "title": "fix: profile settings handle an unset identity",
-        "url": "https://github.com/openclaw/openclaw/pull/112046",
+        "number": 111306,
+        "title": "fix(ui): surface a visible error when the local user avatar fails to save (#110662)",
+        "url": "https://github.com/openclaw/openclaw/pull/111306",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-21T03:42:31Z"
+        "author": "yuvrajlaptop2008-byte",
+        "updatedAt": "2026-07-21T06:39:20Z"
       },
       {
         "kind": "pr",
-        "number": 102959,
-        "title": "Plan grouped Claw agent updates",
-        "url": "https://github.com/openclaw/openclaw/pull/102959",
+        "number": 111868,
+        "title": "fix(diagnostics-otel): avoid duplicate OTLP signal paths with query params",
+        "url": "https://github.com/openclaw/openclaw/pull/111868",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-21T03:42:27Z"
+        "author": "VectorPeak",
+        "updatedAt": "2026-07-21T06:39:10Z"
       }
     ]
   }

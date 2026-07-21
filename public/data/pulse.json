@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-21T16:40:35.353Z",
+  "generatedAt": "2026-07-21T18:39:19.575Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -125,72 +125,127 @@
     },
     {
       "capturedOn": "2026-07-21",
-      "capturedAt": "2026-07-21T16:40:35.353Z",
-      "issueOpen": 3961,
-      "issueClosed": 40541,
-      "prOpen": 3030,
-      "prClosed": 62406,
+      "capturedAt": "2026-07-21T18:39:19.575Z",
+      "issueOpen": 3969,
+      "issueClosed": 40545,
+      "prOpen": 3035,
+      "prClosed": 62423,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 91171,
+        "title": "[Bug]: Sub-agent model routing ignores model parameter, silently falls back to deepseek",
+        "url": "https://github.com/openclaw/openclaw/issues/91171",
+        "state": "open",
+        "author": "wolfeee",
+        "updatedAt": "2026-07-21T18:35:53Z"
+      },
+      {
+        "kind": "issue",
+        "number": 102323,
+        "title": "anthropic: within-limit HEIC/TIFF images 400 as media_type passes through verbatim (succeeds on OpenAI and Gemini)",
+        "url": "https://github.com/openclaw/openclaw/issues/102323",
+        "state": "closed",
+        "author": "yetval",
+        "updatedAt": "2026-07-21T18:31:26Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112371,
+        "title": "[Feature]: Cron precheck gates + optional script-only jobs (skip LLM when no work)",
+        "url": "https://github.com/openclaw/openclaw/issues/112371",
+        "state": "open",
+        "author": "Bartok9",
+        "updatedAt": "2026-07-21T18:29:46Z"
+      },
+      {
+        "kind": "issue",
+        "number": 14206,
+        "title": "Add Message Rate Limiting for Feishu Channel",
+        "url": "https://github.com/openclaw/openclaw/issues/14206",
+        "state": "open",
+        "author": "immars",
+        "updatedAt": "2026-07-21T18:28:10Z"
+      },
+      {
+        "kind": "issue",
+        "number": 19330,
+        "title": "[Feature]: Inbound media shared across all agents — no per-agent isolation",
+        "url": "https://github.com/openclaw/openclaw/issues/19330",
+        "state": "open",
+        "author": "spdesai",
+        "updatedAt": "2026-07-21T18:28:07Z"
+      },
+      {
+        "kind": "issue",
+        "number": 18548,
+        "title": "[Feature]: 3 architecture improvements — bootstrap relevance, incremental compaction, observation extraction",
+        "url": "https://github.com/openclaw/openclaw/issues/18548",
+        "state": "open",
+        "author": "nnbiech95-cpu",
+        "updatedAt": "2026-07-21T18:28:05Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 106357,
-        "title": "fix(telegram): preserve opening text and links in rich fallback",
-        "url": "https://github.com/openclaw/openclaw/pull/106357",
+        "number": 112388,
+        "title": "feat: resume requesters after deferred sessions_send replies",
+        "url": "https://github.com/openclaw/openclaw/pull/112388",
         "state": "open",
-        "author": "dankarization",
-        "updatedAt": "2026-07-21T16:40:33Z"
+        "author": "rabsef-bicrym",
+        "updatedAt": "2026-07-21T18:39:16Z"
       },
       {
         "kind": "pr",
-        "number": 111164,
-        "title": "fix(clawhub): use fatal UTF-8 decoding for all ClawHub HTTP responses",
-        "url": "https://github.com/openclaw/openclaw/pull/111164",
-        "state": "open",
-        "author": "chenyangjun-xy",
-        "updatedAt": "2026-07-21T16:39:13Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111266,
-        "title": "fix(chutes): discover models when HTTP proxy is required",
-        "url": "https://github.com/openclaw/openclaw/pull/111266",
+        "number": 112366,
+        "title": "fix(subagents): forward requested model to worker run",
+        "url": "https://github.com/openclaw/openclaw/pull/112366",
         "state": "closed",
-        "author": "mushuiyu886",
-        "updatedAt": "2026-07-21T16:38:42Z"
+        "author": "martins-oss",
+        "updatedAt": "2026-07-21T18:39:11Z"
       },
       {
         "kind": "pr",
-        "number": 103663,
-        "title": "fix(read): session-scoped inbound media staging with safe-write",
-        "url": "https://github.com/openclaw/openclaw/pull/103663",
+        "number": 112189,
+        "title": "feat(cron): stream schedule sources with durable source identity",
+        "url": "https://github.com/openclaw/openclaw/pull/112189",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-07-21T18:38:51Z"
+      },
+      {
+        "kind": "pr",
+        "number": 81185,
+        "title": "Redact exec tool result payloads",
+        "url": "https://github.com/openclaw/openclaw/pull/81185",
         "state": "open",
-        "author": "ralf003",
-        "updatedAt": "2026-07-21T16:37:53Z"
+        "author": "nicknmorty",
+        "updatedAt": "2026-07-21T18:38:05Z"
       },
       {
         "kind": "pr",
-        "number": 112339,
-        "title": "feat(ui): show chat run startup status",
-        "url": "https://github.com/openclaw/openclaw/pull/112339",
+        "number": 101248,
+        "title": "feat(subagents): native announceTarget for subagent completion routing (#27445)",
+        "url": "https://github.com/openclaw/openclaw/pull/101248",
+        "state": "open",
+        "author": "nicknmorty",
+        "updatedAt": "2026-07-21T18:37:12Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112387,
+        "title": "feat(cron): stream schedule sources with durable source identity",
+        "url": "https://github.com/openclaw/openclaw/pull/112387",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-21T16:37:11Z"
-      },
-      {
-        "kind": "pr",
-        "number": 107626,
-        "title": "fix(qa-lab): reject hex/exponent Telegram SUT uid env values",
-        "url": "https://github.com/openclaw/openclaw/pull/107626",
-        "state": "open",
-        "author": "Pick-cat",
-        "updatedAt": "2026-07-21T16:36:18Z"
+        "updatedAt": "2026-07-21T18:34:17Z"
       }
     ]
   }

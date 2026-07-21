@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-20T23:13:47.036Z",
+  "generatedAt": "2026-07-21T00:08:43.994Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -122,64 +122,94 @@
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-07-21",
+      "capturedAt": "2026-07-21T00:08:43.994Z",
+      "issueOpen": 3954,
+      "issueClosed": 40391,
+      "prOpen": 3083,
+      "prClosed": 62187,
+      "workflowRuns": 40000,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 91171,
+        "title": "[Bug]: Sub-agent model routing ignores model parameter, silently falls back to deepseek",
+        "url": "https://github.com/openclaw/openclaw/issues/91171",
+        "state": "open",
+        "author": "wolfeee",
+        "updatedAt": "2026-07-21T00:04:29Z"
+      },
+      {
+        "kind": "issue",
+        "number": 111985,
+        "title": "memory-core sends ChatGPT/Codex OAuth token to direct OpenAI embeddings API",
+        "url": "https://github.com/openclaw/openclaw/issues/111985",
+        "state": "open",
+        "author": "a-m-a-r-a",
+        "updatedAt": "2026-07-21T00:00:20Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 101441,
-        "title": "fix(zalouser): sanitize outbound tool traces",
-        "url": "https://github.com/openclaw/openclaw/pull/101441",
+        "number": 111965,
+        "title": "feat(ui): modernize the Control UI dashboard",
+        "url": "https://github.com/openclaw/openclaw/pull/111965",
         "state": "open",
-        "author": "clawSean",
-        "updatedAt": "2026-07-20T23:13:37Z"
+        "author": "Zeus-Deus",
+        "updatedAt": "2026-07-21T00:08:36Z"
       },
       {
         "kind": "pr",
-        "number": 88908,
-        "title": "fix(gateway): force exit on zombie shutdown + 503 healthz during shutdown",
-        "url": "https://github.com/openclaw/openclaw/pull/88908",
+        "number": 105896,
+        "title": "fix(memory-lancedb): make table initialization atomic",
+        "url": "https://github.com/openclaw/openclaw/pull/105896",
         "state": "open",
-        "author": "amittell",
-        "updatedAt": "2026-07-20T23:13:33Z"
+        "author": "momothemage",
+        "updatedAt": "2026-07-21T00:08:35Z"
       },
       {
         "kind": "pr",
-        "number": 110608,
-        "title": "feat(matrix): add configurable read receipt timing",
-        "url": "https://github.com/openclaw/openclaw/pull/110608",
+        "number": 98813,
+        "title": "feat(hooks): allow a dedicated queue lane per hook mapping",
+        "url": "https://github.com/openclaw/openclaw/pull/98813",
         "state": "open",
-        "author": "beezly",
-        "updatedAt": "2026-07-20T23:13:22Z"
+        "author": "spencer2211",
+        "updatedAt": "2026-07-21T00:08:15Z"
       },
       {
         "kind": "pr",
-        "number": 93975,
-        "title": "fix(plugins): detect orphan diagnostics with explicit code marker (2-part fix)",
-        "url": "https://github.com/openclaw/openclaw/pull/93975",
+        "number": 95386,
+        "title": "fix #95351: [Feature]: Generic JSONL line-parsing hook for CliBackendPlugin (native tool-card support beyond claude-stream-json)",
+        "url": "https://github.com/openclaw/openclaw/pull/95386",
         "state": "open",
-        "author": "ralf003",
-        "updatedAt": "2026-07-20T23:13:06Z"
+        "author": "mikasa0818",
+        "updatedAt": "2026-07-21T00:08:10Z"
       },
       {
         "kind": "pr",
-        "number": 101431,
-        "title": "fix(zalo): sanitize outbound tool traces",
-        "url": "https://github.com/openclaw/openclaw/pull/101431",
+        "number": 111987,
+        "title": "fix(ui): show profile display name in chat",
+        "url": "https://github.com/openclaw/openclaw/pull/111987",
         "state": "open",
-        "author": "clawSean",
-        "updatedAt": "2026-07-20T23:12:55Z"
+        "author": "clawsweeper",
+        "updatedAt": "2026-07-21T00:07:47Z"
       },
       {
         "kind": "pr",
-        "number": 95739,
-        "title": "feat(memory): add excludePaths option to memorySearch config",
-        "url": "https://github.com/openclaw/openclaw/pull/95739",
+        "number": 111877,
+        "title": "fix: match current tool error format in trace line sanitizer",
+        "url": "https://github.com/openclaw/openclaw/pull/111877",
         "state": "open",
-        "author": "ralf003",
-        "updatedAt": "2026-07-20T23:12:55Z"
+        "author": "xbrxr03",
+        "updatedAt": "2026-07-21T00:07:05Z"
       }
     ]
   }

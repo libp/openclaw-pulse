@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-21T20:35:44.750Z",
+  "generatedAt": "2026-07-21T22:11:17.504Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -125,11 +125,11 @@
     },
     {
       "capturedOn": "2026-07-21",
-      "capturedAt": "2026-07-21T20:35:44.750Z",
-      "issueOpen": 3975,
-      "issueClosed": 40546,
-      "prOpen": 3048,
-      "prClosed": 62428,
+      "capturedAt": "2026-07-21T22:11:17.504Z",
+      "issueOpen": 3979,
+      "issueClosed": 40547,
+      "prOpen": 3042,
+      "prClosed": 62446,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -139,86 +139,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 112386,
-        "title": "[Feature]: Allow gateway management without systemd on Linux",
-        "url": "https://github.com/openclaw/openclaw/issues/112386",
+        "number": 112427,
+        "title": "[Bug]: Codex plugin fails to load with ERR_REQUIRE_ESM_RACE_CONDITION on fresh Ubuntu 24.04 install (Node 24.18.0)",
+        "url": "https://github.com/openclaw/openclaw/issues/112427",
         "state": "open",
-        "author": "hicpalmb",
-        "updatedAt": "2026-07-21T20:26:19Z"
-      },
-      {
-        "kind": "issue",
-        "number": 88562,
-        "title": "[Bug]: models.json generator writes apiKey as plain string instead of secret-ref object",
-        "url": "https://github.com/openclaw/openclaw/issues/88562",
-        "state": "open",
-        "author": "mnowrot",
-        "updatedAt": "2026-07-21T20:25:16Z"
-      },
-      {
-        "kind": "issue",
-        "number": 86996,
-        "title": "Active Memory + Codex app-server path causes long response latency, hook timeouts, startup aborts, and gateway event-loop stalls",
-        "url": "https://github.com/openclaw/openclaw/issues/86996",
-        "state": "open",
-        "author": "fionn77",
-        "updatedAt": "2026-07-21T20:25:11Z"
+        "author": "FiscapeScott",
+        "updatedAt": "2026-07-21T22:01:47Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 112339,
-        "title": "feat(ui): show chat run startup status",
-        "url": "https://github.com/openclaw/openclaw/pull/112339",
+        "number": 112260,
+        "title": "feat(ui): session observer HUD, sidebar subtitles, and settings",
+        "url": "https://github.com/openclaw/openclaw/pull/112260",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-21T20:34:43Z"
+        "updatedAt": "2026-07-21T22:11:03Z"
       },
       {
         "kind": "pr",
-        "number": 112400,
-        "title": "feat(ui): format international phone numbers for display",
-        "url": "https://github.com/openclaw/openclaw/pull/112400",
+        "number": 97175,
+        "title": "fix(context-engine): bound deferred turn maintenance with a per-task timeout (AI-assisted)",
+        "url": "https://github.com/openclaw/openclaw/pull/97175",
+        "state": "open",
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-07-21T22:10:48Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112302,
+        "title": "feat(workboard): routable boards, sidebar pinning, icon and color",
+        "url": "https://github.com/openclaw/openclaw/pull/112302",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-21T20:33:59Z"
+        "updatedAt": "2026-07-21T22:09:26Z"
       },
       {
         "kind": "pr",
-        "number": 112324,
-        "title": "fix(ui): Control UI never recovers a request stranded by a silent gateway",
-        "url": "https://github.com/openclaw/openclaw/pull/112324",
+        "number": 112321,
+        "title": "fix(macos): require explicit consent for privacy-sensitive access",
+        "url": "https://github.com/openclaw/openclaw/pull/112321",
         "state": "open",
-        "author": "Yigtwxx",
-        "updatedAt": "2026-07-21T20:33:48Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-21T22:09:08Z"
       },
       {
         "kind": "pr",
-        "number": 108469,
-        "title": "fix(agents): route llama.cpp GBNF cleaning through provider tool-schema hooks",
-        "url": "https://github.com/openclaw/openclaw/pull/108469",
+        "number": 111122,
+        "title": "fix(sessions): manual compaction deletes transcript history while claiming it was archived",
+        "url": "https://github.com/openclaw/openclaw/pull/111122",
         "state": "open",
-        "author": "DecentralizedJM",
-        "updatedAt": "2026-07-21T20:30:53Z"
+        "author": "yetval",
+        "updatedAt": "2026-07-21T22:08:35Z"
       },
       {
         "kind": "pr",
-        "number": 112378,
-        "title": "fix(onboard): survive inference owner drift and prefer subscription logins in guided setup",
-        "url": "https://github.com/openclaw/openclaw/pull/112378",
+        "number": 112430,
+        "title": "fix(ollama): preserve cloud model context windows",
+        "url": "https://github.com/openclaw/openclaw/pull/112430",
         "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-07-21T20:30:35Z"
-      },
-      {
-        "kind": "pr",
-        "number": 89526,
-        "title": "[codex] fix gateway restart-required reload drift",
-        "url": "https://github.com/openclaw/openclaw/pull/89526",
-        "state": "open",
-        "author": "amittell",
-        "updatedAt": "2026-07-21T20:29:55Z"
+        "author": "IWhatsskill",
+        "updatedAt": "2026-07-21T22:08:30Z"
       }
     ]
   }

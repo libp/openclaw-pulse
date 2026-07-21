@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-21T11:59:02.446Z",
+  "generatedAt": "2026-07-21T16:40:35.353Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -125,91 +125,72 @@
     },
     {
       "capturedOn": "2026-07-21",
-      "capturedAt": "2026-07-21T11:59:02.446Z",
-      "issueOpen": 3949,
-      "issueClosed": 40526,
-      "prOpen": 3035,
-      "prClosed": 62351,
+      "capturedAt": "2026-07-21T16:40:35.353Z",
+      "issueOpen": 3961,
+      "issueClosed": 40541,
+      "prOpen": 3030,
+      "prClosed": 62406,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 112277,
-        "title": "fix(sandbox): make materialized sandbox-skills directory writable to support agent autonomous uninstallation",
-        "url": "https://github.com/openclaw/openclaw/issues/112277",
-        "state": "open",
-        "author": "akang1798",
-        "updatedAt": "2026-07-21T11:57:38Z"
-      },
-      {
-        "kind": "issue",
-        "number": 90840,
-        "title": "[Bug]: Subagent run completion is delivered to chat user as raw worker output instead of parent/main summary",
-        "url": "https://github.com/openclaw/openclaw/issues/90840",
-        "state": "open",
-        "author": "longjie521",
-        "updatedAt": "2026-07-21T11:55:01Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 112013,
-        "title": "fix: message sends fail when optional location is blank",
-        "url": "https://github.com/openclaw/openclaw/pull/112013",
+        "number": 106357,
+        "title": "fix(telegram): preserve opening text and links in rich fallback",
+        "url": "https://github.com/openclaw/openclaw/pull/106357",
         "state": "open",
-        "author": "karmafeast",
-        "updatedAt": "2026-07-21T11:58:58Z"
+        "author": "dankarization",
+        "updatedAt": "2026-07-21T16:40:33Z"
       },
       {
         "kind": "pr",
-        "number": 112276,
-        "title": "refactor(media): ingress and preflight consumers ride ordered media facts",
-        "url": "https://github.com/openclaw/openclaw/pull/112276",
+        "number": 111164,
+        "title": "fix(clawhub): use fatal UTF-8 decoding for all ClawHub HTTP responses",
+        "url": "https://github.com/openclaw/openclaw/pull/111164",
+        "state": "open",
+        "author": "chenyangjun-xy",
+        "updatedAt": "2026-07-21T16:39:13Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111266,
+        "title": "fix(chutes): discover models when HTTP proxy is required",
+        "url": "https://github.com/openclaw/openclaw/pull/111266",
+        "state": "closed",
+        "author": "mushuiyu886",
+        "updatedAt": "2026-07-21T16:38:42Z"
+      },
+      {
+        "kind": "pr",
+        "number": 103663,
+        "title": "fix(read): session-scoped inbound media staging with safe-write",
+        "url": "https://github.com/openclaw/openclaw/pull/103663",
+        "state": "open",
+        "author": "ralf003",
+        "updatedAt": "2026-07-21T16:37:53Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112339,
+        "title": "feat(ui): show chat run startup status",
+        "url": "https://github.com/openclaw/openclaw/pull/112339",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-21T11:58:55Z"
+        "updatedAt": "2026-07-21T16:37:11Z"
       },
       {
         "kind": "pr",
-        "number": 83988,
-        "title": "fix(tts): defer text settlement for final-mode TTS to eliminate churn (#83511)",
-        "url": "https://github.com/openclaw/openclaw/pull/83988",
+        "number": 107626,
+        "title": "fix(qa-lab): reject hex/exponent Telegram SUT uid env values",
+        "url": "https://github.com/openclaw/openclaw/pull/107626",
         "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-07-21T11:58:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111877,
-        "title": "fix: match current tool error format in trace line sanitizer",
-        "url": "https://github.com/openclaw/openclaw/pull/111877",
-        "state": "open",
-        "author": "xbrxr03",
-        "updatedAt": "2026-07-21T11:58:52Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111404,
-        "title": "fix(message): ignore populated location on text sends",
-        "url": "https://github.com/openclaw/openclaw/pull/111404",
-        "state": "open",
-        "author": "snotty",
-        "updatedAt": "2026-07-21T11:58:52Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110761,
-        "title": "fix(telegram): preserve per-item captions in media groups (albums)",
-        "url": "https://github.com/openclaw/openclaw/pull/110761",
-        "state": "open",
-        "author": "lsr911-code",
-        "updatedAt": "2026-07-21T11:58:58Z"
+        "author": "Pick-cat",
+        "updatedAt": "2026-07-21T16:36:18Z"
       }
     ]
   }

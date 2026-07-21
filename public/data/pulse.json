@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-21T00:08:43.994Z",
+  "generatedAt": "2026-07-21T03:43:07.403Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -125,11 +125,11 @@
     },
     {
       "capturedOn": "2026-07-21",
-      "capturedAt": "2026-07-21T00:08:43.994Z",
-      "issueOpen": 3954,
-      "issueClosed": 40391,
-      "prOpen": 3083,
-      "prClosed": 62187,
+      "capturedAt": "2026-07-21T03:43:07.403Z",
+      "issueOpen": 3960,
+      "issueClosed": 40398,
+      "prOpen": 3069,
+      "prClosed": 62249,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -139,77 +139,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 91171,
-        "title": "[Bug]: Sub-agent model routing ignores model parameter, silently falls back to deepseek",
-        "url": "https://github.com/openclaw/openclaw/issues/91171",
+        "number": 111948,
+        "title": "[Bug]: Windows package timeout can leave command-shim descendants running",
+        "url": "https://github.com/openclaw/openclaw/issues/111948",
         "state": "open",
-        "author": "wolfeee",
-        "updatedAt": "2026-07-21T00:04:29Z"
+        "author": "TheAngryPit",
+        "updatedAt": "2026-07-21T03:42:49Z"
       },
       {
         "kind": "issue",
-        "number": 111985,
-        "title": "memory-core sends ChatGPT/Codex OAuth token to direct OpenAI embeddings API",
-        "url": "https://github.com/openclaw/openclaw/issues/111985",
+        "number": 112045,
+        "title": "[Feature]: Auto-route image messages to vision-capable model",
+        "url": "https://github.com/openclaw/openclaw/issues/112045",
         "state": "open",
-        "author": "a-m-a-r-a",
-        "updatedAt": "2026-07-21T00:00:20Z"
+        "author": "wyong74",
+        "updatedAt": "2026-07-21T03:42:03Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 111965,
-        "title": "feat(ui): modernize the Control UI dashboard",
-        "url": "https://github.com/openclaw/openclaw/pull/111965",
+        "number": 111534,
+        "title": "fix(update): gateway restart survives inherited cross-user D-Bus environment",
+        "url": "https://github.com/openclaw/openclaw/pull/111534",
         "state": "open",
-        "author": "Zeus-Deus",
-        "updatedAt": "2026-07-21T00:08:36Z"
+        "author": "SimranPabla",
+        "updatedAt": "2026-07-21T03:43:01Z"
       },
       {
         "kind": "pr",
-        "number": 105896,
-        "title": "fix(memory-lancedb): make table initialization atomic",
-        "url": "https://github.com/openclaw/openclaw/pull/105896",
+        "number": 111901,
+        "title": "feat(plugin-runtime): support declarative tools and single-attempt completions",
+        "url": "https://github.com/openclaw/openclaw/pull/111901",
         "state": "open",
-        "author": "momothemage",
-        "updatedAt": "2026-07-21T00:08:35Z"
+        "author": "Vicenteut",
+        "updatedAt": "2026-07-21T03:43:03Z"
       },
       {
         "kind": "pr",
-        "number": 98813,
-        "title": "feat(hooks): allow a dedicated queue lane per hook mapping",
-        "url": "https://github.com/openclaw/openclaw/pull/98813",
+        "number": 112048,
+        "title": "chore(i18n): refresh native locales",
+        "url": "https://github.com/openclaw/openclaw/pull/112048",
         "state": "open",
-        "author": "spencer2211",
-        "updatedAt": "2026-07-21T00:08:15Z"
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-07-21T03:42:49Z"
       },
       {
         "kind": "pr",
-        "number": 95386,
-        "title": "fix #95351: [Feature]: Generic JSONL line-parsing hook for CliBackendPlugin (native tool-card support beyond claude-stream-json)",
-        "url": "https://github.com/openclaw/openclaw/pull/95386",
-        "state": "open",
-        "author": "mikasa0818",
-        "updatedAt": "2026-07-21T00:08:10Z"
+        "number": 111671,
+        "title": "chore(i18n): refresh native locales",
+        "url": "https://github.com/openclaw/openclaw/pull/111671",
+        "state": "closed",
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-07-21T03:42:40Z"
       },
       {
         "kind": "pr",
-        "number": 111987,
-        "title": "fix(ui): show profile display name in chat",
-        "url": "https://github.com/openclaw/openclaw/pull/111987",
+        "number": 112046,
+        "title": "fix: profile settings handle an unset identity",
+        "url": "https://github.com/openclaw/openclaw/pull/112046",
         "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-07-21T00:07:47Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-21T03:42:31Z"
       },
       {
         "kind": "pr",
-        "number": 111877,
-        "title": "fix: match current tool error format in trace line sanitizer",
-        "url": "https://github.com/openclaw/openclaw/pull/111877",
+        "number": 102959,
+        "title": "Plan grouped Claw agent updates",
+        "url": "https://github.com/openclaw/openclaw/pull/102959",
         "state": "open",
-        "author": "xbrxr03",
-        "updatedAt": "2026-07-21T00:07:05Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-21T03:42:27Z"
       }
     ]
   }

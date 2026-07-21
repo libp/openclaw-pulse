@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-21T18:39:19.575Z",
+  "generatedAt": "2026-07-21T20:35:44.750Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -125,11 +125,11 @@
     },
     {
       "capturedOn": "2026-07-21",
-      "capturedAt": "2026-07-21T18:39:19.575Z",
-      "issueOpen": 3969,
-      "issueClosed": 40545,
-      "prOpen": 3035,
-      "prClosed": 62423,
+      "capturedAt": "2026-07-21T20:35:44.750Z",
+      "issueOpen": 3975,
+      "issueClosed": 40546,
+      "prOpen": 3048,
+      "prClosed": 62428,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -139,113 +139,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 91171,
-        "title": "[Bug]: Sub-agent model routing ignores model parameter, silently falls back to deepseek",
-        "url": "https://github.com/openclaw/openclaw/issues/91171",
+        "number": 112386,
+        "title": "[Feature]: Allow gateway management without systemd on Linux",
+        "url": "https://github.com/openclaw/openclaw/issues/112386",
         "state": "open",
-        "author": "wolfeee",
-        "updatedAt": "2026-07-21T18:35:53Z"
+        "author": "hicpalmb",
+        "updatedAt": "2026-07-21T20:26:19Z"
       },
       {
         "kind": "issue",
-        "number": 102323,
-        "title": "anthropic: within-limit HEIC/TIFF images 400 as media_type passes through verbatim (succeeds on OpenAI and Gemini)",
-        "url": "https://github.com/openclaw/openclaw/issues/102323",
-        "state": "closed",
-        "author": "yetval",
-        "updatedAt": "2026-07-21T18:31:26Z"
+        "number": 88562,
+        "title": "[Bug]: models.json generator writes apiKey as plain string instead of secret-ref object",
+        "url": "https://github.com/openclaw/openclaw/issues/88562",
+        "state": "open",
+        "author": "mnowrot",
+        "updatedAt": "2026-07-21T20:25:16Z"
       },
       {
         "kind": "issue",
-        "number": 112371,
-        "title": "[Feature]: Cron precheck gates + optional script-only jobs (skip LLM when no work)",
-        "url": "https://github.com/openclaw/openclaw/issues/112371",
+        "number": 86996,
+        "title": "Active Memory + Codex app-server path causes long response latency, hook timeouts, startup aborts, and gateway event-loop stalls",
+        "url": "https://github.com/openclaw/openclaw/issues/86996",
         "state": "open",
-        "author": "Bartok9",
-        "updatedAt": "2026-07-21T18:29:46Z"
-      },
-      {
-        "kind": "issue",
-        "number": 14206,
-        "title": "Add Message Rate Limiting for Feishu Channel",
-        "url": "https://github.com/openclaw/openclaw/issues/14206",
-        "state": "open",
-        "author": "immars",
-        "updatedAt": "2026-07-21T18:28:10Z"
-      },
-      {
-        "kind": "issue",
-        "number": 19330,
-        "title": "[Feature]: Inbound media shared across all agents — no per-agent isolation",
-        "url": "https://github.com/openclaw/openclaw/issues/19330",
-        "state": "open",
-        "author": "spdesai",
-        "updatedAt": "2026-07-21T18:28:07Z"
-      },
-      {
-        "kind": "issue",
-        "number": 18548,
-        "title": "[Feature]: 3 architecture improvements — bootstrap relevance, incremental compaction, observation extraction",
-        "url": "https://github.com/openclaw/openclaw/issues/18548",
-        "state": "open",
-        "author": "nnbiech95-cpu",
-        "updatedAt": "2026-07-21T18:28:05Z"
+        "author": "fionn77",
+        "updatedAt": "2026-07-21T20:25:11Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 112388,
-        "title": "feat: resume requesters after deferred sessions_send replies",
-        "url": "https://github.com/openclaw/openclaw/pull/112388",
-        "state": "open",
-        "author": "rabsef-bicrym",
-        "updatedAt": "2026-07-21T18:39:16Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112366,
-        "title": "fix(subagents): forward requested model to worker run",
-        "url": "https://github.com/openclaw/openclaw/pull/112366",
-        "state": "closed",
-        "author": "martins-oss",
-        "updatedAt": "2026-07-21T18:39:11Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112189,
-        "title": "feat(cron): stream schedule sources with durable source identity",
-        "url": "https://github.com/openclaw/openclaw/pull/112189",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-07-21T18:38:51Z"
-      },
-      {
-        "kind": "pr",
-        "number": 81185,
-        "title": "Redact exec tool result payloads",
-        "url": "https://github.com/openclaw/openclaw/pull/81185",
-        "state": "open",
-        "author": "nicknmorty",
-        "updatedAt": "2026-07-21T18:38:05Z"
-      },
-      {
-        "kind": "pr",
-        "number": 101248,
-        "title": "feat(subagents): native announceTarget for subagent completion routing (#27445)",
-        "url": "https://github.com/openclaw/openclaw/pull/101248",
-        "state": "open",
-        "author": "nicknmorty",
-        "updatedAt": "2026-07-21T18:37:12Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112387,
-        "title": "feat(cron): stream schedule sources with durable source identity",
-        "url": "https://github.com/openclaw/openclaw/pull/112387",
+        "number": 112339,
+        "title": "feat(ui): show chat run startup status",
+        "url": "https://github.com/openclaw/openclaw/pull/112339",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-21T18:34:17Z"
+        "updatedAt": "2026-07-21T20:34:43Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112400,
+        "title": "feat(ui): format international phone numbers for display",
+        "url": "https://github.com/openclaw/openclaw/pull/112400",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-21T20:33:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112324,
+        "title": "fix(ui): Control UI never recovers a request stranded by a silent gateway",
+        "url": "https://github.com/openclaw/openclaw/pull/112324",
+        "state": "open",
+        "author": "Yigtwxx",
+        "updatedAt": "2026-07-21T20:33:48Z"
+      },
+      {
+        "kind": "pr",
+        "number": 108469,
+        "title": "fix(agents): route llama.cpp GBNF cleaning through provider tool-schema hooks",
+        "url": "https://github.com/openclaw/openclaw/pull/108469",
+        "state": "open",
+        "author": "DecentralizedJM",
+        "updatedAt": "2026-07-21T20:30:53Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112378,
+        "title": "fix(onboard): survive inference owner drift and prefer subscription logins in guided setup",
+        "url": "https://github.com/openclaw/openclaw/pull/112378",
+        "state": "open",
+        "author": "jalehman",
+        "updatedAt": "2026-07-21T20:30:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 89526,
+        "title": "[codex] fix gateway restart-required reload drift",
+        "url": "https://github.com/openclaw/openclaw/pull/89526",
+        "state": "open",
+        "author": "amittell",
+        "updatedAt": "2026-07-21T20:29:55Z"
       }
     ]
   }

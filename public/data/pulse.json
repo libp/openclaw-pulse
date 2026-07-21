@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-21T09:38:29.890Z",
+  "generatedAt": "2026-07-21T11:59:02.446Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -125,11 +125,11 @@
     },
     {
       "capturedOn": "2026-07-21",
-      "capturedAt": "2026-07-21T09:38:29.890Z",
-      "issueOpen": 3944,
-      "issueClosed": 40523,
-      "prOpen": 3026,
-      "prClosed": 62379,
+      "capturedAt": "2026-07-21T11:59:02.446Z",
+      "issueOpen": 3949,
+      "issueClosed": 40526,
+      "prOpen": 3035,
+      "prClosed": 62351,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -139,68 +139,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 112218,
-        "title": "Mobile localization misses Wear resources and typed failures",
-        "url": "https://github.com/openclaw/openclaw/issues/112218",
-        "state": "closed",
-        "author": "vincentkoc",
-        "updatedAt": "2026-07-21T09:36:51Z"
+        "number": 112277,
+        "title": "fix(sandbox): make materialized sandbox-skills directory writable to support agent autonomous uninstallation",
+        "url": "https://github.com/openclaw/openclaw/issues/112277",
+        "state": "open",
+        "author": "akang1798",
+        "updatedAt": "2026-07-21T11:57:38Z"
+      },
+      {
+        "kind": "issue",
+        "number": 90840,
+        "title": "[Bug]: Subagent run completion is delivered to chat user as raw worker output instead of parent/main summary",
+        "url": "https://github.com/openclaw/openclaw/issues/90840",
+        "state": "open",
+        "author": "longjie521",
+        "updatedAt": "2026-07-21T11:55:01Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 102959,
-        "title": "Plan grouped Claw agent updates",
-        "url": "https://github.com/openclaw/openclaw/pull/102959",
+        "number": 112013,
+        "title": "fix: message sends fail when optional location is blank",
+        "url": "https://github.com/openclaw/openclaw/pull/112013",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-21T09:38:19Z"
+        "author": "karmafeast",
+        "updatedAt": "2026-07-21T11:58:58Z"
       },
       {
         "kind": "pr",
-        "number": 101755,
-        "title": "Create Claw agent and root install record",
-        "url": "https://github.com/openclaw/openclaw/pull/101755",
-        "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-21T09:38:16Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112056,
-        "title": "feat(apps): native session branch switcher with branch-safe durable outbox",
-        "url": "https://github.com/openclaw/openclaw/pull/112056",
+        "number": 112276,
+        "title": "refactor(media): ingress and preflight consumers ride ordered media facts",
+        "url": "https://github.com/openclaw/openclaw/pull/112276",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-21T09:38:02Z"
+        "updatedAt": "2026-07-21T11:58:55Z"
       },
       {
         "kind": "pr",
-        "number": 112033,
-        "title": "chore(deps): bump the actions group across 1 directory with 12 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/112033",
+        "number": 83988,
+        "title": "fix(tts): defer text settlement for final-mode TTS to eliminate churn (#83511)",
+        "url": "https://github.com/openclaw/openclaw/pull/83988",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-07-21T09:37:42Z"
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-07-21T11:58:55Z"
       },
       {
         "kind": "pr",
-        "number": 110734,
-        "title": "fix(codex-native): interrupt live Codex subagent thread on tasks cancel",
-        "url": "https://github.com/openclaw/openclaw/pull/110734",
+        "number": 111877,
+        "title": "fix: match current tool error format in trace line sanitizer",
+        "url": "https://github.com/openclaw/openclaw/pull/111877",
         "state": "open",
-        "author": "wangyan2026",
-        "updatedAt": "2026-07-21T09:37:35Z"
+        "author": "xbrxr03",
+        "updatedAt": "2026-07-21T11:58:52Z"
       },
       {
         "kind": "pr",
-        "number": 110203,
-        "title": "fix: keep newline-mode reply paragraphs as separate channel bubbles",
-        "url": "https://github.com/openclaw/openclaw/pull/110203",
+        "number": 111404,
+        "title": "fix(message): ignore populated location on text sends",
+        "url": "https://github.com/openclaw/openclaw/pull/111404",
         "state": "open",
-        "author": "stantheman0128",
-        "updatedAt": "2026-07-21T09:37:35Z"
+        "author": "snotty",
+        "updatedAt": "2026-07-21T11:58:52Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110761,
+        "title": "fix(telegram): preserve per-item captions in media groups (albums)",
+        "url": "https://github.com/openclaw/openclaw/pull/110761",
+        "state": "open",
+        "author": "lsr911-code",
+        "updatedAt": "2026-07-21T11:58:58Z"
       }
     ]
   }

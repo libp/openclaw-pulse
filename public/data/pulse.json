@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-21T22:11:17.504Z",
+  "generatedAt": "2026-07-21T23:10:31.020Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -125,11 +125,11 @@
     },
     {
       "capturedOn": "2026-07-21",
-      "capturedAt": "2026-07-21T22:11:17.504Z",
-      "issueOpen": 3979,
-      "issueClosed": 40547,
-      "prOpen": 3042,
-      "prClosed": 62446,
+      "capturedAt": "2026-07-21T23:10:31.020Z",
+      "issueOpen": 3980,
+      "issueClosed": 40551,
+      "prOpen": 3041,
+      "prClosed": 62453,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -139,50 +139,32 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 112427,
-        "title": "[Bug]: Codex plugin fails to load with ERR_REQUIRE_ESM_RACE_CONDITION on fresh Ubuntu 24.04 install (Node 24.18.0)",
-        "url": "https://github.com/openclaw/openclaw/issues/112427",
+        "number": 64103,
+        "title": "Session `status` field values (\"failed\", \"timeout\", \"done\") mislead agents into spawning duplicate sessions",
+        "url": "https://github.com/openclaw/openclaw/issues/64103",
         "state": "open",
-        "author": "FiscapeScott",
-        "updatedAt": "2026-07-21T22:01:47Z"
+        "author": "lykeion-dev",
+        "updatedAt": "2026-07-21T22:59:08Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112440,
+        "title": "[Feature]: Project native harness children onto portable subagent progress",
+        "url": "https://github.com/openclaw/openclaw/issues/112440",
+        "state": "open",
+        "author": "bek91",
+        "updatedAt": "2026-07-21T22:59:04Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 112260,
-        "title": "feat(ui): session observer HUD, sidebar subtitles, and settings",
-        "url": "https://github.com/openclaw/openclaw/pull/112260",
+        "number": 112338,
+        "title": "fix: keep Control UI setup responsive when discovery stalls",
+        "url": "https://github.com/openclaw/openclaw/pull/112338",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-21T22:11:03Z"
-      },
-      {
-        "kind": "pr",
-        "number": 97175,
-        "title": "fix(context-engine): bound deferred turn maintenance with a per-task timeout (AI-assisted)",
-        "url": "https://github.com/openclaw/openclaw/pull/97175",
-        "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-07-21T22:10:48Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112302,
-        "title": "feat(workboard): routable boards, sidebar pinning, icon and color",
-        "url": "https://github.com/openclaw/openclaw/pull/112302",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-21T22:09:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112321,
-        "title": "fix(macos): require explicit consent for privacy-sensitive access",
-        "url": "https://github.com/openclaw/openclaw/pull/112321",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-21T22:09:08Z"
+        "updatedAt": "2026-07-21T23:10:09Z"
       },
       {
         "kind": "pr",
@@ -191,16 +173,43 @@
         "url": "https://github.com/openclaw/openclaw/pull/111122",
         "state": "open",
         "author": "yetval",
-        "updatedAt": "2026-07-21T22:08:35Z"
+        "updatedAt": "2026-07-21T23:10:03Z"
       },
       {
         "kind": "pr",
-        "number": 112430,
-        "title": "fix(ollama): preserve cloud model context windows",
-        "url": "https://github.com/openclaw/openclaw/pull/112430",
+        "number": 112411,
+        "title": "fix: refresh vulnerable production dependencies",
+        "url": "https://github.com/openclaw/openclaw/pull/112411",
         "state": "open",
-        "author": "IWhatsskill",
-        "updatedAt": "2026-07-21T22:08:30Z"
+        "author": "eugene-harold-krabs",
+        "updatedAt": "2026-07-21T23:08:00Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111617,
+        "title": "fix(discord): skip PluralKit lookup for non-webhook messages",
+        "url": "https://github.com/openclaw/openclaw/pull/111617",
+        "state": "open",
+        "author": "rune-dandelion-cult",
+        "updatedAt": "2026-07-21T23:06:21Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111616,
+        "title": "fix(compaction): recover after tool-only post-compaction suffixes",
+        "url": "https://github.com/openclaw/openclaw/pull/111616",
+        "state": "open",
+        "author": "rune-dandelion-cult",
+        "updatedAt": "2026-07-21T23:05:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112378,
+        "title": "fix(onboard): survive inference owner drift and prefer subscription logins in guided setup",
+        "url": "https://github.com/openclaw/openclaw/pull/112378",
+        "state": "open",
+        "author": "jalehman",
+        "updatedAt": "2026-07-21T23:05:21Z"
       }
     ]
   }

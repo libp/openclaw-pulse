@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-21T06:40:18.739Z",
+  "generatedAt": "2026-07-21T09:38:29.890Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -125,11 +125,11 @@
     },
     {
       "capturedOn": "2026-07-21",
-      "capturedAt": "2026-07-21T06:40:18.739Z",
-      "issueOpen": 3937,
-      "issueClosed": 40508,
-      "prOpen": 3040,
-      "prClosed": 62324,
+      "capturedAt": "2026-07-21T09:38:29.890Z",
+      "issueOpen": 3944,
+      "issueClosed": 40523,
+      "prOpen": 3026,
+      "prClosed": 62379,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -139,95 +139,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 112179,
-        "title": "[Feature]: Browse the live OpenRouter text-model catalog during setup",
-        "url": "https://github.com/openclaw/openclaw/issues/112179",
-        "state": "open",
-        "author": "ajensenwaud",
-        "updatedAt": "2026-07-21T06:39:42Z"
-      },
-      {
-        "kind": "issue",
-        "number": 111979,
-        "title": "Bug: Runtime tool calls execute after cancel",
-        "url": "https://github.com/openclaw/openclaw/issues/111979",
-        "state": "open",
-        "author": "saflis",
-        "updatedAt": "2026-07-21T06:38:51Z"
-      },
-      {
-        "kind": "issue",
-        "number": 84527,
-        "title": "[Feature]: Add Antigravity CLI (agy) as CLI backend to replace deprecated google-gemini-cli",
-        "url": "https://github.com/openclaw/openclaw/issues/84527",
-        "state": "open",
-        "author": "haofeif",
-        "updatedAt": "2026-07-21T06:38:44Z"
-      },
-      {
-        "kind": "issue",
-        "number": 111981,
-        "title": "EmbeddedAttemptSessionTakeoverError: writer-concurrency race on shared session file surfaces as false \"all models rate-limited\"",
-        "url": "https://github.com/openclaw/openclaw/issues/111981",
-        "state": "open",
-        "author": "rlerikse",
-        "updatedAt": "2026-07-21T06:38:42Z"
+        "number": 112218,
+        "title": "Mobile localization misses Wear resources and typed failures",
+        "url": "https://github.com/openclaw/openclaw/issues/112218",
+        "state": "closed",
+        "author": "vincentkoc",
+        "updatedAt": "2026-07-21T09:36:51Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 110884,
-        "title": "fix(browser): prove post-action target continuity before adopting a tab",
-        "url": "https://github.com/openclaw/openclaw/pull/110884",
+        "number": 102959,
+        "title": "Plan grouped Claw agent updates",
+        "url": "https://github.com/openclaw/openclaw/pull/102959",
         "state": "open",
-        "author": "piyushbag",
-        "updatedAt": "2026-07-21T06:39:39Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-21T09:38:19Z"
       },
       {
         "kind": "pr",
-        "number": 112181,
-        "title": "fix(ui): localize settings navigation and Logs copy",
-        "url": "https://github.com/openclaw/openclaw/pull/112181",
+        "number": 101755,
+        "title": "Create Claw agent and root install record",
+        "url": "https://github.com/openclaw/openclaw/pull/101755",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-07-21T06:39:38Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-21T09:38:16Z"
       },
       {
         "kind": "pr",
-        "number": 104250,
-        "title": "fix: webChat scrollback history is too limited — older assistant replies and tool outputs disappear when scrolling…",
-        "url": "https://github.com/openclaw/openclaw/pull/104250",
+        "number": 112056,
+        "title": "feat(apps): native session branch switcher with branch-safe durable outbox",
+        "url": "https://github.com/openclaw/openclaw/pull/112056",
         "state": "open",
-        "author": "mikasa0818",
-        "updatedAt": "2026-07-21T06:39:27Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-21T09:38:02Z"
       },
       {
         "kind": "pr",
-        "number": 109313,
-        "title": "fix(agents): do not label finish_reason error as LLM timeout",
-        "url": "https://github.com/openclaw/openclaw/pull/109313",
+        "number": 112033,
+        "title": "chore(deps): bump the actions group across 1 directory with 12 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/112033",
         "state": "open",
-        "author": "SebTardif",
-        "updatedAt": "2026-07-21T06:39:25Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-07-21T09:37:42Z"
       },
       {
         "kind": "pr",
-        "number": 111306,
-        "title": "fix(ui): surface a visible error when the local user avatar fails to save (#110662)",
-        "url": "https://github.com/openclaw/openclaw/pull/111306",
+        "number": 110734,
+        "title": "fix(codex-native): interrupt live Codex subagent thread on tasks cancel",
+        "url": "https://github.com/openclaw/openclaw/pull/110734",
         "state": "open",
-        "author": "yuvrajlaptop2008-byte",
-        "updatedAt": "2026-07-21T06:39:20Z"
+        "author": "wangyan2026",
+        "updatedAt": "2026-07-21T09:37:35Z"
       },
       {
         "kind": "pr",
-        "number": 111868,
-        "title": "fix(diagnostics-otel): avoid duplicate OTLP signal paths with query params",
-        "url": "https://github.com/openclaw/openclaw/pull/111868",
+        "number": 110203,
+        "title": "fix: keep newline-mode reply paragraphs as separate channel bubbles",
+        "url": "https://github.com/openclaw/openclaw/pull/110203",
         "state": "open",
-        "author": "VectorPeak",
-        "updatedAt": "2026-07-21T06:39:10Z"
+        "author": "stantheman0128",
+        "updatedAt": "2026-07-21T09:37:35Z"
       }
     ]
   }

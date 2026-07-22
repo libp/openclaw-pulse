@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-22T06:41:15.095Z",
+  "generatedAt": "2026-07-22T09:37:56.247Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -136,72 +136,109 @@
     },
     {
       "capturedOn": "2026-07-22",
-      "capturedAt": "2026-07-22T06:41:15.095Z",
-      "issueOpen": 3924,
-      "issueClosed": 40632,
-      "prOpen": 2970,
-      "prClosed": 62614,
+      "capturedAt": "2026-07-22T09:37:56.247Z",
+      "issueOpen": 3937,
+      "issueClosed": 40636,
+      "prOpen": 2962,
+      "prClosed": 62670,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 112604,
+        "title": "[Bug]: Signal reactions do not consistently honor normalized routing",
+        "url": "https://github.com/openclaw/openclaw/issues/112604",
+        "state": "closed",
+        "author": "joshavant",
+        "updatedAt": "2026-07-22T09:30:51Z"
+      },
+      {
+        "kind": "issue",
+        "number": 88309,
+        "title": "Restart race condition with LaunchAgent KeepAlive causes shutdown instead of restart",
+        "url": "https://github.com/openclaw/openclaw/issues/88309",
+        "state": "open",
+        "author": "catiaandansysopenclaw-Jeremy",
+        "updatedAt": "2026-07-22T09:26:03Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112618,
+        "title": "Session store: whole-file sessions.json rewrite still causes multi-minute lock waits under subagent fanout",
+        "url": "https://github.com/openclaw/openclaw/issues/112618",
+        "state": "open",
+        "author": "bloominburges",
+        "updatedAt": "2026-07-22T09:18:54Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112614,
+        "title": "Run-context TTL counts queue-wait as inactivity → false \"lost active execution context\" under load",
+        "url": "https://github.com/openclaw/openclaw/issues/112614",
+        "state": "open",
+        "author": "bloominburges",
+        "updatedAt": "2026-07-22T09:18:47Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 110280,
-        "title": "refactor(qa): enforce surface.feature coverage IDs",
-        "url": "https://github.com/openclaw/openclaw/pull/110280",
+        "number": 111404,
+        "title": "fix(message): ignore populated location on text sends",
+        "url": "https://github.com/openclaw/openclaw/pull/111404",
+        "state": "open",
+        "author": "snotty",
+        "updatedAt": "2026-07-22T09:37:45Z"
+      },
+      {
+        "kind": "pr",
+        "number": 108908,
+        "title": "fix(vydra): apply request policy to speech generation requests",
+        "url": "https://github.com/openclaw/openclaw/pull/108908",
+        "state": "open",
+        "author": "wanyongstar",
+        "updatedAt": "2026-07-22T09:36:44Z"
+      },
+      {
+        "kind": "pr",
+        "number": 106832,
+        "title": "feat: expose readable session presentation metadata",
+        "url": "https://github.com/openclaw/openclaw/pull/106832",
         "state": "open",
         "author": "RomneyDa",
-        "updatedAt": "2026-07-22T06:41:09Z"
+        "updatedAt": "2026-07-22T09:35:32Z"
       },
       {
         "kind": "pr",
-        "number": 112000,
-        "title": "refactor(prompt): use plain inbound context labels and drop system-tag sanitizer",
-        "url": "https://github.com/openclaw/openclaw/pull/112000",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-07-22T06:41:08Z"
+        "number": 112607,
+        "title": "fix(signal): keep reactions on the normalized target",
+        "url": "https://github.com/openclaw/openclaw/pull/112607",
+        "state": "closed",
+        "author": "joshavant",
+        "updatedAt": "2026-07-22T09:30:52Z"
       },
       {
         "kind": "pr",
-        "number": 109203,
-        "title": "feat(ag-ui): AG-UI channel",
-        "url": "https://github.com/openclaw/openclaw/pull/109203",
+        "number": 112621,
+        "title": "fix(channels): hide internal tool text in Reef and Zalo Personal",
+        "url": "https://github.com/openclaw/openclaw/pull/112621",
         "state": "open",
-        "author": "mme",
-        "updatedAt": "2026-07-22T06:41:08Z"
+        "author": "miorbnli",
+        "updatedAt": "2026-07-22T09:30:26Z"
       },
       {
         "kind": "pr",
-        "number": 112548,
-        "title": "fix(channels): restore assistant context after restart",
-        "url": "https://github.com/openclaw/openclaw/pull/112548",
+        "number": 112547,
+        "title": "feat(skills): install skills.sh catalog references",
+        "url": "https://github.com/openclaw/openclaw/pull/112547",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-22T06:40:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112551,
-        "title": "fix(compaction): prune old image blocks from summarization input (#111856)",
-        "url": "https://github.com/openclaw/openclaw/pull/112551",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-07-22T06:40:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112272,
-        "title": "fix: pin Plivo callback URLs to public webhook path [AI]",
-        "url": "https://github.com/openclaw/openclaw/pull/112272",
-        "state": "open",
-        "author": "pgondhi987",
-        "updatedAt": "2026-07-22T06:40:17Z"
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-07-22T09:29:38Z"
       }
     ]
   }

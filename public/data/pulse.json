@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-22T00:04:58.652Z",
+  "generatedAt": "2026-07-22T03:43:47.705Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -136,11 +136,11 @@
     },
     {
       "capturedOn": "2026-07-22",
-      "capturedAt": "2026-07-22T00:04:58.652Z",
-      "issueOpen": 3981,
-      "issueClosed": 40551,
-      "prOpen": 3041,
-      "prClosed": 62457,
+      "capturedAt": "2026-07-22T03:43:47.705Z",
+      "issueOpen": 3986,
+      "issueClosed": 40559,
+      "prOpen": 3032,
+      "prClosed": 62500,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -150,68 +150,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 7661,
-        "title": "Feature Request: Add channel creation to message tool",
-        "url": "https://github.com/openclaw/openclaw/issues/7661",
+        "number": 111990,
+        "title": "[Bug]: memory_search can use a stale cached memory manager and time out or return false zero-hit results",
+        "url": "https://github.com/openclaw/openclaw/issues/111990",
         "state": "open",
-        "author": "bennewton999",
-        "updatedAt": "2026-07-22T00:03:56Z"
+        "author": "jamesachurchill",
+        "updatedAt": "2026-07-22T03:39:51Z"
+      },
+      {
+        "kind": "issue",
+        "number": 11414,
+        "title": "Message plugin: support Telegram forum topic management (create/edit/close/reopen)",
+        "url": "https://github.com/openclaw/openclaw/issues/11414",
+        "state": "open",
+        "author": "hariseldonsradiant",
+        "updatedAt": "2026-07-22T03:38:11Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 109057,
-        "title": "fix(agents): completions-API models leak tool-call preambles into chats — tag pre-tool narration as commentary",
-        "url": "https://github.com/openclaw/openclaw/pull/109057",
-        "state": "open",
-        "author": "aspalagin",
-        "updatedAt": "2026-07-22T00:04:53Z"
-      },
-      {
-        "kind": "pr",
-        "number": 108287,
-        "title": "fix(sqlite): allow verified shared wal backports",
-        "url": "https://github.com/openclaw/openclaw/pull/108287",
-        "state": "open",
-        "author": "eugene-harold-krabs",
-        "updatedAt": "2026-07-22T00:04:24Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112411,
-        "title": "fix: refresh vulnerable production dependencies",
-        "url": "https://github.com/openclaw/openclaw/pull/112411",
-        "state": "closed",
-        "author": "eugene-harold-krabs",
-        "updatedAt": "2026-07-22T00:03:29Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112446,
-        "title": "fix(memory-core): refresh stale manager in memory_search",
-        "url": "https://github.com/openclaw/openclaw/pull/112446",
-        "state": "open",
-        "author": "wuqxuan",
-        "updatedAt": "2026-07-22T00:03:07Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112400,
-        "title": "feat(ui): format international phone numbers for display",
-        "url": "https://github.com/openclaw/openclaw/pull/112400",
+        "number": 112401,
+        "title": "feat(ui): manage DM pairing requests in Channels",
+        "url": "https://github.com/openclaw/openclaw/pull/112401",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-22T00:02:56Z"
+        "updatedAt": "2026-07-22T03:43:34Z"
       },
       {
         "kind": "pr",
-        "number": 112442,
-        "title": "feat(ui): inspect chat images in an accessible lightbox",
-        "url": "https://github.com/openclaw/openclaw/pull/112442",
+        "number": 110216,
+        "title": "fix(memory): recover from same-file legacy index divergence",
+        "url": "https://github.com/openclaw/openclaw/pull/110216",
+        "state": "open",
+        "author": "VACInc",
+        "updatedAt": "2026-07-22T03:43:11Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112236,
+        "title": "fix: use OS home for cached snapshot tilde paths",
+        "url": "https://github.com/openclaw/openclaw/pull/112236",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-07-22T03:42:21Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112493,
+        "title": "test(ui): reuse shared non-isolated workers",
+        "url": "https://github.com/openclaw/openclaw/pull/112493",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-22T00:02:38Z"
+        "updatedAt": "2026-07-22T03:42:19Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112488,
+        "title": "feat(ui): unify agent pickers with avatars",
+        "url": "https://github.com/openclaw/openclaw/pull/112488",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-22T03:41:47Z"
+      },
+      {
+        "kind": "pr",
+        "number": 106890,
+        "title": "fix(plugins): cleanup session scheduler jobs on failed registration rollback (#106825)",
+        "url": "https://github.com/openclaw/openclaw/pull/106890",
+        "state": "open",
+        "author": "yangxiansheng",
+        "updatedAt": "2026-07-22T03:41:16Z"
       }
     ]
   }

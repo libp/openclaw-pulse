@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-22T03:43:47.705Z",
+  "generatedAt": "2026-07-22T06:41:15.095Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -136,91 +136,72 @@
     },
     {
       "capturedOn": "2026-07-22",
-      "capturedAt": "2026-07-22T03:43:47.705Z",
-      "issueOpen": 3986,
-      "issueClosed": 40559,
-      "prOpen": 3032,
-      "prClosed": 62500,
+      "capturedAt": "2026-07-22T06:41:15.095Z",
+      "issueOpen": 3924,
+      "issueClosed": 40632,
+      "prOpen": 2970,
+      "prClosed": 62614,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 111990,
-        "title": "[Bug]: memory_search can use a stale cached memory manager and time out or return false zero-hit results",
-        "url": "https://github.com/openclaw/openclaw/issues/111990",
-        "state": "open",
-        "author": "jamesachurchill",
-        "updatedAt": "2026-07-22T03:39:51Z"
-      },
-      {
-        "kind": "issue",
-        "number": 11414,
-        "title": "Message plugin: support Telegram forum topic management (create/edit/close/reopen)",
-        "url": "https://github.com/openclaw/openclaw/issues/11414",
-        "state": "open",
-        "author": "hariseldonsradiant",
-        "updatedAt": "2026-07-22T03:38:11Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 112401,
-        "title": "feat(ui): manage DM pairing requests in Channels",
-        "url": "https://github.com/openclaw/openclaw/pull/112401",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-22T03:43:34Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110216,
-        "title": "fix(memory): recover from same-file legacy index divergence",
-        "url": "https://github.com/openclaw/openclaw/pull/110216",
-        "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-07-22T03:43:11Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112236,
-        "title": "fix: use OS home for cached snapshot tilde paths",
-        "url": "https://github.com/openclaw/openclaw/pull/112236",
+        "number": 110280,
+        "title": "refactor(qa): enforce surface.feature coverage IDs",
+        "url": "https://github.com/openclaw/openclaw/pull/110280",
         "state": "open",
         "author": "RomneyDa",
-        "updatedAt": "2026-07-22T03:42:21Z"
+        "updatedAt": "2026-07-22T06:41:09Z"
       },
       {
         "kind": "pr",
-        "number": 112493,
-        "title": "test(ui): reuse shared non-isolated workers",
-        "url": "https://github.com/openclaw/openclaw/pull/112493",
+        "number": 112000,
+        "title": "refactor(prompt): use plain inbound context labels and drop system-tag sanitizer",
+        "url": "https://github.com/openclaw/openclaw/pull/112000",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-07-22T06:41:08Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109203,
+        "title": "feat(ag-ui): AG-UI channel",
+        "url": "https://github.com/openclaw/openclaw/pull/109203",
+        "state": "open",
+        "author": "mme",
+        "updatedAt": "2026-07-22T06:41:08Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112548,
+        "title": "fix(channels): restore assistant context after restart",
+        "url": "https://github.com/openclaw/openclaw/pull/112548",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-22T03:42:19Z"
+        "updatedAt": "2026-07-22T06:40:40Z"
       },
       {
         "kind": "pr",
-        "number": 112488,
-        "title": "feat(ui): unify agent pickers with avatars",
-        "url": "https://github.com/openclaw/openclaw/pull/112488",
+        "number": 112551,
+        "title": "fix(compaction): prune old image blocks from summarization input (#111856)",
+        "url": "https://github.com/openclaw/openclaw/pull/112551",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-22T03:41:47Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-07-22T06:40:38Z"
       },
       {
         "kind": "pr",
-        "number": 106890,
-        "title": "fix(plugins): cleanup session scheduler jobs on failed registration rollback (#106825)",
-        "url": "https://github.com/openclaw/openclaw/pull/106890",
+        "number": 112272,
+        "title": "fix: pin Plivo callback URLs to public webhook path [AI]",
+        "url": "https://github.com/openclaw/openclaw/pull/112272",
         "state": "open",
-        "author": "yangxiansheng",
-        "updatedAt": "2026-07-22T03:41:16Z"
+        "author": "pgondhi987",
+        "updatedAt": "2026-07-22T06:40:17Z"
       }
     ]
   }

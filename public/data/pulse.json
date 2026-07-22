@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-21T23:10:31.020Z",
+  "generatedAt": "2026-07-22T00:04:58.652Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -133,83 +133,85 @@
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-07-22",
+      "capturedAt": "2026-07-22T00:04:58.652Z",
+      "issueOpen": 3981,
+      "issueClosed": 40551,
+      "prOpen": 3041,
+      "prClosed": 62457,
+      "workflowRuns": 40000,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 64103,
-        "title": "Session `status` field values (\"failed\", \"timeout\", \"done\") mislead agents into spawning duplicate sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/64103",
+        "number": 7661,
+        "title": "Feature Request: Add channel creation to message tool",
+        "url": "https://github.com/openclaw/openclaw/issues/7661",
         "state": "open",
-        "author": "lykeion-dev",
-        "updatedAt": "2026-07-21T22:59:08Z"
-      },
-      {
-        "kind": "issue",
-        "number": 112440,
-        "title": "[Feature]: Project native harness children onto portable subagent progress",
-        "url": "https://github.com/openclaw/openclaw/issues/112440",
-        "state": "open",
-        "author": "bek91",
-        "updatedAt": "2026-07-21T22:59:04Z"
+        "author": "bennewton999",
+        "updatedAt": "2026-07-22T00:03:56Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 112338,
-        "title": "fix: keep Control UI setup responsive when discovery stalls",
-        "url": "https://github.com/openclaw/openclaw/pull/112338",
+        "number": 109057,
+        "title": "fix(agents): completions-API models leak tool-call preambles into chats — tag pre-tool narration as commentary",
+        "url": "https://github.com/openclaw/openclaw/pull/109057",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-21T23:10:09Z"
+        "author": "aspalagin",
+        "updatedAt": "2026-07-22T00:04:53Z"
       },
       {
         "kind": "pr",
-        "number": 111122,
-        "title": "fix(sessions): manual compaction deletes transcript history while claiming it was archived",
-        "url": "https://github.com/openclaw/openclaw/pull/111122",
+        "number": 108287,
+        "title": "fix(sqlite): allow verified shared wal backports",
+        "url": "https://github.com/openclaw/openclaw/pull/108287",
         "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-07-21T23:10:03Z"
+        "author": "eugene-harold-krabs",
+        "updatedAt": "2026-07-22T00:04:24Z"
       },
       {
         "kind": "pr",
         "number": 112411,
         "title": "fix: refresh vulnerable production dependencies",
         "url": "https://github.com/openclaw/openclaw/pull/112411",
-        "state": "open",
+        "state": "closed",
         "author": "eugene-harold-krabs",
-        "updatedAt": "2026-07-21T23:08:00Z"
+        "updatedAt": "2026-07-22T00:03:29Z"
       },
       {
         "kind": "pr",
-        "number": 111617,
-        "title": "fix(discord): skip PluralKit lookup for non-webhook messages",
-        "url": "https://github.com/openclaw/openclaw/pull/111617",
+        "number": 112446,
+        "title": "fix(memory-core): refresh stale manager in memory_search",
+        "url": "https://github.com/openclaw/openclaw/pull/112446",
         "state": "open",
-        "author": "rune-dandelion-cult",
-        "updatedAt": "2026-07-21T23:06:21Z"
+        "author": "wuqxuan",
+        "updatedAt": "2026-07-22T00:03:07Z"
       },
       {
         "kind": "pr",
-        "number": 111616,
-        "title": "fix(compaction): recover after tool-only post-compaction suffixes",
-        "url": "https://github.com/openclaw/openclaw/pull/111616",
+        "number": 112400,
+        "title": "feat(ui): format international phone numbers for display",
+        "url": "https://github.com/openclaw/openclaw/pull/112400",
         "state": "open",
-        "author": "rune-dandelion-cult",
-        "updatedAt": "2026-07-21T23:05:57Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-22T00:02:56Z"
       },
       {
         "kind": "pr",
-        "number": 112378,
-        "title": "fix(onboard): survive inference owner drift and prefer subscription logins in guided setup",
-        "url": "https://github.com/openclaw/openclaw/pull/112378",
+        "number": 112442,
+        "title": "feat(ui): inspect chat images in an accessible lightbox",
+        "url": "https://github.com/openclaw/openclaw/pull/112442",
         "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-07-21T23:05:21Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-22T00:02:38Z"
       }
     ]
   }

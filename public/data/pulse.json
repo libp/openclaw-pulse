@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-22T14:20:47.781Z",
+  "generatedAt": "2026-07-22T16:43:34.169Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -136,11 +136,11 @@
     },
     {
       "capturedOn": "2026-07-22",
-      "capturedAt": "2026-07-22T14:20:47.781Z",
-      "issueOpen": 3953,
-      "issueClosed": 40642,
-      "prOpen": 2966,
-      "prClosed": 62701,
+      "capturedAt": "2026-07-22T16:43:34.169Z",
+      "issueOpen": 3962,
+      "issueClosed": 40644,
+      "prOpen": 2967,
+      "prClosed": 62711,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -150,86 +150,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 98200,
-        "title": "[Feature]: Recover the in-flight gateway run on CLI disconnect (reattach-first) instead of recook-first embedded fallback",
-        "url": "https://github.com/openclaw/openclaw/issues/98200",
+        "number": 112679,
+        "title": "models.list reports available:false for any provider whose auth profile uses a non-env (exec/file) SecretRef, hiding working models from the Control UI and macOS picker",
+        "url": "https://github.com/openclaw/openclaw/issues/112679",
         "state": "open",
-        "author": "youngting520",
-        "updatedAt": "2026-07-22T14:00:30Z"
+        "author": "chrislro",
+        "updatedAt": "2026-07-22T16:39:26Z"
       },
       {
         "kind": "issue",
-        "number": 112677,
-        "title": "[Bug]: llm-task embedded Codex run loses caller agent identity and resolves tools.exec from global policy",
-        "url": "https://github.com/openclaw/openclaw/issues/112677",
+        "number": 112680,
+        "title": "openclaw models list (default view) crashes with TypeError in applyAnthropicSonnet5Cost when a configured Anthropic Sonnet 5 ref is not resolvable from the registry",
+        "url": "https://github.com/openclaw/openclaw/issues/112680",
         "state": "open",
-        "author": "PabloDaVa",
-        "updatedAt": "2026-07-22T13:54:34Z"
+        "author": "chrislro",
+        "updatedAt": "2026-07-22T16:32:06Z"
       },
       {
         "kind": "issue",
-        "number": 112645,
-        "title": "models list (and Control UI model picker) crashes: `Cannot read properties of undefined (reading 'input')` in applyAnthropicSonnet5Cost when a model row has no cost",
-        "url": "https://github.com/openclaw/openclaw/issues/112645",
-        "state": "closed",
-        "author": "shng-fujiwara",
-        "updatedAt": "2026-07-22T13:54:05Z"
+        "number": 112698,
+        "title": "[Bug]: Codex app-server notification path starves Gateway main thread ~22s — quadratic reasoning-snapshot rebuild per streaming delta (2026.7.1-2)",
+        "url": "https://github.com/openclaw/openclaw/issues/112698",
+        "state": "open",
+        "author": "hvhoon",
+        "updatedAt": "2026-07-22T16:25:28Z"
+      },
+      {
+        "kind": "issue",
+        "number": 7669,
+        "title": "[Feature] Re-enable dev channel distribution tag for npm releases",
+        "url": "https://github.com/openclaw/openclaw/issues/7669",
+        "state": "open",
+        "author": "ImBIOS",
+        "updatedAt": "2026-07-22T16:22:29Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112050,
+        "title": "Gemini schema cleanup can leave array-valued type fields",
+        "url": "https://github.com/openclaw/openclaw/issues/112050",
+        "state": "open",
+        "author": "ooiuuii",
+        "updatedAt": "2026-07-22T16:19:16Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112697,
+        "title": "[Bug]: Slack foreground fence drops earlier admitted final instead of committing finals in order",
+        "url": "https://github.com/openclaw/openclaw/issues/112697",
+        "state": "open",
+        "author": "jalehman",
+        "updatedAt": "2026-07-22T16:18:59Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 95824,
-        "title": "fix(deepinfra): use OpenAI video end point and tag DeepSeek thinking format",
-        "url": "https://github.com/openclaw/openclaw/pull/95824",
+        "number": 112609,
+        "title": "[AI-assisted] docs: normalize maturity taxonomy links without /index suffix",
+        "url": "https://github.com/openclaw/openclaw/pull/112609",
         "state": "open",
-        "author": "ats3v",
-        "updatedAt": "2026-07-22T14:20:43Z"
+        "author": "santhiprakash",
+        "updatedAt": "2026-07-22T16:43:22Z"
       },
       {
         "kind": "pr",
-        "number": 102383,
-        "title": "Manage Claw cron jobs through the gateway",
-        "url": "https://github.com/openclaw/openclaw/pull/102383",
+        "number": 110058,
+        "title": "fix(line): deliver pre-drain spool rows instead of dead-lettering them on upgrade",
+        "url": "https://github.com/openclaw/openclaw/pull/110058",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-22T14:20:39Z"
+        "author": "edenfunf",
+        "updatedAt": "2026-07-22T16:40:11Z"
       },
       {
         "kind": "pr",
-        "number": 102406,
-        "title": "Manage Claw MCP server ownership",
-        "url": "https://github.com/openclaw/openclaw/pull/102406",
+        "number": 111422,
+        "title": " fix(cron): detect ===DONE_ERR=== sentinel in agent final text as failure signal",
+        "url": "https://github.com/openclaw/openclaw/pull/111422",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-22T14:20:25Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-07-22T16:40:08Z"
       },
       {
         "kind": "pr",
-        "number": 112673,
-        "title": "chore(ui): refresh control ui locales",
-        "url": "https://github.com/openclaw/openclaw/pull/112673",
+        "number": 89604,
+        "title": "fix(gateway): skip pending reply drain on skip-deferral restart",
+        "url": "https://github.com/openclaw/openclaw/pull/89604",
         "state": "open",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-07-22T14:19:39Z"
+        "author": "SebTardif",
+        "updatedAt": "2026-07-22T16:38:31Z"
       },
       {
         "kind": "pr",
-        "number": 112561,
-        "title": "fix(browser): keep guarded CDP sockets on validated endpoints [AI]",
-        "url": "https://github.com/openclaw/openclaw/pull/112561",
-        "state": "open",
-        "author": "pgondhi987",
-        "updatedAt": "2026-07-22T14:19:08Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112559,
-        "title": "fix: pin Plivo callback URLs to public webhook path [AI]",
-        "url": "https://github.com/openclaw/openclaw/pull/112559",
+        "number": 112662,
+        "title": "chore(i18n): refresh native locales",
+        "url": "https://github.com/openclaw/openclaw/pull/112662",
         "state": "closed",
-        "author": "pgondhi987",
-        "updatedAt": "2026-07-22T14:18:47Z"
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-07-22T16:38:26Z"
+      },
+      {
+        "kind": "pr",
+        "number": 96113,
+        "title": "feat(sessions): add read-only diagnose command",
+        "url": "https://github.com/openclaw/openclaw/pull/96113",
+        "state": "open",
+        "author": "zaidazmi",
+        "updatedAt": "2026-07-22T16:37:42Z"
       }
     ]
   }

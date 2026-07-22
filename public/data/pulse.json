@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-22T16:43:34.169Z",
+  "generatedAt": "2026-07-22T18:20:41.454Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -136,11 +136,11 @@
     },
     {
       "capturedOn": "2026-07-22",
-      "capturedAt": "2026-07-22T16:43:34.169Z",
-      "issueOpen": 3962,
+      "capturedAt": "2026-07-22T18:20:41.454Z",
+      "issueOpen": 3973,
       "issueClosed": 40644,
-      "prOpen": 2967,
-      "prClosed": 62711,
+      "prOpen": 2973,
+      "prClosed": 62714,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -150,113 +150,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 112679,
-        "title": "models.list reports available:false for any provider whose auth profile uses a non-env (exec/file) SecretRef, hiding working models from the Control UI and macOS picker",
-        "url": "https://github.com/openclaw/openclaw/issues/112679",
+        "number": 112719,
+        "title": "Setup-required plugins fail install and uninstall validation",
+        "url": "https://github.com/openclaw/openclaw/issues/112719",
         "state": "open",
-        "author": "chrislro",
-        "updatedAt": "2026-07-22T16:39:26Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-22T18:20:04Z"
       },
       {
         "kind": "issue",
-        "number": 112680,
-        "title": "openclaw models list (default view) crashes with TypeError in applyAnthropicSonnet5Cost when a configured Anthropic Sonnet 5 ref is not resolvable from the registry",
-        "url": "https://github.com/openclaw/openclaw/issues/112680",
+        "number": 112718,
+        "title": "Plugin lifecycle commands race across processes",
+        "url": "https://github.com/openclaw/openclaw/issues/112718",
         "state": "open",
-        "author": "chrislro",
-        "updatedAt": "2026-07-22T16:32:06Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-22T18:19:55Z"
       },
       {
         "kind": "issue",
-        "number": 112698,
-        "title": "[Bug]: Codex app-server notification path starves Gateway main thread ~22s — quadratic reasoning-snapshot rebuild per streaming delta (2026.7.1-2)",
-        "url": "https://github.com/openclaw/openclaw/issues/112698",
+        "number": 112423,
+        "title": "[Bug]: Large SQLite transcript cleanup blocks the gateway event loop",
+        "url": "https://github.com/openclaw/openclaw/issues/112423",
         "state": "open",
-        "author": "hvhoon",
-        "updatedAt": "2026-07-22T16:25:28Z"
-      },
-      {
-        "kind": "issue",
-        "number": 7669,
-        "title": "[Feature] Re-enable dev channel distribution tag for npm releases",
-        "url": "https://github.com/openclaw/openclaw/issues/7669",
-        "state": "open",
-        "author": "ImBIOS",
-        "updatedAt": "2026-07-22T16:22:29Z"
-      },
-      {
-        "kind": "issue",
-        "number": 112050,
-        "title": "Gemini schema cleanup can leave array-valued type fields",
-        "url": "https://github.com/openclaw/openclaw/issues/112050",
-        "state": "open",
-        "author": "ooiuuii",
-        "updatedAt": "2026-07-22T16:19:16Z"
-      },
-      {
-        "kind": "issue",
-        "number": 112697,
-        "title": "[Bug]: Slack foreground fence drops earlier admitted final instead of committing finals in order",
-        "url": "https://github.com/openclaw/openclaw/issues/112697",
-        "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-07-22T16:18:59Z"
+        "author": "HermanZeng",
+        "updatedAt": "2026-07-22T18:04:01Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 112609,
-        "title": "[AI-assisted] docs: normalize maturity taxonomy links without /index suffix",
-        "url": "https://github.com/openclaw/openclaw/pull/112609",
+        "number": 112709,
+        "title": "feat(tasks): support atomic managed TaskFlow cancellation state",
+        "url": "https://github.com/openclaw/openclaw/pull/112709",
         "state": "open",
-        "author": "santhiprakash",
-        "updatedAt": "2026-07-22T16:43:22Z"
+        "author": "Jukeman9",
+        "updatedAt": "2026-07-22T18:19:35Z"
       },
       {
         "kind": "pr",
-        "number": 110058,
-        "title": "fix(line): deliver pre-drain spool rows instead of dead-lettering them on upgrade",
-        "url": "https://github.com/openclaw/openclaw/pull/110058",
+        "number": 112717,
+        "title": "fix(gateway): shutdown reports unresolved SecretRef warnings when channel credentials use exec/file refs",
+        "url": "https://github.com/openclaw/openclaw/pull/112717",
         "state": "open",
-        "author": "edenfunf",
-        "updatedAt": "2026-07-22T16:40:11Z"
+        "author": "BharZInstein",
+        "updatedAt": "2026-07-22T18:18:51Z"
       },
       {
         "kind": "pr",
-        "number": 111422,
-        "title": " fix(cron): detect ===DONE_ERR=== sentinel in agent final text as failure signal",
-        "url": "https://github.com/openclaw/openclaw/pull/111422",
+        "number": 108287,
+        "title": "fix(sqlite): allow verified shared wal backports",
+        "url": "https://github.com/openclaw/openclaw/pull/108287",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-07-22T16:40:08Z"
+        "author": "eugene-harold-krabs",
+        "updatedAt": "2026-07-22T18:18:49Z"
       },
       {
         "kind": "pr",
-        "number": 89604,
-        "title": "fix(gateway): skip pending reply drain on skip-deferral restart",
-        "url": "https://github.com/openclaw/openclaw/pull/89604",
+        "number": 94299,
+        "title": "fix(codex): keep root memory in bootstrap context",
+        "url": "https://github.com/openclaw/openclaw/pull/94299",
         "state": "open",
-        "author": "SebTardif",
-        "updatedAt": "2026-07-22T16:38:31Z"
+        "author": "nicknmorty",
+        "updatedAt": "2026-07-22T18:17:11Z"
       },
       {
         "kind": "pr",
-        "number": 112662,
-        "title": "chore(i18n): refresh native locales",
-        "url": "https://github.com/openclaw/openclaw/pull/112662",
-        "state": "closed",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-07-22T16:38:26Z"
+        "number": 101276,
+        "title": "feat(exec): deny-over-allow exec approval denylist (#6615)",
+        "url": "https://github.com/openclaw/openclaw/pull/101276",
+        "state": "open",
+        "author": "nicknmorty",
+        "updatedAt": "2026-07-22T18:17:08Z"
       },
       {
         "kind": "pr",
-        "number": 96113,
-        "title": "feat(sessions): add read-only diagnose command",
-        "url": "https://github.com/openclaw/openclaw/pull/96113",
+        "number": 81185,
+        "title": "Redact exec tool result payloads",
+        "url": "https://github.com/openclaw/openclaw/pull/81185",
         "state": "open",
-        "author": "zaidazmi",
-        "updatedAt": "2026-07-22T16:37:42Z"
+        "author": "nicknmorty",
+        "updatedAt": "2026-07-22T18:16:59Z"
       }
     ]
   }

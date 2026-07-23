@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-23T03:44:44.457Z",
+  "generatedAt": "2026-07-23T06:38:51.127Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -147,11 +147,11 @@
     },
     {
       "capturedOn": "2026-07-23",
-      "capturedAt": "2026-07-23T03:44:44.457Z",
-      "issueOpen": 4006,
-      "issueClosed": 40660,
-      "prOpen": 2971,
-      "prClosed": 62816,
+      "capturedAt": "2026-07-23T06:38:51.127Z",
+      "issueOpen": 3999,
+      "issueClosed": 40679,
+      "prOpen": 2905,
+      "prClosed": 62946,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -161,104 +161,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 112867,
-        "title": "Voice Wake migration conflict causes permanent Gateway startup refusal",
-        "url": "https://github.com/openclaw/openclaw/issues/112867",
+        "number": 112173,
+        "title": "ACP workers hang forever on permission prompts when Gateway runs as a hidden-console Windows service (stdin.isTTY=true)",
+        "url": "https://github.com/openclaw/openclaw/issues/112173",
         "state": "open",
-        "author": "miorbnli",
-        "updatedAt": "2026-07-23T03:43:48Z"
+        "author": "Yuyorman",
+        "updatedAt": "2026-07-23T06:38:46Z"
       },
       {
         "kind": "issue",
-        "number": 112154,
-        "title": "[Performance] O(N) lookup bottleneck in active connection session registry",
-        "url": "https://github.com/openclaw/openclaw/issues/112154",
-        "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-23T03:37:33Z"
-      },
-      {
-        "kind": "issue",
-        "number": 112146,
-        "title": "[Architecture] Formalize plugin capability manifest validation schema",
-        "url": "https://github.com/openclaw/openclaw/issues/112146",
-        "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-23T03:34:15Z"
-      },
-      {
-        "kind": "issue",
-        "number": 112152,
-        "title": "[Security] Open redirect vulnerability in OAuth authorization callback handler",
-        "url": "https://github.com/openclaw/openclaw/issues/112152",
-        "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-23T03:34:04Z"
-      },
-      {
-        "kind": "issue",
-        "number": 112145,
-        "title": "[Performance] High GC pressure from frequent string allocations in log redaction filter",
-        "url": "https://github.com/openclaw/openclaw/issues/112145",
-        "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-23T03:33:52Z"
+        "number": 77966,
+        "title": "Google Meet Chrome talk-back can report speechOutputVerified while participants hear silence via BlackHole/SoX",
+        "url": "https://github.com/openclaw/openclaw/issues/77966",
+        "state": "closed",
+        "author": "BIGWOO",
+        "updatedAt": "2026-07-23T06:33:15Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 110582,
-        "title": "feat(gateway): pre-handshake WebSocket origin gate reusing checkBrowserOrigin",
-        "url": "https://github.com/openclaw/openclaw/pull/110582",
-        "state": "open",
-        "author": "markfietje",
-        "updatedAt": "2026-07-23T03:44:35Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112868,
-        "title": "fix(cli): keep public CA roots for macOS one-shot commands",
-        "url": "https://github.com/openclaw/openclaw/pull/112868",
+        "number": 112931,
+        "title": "refactor(meetings): share Teams and Zoom Chrome transport",
+        "url": "https://github.com/openclaw/openclaw/pull/112931",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-23T03:44:28Z"
+        "updatedAt": "2026-07-23T06:38:41Z"
       },
       {
         "kind": "pr",
-        "number": 112866,
-        "title": "fix(ui): pin session observer to pane header edge",
-        "url": "https://github.com/openclaw/openclaw/pull/112866",
+        "number": 112898,
+        "title": "fix(browser): extension relay stays offline after gateway restart",
+        "url": "https://github.com/openclaw/openclaw/pull/112898",
         "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-07-23T03:44:22Z"
+        "author": "wz-heng",
+        "updatedAt": "2026-07-23T06:38:30Z"
       },
       {
         "kind": "pr",
-        "number": 75165,
-        "title": "feat(agents): composable termination algebra + GSAR grounding scorer",
-        "url": "https://github.com/openclaw/openclaw/pull/75165",
+        "number": 75662,
+        "title": "fix(agents): pause yielded main-session runs",
+        "url": "https://github.com/openclaw/openclaw/pull/75662",
         "state": "open",
-        "author": "fede-kamel",
-        "updatedAt": "2026-07-23T03:43:52Z"
+        "author": "amittell",
+        "updatedAt": "2026-07-23T06:38:00Z"
       },
       {
         "kind": "pr",
-        "number": 112385,
-        "title": "feat(snapshot): compose RFC 0013 recovery points",
-        "url": "https://github.com/openclaw/openclaw/pull/112385",
+        "number": 103872,
+        "title": "feat(skills): preview proposals before approval",
+        "url": "https://github.com/openclaw/openclaw/pull/103872",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-23T03:43:31Z"
+        "author": "Glucksberg",
+        "updatedAt": "2026-07-23T06:37:16Z"
       },
       {
         "kind": "pr",
-        "number": 112331,
-        "title": "fix: keep model catalog coherent across config reloads",
-        "url": "https://github.com/openclaw/openclaw/pull/112331",
+        "number": 107671,
+        "title": "fix(models): clear stale auth cooldowns after early limit resets",
+        "url": "https://github.com/openclaw/openclaw/pull/107671",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-23T03:42:56Z"
+        "author": "Glucksberg",
+        "updatedAt": "2026-07-23T06:36:54Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110783,
+        "title": "fix(ios): localize Agent Pro detail labels",
+        "url": "https://github.com/openclaw/openclaw/pull/110783",
+        "state": "open",
+        "author": "Alix-007",
+        "updatedAt": "2026-07-23T06:36:48Z"
       }
     ]
   }

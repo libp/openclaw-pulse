@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-23T12:01:53.346Z",
+  "generatedAt": "2026-07-23T14:29:23.671Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -147,11 +147,11 @@
     },
     {
       "capturedOn": "2026-07-23",
-      "capturedAt": "2026-07-23T12:01:53.346Z",
-      "issueOpen": 4014,
-      "issueClosed": 40679,
-      "prOpen": 2919,
-      "prClosed": 62998,
+      "capturedAt": "2026-07-23T14:29:23.671Z",
+      "issueOpen": 4021,
+      "issueClosed": 40681,
+      "prOpen": 2921,
+      "prClosed": 63025,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -161,68 +161,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 111519,
-        "title": "[Bug]: Telegram DM replies fall back after stale DM-scope cleanup in 2026.7.2-beta.3",
-        "url": "https://github.com/openclaw/openclaw/issues/111519",
+        "number": 112581,
+        "title": "[Bug]: Discord progress draft disappears, then the session stops processing messages",
+        "url": "https://github.com/openclaw/openclaw/issues/112581",
         "state": "open",
-        "author": "RoonniieeX",
-        "updatedAt": "2026-07-23T11:54:27Z"
+        "author": "FoxFelix",
+        "updatedAt": "2026-07-23T14:28:55Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113017,
-        "title": "refactor(ui): split browser panel into chrome renderers and a lifecycle controller",
-        "url": "https://github.com/openclaw/openclaw/pull/113017",
+        "number": 112896,
+        "title": "feat(snapshot): admit restored recovery points",
+        "url": "https://github.com/openclaw/openclaw/pull/112896",
         "state": "open",
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-23T14:29:10Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112952,
+        "title": "fix: redact unquoted config secret assignments [AI]",
+        "url": "https://github.com/openclaw/openclaw/pull/112952",
+        "state": "open",
+        "author": "pgondhi987",
+        "updatedAt": "2026-07-23T14:29:04Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112947,
+        "title": "fix: redact AWS secret access keys [AI]",
+        "url": "https://github.com/openclaw/openclaw/pull/112947",
+        "state": "open",
+        "author": "pgondhi987",
+        "updatedAt": "2026-07-23T14:28:55Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112273,
+        "title": "fix(sessions): gateway becomes unusable when there are many sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/112273",
+        "state": "open",
+        "author": "ekinnee",
+        "updatedAt": "2026-07-23T14:28:53Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112756,
+        "title": "fix(gateway): keep reconnect chat replays in the canonical thread; empty branch list for fresh sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/112756",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-07-23T12:00:37Z"
+        "updatedAt": "2026-07-23T14:28:41Z"
       },
       {
         "kind": "pr",
-        "number": 112705,
-        "title": "fix: native Codex workers stall safely across parent turns",
-        "url": "https://github.com/openclaw/openclaw/pull/112705",
+        "number": 111466,
+        "title": "fix(teams-meetings): listening probes work with reused tabs",
+        "url": "https://github.com/openclaw/openclaw/pull/111466",
         "state": "open",
-        "author": "floke-bot",
-        "updatedAt": "2026-07-23T11:58:56Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110179,
-        "title": "fix(auth): decouple plugin synthetic-auth from profile fallback for gateway attempts (#110103)",
-        "url": "https://github.com/openclaw/openclaw/pull/110179",
-        "state": "open",
-        "author": "stantheman0128",
-        "updatedAt": "2026-07-23T11:58:05Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112980,
-        "title": "fix(ios): localize Agent Pro detail labels",
-        "url": "https://github.com/openclaw/openclaw/pull/112980",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-23T11:58:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113016,
-        "title": "refactor(ui): split config form into per-domain field renderers",
-        "url": "https://github.com/openclaw/openclaw/pull/113016",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-23T11:57:51Z"
-      },
-      {
-        "kind": "pr",
-        "number": 106458,
-        "title": "feat: let plugins control inbound debounce policy",
-        "url": "https://github.com/openclaw/openclaw/pull/106458",
-        "state": "open",
-        "author": "andersonjeccel",
-        "updatedAt": "2026-07-23T11:57:46Z"
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-07-23T14:28:32Z"
       }
     ]
   }

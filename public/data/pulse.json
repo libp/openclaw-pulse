@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-23T16:44:47.934Z",
+  "generatedAt": "2026-07-23T18:37:06.435Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -147,11 +147,11 @@
     },
     {
       "capturedOn": "2026-07-23",
-      "capturedAt": "2026-07-23T16:44:47.934Z",
-      "issueOpen": 4031,
-      "issueClosed": 40684,
-      "prOpen": 2923,
-      "prClosed": 63050,
+      "capturedAt": "2026-07-23T18:37:06.435Z",
+      "issueOpen": 4033,
+      "issueClosed": 40686,
+      "prOpen": 2932,
+      "prClosed": 63068,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -161,77 +161,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 44925,
-        "title": "[Bug]: Subagent completion silently lost — no retry, no notification, no auto-restart on timeout",
-        "url": "https://github.com/openclaw/openclaw/issues/44925",
-        "state": "open",
-        "author": "IIIyban",
-        "updatedAt": "2026-07-23T16:42:27Z"
+        "number": 113108,
+        "title": "[Bug]: macOS one-shot CLI drops system Keychain CA trust",
+        "url": "https://github.com/openclaw/openclaw/issues/113108",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-07-23T18:28:56Z"
       },
       {
         "kind": "issue",
-        "number": 113095,
-        "title": "Bug: v2026.7.1-2 full profile + llama.cpp MTP server returns 413/400 on tool payload",
-        "url": "https://github.com/openclaw/openclaw/issues/113095",
+        "number": 113060,
+        "title": "[Bug]: Telegram forum topics spawn a duplicate topic-less conversation row → double replies",
+        "url": "https://github.com/openclaw/openclaw/issues/113060",
         "state": "open",
-        "author": "j7l9",
-        "updatedAt": "2026-07-23T16:39:47Z"
+        "author": "dandriscoll",
+        "updatedAt": "2026-07-23T18:26:35Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 104158,
-        "title": "feat(cli): collect live paired-node commands",
-        "url": "https://github.com/openclaw/openclaw/pull/104158",
+        "number": 112678,
+        "title": "refactor(agents): move implicit-main fallback into load-time roster injection",
+        "url": "https://github.com/openclaw/openclaw/pull/112678",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-23T16:44:22Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-23T18:37:01Z"
       },
       {
         "kind": "pr",
-        "number": 113045,
-        "title": "fix(claws): normalize cron defaults during removal",
-        "url": "https://github.com/openclaw/openclaw/pull/113045",
-        "state": "closed",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-23T16:44:20Z"
+        "number": 112722,
+        "title": "chore(ui): refresh control ui locales",
+        "url": "https://github.com/openclaw/openclaw/pull/112722",
+        "state": "open",
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-07-23T18:36:56Z"
       },
       {
         "kind": "pr",
-        "number": 104160,
-        "title": "docs(cli): generate and guard command reference",
-        "url": "https://github.com/openclaw/openclaw/pull/104160",
+        "number": 112955,
+        "title": "fix: recognize more shell wrappers [AI]",
+        "url": "https://github.com/openclaw/openclaw/pull/112955",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-23T16:44:16Z"
+        "author": "pgondhi987",
+        "updatedAt": "2026-07-23T18:36:54Z"
       },
       {
         "kind": "pr",
-        "number": 100960,
-        "title": "feat: add commands list and inspect inventory",
-        "url": "https://github.com/openclaw/openclaw/pull/100960",
+        "number": 113104,
+        "title": "chore(deps): bump the actions group across 1 directory with 5 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/113104",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-23T16:44:14Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-07-23T18:36:32Z"
       },
       {
         "kind": "pr",
-        "number": 104159,
-        "title": "feat(agents): add scoped command prompt projection",
-        "url": "https://github.com/openclaw/openclaw/pull/104159",
+        "number": 112946,
+        "title": "fix: reusable exec approvals apply to approved arguments",
+        "url": "https://github.com/openclaw/openclaw/pull/112946",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-23T16:44:12Z"
+        "author": "pgondhi987",
+        "updatedAt": "2026-07-23T18:36:09Z"
       },
       {
         "kind": "pr",
-        "number": 113097,
-        "title": "fix(arcee): make OpenRouter onboarding runnable",
-        "url": "https://github.com/openclaw/openclaw/pull/113097",
+        "number": 113128,
+        "title": "fix(cli): backport macOS system CA trust",
+        "url": "https://github.com/openclaw/openclaw/pull/113128",
         "state": "open",
-        "author": "arisgysel-design",
-        "updatedAt": "2026-07-23T16:44:00Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-23T18:34:35Z"
       }
     ]
   }

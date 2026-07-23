@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-23T22:13:53.843Z",
+  "generatedAt": "2026-07-23T23:10:58.020Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -147,11 +147,11 @@
     },
     {
       "capturedOn": "2026-07-23",
-      "capturedAt": "2026-07-23T22:13:53.843Z",
-      "issueOpen": 4039,
-      "issueClosed": 40689,
-      "prOpen": 2929,
-      "prClosed": 63093,
+      "capturedAt": "2026-07-23T23:10:58.020Z",
+      "issueOpen": 4040,
+      "issueClosed": 40692,
+      "prOpen": 2927,
+      "prClosed": 63104,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -161,68 +161,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 113159,
-        "title": "Only OpenAI/Codex gets reset-time-accurate cooldown; Anthropic (and every other provider) falls back to a generic 30s→5min cooldown — despite fetchClaudeUsage already having the real reset time",
-        "url": "https://github.com/openclaw/openclaw/issues/113159",
+        "number": 11517,
+        "title": "Architecture: reduce import coupling in pi-embedded-runner/attempt.ts (50+ imports) and discord monitor (30 imports)",
+        "url": "https://github.com/openclaw/openclaw/issues/11517",
+        "state": "open",
+        "author": "Jdharris06",
+        "updatedAt": "2026-07-23T23:01:07Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113170,
+        "title": "[Feature]: Improve plain-text/iMessage projection readability — link collapse, heading distinction, list spacing",
+        "url": "https://github.com/openclaw/openclaw/issues/113170",
         "state": "open",
         "author": "Jeehut",
-        "updatedAt": "2026-07-23T22:12:36Z"
+        "updatedAt": "2026-07-23T22:54:39Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113169,
+        "title": "[Bug]: Silent OpenAI/Codex OAuth refresh miss is misreported as \"No API key found / couldn't sign in\"",
+        "url": "https://github.com/openclaw/openclaw/issues/113169",
+        "state": "open",
+        "author": "Jeehut",
+        "updatedAt": "2026-07-23T22:54:22Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113161,
+        "title": "[Bug]: managed chat images break under Control UI base paths and duplicate Codex replies",
+        "url": "https://github.com/openclaw/openclaw/issues/113161",
+        "state": "closed",
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-07-23T22:49:16Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113152,
-        "title": "fix(feishu): settle outbound lifecycle after delivery",
-        "url": "https://github.com/openclaw/openclaw/pull/113152",
+        "number": 111901,
+        "title": "feat(plugin-runtime): support declarative tools and single-attempt completions",
+        "url": "https://github.com/openclaw/openclaw/pull/111901",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-07-23T22:13:17Z"
+        "author": "Vicenteut",
+        "updatedAt": "2026-07-23T23:10:06Z"
       },
       {
         "kind": "pr",
-        "number": 111541,
-        "title": "feat(localization): add locale context and message rendering",
-        "url": "https://github.com/openclaw/openclaw/pull/111541",
-        "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-23T22:12:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113104,
-        "title": "chore(deps): bump the actions group across 1 directory with 5 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/113104",
-        "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-07-23T22:12:50Z"
-      },
-      {
-        "kind": "pr",
-        "number": 83988,
-        "title": "fix(tts): defer text settlement for final-mode TTS to eliminate churn (#83511)",
-        "url": "https://github.com/openclaw/openclaw/pull/83988",
-        "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-07-23T22:12:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113158,
-        "title": "feat(telegram): render rich Markdown lists natively",
-        "url": "https://github.com/openclaw/openclaw/pull/113158",
+        "number": 112963,
+        "title": "chore: update dependencies and migrate major contracts",
+        "url": "https://github.com/openclaw/openclaw/pull/112963",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-23T22:11:51Z"
+        "updatedAt": "2026-07-23T23:09:38Z"
       },
       {
         "kind": "pr",
-        "number": 97845,
-        "title": "fix: antml:/mm: namespaced tool-call XML leaks into chat replies (#97750)",
-        "url": "https://github.com/openclaw/openclaw/pull/97845",
+        "number": 113171,
+        "title": "fix(gateway): bound session catalog refresh pressure",
+        "url": "https://github.com/openclaw/openclaw/pull/113171",
         "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-07-23T22:11:33Z"
+        "author": "zilokki-bot",
+        "updatedAt": "2026-07-23T23:08:51Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113146,
+        "title": "fix(gateway): resolve keyed default agents",
+        "url": "https://github.com/openclaw/openclaw/pull/113146",
+        "state": "open",
+        "author": "IWhatsskill",
+        "updatedAt": "2026-07-23T23:08:09Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113172,
+        "title": "fix: restore full release validation on current main",
+        "url": "https://github.com/openclaw/openclaw/pull/113172",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-23T23:09:31Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112551,
+        "title": "fix(compaction): prune old image blocks from summarization input (#111856)",
+        "url": "https://github.com/openclaw/openclaw/pull/112551",
+        "state": "open",
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-07-23T23:05:54Z"
       }
     ]
   }

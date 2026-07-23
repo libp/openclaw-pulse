@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-22T18:20:41.454Z",
+  "generatedAt": "2026-07-23T00:14:31.464Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -144,92 +144,112 @@
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-07-23",
+      "capturedAt": "2026-07-23T00:14:31.464Z",
+      "issueOpen": 3993,
+      "issueClosed": 40652,
+      "prOpen": 2973,
+      "prClosed": 62777,
+      "workflowRuns": 40000,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 112719,
-        "title": "Setup-required plugins fail install and uninstall validation",
-        "url": "https://github.com/openclaw/openclaw/issues/112719",
+        "number": 112098,
+        "title": "[Bug] Silent failure when loading multi-file workflow skills with circular references",
+        "url": "https://github.com/openclaw/openclaw/issues/112098",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-22T18:20:04Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-23T00:12:14Z"
       },
       {
         "kind": "issue",
-        "number": 112718,
-        "title": "Plugin lifecycle commands race across processes",
-        "url": "https://github.com/openclaw/openclaw/issues/112718",
+        "number": 112806,
+        "title": "[Bug]: Lark Drive comments are dropped when startup bot identity is unavailable",
+        "url": "https://github.com/openclaw/openclaw/issues/112806",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-22T18:19:55Z"
+        "author": "joshavant",
+        "updatedAt": "2026-07-23T00:10:21Z"
       },
       {
         "kind": "issue",
-        "number": 112423,
-        "title": "[Bug]: Large SQLite transcript cleanup blocks the gateway event loop",
-        "url": "https://github.com/openclaw/openclaw/issues/112423",
+        "number": 112097,
+        "title": "[Performance] Excess WebSocket re-renders in Control UI due to un-debounced status streaming",
+        "url": "https://github.com/openclaw/openclaw/issues/112097",
         "state": "open",
-        "author": "HermanZeng",
-        "updatedAt": "2026-07-22T18:04:01Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-23T00:09:27Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112090,
+        "title": "[Bug] Concurrency deadlock in session transcript log rotation during continuous agent streaming",
+        "url": "https://github.com/openclaw/openclaw/issues/112090",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-23T00:09:16Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 112709,
-        "title": "feat(tasks): support atomic managed TaskFlow cancellation state",
-        "url": "https://github.com/openclaw/openclaw/pull/112709",
+        "number": 111955,
+        "title": "fix(slack): preserve native tables during outbound delivery",
+        "url": "https://github.com/openclaw/openclaw/pull/111955",
         "state": "open",
-        "author": "Jukeman9",
-        "updatedAt": "2026-07-22T18:19:35Z"
+        "author": "rabsef-bicrym",
+        "updatedAt": "2026-07-23T00:14:17Z"
       },
       {
         "kind": "pr",
-        "number": 112717,
-        "title": "fix(gateway): shutdown reports unresolved SecretRef warnings when channel credentials use exec/file refs",
-        "url": "https://github.com/openclaw/openclaw/pull/112717",
+        "number": 111861,
+        "title": "refactor(sessions): canonical lineage model — creation provenance, fork ancestry, generation chain, typed row contract",
+        "url": "https://github.com/openclaw/openclaw/pull/111861",
         "state": "open",
-        "author": "BharZInstein",
-        "updatedAt": "2026-07-22T18:18:51Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-23T00:14:17Z"
       },
       {
         "kind": "pr",
-        "number": 108287,
-        "title": "fix(sqlite): allow verified shared wal backports",
-        "url": "https://github.com/openclaw/openclaw/pull/108287",
+        "number": 112804,
+        "title": "fix(outbound): ignore a blank reply-payload location",
+        "url": "https://github.com/openclaw/openclaw/pull/112804",
         "state": "open",
-        "author": "eugene-harold-krabs",
-        "updatedAt": "2026-07-22T18:18:49Z"
+        "author": "masatohoshino",
+        "updatedAt": "2026-07-23T00:14:10Z"
       },
       {
         "kind": "pr",
-        "number": 94299,
-        "title": "fix(codex): keep root memory in bootstrap context",
-        "url": "https://github.com/openclaw/openclaw/pull/94299",
+        "number": 112800,
+        "title": "fix(voice-call): pin Twilio webhook verification to the configured public path",
+        "url": "https://github.com/openclaw/openclaw/pull/112800",
         "state": "open",
-        "author": "nicknmorty",
-        "updatedAt": "2026-07-22T18:17:11Z"
+        "author": "masatohoshino",
+        "updatedAt": "2026-07-23T00:14:05Z"
       },
       {
         "kind": "pr",
-        "number": 101276,
-        "title": "feat(exec): deny-over-allow exec approval denylist (#6615)",
-        "url": "https://github.com/openclaw/openclaw/pull/101276",
+        "number": 112807,
+        "title": "fix(feishu): keep Drive comments working through identity outages",
+        "url": "https://github.com/openclaw/openclaw/pull/112807",
         "state": "open",
-        "author": "nicknmorty",
-        "updatedAt": "2026-07-22T18:17:08Z"
+        "author": "joshavant",
+        "updatedAt": "2026-07-23T00:13:52Z"
       },
       {
         "kind": "pr",
-        "number": 81185,
-        "title": "Redact exec tool result payloads",
-        "url": "https://github.com/openclaw/openclaw/pull/81185",
+        "number": 112782,
+        "title": "refactor: hoist channel doctor migration helpers",
+        "url": "https://github.com/openclaw/openclaw/pull/112782",
         "state": "open",
-        "author": "nicknmorty",
-        "updatedAt": "2026-07-22T18:16:59Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-23T00:13:35Z"
       }
     ]
   }

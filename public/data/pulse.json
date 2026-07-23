@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-23T14:29:23.671Z",
+  "generatedAt": "2026-07-23T16:44:47.934Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -147,11 +147,11 @@
     },
     {
       "capturedOn": "2026-07-23",
-      "capturedAt": "2026-07-23T14:29:23.671Z",
-      "issueOpen": 4021,
-      "issueClosed": 40681,
-      "prOpen": 2921,
-      "prClosed": 63025,
+      "capturedAt": "2026-07-23T16:44:47.934Z",
+      "issueOpen": 4031,
+      "issueClosed": 40684,
+      "prOpen": 2923,
+      "prClosed": 63050,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -161,68 +161,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 112581,
-        "title": "[Bug]: Discord progress draft disappears, then the session stops processing messages",
-        "url": "https://github.com/openclaw/openclaw/issues/112581",
+        "number": 44925,
+        "title": "[Bug]: Subagent completion silently lost — no retry, no notification, no auto-restart on timeout",
+        "url": "https://github.com/openclaw/openclaw/issues/44925",
         "state": "open",
-        "author": "FoxFelix",
-        "updatedAt": "2026-07-23T14:28:55Z"
+        "author": "IIIyban",
+        "updatedAt": "2026-07-23T16:42:27Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113095,
+        "title": "Bug: v2026.7.1-2 full profile + llama.cpp MTP server returns 413/400 on tool payload",
+        "url": "https://github.com/openclaw/openclaw/issues/113095",
+        "state": "open",
+        "author": "j7l9",
+        "updatedAt": "2026-07-23T16:39:47Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 112896,
-        "title": "feat(snapshot): admit restored recovery points",
-        "url": "https://github.com/openclaw/openclaw/pull/112896",
+        "number": 104158,
+        "title": "feat(cli): collect live paired-node commands",
+        "url": "https://github.com/openclaw/openclaw/pull/104158",
         "state": "open",
         "author": "giodl73-repo",
-        "updatedAt": "2026-07-23T14:29:10Z"
+        "updatedAt": "2026-07-23T16:44:22Z"
       },
       {
         "kind": "pr",
-        "number": 112952,
-        "title": "fix: redact unquoted config secret assignments [AI]",
-        "url": "https://github.com/openclaw/openclaw/pull/112952",
-        "state": "open",
-        "author": "pgondhi987",
-        "updatedAt": "2026-07-23T14:29:04Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112947,
-        "title": "fix: redact AWS secret access keys [AI]",
-        "url": "https://github.com/openclaw/openclaw/pull/112947",
-        "state": "open",
-        "author": "pgondhi987",
-        "updatedAt": "2026-07-23T14:28:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112273,
-        "title": "fix(sessions): gateway becomes unusable when there are many sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/112273",
-        "state": "open",
-        "author": "ekinnee",
-        "updatedAt": "2026-07-23T14:28:53Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112756,
-        "title": "fix(gateway): keep reconnect chat replays in the canonical thread; empty branch list for fresh sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/112756",
+        "number": 113045,
+        "title": "fix(claws): normalize cron defaults during removal",
+        "url": "https://github.com/openclaw/openclaw/pull/113045",
         "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-07-23T14:28:41Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-23T16:44:20Z"
       },
       {
         "kind": "pr",
-        "number": 111466,
-        "title": "fix(teams-meetings): listening probes work with reused tabs",
-        "url": "https://github.com/openclaw/openclaw/pull/111466",
+        "number": 104160,
+        "title": "docs(cli): generate and guard command reference",
+        "url": "https://github.com/openclaw/openclaw/pull/104160",
         "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-07-23T14:28:32Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-23T16:44:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 100960,
+        "title": "feat: add commands list and inspect inventory",
+        "url": "https://github.com/openclaw/openclaw/pull/100960",
+        "state": "open",
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-23T16:44:14Z"
+      },
+      {
+        "kind": "pr",
+        "number": 104159,
+        "title": "feat(agents): add scoped command prompt projection",
+        "url": "https://github.com/openclaw/openclaw/pull/104159",
+        "state": "open",
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-23T16:44:12Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113097,
+        "title": "fix(arcee): make OpenRouter onboarding runnable",
+        "url": "https://github.com/openclaw/openclaw/pull/113097",
+        "state": "open",
+        "author": "arisgysel-design",
+        "updatedAt": "2026-07-23T16:44:00Z"
       }
     ]
   }

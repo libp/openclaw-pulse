@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-23T18:37:06.435Z",
+  "generatedAt": "2026-07-23T20:19:24.175Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -147,11 +147,11 @@
     },
     {
       "capturedOn": "2026-07-23",
-      "capturedAt": "2026-07-23T18:37:06.435Z",
+      "capturedAt": "2026-07-23T20:19:24.175Z",
       "issueOpen": 4033,
-      "issueClosed": 40686,
-      "prOpen": 2932,
-      "prClosed": 63068,
+      "issueClosed": 40689,
+      "prOpen": 2926,
+      "prClosed": 63084,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -161,32 +161,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 113108,
-        "title": "[Bug]: macOS one-shot CLI drops system Keychain CA trust",
-        "url": "https://github.com/openclaw/openclaw/issues/113108",
+        "number": 112341,
+        "title": "[Bug]: Session→SQLite migration deadlocks (`distinct filesystem aliases`) on large-inode filesystems (virtiofs/Kata) — `statSync().ino` read as JS Number loses precision",
+        "url": "https://github.com/openclaw/openclaw/issues/112341",
         "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-07-23T18:28:56Z"
+        "author": "p0pfan",
+        "updatedAt": "2026-07-23T20:14:00Z"
       },
       {
         "kind": "issue",
-        "number": 113060,
-        "title": "[Bug]: Telegram forum topics spawn a duplicate topic-less conversation row → double replies",
-        "url": "https://github.com/openclaw/openclaw/issues/113060",
+        "number": 113140,
+        "title": "Feature Request: Dashboard Session Routing for User Notifications",
+        "url": "https://github.com/openclaw/openclaw/issues/113140",
         "state": "open",
-        "author": "dandriscoll",
-        "updatedAt": "2026-07-23T18:26:35Z"
+        "author": "Net-Sentinel",
+        "updatedAt": "2026-07-23T20:09:34Z"
+      },
+      {
+        "kind": "issue",
+        "number": 7524,
+        "title": "Feature: groupScope option to consolidate group sessions into main",
+        "url": "https://github.com/openclaw/openclaw/issues/7524",
+        "state": "open",
+        "author": "ThatGuySizemore",
+        "updatedAt": "2026-07-23T20:07:32Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113139,
+        "title": "repairOpenClawStateDatabaseSchema opens a new DatabaseSync connection without setting PRAGMA busy_timeout",
+        "url": "https://github.com/openclaw/openclaw/issues/113139",
+        "state": "open",
+        "author": "Nelsoncongbao",
+        "updatedAt": "2026-07-23T19:56:49Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 112678,
-        "title": "refactor(agents): move implicit-main fallback into load-time roster injection",
-        "url": "https://github.com/openclaw/openclaw/pull/112678",
+        "number": 113141,
+        "title": "refactor(cron): split timer lifecycle",
+        "url": "https://github.com/openclaw/openclaw/pull/113141",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-23T18:37:01Z"
+        "updatedAt": "2026-07-23T20:18:56Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110037,
+        "title": "fix(feeds): accept standard DSSE envelopes",
+        "url": "https://github.com/openclaw/openclaw/pull/110037",
+        "state": "open",
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-23T20:18:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111455,
+        "title": "fix(teams-meetings): stalled setup probes stay within deadline",
+        "url": "https://github.com/openclaw/openclaw/pull/111455",
+        "state": "open",
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-07-23T20:18:31Z"
       },
       {
         "kind": "pr",
@@ -195,16 +231,16 @@
         "url": "https://github.com/openclaw/openclaw/pull/112722",
         "state": "open",
         "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-07-23T18:36:56Z"
+        "updatedAt": "2026-07-23T20:17:57Z"
       },
       {
         "kind": "pr",
-        "number": 112955,
-        "title": "fix: recognize more shell wrappers [AI]",
-        "url": "https://github.com/openclaw/openclaw/pull/112955",
+        "number": 113136,
+        "title": "fix(system-agent): avoid TUI startup catalog preparation",
+        "url": "https://github.com/openclaw/openclaw/pull/113136",
         "state": "open",
-        "author": "pgondhi987",
-        "updatedAt": "2026-07-23T18:36:54Z"
+        "author": "eugene-harold-krabs",
+        "updatedAt": "2026-07-23T20:17:53Z"
       },
       {
         "kind": "pr",
@@ -213,25 +249,7 @@
         "url": "https://github.com/openclaw/openclaw/pull/113104",
         "state": "open",
         "author": "dependabot[bot]",
-        "updatedAt": "2026-07-23T18:36:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112946,
-        "title": "fix: reusable exec approvals apply to approved arguments",
-        "url": "https://github.com/openclaw/openclaw/pull/112946",
-        "state": "open",
-        "author": "pgondhi987",
-        "updatedAt": "2026-07-23T18:36:09Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113128,
-        "title": "fix(cli): backport macOS system CA trust",
-        "url": "https://github.com/openclaw/openclaw/pull/113128",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-23T18:34:35Z"
+        "updatedAt": "2026-07-23T20:16:57Z"
       }
     ]
   }

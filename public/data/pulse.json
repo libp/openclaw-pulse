@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-23T09:35:09.687Z",
+  "generatedAt": "2026-07-23T12:01:53.346Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -147,11 +147,11 @@
     },
     {
       "capturedOn": "2026-07-23",
-      "capturedAt": "2026-07-23T09:35:09.687Z",
-      "issueOpen": 4010,
-      "issueClosed": 40677,
-      "prOpen": 2920,
-      "prClosed": 62969,
+      "capturedAt": "2026-07-23T12:01:53.346Z",
+      "issueOpen": 4014,
+      "issueClosed": 40679,
+      "prOpen": 2919,
+      "prClosed": 62998,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -161,104 +161,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 112994,
-        "title": "[Bug]: multiple ollama server issues",
-        "url": "https://github.com/openclaw/openclaw/issues/112994",
+        "number": 111519,
+        "title": "[Bug]: Telegram DM replies fall back after stale DM-scope cleanup in 2026.7.2-beta.3",
+        "url": "https://github.com/openclaw/openclaw/issues/111519",
         "state": "open",
-        "author": "askforfly",
-        "updatedAt": "2026-07-23T09:34:58Z"
-      },
-      {
-        "kind": "issue",
-        "number": 112196,
-        "title": "memory_search: transient sync timeout masks as persistent provider failure / \"database is not open\"",
-        "url": "https://github.com/openclaw/openclaw/issues/112196",
-        "state": "open",
-        "author": "leiouhe",
-        "updatedAt": "2026-07-23T09:35:01Z"
-      },
-      {
-        "kind": "issue",
-        "number": 86159,
-        "title": "Feature: diagnostics stuck-session recovery ladder (steer → nudge → abort)",
-        "url": "https://github.com/openclaw/openclaw/issues/86159",
-        "state": "open",
-        "author": "tagomago-me",
-        "updatedAt": "2026-07-23T09:34:47Z"
-      },
-      {
-        "kind": "issue",
-        "number": 112995,
-        "title": "Beta blocker: channel plugins - published packages fail after SDK export removals",
-        "url": "https://github.com/openclaw/openclaw/issues/112995",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-23T09:34:06Z"
-      },
-      {
-        "kind": "issue",
-        "number": 67419,
-        "title": "Session context bloat: bootstrap files re-injected every turn, wasting 20-30% tokens",
-        "url": "https://github.com/openclaw/openclaw/issues/67419",
-        "state": "open",
-        "author": "Ekko-2xko",
-        "updatedAt": "2026-07-23T09:33:01Z"
+        "author": "RoonniieeX",
+        "updatedAt": "2026-07-23T11:54:27Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 112936,
-        "title": "refactor(ui): one job per sidebar zone — shell chrome controls, header presence, slim footer",
-        "url": "https://github.com/openclaw/openclaw/pull/112936",
+        "number": 113017,
+        "title": "refactor(ui): split browser panel into chrome renderers and a lifecycle controller",
+        "url": "https://github.com/openclaw/openclaw/pull/113017",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-23T09:35:00Z"
+        "updatedAt": "2026-07-23T12:00:37Z"
       },
       {
         "kind": "pr",
-        "number": 112916,
-        "title": "feat(openai): make million-token context an explicit opt-in",
-        "url": "https://github.com/openclaw/openclaw/pull/112916",
-        "state": "closed",
+        "number": 112705,
+        "title": "fix: native Codex workers stall safely across parent turns",
+        "url": "https://github.com/openclaw/openclaw/pull/112705",
+        "state": "open",
+        "author": "floke-bot",
+        "updatedAt": "2026-07-23T11:58:56Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110179,
+        "title": "fix(auth): decouple plugin synthetic-auth from profile fallback for gateway attempts (#110103)",
+        "url": "https://github.com/openclaw/openclaw/pull/110179",
+        "state": "open",
+        "author": "stantheman0128",
+        "updatedAt": "2026-07-23T11:58:05Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112980,
+        "title": "fix(ios): localize Agent Pro detail labels",
+        "url": "https://github.com/openclaw/openclaw/pull/112980",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-23T09:35:00Z"
+        "updatedAt": "2026-07-23T11:58:02Z"
       },
       {
         "kind": "pr",
-        "number": 110582,
-        "title": "feat(gateway): pre-handshake origin gate for browser WebSocket clients",
-        "url": "https://github.com/openclaw/openclaw/pull/110582",
+        "number": 113016,
+        "title": "refactor(ui): split config form into per-domain field renderers",
+        "url": "https://github.com/openclaw/openclaw/pull/113016",
         "state": "open",
-        "author": "markfietje",
-        "updatedAt": "2026-07-23T09:34:48Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-23T11:57:51Z"
       },
       {
         "kind": "pr",
-        "number": 109493,
-        "title": "fix(gateway): worker workspaces recover after stalled process probes",
-        "url": "https://github.com/openclaw/openclaw/pull/109493",
+        "number": 106458,
+        "title": "feat: let plugins control inbound debounce policy",
+        "url": "https://github.com/openclaw/openclaw/pull/106458",
         "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-07-23T09:34:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 104415,
-        "title": "build(deps): bump the swift-deps group across 1 directory with 3 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/104415",
-        "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-07-23T09:34:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112033,
-        "title": "build(deps): bump the actions group across 1 directory with 12 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/112033",
-        "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-07-23T09:34:06Z"
+        "author": "andersonjeccel",
+        "updatedAt": "2026-07-23T11:57:46Z"
       }
     ]
   }

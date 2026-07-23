@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-23T20:19:24.175Z",
+  "generatedAt": "2026-07-23T22:13:53.843Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -147,11 +147,11 @@
     },
     {
       "capturedOn": "2026-07-23",
-      "capturedAt": "2026-07-23T20:19:24.175Z",
-      "issueOpen": 4033,
+      "capturedAt": "2026-07-23T22:13:53.843Z",
+      "issueOpen": 4039,
       "issueClosed": 40689,
-      "prOpen": 2926,
-      "prClosed": 63084,
+      "prOpen": 2929,
+      "prClosed": 63093,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -161,86 +161,32 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 112341,
-        "title": "[Bug]: Session→SQLite migration deadlocks (`distinct filesystem aliases`) on large-inode filesystems (virtiofs/Kata) — `statSync().ino` read as JS Number loses precision",
-        "url": "https://github.com/openclaw/openclaw/issues/112341",
-        "state": "closed",
-        "author": "p0pfan",
-        "updatedAt": "2026-07-23T20:14:00Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113140,
-        "title": "Feature Request: Dashboard Session Routing for User Notifications",
-        "url": "https://github.com/openclaw/openclaw/issues/113140",
+        "number": 113159,
+        "title": "Only OpenAI/Codex gets reset-time-accurate cooldown; Anthropic (and every other provider) falls back to a generic 30s→5min cooldown — despite fetchClaudeUsage already having the real reset time",
+        "url": "https://github.com/openclaw/openclaw/issues/113159",
         "state": "open",
-        "author": "Net-Sentinel",
-        "updatedAt": "2026-07-23T20:09:34Z"
-      },
-      {
-        "kind": "issue",
-        "number": 7524,
-        "title": "Feature: groupScope option to consolidate group sessions into main",
-        "url": "https://github.com/openclaw/openclaw/issues/7524",
-        "state": "open",
-        "author": "ThatGuySizemore",
-        "updatedAt": "2026-07-23T20:07:32Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113139,
-        "title": "repairOpenClawStateDatabaseSchema opens a new DatabaseSync connection without setting PRAGMA busy_timeout",
-        "url": "https://github.com/openclaw/openclaw/issues/113139",
-        "state": "open",
-        "author": "Nelsoncongbao",
-        "updatedAt": "2026-07-23T19:56:49Z"
+        "author": "Jeehut",
+        "updatedAt": "2026-07-23T22:12:36Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113141,
-        "title": "refactor(cron): split timer lifecycle",
-        "url": "https://github.com/openclaw/openclaw/pull/113141",
+        "number": 113152,
+        "title": "fix(feishu): settle outbound lifecycle after delivery",
+        "url": "https://github.com/openclaw/openclaw/pull/113152",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-23T20:18:56Z"
+        "author": "joshavant",
+        "updatedAt": "2026-07-23T22:13:17Z"
       },
       {
         "kind": "pr",
-        "number": 110037,
-        "title": "fix(feeds): accept standard DSSE envelopes",
-        "url": "https://github.com/openclaw/openclaw/pull/110037",
+        "number": 111541,
+        "title": "feat(localization): add locale context and message rendering",
+        "url": "https://github.com/openclaw/openclaw/pull/111541",
         "state": "open",
         "author": "giodl73-repo",
-        "updatedAt": "2026-07-23T20:18:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111455,
-        "title": "fix(teams-meetings): stalled setup probes stay within deadline",
-        "url": "https://github.com/openclaw/openclaw/pull/111455",
-        "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-07-23T20:18:31Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112722,
-        "title": "chore(ui): refresh control ui locales",
-        "url": "https://github.com/openclaw/openclaw/pull/112722",
-        "state": "open",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-07-23T20:17:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113136,
-        "title": "fix(system-agent): avoid TUI startup catalog preparation",
-        "url": "https://github.com/openclaw/openclaw/pull/113136",
-        "state": "open",
-        "author": "eugene-harold-krabs",
-        "updatedAt": "2026-07-23T20:17:53Z"
+        "updatedAt": "2026-07-23T22:12:55Z"
       },
       {
         "kind": "pr",
@@ -249,7 +195,34 @@
         "url": "https://github.com/openclaw/openclaw/pull/113104",
         "state": "open",
         "author": "dependabot[bot]",
-        "updatedAt": "2026-07-23T20:16:57Z"
+        "updatedAt": "2026-07-23T22:12:50Z"
+      },
+      {
+        "kind": "pr",
+        "number": 83988,
+        "title": "fix(tts): defer text settlement for final-mode TTS to eliminate churn (#83511)",
+        "url": "https://github.com/openclaw/openclaw/pull/83988",
+        "state": "open",
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-07-23T22:12:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113158,
+        "title": "feat(telegram): render rich Markdown lists natively",
+        "url": "https://github.com/openclaw/openclaw/pull/113158",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-23T22:11:51Z"
+      },
+      {
+        "kind": "pr",
+        "number": 97845,
+        "title": "fix: antml:/mm: namespaced tool-call XML leaks into chat replies (#97750)",
+        "url": "https://github.com/openclaw/openclaw/pull/97845",
+        "state": "open",
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-07-23T22:11:33Z"
       }
     ]
   }

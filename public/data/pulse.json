@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-23T00:14:31.464Z",
+  "generatedAt": "2026-07-23T03:44:44.457Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -147,11 +147,11 @@
     },
     {
       "capturedOn": "2026-07-23",
-      "capturedAt": "2026-07-23T00:14:31.464Z",
-      "issueOpen": 3993,
-      "issueClosed": 40652,
-      "prOpen": 2973,
-      "prClosed": 62777,
+      "capturedAt": "2026-07-23T03:44:44.457Z",
+      "issueOpen": 4006,
+      "issueClosed": 40660,
+      "prOpen": 2971,
+      "prClosed": 62816,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -161,95 +161,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 112098,
-        "title": "[Bug] Silent failure when loading multi-file workflow skills with circular references",
-        "url": "https://github.com/openclaw/openclaw/issues/112098",
+        "number": 112867,
+        "title": "Voice Wake migration conflict causes permanent Gateway startup refusal",
+        "url": "https://github.com/openclaw/openclaw/issues/112867",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-23T00:12:14Z"
+        "author": "miorbnli",
+        "updatedAt": "2026-07-23T03:43:48Z"
       },
       {
         "kind": "issue",
-        "number": 112806,
-        "title": "[Bug]: Lark Drive comments are dropped when startup bot identity is unavailable",
-        "url": "https://github.com/openclaw/openclaw/issues/112806",
+        "number": 112154,
+        "title": "[Performance] O(N) lookup bottleneck in active connection session registry",
+        "url": "https://github.com/openclaw/openclaw/issues/112154",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-07-23T00:10:21Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-23T03:37:33Z"
       },
       {
         "kind": "issue",
-        "number": 112097,
-        "title": "[Performance] Excess WebSocket re-renders in Control UI due to un-debounced status streaming",
-        "url": "https://github.com/openclaw/openclaw/issues/112097",
+        "number": 112146,
+        "title": "[Architecture] Formalize plugin capability manifest validation schema",
+        "url": "https://github.com/openclaw/openclaw/issues/112146",
         "state": "open",
         "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-23T00:09:27Z"
+        "updatedAt": "2026-07-23T03:34:15Z"
       },
       {
         "kind": "issue",
-        "number": 112090,
-        "title": "[Bug] Concurrency deadlock in session transcript log rotation during continuous agent streaming",
-        "url": "https://github.com/openclaw/openclaw/issues/112090",
+        "number": 112152,
+        "title": "[Security] Open redirect vulnerability in OAuth authorization callback handler",
+        "url": "https://github.com/openclaw/openclaw/issues/112152",
         "state": "open",
         "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-23T00:09:16Z"
+        "updatedAt": "2026-07-23T03:34:04Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112145,
+        "title": "[Performance] High GC pressure from frequent string allocations in log redaction filter",
+        "url": "https://github.com/openclaw/openclaw/issues/112145",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-23T03:33:52Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 111955,
-        "title": "fix(slack): preserve native tables during outbound delivery",
-        "url": "https://github.com/openclaw/openclaw/pull/111955",
+        "number": 110582,
+        "title": "feat(gateway): pre-handshake WebSocket origin gate reusing checkBrowserOrigin",
+        "url": "https://github.com/openclaw/openclaw/pull/110582",
         "state": "open",
-        "author": "rabsef-bicrym",
-        "updatedAt": "2026-07-23T00:14:17Z"
+        "author": "markfietje",
+        "updatedAt": "2026-07-23T03:44:35Z"
       },
       {
         "kind": "pr",
-        "number": 111861,
-        "title": "refactor(sessions): canonical lineage model — creation provenance, fork ancestry, generation chain, typed row contract",
-        "url": "https://github.com/openclaw/openclaw/pull/111861",
+        "number": 112868,
+        "title": "fix(cli): keep public CA roots for macOS one-shot commands",
+        "url": "https://github.com/openclaw/openclaw/pull/112868",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-23T00:14:17Z"
+        "updatedAt": "2026-07-23T03:44:28Z"
       },
       {
         "kind": "pr",
-        "number": 112804,
-        "title": "fix(outbound): ignore a blank reply-payload location",
-        "url": "https://github.com/openclaw/openclaw/pull/112804",
+        "number": 112866,
+        "title": "fix(ui): pin session observer to pane header edge",
+        "url": "https://github.com/openclaw/openclaw/pull/112866",
         "state": "open",
-        "author": "masatohoshino",
-        "updatedAt": "2026-07-23T00:14:10Z"
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-07-23T03:44:22Z"
       },
       {
         "kind": "pr",
-        "number": 112800,
-        "title": "fix(voice-call): pin Twilio webhook verification to the configured public path",
-        "url": "https://github.com/openclaw/openclaw/pull/112800",
+        "number": 75165,
+        "title": "feat(agents): composable termination algebra + GSAR grounding scorer",
+        "url": "https://github.com/openclaw/openclaw/pull/75165",
         "state": "open",
-        "author": "masatohoshino",
-        "updatedAt": "2026-07-23T00:14:05Z"
+        "author": "fede-kamel",
+        "updatedAt": "2026-07-23T03:43:52Z"
       },
       {
         "kind": "pr",
-        "number": 112807,
-        "title": "fix(feishu): keep Drive comments working through identity outages",
-        "url": "https://github.com/openclaw/openclaw/pull/112807",
+        "number": 112385,
+        "title": "feat(snapshot): compose RFC 0013 recovery points",
+        "url": "https://github.com/openclaw/openclaw/pull/112385",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-07-23T00:13:52Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-23T03:43:31Z"
       },
       {
         "kind": "pr",
-        "number": 112782,
-        "title": "refactor: hoist channel doctor migration helpers",
-        "url": "https://github.com/openclaw/openclaw/pull/112782",
+        "number": 112331,
+        "title": "fix: keep model catalog coherent across config reloads",
+        "url": "https://github.com/openclaw/openclaw/pull/112331",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-23T00:13:35Z"
+        "updatedAt": "2026-07-23T03:42:56Z"
       }
     ]
   }

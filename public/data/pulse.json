@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-24T19:44:46.122Z",
+  "generatedAt": "2026-07-24T21:19:52.968Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -158,11 +158,11 @@
     },
     {
       "capturedOn": "2026-07-24",
-      "capturedAt": "2026-07-24T19:44:46.122Z",
-      "issueOpen": 4074,
+      "capturedAt": "2026-07-24T21:19:52.968Z",
+      "issueOpen": 4080,
       "issueClosed": 40722,
-      "prOpen": 2896,
-      "prClosed": 63288,
+      "prOpen": 2906,
+      "prClosed": 63296,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -172,86 +172,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 113389,
-        "title": "[Bug]:Control UI chat text selection/right-click copy is broken across Chrome and Safari",
-        "url": "https://github.com/openclaw/openclaw/issues/113389",
+        "number": 113412,
+        "title": "Anthropic server-side fallbacks: Opus 5 uncovered, and pinned beta header may be superseded",
+        "url": "https://github.com/openclaw/openclaw/issues/113412",
         "state": "open",
-        "author": "bbimpacts007-crypto",
-        "updatedAt": "2026-07-24T19:41:52Z"
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-07-24T21:19:07Z"
       },
       {
         "kind": "issue",
-        "number": 113388,
-        "title": "[Feature]: Host-owned restrictive policy for embedded ACP sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/113388",
+        "number": 113411,
+        "title": "Automatic Anthropic model catalog: live Models API discovery + capability-driven contracts",
+        "url": "https://github.com/openclaw/openclaw/issues/113411",
         "state": "open",
-        "author": "xenaocx-dev",
-        "updatedAt": "2026-07-24T19:40:42Z"
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-07-24T21:18:36Z"
       },
       {
         "kind": "issue",
-        "number": 8673,
-        "title": "Add retry logic to OAuth token refresh",
-        "url": "https://github.com/openclaw/openclaw/issues/8673",
+        "number": 113410,
+        "title": "Claude CLI default model cannot move: session-creation probe is pinned to one hardcoded model id",
+        "url": "https://github.com/openclaw/openclaw/issues/113410",
         "state": "open",
-        "author": "skyblue-will",
-        "updatedAt": "2026-07-24T19:29:24Z"
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-07-24T21:18:24Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 112057,
-        "title": "docs: fix incorrect CLI command in 14 extension READMEs",
-        "url": "https://github.com/openclaw/openclaw/pull/112057",
+        "number": 113406,
+        "title": "refactor(ui): split chat pane",
+        "url": "https://github.com/openclaw/openclaw/pull/113406",
         "state": "open",
-        "author": "Hilbert-Gowin",
-        "updatedAt": "2026-07-24T19:44:24Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-24T21:19:48Z"
       },
       {
         "kind": "pr",
-        "number": 113349,
-        "title": "fix(sdk): preserve zero values in normalized event IDs",
-        "url": "https://github.com/openclaw/openclaw/pull/113349",
+        "number": 113392,
+        "title": "feat(models): add Claude Opus 5 support",
+        "url": "https://github.com/openclaw/openclaw/pull/113392",
         "state": "open",
-        "author": "destire-mio",
-        "updatedAt": "2026-07-24T19:44:14Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-24T21:19:47Z"
       },
       {
         "kind": "pr",
-        "number": 107671,
-        "title": "fix(models): clear stale auth cooldowns after early limit resets",
-        "url": "https://github.com/openclaw/openclaw/pull/107671",
+        "number": 113398,
+        "title": "fix(OpenClawKit): once-guard WebSocketTaskBox.sendPing continuation (double-resume crash)",
+        "url": "https://github.com/openclaw/openclaw/pull/113398",
         "state": "open",
-        "author": "Glucksberg",
-        "updatedAt": "2026-07-24T19:42:57Z"
+        "author": "samuelalake",
+        "updatedAt": "2026-07-24T21:19:14Z"
       },
       {
         "kind": "pr",
-        "number": 103872,
-        "title": "feat(skills): preview proposals before approval",
-        "url": "https://github.com/openclaw/openclaw/pull/103872",
+        "number": 113413,
+        "title": "feat(anthropic): resolve the bare opus alias to Claude Opus 5",
+        "url": "https://github.com/openclaw/openclaw/pull/113413",
         "state": "open",
-        "author": "Glucksberg",
-        "updatedAt": "2026-07-24T19:42:36Z"
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-07-24T21:18:46Z"
       },
       {
         "kind": "pr",
-        "number": 112589,
-        "title": "feat: add lease-bound metadata to session spawns",
-        "url": "https://github.com/openclaw/openclaw/pull/112589",
+        "number": 113407,
+        "title": "fix(discord): filter pending history by sender",
+        "url": "https://github.com/openclaw/openclaw/pull/113407",
         "state": "open",
-        "author": "yuzuqiang",
-        "updatedAt": "2026-07-24T19:40:10Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-24T21:17:49Z"
       },
       {
         "kind": "pr",
-        "number": 113226,
-        "title": "fix: workflow sanity audit passes on main",
-        "url": "https://github.com/openclaw/openclaw/pull/113226",
+        "number": 113409,
+        "title": "fix: preserve local provider errors during cron preflight",
+        "url": "https://github.com/openclaw/openclaw/pull/113409",
         "state": "open",
-        "author": "eugene-harold-krabs",
-        "updatedAt": "2026-07-24T19:40:06Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-07-24T21:17:25Z"
       }
     ]
   }

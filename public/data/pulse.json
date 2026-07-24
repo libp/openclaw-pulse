@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-24T11:55:00.365Z",
+  "generatedAt": "2026-07-24T14:10:14.974Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -158,11 +158,11 @@
     },
     {
       "capturedOn": "2026-07-24",
-      "capturedAt": "2026-07-24T11:55:00.365Z",
-      "issueOpen": 4059,
-      "issueClosed": 40716,
+      "capturedAt": "2026-07-24T14:10:14.974Z",
+      "issueOpen": 4066,
+      "issueClosed": 40718,
       "prOpen": 2893,
-      "prClosed": 63239,
+      "prClosed": 63252,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -172,77 +172,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 113315,
-        "title": "[Bug]: Telegram inbound update is permanently lost after offset persistence with no ingress, spool, or dispatch",
-        "url": "https://github.com/openclaw/openclaw/issues/113315",
+        "number": 113318,
+        "title": "[Bug]: /v1/responses client tools are dropped by the native Codex app-server harness",
+        "url": "https://github.com/openclaw/openclaw/issues/113318",
         "state": "open",
-        "author": "JesusSerrano-Seimako",
-        "updatedAt": "2026-07-24T11:54:50Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113314,
-        "title": "[Bug]: external PR CI: system-agent TUI-shell test times out (120s) on GitHub-hosted runners",
-        "url": "https://github.com/openclaw/openclaw/issues/113314",
-        "state": "open",
-        "author": "aspalagin",
-        "updatedAt": "2026-07-24T11:38:09Z"
+        "author": "hddms-matt-bot",
+        "updatedAt": "2026-07-24T13:54:01Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113307,
-        "title": "fix(install): validate downloaded scripts before execution",
-        "url": "https://github.com/openclaw/openclaw/pull/113307",
+        "number": 113338,
+        "title": "refactor(ui): split chat composer",
+        "url": "https://github.com/openclaw/openclaw/pull/113338",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-24T14:09:58Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113257,
+        "title": "fix(qa-lab): strengthen UI asset version hashing",
+        "url": "https://github.com/openclaw/openclaw/pull/113257",
+        "state": "open",
+        "author": "ARYDESTROYER",
+        "updatedAt": "2026-07-24T14:09:05Z"
+      },
+      {
+        "kind": "pr",
+        "number": 75336,
+        "title": "feat(compaction): add identifier survival validation after summarization",
+        "url": "https://github.com/openclaw/openclaw/pull/75336",
         "state": "open",
         "author": "SebTardif",
-        "updatedAt": "2026-07-24T11:54:53Z"
+        "updatedAt": "2026-07-24T14:08:26Z"
       },
       {
         "kind": "pr",
-        "number": 96645,
-        "title": "fix(mattermost): key private channels as group on outbound routing",
-        "url": "https://github.com/openclaw/openclaw/pull/96645",
+        "number": 113084,
+        "title": "feat(chat): show live run telemetry across clients",
+        "url": "https://github.com/openclaw/openclaw/pull/113084",
         "state": "open",
-        "author": "iloveleon19",
-        "updatedAt": "2026-07-24T11:54:42Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-24T14:08:11Z"
       },
       {
         "kind": "pr",
-        "number": 113316,
-        "title": "fix(test): release SQLite fixtures before Windows cleanup",
-        "url": "https://github.com/openclaw/openclaw/pull/113316",
+        "number": 112678,
+        "title": "refactor(agents): move implicit-main fallback into load-time roster injection",
+        "url": "https://github.com/openclaw/openclaw/pull/112678",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-24T14:07:51Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113336,
+        "title": "fix(sqlite): support deep Windows state paths",
+        "url": "https://github.com/openclaw/openclaw/pull/113336",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-07-24T11:54:34Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112251,
-        "title": "docs: map shawnduggan clawtributor email",
-        "url": "https://github.com/openclaw/openclaw/pull/112251",
-        "state": "open",
-        "author": "shawnduggan",
-        "updatedAt": "2026-07-24T11:53:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112561,
-        "title": "fix(browser): keep guarded CDP sockets on validated endpoints [AI]",
-        "url": "https://github.com/openclaw/openclaw/pull/112561",
-        "state": "open",
-        "author": "pgondhi987",
-        "updatedAt": "2026-07-24T11:52:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 86649,
-        "title": "fix: relay Claude CLI assistant partial messages as streaming deltas",
-        "url": "https://github.com/openclaw/openclaw/pull/86649",
-        "state": "open",
-        "author": "SebTardif",
-        "updatedAt": "2026-07-24T11:51:40Z"
+        "updatedAt": "2026-07-24T14:07:37Z"
       }
     ]
   }

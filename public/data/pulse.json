@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-24T15:42:42.599Z",
+  "generatedAt": "2026-07-24T17:50:26.921Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -158,11 +158,11 @@
     },
     {
       "capturedOn": "2026-07-24",
-      "capturedAt": "2026-07-24T15:42:42.599Z",
-      "issueOpen": 4068,
-      "issueClosed": 40719,
-      "prOpen": 2901,
-      "prClosed": 63258,
+      "capturedAt": "2026-07-24T17:50:26.921Z",
+      "issueOpen": 4072,
+      "issueClosed": 40721,
+      "prOpen": 2897,
+      "prClosed": 63278,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -172,95 +172,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 92186,
-        "title": "Foreground reply fence (automatic mode) cancels delivery of completed replies to earlier concurrent group messages — reply shown in dashboard, never delivered to WhatsApp",
-        "url": "https://github.com/openclaw/openclaw/issues/92186",
-        "state": "open",
-        "author": "Mohd-Mursaleen",
-        "updatedAt": "2026-07-24T15:35:46Z"
-      },
-      {
-        "kind": "issue",
         "number": 8673,
         "title": "Add retry logic to OAuth token refresh",
         "url": "https://github.com/openclaw/openclaw/issues/8673",
         "state": "open",
         "author": "skyblue-will",
-        "updatedAt": "2026-07-24T15:33:35Z"
+        "updatedAt": "2026-07-24T17:22:29Z"
       },
       {
         "kind": "issue",
-        "number": 113353,
-        "title": "[Feature]: Use Codex OAuth for browser realtime Talk",
-        "url": "https://github.com/openclaw/openclaw/issues/113353",
+        "number": 113374,
+        "title": "Hardcoded 300s per-chat queue timeout with no configuration or lifecycle hooks",
+        "url": "https://github.com/openclaw/openclaw/issues/113374",
         "state": "open",
-        "author": "Solvely-Colin",
-        "updatedAt": "2026-07-24T15:32:47Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113314,
-        "title": "[Bug]: external PR CI: system-agent TUI-shell test times out (120s) on GitHub-hosted runners",
-        "url": "https://github.com/openclaw/openclaw/issues/113314",
-        "state": "open",
-        "author": "aspalagin",
-        "updatedAt": "2026-07-24T15:30:05Z"
+        "author": "Enominera",
+        "updatedAt": "2026-07-24T17:21:34Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113104,
-        "title": "build(deps): bump the actions group across 1 directory with 5 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/113104",
-        "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-07-24T15:42:34Z"
-      },
-      {
-        "kind": "pr",
         "number": 102117,
         "title": "fix(core): surface non_deliverable_terminal_turn as outbound fallback to channel plugins",
         "url": "https://github.com/openclaw/openclaw/pull/102117",
+        "state": "closed",
+        "author": "dolphinsboy",
+        "updatedAt": "2026-07-24T17:49:49Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113336,
+        "title": "fix(sqlite): support deep Windows state paths",
+        "url": "https://github.com/openclaw/openclaw/pull/113336",
+        "state": "closed",
+        "author": "vincentkoc",
+        "updatedAt": "2026-07-24T17:49:46Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113377,
+        "title": "fix(agents): repair orphaned tool_use pairs on compaction prune path",
+        "url": "https://github.com/openclaw/openclaw/pull/113377",
         "state": "open",
         "author": "dolphinsboy",
-        "updatedAt": "2026-07-24T15:41:03Z"
+        "updatedAt": "2026-07-24T17:48:54Z"
       },
       {
         "kind": "pr",
-        "number": 113352,
-        "title": "fix(reply): converge concurrent new-session dispatches onto one sessionId",
-        "url": "https://github.com/openclaw/openclaw/pull/113352",
+        "number": 113226,
+        "title": "fix: workflow sanity audit passes on main",
+        "url": "https://github.com/openclaw/openclaw/pull/113226",
         "state": "open",
-        "author": "timon0305",
-        "updatedAt": "2026-07-24T15:40:17Z"
+        "author": "eugene-harold-krabs",
+        "updatedAt": "2026-07-24T17:48:19Z"
       },
       {
         "kind": "pr",
-        "number": 113340,
-        "title": "fix(acp): don't abort spawn on session label collision",
-        "url": "https://github.com/openclaw/openclaw/pull/113340",
+        "number": 113146,
+        "title": "fix(gateway): resolve keyed default agents",
+        "url": "https://github.com/openclaw/openclaw/pull/113146",
         "state": "open",
-        "author": "timon0305",
-        "updatedAt": "2026-07-24T15:39:57Z"
+        "author": "IWhatsskill",
+        "updatedAt": "2026-07-24T17:48:17Z"
       },
       {
         "kind": "pr",
-        "number": 112589,
-        "title": "feat: add lease-bound metadata to session spawns",
-        "url": "https://github.com/openclaw/openclaw/pull/112589",
-        "state": "open",
-        "author": "yuzuqiang",
-        "updatedAt": "2026-07-24T15:42:39Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112702,
-        "title": "fix(auto-reply): match throttling transient errors in fallback-state regex",
-        "url": "https://github.com/openclaw/openclaw/pull/112702",
-        "state": "open",
-        "author": "yangxiansheng",
-        "updatedAt": "2026-07-24T15:39:28Z"
+        "number": 93584,
+        "title": "fix(agents): repair orphaned tool_use pairs on compaction prune path",
+        "url": "https://github.com/openclaw/openclaw/pull/93584",
+        "state": "closed",
+        "author": "dolphinsboy",
+        "updatedAt": "2026-07-24T17:45:38Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-24T03:41:38.141Z",
+  "generatedAt": "2026-07-24T06:38:23.893Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -158,11 +158,11 @@
     },
     {
       "capturedOn": "2026-07-24",
-      "capturedAt": "2026-07-24T03:41:38.141Z",
-      "issueOpen": 4047,
-      "issueClosed": 40698,
-      "prOpen": 2929,
-      "prClosed": 63128,
+      "capturedAt": "2026-07-24T06:38:23.893Z",
+      "issueOpen": 4050,
+      "issueClosed": 40705,
+      "prOpen": 2915,
+      "prClosed": 63177,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -172,104 +172,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 113211,
-        "title": "Late heartbeat writes can recreate scratch after cron job deletion",
-        "url": "https://github.com/openclaw/openclaw/issues/113211",
+        "number": 113255,
+        "title": "SQLite runtime repair misses three canonical UNIQUE indexes",
+        "url": "https://github.com/openclaw/openclaw/issues/113255",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-07-24T03:38:53Z"
+        "updatedAt": "2026-07-24T06:37:02Z"
       },
       {
         "kind": "issue",
-        "number": 113209,
-        "title": "SQLite doctor maintenance can clear quarantine after a failed compact",
-        "url": "https://github.com/openclaw/openclaw/issues/113209",
-        "state": "open",
+        "number": 113227,
+        "title": "SQLite snapshots fail when Windows staging paths exceed MAX_PATH",
+        "url": "https://github.com/openclaw/openclaw/issues/113227",
+        "state": "closed",
         "author": "vincentkoc",
-        "updatedAt": "2026-07-24T03:38:45Z"
+        "updatedAt": "2026-07-24T06:34:53Z"
       },
       {
         "kind": "issue",
-        "number": 113210,
-        "title": "Manual SQLite transcript compaction can commit rows and token metadata separately",
-        "url": "https://github.com/openclaw/openclaw/issues/113210",
+        "number": 8176,
+        "title": "Allow before_agent_start hooks to override prompt",
+        "url": "https://github.com/openclaw/openclaw/issues/8176",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-07-24T03:38:40Z"
+        "author": "richardfogaca",
+        "updatedAt": "2026-07-24T06:32:39Z"
       },
       {
         "kind": "issue",
-        "number": 112925,
-        "title": "[Bug]: Desktop Tray fails to reconnect after reboot — pairing approval completes but connection never establishes",
-        "url": "https://github.com/openclaw/openclaw/issues/112925",
+        "number": 8724,
+        "title": "Feature: Add per-model generation timeout config",
+        "url": "https://github.com/openclaw/openclaw/issues/8724",
         "state": "open",
-        "author": "Noob-Approved-Beef-Dish",
-        "updatedAt": "2026-07-24T03:32:54Z"
+        "author": "riskatcher",
+        "updatedAt": "2026-07-24T06:32:36Z"
       },
       {
         "kind": "issue",
-        "number": 9120,
-        "title": "Feature: Message continuation marker for batched input (cost savings)",
-        "url": "https://github.com/openclaw/openclaw/issues/9120",
+        "number": 10354,
+        "title": "[Feature]: Add description and enum to message tool's channel parameter",
+        "url": "https://github.com/openclaw/openclaw/issues/10354",
         "state": "open",
-        "author": "FingerCramp",
-        "updatedAt": "2026-07-24T03:32:37Z"
+        "author": "carrotRakko",
+        "updatedAt": "2026-07-24T06:32:33Z"
+      },
+      {
+        "kind": "issue",
+        "number": 8508,
+        "title": "Feature: configurable/dynamic ack reaction emojis",
+        "url": "https://github.com/openclaw/openclaw/issues/8508",
+        "state": "open",
+        "author": "NubzTuna",
+        "updatedAt": "2026-07-24T06:32:28Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 107765,
-        "title": "feat: add standard hosting profiles",
-        "url": "https://github.com/openclaw/openclaw/pull/107765",
+        "number": 113256,
+        "title": "refactor(google-meet): consolidate plugin test fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/113256",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-24T03:41:30Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-24T06:38:18Z"
       },
       {
         "kind": "pr",
-        "number": 95700,
-        "title": "feat(session): add named new and close chat commands",
-        "url": "https://github.com/openclaw/openclaw/pull/95700",
+        "number": 113223,
+        "title": "refactor(memory-core): split short-term promotion",
+        "url": "https://github.com/openclaw/openclaw/pull/113223",
         "state": "open",
-        "author": "BSG2000",
-        "updatedAt": "2026-07-24T03:38:43Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-24T06:38:17Z"
       },
       {
         "kind": "pr",
-        "number": 96113,
-        "title": "feat(sessions): add read-only diagnose command",
-        "url": "https://github.com/openclaw/openclaw/pull/96113",
+        "number": 113226,
+        "title": "fix: workflow sanity audit passes on main",
+        "url": "https://github.com/openclaw/openclaw/pull/113226",
         "state": "open",
-        "author": "zaidazmi",
-        "updatedAt": "2026-07-24T03:38:39Z"
+        "author": "eugene-harold-krabs",
+        "updatedAt": "2026-07-24T06:38:06Z"
       },
       {
         "kind": "pr",
-        "number": 95005,
-        "title": "Add needed sandbox activation mode",
-        "url": "https://github.com/openclaw/openclaw/pull/95005",
+        "number": 113233,
+        "title": "refactor(sessions): remove file-era transcript runtime",
+        "url": "https://github.com/openclaw/openclaw/pull/113233",
         "state": "open",
-        "author": "yu-xin-c",
-        "updatedAt": "2026-07-24T03:38:32Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-24T06:37:43Z"
       },
       {
         "kind": "pr",
-        "number": 106015,
-        "title": "fix(doctor): SQLite migration recovery report corrupts emoji when truncating",
-        "url": "https://github.com/openclaw/openclaw/pull/106015",
+        "number": 113248,
+        "title": "refactor(cli): split config command implementation",
+        "url": "https://github.com/openclaw/openclaw/pull/113248",
         "state": "open",
-        "author": "mikasa0818",
-        "updatedAt": "2026-07-24T03:38:08Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-24T06:37:22Z"
       },
       {
         "kind": "pr",
-        "number": 95386,
-        "title": "fix #95351: [Feature]: Generic JSONL line-parsing hook for CliBackendPlugin (native tool-card support beyond claude-stream-json)",
-        "url": "https://github.com/openclaw/openclaw/pull/95386",
+        "number": 107671,
+        "title": "fix(models): clear stale auth cooldowns after early limit resets",
+        "url": "https://github.com/openclaw/openclaw/pull/107671",
         "state": "open",
-        "author": "mikasa0818",
-        "updatedAt": "2026-07-24T03:38:00Z"
+        "author": "Glucksberg",
+        "updatedAt": "2026-07-24T06:37:10Z"
       }
     ]
   }

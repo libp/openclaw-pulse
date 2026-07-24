@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-24T09:33:02.111Z",
+  "generatedAt": "2026-07-24T11:55:00.365Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -158,11 +158,11 @@
     },
     {
       "capturedOn": "2026-07-24",
-      "capturedAt": "2026-07-24T09:33:02.111Z",
-      "issueOpen": 4055,
-      "issueClosed": 40712,
-      "prOpen": 2895,
-      "prClosed": 63224,
+      "capturedAt": "2026-07-24T11:55:00.365Z",
+      "issueOpen": 4059,
+      "issueClosed": 40716,
+      "prOpen": 2893,
+      "prClosed": 63239,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -172,104 +172,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 113294,
-        "title": "Bug: OPENCLAW_GATEWAY_TOKEN lost after every `openclaw update` — env regeneration drops non-whitelisted vars",
-        "url": "https://github.com/openclaw/openclaw/issues/113294",
+        "number": 113315,
+        "title": "[Bug]: Telegram inbound update is permanently lost after offset persistence with no ingress, spool, or dispatch",
+        "url": "https://github.com/openclaw/openclaw/issues/113315",
         "state": "open",
-        "author": "shelby142",
-        "updatedAt": "2026-07-24T09:29:41Z"
+        "author": "JesusSerrano-Seimako",
+        "updatedAt": "2026-07-24T11:54:50Z"
       },
       {
         "kind": "issue",
-        "number": 113293,
-        "title": "Backup archives are not crash-durable during publication",
-        "url": "https://github.com/openclaw/openclaw/issues/113293",
+        "number": 113314,
+        "title": "[Bug]: external PR CI: system-agent TUI-shell test times out (120s) on GitHub-hosted runners",
+        "url": "https://github.com/openclaw/openclaw/issues/113314",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-07-24T09:16:15Z"
-      },
-      {
-        "kind": "issue",
-        "number": 8972,
-        "title": "[Feature]: Pattern-based channel allowlist for Discord (glob/wildcard support)",
-        "url": "https://github.com/openclaw/openclaw/issues/8972",
-        "state": "open",
-        "author": "milldr",
-        "updatedAt": "2026-07-24T09:14:41Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113265,
-        "title": "Broad backup normalizes empty canonical SQLite databases",
-        "url": "https://github.com/openclaw/openclaw/issues/113265",
-        "state": "closed",
-        "author": "vincentkoc",
-        "updatedAt": "2026-07-24T09:11:00Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113291,
-        "title": "[Feature]: Governance plugin — deterministic tool-call authorization, PII scanning, cost budgets, and command allowlisting",
-        "url": "https://github.com/openclaw/openclaw/issues/113291",
-        "state": "open",
-        "author": "nagasatish007",
-        "updatedAt": "2026-07-24T09:10:21Z"
+        "author": "aspalagin",
+        "updatedAt": "2026-07-24T11:38:09Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113286,
-        "title": "fix: steered webchat follow-up kills active run; camera snap picks portrait",
-        "url": "https://github.com/openclaw/openclaw/pull/113286",
+        "number": 113307,
+        "title": "fix(install): validate downloaded scripts before execution",
+        "url": "https://github.com/openclaw/openclaw/pull/113307",
         "state": "open",
-        "author": "Chessing234",
-        "updatedAt": "2026-07-24T09:32:56Z"
+        "author": "SebTardif",
+        "updatedAt": "2026-07-24T11:54:53Z"
       },
       {
         "kind": "pr",
-        "number": 113292,
-        "title": "fix(cron): improve model preflight error diagnostics with elapsed time, cause chain, and timeout detection",
-        "url": "https://github.com/openclaw/openclaw/pull/113292",
+        "number": 96645,
+        "title": "fix(mattermost): key private channels as group on outbound routing",
+        "url": "https://github.com/openclaw/openclaw/pull/96645",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-07-24T09:32:07Z"
+        "author": "iloveleon19",
+        "updatedAt": "2026-07-24T11:54:42Z"
       },
       {
         "kind": "pr",
-        "number": 113295,
-        "title": "refactor(normalization): reuse trimmed list helpers",
-        "url": "https://github.com/openclaw/openclaw/pull/113295",
+        "number": 113316,
+        "title": "fix(test): release SQLite fixtures before Windows cleanup",
+        "url": "https://github.com/openclaw/openclaw/pull/113316",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-07-24T09:31:34Z"
+        "updatedAt": "2026-07-24T11:54:34Z"
       },
       {
         "kind": "pr",
-        "number": 113104,
-        "title": "build(deps): bump the actions group across 1 directory with 5 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/113104",
+        "number": 112251,
+        "title": "docs: map shawnduggan clawtributor email",
+        "url": "https://github.com/openclaw/openclaw/pull/112251",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-07-24T09:31:27Z"
+        "author": "shawnduggan",
+        "updatedAt": "2026-07-24T11:53:37Z"
       },
       {
         "kind": "pr",
-        "number": 106414,
-        "title": "fix: models fallbacks --agent silently edits global defaults instead of the agent",
-        "url": "https://github.com/openclaw/openclaw/pull/106414",
+        "number": 112561,
+        "title": "fix(browser): keep guarded CDP sockets on validated endpoints [AI]",
+        "url": "https://github.com/openclaw/openclaw/pull/112561",
         "state": "open",
-        "author": "zaktrue",
-        "updatedAt": "2026-07-24T09:30:26Z"
+        "author": "pgondhi987",
+        "updatedAt": "2026-07-24T11:52:41Z"
       },
       {
         "kind": "pr",
-        "number": 113271,
-        "title": "feat(control-ui): drag-to-resize chat composer",
-        "url": "https://github.com/openclaw/openclaw/pull/113271",
+        "number": 86649,
+        "title": "fix: relay Claude CLI assistant partial messages as streaming deltas",
+        "url": "https://github.com/openclaw/openclaw/pull/86649",
         "state": "open",
-        "author": "zyyhhxx",
-        "updatedAt": "2026-07-24T09:21:11Z"
+        "author": "SebTardif",
+        "updatedAt": "2026-07-24T11:51:40Z"
       }
     ]
   }

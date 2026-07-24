@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-24T17:50:26.921Z",
+  "generatedAt": "2026-07-24T19:44:46.122Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -158,11 +158,11 @@
     },
     {
       "capturedOn": "2026-07-24",
-      "capturedAt": "2026-07-24T17:50:26.921Z",
-      "issueOpen": 4072,
-      "issueClosed": 40721,
-      "prOpen": 2897,
-      "prClosed": 63278,
+      "capturedAt": "2026-07-24T19:44:46.122Z",
+      "issueOpen": 4074,
+      "issueClosed": 40722,
+      "prOpen": 2896,
+      "prClosed": 63288,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -172,50 +172,77 @@
     "issues": [
       {
         "kind": "issue",
+        "number": 113389,
+        "title": "[Bug]:Control UI chat text selection/right-click copy is broken across Chrome and Safari",
+        "url": "https://github.com/openclaw/openclaw/issues/113389",
+        "state": "open",
+        "author": "bbimpacts007-crypto",
+        "updatedAt": "2026-07-24T19:41:52Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113388,
+        "title": "[Feature]: Host-owned restrictive policy for embedded ACP sessions",
+        "url": "https://github.com/openclaw/openclaw/issues/113388",
+        "state": "open",
+        "author": "xenaocx-dev",
+        "updatedAt": "2026-07-24T19:40:42Z"
+      },
+      {
+        "kind": "issue",
         "number": 8673,
         "title": "Add retry logic to OAuth token refresh",
         "url": "https://github.com/openclaw/openclaw/issues/8673",
         "state": "open",
         "author": "skyblue-will",
-        "updatedAt": "2026-07-24T17:22:29Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113374,
-        "title": "Hardcoded 300s per-chat queue timeout with no configuration or lifecycle hooks",
-        "url": "https://github.com/openclaw/openclaw/issues/113374",
-        "state": "open",
-        "author": "Enominera",
-        "updatedAt": "2026-07-24T17:21:34Z"
+        "updatedAt": "2026-07-24T19:29:24Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 102117,
-        "title": "fix(core): surface non_deliverable_terminal_turn as outbound fallback to channel plugins",
-        "url": "https://github.com/openclaw/openclaw/pull/102117",
-        "state": "closed",
-        "author": "dolphinsboy",
-        "updatedAt": "2026-07-24T17:49:49Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113336,
-        "title": "fix(sqlite): support deep Windows state paths",
-        "url": "https://github.com/openclaw/openclaw/pull/113336",
-        "state": "closed",
-        "author": "vincentkoc",
-        "updatedAt": "2026-07-24T17:49:46Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113377,
-        "title": "fix(agents): repair orphaned tool_use pairs on compaction prune path",
-        "url": "https://github.com/openclaw/openclaw/pull/113377",
+        "number": 112057,
+        "title": "docs: fix incorrect CLI command in 14 extension READMEs",
+        "url": "https://github.com/openclaw/openclaw/pull/112057",
         "state": "open",
-        "author": "dolphinsboy",
-        "updatedAt": "2026-07-24T17:48:54Z"
+        "author": "Hilbert-Gowin",
+        "updatedAt": "2026-07-24T19:44:24Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113349,
+        "title": "fix(sdk): preserve zero values in normalized event IDs",
+        "url": "https://github.com/openclaw/openclaw/pull/113349",
+        "state": "open",
+        "author": "destire-mio",
+        "updatedAt": "2026-07-24T19:44:14Z"
+      },
+      {
+        "kind": "pr",
+        "number": 107671,
+        "title": "fix(models): clear stale auth cooldowns after early limit resets",
+        "url": "https://github.com/openclaw/openclaw/pull/107671",
+        "state": "open",
+        "author": "Glucksberg",
+        "updatedAt": "2026-07-24T19:42:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 103872,
+        "title": "feat(skills): preview proposals before approval",
+        "url": "https://github.com/openclaw/openclaw/pull/103872",
+        "state": "open",
+        "author": "Glucksberg",
+        "updatedAt": "2026-07-24T19:42:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112589,
+        "title": "feat: add lease-bound metadata to session spawns",
+        "url": "https://github.com/openclaw/openclaw/pull/112589",
+        "state": "open",
+        "author": "yuzuqiang",
+        "updatedAt": "2026-07-24T19:40:10Z"
       },
       {
         "kind": "pr",
@@ -224,25 +251,7 @@
         "url": "https://github.com/openclaw/openclaw/pull/113226",
         "state": "open",
         "author": "eugene-harold-krabs",
-        "updatedAt": "2026-07-24T17:48:19Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113146,
-        "title": "fix(gateway): resolve keyed default agents",
-        "url": "https://github.com/openclaw/openclaw/pull/113146",
-        "state": "open",
-        "author": "IWhatsskill",
-        "updatedAt": "2026-07-24T17:48:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 93584,
-        "title": "fix(agents): repair orphaned tool_use pairs on compaction prune path",
-        "url": "https://github.com/openclaw/openclaw/pull/93584",
-        "state": "closed",
-        "author": "dolphinsboy",
-        "updatedAt": "2026-07-24T17:45:38Z"
+        "updatedAt": "2026-07-24T19:40:06Z"
       }
     ]
   }

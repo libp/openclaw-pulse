@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-24T06:38:23.893Z",
+  "generatedAt": "2026-07-24T09:33:02.111Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -158,11 +158,11 @@
     },
     {
       "capturedOn": "2026-07-24",
-      "capturedAt": "2026-07-24T06:38:23.893Z",
-      "issueOpen": 4050,
-      "issueClosed": 40705,
-      "prOpen": 2915,
-      "prClosed": 63177,
+      "capturedAt": "2026-07-24T09:33:02.111Z",
+      "issueOpen": 4055,
+      "issueClosed": 40712,
+      "prOpen": 2895,
+      "prClosed": 63224,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -172,113 +172,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 113255,
-        "title": "SQLite runtime repair misses three canonical UNIQUE indexes",
-        "url": "https://github.com/openclaw/openclaw/issues/113255",
+        "number": 113294,
+        "title": "Bug: OPENCLAW_GATEWAY_TOKEN lost after every `openclaw update` — env regeneration drops non-whitelisted vars",
+        "url": "https://github.com/openclaw/openclaw/issues/113294",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-07-24T06:37:02Z"
+        "author": "shelby142",
+        "updatedAt": "2026-07-24T09:29:41Z"
       },
       {
         "kind": "issue",
-        "number": 113227,
-        "title": "SQLite snapshots fail when Windows staging paths exceed MAX_PATH",
-        "url": "https://github.com/openclaw/openclaw/issues/113227",
+        "number": 113293,
+        "title": "Backup archives are not crash-durable during publication",
+        "url": "https://github.com/openclaw/openclaw/issues/113293",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-07-24T09:16:15Z"
+      },
+      {
+        "kind": "issue",
+        "number": 8972,
+        "title": "[Feature]: Pattern-based channel allowlist for Discord (glob/wildcard support)",
+        "url": "https://github.com/openclaw/openclaw/issues/8972",
+        "state": "open",
+        "author": "milldr",
+        "updatedAt": "2026-07-24T09:14:41Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113265,
+        "title": "Broad backup normalizes empty canonical SQLite databases",
+        "url": "https://github.com/openclaw/openclaw/issues/113265",
         "state": "closed",
         "author": "vincentkoc",
-        "updatedAt": "2026-07-24T06:34:53Z"
+        "updatedAt": "2026-07-24T09:11:00Z"
       },
       {
         "kind": "issue",
-        "number": 8176,
-        "title": "Allow before_agent_start hooks to override prompt",
-        "url": "https://github.com/openclaw/openclaw/issues/8176",
+        "number": 113291,
+        "title": "[Feature]: Governance plugin — deterministic tool-call authorization, PII scanning, cost budgets, and command allowlisting",
+        "url": "https://github.com/openclaw/openclaw/issues/113291",
         "state": "open",
-        "author": "richardfogaca",
-        "updatedAt": "2026-07-24T06:32:39Z"
-      },
-      {
-        "kind": "issue",
-        "number": 8724,
-        "title": "Feature: Add per-model generation timeout config",
-        "url": "https://github.com/openclaw/openclaw/issues/8724",
-        "state": "open",
-        "author": "riskatcher",
-        "updatedAt": "2026-07-24T06:32:36Z"
-      },
-      {
-        "kind": "issue",
-        "number": 10354,
-        "title": "[Feature]: Add description and enum to message tool's channel parameter",
-        "url": "https://github.com/openclaw/openclaw/issues/10354",
-        "state": "open",
-        "author": "carrotRakko",
-        "updatedAt": "2026-07-24T06:32:33Z"
-      },
-      {
-        "kind": "issue",
-        "number": 8508,
-        "title": "Feature: configurable/dynamic ack reaction emojis",
-        "url": "https://github.com/openclaw/openclaw/issues/8508",
-        "state": "open",
-        "author": "NubzTuna",
-        "updatedAt": "2026-07-24T06:32:28Z"
+        "author": "nagasatish007",
+        "updatedAt": "2026-07-24T09:10:21Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113256,
-        "title": "refactor(google-meet): consolidate plugin test fixtures",
-        "url": "https://github.com/openclaw/openclaw/pull/113256",
+        "number": 113286,
+        "title": "fix: steered webchat follow-up kills active run; camera snap picks portrait",
+        "url": "https://github.com/openclaw/openclaw/pull/113286",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-24T06:38:18Z"
+        "author": "Chessing234",
+        "updatedAt": "2026-07-24T09:32:56Z"
       },
       {
         "kind": "pr",
-        "number": 113223,
-        "title": "refactor(memory-core): split short-term promotion",
-        "url": "https://github.com/openclaw/openclaw/pull/113223",
+        "number": 113292,
+        "title": "fix(cron): improve model preflight error diagnostics with elapsed time, cause chain, and timeout detection",
+        "url": "https://github.com/openclaw/openclaw/pull/113292",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-24T06:38:17Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-07-24T09:32:07Z"
       },
       {
         "kind": "pr",
-        "number": 113226,
-        "title": "fix: workflow sanity audit passes on main",
-        "url": "https://github.com/openclaw/openclaw/pull/113226",
+        "number": 113295,
+        "title": "refactor(normalization): reuse trimmed list helpers",
+        "url": "https://github.com/openclaw/openclaw/pull/113295",
         "state": "open",
-        "author": "eugene-harold-krabs",
-        "updatedAt": "2026-07-24T06:38:06Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-07-24T09:31:34Z"
       },
       {
         "kind": "pr",
-        "number": 113233,
-        "title": "refactor(sessions): remove file-era transcript runtime",
-        "url": "https://github.com/openclaw/openclaw/pull/113233",
+        "number": 113104,
+        "title": "build(deps): bump the actions group across 1 directory with 5 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/113104",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-24T06:37:43Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-07-24T09:31:27Z"
       },
       {
         "kind": "pr",
-        "number": 113248,
-        "title": "refactor(cli): split config command implementation",
-        "url": "https://github.com/openclaw/openclaw/pull/113248",
+        "number": 106414,
+        "title": "fix: models fallbacks --agent silently edits global defaults instead of the agent",
+        "url": "https://github.com/openclaw/openclaw/pull/106414",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-24T06:37:22Z"
+        "author": "zaktrue",
+        "updatedAt": "2026-07-24T09:30:26Z"
       },
       {
         "kind": "pr",
-        "number": 107671,
-        "title": "fix(models): clear stale auth cooldowns after early limit resets",
-        "url": "https://github.com/openclaw/openclaw/pull/107671",
+        "number": 113271,
+        "title": "feat(control-ui): drag-to-resize chat composer",
+        "url": "https://github.com/openclaw/openclaw/pull/113271",
         "state": "open",
-        "author": "Glucksberg",
-        "updatedAt": "2026-07-24T06:37:10Z"
+        "author": "zyyhhxx",
+        "updatedAt": "2026-07-24T09:21:11Z"
       }
     ]
   }

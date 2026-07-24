@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-24T00:09:44.832Z",
+  "generatedAt": "2026-07-24T03:41:38.141Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -158,11 +158,11 @@
     },
     {
       "capturedOn": "2026-07-24",
-      "capturedAt": "2026-07-24T00:09:44.832Z",
-      "issueOpen": 4040,
-      "issueClosed": 40693,
-      "prOpen": 2931,
-      "prClosed": 63106,
+      "capturedAt": "2026-07-24T03:41:38.141Z",
+      "issueOpen": 4047,
+      "issueClosed": 40698,
+      "prOpen": 2929,
+      "prClosed": 63128,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -172,86 +172,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 112253,
-        "title": "Expose per-surface agent/session routing for Talk realtime consults (talk.realtime.agentSession), mirroring channels.discord.voice.agentSession",
-        "url": "https://github.com/openclaw/openclaw/issues/112253",
+        "number": 113211,
+        "title": "Late heartbeat writes can recreate scratch after cron job deletion",
+        "url": "https://github.com/openclaw/openclaw/issues/113211",
         "state": "open",
-        "author": "zielak82",
-        "updatedAt": "2026-07-24T00:09:41Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-07-24T03:38:53Z"
       },
       {
         "kind": "issue",
-        "number": 6599,
-        "title": "Feature: Add /models test-fallback command to verify fallback chain",
-        "url": "https://github.com/openclaw/openclaw/issues/6599",
+        "number": 113209,
+        "title": "SQLite doctor maintenance can clear quarantine after a failed compact",
+        "url": "https://github.com/openclaw/openclaw/issues/113209",
         "state": "open",
-        "author": "jonwiley",
-        "updatedAt": "2026-07-23T23:58:29Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-07-24T03:38:45Z"
       },
       {
         "kind": "issue",
-        "number": 113177,
-        "title": "[Bug]: WhatsApp agent reactions can reject the current conversation",
-        "url": "https://github.com/openclaw/openclaw/issues/113177",
+        "number": 113210,
+        "title": "Manual SQLite transcript compaction can commit rows and token metadata separately",
+        "url": "https://github.com/openclaw/openclaw/issues/113210",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-07-23T23:56:17Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-07-24T03:38:40Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112925,
+        "title": "[Bug]: Desktop Tray fails to reconnect after reboot — pairing approval completes but connection never establishes",
+        "url": "https://github.com/openclaw/openclaw/issues/112925",
+        "state": "open",
+        "author": "Noob-Approved-Beef-Dish",
+        "updatedAt": "2026-07-24T03:32:54Z"
+      },
+      {
+        "kind": "issue",
+        "number": 9120,
+        "title": "Feature: Message continuation marker for batched input (cost savings)",
+        "url": "https://github.com/openclaw/openclaw/issues/9120",
+        "state": "open",
+        "author": "FingerCramp",
+        "updatedAt": "2026-07-24T03:32:37Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 104322,
-        "title": "fix(feishu): retry transient message send failures",
-        "url": "https://github.com/openclaw/openclaw/pull/104322",
-        "state": "open",
-        "author": "litang9",
-        "updatedAt": "2026-07-24T00:09:31Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112773,
-        "title": "feat(claws): separate portable and OpenClaw profiles",
-        "url": "https://github.com/openclaw/openclaw/pull/112773",
+        "number": 107765,
+        "title": "feat: add standard hosting profiles",
+        "url": "https://github.com/openclaw/openclaw/pull/107765",
         "state": "open",
         "author": "giodl73-repo",
-        "updatedAt": "2026-07-24T00:07:31Z"
+        "updatedAt": "2026-07-24T03:41:30Z"
       },
       {
         "kind": "pr",
-        "number": 113173,
-        "title": "feat(sessions): suggestion queue + typing indicator",
-        "url": "https://github.com/openclaw/openclaw/pull/113173",
+        "number": 95700,
+        "title": "feat(session): add named new and close chat commands",
+        "url": "https://github.com/openclaw/openclaw/pull/95700",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-24T00:05:22Z"
+        "author": "BSG2000",
+        "updatedAt": "2026-07-24T03:38:43Z"
       },
       {
         "kind": "pr",
-        "number": 113179,
-        "title": "refactor(auto-reply): normalize inbound text once",
-        "url": "https://github.com/openclaw/openclaw/pull/113179",
+        "number": 96113,
+        "title": "feat(sessions): add read-only diagnose command",
+        "url": "https://github.com/openclaw/openclaw/pull/96113",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-24T00:03:37Z"
+        "author": "zaidazmi",
+        "updatedAt": "2026-07-24T03:38:39Z"
       },
       {
         "kind": "pr",
-        "number": 113174,
-        "title": "refactor(config): retire redundant settings",
-        "url": "https://github.com/openclaw/openclaw/pull/113174",
+        "number": 95005,
+        "title": "Add needed sandbox activation mode",
+        "url": "https://github.com/openclaw/openclaw/pull/95005",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-24T00:03:34Z"
+        "author": "yu-xin-c",
+        "updatedAt": "2026-07-24T03:38:32Z"
       },
       {
         "kind": "pr",
-        "number": 113136,
-        "title": "fix(system-agent): avoid TUI startup catalog preparation",
-        "url": "https://github.com/openclaw/openclaw/pull/113136",
+        "number": 106015,
+        "title": "fix(doctor): SQLite migration recovery report corrupts emoji when truncating",
+        "url": "https://github.com/openclaw/openclaw/pull/106015",
         "state": "open",
-        "author": "eugene-harold-krabs",
-        "updatedAt": "2026-07-24T00:03:30Z"
+        "author": "mikasa0818",
+        "updatedAt": "2026-07-24T03:38:08Z"
+      },
+      {
+        "kind": "pr",
+        "number": 95386,
+        "title": "fix #95351: [Feature]: Generic JSONL line-parsing hook for CliBackendPlugin (native tool-card support beyond claude-stream-json)",
+        "url": "https://github.com/openclaw/openclaw/pull/95386",
+        "state": "open",
+        "author": "mikasa0818",
+        "updatedAt": "2026-07-24T03:38:00Z"
       }
     ]
   }

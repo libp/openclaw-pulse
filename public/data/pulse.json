@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-25T12:08:37.746Z",
+  "generatedAt": "2026-07-25T14:00:34.438Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -169,11 +169,11 @@
     },
     {
       "capturedOn": "2026-07-25",
-      "capturedAt": "2026-07-25T12:08:37.746Z",
-      "issueOpen": 4092,
-      "issueClosed": 40754,
-      "prOpen": 2894,
-      "prClosed": 63494,
+      "capturedAt": "2026-07-25T14:00:34.438Z",
+      "issueOpen": 4094,
+      "issueClosed": 40761,
+      "prOpen": 2896,
+      "prClosed": 63547,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -183,77 +183,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 95750,
-        "title": "[Bug]: Main-session restart-recovery has no cross-boot retry budget — wedged sessions death-loop the gateway across reboots (2026.6.9)",
-        "url": "https://github.com/openclaw/openclaw/issues/95750",
+        "number": 112423,
+        "title": "[Bug]: Large SQLite transcript cleanup blocks the gateway event loop",
+        "url": "https://github.com/openclaw/openclaw/issues/112423",
         "state": "open",
-        "author": "BryceMurray",
-        "updatedAt": "2026-07-25T12:05:53Z"
+        "author": "HermanZeng",
+        "updatedAt": "2026-07-25T13:59:31Z"
       },
       {
         "kind": "issue",
-        "number": 106760,
-        "title": "Telegram: pre-tool-call text erased when assistant response has multiple content blocks split by tool_use",
-        "url": "https://github.com/openclaw/openclaw/issues/106760",
+        "number": 113706,
+        "title": "[Feature]: Add bounded Memory Wiki batch operations for automation",
+        "url": "https://github.com/openclaw/openclaw/issues/113706",
         "state": "open",
-        "author": "jackmtl71",
-        "updatedAt": "2026-07-25T12:03:27Z"
+        "author": "GSUCAS",
+        "updatedAt": "2026-07-25T13:57:25Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113640,
-        "title": "Update README.md",
-        "url": "https://github.com/openclaw/openclaw/pull/113640",
-        "state": "open",
-        "author": "LadbotOneLad",
-        "updatedAt": "2026-07-25T12:07:48Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112751,
-        "title": "feat(skills): install external skills.sh references",
-        "url": "https://github.com/openclaw/openclaw/pull/112751",
-        "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-07-25T12:07:46Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113626,
-        "title": "refactor(agents): split native hook relay",
-        "url": "https://github.com/openclaw/openclaw/pull/113626",
+        "number": 113686,
+        "title": "refactor(agents): validate workspace attestation rows structurally, not by filename allowlist",
+        "url": "https://github.com/openclaw/openclaw/pull/113686",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-25T12:07:26Z"
+        "updatedAt": "2026-07-25T14:00:21Z"
       },
       {
         "kind": "pr",
-        "number": 113460,
-        "title": "chore: stabilize session cost usage cache warmup test",
-        "url": "https://github.com/openclaw/openclaw/pull/113460",
+        "number": 113689,
+        "title": "fix: reconnect after browser gateway handshake errors",
+        "url": "https://github.com/openclaw/openclaw/pull/113689",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-07-25T14:00:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113693,
+        "title": "fix: preserve agent session cancellation and timeout reasons",
+        "url": "https://github.com/openclaw/openclaw/pull/113693",
         "state": "open",
-        "author": "eugene-harold-krabs",
-        "updatedAt": "2026-07-25T12:07:17Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-25T14:00:17Z"
       },
       {
         "kind": "pr",
-        "number": 105806,
-        "title": "fix(recovery): reclaim terminal-phase reply operations in stuck-session recovery",
-        "url": "https://github.com/openclaw/openclaw/pull/105806",
+        "number": 102827,
+        "title": "fix(gateway): scope accumulatedText preservation to media-only replace events",
+        "url": "https://github.com/openclaw/openclaw/pull/102827",
         "state": "open",
         "author": "SunnyShu0925",
-        "updatedAt": "2026-07-25T12:07:13Z"
+        "updatedAt": "2026-07-25T13:59:59Z"
       },
       {
         "kind": "pr",
-        "number": 113104,
-        "title": "chore(deps): bump the actions group across 1 directory with 5 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/113104",
+        "number": 113705,
+        "title": "refactor(fs): adopt fs-safe 0.5 core primitives",
+        "url": "https://github.com/openclaw/openclaw/pull/113705",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-07-25T12:06:41Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-25T13:59:52Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111893,
+        "title": "fix(ui): sync agent selection when switching sessions across agents",
+        "url": "https://github.com/openclaw/openclaw/pull/111893",
+        "state": "open",
+        "author": "xbrxr03",
+        "updatedAt": "2026-07-25T13:59:49Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-25T03:38:29.162Z",
+  "generatedAt": "2026-07-25T06:27:52.925Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -169,127 +169,72 @@
     },
     {
       "capturedOn": "2026-07-25",
-      "capturedAt": "2026-07-25T03:38:29.162Z",
-      "issueOpen": 4098,
-      "issueClosed": 40727,
-      "prOpen": 2922,
-      "prClosed": 63327,
+      "capturedAt": "2026-07-25T06:27:52.925Z",
+      "issueOpen": 4088,
+      "issueClosed": 40742,
+      "prOpen": 2890,
+      "prClosed": 63398,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 113480,
-        "title": "[Bug]: Runtime-tool QA can pass on fixture intent without successful product evidence",
-        "url": "https://github.com/openclaw/openclaw/issues/113480",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-07-25T03:38:07Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113483,
-        "title": "[Bug]: Generic channel QA evidence overstates primary coverage",
-        "url": "https://github.com/openclaw/openclaw/issues/113483",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-07-25T03:37:15Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113479,
-        "title": "[Bug]: Telegram QA coverage lacks product-startup getMe proof",
-        "url": "https://github.com/openclaw/openclaw/issues/113479",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-07-25T03:36:45Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113481,
-        "title": "[Feature]: Add per-agent daily model spend alerts",
-        "url": "https://github.com/openclaw/openclaw/issues/113481",
-        "state": "open",
-        "author": "litang9",
-        "updatedAt": "2026-07-25T03:35:44Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113474,
-        "title": "Gateway crash loop on Raspberry Pi 5 — repeated offline/online cycling",
-        "url": "https://github.com/openclaw/openclaw/issues/113474",
-        "state": "open",
-        "author": "blaiqcharles-cloud",
-        "updatedAt": "2026-07-25T03:34:22Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113475,
-        "title": "Configured MCP tools disappear inside isolated agentTurn cron runs",
-        "url": "https://github.com/openclaw/openclaw/issues/113475",
-        "state": "open",
-        "author": "james-s-hedwig[bot]",
-        "updatedAt": "2026-07-25T03:27:03Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 113477,
-        "title": "docs: fix default ClawHub registry URL in skills-config example",
-        "url": "https://github.com/openclaw/openclaw/pull/113477",
+        "number": 113517,
+        "title": "feat(plugins): add external verification approvals",
+        "url": "https://github.com/openclaw/openclaw/pull/113517",
         "state": "open",
-        "author": "santhiprakash",
-        "updatedAt": "2026-07-25T03:38:02Z"
+        "author": "Guardiola31337",
+        "updatedAt": "2026-07-25T06:27:30Z"
       },
       {
         "kind": "pr",
-        "number": 112644,
-        "title": "fix(agents): honor run abort signal in image and pdf tools",
-        "url": "https://github.com/openclaw/openclaw/pull/112644",
+        "number": 113527,
+        "title": "improve(telegram): align QA coverage with startup behavior",
+        "url": "https://github.com/openclaw/openclaw/pull/113527",
         "state": "open",
-        "author": "masatohoshino",
-        "updatedAt": "2026-07-25T03:37:35Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113476,
-        "title": "feat(setup): download-model actions on web and macOS onboarding",
-        "url": "https://github.com/openclaw/openclaw/pull/113476",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-25T03:37:31Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113482,
-        "title": "feat(system-agent): constrain planner JSON output at generation time",
-        "url": "https://github.com/openclaw/openclaw/pull/113482",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-25T03:36:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113470,
-        "title": "fix(qa): retain runtime tool evidence after agent completion",
-        "url": "https://github.com/openclaw/openclaw/pull/113470",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-25T03:36:33Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112895,
-        "title": "fix(release): build private QA candidate artifacts",
-        "url": "https://github.com/openclaw/openclaw/pull/112895",
-        "state": "closed",
         "author": "RomneyDa",
-        "updatedAt": "2026-07-25T03:36:25Z"
+        "updatedAt": "2026-07-25T06:27:27Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112589,
+        "title": "feat: add lease-bound metadata to session spawns",
+        "url": "https://github.com/openclaw/openclaw/pull/112589",
+        "state": "open",
+        "author": "yuzuqiang",
+        "updatedAt": "2026-07-25T06:27:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113525,
+        "title": "refactor(agents): reuse markdown code span formatter",
+        "url": "https://github.com/openclaw/openclaw/pull/113525",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-07-25T06:27:09Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112281,
+        "title": "[AI-assisted] docs: remove dead ClawHub nav entries and fix downstream links",
+        "url": "https://github.com/openclaw/openclaw/pull/112281",
+        "state": "closed",
+        "author": "santhiprakash",
+        "updatedAt": "2026-07-25T06:26:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113522,
+        "title": "refactor(wizard): share migration config canonicalization",
+        "url": "https://github.com/openclaw/openclaw/pull/113522",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-07-25T06:26:32Z"
       }
     ]
   }

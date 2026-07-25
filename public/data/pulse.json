@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-25T15:17:58.824Z",
+  "generatedAt": "2026-07-25T17:13:22.830Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -169,72 +169,91 @@
     },
     {
       "capturedOn": "2026-07-25",
-      "capturedAt": "2026-07-25T15:17:58.824Z",
-      "issueOpen": 4096,
-      "issueClosed": 40762,
-      "prOpen": 2901,
-      "prClosed": 63572,
+      "capturedAt": "2026-07-25T17:13:22.830Z",
+      "issueOpen": 4100,
+      "issueClosed": 40764,
+      "prOpen": 2892,
+      "prClosed": 63600,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 113655,
+        "title": "Event loop stalls up to 4.4s under multi-agent group load drop the Slack Socket Mode connection and starve timers",
+        "url": "https://github.com/openclaw/openclaw/issues/113655",
+        "state": "closed",
+        "author": "gorkem2020",
+        "updatedAt": "2026-07-25T17:12:25Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113763,
+        "title": "[Feishu] <<<BEGIN_OPENCLAW_INTERNAL_CONTEXT>>> leaked in every bot reply",
+        "url": "https://github.com/openclaw/openclaw/issues/113763",
+        "state": "open",
+        "author": "alston87-design",
+        "updatedAt": "2026-07-25T17:10:24Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113739,
-        "title": "fix(voice-call): flush stream audio before DTMF",
-        "url": "https://github.com/openclaw/openclaw/pull/113739",
-        "state": "open",
-        "author": "zeno-codebot",
-        "updatedAt": "2026-07-25T15:17:47Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113713,
-        "title": "refactor(config): split validation responsibilities",
-        "url": "https://github.com/openclaw/openclaw/pull/113713",
+        "number": 113654,
+        "title": "fix(logging): keep JSON console output structured across CLI routes",
+        "url": "https://github.com/openclaw/openclaw/pull/113654",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-25T15:17:42Z"
+        "updatedAt": "2026-07-25T17:13:15Z"
       },
       {
         "kind": "pr",
-        "number": 113734,
-        "title": "docs: add Neon AI Gateway provider guide",
-        "url": "https://github.com/openclaw/openclaw/pull/113734",
+        "number": 113048,
+        "title": "fix(hooks): prevent Codex relay resource exhaustion",
+        "url": "https://github.com/openclaw/openclaw/pull/113048",
         "state": "open",
-        "author": "mezotv",
-        "updatedAt": "2026-07-25T15:17:20Z"
+        "author": "ScientificProgrammer",
+        "updatedAt": "2026-07-25T17:13:15Z"
       },
       {
         "kind": "pr",
-        "number": 111893,
-        "title": "fix(ui): sync agent selection when switching sessions across agents",
-        "url": "https://github.com/openclaw/openclaw/pull/111893",
+        "number": 112000,
+        "title": "refactor(prompt): use plain inbound context labels and drop system-tag sanitizer",
+        "url": "https://github.com/openclaw/openclaw/pull/112000",
         "state": "open",
-        "author": "xbrxr03",
-        "updatedAt": "2026-07-25T15:17:17Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-07-25T17:13:11Z"
       },
       {
         "kind": "pr",
-        "number": 113720,
-        "title": "refactor(plugins): split manifest normalization",
-        "url": "https://github.com/openclaw/openclaw/pull/113720",
+        "number": 113665,
+        "title": "fix: inherit parent agent for dashboard-created sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/113665",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-25T15:16:59Z"
+        "author": "fr-meyer",
+        "updatedAt": "2026-07-25T17:13:10Z"
       },
       {
         "kind": "pr",
-        "number": 111422,
-        "title": " fix(cron): detect ===DONE_ERR=== sentinel in agent final text as failure signal",
-        "url": "https://github.com/openclaw/openclaw/pull/111422",
+        "number": 113517,
+        "title": "feat(plugins): add external verification approvals",
+        "url": "https://github.com/openclaw/openclaw/pull/113517",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-07-25T15:16:58Z"
+        "author": "Guardiola31337",
+        "updatedAt": "2026-07-25T17:13:03Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113104,
+        "title": "chore(deps): bump the actions group across 1 directory with 5 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/113104",
+        "state": "open",
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-07-25T17:13:02Z"
       }
     ]
   }

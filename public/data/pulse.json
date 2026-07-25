@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-25T06:27:52.925Z",
+  "generatedAt": "2026-07-25T09:11:39.340Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -169,72 +169,91 @@
     },
     {
       "capturedOn": "2026-07-25",
-      "capturedAt": "2026-07-25T06:27:52.925Z",
-      "issueOpen": 4088,
-      "issueClosed": 40742,
-      "prOpen": 2890,
-      "prClosed": 63398,
+      "capturedAt": "2026-07-25T09:11:39.340Z",
+      "issueOpen": 4096,
+      "issueClosed": 40745,
+      "prOpen": 2897,
+      "prClosed": 63443,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 101768,
+        "title": "[Bug]: SDK event IDs omit zero sequence values from normalized gateway events",
+        "url": "https://github.com/openclaw/openclaw/issues/101768",
+        "state": "closed",
+        "author": "qingminglong",
+        "updatedAt": "2026-07-25T09:08:01Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113584,
+        "title": "npm shrinkwrap pins brace-expansion version affected by high-severity advisory",
+        "url": "https://github.com/openclaw/openclaw/issues/113584",
+        "state": "open",
+        "author": "apurvvkumaria",
+        "updatedAt": "2026-07-25T09:07:30Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113517,
-        "title": "feat(plugins): add external verification approvals",
-        "url": "https://github.com/openclaw/openclaw/pull/113517",
+        "number": 113347,
+        "title": "fix(message): ignore populated Telegram location on model sends",
+        "url": "https://github.com/openclaw/openclaw/pull/113347",
         "state": "open",
-        "author": "Guardiola31337",
-        "updatedAt": "2026-07-25T06:27:30Z"
+        "author": "snotty",
+        "updatedAt": "2026-07-25T09:11:28Z"
       },
       {
         "kind": "pr",
-        "number": 113527,
-        "title": "improve(telegram): align QA coverage with startup behavior",
-        "url": "https://github.com/openclaw/openclaw/pull/113527",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-07-25T06:27:27Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112589,
-        "title": "feat: add lease-bound metadata to session spawns",
-        "url": "https://github.com/openclaw/openclaw/pull/112589",
-        "state": "open",
-        "author": "yuzuqiang",
-        "updatedAt": "2026-07-25T06:27:25Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113525,
-        "title": "refactor(agents): reuse markdown code span formatter",
-        "url": "https://github.com/openclaw/openclaw/pull/113525",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-07-25T06:27:09Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112281,
-        "title": "[AI-assisted] docs: remove dead ClawHub nav entries and fix downstream links",
-        "url": "https://github.com/openclaw/openclaw/pull/112281",
+        "number": 113589,
+        "title": "refactor(telegram): reuse shared error coercion",
+        "url": "https://github.com/openclaw/openclaw/pull/113589",
         "state": "closed",
-        "author": "santhiprakash",
-        "updatedAt": "2026-07-25T06:26:33Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-07-25T09:10:55Z"
       },
       {
         "kind": "pr",
-        "number": 113522,
-        "title": "refactor(wizard): share migration config canonicalization",
-        "url": "https://github.com/openclaw/openclaw/pull/113522",
+        "number": 112166,
+        "title": "fix(agents): persist terminal session state after force-clearing stuck embedded runs",
+        "url": "https://github.com/openclaw/openclaw/pull/112166",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-07-25T06:26:32Z"
+        "author": "xialonglee",
+        "updatedAt": "2026-07-25T09:10:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113551,
+        "title": "fix(tool-display): sanitize grep/rg patterns to prevent recursive search summaries",
+        "url": "https://github.com/openclaw/openclaw/pull/113551",
+        "state": "open",
+        "author": "Linux2010",
+        "updatedAt": "2026-07-25T09:10:31Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111898,
+        "title": "fix(browser): control results can contain corrupted text from malformed UTF-8",
+        "url": "https://github.com/openclaw/openclaw/pull/111898",
+        "state": "open",
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-07-25T09:10:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111956,
+        "title": "fix(release): stop Windows package descendants after timeout",
+        "url": "https://github.com/openclaw/openclaw/pull/111956",
+        "state": "open",
+        "author": "TheAngryPit",
+        "updatedAt": "2026-07-25T09:10:04Z"
       }
     ]
   }

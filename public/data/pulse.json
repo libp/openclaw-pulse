@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-25T17:13:22.830Z",
+  "generatedAt": "2026-07-25T19:33:19.501Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -169,11 +169,11 @@
     },
     {
       "capturedOn": "2026-07-25",
-      "capturedAt": "2026-07-25T17:13:22.830Z",
-      "issueOpen": 4100,
-      "issueClosed": 40764,
-      "prOpen": 2892,
-      "prClosed": 63600,
+      "capturedAt": "2026-07-25T19:33:19.501Z",
+      "issueOpen": 4105,
+      "issueClosed": 40765,
+      "prOpen": 2908,
+      "prClosed": 63633,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -183,77 +183,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 113655,
-        "title": "Event loop stalls up to 4.4s under multi-agent group load drop the Slack Socket Mode connection and starve timers",
-        "url": "https://github.com/openclaw/openclaw/issues/113655",
-        "state": "closed",
-        "author": "gorkem2020",
-        "updatedAt": "2026-07-25T17:12:25Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113763,
-        "title": "[Feishu] <<<BEGIN_OPENCLAW_INTERNAL_CONTEXT>>> leaked in every bot reply",
-        "url": "https://github.com/openclaw/openclaw/issues/113763",
+        "number": 109145,
+        "title": "Gateway HTTP server listens but does not accept connections (v2026.7.1-beta.5)",
+        "url": "https://github.com/openclaw/openclaw/issues/109145",
         "state": "open",
-        "author": "alston87-design",
-        "updatedAt": "2026-07-25T17:10:24Z"
+        "author": "rafrosas",
+        "updatedAt": "2026-07-25T19:31:52Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113654,
-        "title": "fix(logging): keep JSON console output structured across CLI routes",
-        "url": "https://github.com/openclaw/openclaw/pull/113654",
+        "number": 113821,
+        "title": "fix(package): prevent installs from deleting required runtime modules",
+        "url": "https://github.com/openclaw/openclaw/pull/113821",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-25T17:13:15Z"
+        "updatedAt": "2026-07-25T19:32:50Z"
       },
       {
         "kind": "pr",
-        "number": 113048,
-        "title": "fix(hooks): prevent Codex relay resource exhaustion",
-        "url": "https://github.com/openclaw/openclaw/pull/113048",
+        "number": 113333,
+        "title": "feat(feeds): consume signed catalog changes",
+        "url": "https://github.com/openclaw/openclaw/pull/113333",
         "state": "open",
-        "author": "ScientificProgrammer",
-        "updatedAt": "2026-07-25T17:13:15Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-25T19:32:40Z"
       },
       {
         "kind": "pr",
-        "number": 112000,
-        "title": "refactor(prompt): use plain inbound context labels and drop system-tag sanitizer",
-        "url": "https://github.com/openclaw/openclaw/pull/112000",
+        "number": 113820,
+        "title": "fix(ci): restore Browser and Codex prerelease coverage",
+        "url": "https://github.com/openclaw/openclaw/pull/113820",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-07-25T17:13:11Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-25T19:32:39Z"
       },
       {
         "kind": "pr",
-        "number": 113665,
-        "title": "fix: inherit parent agent for dashboard-created sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/113665",
+        "number": 110250,
+        "title": "feat(feeds): consume signed sharded catalogs",
+        "url": "https://github.com/openclaw/openclaw/pull/110250",
         "state": "open",
-        "author": "fr-meyer",
-        "updatedAt": "2026-07-25T17:13:10Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-25T19:32:39Z"
       },
       {
         "kind": "pr",
-        "number": 113517,
-        "title": "feat(plugins): add external verification approvals",
-        "url": "https://github.com/openclaw/openclaw/pull/113517",
+        "number": 113791,
+        "title": "refactor(gateway): remove dead sessions.observer.ask rpc",
+        "url": "https://github.com/openclaw/openclaw/pull/113791",
         "state": "open",
-        "author": "Guardiola31337",
-        "updatedAt": "2026-07-25T17:13:03Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-25T19:32:18Z"
       },
       {
         "kind": "pr",
-        "number": 113104,
-        "title": "chore(deps): bump the actions group across 1 directory with 5 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/113104",
+        "number": 113471,
+        "title": "fix(memory): close previous embedding provider before replacement",
+        "url": "https://github.com/openclaw/openclaw/pull/113471",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-07-25T17:13:02Z"
+        "author": "yt2102",
+        "updatedAt": "2026-07-25T19:31:45Z"
       }
     ]
   }

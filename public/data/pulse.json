@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-25T14:00:34.438Z",
+  "generatedAt": "2026-07-25T15:17:58.824Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -169,82 +169,45 @@
     },
     {
       "capturedOn": "2026-07-25",
-      "capturedAt": "2026-07-25T14:00:34.438Z",
-      "issueOpen": 4094,
-      "issueClosed": 40761,
-      "prOpen": 2896,
-      "prClosed": 63547,
+      "capturedAt": "2026-07-25T15:17:58.824Z",
+      "issueOpen": 4096,
+      "issueClosed": 40762,
+      "prOpen": 2901,
+      "prClosed": 63572,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 112423,
-        "title": "[Bug]: Large SQLite transcript cleanup blocks the gateway event loop",
-        "url": "https://github.com/openclaw/openclaw/issues/112423",
-        "state": "open",
-        "author": "HermanZeng",
-        "updatedAt": "2026-07-25T13:59:31Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113706,
-        "title": "[Feature]: Add bounded Memory Wiki batch operations for automation",
-        "url": "https://github.com/openclaw/openclaw/issues/113706",
-        "state": "open",
-        "author": "GSUCAS",
-        "updatedAt": "2026-07-25T13:57:25Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 113686,
-        "title": "refactor(agents): validate workspace attestation rows structurally, not by filename allowlist",
-        "url": "https://github.com/openclaw/openclaw/pull/113686",
+        "number": 113739,
+        "title": "fix(voice-call): flush stream audio before DTMF",
+        "url": "https://github.com/openclaw/openclaw/pull/113739",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-25T14:00:21Z"
+        "author": "zeno-codebot",
+        "updatedAt": "2026-07-25T15:17:47Z"
       },
       {
         "kind": "pr",
-        "number": 113689,
-        "title": "fix: reconnect after browser gateway handshake errors",
-        "url": "https://github.com/openclaw/openclaw/pull/113689",
-        "state": "closed",
+        "number": 113713,
+        "title": "refactor(config): split validation responsibilities",
+        "url": "https://github.com/openclaw/openclaw/pull/113713",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-25T14:00:18Z"
+        "updatedAt": "2026-07-25T15:17:42Z"
       },
       {
         "kind": "pr",
-        "number": 113693,
-        "title": "fix: preserve agent session cancellation and timeout reasons",
-        "url": "https://github.com/openclaw/openclaw/pull/113693",
+        "number": 113734,
+        "title": "docs: add Neon AI Gateway provider guide",
+        "url": "https://github.com/openclaw/openclaw/pull/113734",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-25T14:00:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 102827,
-        "title": "fix(gateway): scope accumulatedText preservation to media-only replace events",
-        "url": "https://github.com/openclaw/openclaw/pull/102827",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-07-25T13:59:59Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113705,
-        "title": "refactor(fs): adopt fs-safe 0.5 core primitives",
-        "url": "https://github.com/openclaw/openclaw/pull/113705",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-25T13:59:52Z"
+        "author": "mezotv",
+        "updatedAt": "2026-07-25T15:17:20Z"
       },
       {
         "kind": "pr",
@@ -253,7 +216,25 @@
         "url": "https://github.com/openclaw/openclaw/pull/111893",
         "state": "open",
         "author": "xbrxr03",
-        "updatedAt": "2026-07-25T13:59:49Z"
+        "updatedAt": "2026-07-25T15:17:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113720,
+        "title": "refactor(plugins): split manifest normalization",
+        "url": "https://github.com/openclaw/openclaw/pull/113720",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-25T15:16:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111422,
+        "title": " fix(cron): detect ===DONE_ERR=== sentinel in agent final text as failure signal",
+        "url": "https://github.com/openclaw/openclaw/pull/111422",
+        "state": "open",
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-07-25T15:16:58Z"
       }
     ]
   }

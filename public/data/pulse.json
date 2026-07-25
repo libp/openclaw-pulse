@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-25T19:33:19.501Z",
+  "generatedAt": "2026-07-25T21:07:56.735Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -169,11 +169,11 @@
     },
     {
       "capturedOn": "2026-07-25",
-      "capturedAt": "2026-07-25T19:33:19.501Z",
-      "issueOpen": 4105,
+      "capturedAt": "2026-07-25T21:07:56.735Z",
+      "issueOpen": 4116,
       "issueClosed": 40765,
-      "prOpen": 2908,
-      "prClosed": 63633,
+      "prOpen": 2918,
+      "prClosed": 63656,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -183,50 +183,50 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 109145,
-        "title": "Gateway HTTP server listens but does not accept connections (v2026.7.1-beta.5)",
-        "url": "https://github.com/openclaw/openclaw/issues/109145",
+        "number": 113864,
+        "title": "[Bug] SECRETS_REF_IGNORED_INACTIVE_SURFACE skips Tavily API key resolution when Brave is the active web_search provider — tavily_search/tavily_extract broken",
+        "url": "https://github.com/openclaw/openclaw/issues/113864",
         "state": "open",
-        "author": "rafrosas",
-        "updatedAt": "2026-07-25T19:31:52Z"
+        "author": "Net-Sentinel",
+        "updatedAt": "2026-07-25T21:06:20Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113821,
-        "title": "fix(package): prevent installs from deleting required runtime modules",
-        "url": "https://github.com/openclaw/openclaw/pull/113821",
+        "number": 113750,
+        "title": "fix(cron): fail originating media cron on detached errors",
+        "url": "https://github.com/openclaw/openclaw/pull/113750",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-25T19:32:50Z"
+        "author": "helloember99",
+        "updatedAt": "2026-07-25T21:07:42Z"
       },
       {
         "kind": "pr",
-        "number": 113333,
-        "title": "feat(feeds): consume signed catalog changes",
-        "url": "https://github.com/openclaw/openclaw/pull/113333",
+        "number": 113822,
+        "title": "feat(plugins): add exact-profile provider usage reads",
+        "url": "https://github.com/openclaw/openclaw/pull/113822",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-25T19:32:40Z"
+        "author": "dorukardahan",
+        "updatedAt": "2026-07-25T21:07:36Z"
       },
       {
         "kind": "pr",
-        "number": 113820,
-        "title": "fix(ci): restore Browser and Codex prerelease coverage",
-        "url": "https://github.com/openclaw/openclaw/pull/113820",
+        "number": 113347,
+        "title": "fix(message): ignore populated Telegram location on model sends",
+        "url": "https://github.com/openclaw/openclaw/pull/113347",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-25T19:32:39Z"
+        "author": "snotty",
+        "updatedAt": "2026-07-25T21:07:36Z"
       },
       {
         "kind": "pr",
-        "number": 110250,
-        "title": "feat(feeds): consume signed sharded catalogs",
-        "url": "https://github.com/openclaw/openclaw/pull/110250",
+        "number": 113865,
+        "title": "fix(ui): keep chat table labels readable and summaries separated",
+        "url": "https://github.com/openclaw/openclaw/pull/113865",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-25T19:32:39Z"
+        "author": "clawsweeper",
+        "updatedAt": "2026-07-25T21:07:30Z"
       },
       {
         "kind": "pr",
@@ -235,16 +235,16 @@
         "url": "https://github.com/openclaw/openclaw/pull/113791",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-25T19:32:18Z"
+        "updatedAt": "2026-07-25T21:07:48Z"
       },
       {
         "kind": "pr",
-        "number": 113471,
-        "title": "fix(memory): close previous embedding provider before replacement",
-        "url": "https://github.com/openclaw/openclaw/pull/113471",
+        "number": 113850,
+        "title": "feat(native): show Swarm progress in chat",
+        "url": "https://github.com/openclaw/openclaw/pull/113850",
         "state": "open",
-        "author": "yt2102",
-        "updatedAt": "2026-07-25T19:31:45Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-25T21:07:16Z"
       }
     ]
   }

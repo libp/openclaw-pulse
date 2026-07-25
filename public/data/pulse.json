@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-25T21:07:56.735Z",
+  "generatedAt": "2026-07-25T22:08:53.914Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -169,11 +169,11 @@
     },
     {
       "capturedOn": "2026-07-25",
-      "capturedAt": "2026-07-25T21:07:56.735Z",
-      "issueOpen": 4116,
-      "issueClosed": 40765,
-      "prOpen": 2918,
-      "prClosed": 63656,
+      "capturedAt": "2026-07-25T22:08:53.914Z",
+      "issueOpen": 4117,
+      "issueClosed": 40767,
+      "prOpen": 2924,
+      "prClosed": 63669,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -183,68 +183,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 113864,
-        "title": "[Bug] SECRETS_REF_IGNORED_INACTIVE_SURFACE skips Tavily API key resolution when Brave is the active web_search provider — tavily_search/tavily_extract broken",
-        "url": "https://github.com/openclaw/openclaw/issues/113864",
+        "number": 113754,
+        "title": "Internal runtime context markers leak verbatim to all delivery channels (Telegram, Discord, Control UI)",
+        "url": "https://github.com/openclaw/openclaw/issues/113754",
         "state": "open",
-        "author": "Net-Sentinel",
-        "updatedAt": "2026-07-25T21:06:20Z"
+        "author": "bolinches",
+        "updatedAt": "2026-07-25T22:05:10Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113750,
-        "title": "fix(cron): fail originating media cron on detached errors",
-        "url": "https://github.com/openclaw/openclaw/pull/113750",
-        "state": "open",
-        "author": "helloember99",
-        "updatedAt": "2026-07-25T21:07:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113822,
-        "title": "feat(plugins): add exact-profile provider usage reads",
-        "url": "https://github.com/openclaw/openclaw/pull/113822",
-        "state": "open",
-        "author": "dorukardahan",
-        "updatedAt": "2026-07-25T21:07:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113347,
-        "title": "fix(message): ignore populated Telegram location on model sends",
-        "url": "https://github.com/openclaw/openclaw/pull/113347",
-        "state": "open",
-        "author": "snotty",
-        "updatedAt": "2026-07-25T21:07:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113865,
-        "title": "fix(ui): keep chat table labels readable and summaries separated",
-        "url": "https://github.com/openclaw/openclaw/pull/113865",
-        "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-07-25T21:07:30Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113791,
-        "title": "refactor(gateway): remove dead sessions.observer.ask rpc",
-        "url": "https://github.com/openclaw/openclaw/pull/113791",
+        "number": 113654,
+        "title": "fix(logging): keep JSON console output structured across CLI routes",
+        "url": "https://github.com/openclaw/openclaw/pull/113654",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-25T21:07:48Z"
+        "updatedAt": "2026-07-25T22:08:28Z"
       },
       {
         "kind": "pr",
-        "number": 113850,
-        "title": "feat(native): show Swarm progress in chat",
-        "url": "https://github.com/openclaw/openclaw/pull/113850",
+        "number": 113702,
+        "title": "fix(control-ui): renew canvas capability so agent widgets keep rendering",
+        "url": "https://github.com/openclaw/openclaw/pull/113702",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-25T21:07:16Z"
+        "updatedAt": "2026-07-25T22:08:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 97175,
+        "title": "fix(context-engine): bound deferred turn maintenance with a per-task timeout (AI-assisted)",
+        "url": "https://github.com/openclaw/openclaw/pull/97175",
+        "state": "open",
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-07-25T22:08:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113887,
+        "title": "fix(uninstall): preserve user data when gateway removal fails",
+        "url": "https://github.com/openclaw/openclaw/pull/113887",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-25T22:08:13Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113886,
+        "title": "fix(chat): restore native sidebar ordering and thread search",
+        "url": "https://github.com/openclaw/openclaw/pull/113886",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-25T22:07:58Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112439,
+        "title": "fix(providers): honor proxies in model discovery",
+        "url": "https://github.com/openclaw/openclaw/pull/112439",
+        "state": "open",
+        "author": "masatohoshino",
+        "updatedAt": "2026-07-25T22:07:47Z"
       }
     ]
   }

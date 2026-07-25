@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-25T10:43:09.046Z",
+  "generatedAt": "2026-07-25T12:08:37.746Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -169,72 +169,91 @@
     },
     {
       "capturedOn": "2026-07-25",
-      "capturedAt": "2026-07-25T10:43:09.046Z",
-      "issueOpen": 4094,
-      "issueClosed": 40749,
-      "prOpen": 2891,
-      "prClosed": 63467,
+      "capturedAt": "2026-07-25T12:08:37.746Z",
+      "issueOpen": 4092,
+      "issueClosed": 40754,
+      "prOpen": 2894,
+      "prClosed": 63494,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 95750,
+        "title": "[Bug]: Main-session restart-recovery has no cross-boot retry budget — wedged sessions death-loop the gateway across reboots (2026.6.9)",
+        "url": "https://github.com/openclaw/openclaw/issues/95750",
+        "state": "open",
+        "author": "BryceMurray",
+        "updatedAt": "2026-07-25T12:05:53Z"
+      },
+      {
+        "kind": "issue",
+        "number": 106760,
+        "title": "Telegram: pre-tool-call text erased when assistant response has multiple content blocks split by tool_use",
+        "url": "https://github.com/openclaw/openclaw/issues/106760",
+        "state": "open",
+        "author": "jackmtl71",
+        "updatedAt": "2026-07-25T12:03:27Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 111951,
-        "title": "fix(browser): skip non-executable auto-discovery candidates",
-        "url": "https://github.com/openclaw/openclaw/pull/111951",
+        "number": 113640,
+        "title": "Update README.md",
+        "url": "https://github.com/openclaw/openclaw/pull/113640",
         "state": "open",
-        "author": "ooiuuii",
-        "updatedAt": "2026-07-25T10:42:59Z"
+        "author": "LadbotOneLad",
+        "updatedAt": "2026-07-25T12:07:48Z"
       },
       {
         "kind": "pr",
-        "number": 113602,
-        "title": "refactor(slack): split message dispatch",
-        "url": "https://github.com/openclaw/openclaw/pull/113602",
+        "number": 112751,
+        "title": "feat(skills): install external skills.sh references",
+        "url": "https://github.com/openclaw/openclaw/pull/112751",
+        "state": "open",
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-07-25T12:07:46Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113626,
+        "title": "refactor(agents): split native hook relay",
+        "url": "https://github.com/openclaw/openclaw/pull/113626",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-25T10:42:46Z"
+        "updatedAt": "2026-07-25T12:07:26Z"
       },
       {
         "kind": "pr",
-        "number": 112855,
-        "title": "fix: doctor preserves locks owned by exact gateway process title",
-        "url": "https://github.com/openclaw/openclaw/pull/112855",
+        "number": 113460,
+        "title": "chore: stabilize session cost usage cache warmup test",
+        "url": "https://github.com/openclaw/openclaw/pull/113460",
         "state": "open",
-        "author": "fr-meyer",
-        "updatedAt": "2026-07-25T10:42:40Z"
+        "author": "eugene-harold-krabs",
+        "updatedAt": "2026-07-25T12:07:17Z"
       },
       {
         "kind": "pr",
-        "number": 78852,
-        "title": "perf(agents): reuse media tool availability during tool prep",
-        "url": "https://github.com/openclaw/openclaw/pull/78852",
+        "number": 105806,
+        "title": "fix(recovery): reclaim terminal-phase reply operations in stuck-session recovery",
+        "url": "https://github.com/openclaw/openclaw/pull/105806",
         "state": "open",
-        "author": "guanbear",
-        "updatedAt": "2026-07-25T10:42:17Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-07-25T12:07:13Z"
       },
       {
         "kind": "pr",
-        "number": 111962,
-        "title": "fix(mcp): retry failed tool catalogs after recovery",
-        "url": "https://github.com/openclaw/openclaw/pull/111962",
+        "number": 113104,
+        "title": "chore(deps): bump the actions group across 1 directory with 5 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/113104",
         "state": "open",
-        "author": "ooiuuii",
-        "updatedAt": "2026-07-25T10:41:59Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113607,
-        "title": "fix(snapshot): keep complete SQLite backups after interrupted commit",
-        "url": "https://github.com/openclaw/openclaw/pull/113607",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-07-25T10:41:43Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-07-25T12:06:41Z"
       }
     ]
   }

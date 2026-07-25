@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-25T09:11:39.340Z",
+  "generatedAt": "2026-07-25T10:43:09.046Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -169,91 +169,72 @@
     },
     {
       "capturedOn": "2026-07-25",
-      "capturedAt": "2026-07-25T09:11:39.340Z",
-      "issueOpen": 4096,
-      "issueClosed": 40745,
-      "prOpen": 2897,
-      "prClosed": 63443,
+      "capturedAt": "2026-07-25T10:43:09.046Z",
+      "issueOpen": 4094,
+      "issueClosed": 40749,
+      "prOpen": 2891,
+      "prClosed": 63467,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 101768,
-        "title": "[Bug]: SDK event IDs omit zero sequence values from normalized gateway events",
-        "url": "https://github.com/openclaw/openclaw/issues/101768",
-        "state": "closed",
-        "author": "qingminglong",
-        "updatedAt": "2026-07-25T09:08:01Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113584,
-        "title": "npm shrinkwrap pins brace-expansion version affected by high-severity advisory",
-        "url": "https://github.com/openclaw/openclaw/issues/113584",
-        "state": "open",
-        "author": "apurvvkumaria",
-        "updatedAt": "2026-07-25T09:07:30Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 113347,
-        "title": "fix(message): ignore populated Telegram location on model sends",
-        "url": "https://github.com/openclaw/openclaw/pull/113347",
+        "number": 111951,
+        "title": "fix(browser): skip non-executable auto-discovery candidates",
+        "url": "https://github.com/openclaw/openclaw/pull/111951",
         "state": "open",
-        "author": "snotty",
-        "updatedAt": "2026-07-25T09:11:28Z"
+        "author": "ooiuuii",
+        "updatedAt": "2026-07-25T10:42:59Z"
       },
       {
         "kind": "pr",
-        "number": 113589,
-        "title": "refactor(telegram): reuse shared error coercion",
-        "url": "https://github.com/openclaw/openclaw/pull/113589",
-        "state": "closed",
+        "number": 113602,
+        "title": "refactor(slack): split message dispatch",
+        "url": "https://github.com/openclaw/openclaw/pull/113602",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-25T10:42:46Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112855,
+        "title": "fix: doctor preserves locks owned by exact gateway process title",
+        "url": "https://github.com/openclaw/openclaw/pull/112855",
+        "state": "open",
+        "author": "fr-meyer",
+        "updatedAt": "2026-07-25T10:42:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 78852,
+        "title": "perf(agents): reuse media tool availability during tool prep",
+        "url": "https://github.com/openclaw/openclaw/pull/78852",
+        "state": "open",
+        "author": "guanbear",
+        "updatedAt": "2026-07-25T10:42:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111962,
+        "title": "fix(mcp): retry failed tool catalogs after recovery",
+        "url": "https://github.com/openclaw/openclaw/pull/111962",
+        "state": "open",
+        "author": "ooiuuii",
+        "updatedAt": "2026-07-25T10:41:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113607,
+        "title": "fix(snapshot): keep complete SQLite backups after interrupted commit",
+        "url": "https://github.com/openclaw/openclaw/pull/113607",
+        "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-07-25T09:10:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112166,
-        "title": "fix(agents): persist terminal session state after force-clearing stuck embedded runs",
-        "url": "https://github.com/openclaw/openclaw/pull/112166",
-        "state": "open",
-        "author": "xialonglee",
-        "updatedAt": "2026-07-25T09:10:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113551,
-        "title": "fix(tool-display): sanitize grep/rg patterns to prevent recursive search summaries",
-        "url": "https://github.com/openclaw/openclaw/pull/113551",
-        "state": "open",
-        "author": "Linux2010",
-        "updatedAt": "2026-07-25T09:10:31Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111898,
-        "title": "fix(browser): control results can contain corrupted text from malformed UTF-8",
-        "url": "https://github.com/openclaw/openclaw/pull/111898",
-        "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-07-25T09:10:06Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111956,
-        "title": "fix(release): stop Windows package descendants after timeout",
-        "url": "https://github.com/openclaw/openclaw/pull/111956",
-        "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-07-25T09:10:04Z"
+        "updatedAt": "2026-07-25T10:41:43Z"
       }
     ]
   }

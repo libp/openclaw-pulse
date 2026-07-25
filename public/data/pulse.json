@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-24T23:15:04.992Z",
+  "generatedAt": "2026-07-25T03:38:29.162Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -166,83 +166,130 @@
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-07-25",
+      "capturedAt": "2026-07-25T03:38:29.162Z",
+      "issueOpen": 4098,
+      "issueClosed": 40727,
+      "prOpen": 2922,
+      "prClosed": 63327,
+      "workflowRuns": 40000,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 107220,
-        "title": "2026.7.1 gateway crash-loop: legacy memory sidecar `meta`/`chunks` conflicts are fatal while `files` conflicts auto-resolve",
-        "url": "https://github.com/openclaw/openclaw/issues/107220",
-        "state": "closed",
-        "author": "liewjiajun",
-        "updatedAt": "2026-07-24T23:09:11Z"
+        "number": 113480,
+        "title": "[Bug]: Runtime-tool QA can pass on fixture intent without successful product evidence",
+        "url": "https://github.com/openclaw/openclaw/issues/113480",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-07-25T03:38:07Z"
       },
       {
         "kind": "issue",
-        "number": 113431,
-        "title": "Nextcloud Talk current-room aliases fail with previous external plugin releases",
-        "url": "https://github.com/openclaw/openclaw/issues/113431",
+        "number": 113483,
+        "title": "[Bug]: Generic channel QA evidence overstates primary coverage",
+        "url": "https://github.com/openclaw/openclaw/issues/113483",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-07-24T23:06:04Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-07-25T03:37:15Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113479,
+        "title": "[Bug]: Telegram QA coverage lacks product-startup getMe proof",
+        "url": "https://github.com/openclaw/openclaw/issues/113479",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-07-25T03:36:45Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113481,
+        "title": "[Feature]: Add per-agent daily model spend alerts",
+        "url": "https://github.com/openclaw/openclaw/issues/113481",
+        "state": "open",
+        "author": "litang9",
+        "updatedAt": "2026-07-25T03:35:44Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113474,
+        "title": "Gateway crash loop on Raspberry Pi 5 — repeated offline/online cycling",
+        "url": "https://github.com/openclaw/openclaw/issues/113474",
+        "state": "open",
+        "author": "blaiqcharles-cloud",
+        "updatedAt": "2026-07-25T03:34:22Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113475,
+        "title": "Configured MCP tools disappear inside isolated agentTurn cron runs",
+        "url": "https://github.com/openclaw/openclaw/issues/113475",
+        "state": "open",
+        "author": "james-s-hedwig[bot]",
+        "updatedAt": "2026-07-25T03:27:03Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113413,
-        "title": "docs(anthropic): document the rolling opus alias and pin alias-split coverage",
-        "url": "https://github.com/openclaw/openclaw/pull/113413",
-        "state": "closed",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-07-24T23:14:56Z"
-      },
-      {
-        "kind": "pr",
-        "number": 102293,
-        "title": "onepassword plugin: add exec SecretRef ",
-        "url": "https://github.com/openclaw/openclaw/pull/102293",
+        "number": 113477,
+        "title": "docs: fix default ClawHub registry URL in skills-config example",
+        "url": "https://github.com/openclaw/openclaw/pull/113477",
         "state": "open",
-        "author": "sallyom",
-        "updatedAt": "2026-07-24T23:14:46Z"
+        "author": "santhiprakash",
+        "updatedAt": "2026-07-25T03:38:02Z"
       },
       {
         "kind": "pr",
-        "number": 113404,
-        "title": "fix(sqlite): keep read-only state journal-aware",
-        "url": "https://github.com/openclaw/openclaw/pull/113404",
+        "number": 112644,
+        "title": "fix(agents): honor run abort signal in image and pdf tools",
+        "url": "https://github.com/openclaw/openclaw/pull/112644",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-07-24T23:14:35Z"
+        "author": "masatohoshino",
+        "updatedAt": "2026-07-25T03:37:35Z"
       },
       {
         "kind": "pr",
-        "number": 112678,
-        "title": "refactor(agents): move implicit-main fallback into load-time roster injection",
-        "url": "https://github.com/openclaw/openclaw/pull/112678",
+        "number": 113476,
+        "title": "feat(setup): download-model actions on web and macOS onboarding",
+        "url": "https://github.com/openclaw/openclaw/pull/113476",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-24T23:14:30Z"
+        "updatedAt": "2026-07-25T03:37:31Z"
       },
       {
         "kind": "pr",
-        "number": 96645,
-        "title": "fix(mattermost): key private channels as group on outbound routing",
-        "url": "https://github.com/openclaw/openclaw/pull/96645",
+        "number": 113482,
+        "title": "feat(system-agent): constrain planner JSON output at generation time",
+        "url": "https://github.com/openclaw/openclaw/pull/113482",
         "state": "open",
-        "author": "iloveleon19",
-        "updatedAt": "2026-07-24T23:14:21Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-25T03:36:37Z"
       },
       {
         "kind": "pr",
-        "number": 113419,
-        "title": "feat(channels): add Buzz channel plugin",
-        "url": "https://github.com/openclaw/openclaw/pull/113419",
+        "number": 113470,
+        "title": "fix(qa): retain runtime tool evidence after agent completion",
+        "url": "https://github.com/openclaw/openclaw/pull/113470",
         "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-07-24T23:12:56Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-25T03:36:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112895,
+        "title": "fix(release): build private QA candidate artifacts",
+        "url": "https://github.com/openclaw/openclaw/pull/112895",
+        "state": "closed",
+        "author": "RomneyDa",
+        "updatedAt": "2026-07-25T03:36:25Z"
       }
     ]
   }

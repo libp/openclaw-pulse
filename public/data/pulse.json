@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-26T00:11:50.951Z",
+  "generatedAt": "2026-07-26T03:53:20.787Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -180,109 +180,72 @@
     },
     {
       "capturedOn": "2026-07-26",
-      "capturedAt": "2026-07-26T00:11:50.951Z",
-      "issueOpen": 4120,
-      "issueClosed": 40768,
-      "prOpen": 2937,
-      "prClosed": 63687,
+      "capturedAt": "2026-07-26T03:53:20.787Z",
+      "issueOpen": 4122,
+      "issueClosed": 40775,
+      "prOpen": 2943,
+      "prClosed": 63756,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 113701,
-        "title": "Context Overflow: large tool outputs exceed context window, compaction can't recover, sessions enter failure loop",
-        "url": "https://github.com/openclaw/openclaw/issues/113701",
-        "state": "open",
-        "author": "ogilvymiles",
-        "updatedAt": "2026-07-26T00:10:42Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113466,
-        "title": "[Bug]: /new and /reset don't actually create a new session in 2026.7.1-2",
-        "url": "https://github.com/openclaw/openclaw/issues/113466",
-        "state": "open",
-        "author": "matias-2707",
-        "updatedAt": "2026-07-26T00:09:39Z"
-      },
-      {
-        "kind": "issue",
-        "number": 57369,
-        "title": "session.reset: support mode: \"never\" for manual-only session reset behavior",
-        "url": "https://github.com/openclaw/openclaw/issues/57369",
-        "state": "open",
-        "author": "aa7469",
-        "updatedAt": "2026-07-26T00:08:47Z"
-      },
-      {
-        "kind": "issue",
-        "number": 45049,
-        "title": "Agent loop allows simulated tool calls instead of enforcing real tool invocation",
-        "url": "https://github.com/openclaw/openclaw/issues/45049",
-        "state": "open",
-        "author": "ArnoldJr",
-        "updatedAt": "2026-07-26T00:08:04Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 113654,
-        "title": "fix(logging): keep JSON console output structured across CLI routes",
-        "url": "https://github.com/openclaw/openclaw/pull/113654",
+        "number": 114006,
+        "title": "build(deps): remove npm shrinkwrap; mirror pnpm lock into transient package locks",
+        "url": "https://github.com/openclaw/openclaw/pull/114006",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-26T00:11:45Z"
+        "updatedAt": "2026-07-26T03:53:04Z"
       },
       {
         "kind": "pr",
-        "number": 113922,
-        "title": "fix(agents): diagnostic content tests use current capture config",
-        "url": "https://github.com/openclaw/openclaw/pull/113922",
+        "number": 114005,
+        "title": "fix(ui): add empty sidebar drop targets",
+        "url": "https://github.com/openclaw/openclaw/pull/114005",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-26T00:11:29Z"
+        "updatedAt": "2026-07-26T03:52:29Z"
       },
       {
         "kind": "pr",
-        "number": 113422,
-        "title": "feat: add standard hosting profiles",
-        "url": "https://github.com/openclaw/openclaw/pull/113422",
+        "number": 102379,
+        "title": "fix(msteams): normalize inbound mentions and forwards",
+        "url": "https://github.com/openclaw/openclaw/pull/102379",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-26T00:10:33Z"
+        "author": "galiniliev",
+        "updatedAt": "2026-07-26T03:52:20Z"
       },
       {
         "kind": "pr",
-        "number": 113914,
-        "title": "feat(ci): weekly Codex sweep for date-carrying to-dos",
-        "url": "https://github.com/openclaw/openclaw/pull/113914",
+        "number": 113966,
+        "title": "refactor(agents): retire TOOLS.md into an AGENTS.md section with a doctor migration",
+        "url": "https://github.com/openclaw/openclaw/pull/113966",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-26T00:10:25Z"
+        "updatedAt": "2026-07-26T03:51:59Z"
       },
       {
         "kind": "pr",
-        "number": 82540,
-        "title": "fix(wechat): preserve existing accounts across hot reload",
-        "url": "https://github.com/openclaw/openclaw/pull/82540",
-        "state": "open",
-        "author": "NewdlDewdl",
-        "updatedAt": "2026-07-26T00:09:43Z"
+        "number": 113982,
+        "title": "refactor(plugins): share provider alias matching",
+        "url": "https://github.com/openclaw/openclaw/pull/113982",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-07-26T03:51:37Z"
       },
       {
         "kind": "pr",
-        "number": 113354,
-        "title": "feat(talk): enable GPT Live with Codex OAuth",
-        "url": "https://github.com/openclaw/openclaw/pull/113354",
+        "number": 112375,
+        "title": "feat(cron): shell precheck gate to skip LLM when no work",
+        "url": "https://github.com/openclaw/openclaw/pull/112375",
         "state": "open",
-        "author": "Solvely-Colin",
-        "updatedAt": "2026-07-26T00:09:29Z"
+        "author": "Bartok9",
+        "updatedAt": "2026-07-26T03:51:30Z"
       }
     ]
   }

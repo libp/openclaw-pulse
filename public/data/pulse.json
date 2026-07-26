@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-26T03:53:20.787Z",
+  "generatedAt": "2026-07-26T06:47:26.559Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -180,72 +180,91 @@
     },
     {
       "capturedOn": "2026-07-26",
-      "capturedAt": "2026-07-26T03:53:20.787Z",
-      "issueOpen": 4122,
-      "issueClosed": 40775,
-      "prOpen": 2943,
-      "prClosed": 63756,
+      "capturedAt": "2026-07-26T06:47:26.559Z",
+      "issueOpen": 4117,
+      "issueClosed": 40786,
+      "prOpen": 2926,
+      "prClosed": 63820,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 112986,
+        "title": "A2A step context in extraSystemPrompt (concrete announce texts, turn counters) breaks prompt-prefix caching on every inter-agent message",
+        "url": "https://github.com/openclaw/openclaw/issues/112986",
+        "state": "open",
+        "author": "rejlander",
+        "updatedAt": "2026-07-26T06:45:09Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113000,
+        "title": "[Bug]: Every browser restart creates a new browser identity and another trusted device entry.",
+        "url": "https://github.com/openclaw/openclaw/issues/113000",
+        "state": "open",
+        "author": "Marcus67-dev",
+        "updatedAt": "2026-07-26T06:44:45Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 114006,
-        "title": "build(deps): remove npm shrinkwrap; mirror pnpm lock into transient package locks",
-        "url": "https://github.com/openclaw/openclaw/pull/114006",
+        "number": 112657,
+        "title": "fix(kilocode): discover models when HTTP proxy is required",
+        "url": "https://github.com/openclaw/openclaw/pull/112657",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-26T03:53:04Z"
+        "author": "masatohoshino",
+        "updatedAt": "2026-07-26T06:47:22Z"
       },
       {
         "kind": "pr",
-        "number": 114005,
-        "title": "fix(ui): add empty sidebar drop targets",
-        "url": "https://github.com/openclaw/openclaw/pull/114005",
+        "number": 105822,
+        "title": "fix(agents): tighten grepSchema context/limit from Type.Number to Type.Integer",
+        "url": "https://github.com/openclaw/openclaw/pull/105822",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-26T03:52:29Z"
+        "author": "lzyyzznl",
+        "updatedAt": "2026-07-26T06:47:18Z"
       },
       {
         "kind": "pr",
-        "number": 102379,
-        "title": "fix(msteams): normalize inbound mentions and forwards",
-        "url": "https://github.com/openclaw/openclaw/pull/102379",
+        "number": 113395,
+        "title": "fix(auth): refresh Anthropic OAuth tokens inside the pre-expiry margin window",
+        "url": "https://github.com/openclaw/openclaw/pull/113395",
         "state": "open",
-        "author": "galiniliev",
-        "updatedAt": "2026-07-26T03:52:20Z"
+        "author": "masatohoshino",
+        "updatedAt": "2026-07-26T06:47:17Z"
       },
       {
         "kind": "pr",
-        "number": 113966,
-        "title": "refactor(agents): retire TOOLS.md into an AGENTS.md section with a doctor migration",
-        "url": "https://github.com/openclaw/openclaw/pull/113966",
+        "number": 106705,
+        "title": "fix(ui): apply Context Profile presets via config.patch to avoid SecretRef rejection",
+        "url": "https://github.com/openclaw/openclaw/pull/106705",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-26T03:51:59Z"
+        "author": "lzyyzznl",
+        "updatedAt": "2026-07-26T06:47:16Z"
       },
       {
         "kind": "pr",
-        "number": 113982,
-        "title": "refactor(plugins): share provider alias matching",
-        "url": "https://github.com/openclaw/openclaw/pull/113982",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-07-26T03:51:37Z"
+        "number": 112675,
+        "title": "fix(nextcloud-talk): reject reactions for disabled or unconfigured accounts",
+        "url": "https://github.com/openclaw/openclaw/pull/112675",
+        "state": "open",
+        "author": "masatohoshino",
+        "updatedAt": "2026-07-26T06:47:23Z"
       },
       {
         "kind": "pr",
-        "number": 112375,
-        "title": "feat(cron): shell precheck gate to skip LLM when no work",
-        "url": "https://github.com/openclaw/openclaw/pull/112375",
+        "number": 113055,
+        "title": "fix(elevenlabs): route TTS and voice egress through the trusted env proxy",
+        "url": "https://github.com/openclaw/openclaw/pull/113055",
         "state": "open",
-        "author": "Bartok9",
-        "updatedAt": "2026-07-26T03:51:30Z"
+        "author": "masatohoshino",
+        "updatedAt": "2026-07-26T06:47:23Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-26T11:35:55.575Z",
+  "generatedAt": "2026-07-26T13:54:16.989Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -180,11 +180,11 @@
     },
     {
       "capturedOn": "2026-07-26",
-      "capturedAt": "2026-07-26T11:35:55.575Z",
-      "issueOpen": 4113,
+      "capturedAt": "2026-07-26T13:54:16.989Z",
+      "issueOpen": 4121,
       "issueClosed": 40755,
-      "prOpen": 2922,
-      "prClosed": 63757,
+      "prOpen": 2918,
+      "prClosed": 63770,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -194,104 +194,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 7524,
-        "title": "Feature: groupScope option to consolidate group sessions into main",
-        "url": "https://github.com/openclaw/openclaw/issues/7524",
+        "number": 114105,
+        "title": "Token Plan catalog curation in #113681 used the Coding Plan endpoint: adds a model that 404s and keeps the oldest of each family",
+        "url": "https://github.com/openclaw/openclaw/issues/114105",
         "state": "open",
-        "author": "ThatGuySizemore",
-        "updatedAt": "2026-07-26T11:35:50Z"
+        "author": "oliver-mee",
+        "updatedAt": "2026-07-26T13:51:12Z"
       },
       {
         "kind": "issue",
-        "number": 113140,
-        "title": "Feature Request: Dashboard Session Routing for User Notifications",
-        "url": "https://github.com/openclaw/openclaw/issues/113140",
+        "number": 114101,
+        "title": "0",
+        "url": "https://github.com/openclaw/openclaw/issues/114101",
         "state": "open",
-        "author": "Net-Sentinel",
-        "updatedAt": "2026-07-26T11:35:51Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113139,
-        "title": "repairOpenClawStateDatabaseSchema opens a new DatabaseSync connection without setting PRAGMA busy_timeout",
-        "url": "https://github.com/openclaw/openclaw/issues/113139",
-        "state": "open",
-        "author": "Nelsoncongbao",
-        "updatedAt": "2026-07-26T11:35:50Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113130,
-        "title": "Moonshot/Kimi rejects tool schemas with parent-level anyOf (openai-completions path does not normalize like Google/Responses)",
-        "url": "https://github.com/openclaw/openclaw/issues/113130",
-        "state": "open",
-        "author": "rmoskal",
-        "updatedAt": "2026-07-26T11:35:40Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113323,
-        "title": "[Bug]: LLM idle timeout aborts agent runs during reasoning-token streaming on a local reasoning model",
-        "url": "https://github.com/openclaw/openclaw/issues/113323",
-        "state": "open",
-        "author": "convexchaos",
-        "updatedAt": "2026-07-26T11:30:14Z"
+        "author": "openclawwei",
+        "updatedAt": "2026-07-26T13:48:44Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113123,
-        "title": "Add Git push preflight guard",
-        "url": "https://github.com/openclaw/openclaw/pull/113123",
+        "number": 113502,
+        "title": "fix(qa): reject runtime tool intent without result evidence",
+        "url": "https://github.com/openclaw/openclaw/pull/113502",
         "state": "open",
-        "author": "SnowBelt",
-        "updatedAt": "2026-07-26T11:35:37Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-07-26T13:54:09Z"
       },
       {
         "kind": "pr",
-        "number": 109091,
-        "title": "fix(codex): bound Computer Use process inspection",
-        "url": "https://github.com/openclaw/openclaw/pull/109091",
+        "number": 114113,
+        "title": "fix(cron): stop retrying permanent billing errors returned as HTTP 429",
+        "url": "https://github.com/openclaw/openclaw/pull/114113",
         "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-07-26T11:35:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113311,
-        "title": "fix(workboard): preserve proof history across later card writes",
-        "url": "https://github.com/openclaw/openclaw/pull/113311",
-        "state": "open",
-        "author": "noelillinger",
-        "updatedAt": "2026-07-26T11:34:45Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112589,
-        "title": "feat: add lease-bound metadata to session spawns",
-        "url": "https://github.com/openclaw/openclaw/pull/112589",
-        "state": "open",
-        "author": "yuzuqiang",
-        "updatedAt": "2026-07-26T11:34:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114096,
-        "title": "test(memory): mock admitted search sync",
-        "url": "https://github.com/openclaw/openclaw/pull/114096",
-        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-07-26T11:33:28Z"
+        "updatedAt": "2026-07-26T13:54:03Z"
       },
       {
         "kind": "pr",
-        "number": 113395,
-        "title": "fix(auth): refresh Anthropic OAuth tokens inside the pre-expiry margin window",
-        "url": "https://github.com/openclaw/openclaw/pull/113395",
+        "number": 113422,
+        "title": "feat: add standard hosting profiles",
+        "url": "https://github.com/openclaw/openclaw/pull/113422",
         "state": "open",
-        "author": "masatohoshino",
-        "updatedAt": "2026-07-26T11:33:00Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-26T13:54:03Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113421,
+        "title": "readiness: adopt core runtime conditions",
+        "url": "https://github.com/openclaw/openclaw/pull/113421",
+        "state": "open",
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-26T13:54:01Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113663,
+        "title": "fix(xai): Grok subscription inference fails with HTTP 426 on every request",
+        "url": "https://github.com/openclaw/openclaw/pull/113663",
+        "state": "open",
+        "author": "jzakirov",
+        "updatedAt": "2026-07-26T13:54:00Z"
+      },
+      {
+        "kind": "pr",
+        "number": 104018,
+        "title": "feat: add readiness conditions and providers",
+        "url": "https://github.com/openclaw/openclaw/pull/104018",
+        "state": "open",
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-26T13:53:59Z"
       }
     ]
   }

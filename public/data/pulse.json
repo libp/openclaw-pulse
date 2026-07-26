@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-26T15:19:38.698Z",
+  "generatedAt": "2026-07-26T18:11:29.316Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -180,11 +180,11 @@
     },
     {
       "capturedOn": "2026-07-26",
-      "capturedAt": "2026-07-26T15:19:38.698Z",
-      "issueOpen": 4121,
+      "capturedAt": "2026-07-26T18:11:29.316Z",
+      "issueOpen": 4131,
       "issueClosed": 40756,
-      "prOpen": 2922,
-      "prClosed": 63776,
+      "prOpen": 2930,
+      "prClosed": 63781,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -194,59 +194,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 113182,
-        "title": "[Bug]: lane task timeout races legitimate turn completion, discarding the final assistant text (~26s window)",
-        "url": "https://github.com/openclaw/openclaw/issues/113182",
+        "number": 113203,
+        "title": "Add option to keep final lifecycle status reaction instead of restoring ack reaction",
+        "url": "https://github.com/openclaw/openclaw/issues/113203",
         "state": "open",
-        "author": "belfortfilho",
-        "updatedAt": "2026-07-26T15:18:02Z"
+        "author": "tomatoxamato",
+        "updatedAt": "2026-07-26T18:09:22Z"
       },
       {
         "kind": "issue",
-        "number": 75,
-        "title": "Linux/Windows Clawdbot Apps",
-        "url": "https://github.com/openclaw/openclaw/issues/75",
+        "number": 92374,
+        "title": "Plugin `message_sending` hooks silently bypassed on channel agent-reply delivery paths (2026.5.26, still present in 2026.6.1)",
+        "url": "https://github.com/openclaw/openclaw/issues/92374",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-26T15:11:22Z"
+        "author": "mids-neo",
+        "updatedAt": "2026-07-26T18:09:15Z"
+      },
+      {
+        "kind": "issue",
+        "number": 92058,
+        "title": "failureAlert (after=1) never fires on 2026.6.5 — every errored run stuck at delivery_status 'not-requested'",
+        "url": "https://github.com/openclaw/openclaw/issues/92058",
+        "state": "open",
+        "author": "chrislro",
+        "updatedAt": "2026-07-26T18:09:15Z"
+      },
+      {
+        "kind": "issue",
+        "number": 77298,
+        "title": "Cron consecutiveErrors increments on gateway-restart interruptions, masking real agent-failure rate (post-#50414)",
+        "url": "https://github.com/openclaw/openclaw/issues/77298",
+        "state": "open",
+        "author": "aderius",
+        "updatedAt": "2026-07-26T18:05:33Z"
+      },
+      {
+        "kind": "issue",
+        "number": 8673,
+        "title": "Add retry logic to OAuth token refresh",
+        "url": "https://github.com/openclaw/openclaw/issues/8673",
+        "state": "open",
+        "author": "skyblue-will",
+        "updatedAt": "2026-07-26T18:05:32Z"
+      },
+      {
+        "kind": "issue",
+        "number": 114145,
+        "title": "[Feature]: Define a safe scale-to-zero recovery contract for Gateway hosts",
+        "url": "https://github.com/openclaw/openclaw/issues/114145",
+        "state": "open",
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-26T18:02:22Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 105643,
-        "title": "fix(cli-runner): sweep orphaned bundle MCP temp dirs at gateway startup",
-        "url": "https://github.com/openclaw/openclaw/pull/105643",
+        "number": 113959,
+        "title": "fix(sessions): gateway becomes unusable when there are many sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/113959",
         "state": "open",
-        "author": "totobusnello",
-        "updatedAt": "2026-07-26T15:19:28Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114123,
-        "title": "docs: add async cross-Gateway agent handoff option",
-        "url": "https://github.com/openclaw/openclaw/pull/114123",
-        "state": "open",
-        "author": "2JasonP",
-        "updatedAt": "2026-07-26T15:19:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 92420,
-        "title": "fix(telegram): record sent messages in the source-delivery path",
-        "url": "https://github.com/openclaw/openclaw/pull/92420",
-        "state": "open",
-        "author": "tangtaizong666",
-        "updatedAt": "2026-07-26T15:19:25Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112496,
-        "title": "fix(agents): reject sessions_send to unknown agents on sessionKey and label paths",
-        "url": "https://github.com/openclaw/openclaw/pull/112496",
-        "state": "open",
-        "author": "xialonglee",
-        "updatedAt": "2026-07-26T15:18:30Z"
+        "author": "ekinnee",
+        "updatedAt": "2026-07-26T18:11:27Z"
       },
       {
         "kind": "pr",
@@ -255,7 +264,7 @@
         "url": "https://github.com/openclaw/openclaw/pull/113422",
         "state": "open",
         "author": "giodl73-repo",
-        "updatedAt": "2026-07-26T15:18:04Z"
+        "updatedAt": "2026-07-26T18:10:47Z"
       },
       {
         "kind": "pr",
@@ -264,7 +273,34 @@
         "url": "https://github.com/openclaw/openclaw/pull/112896",
         "state": "open",
         "author": "giodl73-repo",
-        "updatedAt": "2026-07-26T15:17:50Z"
+        "updatedAt": "2026-07-26T18:10:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114117,
+        "title": "fix: reduce reply delay when model policy is configured",
+        "url": "https://github.com/openclaw/openclaw/pull/114117",
+        "state": "open",
+        "author": "VACInc",
+        "updatedAt": "2026-07-26T18:10:32Z"
+      },
+      {
+        "kind": "pr",
+        "number": 92230,
+        "title": "feat: add model switch choices to /model",
+        "url": "https://github.com/openclaw/openclaw/pull/92230",
+        "state": "open",
+        "author": "clawSean",
+        "updatedAt": "2026-07-26T18:10:26Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112865,
+        "title": "feat(snapshot): capture final recovery points",
+        "url": "https://github.com/openclaw/openclaw/pull/112865",
+        "state": "open",
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-26T18:10:11Z"
       }
     ]
   }

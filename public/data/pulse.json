@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-26T09:22:53.186Z",
+  "generatedAt": "2026-07-26T11:35:55.575Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -180,11 +180,11 @@
     },
     {
       "capturedOn": "2026-07-26",
-      "capturedAt": "2026-07-26T09:22:53.186Z",
-      "issueOpen": 4109,
-      "issueClosed": 40752,
+      "capturedAt": "2026-07-26T11:35:55.575Z",
+      "issueOpen": 4113,
+      "issueClosed": 40755,
       "prOpen": 2922,
-      "prClosed": 63748,
+      "prClosed": 63757,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -194,32 +194,59 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 91892,
-        "title": "Cron jobs stall during AI model calls (model_call:stream_progress never completes)",
-        "url": "https://github.com/openclaw/openclaw/issues/91892",
+        "number": 7524,
+        "title": "Feature: groupScope option to consolidate group sessions into main",
+        "url": "https://github.com/openclaw/openclaw/issues/7524",
         "state": "open",
-        "author": "luciaski",
-        "updatedAt": "2026-07-26T09:18:42Z"
+        "author": "ThatGuySizemore",
+        "updatedAt": "2026-07-26T11:35:50Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113140,
+        "title": "Feature Request: Dashboard Session Routing for User Notifications",
+        "url": "https://github.com/openclaw/openclaw/issues/113140",
+        "state": "open",
+        "author": "Net-Sentinel",
+        "updatedAt": "2026-07-26T11:35:51Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113139,
+        "title": "repairOpenClawStateDatabaseSchema opens a new DatabaseSync connection without setting PRAGMA busy_timeout",
+        "url": "https://github.com/openclaw/openclaw/issues/113139",
+        "state": "open",
+        "author": "Nelsoncongbao",
+        "updatedAt": "2026-07-26T11:35:50Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113130,
+        "title": "Moonshot/Kimi rejects tool schemas with parent-level anyOf (openai-completions path does not normalize like Google/Responses)",
+        "url": "https://github.com/openclaw/openclaw/issues/113130",
+        "state": "open",
+        "author": "rmoskal",
+        "updatedAt": "2026-07-26T11:35:40Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113323,
+        "title": "[Bug]: LLM idle timeout aborts agent runs during reasoning-token streaming on a local reasoning model",
+        "url": "https://github.com/openclaw/openclaw/issues/113323",
+        "state": "open",
+        "author": "convexchaos",
+        "updatedAt": "2026-07-26T11:30:14Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113672,
-        "title": "fix: let native browser context menu appear when text is selected in chat bubbles (issue #113389)",
-        "url": "https://github.com/openclaw/openclaw/pull/113672",
+        "number": 113123,
+        "title": "Add Git push preflight guard",
+        "url": "https://github.com/openclaw/openclaw/pull/113123",
         "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-07-26T09:22:30Z"
-      },
-      {
-        "kind": "pr",
-        "number": 101777,
-        "title": "fix(codex): suppress stdout/stderr stream errors in sandbox subprocesses",
-        "url": "https://github.com/openclaw/openclaw/pull/101777",
-        "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-07-26T09:22:21Z"
+        "author": "SnowBelt",
+        "updatedAt": "2026-07-26T11:35:37Z"
       },
       {
         "kind": "pr",
@@ -228,34 +255,43 @@
         "url": "https://github.com/openclaw/openclaw/pull/109091",
         "state": "open",
         "author": "Alix-007",
-        "updatedAt": "2026-07-26T09:21:44Z"
+        "updatedAt": "2026-07-26T11:35:26Z"
       },
       {
         "kind": "pr",
-        "number": 113883,
-        "title": "feat(ui): path-based session and dashboard URLs",
-        "url": "https://github.com/openclaw/openclaw/pull/113883",
+        "number": 113311,
+        "title": "fix(workboard): preserve proof history across later card writes",
+        "url": "https://github.com/openclaw/openclaw/pull/113311",
         "state": "open",
+        "author": "noelillinger",
+        "updatedAt": "2026-07-26T11:34:45Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112589,
+        "title": "feat: add lease-bound metadata to session spawns",
+        "url": "https://github.com/openclaw/openclaw/pull/112589",
+        "state": "open",
+        "author": "yuzuqiang",
+        "updatedAt": "2026-07-26T11:34:26Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114096,
+        "title": "test(memory): mock admitted search sync",
+        "url": "https://github.com/openclaw/openclaw/pull/114096",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-07-26T09:21:35Z"
+        "updatedAt": "2026-07-26T11:33:28Z"
       },
       {
         "kind": "pr",
-        "number": 108107,
-        "title": "fix(ui): add AbortSignal.timeout to nostr profile fetch calls",
-        "url": "https://github.com/openclaw/openclaw/pull/108107",
+        "number": 113395,
+        "title": "fix(auth): refresh Anthropic OAuth tokens inside the pre-expiry margin window",
+        "url": "https://github.com/openclaw/openclaw/pull/113395",
         "state": "open",
-        "author": "lzyyzznl",
-        "updatedAt": "2026-07-26T09:21:30Z"
-      },
-      {
-        "kind": "pr",
-        "number": 105564,
-        "title": "fix: tighten readSchema.limit from Type.Number to Type.Integer",
-        "url": "https://github.com/openclaw/openclaw/pull/105564",
-        "state": "open",
-        "author": "lzyyzznl",
-        "updatedAt": "2026-07-26T09:21:08Z"
+        "author": "masatohoshino",
+        "updatedAt": "2026-07-26T11:33:00Z"
       }
     ]
   }

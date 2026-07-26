@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-26T18:11:29.316Z",
+  "generatedAt": "2026-07-26T21:10:51.325Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -180,11 +180,11 @@
     },
     {
       "capturedOn": "2026-07-26",
-      "capturedAt": "2026-07-26T18:11:29.316Z",
-      "issueOpen": 4131,
-      "issueClosed": 40756,
-      "prOpen": 2930,
-      "prClosed": 63781,
+      "capturedAt": "2026-07-26T21:10:51.325Z",
+      "issueOpen": 4139,
+      "issueClosed": 40759,
+      "prOpen": 2941,
+      "prClosed": 63788,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -194,113 +194,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 113203,
-        "title": "Add option to keep final lifecycle status reaction instead of restoring ack reaction",
-        "url": "https://github.com/openclaw/openclaw/issues/113203",
+        "number": 90778,
+        "title": "Gmail hook delivery verification fails even when message tool uses Telegram target",
+        "url": "https://github.com/openclaw/openclaw/issues/90778",
         "state": "open",
-        "author": "tomatoxamato",
-        "updatedAt": "2026-07-26T18:09:22Z"
+        "author": "Countermarch",
+        "updatedAt": "2026-07-26T21:09:02Z"
       },
       {
         "kind": "issue",
-        "number": 92374,
-        "title": "Plugin `message_sending` hooks silently bypassed on channel agent-reply delivery paths (2026.5.26, still present in 2026.6.1)",
-        "url": "https://github.com/openclaw/openclaw/issues/92374",
+        "number": 11301,
+        "title": "Add /workspace symlink to container configuration",
+        "url": "https://github.com/openclaw/openclaw/issues/11301",
         "state": "open",
-        "author": "mids-neo",
-        "updatedAt": "2026-07-26T18:09:15Z"
+        "author": "tukunangh",
+        "updatedAt": "2026-07-26T21:09:02Z"
       },
       {
         "kind": "issue",
-        "number": 92058,
-        "title": "failureAlert (after=1) never fires on 2026.6.5 — every errored run stuck at delivery_status 'not-requested'",
-        "url": "https://github.com/openclaw/openclaw/issues/92058",
+        "number": 114155,
+        "title": "[Bug]: Budget-triggered compaction hard-fails on Codex OAuth sessions — native compaction path is ordered after the one requiring an API key",
+        "url": "https://github.com/openclaw/openclaw/issues/114155",
         "state": "open",
-        "author": "chrislro",
-        "updatedAt": "2026-07-26T18:09:15Z"
+        "author": "Ali-Al1",
+        "updatedAt": "2026-07-26T21:08:59Z"
       },
       {
         "kind": "issue",
-        "number": 77298,
-        "title": "Cron consecutiveErrors increments on gateway-restart interruptions, masking real agent-failure rate (post-#50414)",
-        "url": "https://github.com/openclaw/openclaw/issues/77298",
+        "number": 114176,
+        "title": "[Bug]: ERR_INTERNAL_ASSERTION in openclaw agent with a custom openai-completions provider",
+        "url": "https://github.com/openclaw/openclaw/issues/114176",
         "state": "open",
-        "author": "aderius",
-        "updatedAt": "2026-07-26T18:05:33Z"
-      },
-      {
-        "kind": "issue",
-        "number": 8673,
-        "title": "Add retry logic to OAuth token refresh",
-        "url": "https://github.com/openclaw/openclaw/issues/8673",
-        "state": "open",
-        "author": "skyblue-will",
-        "updatedAt": "2026-07-26T18:05:32Z"
-      },
-      {
-        "kind": "issue",
-        "number": 114145,
-        "title": "[Feature]: Define a safe scale-to-zero recovery contract for Gateway hosts",
-        "url": "https://github.com/openclaw/openclaw/issues/114145",
-        "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-26T18:02:22Z"
+        "author": "benjaml4",
+        "updatedAt": "2026-07-26T21:05:50Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113959,
-        "title": "fix(sessions): gateway becomes unusable when there are many sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/113959",
+        "number": 104569,
+        "title": "fix(ui): explain replace-mode filtering in model picker",
+        "url": "https://github.com/openclaw/openclaw/pull/104569",
         "state": "open",
-        "author": "ekinnee",
-        "updatedAt": "2026-07-26T18:11:27Z"
+        "author": "samrusani",
+        "updatedAt": "2026-07-26T21:10:36Z"
       },
       {
         "kind": "pr",
-        "number": 113422,
-        "title": "feat: add standard hosting profiles",
-        "url": "https://github.com/openclaw/openclaw/pull/113422",
+        "number": 97103,
+        "title": "[codex] fix(sessions): report archive cleanup in sessions cleanup",
+        "url": "https://github.com/openclaw/openclaw/pull/97103",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-26T18:10:47Z"
+        "author": "samrusani",
+        "updatedAt": "2026-07-26T21:10:31Z"
       },
       {
         "kind": "pr",
-        "number": 112896,
-        "title": "feat(snapshot): admit restored recovery points",
-        "url": "https://github.com/openclaw/openclaw/pull/112896",
+        "number": 114172,
+        "title": "fix(auto-reply): strip sentence-attached trailing NO_REPLY",
+        "url": "https://github.com/openclaw/openclaw/pull/114172",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-26T18:10:33Z"
+        "author": "qdivan",
+        "updatedAt": "2026-07-26T21:10:13Z"
       },
       {
         "kind": "pr",
-        "number": 114117,
-        "title": "fix: reduce reply delay when model policy is configured",
-        "url": "https://github.com/openclaw/openclaw/pull/114117",
+        "number": 114174,
+        "title": "fix(workboard): stop minting unrestricted cards from caller authority",
+        "url": "https://github.com/openclaw/openclaw/pull/114174",
+        "state": "open",
+        "author": "zilokki-bot",
+        "updatedAt": "2026-07-26T21:10:03Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114164,
+        "title": "perf(workboard): reuse dispatch board snapshot for worker context",
+        "url": "https://github.com/openclaw/openclaw/pull/114164",
+        "state": "open",
+        "author": "zilokki-bot",
+        "updatedAt": "2026-07-26T21:10:02Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113796,
+        "title": "fix: prevent session-changed errors after reset",
+        "url": "https://github.com/openclaw/openclaw/pull/113796",
         "state": "open",
         "author": "VACInc",
-        "updatedAt": "2026-07-26T18:10:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 92230,
-        "title": "feat: add model switch choices to /model",
-        "url": "https://github.com/openclaw/openclaw/pull/92230",
-        "state": "open",
-        "author": "clawSean",
-        "updatedAt": "2026-07-26T18:10:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112865,
-        "title": "feat(snapshot): capture final recovery points",
-        "url": "https://github.com/openclaw/openclaw/pull/112865",
-        "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-26T18:10:11Z"
+        "updatedAt": "2026-07-26T21:09:54Z"
       }
     ]
   }

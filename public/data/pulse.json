@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-26T13:54:16.989Z",
+  "generatedAt": "2026-07-26T15:19:38.698Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -180,11 +180,11 @@
     },
     {
       "capturedOn": "2026-07-26",
-      "capturedAt": "2026-07-26T13:54:16.989Z",
+      "capturedAt": "2026-07-26T15:19:38.698Z",
       "issueOpen": 4121,
-      "issueClosed": 40755,
-      "prOpen": 2918,
-      "prClosed": 63770,
+      "issueClosed": 40756,
+      "prOpen": 2922,
+      "prClosed": 63776,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -194,41 +194,59 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 114105,
-        "title": "Token Plan catalog curation in #113681 used the Coding Plan endpoint: adds a model that 404s and keeps the oldest of each family",
-        "url": "https://github.com/openclaw/openclaw/issues/114105",
+        "number": 113182,
+        "title": "[Bug]: lane task timeout races legitimate turn completion, discarding the final assistant text (~26s window)",
+        "url": "https://github.com/openclaw/openclaw/issues/113182",
         "state": "open",
-        "author": "oliver-mee",
-        "updatedAt": "2026-07-26T13:51:12Z"
+        "author": "belfortfilho",
+        "updatedAt": "2026-07-26T15:18:02Z"
       },
       {
         "kind": "issue",
-        "number": 114101,
-        "title": "0",
-        "url": "https://github.com/openclaw/openclaw/issues/114101",
+        "number": 75,
+        "title": "Linux/Windows Clawdbot Apps",
+        "url": "https://github.com/openclaw/openclaw/issues/75",
         "state": "open",
-        "author": "openclawwei",
-        "updatedAt": "2026-07-26T13:48:44Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-26T15:11:22Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113502,
-        "title": "fix(qa): reject runtime tool intent without result evidence",
-        "url": "https://github.com/openclaw/openclaw/pull/113502",
+        "number": 105643,
+        "title": "fix(cli-runner): sweep orphaned bundle MCP temp dirs at gateway startup",
+        "url": "https://github.com/openclaw/openclaw/pull/105643",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-07-26T13:54:09Z"
+        "author": "totobusnello",
+        "updatedAt": "2026-07-26T15:19:28Z"
       },
       {
         "kind": "pr",
-        "number": 114113,
-        "title": "fix(cron): stop retrying permanent billing errors returned as HTTP 429",
-        "url": "https://github.com/openclaw/openclaw/pull/114113",
+        "number": 114123,
+        "title": "docs: add async cross-Gateway agent handoff option",
+        "url": "https://github.com/openclaw/openclaw/pull/114123",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-26T13:54:03Z"
+        "author": "2JasonP",
+        "updatedAt": "2026-07-26T15:19:26Z"
+      },
+      {
+        "kind": "pr",
+        "number": 92420,
+        "title": "fix(telegram): record sent messages in the source-delivery path",
+        "url": "https://github.com/openclaw/openclaw/pull/92420",
+        "state": "open",
+        "author": "tangtaizong666",
+        "updatedAt": "2026-07-26T15:19:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112496,
+        "title": "fix(agents): reject sessions_send to unknown agents on sessionKey and label paths",
+        "url": "https://github.com/openclaw/openclaw/pull/112496",
+        "state": "open",
+        "author": "xialonglee",
+        "updatedAt": "2026-07-26T15:18:30Z"
       },
       {
         "kind": "pr",
@@ -237,34 +255,16 @@
         "url": "https://github.com/openclaw/openclaw/pull/113422",
         "state": "open",
         "author": "giodl73-repo",
-        "updatedAt": "2026-07-26T13:54:03Z"
+        "updatedAt": "2026-07-26T15:18:04Z"
       },
       {
         "kind": "pr",
-        "number": 113421,
-        "title": "readiness: adopt core runtime conditions",
-        "url": "https://github.com/openclaw/openclaw/pull/113421",
+        "number": 112896,
+        "title": "feat(snapshot): admit restored recovery points",
+        "url": "https://github.com/openclaw/openclaw/pull/112896",
         "state": "open",
         "author": "giodl73-repo",
-        "updatedAt": "2026-07-26T13:54:01Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113663,
-        "title": "fix(xai): Grok subscription inference fails with HTTP 426 on every request",
-        "url": "https://github.com/openclaw/openclaw/pull/113663",
-        "state": "open",
-        "author": "jzakirov",
-        "updatedAt": "2026-07-26T13:54:00Z"
-      },
-      {
-        "kind": "pr",
-        "number": 104018,
-        "title": "feat: add readiness conditions and providers",
-        "url": "https://github.com/openclaw/openclaw/pull/104018",
-        "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-26T13:53:59Z"
+        "updatedAt": "2026-07-26T15:17:50Z"
       }
     ]
   }

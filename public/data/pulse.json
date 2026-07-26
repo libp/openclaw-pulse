@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-26T21:10:51.325Z",
+  "generatedAt": "2026-07-26T22:11:08.567Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -180,10 +180,10 @@
     },
     {
       "capturedOn": "2026-07-26",
-      "capturedAt": "2026-07-26T21:10:51.325Z",
-      "issueOpen": 4139,
+      "capturedAt": "2026-07-26T22:11:08.567Z",
+      "issueOpen": 4142,
       "issueClosed": 40759,
-      "prOpen": 2941,
+      "prOpen": 2945,
       "prClosed": 63788,
       "workflowRuns": 40000,
       "source": "github-actions",
@@ -194,95 +194,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 90778,
-        "title": "Gmail hook delivery verification fails even when message tool uses Telegram target",
-        "url": "https://github.com/openclaw/openclaw/issues/90778",
+        "number": 88032,
+        "title": "[Feature]: Telegram quote/reply context should be a first-class, durable inbound contract instead of a split prompt/runtime patch surface",
+        "url": "https://github.com/openclaw/openclaw/issues/88032",
         "state": "open",
-        "author": "Countermarch",
-        "updatedAt": "2026-07-26T21:09:02Z"
-      },
-      {
-        "kind": "issue",
-        "number": 11301,
-        "title": "Add /workspace symlink to container configuration",
-        "url": "https://github.com/openclaw/openclaw/issues/11301",
-        "state": "open",
-        "author": "tukunangh",
-        "updatedAt": "2026-07-26T21:09:02Z"
-      },
-      {
-        "kind": "issue",
-        "number": 114155,
-        "title": "[Bug]: Budget-triggered compaction hard-fails on Codex OAuth sessions — native compaction path is ordered after the one requiring an API key",
-        "url": "https://github.com/openclaw/openclaw/issues/114155",
-        "state": "open",
-        "author": "Ali-Al1",
-        "updatedAt": "2026-07-26T21:08:59Z"
-      },
-      {
-        "kind": "issue",
-        "number": 114176,
-        "title": "[Bug]: ERR_INTERNAL_ASSERTION in openclaw agent with a custom openai-completions provider",
-        "url": "https://github.com/openclaw/openclaw/issues/114176",
-        "state": "open",
-        "author": "benjaml4",
-        "updatedAt": "2026-07-26T21:05:50Z"
+        "author": "jamesachurchill",
+        "updatedAt": "2026-07-26T22:10:06Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 104569,
-        "title": "fix(ui): explain replace-mode filtering in model picker",
-        "url": "https://github.com/openclaw/openclaw/pull/104569",
+        "number": 114182,
+        "title": "fix(agents): route Codex budget compaction natively",
+        "url": "https://github.com/openclaw/openclaw/pull/114182",
         "state": "open",
-        "author": "samrusani",
-        "updatedAt": "2026-07-26T21:10:36Z"
+        "author": "HOYALIM",
+        "updatedAt": "2026-07-26T22:10:49Z"
       },
       {
         "kind": "pr",
-        "number": 97103,
-        "title": "[codex] fix(sessions): report archive cleanup in sessions cleanup",
-        "url": "https://github.com/openclaw/openclaw/pull/97103",
+        "number": 95700,
+        "title": "feat(session): add named new and close chat commands",
+        "url": "https://github.com/openclaw/openclaw/pull/95700",
         "state": "open",
-        "author": "samrusani",
-        "updatedAt": "2026-07-26T21:10:31Z"
+        "author": "BSG2000",
+        "updatedAt": "2026-07-26T22:10:24Z"
       },
       {
         "kind": "pr",
-        "number": 114172,
-        "title": "fix(auto-reply): strip sentence-attached trailing NO_REPLY",
-        "url": "https://github.com/openclaw/openclaw/pull/114172",
+        "number": 75165,
+        "title": "feat(agents): composable termination algebra + GSAR grounding scorer",
+        "url": "https://github.com/openclaw/openclaw/pull/75165",
         "state": "open",
-        "author": "qdivan",
-        "updatedAt": "2026-07-26T21:10:13Z"
+        "author": "fede-kamel",
+        "updatedAt": "2026-07-26T22:10:16Z"
       },
       {
         "kind": "pr",
-        "number": 114174,
-        "title": "fix(workboard): stop minting unrestricted cards from caller authority",
-        "url": "https://github.com/openclaw/openclaw/pull/114174",
+        "number": 82572,
+        "title": "feat(queue): persist followup queues across gateway restarts",
+        "url": "https://github.com/openclaw/openclaw/pull/82572",
         "state": "open",
-        "author": "zilokki-bot",
-        "updatedAt": "2026-07-26T21:10:03Z"
+        "author": "jewseppi",
+        "updatedAt": "2026-07-26T22:10:08Z"
       },
       {
         "kind": "pr",
-        "number": 114164,
-        "title": "perf(workboard): reuse dispatch board snapshot for worker context",
-        "url": "https://github.com/openclaw/openclaw/pull/114164",
+        "number": 114183,
+        "title": "fix(memory-core): memory_search times out after 15s when a builtin-backend query finds no matches",
+        "url": "https://github.com/openclaw/openclaw/pull/114183",
         "state": "open",
-        "author": "zilokki-bot",
-        "updatedAt": "2026-07-26T21:10:02Z"
+        "author": "RowanZhong",
+        "updatedAt": "2026-07-26T22:10:07Z"
       },
       {
         "kind": "pr",
-        "number": 113796,
-        "title": "fix: prevent session-changed errors after reset",
-        "url": "https://github.com/openclaw/openclaw/pull/113796",
+        "number": 96800,
+        "title": "fix(qa-lab): add live turn timeout env override",
+        "url": "https://github.com/openclaw/openclaw/pull/96800",
         "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-07-26T21:09:54Z"
+        "author": "clawSean",
+        "updatedAt": "2026-07-26T22:09:55Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-26T22:11:08.567Z",
+  "generatedAt": "2026-07-26T23:10:47.335Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -180,10 +180,10 @@
     },
     {
       "capturedOn": "2026-07-26",
-      "capturedAt": "2026-07-26T22:11:08.567Z",
-      "issueOpen": 4142,
-      "issueClosed": 40759,
-      "prOpen": 2945,
+      "capturedAt": "2026-07-26T23:10:47.335Z",
+      "issueOpen": 4148,
+      "issueClosed": 40760,
+      "prOpen": 2947,
       "prClosed": 63788,
       "workflowRuns": 40000,
       "source": "github-actions",
@@ -194,68 +194,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 88032,
-        "title": "[Feature]: Telegram quote/reply context should be a first-class, durable inbound contract instead of a split prompt/runtime patch surface",
-        "url": "https://github.com/openclaw/openclaw/issues/88032",
+        "number": 112516,
+        "title": "[Bug]: Webchat UI: session dropdown label shows wrong agent (displays a different agent than the one actually running/selected)",
+        "url": "https://github.com/openclaw/openclaw/issues/112516",
         "state": "open",
-        "author": "jamesachurchill",
-        "updatedAt": "2026-07-26T22:10:06Z"
+        "author": "taoyuan",
+        "updatedAt": "2026-07-26T23:10:04Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112712,
+        "title": "[Bug]: gmail-setup-utils: resolvePythonExecutablePath() picks first python3 on PATH without checking version compatibility, ignores existing CLOUDSDK_PYTHON",
+        "url": "https://github.com/openclaw/openclaw/issues/112712",
+        "state": "closed",
+        "author": "Greg2805",
+        "updatedAt": "2026-07-26T23:06:46Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 114182,
-        "title": "fix(agents): route Codex budget compaction natively",
-        "url": "https://github.com/openclaw/openclaw/pull/114182",
+        "number": 101248,
+        "title": "feat(subagents): native announceTarget for subagent completion routing (#27445)",
+        "url": "https://github.com/openclaw/openclaw/pull/101248",
         "state": "open",
-        "author": "HOYALIM",
-        "updatedAt": "2026-07-26T22:10:49Z"
+        "author": "nicknmorty",
+        "updatedAt": "2026-07-26T23:10:09Z"
       },
       {
         "kind": "pr",
-        "number": 95700,
-        "title": "feat(session): add named new and close chat commands",
-        "url": "https://github.com/openclaw/openclaw/pull/95700",
+        "number": 81185,
+        "title": "Redact exec tool result payloads",
+        "url": "https://github.com/openclaw/openclaw/pull/81185",
         "state": "open",
-        "author": "BSG2000",
-        "updatedAt": "2026-07-26T22:10:24Z"
+        "author": "nicknmorty",
+        "updatedAt": "2026-07-26T23:09:57Z"
       },
       {
         "kind": "pr",
-        "number": 75165,
-        "title": "feat(agents): composable termination algebra + GSAR grounding scorer",
-        "url": "https://github.com/openclaw/openclaw/pull/75165",
+        "number": 114188,
+        "title": "fix: delegated subagents honor per-call timeouts",
+        "url": "https://github.com/openclaw/openclaw/pull/114188",
         "state": "open",
-        "author": "fede-kamel",
-        "updatedAt": "2026-07-26T22:10:16Z"
+        "author": "hvhoon",
+        "updatedAt": "2026-07-26T23:09:56Z"
       },
       {
         "kind": "pr",
-        "number": 82572,
-        "title": "feat(queue): persist followup queues across gateway restarts",
-        "url": "https://github.com/openclaw/openclaw/pull/82572",
+        "number": 113908,
+        "title": "Android: add adaptive app navigation sidebar",
+        "url": "https://github.com/openclaw/openclaw/pull/113908",
         "state": "open",
-        "author": "jewseppi",
-        "updatedAt": "2026-07-26T22:10:08Z"
+        "author": "IWhatsskill",
+        "updatedAt": "2026-07-26T23:09:15Z"
       },
       {
         "kind": "pr",
-        "number": 114183,
-        "title": "fix(memory-core): memory_search times out after 15s when a builtin-backend query finds no matches",
-        "url": "https://github.com/openclaw/openclaw/pull/114183",
+        "number": 113866,
+        "title": "fix: preserve Claude cache during stalled CLI recovery",
+        "url": "https://github.com/openclaw/openclaw/pull/113866",
         "state": "open",
-        "author": "RowanZhong",
-        "updatedAt": "2026-07-26T22:10:07Z"
+        "author": "VACInc",
+        "updatedAt": "2026-07-26T23:08:44Z"
       },
       {
         "kind": "pr",
-        "number": 96800,
-        "title": "fix(qa-lab): add live turn timeout env override",
-        "url": "https://github.com/openclaw/openclaw/pull/96800",
+        "number": 111795,
+        "title": "fix(workboard): keep forced recovery cards dispatchable",
+        "url": "https://github.com/openclaw/openclaw/pull/111795",
         "state": "open",
-        "author": "clawSean",
-        "updatedAt": "2026-07-26T22:09:55Z"
+        "author": "zilokki-bot",
+        "updatedAt": "2026-07-26T23:08:11Z"
       }
     ]
   }

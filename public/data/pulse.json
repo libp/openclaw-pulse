@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-25T22:08:53.914Z",
+  "generatedAt": "2026-07-26T00:11:50.951Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -177,18 +177,56 @@
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-07-26",
+      "capturedAt": "2026-07-26T00:11:50.951Z",
+      "issueOpen": 4120,
+      "issueClosed": 40768,
+      "prOpen": 2937,
+      "prClosed": 63687,
+      "workflowRuns": 40000,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 113754,
-        "title": "Internal runtime context markers leak verbatim to all delivery channels (Telegram, Discord, Control UI)",
-        "url": "https://github.com/openclaw/openclaw/issues/113754",
+        "number": 113701,
+        "title": "Context Overflow: large tool outputs exceed context window, compaction can't recover, sessions enter failure loop",
+        "url": "https://github.com/openclaw/openclaw/issues/113701",
         "state": "open",
-        "author": "bolinches",
-        "updatedAt": "2026-07-25T22:05:10Z"
+        "author": "ogilvymiles",
+        "updatedAt": "2026-07-26T00:10:42Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113466,
+        "title": "[Bug]: /new and /reset don't actually create a new session in 2026.7.1-2",
+        "url": "https://github.com/openclaw/openclaw/issues/113466",
+        "state": "open",
+        "author": "matias-2707",
+        "updatedAt": "2026-07-26T00:09:39Z"
+      },
+      {
+        "kind": "issue",
+        "number": 57369,
+        "title": "session.reset: support mode: \"never\" for manual-only session reset behavior",
+        "url": "https://github.com/openclaw/openclaw/issues/57369",
+        "state": "open",
+        "author": "aa7469",
+        "updatedAt": "2026-07-26T00:08:47Z"
+      },
+      {
+        "kind": "issue",
+        "number": 45049,
+        "title": "Agent loop allows simulated tool calls instead of enforcing real tool invocation",
+        "url": "https://github.com/openclaw/openclaw/issues/45049",
+        "state": "open",
+        "author": "ArnoldJr",
+        "updatedAt": "2026-07-26T00:08:04Z"
       }
     ],
     "prs": [
@@ -199,52 +237,52 @@
         "url": "https://github.com/openclaw/openclaw/pull/113654",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-25T22:08:28Z"
+        "updatedAt": "2026-07-26T00:11:45Z"
       },
       {
         "kind": "pr",
-        "number": 113702,
-        "title": "fix(control-ui): renew canvas capability so agent widgets keep rendering",
-        "url": "https://github.com/openclaw/openclaw/pull/113702",
+        "number": 113922,
+        "title": "fix(agents): diagnostic content tests use current capture config",
+        "url": "https://github.com/openclaw/openclaw/pull/113922",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-25T22:08:17Z"
+        "updatedAt": "2026-07-26T00:11:29Z"
       },
       {
         "kind": "pr",
-        "number": 97175,
-        "title": "fix(context-engine): bound deferred turn maintenance with a per-task timeout (AI-assisted)",
-        "url": "https://github.com/openclaw/openclaw/pull/97175",
+        "number": 113422,
+        "title": "feat: add standard hosting profiles",
+        "url": "https://github.com/openclaw/openclaw/pull/113422",
         "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-07-25T22:08:17Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-26T00:10:33Z"
       },
       {
         "kind": "pr",
-        "number": 113887,
-        "title": "fix(uninstall): preserve user data when gateway removal fails",
-        "url": "https://github.com/openclaw/openclaw/pull/113887",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-25T22:08:13Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113886,
-        "title": "fix(chat): restore native sidebar ordering and thread search",
-        "url": "https://github.com/openclaw/openclaw/pull/113886",
+        "number": 113914,
+        "title": "feat(ci): weekly Codex sweep for date-carrying to-dos",
+        "url": "https://github.com/openclaw/openclaw/pull/113914",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-25T22:07:58Z"
+        "updatedAt": "2026-07-26T00:10:25Z"
       },
       {
         "kind": "pr",
-        "number": 112439,
-        "title": "fix(providers): honor proxies in model discovery",
-        "url": "https://github.com/openclaw/openclaw/pull/112439",
+        "number": 82540,
+        "title": "fix(wechat): preserve existing accounts across hot reload",
+        "url": "https://github.com/openclaw/openclaw/pull/82540",
         "state": "open",
-        "author": "masatohoshino",
-        "updatedAt": "2026-07-25T22:07:47Z"
+        "author": "NewdlDewdl",
+        "updatedAt": "2026-07-26T00:09:43Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113354,
+        "title": "feat(talk): enable GPT Live with Codex OAuth",
+        "url": "https://github.com/openclaw/openclaw/pull/113354",
+        "state": "open",
+        "author": "Solvely-Colin",
+        "updatedAt": "2026-07-26T00:09:29Z"
       }
     ]
   }

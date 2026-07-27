@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-27T20:42:11.483Z",
+  "generatedAt": "2026-07-27T22:16:36.571Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -191,11 +191,11 @@
     },
     {
       "capturedOn": "2026-07-27",
-      "capturedAt": "2026-07-27T20:42:11.483Z",
-      "issueOpen": 3942,
-      "issueClosed": 41078,
-      "prOpen": 2804,
-      "prClosed": 64378,
+      "capturedAt": "2026-07-27T22:16:36.571Z",
+      "issueOpen": 3941,
+      "issueClosed": 41085,
+      "prOpen": 2790,
+      "prClosed": 64411,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -205,50 +205,32 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 113251,
-        "title": "[Feature]: Add image viewing in the webchat file viewer.",
-        "url": "https://github.com/openclaw/openclaw/issues/113251",
+        "number": 114770,
+        "title": "Agent-scoped media allowlist rejects the agent's own workspace when it starts with \"workspace-\"",
+        "url": "https://github.com/openclaw/openclaw/issues/114770",
         "state": "open",
-        "author": "TopProjectsCreator",
-        "updatedAt": "2026-07-27T20:40:19Z"
+        "author": "lucaslima2101",
+        "updatedAt": "2026-07-27T22:15:27Z"
+      },
+      {
+        "kind": "issue",
+        "number": 114768,
+        "title": "[Feature]: Reply dispatch: replace scattered visibility inference with a settled-delivery turn ledger",
+        "url": "https://github.com/openclaw/openclaw/issues/114768",
+        "state": "open",
+        "author": "obviyus",
+        "updatedAt": "2026-07-27T22:15:21Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 114194,
-        "title": "fix: session history rejects older child sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/114194",
+        "number": 113422,
+        "title": "feat: add standard hosting profiles",
+        "url": "https://github.com/openclaw/openclaw/pull/113422",
         "state": "open",
-        "author": "HOYALIM",
-        "updatedAt": "2026-07-27T20:41:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114017,
-        "title": "chore(ui): refresh control ui locales",
-        "url": "https://github.com/openclaw/openclaw/pull/114017",
-        "state": "open",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-07-27T20:41:28Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114725,
-        "title": "fix(workboard): release path for legacy claims without ownerId",
-        "url": "https://github.com/openclaw/openclaw/pull/114725",
-        "state": "open",
-        "author": "yozakura-ava",
-        "updatedAt": "2026-07-27T20:41:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114743,
-        "title": "improve(ui): reduce duplicate chat startup work",
-        "url": "https://github.com/openclaw/openclaw/pull/114743",
-        "state": "open",
-        "author": "scotthuang",
-        "updatedAt": "2026-07-27T20:41:25Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-27T22:16:21Z"
       },
       {
         "kind": "pr",
@@ -257,16 +239,43 @@
         "url": "https://github.com/openclaw/openclaw/pull/113927",
         "state": "open",
         "author": "dependabot[bot]",
-        "updatedAt": "2026-07-27T20:41:25Z"
+        "updatedAt": "2026-07-27T22:16:17Z"
       },
       {
         "kind": "pr",
-        "number": 114737,
-        "title": "fix(ui): hide the terminal dock while Settings is open",
-        "url": "https://github.com/openclaw/openclaw/pull/114737",
+        "number": 110114,
+        "title": "fix(agents): honor abort signal during compaction summary retry backoff",
+        "url": "https://github.com/openclaw/openclaw/pull/110114",
+        "state": "open",
+        "author": "chengzhichao-xydt",
+        "updatedAt": "2026-07-27T22:15:51Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114769,
+        "title": "perf(logging): flush file transport asynchronously off the request path",
+        "url": "https://github.com/openclaw/openclaw/pull/114769",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-27T20:41:14Z"
+        "updatedAt": "2026-07-27T22:16:01Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114771,
+        "title": "fix(talk): realtime Talk speaks a no-text placeholder before the real answer",
+        "url": "https://github.com/openclaw/openclaw/pull/114771",
+        "state": "open",
+        "author": "jglanz",
+        "updatedAt": "2026-07-27T22:15:43Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114763,
+        "title": "refactor(channels): mattermost event-plan builder and whatsapp durable admission",
+        "url": "https://github.com/openclaw/openclaw/pull/114763",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-27T22:15:32Z"
       }
     ]
   }

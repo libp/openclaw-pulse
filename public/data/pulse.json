@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-26T23:10:47.335Z",
+  "generatedAt": "2026-07-27T00:11:09.038Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -188,83 +188,85 @@
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-07-27",
+      "capturedAt": "2026-07-27T00:11:09.038Z",
+      "issueOpen": 4150,
+      "issueClosed": 40760,
+      "prOpen": 2948,
+      "prClosed": 63790,
+      "workflowRuns": 40000,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 112516,
-        "title": "[Bug]: Webchat UI: session dropdown label shows wrong agent (displays a different agent than the one actually running/selected)",
-        "url": "https://github.com/openclaw/openclaw/issues/112516",
+        "number": 15032,
+        "title": "Feature: Per-spawn tool restrictions for sub-agents",
+        "url": "https://github.com/openclaw/openclaw/issues/15032",
         "state": "open",
-        "author": "taoyuan",
-        "updatedAt": "2026-07-26T23:10:04Z"
-      },
-      {
-        "kind": "issue",
-        "number": 112712,
-        "title": "[Bug]: gmail-setup-utils: resolvePythonExecutablePath() picks first python3 on PATH without checking version compatibility, ignores existing CLOUDSDK_PYTHON",
-        "url": "https://github.com/openclaw/openclaw/issues/112712",
-        "state": "closed",
-        "author": "Greg2805",
-        "updatedAt": "2026-07-26T23:06:46Z"
+        "author": "smist37",
+        "updatedAt": "2026-07-27T00:10:15Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 101248,
-        "title": "feat(subagents): native announceTarget for subagent completion routing (#27445)",
-        "url": "https://github.com/openclaw/openclaw/pull/101248",
-        "state": "open",
-        "author": "nicknmorty",
-        "updatedAt": "2026-07-26T23:10:09Z"
-      },
-      {
-        "kind": "pr",
-        "number": 81185,
-        "title": "Redact exec tool result payloads",
-        "url": "https://github.com/openclaw/openclaw/pull/81185",
-        "state": "open",
-        "author": "nicknmorty",
-        "updatedAt": "2026-07-26T23:09:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114188,
-        "title": "fix: delegated subagents honor per-call timeouts",
-        "url": "https://github.com/openclaw/openclaw/pull/114188",
-        "state": "open",
-        "author": "hvhoon",
-        "updatedAt": "2026-07-26T23:09:56Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113908,
-        "title": "Android: add adaptive app navigation sidebar",
-        "url": "https://github.com/openclaw/openclaw/pull/113908",
-        "state": "open",
-        "author": "IWhatsskill",
-        "updatedAt": "2026-07-26T23:09:15Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113866,
-        "title": "fix: preserve Claude cache during stalled CLI recovery",
-        "url": "https://github.com/openclaw/openclaw/pull/113866",
-        "state": "open",
+        "number": 113796,
+        "title": "fix: prevent session-changed errors after reset",
+        "url": "https://github.com/openclaw/openclaw/pull/113796",
+        "state": "closed",
         "author": "VACInc",
-        "updatedAt": "2026-07-26T23:08:44Z"
+        "updatedAt": "2026-07-27T00:11:04Z"
       },
       {
         "kind": "pr",
-        "number": 111795,
-        "title": "fix(workboard): keep forced recovery cards dispatchable",
-        "url": "https://github.com/openclaw/openclaw/pull/111795",
+        "number": 113437,
+        "title": "fix: Google Vertex surfaces show outdated enterprise branding",
+        "url": "https://github.com/openclaw/openclaw/pull/113437",
         "state": "open",
-        "author": "zilokki-bot",
-        "updatedAt": "2026-07-26T23:08:11Z"
+        "author": "thane-j-thompson",
+        "updatedAt": "2026-07-27T00:10:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113398,
+        "title": "fix(OpenClawKit): once-guard WebSocketTaskBox.sendPing continuation (double-resume crash)",
+        "url": "https://github.com/openclaw/openclaw/pull/113398",
+        "state": "open",
+        "author": "samuelalake",
+        "updatedAt": "2026-07-27T00:10:05Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114163,
+        "title": "fix(talk): preserve owner authorization in realtime consults",
+        "url": "https://github.com/openclaw/openclaw/pull/114163",
+        "state": "open",
+        "author": "omarshahine",
+        "updatedAt": "2026-07-27T00:09:05Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113111,
+        "title": "fix(whatsapp): label voice transcripts as untrusted",
+        "url": "https://github.com/openclaw/openclaw/pull/113111",
+        "state": "open",
+        "author": "LauraGPT",
+        "updatedAt": "2026-07-27T00:08:53Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114194,
+        "title": "fix: session history rejects older child sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/114194",
+        "state": "open",
+        "author": "HOYALIM",
+        "updatedAt": "2026-07-27T00:08:41Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-27T15:11:41.476Z",
+  "generatedAt": "2026-07-27T18:46:09.843Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -191,11 +191,11 @@
     },
     {
       "capturedOn": "2026-07-27",
-      "capturedAt": "2026-07-27T15:11:41.476Z",
-      "issueOpen": 4012,
-      "issueClosed": 40949,
-      "prOpen": 2788,
-      "prClosed": 64191,
+      "capturedAt": "2026-07-27T18:46:09.843Z",
+      "issueOpen": 4015,
+      "issueClosed": 40997,
+      "prOpen": 2791,
+      "prClosed": 64343,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -205,113 +205,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 114159,
-        "title": "Discord: omitted `target` on message tool falls back to internal session key (toolContext.currentChannelId) → Invalid Form Body dead-letters",
-        "url": "https://github.com/openclaw/openclaw/issues/114159",
+        "number": 114687,
+        "title": "[Feature]: Gateway RPCs for WhatsApp group management (whatsapp.groups.info / rename / participants add/remove)",
+        "url": "https://github.com/openclaw/openclaw/issues/114687",
         "state": "open",
-        "author": "coveredbygreco-hub",
-        "updatedAt": "2026-07-27T15:11:29Z"
+        "author": "Kollaborateur",
+        "updatedAt": "2026-07-27T18:43:14Z"
       },
       {
         "kind": "issue",
-        "number": 114162,
-        "title": "[Bug]: Windows Companion v0.6.12 requires pairing approval after every restart",
-        "url": "https://github.com/openclaw/openclaw/issues/114162",
+        "number": 114690,
+        "title": "[Bug]: Successful Discord source reply can be sent again after native Codex compaction in the same turn",
+        "url": "https://github.com/openclaw/openclaw/issues/114690",
         "state": "open",
-        "author": "BorjaRuizM",
-        "updatedAt": "2026-07-27T15:11:17Z"
-      },
-      {
-        "kind": "issue",
-        "number": 114165,
-        "title": "[Bug]: microsoft-foundry assigns fallback token limits to all GPT deployments; claude-opus-5 also sends a removed thinking format",
-        "url": "https://github.com/openclaw/openclaw/issues/114165",
-        "state": "open",
-        "author": "jaserNo1",
-        "updatedAt": "2026-07-27T15:11:15Z"
-      },
-      {
-        "kind": "issue",
-        "number": 114158,
-        "title": "fs-safe hardcoded 0o600 file mode ignores umask — breaks shared workspaces (NFS, SMB, multi-user)",
-        "url": "https://github.com/openclaw/openclaw/issues/114158",
-        "state": "open",
-        "author": "adinballew",
-        "updatedAt": "2026-07-27T15:10:57Z"
-      },
-      {
-        "kind": "issue",
-        "number": 114155,
-        "title": "[Bug]: Budget-triggered compaction hard-fails on Codex OAuth sessions — native compaction path is ordered after the one requiring an API key",
-        "url": "https://github.com/openclaw/openclaw/issues/114155",
-        "state": "open",
-        "author": "Ali-Al1",
-        "updatedAt": "2026-07-27T15:10:52Z"
-      },
-      {
-        "kind": "issue",
-        "number": 10354,
-        "title": "[Feature]: Add description and enum to message tool's channel parameter",
-        "url": "https://github.com/openclaw/openclaw/issues/10354",
-        "state": "open",
-        "author": "carrotRakko",
-        "updatedAt": "2026-07-27T15:09:35Z"
+        "author": "WG-Mojo",
+        "updatedAt": "2026-07-27T18:42:52Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 114506,
-        "title": "fix(browser): keep guarded CDP sockets on validated endpoints [AI]",
-        "url": "https://github.com/openclaw/openclaw/pull/114506",
+        "number": 114671,
+        "title": "refactor(mobile): consolidate native gateway and voice lifecycles",
+        "url": "https://github.com/openclaw/openclaw/pull/114671",
         "state": "open",
-        "author": "pgondhi987",
-        "updatedAt": "2026-07-27T15:11:39Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-27T18:46:04Z"
       },
       {
         "kind": "pr",
-        "number": 114616,
-        "title": "revert(openai): remove loopback Codex proxy support",
-        "url": "https://github.com/openclaw/openclaw/pull/114616",
+        "number": 111463,
+        "title": "fix(memory-wiki): sandboxed sub-agents could read other agents' bridged memory through shared vault wiki reads",
+        "url": "https://github.com/openclaw/openclaw/pull/111463",
         "state": "open",
-        "author": "osolmaz",
-        "updatedAt": "2026-07-27T15:11:36Z"
+        "author": "yetval",
+        "updatedAt": "2026-07-27T18:45:57Z"
       },
       {
         "kind": "pr",
-        "number": 114590,
-        "title": "fix(telegram): show progress for queued replies",
-        "url": "https://github.com/openclaw/openclaw/pull/114590",
+        "number": 114689,
+        "title": "refactor(outbound): consolidate fenced cross-channel delivery",
+        "url": "https://github.com/openclaw/openclaw/pull/114689",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-07-27T15:11:18Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-27T18:45:46Z"
       },
       {
         "kind": "pr",
-        "number": 112877,
-        "title": "fix(agents): keep queued runs from expiring",
-        "url": "https://github.com/openclaw/openclaw/pull/112877",
+        "number": 75662,
+        "title": "fix(agents): pause yielded main-session runs",
+        "url": "https://github.com/openclaw/openclaw/pull/75662",
         "state": "open",
-        "author": "MonkeyLeeT",
-        "updatedAt": "2026-07-27T15:11:13Z"
+        "author": "amittell",
+        "updatedAt": "2026-07-27T18:45:37Z"
       },
       {
         "kind": "pr",
-        "number": 114617,
-        "title": "Gateway: harden hosted wizard lifecycle",
-        "url": "https://github.com/openclaw/openclaw/pull/114617",
+        "number": 112508,
+        "title": "fix(compaction): rotate transcript after compaction by default (#112476)",
+        "url": "https://github.com/openclaw/openclaw/pull/112508",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-07-27T15:10:43Z"
+        "author": "MatthewSynthia",
+        "updatedAt": "2026-07-27T18:45:36Z"
       },
       {
         "kind": "pr",
-        "number": 111528,
-        "title": "fix(agents): prevent false mid-turn overflow recovery",
-        "url": "https://github.com/openclaw/openclaw/pull/111528",
+        "number": 114624,
+        "title": "improve(state): avoid repeated schema migration detection",
+        "url": "https://github.com/openclaw/openclaw/pull/114624",
         "state": "open",
-        "author": "MonkeyLeeT",
-        "updatedAt": "2026-07-27T15:10:24Z"
+        "author": "VACInc",
+        "updatedAt": "2026-07-27T18:45:21Z"
       }
     ]
   }

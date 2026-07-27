@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-27T04:00:17.668Z",
+  "generatedAt": "2026-07-27T07:48:28.074Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -191,45 +191,55 @@
     },
     {
       "capturedOn": "2026-07-27",
-      "capturedAt": "2026-07-27T04:00:17.668Z",
-      "issueOpen": 4158,
-      "issueClosed": 40771,
-      "prOpen": 2952,
-      "prClosed": 63847,
+      "capturedAt": "2026-07-27T07:48:28.074Z",
+      "issueOpen": 4141,
+      "issueClosed": 40817,
+      "prOpen": 2850,
+      "prClosed": 64069,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 114145,
+        "title": "[Feature]: Define a safe scale-to-zero recovery contract for Gateway hosts",
+        "url": "https://github.com/openclaw/openclaw/issues/114145",
+        "state": "open",
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-27T07:47:21Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113927,
-        "title": "build(deps): bump the actions group across 1 directory with 6 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/113927",
-        "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-07-27T04:00:12Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113884,
-        "title": "fix(ui): new sessions remember valid workspace and model choices",
-        "url": "https://github.com/openclaw/openclaw/pull/113884",
-        "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-07-27T04:00:07Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114271,
-        "title": "fix(linux): keep Quick Chat on screen across DPI and widget resizes",
-        "url": "https://github.com/openclaw/openclaw/pull/114271",
+        "number": 114424,
+        "title": "improve(providers): consolidate provider contract tests without losing coverage",
+        "url": "https://github.com/openclaw/openclaw/pull/114424",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-27T04:00:04Z"
+        "updatedAt": "2026-07-27T07:48:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113226,
+        "title": "fix: workflow sanity audit passes on main",
+        "url": "https://github.com/openclaw/openclaw/pull/113226",
+        "state": "open",
+        "author": "eugene-harold-krabs",
+        "updatedAt": "2026-07-27T07:48:23Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114423,
+        "title": "refactor: consolidate messaging plugin regression tests",
+        "url": "https://github.com/openclaw/openclaw/pull/114423",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-27T07:48:20Z"
       },
       {
         "kind": "pr",
@@ -238,25 +248,25 @@
         "url": "https://github.com/openclaw/openclaw/pull/114272",
         "state": "open",
         "author": "rizquuula",
-        "updatedAt": "2026-07-27T04:00:00Z"
+        "updatedAt": "2026-07-27T07:48:20Z"
       },
       {
         "kind": "pr",
-        "number": 114263,
-        "title": "fix(ai): unify Responses stream processing",
-        "url": "https://github.com/openclaw/openclaw/pull/114263",
+        "number": 114426,
+        "title": "refactor(config): remove 850 duplicated regression-test lines",
+        "url": "https://github.com/openclaw/openclaw/pull/114426",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-27T03:59:55Z"
+        "updatedAt": "2026-07-27T07:48:17Z"
       },
       {
         "kind": "pr",
-        "number": 114267,
-        "title": "fix(voice-call): reject corrupted call IDs from malformed UTF-8",
-        "url": "https://github.com/openclaw/openclaw/pull/114267",
+        "number": 114021,
+        "title": "[AI-assisted] docs(senseaudio): fix broken Docs URL to docs.senseaudio.cn",
+        "url": "https://github.com/openclaw/openclaw/pull/114021",
         "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-07-27T04:00:11Z"
+        "author": "santhiprakash",
+        "updatedAt": "2026-07-27T07:48:17Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-27T22:16:36.571Z",
+  "generatedAt": "2026-07-27T23:28:17.804Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -191,11 +191,11 @@
     },
     {
       "capturedOn": "2026-07-27",
-      "capturedAt": "2026-07-27T22:16:36.571Z",
-      "issueOpen": 3941,
-      "issueClosed": 41085,
+      "capturedAt": "2026-07-27T23:28:17.804Z",
+      "issueOpen": 3946,
+      "issueClosed": 41089,
       "prOpen": 2790,
-      "prClosed": 64411,
+      "prClosed": 64426,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -205,50 +205,50 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 114770,
-        "title": "Agent-scoped media allowlist rejects the agent's own workspace when it starts with \"workspace-\"",
-        "url": "https://github.com/openclaw/openclaw/issues/114770",
+        "number": 114795,
+        "title": "ClickClack discussion sidebars should follow the Control UI theme",
+        "url": "https://github.com/openclaw/openclaw/issues/114795",
         "state": "open",
-        "author": "lucaslima2101",
-        "updatedAt": "2026-07-27T22:15:27Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-27T23:27:36Z"
       },
       {
         "kind": "issue",
-        "number": 114768,
-        "title": "[Feature]: Reply dispatch: replace scattered visibility inference with a settled-delivery turn ledger",
-        "url": "https://github.com/openclaw/openclaw/issues/114768",
+        "number": 114792,
+        "title": "[Bug]: Previous Gateway question cards remain visible after switching Gateways",
+        "url": "https://github.com/openclaw/openclaw/issues/114792",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-07-27T22:15:21Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-27T23:25:22Z"
+      },
+      {
+        "kind": "issue",
+        "number": 114791,
+        "title": "[Bug]: Expired Gateway question blocks the composer and repeatedly retries after reconnect",
+        "url": "https://github.com/openclaw/openclaw/issues/114791",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-27T23:24:48Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113422,
-        "title": "feat: add standard hosting profiles",
-        "url": "https://github.com/openclaw/openclaw/pull/113422",
+        "number": 114282,
+        "title": "fix(github-copilot): accept fine-grained access tokens",
+        "url": "https://github.com/openclaw/openclaw/pull/114282",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-27T22:16:21Z"
+        "author": "joshavant",
+        "updatedAt": "2026-07-27T23:28:11Z"
       },
       {
         "kind": "pr",
-        "number": 113927,
-        "title": "chore(deps): bump the actions group across 1 directory with 6 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/113927",
+        "number": 114780,
+        "title": "fix(diagnostics): exclude active steering from session backlog",
+        "url": "https://github.com/openclaw/openclaw/pull/114780",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-07-27T22:16:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110114,
-        "title": "fix(agents): honor abort signal during compaction summary retry backoff",
-        "url": "https://github.com/openclaw/openclaw/pull/110114",
-        "state": "open",
-        "author": "chengzhichao-xydt",
-        "updatedAt": "2026-07-27T22:15:51Z"
+        "author": "HOYALIM",
+        "updatedAt": "2026-07-27T23:28:07Z"
       },
       {
         "kind": "pr",
@@ -257,25 +257,34 @@
         "url": "https://github.com/openclaw/openclaw/pull/114769",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-27T22:16:01Z"
+        "updatedAt": "2026-07-27T23:27:53Z"
       },
       {
         "kind": "pr",
-        "number": 114771,
-        "title": "fix(talk): realtime Talk speaks a no-text placeholder before the real answer",
-        "url": "https://github.com/openclaw/openclaw/pull/114771",
-        "state": "open",
-        "author": "jglanz",
-        "updatedAt": "2026-07-27T22:15:43Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114763,
-        "title": "refactor(channels): mattermost event-plan builder and whatsapp durable admission",
-        "url": "https://github.com/openclaw/openclaw/pull/114763",
+        "number": 114688,
+        "title": "feat(agents): report per-run stats (code-mode engagement, round trips, cost) in agent JSON envelopes",
+        "url": "https://github.com/openclaw/openclaw/pull/114688",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-27T22:15:32Z"
+        "updatedAt": "2026-07-27T23:26:43Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113927,
+        "title": "chore(deps): bump the actions group across 1 directory with 6 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/113927",
+        "state": "open",
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-07-27T23:26:23Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113517,
+        "title": "feat(approvals): add external verification contract",
+        "url": "https://github.com/openclaw/openclaw/pull/113517",
+        "state": "open",
+        "author": "Guardiola31337",
+        "updatedAt": "2026-07-27T23:25:57Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-27T07:48:28.074Z",
+  "generatedAt": "2026-07-27T11:37:09.793Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -191,11 +191,11 @@
     },
     {
       "capturedOn": "2026-07-27",
-      "capturedAt": "2026-07-27T07:48:28.074Z",
-      "issueOpen": 4141,
-      "issueClosed": 40817,
-      "prOpen": 2850,
-      "prClosed": 64069,
+      "capturedAt": "2026-07-27T11:37:09.793Z",
+      "issueOpen": 4034,
+      "issueClosed": 40937,
+      "prOpen": 2828,
+      "prClosed": 64194,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -205,68 +205,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 114145,
-        "title": "[Feature]: Define a safe scale-to-zero recovery contract for Gateway hosts",
-        "url": "https://github.com/openclaw/openclaw/issues/114145",
+        "number": 114541,
+        "title": "OpenAI Codex profiles need loopback proxy routing",
+        "url": "https://github.com/openclaw/openclaw/issues/114541",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-27T07:47:21Z"
+        "author": "osolmaz",
+        "updatedAt": "2026-07-27T11:34:45Z"
+      },
+      {
+        "kind": "issue",
+        "number": 114536,
+        "title": "Chat delivery pipeline appears to mask/truncate shell-script content that resembles a credential assignment",
+        "url": "https://github.com/openclaw/openclaw/issues/114536",
+        "state": "open",
+        "author": "clarity-core",
+        "updatedAt": "2026-07-27T11:31:49Z"
+      },
+      {
+        "kind": "issue",
+        "number": 110690,
+        "title": "Telegram media groups (albums): only the first caption is preserved — per-item captions dropped",
+        "url": "https://github.com/openclaw/openclaw/issues/110690",
+        "state": "closed",
+        "author": "markuzhard",
+        "updatedAt": "2026-07-27T11:30:19Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 114424,
-        "title": "improve(providers): consolidate provider contract tests without losing coverage",
-        "url": "https://github.com/openclaw/openclaw/pull/114424",
+        "number": 114538,
+        "title": "fix: relative MEDIA paths rejected on gateway message.action route (cron/heartbeat/subagent sends)",
+        "url": "https://github.com/openclaw/openclaw/pull/114538",
+        "state": "open",
+        "author": "shwetd19",
+        "updatedAt": "2026-07-27T11:36:58Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114522,
+        "title": "fix(sessions): let agents archive their session after completing a turn",
+        "url": "https://github.com/openclaw/openclaw/pull/114522",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-27T07:48:25Z"
+        "updatedAt": "2026-07-27T11:36:25Z"
       },
       {
         "kind": "pr",
-        "number": 113226,
-        "title": "fix: workflow sanity audit passes on main",
-        "url": "https://github.com/openclaw/openclaw/pull/113226",
+        "number": 114525,
+        "title": "fix(tools): unescape literal newline sequences in write tool content (#114292)",
+        "url": "https://github.com/openclaw/openclaw/pull/114525",
         "state": "open",
-        "author": "eugene-harold-krabs",
-        "updatedAt": "2026-07-27T07:48:23Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-07-27T11:36:23Z"
       },
       {
         "kind": "pr",
-        "number": 114423,
-        "title": "refactor: consolidate messaging plugin regression tests",
-        "url": "https://github.com/openclaw/openclaw/pull/114423",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-27T07:48:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114272,
-        "title": "fix(auto-reply): agent stops replying in a chat after the gateway restarts mid-run",
-        "url": "https://github.com/openclaw/openclaw/pull/114272",
-        "state": "open",
-        "author": "rizquuula",
-        "updatedAt": "2026-07-27T07:48:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114426,
-        "title": "refactor(config): remove 850 duplicated regression-test lines",
-        "url": "https://github.com/openclaw/openclaw/pull/114426",
+        "number": 114537,
+        "title": "fix(plugins): enforce manifest kinds for exclusive slots",
+        "url": "https://github.com/openclaw/openclaw/pull/114537",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-27T07:48:17Z"
+        "updatedAt": "2026-07-27T11:35:50Z"
       },
       {
         "kind": "pr",
-        "number": 114021,
-        "title": "[AI-assisted] docs(senseaudio): fix broken Docs URL to docs.senseaudio.cn",
-        "url": "https://github.com/openclaw/openclaw/pull/114021",
+        "number": 113205,
+        "title": "fix: prevent reasoning tags from leaking or hiding visible text",
+        "url": "https://github.com/openclaw/openclaw/pull/113205",
         "state": "open",
-        "author": "santhiprakash",
-        "updatedAt": "2026-07-27T07:48:17Z"
+        "author": "licheer-zte",
+        "updatedAt": "2026-07-27T11:35:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114542,
+        "title": "fix(agents): prevent canceled and timed-out runs from staying stuck",
+        "url": "https://github.com/openclaw/openclaw/pull/114542",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-27T11:34:30Z"
       }
     ]
   }

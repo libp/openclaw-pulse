@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-27T00:11:09.038Z",
+  "generatedAt": "2026-07-27T04:00:17.668Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -191,82 +191,72 @@
     },
     {
       "capturedOn": "2026-07-27",
-      "capturedAt": "2026-07-27T00:11:09.038Z",
-      "issueOpen": 4150,
-      "issueClosed": 40760,
-      "prOpen": 2948,
-      "prClosed": 63790,
+      "capturedAt": "2026-07-27T04:00:17.668Z",
+      "issueOpen": 4158,
+      "issueClosed": 40771,
+      "prOpen": 2952,
+      "prClosed": 63847,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 15032,
-        "title": "Feature: Per-spawn tool restrictions for sub-agents",
-        "url": "https://github.com/openclaw/openclaw/issues/15032",
-        "state": "open",
-        "author": "smist37",
-        "updatedAt": "2026-07-27T00:10:15Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 113796,
-        "title": "fix: prevent session-changed errors after reset",
-        "url": "https://github.com/openclaw/openclaw/pull/113796",
-        "state": "closed",
-        "author": "VACInc",
-        "updatedAt": "2026-07-27T00:11:04Z"
+        "number": 113927,
+        "title": "build(deps): bump the actions group across 1 directory with 6 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/113927",
+        "state": "open",
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-07-27T04:00:12Z"
       },
       {
         "kind": "pr",
-        "number": 113437,
-        "title": "fix: Google Vertex surfaces show outdated enterprise branding",
-        "url": "https://github.com/openclaw/openclaw/pull/113437",
+        "number": 113884,
+        "title": "fix(ui): new sessions remember valid workspace and model choices",
+        "url": "https://github.com/openclaw/openclaw/pull/113884",
         "state": "open",
-        "author": "thane-j-thompson",
-        "updatedAt": "2026-07-27T00:10:18Z"
+        "author": "clawsweeper",
+        "updatedAt": "2026-07-27T04:00:07Z"
       },
       {
         "kind": "pr",
-        "number": 113398,
-        "title": "fix(OpenClawKit): once-guard WebSocketTaskBox.sendPing continuation (double-resume crash)",
-        "url": "https://github.com/openclaw/openclaw/pull/113398",
+        "number": 114271,
+        "title": "fix(linux): keep Quick Chat on screen across DPI and widget resizes",
+        "url": "https://github.com/openclaw/openclaw/pull/114271",
         "state": "open",
-        "author": "samuelalake",
-        "updatedAt": "2026-07-27T00:10:05Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-27T04:00:04Z"
       },
       {
         "kind": "pr",
-        "number": 114163,
-        "title": "fix(talk): preserve owner authorization in realtime consults",
-        "url": "https://github.com/openclaw/openclaw/pull/114163",
+        "number": 114272,
+        "title": "fix(auto-reply): agent stops replying in a chat after the gateway restarts mid-run",
+        "url": "https://github.com/openclaw/openclaw/pull/114272",
         "state": "open",
-        "author": "omarshahine",
-        "updatedAt": "2026-07-27T00:09:05Z"
+        "author": "rizquuula",
+        "updatedAt": "2026-07-27T04:00:00Z"
       },
       {
         "kind": "pr",
-        "number": 113111,
-        "title": "fix(whatsapp): label voice transcripts as untrusted",
-        "url": "https://github.com/openclaw/openclaw/pull/113111",
+        "number": 114263,
+        "title": "fix(ai): unify Responses stream processing",
+        "url": "https://github.com/openclaw/openclaw/pull/114263",
         "state": "open",
-        "author": "LauraGPT",
-        "updatedAt": "2026-07-27T00:08:53Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-27T03:59:55Z"
       },
       {
         "kind": "pr",
-        "number": 114194,
-        "title": "fix: session history rejects older child sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/114194",
+        "number": 114267,
+        "title": "fix(voice-call): reject corrupted call IDs from malformed UTF-8",
+        "url": "https://github.com/openclaw/openclaw/pull/114267",
         "state": "open",
-        "author": "HOYALIM",
-        "updatedAt": "2026-07-27T00:08:41Z"
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-07-27T04:00:11Z"
       }
     ]
   }

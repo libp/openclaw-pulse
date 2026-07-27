@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-27T18:46:09.843Z",
+  "generatedAt": "2026-07-27T20:42:11.483Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -191,11 +191,11 @@
     },
     {
       "capturedOn": "2026-07-27",
-      "capturedAt": "2026-07-27T18:46:09.843Z",
-      "issueOpen": 4015,
-      "issueClosed": 40997,
-      "prOpen": 2791,
-      "prClosed": 64343,
+      "capturedAt": "2026-07-27T20:42:11.483Z",
+      "issueOpen": 3942,
+      "issueClosed": 41078,
+      "prOpen": 2804,
+      "prClosed": 64378,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -205,77 +205,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 114687,
-        "title": "[Feature]: Gateway RPCs for WhatsApp group management (whatsapp.groups.info / rename / participants add/remove)",
-        "url": "https://github.com/openclaw/openclaw/issues/114687",
+        "number": 113251,
+        "title": "[Feature]: Add image viewing in the webchat file viewer.",
+        "url": "https://github.com/openclaw/openclaw/issues/113251",
         "state": "open",
-        "author": "Kollaborateur",
-        "updatedAt": "2026-07-27T18:43:14Z"
-      },
-      {
-        "kind": "issue",
-        "number": 114690,
-        "title": "[Bug]: Successful Discord source reply can be sent again after native Codex compaction in the same turn",
-        "url": "https://github.com/openclaw/openclaw/issues/114690",
-        "state": "open",
-        "author": "WG-Mojo",
-        "updatedAt": "2026-07-27T18:42:52Z"
+        "author": "TopProjectsCreator",
+        "updatedAt": "2026-07-27T20:40:19Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 114671,
-        "title": "refactor(mobile): consolidate native gateway and voice lifecycles",
-        "url": "https://github.com/openclaw/openclaw/pull/114671",
+        "number": 114194,
+        "title": "fix: session history rejects older child sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/114194",
+        "state": "open",
+        "author": "HOYALIM",
+        "updatedAt": "2026-07-27T20:41:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114017,
+        "title": "chore(ui): refresh control ui locales",
+        "url": "https://github.com/openclaw/openclaw/pull/114017",
+        "state": "open",
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-07-27T20:41:28Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114725,
+        "title": "fix(workboard): release path for legacy claims without ownerId",
+        "url": "https://github.com/openclaw/openclaw/pull/114725",
+        "state": "open",
+        "author": "yozakura-ava",
+        "updatedAt": "2026-07-27T20:41:26Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114743,
+        "title": "improve(ui): reduce duplicate chat startup work",
+        "url": "https://github.com/openclaw/openclaw/pull/114743",
+        "state": "open",
+        "author": "scotthuang",
+        "updatedAt": "2026-07-27T20:41:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113927,
+        "title": "chore(deps): bump the actions group across 1 directory with 6 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/113927",
+        "state": "open",
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-07-27T20:41:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114737,
+        "title": "fix(ui): hide the terminal dock while Settings is open",
+        "url": "https://github.com/openclaw/openclaw/pull/114737",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-27T18:46:04Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111463,
-        "title": "fix(memory-wiki): sandboxed sub-agents could read other agents' bridged memory through shared vault wiki reads",
-        "url": "https://github.com/openclaw/openclaw/pull/111463",
-        "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-07-27T18:45:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114689,
-        "title": "refactor(outbound): consolidate fenced cross-channel delivery",
-        "url": "https://github.com/openclaw/openclaw/pull/114689",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-27T18:45:46Z"
-      },
-      {
-        "kind": "pr",
-        "number": 75662,
-        "title": "fix(agents): pause yielded main-session runs",
-        "url": "https://github.com/openclaw/openclaw/pull/75662",
-        "state": "open",
-        "author": "amittell",
-        "updatedAt": "2026-07-27T18:45:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112508,
-        "title": "fix(compaction): rotate transcript after compaction by default (#112476)",
-        "url": "https://github.com/openclaw/openclaw/pull/112508",
-        "state": "open",
-        "author": "MatthewSynthia",
-        "updatedAt": "2026-07-27T18:45:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114624,
-        "title": "improve(state): avoid repeated schema migration detection",
-        "url": "https://github.com/openclaw/openclaw/pull/114624",
-        "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-07-27T18:45:21Z"
+        "updatedAt": "2026-07-27T20:41:14Z"
       }
     ]
   }

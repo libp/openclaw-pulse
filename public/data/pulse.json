@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-27T23:28:17.804Z",
+  "generatedAt": "2026-07-28T03:32:53.345Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -199,92 +199,85 @@
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-07-28",
+      "capturedAt": "2026-07-28T03:32:53.345Z",
+      "issueOpen": 3947,
+      "issueClosed": 41113,
+      "prOpen": 2781,
+      "prClosed": 64515,
+      "workflowRuns": 40000,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 114795,
-        "title": "ClickClack discussion sidebars should follow the Control UI theme",
-        "url": "https://github.com/openclaw/openclaw/issues/114795",
+        "number": 114895,
+        "title": "[Bug]: edit and apply_patch silently corrupt non-UTF-8 files",
+        "url": "https://github.com/openclaw/openclaw/issues/114895",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-27T23:27:36Z"
-      },
-      {
-        "kind": "issue",
-        "number": 114792,
-        "title": "[Bug]: Previous Gateway question cards remain visible after switching Gateways",
-        "url": "https://github.com/openclaw/openclaw/issues/114792",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-27T23:25:22Z"
-      },
-      {
-        "kind": "issue",
-        "number": 114791,
-        "title": "[Bug]: Expired Gateway question blocks the composer and repeatedly retries after reconnect",
-        "url": "https://github.com/openclaw/openclaw/issues/114791",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-27T23:24:48Z"
+        "author": "yetval",
+        "updatedAt": "2026-07-28T03:32:29Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 114282,
-        "title": "fix(github-copilot): accept fine-grained access tokens",
-        "url": "https://github.com/openclaw/openclaw/pull/114282",
+        "number": 114900,
+        "title": "fix: decode Windows bash session output",
+        "url": "https://github.com/openclaw/openclaw/pull/114900",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-07-27T23:28:11Z"
+        "author": "qingminglong",
+        "updatedAt": "2026-07-28T03:32:43Z"
       },
       {
         "kind": "pr",
-        "number": 114780,
-        "title": "fix(diagnostics): exclude active steering from session backlog",
-        "url": "https://github.com/openclaw/openclaw/pull/114780",
+        "number": 114878,
+        "title": "fix(ui): use Traditional Chinese for Hant browser locales",
+        "url": "https://github.com/openclaw/openclaw/pull/114878",
         "state": "open",
-        "author": "HOYALIM",
-        "updatedAt": "2026-07-27T23:28:07Z"
+        "author": "MonkeyLeeT",
+        "updatedAt": "2026-07-28T03:32:43Z"
       },
       {
         "kind": "pr",
-        "number": 114769,
-        "title": "perf(logging): flush file transport asynchronously off the request path",
-        "url": "https://github.com/openclaw/openclaw/pull/114769",
+        "number": 114892,
+        "title": "refactor(nodes)!: retire arming leases for durable capability enablement",
+        "url": "https://github.com/openclaw/openclaw/pull/114892",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-27T23:27:53Z"
+        "updatedAt": "2026-07-28T03:32:38Z"
       },
       {
         "kind": "pr",
-        "number": 114688,
-        "title": "feat(agents): report per-run stats (code-mode engagement, round trips, cost) in agent JSON envelopes",
-        "url": "https://github.com/openclaw/openclaw/pull/114688",
+        "number": 112714,
+        "title": "feat(imessage): native poll controls for approval prompts",
+        "url": "https://github.com/openclaw/openclaw/pull/112714",
+        "state": "open",
+        "author": "omarshahine",
+        "updatedAt": "2026-07-28T03:32:24Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114843,
+        "title": "test(ai): freeze packed-package and stream parity contracts",
+        "url": "https://github.com/openclaw/openclaw/pull/114843",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-27T23:26:43Z"
+        "updatedAt": "2026-07-28T03:32:09Z"
       },
       {
         "kind": "pr",
-        "number": 113927,
-        "title": "chore(deps): bump the actions group across 1 directory with 6 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/113927",
+        "number": 111365,
+        "title": "fix(state): run additive column migration before canonical schema assertion",
+        "url": "https://github.com/openclaw/openclaw/pull/111365",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-07-27T23:26:23Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113517,
-        "title": "feat(approvals): add external verification contract",
-        "url": "https://github.com/openclaw/openclaw/pull/113517",
-        "state": "open",
-        "author": "Guardiola31337",
-        "updatedAt": "2026-07-27T23:25:57Z"
+        "author": "lee-xydt",
+        "updatedAt": "2026-07-28T03:32:07Z"
       }
     ]
   }

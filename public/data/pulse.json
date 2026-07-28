@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-28T14:34:53.822Z",
+  "generatedAt": "2026-07-28T16:49:27.944Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -202,11 +202,11 @@
     },
     {
       "capturedOn": "2026-07-28",
-      "capturedAt": "2026-07-28T14:34:53.822Z",
-      "issueOpen": 3850,
-      "issueClosed": 41284,
-      "prOpen": 2703,
-      "prClosed": 64954,
+      "capturedAt": "2026-07-28T16:49:27.944Z",
+      "issueOpen": 3836,
+      "issueClosed": 41314,
+      "prOpen": 2679,
+      "prClosed": 65018,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -216,77 +216,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 11623,
-        "title": "Feature: Floating agent bubbles (Clawi) for macOS",
-        "url": "https://github.com/openclaw/openclaw/issues/11623",
+        "number": 9986,
+        "title": "Feature: Trigger model fallback on context length exceeded",
+        "url": "https://github.com/openclaw/openclaw/issues/9986",
         "state": "open",
-        "author": "soumikbhatta",
-        "updatedAt": "2026-07-28T14:34:31Z"
+        "author": "amirarenco-create",
+        "updatedAt": "2026-07-28T16:47:51Z"
       },
       {
         "kind": "issue",
-        "number": 112229,
-        "title": "[Bug]: Slack inbound — pasted native tables (attachments[].blocks type \"table\") are dropped on every path; agent never sees the table",
-        "url": "https://github.com/openclaw/openclaw/issues/112229",
-        "state": "closed",
-        "author": "jadewon",
-        "updatedAt": "2026-07-28T14:34:23Z"
+        "number": 99387,
+        "title": "LLM request failed: provider rejected request schema or tool payload — intermittent crash (Telegram + Anthropic)",
+        "url": "https://github.com/openclaw/openclaw/issues/99387",
+        "state": "open",
+        "author": "gremlin-kitsune",
+        "updatedAt": "2026-07-28T16:47:29Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 114902,
-        "title": "fix(qqbot): add heartbeat-ACK liveness watchdog",
-        "url": "https://github.com/openclaw/openclaw/pull/114902",
+        "number": 114277,
+        "title": "fix(tasks): clone only the requested task page",
+        "url": "https://github.com/openclaw/openclaw/pull/114277",
         "state": "open",
-        "author": "guanbear",
-        "updatedAt": "2026-07-28T14:34:45Z"
+        "author": "LZY3538",
+        "updatedAt": "2026-07-28T16:49:25Z"
       },
       {
         "kind": "pr",
-        "number": 113927,
-        "title": "build(deps): bump the actions group across 1 directory with 6 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/113927",
+        "number": 115080,
+        "title": "fix: agent stops replying when a session transcript has no header row",
+        "url": "https://github.com/openclaw/openclaw/pull/115080",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-07-28T14:34:51Z"
+        "author": "galiniliev",
+        "updatedAt": "2026-07-28T16:49:21Z"
       },
       {
         "kind": "pr",
-        "number": 115224,
-        "title": "docs(install): npm 11.16+ silently skips openclaw install scripts",
-        "url": "https://github.com/openclaw/openclaw/pull/115224",
+        "number": 111528,
+        "title": "fix(agents): prevent false mid-turn overflow recovery",
+        "url": "https://github.com/openclaw/openclaw/pull/111528",
         "state": "open",
-        "author": "zak-li",
-        "updatedAt": "2026-07-28T14:34:28Z"
+        "author": "MonkeyLeeT",
+        "updatedAt": "2026-07-28T16:49:09Z"
       },
       {
         "kind": "pr",
-        "number": 114990,
-        "title": "fix(ui): enforce localization for chat and accessibility copy",
-        "url": "https://github.com/openclaw/openclaw/pull/114990",
+        "number": 112589,
+        "title": "feat: add lease-bound metadata to session spawns",
+        "url": "https://github.com/openclaw/openclaw/pull/112589",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-07-28T14:34:27Z"
+        "author": "yuzuqiang",
+        "updatedAt": "2026-07-28T16:49:04Z"
       },
       {
         "kind": "pr",
-        "number": 115163,
-        "title": "fix(slack): preserve pasted inbound tables",
-        "url": "https://github.com/openclaw/openclaw/pull/115163",
+        "number": 107439,
+        "title": "fix(slack): inbound events lost when multiple accounts share one Slack app's Socket Mode token",
+        "url": "https://github.com/openclaw/openclaw/pull/107439",
+        "state": "closed",
+        "author": "takuya818",
+        "updatedAt": "2026-07-28T16:48:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 115103,
+        "title": "feat(skills): shared authoring standards make learned skills routable",
+        "url": "https://github.com/openclaw/openclaw/pull/115103",
         "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-07-28T14:34:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113189,
-        "title": "feat(gateway): accept WebSocket request trace context",
-        "url": "https://github.com/openclaw/openclaw/pull/113189",
-        "state": "open",
-        "author": "moria97",
-        "updatedAt": "2026-07-28T14:34:10Z"
+        "updatedAt": "2026-07-28T16:48:45Z"
       }
     ]
   }

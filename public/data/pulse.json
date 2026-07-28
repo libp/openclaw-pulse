@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-28T16:49:27.944Z",
+  "generatedAt": "2026-07-28T20:33:44.720Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -202,11 +202,11 @@
     },
     {
       "capturedOn": "2026-07-28",
-      "capturedAt": "2026-07-28T16:49:27.944Z",
-      "issueOpen": 3836,
-      "issueClosed": 41314,
-      "prOpen": 2679,
-      "prClosed": 65018,
+      "capturedAt": "2026-07-28T20:33:44.720Z",
+      "issueOpen": 3844,
+      "issueClosed": 41335,
+      "prOpen": 2670,
+      "prClosed": 65099,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -216,77 +216,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 9986,
-        "title": "Feature: Trigger model fallback on context length exceeded",
-        "url": "https://github.com/openclaw/openclaw/issues/9986",
+        "number": 115400,
+        "title": "sessions_send: no synchronous wait option + duplicate delivery via async announce after sync tool result already returned",
+        "url": "https://github.com/openclaw/openclaw/issues/115400",
         "state": "open",
-        "author": "amirarenco-create",
-        "updatedAt": "2026-07-28T16:47:51Z"
+        "author": "Toopac7",
+        "updatedAt": "2026-07-28T20:30:18Z"
       },
       {
         "kind": "issue",
-        "number": 99387,
-        "title": "LLM request failed: provider rejected request schema or tool payload — intermittent crash (Telegram + Anthropic)",
-        "url": "https://github.com/openclaw/openclaw/issues/99387",
-        "state": "open",
-        "author": "gremlin-kitsune",
-        "updatedAt": "2026-07-28T16:47:29Z"
+        "number": 108075,
+        "title": "[Bug]: 2026.7.1Agent failed before reply: LLM request failed: provider rejected the request schema or tool payload. Logs: openclaw logs --follow",
+        "url": "https://github.com/openclaw/openclaw/issues/108075",
+        "state": "closed",
+        "author": "lun9090",
+        "updatedAt": "2026-07-28T20:21:19Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 114277,
-        "title": "fix(tasks): clone only the requested task page",
-        "url": "https://github.com/openclaw/openclaw/pull/114277",
+        "number": 113927,
+        "title": "build(deps): bump the actions group across 1 directory with 6 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/113927",
         "state": "open",
-        "author": "LZY3538",
-        "updatedAt": "2026-07-28T16:49:25Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-07-28T20:33:12Z"
       },
       {
         "kind": "pr",
-        "number": 115080,
-        "title": "fix: agent stops replying when a session transcript has no header row",
-        "url": "https://github.com/openclaw/openclaw/pull/115080",
+        "number": 114661,
+        "title": "fix(memory): permanent legacy sidecar migration warning for empty placeholder OpenClaw creates",
+        "url": "https://github.com/openclaw/openclaw/pull/114661",
         "state": "open",
-        "author": "galiniliev",
-        "updatedAt": "2026-07-28T16:49:21Z"
+        "author": "synthalorian",
+        "updatedAt": "2026-07-28T20:32:11Z"
       },
       {
         "kind": "pr",
-        "number": 111528,
-        "title": "fix(agents): prevent false mid-turn overflow recovery",
-        "url": "https://github.com/openclaw/openclaw/pull/111528",
+        "number": 115385,
+        "title": "chore(i18n): refresh native locales",
+        "url": "https://github.com/openclaw/openclaw/pull/115385",
         "state": "open",
-        "author": "MonkeyLeeT",
-        "updatedAt": "2026-07-28T16:49:09Z"
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-07-28T20:31:54Z"
       },
       {
         "kind": "pr",
-        "number": 112589,
-        "title": "feat: add lease-bound metadata to session spawns",
-        "url": "https://github.com/openclaw/openclaw/pull/112589",
+        "number": 115398,
+        "title": "fix(agents): forward caller-owned sessionManager into run attempts",
+        "url": "https://github.com/openclaw/openclaw/pull/115398",
         "state": "open",
-        "author": "yuzuqiang",
-        "updatedAt": "2026-07-28T16:49:04Z"
+        "author": "BSG2000",
+        "updatedAt": "2026-07-28T20:31:08Z"
       },
       {
         "kind": "pr",
-        "number": 107439,
-        "title": "fix(slack): inbound events lost when multiple accounts share one Slack app's Socket Mode token",
-        "url": "https://github.com/openclaw/openclaw/pull/107439",
-        "state": "closed",
-        "author": "takuya818",
-        "updatedAt": "2026-07-28T16:48:57Z"
+        "number": 115350,
+        "title": "fix(telegram): media_group album splits into separate agent turns under durable ingress",
+        "url": "https://github.com/openclaw/openclaw/pull/115350",
+        "state": "open",
+        "author": "synthalorian",
+        "updatedAt": "2026-07-28T20:29:42Z"
       },
       {
         "kind": "pr",
-        "number": 115103,
-        "title": "feat(skills): shared authoring standards make learned skills routable",
-        "url": "https://github.com/openclaw/openclaw/pull/115103",
-        "state": "closed",
+        "number": 115397,
+        "title": "fix(memory): fall back to keyword search when embeddings cannot start",
+        "url": "https://github.com/openclaw/openclaw/pull/115397",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-28T16:48:45Z"
+        "updatedAt": "2026-07-28T20:29:37Z"
       }
     ]
   }

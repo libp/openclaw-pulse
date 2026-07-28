@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-28T22:16:03.018Z",
+  "generatedAt": "2026-07-28T23:16:40.940Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -202,11 +202,11 @@
     },
     {
       "capturedOn": "2026-07-28",
-      "capturedAt": "2026-07-28T22:16:03.018Z",
-      "issueOpen": 3851,
-      "issueClosed": 41336,
-      "prOpen": 2677,
-      "prClosed": 65113,
+      "capturedAt": "2026-07-28T23:16:40.940Z",
+      "issueOpen": 3849,
+      "issueClosed": 41339,
+      "prOpen": 2671,
+      "prClosed": 65124,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -216,95 +216,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 115342,
-        "title": "[Feature]: optional redacted summary on audit_events tool actions (payload_hash alone cannot answer \"what did this agent just do\")",
-        "url": "https://github.com/openclaw/openclaw/issues/115342",
+        "number": 115167,
+        "title": "[Bug]: startup-catchup fixtures still write the retired sessionFile locator into session store entries",
+        "url": "https://github.com/openclaw/openclaw/issues/115167",
         "state": "open",
-        "author": "ThalynLabs",
-        "updatedAt": "2026-07-28T22:13:10Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-28T23:16:18Z"
       },
       {
         "kind": "issue",
-        "number": 115348,
-        "title": "[Bug]: Control UI shows empty cross-agent groups in the selected agent sidebar",
-        "url": "https://github.com/openclaw/openclaw/issues/115348",
+        "number": 88201,
+        "title": "[Bug]: OpenClaw 5.22: ~10 sec per-call inference overhead in infer model run (both --gateway and --local) vs ~1.3 sec direct provider call",
+        "url": "https://github.com/openclaw/openclaw/issues/88201",
         "state": "open",
-        "author": "hannesrudolph",
-        "updatedAt": "2026-07-28T22:11:13Z"
+        "author": "adamdksaad-ops",
+        "updatedAt": "2026-07-28T23:15:15Z"
       },
       {
         "kind": "issue",
-        "number": 115339,
-        "title": "[Bug]: Successful active-turn steer emits false no-reply fallback",
-        "url": "https://github.com/openclaw/openclaw/issues/115339",
+        "number": 88955,
+        "title": "[Bug]: qqbot WebSocket reconnection causes \"Outbound not configured for channel: qqbot\" error",
+        "url": "https://github.com/openclaw/openclaw/issues/88955",
         "state": "open",
-        "author": "hannesrudolph",
-        "updatedAt": "2026-07-28T22:10:29Z"
+        "author": "gaodaabao",
+        "updatedAt": "2026-07-28T23:15:13Z"
       },
       {
         "kind": "issue",
-        "number": 115338,
-        "title": "[Bug]: session maintenance maxEntries ineffective — thread session entries unconditionally protected from capping",
-        "url": "https://github.com/openclaw/openclaw/issues/115338",
+        "number": 73537,
+        "title": "Feature Request: Add production-readiness stability label to releases",
+        "url": "https://github.com/openclaw/openclaw/issues/73537",
         "state": "open",
-        "author": "tetra4rnav",
-        "updatedAt": "2026-07-28T22:09:34Z"
+        "author": "Reneb-cafe",
+        "updatedAt": "2026-07-28T23:14:16Z"
+      },
+      {
+        "kind": "issue",
+        "number": 99659,
+        "title": "[Bug]: Openclaw was OOM killed after companion app connected",
+        "url": "https://github.com/openclaw/openclaw/issues/99659",
+        "state": "open",
+        "author": "xrow",
+        "updatedAt": "2026-07-28T23:14:08Z"
+      },
+      {
+        "kind": "issue",
+        "number": 11487,
+        "title": "Add optional `name`/`label` field to group config entries",
+        "url": "https://github.com/openclaw/openclaw/issues/11487",
+        "state": "open",
+        "author": "geilt",
+        "updatedAt": "2026-07-28T23:09:30Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 115412,
-        "title": "fix(sessions): adopt pre-persisted user-turn event id to stop duplicate transcript enrollment",
-        "url": "https://github.com/openclaw/openclaw/pull/115412",
+        "number": 78664,
+        "title": "perf(agents): cache provider tool schema normalization",
+        "url": "https://github.com/openclaw/openclaw/pull/78664",
         "state": "open",
-        "author": "dandriscoll",
-        "updatedAt": "2026-07-28T22:15:55Z"
+        "author": "guanbear",
+        "updatedAt": "2026-07-28T23:15:54Z"
       },
       {
         "kind": "pr",
-        "number": 115323,
-        "title": "feat(gateway): read-only memory.list method for persisted memory enumeration",
-        "url": "https://github.com/openclaw/openclaw/pull/115323",
+        "number": 103852,
+        "title": "fix(agents): align plugin tool auth with provider runtime",
+        "url": "https://github.com/openclaw/openclaw/pull/103852",
         "state": "open",
-        "author": "synthalorian",
-        "updatedAt": "2026-07-28T22:15:44Z"
+        "author": "lonexreb",
+        "updatedAt": "2026-07-28T23:15:22Z"
       },
       {
         "kind": "pr",
-        "number": 114978,
-        "title": "fix: fence pnpm link out of source-checkout updates and warn on self-link damage",
-        "url": "https://github.com/openclaw/openclaw/pull/114978",
+        "number": 114388,
+        "title": "feat(agents)!: remove the stored default agent — sole agent or explicit ownership",
+        "url": "https://github.com/openclaw/openclaw/pull/114388",
         "state": "open",
-        "author": "synthalorian",
-        "updatedAt": "2026-07-28T22:15:43Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-28T23:14:58Z"
       },
       {
         "kind": "pr",
-        "number": 113927,
-        "title": "build(deps): bump the actions group across 1 directory with 6 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/113927",
+        "number": 115434,
+        "title": "fix: Telegram DM replies survive gateway restarts",
+        "url": "https://github.com/openclaw/openclaw/pull/115434",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-07-28T22:15:43Z"
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-07-28T23:14:36Z"
       },
       {
         "kind": "pr",
-        "number": 114661,
-        "title": "fix(memory): permanent legacy sidecar migration warning for empty placeholder OpenClaw creates",
-        "url": "https://github.com/openclaw/openclaw/pull/114661",
+        "number": 115398,
+        "title": "fix(agents): forward caller-owned sessionManager into run attempts",
+        "url": "https://github.com/openclaw/openclaw/pull/115398",
         "state": "open",
-        "author": "synthalorian",
-        "updatedAt": "2026-07-28T22:15:40Z"
+        "author": "BSG2000",
+        "updatedAt": "2026-07-28T23:13:28Z"
       },
       {
         "kind": "pr",
-        "number": 115327,
-        "title": "fix(state): agent exec --json stdout corrupted by exit-time state database diagnostic",
-        "url": "https://github.com/openclaw/openclaw/pull/115327",
+        "number": 112084,
+        "title": "fix(agents): use lastSeenAtMs tie-break in canvas default-node selection",
+        "url": "https://github.com/openclaw/openclaw/pull/112084",
         "state": "open",
-        "author": "synthalorian",
-        "updatedAt": "2026-07-28T22:15:39Z"
+        "author": "kagura-agent",
+        "updatedAt": "2026-07-28T23:13:11Z"
       }
     ]
   }

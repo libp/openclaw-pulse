@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-28T03:32:53.345Z",
+  "generatedAt": "2026-07-28T09:46:33.730Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -202,11 +202,11 @@
     },
     {
       "capturedOn": "2026-07-28",
-      "capturedAt": "2026-07-28T03:32:53.345Z",
-      "issueOpen": 3947,
-      "issueClosed": 41113,
-      "prOpen": 2781,
-      "prClosed": 64515,
+      "capturedAt": "2026-07-28T09:46:33.730Z",
+      "issueOpen": 3914,
+      "issueClosed": 41195,
+      "prOpen": 2704,
+      "prClosed": 64770,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -216,68 +216,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 114895,
-        "title": "[Bug]: edit and apply_patch silently corrupt non-UTF-8 files",
-        "url": "https://github.com/openclaw/openclaw/issues/114895",
+        "number": 41272,
+        "title": "Bug: Cron job UI rejects timeoutSeconds: 0 (no-timeout mode)",
+        "url": "https://github.com/openclaw/openclaw/issues/41272",
+        "state": "closed",
+        "author": "JonathanJing",
+        "updatedAt": "2026-07-28T09:46:18Z"
+      },
+      {
+        "kind": "issue",
+        "number": 97826,
+        "title": "[Bug]: sendVideo omits width/height for large videos — probeVideoDimensions(pipe:0) fails → wrong aspect ratio",
+        "url": "https://github.com/openclaw/openclaw/issues/97826",
         "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-07-28T03:32:29Z"
+        "author": "maxwelhoener",
+        "updatedAt": "2026-07-28T09:45:02Z"
+      },
+      {
+        "kind": "issue",
+        "number": 115124,
+        "title": "[Bug]: Microsoft Teams attachments display percent-encoded filenames",
+        "url": "https://github.com/openclaw/openclaw/issues/115124",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-28T09:44:58Z"
+      },
+      {
+        "kind": "issue",
+        "number": 115121,
+        "title": "[Bug]: Telegram image replies larger than 10 MiB fail instead of being delivered as documents",
+        "url": "https://github.com/openclaw/openclaw/issues/115121",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-28T09:44:02Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 114900,
-        "title": "fix: decode Windows bash session output",
-        "url": "https://github.com/openclaw/openclaw/pull/114900",
+        "number": 114701,
+        "title": "feat(clickclack): support displayName and subject in resolveDiscussionLabel for human-readable discussion channel names",
+        "url": "https://github.com/openclaw/openclaw/pull/114701",
+        "state": "open",
+        "author": "amir-rezaei",
+        "updatedAt": "2026-07-28T09:46:28Z"
+      },
+      {
+        "kind": "pr",
+        "number": 115090,
+        "title": "fix(cron): allow no-timeout scheduled jobs in Control UI",
+        "url": "https://github.com/openclaw/openclaw/pull/115090",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-07-28T09:46:22Z"
+      },
+      {
+        "kind": "pr",
+        "number": 115060,
+        "title": "fix(ui): keep streamed media pinned to the chat",
+        "url": "https://github.com/openclaw/openclaw/pull/115060",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-28T09:46:31Z"
+      },
+      {
+        "kind": "pr",
+        "number": 115125,
+        "title": "fix(telegram): deliver oversized photo replies as documents",
+        "url": "https://github.com/openclaw/openclaw/pull/115125",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-28T09:45:39Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114909,
+        "title": "fix(gateway): show recovery guidance when context overflow hides replies",
+        "url": "https://github.com/openclaw/openclaw/pull/114909",
         "state": "open",
         "author": "qingminglong",
-        "updatedAt": "2026-07-28T03:32:43Z"
+        "updatedAt": "2026-07-28T09:45:34Z"
       },
       {
         "kind": "pr",
-        "number": 114878,
-        "title": "fix(ui): use Traditional Chinese for Hant browser locales",
-        "url": "https://github.com/openclaw/openclaw/pull/114878",
+        "number": 112555,
+        "title": "fix(synology-chat): chunk long replies to avoid \"msg too long\" rejection (#112041)",
+        "url": "https://github.com/openclaw/openclaw/pull/112555",
         "state": "open",
-        "author": "MonkeyLeeT",
-        "updatedAt": "2026-07-28T03:32:43Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114892,
-        "title": "refactor(nodes)!: retire arming leases for durable capability enablement",
-        "url": "https://github.com/openclaw/openclaw/pull/114892",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-28T03:32:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112714,
-        "title": "feat(imessage): native poll controls for approval prompts",
-        "url": "https://github.com/openclaw/openclaw/pull/112714",
-        "state": "open",
-        "author": "omarshahine",
-        "updatedAt": "2026-07-28T03:32:24Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114843,
-        "title": "test(ai): freeze packed-package and stream parity contracts",
-        "url": "https://github.com/openclaw/openclaw/pull/114843",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-28T03:32:09Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111365,
-        "title": "fix(state): run additive column migration before canonical schema assertion",
-        "url": "https://github.com/openclaw/openclaw/pull/111365",
-        "state": "open",
-        "author": "lee-xydt",
-        "updatedAt": "2026-07-28T03:32:07Z"
+        "author": "MatthewSynthia",
+        "updatedAt": "2026-07-28T09:45:28Z"
       }
     ]
   }

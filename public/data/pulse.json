@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-29T22:11:37.008Z",
+  "generatedAt": "2026-07-29T23:12:34.602Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -213,11 +213,11 @@
     },
     {
       "capturedOn": "2026-07-29",
-      "capturedAt": "2026-07-29T22:11:37.008Z",
-      "issueOpen": 3578,
-      "issueClosed": 41715,
-      "prOpen": 2284,
-      "prClosed": 66066,
+      "capturedAt": "2026-07-29T23:12:34.602Z",
+      "issueOpen": 3575,
+      "issueClosed": 41721,
+      "prOpen": 2274,
+      "prClosed": 66091,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -227,113 +227,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 43866,
-        "title": "[Bug]: /hooks/agent silently drops accountId — hook dispatch bypasses cron normalization pipeline",
-        "url": "https://github.com/openclaw/openclaw/issues/43866",
+        "number": 116118,
+        "title": "[Bug]: Beta Gateway and latest signed macOS app lack a compatibility contract and state-write guard",
+        "url": "https://github.com/openclaw/openclaw/issues/116118",
         "state": "open",
-        "author": "pauldesmondparker",
-        "updatedAt": "2026-07-29T22:11:33Z"
+        "author": "ZYV5ge",
+        "updatedAt": "2026-07-29T23:11:57Z"
       },
       {
         "kind": "issue",
-        "number": 87925,
-        "title": "thinkingLevel: model switch silently downgrades and persists an inherited explicit override",
-        "url": "https://github.com/openclaw/openclaw/issues/87925",
+        "number": 91569,
+        "title": "[Bug]: Desktop app stuck on old version after gateway auto-update → \"protocol mismatch\" with no in-app prompt",
+        "url": "https://github.com/openclaw/openclaw/issues/91569",
         "state": "open",
-        "author": "hoobnn",
-        "updatedAt": "2026-07-29T22:11:24Z"
-      },
-      {
-        "kind": "issue",
-        "number": 87870,
-        "title": "Add outbound guardrails and verified delivery semantics for human chat channels",
-        "url": "https://github.com/openclaw/openclaw/issues/87870",
-        "state": "open",
-        "author": "i-am-dm",
-        "updatedAt": "2026-07-29T22:11:20Z"
-      },
-      {
-        "kind": "issue",
-        "number": 87756,
-        "title": "[Bug]: Regression: prompt-launched Lobster workflow hangs on nested /tools/invoke, while curl-launched workflow works",
-        "url": "https://github.com/openclaw/openclaw/issues/87756",
-        "state": "open",
-        "author": "rogerallen1",
-        "updatedAt": "2026-07-29T22:11:14Z"
-      },
-      {
-        "kind": "issue",
-        "number": 87544,
-        "title": "Ensure transcript-to-client delivery consistency for channel-scoped sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/87544",
-        "state": "open",
-        "author": "solavrc",
-        "updatedAt": "2026-07-29T22:11:10Z"
-      },
-      {
-        "kind": "issue",
-        "number": 87733,
-        "title": "FRD: documented cross-gateway federation (bridge protocol + cross-gateway identity + tenant-scoped operator scopes)",
-        "url": "https://github.com/openclaw/openclaw/issues/87733",
-        "state": "open",
-        "author": "ryanhelms",
-        "updatedAt": "2026-07-29T22:11:08Z"
+        "author": "outkasttttt",
+        "updatedAt": "2026-07-29T23:11:22Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 97280,
-        "title": "fix(auth): allow OpenAI OAuth for audio transcription",
-        "url": "https://github.com/openclaw/openclaw/pull/97280",
+        "number": 116108,
+        "title": "fix(config): save config changes into the nested $include file that owns them",
+        "url": "https://github.com/openclaw/openclaw/pull/116108",
         "state": "open",
-        "author": "yungchentang",
-        "updatedAt": "2026-07-29T22:11:33Z"
+        "author": "sasan1200",
+        "updatedAt": "2026-07-29T23:12:18Z"
       },
       {
         "kind": "pr",
-        "number": 116100,
-        "title": "fix(android): move Wear capability keep rules to dedicated res/raw/*.keep.xml",
-        "url": "https://github.com/openclaw/openclaw/pull/116100",
+        "number": 96662,
+        "title": "fix(codex): surface native subagent task updates",
+        "url": "https://github.com/openclaw/openclaw/pull/96662",
+        "state": "open",
+        "author": "outdog-hwh",
+        "updatedAt": "2026-07-29T23:11:48Z"
+      },
+      {
+        "kind": "pr",
+        "number": 116117,
+        "title": "fix(codex): prevent approval promotion from blocking unattended runs",
+        "url": "https://github.com/openclaw/openclaw/pull/116117",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-29T23:11:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 116112,
+        "title": "fix(config): reject reserved MCP server name instead of silently dropping it",
+        "url": "https://github.com/openclaw/openclaw/pull/116112",
         "state": "closed",
-        "author": "licheer-zte",
-        "updatedAt": "2026-07-29T22:11:34Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-29T23:11:17Z"
       },
       {
         "kind": "pr",
-        "number": 115519,
-        "title": "perf(gateway): reuse session discovery during agent requests",
-        "url": "https://github.com/openclaw/openclaw/pull/115519",
+        "number": 111810,
+        "title": "fix(zai,amazon-bedrock-mantle): reject invalid UTF-8 in extension API response JSON",
+        "url": "https://github.com/openclaw/openclaw/pull/111810",
         "state": "open",
-        "author": "ooiuuii",
-        "updatedAt": "2026-07-29T22:11:30Z"
+        "author": "Monkey-wusky",
+        "updatedAt": "2026-07-29T23:11:17Z"
       },
       {
         "kind": "pr",
-        "number": 116097,
-        "title": "refactor(ui): remove retired time format bootstrap",
-        "url": "https://github.com/openclaw/openclaw/pull/116097",
+        "number": 112004,
+        "title": "feat(sidebar): Recent naming parity, iOS roster pagination, approvals remediation routing",
+        "url": "https://github.com/openclaw/openclaw/pull/112004",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-07-29T22:11:29Z"
-      },
-      {
-        "kind": "pr",
-        "number": 87814,
-        "title": "Fix config set slash args",
-        "url": "https://github.com/openclaw/openclaw/pull/87814",
-        "state": "open",
-        "author": "sjf",
-        "updatedAt": "2026-07-29T22:11:29Z"
-      },
-      {
-        "kind": "pr",
-        "number": 97175,
-        "title": "fix(context-engine): bound deferred turn maintenance with a per-task timeout (AI-assisted)",
-        "url": "https://github.com/openclaw/openclaw/pull/97175",
-        "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-07-29T22:11:28Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-29T23:11:16Z"
       }
     ]
   }

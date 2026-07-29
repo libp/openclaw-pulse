@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-29T03:36:16.791Z",
+  "generatedAt": "2026-07-29T06:43:26.200Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -213,11 +213,11 @@
     },
     {
       "capturedOn": "2026-07-29",
-      "capturedAt": "2026-07-29T03:36:16.791Z",
-      "issueOpen": 3736,
-      "issueClosed": 41475,
-      "prOpen": 2598,
-      "prClosed": 65263,
+      "capturedAt": "2026-07-29T06:43:26.200Z",
+      "issueOpen": 3639,
+      "issueClosed": 41590,
+      "prOpen": 2439,
+      "prClosed": 65574,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -227,104 +227,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 109503,
-        "title": "[Bug]: openclaw doctor disables workspace suggestions by default",
-        "url": "https://github.com/openclaw/openclaw/issues/109503",
+        "number": 115342,
+        "title": "[Feature]: optional redacted summary on audit_events tool actions (payload_hash alone cannot answer \"what did this agent just do\")",
+        "url": "https://github.com/openclaw/openclaw/issues/115342",
+        "state": "open",
+        "author": "ThalynLabs",
+        "updatedAt": "2026-07-29T06:43:16Z"
+      },
+      {
+        "kind": "issue",
+        "number": 115338,
+        "title": "[Bug]: session maintenance maxEntries ineffective — thread session entries unconditionally protected from capping",
+        "url": "https://github.com/openclaw/openclaw/issues/115338",
+        "state": "open",
+        "author": "tetra4rnav",
+        "updatedAt": "2026-07-29T06:42:39Z"
+      },
+      {
+        "kind": "issue",
+        "number": 93139,
+        "title": "Bug: write tool and exec heredocs insert literal \\n instead of newlines in string content",
+        "url": "https://github.com/openclaw/openclaw/issues/93139",
         "state": "closed",
-        "author": "moguangyu5-design",
-        "updatedAt": "2026-07-29T03:35:48Z"
-      },
-      {
-        "kind": "issue",
-        "number": 115524,
-        "title": "[Bug]: Uncached fs.realpathSync in plugin manifest loader causes startup crash + recurring 30-70s stalls on Windows (beta.5)",
-        "url": "https://github.com/openclaw/openclaw/issues/115524",
-        "state": "open",
-        "author": "GlynLewis",
-        "updatedAt": "2026-07-29T03:35:10Z"
-      },
-      {
-        "kind": "issue",
-        "number": 88955,
-        "title": "[Bug]: qqbot WebSocket reconnection causes \"Outbound not configured for channel: qqbot\" error",
-        "url": "https://github.com/openclaw/openclaw/issues/88955",
-        "state": "open",
-        "author": "gaodaabao",
-        "updatedAt": "2026-07-29T03:32:58Z"
-      },
-      {
-        "kind": "issue",
-        "number": 88201,
-        "title": "[Bug]: OpenClaw 5.22: ~10 sec per-call inference overhead in infer model run (both --gateway and --local) vs ~1.3 sec direct provider call",
-        "url": "https://github.com/openclaw/openclaw/issues/88201",
-        "state": "open",
-        "author": "adamdksaad-ops",
-        "updatedAt": "2026-07-29T03:31:38Z"
-      },
-      {
-        "kind": "issue",
-        "number": 115389,
-        "title": "[Bug]: Every pre-persisted channel inbound is enrolled twice in the transcript with the same idempotencyKey (unique index silently bypassed)",
-        "url": "https://github.com/openclaw/openclaw/issues/115389",
-        "state": "closed",
-        "author": "dandriscoll",
-        "updatedAt": "2026-07-29T03:31:14Z"
+        "author": "Haderach-Ram",
+        "updatedAt": "2026-07-29T06:40:42Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 115223,
-        "title": "fix(gateway): clear stale token metadata after --max-lines session compact",
-        "url": "https://github.com/openclaw/openclaw/pull/115223",
+        "number": 96645,
+        "title": "fix(mattermost): key private channels as group on outbound routing",
+        "url": "https://github.com/openclaw/openclaw/pull/96645",
         "state": "closed",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-07-29T03:36:05Z"
+        "author": "iloveleon19",
+        "updatedAt": "2026-07-29T06:43:23Z"
       },
       {
         "kind": "pr",
-        "number": 115083,
-        "title": "fix(plugins): keep bulk updates on the beta channel",
-        "url": "https://github.com/openclaw/openclaw/pull/115083",
+        "number": 115680,
+        "title": "feat(telegram): include actual error detail in fallback messages",
+        "url": "https://github.com/openclaw/openclaw/pull/115680",
         "state": "open",
-        "author": "ooiuuii",
-        "updatedAt": "2026-07-29T03:35:59Z"
+        "author": "bob-the-dyer",
+        "updatedAt": "2026-07-29T06:43:20Z"
       },
       {
         "kind": "pr",
-        "number": 115512,
-        "title": "fix(doctor): restore default workspace suggestions",
-        "url": "https://github.com/openclaw/openclaw/pull/115512",
-        "state": "closed",
+        "number": 115695,
+        "title": "fix(plugins): bound hook execution and retire stale registrations",
+        "url": "https://github.com/openclaw/openclaw/pull/115695",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-07-29T06:43:19Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113731,
+        "title": "fix(system-agent): emit the wizard cancel hint once per message",
+        "url": "https://github.com/openclaw/openclaw/pull/113731",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-07-29T06:43:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111947,
+        "title": "fix(discord): keep tool rows in the progress draft under verbose",
+        "url": "https://github.com/openclaw/openclaw/pull/111947",
+        "state": "open",
+        "author": "zeroaltitude",
+        "updatedAt": "2026-07-29T06:43:23Z"
+      },
+      {
+        "kind": "pr",
+        "number": 115622,
+        "title": "feat(openai): support GPT-Live over backend WebSocket",
+        "url": "https://github.com/openclaw/openclaw/pull/115622",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-29T03:35:52Z"
-      },
-      {
-        "kind": "pr",
-        "number": 115521,
-        "title": "fix(mcp): preserve non-text content in structured tool results",
-        "url": "https://github.com/openclaw/openclaw/pull/115521",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-29T03:35:00Z"
-      },
-      {
-        "kind": "pr",
-        "number": 115513,
-        "title": "fix(cli): recover channel turns from expired sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/115513",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-29T03:34:15Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114278,
-        "title": "fix(state): recover from state-database corruption without a gateway restart",
-        "url": "https://github.com/openclaw/openclaw/pull/114278",
-        "state": "open",
-        "author": "rizquuula",
-        "updatedAt": "2026-07-29T03:33:56Z"
+        "updatedAt": "2026-07-29T06:43:02Z"
       }
     ]
   }

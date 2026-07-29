@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-29T00:10:37.036Z",
+  "generatedAt": "2026-07-29T03:36:16.791Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -213,11 +213,11 @@
     },
     {
       "capturedOn": "2026-07-29",
-      "capturedAt": "2026-07-29T00:10:37.036Z",
-      "issueOpen": 3853,
-      "issueClosed": 41342,
-      "prOpen": 2671,
-      "prClosed": 65130,
+      "capturedAt": "2026-07-29T03:36:16.791Z",
+      "issueOpen": 3736,
+      "issueClosed": 41475,
+      "prOpen": 2598,
+      "prClosed": 65263,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -227,113 +227,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 115448,
-        "title": "JSON schema conversion error when using local GPT-OSS:20b model via OpenClaw",
-        "url": "https://github.com/openclaw/openclaw/issues/115448",
-        "state": "open",
-        "author": "TheDenStudios",
-        "updatedAt": "2026-07-29T00:10:21Z"
+        "number": 109503,
+        "title": "[Bug]: openclaw doctor disables workspace suggestions by default",
+        "url": "https://github.com/openclaw/openclaw/issues/109503",
+        "state": "closed",
+        "author": "moguangyu5-design",
+        "updatedAt": "2026-07-29T03:35:48Z"
       },
       {
         "kind": "issue",
-        "number": 115337,
-        "title": "[Bug]: Skills from shared Agent Skills roots ignore Codex invocation policy",
-        "url": "https://github.com/openclaw/openclaw/issues/115337",
+        "number": 115524,
+        "title": "[Bug]: Uncached fs.realpathSync in plugin manifest loader causes startup crash + recurring 30-70s stalls on Windows (beta.5)",
+        "url": "https://github.com/openclaw/openclaw/issues/115524",
         "state": "open",
-        "author": "hannesrudolph",
-        "updatedAt": "2026-07-29T00:09:40Z"
+        "author": "GlynLewis",
+        "updatedAt": "2026-07-29T03:35:10Z"
       },
       {
         "kind": "issue",
-        "number": 115421,
-        "title": "Schema downgrade recovery must not quarantine/wipe state DB (cron jobs lost)",
-        "url": "https://github.com/openclaw/openclaw/issues/115421",
+        "number": 88955,
+        "title": "[Bug]: qqbot WebSocket reconnection causes \"Outbound not configured for channel: qqbot\" error",
+        "url": "https://github.com/openclaw/openclaw/issues/88955",
         "state": "open",
-        "author": "ericcaiwx-star",
-        "updatedAt": "2026-07-29T00:05:38Z"
+        "author": "gaodaabao",
+        "updatedAt": "2026-07-29T03:32:58Z"
       },
       {
         "kind": "issue",
-        "number": 11665,
-        "title": "[Feature]: Webhook hook sessions should reuse existing session when sessionKey is consistent (multi-turn support)",
-        "url": "https://github.com/openclaw/openclaw/issues/11665",
+        "number": 88201,
+        "title": "[Bug]: OpenClaw 5.22: ~10 sec per-call inference overhead in infer model run (both --gateway and --local) vs ~1.3 sec direct provider call",
+        "url": "https://github.com/openclaw/openclaw/issues/88201",
         "state": "open",
-        "author": "marieldejesus12",
-        "updatedAt": "2026-07-29T00:02:58Z"
+        "author": "adamdksaad-ops",
+        "updatedAt": "2026-07-29T03:31:38Z"
       },
       {
         "kind": "issue",
-        "number": 115331,
-        "title": "[Feature]: Define persisted memory file discovery semantics",
-        "url": "https://github.com/openclaw/openclaw/issues/115331",
-        "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-29T00:01:51Z"
-      },
-      {
-        "kind": "issue",
-        "number": 115330,
-        "title": "[Feature]: Decide persisted memory Gateway read contract",
-        "url": "https://github.com/openclaw/openclaw/issues/115330",
-        "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-29T00:00:33Z"
+        "number": 115389,
+        "title": "[Bug]: Every pre-persisted channel inbound is enrolled twice in the transcript with the same idempotencyKey (unique index silently bypassed)",
+        "url": "https://github.com/openclaw/openclaw/issues/115389",
+        "state": "closed",
+        "author": "dandriscoll",
+        "updatedAt": "2026-07-29T03:31:14Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 110875,
-        "title": "feat(mattermost): read channel history with guarded permissions",
-        "url": "https://github.com/openclaw/openclaw/pull/110875",
-        "state": "open",
-        "author": "metaforismo",
-        "updatedAt": "2026-07-29T00:09:27Z"
+        "number": 115223,
+        "title": "fix(gateway): clear stale token metadata after --max-lines session compact",
+        "url": "https://github.com/openclaw/openclaw/pull/115223",
+        "state": "closed",
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-07-29T03:36:05Z"
       },
       {
         "kind": "pr",
-        "number": 111301,
-        "title": "fix(thinking): fall back instead of erroring on unsupported adaptive level (#109351)",
-        "url": "https://github.com/openclaw/openclaw/pull/111301",
+        "number": 115083,
+        "title": "fix(plugins): keep bulk updates on the beta channel",
+        "url": "https://github.com/openclaw/openclaw/pull/115083",
         "state": "open",
-        "author": "yuvrajlaptop2008-byte",
-        "updatedAt": "2026-07-29T00:07:59Z"
+        "author": "ooiuuii",
+        "updatedAt": "2026-07-29T03:35:59Z"
       },
       {
         "kind": "pr",
-        "number": 115440,
-        "title": "fix: make system-agent chat approvals routable and configurable",
-        "url": "https://github.com/openclaw/openclaw/pull/115440",
-        "state": "open",
-        "author": "Digitalishealth",
-        "updatedAt": "2026-07-29T00:07:25Z"
+        "number": 115512,
+        "title": "fix(doctor): restore default workspace suggestions",
+        "url": "https://github.com/openclaw/openclaw/pull/115512",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-07-29T03:35:52Z"
       },
       {
         "kind": "pr",
-        "number": 115447,
-        "title": "fix(state): fail closed on newer schema in doctor repair",
-        "url": "https://github.com/openclaw/openclaw/pull/115447",
-        "state": "open",
-        "author": "ericcaiwx-star",
-        "updatedAt": "2026-07-29T00:06:10Z"
-      },
-      {
-        "kind": "pr",
-        "number": 115438,
-        "title": "feat(memory): isolate curated entries by project",
-        "url": "https://github.com/openclaw/openclaw/pull/115438",
+        "number": 115521,
+        "title": "fix(mcp): preserve non-text content in structured tool results",
+        "url": "https://github.com/openclaw/openclaw/pull/115521",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-29T00:04:09Z"
+        "updatedAt": "2026-07-29T03:35:00Z"
       },
       {
         "kind": "pr",
-        "number": 115336,
-        "title": "fix(lmstudio): preserve valid local models in mixed catalogs",
-        "url": "https://github.com/openclaw/openclaw/pull/115336",
+        "number": 115513,
+        "title": "fix(cli): recover channel turns from expired sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/115513",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-29T00:03:51Z"
+        "updatedAt": "2026-07-29T03:34:15Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114278,
+        "title": "fix(state): recover from state-database corruption without a gateway restart",
+        "url": "https://github.com/openclaw/openclaw/pull/114278",
+        "state": "open",
+        "author": "rizquuula",
+        "updatedAt": "2026-07-29T03:33:56Z"
       }
     ]
   }

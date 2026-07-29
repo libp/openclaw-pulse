@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-29T19:41:11.302Z",
+  "generatedAt": "2026-07-29T21:11:42.348Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -213,11 +213,11 @@
     },
     {
       "capturedOn": "2026-07-29",
-      "capturedAt": "2026-07-29T19:41:11.302Z",
-      "issueOpen": 3598,
-      "issueClosed": 41689,
-      "prOpen": 2292,
-      "prClosed": 66025,
+      "capturedAt": "2026-07-29T21:11:42.348Z",
+      "issueOpen": 3593,
+      "issueClosed": 41698,
+      "prOpen": 2284,
+      "prClosed": 66052,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -227,104 +227,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 116061,
-        "title": "[Feature]: iOS gateway management via embedded Dashboard routes (DashboardRouteMap follow-up)",
-        "url": "https://github.com/openclaw/openclaw/issues/116061",
+        "number": 92433,
+        "title": "[Bug]: Subagent completion silently dropped when announce steers into a requester run that ends before processing it",
+        "url": "https://github.com/openclaw/openclaw/issues/92433",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-29T19:41:08Z"
-      },
-      {
-        "kind": "issue",
-        "number": 84989,
-        "title": "[Bug]: Isolated/delegated sessions reject `message` and `sessions_send` to a configured DM channel (\"session visibility\"), breaking notify-on-completion hooks",
-        "url": "https://github.com/openclaw/openclaw/issues/84989",
-        "state": "open",
-        "author": "edoogie",
-        "updatedAt": "2026-07-29T19:40:52Z"
-      },
-      {
-        "kind": "issue",
-        "number": 105750,
-        "title": "llm_input hook is fire-and-forget + fail-open, so guardrail plugins cannot block a prompt",
-        "url": "https://github.com/openclaw/openclaw/issues/105750",
-        "state": "open",
-        "author": "HirokiKobayashi-R",
-        "updatedAt": "2026-07-29T19:40:26Z"
-      },
-      {
-        "kind": "issue",
-        "number": 84942,
-        "title": "[Bug] Sandbox policy reports runtime=sandboxed, but Claude CLI runner disables sandbox and target=sandbox browser is unavailable",
-        "url": "https://github.com/openclaw/openclaw/issues/84942",
-        "state": "open",
-        "author": "claw-bnkstore",
-        "updatedAt": "2026-07-29T19:39:09Z"
-      },
-      {
-        "kind": "issue",
-        "number": 116058,
-        "title": "Content-safety refusals are never classified — claude-cli silently falls back cross-vendor while the API path (#98976) never falls back at all",
-        "url": "https://github.com/openclaw/openclaw/issues/116058",
-        "state": "open",
-        "author": "73ttv627re77",
-        "updatedAt": "2026-07-29T19:38:18Z"
+        "author": "aoclaw-glitch",
+        "updatedAt": "2026-07-29T21:08:56Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 116057,
-        "title": "fix(memory-core): stop MEMORY.md compaction from deleting user headings",
-        "url": "https://github.com/openclaw/openclaw/pull/116057",
+        "number": 116011,
+        "title": "fix(agents): edit tool rewrites line endings on lines it did not touch",
+        "url": "https://github.com/openclaw/openclaw/pull/116011",
         "state": "open",
         "author": "yetval",
-        "updatedAt": "2026-07-29T19:41:05Z"
+        "updatedAt": "2026-07-29T21:11:35Z"
       },
       {
         "kind": "pr",
-        "number": 110734,
-        "title": "fix(codex-native): interrupt live Codex subagent thread on tasks cancel",
-        "url": "https://github.com/openclaw/openclaw/pull/110734",
+        "number": 93868,
+        "title": "fix(gateway): dedupe TTS status provider diagnostics [AI-assisted]",
+        "url": "https://github.com/openclaw/openclaw/pull/93868",
         "state": "open",
-        "author": "wangyan2026",
-        "updatedAt": "2026-07-29T19:41:00Z"
+        "author": "harjothkhara",
+        "updatedAt": "2026-07-29T21:11:28Z"
       },
       {
         "kind": "pr",
-        "number": 112187,
-        "title": "docs(acpx): clarify ACP reasoning controls",
-        "url": "https://github.com/openclaw/openclaw/pull/112187",
+        "number": 87349,
+        "title": "Allow host-local APK media sends",
+        "url": "https://github.com/openclaw/openclaw/pull/87349",
+        "state": "closed",
+        "author": "dankarization",
+        "updatedAt": "2026-07-29T21:11:26Z"
+      },
+      {
+        "kind": "pr",
+        "number": 82572,
+        "title": "feat(queue): persist followup queues across gateway restarts",
+        "url": "https://github.com/openclaw/openclaw/pull/82572",
         "state": "open",
-        "author": "coccoinomane",
-        "updatedAt": "2026-07-29T19:40:50Z"
+        "author": "jewseppi",
+        "updatedAt": "2026-07-29T21:11:09Z"
       },
       {
         "kind": "pr",
-        "number": 115680,
-        "title": "feat(telegram): include actual error detail in fallback messages",
-        "url": "https://github.com/openclaw/openclaw/pull/115680",
+        "number": 109312,
+        "title": "feat: add LLMRouter provider plugin",
+        "url": "https://github.com/openclaw/openclaw/pull/109312",
         "state": "open",
-        "author": "bob-the-dyer",
-        "updatedAt": "2026-07-29T19:40:49Z"
+        "author": "Franklin-Yao",
+        "updatedAt": "2026-07-29T21:11:07Z"
       },
       {
         "kind": "pr",
-        "number": 116050,
-        "title": "feat(rust): add shared gateway client and node host",
-        "url": "https://github.com/openclaw/openclaw/pull/116050",
+        "number": 115962,
+        "title": "feat(claws): apply application extensions and resources",
+        "url": "https://github.com/openclaw/openclaw/pull/115962",
         "state": "open",
         "author": "giodl73-repo",
-        "updatedAt": "2026-07-29T19:40:29Z"
-      },
-      {
-        "kind": "pr",
-        "number": 116023,
-        "title": "feat(config): add per-model contextTokens context window override",
-        "url": "https://github.com/openclaw/openclaw/pull/116023",
-        "state": "open",
-        "author": "MaheshBhushan",
-        "updatedAt": "2026-07-29T19:40:11Z"
+        "updatedAt": "2026-07-29T21:10:32Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-28T23:16:40.940Z",
+  "generatedAt": "2026-07-29T00:10:37.036Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -210,119 +210,130 @@
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-07-29",
+      "capturedAt": "2026-07-29T00:10:37.036Z",
+      "issueOpen": 3853,
+      "issueClosed": 41342,
+      "prOpen": 2671,
+      "prClosed": 65130,
+      "workflowRuns": 40000,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 115167,
-        "title": "[Bug]: startup-catchup fixtures still write the retired sessionFile locator into session store entries",
-        "url": "https://github.com/openclaw/openclaw/issues/115167",
+        "number": 115448,
+        "title": "JSON schema conversion error when using local GPT-OSS:20b model via OpenClaw",
+        "url": "https://github.com/openclaw/openclaw/issues/115448",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-28T23:16:18Z"
+        "author": "TheDenStudios",
+        "updatedAt": "2026-07-29T00:10:21Z"
       },
       {
         "kind": "issue",
-        "number": 88201,
-        "title": "[Bug]: OpenClaw 5.22: ~10 sec per-call inference overhead in infer model run (both --gateway and --local) vs ~1.3 sec direct provider call",
-        "url": "https://github.com/openclaw/openclaw/issues/88201",
+        "number": 115337,
+        "title": "[Bug]: Skills from shared Agent Skills roots ignore Codex invocation policy",
+        "url": "https://github.com/openclaw/openclaw/issues/115337",
         "state": "open",
-        "author": "adamdksaad-ops",
-        "updatedAt": "2026-07-28T23:15:15Z"
+        "author": "hannesrudolph",
+        "updatedAt": "2026-07-29T00:09:40Z"
       },
       {
         "kind": "issue",
-        "number": 88955,
-        "title": "[Bug]: qqbot WebSocket reconnection causes \"Outbound not configured for channel: qqbot\" error",
-        "url": "https://github.com/openclaw/openclaw/issues/88955",
+        "number": 115421,
+        "title": "Schema downgrade recovery must not quarantine/wipe state DB (cron jobs lost)",
+        "url": "https://github.com/openclaw/openclaw/issues/115421",
         "state": "open",
-        "author": "gaodaabao",
-        "updatedAt": "2026-07-28T23:15:13Z"
+        "author": "ericcaiwx-star",
+        "updatedAt": "2026-07-29T00:05:38Z"
       },
       {
         "kind": "issue",
-        "number": 73537,
-        "title": "Feature Request: Add production-readiness stability label to releases",
-        "url": "https://github.com/openclaw/openclaw/issues/73537",
+        "number": 11665,
+        "title": "[Feature]: Webhook hook sessions should reuse existing session when sessionKey is consistent (multi-turn support)",
+        "url": "https://github.com/openclaw/openclaw/issues/11665",
         "state": "open",
-        "author": "Reneb-cafe",
-        "updatedAt": "2026-07-28T23:14:16Z"
+        "author": "marieldejesus12",
+        "updatedAt": "2026-07-29T00:02:58Z"
       },
       {
         "kind": "issue",
-        "number": 99659,
-        "title": "[Bug]: Openclaw was OOM killed after companion app connected",
-        "url": "https://github.com/openclaw/openclaw/issues/99659",
+        "number": 115331,
+        "title": "[Feature]: Define persisted memory file discovery semantics",
+        "url": "https://github.com/openclaw/openclaw/issues/115331",
         "state": "open",
-        "author": "xrow",
-        "updatedAt": "2026-07-28T23:14:08Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-29T00:01:51Z"
       },
       {
         "kind": "issue",
-        "number": 11487,
-        "title": "Add optional `name`/`label` field to group config entries",
-        "url": "https://github.com/openclaw/openclaw/issues/11487",
+        "number": 115330,
+        "title": "[Feature]: Decide persisted memory Gateway read contract",
+        "url": "https://github.com/openclaw/openclaw/issues/115330",
         "state": "open",
-        "author": "geilt",
-        "updatedAt": "2026-07-28T23:09:30Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-29T00:00:33Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 78664,
-        "title": "perf(agents): cache provider tool schema normalization",
-        "url": "https://github.com/openclaw/openclaw/pull/78664",
+        "number": 110875,
+        "title": "feat(mattermost): read channel history with guarded permissions",
+        "url": "https://github.com/openclaw/openclaw/pull/110875",
         "state": "open",
-        "author": "guanbear",
-        "updatedAt": "2026-07-28T23:15:54Z"
+        "author": "metaforismo",
+        "updatedAt": "2026-07-29T00:09:27Z"
       },
       {
         "kind": "pr",
-        "number": 103852,
-        "title": "fix(agents): align plugin tool auth with provider runtime",
-        "url": "https://github.com/openclaw/openclaw/pull/103852",
+        "number": 111301,
+        "title": "fix(thinking): fall back instead of erroring on unsupported adaptive level (#109351)",
+        "url": "https://github.com/openclaw/openclaw/pull/111301",
         "state": "open",
-        "author": "lonexreb",
-        "updatedAt": "2026-07-28T23:15:22Z"
+        "author": "yuvrajlaptop2008-byte",
+        "updatedAt": "2026-07-29T00:07:59Z"
       },
       {
         "kind": "pr",
-        "number": 114388,
-        "title": "feat(agents)!: remove the stored default agent — sole agent or explicit ownership",
-        "url": "https://github.com/openclaw/openclaw/pull/114388",
+        "number": 115440,
+        "title": "fix: make system-agent chat approvals routable and configurable",
+        "url": "https://github.com/openclaw/openclaw/pull/115440",
+        "state": "open",
+        "author": "Digitalishealth",
+        "updatedAt": "2026-07-29T00:07:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 115447,
+        "title": "fix(state): fail closed on newer schema in doctor repair",
+        "url": "https://github.com/openclaw/openclaw/pull/115447",
+        "state": "open",
+        "author": "ericcaiwx-star",
+        "updatedAt": "2026-07-29T00:06:10Z"
+      },
+      {
+        "kind": "pr",
+        "number": 115438,
+        "title": "feat(memory): isolate curated entries by project",
+        "url": "https://github.com/openclaw/openclaw/pull/115438",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-28T23:14:58Z"
+        "updatedAt": "2026-07-29T00:04:09Z"
       },
       {
         "kind": "pr",
-        "number": 115434,
-        "title": "fix: Telegram DM replies survive gateway restarts",
-        "url": "https://github.com/openclaw/openclaw/pull/115434",
+        "number": 115336,
+        "title": "fix(lmstudio): preserve valid local models in mixed catalogs",
+        "url": "https://github.com/openclaw/openclaw/pull/115336",
         "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-07-28T23:14:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 115398,
-        "title": "fix(agents): forward caller-owned sessionManager into run attempts",
-        "url": "https://github.com/openclaw/openclaw/pull/115398",
-        "state": "open",
-        "author": "BSG2000",
-        "updatedAt": "2026-07-28T23:13:28Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112084,
-        "title": "fix(agents): use lastSeenAtMs tie-break in canvas default-node selection",
-        "url": "https://github.com/openclaw/openclaw/pull/112084",
-        "state": "open",
-        "author": "kagura-agent",
-        "updatedAt": "2026-07-28T23:13:11Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-29T00:03:51Z"
       }
     ]
   }

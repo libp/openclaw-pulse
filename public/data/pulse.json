@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-29T17:36:47.043Z",
+  "generatedAt": "2026-07-29T19:41:11.302Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -213,11 +213,11 @@
     },
     {
       "capturedOn": "2026-07-29",
-      "capturedAt": "2026-07-29T17:36:47.043Z",
-      "issueOpen": 3591,
-      "issueClosed": 41681,
+      "capturedAt": "2026-07-29T19:41:11.302Z",
+      "issueOpen": 3598,
+      "issueClosed": 41689,
       "prOpen": 2292,
-      "prClosed": 65991,
+      "prClosed": 66025,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -227,113 +227,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 84872,
-        "title": "feat(web_search): expose Perplexity `search_context_size` (low/medium/high content-budget)",
-        "url": "https://github.com/openclaw/openclaw/issues/84872",
+        "number": 116061,
+        "title": "[Feature]: iOS gateway management via embedded Dashboard routes (DashboardRouteMap follow-up)",
+        "url": "https://github.com/openclaw/openclaw/issues/116061",
         "state": "open",
-        "author": "quanyeomans",
-        "updatedAt": "2026-07-29T17:36:12Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-29T19:41:08Z"
       },
       {
         "kind": "issue",
-        "number": 69110,
-        "title": "Gateway-level model identity not passed to delivery hooks (enables silent model-tag forgery)",
-        "url": "https://github.com/openclaw/openclaw/issues/69110",
+        "number": 84989,
+        "title": "[Bug]: Isolated/delegated sessions reject `message` and `sessions_send` to a configured DM channel (\"session visibility\"), breaking notify-on-completion hooks",
+        "url": "https://github.com/openclaw/openclaw/issues/84989",
         "state": "open",
-        "author": "winterRanger-getsome",
-        "updatedAt": "2026-07-29T17:35:01Z"
+        "author": "edoogie",
+        "updatedAt": "2026-07-29T19:40:52Z"
       },
       {
         "kind": "issue",
-        "number": 84882,
-        "title": "[Bug]: memory-core Dreaming `normalized recall artifacts` silently deletes daily memory files (memory/YYYY-MM-DD.md)",
-        "url": "https://github.com/openclaw/openclaw/issues/84882",
+        "number": 105750,
+        "title": "llm_input hook is fire-and-forget + fail-open, so guardrail plugins cannot block a prompt",
+        "url": "https://github.com/openclaw/openclaw/issues/105750",
         "state": "open",
-        "author": "MP225",
-        "updatedAt": "2026-07-29T17:35:00Z"
+        "author": "HirokiKobayashi-R",
+        "updatedAt": "2026-07-29T19:40:26Z"
       },
       {
         "kind": "issue",
-        "number": 87665,
-        "title": "[discord] Discord-originated subagent tasks default to done_only, leaving channel stuck on typing indicator",
-        "url": "https://github.com/openclaw/openclaw/issues/87665",
+        "number": 84942,
+        "title": "[Bug] Sandbox policy reports runtime=sandboxed, but Claude CLI runner disables sandbox and target=sandbox browser is unavailable",
+        "url": "https://github.com/openclaw/openclaw/issues/84942",
         "state": "open",
-        "author": "zacharyhofbauer",
-        "updatedAt": "2026-07-29T17:34:59Z"
+        "author": "claw-bnkstore",
+        "updatedAt": "2026-07-29T19:39:09Z"
       },
       {
         "kind": "issue",
-        "number": 90548,
-        "title": "macOS: per-port lsof port-health polling can saturate launchservicesd and trigger a WindowServer watchdog reboot",
-        "url": "https://github.com/openclaw/openclaw/issues/90548",
+        "number": 116058,
+        "title": "Content-safety refusals are never classified — claude-cli silently falls back cross-vendor while the API path (#98976) never falls back at all",
+        "url": "https://github.com/openclaw/openclaw/issues/116058",
         "state": "open",
-        "author": "jmmas123",
-        "updatedAt": "2026-07-29T17:34:57Z"
-      },
-      {
-        "kind": "issue",
-        "number": 84727,
-        "title": "Gateway restart can leave Codex custom tool call without output",
-        "url": "https://github.com/openclaw/openclaw/issues/84727",
-        "state": "open",
-        "author": "pfrederiksen",
-        "updatedAt": "2026-07-29T17:34:57Z"
+        "author": "73ttv627re77",
+        "updatedAt": "2026-07-29T19:38:18Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 116001,
-        "title": "fix(gateway): declare viewer presence explicitly instead of deriving it from subscriptions",
-        "url": "https://github.com/openclaw/openclaw/pull/116001",
+        "number": 116057,
+        "title": "fix(memory-core): stop MEMORY.md compaction from deleting user headings",
+        "url": "https://github.com/openclaw/openclaw/pull/116057",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-29T17:36:40Z"
+        "author": "yetval",
+        "updatedAt": "2026-07-29T19:41:05Z"
       },
       {
         "kind": "pr",
-        "number": 115984,
-        "title": "fix(status): recent session listing resolves the wrong agent's model",
-        "url": "https://github.com/openclaw/openclaw/pull/115984",
+        "number": 110734,
+        "title": "fix(codex-native): interrupt live Codex subagent thread on tasks cancel",
+        "url": "https://github.com/openclaw/openclaw/pull/110734",
         "state": "open",
-        "author": "yanmo42",
-        "updatedAt": "2026-07-29T17:36:40Z"
+        "author": "wangyan2026",
+        "updatedAt": "2026-07-29T19:41:00Z"
       },
       {
         "kind": "pr",
-        "number": 51822,
-        "title": "cron: reject webhook URLs with embedded credentials",
-        "url": "https://github.com/openclaw/openclaw/pull/51822",
+        "number": 112187,
+        "title": "docs(acpx): clarify ACP reasoning controls",
+        "url": "https://github.com/openclaw/openclaw/pull/112187",
         "state": "open",
-        "author": "RogueL90",
-        "updatedAt": "2026-07-29T17:36:40Z"
+        "author": "coccoinomane",
+        "updatedAt": "2026-07-29T19:40:50Z"
       },
       {
         "kind": "pr",
-        "number": 114151,
-        "title": "feat(plugins): allow per-turn tool narrowing in prompt hooks",
-        "url": "https://github.com/openclaw/openclaw/pull/114151",
+        "number": 115680,
+        "title": "feat(telegram): include actual error detail in fallback messages",
+        "url": "https://github.com/openclaw/openclaw/pull/115680",
         "state": "open",
-        "author": "yu-xin-c",
-        "updatedAt": "2026-07-29T17:36:39Z"
+        "author": "bob-the-dyer",
+        "updatedAt": "2026-07-29T19:40:49Z"
       },
       {
         "kind": "pr",
-        "number": 116012,
-        "title": "fix(inference): harden Codex streaming, cancellation, and live QA",
-        "url": "https://github.com/openclaw/openclaw/pull/116012",
+        "number": 116050,
+        "title": "feat(rust): add shared gateway client and node host",
+        "url": "https://github.com/openclaw/openclaw/pull/116050",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-29T17:36:16Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-29T19:40:29Z"
       },
       {
         "kind": "pr",
-        "number": 109076,
-        "title": "fix(discord): bound webhook send body reads",
-        "url": "https://github.com/openclaw/openclaw/pull/109076",
-        "state": "closed",
-        "author": "Pick-cat",
-        "updatedAt": "2026-07-29T17:35:43Z"
+        "number": 116023,
+        "title": "feat(config): add per-model contextTokens context window override",
+        "url": "https://github.com/openclaw/openclaw/pull/116023",
+        "state": "open",
+        "author": "MaheshBhushan",
+        "updatedAt": "2026-07-29T19:40:11Z"
       }
     ]
   }

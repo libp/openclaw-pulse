@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-30T16:47:22.521Z",
+  "generatedAt": "2026-07-30T20:34:23.845Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -224,17 +224,17 @@
     },
     {
       "capturedOn": "2026-07-30",
-      "capturedAt": "2026-07-30T16:47:22.521Z",
-      "issueOpen": 3558,
-      "issueClosed": 41824,
-      "prOpen": 2267,
-      "prClosed": 66360,
-      "prMerged": 20670,
+      "capturedAt": "2026-07-30T20:34:23.845Z",
+      "issueOpen": 3580,
+      "issueClosed": 41839,
+      "prOpen": 2279,
+      "prClosed": 66394,
+      "prMerged": 20689,
       "workflowRuns": 40000,
-      "stars": 384593,
-      "forks": 80823,
-      "subscribers": 1759,
-      "commits": 73956,
+      "stars": 384604,
+      "forks": 80828,
+      "subscribers": 1760,
+      "commits": 73997,
       "contributors": 3022,
       "source": "github-actions",
       "approximateDate": false
@@ -243,10 +243,10 @@
   "metrics": [
     {
       "capturedOn": "2026-07-30",
-      "stars": 384593,
-      "forks": 80823,
-      "subscribers": 1759,
-      "commits": 73956,
+      "stars": 384604,
+      "forks": 80828,
+      "subscribers": 1760,
+      "commits": 73997,
       "contributors": 3022
     }
   ],
@@ -254,113 +254,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 112320,
-        "title": "Stale exec-approvals.json.lock after unclean shutdown permanently bricks exec (\"security=deny\") — fail-closed stale recovery + container PID-1 reuse",
-        "url": "https://github.com/openclaw/openclaw/issues/112320",
+        "number": 98472,
+        "title": "[Bug]: macOS Dashboard fast path bypasses resolved Control UI auth",
+        "url": "https://github.com/openclaw/openclaw/issues/98472",
         "state": "open",
-        "author": "gucasbrg",
-        "updatedAt": "2026-07-30T16:46:24Z"
+        "author": "haruaiclone-droid",
+        "updatedAt": "2026-07-30T20:34:20Z"
       },
       {
         "kind": "issue",
-        "number": 112313,
-        "title": "Dead-lettered outbound delivery queue entries are permanent: every accessor filters status='pending', no CLI/RPC/TTL can clear them",
-        "url": "https://github.com/openclaw/openclaw/issues/112313",
+        "number": 98427,
+        "title": "[Enhancement] Add per-provider `stream: false` config to disable streaming at request level (not just channel rendering)",
+        "url": "https://github.com/openclaw/openclaw/issues/98427",
         "state": "open",
-        "author": "igorrius",
-        "updatedAt": "2026-07-30T16:45:52Z"
+        "author": "luxi233",
+        "updatedAt": "2026-07-30T20:34:18Z"
       },
       {
         "kind": "issue",
-        "number": 112304,
-        "title": "[Bug]: 工具调用失败后，微信渠道会话持续无法处理后续消息，必须 /new 才能恢复",
-        "url": "https://github.com/openclaw/openclaw/issues/112304",
+        "number": 78697,
+        "title": "Weixin channel can drop standalone MEDIA directives when payload.mediaUrl is absent",
+        "url": "https://github.com/openclaw/openclaw/issues/78697",
         "state": "open",
-        "author": "Arlinlol",
-        "updatedAt": "2026-07-30T16:45:51Z"
+        "author": "TnzGit",
+        "updatedAt": "2026-07-30T20:34:19Z"
       },
       {
         "kind": "issue",
-        "number": 112317,
-        "title": "[Bug]: Durable ingress can lose exact payload under follow-up queue backpressure",
-        "url": "https://github.com/openclaw/openclaw/issues/112317",
+        "number": 98446,
+        "title": "[Bug]: OpenShell plugin workspace path mismatch breaks startup or image transfer",
+        "url": "https://github.com/openclaw/openclaw/issues/98446",
         "state": "open",
-        "author": "Timofa",
-        "updatedAt": "2026-07-30T16:45:50Z"
+        "author": "DaveFan-NCHC",
+        "updatedAt": "2026-07-30T20:33:08Z"
       },
       {
         "kind": "issue",
-        "number": 105528,
-        "title": "exec/read tools silently return empty output on Windows (v2026.6.x regression)",
-        "url": "https://github.com/openclaw/openclaw/issues/105528",
+        "number": 98516,
+        "title": "[Feature]: Managed ephemeral sandbox lifecycle for session-owned work",
+        "url": "https://github.com/openclaw/openclaw/issues/98516",
         "state": "open",
-        "author": "matts524",
-        "updatedAt": "2026-07-30T16:45:49Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-30T20:32:48Z"
       },
       {
         "kind": "issue",
-        "number": 111010,
-        "title": "[Bug]: Detached native Codex subagents lose hook relay when parent turn releases",
-        "url": "https://github.com/openclaw/openclaw/issues/111010",
+        "number": 98540,
+        "title": "[Bug]: Composer shows idle state while agent is actively executing tools",
+        "url": "https://github.com/openclaw/openclaw/issues/98540",
         "state": "open",
-        "author": "ecapuano",
-        "updatedAt": "2026-07-30T16:45:48Z"
+        "author": "ditingdapeng",
+        "updatedAt": "2026-07-30T20:32:38Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 102165,
-        "title": "fix(feishu): cancel agent runs when source messages are recalled",
-        "url": "https://github.com/openclaw/openclaw/pull/102165",
+        "number": 116540,
+        "title": "fix: preserve channel plugin access across updates",
+        "url": "https://github.com/openclaw/openclaw/pull/116540",
         "state": "open",
-        "author": "litang9",
-        "updatedAt": "2026-07-30T16:47:18Z"
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-07-30T20:34:12Z"
       },
       {
         "kind": "pr",
-        "number": 110884,
-        "title": "fix(browser): prove post-action target continuity before adopting a tab",
-        "url": "https://github.com/openclaw/openclaw/pull/110884",
+        "number": 79945,
+        "title": "fix(discord): log silent reply drops; allow archives in host-read media",
+        "url": "https://github.com/openclaw/openclaw/pull/79945",
         "state": "open",
-        "author": "piyushbag",
-        "updatedAt": "2026-07-30T16:47:02Z"
+        "author": "joalves",
+        "updatedAt": "2026-07-30T20:34:10Z"
       },
       {
         "kind": "pr",
-        "number": 110882,
-        "title": "fix(browser): stop screenshot vision-failure fallback from injecting raw base64",
-        "url": "https://github.com/openclaw/openclaw/pull/110882",
+        "number": 113663,
+        "title": "fix(xai): Grok subscription inference fails with HTTP 426 on every request",
+        "url": "https://github.com/openclaw/openclaw/pull/113663",
         "state": "open",
-        "author": "piyushbag",
-        "updatedAt": "2026-07-30T16:47:01Z"
+        "author": "jzakirov",
+        "updatedAt": "2026-07-30T20:33:52Z"
       },
       {
         "kind": "pr",
-        "number": 113487,
-        "title": "fix(matrix): migrate dedupe from legacy state databases",
-        "url": "https://github.com/openclaw/openclaw/pull/113487",
+        "number": 98828,
+        "title": "fix(doctor): flag missing plugin install paths",
+        "url": "https://github.com/openclaw/openclaw/pull/98828",
         "state": "open",
-        "author": "bdjben",
-        "updatedAt": "2026-07-30T16:45:56Z"
+        "author": "moeedahmed",
+        "updatedAt": "2026-07-30T20:33:51Z"
       },
       {
         "kind": "pr",
-        "number": 116406,
-        "title": "fix(agents): stop requester-owned ACP tasks",
-        "url": "https://github.com/openclaw/openclaw/pull/116406",
+        "number": 116530,
+        "title": "fix: prevent stream match filters from stalling on ambiguous patterns [AI]",
+        "url": "https://github.com/openclaw/openclaw/pull/116530",
         "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-07-30T16:45:29Z"
+        "author": "pgondhi987",
+        "updatedAt": "2026-07-30T20:33:48Z"
       },
       {
         "kind": "pr",
-        "number": 109675,
-        "title": "fix(ui): reject nondecimal strings in config form number coercion",
-        "url": "https://github.com/openclaw/openclaw/pull/109675",
-        "state": "closed",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-07-30T16:43:29Z"
+        "number": 116509,
+        "title": "fix: preserve untouched bytes outside fuzzy-match span in edit tool (#116459)",
+        "url": "https://github.com/openclaw/openclaw/pull/116509",
+        "state": "open",
+        "author": "licheer-zte",
+        "updatedAt": "2026-07-30T20:33:08Z"
       }
     ]
   }

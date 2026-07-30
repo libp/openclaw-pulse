@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-29T23:12:34.602Z",
+  "generatedAt": "2026-07-30T00:09:56.488Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -221,83 +221,112 @@
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-07-30",
+      "capturedAt": "2026-07-30T00:09:56.488Z",
+      "issueOpen": 3575,
+      "issueClosed": 41726,
+      "prOpen": 2267,
+      "prClosed": 66107,
+      "workflowRuns": 40000,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 116118,
-        "title": "[Bug]: Beta Gateway and latest signed macOS app lack a compatibility contract and state-write guard",
-        "url": "https://github.com/openclaw/openclaw/issues/116118",
+        "number": 112470,
+        "title": "[Bug]: Media Understanding fails under Clash/Mihomo Fake-IP due to SSRF protection（ai写的）",
+        "url": "https://github.com/openclaw/openclaw/issues/112470",
         "state": "open",
-        "author": "ZYV5ge",
-        "updatedAt": "2026-07-29T23:11:57Z"
+        "author": "zzzxiaoqiang520",
+        "updatedAt": "2026-07-30T00:08:30Z"
       },
       {
         "kind": "issue",
-        "number": 91569,
-        "title": "[Bug]: Desktop app stuck on old version after gateway auto-update → \"protocol mismatch\" with no in-app prompt",
-        "url": "https://github.com/openclaw/openclaw/issues/91569",
+        "number": 112389,
+        "title": "Qwen plugin: add image generation (wan2.7-image), Happyhorse video, and TTS provider support for Alibaba Token Plan",
+        "url": "https://github.com/openclaw/openclaw/issues/112389",
         "state": "open",
-        "author": "outkasttttt",
-        "updatedAt": "2026-07-29T23:11:22Z"
+        "author": "vibecodermd",
+        "updatedAt": "2026-07-30T00:08:15Z"
+      },
+      {
+        "kind": "issue",
+        "number": 85450,
+        "title": "[Bug] Structured card action callback filtered by requireMention in group chats",
+        "url": "https://github.com/openclaw/openclaw/issues/85450",
+        "state": "closed",
+        "author": "dylanma8232-art",
+        "updatedAt": "2026-07-30T00:07:44Z"
+      },
+      {
+        "kind": "issue",
+        "number": 105699,
+        "title": "[Enhancement] Hot-Path Dynamic Import Overhead in Gateway Frame Dispatcher",
+        "url": "https://github.com/openclaw/openclaw/issues/105699",
+        "state": "closed",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-30T00:07:31Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 116108,
-        "title": "fix(config): save config changes into the nested $include file that owns them",
-        "url": "https://github.com/openclaw/openclaw/pull/116108",
+        "number": 103991,
+        "title": "feat(auto-reply): add \"commentary\" verbose level for narration-only progress",
+        "url": "https://github.com/openclaw/openclaw/pull/103991",
         "state": "open",
-        "author": "sasan1200",
-        "updatedAt": "2026-07-29T23:12:18Z"
+        "author": "josh-cornelius",
+        "updatedAt": "2026-07-30T00:09:50Z"
       },
       {
         "kind": "pr",
-        "number": 96662,
-        "title": "fix(codex): surface native subagent task updates",
-        "url": "https://github.com/openclaw/openclaw/pull/96662",
+        "number": 90603,
+        "title": "fix(secrets): use configured default agent ID in auth/model path discovery (#90573)",
+        "url": "https://github.com/openclaw/openclaw/pull/90603",
         "state": "open",
-        "author": "outdog-hwh",
-        "updatedAt": "2026-07-29T23:11:48Z"
+        "author": "Bartok9",
+        "updatedAt": "2026-07-30T00:09:49Z"
       },
       {
         "kind": "pr",
-        "number": 116117,
-        "title": "fix(codex): prevent approval promotion from blocking unattended runs",
-        "url": "https://github.com/openclaw/openclaw/pull/116117",
+        "number": 108971,
+        "title": "fix(infra): replace inode/device lock ownership with nonce-based check to prevent lock leak on VirtioFS",
+        "url": "https://github.com/openclaw/openclaw/pull/108971",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-29T23:11:41Z"
+        "author": "LiuwqGit",
+        "updatedAt": "2026-07-30T00:09:32Z"
       },
       {
         "kind": "pr",
-        "number": 116112,
-        "title": "fix(config): reject reserved MCP server name instead of silently dropping it",
-        "url": "https://github.com/openclaw/openclaw/pull/116112",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-07-29T23:11:17Z"
+        "number": 109493,
+        "title": "fix(gateway): worker workspaces recover after stalled process probes",
+        "url": "https://github.com/openclaw/openclaw/pull/109493",
+        "state": "open",
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-07-30T00:09:28Z"
       },
       {
         "kind": "pr",
-        "number": 111810,
-        "title": "fix(zai,amazon-bedrock-mantle): reject invalid UTF-8 in extension API response JSON",
-        "url": "https://github.com/openclaw/openclaw/pull/111810",
+        "number": 115048,
+        "title": "improve(codex): reduce long-history prompt allocations",
+        "url": "https://github.com/openclaw/openclaw/pull/115048",
         "state": "open",
-        "author": "Monkey-wusky",
-        "updatedAt": "2026-07-29T23:11:17Z"
+        "author": "jalehman",
+        "updatedAt": "2026-07-30T00:09:27Z"
       },
       {
         "kind": "pr",
-        "number": 112004,
-        "title": "feat(sidebar): Recent naming parity, iOS roster pagination, approvals remediation routing",
-        "url": "https://github.com/openclaw/openclaw/pull/112004",
+        "number": 82572,
+        "title": "feat(queue): persist followup queues across gateway restarts",
+        "url": "https://github.com/openclaw/openclaw/pull/82572",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-29T23:11:16Z"
+        "author": "jewseppi",
+        "updatedAt": "2026-07-30T00:08:30Z"
       }
     ]
   }

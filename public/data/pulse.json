@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-30T14:29:36.202Z",
+  "generatedAt": "2026-07-30T14:31:49.769Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -224,127 +224,143 @@
     },
     {
       "capturedOn": "2026-07-30",
-      "capturedAt": "2026-07-30T14:29:36.202Z",
+      "capturedAt": "2026-07-30T14:31:49.769Z",
       "issueOpen": 3546,
       "issueClosed": 41822,
       "prOpen": 2248,
       "prClosed": 66341,
+      "prMerged": 20652,
       "workflowRuns": 40000,
+      "stars": 384577,
+      "forks": 80818,
+      "subscribers": 1761,
+      "commits": 73920,
+      "contributors": 3022,
       "source": "github-actions",
       "approximateDate": false
+    }
+  ],
+  "metrics": [
+    {
+      "capturedOn": "2026-07-30",
+      "stars": 384577,
+      "forks": 80818,
+      "subscribers": 1761,
+      "commits": 73920,
+      "contributors": 3022
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 74379,
-        "title": "Feature: execDenyPathPatterns — config-level denylist for file paths in exec commands",
-        "url": "https://github.com/openclaw/openclaw/issues/74379",
+        "number": 71669,
+        "title": "[Feature]: Emit runtime warning when Control UI config will silently reject non-secure connections",
+        "url": "https://github.com/openclaw/openclaw/issues/71669",
         "state": "open",
-        "author": "xonaman",
-        "updatedAt": "2026-07-30T14:29:29Z"
+        "author": "profbernardoj",
+        "updatedAt": "2026-07-30T14:31:47Z"
       },
       {
         "kind": "issue",
-        "number": 75380,
-        "title": "provider-payload.jsonl and cache-trace.jsonl grow unbounded — no rotation/max-size policy",
-        "url": "https://github.com/openclaw/openclaw/issues/75380",
+        "number": 71736,
+        "title": "[RFC] Control UI plugin contribution slots",
+        "url": "https://github.com/openclaw/openclaw/issues/71736",
         "state": "open",
-        "author": "hexsprite",
-        "updatedAt": "2026-07-30T14:29:32Z"
+        "author": "100yenadmin",
+        "updatedAt": "2026-07-30T14:31:30Z"
       },
       {
         "kind": "issue",
-        "number": 74848,
-        "title": "[Bug]: macOS App node repeatedly disconnects with \"cancelled\" while CLI node works",
-        "url": "https://github.com/openclaw/openclaw/issues/74848",
+        "number": 70634,
+        "title": "[Bug]: Human messages get starved in agent lane queues when agents communicate in loops",
+        "url": "https://github.com/openclaw/openclaw/issues/70634",
         "state": "open",
-        "author": "aiastia",
-        "updatedAt": "2026-07-30T14:29:33Z"
+        "author": "ewrurwteurwU",
+        "updatedAt": "2026-07-30T14:31:09Z"
       },
       {
         "kind": "issue",
-        "number": 76247,
-        "title": "Provide native dispatch landing ACK / receiver-entry telemetry across cron, sessions_spawn, channel_inbound, gateway_agent, cli_agent, acp_downstream surfaces",
-        "url": "https://github.com/openclaw/openclaw/issues/76247",
+        "number": 76089,
+        "title": "[Feature]: I want a Spawn a sub-agent button in web dashboard ui",
+        "url": "https://github.com/openclaw/openclaw/issues/76089",
         "state": "open",
-        "author": "reboost-openclaw-team[bot]",
-        "updatedAt": "2026-07-30T14:29:27Z"
+        "author": "cyrus123456",
+        "updatedAt": "2026-07-30T14:30:57Z"
       },
       {
         "kind": "issue",
-        "number": 75153,
-        "title": "[Feature]: expose channels.start / stop / restart via CLI so a wedged channel can recover without container restart or QR re-pair",
-        "url": "https://github.com/openclaw/openclaw/issues/75153",
+        "number": 73182,
+        "title": "Reasoning default silently flipped to on for Claude models — doubles Anthropic spend, leaks thinking blocks to chat",
+        "url": "https://github.com/openclaw/openclaw/issues/73182",
         "state": "open",
-        "author": "Jason-Vaughan",
-        "updatedAt": "2026-07-30T14:29:31Z"
+        "author": "w3i-William",
+        "updatedAt": "2026-07-30T14:30:51Z"
       },
       {
         "kind": "issue",
-        "number": 74986,
-        "title": "[Bug]: openclaw infer hangs indefinitely on 2026.4.27 — openclaw-infer child spins at 100% CPU with zero network I/O",
-        "url": "https://github.com/openclaw/openclaw/issues/74986",
+        "number": 75203,
+        "title": "[Bug]: Control UI webchat routes user input into :heartbeat-suffixed session when main session is pruned",
+        "url": "https://github.com/openclaw/openclaw/issues/75203",
         "state": "open",
-        "author": "mlaihk",
-        "updatedAt": "2026-07-30T14:29:33Z"
+        "author": "JakeSc",
+        "updatedAt": "2026-07-30T14:30:46Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 112003,
-        "title": "test(codex): add unit test coverage for extractRawAssistantText",
-        "url": "https://github.com/openclaw/openclaw/pull/112003",
+        "number": 116401,
+        "title": "fix(signal): infer httpPort from url when absent to prevent daemon-client port mismatch",
+        "url": "https://github.com/openclaw/openclaw/pull/116401",
         "state": "open",
         "author": "licheer-zte",
-        "updatedAt": "2026-07-30T14:29:28Z"
+        "updatedAt": "2026-07-30T14:31:38Z"
       },
       {
         "kind": "pr",
-        "number": 112436,
-        "title": "fix(memory-core): enforce minRecallCount and minUniqueQueries gates in deep-phase promotion",
-        "url": "https://github.com/openclaw/openclaw/pull/112436",
+        "number": 116204,
+        "title": "fix(google): accept base64url provider media",
+        "url": "https://github.com/openclaw/openclaw/pull/116204",
         "state": "open",
-        "author": "ekinnee",
-        "updatedAt": "2026-07-30T14:29:21Z"
+        "author": "sunlit-deng",
+        "updatedAt": "2026-07-30T14:31:34Z"
       },
       {
         "kind": "pr",
-        "number": 116417,
-        "title": "feat(telegram): include actual error detail in fallback messages",
-        "url": "https://github.com/openclaw/openclaw/pull/116417",
+        "number": 116416,
+        "title": "fix(signal): autoStart uses configured local httpUrl port",
+        "url": "https://github.com/openclaw/openclaw/pull/116416",
         "state": "open",
-        "author": "bob-the-dyer",
-        "updatedAt": "2026-07-30T14:29:17Z"
+        "author": "qingminglong",
+        "updatedAt": "2026-07-30T14:31:31Z"
       },
       {
         "kind": "pr",
-        "number": 116408,
-        "title": "[CLOSED] feat(telegram): informative error messages (superseded by v5)",
-        "url": "https://github.com/openclaw/openclaw/pull/116408",
-        "state": "closed",
-        "author": "bob-the-dyer",
-        "updatedAt": "2026-07-30T14:29:10Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114852,
-        "title": "feat(agents): rename model- and user-facing scheduler strings to automations",
-        "url": "https://github.com/openclaw/openclaw/pull/114852",
+        "number": 116411,
+        "title": "docs(daytona): guide for hosting OpenClaw in a Daytona sandbox",
+        "url": "https://github.com/openclaw/openclaw/pull/116411",
         "state": "open",
-        "author": "omarshahine",
-        "updatedAt": "2026-07-30T14:29:10Z"
+        "author": "mislavivanda",
+        "updatedAt": "2026-07-30T14:31:24Z"
       },
       {
         "kind": "pr",
-        "number": 115774,
-        "title": "fix(feishu): abort task signal on sequential queue timeout to prevent orphan ACP agents",
-        "url": "https://github.com/openclaw/openclaw/pull/115774",
+        "number": 116414,
+        "title": "fix(exec): resolve sandbox-skills workdir paths in container→host mapping",
+        "url": "https://github.com/openclaw/openclaw/pull/116414",
         "state": "open",
-        "author": "licheer-zte",
-        "updatedAt": "2026-07-30T14:28:56Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-07-30T14:31:23Z"
+      },
+      {
+        "kind": "pr",
+        "number": 101665,
+        "title": "feat: let plugin tools yield turns",
+        "url": "https://github.com/openclaw/openclaw/pull/101665",
+        "state": "open",
+        "author": "BenGuanRan",
+        "updatedAt": "2026-07-30T14:31:16Z"
       }
     ]
   }

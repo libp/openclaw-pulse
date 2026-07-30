@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-30T20:34:23.845Z",
+  "generatedAt": "2026-07-30T22:17:29.996Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -224,18 +224,18 @@
     },
     {
       "capturedOn": "2026-07-30",
-      "capturedAt": "2026-07-30T20:34:23.845Z",
-      "issueOpen": 3580,
-      "issueClosed": 41839,
-      "prOpen": 2279,
-      "prClosed": 66394,
-      "prMerged": 20689,
+      "capturedAt": "2026-07-30T22:17:29.996Z",
+      "issueOpen": 3584,
+      "issueClosed": 41842,
+      "prOpen": 2284,
+      "prClosed": 66402,
+      "prMerged": 20697,
       "workflowRuns": 40000,
-      "stars": 384604,
-      "forks": 80828,
-      "subscribers": 1760,
-      "commits": 73997,
-      "contributors": 3022,
+      "stars": 384609,
+      "forks": 80825,
+      "subscribers": 1761,
+      "commits": 74026,
+      "contributors": 3023,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -243,124 +243,124 @@
   "metrics": [
     {
       "capturedOn": "2026-07-30",
-      "stars": 384604,
-      "forks": 80828,
-      "subscribers": 1760,
-      "commits": 73997,
-      "contributors": 3022
+      "stars": 384609,
+      "forks": 80825,
+      "subscribers": 1761,
+      "commits": 74026,
+      "contributors": 3023
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 98472,
-        "title": "[Bug]: macOS Dashboard fast path bypasses resolved Control UI auth",
-        "url": "https://github.com/openclaw/openclaw/issues/98472",
+        "number": 52130,
+        "title": "[Bug]: restart storm from telegram.retry.jitter type mismatch + misleading doctor SecretRef for Telegram token",
+        "url": "https://github.com/openclaw/openclaw/issues/52130",
         "state": "open",
-        "author": "haruaiclone-droid",
-        "updatedAt": "2026-07-30T20:34:20Z"
+        "author": "skbotoc1-web",
+        "updatedAt": "2026-07-30T22:13:51Z"
       },
       {
         "kind": "issue",
-        "number": 98427,
-        "title": "[Enhancement] Add per-provider `stream: false` config to disable streaming at request level (not just channel rendering)",
-        "url": "https://github.com/openclaw/openclaw/issues/98427",
+        "number": 52928,
+        "title": "feat(gateway): add agents.setDefault RPC method",
+        "url": "https://github.com/openclaw/openclaw/issues/52928",
         "state": "open",
-        "author": "luxi233",
-        "updatedAt": "2026-07-30T20:34:18Z"
+        "author": "samzong",
+        "updatedAt": "2026-07-30T22:13:31Z"
       },
       {
         "kind": "issue",
-        "number": 78697,
-        "title": "Weixin channel can drop standalone MEDIA directives when payload.mediaUrl is absent",
-        "url": "https://github.com/openclaw/openclaw/issues/78697",
+        "number": 51377,
+        "title": "[Feature]: Support Excel (.xlsx/.xls) and generic binary uploads in gateway / input_file",
+        "url": "https://github.com/openclaw/openclaw/issues/51377",
         "state": "open",
-        "author": "TnzGit",
-        "updatedAt": "2026-07-30T20:34:19Z"
+        "author": "Sunshinezy311",
+        "updatedAt": "2026-07-30T22:13:28Z"
       },
       {
         "kind": "issue",
-        "number": 98446,
-        "title": "[Bug]: OpenShell plugin workspace path mismatch breaks startup or image transfer",
-        "url": "https://github.com/openclaw/openclaw/issues/98446",
+        "number": 51654,
+        "title": "Support session-level environment variables for ACP sessions",
+        "url": "https://github.com/openclaw/openclaw/issues/51654",
         "state": "open",
-        "author": "DaveFan-NCHC",
-        "updatedAt": "2026-07-30T20:33:08Z"
+        "author": "georgelichen",
+        "updatedAt": "2026-07-30T22:13:10Z"
       },
       {
         "kind": "issue",
-        "number": 98516,
-        "title": "[Feature]: Managed ephemeral sandbox lifecycle for session-owned work",
-        "url": "https://github.com/openclaw/openclaw/issues/98516",
+        "number": 48711,
+        "title": "[Bug]: Task and Memory Recall Is Often Too Weak to Trust Across Real Conversations",
+        "url": "https://github.com/openclaw/openclaw/issues/48711",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-30T20:32:48Z"
+        "author": "WarforgeTech",
+        "updatedAt": "2026-07-30T22:13:05Z"
       },
       {
         "kind": "issue",
-        "number": 98540,
-        "title": "[Bug]: Composer shows idle state while agent is actively executing tools",
-        "url": "https://github.com/openclaw/openclaw/issues/98540",
+        "number": 31331,
+        "title": "[Bug]: Docker Install + Sandbox can't workspaceAccess at all",
+        "url": "https://github.com/openclaw/openclaw/issues/31331",
         "state": "open",
-        "author": "ditingdapeng",
-        "updatedAt": "2026-07-30T20:32:38Z"
+        "author": "jiesou",
+        "updatedAt": "2026-07-30T22:12:58Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 116540,
-        "title": "fix: preserve channel plugin access across updates",
-        "url": "https://github.com/openclaw/openclaw/pull/116540",
+        "number": 83988,
+        "title": "fix(tts): defer text settlement for final-mode TTS to eliminate churn (#83511)",
+        "url": "https://github.com/openclaw/openclaw/pull/83988",
         "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-07-30T20:34:12Z"
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-07-30T22:17:19Z"
       },
       {
         "kind": "pr",
-        "number": 79945,
-        "title": "fix(discord): log silent reply drops; allow archives in host-read media",
-        "url": "https://github.com/openclaw/openclaw/pull/79945",
+        "number": 97845,
+        "title": "fix: antml:/mm: namespaced tool-call XML leaks into chat replies (#97750)",
+        "url": "https://github.com/openclaw/openclaw/pull/97845",
         "state": "open",
-        "author": "joalves",
-        "updatedAt": "2026-07-30T20:34:10Z"
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-07-30T22:16:36Z"
       },
       {
         "kind": "pr",
-        "number": 113663,
-        "title": "fix(xai): Grok subscription inference fails with HTTP 426 on every request",
-        "url": "https://github.com/openclaw/openclaw/pull/113663",
+        "number": 116562,
+        "title": "fix(memory-core): recover primary embedding provider",
+        "url": "https://github.com/openclaw/openclaw/pull/116562",
         "state": "open",
-        "author": "jzakirov",
-        "updatedAt": "2026-07-30T20:33:52Z"
+        "author": "wenrizc",
+        "updatedAt": "2026-07-30T22:16:02Z"
       },
       {
         "kind": "pr",
-        "number": 98828,
-        "title": "fix(doctor): flag missing plugin install paths",
-        "url": "https://github.com/openclaw/openclaw/pull/98828",
+        "number": 116548,
+        "title": "fix(auto-reply): keep explicit NO_REPLY silent",
+        "url": "https://github.com/openclaw/openclaw/pull/116548",
         "state": "open",
-        "author": "moeedahmed",
-        "updatedAt": "2026-07-30T20:33:51Z"
+        "author": "sjf-oa",
+        "updatedAt": "2026-07-30T22:15:06Z"
       },
       {
         "kind": "pr",
-        "number": 116530,
-        "title": "fix: prevent stream match filters from stalling on ambiguous patterns [AI]",
-        "url": "https://github.com/openclaw/openclaw/pull/116530",
+        "number": 115237,
+        "title": "feat(claws): adopt portable profiles and native bootstrap",
+        "url": "https://github.com/openclaw/openclaw/pull/115237",
         "state": "open",
-        "author": "pgondhi987",
-        "updatedAt": "2026-07-30T20:33:48Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-30T22:15:05Z"
       },
       {
         "kind": "pr",
-        "number": 116509,
-        "title": "fix: preserve untouched bytes outside fuzzy-match span in edit tool (#116459)",
-        "url": "https://github.com/openclaw/openclaw/pull/116509",
+        "number": 116572,
+        "title": "fix(media): preserve code block indentation when media is present",
+        "url": "https://github.com/openclaw/openclaw/pull/116572",
         "state": "open",
         "author": "licheer-zte",
-        "updatedAt": "2026-07-30T20:33:08Z"
+        "updatedAt": "2026-07-30T22:15:02Z"
       }
     ]
   }

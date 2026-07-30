@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, type MouseEvent } from "react";
 
 type Snapshot = {
   capturedOn: string;
@@ -145,6 +145,11 @@ function areaPath(pts: Pt[], baseY: number): string {
   return `${smoothPath(pts)} L ${pts[pts.length - 1][0]},${baseY} L ${pts[0][0]},${baseY} Z`;
 }
 
+function shortDate(item: Snapshot) {
+  const [, m, d] = item.capturedOn.split("-");
+  return `${Number(m)}.${Number(d)}`;
+}
+
 function TrendChart({ data }: { data: Snapshot[] }) {
   const [visible, setVisible] = useState({
     issue: true,
@@ -153,18 +158,25 @@ function TrendChart({ data }: { data: Snapshot[] }) {
     burn: false,
     velocity: false,
   });
+  const [hover, setHover] = useState<number | null>(null);
   const width = 1040;
-  const height = 360;
-  const pad = { left: 72, right: 72, top: 44, bottom: 58 };
+  const height = 420;
+  const pad = { left: 60, right: 24, top: 36, bottom: 52 };
+  const plotW = width - pad.left - pad.right;
+  const plotH = height - pad.top - pad.bottom;
+  const baseY = pad.top + plotH;
   const maxValue =
-    Math.max(1, ...data.flatMap((item) => [item.issueOpen, item.prOpen])) * 1.12;
+    Math.max(1, ...data.flatMap((item) => [item.issueOpen, item.prOpen])) * 1.14;
   const x = (index: number) =>
-    pad.left + (index * (width - pad.left - pad.right)) / Math.max(1, data.length - 1);
-  const yLeft = (value: number) =>
-    pad.top + (1 - value / maxValue) * (height - pad.top - pad.bottom);
+    pad.left + (index * plotW) / Math.max(1, data.length - 1);
+  const yLeft = (value: number) => pad.top + (1 - value / maxValue) * plotH;
   const issuePts: Pt[] = data.map((item, index) => [x(index), yLeft(item.issueOpen)]);
   const prPts: Pt[] = data.map((item, index) => [x(index), yLeft(item.prOpen)]);
-  const baseY = height - pad.bottom;
+
+  // x 轴标签抽稀:点很多时按步长显示,首尾必显,避免日期挤在一起。
+  const labelStep = data.length <= 6 ? 1 : Math.ceil(data.length / 6);
+  const showLabel = (i: number) =>
+    i === 0 || i === data.length - 1 || i % labelStep === 0;
 
   // 叠加序列各自独立归一化到图高(closed/burn/velocity 量纲不同,无法共用轴)。
   const closedS = intervalSeries(data, "closed");
@@ -174,7 +186,7 @@ function TrendChart({ data }: { data: Snapshot[] }) {
     const vals = series.filter((v): v is number => v !== null);
     const max = Math.max(1, ...vals);
     return (v: number | null): number | null =>
-      v === null ? null : pad.top + (1 - v / max) * (height - pad.top - pad.bottom);
+      v === null ? null : pad.top + (1 - v / max) * plotH;
   };
   const yClosed = normalize(closedS);
   const yBurn = normalize(burnS);
@@ -189,6 +201,24 @@ function TrendChart({ data }: { data: Snapshot[] }) {
       .join(" ");
   const toggle = (k: keyof typeof visible) =>
     setVisible((v) => ({ ...v, [k]: !v[k] }));
+
+  // 鼠标横坐标 → 最近的数据点索引。
+  const onMove = (event: MouseEvent<SVGRectElement>) => {
+    const rect = event.currentTarget.getBoundingClientRect();
+    const ratio = (event.clientX - rect.left) / rect.width;
+    const idx = Math.round(ratio * Math.max(1, data.length - 1));
+    setHover(Math.max(0, Math.min(data.length - 1, idx)));
+  };
+
+  const h = hover;
+  const tipW = 168;
+  const tipX =
+    h !== null && x(h) > width / 2
+      ? Math.max(pad.left, x(h) - tipW - 16)
+      : h !== null
+        ? Math.min(width - pad.right - tipW, x(h) + 16)
+        : 0;
+  const isEndpoint = (i: number) => i === 0 || i === data.length - 1;
 
   return (
     <section className="trend-panel" aria-labelledby="trend-heading">
@@ -206,7 +236,12 @@ function TrendChart({ data }: { data: Snapshot[] }) {
         </div>
       </div>
       <div className="chart-wrap">
-        <svg viewBox={`0 0 ${width} ${height}`} role="img" aria-label="Issue 和 Pull Request 未关闭数量变化折线图">
+        <svg
+          viewBox={`0 0 ${width} ${height}`}
+          role="img"
+          aria-label="Issue 和 Pull Request 未关闭数量变化折线图"
+          onMouseLeave={() => setHover(null)}
+        >
           <defs>
             <linearGradient id="issueArea" x1="0" y1="0" x2="0" y2="1">
               <stop offset="0%" stopColor="#34e1ec" stopOpacity="0.5" />
@@ -217,26 +252,68 @@ function TrendChart({ data }: { data: Snapshot[] }) {
               <stop offset="100%" stopColor="#fbb428" stopOpacity="0" />
             </linearGradient>
           </defs>
-          {[0.25, 0.5, 0.75, 1].map((ratio) => (
+
+          {[0, 0.25, 0.5, 0.75, 1].map((ratio) => (
             <g key={ratio}>
-              <line className="grid-line" x1={pad.left} x2={width - pad.right} y1={yLeft(maxValue * ratio)} y2={yLeft(maxValue * ratio)} />
-              <text className="axis-label" x={pad.left - 16} y={yLeft(maxValue * ratio) + 4} textAnchor="end">{Math.round((maxValue * ratio) / 1000)}k</text>
+              <line className={ratio === 0 ? "grid-line baseline" : "grid-line"} x1={pad.left} x2={width - pad.right} y1={yLeft(maxValue * ratio)} y2={yLeft(maxValue * ratio)} />
+              <text className="axis-label" x={pad.left - 12} y={yLeft(maxValue * ratio) + 4} textAnchor="end">{Math.round((maxValue * ratio) / 1000)}k</text>
             </g>
           ))}
+
           {visible.closed && <polyline className="trend-line closed-line" points={overlay(closedS, yClosed)} />}
           {visible.burn && <polyline className="trend-line burn-line" points={overlay(burnS, yBurn)} />}
           {visible.velocity && <polyline className="trend-line velocity-line" points={overlay(velS, yVel)} />}
+
           {visible.issue && <path className="area-fill" d={areaPath(issuePts, baseY)} fill="url(#issueArea)" />}
           {visible.pr && <path className="area-fill" d={areaPath(prPts, baseY)} fill="url(#prArea)" />}
           {visible.issue && <path className="trend-line issue-line" d={smoothPath(issuePts)} />}
           {visible.pr && <path className="trend-line pr-line" d={smoothPath(prPts)} />}
-          {data.map((item, index) => (
-            <g key={item.capturedOn}>
-              <text className="date-label" x={x(index)} y={height - 20} textAnchor="middle">{dateLabel(item)}</text>
-              {visible.issue && <g className={`point issue-point${index === data.length - 1 ? " live" : ""}`}><circle cx={x(index)} cy={yLeft(item.issueOpen)} r="7" /><text x={x(index)} y={yLeft(item.issueOpen) - 17} textAnchor="middle">{nf.format(item.issueOpen)}</text><title>{`${dateLabel(item)} Issue Open ${nf.format(item.issueOpen)}`}</title></g>}
-              {visible.pr && <g className={`point pr-point${index === data.length - 1 ? " live" : ""}`}><circle cx={x(index)} cy={yLeft(item.prOpen)} r="7" /><text x={x(index)} y={yLeft(item.prOpen) + 29} textAnchor="middle">{nf.format(item.prOpen)}</text><title>{`${dateLabel(item)} PR Open ${nf.format(item.prOpen)}`}</title></g>}
+
+          {data.map((item, index) =>
+            showLabel(index) ? (
+              <text key={`d-${item.capturedOn}`} className="date-label" x={x(index)} y={height - 18} textAnchor="middle">{shortDate(item)}</text>
+            ) : null,
+          )}
+
+          {/* 首尾端点:数据点 + 数值标注 */}
+          {data.map((item, index) =>
+            isEndpoint(index) ? (
+              <g key={`p-${item.capturedOn}`}>
+                {visible.issue && (
+                  <g className={`point issue-point${index === data.length - 1 ? " live" : ""}`}>
+                    <circle cx={x(index)} cy={yLeft(item.issueOpen)} r="6.5" />
+                    <text x={x(index)} y={yLeft(item.issueOpen) - 14} textAnchor={index === 0 ? "start" : "end"} dx={index === 0 ? 8 : -8}>{nf.format(item.issueOpen)}</text>
+                  </g>
+                )}
+                {visible.pr && (
+                  <g className={`point pr-point${index === data.length - 1 ? " live" : ""}`}>
+                    <circle cx={x(index)} cy={yLeft(item.prOpen)} r="6.5" />
+                    <text x={x(index)} y={yLeft(item.prOpen) + 22} textAnchor={index === 0 ? "start" : "end"} dx={index === 0 ? 8 : -8}>{nf.format(item.prOpen)}</text>
+                  </g>
+                )}
+              </g>
+            ) : null,
+          )}
+
+          {/* 悬浮:竖向引导线 + 高亮点 + 数据弹窗 */}
+          {h !== null && (
+            <g className="hover-guide">
+              <line className="guide-line" x1={x(h)} x2={x(h)} y1={pad.top} y2={baseY} />
+              {visible.issue && <circle className="guide-dot issue" cx={x(h)} cy={yLeft(data[h].issueOpen)} r="6.5" />}
+              {visible.pr && <circle className="guide-dot pr" cx={x(h)} cy={yLeft(data[h].prOpen)} r="6.5" />}
+              <g className="tooltip" transform={`translate(${tipX}, ${pad.top + 4})`}>
+                <rect className="tip-bg" width={tipW} height={72} rx="6" />
+                <text className="tip-date" x="12" y="22">{dateLabel(data[h])}</text>
+                <circle className="tip-issue" cx="20" cy="40" r="3.5" />
+                <text className="tip-row issue" x="32" y="44">{`Issue ${nf.format(data[h].issueOpen)}`}</text>
+                <circle className="tip-pr" cx="20" cy="59" r="3.5" />
+                <text className="tip-row pr" x="32" y="63">{`PR ${nf.format(data[h].prOpen)}`}</text>
+              </g>
             </g>
-          ))}
+          )}
+
+          {/* 鼠标捕获层(置顶,透明) */}
+          <rect className="capture" x={pad.left} y={pad.top} width={plotW} height={plotH} onMouseMove={onMove} />
         </svg>
       </div>
     </section>

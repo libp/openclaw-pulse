@@ -298,6 +298,23 @@ main { position: relative; z-index: 2; }
 .pr-point text { fill: var(--amber); }
 .point.live circle { animation: ping 2.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
 
+/* hover interaction + thinned axis */
+.chart-wrap svg { cursor: crosshair; }
+.capture { fill: transparent; pointer-events: all; }
+.grid-line.baseline { stroke: rgba(150, 180, 255, 0.22); stroke-dasharray: none; }
+.hover-guide { pointer-events: none; }
+.guide-line { stroke: rgba(234, 241, 255, 0.4); stroke-width: 1; stroke-dasharray: 3 4; }
+.guide-dot { stroke: var(--space); stroke-width: 3; }
+.guide-dot.issue { fill: var(--cyan); filter: drop-shadow(0 0 8px rgba(52, 225, 236, 0.9)); }
+.guide-dot.pr { fill: var(--amber); filter: drop-shadow(0 0 8px rgba(251, 180, 40, 0.9)); }
+.tooltip .tip-bg { fill: rgba(8, 12, 22, 0.95); stroke: var(--border-strong); stroke-width: 1; }
+.tip-date { fill: var(--ink-dim); font: 600 12px var(--font-geist-mono), monospace; }
+.tip-row { font: 600 12px var(--font-geist-mono), monospace; }
+.tip-row.issue { fill: var(--cyan); }
+.tip-row.pr { fill: var(--amber); }
+.tip-issue { fill: var(--cyan); }
+.tip-pr { fill: var(--amber); }
+
 /* ── velocity terminal cards ── */
 .velocity-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .terminal-card {

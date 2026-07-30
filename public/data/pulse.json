@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-30T06:39:49.013Z",
+  "generatedAt": "2026-07-30T09:40:44.874Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -224,11 +224,11 @@
     },
     {
       "capturedOn": "2026-07-30",
-      "capturedAt": "2026-07-30T06:39:49.013Z",
-      "issueOpen": 3525,
-      "issueClosed": 41806,
-      "prOpen": 2207,
-      "prClosed": 66271,
+      "capturedAt": "2026-07-30T09:40:44.874Z",
+      "issueOpen": 3528,
+      "issueClosed": 41819,
+      "prOpen": 2222,
+      "prClosed": 66305,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -238,113 +238,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 112736,
-        "title": "Chrome extension: WebSocket connection failures silently accumulate in the extension error badge",
-        "url": "https://github.com/openclaw/openclaw/issues/112736",
+        "number": 94906,
+        "title": "Add recovery path for provider-rejected image blocks in session history",
+        "url": "https://github.com/openclaw/openclaw/issues/94906",
         "state": "open",
-        "author": "mkmsyk",
-        "updatedAt": "2026-07-30T06:39:39Z"
+        "author": "AxelHu",
+        "updatedAt": "2026-07-30T09:40:11Z"
       },
       {
         "kind": "issue",
-        "number": 112697,
-        "title": "[Bug]: Slack foreground fence drops earlier admitted final instead of committing finals in order",
-        "url": "https://github.com/openclaw/openclaw/issues/112697",
+        "number": 94769,
+        "title": "Memory dreaming promotion: short-term recall signals collected but never promote with Gemini embeddings (structural threshold mismatch + read/exec signal gap)",
+        "url": "https://github.com/openclaw/openclaw/issues/94769",
         "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-07-30T06:39:39Z"
+        "author": "ITHACAJASON",
+        "updatedAt": "2026-07-30T09:40:11Z"
       },
       {
         "kind": "issue",
-        "number": 112729,
-        "title": "[Bug]: screen behavior in OC iOS app",
-        "url": "https://github.com/openclaw/openclaw/issues/112729",
+        "number": 94750,
+        "title": "[Bug]: Discord channel sessions lose recent conversation context after reset, breaking organic continuity",
+        "url": "https://github.com/openclaw/openclaw/issues/94750",
         "state": "open",
-        "author": "Hornbrook-AI",
-        "updatedAt": "2026-07-30T06:39:36Z"
+        "author": "ericpearson",
+        "updatedAt": "2026-07-30T09:40:11Z"
       },
       {
         "kind": "issue",
-        "number": 116266,
-        "title": "[Bug]: external web-provider SecretRef is treated as unresolved during reply preflight",
-        "url": "https://github.com/openclaw/openclaw/issues/116266",
+        "number": 94893,
+        "title": "docs: vendor-neutral \"Run OpenClaw on NVIDIA Jetson / edge hardware\" guide — and how to reference turnkey devices?",
+        "url": "https://github.com/openclaw/openclaw/issues/94893",
         "state": "open",
-        "author": "scotthuang",
-        "updatedAt": "2026-07-30T06:39:29Z"
+        "author": "KrasimirKralev",
+        "updatedAt": "2026-07-30T09:40:02Z"
       },
       {
         "kind": "issue",
-        "number": 93807,
-        "title": "web_fetch useTrustedEnvProxy ignores NO_PROXY env variable",
-        "url": "https://github.com/openclaw/openclaw/issues/93807",
+        "number": 94716,
+        "title": "[Bug]: Anthropic claude-cli provider sends stale user-agent (claude-cli/2.1.75) — bearer auth fails with authentication_error",
+        "url": "https://github.com/openclaw/openclaw/issues/94716",
         "state": "open",
-        "author": "Coldwings",
-        "updatedAt": "2026-07-30T06:39:25Z"
+        "author": "SPRIC76",
+        "updatedAt": "2026-07-30T09:40:02Z"
       },
       {
         "kind": "issue",
-        "number": 93667,
-        "title": "[Feishu] Built-in channel does not render footer (elapsed/status) — schema accepts footer config but no UI display",
-        "url": "https://github.com/openclaw/openclaw/issues/93667",
+        "number": 94888,
+        "title": "Memory indexer fails to pick up files in agents that haven't been invoked in the current session",
+        "url": "https://github.com/openclaw/openclaw/issues/94888",
         "state": "open",
-        "author": "watsonagenda",
-        "updatedAt": "2026-07-30T06:39:18Z"
+        "author": "bizzle12368239",
+        "updatedAt": "2026-07-30T09:40:00Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 106832,
-        "title": "feat: expose readable session presentation metadata",
-        "url": "https://github.com/openclaw/openclaw/pull/106832",
+        "number": 116320,
+        "title": "improve(macos): avoid identity reads during menu rendering",
+        "url": "https://github.com/openclaw/openclaw/pull/116320",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-07-30T06:39:42Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-07-30T09:40:31Z"
       },
       {
         "kind": "pr",
-        "number": 112363,
-        "title": "fix: allow unknown long flags as boolean in safeBin validator",
-        "url": "https://github.com/openclaw/openclaw/pull/112363",
+        "number": 116327,
+        "title": "fix(agents): pre-warm assemble before returning raw messages on heartbeat",
+        "url": "https://github.com/openclaw/openclaw/pull/116327",
         "state": "open",
-        "author": "patelmm79",
-        "updatedAt": "2026-07-30T06:39:39Z"
+        "author": "mpz4life",
+        "updatedAt": "2026-07-30T09:40:40Z"
       },
       {
         "kind": "pr",
-        "number": 112388,
-        "title": "feat: resume requesters after deferred sessions_send replies",
-        "url": "https://github.com/openclaw/openclaw/pull/112388",
+        "number": 116325,
+        "title": "improve(macos): reuse the Codex App Server client",
+        "url": "https://github.com/openclaw/openclaw/pull/116325",
         "state": "open",
-        "author": "rabsef-bicrym",
-        "updatedAt": "2026-07-30T06:39:36Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-07-30T09:40:22Z"
       },
       {
         "kind": "pr",
-        "number": 112966,
-        "title": "fix(ai): honor Responses reasoning effort maps",
-        "url": "https://github.com/openclaw/openclaw/pull/112966",
+        "number": 116229,
+        "title": "fix(agents): fail-closed for unclassified shared session keys",
+        "url": "https://github.com/openclaw/openclaw/pull/116229",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-07-30T06:39:34Z"
+        "author": "wangyan2026",
+        "updatedAt": "2026-07-30T09:40:18Z"
       },
       {
         "kind": "pr",
-        "number": 89526,
-        "title": "[codex] fix gateway restart-required reload drift",
-        "url": "https://github.com/openclaw/openclaw/pull/89526",
+        "number": 116260,
+        "title": "fix(codex): reuse core redaction policy for supervision tool results",
+        "url": "https://github.com/openclaw/openclaw/pull/116260",
         "state": "open",
-        "author": "amittell",
-        "updatedAt": "2026-07-30T06:39:34Z"
+        "author": "chelsealong",
+        "updatedAt": "2026-07-30T09:40:07Z"
       },
       {
         "kind": "pr",
-        "number": 82148,
-        "title": "feat(agents): allow spawn fast mode overrides",
-        "url": "https://github.com/openclaw/openclaw/pull/82148",
+        "number": 111814,
+        "title": "[AI] fix(update-cli): warn+continue on Windows schtasks access-denied",
+        "url": "https://github.com/openclaw/openclaw/pull/111814",
         "state": "open",
-        "author": "jai",
-        "updatedAt": "2026-07-30T06:39:33Z"
+        "author": "xydt-tanshanshan",
+        "updatedAt": "2026-07-30T09:40:06Z"
       }
     ]
   }

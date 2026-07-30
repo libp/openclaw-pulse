@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-30T03:26:02.266Z",
+  "generatedAt": "2026-07-30T06:39:49.013Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-01",
@@ -224,11 +224,11 @@
     },
     {
       "capturedOn": "2026-07-30",
-      "capturedAt": "2026-07-30T03:26:02.266Z",
-      "issueOpen": 3565,
-      "issueClosed": 41750,
-      "prOpen": 2262,
-      "prClosed": 66167,
+      "capturedAt": "2026-07-30T06:39:49.013Z",
+      "issueOpen": 3525,
+      "issueClosed": 41806,
+      "prOpen": 2207,
+      "prClosed": 66271,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -238,68 +238,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 116201,
-        "title": "Realtime voice work can retain unbounded provider and consult state",
-        "url": "https://github.com/openclaw/openclaw/issues/116201",
+        "number": 112736,
+        "title": "Chrome extension: WebSocket connection failures silently accumulate in the extension error badge",
+        "url": "https://github.com/openclaw/openclaw/issues/112736",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-07-30T03:24:57Z"
+        "author": "mkmsyk",
+        "updatedAt": "2026-07-30T06:39:39Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112697,
+        "title": "[Bug]: Slack foreground fence drops earlier admitted final instead of committing finals in order",
+        "url": "https://github.com/openclaw/openclaw/issues/112697",
+        "state": "open",
+        "author": "jalehman",
+        "updatedAt": "2026-07-30T06:39:39Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112729,
+        "title": "[Bug]: screen behavior in OC iOS app",
+        "url": "https://github.com/openclaw/openclaw/issues/112729",
+        "state": "open",
+        "author": "Hornbrook-AI",
+        "updatedAt": "2026-07-30T06:39:36Z"
+      },
+      {
+        "kind": "issue",
+        "number": 116266,
+        "title": "[Bug]: external web-provider SecretRef is treated as unresolved during reply preflight",
+        "url": "https://github.com/openclaw/openclaw/issues/116266",
+        "state": "open",
+        "author": "scotthuang",
+        "updatedAt": "2026-07-30T06:39:29Z"
+      },
+      {
+        "kind": "issue",
+        "number": 93807,
+        "title": "web_fetch useTrustedEnvProxy ignores NO_PROXY env variable",
+        "url": "https://github.com/openclaw/openclaw/issues/93807",
+        "state": "open",
+        "author": "Coldwings",
+        "updatedAt": "2026-07-30T06:39:25Z"
+      },
+      {
+        "kind": "issue",
+        "number": 93667,
+        "title": "[Feishu] Built-in channel does not render footer (elapsed/status) — schema accepts footer config but no UI display",
+        "url": "https://github.com/openclaw/openclaw/issues/93667",
+        "state": "open",
+        "author": "watsonagenda",
+        "updatedAt": "2026-07-30T06:39:18Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 116195,
-        "title": "fix: preserve message text passed with /new",
-        "url": "https://github.com/openclaw/openclaw/pull/116195",
+        "number": 106832,
+        "title": "feat: expose readable session presentation metadata",
+        "url": "https://github.com/openclaw/openclaw/pull/106832",
         "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-07-30T03:25:57Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-07-30T06:39:42Z"
       },
       {
         "kind": "pr",
-        "number": 109009,
-        "title": "fix(agents): exclude MEMORY.md from shared channel session bootstrap",
-        "url": "https://github.com/openclaw/openclaw/pull/109009",
+        "number": 112363,
+        "title": "fix: allow unknown long flags as boolean in safeBin validator",
+        "url": "https://github.com/openclaw/openclaw/pull/112363",
         "state": "open",
-        "author": "wangyan2026",
-        "updatedAt": "2026-07-30T03:25:56Z"
+        "author": "patelmm79",
+        "updatedAt": "2026-07-30T06:39:39Z"
       },
       {
         "kind": "pr",
-        "number": 116199,
-        "title": "fix(agents): retry empty completion capture before blocked terminal outcome",
-        "url": "https://github.com/openclaw/openclaw/pull/116199",
+        "number": 112388,
+        "title": "feat: resume requesters after deferred sessions_send replies",
+        "url": "https://github.com/openclaw/openclaw/pull/112388",
         "state": "open",
-        "author": "xialonglee",
-        "updatedAt": "2026-07-30T03:25:55Z"
+        "author": "rabsef-bicrym",
+        "updatedAt": "2026-07-30T06:39:36Z"
       },
       {
         "kind": "pr",
-        "number": 113927,
-        "title": "build(deps): bump the actions group across 1 directory with 6 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/113927",
+        "number": 112966,
+        "title": "fix(ai): honor Responses reasoning effort maps",
+        "url": "https://github.com/openclaw/openclaw/pull/112966",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-07-30T03:25:48Z"
+        "author": "sunlit-deng",
+        "updatedAt": "2026-07-30T06:39:34Z"
       },
       {
         "kind": "pr",
-        "number": 116174,
-        "title": "fix(beam): prevent mirror retries from stalling on slow responses",
-        "url": "https://github.com/openclaw/openclaw/pull/116174",
+        "number": 89526,
+        "title": "[codex] fix gateway restart-required reload drift",
+        "url": "https://github.com/openclaw/openclaw/pull/89526",
         "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-07-30T03:25:47Z"
+        "author": "amittell",
+        "updatedAt": "2026-07-30T06:39:34Z"
       },
       {
         "kind": "pr",
-        "number": 109493,
-        "title": "fix(gateway): worker workspaces recover after stalled process probes",
-        "url": "https://github.com/openclaw/openclaw/pull/109493",
+        "number": 82148,
+        "title": "feat(agents): allow spawn fast mode overrides",
+        "url": "https://github.com/openclaw/openclaw/pull/82148",
         "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-07-30T03:25:41Z"
+        "author": "jai",
+        "updatedAt": "2026-07-30T06:39:33Z"
       }
     ]
   }

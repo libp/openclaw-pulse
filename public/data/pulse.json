@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-30T14:21:11.155Z",
+  "generatedAt": "2026-07-30T14:29:36.202Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -224,11 +224,11 @@
     },
     {
       "capturedOn": "2026-07-30",
-      "capturedAt": "2026-07-30T14:21:11.155Z",
+      "capturedAt": "2026-07-30T14:29:36.202Z",
       "issueOpen": 3546,
       "issueClosed": 41822,
-      "prOpen": 2247,
-      "prClosed": 66339,
+      "prOpen": 2248,
+      "prClosed": 66341,
       "workflowRuns": 40000,
       "source": "github-actions",
       "approximateDate": false
@@ -238,113 +238,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 69242,
-        "title": "exec tool on Linux intermittently SIGKILLs broad find/grep discovery commands without OOM evidence",
-        "url": "https://github.com/openclaw/openclaw/issues/69242",
+        "number": 74379,
+        "title": "Feature: execDenyPathPatterns — config-level denylist for file paths in exec commands",
+        "url": "https://github.com/openclaw/openclaw/issues/74379",
         "state": "open",
-        "author": "schksw-ctrl",
-        "updatedAt": "2026-07-30T14:21:05Z"
+        "author": "xonaman",
+        "updatedAt": "2026-07-30T14:29:29Z"
       },
       {
         "kind": "issue",
-        "number": 72143,
-        "title": "Exec follow-up fallback should retry session resume and avoid user-facing internal prefix",
-        "url": "https://github.com/openclaw/openclaw/issues/72143",
+        "number": 75380,
+        "title": "provider-payload.jsonl and cache-trace.jsonl grow unbounded — no rotation/max-size policy",
+        "url": "https://github.com/openclaw/openclaw/issues/75380",
         "state": "open",
-        "author": "ahmednasr999",
-        "updatedAt": "2026-07-30T14:21:07Z"
+        "author": "hexsprite",
+        "updatedAt": "2026-07-30T14:29:32Z"
       },
       {
         "kind": "issue",
-        "number": 71976,
-        "title": "Memory Dreaming: Light sleep sort prioritizes recency over recallCount, hiding real recall data",
-        "url": "https://github.com/openclaw/openclaw/issues/71976",
+        "number": 74848,
+        "title": "[Bug]: macOS App node repeatedly disconnects with \"cancelled\" while CLI node works",
+        "url": "https://github.com/openclaw/openclaw/issues/74848",
         "state": "open",
-        "author": "CSZ-w",
-        "updatedAt": "2026-07-30T14:21:04Z"
+        "author": "aiastia",
+        "updatedAt": "2026-07-30T14:29:33Z"
       },
       {
         "kind": "issue",
-        "number": 71973,
-        "title": "Optimize prompt caching by moving volatile current-time injection out of cache-sensitive prompt prefixes",
-        "url": "https://github.com/openclaw/openclaw/issues/71973",
+        "number": 76247,
+        "title": "Provide native dispatch landing ACK / receiver-entry telemetry across cron, sessions_spawn, channel_inbound, gateway_agent, cli_agent, acp_downstream surfaces",
+        "url": "https://github.com/openclaw/openclaw/issues/76247",
         "state": "open",
-        "author": "williamcodes",
-        "updatedAt": "2026-07-30T14:20:17Z"
+        "author": "reboost-openclaw-team[bot]",
+        "updatedAt": "2026-07-30T14:29:27Z"
       },
       {
         "kind": "issue",
-        "number": 71930,
-        "title": "Mattermost plugin drops post_edited events — @mentions added via edit do not trigger agent wake",
-        "url": "https://github.com/openclaw/openclaw/issues/71930",
+        "number": 75153,
+        "title": "[Feature]: expose channels.start / stop / restart via CLI so a wedged channel can recover without container restart or QR re-pair",
+        "url": "https://github.com/openclaw/openclaw/issues/75153",
         "state": "open",
-        "author": "robbyproc87",
-        "updatedAt": "2026-07-30T14:19:29Z"
+        "author": "Jason-Vaughan",
+        "updatedAt": "2026-07-30T14:29:31Z"
       },
       {
         "kind": "issue",
-        "number": 72721,
-        "title": "Feishu @larksuiteoapi/node-sdk axios timeout from gateway process (Alibaba Cloud ECS / Node.js 24)",
-        "url": "https://github.com/openclaw/openclaw/issues/72721",
+        "number": 74986,
+        "title": "[Bug]: openclaw infer hangs indefinitely on 2026.4.27 — openclaw-infer child spins at 100% CPU with zero network I/O",
+        "url": "https://github.com/openclaw/openclaw/issues/74986",
         "state": "open",
-        "author": "sign-2025",
-        "updatedAt": "2026-07-30T14:19:19Z"
+        "author": "mlaihk",
+        "updatedAt": "2026-07-30T14:29:33Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 116414,
-        "title": "fix(exec): resolve sandbox-skills workdir paths in container→host mapping",
-        "url": "https://github.com/openclaw/openclaw/pull/116414",
+        "number": 112003,
+        "title": "test(codex): add unit test coverage for extractRawAssistantText",
+        "url": "https://github.com/openclaw/openclaw/pull/112003",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-07-30T14:21:08Z"
+        "author": "licheer-zte",
+        "updatedAt": "2026-07-30T14:29:28Z"
       },
       {
         "kind": "pr",
-        "number": 112820,
-        "title": "feat(plugin-sdk): let plugins open Gateway-managed realtime voice sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/112820",
+        "number": 112436,
+        "title": "fix(memory-core): enforce minRecallCount and minUniqueQueries gates in deep-phase promotion",
+        "url": "https://github.com/openclaw/openclaw/pull/112436",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-07-30T14:20:11Z"
+        "author": "ekinnee",
+        "updatedAt": "2026-07-30T14:29:21Z"
       },
       {
         "kind": "pr",
-        "number": 104322,
-        "title": "fix(feishu): retry transient message send failures",
-        "url": "https://github.com/openclaw/openclaw/pull/104322",
+        "number": 116417,
+        "title": "feat(telegram): include actual error detail in fallback messages",
+        "url": "https://github.com/openclaw/openclaw/pull/116417",
         "state": "open",
-        "author": "litang9",
-        "updatedAt": "2026-07-30T14:19:59Z"
+        "author": "bob-the-dyer",
+        "updatedAt": "2026-07-30T14:29:17Z"
       },
       {
         "kind": "pr",
-        "number": 101276,
-        "title": "feat(exec): deny-over-allow exec approval denylist (#6615)",
-        "url": "https://github.com/openclaw/openclaw/pull/101276",
-        "state": "open",
-        "author": "nicknmorty",
-        "updatedAt": "2026-07-30T14:19:39Z"
+        "number": 116408,
+        "title": "[CLOSED] feat(telegram): informative error messages (superseded by v5)",
+        "url": "https://github.com/openclaw/openclaw/pull/116408",
+        "state": "closed",
+        "author": "bob-the-dyer",
+        "updatedAt": "2026-07-30T14:29:10Z"
       },
       {
         "kind": "pr",
-        "number": 97671,
-        "title": "fix(channels): keep preview streaming quiet and non-blocking",
-        "url": "https://github.com/openclaw/openclaw/pull/97671",
+        "number": 114852,
+        "title": "feat(agents): rename model- and user-facing scheduler strings to automations",
+        "url": "https://github.com/openclaw/openclaw/pull/114852",
         "state": "open",
-        "author": "SYU8384",
-        "updatedAt": "2026-07-30T14:19:31Z"
+        "author": "omarshahine",
+        "updatedAt": "2026-07-30T14:29:10Z"
       },
       {
         "kind": "pr",
-        "number": 111277,
-        "title": "fix(network): guarded fetch callers can leave responses streaming",
-        "url": "https://github.com/openclaw/openclaw/pull/111277",
+        "number": 115774,
+        "title": "fix(feishu): abort task signal on sequential queue timeout to prevent orphan ACP agents",
+        "url": "https://github.com/openclaw/openclaw/pull/115774",
         "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-07-30T14:19:27Z"
+        "author": "licheer-zte",
+        "updatedAt": "2026-07-30T14:28:56Z"
       }
     ]
   }

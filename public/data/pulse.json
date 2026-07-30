@@ -3,15 +3,15 @@
   "generatedAt": "2026-07-30T14:21:11.155Z",
   "snapshots": [
     {
-      "capturedOn": "2026-03-01",
-      "capturedAt": "2026-03-01T00:00:00.000Z",
+      "capturedOn": "2026-03-10",
+      "capturedAt": "2026-03-10T00:00:00.000Z",
       "issueOpen": 6480,
       "issueClosed": 10686,
       "prOpen": 5493,
       "prClosed": 17907,
       "workflowRuns": 521903,
       "source": "manual-post",
-      "approximateDate": true
+      "approximateDate": false
     },
     {
       "capturedOn": "2026-06-14",

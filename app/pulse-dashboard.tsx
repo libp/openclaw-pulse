@@ -9,9 +9,24 @@ type Snapshot = {
   issueClosed: number;
   prOpen: number;
   prClosed: number;
+  prMerged?: number | null;
   workflowRuns: number | null;
+  stars?: number | null;
+  forks?: number | null;
+  subscribers?: number | null;
+  commits?: number | null;
+  contributors?: number | null;
   source: string;
   approximateDate: boolean;
+};
+
+type MetricPoint = {
+  capturedOn: string;
+  stars: number | null;
+  forks: number | null;
+  subscribers: number | null;
+  commits: number | null;
+  contributors: number | null;
 };
 
 type Activity = {
@@ -27,11 +42,12 @@ type Activity = {
 type PulseResponse = {
   repository: string;
   snapshots: Snapshot[];
+  metrics?: MetricPoint[];
   activity: { issues: Activity[]; prs: Activity[] };
 };
 
 const fallback: Snapshot[] = [
-  { capturedOn: "2026-03-01", capturedAt: "2026-03-01T00:00:00Z", issueOpen: 6480, issueClosed: 10686, prOpen: 5493, prClosed: 17907, workflowRuns: 521903, source: "manual-post", approximateDate: true },
+  { capturedOn: "2026-03-10", capturedAt: "2026-03-10T00:00:00Z", issueOpen: 6480, issueClosed: 10686, prOpen: 5493, prClosed: 17907, workflowRuns: 521903, source: "manual-post", approximateDate: false },
   { capturedOn: "2026-06-14", capturedAt: "2026-06-14T00:00:00Z", issueOpen: 3934, issueClosed: 35875, prOpen: 3611, prClosed: 47253, workflowRuns: null, source: "manual-post", approximateDate: false },
   { capturedOn: "2026-07-12", capturedAt: "2026-07-12T00:00:00Z", issueOpen: 3578, issueClosed: 39154, prOpen: 2777, prClosed: 57051, workflowRuns: null, source: "manual-post", approximateDate: false },
 ];
@@ -40,7 +56,6 @@ const nf = new Intl.NumberFormat("zh-CN");
 const pct = new Intl.NumberFormat("zh-CN", { maximumFractionDigits: 1 });
 
 function dateLabel(item: Snapshot) {
-  if (item.approximateDate) return "2026年3月";
   const [year, month, day] = item.capturedOn.split("-");
   return `${year}.${month}.${day}`;
 }
@@ -56,7 +71,18 @@ function shortTime(value: string) {
   }).format(date);
 }
 
-function intervalMetrics(previous: Snapshot, current: Snapshot) {
+type Interval = {
+  days: number;
+  closed: number;
+  incoming: number;
+  net: number;
+  closePerDay: number;
+  incomingPerDay: number;
+  netPerDay: number;
+  burnRatio: number;
+};
+
+function intervalMetrics(previous: Snapshot, current: Snapshot): Interval {
   const days = Math.max(
     1,
     Math.round(
@@ -85,18 +111,54 @@ function intervalMetrics(previous: Snapshot, current: Snapshot) {
   };
 }
 
+// 区间序列:每个点 = 与前一个快照的 interval 值(首点为 null),用于趋势图叠加。
+function intervalSeries(data: Snapshot[], key: "closed" | "burnRatio" | "closePerDay") {
+  return data.map((cur, i) => (i === 0 ? null : intervalMetrics(data[i - 1], cur)[key]));
+}
+
 function TrendChart({ data }: { data: Snapshot[] }) {
-  const [visible, setVisible] = useState({ issue: true, pr: true });
+  const [visible, setVisible] = useState({
+    issue: true,
+    pr: true,
+    closed: false,
+    burn: false,
+    velocity: false,
+  });
   const width = 1040;
-  const height = 330;
-  const pad = { left: 72, right: 42, top: 44, bottom: 58 };
-  const maxValue = Math.max(...data.flatMap((item) => [item.issueOpen, item.prOpen])) * 1.12;
+  const height = 360;
+  const pad = { left: 72, right: 72, top: 44, bottom: 58 };
+  const maxValue =
+    Math.max(1, ...data.flatMap((item) => [item.issueOpen, item.prOpen])) * 1.12;
   const x = (index: number) =>
     pad.left + (index * (width - pad.left - pad.right)) / Math.max(1, data.length - 1);
-  const y = (value: number) =>
+  const yLeft = (value: number) =>
     pad.top + (1 - value / maxValue) * (height - pad.top - pad.bottom);
-  const line = (key: "issueOpen" | "prOpen") =>
-    data.map((item, index) => `${x(index)},${y(item[key])}`).join(" ");
+  const openLine = (key: "issueOpen" | "prOpen") =>
+    data.map((item, index) => `${x(index)},${yLeft(item[key])}`).join(" ");
+
+  // 叠加序列各自独立归一化到图高(closed/burn/velocity 量纲不同,无法共用轴)。
+  const closedS = intervalSeries(data, "closed");
+  const burnS = intervalSeries(data, "burnRatio");
+  const velS = intervalSeries(data, "closePerDay");
+  const normalize = (series: (number | null)[]) => {
+    const vals = series.filter((v): v is number => v !== null);
+    const max = Math.max(1, ...vals);
+    return (v: number | null): number | null =>
+      v === null ? null : pad.top + (1 - v / max) * (height - pad.top - pad.bottom);
+  };
+  const yClosed = normalize(closedS);
+  const yBurn = normalize(burnS);
+  const yVel = normalize(velS);
+  const overlay = (series: (number | null)[], yf: (v: number | null) => number | null) =>
+    series
+      .map((v, i) => {
+        const yy = yf(v);
+        return v === null || yy === null ? null : `${x(i)},${yy}`;
+      })
+      .filter((p): p is string => p !== null)
+      .join(" ");
+  const toggle = (k: keyof typeof visible) =>
+    setVisible((v) => ({ ...v, [k]: !v[k] }));
 
   return (
     <section className="trend-panel" aria-labelledby="trend-heading">
@@ -106,28 +168,88 @@ function TrendChart({ data }: { data: Snapshot[] }) {
           <h2 id="trend-heading">积压正在下降，但尚未接近归零</h2>
         </div>
         <div className="legend" aria-label="图表序列切换">
-          <button className={visible.issue ? "active issue" : "issue"} onClick={() => setVisible((v) => ({ ...v, issue: !v.issue }))}><i />Issue</button>
-          <button className={visible.pr ? "active pr" : "pr"} onClick={() => setVisible((v) => ({ ...v, pr: !v.pr }))}><i />Pull Request</button>
+          <button className={visible.issue ? "active issue" : "issue"} onClick={() => toggle("issue")}><i />Issue</button>
+          <button className={visible.pr ? "active pr" : "pr"} onClick={() => toggle("pr")}><i />Pull Request</button>
+          <button className={visible.closed ? "active closed" : "closed"} onClick={() => toggle("closed")}><i />关闭增量</button>
+          <button className={visible.burn ? "active burn" : "burn"} onClick={() => toggle("burn")}><i />消化比</button>
+          <button className={visible.velocity ? "active velocity" : "velocity"} onClick={() => toggle("velocity")}><i />日均关闭</button>
         </div>
       </div>
       <div className="chart-wrap">
         <svg viewBox={`0 0 ${width} ${height}`} role="img" aria-label="Issue 和 Pull Request 未关闭数量变化折线图">
           {[0.25, 0.5, 0.75, 1].map((ratio) => (
             <g key={ratio}>
-              <line className="grid-line" x1={pad.left} x2={width - pad.right} y1={y(maxValue * ratio)} y2={y(maxValue * ratio)} />
-              <text className="axis-label" x={pad.left - 16} y={y(maxValue * ratio) + 4} textAnchor="end">{Math.round((maxValue * ratio) / 1000)}k</text>
+              <line className="grid-line" x1={pad.left} x2={width - pad.right} y1={yLeft(maxValue * ratio)} y2={yLeft(maxValue * ratio)} />
+              <text className="axis-label" x={pad.left - 16} y={yLeft(maxValue * ratio) + 4} textAnchor="end">{Math.round((maxValue * ratio) / 1000)}k</text>
             </g>
           ))}
-          {visible.issue && <polyline className="trend-line issue-line" points={line("issueOpen")} />}
-          {visible.pr && <polyline className="trend-line pr-line" points={line("prOpen")} />}
+          {visible.closed && <polyline className="trend-line closed-line" points={overlay(closedS, yClosed)} />}
+          {visible.burn && <polyline className="trend-line burn-line" points={overlay(burnS, yBurn)} />}
+          {visible.velocity && <polyline className="trend-line velocity-line" points={overlay(velS, yVel)} />}
+          {visible.issue && <polyline className="trend-line issue-line" points={openLine("issueOpen")} />}
+          {visible.pr && <polyline className="trend-line pr-line" points={openLine("prOpen")} />}
           {data.map((item, index) => (
             <g key={item.capturedOn}>
               <text className="date-label" x={x(index)} y={height - 20} textAnchor="middle">{dateLabel(item)}</text>
-              {visible.issue && <g className="point issue-point"><circle cx={x(index)} cy={y(item.issueOpen)} r="7" /><text x={x(index)} y={y(item.issueOpen) - 17} textAnchor="middle">{nf.format(item.issueOpen)}</text><title>{`${dateLabel(item)} Issue Open ${nf.format(item.issueOpen)}`}</title></g>}
-              {visible.pr && <g className="point pr-point"><circle cx={x(index)} cy={y(item.prOpen)} r="7" /><text x={x(index)} y={y(item.prOpen) + 29} textAnchor="middle">{nf.format(item.prOpen)}</text><title>{`${dateLabel(item)} PR Open ${nf.format(item.prOpen)}`}</title></g>}
+              {visible.issue && <g className="point issue-point"><circle cx={x(index)} cy={yLeft(item.issueOpen)} r="7" /><text x={x(index)} y={yLeft(item.issueOpen) - 17} textAnchor="middle">{nf.format(item.issueOpen)}</text><title>{`${dateLabel(item)} Issue Open ${nf.format(item.issueOpen)}`}</title></g>}
+              {visible.pr && <g className="point pr-point"><circle cx={x(index)} cy={yLeft(item.prOpen)} r="7" /><text x={x(index)} y={yLeft(item.prOpen) + 29} textAnchor="middle">{nf.format(item.prOpen)}</text><title>{`${dateLabel(item)} PR Open ${nf.format(item.prOpen)}`}</title></g>}
             </g>
           ))}
         </svg>
+      </div>
+    </section>
+  );
+}
+
+function RepoScaleChart({ data }: { data: MetricPoint[] }) {
+  const points = data.filter((d) => d.stars !== null && d.stars !== undefined);
+  const series: { key: keyof MetricPoint; label: string; color: "gold" | "teal" | "purple" | "pink" }[] = [
+    { key: "stars", label: "STARS", color: "gold" },
+    { key: "forks", label: "FORKS", color: "teal" },
+    { key: "commits", label: "COMMITS", color: "purple" },
+    { key: "contributors", label: "CONTRIBUTORS", color: "pink" },
+  ];
+  const latest = points[points.length - 1];
+  const spark = (key: keyof MetricPoint) => {
+    const vals = points
+      .map((p) => p[key])
+      .filter((v): v is number => v !== null && v !== undefined);
+    if (vals.length < 2) return null;
+    const max = Math.max(...vals);
+    const min = Math.min(...vals);
+    const w = 120;
+    const h = 28;
+    const range = Math.max(1, max - min);
+    return vals
+      .map((v, i) => `${(i / (vals.length - 1)) * w},${h - ((v - min) / range) * h}`)
+      .join(" ");
+  };
+  return (
+    <section className="trend-panel" id="scale" aria-labelledby="scale-heading">
+      <div className="section-heading">
+        <div>
+          <p className="eyebrow">REPOSITORY SCALE</p>
+          <h2 id="scale-heading">仓库规模</h2>
+        </div>
+        <p>stars / forks / commits / contributors 的当前规模与近期趋势。历史种子点无此项，自持续采集起累积。</p>
+      </div>
+      <div className="scale-grid">
+        {series.map((s) => {
+          const sp = spark(s.key);
+          const val = latest?.[s.key];
+          return (
+            <article key={s.key} className={`scale-card ${s.color}`}>
+              <span>{s.label}</span>
+              <strong>{val !== null && val !== undefined ? nf.format(val) : "—"}</strong>
+              {sp && (
+                <svg className="spark" viewBox="0 0 120 28" preserveAspectRatio="none">
+                  <polyline className={`spark-line ${s.color}-line`} points={sp} />
+                </svg>
+              )}
+              <i>{points.length ? `${points.length} 个采集点` : "等待首次采集"}</i>
+            </article>
+          );
+        })}
       </div>
     </section>
   );
@@ -151,18 +273,19 @@ function ActivityColumn({ title, items, kind }: { title: string; items: Activity
 }
 
 export default function PulseDashboard() {
-  const [pulse, setPulse] = useState<PulseResponse>({ repository: "openclaw/openclaw", snapshots: fallback, activity: { issues: [], prs: [] } });
+  const [pulse, setPulse] = useState<PulseResponse>({ repository: "openclaw/openclaw", snapshots: fallback, metrics: [], activity: { issues: [], prs: [] } });
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetch("/api/pulse")
-      .then((response) => response.ok ? response.json() : Promise.reject())
+      .then((response) => (response.ok ? response.json() : Promise.reject()))
       .then((data: PulseResponse) => setPulse(data))
       .catch(() => undefined)
       .finally(() => setLoading(false));
   }, []);
 
   const snapshots = pulse.snapshots.length ? pulse.snapshots : fallback;
+  const metrics = pulse.metrics ?? [];
   const latest = snapshots[snapshots.length - 1];
   const previous = snapshots.length > 1 ? snapshots[snapshots.length - 2] : latest;
   const currentInterval = useMemo(() => intervalMetrics(previous, latest), [previous, latest]);
@@ -176,7 +299,7 @@ export default function PulseDashboard() {
     <main>
       <header className="site-header">
         <a href="#top" className="brand"><span className="pulse-mark"><i /></span><b>OpenClaw</b> Pulse</a>
-        <nav aria-label="主导航"><a href="#trend">趋势</a><a href="#velocity">速度</a><a href="#activity">动态</a><a href="#method">方法</a></nav>
+        <nav aria-label="主导航"><a href="#trend">趋势</a><a href="#scale">规模</a><a href="#velocity">速度</a><a href="#activity">动态</a><a href="#method">方法</a></nav>
         <a className="repo-link" href="https://github.com/openclaw/openclaw" target="_blank" rel="noreferrer"><span className="live-dot" />{pulse.repository} ↗</a>
       </header>
 
@@ -205,6 +328,8 @@ export default function PulseDashboard() {
 
         <div id="trend"><TrendChart data={snapshots} /></div>
 
+        <RepoScaleChart data={metrics} />
+
         <section className="velocity" id="velocity">
           <div className="section-heading"><div><p className="eyebrow">THE VELOCITY THAT MATTERS</p><h2>关闭很多，不等于积压减少很多</h2></div><p>最近两个快照之间，系统一边接收新任务，一边处理旧任务。净压降才是衡量自治能力的关键。</p></div>
           <div className="velocity-grid">
@@ -222,13 +347,13 @@ export default function PulseDashboard() {
 
         <section className="timeline" aria-labelledby="timeline-title">
           <div className="section-heading"><div><p className="eyebrow">RECORDED SNAPSHOTS</p><h2 id="timeline-title">历史快照</h2></div></div>
-          <div className="table-wrap"><table><thead><tr><th>日期</th><th>Issue Open</th><th>Issue Closed</th><th>PR Open</th><th>PR Closed</th><th>总积压</th></tr></thead><tbody>{[...snapshots].reverse().map((item) => <tr key={item.capturedOn}><td>{dateLabel(item)}{item.approximateDate && <small> 原帖日期未注明</small>}</td><td>{nf.format(item.issueOpen)}</td><td>{nf.format(item.issueClosed)}</td><td>{nf.format(item.prOpen)}</td><td>{nf.format(item.prClosed)}</td><td><b>{nf.format(item.issueOpen + item.prOpen)}</b></td></tr>)}</tbody></table></div>
+          <div className="table-wrap"><table><thead><tr><th>日期</th><th>Issue Open</th><th>Issue Closed</th><th>PR Open</th><th>PR Closed</th><th>总积压</th></tr></thead><tbody>{[...snapshots].reverse().map((item) => <tr key={item.capturedOn}><td>{dateLabel(item)}</td><td>{nf.format(item.issueOpen)}</td><td>{nf.format(item.issueClosed)}</td><td>{nf.format(item.prOpen)}</td><td>{nf.format(item.prClosed)}</td><td><b>{nf.format(item.issueOpen + item.prOpen)}</b></td></tr>)}</tbody></table></div>
         </section>
 
         <section className="method" id="method">
           <p className="eyebrow">METHODOLOGY / 方法</p>
           <h2>这是 AI 协作效率的代理指标，不是智能水平的直接证明。</h2>
-          <div><p>GitHub Actions 每小时主动读取 GitHub 公共接口，并将结果提交为可审计的历史数据；当天数据持续更新，每天最终保留一个快照。Closed 的增长反映处理吞吐；Open 的下降反映净积压压降；两者必须结合新增流入一起判断。</p><p>关闭可能包含重复、无效、垃圾内容或人工批量操作，PR Closed 也同时包含 merged 与未合并关闭。因此，本网站衡量的是大型 AI 原生项目的协作与治理能力，而非单一模型的智力。</p></div>
+          <div><p>Cloudflare D1 每小时写入一条细粒度采集记录，GitHub Actions 同步维护一份可审计的公开 archive；趋势图按日聚合展示，仓库规模自持续采集起累积。Closed 的增长反映处理吞吐；Open 的下降反映净积压压降；两者必须结合新增流入一起判断。</p><p>关闭可能包含重复、无效、垃圾内容或人工批量操作，PR Closed 也同时包含 merged 与未合并关闭。仓库规模（stars/forks/commits/contributors）为辅助上下文，反映项目热度而非模型智力。因此，本网站衡量的是大型 AI 原生项目的协作与治理能力，而非单一模型的智力。</p></div>
         </section>
       </div>
 

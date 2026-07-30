@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-30T14:31:49.769Z",
+  "generatedAt": "2026-07-30T16:47:22.521Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -224,17 +224,17 @@
     },
     {
       "capturedOn": "2026-07-30",
-      "capturedAt": "2026-07-30T14:31:49.769Z",
-      "issueOpen": 3546,
-      "issueClosed": 41822,
-      "prOpen": 2248,
-      "prClosed": 66341,
-      "prMerged": 20652,
+      "capturedAt": "2026-07-30T16:47:22.521Z",
+      "issueOpen": 3558,
+      "issueClosed": 41824,
+      "prOpen": 2267,
+      "prClosed": 66360,
+      "prMerged": 20670,
       "workflowRuns": 40000,
-      "stars": 384577,
-      "forks": 80818,
-      "subscribers": 1761,
-      "commits": 73920,
+      "stars": 384593,
+      "forks": 80823,
+      "subscribers": 1759,
+      "commits": 73956,
       "contributors": 3022,
       "source": "github-actions",
       "approximateDate": false
@@ -243,10 +243,10 @@
   "metrics": [
     {
       "capturedOn": "2026-07-30",
-      "stars": 384577,
-      "forks": 80818,
-      "subscribers": 1761,
-      "commits": 73920,
+      "stars": 384593,
+      "forks": 80823,
+      "subscribers": 1759,
+      "commits": 73956,
       "contributors": 3022
     }
   ],
@@ -254,113 +254,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 71669,
-        "title": "[Feature]: Emit runtime warning when Control UI config will silently reject non-secure connections",
-        "url": "https://github.com/openclaw/openclaw/issues/71669",
+        "number": 112320,
+        "title": "Stale exec-approvals.json.lock after unclean shutdown permanently bricks exec (\"security=deny\") — fail-closed stale recovery + container PID-1 reuse",
+        "url": "https://github.com/openclaw/openclaw/issues/112320",
         "state": "open",
-        "author": "profbernardoj",
-        "updatedAt": "2026-07-30T14:31:47Z"
+        "author": "gucasbrg",
+        "updatedAt": "2026-07-30T16:46:24Z"
       },
       {
         "kind": "issue",
-        "number": 71736,
-        "title": "[RFC] Control UI plugin contribution slots",
-        "url": "https://github.com/openclaw/openclaw/issues/71736",
+        "number": 112313,
+        "title": "Dead-lettered outbound delivery queue entries are permanent: every accessor filters status='pending', no CLI/RPC/TTL can clear them",
+        "url": "https://github.com/openclaw/openclaw/issues/112313",
         "state": "open",
-        "author": "100yenadmin",
-        "updatedAt": "2026-07-30T14:31:30Z"
+        "author": "igorrius",
+        "updatedAt": "2026-07-30T16:45:52Z"
       },
       {
         "kind": "issue",
-        "number": 70634,
-        "title": "[Bug]: Human messages get starved in agent lane queues when agents communicate in loops",
-        "url": "https://github.com/openclaw/openclaw/issues/70634",
+        "number": 112304,
+        "title": "[Bug]: 工具调用失败后，微信渠道会话持续无法处理后续消息，必须 /new 才能恢复",
+        "url": "https://github.com/openclaw/openclaw/issues/112304",
         "state": "open",
-        "author": "ewrurwteurwU",
-        "updatedAt": "2026-07-30T14:31:09Z"
+        "author": "Arlinlol",
+        "updatedAt": "2026-07-30T16:45:51Z"
       },
       {
         "kind": "issue",
-        "number": 76089,
-        "title": "[Feature]: I want a Spawn a sub-agent button in web dashboard ui",
-        "url": "https://github.com/openclaw/openclaw/issues/76089",
+        "number": 112317,
+        "title": "[Bug]: Durable ingress can lose exact payload under follow-up queue backpressure",
+        "url": "https://github.com/openclaw/openclaw/issues/112317",
         "state": "open",
-        "author": "cyrus123456",
-        "updatedAt": "2026-07-30T14:30:57Z"
+        "author": "Timofa",
+        "updatedAt": "2026-07-30T16:45:50Z"
       },
       {
         "kind": "issue",
-        "number": 73182,
-        "title": "Reasoning default silently flipped to on for Claude models — doubles Anthropic spend, leaks thinking blocks to chat",
-        "url": "https://github.com/openclaw/openclaw/issues/73182",
+        "number": 105528,
+        "title": "exec/read tools silently return empty output on Windows (v2026.6.x regression)",
+        "url": "https://github.com/openclaw/openclaw/issues/105528",
         "state": "open",
-        "author": "w3i-William",
-        "updatedAt": "2026-07-30T14:30:51Z"
+        "author": "matts524",
+        "updatedAt": "2026-07-30T16:45:49Z"
       },
       {
         "kind": "issue",
-        "number": 75203,
-        "title": "[Bug]: Control UI webchat routes user input into :heartbeat-suffixed session when main session is pruned",
-        "url": "https://github.com/openclaw/openclaw/issues/75203",
+        "number": 111010,
+        "title": "[Bug]: Detached native Codex subagents lose hook relay when parent turn releases",
+        "url": "https://github.com/openclaw/openclaw/issues/111010",
         "state": "open",
-        "author": "JakeSc",
-        "updatedAt": "2026-07-30T14:30:46Z"
+        "author": "ecapuano",
+        "updatedAt": "2026-07-30T16:45:48Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 116401,
-        "title": "fix(signal): infer httpPort from url when absent to prevent daemon-client port mismatch",
-        "url": "https://github.com/openclaw/openclaw/pull/116401",
+        "number": 102165,
+        "title": "fix(feishu): cancel agent runs when source messages are recalled",
+        "url": "https://github.com/openclaw/openclaw/pull/102165",
         "state": "open",
-        "author": "licheer-zte",
-        "updatedAt": "2026-07-30T14:31:38Z"
+        "author": "litang9",
+        "updatedAt": "2026-07-30T16:47:18Z"
       },
       {
         "kind": "pr",
-        "number": 116204,
-        "title": "fix(google): accept base64url provider media",
-        "url": "https://github.com/openclaw/openclaw/pull/116204",
+        "number": 110884,
+        "title": "fix(browser): prove post-action target continuity before adopting a tab",
+        "url": "https://github.com/openclaw/openclaw/pull/110884",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-07-30T14:31:34Z"
+        "author": "piyushbag",
+        "updatedAt": "2026-07-30T16:47:02Z"
       },
       {
         "kind": "pr",
-        "number": 116416,
-        "title": "fix(signal): autoStart uses configured local httpUrl port",
-        "url": "https://github.com/openclaw/openclaw/pull/116416",
+        "number": 110882,
+        "title": "fix(browser): stop screenshot vision-failure fallback from injecting raw base64",
+        "url": "https://github.com/openclaw/openclaw/pull/110882",
+        "state": "open",
+        "author": "piyushbag",
+        "updatedAt": "2026-07-30T16:47:01Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113487,
+        "title": "fix(matrix): migrate dedupe from legacy state databases",
+        "url": "https://github.com/openclaw/openclaw/pull/113487",
+        "state": "open",
+        "author": "bdjben",
+        "updatedAt": "2026-07-30T16:45:56Z"
+      },
+      {
+        "kind": "pr",
+        "number": 116406,
+        "title": "fix(agents): stop requester-owned ACP tasks",
+        "url": "https://github.com/openclaw/openclaw/pull/116406",
         "state": "open",
         "author": "qingminglong",
-        "updatedAt": "2026-07-30T14:31:31Z"
+        "updatedAt": "2026-07-30T16:45:29Z"
       },
       {
         "kind": "pr",
-        "number": 116411,
-        "title": "docs(daytona): guide for hosting OpenClaw in a Daytona sandbox",
-        "url": "https://github.com/openclaw/openclaw/pull/116411",
-        "state": "open",
-        "author": "mislavivanda",
-        "updatedAt": "2026-07-30T14:31:24Z"
-      },
-      {
-        "kind": "pr",
-        "number": 116414,
-        "title": "fix(exec): resolve sandbox-skills workdir paths in container→host mapping",
-        "url": "https://github.com/openclaw/openclaw/pull/116414",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-07-30T14:31:23Z"
-      },
-      {
-        "kind": "pr",
-        "number": 101665,
-        "title": "feat: let plugin tools yield turns",
-        "url": "https://github.com/openclaw/openclaw/pull/101665",
-        "state": "open",
-        "author": "BenGuanRan",
-        "updatedAt": "2026-07-30T14:31:16Z"
+        "number": 109675,
+        "title": "fix(ui): reject nondecimal strings in config form number coercion",
+        "url": "https://github.com/openclaw/openclaw/pull/109675",
+        "state": "closed",
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-07-30T16:43:29Z"
       }
     ]
   }

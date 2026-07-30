@@ -116,6 +116,35 @@ function intervalSeries(data: Snapshot[], key: "closed" | "burnRatio" | "closePe
   return data.map((cur, i) => (i === 0 ? null : intervalMetrics(data[i - 1], cur)[key]));
 }
 
+type Pt = [number, number];
+
+// Catmull-Rom → 三次贝塞尔:把折线变成平滑曲线。
+function smoothPath(pts: Pt[]): string {
+  if (pts.length === 0) return "";
+  if (pts.length === 1) return `M ${pts[0][0]},${pts[0][1]}`;
+  if (pts.length === 2) return `M ${pts[0][0]},${pts[0][1]} L ${pts[1][0]},${pts[1][1]}`;
+  let d = `M ${pts[0][0]},${pts[0][1]}`;
+  for (let i = 0; i < pts.length - 1; i++) {
+    const p0 = pts[i - 1] || pts[i];
+    const p1 = pts[i];
+    const p2 = pts[i + 1];
+    const p3 = pts[i + 2] || p2;
+    const t = 0.18;
+    const c1x = p1[0] + (p2[0] - p0[0]) * t;
+    const c1y = p1[1] + (p2[1] - p0[1]) * t;
+    const c2x = p2[0] - (p3[0] - p1[0]) * t;
+    const c2y = p2[1] - (p3[1] - p1[1]) * t;
+    d += ` C ${c1x},${c1y} ${c2x},${c2y} ${p2[0]},${p2[1]}`;
+  }
+  return d;
+}
+
+// 平滑曲线下方的渐变填充区域(闭合到基线)。
+function areaPath(pts: Pt[], baseY: number): string {
+  if (pts.length < 2) return "";
+  return `${smoothPath(pts)} L ${pts[pts.length - 1][0]},${baseY} L ${pts[0][0]},${baseY} Z`;
+}
+
 function TrendChart({ data }: { data: Snapshot[] }) {
   const [visible, setVisible] = useState({
     issue: true,
@@ -133,8 +162,9 @@ function TrendChart({ data }: { data: Snapshot[] }) {
     pad.left + (index * (width - pad.left - pad.right)) / Math.max(1, data.length - 1);
   const yLeft = (value: number) =>
     pad.top + (1 - value / maxValue) * (height - pad.top - pad.bottom);
-  const openLine = (key: "issueOpen" | "prOpen") =>
-    data.map((item, index) => `${x(index)},${yLeft(item[key])}`).join(" ");
+  const issuePts: Pt[] = data.map((item, index) => [x(index), yLeft(item.issueOpen)]);
+  const prPts: Pt[] = data.map((item, index) => [x(index), yLeft(item.prOpen)]);
+  const baseY = height - pad.bottom;
 
   // 叠加序列各自独立归一化到图高(closed/burn/velocity 量纲不同,无法共用轴)。
   const closedS = intervalSeries(data, "closed");
@@ -177,6 +207,16 @@ function TrendChart({ data }: { data: Snapshot[] }) {
       </div>
       <div className="chart-wrap">
         <svg viewBox={`0 0 ${width} ${height}`} role="img" aria-label="Issue 和 Pull Request 未关闭数量变化折线图">
+          <defs>
+            <linearGradient id="issueArea" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stopColor="#34e1ec" stopOpacity="0.5" />
+              <stop offset="100%" stopColor="#34e1ec" stopOpacity="0" />
+            </linearGradient>
+            <linearGradient id="prArea" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stopColor="#fbb428" stopOpacity="0.42" />
+              <stop offset="100%" stopColor="#fbb428" stopOpacity="0" />
+            </linearGradient>
+          </defs>
           {[0.25, 0.5, 0.75, 1].map((ratio) => (
             <g key={ratio}>
               <line className="grid-line" x1={pad.left} x2={width - pad.right} y1={yLeft(maxValue * ratio)} y2={yLeft(maxValue * ratio)} />
@@ -186,13 +226,15 @@ function TrendChart({ data }: { data: Snapshot[] }) {
           {visible.closed && <polyline className="trend-line closed-line" points={overlay(closedS, yClosed)} />}
           {visible.burn && <polyline className="trend-line burn-line" points={overlay(burnS, yBurn)} />}
           {visible.velocity && <polyline className="trend-line velocity-line" points={overlay(velS, yVel)} />}
-          {visible.issue && <polyline className="trend-line issue-line" points={openLine("issueOpen")} />}
-          {visible.pr && <polyline className="trend-line pr-line" points={openLine("prOpen")} />}
+          {visible.issue && <path className="area-fill" d={areaPath(issuePts, baseY)} fill="url(#issueArea)" />}
+          {visible.pr && <path className="area-fill" d={areaPath(prPts, baseY)} fill="url(#prArea)" />}
+          {visible.issue && <path className="trend-line issue-line" d={smoothPath(issuePts)} />}
+          {visible.pr && <path className="trend-line pr-line" d={smoothPath(prPts)} />}
           {data.map((item, index) => (
             <g key={item.capturedOn}>
               <text className="date-label" x={x(index)} y={height - 20} textAnchor="middle">{dateLabel(item)}</text>
-              {visible.issue && <g className="point issue-point"><circle cx={x(index)} cy={yLeft(item.issueOpen)} r="7" /><text x={x(index)} y={yLeft(item.issueOpen) - 17} textAnchor="middle">{nf.format(item.issueOpen)}</text><title>{`${dateLabel(item)} Issue Open ${nf.format(item.issueOpen)}`}</title></g>}
-              {visible.pr && <g className="point pr-point"><circle cx={x(index)} cy={yLeft(item.prOpen)} r="7" /><text x={x(index)} y={yLeft(item.prOpen) + 29} textAnchor="middle">{nf.format(item.prOpen)}</text><title>{`${dateLabel(item)} PR Open ${nf.format(item.prOpen)}`}</title></g>}
+              {visible.issue && <g className={`point issue-point${index === data.length - 1 ? " live" : ""}`}><circle cx={x(index)} cy={yLeft(item.issueOpen)} r="7" /><text x={x(index)} y={yLeft(item.issueOpen) - 17} textAnchor="middle">{nf.format(item.issueOpen)}</text><title>{`${dateLabel(item)} Issue Open ${nf.format(item.issueOpen)}`}</title></g>}
+              {visible.pr && <g className={`point pr-point${index === data.length - 1 ? " live" : ""}`}><circle cx={x(index)} cy={yLeft(item.prOpen)} r="7" /><text x={x(index)} y={yLeft(item.prOpen) + 29} textAnchor="middle">{nf.format(item.prOpen)}</text><title>{`${dateLabel(item)} PR Open ${nf.format(item.prOpen)}`}</title></g>}
             </g>
           ))}
         </svg>

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-30T22:17:29.996Z",
+  "generatedAt": "2026-07-31T03:49:59.958Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -238,6 +238,23 @@
       "contributors": 3023,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-07-31",
+      "capturedAt": "2026-07-31T03:49:59.958Z",
+      "issueOpen": 3577,
+      "issueClosed": 41861,
+      "prOpen": 2291,
+      "prClosed": 66466,
+      "prMerged": 20744,
+      "workflowRuns": 40000,
+      "stars": 384631,
+      "forks": 80837,
+      "subscribers": 1761,
+      "commits": 74109,
+      "contributors": 3025,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -248,119 +265,127 @@
       "subscribers": 1761,
       "commits": 74026,
       "contributors": 3023
+    },
+    {
+      "capturedOn": "2026-07-31",
+      "stars": 384631,
+      "forks": 80837,
+      "subscribers": 1761,
+      "commits": 74109,
+      "contributors": 3025
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 52130,
-        "title": "[Bug]: restart storm from telegram.retry.jitter type mismatch + misleading doctor SecretRef for Telegram token",
-        "url": "https://github.com/openclaw/openclaw/issues/52130",
+        "number": 105466,
+        "title": "[Feature] Enforce disk space quotas and workspace growth limits on agent sandbox execution",
+        "url": "https://github.com/openclaw/openclaw/issues/105466",
         "state": "open",
-        "author": "skbotoc1-web",
-        "updatedAt": "2026-07-30T22:13:51Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-31T03:49:51Z"
       },
       {
         "kind": "issue",
-        "number": 52928,
-        "title": "feat(gateway): add agents.setDefault RPC method",
-        "url": "https://github.com/openclaw/openclaw/issues/52928",
+        "number": 105203,
+        "title": "[Enhancement]: Dynamically cap metadata lengths in agent steering queue",
+        "url": "https://github.com/openclaw/openclaw/issues/105203",
         "state": "open",
-        "author": "samzong",
-        "updatedAt": "2026-07-30T22:13:31Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-31T03:49:48Z"
       },
       {
         "kind": "issue",
-        "number": 51377,
-        "title": "[Feature]: Support Excel (.xlsx/.xls) and generic binary uploads in gateway / input_file",
-        "url": "https://github.com/openclaw/openclaw/issues/51377",
+        "number": 105621,
+        "title": "[Refactor] Gateway Session Shutdown Tracker: Bounded Memory Footprint, Configurable Timeout, and Safe Abort Signal Handling",
+        "url": "https://github.com/openclaw/openclaw/issues/105621",
         "state": "open",
-        "author": "Sunshinezy311",
-        "updatedAt": "2026-07-30T22:13:28Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-31T03:49:46Z"
       },
       {
         "kind": "issue",
-        "number": 51654,
-        "title": "Support session-level environment variables for ACP sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/51654",
+        "number": 103871,
+        "title": "[Feature]: Preview applied Skill Workshop proposals before approval",
+        "url": "https://github.com/openclaw/openclaw/issues/103871",
         "state": "open",
-        "author": "georgelichen",
-        "updatedAt": "2026-07-30T22:13:10Z"
+        "author": "Glucksberg",
+        "updatedAt": "2026-07-31T03:49:46Z"
       },
       {
         "kind": "issue",
-        "number": 48711,
-        "title": "[Bug]: Task and Memory Recall Is Often Too Weak to Trust Across Real Conversations",
-        "url": "https://github.com/openclaw/openclaw/issues/48711",
+        "number": 104318,
+        "title": "refactor(channels): ChannelAdapter v2 program — transport-only channels, core-owned pipeline",
+        "url": "https://github.com/openclaw/openclaw/issues/104318",
         "state": "open",
-        "author": "WarforgeTech",
-        "updatedAt": "2026-07-30T22:13:05Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-31T03:49:44Z"
       },
       {
         "kind": "issue",
-        "number": 31331,
-        "title": "[Bug]: Docker Install + Sandbox can't workspaceAccess at all",
-        "url": "https://github.com/openclaw/openclaw/issues/31331",
+        "number": 105186,
+        "title": "[Bug]: sanitizeForPromptLiteral destructively strips tabs and newlines",
+        "url": "https://github.com/openclaw/openclaw/issues/105186",
         "state": "open",
-        "author": "jiesou",
-        "updatedAt": "2026-07-30T22:12:58Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-31T03:49:42Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 83988,
-        "title": "fix(tts): defer text settlement for final-mode TTS to eliminate churn (#83511)",
-        "url": "https://github.com/openclaw/openclaw/pull/83988",
+        "number": 101294,
+        "title": "feat: add WhatsApp phone-code login",
+        "url": "https://github.com/openclaw/openclaw/pull/101294",
         "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-07-30T22:17:19Z"
+        "author": "mcaxtr",
+        "updatedAt": "2026-07-31T03:49:48Z"
       },
       {
         "kind": "pr",
-        "number": 97845,
-        "title": "fix: antml:/mm: namespaced tool-call XML leaks into chat replies (#97750)",
-        "url": "https://github.com/openclaw/openclaw/pull/97845",
+        "number": 104845,
+        "title": "Subagent Health v1 — health classification + sweep-driven recovery",
+        "url": "https://github.com/openclaw/openclaw/pull/104845",
         "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-07-30T22:16:36Z"
+        "author": "Yuyorman",
+        "updatedAt": "2026-07-31T03:49:47Z"
       },
       {
         "kind": "pr",
-        "number": 116562,
-        "title": "fix(memory-core): recover primary embedding provider",
-        "url": "https://github.com/openclaw/openclaw/pull/116562",
+        "number": 116184,
+        "title": "fix(ui): hydrate ClawHub security verdicts on Skills first paint (#108647)",
+        "url": "https://github.com/openclaw/openclaw/pull/116184",
         "state": "open",
-        "author": "wenrizc",
-        "updatedAt": "2026-07-30T22:16:02Z"
+        "author": "NanoRisk6",
+        "updatedAt": "2026-07-31T03:49:45Z"
       },
       {
         "kind": "pr",
-        "number": 116548,
-        "title": "fix(auto-reply): keep explicit NO_REPLY silent",
-        "url": "https://github.com/openclaw/openclaw/pull/116548",
+        "number": 105216,
+        "title": "fix: steering queue overhead, watermark dropping, and dedupe mutations",
+        "url": "https://github.com/openclaw/openclaw/pull/105216",
         "state": "open",
-        "author": "sjf-oa",
-        "updatedAt": "2026-07-30T22:15:06Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-31T03:49:45Z"
       },
       {
         "kind": "pr",
-        "number": 115237,
-        "title": "feat(claws): adopt portable profiles and native bootstrap",
-        "url": "https://github.com/openclaw/openclaw/pull/115237",
+        "number": 104525,
+        "title": "chore(skills): sync agent-transcript and crabbox",
+        "url": "https://github.com/openclaw/openclaw/pull/104525",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-30T22:15:05Z"
+        "author": "TheAngryPit",
+        "updatedAt": "2026-07-31T03:49:44Z"
       },
       {
         "kind": "pr",
-        "number": 116572,
-        "title": "fix(media): preserve code block indentation when media is present",
-        "url": "https://github.com/openclaw/openclaw/pull/116572",
+        "number": 104660,
+        "title": "fix: ignore missing channel secrets in doctor preview",
+        "url": "https://github.com/openclaw/openclaw/pull/104660",
         "state": "open",
-        "author": "licheer-zte",
-        "updatedAt": "2026-07-30T22:15:02Z"
+        "author": "DIZ-admin",
+        "updatedAt": "2026-07-31T03:49:35Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-31T12:15:04.645Z",
+  "generatedAt": "2026-07-31T14:35:54.560Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -241,17 +241,17 @@
     },
     {
       "capturedOn": "2026-07-31",
-      "capturedAt": "2026-07-31T12:15:04.645Z",
-      "issueOpen": 3538,
-      "issueClosed": 41926,
-      "prOpen": 2242,
-      "prClosed": 66655,
-      "prMerged": 20867,
+      "capturedAt": "2026-07-31T14:35:54.560Z",
+      "issueOpen": 3542,
+      "issueClosed": 41933,
+      "prOpen": 2235,
+      "prClosed": 66693,
+      "prMerged": 20898,
       "workflowRuns": 40000,
-      "stars": 384672,
-      "forks": 80846,
+      "stars": 384691,
+      "forks": 80851,
       "subscribers": 1762,
-      "commits": 74279,
+      "commits": 74395,
       "contributors": 3030,
       "source": "github-actions",
       "approximateDate": false
@@ -268,10 +268,10 @@
     },
     {
       "capturedOn": "2026-07-31",
-      "stars": 384672,
-      "forks": 80846,
+      "stars": 384691,
+      "forks": 80851,
       "subscribers": 1762,
-      "commits": 74279,
+      "commits": 74395,
       "contributors": 3030
     }
   ],
@@ -279,113 +279,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 87212,
-        "title": "[Bug] v2026.5.22: System envelope footer (\"Sender label echoed for confirmation only…\") echoed verbatim into Telegram outbound on group+topic sessions with audio inbound",
-        "url": "https://github.com/openclaw/openclaw/issues/87212",
+        "number": 87660,
+        "title": "memory: add lifecycle-aware LLM curation for MEMORY.md",
+        "url": "https://github.com/openclaw/openclaw/issues/87660",
         "state": "open",
-        "author": "lucasudar",
-        "updatedAt": "2026-07-31T12:14:57Z"
+        "author": "a-m-a-r-a",
+        "updatedAt": "2026-07-31T14:34:56Z"
       },
       {
         "kind": "issue",
-        "number": 111799,
-        "title": "active-memory: ~45% timeout rate and zero cached results during agent turns (2026.7.1-2)",
-        "url": "https://github.com/openclaw/openclaw/issues/111799",
+        "number": 112974,
+        "title": "Bug: mimo-v2.5 8192 maxTokens triggers false 'couldn't generate a response' on complex agentic tasks",
+        "url": "https://github.com/openclaw/openclaw/issues/112974",
         "state": "open",
-        "author": "chrislro",
-        "updatedAt": "2026-07-31T12:14:10Z"
+        "author": "JIRBOY",
+        "updatedAt": "2026-07-31T14:33:37Z"
       },
       {
         "kind": "issue",
-        "number": 115908,
-        "title": "Session transcript projection reconcile can livelock under sustained writes, blocking the main thread and stalling all channel transports",
-        "url": "https://github.com/openclaw/openclaw/issues/115908",
+        "number": 112736,
+        "title": "Chrome extension: WebSocket connection failures silently accumulate in the extension error badge",
+        "url": "https://github.com/openclaw/openclaw/issues/112736",
         "state": "open",
-        "author": "CanadaOrNaw",
-        "updatedAt": "2026-07-31T12:12:58Z"
+        "author": "mkmsyk",
+        "updatedAt": "2026-07-31T14:33:09Z"
       },
       {
         "kind": "issue",
-        "number": 111999,
-        "title": "[Bug]: Generated-media completion delivery to iMessage DMs targets synthetic `iMessage;-;` GUID — Messages rejects with -1728, attachment silently never delivered",
-        "url": "https://github.com/openclaw/openclaw/issues/111999",
+        "number": 110346,
+        "title": "[Bug]: message send --media applies inconsistent local-media allowlist between WhatsApp and Telegram (same path, same invocation)",
+        "url": "https://github.com/openclaw/openclaw/issues/110346",
         "state": "open",
-        "author": "lockhartheavyindustries",
-        "updatedAt": "2026-07-31T12:12:44Z"
-      },
-      {
-        "kind": "issue",
-        "number": 111939,
-        "title": "iOS Talk voice responses do not play (text arrives, TTS silent)",
-        "url": "https://github.com/openclaw/openclaw/issues/111939",
-        "state": "open",
-        "author": "themarkpenney",
-        "updatedAt": "2026-07-31T12:12:42Z"
-      },
-      {
-        "kind": "issue",
-        "number": 115575,
-        "title": "[Bug]: Codex sandbox bridge misses environment/info and mishandles PathUri cwd",
-        "url": "https://github.com/openclaw/openclaw/issues/115575",
-        "state": "open",
-        "author": "Zuassistant",
-        "updatedAt": "2026-07-31T12:12:40Z"
+        "author": "redasadki",
+        "updatedAt": "2026-07-31T14:33:06Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 116828,
-        "title": "fix(qa-lab): reject blocked evidence and invalid media artifacts",
-        "url": "https://github.com/openclaw/openclaw/pull/116828",
+        "number": 116873,
+        "title": "fix(tui): keep reset transitions isolated from stale input",
+        "url": "https://github.com/openclaw/openclaw/pull/116873",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-31T12:14:58Z"
+        "updatedAt": "2026-07-31T14:35:45Z"
       },
       {
         "kind": "pr",
-        "number": 116826,
-        "title": "fix(ci): stop upstream-only scheduled lanes from running in forks",
-        "url": "https://github.com/openclaw/openclaw/pull/116826",
+        "number": 112362,
+        "title": "fix(skills): allow skills browse commands with invalid config",
+        "url": "https://github.com/openclaw/openclaw/pull/112362",
         "state": "open",
-        "author": "masatohoshino",
-        "updatedAt": "2026-07-31T12:15:01Z"
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-07-31T14:35:27Z"
       },
       {
         "kind": "pr",
-        "number": 116819,
-        "title": "fix(daemon): report real service removal failures across platforms",
-        "url": "https://github.com/openclaw/openclaw/pull/116819",
+        "number": 116660,
+        "title": "fix(slack): preserve context in group DM thread follow-ups",
+        "url": "https://github.com/openclaw/openclaw/pull/116660",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-31T12:14:25Z"
+        "author": "harjothkhara",
+        "updatedAt": "2026-07-31T14:35:10Z"
       },
       {
         "kind": "pr",
-        "number": 116595,
-        "title": "chore(deps): bump the actions group across 1 directory with 7 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/116595",
+        "number": 116683,
+        "title": "fix(clickclack): show native agent progress while replying",
+        "url": "https://github.com/openclaw/openclaw/pull/116683",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-07-31T12:14:23Z"
+        "author": "jjjhenriksen",
+        "updatedAt": "2026-07-31T14:35:09Z"
       },
       {
         "kind": "pr",
-        "number": 116808,
-        "title": "feat(providers): add llama-server integration",
-        "url": "https://github.com/openclaw/openclaw/pull/116808",
+        "number": 112652,
+        "title": "fix(googlechat): bypass proxies for spaced NO_PROXY hosts",
+        "url": "https://github.com/openclaw/openclaw/pull/112652",
         "state": "open",
-        "author": "osolmaz",
-        "updatedAt": "2026-07-31T12:13:59Z"
+        "author": "LZY3538",
+        "updatedAt": "2026-07-31T14:34:43Z"
       },
       {
         "kind": "pr",
-        "number": 116813,
-        "title": "feat(plugins): externalize Vydra provider",
-        "url": "https://github.com/openclaw/openclaw/pull/116813",
+        "number": 105550,
+        "title": "feat(memory-wiki): add wiki_open_items tool to list unresolved questions and contradictions",
+        "url": "https://github.com/openclaw/openclaw/pull/105550",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-07-31T12:13:53Z"
+        "author": "kip-claw",
+        "updatedAt": "2026-07-31T14:34:43Z"
       }
     ]
   }

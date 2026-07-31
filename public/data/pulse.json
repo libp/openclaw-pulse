@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-31T18:43:55.118Z",
+  "generatedAt": "2026-07-31T20:36:38.873Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -241,18 +241,18 @@
     },
     {
       "capturedOn": "2026-07-31",
-      "capturedAt": "2026-07-31T18:43:55.118Z",
-      "issueOpen": 3541,
-      "issueClosed": 41957,
-      "prOpen": 2246,
-      "prClosed": 66773,
-      "prMerged": 20950,
+      "capturedAt": "2026-07-31T20:36:38.873Z",
+      "issueOpen": 3534,
+      "issueClosed": 41965,
+      "prOpen": 2255,
+      "prClosed": 66808,
+      "prMerged": 20979,
       "workflowRuns": 40000,
-      "stars": 384715,
-      "forks": 80857,
+      "stars": 384723,
+      "forks": 80855,
       "subscribers": 1762,
-      "commits": 74473,
-      "contributors": 3031,
+      "commits": 74538,
+      "contributors": 3032,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -268,106 +268,124 @@
     },
     {
       "capturedOn": "2026-07-31",
-      "stars": 384715,
-      "forks": 80857,
+      "stars": 384723,
+      "forks": 80855,
       "subscribers": 1762,
-      "commits": 74473,
-      "contributors": 3031
+      "commits": 74538,
+      "contributors": 3032
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 87325,
-        "title": "Support Azure Foundry GPT Realtime Talk via gateway relay",
-        "url": "https://github.com/openclaw/openclaw/issues/87325",
+        "number": 94536,
+        "title": "PR #92231 fix incomplete — commitment marked 'sent' but never delivered (second case)",
+        "url": "https://github.com/openclaw/openclaw/issues/94536",
         "state": "open",
-        "author": "BSG2000",
-        "updatedAt": "2026-07-31T18:43:46Z"
+        "author": "bizzle12368239",
+        "updatedAt": "2026-07-31T20:33:45Z"
       },
       {
         "kind": "issue",
-        "number": 69408,
-        "title": "[agents/loop-detection]: downgrade Loop warning log level to info for isolated sessions with lifetime <= cron interval",
-        "url": "https://github.com/openclaw/openclaw/issues/69408",
+        "number": 103506,
+        "title": "[Bug]: New macOS app overlaps controls served by an older Gateway",
+        "url": "https://github.com/openclaw/openclaw/issues/103506",
         "state": "open",
-        "author": "cjplanted",
-        "updatedAt": "2026-07-31T18:43:44Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-31T20:31:57Z"
       },
       {
         "kind": "issue",
-        "number": 93278,
-        "title": "Skill Workshop lifecycle actions need symmetric owner-approval paths",
-        "url": "https://github.com/openclaw/openclaw/issues/93278",
+        "number": 82190,
+        "title": "Bootstrap loader: add VESSEL.md to the auto-injected workspace files",
+        "url": "https://github.com/openclaw/openclaw/issues/82190",
         "state": "open",
-        "author": "shannon0430",
-        "updatedAt": "2026-07-31T18:43:31Z"
+        "author": "gregstiehl",
+        "updatedAt": "2026-07-31T20:31:56Z"
       },
       {
         "kind": "issue",
-        "number": 116371,
-        "title": "sessions.changed never reaches plugin gatewayEvents.onSessionsChanged subscribers unless a client also holds a sessions.subscribe RPC subscription",
-        "url": "https://github.com/openclaw/openclaw/issues/116371",
+        "number": 81518,
+        "title": "[Bug]: Discord voice: UnencryptedWhenPassthroughDisabled + lastTransitionId===0 breaks voice reception (DAVE mandatory since April 2026)",
+        "url": "https://github.com/openclaw/openclaw/issues/81518",
         "state": "open",
-        "author": "xyrolle",
-        "updatedAt": "2026-07-31T18:43:24Z"
+        "author": "warcold",
+        "updatedAt": "2026-07-31T20:31:40Z"
+      },
+      {
+        "kind": "issue",
+        "number": 97764,
+        "title": "Rate-limit cooldown ignores provider reset timestamp; rotation cap too aggressive for multi-key providers",
+        "url": "https://github.com/openclaw/openclaw/issues/97764",
+        "state": "open",
+        "author": "mathias15010",
+        "updatedAt": "2026-07-31T20:31:18Z"
+      },
+      {
+        "kind": "issue",
+        "number": 83173,
+        "title": "Add user-visible confidence signal when AI retrieves info from low-confidence memory entries",
+        "url": "https://github.com/openclaw/openclaw/issues/83173",
+        "state": "open",
+        "author": "warren2008-2020-spec",
+        "updatedAt": "2026-07-31T20:31:11Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 116875,
-        "title": "fix: gateway restart fails and leaves the macOS LaunchAgent unloaded when the gateway drains active work",
-        "url": "https://github.com/openclaw/openclaw/pull/116875",
+        "number": 117034,
+        "title": "feat(audit): add execution identity inspection",
+        "url": "https://github.com/openclaw/openclaw/pull/117034",
         "state": "open",
-        "author": "ctbritt",
-        "updatedAt": "2026-07-31T18:43:48Z"
+        "author": "joshavant",
+        "updatedAt": "2026-07-31T20:36:35Z"
       },
       {
         "kind": "pr",
-        "number": 97566,
-        "title": "feat: add Pioneer.ai as an inference provider with live model discovery",
-        "url": "https://github.com/openclaw/openclaw/pull/97566",
+        "number": 117033,
+        "title": "chore(msteams): add private Gateway QA adapter",
+        "url": "https://github.com/openclaw/openclaw/pull/117033",
         "state": "open",
-        "author": "samrathreddy",
-        "updatedAt": "2026-07-31T18:43:43Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-07-31T20:36:30Z"
       },
       {
         "kind": "pr",
-        "number": 80805,
-        "title": "SUP-1563 restore channel responsiveness health",
-        "url": "https://github.com/openclaw/openclaw/pull/80805",
+        "number": 117031,
+        "title": "fix(mattermost): preserve streaming answer when tool-error warning fo…",
+        "url": "https://github.com/openclaw/openclaw/pull/117031",
         "state": "open",
-        "author": "levineam",
-        "updatedAt": "2026-07-31T18:43:39Z"
+        "author": "NarahariRaghava",
+        "updatedAt": "2026-07-31T20:36:28Z"
       },
       {
         "kind": "pr",
-        "number": 96800,
-        "title": "fix(qa-lab): add live turn timeout env override",
-        "url": "https://github.com/openclaw/openclaw/pull/96800",
+        "number": 107375,
+        "title": "Durable Core PR 1/6: define the residual-gap RFC",
+        "url": "https://github.com/openclaw/openclaw/pull/107375",
         "state": "open",
-        "author": "clawSean",
-        "updatedAt": "2026-07-31T18:43:25Z"
+        "author": "mjnkao",
+        "updatedAt": "2026-07-31T20:36:27Z"
       },
       {
         "kind": "pr",
-        "number": 116873,
-        "title": "fix(tui): keep reset transitions isolated from stale input",
-        "url": "https://github.com/openclaw/openclaw/pull/116873",
+        "number": 116976,
+        "title": "docs: replace retired hostnameAllowlist in browser-control example",
+        "url": "https://github.com/openclaw/openclaw/pull/116976",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-31T18:43:20Z"
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-07-31T20:36:24Z"
       },
       {
         "kind": "pr",
-        "number": 114174,
-        "title": "fix(workboard): stop minting unrestricted cards from caller authority",
-        "url": "https://github.com/openclaw/openclaw/pull/114174",
+        "number": 116982,
+        "title": "Skillfy install scan hardening",
+        "url": "https://github.com/openclaw/openclaw/pull/116982",
         "state": "open",
-        "author": "zilokki-bot",
-        "updatedAt": "2026-07-31T18:43:16Z"
+        "author": "elharonyclaw",
+        "updatedAt": "2026-07-31T20:36:23Z"
       }
     ]
   }

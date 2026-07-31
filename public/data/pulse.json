@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-31T16:55:45.636Z",
+  "generatedAt": "2026-07-31T18:43:55.118Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -241,18 +241,18 @@
     },
     {
       "capturedOn": "2026-07-31",
-      "capturedAt": "2026-07-31T16:55:45.636Z",
-      "issueOpen": 3550,
-      "issueClosed": 41942,
-      "prOpen": 2248,
-      "prClosed": 66748,
-      "prMerged": 20940,
+      "capturedAt": "2026-07-31T18:43:55.118Z",
+      "issueOpen": 3541,
+      "issueClosed": 41957,
+      "prOpen": 2246,
+      "prClosed": 66773,
+      "prMerged": 20950,
       "workflowRuns": 40000,
-      "stars": 384702,
-      "forks": 80855,
+      "stars": 384715,
+      "forks": 80857,
       "subscribers": 1762,
-      "commits": 74454,
-      "contributors": 3030,
+      "commits": 74473,
+      "contributors": 3031,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -268,124 +268,106 @@
     },
     {
       "capturedOn": "2026-07-31",
-      "stars": 384702,
-      "forks": 80855,
+      "stars": 384715,
+      "forks": 80857,
       "subscribers": 1762,
-      "commits": 74454,
-      "contributors": 3030
+      "commits": 74473,
+      "contributors": 3031
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 116950,
-        "title": "[Bug]: macOS gateway restart fails because restart-stale-pids lsof timeout is too low",
-        "url": "https://github.com/openclaw/openclaw/issues/116950",
+        "number": 87325,
+        "title": "Support Azure Foundry GPT Realtime Talk via gateway relay",
+        "url": "https://github.com/openclaw/openclaw/issues/87325",
         "state": "open",
-        "author": "NirvanaCh7",
-        "updatedAt": "2026-07-31T16:55:14Z"
+        "author": "BSG2000",
+        "updatedAt": "2026-07-31T18:43:46Z"
       },
       {
         "kind": "issue",
-        "number": 116952,
-        "title": "[Bug]: Config-write guard blocks intentional large-shrink writes (e.g. Disable All skills) with no override",
-        "url": "https://github.com/openclaw/openclaw/issues/116952",
+        "number": 69408,
+        "title": "[agents/loop-detection]: downgrade Loop warning log level to info for isolated sessions with lifetime <= cron interval",
+        "url": "https://github.com/openclaw/openclaw/issues/69408",
         "state": "open",
-        "author": "autoscriptlabs",
-        "updatedAt": "2026-07-31T16:55:10Z"
+        "author": "cjplanted",
+        "updatedAt": "2026-07-31T18:43:44Z"
       },
       {
         "kind": "issue",
-        "number": 116949,
-        "title": "[Bug]: run_stalled/stuck_recovery falsely reports \"gateway overloaded\" without overload evidence",
-        "url": "https://github.com/openclaw/openclaw/issues/116949",
+        "number": 93278,
+        "title": "Skill Workshop lifecycle actions need symmetric owner-approval paths",
+        "url": "https://github.com/openclaw/openclaw/issues/93278",
         "state": "open",
-        "author": "aaajiao",
-        "updatedAt": "2026-07-31T16:55:08Z"
+        "author": "shannon0430",
+        "updatedAt": "2026-07-31T18:43:31Z"
       },
       {
         "kind": "issue",
-        "number": 93199,
-        "title": "memory_search fails in non-default agent session while CLI --agent search works; current session resolves inconsistently",
-        "url": "https://github.com/openclaw/openclaw/issues/93199",
+        "number": 116371,
+        "title": "sessions.changed never reaches plugin gatewayEvents.onSessionsChanged subscribers unless a client also holds a sessions.subscribe RPC subscription",
+        "url": "https://github.com/openclaw/openclaw/issues/116371",
         "state": "open",
-        "author": "chaboncarpentier-blip",
-        "updatedAt": "2026-07-31T16:54:57Z"
-      },
-      {
-        "kind": "issue",
-        "number": 115475,
-        "title": "[Bug]: \\openclaw gateway restart\\ invoked by the agent (via exec) almost always fails and needs the user to run it manually — only succeeds very rarely",
-        "url": "https://github.com/openclaw/openclaw/issues/115475",
-        "state": "open",
-        "author": "mmhzlrj",
-        "updatedAt": "2026-07-31T16:54:45Z"
-      },
-      {
-        "kind": "issue",
-        "number": 111856,
-        "title": "Compaction summarization bypasses per-turn image-history pruning, can overflow context",
-        "url": "https://github.com/openclaw/openclaw/issues/111856",
-        "state": "open",
-        "author": "nierob-cmd",
-        "updatedAt": "2026-07-31T16:54:30Z"
+        "author": "xyrolle",
+        "updatedAt": "2026-07-31T18:43:24Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113188,
-        "title": "fix(agents): preserve prompt prefix caching during A2A handoffs",
-        "url": "https://github.com/openclaw/openclaw/pull/113188",
+        "number": 116875,
+        "title": "fix: gateway restart fails and leaves the macOS LaunchAgent unloaded when the gateway drains active work",
+        "url": "https://github.com/openclaw/openclaw/pull/116875",
         "state": "open",
-        "author": "Iitian001",
-        "updatedAt": "2026-07-31T16:55:40Z"
+        "author": "ctbritt",
+        "updatedAt": "2026-07-31T18:43:48Z"
       },
       {
         "kind": "pr",
-        "number": 116927,
-        "title": "fix(nodes): return truthful bounded camera and photo outcomes",
-        "url": "https://github.com/openclaw/openclaw/pull/116927",
+        "number": 97566,
+        "title": "feat: add Pioneer.ai as an inference provider with live model discovery",
+        "url": "https://github.com/openclaw/openclaw/pull/97566",
+        "state": "open",
+        "author": "samrathreddy",
+        "updatedAt": "2026-07-31T18:43:43Z"
+      },
+      {
+        "kind": "pr",
+        "number": 80805,
+        "title": "SUP-1563 restore channel responsiveness health",
+        "url": "https://github.com/openclaw/openclaw/pull/80805",
+        "state": "open",
+        "author": "levineam",
+        "updatedAt": "2026-07-31T18:43:39Z"
+      },
+      {
+        "kind": "pr",
+        "number": 96800,
+        "title": "fix(qa-lab): add live turn timeout env override",
+        "url": "https://github.com/openclaw/openclaw/pull/96800",
+        "state": "open",
+        "author": "clawSean",
+        "updatedAt": "2026-07-31T18:43:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 116873,
+        "title": "fix(tui): keep reset transitions isolated from stale input",
+        "url": "https://github.com/openclaw/openclaw/pull/116873",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-31T16:55:38Z"
+        "updatedAt": "2026-07-31T18:43:20Z"
       },
       {
         "kind": "pr",
-        "number": 97175,
-        "title": "fix(context-engine): bound deferred turn maintenance with a per-task timeout (AI-assisted)",
-        "url": "https://github.com/openclaw/openclaw/pull/97175",
+        "number": 114174,
+        "title": "fix(workboard): stop minting unrestricted cards from caller authority",
+        "url": "https://github.com/openclaw/openclaw/pull/114174",
         "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-07-31T16:55:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 89039,
-        "title": "fix: prevent silent message loss from EmbeddedAttemptSessionTakeoverError",
-        "url": "https://github.com/openclaw/openclaw/pull/89039",
-        "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-07-31T16:55:29Z"
-      },
-      {
-        "kind": "pr",
-        "number": 116806,
-        "title": "fix(cron): redact split login codes in external delivery",
-        "url": "https://github.com/openclaw/openclaw/pull/116806",
-        "state": "open",
-        "author": "Leon-SK668",
-        "updatedAt": "2026-07-31T16:55:14Z"
-      },
-      {
-        "kind": "pr",
-        "number": 101819,
-        "title": "Feat: Add Trivy SBOM and vulnerability scanning to Docker release",
-        "url": "https://github.com/openclaw/openclaw/pull/101819",
-        "state": "open",
-        "author": "cooktheryan",
-        "updatedAt": "2026-07-31T16:55:13Z"
+        "author": "zilokki-bot",
+        "updatedAt": "2026-07-31T18:43:16Z"
       }
     ]
   }

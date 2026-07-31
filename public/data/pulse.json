@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-31T03:49:59.958Z",
+  "generatedAt": "2026-07-31T07:12:35.349Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -241,17 +241,17 @@
     },
     {
       "capturedOn": "2026-07-31",
-      "capturedAt": "2026-07-31T03:49:59.958Z",
-      "issueOpen": 3577,
-      "issueClosed": 41861,
-      "prOpen": 2291,
-      "prClosed": 66466,
-      "prMerged": 20744,
+      "capturedAt": "2026-07-31T07:12:35.349Z",
+      "issueOpen": 3562,
+      "issueClosed": 41886,
+      "prOpen": 2254,
+      "prClosed": 66537,
+      "prMerged": 20783,
       "workflowRuns": 40000,
-      "stars": 384631,
-      "forks": 80837,
-      "subscribers": 1761,
-      "commits": 74109,
+      "stars": 384638,
+      "forks": 80844,
+      "subscribers": 1762,
+      "commits": 74153,
       "contributors": 3025,
       "source": "github-actions",
       "approximateDate": false
@@ -268,10 +268,10 @@
     },
     {
       "capturedOn": "2026-07-31",
-      "stars": 384631,
-      "forks": 80837,
-      "subscribers": 1761,
-      "commits": 74109,
+      "stars": 384638,
+      "forks": 80844,
+      "subscribers": 1762,
+      "commits": 74153,
       "contributors": 3025
     }
   ],
@@ -279,113 +279,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 105466,
-        "title": "[Feature] Enforce disk space quotas and workspace growth limits on agent sandbox execution",
-        "url": "https://github.com/openclaw/openclaw/issues/105466",
+        "number": 14629,
+        "title": "Output sanitizer: improve duplicate detection for same-line and partial duplicates",
+        "url": "https://github.com/openclaw/openclaw/issues/14629",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-31T03:49:51Z"
+        "author": "communityorg-discord",
+        "updatedAt": "2026-07-31T07:12:28Z"
       },
       {
         "kind": "issue",
-        "number": 105203,
-        "title": "[Enhancement]: Dynamically cap metadata lengths in agent steering queue",
-        "url": "https://github.com/openclaw/openclaw/issues/105203",
+        "number": 14619,
+        "title": "[Feature]: Option to skip tool list text in system prompt (reduce duplication)",
+        "url": "https://github.com/openclaw/openclaw/issues/14619",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-31T03:49:48Z"
+        "author": "JasperMcGarry",
+        "updatedAt": "2026-07-31T07:11:51Z"
       },
       {
         "kind": "issue",
-        "number": 105621,
-        "title": "[Refactor] Gateway Session Shutdown Tracker: Bounded Memory Footprint, Configurable Timeout, and Safe Abort Signal Handling",
-        "url": "https://github.com/openclaw/openclaw/issues/105621",
+        "number": 14526,
+        "title": "Proposal: safer self-update with pre-update backup + health check + auto-rollback/restore",
+        "url": "https://github.com/openclaw/openclaw/issues/14526",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-31T03:49:46Z"
+        "author": "sovushik",
+        "updatedAt": "2026-07-31T07:11:17Z"
       },
       {
         "kind": "issue",
-        "number": 103871,
-        "title": "[Feature]: Preview applied Skill Workshop proposals before approval",
-        "url": "https://github.com/openclaw/openclaw/issues/103871",
+        "number": 14438,
+        "title": "[Feature]: Plugin hot-reload without container restart (jiti cache invalidation)",
+        "url": "https://github.com/openclaw/openclaw/issues/14438",
         "state": "open",
-        "author": "Glucksberg",
-        "updatedAt": "2026-07-31T03:49:46Z"
+        "author": "badespider",
+        "updatedAt": "2026-07-31T07:10:48Z"
       },
       {
         "kind": "issue",
-        "number": 104318,
-        "title": "refactor(channels): ChannelAdapter v2 program — transport-only channels, core-owned pipeline",
-        "url": "https://github.com/openclaw/openclaw/issues/104318",
+        "number": 14407,
+        "title": "[Feature]: Integrate password toggle functionality across all platforms to let users see password in clear text",
+        "url": "https://github.com/openclaw/openclaw/issues/14407",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-31T03:49:44Z"
+        "author": "gibtang",
+        "updatedAt": "2026-07-31T07:10:33Z"
       },
       {
         "kind": "issue",
-        "number": 105186,
-        "title": "[Bug]: sanitizeForPromptLiteral destructively strips tabs and newlines",
-        "url": "https://github.com/openclaw/openclaw/issues/105186",
+        "number": 14376,
+        "title": "Feature: Reason-aware cron guardrails (quota/auth/rate-limit aware backoff + circuit breaker)",
+        "url": "https://github.com/openclaw/openclaw/issues/14376",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-31T03:49:42Z"
+        "author": "futuremind2026",
+        "updatedAt": "2026-07-31T07:10:00Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 101294,
-        "title": "feat: add WhatsApp phone-code login",
-        "url": "https://github.com/openclaw/openclaw/pull/101294",
+        "number": 116705,
+        "title": "[AI] fix(build): fail closed on symlinked build output roots",
+        "url": "https://github.com/openclaw/openclaw/pull/116705",
         "state": "open",
-        "author": "mcaxtr",
-        "updatedAt": "2026-07-31T03:49:48Z"
+        "author": "wangyan2026",
+        "updatedAt": "2026-07-31T07:12:29Z"
       },
       {
         "kind": "pr",
-        "number": 104845,
-        "title": "Subagent Health v1 — health classification + sweep-driven recovery",
-        "url": "https://github.com/openclaw/openclaw/pull/104845",
+        "number": 116517,
+        "title": "fix(memory-wiki): preserve user edits when rolling back ChatGPT imports",
+        "url": "https://github.com/openclaw/openclaw/pull/116517",
         "state": "open",
-        "author": "Yuyorman",
-        "updatedAt": "2026-07-31T03:49:47Z"
+        "author": "yetval",
+        "updatedAt": "2026-07-31T07:12:25Z"
       },
       {
         "kind": "pr",
-        "number": 116184,
-        "title": "fix(ui): hydrate ClawHub security verdicts on Skills first paint (#108647)",
-        "url": "https://github.com/openclaw/openclaw/pull/116184",
+        "number": 116687,
+        "title": "feat(diagnostics): configure OTEL metric name prefixes",
+        "url": "https://github.com/openclaw/openclaw/pull/116687",
         "state": "open",
-        "author": "NanoRisk6",
-        "updatedAt": "2026-07-31T03:49:45Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-07-31T07:12:20Z"
       },
       {
         "kind": "pr",
-        "number": 105216,
-        "title": "fix: steering queue overhead, watermark dropping, and dedupe mutations",
-        "url": "https://github.com/openclaw/openclaw/pull/105216",
+        "number": 97175,
+        "title": "fix(context-engine): bound deferred turn maintenance with a per-task timeout (AI-assisted)",
+        "url": "https://github.com/openclaw/openclaw/pull/97175",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-31T03:49:45Z"
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-07-31T07:12:20Z"
       },
       {
         "kind": "pr",
-        "number": 104525,
-        "title": "chore(skills): sync agent-transcript and crabbox",
-        "url": "https://github.com/openclaw/openclaw/pull/104525",
+        "number": 116600,
+        "title": "fix(edit): preserve original bytes outside fuzzy-match replacement span",
+        "url": "https://github.com/openclaw/openclaw/pull/116600",
         "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-07-31T03:49:44Z"
+        "author": "licheer-zte",
+        "updatedAt": "2026-07-31T07:12:03Z"
       },
       {
         "kind": "pr",
-        "number": 104660,
-        "title": "fix: ignore missing channel secrets in doctor preview",
-        "url": "https://github.com/openclaw/openclaw/pull/104660",
+        "number": 116195,
+        "title": "fix(session): preserve reset message payloads",
+        "url": "https://github.com/openclaw/openclaw/pull/116195",
         "state": "open",
-        "author": "DIZ-admin",
-        "updatedAt": "2026-07-31T03:49:35Z"
+        "author": "yetval",
+        "updatedAt": "2026-07-31T07:12:00Z"
       }
     ]
   }

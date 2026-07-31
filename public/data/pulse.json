@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-31T20:36:38.873Z",
+  "generatedAt": "2026-07-31T22:15:03.040Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -241,17 +241,17 @@
     },
     {
       "capturedOn": "2026-07-31",
-      "capturedAt": "2026-07-31T20:36:38.873Z",
-      "issueOpen": 3534,
-      "issueClosed": 41965,
-      "prOpen": 2255,
-      "prClosed": 66808,
-      "prMerged": 20979,
+      "capturedAt": "2026-07-31T22:15:03.040Z",
+      "issueOpen": 3510,
+      "issueClosed": 41994,
+      "prOpen": 2250,
+      "prClosed": 66842,
+      "prMerged": 21001,
       "workflowRuns": 40000,
-      "stars": 384723,
-      "forks": 80855,
+      "stars": 384728,
+      "forks": 80858,
       "subscribers": 1762,
-      "commits": 74538,
+      "commits": 74560,
       "contributors": 3032,
       "source": "github-actions",
       "approximateDate": false
@@ -268,10 +268,10 @@
     },
     {
       "capturedOn": "2026-07-31",
-      "stars": 384723,
-      "forks": 80855,
+      "stars": 384728,
+      "forks": 80858,
       "subscribers": 1762,
-      "commits": 74538,
+      "commits": 74560,
       "contributors": 3032
     }
   ],
@@ -279,113 +279,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 94536,
-        "title": "PR #92231 fix incomplete — commitment marked 'sent' but never delivered (second case)",
-        "url": "https://github.com/openclaw/openclaw/issues/94536",
+        "number": 90786,
+        "title": "[Bug]: memory status --index and --deep fail with \"Unknown memory embedding provider: google\" on 2026.6.1",
+        "url": "https://github.com/openclaw/openclaw/issues/90786",
         "state": "open",
-        "author": "bizzle12368239",
-        "updatedAt": "2026-07-31T20:33:45Z"
+        "author": "fenglanhua",
+        "updatedAt": "2026-07-31T22:14:02Z"
       },
       {
         "kind": "issue",
-        "number": 103506,
-        "title": "[Bug]: New macOS app overlaps controls served by an older Gateway",
-        "url": "https://github.com/openclaw/openclaw/issues/103506",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-31T20:31:57Z"
+        "number": 110171,
+        "title": "feat(talk/realtime): voice chat should behave identically to text chat — context parity for agent-consult sessions",
+        "url": "https://github.com/openclaw/openclaw/issues/110171",
+        "state": "closed",
+        "author": "JeffSteinbok",
+        "updatedAt": "2026-07-31T22:14:00Z"
       },
       {
         "kind": "issue",
-        "number": 82190,
-        "title": "Bootstrap loader: add VESSEL.md to the auto-injected workspace files",
-        "url": "https://github.com/openclaw/openclaw/issues/82190",
+        "number": 117052,
+        "title": "[Feature]: Preserve cross-owner recovery facts for accepted agent work",
+        "url": "https://github.com/openclaw/openclaw/issues/117052",
         "state": "open",
-        "author": "gregstiehl",
-        "updatedAt": "2026-07-31T20:31:56Z"
-      },
-      {
-        "kind": "issue",
-        "number": 81518,
-        "title": "[Bug]: Discord voice: UnencryptedWhenPassthroughDisabled + lastTransitionId===0 breaks voice reception (DAVE mandatory since April 2026)",
-        "url": "https://github.com/openclaw/openclaw/issues/81518",
-        "state": "open",
-        "author": "warcold",
-        "updatedAt": "2026-07-31T20:31:40Z"
-      },
-      {
-        "kind": "issue",
-        "number": 97764,
-        "title": "Rate-limit cooldown ignores provider reset timestamp; rotation cap too aggressive for multi-key providers",
-        "url": "https://github.com/openclaw/openclaw/issues/97764",
-        "state": "open",
-        "author": "mathias15010",
-        "updatedAt": "2026-07-31T20:31:18Z"
-      },
-      {
-        "kind": "issue",
-        "number": 83173,
-        "title": "Add user-visible confidence signal when AI retrieves info from low-confidence memory entries",
-        "url": "https://github.com/openclaw/openclaw/issues/83173",
-        "state": "open",
-        "author": "warren2008-2020-spec",
-        "updatedAt": "2026-07-31T20:31:11Z"
+        "author": "mjnkao",
+        "updatedAt": "2026-07-31T22:13:11Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 117034,
-        "title": "feat(audit): add execution identity inspection",
-        "url": "https://github.com/openclaw/openclaw/pull/117034",
+        "number": 116958,
+        "title": "fix(memory): suggest reindex, not --fix, for a missing qmd index",
+        "url": "https://github.com/openclaw/openclaw/pull/116958",
+        "state": "closed",
+        "author": "chelsealong",
+        "updatedAt": "2026-07-31T22:15:00Z"
+      },
+      {
+        "kind": "pr",
+        "number": 116805,
+        "title": "fix(discord): prevent REST failures from exposing credentials",
+        "url": "https://github.com/openclaw/openclaw/pull/116805",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-07-31T20:36:35Z"
+        "author": "Leon-SK668",
+        "updatedAt": "2026-07-31T22:14:57Z"
       },
       {
         "kind": "pr",
         "number": 117033,
         "title": "chore(msteams): add private Gateway QA adapter",
         "url": "https://github.com/openclaw/openclaw/pull/117033",
-        "state": "open",
+        "state": "closed",
         "author": "vincentkoc",
-        "updatedAt": "2026-07-31T20:36:30Z"
+        "updatedAt": "2026-07-31T22:14:53Z"
       },
       {
         "kind": "pr",
-        "number": 117031,
-        "title": "fix(mattermost): preserve streaming answer when tool-error warning fo…",
-        "url": "https://github.com/openclaw/openclaw/pull/117031",
+        "number": 115237,
+        "title": "feat(claws): adopt portable profiles and native bootstrap",
+        "url": "https://github.com/openclaw/openclaw/pull/115237",
         "state": "open",
-        "author": "NarahariRaghava",
-        "updatedAt": "2026-07-31T20:36:28Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-31T22:14:47Z"
       },
       {
         "kind": "pr",
-        "number": 107375,
-        "title": "Durable Core PR 1/6: define the residual-gap RFC",
-        "url": "https://github.com/openclaw/openclaw/pull/107375",
+        "number": 117067,
+        "title": "perf(gateway): cache disk reads on agent-list and skill expansion hot paths",
+        "url": "https://github.com/openclaw/openclaw/pull/117067",
         "state": "open",
-        "author": "mjnkao",
-        "updatedAt": "2026-07-31T20:36:27Z"
+        "author": "atraca90",
+        "updatedAt": "2026-07-31T22:14:46Z"
       },
       {
         "kind": "pr",
-        "number": 116976,
-        "title": "docs: replace retired hostnameAllowlist in browser-control example",
-        "url": "https://github.com/openclaw/openclaw/pull/116976",
+        "number": 115106,
+        "title": "fix(sessions): detect adopted turns across short reads",
+        "url": "https://github.com/openclaw/openclaw/pull/115106",
         "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-07-31T20:36:24Z"
-      },
-      {
-        "kind": "pr",
-        "number": 116982,
-        "title": "Skillfy install scan hardening",
-        "url": "https://github.com/openclaw/openclaw/pull/116982",
-        "state": "open",
-        "author": "elharonyclaw",
-        "updatedAt": "2026-07-31T20:36:23Z"
+        "author": "sunlit-deng",
+        "updatedAt": "2026-07-31T22:14:29Z"
       }
     ]
   }

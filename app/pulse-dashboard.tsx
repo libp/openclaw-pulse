@@ -39,7 +39,7 @@ type Activity = {
   updatedAt: string;
 };
 
-type PulseResponse = {
+export type PulseResponse = {
   repository: string;
   snapshots: Snapshot[];
   metrics?: MetricPoint[];
@@ -391,9 +391,9 @@ function ActivityColumn({ title, items, kind }: { title: string; items: Activity
   );
 }
 
-export default function PulseDashboard() {
-  const [pulse, setPulse] = useState<PulseResponse>({ repository: "openclaw/openclaw", snapshots: fallback, metrics: [], activity: { issues: [], prs: [] } });
-  const [loading, setLoading] = useState(true);
+export default function PulseDashboard({ initial }: { initial: PulseResponse | null }) {
+  const [pulse, setPulse] = useState<PulseResponse>(initial ?? { repository: "openclaw/openclaw", snapshots: fallback, metrics: [], activity: { issues: [], prs: [] } });
+  const [loading, setLoading] = useState(!initial);
 
   useEffect(() => {
     fetch("/api/pulse")

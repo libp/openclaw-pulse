@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-31T07:12:35.349Z",
+  "generatedAt": "2026-07-31T09:51:42.445Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -241,18 +241,18 @@
     },
     {
       "capturedOn": "2026-07-31",
-      "capturedAt": "2026-07-31T07:12:35.349Z",
-      "issueOpen": 3562,
-      "issueClosed": 41886,
-      "prOpen": 2254,
-      "prClosed": 66537,
-      "prMerged": 20783,
+      "capturedAt": "2026-07-31T09:51:42.445Z",
+      "issueOpen": 3555,
+      "issueClosed": 41901,
+      "prOpen": 2239,
+      "prClosed": 66587,
+      "prMerged": 20814,
       "workflowRuns": 40000,
-      "stars": 384638,
-      "forks": 80844,
+      "stars": 384654,
+      "forks": 80846,
       "subscribers": 1762,
-      "commits": 74153,
-      "contributors": 3025,
+      "commits": 74214,
+      "contributors": 3028,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -268,124 +268,124 @@
     },
     {
       "capturedOn": "2026-07-31",
-      "stars": 384638,
-      "forks": 80844,
+      "stars": 384654,
+      "forks": 80846,
       "subscribers": 1762,
-      "commits": 74153,
-      "contributors": 3025
+      "commits": 74214,
+      "contributors": 3028
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 14629,
-        "title": "Output sanitizer: improve duplicate detection for same-line and partial duplicates",
-        "url": "https://github.com/openclaw/openclaw/issues/14629",
+        "number": 112204,
+        "title": "[Feature]: Allow provider- and room-scoped visibleReplies overrides",
+        "url": "https://github.com/openclaw/openclaw/issues/112204",
         "state": "open",
-        "author": "communityorg-discord",
-        "updatedAt": "2026-07-31T07:12:28Z"
+        "author": "TailsProwerWorks",
+        "updatedAt": "2026-07-31T09:51:38Z"
       },
       {
         "kind": "issue",
-        "number": 14619,
-        "title": "[Feature]: Option to skip tool list text in system prompt (reduce duplication)",
-        "url": "https://github.com/openclaw/openclaw/issues/14619",
-        "state": "open",
-        "author": "JasperMcGarry",
-        "updatedAt": "2026-07-31T07:11:51Z"
+        "number": 116546,
+        "title": "[Bug]: \"No reply was generated\" fallback fires on deliberate NO_REPLY and on queued mid-turn follow-ups — and the posted notice arms stale-foreground suppression of the running turn's real final",
+        "url": "https://github.com/openclaw/openclaw/issues/116546",
+        "state": "closed",
+        "author": "josh-cornelius",
+        "updatedAt": "2026-07-31T09:51:30Z"
       },
       {
         "kind": "issue",
-        "number": 14526,
-        "title": "Proposal: safer self-update with pre-update backup + health check + auto-rollback/restore",
-        "url": "https://github.com/openclaw/openclaw/issues/14526",
+        "number": 112246,
+        "title": "Codex app-server: stable session-key bindings are retired without a TTL, permanently bricking web/dashboard GPT sessions (context loss on forced session rotation)",
+        "url": "https://github.com/openclaw/openclaw/issues/112246",
         "state": "open",
-        "author": "sovushik",
-        "updatedAt": "2026-07-31T07:11:17Z"
+        "author": "alfredjbclaw",
+        "updatedAt": "2026-07-31T09:51:23Z"
       },
       {
         "kind": "issue",
-        "number": 14438,
-        "title": "[Feature]: Plugin hot-reload without container restart (jiti cache invalidation)",
-        "url": "https://github.com/openclaw/openclaw/issues/14438",
+        "number": 112080,
+        "title": "[Feature]: Add a real workspace-only Restricted onboarding preset",
+        "url": "https://github.com/openclaw/openclaw/issues/112080",
         "state": "open",
-        "author": "badespider",
-        "updatedAt": "2026-07-31T07:10:48Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-31T09:51:23Z"
       },
       {
         "kind": "issue",
-        "number": 14407,
-        "title": "[Feature]: Integrate password toggle functionality across all platforms to let users see password in clear text",
-        "url": "https://github.com/openclaw/openclaw/issues/14407",
+        "number": 112067,
+        "title": "Exec-approval requests broadcast to every agent's Telegram channel instead of the requesting agent's own",
+        "url": "https://github.com/openclaw/openclaw/issues/112067",
         "state": "open",
-        "author": "gibtang",
-        "updatedAt": "2026-07-31T07:10:33Z"
+        "author": "OdinVexBot",
+        "updatedAt": "2026-07-31T09:51:06Z"
       },
       {
         "kind": "issue",
-        "number": 14376,
-        "title": "Feature: Reason-aware cron guardrails (quota/auth/rate-limit aware backoff + circuit breaker)",
-        "url": "https://github.com/openclaw/openclaw/issues/14376",
+        "number": 112173,
+        "title": "ACP workers hang forever on permission prompts when Gateway runs as a hidden-console Windows service (stdin.isTTY=true)",
+        "url": "https://github.com/openclaw/openclaw/issues/112173",
         "state": "open",
-        "author": "futuremind2026",
-        "updatedAt": "2026-07-31T07:10:00Z"
+        "author": "Yuyorman",
+        "updatedAt": "2026-07-31T09:51:02Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 116705,
-        "title": "[AI] fix(build): fail closed on symlinked build output roots",
-        "url": "https://github.com/openclaw/openclaw/pull/116705",
+        "number": 111965,
+        "title": "feat(ui): modernize the Control UI dashboard",
+        "url": "https://github.com/openclaw/openclaw/pull/111965",
         "state": "open",
-        "author": "wangyan2026",
-        "updatedAt": "2026-07-31T07:12:29Z"
+        "author": "Zeus-Deus",
+        "updatedAt": "2026-07-31T09:51:37Z"
       },
       {
         "kind": "pr",
-        "number": 116517,
-        "title": "fix(memory-wiki): preserve user edits when rolling back ChatGPT imports",
-        "url": "https://github.com/openclaw/openclaw/pull/116517",
+        "number": 106414,
+        "title": "fix: models fallbacks --agent silently edits global defaults instead of the agent",
+        "url": "https://github.com/openclaw/openclaw/pull/106414",
         "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-07-31T07:12:25Z"
+        "author": "zaktrue",
+        "updatedAt": "2026-07-31T09:51:35Z"
       },
       {
         "kind": "pr",
-        "number": 116687,
-        "title": "feat(diagnostics): configure OTEL metric name prefixes",
-        "url": "https://github.com/openclaw/openclaw/pull/116687",
+        "number": 107473,
+        "title": "fix(ollama): stop oversized stream records from growing memory",
+        "url": "https://github.com/openclaw/openclaw/pull/107473",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-07-31T07:12:20Z"
+        "author": "wahaha1223",
+        "updatedAt": "2026-07-31T09:51:34Z"
       },
       {
         "kind": "pr",
-        "number": 97175,
-        "title": "fix(context-engine): bound deferred turn maintenance with a per-task timeout (AI-assisted)",
-        "url": "https://github.com/openclaw/openclaw/pull/97175",
+        "number": 112270,
+        "title": "fix(memory): keep disabled QMD status side-effect free",
+        "url": "https://github.com/openclaw/openclaw/pull/112270",
         "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-07-31T07:12:20Z"
+        "author": "shad0wca7",
+        "updatedAt": "2026-07-31T09:51:33Z"
       },
       {
         "kind": "pr",
-        "number": 116600,
-        "title": "fix(edit): preserve original bytes outside fuzzy-match replacement span",
-        "url": "https://github.com/openclaw/openclaw/pull/116600",
+        "number": 111587,
+        "title": "fix(kimi): use k3 as single API model id, drop k3[1m] wire-id (#111561)",
+        "url": "https://github.com/openclaw/openclaw/pull/111587",
         "state": "open",
-        "author": "licheer-zte",
-        "updatedAt": "2026-07-31T07:12:03Z"
+        "author": "yangxiansheng",
+        "updatedAt": "2026-07-31T09:51:33Z"
       },
       {
         "kind": "pr",
-        "number": 116195,
-        "title": "fix(session): preserve reset message payloads",
-        "url": "https://github.com/openclaw/openclaw/pull/116195",
+        "number": 111313,
+        "title": "fix(mcp): standalone apps stop hanging on stalled gateway requests",
+        "url": "https://github.com/openclaw/openclaw/pull/111313",
         "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-07-31T07:12:00Z"
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-07-31T09:51:15Z"
       }
     ]
   }

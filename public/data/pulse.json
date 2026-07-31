@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-31T09:51:42.445Z",
+  "generatedAt": "2026-07-31T12:15:04.645Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -241,18 +241,18 @@
     },
     {
       "capturedOn": "2026-07-31",
-      "capturedAt": "2026-07-31T09:51:42.445Z",
-      "issueOpen": 3555,
-      "issueClosed": 41901,
-      "prOpen": 2239,
-      "prClosed": 66587,
-      "prMerged": 20814,
+      "capturedAt": "2026-07-31T12:15:04.645Z",
+      "issueOpen": 3538,
+      "issueClosed": 41926,
+      "prOpen": 2242,
+      "prClosed": 66655,
+      "prMerged": 20867,
       "workflowRuns": 40000,
-      "stars": 384654,
+      "stars": 384672,
       "forks": 80846,
       "subscribers": 1762,
-      "commits": 74214,
-      "contributors": 3028,
+      "commits": 74279,
+      "contributors": 3030,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -268,124 +268,124 @@
     },
     {
       "capturedOn": "2026-07-31",
-      "stars": 384654,
+      "stars": 384672,
       "forks": 80846,
       "subscribers": 1762,
-      "commits": 74214,
-      "contributors": 3028
+      "commits": 74279,
+      "contributors": 3030
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 112204,
-        "title": "[Feature]: Allow provider- and room-scoped visibleReplies overrides",
-        "url": "https://github.com/openclaw/openclaw/issues/112204",
+        "number": 87212,
+        "title": "[Bug] v2026.5.22: System envelope footer (\"Sender label echoed for confirmation only…\") echoed verbatim into Telegram outbound on group+topic sessions with audio inbound",
+        "url": "https://github.com/openclaw/openclaw/issues/87212",
         "state": "open",
-        "author": "TailsProwerWorks",
-        "updatedAt": "2026-07-31T09:51:38Z"
+        "author": "lucasudar",
+        "updatedAt": "2026-07-31T12:14:57Z"
       },
       {
         "kind": "issue",
-        "number": 116546,
-        "title": "[Bug]: \"No reply was generated\" fallback fires on deliberate NO_REPLY and on queued mid-turn follow-ups — and the posted notice arms stale-foreground suppression of the running turn's real final",
-        "url": "https://github.com/openclaw/openclaw/issues/116546",
-        "state": "closed",
-        "author": "josh-cornelius",
-        "updatedAt": "2026-07-31T09:51:30Z"
+        "number": 111799,
+        "title": "active-memory: ~45% timeout rate and zero cached results during agent turns (2026.7.1-2)",
+        "url": "https://github.com/openclaw/openclaw/issues/111799",
+        "state": "open",
+        "author": "chrislro",
+        "updatedAt": "2026-07-31T12:14:10Z"
       },
       {
         "kind": "issue",
-        "number": 112246,
-        "title": "Codex app-server: stable session-key bindings are retired without a TTL, permanently bricking web/dashboard GPT sessions (context loss on forced session rotation)",
-        "url": "https://github.com/openclaw/openclaw/issues/112246",
+        "number": 115908,
+        "title": "Session transcript projection reconcile can livelock under sustained writes, blocking the main thread and stalling all channel transports",
+        "url": "https://github.com/openclaw/openclaw/issues/115908",
         "state": "open",
-        "author": "alfredjbclaw",
-        "updatedAt": "2026-07-31T09:51:23Z"
+        "author": "CanadaOrNaw",
+        "updatedAt": "2026-07-31T12:12:58Z"
       },
       {
         "kind": "issue",
-        "number": 112080,
-        "title": "[Feature]: Add a real workspace-only Restricted onboarding preset",
-        "url": "https://github.com/openclaw/openclaw/issues/112080",
+        "number": 111999,
+        "title": "[Bug]: Generated-media completion delivery to iMessage DMs targets synthetic `iMessage;-;` GUID — Messages rejects with -1728, attachment silently never delivered",
+        "url": "https://github.com/openclaw/openclaw/issues/111999",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-31T09:51:23Z"
+        "author": "lockhartheavyindustries",
+        "updatedAt": "2026-07-31T12:12:44Z"
       },
       {
         "kind": "issue",
-        "number": 112067,
-        "title": "Exec-approval requests broadcast to every agent's Telegram channel instead of the requesting agent's own",
-        "url": "https://github.com/openclaw/openclaw/issues/112067",
+        "number": 111939,
+        "title": "iOS Talk voice responses do not play (text arrives, TTS silent)",
+        "url": "https://github.com/openclaw/openclaw/issues/111939",
         "state": "open",
-        "author": "OdinVexBot",
-        "updatedAt": "2026-07-31T09:51:06Z"
+        "author": "themarkpenney",
+        "updatedAt": "2026-07-31T12:12:42Z"
       },
       {
         "kind": "issue",
-        "number": 112173,
-        "title": "ACP workers hang forever on permission prompts when Gateway runs as a hidden-console Windows service (stdin.isTTY=true)",
-        "url": "https://github.com/openclaw/openclaw/issues/112173",
+        "number": 115575,
+        "title": "[Bug]: Codex sandbox bridge misses environment/info and mishandles PathUri cwd",
+        "url": "https://github.com/openclaw/openclaw/issues/115575",
         "state": "open",
-        "author": "Yuyorman",
-        "updatedAt": "2026-07-31T09:51:02Z"
+        "author": "Zuassistant",
+        "updatedAt": "2026-07-31T12:12:40Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 111965,
-        "title": "feat(ui): modernize the Control UI dashboard",
-        "url": "https://github.com/openclaw/openclaw/pull/111965",
+        "number": 116828,
+        "title": "fix(qa-lab): reject blocked evidence and invalid media artifacts",
+        "url": "https://github.com/openclaw/openclaw/pull/116828",
         "state": "open",
-        "author": "Zeus-Deus",
-        "updatedAt": "2026-07-31T09:51:37Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-31T12:14:58Z"
       },
       {
         "kind": "pr",
-        "number": 106414,
-        "title": "fix: models fallbacks --agent silently edits global defaults instead of the agent",
-        "url": "https://github.com/openclaw/openclaw/pull/106414",
+        "number": 116826,
+        "title": "fix(ci): stop upstream-only scheduled lanes from running in forks",
+        "url": "https://github.com/openclaw/openclaw/pull/116826",
         "state": "open",
-        "author": "zaktrue",
-        "updatedAt": "2026-07-31T09:51:35Z"
+        "author": "masatohoshino",
+        "updatedAt": "2026-07-31T12:15:01Z"
       },
       {
         "kind": "pr",
-        "number": 107473,
-        "title": "fix(ollama): stop oversized stream records from growing memory",
-        "url": "https://github.com/openclaw/openclaw/pull/107473",
+        "number": 116819,
+        "title": "fix(daemon): report real service removal failures across platforms",
+        "url": "https://github.com/openclaw/openclaw/pull/116819",
         "state": "open",
-        "author": "wahaha1223",
-        "updatedAt": "2026-07-31T09:51:34Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-31T12:14:25Z"
       },
       {
         "kind": "pr",
-        "number": 112270,
-        "title": "fix(memory): keep disabled QMD status side-effect free",
-        "url": "https://github.com/openclaw/openclaw/pull/112270",
+        "number": 116595,
+        "title": "chore(deps): bump the actions group across 1 directory with 7 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/116595",
         "state": "open",
-        "author": "shad0wca7",
-        "updatedAt": "2026-07-31T09:51:33Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-07-31T12:14:23Z"
       },
       {
         "kind": "pr",
-        "number": 111587,
-        "title": "fix(kimi): use k3 as single API model id, drop k3[1m] wire-id (#111561)",
-        "url": "https://github.com/openclaw/openclaw/pull/111587",
+        "number": 116808,
+        "title": "feat(providers): add llama-server integration",
+        "url": "https://github.com/openclaw/openclaw/pull/116808",
         "state": "open",
-        "author": "yangxiansheng",
-        "updatedAt": "2026-07-31T09:51:33Z"
+        "author": "osolmaz",
+        "updatedAt": "2026-07-31T12:13:59Z"
       },
       {
         "kind": "pr",
-        "number": 111313,
-        "title": "fix(mcp): standalone apps stop hanging on stalled gateway requests",
-        "url": "https://github.com/openclaw/openclaw/pull/111313",
+        "number": 116813,
+        "title": "feat(plugins): externalize Vydra provider",
+        "url": "https://github.com/openclaw/openclaw/pull/116813",
         "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-07-31T09:51:15Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-07-31T12:13:53Z"
       }
     ]
   }

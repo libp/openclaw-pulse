@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-31T14:35:54.560Z",
+  "generatedAt": "2026-07-31T16:55:45.636Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -241,17 +241,17 @@
     },
     {
       "capturedOn": "2026-07-31",
-      "capturedAt": "2026-07-31T14:35:54.560Z",
-      "issueOpen": 3542,
-      "issueClosed": 41933,
-      "prOpen": 2235,
-      "prClosed": 66693,
-      "prMerged": 20898,
+      "capturedAt": "2026-07-31T16:55:45.636Z",
+      "issueOpen": 3550,
+      "issueClosed": 41942,
+      "prOpen": 2248,
+      "prClosed": 66748,
+      "prMerged": 20940,
       "workflowRuns": 40000,
-      "stars": 384691,
-      "forks": 80851,
+      "stars": 384702,
+      "forks": 80855,
       "subscribers": 1762,
-      "commits": 74395,
+      "commits": 74454,
       "contributors": 3030,
       "source": "github-actions",
       "approximateDate": false
@@ -268,10 +268,10 @@
     },
     {
       "capturedOn": "2026-07-31",
-      "stars": 384691,
-      "forks": 80851,
+      "stars": 384702,
+      "forks": 80855,
       "subscribers": 1762,
-      "commits": 74395,
+      "commits": 74454,
       "contributors": 3030
     }
   ],
@@ -279,95 +279,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 87660,
-        "title": "memory: add lifecycle-aware LLM curation for MEMORY.md",
-        "url": "https://github.com/openclaw/openclaw/issues/87660",
+        "number": 116950,
+        "title": "[Bug]: macOS gateway restart fails because restart-stale-pids lsof timeout is too low",
+        "url": "https://github.com/openclaw/openclaw/issues/116950",
         "state": "open",
-        "author": "a-m-a-r-a",
-        "updatedAt": "2026-07-31T14:34:56Z"
+        "author": "NirvanaCh7",
+        "updatedAt": "2026-07-31T16:55:14Z"
       },
       {
         "kind": "issue",
-        "number": 112974,
-        "title": "Bug: mimo-v2.5 8192 maxTokens triggers false 'couldn't generate a response' on complex agentic tasks",
-        "url": "https://github.com/openclaw/openclaw/issues/112974",
+        "number": 116952,
+        "title": "[Bug]: Config-write guard blocks intentional large-shrink writes (e.g. Disable All skills) with no override",
+        "url": "https://github.com/openclaw/openclaw/issues/116952",
         "state": "open",
-        "author": "JIRBOY",
-        "updatedAt": "2026-07-31T14:33:37Z"
+        "author": "autoscriptlabs",
+        "updatedAt": "2026-07-31T16:55:10Z"
       },
       {
         "kind": "issue",
-        "number": 112736,
-        "title": "Chrome extension: WebSocket connection failures silently accumulate in the extension error badge",
-        "url": "https://github.com/openclaw/openclaw/issues/112736",
+        "number": 116949,
+        "title": "[Bug]: run_stalled/stuck_recovery falsely reports \"gateway overloaded\" without overload evidence",
+        "url": "https://github.com/openclaw/openclaw/issues/116949",
         "state": "open",
-        "author": "mkmsyk",
-        "updatedAt": "2026-07-31T14:33:09Z"
+        "author": "aaajiao",
+        "updatedAt": "2026-07-31T16:55:08Z"
       },
       {
         "kind": "issue",
-        "number": 110346,
-        "title": "[Bug]: message send --media applies inconsistent local-media allowlist between WhatsApp and Telegram (same path, same invocation)",
-        "url": "https://github.com/openclaw/openclaw/issues/110346",
+        "number": 93199,
+        "title": "memory_search fails in non-default agent session while CLI --agent search works; current session resolves inconsistently",
+        "url": "https://github.com/openclaw/openclaw/issues/93199",
         "state": "open",
-        "author": "redasadki",
-        "updatedAt": "2026-07-31T14:33:06Z"
+        "author": "chaboncarpentier-blip",
+        "updatedAt": "2026-07-31T16:54:57Z"
+      },
+      {
+        "kind": "issue",
+        "number": 115475,
+        "title": "[Bug]: \\openclaw gateway restart\\ invoked by the agent (via exec) almost always fails and needs the user to run it manually — only succeeds very rarely",
+        "url": "https://github.com/openclaw/openclaw/issues/115475",
+        "state": "open",
+        "author": "mmhzlrj",
+        "updatedAt": "2026-07-31T16:54:45Z"
+      },
+      {
+        "kind": "issue",
+        "number": 111856,
+        "title": "Compaction summarization bypasses per-turn image-history pruning, can overflow context",
+        "url": "https://github.com/openclaw/openclaw/issues/111856",
+        "state": "open",
+        "author": "nierob-cmd",
+        "updatedAt": "2026-07-31T16:54:30Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 116873,
-        "title": "fix(tui): keep reset transitions isolated from stale input",
-        "url": "https://github.com/openclaw/openclaw/pull/116873",
+        "number": 113188,
+        "title": "fix(agents): preserve prompt prefix caching during A2A handoffs",
+        "url": "https://github.com/openclaw/openclaw/pull/113188",
+        "state": "open",
+        "author": "Iitian001",
+        "updatedAt": "2026-07-31T16:55:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 116927,
+        "title": "fix(nodes): return truthful bounded camera and photo outcomes",
+        "url": "https://github.com/openclaw/openclaw/pull/116927",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-31T14:35:45Z"
+        "updatedAt": "2026-07-31T16:55:38Z"
       },
       {
         "kind": "pr",
-        "number": 112362,
-        "title": "fix(skills): allow skills browse commands with invalid config",
-        "url": "https://github.com/openclaw/openclaw/pull/112362",
+        "number": 97175,
+        "title": "fix(context-engine): bound deferred turn maintenance with a per-task timeout (AI-assisted)",
+        "url": "https://github.com/openclaw/openclaw/pull/97175",
         "state": "open",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-07-31T14:35:27Z"
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-07-31T16:55:32Z"
       },
       {
         "kind": "pr",
-        "number": 116660,
-        "title": "fix(slack): preserve context in group DM thread follow-ups",
-        "url": "https://github.com/openclaw/openclaw/pull/116660",
+        "number": 89039,
+        "title": "fix: prevent silent message loss from EmbeddedAttemptSessionTakeoverError",
+        "url": "https://github.com/openclaw/openclaw/pull/89039",
         "state": "open",
-        "author": "harjothkhara",
-        "updatedAt": "2026-07-31T14:35:10Z"
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-07-31T16:55:29Z"
       },
       {
         "kind": "pr",
-        "number": 116683,
-        "title": "fix(clickclack): show native agent progress while replying",
-        "url": "https://github.com/openclaw/openclaw/pull/116683",
+        "number": 116806,
+        "title": "fix(cron): redact split login codes in external delivery",
+        "url": "https://github.com/openclaw/openclaw/pull/116806",
         "state": "open",
-        "author": "jjjhenriksen",
-        "updatedAt": "2026-07-31T14:35:09Z"
+        "author": "Leon-SK668",
+        "updatedAt": "2026-07-31T16:55:14Z"
       },
       {
         "kind": "pr",
-        "number": 112652,
-        "title": "fix(googlechat): bypass proxies for spaced NO_PROXY hosts",
-        "url": "https://github.com/openclaw/openclaw/pull/112652",
+        "number": 101819,
+        "title": "Feat: Add Trivy SBOM and vulnerability scanning to Docker release",
+        "url": "https://github.com/openclaw/openclaw/pull/101819",
         "state": "open",
-        "author": "LZY3538",
-        "updatedAt": "2026-07-31T14:34:43Z"
-      },
-      {
-        "kind": "pr",
-        "number": 105550,
-        "title": "feat(memory-wiki): add wiki_open_items tool to list unresolved questions and contradictions",
-        "url": "https://github.com/openclaw/openclaw/pull/105550",
-        "state": "open",
-        "author": "kip-claw",
-        "updatedAt": "2026-07-31T14:34:43Z"
+        "author": "cooktheryan",
+        "updatedAt": "2026-07-31T16:55:13Z"
       }
     ]
   }

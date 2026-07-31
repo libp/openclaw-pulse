@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-31T22:15:03.040Z",
+  "generatedAt": "2026-07-31T23:16:05.861Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -241,18 +241,18 @@
     },
     {
       "capturedOn": "2026-07-31",
-      "capturedAt": "2026-07-31T22:15:03.040Z",
-      "issueOpen": 3510,
-      "issueClosed": 41994,
-      "prOpen": 2250,
-      "prClosed": 66842,
-      "prMerged": 21001,
+      "capturedAt": "2026-07-31T23:16:05.861Z",
+      "issueOpen": 3508,
+      "issueClosed": 42000,
+      "prOpen": 2252,
+      "prClosed": 66870,
+      "prMerged": 21025,
       "workflowRuns": 40000,
-      "stars": 384728,
-      "forks": 80858,
+      "stars": 384730,
+      "forks": 80857,
       "subscribers": 1762,
-      "commits": 74560,
-      "contributors": 3032,
+      "commits": 74584,
+      "contributors": 3035,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -268,33 +268,15 @@
     },
     {
       "capturedOn": "2026-07-31",
-      "stars": 384728,
-      "forks": 80858,
+      "stars": 384730,
+      "forks": 80857,
       "subscribers": 1762,
-      "commits": 74560,
-      "contributors": 3032
+      "commits": 74584,
+      "contributors": 3035
     }
   ],
   "activity": {
     "issues": [
-      {
-        "kind": "issue",
-        "number": 90786,
-        "title": "[Bug]: memory status --index and --deep fail with \"Unknown memory embedding provider: google\" on 2026.6.1",
-        "url": "https://github.com/openclaw/openclaw/issues/90786",
-        "state": "open",
-        "author": "fenglanhua",
-        "updatedAt": "2026-07-31T22:14:02Z"
-      },
-      {
-        "kind": "issue",
-        "number": 110171,
-        "title": "feat(talk/realtime): voice chat should behave identically to text chat — context parity for agent-consult sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/110171",
-        "state": "closed",
-        "author": "JeffSteinbok",
-        "updatedAt": "2026-07-31T22:14:00Z"
-      },
       {
         "kind": "issue",
         "number": 117052,
@@ -302,63 +284,108 @@
         "url": "https://github.com/openclaw/openclaw/issues/117052",
         "state": "open",
         "author": "mjnkao",
-        "updatedAt": "2026-07-31T22:13:11Z"
+        "updatedAt": "2026-07-31T23:15:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 114536,
+        "title": "Chat delivery pipeline appears to mask/truncate shell-script content that resembles a credential assignment",
+        "url": "https://github.com/openclaw/openclaw/issues/114536",
+        "state": "open",
+        "author": "clarity-core",
+        "updatedAt": "2026-07-31T23:15:53Z"
+      },
+      {
+        "kind": "issue",
+        "number": 105197,
+        "title": "[Feature]: Support strict integer validation in parseDurationMs",
+        "url": "https://github.com/openclaw/openclaw/issues/105197",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-07-31T23:15:52Z"
+      },
+      {
+        "kind": "issue",
+        "number": 117080,
+        "title": "[Feature]: Single authoritative exec output capture with model-aware continuation projection",
+        "url": "https://github.com/openclaw/openclaw/issues/117080",
+        "state": "open",
+        "author": "omarshahine",
+        "updatedAt": "2026-07-31T23:15:50Z"
+      },
+      {
+        "kind": "issue",
+        "number": 115062,
+        "title": "[Bug]: System-agent inference probe loses valid file SecretRef for custom model provider",
+        "url": "https://github.com/openclaw/openclaw/issues/115062",
+        "state": "open",
+        "author": "Tony-ooo",
+        "updatedAt": "2026-07-31T23:15:49Z"
+      },
+      {
+        "kind": "issue",
+        "number": 114772,
+        "title": "Refactor guarded fetch to isolate one manual-redirect network hop",
+        "url": "https://github.com/openclaw/openclaw/issues/114772",
+        "state": "open",
+        "author": "giodl73-repo",
+        "updatedAt": "2026-07-31T23:15:47Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 116958,
-        "title": "fix(memory): suggest reindex, not --fix, for a missing qmd index",
-        "url": "https://github.com/openclaw/openclaw/pull/116958",
-        "state": "closed",
-        "author": "chelsealong",
-        "updatedAt": "2026-07-31T22:15:00Z"
-      },
-      {
-        "kind": "pr",
-        "number": 116805,
-        "title": "fix(discord): prevent REST failures from exposing credentials",
-        "url": "https://github.com/openclaw/openclaw/pull/116805",
+        "number": 117101,
+        "title": "feat(channels): externalize iMessage",
+        "url": "https://github.com/openclaw/openclaw/pull/117101",
         "state": "open",
-        "author": "Leon-SK668",
-        "updatedAt": "2026-07-31T22:14:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117033,
-        "title": "chore(msteams): add private Gateway QA adapter",
-        "url": "https://github.com/openclaw/openclaw/pull/117033",
-        "state": "closed",
         "author": "vincentkoc",
-        "updatedAt": "2026-07-31T22:14:53Z"
+        "updatedAt": "2026-07-31T23:16:03Z"
       },
       {
         "kind": "pr",
-        "number": 115237,
-        "title": "feat(claws): adopt portable profiles and native bootstrap",
-        "url": "https://github.com/openclaw/openclaw/pull/115237",
+        "number": 117091,
+        "title": "refactor(plugins): reuse authoritative plugin manifest graph",
+        "url": "https://github.com/openclaw/openclaw/pull/117091",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-31T22:14:47Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-31T23:16:02Z"
       },
       {
         "kind": "pr",
-        "number": 117067,
-        "title": "perf(gateway): cache disk reads on agent-list and skill expansion hot paths",
-        "url": "https://github.com/openclaw/openclaw/pull/117067",
+        "number": 117099,
+        "title": "refactor(test): derive changed-test routes from canonical owners",
+        "url": "https://github.com/openclaw/openclaw/pull/117099",
         "state": "open",
-        "author": "atraca90",
-        "updatedAt": "2026-07-31T22:14:46Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-31T23:15:42Z"
       },
       {
         "kind": "pr",
-        "number": 115106,
-        "title": "fix(sessions): detect adopted turns across short reads",
-        "url": "https://github.com/openclaw/openclaw/pull/115106",
+        "number": 117092,
+        "title": "refactor(agents): unify session write lease ownership",
+        "url": "https://github.com/openclaw/openclaw/pull/117092",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-07-31T22:14:29Z"
+        "author": "steipete",
+        "updatedAt": "2026-07-31T23:15:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117062,
+        "title": "fix(terminal): keep Unicode cron columns aligned",
+        "url": "https://github.com/openclaw/openclaw/pull/117062",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-07-31T23:15:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 115435,
+        "title": "chore: notify Synthia when an issue is opened so it can attempt a reproduction",
+        "url": "https://github.com/openclaw/openclaw/pull/115435",
+        "state": "open",
+        "author": "MatthewSynthia",
+        "updatedAt": "2026-07-31T23:15:05Z"
       }
     ]
   }

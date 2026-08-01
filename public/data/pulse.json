@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-07-31T23:16:05.861Z",
+  "generatedAt": "2026-08-01T00:12:22.402Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -255,6 +255,23 @@
       "contributors": 3035,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-01",
+      "capturedAt": "2026-08-01T00:12:22.402Z",
+      "issueOpen": 3505,
+      "issueClosed": 42006,
+      "prOpen": 2227,
+      "prClosed": 66910,
+      "prMerged": 21055,
+      "workflowRuns": 40000,
+      "stars": 384734,
+      "forks": 80857,
+      "subscribers": 1762,
+      "commits": 74614,
+      "contributors": 3035,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -273,119 +290,118 @@
       "subscribers": 1762,
       "commits": 74584,
       "contributors": 3035
+    },
+    {
+      "capturedOn": "2026-08-01",
+      "stars": 384734,
+      "forks": 80857,
+      "subscribers": 1762,
+      "commits": 74614,
+      "contributors": 3035
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 117052,
-        "title": "[Feature]: Preserve cross-owner recovery facts for accepted agent work",
-        "url": "https://github.com/openclaw/openclaw/issues/117052",
-        "state": "open",
-        "author": "mjnkao",
-        "updatedAt": "2026-07-31T23:15:55Z"
+        "number": 116868,
+        "title": "[Bug]: SQLite-backed sessions can fall back to frozen legacy JSONL and resurrect completed tasks",
+        "url": "https://github.com/openclaw/openclaw/issues/116868",
+        "state": "closed",
+        "author": "Ittiz",
+        "updatedAt": "2026-08-01T00:10:06Z"
       },
       {
         "kind": "issue",
-        "number": 114536,
-        "title": "Chat delivery pipeline appears to mask/truncate shell-script content that resembles a credential assignment",
-        "url": "https://github.com/openclaw/openclaw/issues/114536",
+        "number": 114965,
+        "title": "[Bug]: doctor last-known-good restore never converges when the restored legacy config fails its own migration; manual live-file fixes get reverted",
+        "url": "https://github.com/openclaw/openclaw/issues/114965",
         "state": "open",
-        "author": "clarity-core",
-        "updatedAt": "2026-07-31T23:15:53Z"
+        "author": "piotx",
+        "updatedAt": "2026-08-01T00:06:30Z"
       },
       {
         "kind": "issue",
-        "number": 105197,
-        "title": "[Feature]: Support strict integer validation in parseDurationMs",
-        "url": "https://github.com/openclaw/openclaw/issues/105197",
+        "number": 114081,
+        "title": "[Bug]: Pre-compaction memory flush never runs when the reactive overflow-recovery path fires (two disconnected compaction systems)",
+        "url": "https://github.com/openclaw/openclaw/issues/114081",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-07-31T23:15:52Z"
+        "author": "XdotX78",
+        "updatedAt": "2026-08-01T00:06:18Z"
       },
       {
         "kind": "issue",
-        "number": 117080,
-        "title": "[Feature]: Single authoritative exec output capture with model-aware continuation projection",
-        "url": "https://github.com/openclaw/openclaw/issues/117080",
-        "state": "open",
-        "author": "omarshahine",
-        "updatedAt": "2026-07-31T23:15:50Z"
+        "number": 116422,
+        "title": "`plugins install` injects `overrides: {\"form-data\": \"2.5.6\"}`, breaking multipart uploads in plugins that use axios",
+        "url": "https://github.com/openclaw/openclaw/issues/116422",
+        "state": "closed",
+        "author": "BenDaye",
+        "updatedAt": "2026-08-01T00:06:05Z"
       },
       {
         "kind": "issue",
-        "number": 115062,
-        "title": "[Bug]: System-agent inference probe loses valid file SecretRef for custom model provider",
-        "url": "https://github.com/openclaw/openclaw/issues/115062",
-        "state": "open",
-        "author": "Tony-ooo",
-        "updatedAt": "2026-07-31T23:15:49Z"
-      },
-      {
-        "kind": "issue",
-        "number": 114772,
-        "title": "Refactor guarded fetch to isolate one manual-redirect network hop",
-        "url": "https://github.com/openclaw/openclaw/issues/114772",
-        "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-07-31T23:15:47Z"
+        "number": 116546,
+        "title": "[Bug]: \"No reply was generated\" fallback fires on deliberate NO_REPLY and on queued mid-turn follow-ups — and the posted notice arms stale-foreground suppression of the running turn's real final",
+        "url": "https://github.com/openclaw/openclaw/issues/116546",
+        "state": "closed",
+        "author": "josh-cornelius",
+        "updatedAt": "2026-08-01T00:06:03Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 117101,
-        "title": "feat(channels): externalize iMessage",
-        "url": "https://github.com/openclaw/openclaw/pull/117101",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-07-31T23:16:03Z"
+        "number": 108383,
+        "title": "fix(workboard): dispatch after terminal cards retain claims",
+        "url": "https://github.com/openclaw/openclaw/pull/108383",
+        "state": "closed",
+        "author": "lin-hongkuan",
+        "updatedAt": "2026-08-01T00:12:13Z"
       },
       {
         "kind": "pr",
-        "number": 117091,
-        "title": "refactor(plugins): reuse authoritative plugin manifest graph",
-        "url": "https://github.com/openclaw/openclaw/pull/117091",
+        "number": 116300,
+        "title": "feat: externalize Tencent provider source",
+        "url": "https://github.com/openclaw/openclaw/pull/116300",
+        "state": "open",
+        "author": "MonCac",
+        "updatedAt": "2026-08-01T00:11:48Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113192,
+        "title": "fix(auto-reply): make session reset granular for CLI sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/113192",
+        "state": "closed",
+        "author": "carlosjarenom",
+        "updatedAt": "2026-08-01T00:11:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117119,
+        "title": "fix: prevent lost subagent replies and incorrect running session states",
+        "url": "https://github.com/openclaw/openclaw/pull/117119",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-31T23:16:02Z"
+        "updatedAt": "2026-08-01T00:11:12Z"
       },
       {
         "kind": "pr",
-        "number": 117099,
-        "title": "refactor(test): derive changed-test routes from canonical owners",
-        "url": "https://github.com/openclaw/openclaw/pull/117099",
+        "number": 117118,
+        "title": "perf: count large histories before Gateway prewarm",
+        "url": "https://github.com/openclaw/openclaw/pull/117118",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-07-31T23:15:42Z"
+        "updatedAt": "2026-08-01T00:09:51Z"
       },
       {
         "kind": "pr",
-        "number": 117092,
-        "title": "refactor(agents): unify session write lease ownership",
-        "url": "https://github.com/openclaw/openclaw/pull/117092",
+        "number": 117034,
+        "title": "feat(audit): add execution identity inspection",
+        "url": "https://github.com/openclaw/openclaw/pull/117034",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-31T23:15:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117062,
-        "title": "fix(terminal): keep Unicode cron columns aligned",
-        "url": "https://github.com/openclaw/openclaw/pull/117062",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-07-31T23:15:25Z"
-      },
-      {
-        "kind": "pr",
-        "number": 115435,
-        "title": "chore: notify Synthia when an issue is opened so it can attempt a reproduction",
-        "url": "https://github.com/openclaw/openclaw/pull/115435",
-        "state": "open",
-        "author": "MatthewSynthia",
-        "updatedAt": "2026-07-31T23:15:05Z"
+        "author": "joshavant",
+        "updatedAt": "2026-08-01T00:09:46Z"
       }
     ]
   }

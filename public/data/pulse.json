@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-01T21:07:59.648Z",
+  "generatedAt": "2026-08-01T22:09:49.985Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -258,17 +258,17 @@
     },
     {
       "capturedOn": "2026-08-01",
-      "capturedAt": "2026-08-01T21:07:59.648Z",
+      "capturedAt": "2026-08-01T22:09:49.985Z",
       "issueOpen": 3479,
-      "issueClosed": 42103,
-      "prOpen": 2177,
-      "prClosed": 67404,
-      "prMerged": 21395,
+      "issueClosed": 42105,
+      "prOpen": 2178,
+      "prClosed": 67423,
+      "prMerged": 21412,
       "workflowRuns": 40000,
-      "stars": 384837,
-      "forks": 80869,
+      "stars": 384840,
+      "forks": 80868,
       "subscribers": 1762,
-      "commits": 75151,
+      "commits": 75168,
       "contributors": 3041,
       "source": "github-actions",
       "approximateDate": false
@@ -293,10 +293,10 @@
     },
     {
       "capturedOn": "2026-08-01",
-      "stars": 384837,
-      "forks": 80869,
+      "stars": 384840,
+      "forks": 80868,
       "subscribers": 1762,
-      "commits": 75151,
+      "commits": 75168,
       "contributors": 3041
     }
   ],
@@ -304,113 +304,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 116201,
-        "title": "Realtime voice work can retain unbounded provider and consult state",
-        "url": "https://github.com/openclaw/openclaw/issues/116201",
+        "number": 116205,
+        "title": "heartbeat: agents.*.heartbeat.session is ignored because cron monitor passes forcedSessionKey=main",
+        "url": "https://github.com/openclaw/openclaw/issues/116205",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-01T21:07:49Z"
+        "author": "QQSHI13",
+        "updatedAt": "2026-08-01T22:09:45Z"
       },
       {
         "kind": "issue",
-        "number": 113983,
-        "title": "[Bug]: 2026.7.1-2 gateway lock loop + signal plugin never loads after `openclaw update`",
-        "url": "https://github.com/openclaw/openclaw/issues/113983",
+        "number": 116116,
+        "title": "Model registry: generated anthropic catalog.json violates own schema (partial cost overlay) + unguarded cost deref crashes all `openclaw models` CLI commands",
+        "url": "https://github.com/openclaw/openclaw/issues/116116",
         "state": "open",
-        "author": "C-LaForest",
-        "updatedAt": "2026-08-01T21:07:55Z"
+        "author": "bmagierski",
+        "updatedAt": "2026-08-01T22:09:44Z"
       },
       {
         "kind": "issue",
-        "number": 115753,
-        "title": "[Bug]: QA evidence reports requested channel driver instead of realized adapter",
-        "url": "https://github.com/openclaw/openclaw/issues/115753",
+        "number": 115345,
+        "title": "[Feature]: claude-cli backend: supported opt-in for readable thinking persistence (Anthropic thinking display)",
+        "url": "https://github.com/openclaw/openclaw/issues/115345",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-01T21:07:47Z"
+        "author": "josh-cornelius",
+        "updatedAt": "2026-08-01T22:09:44Z"
       },
       {
         "kind": "issue",
-        "number": 115421,
-        "title": "Schema downgrade recovery must not quarantine/wipe state DB (cron jobs lost)",
-        "url": "https://github.com/openclaw/openclaw/issues/115421",
+        "number": 107891,
+        "title": "Dashboard sidebar lost agents/sessions sections after 2026-07-01 update",
+        "url": "https://github.com/openclaw/openclaw/issues/107891",
         "state": "open",
-        "author": "ericcaiwx-star",
-        "updatedAt": "2026-08-01T21:07:45Z"
+        "author": "TheDenStudios",
+        "updatedAt": "2026-08-01T22:09:43Z"
       },
       {
         "kind": "issue",
-        "number": 117154,
-        "title": "thread-reply deliveries are not marked as current-source replies (follow-up to #116909)",
-        "url": "https://github.com/openclaw/openclaw/issues/117154",
+        "number": 115978,
+        "title": "[Bug]: Internal context (<<<BEGIN_OPENCLAW_INTERNAL_CONTEXT>>>) leaks into user messages on Feishu channel",
+        "url": "https://github.com/openclaw/openclaw/issues/115978",
         "state": "open",
-        "author": "omarshahine",
-        "updatedAt": "2026-08-01T21:07:44Z"
+        "author": "alexopenfan-xiaxin",
+        "updatedAt": "2026-08-01T22:09:47Z"
       },
       {
         "kind": "issue",
-        "number": 116765,
-        "title": "[Feature]: Add a first-party llama-server provider",
-        "url": "https://github.com/openclaw/openclaw/issues/116765",
+        "number": 115894,
+        "title": "Request for source commit used to publish openclaw@2026.7.1-2",
+        "url": "https://github.com/openclaw/openclaw/issues/115894",
         "state": "open",
-        "author": "osolmaz",
-        "updatedAt": "2026-08-01T21:07:44Z"
+        "author": "sumotide",
+        "updatedAt": "2026-08-01T22:09:39Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 117583,
-        "title": "Build export HTML vendor assets from pinned dependencies",
-        "url": "https://github.com/openclaw/openclaw/pull/117583",
+        "number": 117649,
+        "title": "fix(perf): retain startup benchmark warmups",
+        "url": "https://github.com/openclaw/openclaw/pull/117649",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-01T22:09:45Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117488,
+        "title": "fix(doctor): reject conflicting maintenance operations before side effects",
+        "url": "https://github.com/openclaw/openclaw/pull/117488",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-01T21:07:39Z"
+        "updatedAt": "2026-08-01T22:09:44Z"
       },
       {
         "kind": "pr",
-        "number": 117400,
-        "title": "fix(compaction): use canonical session context projection for post-turn estimator",
-        "url": "https://github.com/openclaw/openclaw/pull/117400",
+        "number": 97175,
+        "title": "fix(context-engine): bound deferred turn maintenance with a per-task timeout (AI-assisted)",
+        "url": "https://github.com/openclaw/openclaw/pull/97175",
         "state": "open",
-        "author": "wangyan2026",
-        "updatedAt": "2026-08-01T21:07:39Z"
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-08-01T22:09:42Z"
       },
       {
         "kind": "pr",
-        "number": 113809,
-        "title": "fix(install): reject commit-less git checkouts",
-        "url": "https://github.com/openclaw/openclaw/pull/113809",
+        "number": 117273,
+        "title": "feat(docs): add markdownlint coverage for workspace templates",
+        "url": "https://github.com/openclaw/openclaw/pull/117273",
         "state": "open",
-        "author": "ooiuuii",
-        "updatedAt": "2026-08-01T21:07:39Z"
+        "author": "synthalorian",
+        "updatedAt": "2026-08-01T22:09:37Z"
       },
       {
         "kind": "pr",
-        "number": 117443,
-        "title": "fix(status): resolve effective channel model override",
-        "url": "https://github.com/openclaw/openclaw/pull/117443",
+        "number": 117213,
+        "title": "fix: rebuild incomplete plugin policy refreshes",
+        "url": "https://github.com/openclaw/openclaw/pull/117213",
+        "state": "open",
+        "author": "wenrizc",
+        "updatedAt": "2026-08-01T22:09:20Z"
+      },
+      {
+        "kind": "pr",
+        "number": 116976,
+        "title": "docs: replace retired hostnameAllowlist in browser-control example",
+        "url": "https://github.com/openclaw/openclaw/pull/116976",
         "state": "open",
         "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-01T21:07:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117337,
-        "title": "feat: support picking a specific on-device TTS voice for Talk Mode",
-        "url": "https://github.com/openclaw/openclaw/pull/117337",
-        "state": "open",
-        "author": "dmitriy-konovalov",
-        "updatedAt": "2026-08-01T21:07:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117276,
-        "title": "fix(exec): surface ambiguous node outcomes without retrying",
-        "url": "https://github.com/openclaw/openclaw/pull/117276",
-        "state": "open",
-        "author": "omarshahine",
-        "updatedAt": "2026-08-01T21:07:38Z"
+        "updatedAt": "2026-08-01T22:09:18Z"
       }
     ]
   }

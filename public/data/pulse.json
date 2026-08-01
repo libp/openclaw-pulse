@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-01T00:12:22.402Z",
+  "generatedAt": "2026-08-01T03:47:59.151Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -258,18 +258,18 @@
     },
     {
       "capturedOn": "2026-08-01",
-      "capturedAt": "2026-08-01T00:12:22.402Z",
-      "issueOpen": 3505,
-      "issueClosed": 42006,
-      "prOpen": 2227,
-      "prClosed": 66910,
-      "prMerged": 21055,
+      "capturedAt": "2026-08-01T03:47:59.151Z",
+      "issueOpen": 3498,
+      "issueClosed": 42022,
+      "prOpen": 2186,
+      "prClosed": 67018,
+      "prMerged": 21114,
       "workflowRuns": 40000,
-      "stars": 384734,
+      "stars": 384749,
       "forks": 80857,
       "subscribers": 1762,
-      "commits": 74614,
-      "contributors": 3035,
+      "commits": 74685,
+      "contributors": 3036,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -293,115 +293,124 @@
     },
     {
       "capturedOn": "2026-08-01",
-      "stars": 384734,
+      "stars": 384749,
       "forks": 80857,
       "subscribers": 1762,
-      "commits": 74614,
-      "contributors": 3035
+      "commits": 74685,
+      "contributors": 3036
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 116868,
-        "title": "[Bug]: SQLite-backed sessions can fall back to frozen legacy JSONL and resurrect completed tasks",
-        "url": "https://github.com/openclaw/openclaw/issues/116868",
-        "state": "closed",
-        "author": "Ittiz",
-        "updatedAt": "2026-08-01T00:10:06Z"
-      },
-      {
-        "kind": "issue",
-        "number": 114965,
-        "title": "[Bug]: doctor last-known-good restore never converges when the restored legacy config fails its own migration; manual live-file fixes get reverted",
-        "url": "https://github.com/openclaw/openclaw/issues/114965",
+        "number": 115753,
+        "title": "[Bug]: QA evidence reports requested channel driver instead of realized adapter",
+        "url": "https://github.com/openclaw/openclaw/issues/115753",
         "state": "open",
-        "author": "piotx",
-        "updatedAt": "2026-08-01T00:06:30Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-01T03:47:20Z"
       },
       {
         "kind": "issue",
-        "number": 114081,
-        "title": "[Bug]: Pre-compaction memory flush never runs when the reactive overflow-recovery path fires (two disconnected compaction systems)",
-        "url": "https://github.com/openclaw/openclaw/issues/114081",
+        "number": 116173,
+        "title": "[Feature]: Name allowed sandbox bind source roots instead of disabling the source-root check per agent",
+        "url": "https://github.com/openclaw/openclaw/issues/116173",
         "state": "open",
-        "author": "XdotX78",
-        "updatedAt": "2026-08-01T00:06:18Z"
+        "author": "sasan1200",
+        "updatedAt": "2026-08-01T03:47:16Z"
       },
       {
         "kind": "issue",
-        "number": 116422,
-        "title": "`plugins install` injects `overrides: {\"form-data\": \"2.5.6\"}`, breaking multipart uploads in plugins that use axios",
-        "url": "https://github.com/openclaw/openclaw/issues/116422",
-        "state": "closed",
-        "author": "BenDaye",
-        "updatedAt": "2026-08-01T00:06:05Z"
+        "number": 117109,
+        "title": "Add bounded native iMessage history to message(action=\"read\")",
+        "url": "https://github.com/openclaw/openclaw/issues/117109",
+        "state": "open",
+        "author": "futuredescriber",
+        "updatedAt": "2026-08-01T03:47:14Z"
       },
       {
         "kind": "issue",
-        "number": 116546,
-        "title": "[Bug]: \"No reply was generated\" fallback fires on deliberate NO_REPLY and on queued mid-turn follow-ups — and the posted notice arms stale-foreground suppression of the running turn's real final",
-        "url": "https://github.com/openclaw/openclaw/issues/116546",
-        "state": "closed",
-        "author": "josh-cornelius",
-        "updatedAt": "2026-08-01T00:06:03Z"
+        "number": 115073,
+        "title": "[Bug]: plugins doctor reports healthy while an active context engine is quarantined at runtime",
+        "url": "https://github.com/openclaw/openclaw/issues/115073",
+        "state": "open",
+        "author": "lamkan0210",
+        "updatedAt": "2026-08-01T03:47:13Z"
+      },
+      {
+        "kind": "issue",
+        "number": 114888,
+        "title": "[Bug]: DeepSeek V4 custom openai-completions proxy emits malformed DSML / nested arguments; tools not executed",
+        "url": "https://github.com/openclaw/openclaw/issues/114888",
+        "state": "open",
+        "author": "OhMyAgnes",
+        "updatedAt": "2026-08-01T03:47:13Z"
+      },
+      {
+        "kind": "issue",
+        "number": 116601,
+        "title": "[Bug]: MiniMax-M3 image capability on Anthropic route bypasses MiniMax-VL-01 and silently loses vision",
+        "url": "https://github.com/openclaw/openclaw/issues/116601",
+        "state": "open",
+        "author": "SweetSophia",
+        "updatedAt": "2026-08-01T03:47:12Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 108383,
-        "title": "fix(workboard): dispatch after terminal cards retain claims",
-        "url": "https://github.com/openclaw/openclaw/pull/108383",
-        "state": "closed",
-        "author": "lin-hongkuan",
-        "updatedAt": "2026-08-01T00:12:13Z"
-      },
-      {
-        "kind": "pr",
-        "number": 116300,
-        "title": "feat: externalize Tencent provider source",
-        "url": "https://github.com/openclaw/openclaw/pull/116300",
+        "number": 117189,
+        "title": "Fix SSRF vulnerability and update multiple dependencies",
+        "url": "https://github.com/openclaw/openclaw/pull/117189",
         "state": "open",
-        "author": "MonCac",
-        "updatedAt": "2026-08-01T00:11:48Z"
+        "author": "devops2626",
+        "updatedAt": "2026-08-01T03:47:54Z"
       },
       {
         "kind": "pr",
-        "number": 113192,
-        "title": "fix(auto-reply): make session reset granular for CLI sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/113192",
-        "state": "closed",
-        "author": "carlosjarenom",
-        "updatedAt": "2026-08-01T00:11:40Z"
+        "number": 117177,
+        "title": "fix(exec): preserve approved command output when sessions resume",
+        "url": "https://github.com/openclaw/openclaw/pull/117177",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-01T03:47:40Z"
       },
       {
         "kind": "pr",
-        "number": 117119,
-        "title": "fix: prevent lost subagent replies and incorrect running session states",
-        "url": "https://github.com/openclaw/openclaw/pull/117119",
+        "number": 117195,
+        "title": "fix(minimax): preserve authoritative binary media completion",
+        "url": "https://github.com/openclaw/openclaw/pull/117195",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-01T00:11:12Z"
+        "updatedAt": "2026-08-01T03:47:31Z"
       },
       {
         "kind": "pr",
-        "number": 117118,
-        "title": "perf: count large histories before Gateway prewarm",
-        "url": "https://github.com/openclaw/openclaw/pull/117118",
+        "number": 93985,
+        "title": "fix(sandbox): skip binds that conflict with protected skill mounts",
+        "url": "https://github.com/openclaw/openclaw/pull/93985",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-01T00:09:51Z"
+        "author": "chenyangjun-xy",
+        "updatedAt": "2026-08-01T03:47:23Z"
       },
       {
         "kind": "pr",
-        "number": 117034,
-        "title": "feat(audit): add execution identity inspection",
-        "url": "https://github.com/openclaw/openclaw/pull/117034",
+        "number": 117180,
+        "title": "build(deps): bump the actions group across 1 directory with 9 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/117180",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-08-01T00:09:46Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-01T03:47:15Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117144,
+        "title": "fix(ci): package runtime resources in dist artifact",
+        "url": "https://github.com/openclaw/openclaw/pull/117144",
+        "state": "open",
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-08-01T03:47:14Z"
       }
     ]
   }

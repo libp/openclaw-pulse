@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-01T09:19:23.551Z",
+  "generatedAt": "2026-08-01T11:33:51.296Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -258,18 +258,18 @@
     },
     {
       "capturedOn": "2026-08-01",
-      "capturedAt": "2026-08-01T09:19:23.551Z",
+      "capturedAt": "2026-08-01T11:33:51.296Z",
       "issueOpen": 3481,
-      "issueClosed": 42051,
-      "prOpen": 2145,
-      "prClosed": 67172,
-      "prMerged": 21214,
+      "issueClosed": 42055,
+      "prOpen": 2178,
+      "prClosed": 67192,
+      "prMerged": 21230,
       "workflowRuns": 40000,
-      "stars": 384766,
-      "forks": 80862,
+      "stars": 384777,
+      "forks": 80865,
       "subscribers": 1762,
-      "commits": 74849,
-      "contributors": 3039,
+      "commits": 74880,
+      "contributors": 3040,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -293,88 +293,79 @@
     },
     {
       "capturedOn": "2026-08-01",
-      "stars": 384766,
-      "forks": 80862,
+      "stars": 384777,
+      "forks": 80865,
       "subscribers": 1762,
-      "commits": 74849,
-      "contributors": 3039
+      "commits": 74880,
+      "contributors": 3040
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 108002,
-        "title": "tool_use.id sanitize-on-retry not working for invalid characters",
-        "url": "https://github.com/openclaw/openclaw/issues/108002",
+        "number": 89043,
+        "title": "Feature request: distribute same-app agents' channel posts as room events to co-bound agents (multi-agent single-app Slack deployments)",
+        "url": "https://github.com/openclaw/openclaw/issues/89043",
         "state": "open",
-        "author": "jeffsteinbok-openclaw",
-        "updatedAt": "2026-08-01T09:17:54Z"
-      },
-      {
-        "kind": "issue",
-        "number": 93917,
-        "title": "Bug: genericRepeat critical/circuit-breaker never fires when exec results vary slightly",
-        "url": "https://github.com/openclaw/openclaw/issues/93917",
-        "state": "open",
-        "author": "zj0001",
-        "updatedAt": "2026-08-01T09:17:44Z"
+        "author": "Nivrafaeli",
+        "updatedAt": "2026-08-01T11:33:25Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 117313,
-        "title": "refactor(agents): fold cache TTL pruning into prompt projection",
-        "url": "https://github.com/openclaw/openclaw/pull/117313",
+        "number": 105643,
+        "title": "fix(cli-runner): sweep orphaned bundle MCP temp dirs at gateway startup",
+        "url": "https://github.com/openclaw/openclaw/pull/105643",
+        "state": "open",
+        "author": "totobusnello",
+        "updatedAt": "2026-08-01T11:33:47Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117377,
+        "title": "fix(ci): stabilize release validation assertions",
+        "url": "https://github.com/openclaw/openclaw/pull/117377",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-01T11:33:45Z"
+      },
+      {
+        "kind": "pr",
+        "number": 116450,
+        "title": "feat(rust): add the embeddable node runtime lifecycle",
+        "url": "https://github.com/openclaw/openclaw/pull/116450",
+        "state": "open",
+        "author": "giodl73-repo",
+        "updatedAt": "2026-08-01T11:33:45Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111813,
+        "title": "fix: Azure OpenAI memory indexing fails for custom providers",
+        "url": "https://github.com/openclaw/openclaw/pull/111813",
+        "state": "open",
+        "author": "vyncint",
+        "updatedAt": "2026-08-01T11:33:45Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117034,
+        "title": "feat(audit): add execution identity inspection",
+        "url": "https://github.com/openclaw/openclaw/pull/117034",
+        "state": "open",
+        "author": "joshavant",
+        "updatedAt": "2026-08-01T11:33:44Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117372,
+        "title": "refactor(plugins): move plugin contributions into the registry bundle",
+        "url": "https://github.com/openclaw/openclaw/pull/117372",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-01T09:19:13Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117268,
-        "title": "fix(media-understanding): resolve inbound media:// refs carried as attachment url",
-        "url": "https://github.com/openclaw/openclaw/pull/117268",
-        "state": "open",
-        "author": "harjothkhara",
-        "updatedAt": "2026-08-01T09:19:11Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117144,
-        "title": "fix(ci): package runtime resources in dist artifact",
-        "url": "https://github.com/openclaw/openclaw/pull/117144",
-        "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-01T09:19:08Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117277,
-        "title": "fix(memory-core): filter junk REM concept tags (issue: 111923)",
-        "url": "https://github.com/openclaw/openclaw/pull/117277",
-        "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-08-01T09:19:06Z"
-      },
-      {
-        "kind": "pr",
-        "number": 103927,
-        "title": "fix(reply): suppress stranded retry after source message send",
-        "url": "https://github.com/openclaw/openclaw/pull/103927",
-        "state": "open",
-        "author": "coolmanns",
-        "updatedAt": "2026-08-01T09:19:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117290,
-        "title": "fix(workboard): diagnose archived cards still in an active status (#116359)",
-        "url": "https://github.com/openclaw/openclaw/pull/117290",
-        "state": "open",
-        "author": "ruel225",
-        "updatedAt": "2026-08-01T09:18:53Z"
+        "updatedAt": "2026-08-01T11:33:43Z"
       }
     ]
   }

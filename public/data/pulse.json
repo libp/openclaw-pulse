@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-01T22:09:49.985Z",
+  "generatedAt": "2026-08-01T23:09:45.496Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -258,17 +258,17 @@
     },
     {
       "capturedOn": "2026-08-01",
-      "capturedAt": "2026-08-01T22:09:49.985Z",
-      "issueOpen": 3479,
-      "issueClosed": 42105,
-      "prOpen": 2178,
-      "prClosed": 67423,
-      "prMerged": 21412,
+      "capturedAt": "2026-08-01T23:09:45.496Z",
+      "issueOpen": 3482,
+      "issueClosed": 42106,
+      "prOpen": 2175,
+      "prClosed": 67443,
+      "prMerged": 21425,
       "workflowRuns": 40000,
-      "stars": 384840,
-      "forks": 80868,
-      "subscribers": 1762,
-      "commits": 75168,
+      "stars": 384842,
+      "forks": 80871,
+      "subscribers": 1761,
+      "commits": 75188,
       "contributors": 3041,
       "source": "github-actions",
       "approximateDate": false
@@ -293,10 +293,10 @@
     },
     {
       "capturedOn": "2026-08-01",
-      "stars": 384840,
-      "forks": 80868,
-      "subscribers": 1762,
-      "commits": 75168,
+      "stars": 384842,
+      "forks": 80871,
+      "subscribers": 1761,
+      "commits": 75188,
       "contributors": 3041
     }
   ],
@@ -304,113 +304,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 116205,
-        "title": "heartbeat: agents.*.heartbeat.session is ignored because cron monitor passes forcedSessionKey=main",
-        "url": "https://github.com/openclaw/openclaw/issues/116205",
+        "number": 117672,
+        "title": "[Bug]: WhatsApp ack reaction silently never renders when the bot is a linked device of the operator's own account (hardcoded fromMe: false)",
+        "url": "https://github.com/openclaw/openclaw/issues/117672",
         "state": "open",
-        "author": "QQSHI13",
-        "updatedAt": "2026-08-01T22:09:45Z"
+        "author": "lpulcheri",
+        "updatedAt": "2026-08-01T23:09:30Z"
       },
       {
         "kind": "issue",
-        "number": 116116,
-        "title": "Model registry: generated anthropic catalog.json violates own schema (partial cost overlay) + unguarded cost deref crashes all `openclaw models` CLI commands",
-        "url": "https://github.com/openclaw/openclaw/issues/116116",
+        "number": 117163,
+        "title": "[Bug]: Cron delivery.mode=\\\"announce\\\" + openclaw-weixin → OutboundDeliveryError ret=-2 errmsg=prepare failed (7.1 regression)",
+        "url": "https://github.com/openclaw/openclaw/issues/117163",
         "state": "open",
-        "author": "bmagierski",
-        "updatedAt": "2026-08-01T22:09:44Z"
+        "author": "guan899",
+        "updatedAt": "2026-08-01T23:09:27Z"
       },
       {
         "kind": "issue",
-        "number": 115345,
-        "title": "[Feature]: claude-cli backend: supported opt-in for readable thinking persistence (Anthropic thinking display)",
-        "url": "https://github.com/openclaw/openclaw/issues/115345",
+        "number": 117178,
+        "title": "[Feature]: Confirm disruptive lifecycle actions in Control UI and apps",
+        "url": "https://github.com/openclaw/openclaw/issues/117178",
         "state": "open",
-        "author": "josh-cornelius",
-        "updatedAt": "2026-08-01T22:09:44Z"
+        "author": "VACInc",
+        "updatedAt": "2026-08-01T23:09:26Z"
       },
       {
         "kind": "issue",
-        "number": 107891,
-        "title": "Dashboard sidebar lost agents/sessions sections after 2026-07-01 update",
-        "url": "https://github.com/openclaw/openclaw/issues/107891",
+        "number": 116118,
+        "title": "[Bug]: Beta Gateway and latest signed macOS app lack a compatibility contract and state-write guard",
+        "url": "https://github.com/openclaw/openclaw/issues/116118",
         "state": "open",
-        "author": "TheDenStudios",
-        "updatedAt": "2026-08-01T22:09:43Z"
+        "author": "ZYV5ge",
+        "updatedAt": "2026-08-01T23:09:32Z"
       },
       {
         "kind": "issue",
-        "number": 115978,
-        "title": "[Bug]: Internal context (<<<BEGIN_OPENCLAW_INTERNAL_CONTEXT>>>) leaks into user messages on Feishu channel",
-        "url": "https://github.com/openclaw/openclaw/issues/115978",
+        "number": 117358,
+        "title": "[Bug]: Post-turn compaction ignores compaction/reset boundaries and delays completed replies",
+        "url": "https://github.com/openclaw/openclaw/issues/117358",
         "state": "open",
-        "author": "alexopenfan-xiaxin",
-        "updatedAt": "2026-08-01T22:09:47Z"
+        "author": "Bishop-AiCore",
+        "updatedAt": "2026-08-01T23:09:23Z"
       },
       {
         "kind": "issue",
-        "number": 115894,
-        "title": "Request for source commit used to publish openclaw@2026.7.1-2",
-        "url": "https://github.com/openclaw/openclaw/issues/115894",
+        "number": 117211,
+        "title": "Auth profile store saves need credential-safe diagnostics",
+        "url": "https://github.com/openclaw/openclaw/issues/117211",
         "state": "open",
-        "author": "sumotide",
-        "updatedAt": "2026-08-01T22:09:39Z"
+        "author": "usedhonda",
+        "updatedAt": "2026-08-01T23:09:22Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 117649,
-        "title": "fix(perf): retain startup benchmark warmups",
-        "url": "https://github.com/openclaw/openclaw/pull/117649",
+        "number": 117520,
+        "title": "fix(channels): bundled channels reject the documented heartbeatVisibility override",
+        "url": "https://github.com/openclaw/openclaw/pull/117520",
+        "state": "open",
+        "author": "ayaangazali",
+        "updatedAt": "2026-08-01T23:09:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 108305,
+        "title": "test(agents): register session lock helpers in vitest workers",
+        "url": "https://github.com/openclaw/openclaw/pull/108305",
+        "state": "open",
+        "author": "jincheng-xydt",
+        "updatedAt": "2026-08-01T23:09:37Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117524,
+        "title": "fix(discord): continue queued cleanup after settlement failures",
+        "url": "https://github.com/openclaw/openclaw/pull/117524",
+        "state": "open",
+        "author": "IWhatsskill",
+        "updatedAt": "2026-08-01T23:09:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 107620,
+        "title": "fix(signal): reject hex/exponent text-style span offsets",
+        "url": "https://github.com/openclaw/openclaw/pull/107620",
+        "state": "open",
+        "author": "Pick-cat",
+        "updatedAt": "2026-08-01T23:09:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117677,
+        "title": "fix(release): overlay plugin lock generator",
+        "url": "https://github.com/openclaw/openclaw/pull/117677",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-01T22:09:45Z"
+        "updatedAt": "2026-08-01T23:09:33Z"
       },
       {
         "kind": "pr",
-        "number": 117488,
-        "title": "fix(doctor): reject conflicting maintenance operations before side effects",
-        "url": "https://github.com/openclaw/openclaw/pull/117488",
+        "number": 117400,
+        "title": "fix(compaction): use canonical session context projection for post-turn estimator",
+        "url": "https://github.com/openclaw/openclaw/pull/117400",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-01T22:09:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 97175,
-        "title": "fix(context-engine): bound deferred turn maintenance with a per-task timeout (AI-assisted)",
-        "url": "https://github.com/openclaw/openclaw/pull/97175",
-        "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-08-01T22:09:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117273,
-        "title": "feat(docs): add markdownlint coverage for workspace templates",
-        "url": "https://github.com/openclaw/openclaw/pull/117273",
-        "state": "open",
-        "author": "synthalorian",
-        "updatedAt": "2026-08-01T22:09:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117213,
-        "title": "fix: rebuild incomplete plugin policy refreshes",
-        "url": "https://github.com/openclaw/openclaw/pull/117213",
-        "state": "open",
-        "author": "wenrizc",
-        "updatedAt": "2026-08-01T22:09:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 116976,
-        "title": "docs: replace retired hostnameAllowlist in browser-control example",
-        "url": "https://github.com/openclaw/openclaw/pull/116976",
-        "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-01T22:09:18Z"
+        "author": "wangyan2026",
+        "updatedAt": "2026-08-01T23:09:33Z"
       }
     ]
   }

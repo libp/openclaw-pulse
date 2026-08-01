@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-01T06:39:45.451Z",
+  "generatedAt": "2026-08-01T09:19:23.551Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -258,17 +258,17 @@
     },
     {
       "capturedOn": "2026-08-01",
-      "capturedAt": "2026-08-01T06:39:45.451Z",
-      "issueOpen": 3486,
-      "issueClosed": 42042,
-      "prOpen": 2159,
-      "prClosed": 67106,
-      "prMerged": 21167,
+      "capturedAt": "2026-08-01T09:19:23.551Z",
+      "issueOpen": 3481,
+      "issueClosed": 42051,
+      "prOpen": 2145,
+      "prClosed": 67172,
+      "prMerged": 21214,
       "workflowRuns": 40000,
-      "stars": 384755,
+      "stars": 384766,
       "forks": 80862,
       "subscribers": 1762,
-      "commits": 74780,
+      "commits": 74849,
       "contributors": 3039,
       "source": "github-actions",
       "approximateDate": false
@@ -293,10 +293,10 @@
     },
     {
       "capturedOn": "2026-08-01",
-      "stars": 384755,
+      "stars": 384766,
       "forks": 80862,
       "subscribers": 1762,
-      "commits": 74780,
+      "commits": 74849,
       "contributors": 3039
     }
   ],
@@ -304,95 +304,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 117263,
-        "title": "[Bug]: startup legacy session migration silently deletes live session rows",
-        "url": "https://github.com/openclaw/openclaw/issues/117263",
+        "number": 108002,
+        "title": "tool_use.id sanitize-on-retry not working for invalid characters",
+        "url": "https://github.com/openclaw/openclaw/issues/108002",
         "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-08-01T06:39:38Z"
+        "author": "jeffsteinbok-openclaw",
+        "updatedAt": "2026-08-01T09:17:54Z"
       },
       {
         "kind": "issue",
-        "number": 117262,
-        "title": "SQLite contention: 3 concurrent write handles on state/openclaw.sqlite cause ~33s event-loop stalls (DEF-61)",
-        "url": "https://github.com/openclaw/openclaw/issues/117262",
+        "number": 93917,
+        "title": "Bug: genericRepeat critical/circuit-breaker never fires when exec results vary slightly",
+        "url": "https://github.com/openclaw/openclaw/issues/93917",
         "state": "open",
-        "author": "rebarshop-24",
-        "updatedAt": "2026-08-01T06:37:45Z"
-      },
-      {
-        "kind": "issue",
-        "number": 116201,
-        "title": "Realtime voice work can retain unbounded provider and consult state",
-        "url": "https://github.com/openclaw/openclaw/issues/116201",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-01T06:37:30Z"
-      },
-      {
-        "kind": "issue",
-        "number": 116943,
-        "title": "outbound: fenced system-reminder and prompt-data examples are deleted from replies on every channel",
-        "url": "https://github.com/openclaw/openclaw/issues/116943",
-        "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-08-01T06:37:19Z"
+        "author": "zj0001",
+        "updatedAt": "2026-08-01T09:17:44Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 101777,
-        "title": "fix(codex): suppress stdout/stderr stream errors in sandbox subprocesses",
-        "url": "https://github.com/openclaw/openclaw/pull/101777",
-        "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-08-01T06:39:34Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117264,
-        "title": "fix(agents): recover tagged Claude CLI reasoning",
-        "url": "https://github.com/openclaw/openclaw/pull/117264",
-        "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-08-01T06:39:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117148,
-        "title": "fix(agents): preserve tools on verified completion wakes",
-        "url": "https://github.com/openclaw/openclaw/pull/117148",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-01T06:39:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117180,
-        "title": "chore(deps): bump the actions group across 1 directory with 9 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/117180",
-        "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-01T06:39:10Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117241,
-        "title": "fix(telegram): gate unavailable send capabilities at the owner",
-        "url": "https://github.com/openclaw/openclaw/pull/117241",
+        "number": 117313,
+        "title": "refactor(agents): fold cache TTL pruning into prompt projection",
+        "url": "https://github.com/openclaw/openclaw/pull/117313",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-01T06:38:55Z"
+        "updatedAt": "2026-08-01T09:19:13Z"
       },
       {
         "kind": "pr",
-        "number": 116976,
-        "title": "docs: replace retired hostnameAllowlist in browser-control example",
-        "url": "https://github.com/openclaw/openclaw/pull/116976",
+        "number": 117268,
+        "title": "fix(media-understanding): resolve inbound media:// refs carried as attachment url",
+        "url": "https://github.com/openclaw/openclaw/pull/117268",
+        "state": "open",
+        "author": "harjothkhara",
+        "updatedAt": "2026-08-01T09:19:11Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117144,
+        "title": "fix(ci): package runtime resources in dist artifact",
+        "url": "https://github.com/openclaw/openclaw/pull/117144",
         "state": "open",
         "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-01T06:38:50Z"
+        "updatedAt": "2026-08-01T09:19:08Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117277,
+        "title": "fix(memory-core): filter junk REM concept tags (issue: 111923)",
+        "url": "https://github.com/openclaw/openclaw/pull/117277",
+        "state": "open",
+        "author": "qingminglong",
+        "updatedAt": "2026-08-01T09:19:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 103927,
+        "title": "fix(reply): suppress stranded retry after source message send",
+        "url": "https://github.com/openclaw/openclaw/pull/103927",
+        "state": "open",
+        "author": "coolmanns",
+        "updatedAt": "2026-08-01T09:19:02Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117290,
+        "title": "fix(workboard): diagnose archived cards still in an active status (#116359)",
+        "url": "https://github.com/openclaw/openclaw/pull/117290",
+        "state": "open",
+        "author": "ruel225",
+        "updatedAt": "2026-08-01T09:18:53Z"
       }
     ]
   }

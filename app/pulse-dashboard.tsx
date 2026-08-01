@@ -244,12 +244,12 @@ function TrendChart({ data }: { data: Snapshot[] }) {
         >
           <defs>
             <linearGradient id="issueArea" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stopColor="#34e1ec" stopOpacity="0.5" />
-              <stop offset="100%" stopColor="#34e1ec" stopOpacity="0" />
+              <stop offset="0%" stopColor="#0e97b0" stopOpacity="0.22" />
+              <stop offset="100%" stopColor="#0e97b0" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="prArea" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stopColor="#fbb428" stopOpacity="0.42" />
-              <stop offset="100%" stopColor="#fbb428" stopOpacity="0" />
+              <stop offset="0%" stopColor="#c2740a" stopOpacity="0.18" />
+              <stop offset="100%" stopColor="#c2740a" stopOpacity="0" />
             </linearGradient>
           </defs>
 
@@ -391,6 +391,53 @@ function ActivityColumn({ title, items, kind }: { title: string; items: Activity
   );
 }
 
+// ── signal-strip enrichment: mini sparkline + 末两点环比 chip ──
+const SPARK_TONE = ["cyan", "gold", "teal", "green"] as const;
+type SparkTone = (typeof SPARK_TONE)[number];
+
+function Sparkline({ values, tone }: { values: (number | null)[]; tone: SparkTone }) {
+  const pts = values
+    .map((v, i): [number, number] | null => (v === null ? null : [i, v]))
+    .filter((p): p is [number, number] => p !== null);
+  if (pts.length < 2) return null;
+  const w = 100, h = 34, pad = 3;
+  const xs = pts.map((p) => p[0]), ys = pts.map((p) => p[1]);
+  const minX = Math.min(...xs), maxX = Math.max(...xs);
+  const minY = Math.min(...ys), maxY = Math.max(...ys);
+  const rx = Math.max(1, maxX - minX), ry = Math.max(1, maxY - minY);
+  const px = (i: number) => pad + ((i - minX) / rx) * (w - pad * 2);
+  const py = (v: number) => h - pad - ((v - minY) / ry) * (h - pad * 2);
+  const line = pts.map(([i, v]) => `${px(i).toFixed(1)},${py(v).toFixed(1)}`).join(" ");
+  const area = `${line} ${px(maxX).toFixed(1)},${(h - pad).toFixed(1)} ${px(minX).toFixed(1)},${(h - pad).toFixed(1)}`;
+  const last = pts[pts.length - 1];
+  return (
+    <svg className={`kpi-spark tone-${tone}`} viewBox={`0 0 ${w} ${h}`} preserveAspectRatio="none" aria-hidden="true">
+      <polygon className="spark-area" points={area} />
+      <polyline className="spark-line" points={line} />
+      <circle className="spark-tip" cx={px(last[0])} cy={py(last[1])} r="2.2" />
+    </svg>
+  );
+}
+
+type Trend = { dir: "up" | "down" | "flat"; pct: number } | null;
+// 取序列末两个非空点,算环比方向 + 百分比。
+function trendDelta(values: (number | null)[]): Trend {
+  const v = values.filter((x): x is number => x !== null);
+  if (v.length < 2) return null;
+  const last = v[v.length - 1], prev = v[v.length - 2];
+  if (!prev) return null;
+  const p = ((last - prev) / Math.abs(prev)) * 100;
+  return { dir: Math.abs(p) < 0.5 ? "flat" : p > 0 ? "up" : "down", pct: p };
+}
+
+function Chip({ delta, goodWhen }: { delta: Trend; goodWhen: "up" | "down" }) {
+  if (!delta) return <em className="chip mute">初始基线</em>;
+  if (delta.dir === "flat") return <em className="chip mute">持平</em>;
+  const favorable = delta.dir === goodWhen;
+  const arrow = delta.dir === "up" ? "▲" : "▼";
+  return <em className={`chip ${favorable ? "pos" : "neg"}`}>{arrow} {Math.abs(delta.pct).toFixed(1)}%</em>;
+}
+
 export default function PulseDashboard({ initial }: { initial: PulseResponse | null }) {
   const [pulse, setPulse] = useState<PulseResponse>(initial ?? { repository: "openclaw/openclaw", snapshots: fallback, metrics: [], activity: { issues: [], prs: [] } });
   const [loading, setLoading] = useState(!initial);
@@ -413,6 +460,18 @@ export default function PulseDashboard({ initial }: { initial: PulseResponse | n
   const openShare = (openTotal / (openTotal + closedTotal)) * 100;
   const priorOpen = previous.issueOpen + previous.prOpen;
   const reduction = priorOpen ? ((priorOpen - openTotal) / priorOpen) * 100 : 0;
+
+  // 信号条 sparkline 序列:每个指标的历史走势 + 末两点环比。
+  const openSeries = snapshots.map((s) => s.issueOpen + s.prOpen);
+  const reductionSeries: (number | null)[] = snapshots.map((s, i) => {
+    if (i === 0) return null;
+    const prior = snapshots[i - 1].issueOpen + snapshots[i - 1].prOpen;
+    const now = s.issueOpen + s.prOpen;
+    return prior ? ((prior - now) / prior) * 100 : null;
+  });
+  const closedSeries = intervalSeries(snapshots, "closed");
+  const burnSeries = intervalSeries(snapshots, "burnRatio");
+  const netReduce = Math.max(0, priorOpen - openTotal);
 
   return (
     <main>
@@ -439,10 +498,42 @@ export default function PulseDashboard({ initial }: { initial: PulseResponse | n
         </section>
 
         <section className="signal-strip" aria-label="关键变化指标">
-          <div><span>当前总积压</span><strong>{nf.format(openTotal)}</strong><small>Issue + PR</small></div>
-          <div><span>较上次记录</span><strong className="good">−{pct.format(reduction)}%</strong><small>净减少 {nf.format(Math.max(0, priorOpen - openTotal))}</small></div>
-          <div><span>关闭吞吐</span><strong>{nf.format(currentInterval.closed)}</strong><small>{pct.format(currentInterval.closePerDay)} / 天</small></div>
-          <div><span>消化比</span><strong className={currentInterval.burnRatio >= 1 ? "good" : "warn"}>{currentInterval.burnRatio.toFixed(2)}×</strong><small>{currentInterval.burnRatio >= 1 ? "积压正在收缩" : "积压仍在增长"}</small></div>
+          <div>
+            <span>当前总积压</span>
+            <div className="kpi-main">
+              <strong>{nf.format(openTotal)}</strong>
+              <em className={`chip ${netReduce > 0 ? "pos" : "neg"}`}>{netReduce > 0 ? "▼" : "▲"} {nf.format(netReduce)} 件</em>
+            </div>
+            <Sparkline values={openSeries} tone="cyan" />
+            <small>Issue + PR 未关闭合计</small>
+          </div>
+          <div>
+            <span>较上次压降</span>
+            <div className="kpi-main">
+              <strong className="good">−{pct.format(reduction)}%</strong>
+              <Chip delta={trendDelta(reductionSeries)} goodWhen="up" />
+            </div>
+            <Sparkline values={reductionSeries} tone="gold" />
+            <small>相对上一快照的开放积压</small>
+          </div>
+          <div>
+            <span>关闭吞吐</span>
+            <div className="kpi-main">
+              <strong>{nf.format(currentInterval.closed)}</strong>
+              <Chip delta={trendDelta(closedSeries)} goodWhen="up" />
+            </div>
+            <Sparkline values={closedSeries} tone="teal" />
+            <small>{pct.format(currentInterval.closePerDay)} / 天</small>
+          </div>
+          <div>
+            <span>消化比</span>
+            <div className="kpi-main">
+              <strong className={currentInterval.burnRatio >= 1 ? "good" : "warn"}>{currentInterval.burnRatio.toFixed(2)}×</strong>
+              <Chip delta={trendDelta(burnSeries)} goodWhen="up" />
+            </div>
+            <Sparkline values={burnSeries} tone="green" />
+            <small>{currentInterval.burnRatio >= 1 ? "积压正在收缩" : "积压仍在增长"}</small>
+          </div>
         </section>
 
         <div id="trend"><TrendChart data={snapshots} /></div>
@@ -470,9 +561,11 @@ export default function PulseDashboard({ initial }: { initial: PulseResponse | n
         </section>
 
         <section className="method" id="method">
-          <p className="eyebrow">METHODOLOGY / 方法</p>
-          <h2>这是 AI 协作效率的代理指标，不是智能水平的直接证明。</h2>
-          <div><p>Cloudflare D1 每小时写入一条细粒度采集记录，GitHub Actions 同步维护一份可审计的公开 archive；趋势图按日聚合展示，仓库规模自持续采集起累积。Closed 的增长反映处理吞吐；Open 的下降反映净积压压降；两者必须结合新增流入一起判断。</p><p>关闭可能包含重复、无效、垃圾内容或人工批量操作，PR Closed 也同时包含 merged 与未合并关闭。仓库规模（stars/forks/commits/contributors）为辅助上下文，反映项目热度而非模型智力。因此，本网站衡量的是大型 AI 原生项目的协作与治理能力，而非单一模型的智力。</p></div>
+          <div className="method-intro">
+            <p className="eyebrow">METHODOLOGY / 方法</p>
+            <h2>这是 AI 协作效率的代理指标，不是智能水平的直接证明。</h2>
+          </div>
+          <div className="method-body"><p>Cloudflare D1 每小时写入一条细粒度采集记录，GitHub Actions 同步维护一份可审计的公开 archive；趋势图按日聚合展示，仓库规模自持续采集起累积。Closed 的增长反映处理吞吐；Open 的下降反映净积压压降；两者必须结合新增流入一起判断。</p><p>关闭可能包含重复、无效、垃圾内容或人工批量操作，PR Closed 也同时包含 merged 与未合并关闭。仓库规模（stars/forks/commits/contributors）为辅助上下文，反映项目热度而非模型智力。因此，本网站衡量的是大型 AI 原生项目的协作与治理能力，而非单一模型的智力。</p></div>
         </section>
       </div>
 

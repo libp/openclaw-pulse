@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-01T11:33:51.296Z",
+  "generatedAt": "2026-08-01T15:17:21.536Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -258,17 +258,17 @@
     },
     {
       "capturedOn": "2026-08-01",
-      "capturedAt": "2026-08-01T11:33:51.296Z",
+      "capturedAt": "2026-08-01T15:17:21.536Z",
       "issueOpen": 3481,
-      "issueClosed": 42055,
-      "prOpen": 2178,
-      "prClosed": 67192,
-      "prMerged": 21230,
+      "issueClosed": 42068,
+      "prOpen": 2197,
+      "prClosed": 67245,
+      "prMerged": 21273,
       "workflowRuns": 40000,
-      "stars": 384777,
-      "forks": 80865,
-      "subscribers": 1762,
-      "commits": 74880,
+      "stars": 384794,
+      "forks": 80862,
+      "subscribers": 1761,
+      "commits": 74941,
       "contributors": 3040,
       "source": "github-actions",
       "approximateDate": false
@@ -293,10 +293,10 @@
     },
     {
       "capturedOn": "2026-08-01",
-      "stars": 384777,
-      "forks": 80865,
-      "subscribers": 1762,
-      "commits": 74880,
+      "stars": 384794,
+      "forks": 80862,
+      "subscribers": 1761,
+      "commits": 74941,
       "contributors": 3040
     }
   ],
@@ -304,68 +304,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 89043,
-        "title": "Feature request: distribute same-app agents' channel posts as room events to co-bound agents (multi-agent single-app Slack deployments)",
-        "url": "https://github.com/openclaw/openclaw/issues/89043",
+        "number": 117379,
+        "title": "Gateway restart silently replaces idle main sessions, losing conversation context",
+        "url": "https://github.com/openclaw/openclaw/issues/117379",
         "state": "open",
-        "author": "Nivrafaeli",
-        "updatedAt": "2026-08-01T11:33:25Z"
+        "author": "luzhidong",
+        "updatedAt": "2026-08-01T15:16:54Z"
+      },
+      {
+        "kind": "issue",
+        "number": 92244,
+        "title": "[bug] Telegram model picker call to applyModelOverrideToSessionEntry doesn't pass preserveAuthProfileOverride, causing silent destruction of auth profile overrides set by non-picker sources",
+        "url": "https://github.com/openclaw/openclaw/issues/92244",
+        "state": "open",
+        "author": "saphoroth",
+        "updatedAt": "2026-08-01T15:16:47Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 105643,
-        "title": "fix(cli-runner): sweep orphaned bundle MCP temp dirs at gateway startup",
-        "url": "https://github.com/openclaw/openclaw/pull/105643",
-        "state": "open",
-        "author": "totobusnello",
-        "updatedAt": "2026-08-01T11:33:47Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117377,
-        "title": "fix(ci): stabilize release validation assertions",
-        "url": "https://github.com/openclaw/openclaw/pull/117377",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-01T11:33:45Z"
-      },
-      {
-        "kind": "pr",
-        "number": 116450,
-        "title": "feat(rust): add the embeddable node runtime lifecycle",
-        "url": "https://github.com/openclaw/openclaw/pull/116450",
-        "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-08-01T11:33:45Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111813,
-        "title": "fix: Azure OpenAI memory indexing fails for custom providers",
-        "url": "https://github.com/openclaw/openclaw/pull/111813",
-        "state": "open",
-        "author": "vyncint",
-        "updatedAt": "2026-08-01T11:33:45Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117034,
-        "title": "feat(audit): add execution identity inspection",
-        "url": "https://github.com/openclaw/openclaw/pull/117034",
-        "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-08-01T11:33:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117372,
-        "title": "refactor(plugins): move plugin contributions into the registry bundle",
-        "url": "https://github.com/openclaw/openclaw/pull/117372",
+        "number": 117464,
+        "title": "fix(discord): preserve opaque cursors when listing channel pins",
+        "url": "https://github.com/openclaw/openclaw/pull/117464",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-01T11:33:43Z"
+        "updatedAt": "2026-08-01T15:17:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117403,
+        "title": "fix(diagnostics): report provider HTTP status in timelines",
+        "url": "https://github.com/openclaw/openclaw/pull/117403",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-01T15:17:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117339,
+        "title": "fix(media): reject non-binary generated video downloads across providers",
+        "url": "https://github.com/openclaw/openclaw/pull/117339",
+        "state": "open",
+        "author": "Yigtwxx",
+        "updatedAt": "2026-08-01T15:17:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117438,
+        "title": "fix(tlon): chunk outbound text over the declared delivery limit",
+        "url": "https://github.com/openclaw/openclaw/pull/117438",
+        "state": "open",
+        "author": "chenyangjun-xy",
+        "updatedAt": "2026-08-01T15:17:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112623,
+        "title": "feat(agents): inject Recently Completed Subagents into parent prompt",
+        "url": "https://github.com/openclaw/openclaw/pull/112623",
+        "state": "open",
+        "author": "ericcaiwx-star",
+        "updatedAt": "2026-08-01T15:17:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 115545,
+        "title": "feat(web-fetch): add tools.web.fetch.headers for operator request headers",
+        "url": "https://github.com/openclaw/openclaw/pull/115545",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-01T15:17:02Z"
       }
     ]
   }

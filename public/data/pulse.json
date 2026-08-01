@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-01T15:17:21.536Z",
+  "generatedAt": "2026-08-01T21:07:59.648Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -258,18 +258,18 @@
     },
     {
       "capturedOn": "2026-08-01",
-      "capturedAt": "2026-08-01T15:17:21.536Z",
-      "issueOpen": 3481,
-      "issueClosed": 42068,
-      "prOpen": 2197,
-      "prClosed": 67245,
-      "prMerged": 21273,
+      "capturedAt": "2026-08-01T21:07:59.648Z",
+      "issueOpen": 3479,
+      "issueClosed": 42103,
+      "prOpen": 2177,
+      "prClosed": 67404,
+      "prMerged": 21395,
       "workflowRuns": 40000,
-      "stars": 384794,
-      "forks": 80862,
-      "subscribers": 1761,
-      "commits": 74941,
-      "contributors": 3040,
+      "stars": 384837,
+      "forks": 80869,
+      "subscribers": 1762,
+      "commits": 75151,
+      "contributors": 3041,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -293,88 +293,124 @@
     },
     {
       "capturedOn": "2026-08-01",
-      "stars": 384794,
-      "forks": 80862,
-      "subscribers": 1761,
-      "commits": 74941,
-      "contributors": 3040
+      "stars": 384837,
+      "forks": 80869,
+      "subscribers": 1762,
+      "commits": 75151,
+      "contributors": 3041
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 117379,
-        "title": "Gateway restart silently replaces idle main sessions, losing conversation context",
-        "url": "https://github.com/openclaw/openclaw/issues/117379",
+        "number": 116201,
+        "title": "Realtime voice work can retain unbounded provider and consult state",
+        "url": "https://github.com/openclaw/openclaw/issues/116201",
         "state": "open",
-        "author": "luzhidong",
-        "updatedAt": "2026-08-01T15:16:54Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-01T21:07:49Z"
       },
       {
         "kind": "issue",
-        "number": 92244,
-        "title": "[bug] Telegram model picker call to applyModelOverrideToSessionEntry doesn't pass preserveAuthProfileOverride, causing silent destruction of auth profile overrides set by non-picker sources",
-        "url": "https://github.com/openclaw/openclaw/issues/92244",
+        "number": 113983,
+        "title": "[Bug]: 2026.7.1-2 gateway lock loop + signal plugin never loads after `openclaw update`",
+        "url": "https://github.com/openclaw/openclaw/issues/113983",
         "state": "open",
-        "author": "saphoroth",
-        "updatedAt": "2026-08-01T15:16:47Z"
+        "author": "C-LaForest",
+        "updatedAt": "2026-08-01T21:07:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 115753,
+        "title": "[Bug]: QA evidence reports requested channel driver instead of realized adapter",
+        "url": "https://github.com/openclaw/openclaw/issues/115753",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-01T21:07:47Z"
+      },
+      {
+        "kind": "issue",
+        "number": 115421,
+        "title": "Schema downgrade recovery must not quarantine/wipe state DB (cron jobs lost)",
+        "url": "https://github.com/openclaw/openclaw/issues/115421",
+        "state": "open",
+        "author": "ericcaiwx-star",
+        "updatedAt": "2026-08-01T21:07:45Z"
+      },
+      {
+        "kind": "issue",
+        "number": 117154,
+        "title": "thread-reply deliveries are not marked as current-source replies (follow-up to #116909)",
+        "url": "https://github.com/openclaw/openclaw/issues/117154",
+        "state": "open",
+        "author": "omarshahine",
+        "updatedAt": "2026-08-01T21:07:44Z"
+      },
+      {
+        "kind": "issue",
+        "number": 116765,
+        "title": "[Feature]: Add a first-party llama-server provider",
+        "url": "https://github.com/openclaw/openclaw/issues/116765",
+        "state": "open",
+        "author": "osolmaz",
+        "updatedAt": "2026-08-01T21:07:44Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 117464,
-        "title": "fix(discord): preserve opaque cursors when listing channel pins",
-        "url": "https://github.com/openclaw/openclaw/pull/117464",
+        "number": 117583,
+        "title": "Build export HTML vendor assets from pinned dependencies",
+        "url": "https://github.com/openclaw/openclaw/pull/117583",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-01T15:17:17Z"
+        "updatedAt": "2026-08-01T21:07:39Z"
       },
       {
         "kind": "pr",
-        "number": 117403,
-        "title": "fix(diagnostics): report provider HTTP status in timelines",
-        "url": "https://github.com/openclaw/openclaw/pull/117403",
+        "number": 117400,
+        "title": "fix(compaction): use canonical session context projection for post-turn estimator",
+        "url": "https://github.com/openclaw/openclaw/pull/117400",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-01T15:17:17Z"
+        "author": "wangyan2026",
+        "updatedAt": "2026-08-01T21:07:39Z"
       },
       {
         "kind": "pr",
-        "number": 117339,
-        "title": "fix(media): reject non-binary generated video downloads across providers",
-        "url": "https://github.com/openclaw/openclaw/pull/117339",
+        "number": 113809,
+        "title": "fix(install): reject commit-less git checkouts",
+        "url": "https://github.com/openclaw/openclaw/pull/113809",
         "state": "open",
-        "author": "Yigtwxx",
-        "updatedAt": "2026-08-01T15:17:17Z"
+        "author": "ooiuuii",
+        "updatedAt": "2026-08-01T21:07:39Z"
       },
       {
         "kind": "pr",
-        "number": 117438,
-        "title": "fix(tlon): chunk outbound text over the declared delivery limit",
-        "url": "https://github.com/openclaw/openclaw/pull/117438",
+        "number": 117443,
+        "title": "fix(status): resolve effective channel model override",
+        "url": "https://github.com/openclaw/openclaw/pull/117443",
         "state": "open",
-        "author": "chenyangjun-xy",
-        "updatedAt": "2026-08-01T15:17:06Z"
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-08-01T21:07:38Z"
       },
       {
         "kind": "pr",
-        "number": 112623,
-        "title": "feat(agents): inject Recently Completed Subagents into parent prompt",
-        "url": "https://github.com/openclaw/openclaw/pull/112623",
+        "number": 117337,
+        "title": "feat: support picking a specific on-device TTS voice for Talk Mode",
+        "url": "https://github.com/openclaw/openclaw/pull/117337",
         "state": "open",
-        "author": "ericcaiwx-star",
-        "updatedAt": "2026-08-01T15:17:06Z"
+        "author": "dmitriy-konovalov",
+        "updatedAt": "2026-08-01T21:07:38Z"
       },
       {
         "kind": "pr",
-        "number": 115545,
-        "title": "feat(web-fetch): add tools.web.fetch.headers for operator request headers",
-        "url": "https://github.com/openclaw/openclaw/pull/115545",
+        "number": 117276,
+        "title": "fix(exec): surface ambiguous node outcomes without retrying",
+        "url": "https://github.com/openclaw/openclaw/pull/117276",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-01T15:17:02Z"
+        "author": "omarshahine",
+        "updatedAt": "2026-08-01T21:07:38Z"
       }
     ]
   }

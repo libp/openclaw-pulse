@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-01T03:47:59.151Z",
+  "generatedAt": "2026-08-01T06:39:45.451Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -258,18 +258,18 @@
     },
     {
       "capturedOn": "2026-08-01",
-      "capturedAt": "2026-08-01T03:47:59.151Z",
-      "issueOpen": 3498,
-      "issueClosed": 42022,
-      "prOpen": 2186,
-      "prClosed": 67018,
-      "prMerged": 21114,
+      "capturedAt": "2026-08-01T06:39:45.451Z",
+      "issueOpen": 3486,
+      "issueClosed": 42042,
+      "prOpen": 2159,
+      "prClosed": 67106,
+      "prMerged": 21167,
       "workflowRuns": 40000,
-      "stars": 384749,
-      "forks": 80857,
+      "stars": 384755,
+      "forks": 80862,
       "subscribers": 1762,
-      "commits": 74685,
-      "contributors": 3036,
+      "commits": 74780,
+      "contributors": 3039,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -293,124 +293,106 @@
     },
     {
       "capturedOn": "2026-08-01",
-      "stars": 384749,
-      "forks": 80857,
+      "stars": 384755,
+      "forks": 80862,
       "subscribers": 1762,
-      "commits": 74685,
-      "contributors": 3036
+      "commits": 74780,
+      "contributors": 3039
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 115753,
-        "title": "[Bug]: QA evidence reports requested channel driver instead of realized adapter",
-        "url": "https://github.com/openclaw/openclaw/issues/115753",
+        "number": 117263,
+        "title": "[Bug]: startup legacy session migration silently deletes live session rows",
+        "url": "https://github.com/openclaw/openclaw/issues/117263",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-01T03:47:20Z"
+        "author": "yetval",
+        "updatedAt": "2026-08-01T06:39:38Z"
       },
       {
         "kind": "issue",
-        "number": 116173,
-        "title": "[Feature]: Name allowed sandbox bind source roots instead of disabling the source-root check per agent",
-        "url": "https://github.com/openclaw/openclaw/issues/116173",
+        "number": 117262,
+        "title": "SQLite contention: 3 concurrent write handles on state/openclaw.sqlite cause ~33s event-loop stalls (DEF-61)",
+        "url": "https://github.com/openclaw/openclaw/issues/117262",
         "state": "open",
-        "author": "sasan1200",
-        "updatedAt": "2026-08-01T03:47:16Z"
+        "author": "rebarshop-24",
+        "updatedAt": "2026-08-01T06:37:45Z"
       },
       {
         "kind": "issue",
-        "number": 117109,
-        "title": "Add bounded native iMessage history to message(action=\"read\")",
-        "url": "https://github.com/openclaw/openclaw/issues/117109",
+        "number": 116201,
+        "title": "Realtime voice work can retain unbounded provider and consult state",
+        "url": "https://github.com/openclaw/openclaw/issues/116201",
         "state": "open",
-        "author": "futuredescriber",
-        "updatedAt": "2026-08-01T03:47:14Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-01T06:37:30Z"
       },
       {
         "kind": "issue",
-        "number": 115073,
-        "title": "[Bug]: plugins doctor reports healthy while an active context engine is quarantined at runtime",
-        "url": "https://github.com/openclaw/openclaw/issues/115073",
+        "number": 116943,
+        "title": "outbound: fenced system-reminder and prompt-data examples are deleted from replies on every channel",
+        "url": "https://github.com/openclaw/openclaw/issues/116943",
         "state": "open",
-        "author": "lamkan0210",
-        "updatedAt": "2026-08-01T03:47:13Z"
-      },
-      {
-        "kind": "issue",
-        "number": 114888,
-        "title": "[Bug]: DeepSeek V4 custom openai-completions proxy emits malformed DSML / nested arguments; tools not executed",
-        "url": "https://github.com/openclaw/openclaw/issues/114888",
-        "state": "open",
-        "author": "OhMyAgnes",
-        "updatedAt": "2026-08-01T03:47:13Z"
-      },
-      {
-        "kind": "issue",
-        "number": 116601,
-        "title": "[Bug]: MiniMax-M3 image capability on Anthropic route bypasses MiniMax-VL-01 and silently loses vision",
-        "url": "https://github.com/openclaw/openclaw/issues/116601",
-        "state": "open",
-        "author": "SweetSophia",
-        "updatedAt": "2026-08-01T03:47:12Z"
+        "author": "yetval",
+        "updatedAt": "2026-08-01T06:37:19Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 117189,
-        "title": "Fix SSRF vulnerability and update multiple dependencies",
-        "url": "https://github.com/openclaw/openclaw/pull/117189",
+        "number": 101777,
+        "title": "fix(codex): suppress stdout/stderr stream errors in sandbox subprocesses",
+        "url": "https://github.com/openclaw/openclaw/pull/101777",
         "state": "open",
-        "author": "devops2626",
-        "updatedAt": "2026-08-01T03:47:54Z"
+        "author": "sunlit-deng",
+        "updatedAt": "2026-08-01T06:39:34Z"
       },
       {
         "kind": "pr",
-        "number": 117177,
-        "title": "fix(exec): preserve approved command output when sessions resume",
-        "url": "https://github.com/openclaw/openclaw/pull/117177",
+        "number": 117264,
+        "title": "fix(agents): recover tagged Claude CLI reasoning",
+        "url": "https://github.com/openclaw/openclaw/pull/117264",
+        "state": "open",
+        "author": "joshavant",
+        "updatedAt": "2026-08-01T06:39:42Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117148,
+        "title": "fix(agents): preserve tools on verified completion wakes",
+        "url": "https://github.com/openclaw/openclaw/pull/117148",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-01T03:47:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117195,
-        "title": "fix(minimax): preserve authoritative binary media completion",
-        "url": "https://github.com/openclaw/openclaw/pull/117195",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-01T03:47:31Z"
-      },
-      {
-        "kind": "pr",
-        "number": 93985,
-        "title": "fix(sandbox): skip binds that conflict with protected skill mounts",
-        "url": "https://github.com/openclaw/openclaw/pull/93985",
-        "state": "open",
-        "author": "chenyangjun-xy",
-        "updatedAt": "2026-08-01T03:47:23Z"
+        "updatedAt": "2026-08-01T06:39:18Z"
       },
       {
         "kind": "pr",
         "number": 117180,
-        "title": "build(deps): bump the actions group across 1 directory with 9 updates",
+        "title": "chore(deps): bump the actions group across 1 directory with 9 updates",
         "url": "https://github.com/openclaw/openclaw/pull/117180",
         "state": "open",
         "author": "dependabot[bot]",
-        "updatedAt": "2026-08-01T03:47:15Z"
+        "updatedAt": "2026-08-01T06:39:10Z"
       },
       {
         "kind": "pr",
-        "number": 117144,
-        "title": "fix(ci): package runtime resources in dist artifact",
-        "url": "https://github.com/openclaw/openclaw/pull/117144",
+        "number": 117241,
+        "title": "fix(telegram): gate unavailable send capabilities at the owner",
+        "url": "https://github.com/openclaw/openclaw/pull/117241",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-01T06:38:55Z"
+      },
+      {
+        "kind": "pr",
+        "number": 116976,
+        "title": "docs: replace retired hostnameAllowlist in browser-control example",
+        "url": "https://github.com/openclaw/openclaw/pull/116976",
         "state": "open",
         "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-01T03:47:14Z"
+        "updatedAt": "2026-08-01T06:38:50Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-02T21:09:39.781Z",
+  "generatedAt": "2026-08-02T22:09:12.204Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -275,17 +275,17 @@
     },
     {
       "capturedOn": "2026-08-02",
-      "capturedAt": "2026-08-02T21:09:39.781Z",
-      "issueOpen": 3393,
-      "issueClosed": 42286,
-      "prOpen": 2159,
-      "prClosed": 67895,
-      "prMerged": 21792,
+      "capturedAt": "2026-08-02T22:09:12.204Z",
+      "issueOpen": 3391,
+      "issueClosed": 42293,
+      "prOpen": 2155,
+      "prClosed": 67925,
+      "prMerged": 21810,
       "workflowRuns": 40000,
-      "stars": 384947,
-      "forks": 80900,
+      "stars": 384948,
+      "forks": 80899,
       "subscribers": 1761,
-      "commits": 75699,
+      "commits": 75717,
       "contributors": 3043,
       "source": "github-actions",
       "approximateDate": false
@@ -318,10 +318,10 @@
     },
     {
       "capturedOn": "2026-08-02",
-      "stars": 384947,
-      "forks": 80900,
+      "stars": 384948,
+      "forks": 80899,
       "subscribers": 1761,
-      "commits": 75699,
+      "commits": 75717,
       "contributors": 3043
     }
   ],
@@ -329,95 +329,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 95295,
-        "title": "[Bug]: Web UI sidebar hides existing child-spawned subagent sessions across agent scopes",
-        "url": "https://github.com/openclaw/openclaw/issues/95295",
+        "number": 95941,
+        "title": "[Feature] Cron command-payload: add per-stream delivery filter (e.g., deliveryStreams: [\"stdout\"])",
+        "url": "https://github.com/openclaw/openclaw/issues/95941",
         "state": "open",
-        "author": "rweichitsai",
-        "updatedAt": "2026-08-02T21:09:29Z"
+        "author": "BryceMurray",
+        "updatedAt": "2026-08-02T22:09:00Z"
       },
       {
         "kind": "issue",
-        "number": 97435,
-        "title": "[Bug] LINE channel inbound events were delayed before agent run and later drained",
-        "url": "https://github.com/openclaw/openclaw/issues/97435",
-        "state": "open",
-        "author": "FelixStarlite",
-        "updatedAt": "2026-08-02T21:09:10Z"
-      },
-      {
-        "kind": "issue",
-        "number": 118187,
-        "title": "[Bug]: Cron failure alerts fire before the run outcome is durable (pre-persist delivery, cooldown rollback)",
-        "url": "https://github.com/openclaw/openclaw/issues/118187",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-02T21:08:47Z"
-      },
-      {
-        "kind": "issue",
-        "number": 118208,
-        "title": "Release: npm 12 pack JSON breaks security and packaging gates",
-        "url": "https://github.com/openclaw/openclaw/issues/118208",
+        "number": 118237,
+        "title": "[Feature]: operator escape hatch for cron webhooks to loopback/private targets (SSRF guard has no cron policy wiring)",
+        "url": "https://github.com/openclaw/openclaw/issues/118237",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-02T21:08:45Z"
+        "updatedAt": "2026-08-02T22:08:59Z"
+      },
+      {
+        "kind": "issue",
+        "number": 97320,
+        "title": "Discord group backlog can deliver stale events as fresh turns after long delay",
+        "url": "https://github.com/openclaw/openclaw/issues/97320",
+        "state": "open",
+        "author": "scribe-dandelion-cult",
+        "updatedAt": "2026-08-02T22:08:49Z"
+      },
+      {
+        "kind": "issue",
+        "number": 116564,
+        "title": "[Bug]: contextInjection: \"continuation-skip\" bootstrap-completion marker never written on JSONL-backed sessions (2026.6.11)",
+        "url": "https://github.com/openclaw/openclaw/issues/116564",
+        "state": "open",
+        "author": "etotheo2020",
+        "updatedAt": "2026-08-02T22:08:44Z"
+      },
+      {
+        "kind": "issue",
+        "number": 116921,
+        "title": "[Bug]: Control UI session companion rail re-opens after hide — auto-expand overwrites persisted 'off' preference",
+        "url": "https://github.com/openclaw/openclaw/issues/116921",
+        "state": "open",
+        "author": "danfour649",
+        "updatedAt": "2026-08-02T22:08:41Z"
+      },
+      {
+        "kind": "issue",
+        "number": 117510,
+        "title": "[Bug]: Signal context assembly can omit adjacent turns and inject older retrieved context",
+        "url": "https://github.com/openclaw/openclaw/issues/117510",
+        "state": "open",
+        "author": "need4steve2",
+        "updatedAt": "2026-08-02T22:08:37Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 118131,
-        "title": "fix(ios): preserve limited access when full upgrade fails",
-        "url": "https://github.com/openclaw/openclaw/pull/118131",
-        "state": "closed",
-        "author": "thaichi",
-        "updatedAt": "2026-08-02T21:09:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114637,
-        "title": "test: lock in provider timeoutSeconds on static catalog fallback model resolution",
-        "url": "https://github.com/openclaw/openclaw/pull/114637",
+        "number": 118235,
+        "title": "refactor: adopt canonical async serialization",
+        "url": "https://github.com/openclaw/openclaw/pull/118235",
         "state": "open",
-        "author": "synthalorian",
-        "updatedAt": "2026-08-02T21:09:08Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118190,
-        "title": "fix(skills): stop skills update from destroying local skill changes",
-        "url": "https://github.com/openclaw/openclaw/pull/118190",
-        "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-08-02T21:09:06Z"
-      },
-      {
-        "kind": "pr",
-        "number": 108452,
-        "title": "fix(codex): fail closed native tool surface when tools disabled",
-        "url": "https://github.com/openclaw/openclaw/pull/108452",
-        "state": "open",
-        "author": "BunsDev",
-        "updatedAt": "2026-08-02T21:09:00Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118130,
-        "title": "fix(failover): classify interrupted transport failures as timeouts",
-        "url": "https://github.com/openclaw/openclaw/pull/118130",
-        "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-02T21:08:53Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118200,
-        "title": "fix(cron): deliver failure alerts only after persistence",
-        "url": "https://github.com/openclaw/openclaw/pull/118200",
-        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-02T21:08:50Z"
+        "updatedAt": "2026-08-02T22:09:03Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118231,
+        "title": "fix: recover Control UI access after device-auth upgrades",
+        "url": "https://github.com/openclaw/openclaw/pull/118231",
+        "state": "open",
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-08-02T22:09:08Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118232,
+        "title": "refactor(gateway): table-drive lazy method registration",
+        "url": "https://github.com/openclaw/openclaw/pull/118232",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-02T22:08:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118239,
+        "title": "refactor(browser): consolidate CDP test fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/118239",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-02T22:08:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117239,
+        "title": "fix(qa): own screenshot and recording artifact freshness",
+        "url": "https://github.com/openclaw/openclaw/pull/117239",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-02T22:08:56Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117013,
+        "title": "fix(codex): preserve provider-owned token usage breakdown",
+        "url": "https://github.com/openclaw/openclaw/pull/117013",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-02T22:08:56Z"
       }
     ]
   }

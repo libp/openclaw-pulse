@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-02T19:32:19.217Z",
+  "generatedAt": "2026-08-02T21:09:39.781Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -275,17 +275,17 @@
     },
     {
       "capturedOn": "2026-08-02",
-      "capturedAt": "2026-08-02T19:32:19.217Z",
-      "issueOpen": 3402,
-      "issueClosed": 42268,
-      "prOpen": 2153,
-      "prClosed": 67848,
-      "prMerged": 21756,
+      "capturedAt": "2026-08-02T21:09:39.781Z",
+      "issueOpen": 3393,
+      "issueClosed": 42286,
+      "prOpen": 2159,
+      "prClosed": 67895,
+      "prMerged": 21792,
       "workflowRuns": 40000,
-      "stars": 384942,
+      "stars": 384947,
       "forks": 80900,
       "subscribers": 1761,
-      "commits": 75658,
+      "commits": 75699,
       "contributors": 3043,
       "source": "github-actions",
       "approximateDate": false
@@ -318,10 +318,10 @@
     },
     {
       "capturedOn": "2026-08-02",
-      "stars": 384942,
+      "stars": 384947,
       "forks": 80900,
       "subscribers": 1761,
-      "commits": 75658,
+      "commits": 75699,
       "contributors": 3043
     }
   ],
@@ -329,77 +329,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 99382,
-        "title": "Anthropic replay fails with \"Invalid signature in thinking block\" for thinking-enabled sessions after tool loops (no compaction)",
-        "url": "https://github.com/openclaw/openclaw/issues/99382",
+        "number": 95295,
+        "title": "[Bug]: Web UI sidebar hides existing child-spawned subagent sessions across agent scopes",
+        "url": "https://github.com/openclaw/openclaw/issues/95295",
         "state": "open",
-        "author": "Sunjae-k",
-        "updatedAt": "2026-08-02T19:31:42Z"
+        "author": "rweichitsai",
+        "updatedAt": "2026-08-02T21:09:29Z"
       },
       {
         "kind": "issue",
-        "number": 109186,
-        "title": "Subagent completion events silently killed by NO_REPLY instruction after sessions_yield",
-        "url": "https://github.com/openclaw/openclaw/issues/109186",
+        "number": 97435,
+        "title": "[Bug] LINE channel inbound events were delayed before agent run and later drained",
+        "url": "https://github.com/openclaw/openclaw/issues/97435",
         "state": "open",
-        "author": "yetisoldier",
-        "updatedAt": "2026-08-02T19:31:40Z"
+        "author": "FelixStarlite",
+        "updatedAt": "2026-08-02T21:09:10Z"
       },
       {
         "kind": "issue",
-        "number": 113044,
-        "title": "[Bug]: [diagnostics-otel] openclaw.message.processed / harness.run / openclaw.exec often become separate root traces (context not propagated) on 2026.7.1",
-        "url": "https://github.com/openclaw/openclaw/issues/113044",
-        "state": "open",
-        "author": "hanxu9-tal",
-        "updatedAt": "2026-08-02T19:31:37Z"
+        "number": 118187,
+        "title": "[Bug]: Cron failure alerts fire before the run outcome is durable (pre-persist delivery, cooldown rollback)",
+        "url": "https://github.com/openclaw/openclaw/issues/118187",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-02T21:08:47Z"
       },
       {
         "kind": "issue",
-        "number": 115112,
-        "title": "Discord-originated subagent/tool work completes internally but final response is not delivered back to Discord",
-        "url": "https://github.com/openclaw/openclaw/issues/115112",
+        "number": 118208,
+        "title": "Release: npm 12 pack JSON breaks security and packaging gates",
+        "url": "https://github.com/openclaw/openclaw/issues/118208",
         "state": "open",
-        "author": "judas-oc",
-        "updatedAt": "2026-08-02T19:31:28Z"
-      },
-      {
-        "kind": "issue",
-        "number": 94536,
-        "title": "PR #92231 fix incomplete — commitment marked 'sent' but never delivered (second case)",
-        "url": "https://github.com/openclaw/openclaw/issues/94536",
-        "state": "open",
-        "author": "bizzle12368239",
-        "updatedAt": "2026-08-02T19:31:27Z"
-      },
-      {
-        "kind": "issue",
-        "number": 115303,
-        "title": "[Feature]: Upstream persisted memory Gateway read capability",
-        "url": "https://github.com/openclaw/openclaw/issues/115303",
-        "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-08-02T19:31:26Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-02T21:08:45Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 100845,
-        "title": "fix(cli): one-shot agent --local runs never export OTel diagnostics",
-        "url": "https://github.com/openclaw/openclaw/pull/100845",
-        "state": "open",
-        "author": "amknight",
-        "updatedAt": "2026-08-02T19:32:15Z"
+        "number": 118131,
+        "title": "fix(ios): preserve limited access when full upgrade fails",
+        "url": "https://github.com/openclaw/openclaw/pull/118131",
+        "state": "closed",
+        "author": "thaichi",
+        "updatedAt": "2026-08-02T21:09:17Z"
       },
       {
         "kind": "pr",
-        "number": 118144,
-        "title": "fix(telegram): prevent stalled Bot API responses from blocking group messages",
-        "url": "https://github.com/openclaw/openclaw/pull/118144",
+        "number": 114637,
+        "title": "test: lock in provider timeoutSeconds on static catalog fallback model resolution",
+        "url": "https://github.com/openclaw/openclaw/pull/114637",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-02T19:32:05Z"
+        "author": "synthalorian",
+        "updatedAt": "2026-08-02T21:09:08Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118190,
+        "title": "fix(skills): stop skills update from destroying local skill changes",
+        "url": "https://github.com/openclaw/openclaw/pull/118190",
+        "state": "open",
+        "author": "yetval",
+        "updatedAt": "2026-08-02T21:09:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 108452,
+        "title": "fix(codex): fail closed native tool surface when tools disabled",
+        "url": "https://github.com/openclaw/openclaw/pull/108452",
+        "state": "open",
+        "author": "BunsDev",
+        "updatedAt": "2026-08-02T21:09:00Z"
       },
       {
         "kind": "pr",
@@ -408,34 +408,16 @@
         "url": "https://github.com/openclaw/openclaw/pull/118130",
         "state": "open",
         "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-02T19:32:03Z"
+        "updatedAt": "2026-08-02T21:08:53Z"
       },
       {
         "kind": "pr",
-        "number": 98574,
-        "title": "fix(session-memory): contain leaked role markers",
-        "url": "https://github.com/openclaw/openclaw/pull/98574",
-        "state": "open",
+        "number": 118200,
+        "title": "fix(cron): deliver failure alerts only after persistence",
+        "url": "https://github.com/openclaw/openclaw/pull/118200",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-02T19:31:33Z"
-      },
-      {
-        "kind": "pr",
-        "number": 98869,
-        "title": "Park channel plugin blocker dry-run effects",
-        "url": "https://github.com/openclaw/openclaw/pull/98869",
-        "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-08-02T19:31:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117951,
-        "title": "fix(gateway): preserve assistant media in live chat events",
-        "url": "https://github.com/openclaw/openclaw/pull/117951",
-        "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-02T19:31:26Z"
+        "updatedAt": "2026-08-02T21:08:50Z"
       }
     ]
   }

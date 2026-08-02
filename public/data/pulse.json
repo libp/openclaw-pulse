@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-02T09:19:33.267Z",
+  "generatedAt": "2026-08-02T13:52:18.483Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -275,18 +275,18 @@
     },
     {
       "capturedOn": "2026-08-02",
-      "capturedAt": "2026-08-02T09:19:33.267Z",
-      "issueOpen": 3451,
-      "issueClosed": 42175,
-      "prOpen": 2165,
-      "prClosed": 67661,
-      "prMerged": 21609,
+      "capturedAt": "2026-08-02T13:52:18.483Z",
+      "issueOpen": 3442,
+      "issueClosed": 42199,
+      "prOpen": 2148,
+      "prClosed": 67733,
+      "prMerged": 21669,
       "workflowRuns": 40000,
-      "stars": 384879,
-      "forks": 80885,
-      "subscribers": 1760,
-      "commits": 75416,
-      "contributors": 3041,
+      "stars": 384911,
+      "forks": 80890,
+      "subscribers": 1761,
+      "commits": 75523,
+      "contributors": 3044,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -318,59 +318,23 @@
     },
     {
       "capturedOn": "2026-08-02",
-      "stars": 384879,
-      "forks": 80885,
-      "subscribers": 1760,
-      "commits": 75416,
-      "contributors": 3041
+      "stars": 384911,
+      "forks": 80890,
+      "subscribers": 1761,
+      "commits": 75523,
+      "contributors": 3044
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 117926,
-        "title": "[Bug]: buffered infer output corrupts existing files on write failure",
-        "url": "https://github.com/openclaw/openclaw/issues/117926",
+        "number": 115037,
+        "title": "[Bug]: Synthetic \"No response requested.\" on resume after interrupted turn triggers model fallback — user turn silently served by downgraded model",
+        "url": "https://github.com/openclaw/openclaw/issues/115037",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-02T09:19:19Z"
-      },
-      {
-        "kind": "issue",
-        "number": 114615,
-        "title": "[Bug]: Every CLI invocation pays ~6s of eager plugin-graph init (jiti) — even `loadPlugins: \"never\"` commands like `gateway call`; ~97% of a gateway RPC is client-side",
-        "url": "https://github.com/openclaw/openclaw/issues/114615",
-        "state": "open",
-        "author": "Jackten",
-        "updatedAt": "2026-08-02T09:19:14Z"
-      },
-      {
-        "kind": "issue",
-        "number": 116173,
-        "title": "[Feature]: Name allowed sandbox bind source roots instead of disabling the source-root check per agent",
-        "url": "https://github.com/openclaw/openclaw/issues/116173",
-        "state": "open",
-        "author": "sasan1200",
-        "updatedAt": "2026-08-02T09:18:55Z"
-      },
-      {
-        "kind": "issue",
-        "number": 117109,
-        "title": "Add bounded native iMessage history to message(action=\"read\")",
-        "url": "https://github.com/openclaw/openclaw/issues/117109",
-        "state": "open",
-        "author": "futuredescriber",
-        "updatedAt": "2026-08-02T09:18:37Z"
-      },
-      {
-        "kind": "issue",
-        "number": 116358,
-        "title": "workboard: dispatch overwrites card agentId with \"workboard-dispatcher\"; board orchestration.defaultAssignee is never applied",
-        "url": "https://github.com/openclaw/openclaw/issues/116358",
-        "state": "open",
-        "author": "sergei-ivanisenko",
-        "updatedAt": "2026-08-02T09:18:22Z"
+        "author": "nissl24",
+        "updatedAt": "2026-08-02T13:52:03Z"
       },
       {
         "kind": "issue",
@@ -379,63 +343,99 @@
         "url": "https://github.com/openclaw/openclaw/issues/116231",
         "state": "open",
         "author": "hikaman",
-        "updatedAt": "2026-08-02T09:17:39Z"
+        "updatedAt": "2026-08-02T13:51:46Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112342,
+        "title": "[Bug]: Single Telegram directive triggers 10+ parallel sub-session spawns, all producing duplicate replies",
+        "url": "https://github.com/openclaw/openclaw/issues/112342",
+        "state": "closed",
+        "author": "djc00p",
+        "updatedAt": "2026-08-02T13:51:42Z"
+      },
+      {
+        "kind": "issue",
+        "number": 67129,
+        "title": "[Feature]:",
+        "url": "https://github.com/openclaw/openclaw/issues/67129",
+        "state": "open",
+        "author": "davidjmorris",
+        "updatedAt": "2026-08-02T13:51:35Z"
+      },
+      {
+        "kind": "issue",
+        "number": 63392,
+        "title": "[Feature]: Per-agent backup, restore, and clone",
+        "url": "https://github.com/openclaw/openclaw/issues/63392",
+        "state": "open",
+        "author": "saba-ch",
+        "updatedAt": "2026-08-02T13:51:07Z"
+      },
+      {
+        "kind": "issue",
+        "number": 63145,
+        "title": "[Feature]: openclaw models status --probe --all — per-model health check across all configured models",
+        "url": "https://github.com/openclaw/openclaw/issues/63145",
+        "state": "open",
+        "author": "ashok-2003",
+        "updatedAt": "2026-08-02T13:50:46Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113030,
-        "title": "refactor(browser-extension): extract config + tab-group helpers from background.js",
-        "url": "https://github.com/openclaw/openclaw/pull/113030",
+        "number": 117400,
+        "title": "fix(compaction): use canonical session context projection for post-turn estimator",
+        "url": "https://github.com/openclaw/openclaw/pull/117400",
         "state": "open",
-        "author": "anagnorisis2peripeteia",
-        "updatedAt": "2026-08-02T09:19:27Z"
+        "author": "wangyan2026",
+        "updatedAt": "2026-08-02T13:52:06Z"
       },
       {
         "kind": "pr",
-        "number": 112818,
-        "title": "refactor(talk): return emitted events from the realtime session harness",
-        "url": "https://github.com/openclaw/openclaw/pull/112818",
+        "number": 117976,
+        "title": "fix(memory): resolve Google embedding provider alias",
+        "url": "https://github.com/openclaw/openclaw/pull/117976",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-02T09:19:27Z"
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-08-02T13:51:59Z"
       },
       {
         "kind": "pr",
-        "number": 115390,
-        "title": "feat(protocol): publish node invoke cancellation payload",
-        "url": "https://github.com/openclaw/openclaw/pull/115390",
+        "number": 117920,
+        "title": "fix: honor operator scopes across Control UI session actions",
+        "url": "https://github.com/openclaw/openclaw/pull/117920",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-08-02T09:19:26Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-08-02T13:51:59Z"
       },
       {
         "kind": "pr",
-        "number": 117213,
-        "title": "fix: rebuild incomplete plugin policy refreshes",
-        "url": "https://github.com/openclaw/openclaw/pull/117213",
+        "number": 117952,
+        "title": "fix(control-ui): wait for delayed Talk source replies",
+        "url": "https://github.com/openclaw/openclaw/pull/117952",
         "state": "open",
-        "author": "wenrizc",
-        "updatedAt": "2026-08-02T09:19:25Z"
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-08-02T13:51:56Z"
       },
       {
         "kind": "pr",
-        "number": 117918,
-        "title": "fix(gateway): stop expired or stalled remote-node streaming",
-        "url": "https://github.com/openclaw/openclaw/pull/117918",
+        "number": 117996,
+        "title": "fix(line): preserve semantic indentation in fenced code",
+        "url": "https://github.com/openclaw/openclaw/pull/117996",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-02T09:19:23Z"
+        "updatedAt": "2026-08-02T13:51:50Z"
       },
       {
         "kind": "pr",
-        "number": 117712,
-        "title": "chore(deps): bump the actions group across 1 directory with 10 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/117712",
+        "number": 117184,
+        "title": "feat(auto-reply): clean empty staged inbound media directories (#104358)",
+        "url": "https://github.com/openclaw/openclaw/pull/117184",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-02T09:19:23Z"
+        "author": "MasterSwords1",
+        "updatedAt": "2026-08-02T13:51:22Z"
       }
     ]
   }

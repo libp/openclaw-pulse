@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-02T22:09:12.204Z",
+  "generatedAt": "2026-08-02T23:09:35.084Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -275,18 +275,18 @@
     },
     {
       "capturedOn": "2026-08-02",
-      "capturedAt": "2026-08-02T22:09:12.204Z",
-      "issueOpen": 3391,
-      "issueClosed": 42293,
-      "prOpen": 2155,
-      "prClosed": 67925,
-      "prMerged": 21810,
+      "capturedAt": "2026-08-02T23:09:35.084Z",
+      "issueOpen": 3395,
+      "issueClosed": 42296,
+      "prOpen": 2169,
+      "prClosed": 67957,
+      "prMerged": 21830,
       "workflowRuns": 40000,
-      "stars": 384948,
-      "forks": 80899,
+      "stars": 384950,
+      "forks": 80900,
       "subscribers": 1761,
-      "commits": 75717,
-      "contributors": 3043,
+      "commits": 75751,
+      "contributors": 3044,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -318,124 +318,88 @@
     },
     {
       "capturedOn": "2026-08-02",
-      "stars": 384948,
-      "forks": 80899,
+      "stars": 384950,
+      "forks": 80900,
       "subscribers": 1761,
-      "commits": 75717,
-      "contributors": 3043
+      "commits": 75751,
+      "contributors": 3044
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 95941,
-        "title": "[Feature] Cron command-payload: add per-stream delivery filter (e.g., deliveryStreams: [\"stdout\"])",
-        "url": "https://github.com/openclaw/openclaw/issues/95941",
+        "number": 118289,
+        "title": "[Feature]: Improve screen result of android app chat",
+        "url": "https://github.com/openclaw/openclaw/issues/118289",
         "state": "open",
-        "author": "BryceMurray",
-        "updatedAt": "2026-08-02T22:09:00Z"
+        "author": "ForceConstant",
+        "updatedAt": "2026-08-02T23:07:22Z"
       },
       {
         "kind": "issue",
-        "number": 118237,
-        "title": "[Feature]: operator escape hatch for cron webhooks to loopback/private targets (SSRF guard has no cron policy wiring)",
-        "url": "https://github.com/openclaw/openclaw/issues/118237",
+        "number": 116310,
+        "title": "[Feature]: Host ACP directly on the OpenClaw runtime",
+        "url": "https://github.com/openclaw/openclaw/issues/116310",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-02T22:08:59Z"
-      },
-      {
-        "kind": "issue",
-        "number": 97320,
-        "title": "Discord group backlog can deliver stale events as fresh turns after long delay",
-        "url": "https://github.com/openclaw/openclaw/issues/97320",
-        "state": "open",
-        "author": "scribe-dandelion-cult",
-        "updatedAt": "2026-08-02T22:08:49Z"
-      },
-      {
-        "kind": "issue",
-        "number": 116564,
-        "title": "[Bug]: contextInjection: \"continuation-skip\" bootstrap-completion marker never written on JSONL-backed sessions (2026.6.11)",
-        "url": "https://github.com/openclaw/openclaw/issues/116564",
-        "state": "open",
-        "author": "etotheo2020",
-        "updatedAt": "2026-08-02T22:08:44Z"
-      },
-      {
-        "kind": "issue",
-        "number": 116921,
-        "title": "[Bug]: Control UI session companion rail re-opens after hide — auto-expand overwrites persisted 'off' preference",
-        "url": "https://github.com/openclaw/openclaw/issues/116921",
-        "state": "open",
-        "author": "danfour649",
-        "updatedAt": "2026-08-02T22:08:41Z"
-      },
-      {
-        "kind": "issue",
-        "number": 117510,
-        "title": "[Bug]: Signal context assembly can omit adjacent turns and inject older retrieved context",
-        "url": "https://github.com/openclaw/openclaw/issues/117510",
-        "state": "open",
-        "author": "need4steve2",
-        "updatedAt": "2026-08-02T22:08:37Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-02T23:07:09Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 118235,
-        "title": "refactor: adopt canonical async serialization",
-        "url": "https://github.com/openclaw/openclaw/pull/118235",
-        "state": "open",
+        "number": 118256,
+        "title": "chore(lint): resolve the 40 reserved baseline findings to a zero-noise lint:all",
+        "url": "https://github.com/openclaw/openclaw/pull/118256",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-02T22:09:03Z"
+        "updatedAt": "2026-08-02T23:09:02Z"
       },
       {
         "kind": "pr",
-        "number": 118231,
-        "title": "fix: recover Control UI access after device-auth upgrades",
-        "url": "https://github.com/openclaw/openclaw/pull/118231",
+        "number": 117951,
+        "title": "fix(gateway): preserve assistant media in live chat events",
+        "url": "https://github.com/openclaw/openclaw/pull/117951",
         "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-08-02T22:09:08Z"
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-08-02T23:08:58Z"
       },
       {
         "kind": "pr",
         "number": 118232,
         "title": "refactor(gateway): table-drive lazy method registration",
         "url": "https://github.com/openclaw/openclaw/pull/118232",
-        "state": "open",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-02T22:08:59Z"
+        "updatedAt": "2026-08-02T23:08:55Z"
       },
       {
         "kind": "pr",
         "number": 118239,
         "title": "refactor(browser): consolidate CDP test fixtures",
         "url": "https://github.com/openclaw/openclaw/pull/118239",
-        "state": "open",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-02T22:08:57Z"
+        "updatedAt": "2026-08-02T23:08:49Z"
       },
       {
         "kind": "pr",
-        "number": 117239,
-        "title": "fix(qa): own screenshot and recording artifact freshness",
-        "url": "https://github.com/openclaw/openclaw/pull/117239",
+        "number": 118254,
+        "title": "refactor(agents): centralize terminal lifecycle outcomes",
+        "url": "https://github.com/openclaw/openclaw/pull/118254",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-02T22:08:56Z"
+        "updatedAt": "2026-08-02T23:08:42Z"
       },
       {
         "kind": "pr",
-        "number": 117013,
-        "title": "fix(codex): preserve provider-owned token usage breakdown",
-        "url": "https://github.com/openclaw/openclaw/pull/117013",
+        "number": 118286,
+        "title": "feat(cron): allow trusted private webhook targets",
+        "url": "https://github.com/openclaw/openclaw/pull/118286",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-02T22:08:56Z"
+        "updatedAt": "2026-08-02T23:08:36Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-01T23:09:45.496Z",
+  "generatedAt": "2026-08-02T00:11:30.033Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -272,6 +272,23 @@
       "contributors": 3041,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-02",
+      "capturedAt": "2026-08-02T00:11:30.033Z",
+      "issueOpen": 3482,
+      "issueClosed": 42111,
+      "prOpen": 2178,
+      "prClosed": 67464,
+      "prMerged": 21444,
+      "workflowRuns": 40000,
+      "stars": 384847,
+      "forks": 80872,
+      "subscribers": 1761,
+      "commits": 75219,
+      "contributors": 3041,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -298,119 +315,100 @@
       "subscribers": 1761,
       "commits": 75188,
       "contributors": 3041
+    },
+    {
+      "capturedOn": "2026-08-02",
+      "stars": 384847,
+      "forks": 80872,
+      "subscribers": 1761,
+      "commits": 75219,
+      "contributors": 3041
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 117672,
-        "title": "[Bug]: WhatsApp ack reaction silently never renders when the bot is a linked device of the operator's own account (hardcoded fromMe: false)",
-        "url": "https://github.com/openclaw/openclaw/issues/117672",
+        "number": 117708,
+        "title": "[Bug]: WhatsApp drops inbound media after a transient download failure",
+        "url": "https://github.com/openclaw/openclaw/issues/117708",
         "state": "open",
-        "author": "lpulcheri",
-        "updatedAt": "2026-08-01T23:09:30Z"
+        "author": "andersonjeccel",
+        "updatedAt": "2026-08-02T00:10:01Z"
       },
       {
         "kind": "issue",
-        "number": 117163,
-        "title": "[Bug]: Cron delivery.mode=\\\"announce\\\" + openclaw-weixin → OutboundDeliveryError ret=-2 errmsg=prepare failed (7.1 regression)",
-        "url": "https://github.com/openclaw/openclaw/issues/117163",
+        "number": 117693,
+        "title": "[Bug]: Gateway crash-loops on startup with \"prepared model runtime publication timed out\" (beta.6, likely same root cause as #116039)",
+        "url": "https://github.com/openclaw/openclaw/issues/117693",
         "state": "open",
-        "author": "guan899",
-        "updatedAt": "2026-08-01T23:09:27Z"
+        "author": "GlynLewis",
+        "updatedAt": "2026-08-02T00:09:28Z"
       },
       {
         "kind": "issue",
-        "number": 117178,
-        "title": "[Feature]: Confirm disruptive lifecycle actions in Control UI and apps",
-        "url": "https://github.com/openclaw/openclaw/issues/117178",
+        "number": 117709,
+        "title": "[Bug]: WhatsApp hides inbound media download errors unless verbose logging is enabled",
+        "url": "https://github.com/openclaw/openclaw/issues/117709",
         "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-08-01T23:09:26Z"
-      },
-      {
-        "kind": "issue",
-        "number": 116118,
-        "title": "[Bug]: Beta Gateway and latest signed macOS app lack a compatibility contract and state-write guard",
-        "url": "https://github.com/openclaw/openclaw/issues/116118",
-        "state": "open",
-        "author": "ZYV5ge",
-        "updatedAt": "2026-08-01T23:09:32Z"
-      },
-      {
-        "kind": "issue",
-        "number": 117358,
-        "title": "[Bug]: Post-turn compaction ignores compaction/reset boundaries and delays completed replies",
-        "url": "https://github.com/openclaw/openclaw/issues/117358",
-        "state": "open",
-        "author": "Bishop-AiCore",
-        "updatedAt": "2026-08-01T23:09:23Z"
-      },
-      {
-        "kind": "issue",
-        "number": 117211,
-        "title": "Auth profile store saves need credential-safe diagnostics",
-        "url": "https://github.com/openclaw/openclaw/issues/117211",
-        "state": "open",
-        "author": "usedhonda",
-        "updatedAt": "2026-08-01T23:09:22Z"
+        "author": "andersonjeccel",
+        "updatedAt": "2026-08-02T00:08:43Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 117520,
-        "title": "fix(channels): bundled channels reject the documented heartbeatVisibility override",
-        "url": "https://github.com/openclaw/openclaw/pull/117520",
+        "number": 116248,
+        "title": "fix(auth): default agent loses keys after secondary paste-api-key",
+        "url": "https://github.com/openclaw/openclaw/pull/116248",
         "state": "open",
-        "author": "ayaangazali",
-        "updatedAt": "2026-08-01T23:09:38Z"
+        "author": "ericcaiwx-star",
+        "updatedAt": "2026-08-02T00:11:25Z"
       },
       {
         "kind": "pr",
-        "number": 108305,
-        "title": "test(agents): register session lock helpers in vitest workers",
-        "url": "https://github.com/openclaw/openclaw/pull/108305",
+        "number": 114173,
+        "title": "feat(gateway): present system-agent setup QR codes",
+        "url": "https://github.com/openclaw/openclaw/pull/114173",
         "state": "open",
-        "author": "jincheng-xydt",
-        "updatedAt": "2026-08-01T23:09:37Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-02T00:11:22Z"
       },
       {
         "kind": "pr",
-        "number": 117524,
-        "title": "fix(discord): continue queued cleanup after settlement failures",
-        "url": "https://github.com/openclaw/openclaw/pull/117524",
-        "state": "open",
-        "author": "IWhatsskill",
-        "updatedAt": "2026-08-01T23:09:35Z"
+        "number": 117695,
+        "title": "chore(discord): consolidate message media fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/117695",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-02T00:11:20Z"
       },
       {
         "kind": "pr",
-        "number": 107620,
-        "title": "fix(signal): reject hex/exponent text-style span offsets",
-        "url": "https://github.com/openclaw/openclaw/pull/107620",
+        "number": 117704,
+        "title": "fix(xai): Grok subscription inference fails with HTTP 426 on every request",
+        "url": "https://github.com/openclaw/openclaw/pull/117704",
         "state": "open",
-        "author": "Pick-cat",
-        "updatedAt": "2026-08-01T23:09:35Z"
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-08-02T00:11:17Z"
       },
       {
         "kind": "pr",
-        "number": 117677,
-        "title": "fix(release): overlay plugin lock generator",
-        "url": "https://github.com/openclaw/openclaw/pull/117677",
+        "number": 117184,
+        "title": "feat(auto-reply): clean empty staged inbound media directories (#104358)",
+        "url": "https://github.com/openclaw/openclaw/pull/117184",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-01T23:09:33Z"
+        "author": "MasterSwords1",
+        "updatedAt": "2026-08-02T00:11:13Z"
       },
       {
         "kind": "pr",
-        "number": 117400,
-        "title": "fix(compaction): use canonical session context projection for post-turn estimator",
-        "url": "https://github.com/openclaw/openclaw/pull/117400",
+        "number": 115277,
+        "title": "fix(agents): materialize MCP for server-name toolsAllow globs",
+        "url": "https://github.com/openclaw/openclaw/pull/115277",
         "state": "open",
-        "author": "wangyan2026",
-        "updatedAt": "2026-08-01T23:09:33Z"
+        "author": "ericcaiwx-star",
+        "updatedAt": "2026-08-02T00:11:07Z"
       }
     ]
   }

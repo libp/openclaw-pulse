@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-02T17:13:27.072Z",
+  "generatedAt": "2026-08-02T18:10:20.475Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -275,17 +275,17 @@
     },
     {
       "capturedOn": "2026-08-02",
-      "capturedAt": "2026-08-02T17:13:27.072Z",
-      "issueOpen": 3429,
-      "issueClosed": 42233,
-      "prOpen": 2161,
-      "prClosed": 67778,
-      "prMerged": 21701,
+      "capturedAt": "2026-08-02T18:10:20.475Z",
+      "issueOpen": 3417,
+      "issueClosed": 42248,
+      "prOpen": 2164,
+      "prClosed": 67799,
+      "prMerged": 21717,
       "workflowRuns": 40000,
-      "stars": 384928,
-      "forks": 80899,
+      "stars": 384933,
+      "forks": 80900,
       "subscribers": 1761,
-      "commits": 75579,
+      "commits": 75618,
       "contributors": 3043,
       "source": "github-actions",
       "approximateDate": false
@@ -318,10 +318,10 @@
     },
     {
       "capturedOn": "2026-08-02",
-      "stars": 384928,
-      "forks": 80899,
+      "stars": 384933,
+      "forks": 80900,
       "subscribers": 1761,
-      "commits": 75579,
+      "commits": 75618,
       "contributors": 3043
     }
   ],
@@ -329,113 +329,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 49740,
-        "title": "Feature request: cron job auto-retry on failure (--retry-count, --retry-delay)",
-        "url": "https://github.com/openclaw/openclaw/issues/49740",
+        "number": 10354,
+        "title": "[Feature]: Add description and enum to message tool's channel parameter",
+        "url": "https://github.com/openclaw/openclaw/issues/10354",
         "state": "open",
-        "author": "VerdiH",
-        "updatedAt": "2026-08-02T17:08:48Z"
+        "author": "carrotRakko",
+        "updatedAt": "2026-08-02T18:09:10Z"
       },
       {
         "kind": "issue",
-        "number": 118028,
-        "title": "[Bug]: AbortSignal.any() composition silently breaks signal-identity-dependent code (===, Map/WeakMap keys)",
-        "url": "https://github.com/openclaw/openclaw/issues/118028",
-        "state": "open",
-        "author": "pacocartones",
-        "updatedAt": "2026-08-02T17:08:47Z"
+        "number": 107492,
+        "title": "[Performance] Duplicate parsing of CA certificates in node-extra-ca-certs.ts on every connection",
+        "url": "https://github.com/openclaw/openclaw/issues/107492",
+        "state": "closed",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-08-02T18:08:37Z"
       },
       {
         "kind": "issue",
-        "number": 102152,
-        "title": "Gateway runtime: \"no such table: plugin_state_entries / acp_sessions\" despite tables existing in state/openclaw.sqlite (agent turns produce no reply)",
-        "url": "https://github.com/openclaw/openclaw/issues/102152",
+        "number": 101823,
+        "title": "Dashboard: A2UI action-bridge capability — run canvas apps as dashboard widgets",
+        "url": "https://github.com/openclaw/openclaw/issues/101823",
         "state": "open",
-        "author": "phenix3443",
-        "updatedAt": "2026-08-02T17:08:44Z"
+        "author": "100yenadmin",
+        "updatedAt": "2026-08-02T18:08:25Z"
       },
       {
         "kind": "issue",
-        "number": 98968,
-        "title": "[Feature]: emit model.usage diagnostics for plugin runtime.llm.complete calls",
-        "url": "https://github.com/openclaw/openclaw/issues/98968",
+        "number": 90414,
+        "title": "agentmemory__memory_search returns \"index metadata is missing\" persistently (memory-core manager state cache)",
+        "url": "https://github.com/openclaw/openclaw/issues/90414",
         "state": "open",
-        "author": "4thCafe",
-        "updatedAt": "2026-08-02T17:08:44Z"
-      },
-      {
-        "kind": "issue",
-        "number": 53008,
-        "title": "Memory compaction blocks main processing lane, causing unresponsive bot for 10+ minutes",
-        "url": "https://github.com/openclaw/openclaw/issues/53008",
-        "state": "open",
-        "author": "petiblaster",
-        "updatedAt": "2026-08-02T17:08:39Z"
-      },
-      {
-        "kind": "issue",
-        "number": 99071,
-        "title": "[Bug]: Possible repeated Codex Apps plugin discovery causing excessive disk I/O during a single request (investigated with opensnoop and atop)",
-        "url": "https://github.com/openclaw/openclaw/issues/99071",
-        "state": "open",
-        "author": "ldrlinj",
-        "updatedAt": "2026-08-02T17:08:38Z"
+        "author": "AS76",
+        "updatedAt": "2026-08-02T18:08:21Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 118075,
-        "title": "refactor(plugins): root-owned conversation-binding pending requests",
-        "url": "https://github.com/openclaw/openclaw/pull/118075",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-02T17:13:22Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118042,
-        "title": "test: gateway and CLI process-test hygiene",
-        "url": "https://github.com/openclaw/openclaw/pull/118042",
+        "number": 118072,
+        "title": "refactor(ios): consolidate gateway connection test fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/118072",
         "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-02T17:12:36Z"
+        "updatedAt": "2026-08-02T18:10:17Z"
       },
       {
         "kind": "pr",
-        "number": 110975,
-        "title": "fix(codex): mid-turn usage-limit errors hang the turn until an outer timeout",
-        "url": "https://github.com/openclaw/openclaw/pull/110975",
+        "number": 116244,
+        "title": "fix(exec): inherit tools.exec into new dashboard session defaults",
+        "url": "https://github.com/openclaw/openclaw/pull/116244",
+        "state": "open",
+        "author": "Universe-ustc",
+        "updatedAt": "2026-08-02T18:10:10Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118101,
+        "title": "fix(agents): preserve model selection during gateway draining",
+        "url": "https://github.com/openclaw/openclaw/pull/118101",
+        "state": "open",
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-08-02T18:10:08Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118090,
+        "title": "refactor(teams-meetings): consolidate transport test fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/118090",
         "state": "closed",
-        "author": "Duplicity604",
-        "updatedAt": "2026-08-02T17:11:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117432,
-        "title": "fix(system-agent): tell messaging users a delegated approval can't be applied from chat (#116519)",
-        "url": "https://github.com/openclaw/openclaw/pull/117432",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-02T17:10:06Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118014,
-        "title": "fix: avoid reusing an existing gateway on scheduled task launch",
-        "url": "https://github.com/openclaw/openclaw/pull/118014",
-        "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-08-02T17:09:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118046,
-        "title": "fix(macos): preserve external remote gateway config edits",
-        "url": "https://github.com/openclaw/openclaw/pull/118046",
-        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-02T17:09:51Z"
+        "updatedAt": "2026-08-02T18:10:07Z"
+      },
+      {
+        "kind": "pr",
+        "number": 116223,
+        "title": "fix(agents): honor configured sandbox skill workspace (#89743)",
+        "url": "https://github.com/openclaw/openclaw/pull/116223",
+        "state": "open",
+        "author": "MoerAI",
+        "updatedAt": "2026-08-02T18:10:02Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118079,
+        "title": "test(device-pair): consolidate pairing coverage",
+        "url": "https://github.com/openclaw/openclaw/pull/118079",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-02T18:09:58Z"
       }
     ]
   }

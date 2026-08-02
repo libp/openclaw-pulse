@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-02T00:11:30.033Z",
+  "generatedAt": "2026-08-02T06:43:56.989Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -275,17 +275,17 @@
     },
     {
       "capturedOn": "2026-08-02",
-      "capturedAt": "2026-08-02T00:11:30.033Z",
-      "issueOpen": 3482,
-      "issueClosed": 42111,
+      "capturedAt": "2026-08-02T06:43:56.989Z",
+      "issueOpen": 3466,
+      "issueClosed": 42154,
       "prOpen": 2178,
-      "prClosed": 67464,
-      "prMerged": 21444,
+      "prClosed": 67606,
+      "prMerged": 21566,
       "workflowRuns": 40000,
-      "stars": 384847,
-      "forks": 80872,
+      "stars": 384869,
+      "forks": 80878,
       "subscribers": 1761,
-      "commits": 75219,
+      "commits": 75366,
       "contributors": 3041,
       "source": "github-actions",
       "approximateDate": false
@@ -318,10 +318,10 @@
     },
     {
       "capturedOn": "2026-08-02",
-      "stars": 384847,
-      "forks": 80872,
+      "stars": 384869,
+      "forks": 80878,
       "subscribers": 1761,
-      "commits": 75219,
+      "commits": 75366,
       "contributors": 3041
     }
   ],
@@ -329,68 +329,41 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 117708,
-        "title": "[Bug]: WhatsApp drops inbound media after a transient download failure",
-        "url": "https://github.com/openclaw/openclaw/issues/117708",
+        "number": 114967,
+        "title": "[Bug]: agent-driven live update left a launchctl submit keepalive validator force-restarting the gateway every ~2 minutes",
+        "url": "https://github.com/openclaw/openclaw/issues/114967",
         "state": "open",
-        "author": "andersonjeccel",
-        "updatedAt": "2026-08-02T00:10:01Z"
+        "author": "piotx",
+        "updatedAt": "2026-08-02T06:43:44Z"
       },
       {
         "kind": "issue",
-        "number": 117693,
-        "title": "[Bug]: Gateway crash-loops on startup with \"prepared model runtime publication timed out\" (beta.6, likely same root cause as #116039)",
-        "url": "https://github.com/openclaw/openclaw/issues/117693",
+        "number": 117763,
+        "title": "reef: notify-only messages are acknowledged and marked delivered after being queued only in the ephemeral system-event buffer",
+        "url": "https://github.com/openclaw/openclaw/issues/117763",
         "state": "open",
-        "author": "GlynLewis",
-        "updatedAt": "2026-08-02T00:09:28Z"
-      },
-      {
-        "kind": "issue",
-        "number": 117709,
-        "title": "[Bug]: WhatsApp hides inbound media download errors unless verbose logging is enabled",
-        "url": "https://github.com/openclaw/openclaw/issues/117709",
-        "state": "open",
-        "author": "andersonjeccel",
-        "updatedAt": "2026-08-02T00:08:43Z"
+        "author": "yetval",
+        "updatedAt": "2026-08-02T06:43:20Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 116248,
-        "title": "fix(auth): default agent loses keys after secondary paste-api-key",
-        "url": "https://github.com/openclaw/openclaw/pull/116248",
+        "number": 117876,
+        "title": "test(outbound): consolidate recovery fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/117876",
         "state": "open",
-        "author": "ericcaiwx-star",
-        "updatedAt": "2026-08-02T00:11:25Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114173,
-        "title": "feat(gateway): present system-agent setup QR codes",
-        "url": "https://github.com/openclaw/openclaw/pull/114173",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-02T00:11:22Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117695,
-        "title": "chore(discord): consolidate message media fixtures",
-        "url": "https://github.com/openclaw/openclaw/pull/117695",
-        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-02T00:11:20Z"
+        "updatedAt": "2026-08-02T06:43:52Z"
       },
       {
         "kind": "pr",
-        "number": 117704,
-        "title": "fix(xai): Grok subscription inference fails with HTTP 426 on every request",
-        "url": "https://github.com/openclaw/openclaw/pull/117704",
+        "number": 117582,
+        "title": "refactor(docs): generate plugin reference pages only when needed",
+        "url": "https://github.com/openclaw/openclaw/pull/117582",
         "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-02T00:11:17Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-02T06:43:49Z"
       },
       {
         "kind": "pr",
@@ -399,16 +372,34 @@
         "url": "https://github.com/openclaw/openclaw/pull/117184",
         "state": "open",
         "author": "MasterSwords1",
-        "updatedAt": "2026-08-02T00:11:13Z"
+        "updatedAt": "2026-08-02T06:43:48Z"
       },
       {
         "kind": "pr",
-        "number": 115277,
-        "title": "fix(agents): materialize MCP for server-name toolsAllow globs",
-        "url": "https://github.com/openclaw/openclaw/pull/115277",
+        "number": 117727,
+        "title": "fix: prevent fractional chunk limits from stalling text splitting",
+        "url": "https://github.com/openclaw/openclaw/pull/117727",
         "state": "open",
-        "author": "ericcaiwx-star",
-        "updatedAt": "2026-08-02T00:11:07Z"
+        "author": "Lucenx9",
+        "updatedAt": "2026-08-02T06:43:47Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117430,
+        "title": "fix(ui): make copy actions accessible and consistent across surfaces",
+        "url": "https://github.com/openclaw/openclaw/pull/117430",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-02T06:43:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114459,
+        "title": "refactor(config): consolidate session and channel regression fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/114459",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-02T06:43:33Z"
       }
     ]
   }

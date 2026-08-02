@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-02T13:52:18.483Z",
+  "generatedAt": "2026-08-02T17:13:27.072Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -275,18 +275,18 @@
     },
     {
       "capturedOn": "2026-08-02",
-      "capturedAt": "2026-08-02T13:52:18.483Z",
-      "issueOpen": 3442,
-      "issueClosed": 42199,
-      "prOpen": 2148,
-      "prClosed": 67733,
-      "prMerged": 21669,
+      "capturedAt": "2026-08-02T17:13:27.072Z",
+      "issueOpen": 3429,
+      "issueClosed": 42233,
+      "prOpen": 2161,
+      "prClosed": 67778,
+      "prMerged": 21701,
       "workflowRuns": 40000,
-      "stars": 384911,
-      "forks": 80890,
+      "stars": 384928,
+      "forks": 80899,
       "subscribers": 1761,
-      "commits": 75523,
-      "contributors": 3044,
+      "commits": 75579,
+      "contributors": 3043,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -318,124 +318,124 @@
     },
     {
       "capturedOn": "2026-08-02",
-      "stars": 384911,
-      "forks": 80890,
+      "stars": 384928,
+      "forks": 80899,
       "subscribers": 1761,
-      "commits": 75523,
-      "contributors": 3044
+      "commits": 75579,
+      "contributors": 3043
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 115037,
-        "title": "[Bug]: Synthetic \"No response requested.\" on resume after interrupted turn triggers model fallback — user turn silently served by downgraded model",
-        "url": "https://github.com/openclaw/openclaw/issues/115037",
+        "number": 49740,
+        "title": "Feature request: cron job auto-retry on failure (--retry-count, --retry-delay)",
+        "url": "https://github.com/openclaw/openclaw/issues/49740",
         "state": "open",
-        "author": "nissl24",
-        "updatedAt": "2026-08-02T13:52:03Z"
+        "author": "VerdiH",
+        "updatedAt": "2026-08-02T17:08:48Z"
       },
       {
         "kind": "issue",
-        "number": 116231,
-        "title": "[Bug]: LCM message_parts with part_type='file' stored without file_mime/file_name — breaks session rendering",
-        "url": "https://github.com/openclaw/openclaw/issues/116231",
+        "number": 118028,
+        "title": "[Bug]: AbortSignal.any() composition silently breaks signal-identity-dependent code (===, Map/WeakMap keys)",
+        "url": "https://github.com/openclaw/openclaw/issues/118028",
         "state": "open",
-        "author": "hikaman",
-        "updatedAt": "2026-08-02T13:51:46Z"
+        "author": "pacocartones",
+        "updatedAt": "2026-08-02T17:08:47Z"
       },
       {
         "kind": "issue",
-        "number": 112342,
-        "title": "[Bug]: Single Telegram directive triggers 10+ parallel sub-session spawns, all producing duplicate replies",
-        "url": "https://github.com/openclaw/openclaw/issues/112342",
-        "state": "closed",
-        "author": "djc00p",
-        "updatedAt": "2026-08-02T13:51:42Z"
+        "number": 102152,
+        "title": "Gateway runtime: \"no such table: plugin_state_entries / acp_sessions\" despite tables existing in state/openclaw.sqlite (agent turns produce no reply)",
+        "url": "https://github.com/openclaw/openclaw/issues/102152",
+        "state": "open",
+        "author": "phenix3443",
+        "updatedAt": "2026-08-02T17:08:44Z"
       },
       {
         "kind": "issue",
-        "number": 67129,
-        "title": "[Feature]:",
-        "url": "https://github.com/openclaw/openclaw/issues/67129",
+        "number": 98968,
+        "title": "[Feature]: emit model.usage diagnostics for plugin runtime.llm.complete calls",
+        "url": "https://github.com/openclaw/openclaw/issues/98968",
         "state": "open",
-        "author": "davidjmorris",
-        "updatedAt": "2026-08-02T13:51:35Z"
+        "author": "4thCafe",
+        "updatedAt": "2026-08-02T17:08:44Z"
       },
       {
         "kind": "issue",
-        "number": 63392,
-        "title": "[Feature]: Per-agent backup, restore, and clone",
-        "url": "https://github.com/openclaw/openclaw/issues/63392",
+        "number": 53008,
+        "title": "Memory compaction blocks main processing lane, causing unresponsive bot for 10+ minutes",
+        "url": "https://github.com/openclaw/openclaw/issues/53008",
         "state": "open",
-        "author": "saba-ch",
-        "updatedAt": "2026-08-02T13:51:07Z"
+        "author": "petiblaster",
+        "updatedAt": "2026-08-02T17:08:39Z"
       },
       {
         "kind": "issue",
-        "number": 63145,
-        "title": "[Feature]: openclaw models status --probe --all — per-model health check across all configured models",
-        "url": "https://github.com/openclaw/openclaw/issues/63145",
+        "number": 99071,
+        "title": "[Bug]: Possible repeated Codex Apps plugin discovery causing excessive disk I/O during a single request (investigated with opensnoop and atop)",
+        "url": "https://github.com/openclaw/openclaw/issues/99071",
         "state": "open",
-        "author": "ashok-2003",
-        "updatedAt": "2026-08-02T13:50:46Z"
+        "author": "ldrlinj",
+        "updatedAt": "2026-08-02T17:08:38Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 117400,
-        "title": "fix(compaction): use canonical session context projection for post-turn estimator",
-        "url": "https://github.com/openclaw/openclaw/pull/117400",
-        "state": "open",
-        "author": "wangyan2026",
-        "updatedAt": "2026-08-02T13:52:06Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117976,
-        "title": "fix(memory): resolve Google embedding provider alias",
-        "url": "https://github.com/openclaw/openclaw/pull/117976",
-        "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-02T13:51:59Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117920,
-        "title": "fix: honor operator scopes across Control UI session actions",
-        "url": "https://github.com/openclaw/openclaw/pull/117920",
-        "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-08-02T13:51:59Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117952,
-        "title": "fix(control-ui): wait for delayed Talk source replies",
-        "url": "https://github.com/openclaw/openclaw/pull/117952",
-        "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-02T13:51:56Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117996,
-        "title": "fix(line): preserve semantic indentation in fenced code",
-        "url": "https://github.com/openclaw/openclaw/pull/117996",
+        "number": 118075,
+        "title": "refactor(plugins): root-owned conversation-binding pending requests",
+        "url": "https://github.com/openclaw/openclaw/pull/118075",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-02T13:51:50Z"
+        "updatedAt": "2026-08-02T17:13:22Z"
       },
       {
         "kind": "pr",
-        "number": 117184,
-        "title": "feat(auto-reply): clean empty staged inbound media directories (#104358)",
-        "url": "https://github.com/openclaw/openclaw/pull/117184",
+        "number": 118042,
+        "title": "test: gateway and CLI process-test hygiene",
+        "url": "https://github.com/openclaw/openclaw/pull/118042",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-02T17:12:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110975,
+        "title": "fix(codex): mid-turn usage-limit errors hang the turn until an outer timeout",
+        "url": "https://github.com/openclaw/openclaw/pull/110975",
+        "state": "closed",
+        "author": "Duplicity604",
+        "updatedAt": "2026-08-02T17:11:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117432,
+        "title": "fix(system-agent): tell messaging users a delegated approval can't be applied from chat (#116519)",
+        "url": "https://github.com/openclaw/openclaw/pull/117432",
         "state": "open",
-        "author": "MasterSwords1",
-        "updatedAt": "2026-08-02T13:51:22Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-08-02T17:10:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118014,
+        "title": "fix: avoid reusing an existing gateway on scheduled task launch",
+        "url": "https://github.com/openclaw/openclaw/pull/118014",
+        "state": "open",
+        "author": "qingminglong",
+        "updatedAt": "2026-08-02T17:09:55Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118046,
+        "title": "fix(macos): preserve external remote gateway config edits",
+        "url": "https://github.com/openclaw/openclaw/pull/118046",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-02T17:09:51Z"
       }
     ]
   }

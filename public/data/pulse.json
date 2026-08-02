@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-02T18:10:20.475Z",
+  "generatedAt": "2026-08-02T19:32:19.217Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -275,17 +275,17 @@
     },
     {
       "capturedOn": "2026-08-02",
-      "capturedAt": "2026-08-02T18:10:20.475Z",
-      "issueOpen": 3417,
-      "issueClosed": 42248,
-      "prOpen": 2164,
-      "prClosed": 67799,
-      "prMerged": 21717,
+      "capturedAt": "2026-08-02T19:32:19.217Z",
+      "issueOpen": 3402,
+      "issueClosed": 42268,
+      "prOpen": 2153,
+      "prClosed": 67848,
+      "prMerged": 21756,
       "workflowRuns": 40000,
-      "stars": 384933,
+      "stars": 384942,
       "forks": 80900,
       "subscribers": 1761,
-      "commits": 75618,
+      "commits": 75658,
       "contributors": 3043,
       "source": "github-actions",
       "approximateDate": false
@@ -318,10 +318,10 @@
     },
     {
       "capturedOn": "2026-08-02",
-      "stars": 384933,
+      "stars": 384942,
       "forks": 80900,
       "subscribers": 1761,
-      "commits": 75618,
+      "commits": 75658,
       "contributors": 3043
     }
   ],
@@ -329,95 +329,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 10354,
-        "title": "[Feature]: Add description and enum to message tool's channel parameter",
-        "url": "https://github.com/openclaw/openclaw/issues/10354",
+        "number": 99382,
+        "title": "Anthropic replay fails with \"Invalid signature in thinking block\" for thinking-enabled sessions after tool loops (no compaction)",
+        "url": "https://github.com/openclaw/openclaw/issues/99382",
         "state": "open",
-        "author": "carrotRakko",
-        "updatedAt": "2026-08-02T18:09:10Z"
+        "author": "Sunjae-k",
+        "updatedAt": "2026-08-02T19:31:42Z"
       },
       {
         "kind": "issue",
-        "number": 107492,
-        "title": "[Performance] Duplicate parsing of CA certificates in node-extra-ca-certs.ts on every connection",
-        "url": "https://github.com/openclaw/openclaw/issues/107492",
-        "state": "closed",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-02T18:08:37Z"
+        "number": 109186,
+        "title": "Subagent completion events silently killed by NO_REPLY instruction after sessions_yield",
+        "url": "https://github.com/openclaw/openclaw/issues/109186",
+        "state": "open",
+        "author": "yetisoldier",
+        "updatedAt": "2026-08-02T19:31:40Z"
       },
       {
         "kind": "issue",
-        "number": 101823,
-        "title": "Dashboard: A2UI action-bridge capability — run canvas apps as dashboard widgets",
-        "url": "https://github.com/openclaw/openclaw/issues/101823",
+        "number": 113044,
+        "title": "[Bug]: [diagnostics-otel] openclaw.message.processed / harness.run / openclaw.exec often become separate root traces (context not propagated) on 2026.7.1",
+        "url": "https://github.com/openclaw/openclaw/issues/113044",
         "state": "open",
-        "author": "100yenadmin",
-        "updatedAt": "2026-08-02T18:08:25Z"
+        "author": "hanxu9-tal",
+        "updatedAt": "2026-08-02T19:31:37Z"
       },
       {
         "kind": "issue",
-        "number": 90414,
-        "title": "agentmemory__memory_search returns \"index metadata is missing\" persistently (memory-core manager state cache)",
-        "url": "https://github.com/openclaw/openclaw/issues/90414",
+        "number": 115112,
+        "title": "Discord-originated subagent/tool work completes internally but final response is not delivered back to Discord",
+        "url": "https://github.com/openclaw/openclaw/issues/115112",
         "state": "open",
-        "author": "AS76",
-        "updatedAt": "2026-08-02T18:08:21Z"
+        "author": "judas-oc",
+        "updatedAt": "2026-08-02T19:31:28Z"
+      },
+      {
+        "kind": "issue",
+        "number": 94536,
+        "title": "PR #92231 fix incomplete — commitment marked 'sent' but never delivered (second case)",
+        "url": "https://github.com/openclaw/openclaw/issues/94536",
+        "state": "open",
+        "author": "bizzle12368239",
+        "updatedAt": "2026-08-02T19:31:27Z"
+      },
+      {
+        "kind": "issue",
+        "number": 115303,
+        "title": "[Feature]: Upstream persisted memory Gateway read capability",
+        "url": "https://github.com/openclaw/openclaw/issues/115303",
+        "state": "open",
+        "author": "giodl73-repo",
+        "updatedAt": "2026-08-02T19:31:26Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 118072,
-        "title": "refactor(ios): consolidate gateway connection test fixtures",
-        "url": "https://github.com/openclaw/openclaw/pull/118072",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-02T18:10:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 116244,
-        "title": "fix(exec): inherit tools.exec into new dashboard session defaults",
-        "url": "https://github.com/openclaw/openclaw/pull/116244",
+        "number": 100845,
+        "title": "fix(cli): one-shot agent --local runs never export OTel diagnostics",
+        "url": "https://github.com/openclaw/openclaw/pull/100845",
         "state": "open",
-        "author": "Universe-ustc",
-        "updatedAt": "2026-08-02T18:10:10Z"
+        "author": "amknight",
+        "updatedAt": "2026-08-02T19:32:15Z"
       },
       {
         "kind": "pr",
-        "number": 118101,
-        "title": "fix(agents): preserve model selection during gateway draining",
-        "url": "https://github.com/openclaw/openclaw/pull/118101",
+        "number": 118144,
+        "title": "fix(telegram): prevent stalled Bot API responses from blocking group messages",
+        "url": "https://github.com/openclaw/openclaw/pull/118144",
         "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-08-02T18:10:08Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118090,
-        "title": "refactor(teams-meetings): consolidate transport test fixtures",
-        "url": "https://github.com/openclaw/openclaw/pull/118090",
-        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-02T18:10:07Z"
+        "updatedAt": "2026-08-02T19:32:05Z"
       },
       {
         "kind": "pr",
-        "number": 116223,
-        "title": "fix(agents): honor configured sandbox skill workspace (#89743)",
-        "url": "https://github.com/openclaw/openclaw/pull/116223",
+        "number": 118130,
+        "title": "fix(failover): classify interrupted transport failures as timeouts",
+        "url": "https://github.com/openclaw/openclaw/pull/118130",
         "state": "open",
-        "author": "MoerAI",
-        "updatedAt": "2026-08-02T18:10:02Z"
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-08-02T19:32:03Z"
       },
       {
         "kind": "pr",
-        "number": 118079,
-        "title": "test(device-pair): consolidate pairing coverage",
-        "url": "https://github.com/openclaw/openclaw/pull/118079",
-        "state": "closed",
+        "number": 98574,
+        "title": "fix(session-memory): contain leaked role markers",
+        "url": "https://github.com/openclaw/openclaw/pull/98574",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-02T18:09:58Z"
+        "updatedAt": "2026-08-02T19:31:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 98869,
+        "title": "Park channel plugin blocker dry-run effects",
+        "url": "https://github.com/openclaw/openclaw/pull/98869",
+        "state": "open",
+        "author": "giodl73-repo",
+        "updatedAt": "2026-08-02T19:31:32Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117951,
+        "title": "fix(gateway): preserve assistant media in live chat events",
+        "url": "https://github.com/openclaw/openclaw/pull/117951",
+        "state": "open",
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-08-02T19:31:26Z"
       }
     ]
   }

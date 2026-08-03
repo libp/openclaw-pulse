@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-03T07:44:09.516Z",
+  "generatedAt": "2026-08-03T11:42:32.503Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -292,18 +292,18 @@
     },
     {
       "capturedOn": "2026-08-03",
-      "capturedAt": "2026-08-03T07:44:09.516Z",
-      "issueOpen": 3365,
-      "issueClosed": 42358,
+      "capturedAt": "2026-08-03T11:42:32.503Z",
+      "issueOpen": 3363,
+      "issueClosed": 42375,
       "prOpen": 2104,
-      "prClosed": 68265,
-      "prMerged": 22073,
+      "prClosed": 68331,
+      "prMerged": 22119,
       "workflowRuns": 40000,
-      "stars": 384986,
-      "forks": 80913,
+      "stars": 385003,
+      "forks": 80929,
       "subscribers": 1760,
-      "commits": 76042,
-      "contributors": 3046,
+      "commits": 76109,
+      "contributors": 3047,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -343,79 +343,124 @@
     },
     {
       "capturedOn": "2026-08-03",
-      "stars": 384986,
-      "forks": 80913,
+      "stars": 385003,
+      "forks": 80929,
       "subscribers": 1760,
-      "commits": 76042,
-      "contributors": 3046
+      "commits": 76109,
+      "contributors": 3047
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 117994,
-        "title": "[Bug]: Gateway agent timeout consumes internal execution queue wait",
-        "url": "https://github.com/openclaw/openclaw/issues/117994",
+        "number": 117903,
+        "title": "[Bug]: macOS onboarding advances past unauthenticated remote gateway",
+        "url": "https://github.com/openclaw/openclaw/issues/117903",
         "state": "closed",
-        "author": "saegist",
-        "updatedAt": "2026-08-03T07:43:28Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-03T11:42:22Z"
+      },
+      {
+        "kind": "issue",
+        "number": 117953,
+        "title": "[Bug]: TTS output corrupts existing file when copy fails",
+        "url": "https://github.com/openclaw/openclaw/issues/117953",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-03T11:42:20Z"
+      },
+      {
+        "kind": "issue",
+        "number": 74364,
+        "title": "Strip <relevant-memories> blocks from outbound channel messages (Telegram, Discord, etc.)",
+        "url": "https://github.com/openclaw/openclaw/issues/74364",
+        "state": "open",
+        "author": "Veda-openclaw",
+        "updatedAt": "2026-08-03T11:42:01Z"
+      },
+      {
+        "kind": "issue",
+        "number": 75187,
+        "title": "[Bug]: Auto-generated `AGENTS.md` puts load-bearing tool-use rules at the bottom; head-truncation by `bootstrapMaxChars` strips them",
+        "url": "https://github.com/openclaw/openclaw/issues/75187",
+        "state": "open",
+        "author": "camerono",
+        "updatedAt": "2026-08-03T11:42:00Z"
+      },
+      {
+        "kind": "issue",
+        "number": 74601,
+        "title": "[Feature]: Skill Workshop targeting shared skills + cross-workspace pattern promotion",
+        "url": "https://github.com/openclaw/openclaw/issues/74601",
+        "state": "open",
+        "author": "twchase",
+        "updatedAt": "2026-08-03T11:42:00Z"
+      },
+      {
+        "kind": "issue",
+        "number": 76493,
+        "title": "Allow SecretRef objects in `mcp.servers[].env` schema (currently `string|number|boolean` only)",
+        "url": "https://github.com/openclaw/openclaw/issues/76493",
+        "state": "open",
+        "author": "liemnhoang",
+        "updatedAt": "2026-08-03T11:41:59Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 114506,
-        "title": "fix(browser): keep guarded CDP sockets on validated endpoints [AI]",
-        "url": "https://github.com/openclaw/openclaw/pull/114506",
-        "state": "open",
-        "author": "pgondhi987",
-        "updatedAt": "2026-08-03T07:44:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118360,
-        "title": "fix(agents): preserve subagent results when delivery fails",
-        "url": "https://github.com/openclaw/openclaw/pull/118360",
-        "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-08-03T07:44:01Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114503,
-        "title": "fix(control-ui): restore authenticated assistant profile avatars",
-        "url": "https://github.com/openclaw/openclaw/pull/114503",
+        "number": 118648,
+        "title": "fix(otel): fail closed when configured TLS material is invalid",
+        "url": "https://github.com/openclaw/openclaw/pull/118648",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-03T07:44:01Z"
+        "updatedAt": "2026-08-03T11:42:28Z"
       },
       {
         "kind": "pr",
-        "number": 114460,
-        "title": "fix(discord): preserve attachment content types",
-        "url": "https://github.com/openclaw/openclaw/pull/114460",
+        "number": 118645,
+        "title": "fix(cli): preserve structured Gateway request failures in health JSON",
+        "url": "https://github.com/openclaw/openclaw/pull/118645",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-03T07:44:00Z"
+        "updatedAt": "2026-08-03T11:42:24Z"
       },
       {
         "kind": "pr",
-        "number": 114464,
-        "title": "refactor: consolidate messaging delivery and account regressions",
-        "url": "https://github.com/openclaw/openclaw/pull/114464",
-        "state": "open",
+        "number": 117969,
+        "title": "fix(cron): honor timezones for ISO timestamps and end-of-day times",
+        "url": "https://github.com/openclaw/openclaw/pull/117969",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-03T07:43:48Z"
+        "updatedAt": "2026-08-03T11:42:23Z"
       },
       {
         "kind": "pr",
-        "number": 118567,
-        "title": "test(tui): reuse real gateway PTY fixture",
-        "url": "https://github.com/openclaw/openclaw/pull/118567",
+        "number": 118303,
+        "title": "fix(minimax): route M3 image calls through MiniMax VL",
+        "url": "https://github.com/openclaw/openclaw/pull/118303",
         "state": "open",
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-08-03T11:42:19Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117960,
+        "title": "fix(voice-call): keep active call when replacement setup fails",
+        "url": "https://github.com/openclaw/openclaw/pull/117960",
+        "state": "closed",
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-03T11:42:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117949,
+        "title": "refactor(google-meet): consolidate CLI resolution",
+        "url": "https://github.com/openclaw/openclaw/pull/117949",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-03T07:43:47Z"
+        "updatedAt": "2026-08-03T11:42:17Z"
       }
     ]
   }

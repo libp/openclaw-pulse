@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-03T00:11:14.476Z",
+  "generatedAt": "2026-08-03T03:52:31.209Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -292,18 +292,18 @@
     },
     {
       "capturedOn": "2026-08-03",
-      "capturedAt": "2026-08-03T00:11:14.476Z",
-      "issueOpen": 3386,
-      "issueClosed": 42306,
-      "prOpen": 2161,
-      "prClosed": 67994,
-      "prMerged": 21865,
+      "capturedAt": "2026-08-03T03:52:31.209Z",
+      "issueOpen": 3380,
+      "issueClosed": 42329,
+      "prOpen": 2139,
+      "prClosed": 68110,
+      "prMerged": 21954,
       "workflowRuns": 40000,
-      "stars": 384953,
-      "forks": 80901,
-      "subscribers": 1761,
-      "commits": 75786,
-      "contributors": 3044,
+      "stars": 384969,
+      "forks": 80910,
+      "subscribers": 1759,
+      "commits": 75876,
+      "contributors": 3045,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -343,115 +343,79 @@
     },
     {
       "capturedOn": "2026-08-03",
-      "stars": 384953,
-      "forks": 80901,
-      "subscribers": 1761,
-      "commits": 75786,
-      "contributors": 3044
+      "stars": 384969,
+      "forks": 80910,
+      "subscribers": 1759,
+      "commits": 75876,
+      "contributors": 3045
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 118242,
-        "title": "[Bug]: exec-approvals migration rejects null lastUsedAt/lastUsedCommand written by older versions and never names the offending entry",
-        "url": "https://github.com/openclaw/openclaw/issues/118242",
+        "number": 88397,
+        "title": "[Feature]: Code-triggered reflection sub-turns for self-evolving SOUL.md",
+        "url": "https://github.com/openclaw/openclaw/issues/88397",
         "state": "open",
-        "author": "sercada",
-        "updatedAt": "2026-08-03T00:11:05Z"
-      },
-      {
-        "kind": "issue",
-        "number": 115063,
-        "title": "v2026.7.1 Codex extension can strand parent after Completed(None)",
-        "url": "https://github.com/openclaw/openclaw/issues/115063",
-        "state": "open",
-        "author": "petlevoy",
-        "updatedAt": "2026-08-03T00:11:04Z"
-      },
-      {
-        "kind": "issue",
-        "number": 111143,
-        "title": "[Feature]: Allow pinning plugin tabs in the Control UI sidebar",
-        "url": "https://github.com/openclaw/openclaw/issues/111143",
-        "state": "open",
-        "author": "Ittiz",
-        "updatedAt": "2026-08-03T00:11:04Z"
-      },
-      {
-        "kind": "issue",
-        "number": 118279,
-        "title": "[Bug]: heartbeat commitment delivery fails for claude-cli backend — disableTools:true set without executionMode:\"side-question\"",
-        "url": "https://github.com/openclaw/openclaw/issues/118279",
-        "state": "open",
-        "author": "marieldejesus12",
-        "updatedAt": "2026-08-03T00:11:03Z"
-      },
-      {
-        "kind": "issue",
-        "number": 118222,
-        "title": "[Bug]: openclaw hooks pays a 6.3s plugin registry load on every CLI invocation",
-        "url": "https://github.com/openclaw/openclaw/issues/118222",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-03T00:11:00Z"
+        "author": "pairie-koh",
+        "updatedAt": "2026-08-03T03:50:53Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 112078,
-        "title": "feat: add NVIDIA Nemotron Speech ASR and TTS",
-        "url": "https://github.com/openclaw/openclaw/pull/112078",
+        "number": 117151,
+        "title": "fix(process): clean attached Unix descendants on cancellation",
+        "url": "https://github.com/openclaw/openclaw/pull/117151",
         "state": "open",
-        "author": "jmayank1511",
-        "updatedAt": "2026-08-03T00:11:09Z"
+        "author": "miorbnli",
+        "updatedAt": "2026-08-03T03:52:25Z"
       },
       {
         "kind": "pr",
-        "number": 115277,
-        "title": "fix(agents): materialize MCP for server-name toolsAllow globs",
-        "url": "https://github.com/openclaw/openclaw/pull/115277",
-        "state": "open",
-        "author": "ericcaiwx-star",
-        "updatedAt": "2026-08-03T00:11:08Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118321,
-        "title": "test: sharpen OpenClaw testing skill selection",
-        "url": "https://github.com/openclaw/openclaw/pull/118321",
-        "state": "open",
-        "author": "rdleclerc",
-        "updatedAt": "2026-08-03T00:11:06Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118320,
-        "title": "refactor(tlon): dedupe upload hardening fixtures",
-        "url": "https://github.com/openclaw/openclaw/pull/118320",
+        "number": 118091,
+        "title": "refactor(doctor): consolidate memory health test fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/118091",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-03T00:11:04Z"
+        "updatedAt": "2026-08-03T03:52:18Z"
       },
       {
         "kind": "pr",
-        "number": 118306,
-        "title": "refactor(imessage): consolidate approval test fixtures",
-        "url": "https://github.com/openclaw/openclaw/pull/118306",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-03T00:11:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117485,
-        "title": "fix(ios): route forced realtime consults through Gateway relay",
-        "url": "https://github.com/openclaw/openclaw/pull/117485",
+        "number": 118430,
+        "title": "fix(node-cli): warn when systemd user lingering is disabled after install",
+        "url": "https://github.com/openclaw/openclaw/pull/118430",
         "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-03T00:11:02Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-08-03T03:52:10Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118396,
+        "title": "fix(agents): answer /btw side questions on gateway-hosted sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/118396",
+        "state": "open",
+        "author": "nvtoroy",
+        "updatedAt": "2026-08-03T03:52:10Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118429,
+        "title": "refactor(swift): reduce gateway test setup duplication",
+        "url": "https://github.com/openclaw/openclaw/pull/118429",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-03T03:52:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118432,
+        "title": "fix(ui): expose failed workspace clipboard actions",
+        "url": "https://github.com/openclaw/openclaw/pull/118432",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-03T03:52:04Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-02T23:09:35.084Z",
+  "generatedAt": "2026-08-03T00:11:14.476Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -289,6 +289,23 @@
       "contributors": 3044,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-03",
+      "capturedAt": "2026-08-03T00:11:14.476Z",
+      "issueOpen": 3386,
+      "issueClosed": 42306,
+      "prOpen": 2161,
+      "prClosed": 67994,
+      "prMerged": 21865,
+      "workflowRuns": 40000,
+      "stars": 384953,
+      "forks": 80901,
+      "subscribers": 1761,
+      "commits": 75786,
+      "contributors": 3044,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -323,83 +340,118 @@
       "subscribers": 1761,
       "commits": 75751,
       "contributors": 3044
+    },
+    {
+      "capturedOn": "2026-08-03",
+      "stars": 384953,
+      "forks": 80901,
+      "subscribers": 1761,
+      "commits": 75786,
+      "contributors": 3044
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 118289,
-        "title": "[Feature]: Improve screen result of android app chat",
-        "url": "https://github.com/openclaw/openclaw/issues/118289",
+        "number": 118242,
+        "title": "[Bug]: exec-approvals migration rejects null lastUsedAt/lastUsedCommand written by older versions and never names the offending entry",
+        "url": "https://github.com/openclaw/openclaw/issues/118242",
         "state": "open",
-        "author": "ForceConstant",
-        "updatedAt": "2026-08-02T23:07:22Z"
+        "author": "sercada",
+        "updatedAt": "2026-08-03T00:11:05Z"
       },
       {
         "kind": "issue",
-        "number": 116310,
-        "title": "[Feature]: Host ACP directly on the OpenClaw runtime",
-        "url": "https://github.com/openclaw/openclaw/issues/116310",
+        "number": 115063,
+        "title": "v2026.7.1 Codex extension can strand parent after Completed(None)",
+        "url": "https://github.com/openclaw/openclaw/issues/115063",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-02T23:07:09Z"
+        "author": "petlevoy",
+        "updatedAt": "2026-08-03T00:11:04Z"
+      },
+      {
+        "kind": "issue",
+        "number": 111143,
+        "title": "[Feature]: Allow pinning plugin tabs in the Control UI sidebar",
+        "url": "https://github.com/openclaw/openclaw/issues/111143",
+        "state": "open",
+        "author": "Ittiz",
+        "updatedAt": "2026-08-03T00:11:04Z"
+      },
+      {
+        "kind": "issue",
+        "number": 118279,
+        "title": "[Bug]: heartbeat commitment delivery fails for claude-cli backend — disableTools:true set without executionMode:\"side-question\"",
+        "url": "https://github.com/openclaw/openclaw/issues/118279",
+        "state": "open",
+        "author": "marieldejesus12",
+        "updatedAt": "2026-08-03T00:11:03Z"
+      },
+      {
+        "kind": "issue",
+        "number": 118222,
+        "title": "[Bug]: openclaw hooks pays a 6.3s plugin registry load on every CLI invocation",
+        "url": "https://github.com/openclaw/openclaw/issues/118222",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-03T00:11:00Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 118256,
-        "title": "chore(lint): resolve the 40 reserved baseline findings to a zero-noise lint:all",
-        "url": "https://github.com/openclaw/openclaw/pull/118256",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-02T23:09:02Z"
+        "number": 112078,
+        "title": "feat: add NVIDIA Nemotron Speech ASR and TTS",
+        "url": "https://github.com/openclaw/openclaw/pull/112078",
+        "state": "open",
+        "author": "jmayank1511",
+        "updatedAt": "2026-08-03T00:11:09Z"
       },
       {
         "kind": "pr",
-        "number": 117951,
-        "title": "fix(gateway): preserve assistant media in live chat events",
-        "url": "https://github.com/openclaw/openclaw/pull/117951",
+        "number": 115277,
+        "title": "fix(agents): materialize MCP for server-name toolsAllow globs",
+        "url": "https://github.com/openclaw/openclaw/pull/115277",
+        "state": "open",
+        "author": "ericcaiwx-star",
+        "updatedAt": "2026-08-03T00:11:08Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118321,
+        "title": "test: sharpen OpenClaw testing skill selection",
+        "url": "https://github.com/openclaw/openclaw/pull/118321",
+        "state": "open",
+        "author": "rdleclerc",
+        "updatedAt": "2026-08-03T00:11:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118320,
+        "title": "refactor(tlon): dedupe upload hardening fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/118320",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-03T00:11:04Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118306,
+        "title": "refactor(imessage): consolidate approval test fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/118306",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-03T00:11:02Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117485,
+        "title": "fix(ios): route forced realtime consults through Gateway relay",
+        "url": "https://github.com/openclaw/openclaw/pull/117485",
         "state": "open",
         "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-02T23:08:58Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118232,
-        "title": "refactor(gateway): table-drive lazy method registration",
-        "url": "https://github.com/openclaw/openclaw/pull/118232",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-02T23:08:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118239,
-        "title": "refactor(browser): consolidate CDP test fixtures",
-        "url": "https://github.com/openclaw/openclaw/pull/118239",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-02T23:08:49Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118254,
-        "title": "refactor(agents): centralize terminal lifecycle outcomes",
-        "url": "https://github.com/openclaw/openclaw/pull/118254",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-02T23:08:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118286,
-        "title": "feat(cron): allow trusted private webhook targets",
-        "url": "https://github.com/openclaw/openclaw/pull/118286",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-02T23:08:36Z"
+        "updatedAt": "2026-08-03T00:11:02Z"
       }
     ]
   }

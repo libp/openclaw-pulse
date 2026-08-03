@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-03T19:55:56.614Z",
+  "generatedAt": "2026-08-03T21:20:44.316Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -292,17 +292,17 @@
     },
     {
       "capturedOn": "2026-08-03",
-      "capturedAt": "2026-08-03T19:55:56.614Z",
-      "issueOpen": 3375,
-      "issueClosed": 42426,
-      "prOpen": 2158,
-      "prClosed": 68486,
-      "prMerged": 22241,
+      "capturedAt": "2026-08-03T21:20:44.316Z",
+      "issueOpen": 3377,
+      "issueClosed": 42435,
+      "prOpen": 2157,
+      "prClosed": 68527,
+      "prMerged": 22270,
       "workflowRuns": 40000,
-      "stars": 385043,
-      "forks": 80930,
+      "stars": 385045,
+      "forks": 80932,
       "subscribers": 1760,
-      "commits": 76258,
+      "commits": 76287,
       "contributors": 3052,
       "source": "github-actions",
       "approximateDate": false
@@ -343,88 +343,69 @@
     },
     {
       "capturedOn": "2026-08-03",
-      "stars": 385043,
-      "forks": 80930,
+      "stars": 385045,
+      "forks": 80932,
       "subscribers": 1760,
-      "commits": 76258,
+      "commits": 76287,
       "contributors": 3052
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 118904,
-        "title": "[Perf]: Memory Wiki compile performs three source-content hash passes across publication",
-        "url": "https://github.com/openclaw/openclaw/issues/118904",
-        "state": "open",
-        "author": "ZYV5ge",
-        "updatedAt": "2026-08-03T19:55:14Z"
-      },
-      {
-        "kind": "issue",
-        "number": 118908,
-        "title": "[Security]: report moved to private disclosure",
-        "url": "https://github.com/openclaw/openclaw/issues/118908",
-        "state": "closed",
-        "author": "ZYV5ge",
-        "updatedAt": "2026-08-03T19:53:04Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 118905,
-        "title": "perf(memory-wiki): avoid redundant publication hash",
-        "url": "https://github.com/openclaw/openclaw/pull/118905",
-        "state": "closed",
-        "author": "ZYV5ge",
-        "updatedAt": "2026-08-03T19:55:19Z"
+        "number": 78035,
+        "title": "fix(memory-core): preserve sibling supplement results when one search rejects (#77897)",
+        "url": "https://github.com/openclaw/openclaw/pull/78035",
+        "state": "open",
+        "author": "lonexreb",
+        "updatedAt": "2026-08-03T21:20:35Z"
       },
       {
         "kind": "pr",
-        "number": 118919,
-        "title": "chore(qa): cover plugin-managed flows",
-        "url": "https://github.com/openclaw/openclaw/pull/118919",
+        "number": 118922,
+        "title": "chore(qa): cover bundled runtime discovery",
+        "url": "https://github.com/openclaw/openclaw/pull/118922",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-03T19:55:00Z"
+        "updatedAt": "2026-08-03T21:20:34Z"
       },
       {
         "kind": "pr",
-        "number": 118818,
-        "title": "chore(gateway): verify SSH tunnel fallback",
-        "url": "https://github.com/openclaw/openclaw/pull/118818",
+        "number": 118823,
+        "title": "fix(agents): reload durable OpenAI auth for Codex runs",
+        "url": "https://github.com/openclaw/openclaw/pull/118823",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-03T19:54:49Z"
+        "author": "rdleclerc",
+        "updatedAt": "2026-08-03T21:20:34Z"
       },
       {
         "kind": "pr",
-        "number": 91192,
-        "title": "fix(tts): allow trusted local media in message_tool_only mode",
-        "url": "https://github.com/openclaw/openclaw/pull/91192",
+        "number": 118831,
+        "title": "fix(macos): restore Settings pane scrolling",
+        "url": "https://github.com/openclaw/openclaw/pull/118831",
         "state": "open",
-        "author": "clawSean",
-        "updatedAt": "2026-08-03T19:54:40Z"
+        "author": "ctbritt",
+        "updatedAt": "2026-08-03T21:20:33Z"
       },
       {
         "kind": "pr",
-        "number": 118866,
-        "title": "test(ui): cover Control UI auth transports",
-        "url": "https://github.com/openclaw/openclaw/pull/118866",
+        "number": 118927,
+        "title": "fix(install): block git option injection via --git-dir / OPENCLAW_GIT_DIR",
+        "url": "https://github.com/openclaw/openclaw/pull/118927",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-03T19:54:33Z"
+        "author": "wjc2821296948",
+        "updatedAt": "2026-08-03T21:20:30Z"
       },
       {
         "kind": "pr",
-        "number": 118809,
-        "title": "chore(gateway): add HTTP API QA coverage",
-        "url": "https://github.com/openclaw/openclaw/pull/118809",
+        "number": 116797,
+        "title": "fix(agent-exec): cold runs time out on slow hosts and fail on Windows cleanup EBUSY",
+        "url": "https://github.com/openclaw/openclaw/pull/116797",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-03T19:54:07Z"
+        "author": "Calvin-Francis",
+        "updatedAt": "2026-08-03T21:20:30Z"
       }
     ]
   }

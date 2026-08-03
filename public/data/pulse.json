@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-03T15:14:03.930Z",
+  "generatedAt": "2026-08-03T17:18:53.886Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -292,18 +292,18 @@
     },
     {
       "capturedOn": "2026-08-03",
-      "capturedAt": "2026-08-03T15:14:03.930Z",
+      "capturedAt": "2026-08-03T17:18:53.886Z",
       "issueOpen": 3354,
-      "issueClosed": 42405,
-      "prOpen": 2104,
-      "prClosed": 68388,
-      "prMerged": 22155,
+      "issueClosed": 42420,
+      "prOpen": 2111,
+      "prClosed": 68426,
+      "prMerged": 22186,
       "workflowRuns": 40000,
-      "stars": 385035,
-      "forks": 80932,
+      "stars": 385040,
+      "forks": 80929,
       "subscribers": 1760,
-      "commits": 76145,
-      "contributors": 3049,
+      "commits": 76201,
+      "contributors": 3052,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -343,23 +343,59 @@
     },
     {
       "capturedOn": "2026-08-03",
-      "stars": 385035,
-      "forks": 80932,
+      "stars": 385040,
+      "forks": 80929,
       "subscribers": 1760,
-      "commits": 76145,
-      "contributors": 3049
+      "commits": 76201,
+      "contributors": 3052
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 118725,
-        "title": "workboard list CLI returns archived cards in --json output despite --include-archived default false (regression of #94555)",
-        "url": "https://github.com/openclaw/openclaw/issues/118725",
+        "number": 118774,
+        "title": "A spawned sub-agent cannot honor its own configured thinking level",
+        "url": "https://github.com/openclaw/openclaw/issues/118774",
         "state": "open",
-        "author": "RothElektronik",
-        "updatedAt": "2026-08-03T15:13:10Z"
+        "author": "aleps001",
+        "updatedAt": "2026-08-03T17:18:45Z"
+      },
+      {
+        "kind": "issue",
+        "number": 118785,
+        "title": "QA: primary proof for containers and external app SDK",
+        "url": "https://github.com/openclaw/openclaw/issues/118785",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-03T17:18:29Z"
+      },
+      {
+        "kind": "issue",
+        "number": 118783,
+        "title": "[Feature]: Expand Control UI primary QA coverage",
+        "url": "https://github.com/openclaw/openclaw/issues/118783",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-03T17:16:54Z"
+      },
+      {
+        "kind": "issue",
+        "number": 83598,
+        "title": "[Bug]: anthropic:claude-cli OAuth refresh still dead-ends main lane in 2026.5.12 despite #73682 fix",
+        "url": "https://github.com/openclaw/openclaw/issues/83598",
+        "state": "open",
+        "author": "ChattanoogaDan",
+        "updatedAt": "2026-08-03T17:15:45Z"
+      },
+      {
+        "kind": "issue",
+        "number": 84237,
+        "title": "Wake-injected user turns: drain unconsumed wake-inbox records on session activation (durability layer)",
+        "url": "https://github.com/openclaw/openclaw/issues/84237",
+        "state": "open",
+        "author": "nathansmithopenclaw-alt",
+        "updatedAt": "2026-08-03T17:15:39Z"
       },
       {
         "kind": "issue",
@@ -368,90 +404,63 @@
         "url": "https://github.com/openclaw/openclaw/issues/83330",
         "state": "open",
         "author": "cdeyoung67",
-        "updatedAt": "2026-08-03T15:11:54Z"
-      },
-      {
-        "kind": "issue",
-        "number": 118724,
-        "title": "Bug: `openclaw memory search` 在空库/单 token 中文查询时进程崩溃（Windows 0xC0000005）",
-        "url": "https://github.com/openclaw/openclaw/issues/118724",
-        "state": "open",
-        "author": "582303167-glitch",
-        "updatedAt": "2026-08-03T15:11:29Z"
-      },
-      {
-        "kind": "issue",
-        "number": 118723,
-        "title": "Bug: 无 embedding provider 时记忆文件永远不会被索引（FTS-only 模式）",
-        "url": "https://github.com/openclaw/openclaw/issues/118723",
-        "state": "open",
-        "author": "582303167-glitch",
-        "updatedAt": "2026-08-03T15:10:44Z"
-      },
-      {
-        "kind": "issue",
-        "number": 118706,
-        "title": "Workboard card lists stall the gateway on large boards",
-        "url": "https://github.com/openclaw/openclaw/issues/118706",
-        "state": "open",
-        "author": "yehezkel-assistant[bot]",
-        "updatedAt": "2026-08-03T15:09:48Z"
+        "updatedAt": "2026-08-03T17:15:33Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 118310,
-        "title": "fix(memory): honor keyed agents in standalone operations",
-        "url": "https://github.com/openclaw/openclaw/pull/118310",
+        "number": 118773,
+        "title": "fix(openrouter): isolate custom proxy credentials and transport security",
+        "url": "https://github.com/openclaw/openclaw/pull/118773",
         "state": "open",
-        "author": "manikrai29",
-        "updatedAt": "2026-08-03T15:13:58Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-03T17:18:44Z"
       },
       {
         "kind": "pr",
-        "number": 118717,
-        "title": "fix(agents): apply per-agent context caps to embedded runs",
-        "url": "https://github.com/openclaw/openclaw/pull/118717",
+        "number": 115184,
+        "title": "fix: recover ACP sessions when reset cleanup times out",
+        "url": "https://github.com/openclaw/openclaw/pull/115184",
         "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-08-03T15:13:48Z"
+        "author": "JackS1237",
+        "updatedAt": "2026-08-03T17:18:38Z"
       },
       {
         "kind": "pr",
-        "number": 118602,
-        "title": "fix(ci): hydrate on unprivileged cloud sandboxes",
-        "url": "https://github.com/openclaw/openclaw/pull/118602",
+        "number": 96080,
+        "title": "fix(plugins): refresh stale source plugin registry (#96046)",
+        "url": "https://github.com/openclaw/openclaw/pull/96080",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-03T15:13:27Z"
+        "author": "tangtaizong666",
+        "updatedAt": "2026-08-03T17:18:34Z"
       },
       {
         "kind": "pr",
-        "number": 118682,
-        "title": "fix(gateway): project effective session reasoning",
-        "url": "https://github.com/openclaw/openclaw/pull/118682",
+        "number": 118758,
+        "title": "fix(feishu): enforce exact signed webhook request boundaries",
+        "url": "https://github.com/openclaw/openclaw/pull/118758",
         "state": "open",
-        "author": "RerankerGuo",
-        "updatedAt": "2026-08-03T15:13:23Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-03T17:18:31Z"
       },
       {
         "kind": "pr",
-        "number": 111759,
-        "title": "fix(voice-call): bound diagnostic JSONL reads to prevent OOM on large logs",
-        "url": "https://github.com/openclaw/openclaw/pull/111759",
+        "number": 118754,
+        "title": "fix(voice-call): make verified callback replay and durability lifecycle-safe",
+        "url": "https://github.com/openclaw/openclaw/pull/118754",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-08-03T15:12:48Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-03T17:18:25Z"
       },
       {
         "kind": "pr",
-        "number": 118721,
-        "title": "fix(workboard): bound SQLite card-list hydration",
-        "url": "https://github.com/openclaw/openclaw/pull/118721",
+        "number": 92420,
+        "title": "fix(telegram): record source-delivery message ids",
+        "url": "https://github.com/openclaw/openclaw/pull/92420",
         "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-03T15:12:45Z"
+        "author": "tangtaizong666",
+        "updatedAt": "2026-08-03T17:18:13Z"
       }
     ]
   }

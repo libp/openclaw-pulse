@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-03T03:52:31.209Z",
+  "generatedAt": "2026-08-03T07:44:09.516Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -292,18 +292,18 @@
     },
     {
       "capturedOn": "2026-08-03",
-      "capturedAt": "2026-08-03T03:52:31.209Z",
-      "issueOpen": 3380,
-      "issueClosed": 42329,
-      "prOpen": 2139,
-      "prClosed": 68110,
-      "prMerged": 21954,
+      "capturedAt": "2026-08-03T07:44:09.516Z",
+      "issueOpen": 3365,
+      "issueClosed": 42358,
+      "prOpen": 2104,
+      "prClosed": 68265,
+      "prMerged": 22073,
       "workflowRuns": 40000,
-      "stars": 384969,
-      "forks": 80910,
-      "subscribers": 1759,
-      "commits": 75876,
-      "contributors": 3045,
+      "stars": 384986,
+      "forks": 80913,
+      "subscribers": 1760,
+      "commits": 76042,
+      "contributors": 3046,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -343,79 +343,79 @@
     },
     {
       "capturedOn": "2026-08-03",
-      "stars": 384969,
-      "forks": 80910,
-      "subscribers": 1759,
-      "commits": 75876,
-      "contributors": 3045
+      "stars": 384986,
+      "forks": 80913,
+      "subscribers": 1760,
+      "commits": 76042,
+      "contributors": 3046
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 88397,
-        "title": "[Feature]: Code-triggered reflection sub-turns for self-evolving SOUL.md",
-        "url": "https://github.com/openclaw/openclaw/issues/88397",
-        "state": "open",
-        "author": "pairie-koh",
-        "updatedAt": "2026-08-03T03:50:53Z"
+        "number": 117994,
+        "title": "[Bug]: Gateway agent timeout consumes internal execution queue wait",
+        "url": "https://github.com/openclaw/openclaw/issues/117994",
+        "state": "closed",
+        "author": "saegist",
+        "updatedAt": "2026-08-03T07:43:28Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 117151,
-        "title": "fix(process): clean attached Unix descendants on cancellation",
-        "url": "https://github.com/openclaw/openclaw/pull/117151",
+        "number": 114506,
+        "title": "fix(browser): keep guarded CDP sockets on validated endpoints [AI]",
+        "url": "https://github.com/openclaw/openclaw/pull/114506",
         "state": "open",
-        "author": "miorbnli",
-        "updatedAt": "2026-08-03T03:52:25Z"
+        "author": "pgondhi987",
+        "updatedAt": "2026-08-03T07:44:02Z"
       },
       {
         "kind": "pr",
-        "number": 118091,
-        "title": "refactor(doctor): consolidate memory health test fixtures",
-        "url": "https://github.com/openclaw/openclaw/pull/118091",
+        "number": 118360,
+        "title": "fix(agents): preserve subagent results when delivery fails",
+        "url": "https://github.com/openclaw/openclaw/pull/118360",
+        "state": "open",
+        "author": "joshavant",
+        "updatedAt": "2026-08-03T07:44:01Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114503,
+        "title": "fix(control-ui): restore authenticated assistant profile avatars",
+        "url": "https://github.com/openclaw/openclaw/pull/114503",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-03T03:52:18Z"
+        "updatedAt": "2026-08-03T07:44:01Z"
       },
       {
         "kind": "pr",
-        "number": 118430,
-        "title": "fix(node-cli): warn when systemd user lingering is disabled after install",
-        "url": "https://github.com/openclaw/openclaw/pull/118430",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-03T03:52:10Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118396,
-        "title": "fix(agents): answer /btw side questions on gateway-hosted sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/118396",
-        "state": "open",
-        "author": "nvtoroy",
-        "updatedAt": "2026-08-03T03:52:10Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118429,
-        "title": "refactor(swift): reduce gateway test setup duplication",
-        "url": "https://github.com/openclaw/openclaw/pull/118429",
+        "number": 114460,
+        "title": "fix(discord): preserve attachment content types",
+        "url": "https://github.com/openclaw/openclaw/pull/114460",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-03T03:52:06Z"
+        "updatedAt": "2026-08-03T07:44:00Z"
       },
       {
         "kind": "pr",
-        "number": 118432,
-        "title": "fix(ui): expose failed workspace clipboard actions",
-        "url": "https://github.com/openclaw/openclaw/pull/118432",
+        "number": 114464,
+        "title": "refactor: consolidate messaging delivery and account regressions",
+        "url": "https://github.com/openclaw/openclaw/pull/114464",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-03T03:52:04Z"
+        "updatedAt": "2026-08-03T07:43:48Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118567,
+        "title": "test(tui): reuse real gateway PTY fixture",
+        "url": "https://github.com/openclaw/openclaw/pull/118567",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-03T07:43:47Z"
       }
     ]
   }

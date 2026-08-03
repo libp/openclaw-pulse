@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-03T21:20:44.316Z",
+  "generatedAt": "2026-08-03T23:18:18.793Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -292,17 +292,17 @@
     },
     {
       "capturedOn": "2026-08-03",
-      "capturedAt": "2026-08-03T21:20:44.316Z",
-      "issueOpen": 3377,
-      "issueClosed": 42435,
-      "prOpen": 2157,
-      "prClosed": 68527,
-      "prMerged": 22270,
+      "capturedAt": "2026-08-03T23:18:18.793Z",
+      "issueOpen": 3376,
+      "issueClosed": 42440,
+      "prOpen": 2113,
+      "prClosed": 68602,
+      "prMerged": 22326,
       "workflowRuns": 40000,
-      "stars": 385045,
-      "forks": 80932,
+      "stars": 385048,
+      "forks": 80934,
       "subscribers": 1760,
-      "commits": 76287,
+      "commits": 76343,
       "contributors": 3052,
       "source": "github-actions",
       "approximateDate": false
@@ -343,69 +343,115 @@
     },
     {
       "capturedOn": "2026-08-03",
-      "stars": 385045,
-      "forks": 80932,
+      "stars": 385048,
+      "forks": 80934,
       "subscribers": 1760,
-      "commits": 76287,
+      "commits": 76343,
       "contributors": 3052
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 118740,
+        "title": "codesign-mac-app.sh: pinning SIGN_IDENTITY by cert hash silently disables the trusted timestamp, breaking notarization",
+        "url": "https://github.com/openclaw/openclaw/issues/118740",
+        "state": "open",
+        "author": "ctbritt",
+        "updatedAt": "2026-08-03T23:18:13Z"
+      },
+      {
+        "kind": "issue",
+        "number": 105976,
+        "title": "Feishu: explain content-policy delivery rejection 230028",
+        "url": "https://github.com/openclaw/openclaw/issues/105976",
+        "state": "open",
+        "author": "sliverp",
+        "updatedAt": "2026-08-03T23:17:33Z"
+      },
+      {
+        "kind": "issue",
+        "number": 118924,
+        "title": "[Feature]: Add thinkingLevel override to session_status for channel-backed chat sessions",
+        "url": "https://github.com/openclaw/openclaw/issues/118924",
+        "state": "open",
+        "author": "llunved",
+        "updatedAt": "2026-08-03T23:17:09Z"
+      },
+      {
+        "kind": "issue",
+        "number": 117593,
+        "title": "[Feature]: Improve Model Override Safety, Auditing, and Centralized Management",
+        "url": "https://github.com/openclaw/openclaw/issues/117593",
+        "state": "open",
+        "author": "cjwelle",
+        "updatedAt": "2026-08-03T23:17:04Z"
+      },
+      {
+        "kind": "issue",
+        "number": 89095,
+        "title": "Sub-agent run timeout does not notify parent session (completion event silently dropped)",
+        "url": "https://github.com/openclaw/openclaw/issues/89095",
+        "state": "open",
+        "author": "sunnydongbo",
+        "updatedAt": "2026-08-03T23:16:58Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 78035,
-        "title": "fix(memory-core): preserve sibling supplement results when one search rejects (#77897)",
-        "url": "https://github.com/openclaw/openclaw/pull/78035",
+        "number": 118681,
+        "title": "fix(agents): bounded memory flush before recovery compaction",
+        "url": "https://github.com/openclaw/openclaw/pull/118681",
         "state": "open",
-        "author": "lonexreb",
-        "updatedAt": "2026-08-03T21:20:35Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-08-03T23:18:12Z"
       },
       {
         "kind": "pr",
-        "number": 118922,
-        "title": "chore(qa): cover bundled runtime discovery",
-        "url": "https://github.com/openclaw/openclaw/pull/118922",
+        "number": 112316,
+        "title": "fix(security): recognize SecretRef objects as externalized in gateway_password_in_config audit",
+        "url": "https://github.com/openclaw/openclaw/pull/112316",
+        "state": "open",
+        "author": "xydigit-zt",
+        "updatedAt": "2026-08-03T23:18:12Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118965,
+        "title": "test(qa): cover managed OTEL runtime paths",
+        "url": "https://github.com/openclaw/openclaw/pull/118965",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-03T21:20:34Z"
+        "updatedAt": "2026-08-03T23:18:10Z"
       },
       {
         "kind": "pr",
-        "number": 118823,
-        "title": "fix(agents): reload durable OpenAI auth for Codex runs",
-        "url": "https://github.com/openclaw/openclaw/pull/118823",
+        "number": 118988,
+        "title": "test(qa): prove gateway chat RPCs",
+        "url": "https://github.com/openclaw/openclaw/pull/118988",
         "state": "open",
-        "author": "rdleclerc",
-        "updatedAt": "2026-08-03T21:20:34Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-03T23:18:14Z"
       },
       {
         "kind": "pr",
-        "number": 118831,
-        "title": "fix(macos): restore Settings pane scrolling",
-        "url": "https://github.com/openclaw/openclaw/pull/118831",
+        "number": 119002,
+        "title": "fix(sms): retry stalled MMS response bodies",
+        "url": "https://github.com/openclaw/openclaw/pull/119002",
         "state": "open",
-        "author": "ctbritt",
-        "updatedAt": "2026-08-03T21:20:33Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-03T23:18:06Z"
       },
       {
         "kind": "pr",
-        "number": 118927,
-        "title": "fix(install): block git option injection via --git-dir / OPENCLAW_GIT_DIR",
-        "url": "https://github.com/openclaw/openclaw/pull/118927",
+        "number": 118992,
+        "title": "perf(cli): install prepared plugin metadata snapshot for models list",
+        "url": "https://github.com/openclaw/openclaw/pull/118992",
         "state": "open",
-        "author": "wjc2821296948",
-        "updatedAt": "2026-08-03T21:20:30Z"
-      },
-      {
-        "kind": "pr",
-        "number": 116797,
-        "title": "fix(agent-exec): cold runs time out on slow hosts and fail on Windows cleanup EBUSY",
-        "url": "https://github.com/openclaw/openclaw/pull/116797",
-        "state": "open",
-        "author": "Calvin-Francis",
-        "updatedAt": "2026-08-03T21:20:30Z"
+        "author": "harjothkhara",
+        "updatedAt": "2026-08-03T23:18:04Z"
       }
     ]
   }

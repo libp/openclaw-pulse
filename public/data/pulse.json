@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-04T06:39:15.808Z",
+  "generatedAt": "2026-08-04T12:17:11.763Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -309,18 +309,18 @@
     },
     {
       "capturedOn": "2026-08-04",
-      "capturedAt": "2026-08-04T06:39:15.808Z",
-      "issueOpen": 3393,
-      "issueClosed": 42467,
-      "prOpen": 2070,
-      "prClosed": 68731,
-      "prMerged": 22378,
+      "capturedAt": "2026-08-04T12:17:11.763Z",
+      "issueOpen": 3388,
+      "issueClosed": 42498,
+      "prOpen": 2082,
+      "prClosed": 68775,
+      "prMerged": 22410,
       "workflowRuns": 40000,
-      "stars": 385070,
-      "forks": 80947,
+      "stars": 385108,
+      "forks": 80944,
       "subscribers": 1760,
-      "commits": 76397,
-      "contributors": 3053,
+      "commits": 76451,
+      "contributors": 3055,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -368,124 +368,69 @@
     },
     {
       "capturedOn": "2026-08-04",
-      "stars": 385070,
-      "forks": 80947,
+      "stars": 385108,
+      "forks": 80944,
       "subscribers": 1760,
-      "commits": 76397,
-      "contributors": 3053
+      "commits": 76451,
+      "contributors": 3055
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 115908,
-        "title": "Session transcript projection reconcile can livelock under sustained writes, blocking the main thread and stalling all channel transports",
-        "url": "https://github.com/openclaw/openclaw/issues/115908",
-        "state": "open",
-        "author": "CanadaOrNaw",
-        "updatedAt": "2026-08-04T06:38:31Z"
-      },
-      {
-        "kind": "issue",
-        "number": 107487,
-        "title": "[Bug]: `/acp close` does not clear acpx FileSessionStore — stale `acp_session_id` causes unwanted `session/resume` instead of `session/new`",
-        "url": "https://github.com/openclaw/openclaw/issues/107487",
-        "state": "open",
-        "author": "f0en1x-1894",
-        "updatedAt": "2026-08-04T06:38:31Z"
-      },
-      {
-        "kind": "issue",
-        "number": 114109,
-        "title": "Transient provider fallback is persisted as the session's model, permanently demoting the session",
-        "url": "https://github.com/openclaw/openclaw/issues/114109",
-        "state": "open",
-        "author": "skadauke",
-        "updatedAt": "2026-08-04T06:38:29Z"
-      },
-      {
-        "kind": "issue",
-        "number": 106797,
-        "title": "[Bug]: Control UI shows owner-qualified ClawHub skill as Unavailable",
-        "url": "https://github.com/openclaw/openclaw/issues/106797",
-        "state": "open",
-        "author": "hannesrudolph",
-        "updatedAt": "2026-08-04T06:38:28Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113121,
-        "title": "Feature: Auto-load current day's memory file in bootstrap context",
-        "url": "https://github.com/openclaw/openclaw/issues/113121",
-        "state": "open",
-        "author": "oc-mostlycopy",
-        "updatedAt": "2026-08-04T06:38:14Z"
-      },
-      {
-        "kind": "issue",
-        "number": 117209,
-        "title": "[Bug]: AuthProfileStoreUnreadable sticky after runtime snapshot publication failure",
-        "url": "https://github.com/openclaw/openclaw/issues/117209",
-        "state": "open",
-        "author": "ericcaiwx-star",
-        "updatedAt": "2026-08-04T06:38:09Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 117034,
-        "title": "feat(audit): add execution identity inspection",
-        "url": "https://github.com/openclaw/openclaw/pull/117034",
+        "number": 116344,
+        "title": "fix: clear stale maintenance tasks after gateway restart",
+        "url": "https://github.com/openclaw/openclaw/pull/116344",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-08-04T06:39:10Z"
+        "author": "paul-cch",
+        "updatedAt": "2026-08-04T12:17:04Z"
       },
       {
         "kind": "pr",
-        "number": 119110,
-        "title": "fix(test): guard split-memory tests on case-insensitive filesystems",
-        "url": "https://github.com/openclaw/openclaw/pull/119110",
+        "number": 101878,
+        "title": "Workspaces: add stream and computed bindings",
+        "url": "https://github.com/openclaw/openclaw/pull/101878",
+        "state": "open",
+        "author": "100yenadmin",
+        "updatedAt": "2026-08-04T12:17:04Z"
+      },
+      {
+        "kind": "pr",
+        "number": 102185,
+        "title": "fix(feishu): report bot identity retry failures",
+        "url": "https://github.com/openclaw/openclaw/pull/102185",
+        "state": "open",
+        "author": "zhangLei99586",
+        "updatedAt": "2026-08-04T12:16:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119203,
+        "title": "fix(status): status --all slows down with missing plugins",
+        "url": "https://github.com/openclaw/openclaw/pull/119203",
+        "state": "open",
+        "author": "mikasa0818",
+        "updatedAt": "2026-08-04T12:16:54Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119198,
+        "title": "fix(agents): protect private memory in shared chats",
+        "url": "https://github.com/openclaw/openclaw/pull/119198",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-04T06:39:05Z"
+        "updatedAt": "2026-08-04T12:16:53Z"
       },
       {
         "kind": "pr",
-        "number": 119073,
-        "title": "fix: preserve Claude follow-up replies after background tasks",
-        "url": "https://github.com/openclaw/openclaw/pull/119073",
+        "number": 119213,
+        "title": "fix(whatsapp): retain structured context in debounce batches",
+        "url": "https://github.com/openclaw/openclaw/pull/119213",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-08-04T06:38:48Z"
-      },
-      {
-        "kind": "pr",
-        "number": 86541,
-        "title": "fix(telegram): use monotonic polling liveness",
-        "url": "https://github.com/openclaw/openclaw/pull/86541",
-        "state": "open",
-        "author": "galiniliev",
-        "updatedAt": "2026-08-04T06:38:47Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117213,
-        "title": "fix: rebuild incomplete plugin policy refreshes",
-        "url": "https://github.com/openclaw/openclaw/pull/117213",
-        "state": "open",
-        "author": "wenrizc",
-        "updatedAt": "2026-08-04T06:38:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114879,
-        "title": "[AI] docs(tools): clarify per-action required params in gateway and process tool schemas",
-        "url": "https://github.com/openclaw/openclaw/pull/114879",
-        "state": "open",
-        "author": "xydt-tanshanshan",
-        "updatedAt": "2026-08-04T06:38:33Z"
+        "author": "pacocartones",
+        "updatedAt": "2026-08-04T12:17:08Z"
       }
     ]
   }

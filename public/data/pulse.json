@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-04T20:42:02.554Z",
+  "generatedAt": "2026-08-04T22:21:08.290Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -309,17 +309,17 @@
     },
     {
       "capturedOn": "2026-08-04",
-      "capturedAt": "2026-08-04T20:42:02.554Z",
-      "issueOpen": 3400,
-      "issueClosed": 42530,
-      "prOpen": 2103,
-      "prClosed": 68844,
-      "prMerged": 22443,
+      "capturedAt": "2026-08-04T22:21:08.290Z",
+      "issueOpen": 3403,
+      "issueClosed": 42534,
+      "prOpen": 2109,
+      "prClosed": 68854,
+      "prMerged": 22451,
       "workflowRuns": 40000,
-      "stars": 385125,
-      "forks": 80950,
+      "stars": 385131,
+      "forks": 80951,
       "subscribers": 1760,
-      "commits": 76519,
+      "commits": 76527,
       "contributors": 3058,
       "source": "github-actions",
       "approximateDate": false
@@ -368,10 +368,10 @@
     },
     {
       "capturedOn": "2026-08-04",
-      "stars": 385125,
-      "forks": 80950,
+      "stars": 385131,
+      "forks": 80951,
       "subscribers": 1760,
-      "commits": 76519,
+      "commits": 76527,
       "contributors": 3058
     }
   ],
@@ -379,77 +379,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 119333,
-        "title": "[Bug]: [codex] request_user_input is exposed in Default mode but rejected at runtime",
-        "url": "https://github.com/openclaw/openclaw/issues/119333",
+        "number": 115914,
+        "title": "[Bug]: Accepted WhatsApp turns can remain silent with no bounded liveness fallback",
+        "url": "https://github.com/openclaw/openclaw/issues/115914",
         "state": "open",
-        "author": "bek91",
-        "updatedAt": "2026-08-04T20:41:07Z"
+        "author": "Jackten",
+        "updatedAt": "2026-08-04T22:21:02Z"
       },
       {
         "kind": "issue",
-        "number": 119335,
-        "title": "[Bug]: docs say local `openclaw` browser profiles auto-assign `cdpPort`/`cdpUrl`, but the schema rejects any declared profile that sets neither",
-        "url": "https://github.com/openclaw/openclaw/issues/119335",
+        "number": 112075,
+        "title": "[Feature]: Add a safe Cursor onboarding inference route",
+        "url": "https://github.com/openclaw/openclaw/issues/112075",
         "state": "open",
-        "author": "abacha",
-        "updatedAt": "2026-08-04T20:39:59Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-04T22:21:01Z"
+      },
+      {
+        "kind": "issue",
+        "number": 116905,
+        "title": "WhatsApp channel corrupts non-ASCII characters (em-dash becomes U+FFFD) in outgoing assistant replies",
+        "url": "https://github.com/openclaw/openclaw/issues/116905",
+        "state": "open",
+        "author": "jasonlittle573-lang",
+        "updatedAt": "2026-08-04T22:21:00Z"
+      },
+      {
+        "kind": "issue",
+        "number": 119360,
+        "title": "[Bug]: Transient restart-required config write still restarts after revert to identical config",
+        "url": "https://github.com/openclaw/openclaw/issues/119360",
+        "state": "open",
+        "author": "ape-deft",
+        "updatedAt": "2026-08-04T22:20:59Z"
+      },
+      {
+        "kind": "issue",
+        "number": 111807,
+        "title": "/think off doesn't disable thinking on claude-cli — inherits Claude Code's default effort (contradicts docs)",
+        "url": "https://github.com/openclaw/openclaw/issues/111807",
+        "state": "open",
+        "author": "Zeus-Deus",
+        "updatedAt": "2026-08-04T22:21:05Z"
+      },
+      {
+        "kind": "issue",
+        "number": 119070,
+        "title": "voice-call: RealtimeAudioPacer accumulates timer drift, causing Twilio underruns/choppy audio",
+        "url": "https://github.com/openclaw/openclaw/issues/119070",
+        "state": "open",
+        "author": "stelloxx",
+        "updatedAt": "2026-08-04T22:20:56Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 116562,
-        "title": "fix(memory-core): recover primary embedding provider",
-        "url": "https://github.com/openclaw/openclaw/pull/116562",
+        "number": 119150,
+        "title": "fix(qa): repair release validation scenarios",
+        "url": "https://github.com/openclaw/openclaw/pull/119150",
         "state": "open",
-        "author": "wenrizc",
-        "updatedAt": "2026-08-04T20:40:54Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-04T22:21:03Z"
       },
       {
         "kind": "pr",
-        "number": 119319,
-        "title": "feat(mcp): migrate to MCP 2.0 split packages with 2026-07-28 stateless support",
-        "url": "https://github.com/openclaw/openclaw/pull/119319",
+        "number": 119023,
+        "title": "fix(slack): preserve channel context in bot-opened threads",
+        "url": "https://github.com/openclaw/openclaw/pull/119023",
         "state": "open",
-        "author": "dongjiang1989",
-        "updatedAt": "2026-08-04T20:40:07Z"
+        "author": "scoootscooob",
+        "updatedAt": "2026-08-04T22:21:02Z"
       },
       {
         "kind": "pr",
-        "number": 112424,
-        "title": "fix(sessions): keep gateway responsive while large transcript archives are built",
-        "url": "https://github.com/openclaw/openclaw/pull/112424",
+        "number": 111706,
+        "title": "docs(plugin-sdk): catalog simple-completion-runtime as private-local subpath",
+        "url": "https://github.com/openclaw/openclaw/pull/111706",
         "state": "open",
-        "author": "HermanZeng",
-        "updatedAt": "2026-08-04T20:39:42Z"
+        "author": "xydt-tanshanshan",
+        "updatedAt": "2026-08-04T22:21:01Z"
       },
       {
         "kind": "pr",
-        "number": 119336,
-        "title": "docs(browser): a declared local profile must set cdpPort or cdpUrl",
-        "url": "https://github.com/openclaw/openclaw/pull/119336",
+        "number": 118216,
+        "title": "docs(discord): drop retired ui.components.accentColor and fix heartbeat key name",
+        "url": "https://github.com/openclaw/openclaw/pull/118216",
         "state": "open",
-        "author": "abacha",
-        "updatedAt": "2026-08-04T20:39:36Z"
+        "author": "ayaangazali",
+        "updatedAt": "2026-08-04T22:21:00Z"
       },
       {
         "kind": "pr",
-        "number": 119095,
-        "title": "fix(ci): retry interrupted Windows dashboard release checks",
-        "url": "https://github.com/openclaw/openclaw/pull/119095",
-        "state": "closed",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-04T20:36:09Z"
+        "number": 118777,
+        "title": "fix(diagnostics): report stuck sessions on lanes that keep receiving messages",
+        "url": "https://github.com/openclaw/openclaw/pull/118777",
+        "state": "open",
+        "author": "masatohoshino",
+        "updatedAt": "2026-08-04T22:20:58Z"
       },
       {
         "kind": "pr",
-        "number": 119325,
-        "title": "feat(models): add session-only /model -s selection",
-        "url": "https://github.com/openclaw/openclaw/pull/119325",
+        "number": 110694,
+        "title": "test(shared): add unit tests for safe-record defensive guards",
+        "url": "https://github.com/openclaw/openclaw/pull/110694",
         "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-08-04T20:35:37Z"
+        "author": "dwc1997",
+        "updatedAt": "2026-08-04T22:21:04Z"
       }
     ]
   }

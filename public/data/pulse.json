@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-03T23:18:18.793Z",
+  "generatedAt": "2026-08-04T03:34:34.379Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -306,6 +306,23 @@
       "contributors": 3052,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-04",
+      "capturedAt": "2026-08-04T03:34:34.379Z",
+      "issueOpen": 3388,
+      "issueClosed": 42453,
+      "prOpen": 2073,
+      "prClosed": 68698,
+      "prMerged": 22366,
+      "workflowRuns": 40000,
+      "stars": 385049,
+      "forks": 80945,
+      "subscribers": 1760,
+      "commits": 76385,
+      "contributors": 3053,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -348,110 +365,118 @@
       "subscribers": 1760,
       "commits": 76343,
       "contributors": 3052
+    },
+    {
+      "capturedOn": "2026-08-04",
+      "stars": 385049,
+      "forks": 80945,
+      "subscribers": 1760,
+      "commits": 76385,
+      "contributors": 3053
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 118740,
-        "title": "codesign-mac-app.sh: pinning SIGN_IDENTITY by cert hash silently disables the trusted timestamp, breaking notarization",
-        "url": "https://github.com/openclaw/openclaw/issues/118740",
+        "number": 119084,
+        "title": "[Bug]: UI E2E shard starves its Gateway until control-ui-auth-transports times out",
+        "url": "https://github.com/openclaw/openclaw/issues/119084",
         "state": "open",
-        "author": "ctbritt",
-        "updatedAt": "2026-08-03T23:18:13Z"
+        "author": "ZYV5ge",
+        "updatedAt": "2026-08-04T03:31:54Z"
       },
       {
         "kind": "issue",
-        "number": 105976,
-        "title": "Feishu: explain content-policy delivery rejection 230028",
-        "url": "https://github.com/openclaw/openclaw/issues/105976",
+        "number": 119083,
+        "title": "[Feature]: Continuously admit newly due cron jobs while earlier timer-batch jobs are still running",
+        "url": "https://github.com/openclaw/openclaw/issues/119083",
         "state": "open",
-        "author": "sliverp",
-        "updatedAt": "2026-08-03T23:17:33Z"
+        "author": "joeykrug",
+        "updatedAt": "2026-08-04T03:27:06Z"
       },
       {
         "kind": "issue",
-        "number": 118924,
-        "title": "[Feature]: Add thinkingLevel override to session_status for channel-backed chat sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/118924",
+        "number": 119081,
+        "title": "bug: llama.cpp simple completions can use the HTTP transport",
+        "url": "https://github.com/openclaw/openclaw/issues/119081",
         "state": "open",
-        "author": "llunved",
-        "updatedAt": "2026-08-03T23:17:09Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-04T03:24:08Z"
       },
       {
         "kind": "issue",
-        "number": 117593,
-        "title": "[Feature]: Improve Model Override Safety, Auditing, and Centralized Management",
-        "url": "https://github.com/openclaw/openclaw/issues/117593",
+        "number": 119079,
+        "title": "[Bug]: Talk realtime transcript persistence fails on STRICT session store — cannot store REAL value in INTEGER column session_nodes.updated_at (beta.6 + beta.7)",
+        "url": "https://github.com/openclaw/openclaw/issues/119079",
         "state": "open",
-        "author": "cjwelle",
-        "updatedAt": "2026-08-03T23:17:04Z"
+        "author": "vmanuelort-sys",
+        "updatedAt": "2026-08-04T03:23:48Z"
       },
       {
         "kind": "issue",
-        "number": 89095,
-        "title": "Sub-agent run timeout does not notify parent session (completion event silently dropped)",
-        "url": "https://github.com/openclaw/openclaw/issues/89095",
+        "number": 92206,
+        "title": "[Bug]: tools.exec.security config not applied at runtime after gateway restart",
+        "url": "https://github.com/openclaw/openclaw/issues/92206",
         "state": "open",
-        "author": "sunnydongbo",
-        "updatedAt": "2026-08-03T23:16:58Z"
+        "author": "ntnx-dlane",
+        "updatedAt": "2026-08-04T03:23:21Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 118681,
-        "title": "fix(agents): bounded memory flush before recovery compaction",
-        "url": "https://github.com/openclaw/openclaw/pull/118681",
+        "number": 119068,
+        "title": "fix: error when gateway port is busy but process cannot be identified",
+        "url": "https://github.com/openclaw/openclaw/pull/119068",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-03T23:18:12Z"
+        "author": "Schimuneck",
+        "updatedAt": "2026-08-04T03:32:41Z"
       },
       {
         "kind": "pr",
-        "number": 112316,
-        "title": "fix(security): recognize SecretRef objects as externalized in gateway_password_in_config audit",
-        "url": "https://github.com/openclaw/openclaw/pull/112316",
-        "state": "open",
-        "author": "xydigit-zt",
-        "updatedAt": "2026-08-03T23:18:12Z"
+        "number": 101829,
+        "title": "Workspaces: add persistent notes widget",
+        "url": "https://github.com/openclaw/openclaw/pull/101829",
+        "state": "closed",
+        "author": "100yenadmin",
+        "updatedAt": "2026-08-04T03:32:32Z"
       },
       {
         "kind": "pr",
-        "number": 118965,
-        "title": "test(qa): cover managed OTEL runtime paths",
-        "url": "https://github.com/openclaw/openclaw/pull/118965",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-03T23:18:10Z"
+        "number": 101900,
+        "title": "Workspaces: add version history and exact restore",
+        "url": "https://github.com/openclaw/openclaw/pull/101900",
+        "state": "closed",
+        "author": "100yenadmin",
+        "updatedAt": "2026-08-04T03:32:28Z"
       },
       {
         "kind": "pr",
-        "number": 118988,
-        "title": "test(qa): prove gateway chat RPCs",
-        "url": "https://github.com/openclaw/openclaw/pull/118988",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-03T23:18:14Z"
+        "number": 101913,
+        "title": "Workspaces: add scoped Teams control hub",
+        "url": "https://github.com/openclaw/openclaw/pull/101913",
+        "state": "closed",
+        "author": "100yenadmin",
+        "updatedAt": "2026-08-04T03:32:23Z"
       },
       {
         "kind": "pr",
-        "number": 119002,
-        "title": "fix(sms): retry stalled MMS response bodies",
-        "url": "https://github.com/openclaw/openclaw/pull/119002",
+        "number": 115845,
+        "title": "[AI-assisted] docs(onboard): document gateway password auth mode",
+        "url": "https://github.com/openclaw/openclaw/pull/115845",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-03T23:18:06Z"
+        "author": "santhiprakash",
+        "updatedAt": "2026-08-04T03:31:45Z"
       },
       {
         "kind": "pr",
-        "number": 118992,
-        "title": "perf(cli): install prepared plugin metadata snapshot for models list",
-        "url": "https://github.com/openclaw/openclaw/pull/118992",
+        "number": 104569,
+        "title": "fix(ui): explain replace-mode filtering in model picker",
+        "url": "https://github.com/openclaw/openclaw/pull/104569",
         "state": "open",
-        "author": "harjothkhara",
-        "updatedAt": "2026-08-03T23:18:04Z"
+        "author": "samrusani",
+        "updatedAt": "2026-08-04T03:30:50Z"
       }
     ]
   }

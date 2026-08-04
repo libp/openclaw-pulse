@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-04T17:02:35.768Z",
+  "generatedAt": "2026-08-04T18:50:22.504Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -309,17 +309,17 @@
     },
     {
       "capturedOn": "2026-08-04",
-      "capturedAt": "2026-08-04T17:02:35.768Z",
-      "issueOpen": 3394,
-      "issueClosed": 42515,
-      "prOpen": 2094,
-      "prClosed": 68829,
-      "prMerged": 22431,
+      "capturedAt": "2026-08-04T18:50:22.504Z",
+      "issueOpen": 3389,
+      "issueClosed": 42526,
+      "prOpen": 2101,
+      "prClosed": 68835,
+      "prMerged": 22436,
       "workflowRuns": 40000,
-      "stars": 385119,
-      "forks": 80951,
+      "stars": 385124,
+      "forks": 80948,
       "subscribers": 1760,
-      "commits": 76507,
+      "commits": 76512,
       "contributors": 3058,
       "source": "github-actions",
       "approximateDate": false
@@ -368,124 +368,69 @@
     },
     {
       "capturedOn": "2026-08-04",
-      "stars": 385119,
-      "forks": 80951,
+      "stars": 385124,
+      "forks": 80948,
       "subscribers": 1760,
-      "commits": 76507,
+      "commits": 76512,
       "contributors": 3058
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 99444,
-        "title": "fix(agents): guard NaN timestamp in compaction boundary check",
-        "url": "https://github.com/openclaw/openclaw/issues/99444",
-        "state": "open",
-        "author": "sheyanmin",
-        "updatedAt": "2026-08-04T17:02:25Z"
-      },
-      {
-        "kind": "issue",
-        "number": 73910,
-        "title": "BUG: OpenClaw-managed Codex ACP uses isolated CODEX_HOME without auth bridge and sends unsupported timeout config",
-        "url": "https://github.com/openclaw/openclaw/issues/73910",
-        "state": "open",
-        "author": "kAIborg24",
-        "updatedAt": "2026-08-04T17:02:25Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119282,
-        "title": "imsg rpc stderr still blanket-logged at ERROR — #79610 closed as completed but its fix PR #79760 never merged",
-        "url": "https://github.com/openclaw/openclaw/issues/119282",
-        "state": "open",
-        "author": "prashantkamani",
-        "updatedAt": "2026-08-04T17:02:19Z"
-      },
-      {
-        "kind": "issue",
-        "number": 118625,
-        "title": "[Bug]: Main-session compaction holds the session write-lock past the 60s acquire timeout; completed subagent announces time out and give up, silently losing results",
-        "url": "https://github.com/openclaw/openclaw/issues/118625",
-        "state": "open",
-        "author": "ssica521sinence",
-        "updatedAt": "2026-08-04T17:02:19Z"
-      },
-      {
-        "kind": "issue",
-        "number": 84486,
-        "title": "Bug: Text before tool calls is lost in Feishu streaming card reply mode",
-        "url": "https://github.com/openclaw/openclaw/issues/84486",
-        "state": "open",
-        "author": "kentuscn",
-        "updatedAt": "2026-08-04T17:02:30Z"
-      },
-      {
-        "kind": "issue",
-        "number": 60035,
-        "title": "[Feature]: Add Support for System/Custom HTTP & SOCKS Proxy Configuration in OpenClaw",
-        "url": "https://github.com/openclaw/openclaw/issues/60035",
-        "state": "open",
-        "author": "SKYC829",
-        "updatedAt": "2026-08-04T17:02:26Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 119205,
-        "title": "feat(cron): enable automation failure alerts by default",
-        "url": "https://github.com/openclaw/openclaw/pull/119205",
+        "number": 119071,
+        "title": "fix(gateway): restage managed env when state .env drifts from systemd env file",
+        "url": "https://github.com/openclaw/openclaw/pull/119071",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-08-04T17:02:31Z"
+        "author": "MasterSwords1",
+        "updatedAt": "2026-08-04T18:49:39Z"
       },
       {
         "kind": "pr",
-        "number": 118681,
-        "title": "fix(agents): bounded memory flush before recovery compaction",
-        "url": "https://github.com/openclaw/openclaw/pull/118681",
+        "number": 116793,
+        "title": "refactor(agents): centralize immutable execution attribution",
+        "url": "https://github.com/openclaw/openclaw/pull/116793",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-04T17:02:31Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-04T18:49:29Z"
       },
       {
         "kind": "pr",
-        "number": 119287,
-        "title": "fix(gateway): steering messages queue behind active turns",
-        "url": "https://github.com/openclaw/openclaw/pull/119287",
+        "number": 116794,
+        "title": "refactor(agents): propagate attribution across execution runtimes",
+        "url": "https://github.com/openclaw/openclaw/pull/116794",
         "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-08-04T17:02:30Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-04T18:49:24Z"
       },
       {
         "kind": "pr",
-        "number": 119288,
-        "title": "fix(models): keep model selections session-scoped",
-        "url": "https://github.com/openclaw/openclaw/pull/119288",
+        "number": 116792,
+        "title": "fix(protocol): preserve gateway session attribution across node runs",
+        "url": "https://github.com/openclaw/openclaw/pull/116792",
         "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-08-04T17:02:28Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-04T18:49:16Z"
       },
       {
         "kind": "pr",
-        "number": 118927,
-        "title": "fix(install): block git option injection via --git-dir / OPENCLAW_GIT_DIR",
-        "url": "https://github.com/openclaw/openclaw/pull/118927",
+        "number": 116796,
+        "title": "fix(audit): keep execution attribution generation-aware",
+        "url": "https://github.com/openclaw/openclaw/pull/116796",
         "state": "open",
-        "author": "wjc2821296948",
-        "updatedAt": "2026-08-04T17:02:33Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-04T18:49:15Z"
       },
       {
         "kind": "pr",
-        "number": 119289,
-        "title": "fix(imessage): thread replies with thread_originator_guid",
-        "url": "https://github.com/openclaw/openclaw/pull/119289",
+        "number": 116795,
+        "title": "refactor(agents): bind tool policy to execution attribution",
+        "url": "https://github.com/openclaw/openclaw/pull/116795",
         "state": "open",
-        "author": "dkattan",
-        "updatedAt": "2026-08-04T17:02:24Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-04T18:49:15Z"
       }
     ]
   }

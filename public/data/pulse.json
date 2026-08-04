@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-04T14:41:16.725Z",
+  "generatedAt": "2026-08-04T17:02:35.768Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -309,18 +309,18 @@
     },
     {
       "capturedOn": "2026-08-04",
-      "capturedAt": "2026-08-04T14:41:16.725Z",
-      "issueOpen": 3396,
-      "issueClosed": 42503,
-      "prOpen": 2101,
-      "prClosed": 68786,
-      "prMerged": 22416,
+      "capturedAt": "2026-08-04T17:02:35.768Z",
+      "issueOpen": 3394,
+      "issueClosed": 42515,
+      "prOpen": 2094,
+      "prClosed": 68829,
+      "prMerged": 22431,
       "workflowRuns": 40000,
-      "stars": 385109,
-      "forks": 80949,
+      "stars": 385119,
+      "forks": 80951,
       "subscribers": 1760,
-      "commits": 76457,
-      "contributors": 3056,
+      "commits": 76507,
+      "contributors": 3058,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -368,124 +368,124 @@
     },
     {
       "capturedOn": "2026-08-04",
-      "stars": 385109,
-      "forks": 80949,
+      "stars": 385119,
+      "forks": 80951,
       "subscribers": 1760,
-      "commits": 76457,
-      "contributors": 3056
+      "commits": 76507,
+      "contributors": 3058
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 119244,
-        "title": "OpenAI streaming failure reports zero usage instead of unknown/partial",
-        "url": "https://github.com/openclaw/openclaw/issues/119244",
+        "number": 99444,
+        "title": "fix(agents): guard NaN timestamp in compaction boundary check",
+        "url": "https://github.com/openclaw/openclaw/issues/99444",
         "state": "open",
-        "author": "EvolveAegis",
-        "updatedAt": "2026-08-04T14:40:35Z"
+        "author": "sheyanmin",
+        "updatedAt": "2026-08-04T17:02:25Z"
       },
       {
         "kind": "issue",
-        "number": 119259,
-        "title": "Reasoning-model turns silently truncate at the default 8192 output budget (non_deliverable_terminal_turn); no documented wire-level max_tokens knob",
-        "url": "https://github.com/openclaw/openclaw/issues/119259",
+        "number": 73910,
+        "title": "BUG: OpenClaw-managed Codex ACP uses isolated CODEX_HOME without auth bridge and sends unsupported timeout config",
+        "url": "https://github.com/openclaw/openclaw/issues/73910",
         "state": "open",
-        "author": "davidste",
-        "updatedAt": "2026-08-04T14:40:21Z"
+        "author": "kAIborg24",
+        "updatedAt": "2026-08-04T17:02:25Z"
       },
       {
         "kind": "issue",
-        "number": 116348,
-        "title": "No way to suppress or rate-limit the \"No reply was generated\" fallback in mention-gated groups (fallback spam)",
-        "url": "https://github.com/openclaw/openclaw/issues/116348",
+        "number": 119282,
+        "title": "imsg rpc stderr still blanket-logged at ERROR — #79610 closed as completed but its fix PR #79760 never merged",
+        "url": "https://github.com/openclaw/openclaw/issues/119282",
         "state": "open",
-        "author": "sloptop-the-terrible",
-        "updatedAt": "2026-08-04T14:37:30Z"
+        "author": "prashantkamani",
+        "updatedAt": "2026-08-04T17:02:19Z"
       },
       {
         "kind": "issue",
-        "number": 118289,
-        "title": "[Feature]: Improve screen result of android app chat",
-        "url": "https://github.com/openclaw/openclaw/issues/118289",
+        "number": 118625,
+        "title": "[Bug]: Main-session compaction holds the session write-lock past the 60s acquire timeout; completed subagent announces time out and give up, silently losing results",
+        "url": "https://github.com/openclaw/openclaw/issues/118625",
         "state": "open",
-        "author": "ForceConstant",
-        "updatedAt": "2026-08-04T14:37:28Z"
+        "author": "ssica521sinence",
+        "updatedAt": "2026-08-04T17:02:19Z"
       },
       {
         "kind": "issue",
-        "number": 110338,
-        "title": "Session auto-recovery after restart loads full bloated context — paid 8 for 5 API calls",
-        "url": "https://github.com/openclaw/openclaw/issues/110338",
+        "number": 84486,
+        "title": "Bug: Text before tool calls is lost in Feishu streaming card reply mode",
+        "url": "https://github.com/openclaw/openclaw/issues/84486",
         "state": "open",
-        "author": "ceogonchar",
-        "updatedAt": "2026-08-04T14:37:26Z"
+        "author": "kentuscn",
+        "updatedAt": "2026-08-04T17:02:30Z"
       },
       {
         "kind": "issue",
-        "number": 118528,
-        "title": "2026.7.2-beta.7: Doctor reports clean while native Codex turns fail after upgrade",
-        "url": "https://github.com/openclaw/openclaw/issues/118528",
+        "number": 60035,
+        "title": "[Feature]: Add Support for System/Custom HTTP & SOCKS Proxy Configuration in OpenClaw",
+        "url": "https://github.com/openclaw/openclaw/issues/60035",
         "state": "open",
-        "author": "vera-perel",
-        "updatedAt": "2026-08-04T14:37:24Z"
+        "author": "SKYC829",
+        "updatedAt": "2026-08-04T17:02:26Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 118588,
-        "title": "fix(agents): repair polluted auto-fallback origins so snap-back probes can fire",
-        "url": "https://github.com/openclaw/openclaw/pull/118588",
+        "number": 119205,
+        "title": "feat(cron): enable automation failure alerts by default",
+        "url": "https://github.com/openclaw/openclaw/pull/119205",
         "state": "open",
-        "author": "xialonglee",
-        "updatedAt": "2026-08-04T14:40:44Z"
+        "author": "obviyus",
+        "updatedAt": "2026-08-04T17:02:31Z"
       },
       {
         "kind": "pr",
-        "number": 119250,
-        "title": "fix(discord): bound realtime exact speech retention",
-        "url": "https://github.com/openclaw/openclaw/pull/119250",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-04T14:40:27Z"
-      },
-      {
-        "kind": "pr",
-        "number": 115968,
-        "title": "fix(agents): per-candidate compaction timeout instead of shared across fallback chain",
-        "url": "https://github.com/openclaw/openclaw/pull/115968",
+        "number": 118681,
+        "title": "fix(agents): bounded memory flush before recovery compaction",
+        "url": "https://github.com/openclaw/openclaw/pull/118681",
         "state": "open",
         "author": "SunnyShu0925",
-        "updatedAt": "2026-08-04T14:39:26Z"
+        "updatedAt": "2026-08-04T17:02:31Z"
       },
       {
         "kind": "pr",
-        "number": 119245,
-        "title": "fix(tui): keep whitespace-prefixed bang input in chat",
-        "url": "https://github.com/openclaw/openclaw/pull/119245",
+        "number": 119287,
+        "title": "fix(gateway): steering messages queue behind active turns",
+        "url": "https://github.com/openclaw/openclaw/pull/119287",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-04T14:39:17Z"
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-08-04T17:02:30Z"
       },
       {
         "kind": "pr",
-        "number": 119198,
-        "title": "fix(agents): protect private memory in shared chats",
-        "url": "https://github.com/openclaw/openclaw/pull/119198",
+        "number": 119288,
+        "title": "fix(models): keep model selections session-scoped",
+        "url": "https://github.com/openclaw/openclaw/pull/119288",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-04T14:39:16Z"
+        "author": "VACInc",
+        "updatedAt": "2026-08-04T17:02:28Z"
       },
       {
         "kind": "pr",
-        "number": 118748,
-        "title": "fix(google): bound realtime PCM sample rate to prevent OOM resample",
-        "url": "https://github.com/openclaw/openclaw/pull/118748",
+        "number": 118927,
+        "title": "fix(install): block git option injection via --git-dir / OPENCLAW_GIT_DIR",
+        "url": "https://github.com/openclaw/openclaw/pull/118927",
         "state": "open",
-        "author": "tzy-17",
-        "updatedAt": "2026-08-04T14:39:03Z"
+        "author": "wjc2821296948",
+        "updatedAt": "2026-08-04T17:02:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119289,
+        "title": "fix(imessage): thread replies with thread_originator_guid",
+        "url": "https://github.com/openclaw/openclaw/pull/119289",
+        "state": "open",
+        "author": "dkattan",
+        "updatedAt": "2026-08-04T17:02:24Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-04T18:50:22.504Z",
+  "generatedAt": "2026-08-04T20:42:02.554Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -309,17 +309,17 @@
     },
     {
       "capturedOn": "2026-08-04",
-      "capturedAt": "2026-08-04T18:50:22.504Z",
-      "issueOpen": 3389,
-      "issueClosed": 42526,
-      "prOpen": 2101,
-      "prClosed": 68835,
-      "prMerged": 22436,
+      "capturedAt": "2026-08-04T20:42:02.554Z",
+      "issueOpen": 3400,
+      "issueClosed": 42530,
+      "prOpen": 2103,
+      "prClosed": 68844,
+      "prMerged": 22443,
       "workflowRuns": 40000,
-      "stars": 385124,
-      "forks": 80948,
+      "stars": 385125,
+      "forks": 80950,
       "subscribers": 1760,
-      "commits": 76512,
+      "commits": 76519,
       "contributors": 3058,
       "source": "github-actions",
       "approximateDate": false
@@ -368,69 +368,88 @@
     },
     {
       "capturedOn": "2026-08-04",
-      "stars": 385124,
-      "forks": 80948,
+      "stars": 385125,
+      "forks": 80950,
       "subscribers": 1760,
-      "commits": 76512,
+      "commits": 76519,
       "contributors": 3058
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 119333,
+        "title": "[Bug]: [codex] request_user_input is exposed in Default mode but rejected at runtime",
+        "url": "https://github.com/openclaw/openclaw/issues/119333",
+        "state": "open",
+        "author": "bek91",
+        "updatedAt": "2026-08-04T20:41:07Z"
+      },
+      {
+        "kind": "issue",
+        "number": 119335,
+        "title": "[Bug]: docs say local `openclaw` browser profiles auto-assign `cdpPort`/`cdpUrl`, but the schema rejects any declared profile that sets neither",
+        "url": "https://github.com/openclaw/openclaw/issues/119335",
+        "state": "open",
+        "author": "abacha",
+        "updatedAt": "2026-08-04T20:39:59Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 119071,
-        "title": "fix(gateway): restage managed env when state .env drifts from systemd env file",
-        "url": "https://github.com/openclaw/openclaw/pull/119071",
+        "number": 116562,
+        "title": "fix(memory-core): recover primary embedding provider",
+        "url": "https://github.com/openclaw/openclaw/pull/116562",
         "state": "open",
-        "author": "MasterSwords1",
-        "updatedAt": "2026-08-04T18:49:39Z"
+        "author": "wenrizc",
+        "updatedAt": "2026-08-04T20:40:54Z"
       },
       {
         "kind": "pr",
-        "number": 116793,
-        "title": "refactor(agents): centralize immutable execution attribution",
-        "url": "https://github.com/openclaw/openclaw/pull/116793",
+        "number": 119319,
+        "title": "feat(mcp): migrate to MCP 2.0 split packages with 2026-07-28 stateless support",
+        "url": "https://github.com/openclaw/openclaw/pull/119319",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-04T18:49:29Z"
+        "author": "dongjiang1989",
+        "updatedAt": "2026-08-04T20:40:07Z"
       },
       {
         "kind": "pr",
-        "number": 116794,
-        "title": "refactor(agents): propagate attribution across execution runtimes",
-        "url": "https://github.com/openclaw/openclaw/pull/116794",
+        "number": 112424,
+        "title": "fix(sessions): keep gateway responsive while large transcript archives are built",
+        "url": "https://github.com/openclaw/openclaw/pull/112424",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-04T18:49:24Z"
+        "author": "HermanZeng",
+        "updatedAt": "2026-08-04T20:39:42Z"
       },
       {
         "kind": "pr",
-        "number": 116792,
-        "title": "fix(protocol): preserve gateway session attribution across node runs",
-        "url": "https://github.com/openclaw/openclaw/pull/116792",
+        "number": 119336,
+        "title": "docs(browser): a declared local profile must set cdpPort or cdpUrl",
+        "url": "https://github.com/openclaw/openclaw/pull/119336",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-04T18:49:16Z"
+        "author": "abacha",
+        "updatedAt": "2026-08-04T20:39:36Z"
       },
       {
         "kind": "pr",
-        "number": 116796,
-        "title": "fix(audit): keep execution attribution generation-aware",
-        "url": "https://github.com/openclaw/openclaw/pull/116796",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-04T18:49:15Z"
+        "number": 119095,
+        "title": "fix(ci): retry interrupted Windows dashboard release checks",
+        "url": "https://github.com/openclaw/openclaw/pull/119095",
+        "state": "closed",
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-04T20:36:09Z"
       },
       {
         "kind": "pr",
-        "number": 116795,
-        "title": "refactor(agents): bind tool policy to execution attribution",
-        "url": "https://github.com/openclaw/openclaw/pull/116795",
+        "number": 119325,
+        "title": "feat(models): add session-only /model -s selection",
+        "url": "https://github.com/openclaw/openclaw/pull/119325",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-04T18:49:15Z"
+        "author": "VACInc",
+        "updatedAt": "2026-08-04T20:35:37Z"
       }
     ]
   }

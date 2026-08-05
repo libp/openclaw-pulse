@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-05T16:51:34.675Z",
+  "generatedAt": "2026-08-05T18:48:26.763Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -326,18 +326,18 @@
     },
     {
       "capturedOn": "2026-08-05",
-      "capturedAt": "2026-08-05T16:51:34.675Z",
-      "issueOpen": 3389,
-      "issueClosed": 42628,
-      "prOpen": 2117,
-      "prClosed": 69087,
-      "prMerged": 22614,
+      "capturedAt": "2026-08-05T18:48:26.763Z",
+      "issueOpen": 3396,
+      "issueClosed": 42632,
+      "prOpen": 2116,
+      "prClosed": 69105,
+      "prMerged": 22629,
       "workflowRuns": 40000,
-      "stars": 385248,
-      "forks": 80980,
-      "subscribers": 1760,
-      "commits": 76722,
-      "contributors": 3064,
+      "stars": 385254,
+      "forks": 80979,
+      "subscribers": 1761,
+      "commits": 76737,
+      "contributors": 3065,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -393,124 +393,124 @@
     },
     {
       "capturedOn": "2026-08-05",
-      "stars": 385248,
-      "forks": 80980,
-      "subscribers": 1760,
-      "commits": 76722,
-      "contributors": 3064
+      "stars": 385254,
+      "forks": 80979,
+      "subscribers": 1761,
+      "commits": 76737,
+      "contributors": 3065
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 119684,
-        "title": "[Bug]: saveRemoteMedia has no fallback for Wikimedia's thumbnail-width rejection (kills the whole reply)",
-        "url": "https://github.com/openclaw/openclaw/issues/119684",
+        "number": 119692,
+        "title": "fix(usage): OpenAI-compatible streaming path drops token usage for MiniMax-M3 (transcript written as all-zero)",
+        "url": "https://github.com/openclaw/openclaw/issues/119692",
         "state": "open",
-        "author": "sappkevin",
-        "updatedAt": "2026-08-05T16:48:27Z"
+        "author": "Aris-qin",
+        "updatedAt": "2026-08-05T18:48:04Z"
       },
       {
         "kind": "issue",
-        "number": 119281,
-        "title": "[Bug]: Update fails during doctor checks due to Node.js version requirements (Node v24.12.0)",
-        "url": "https://github.com/openclaw/openclaw/issues/119281",
+        "number": 119711,
+        "title": "[Bug]: Intermittently degraded primary is retried across turns despite cooldown state",
+        "url": "https://github.com/openclaw/openclaw/issues/119711",
         "state": "open",
-        "author": "Istiyaq-Khan",
-        "updatedAt": "2026-08-05T16:45:49Z"
+        "author": "rishitamrakar",
+        "updatedAt": "2026-08-05T18:46:52Z"
       },
       {
         "kind": "issue",
-        "number": 118846,
-        "title": "Gateway main thread saturated from boot by plugin-metadata snapshot + fs statting; starves the accept loop (local RPC dies at ws_upgrade with 1006)",
-        "url": "https://github.com/openclaw/openclaw/issues/118846",
+        "number": 112423,
+        "title": "[Bug]: Large SQLite transcript cleanup blocks the gateway event loop",
+        "url": "https://github.com/openclaw/openclaw/issues/112423",
         "state": "open",
-        "author": "islandpreneur007",
-        "updatedAt": "2026-08-05T16:44:38Z"
+        "author": "HermanZeng",
+        "updatedAt": "2026-08-05T18:46:38Z"
       },
       {
         "kind": "issue",
-        "number": 118718,
-        "title": "[Feature]: LINE plugin should opt into extractMarkdownImages (parity with Telegram), or document per-channel markdown-image support",
-        "url": "https://github.com/openclaw/openclaw/issues/118718",
+        "number": 119087,
+        "title": "[Bug]: Gateway cold start regressed ~2.5x from 2026.7.1-beta.1 to 2026.7.2-beta.7 on a 1-vCPU container",
+        "url": "https://github.com/openclaw/openclaw/issues/119087",
         "state": "open",
-        "author": "hirari2020",
-        "updatedAt": "2026-08-05T16:43:23Z"
+        "author": "xyrolle",
+        "updatedAt": "2026-08-05T18:45:08Z"
       },
       {
         "kind": "issue",
-        "number": 118370,
-        "title": "[Bug]: Memory Wiki orphans imported pages when bridge and unsafe-local share a source",
-        "url": "https://github.com/openclaw/openclaw/issues/118370",
+        "number": 44134,
+        "title": "[Google Antigravity Ban] Frequent Tool Schema Reloading Causes False Positive Anti-Abuse Detection",
+        "url": "https://github.com/openclaw/openclaw/issues/44134",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-05T16:42:51Z"
+        "author": "caimao9539",
+        "updatedAt": "2026-08-05T18:44:39Z"
       },
       {
         "kind": "issue",
-        "number": 112204,
-        "title": "[Feature]: Allow provider- and room-scoped visibleReplies overrides",
-        "url": "https://github.com/openclaw/openclaw/issues/112204",
+        "number": 45082,
+        "title": "fix(mattermost): proactive message tool sends ignore thread context",
+        "url": "https://github.com/openclaw/openclaw/issues/45082",
         "state": "open",
-        "author": "TailsProwerWorks",
-        "updatedAt": "2026-08-05T16:42:49Z"
+        "author": "teconomix",
+        "updatedAt": "2026-08-05T18:44:29Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 119670,
-        "title": "fix(feishu): preserve interactive presentation in reply dispatcher",
-        "url": "https://github.com/openclaw/openclaw/pull/119670",
+        "number": 119712,
+        "title": "fix(usage): preserve top-level cached tokens in completions streams",
+        "url": "https://github.com/openclaw/openclaw/pull/119712",
         "state": "open",
-        "author": "LavyaTandel",
-        "updatedAt": "2026-08-05T16:51:23Z"
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-08-05T18:48:10Z"
       },
       {
         "kind": "pr",
-        "number": 96113,
-        "title": "feat(sessions): add read-only diagnose command",
-        "url": "https://github.com/openclaw/openclaw/pull/96113",
+        "number": 119674,
+        "title": "fix(daemon): scope systemd unit resolution to the active profile",
+        "url": "https://github.com/openclaw/openclaw/pull/119674",
         "state": "open",
-        "author": "zaidazmi",
-        "updatedAt": "2026-08-05T16:50:45Z"
+        "author": "SebTardif",
+        "updatedAt": "2026-08-05T18:47:52Z"
       },
       {
         "kind": "pr",
-        "number": 119647,
-        "title": "refactor(daemon): centralize managed service lifecycle ownership",
-        "url": "https://github.com/openclaw/openclaw/pull/119647",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-05T16:49:24Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119328,
-        "title": "docs(slack): drop retired socketMode transport tuning",
-        "url": "https://github.com/openclaw/openclaw/pull/119328",
+        "number": 119700,
+        "title": "fix(ci): avoid false Crabbox auth failures during readiness",
+        "url": "https://github.com/openclaw/openclaw/pull/119700",
         "state": "open",
-        "author": "ayaangazali",
-        "updatedAt": "2026-08-05T16:46:19Z"
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-08-05T18:47:15Z"
       },
       {
         "kind": "pr",
-        "number": 118681,
-        "title": "fix(agents): bounded memory flush before recovery compaction",
-        "url": "https://github.com/openclaw/openclaw/pull/118681",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-05T16:45:56Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119570,
-        "title": "fix(matrix): retire shared E2EE clients safely",
-        "url": "https://github.com/openclaw/openclaw/pull/119570",
+        "number": 119710,
+        "title": "fix(memory): keep gateway responsive after startup",
+        "url": "https://github.com/openclaw/openclaw/pull/119710",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-05T16:45:51Z"
+        "updatedAt": "2026-08-05T18:46:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119705,
+        "title": "fix(diagnostics): preserve telemetry during service shutdown",
+        "url": "https://github.com/openclaw/openclaw/pull/119705",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-05T18:46:54Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119666,
+        "title": "fix(memory): prevent remote errors from exposing credentials",
+        "url": "https://github.com/openclaw/openclaw/pull/119666",
+        "state": "open",
+        "author": "Alix-007",
+        "updatedAt": "2026-08-05T18:46:50Z"
       }
     ]
   }

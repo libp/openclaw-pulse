@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-05T06:40:25.470Z",
+  "generatedAt": "2026-08-05T09:47:48.180Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -326,18 +326,18 @@
     },
     {
       "capturedOn": "2026-08-05",
-      "capturedAt": "2026-08-05T06:40:25.470Z",
-      "issueOpen": 3401,
-      "issueClosed": 42575,
-      "prOpen": 2108,
-      "prClosed": 68973,
-      "prMerged": 22534,
+      "capturedAt": "2026-08-05T09:47:48.180Z",
+      "issueOpen": 3404,
+      "issueClosed": 42587,
+      "prOpen": 2116,
+      "prClosed": 68998,
+      "prMerged": 22547,
       "workflowRuns": 40000,
-      "stars": 385177,
-      "forks": 80969,
+      "stars": 385202,
+      "forks": 80972,
       "subscribers": 1761,
-      "commits": 76609,
-      "contributors": 3062,
+      "commits": 76622,
+      "contributors": 3064,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -393,124 +393,124 @@
     },
     {
       "capturedOn": "2026-08-05",
-      "stars": 385177,
-      "forks": 80969,
+      "stars": 385202,
+      "forks": 80972,
       "subscribers": 1761,
-      "commits": 76609,
-      "contributors": 3062
+      "commits": 76622,
+      "contributors": 3064
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 119242,
-        "title": "Control UI: add configurable currency for estimated cost display (USD/CNY)",
-        "url": "https://github.com/openclaw/openclaw/issues/119242",
+        "number": 119474,
+        "title": "[Bug]: `flushOnEnqueue` is unreachable, so newline-mode block streaming coalesces paragraphs into one message",
+        "url": "https://github.com/openclaw/openclaw/issues/119474",
         "state": "open",
-        "author": "Tangqiu25",
-        "updatedAt": "2026-08-05T06:40:12Z"
+        "author": "Jetemple",
+        "updatedAt": "2026-08-05T09:47:38Z"
       },
       {
         "kind": "issue",
-        "number": 9656,
-        "title": "Feature: Handle Signal message edits (editMessage envelope)",
-        "url": "https://github.com/openclaw/openclaw/issues/9656",
+        "number": 118642,
+        "title": "Codex catalog: modelSelectionLocked session resolves default agent model instead of native snapshot model",
+        "url": "https://github.com/openclaw/openclaw/issues/118642",
         "state": "open",
-        "author": "NOVA-Openclaw",
-        "updatedAt": "2026-08-05T06:39:26Z"
+        "author": "RothElektronik",
+        "updatedAt": "2026-08-05T09:47:43Z"
       },
       {
         "kind": "issue",
-        "number": 107902,
-        "title": "Benign per-turn/per-reconnect events logged at WARN drown gateway.log (no queued reply payloads, closed before connect 1001/1006)",
-        "url": "https://github.com/openclaw/openclaw/issues/107902",
+        "number": 119564,
+        "title": "[Feature]: Pre-send validation filter for day-of-week names in outgoing messages",
+        "url": "https://github.com/openclaw/openclaw/issues/119564",
         "state": "open",
-        "author": "chrislro",
-        "updatedAt": "2026-08-05T06:38:32Z"
+        "author": "MC2026atHub",
+        "updatedAt": "2026-08-05T09:47:42Z"
       },
       {
         "kind": "issue",
-        "number": 116477,
-        "title": "[Feature]: Heartbeat-based agent health monitoring + quarantine",
-        "url": "https://github.com/openclaw/openclaw/issues/116477",
+        "number": 119534,
+        "title": "Bundled skills reference their own support files skill-relative, so `read` cannot open them (release-openclaw-maintainer, release-openclaw-ci)",
+        "url": "https://github.com/openclaw/openclaw/issues/119534",
         "state": "open",
-        "author": "patelmm79",
-        "updatedAt": "2026-08-05T06:38:22Z"
+        "author": "hyuga611",
+        "updatedAt": "2026-08-05T09:47:32Z"
       },
       {
         "kind": "issue",
-        "number": 116268,
-        "title": "[Feature]: Add jitter to Worker reconnect backoff to prevent thundering herd on gateway restart",
-        "url": "https://github.com/openclaw/openclaw/issues/116268",
+        "number": 119112,
+        "title": "test(ui): config-safe-write E2E races route readiness before config.set",
+        "url": "https://github.com/openclaw/openclaw/issues/119112",
         "state": "open",
-        "author": "zw-xysk",
-        "updatedAt": "2026-08-05T06:38:22Z"
+        "author": "ZYV5ge",
+        "updatedAt": "2026-08-05T09:47:28Z"
       },
       {
         "kind": "issue",
-        "number": 116474,
-        "title": "[Feature]: Loop guard — agent responses don't trigger another agent dispatch by default",
-        "url": "https://github.com/openclaw/openclaw/issues/116474",
+        "number": 119317,
+        "title": "Legacy ackReaction migration is guarded per destination key, so a partly-set destination silently drops the scope half and still reports a clean move",
+        "url": "https://github.com/openclaw/openclaw/issues/119317",
         "state": "open",
-        "author": "patelmm79",
-        "updatedAt": "2026-08-05T06:38:18Z"
+        "author": "abacha",
+        "updatedAt": "2026-08-05T09:47:11Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 119505,
-        "title": "fix(agents): preserve inherited profile IDs in setAuthProfileOrder",
-        "url": "https://github.com/openclaw/openclaw/pull/119505",
+        "number": 119388,
+        "title": "fix(mcp-app): bound standalone host fetches with timeout",
+        "url": "https://github.com/openclaw/openclaw/pull/119388",
         "state": "open",
-        "author": "zw-xysk",
-        "updatedAt": "2026-08-05T06:40:17Z"
+        "author": "tzy-17",
+        "updatedAt": "2026-08-05T09:47:12Z"
       },
       {
         "kind": "pr",
-        "number": 119501,
-        "title": "fix(doctor): report kept messages ack keys instead of claiming a clean WhatsApp ackReaction move",
-        "url": "https://github.com/openclaw/openclaw/pull/119501",
-        "state": "open",
-        "author": "harjothkhara",
-        "updatedAt": "2026-08-05T06:40:15Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119503,
-        "title": "fix(telegram): reject empty sendMessage content before it reaches the API",
-        "url": "https://github.com/openclaw/openclaw/pull/119503",
-        "state": "open",
-        "author": "wanyongstar",
-        "updatedAt": "2026-08-05T06:40:09Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119277,
-        "title": "fix: honor selected agent context caps in embedded runs",
-        "url": "https://github.com/openclaw/openclaw/pull/119277",
-        "state": "open",
-        "author": "wenrizc",
-        "updatedAt": "2026-08-05T06:40:01Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119485,
-        "title": "fix(plugins): isolate manifests with structurally invalid configSchema",
-        "url": "https://github.com/openclaw/openclaw/pull/119485",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-05T06:40:00Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119519,
-        "title": "fix(qa): keep profile runs aligned with scenario contracts",
-        "url": "https://github.com/openclaw/openclaw/pull/119519",
+        "number": 119482,
+        "title": "improve(doctor): avoid repeated plugin metadata scans",
+        "url": "https://github.com/openclaw/openclaw/pull/119482",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-05T06:39:42Z"
+        "updatedAt": "2026-08-05T09:47:00Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119509,
+        "title": "fix(sessions): decode Windows legacy-codepage exec output",
+        "url": "https://github.com/openclaw/openclaw/pull/119509",
+        "state": "open",
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-08-05T09:46:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119488,
+        "title": "fix(agents): strip echoed base64 image payloads so photo-heavy turns no longer hit the per-turn output cap",
+        "url": "https://github.com/openclaw/openclaw/pull/119488",
+        "state": "open",
+        "author": "ml12580",
+        "updatedAt": "2026-08-05T09:46:49Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119221,
+        "title": "fix(sessions): reject a transcript turn when the session id rotates mid-append (#119220)",
+        "url": "https://github.com/openclaw/openclaw/pull/119221",
+        "state": "open",
+        "author": "ruel225",
+        "updatedAt": "2026-08-05T09:46:48Z"
+      },
+      {
+        "kind": "pr",
+        "number": 96721,
+        "title": "fix(moonshot): kimi search 401 with china-region api keys",
+        "url": "https://github.com/openclaw/openclaw/pull/96721",
+        "state": "closed",
+        "author": "yangxiansheng",
+        "updatedAt": "2026-08-05T09:46:47Z"
       }
     ]
   }

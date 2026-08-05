@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-05T12:14:52.586Z",
+  "generatedAt": "2026-08-05T14:33:42.152Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -326,17 +326,17 @@
     },
     {
       "capturedOn": "2026-08-05",
-      "capturedAt": "2026-08-05T12:14:52.586Z",
-      "issueOpen": 3404,
-      "issueClosed": 42599,
-      "prOpen": 2119,
-      "prClosed": 69012,
-      "prMerged": 22554,
+      "capturedAt": "2026-08-05T14:33:42.152Z",
+      "issueOpen": 3400,
+      "issueClosed": 42612,
+      "prOpen": 2132,
+      "prClosed": 69041,
+      "prMerged": 22576,
       "workflowRuns": 40000,
-      "stars": 385212,
-      "forks": 80973,
+      "stars": 385229,
+      "forks": 80976,
       "subscribers": 1761,
-      "commits": 76629,
+      "commits": 76651,
       "contributors": 3064,
       "source": "github-actions",
       "approximateDate": false
@@ -393,10 +393,10 @@
     },
     {
       "capturedOn": "2026-08-05",
-      "stars": 385212,
-      "forks": 80973,
+      "stars": 385229,
+      "forks": 80976,
       "subscribers": 1761,
-      "commits": 76629,
+      "commits": 76651,
       "contributors": 3064
     }
   ],
@@ -404,113 +404,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 118846,
-        "title": "Gateway main thread saturated from boot by plugin-metadata snapshot + fs statting; starves the accept loop (local RPC dies at ws_upgrade with 1006)",
-        "url": "https://github.com/openclaw/openclaw/issues/118846",
+        "number": 90840,
+        "title": "[Bug]: Subagent run completion is delivered to chat user as raw worker output instead of parent/main summary",
+        "url": "https://github.com/openclaw/openclaw/issues/90840",
         "state": "open",
-        "author": "islandpreneur007",
-        "updatedAt": "2026-08-05T12:14:39Z"
+        "author": "longjie521",
+        "updatedAt": "2026-08-05T14:32:17Z"
       },
       {
         "kind": "issue",
-        "number": 119581,
-        "title": "[Bug]: source build selects a non-renderer root-help bundle, then times out",
-        "url": "https://github.com/openclaw/openclaw/issues/119581",
+        "number": 117445,
+        "title": "[Bug] @openclaw/feishu decodes inbound DM as \"?\" and never replies (undefined.catch on ingress spool, replies=0)",
+        "url": "https://github.com/openclaw/openclaw/issues/117445",
         "state": "open",
-        "author": "Sedrak-Hovhannisyan",
-        "updatedAt": "2026-08-05T12:14:36Z"
+        "author": "Leorand-dev",
+        "updatedAt": "2026-08-05T14:32:16Z"
       },
       {
         "kind": "issue",
-        "number": 119554,
-        "title": "[Bug]: chat clients lose the tail of streamed assistant text when a run ends in error",
-        "url": "https://github.com/openclaw/openclaw/issues/119554",
+        "number": 70905,
+        "title": "[Feature]: Expose agent id in ChannelOutboundContext",
+        "url": "https://github.com/openclaw/openclaw/issues/70905",
         "state": "open",
-        "author": "xyrolle",
-        "updatedAt": "2026-08-05T12:14:33Z"
+        "author": "enzobjmendonca",
+        "updatedAt": "2026-08-05T14:30:29Z"
       },
       {
         "kind": "issue",
-        "number": 119490,
-        "title": "channels: a channel account ingress queue stops draining permanently once its pending backlog exceeds 32,763 events on Node 22 and 24",
-        "url": "https://github.com/openclaw/openclaw/issues/119490",
+        "number": 119648,
+        "title": "doctor: misidentifies stopped agent's service as another running agent's, recommends restarting wrong service",
+        "url": "https://github.com/openclaw/openclaw/issues/119648",
         "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-08-05T12:14:32Z"
+        "author": "JordanNewell",
+        "updatedAt": "2026-08-05T14:29:56Z"
       },
       {
         "kind": "issue",
-        "number": 117742,
-        "title": "agents: failed multi-file apply_patch leaves earlier deletions committed",
-        "url": "https://github.com/openclaw/openclaw/issues/117742",
+        "number": 72021,
+        "title": "Short-term promotion: signalCount mixes daily/session signals with real recalls",
+        "url": "https://github.com/openclaw/openclaw/issues/72021",
         "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-08-05T12:14:32Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119551,
-        "title": "ACP agent configured model not passed to runtime — falls back to ANTHROPIC_MODEL env var",
-        "url": "https://github.com/openclaw/openclaw/issues/119551",
-        "state": "open",
-        "author": "Enominera",
-        "updatedAt": "2026-08-05T12:14:31Z"
+        "author": "CSZ-w",
+        "updatedAt": "2026-08-05T14:28:56Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 119540,
-        "title": "fix: preserve CRLF for new Windows batch files",
-        "url": "https://github.com/openclaw/openclaw/pull/119540",
-        "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-08-05T12:14:49Z"
-      },
-      {
-        "kind": "pr",
-        "number": 87111,
-        "title": "fix(webchat): paginate tool-heavy chat history",
-        "url": "https://github.com/openclaw/openclaw/pull/87111",
-        "state": "open",
-        "author": "BunsDev",
-        "updatedAt": "2026-08-05T12:14:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119594,
-        "title": "fix: steering reaches active runs across agent harnesses",
-        "url": "https://github.com/openclaw/openclaw/pull/119594",
-        "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-08-05T12:14:35Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119593,
-        "title": "fix(venice): tool calls continue after Gemini responses",
-        "url": "https://github.com/openclaw/openclaw/pull/119593",
-        "state": "open",
-        "author": "wenyonglim",
-        "updatedAt": "2026-08-05T12:14:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119572,
-        "title": "fix(ci): preserve QA profile evidence on timeout",
-        "url": "https://github.com/openclaw/openclaw/pull/119572",
+        "number": 119238,
+        "title": "fix(llama-cpp): release model memory on plugin stop",
+        "url": "https://github.com/openclaw/openclaw/pull/119238",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-05T12:14:31Z"
+        "updatedAt": "2026-08-05T14:32:15Z"
       },
       {
         "kind": "pr",
-        "number": 119277,
-        "title": "fix: honor selected agent context caps in embedded runs",
-        "url": "https://github.com/openclaw/openclaw/pull/119277",
+        "number": 115447,
+        "title": "fix(state): fail closed on newer schema in doctor repair",
+        "url": "https://github.com/openclaw/openclaw/pull/115447",
         "state": "open",
-        "author": "wenrizc",
-        "updatedAt": "2026-08-05T12:14:31Z"
+        "author": "ericcaiwx-star",
+        "updatedAt": "2026-08-05T14:31:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119638,
+        "title": "refactor(outbound): unify conversation binding ownership",
+        "url": "https://github.com/openclaw/openclaw/pull/119638",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-05T14:30:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118067,
+        "title": "feat(discord): support private provider endpoints",
+        "url": "https://github.com/openclaw/openclaw/pull/118067",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-05T14:30:28Z"
+      },
+      {
+        "kind": "pr",
+        "number": 104159,
+        "title": "feat(agents): add scoped command prompt projection",
+        "url": "https://github.com/openclaw/openclaw/pull/104159",
+        "state": "open",
+        "author": "giodl73-repo",
+        "updatedAt": "2026-08-05T14:30:24Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112292,
+        "title": "fix(telegram): validate Mini App dashboard launches",
+        "url": "https://github.com/openclaw/openclaw/pull/112292",
+        "state": "open",
+        "author": "BunsDev",
+        "updatedAt": "2026-08-05T14:30:23Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-04T22:21:08.290Z",
+  "generatedAt": "2026-08-05T00:14:03.148Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -323,6 +323,23 @@
       "contributors": 3058,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-05",
+      "capturedAt": "2026-08-05T00:14:03.148Z",
+      "issueOpen": 3398,
+      "issueClosed": 42544,
+      "prOpen": 2116,
+      "prClosed": 68863,
+      "prMerged": 22456,
+      "workflowRuns": 40000,
+      "stars": 385135,
+      "forks": 80953,
+      "subscribers": 1760,
+      "commits": 76532,
+      "contributors": 3059,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -373,119 +390,127 @@
       "subscribers": 1760,
       "commits": 76527,
       "contributors": 3058
+    },
+    {
+      "capturedOn": "2026-08-05",
+      "stars": 385135,
+      "forks": 80953,
+      "subscribers": 1760,
+      "commits": 76532,
+      "contributors": 3059
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 115914,
-        "title": "[Bug]: Accepted WhatsApp turns can remain silent with no bounded liveness fallback",
-        "url": "https://github.com/openclaw/openclaw/issues/115914",
+        "number": 119375,
+        "title": "[Bug]: Gateway post-ready context cache warming can starve event loop",
+        "url": "https://github.com/openclaw/openclaw/issues/119375",
         "state": "open",
-        "author": "Jackten",
-        "updatedAt": "2026-08-04T22:21:02Z"
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-08-05T00:13:53Z"
       },
       {
         "kind": "issue",
-        "number": 112075,
-        "title": "[Feature]: Add a safe Cursor onboarding inference route",
-        "url": "https://github.com/openclaw/openclaw/issues/112075",
+        "number": 116569,
+        "title": "macOS gateway plist hardcodes StandardErrorPath=/dev/null and regenerates on restart, silently reverting edits",
+        "url": "https://github.com/openclaw/openclaw/issues/116569",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-04T22:21:01Z"
+        "author": "mattmiesnieks",
+        "updatedAt": "2026-08-05T00:13:52Z"
       },
       {
         "kind": "issue",
-        "number": 116905,
-        "title": "WhatsApp channel corrupts non-ASCII characters (em-dash becomes U+FFFD) in outgoing assistant replies",
-        "url": "https://github.com/openclaw/openclaw/issues/116905",
+        "number": 79117,
+        "title": "Config UX: silent deprecation + CLI breakage on invalid config + protected path blocking",
+        "url": "https://github.com/openclaw/openclaw/issues/79117",
         "state": "open",
-        "author": "jasonlittle573-lang",
-        "updatedAt": "2026-08-04T22:21:00Z"
+        "author": "boehartman",
+        "updatedAt": "2026-08-05T00:13:58Z"
       },
       {
         "kind": "issue",
-        "number": 119360,
-        "title": "[Bug]: Transient restart-required config write still restarts after revert to identical config",
-        "url": "https://github.com/openclaw/openclaw/issues/119360",
+        "number": 116783,
+        "title": "Make remote validation fast and workload-aware across Blacksmith and Crabbox",
+        "url": "https://github.com/openclaw/openclaw/issues/116783",
         "state": "open",
-        "author": "ape-deft",
-        "updatedAt": "2026-08-04T22:20:59Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-05T00:13:46Z"
       },
       {
         "kind": "issue",
-        "number": 111807,
-        "title": "/think off doesn't disable thinking on claude-cli — inherits Claude Code's default effort (contradicts docs)",
-        "url": "https://github.com/openclaw/openclaw/issues/111807",
+        "number": 79520,
+        "title": "Outbound channel media uploads silently fail with bare `500: Internal Server Error` for files at `0o600` (write-side leak in sandbox FS bridge + read-side hides the actual reason)",
+        "url": "https://github.com/openclaw/openclaw/issues/79520",
         "state": "open",
-        "author": "Zeus-Deus",
-        "updatedAt": "2026-08-04T22:21:05Z"
+        "author": "ArnauvGilotra",
+        "updatedAt": "2026-08-05T00:13:26Z"
       },
       {
         "kind": "issue",
-        "number": 119070,
-        "title": "voice-call: RealtimeAudioPacer accumulates timer drift, causing Twilio underruns/choppy audio",
-        "url": "https://github.com/openclaw/openclaw/issues/119070",
+        "number": 119168,
+        "title": "[Bug]: durable-delivery treats adapter_returned_no_identity as not sent, unlike all sibling consumers",
+        "url": "https://github.com/openclaw/openclaw/issues/119168",
         "state": "open",
-        "author": "stelloxx",
-        "updatedAt": "2026-08-04T22:20:56Z"
+        "author": "ruel225",
+        "updatedAt": "2026-08-05T00:13:14Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 119150,
-        "title": "fix(qa): repair release validation scenarios",
-        "url": "https://github.com/openclaw/openclaw/pull/119150",
+        "number": 119277,
+        "title": "fix: honor selected agent context caps in embedded runs",
+        "url": "https://github.com/openclaw/openclaw/pull/119277",
+        "state": "open",
+        "author": "wenrizc",
+        "updatedAt": "2026-08-05T00:13:56Z"
+      },
+      {
+        "kind": "pr",
+        "number": 116795,
+        "title": "refactor(agents): bind tool policy to execution attribution",
+        "url": "https://github.com/openclaw/openclaw/pull/116795",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-04T22:21:03Z"
+        "updatedAt": "2026-08-05T00:13:55Z"
       },
       {
         "kind": "pr",
-        "number": 119023,
-        "title": "fix(slack): preserve channel context in bot-opened threads",
-        "url": "https://github.com/openclaw/openclaw/pull/119023",
+        "number": 85261,
+        "title": "fix(gateway): reject blank session history keys",
+        "url": "https://github.com/openclaw/openclaw/pull/85261",
         "state": "open",
-        "author": "scoootscooob",
-        "updatedAt": "2026-08-04T22:21:02Z"
+        "author": "cropsgg",
+        "updatedAt": "2026-08-05T00:14:01Z"
       },
       {
         "kind": "pr",
-        "number": 111706,
-        "title": "docs(plugin-sdk): catalog simple-completion-runtime as private-local subpath",
-        "url": "https://github.com/openclaw/openclaw/pull/111706",
+        "number": 117034,
+        "title": "feat(audit): add execution identity inspection",
+        "url": "https://github.com/openclaw/openclaw/pull/117034",
         "state": "open",
-        "author": "xydt-tanshanshan",
-        "updatedAt": "2026-08-04T22:21:01Z"
+        "author": "joshavant",
+        "updatedAt": "2026-08-05T00:13:42Z"
       },
       {
         "kind": "pr",
-        "number": 118216,
-        "title": "docs(discord): drop retired ui.components.accentColor and fix heartbeat key name",
-        "url": "https://github.com/openclaw/openclaw/pull/118216",
+        "number": 119356,
+        "title": "fix(irc): drop the never-read mentionPatterns config key",
+        "url": "https://github.com/openclaw/openclaw/pull/119356",
         "state": "open",
         "author": "ayaangazali",
-        "updatedAt": "2026-08-04T22:21:00Z"
+        "updatedAt": "2026-08-05T00:13:40Z"
       },
       {
         "kind": "pr",
-        "number": 118777,
-        "title": "fix(diagnostics): report stuck sessions on lanes that keep receiving messages",
-        "url": "https://github.com/openclaw/openclaw/pull/118777",
+        "number": 81818,
+        "title": "fix(skills): bound installer downloads",
+        "url": "https://github.com/openclaw/openclaw/pull/81818",
         "state": "open",
-        "author": "masatohoshino",
-        "updatedAt": "2026-08-04T22:20:58Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110694,
-        "title": "test(shared): add unit tests for safe-record defensive guards",
-        "url": "https://github.com/openclaw/openclaw/pull/110694",
-        "state": "open",
-        "author": "dwc1997",
-        "updatedAt": "2026-08-04T22:21:04Z"
+        "author": "afurm",
+        "updatedAt": "2026-08-05T00:13:35Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-05T03:32:06.857Z",
+  "generatedAt": "2026-08-05T06:40:25.470Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -326,18 +326,18 @@
     },
     {
       "capturedOn": "2026-08-05",
-      "capturedAt": "2026-08-05T03:32:06.857Z",
-      "issueOpen": 3404,
-      "issueClosed": 42558,
-      "prOpen": 2123,
-      "prClosed": 68913,
-      "prMerged": 22500,
+      "capturedAt": "2026-08-05T06:40:25.470Z",
+      "issueOpen": 3401,
+      "issueClosed": 42575,
+      "prOpen": 2108,
+      "prClosed": 68973,
+      "prMerged": 22534,
       "workflowRuns": 40000,
-      "stars": 385155,
-      "forks": 80962,
+      "stars": 385177,
+      "forks": 80969,
       "subscribers": 1761,
-      "commits": 76576,
-      "contributors": 3061,
+      "commits": 76609,
+      "contributors": 3062,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -393,88 +393,124 @@
     },
     {
       "capturedOn": "2026-08-05",
-      "stars": 385155,
-      "forks": 80962,
+      "stars": 385177,
+      "forks": 80969,
       "subscribers": 1761,
-      "commits": 76576,
-      "contributors": 3061
+      "commits": 76609,
+      "contributors": 3062
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 44289,
-        "title": "Generate secretref reference docs from secret target registry metadata",
-        "url": "https://github.com/openclaw/openclaw/issues/44289",
+        "number": 119242,
+        "title": "Control UI: add configurable currency for estimated cost display (USD/CNY)",
+        "url": "https://github.com/openclaw/openclaw/issues/119242",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-05T03:30:49Z"
+        "author": "Tangqiu25",
+        "updatedAt": "2026-08-05T06:40:12Z"
       },
       {
         "kind": "issue",
-        "number": 119455,
-        "title": "[Bug]: cron tool add: blank-field assert runs before normalization and impossible triggers are forwarded — schema-eager models can never create a reminder",
-        "url": "https://github.com/openclaw/openclaw/issues/119455",
+        "number": 9656,
+        "title": "Feature: Handle Signal message edits (editMessage envelope)",
+        "url": "https://github.com/openclaw/openclaw/issues/9656",
         "state": "open",
-        "author": "TobyQu",
-        "updatedAt": "2026-08-05T03:29:50Z"
+        "author": "NOVA-Openclaw",
+        "updatedAt": "2026-08-05T06:39:26Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107902,
+        "title": "Benign per-turn/per-reconnect events logged at WARN drown gateway.log (no queued reply payloads, closed before connect 1001/1006)",
+        "url": "https://github.com/openclaw/openclaw/issues/107902",
+        "state": "open",
+        "author": "chrislro",
+        "updatedAt": "2026-08-05T06:38:32Z"
+      },
+      {
+        "kind": "issue",
+        "number": 116477,
+        "title": "[Feature]: Heartbeat-based agent health monitoring + quarantine",
+        "url": "https://github.com/openclaw/openclaw/issues/116477",
+        "state": "open",
+        "author": "patelmm79",
+        "updatedAt": "2026-08-05T06:38:22Z"
+      },
+      {
+        "kind": "issue",
+        "number": 116268,
+        "title": "[Feature]: Add jitter to Worker reconnect backoff to prevent thundering herd on gateway restart",
+        "url": "https://github.com/openclaw/openclaw/issues/116268",
+        "state": "open",
+        "author": "zw-xysk",
+        "updatedAt": "2026-08-05T06:38:22Z"
+      },
+      {
+        "kind": "issue",
+        "number": 116474,
+        "title": "[Feature]: Loop guard — agent responses don't trigger another agent dispatch by default",
+        "url": "https://github.com/openclaw/openclaw/issues/116474",
+        "state": "open",
+        "author": "patelmm79",
+        "updatedAt": "2026-08-05T06:38:18Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 119442,
-        "title": "fix(qa): release failed transport leases and always stop owned labs",
-        "url": "https://github.com/openclaw/openclaw/pull/119442",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-05T03:31:36Z"
+        "number": 119505,
+        "title": "fix(agents): preserve inherited profile IDs in setAuthProfileOrder",
+        "url": "https://github.com/openclaw/openclaw/pull/119505",
+        "state": "open",
+        "author": "zw-xysk",
+        "updatedAt": "2026-08-05T06:40:17Z"
       },
       {
         "kind": "pr",
-        "number": 116404,
-        "title": "fix(auto-reply): continue after transient preflight compaction failures",
-        "url": "https://github.com/openclaw/openclaw/pull/116404",
+        "number": 119501,
+        "title": "fix(doctor): report kept messages ack keys instead of claiming a clean WhatsApp ackReaction move",
+        "url": "https://github.com/openclaw/openclaw/pull/119501",
         "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-08-05T03:31:30Z"
+        "author": "harjothkhara",
+        "updatedAt": "2026-08-05T06:40:15Z"
       },
       {
         "kind": "pr",
-        "number": 119268,
-        "title": "fix(telegram): reject webhookPath colliding with /healthz or missing leading slash",
-        "url": "https://github.com/openclaw/openclaw/pull/119268",
+        "number": 119503,
+        "title": "fix(telegram): reject empty sendMessage content before it reaches the API",
+        "url": "https://github.com/openclaw/openclaw/pull/119503",
         "state": "open",
-        "author": "xialonglee",
-        "updatedAt": "2026-08-05T03:31:02Z"
+        "author": "wanyongstar",
+        "updatedAt": "2026-08-05T06:40:09Z"
       },
       {
         "kind": "pr",
-        "number": 119378,
-        "title": "fix(qa): follow durable finals after streamed previews",
-        "url": "https://github.com/openclaw/openclaw/pull/119378",
+        "number": 119277,
+        "title": "fix: honor selected agent context caps in embedded runs",
+        "url": "https://github.com/openclaw/openclaw/pull/119277",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-05T03:30:54Z"
+        "author": "wenrizc",
+        "updatedAt": "2026-08-05T06:40:01Z"
       },
       {
         "kind": "pr",
-        "number": 119331,
-        "title": "fix: auto-reply gateway stalls in a zero-work drain loop after a queue drop policy change",
-        "url": "https://github.com/openclaw/openclaw/pull/119331",
+        "number": 119485,
+        "title": "fix(plugins): isolate manifests with structurally invalid configSchema",
+        "url": "https://github.com/openclaw/openclaw/pull/119485",
         "state": "open",
-        "author": "ml12580",
-        "updatedAt": "2026-08-05T03:30:50Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-08-05T06:40:00Z"
       },
       {
         "kind": "pr",
-        "number": 118717,
-        "title": "fix(agents): apply per-agent context caps to embedded runs",
-        "url": "https://github.com/openclaw/openclaw/pull/118717",
+        "number": 119519,
+        "title": "fix(qa): keep profile runs aligned with scenario contracts",
+        "url": "https://github.com/openclaw/openclaw/pull/119519",
         "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-08-05T03:30:47Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-05T06:39:42Z"
       }
     ]
   }

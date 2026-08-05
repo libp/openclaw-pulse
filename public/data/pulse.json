@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-05T00:14:03.148Z",
+  "generatedAt": "2026-08-05T03:32:06.857Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -326,18 +326,18 @@
     },
     {
       "capturedOn": "2026-08-05",
-      "capturedAt": "2026-08-05T00:14:03.148Z",
-      "issueOpen": 3398,
-      "issueClosed": 42544,
-      "prOpen": 2116,
-      "prClosed": 68863,
-      "prMerged": 22456,
+      "capturedAt": "2026-08-05T03:32:06.857Z",
+      "issueOpen": 3404,
+      "issueClosed": 42558,
+      "prOpen": 2123,
+      "prClosed": 68913,
+      "prMerged": 22500,
       "workflowRuns": 40000,
-      "stars": 385135,
-      "forks": 80953,
-      "subscribers": 1760,
-      "commits": 76532,
-      "contributors": 3059,
+      "stars": 385155,
+      "forks": 80962,
+      "subscribers": 1761,
+      "commits": 76576,
+      "contributors": 3061,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -393,124 +393,88 @@
     },
     {
       "capturedOn": "2026-08-05",
-      "stars": 385135,
-      "forks": 80953,
-      "subscribers": 1760,
-      "commits": 76532,
-      "contributors": 3059
+      "stars": 385155,
+      "forks": 80962,
+      "subscribers": 1761,
+      "commits": 76576,
+      "contributors": 3061
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 119375,
-        "title": "[Bug]: Gateway post-ready context cache warming can starve event loop",
-        "url": "https://github.com/openclaw/openclaw/issues/119375",
+        "number": 44289,
+        "title": "Generate secretref reference docs from secret target registry metadata",
+        "url": "https://github.com/openclaw/openclaw/issues/44289",
         "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-08-05T00:13:53Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-08-05T03:30:49Z"
       },
       {
         "kind": "issue",
-        "number": 116569,
-        "title": "macOS gateway plist hardcodes StandardErrorPath=/dev/null and regenerates on restart, silently reverting edits",
-        "url": "https://github.com/openclaw/openclaw/issues/116569",
+        "number": 119455,
+        "title": "[Bug]: cron tool add: blank-field assert runs before normalization and impossible triggers are forwarded — schema-eager models can never create a reminder",
+        "url": "https://github.com/openclaw/openclaw/issues/119455",
         "state": "open",
-        "author": "mattmiesnieks",
-        "updatedAt": "2026-08-05T00:13:52Z"
-      },
-      {
-        "kind": "issue",
-        "number": 79117,
-        "title": "Config UX: silent deprecation + CLI breakage on invalid config + protected path blocking",
-        "url": "https://github.com/openclaw/openclaw/issues/79117",
-        "state": "open",
-        "author": "boehartman",
-        "updatedAt": "2026-08-05T00:13:58Z"
-      },
-      {
-        "kind": "issue",
-        "number": 116783,
-        "title": "Make remote validation fast and workload-aware across Blacksmith and Crabbox",
-        "url": "https://github.com/openclaw/openclaw/issues/116783",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-05T00:13:46Z"
-      },
-      {
-        "kind": "issue",
-        "number": 79520,
-        "title": "Outbound channel media uploads silently fail with bare `500: Internal Server Error` for files at `0o600` (write-side leak in sandbox FS bridge + read-side hides the actual reason)",
-        "url": "https://github.com/openclaw/openclaw/issues/79520",
-        "state": "open",
-        "author": "ArnauvGilotra",
-        "updatedAt": "2026-08-05T00:13:26Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119168,
-        "title": "[Bug]: durable-delivery treats adapter_returned_no_identity as not sent, unlike all sibling consumers",
-        "url": "https://github.com/openclaw/openclaw/issues/119168",
-        "state": "open",
-        "author": "ruel225",
-        "updatedAt": "2026-08-05T00:13:14Z"
+        "author": "TobyQu",
+        "updatedAt": "2026-08-05T03:29:50Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 119277,
-        "title": "fix: honor selected agent context caps in embedded runs",
-        "url": "https://github.com/openclaw/openclaw/pull/119277",
-        "state": "open",
-        "author": "wenrizc",
-        "updatedAt": "2026-08-05T00:13:56Z"
+        "number": 119442,
+        "title": "fix(qa): release failed transport leases and always stop owned labs",
+        "url": "https://github.com/openclaw/openclaw/pull/119442",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-05T03:31:36Z"
       },
       {
         "kind": "pr",
-        "number": 116795,
-        "title": "refactor(agents): bind tool policy to execution attribution",
-        "url": "https://github.com/openclaw/openclaw/pull/116795",
+        "number": 116404,
+        "title": "fix(auto-reply): continue after transient preflight compaction failures",
+        "url": "https://github.com/openclaw/openclaw/pull/116404",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-05T00:13:55Z"
+        "author": "qingminglong",
+        "updatedAt": "2026-08-05T03:31:30Z"
       },
       {
         "kind": "pr",
-        "number": 85261,
-        "title": "fix(gateway): reject blank session history keys",
-        "url": "https://github.com/openclaw/openclaw/pull/85261",
+        "number": 119268,
+        "title": "fix(telegram): reject webhookPath colliding with /healthz or missing leading slash",
+        "url": "https://github.com/openclaw/openclaw/pull/119268",
         "state": "open",
-        "author": "cropsgg",
-        "updatedAt": "2026-08-05T00:14:01Z"
+        "author": "xialonglee",
+        "updatedAt": "2026-08-05T03:31:02Z"
       },
       {
         "kind": "pr",
-        "number": 117034,
-        "title": "feat(audit): add execution identity inspection",
-        "url": "https://github.com/openclaw/openclaw/pull/117034",
+        "number": 119378,
+        "title": "fix(qa): follow durable finals after streamed previews",
+        "url": "https://github.com/openclaw/openclaw/pull/119378",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-08-05T00:13:42Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-05T03:30:54Z"
       },
       {
         "kind": "pr",
-        "number": 119356,
-        "title": "fix(irc): drop the never-read mentionPatterns config key",
-        "url": "https://github.com/openclaw/openclaw/pull/119356",
+        "number": 119331,
+        "title": "fix: auto-reply gateway stalls in a zero-work drain loop after a queue drop policy change",
+        "url": "https://github.com/openclaw/openclaw/pull/119331",
         "state": "open",
-        "author": "ayaangazali",
-        "updatedAt": "2026-08-05T00:13:40Z"
+        "author": "ml12580",
+        "updatedAt": "2026-08-05T03:30:50Z"
       },
       {
         "kind": "pr",
-        "number": 81818,
-        "title": "fix(skills): bound installer downloads",
-        "url": "https://github.com/openclaw/openclaw/pull/81818",
+        "number": 118717,
+        "title": "fix(agents): apply per-agent context caps to embedded runs",
+        "url": "https://github.com/openclaw/openclaw/pull/118717",
         "state": "open",
-        "author": "afurm",
-        "updatedAt": "2026-08-05T00:13:35Z"
+        "author": "qingminglong",
+        "updatedAt": "2026-08-05T03:30:47Z"
       }
     ]
   }

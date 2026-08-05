@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-05T09:47:48.180Z",
+  "generatedAt": "2026-08-05T12:14:52.586Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -326,17 +326,17 @@
     },
     {
       "capturedOn": "2026-08-05",
-      "capturedAt": "2026-08-05T09:47:48.180Z",
+      "capturedAt": "2026-08-05T12:14:52.586Z",
       "issueOpen": 3404,
-      "issueClosed": 42587,
-      "prOpen": 2116,
-      "prClosed": 68998,
-      "prMerged": 22547,
+      "issueClosed": 42599,
+      "prOpen": 2119,
+      "prClosed": 69012,
+      "prMerged": 22554,
       "workflowRuns": 40000,
-      "stars": 385202,
-      "forks": 80972,
+      "stars": 385212,
+      "forks": 80973,
       "subscribers": 1761,
-      "commits": 76622,
+      "commits": 76629,
       "contributors": 3064,
       "source": "github-actions",
       "approximateDate": false
@@ -393,10 +393,10 @@
     },
     {
       "capturedOn": "2026-08-05",
-      "stars": 385202,
-      "forks": 80972,
+      "stars": 385212,
+      "forks": 80973,
       "subscribers": 1761,
-      "commits": 76622,
+      "commits": 76629,
       "contributors": 3064
     }
   ],
@@ -404,113 +404,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 119474,
-        "title": "[Bug]: `flushOnEnqueue` is unreachable, so newline-mode block streaming coalesces paragraphs into one message",
-        "url": "https://github.com/openclaw/openclaw/issues/119474",
+        "number": 118846,
+        "title": "Gateway main thread saturated from boot by plugin-metadata snapshot + fs statting; starves the accept loop (local RPC dies at ws_upgrade with 1006)",
+        "url": "https://github.com/openclaw/openclaw/issues/118846",
         "state": "open",
-        "author": "Jetemple",
-        "updatedAt": "2026-08-05T09:47:38Z"
+        "author": "islandpreneur007",
+        "updatedAt": "2026-08-05T12:14:39Z"
       },
       {
         "kind": "issue",
-        "number": 118642,
-        "title": "Codex catalog: modelSelectionLocked session resolves default agent model instead of native snapshot model",
-        "url": "https://github.com/openclaw/openclaw/issues/118642",
+        "number": 119581,
+        "title": "[Bug]: source build selects a non-renderer root-help bundle, then times out",
+        "url": "https://github.com/openclaw/openclaw/issues/119581",
         "state": "open",
-        "author": "RothElektronik",
-        "updatedAt": "2026-08-05T09:47:43Z"
+        "author": "Sedrak-Hovhannisyan",
+        "updatedAt": "2026-08-05T12:14:36Z"
       },
       {
         "kind": "issue",
-        "number": 119564,
-        "title": "[Feature]: Pre-send validation filter for day-of-week names in outgoing messages",
-        "url": "https://github.com/openclaw/openclaw/issues/119564",
+        "number": 119554,
+        "title": "[Bug]: chat clients lose the tail of streamed assistant text when a run ends in error",
+        "url": "https://github.com/openclaw/openclaw/issues/119554",
         "state": "open",
-        "author": "MC2026atHub",
-        "updatedAt": "2026-08-05T09:47:42Z"
+        "author": "xyrolle",
+        "updatedAt": "2026-08-05T12:14:33Z"
       },
       {
         "kind": "issue",
-        "number": 119534,
-        "title": "Bundled skills reference their own support files skill-relative, so `read` cannot open them (release-openclaw-maintainer, release-openclaw-ci)",
-        "url": "https://github.com/openclaw/openclaw/issues/119534",
+        "number": 119490,
+        "title": "channels: a channel account ingress queue stops draining permanently once its pending backlog exceeds 32,763 events on Node 22 and 24",
+        "url": "https://github.com/openclaw/openclaw/issues/119490",
         "state": "open",
-        "author": "hyuga611",
-        "updatedAt": "2026-08-05T09:47:32Z"
+        "author": "yetval",
+        "updatedAt": "2026-08-05T12:14:32Z"
       },
       {
         "kind": "issue",
-        "number": 119112,
-        "title": "test(ui): config-safe-write E2E races route readiness before config.set",
-        "url": "https://github.com/openclaw/openclaw/issues/119112",
+        "number": 117742,
+        "title": "agents: failed multi-file apply_patch leaves earlier deletions committed",
+        "url": "https://github.com/openclaw/openclaw/issues/117742",
         "state": "open",
-        "author": "ZYV5ge",
-        "updatedAt": "2026-08-05T09:47:28Z"
+        "author": "yetval",
+        "updatedAt": "2026-08-05T12:14:32Z"
       },
       {
         "kind": "issue",
-        "number": 119317,
-        "title": "Legacy ackReaction migration is guarded per destination key, so a partly-set destination silently drops the scope half and still reports a clean move",
-        "url": "https://github.com/openclaw/openclaw/issues/119317",
+        "number": 119551,
+        "title": "ACP agent configured model not passed to runtime — falls back to ANTHROPIC_MODEL env var",
+        "url": "https://github.com/openclaw/openclaw/issues/119551",
         "state": "open",
-        "author": "abacha",
-        "updatedAt": "2026-08-05T09:47:11Z"
+        "author": "Enominera",
+        "updatedAt": "2026-08-05T12:14:31Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 119388,
-        "title": "fix(mcp-app): bound standalone host fetches with timeout",
-        "url": "https://github.com/openclaw/openclaw/pull/119388",
+        "number": 119540,
+        "title": "fix: preserve CRLF for new Windows batch files",
+        "url": "https://github.com/openclaw/openclaw/pull/119540",
         "state": "open",
-        "author": "tzy-17",
-        "updatedAt": "2026-08-05T09:47:12Z"
+        "author": "qingminglong",
+        "updatedAt": "2026-08-05T12:14:49Z"
       },
       {
         "kind": "pr",
-        "number": 119482,
-        "title": "improve(doctor): avoid repeated plugin metadata scans",
-        "url": "https://github.com/openclaw/openclaw/pull/119482",
+        "number": 87111,
+        "title": "fix(webchat): paginate tool-heavy chat history",
+        "url": "https://github.com/openclaw/openclaw/pull/87111",
+        "state": "open",
+        "author": "BunsDev",
+        "updatedAt": "2026-08-05T12:14:37Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119594,
+        "title": "fix: steering reaches active runs across agent harnesses",
+        "url": "https://github.com/openclaw/openclaw/pull/119594",
+        "state": "open",
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-08-05T12:14:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119593,
+        "title": "fix(venice): tool calls continue after Gemini responses",
+        "url": "https://github.com/openclaw/openclaw/pull/119593",
+        "state": "open",
+        "author": "wenyonglim",
+        "updatedAt": "2026-08-05T12:14:32Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119572,
+        "title": "fix(ci): preserve QA profile evidence on timeout",
+        "url": "https://github.com/openclaw/openclaw/pull/119572",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-05T09:47:00Z"
+        "updatedAt": "2026-08-05T12:14:31Z"
       },
       {
         "kind": "pr",
-        "number": 119509,
-        "title": "fix(sessions): decode Windows legacy-codepage exec output",
-        "url": "https://github.com/openclaw/openclaw/pull/119509",
+        "number": 119277,
+        "title": "fix: honor selected agent context caps in embedded runs",
+        "url": "https://github.com/openclaw/openclaw/pull/119277",
         "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-05T09:46:59Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119488,
-        "title": "fix(agents): strip echoed base64 image payloads so photo-heavy turns no longer hit the per-turn output cap",
-        "url": "https://github.com/openclaw/openclaw/pull/119488",
-        "state": "open",
-        "author": "ml12580",
-        "updatedAt": "2026-08-05T09:46:49Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119221,
-        "title": "fix(sessions): reject a transcript turn when the session id rotates mid-append (#119220)",
-        "url": "https://github.com/openclaw/openclaw/pull/119221",
-        "state": "open",
-        "author": "ruel225",
-        "updatedAt": "2026-08-05T09:46:48Z"
-      },
-      {
-        "kind": "pr",
-        "number": 96721,
-        "title": "fix(moonshot): kimi search 401 with china-region api keys",
-        "url": "https://github.com/openclaw/openclaw/pull/96721",
-        "state": "closed",
-        "author": "yangxiansheng",
-        "updatedAt": "2026-08-05T09:46:47Z"
+        "author": "wenrizc",
+        "updatedAt": "2026-08-05T12:14:31Z"
       }
     ]
   }

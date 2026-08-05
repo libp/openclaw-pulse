@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-05T18:48:26.763Z",
+  "generatedAt": "2026-08-05T20:38:42.446Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -326,17 +326,17 @@
     },
     {
       "capturedOn": "2026-08-05",
-      "capturedAt": "2026-08-05T18:48:26.763Z",
+      "capturedAt": "2026-08-05T20:38:42.446Z",
       "issueOpen": 3396,
-      "issueClosed": 42632,
-      "prOpen": 2116,
-      "prClosed": 69105,
-      "prMerged": 22629,
+      "issueClosed": 42640,
+      "prOpen": 2119,
+      "prClosed": 69113,
+      "prMerged": 22634,
       "workflowRuns": 40000,
-      "stars": 385254,
-      "forks": 80979,
-      "subscribers": 1761,
-      "commits": 76737,
+      "stars": 385255,
+      "forks": 80984,
+      "subscribers": 1760,
+      "commits": 76742,
       "contributors": 3065,
       "source": "github-actions",
       "approximateDate": false
@@ -393,10 +393,10 @@
     },
     {
       "capturedOn": "2026-08-05",
-      "stars": 385254,
-      "forks": 80979,
-      "subscribers": 1761,
-      "commits": 76737,
+      "stars": 385255,
+      "forks": 80984,
+      "subscribers": 1760,
+      "commits": 76742,
       "contributors": 3065
     }
   ],
@@ -404,68 +404,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 119692,
-        "title": "fix(usage): OpenAI-compatible streaming path drops token usage for MiniMax-M3 (transcript written as all-zero)",
-        "url": "https://github.com/openclaw/openclaw/issues/119692",
+        "number": 119338,
+        "title": "[Bug]: [codex] avoid injecting Codex recommended_plugins into OpenClaw prompts",
+        "url": "https://github.com/openclaw/openclaw/issues/119338",
         "state": "open",
-        "author": "Aris-qin",
-        "updatedAt": "2026-08-05T18:48:04Z"
+        "author": "bek91",
+        "updatedAt": "2026-08-05T20:38:24Z"
       },
       {
         "kind": "issue",
-        "number": 119711,
-        "title": "[Bug]: Intermittently degraded primary is retried across turns despite cooldown state",
-        "url": "https://github.com/openclaw/openclaw/issues/119711",
+        "number": 119282,
+        "title": "imsg rpc stderr still blanket-logged at ERROR — #79610 closed as completed but its fix PR #79760 never merged",
+        "url": "https://github.com/openclaw/openclaw/issues/119282",
         "state": "open",
-        "author": "rishitamrakar",
-        "updatedAt": "2026-08-05T18:46:52Z"
+        "author": "prashantkamani",
+        "updatedAt": "2026-08-05T20:38:10Z"
       },
       {
         "kind": "issue",
-        "number": 112423,
-        "title": "[Bug]: Large SQLite transcript cleanup blocks the gateway event loop",
-        "url": "https://github.com/openclaw/openclaw/issues/112423",
+        "number": 110219,
+        "title": "Android: Chat tab session selector bar needs a collapse/expand toggle",
+        "url": "https://github.com/openclaw/openclaw/issues/110219",
         "state": "open",
-        "author": "HermanZeng",
-        "updatedAt": "2026-08-05T18:46:38Z"
+        "author": "luzhidong",
+        "updatedAt": "2026-08-05T20:37:59Z"
       },
       {
         "kind": "issue",
-        "number": 119087,
-        "title": "[Bug]: Gateway cold start regressed ~2.5x from 2026.7.1-beta.1 to 2026.7.2-beta.7 on a 1-vCPU container",
-        "url": "https://github.com/openclaw/openclaw/issues/119087",
+        "number": 111510,
+        "title": "[Bug]: codex/* provider POSTs to legacy /backend-api/responses (403) at clean boot while sibling openai/* canonicalizes to /backend-api/codex/responses (200) — 2026.7.1",
+        "url": "https://github.com/openclaw/openclaw/issues/111510",
         "state": "open",
-        "author": "xyrolle",
-        "updatedAt": "2026-08-05T18:45:08Z"
+        "author": "cslade",
+        "updatedAt": "2026-08-05T20:37:51Z"
       },
       {
         "kind": "issue",
-        "number": 44134,
-        "title": "[Google Antigravity Ban] Frequent Tool Schema Reloading Causes False Positive Anti-Abuse Detection",
-        "url": "https://github.com/openclaw/openclaw/issues/44134",
+        "number": 119484,
+        "title": "[Bug]: LF-only line endings in .cmd scripts (as written by AI editors) cause CMD to randomly drop characters / break nested blocks 鈥?silent corruption",
+        "url": "https://github.com/openclaw/openclaw/issues/119484",
         "state": "open",
-        "author": "caimao9539",
-        "updatedAt": "2026-08-05T18:44:39Z"
+        "author": "saner-spec",
+        "updatedAt": "2026-08-05T20:37:25Z"
       },
       {
         "kind": "issue",
-        "number": 45082,
-        "title": "fix(mattermost): proactive message tool sends ignore thread context",
-        "url": "https://github.com/openclaw/openclaw/issues/45082",
+        "number": 101961,
+        "title": "Agent lane lacks first-class scoped node exec path and stale nodes can hang or fail roughly",
+        "url": "https://github.com/openclaw/openclaw/issues/101961",
         "state": "open",
-        "author": "teconomix",
-        "updatedAt": "2026-08-05T18:44:29Z"
+        "author": "Cuttingwater",
+        "updatedAt": "2026-08-05T20:37:11Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 119712,
-        "title": "fix(usage): preserve top-level cached tokens in completions streams",
-        "url": "https://github.com/openclaw/openclaw/pull/119712",
+        "number": 119256,
+        "title": "feat(whatsapp): add poll_vote_received hook",
+        "url": "https://github.com/openclaw/openclaw/pull/119256",
         "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-05T18:48:10Z"
+        "author": "pscoutosoares",
+        "updatedAt": "2026-08-05T20:38:37Z"
+      },
+      {
+        "kind": "pr",
+        "number": 115405,
+        "title": "fix(agents): apply the fallback delegation gate to CLI-backend runs",
+        "url": "https://github.com/openclaw/openclaw/pull/115405",
+        "state": "open",
+        "author": "MertBasar0",
+        "updatedAt": "2026-08-05T20:38:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113422,
+        "title": "feat: add standard hosting profiles",
+        "url": "https://github.com/openclaw/openclaw/pull/113422",
+        "state": "open",
+        "author": "giodl73-repo",
+        "updatedAt": "2026-08-05T20:38:29Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117488,
+        "title": "fix(doctor): reject conflicting maintenance operations before side effects",
+        "url": "https://github.com/openclaw/openclaw/pull/117488",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-05T20:38:23Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113421,
+        "title": "readiness: adopt core runtime conditions",
+        "url": "https://github.com/openclaw/openclaw/pull/113421",
+        "state": "open",
+        "author": "giodl73-repo",
+        "updatedAt": "2026-08-05T20:38:07Z"
       },
       {
         "kind": "pr",
@@ -474,43 +510,7 @@
         "url": "https://github.com/openclaw/openclaw/pull/119674",
         "state": "open",
         "author": "SebTardif",
-        "updatedAt": "2026-08-05T18:47:52Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119700,
-        "title": "fix(ci): avoid false Crabbox auth failures during readiness",
-        "url": "https://github.com/openclaw/openclaw/pull/119700",
-        "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-08-05T18:47:15Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119710,
-        "title": "fix(memory): keep gateway responsive after startup",
-        "url": "https://github.com/openclaw/openclaw/pull/119710",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-05T18:46:59Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119705,
-        "title": "fix(diagnostics): preserve telemetry during service shutdown",
-        "url": "https://github.com/openclaw/openclaw/pull/119705",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-05T18:46:54Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119666,
-        "title": "fix(memory): prevent remote errors from exposing credentials",
-        "url": "https://github.com/openclaw/openclaw/pull/119666",
-        "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-08-05T18:46:50Z"
+        "updatedAt": "2026-08-05T20:38:05Z"
       }
     ]
   }

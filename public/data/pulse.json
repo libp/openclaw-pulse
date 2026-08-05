@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-05T20:38:42.446Z",
+  "generatedAt": "2026-08-05T22:19:30.849Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -326,17 +326,17 @@
     },
     {
       "capturedOn": "2026-08-05",
-      "capturedAt": "2026-08-05T20:38:42.446Z",
-      "issueOpen": 3396,
-      "issueClosed": 42640,
-      "prOpen": 2119,
-      "prClosed": 69113,
-      "prMerged": 22634,
+      "capturedAt": "2026-08-05T22:19:30.849Z",
+      "issueOpen": 3404,
+      "issueClosed": 42647,
+      "prOpen": 2123,
+      "prClosed": 69124,
+      "prMerged": 22640,
       "workflowRuns": 40000,
-      "stars": 385255,
-      "forks": 80984,
+      "stars": 385260,
+      "forks": 80983,
       "subscribers": 1760,
-      "commits": 76742,
+      "commits": 76748,
       "contributors": 3065,
       "source": "github-actions",
       "approximateDate": false
@@ -393,10 +393,10 @@
     },
     {
       "capturedOn": "2026-08-05",
-      "stars": 385255,
-      "forks": 80984,
+      "stars": 385260,
+      "forks": 80983,
       "subscribers": 1760,
-      "commits": 76742,
+      "commits": 76748,
       "contributors": 3065
     }
   ],
@@ -404,113 +404,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 119338,
-        "title": "[Bug]: [codex] avoid injecting Codex recommended_plugins into OpenClaw prompts",
-        "url": "https://github.com/openclaw/openclaw/issues/119338",
+        "number": 119759,
+        "title": "[Bug]: Fresh macOS app bootstrap installs an older gateway CLI and then blocks its own LaunchAgent setup",
+        "url": "https://github.com/openclaw/openclaw/issues/119759",
         "state": "open",
-        "author": "bek91",
-        "updatedAt": "2026-08-05T20:38:24Z"
+        "author": "hannesrudolph",
+        "updatedAt": "2026-08-05T22:19:21Z"
       },
       {
         "kind": "issue",
-        "number": 119282,
-        "title": "imsg rpc stderr still blanket-logged at ERROR — #79610 closed as completed but its fix PR #79760 never merged",
-        "url": "https://github.com/openclaw/openclaw/issues/119282",
-        "state": "open",
-        "author": "prashantkamani",
-        "updatedAt": "2026-08-05T20:38:10Z"
+        "number": 119701,
+        "title": "[Bug]: native image loader auto-attaches images from paths embedded in recalled memory/session-transcript text, not just genuine attachments",
+        "url": "https://github.com/openclaw/openclaw/issues/119701",
+        "state": "closed",
+        "author": "cipp-ashe",
+        "updatedAt": "2026-08-05T22:14:44Z"
       },
       {
         "kind": "issue",
-        "number": 110219,
-        "title": "Android: Chat tab session selector bar needs a collapse/expand toggle",
-        "url": "https://github.com/openclaw/openclaw/issues/110219",
+        "number": 119587,
+        "title": "Model catalog publish rejects video input that the plugin SDK type accepts (regression of #97048 on the hosted-catalog path)",
+        "url": "https://github.com/openclaw/openclaw/issues/119587",
         "state": "open",
-        "author": "luzhidong",
-        "updatedAt": "2026-08-05T20:37:59Z"
+        "author": "oliver-mee",
+        "updatedAt": "2026-08-05T22:14:23Z"
       },
       {
         "kind": "issue",
-        "number": 111510,
-        "title": "[Bug]: codex/* provider POSTs to legacy /backend-api/responses (403) at clean boot while sibling openai/* canonicalizes to /backend-api/codex/responses (200) — 2026.7.1",
-        "url": "https://github.com/openclaw/openclaw/issues/111510",
+        "number": 118911,
+        "title": "[Bug]: 2026.7.1-2 breaks @openclaw/codex plugin registration (openSyncKeyedStore TypeError)",
+        "url": "https://github.com/openclaw/openclaw/issues/118911",
         "state": "open",
-        "author": "cslade",
-        "updatedAt": "2026-08-05T20:37:51Z"
+        "author": "haldana88",
+        "updatedAt": "2026-08-05T22:13:59Z"
       },
       {
         "kind": "issue",
-        "number": 119484,
-        "title": "[Bug]: LF-only line endings in .cmd scripts (as written by AI editors) cause CMD to randomly drop characters / break nested blocks 鈥?silent corruption",
-        "url": "https://github.com/openclaw/openclaw/issues/119484",
+        "number": 90911,
+        "title": "[Feature]: Record token usage on task_runs / subagent_runs (parity with cron_run_logs.total_tokens)",
+        "url": "https://github.com/openclaw/openclaw/issues/90911",
         "state": "open",
-        "author": "saner-spec",
-        "updatedAt": "2026-08-05T20:37:25Z"
+        "author": "bosszukung",
+        "updatedAt": "2026-08-05T22:13:34Z"
       },
       {
         "kind": "issue",
-        "number": 101961,
-        "title": "Agent lane lacks first-class scoped node exec path and stale nodes can hang or fail roughly",
-        "url": "https://github.com/openclaw/openclaw/issues/101961",
+        "number": 119760,
+        "title": "2026.7.1-2: timed-out channel stop leaks entire MCP child-process fleets on each health-monitor restart -> host memory exhaustion (regression from 2026.6.11)",
+        "url": "https://github.com/openclaw/openclaw/issues/119760",
         "state": "open",
-        "author": "Cuttingwater",
-        "updatedAt": "2026-08-05T20:37:11Z"
+        "author": "michaeljgood71",
+        "updatedAt": "2026-08-05T22:13:27Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 119256,
-        "title": "feat(whatsapp): add poll_vote_received hook",
-        "url": "https://github.com/openclaw/openclaw/pull/119256",
+        "number": 119752,
+        "title": "fix(gateway): finish successful sessions after timestamp races",
+        "url": "https://github.com/openclaw/openclaw/pull/119752",
         "state": "open",
-        "author": "pscoutosoares",
-        "updatedAt": "2026-08-05T20:38:37Z"
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-08-05T22:19:27Z"
       },
       {
         "kind": "pr",
-        "number": 115405,
-        "title": "fix(agents): apply the fallback delegation gate to CLI-backend runs",
-        "url": "https://github.com/openclaw/openclaw/pull/115405",
+        "number": 97175,
+        "title": "fix(context-engine): keep background maintenance from blocking new messages",
+        "url": "https://github.com/openclaw/openclaw/pull/97175",
         "state": "open",
-        "author": "MertBasar0",
-        "updatedAt": "2026-08-05T20:38:36Z"
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-08-05T22:17:53Z"
       },
       {
         "kind": "pr",
-        "number": 113422,
-        "title": "feat: add standard hosting profiles",
-        "url": "https://github.com/openclaw/openclaw/pull/113422",
+        "number": 119473,
+        "title": "fix(agents): seed fresh session identity before transcript append",
+        "url": "https://github.com/openclaw/openclaw/pull/119473",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-08-05T20:38:29Z"
+        "author": "jjjhenriksen",
+        "updatedAt": "2026-08-05T22:17:14Z"
       },
       {
         "kind": "pr",
-        "number": 117488,
-        "title": "fix(doctor): reject conflicting maintenance operations before side effects",
-        "url": "https://github.com/openclaw/openclaw/pull/117488",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-05T20:38:23Z"
+        "number": 68558,
+        "title": "fix(auto-reply): stop rendering misleading /compact labels on small sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/68558",
+        "state": "closed",
+        "author": "Ante042",
+        "updatedAt": "2026-08-05T22:16:34Z"
       },
       {
         "kind": "pr",
-        "number": 113421,
-        "title": "readiness: adopt core runtime conditions",
-        "url": "https://github.com/openclaw/openclaw/pull/113421",
+        "number": 117884,
+        "title": "fix(agents): quiet model turns are aborted by a false \"no response from model\" idle timeout",
+        "url": "https://github.com/openclaw/openclaw/pull/117884",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-08-05T20:38:07Z"
+        "author": "pacocartones",
+        "updatedAt": "2026-08-05T22:15:51Z"
       },
       {
         "kind": "pr",
-        "number": 119674,
-        "title": "fix(daemon): scope systemd unit resolution to the active profile",
-        "url": "https://github.com/openclaw/openclaw/pull/119674",
+        "number": 119761,
+        "title": "fix(qa): attest profile execution plans",
+        "url": "https://github.com/openclaw/openclaw/pull/119761",
         "state": "open",
-        "author": "SebTardif",
-        "updatedAt": "2026-08-05T20:38:05Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-05T22:15:08Z"
       }
     ]
   }

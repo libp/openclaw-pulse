@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-05T22:19:30.849Z",
+  "generatedAt": "2026-08-06T00:09:26.199Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -340,6 +340,23 @@
       "contributors": 3065,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-06",
+      "capturedAt": "2026-08-06T00:09:26.199Z",
+      "issueOpen": 3398,
+      "issueClosed": 42659,
+      "prOpen": 2120,
+      "prClosed": 69138,
+      "prMerged": 22650,
+      "workflowRuns": 40000,
+      "stars": 385260,
+      "forks": 80982,
+      "subscribers": 1760,
+      "commits": 76759,
+      "contributors": 3065,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -398,119 +415,127 @@
       "subscribers": 1760,
       "commits": 76748,
       "contributors": 3065
+    },
+    {
+      "capturedOn": "2026-08-06",
+      "stars": 385260,
+      "forks": 80982,
+      "subscribers": 1760,
+      "commits": 76759,
+      "contributors": 3065
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 119759,
-        "title": "[Bug]: Fresh macOS app bootstrap installs an older gateway CLI and then blocks its own LaunchAgent setup",
-        "url": "https://github.com/openclaw/openclaw/issues/119759",
+        "number": 44289,
+        "title": "Generate secretref reference docs from secret target registry metadata",
+        "url": "https://github.com/openclaw/openclaw/issues/44289",
         "state": "open",
-        "author": "hannesrudolph",
-        "updatedAt": "2026-08-05T22:19:21Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-08-06T00:09:05Z"
       },
       {
         "kind": "issue",
-        "number": 119701,
-        "title": "[Bug]: native image loader auto-attaches images from paths embedded in recalled memory/session-transcript text, not just genuine attachments",
-        "url": "https://github.com/openclaw/openclaw/issues/119701",
+        "number": 100360,
+        "title": "message-tool send mid-turn writes 'delivery-mirror' side-branch into transcript → permanent HTTP 400 loop, session silently dead",
+        "url": "https://github.com/openclaw/openclaw/issues/100360",
         "state": "closed",
-        "author": "cipp-ashe",
-        "updatedAt": "2026-08-05T22:14:44Z"
+        "author": "joehere1988-droid",
+        "updatedAt": "2026-08-06T00:08:16Z"
       },
       {
         "kind": "issue",
-        "number": 119587,
-        "title": "Model catalog publish rejects video input that the plugin SDK type accepts (regression of #97048 on the hosted-catalog path)",
-        "url": "https://github.com/openclaw/openclaw/issues/119587",
-        "state": "open",
-        "author": "oliver-mee",
-        "updatedAt": "2026-08-05T22:14:23Z"
+        "number": 94666,
+        "title": "Control UI 清理 2 个异常短命进程 按钮误触发 Gateway 自重启",
+        "url": "https://github.com/openclaw/openclaw/issues/94666",
+        "state": "closed",
+        "author": "wangsheng520520",
+        "updatedAt": "2026-08-06T00:08:16Z"
       },
       {
         "kind": "issue",
-        "number": 118911,
-        "title": "[Bug]: 2026.7.1-2 breaks @openclaw/codex plugin registration (openSyncKeyedStore TypeError)",
-        "url": "https://github.com/openclaw/openclaw/issues/118911",
-        "state": "open",
-        "author": "haldana88",
-        "updatedAt": "2026-08-05T22:13:59Z"
+        "number": 111804,
+        "title": "[Bug]: memory-wiki bridge-mode wiki_search/wiki_get/wiki_apply intermittent \"path mismatch\" causing gateway OOM",
+        "url": "https://github.com/openclaw/openclaw/issues/111804",
+        "state": "closed",
+        "author": "dom521",
+        "updatedAt": "2026-08-06T00:08:14Z"
       },
       {
         "kind": "issue",
-        "number": 90911,
-        "title": "[Feature]: Record token usage on task_runs / subagent_runs (parity with cron_run_logs.total_tokens)",
-        "url": "https://github.com/openclaw/openclaw/issues/90911",
-        "state": "open",
-        "author": "bosszukung",
-        "updatedAt": "2026-08-05T22:13:34Z"
+        "number": 100335,
+        "title": "[Bug]: WeChat channel session permanently corrupted after ingesting binary file attachments",
+        "url": "https://github.com/openclaw/openclaw/issues/100335",
+        "state": "closed",
+        "author": "nguyen9676745df-cyber",
+        "updatedAt": "2026-08-06T00:08:13Z"
       },
       {
         "kind": "issue",
-        "number": 119760,
-        "title": "2026.7.1-2: timed-out channel stop leaks entire MCP child-process fleets on each health-monitor restart -> host memory exhaustion (regression from 2026.6.11)",
-        "url": "https://github.com/openclaw/openclaw/issues/119760",
+        "number": 119754,
+        "title": "Session transcript projection rejects requests during rebuild instead of waiting",
+        "url": "https://github.com/openclaw/openclaw/issues/119754",
         "state": "open",
-        "author": "michaeljgood71",
-        "updatedAt": "2026-08-05T22:13:27Z"
+        "author": "AgentSolomon",
+        "updatedAt": "2026-08-06T00:02:46Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 119752,
-        "title": "fix(gateway): finish successful sessions after timestamp races",
-        "url": "https://github.com/openclaw/openclaw/pull/119752",
+        "number": 112283,
+        "title": "fix(diagnostics-otel): propagate exported span context",
+        "url": "https://github.com/openclaw/openclaw/pull/112283",
         "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-08-05T22:19:27Z"
+        "author": "HughTang",
+        "updatedAt": "2026-08-06T00:09:18Z"
       },
       {
         "kind": "pr",
-        "number": 97175,
-        "title": "fix(context-engine): keep background maintenance from blocking new messages",
-        "url": "https://github.com/openclaw/openclaw/pull/97175",
+        "number": 58823,
+        "title": "fix(agents): restore global subagent model default priority over agent own model",
+        "url": "https://github.com/openclaw/openclaw/pull/58823",
         "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-08-05T22:17:53Z"
+        "author": "joeykrug",
+        "updatedAt": "2026-08-06T00:09:05Z"
       },
       {
         "kind": "pr",
-        "number": 119473,
-        "title": "fix(agents): seed fresh session identity before transcript append",
-        "url": "https://github.com/openclaw/openclaw/pull/119473",
+        "number": 119730,
+        "title": "test(gateway): lock sessions.reset recovery for stale main session",
+        "url": "https://github.com/openclaw/openclaw/pull/119730",
         "state": "open",
-        "author": "jjjhenriksen",
-        "updatedAt": "2026-08-05T22:17:14Z"
+        "author": "SebTardif",
+        "updatedAt": "2026-08-06T00:08:55Z"
       },
       {
         "kind": "pr",
-        "number": 68558,
-        "title": "fix(auto-reply): stop rendering misleading /compact labels on small sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/68558",
+        "number": 119718,
+        "title": "fix(googlechat): deliver remote media URLs as text links",
+        "url": "https://github.com/openclaw/openclaw/pull/119718",
+        "state": "open",
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-08-06T00:08:27Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119689,
+        "title": "fix(heartbeat): explain target-none skips",
+        "url": "https://github.com/openclaw/openclaw/pull/119689",
+        "state": "open",
+        "author": "metaforismo",
+        "updatedAt": "2026-08-06T00:06:29Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119776,
+        "title": "fix(agents): fence restart recovery to gateway lifecycle",
+        "url": "https://github.com/openclaw/openclaw/pull/119776",
         "state": "closed",
-        "author": "Ante042",
-        "updatedAt": "2026-08-05T22:16:34Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117884,
-        "title": "fix(agents): quiet model turns are aborted by a false \"no response from model\" idle timeout",
-        "url": "https://github.com/openclaw/openclaw/pull/117884",
-        "state": "open",
-        "author": "pacocartones",
-        "updatedAt": "2026-08-05T22:15:51Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119761,
-        "title": "fix(qa): attest profile execution plans",
-        "url": "https://github.com/openclaw/openclaw/pull/119761",
-        "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-05T22:15:08Z"
+        "updatedAt": "2026-08-06T00:05:35Z"
       }
     ]
   }

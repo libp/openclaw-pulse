@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-06T09:50:14.803Z",
+  "generatedAt": "2026-08-06T15:27:07.748Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -343,18 +343,18 @@
     },
     {
       "capturedOn": "2026-08-06",
-      "capturedAt": "2026-08-06T09:50:14.803Z",
-      "issueOpen": 3380,
-      "issueClosed": 42722,
-      "prOpen": 2122,
-      "prClosed": 69221,
-      "prMerged": 22698,
+      "capturedAt": "2026-08-06T15:27:07.748Z",
+      "issueOpen": 3388,
+      "issueClosed": 42743,
+      "prOpen": 2135,
+      "prClosed": 69260,
+      "prMerged": 22720,
       "workflowRuns": 40000,
-      "stars": 385313,
-      "forks": 81002,
-      "subscribers": 1759,
-      "commits": 76813,
-      "contributors": 3068,
+      "stars": 385362,
+      "forks": 81011,
+      "subscribers": 1760,
+      "commits": 76835,
+      "contributors": 3070,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -418,124 +418,106 @@
     },
     {
       "capturedOn": "2026-08-06",
-      "stars": 385313,
-      "forks": 81002,
-      "subscribers": 1759,
-      "commits": 76813,
-      "contributors": 3068
+      "stars": 385362,
+      "forks": 81011,
+      "subscribers": 1760,
+      "commits": 76835,
+      "contributors": 3070
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 119907,
-        "title": "[Bug]: Telegram PDF attachments never produce a usable reply — three runs, three different outcomes (one silent)",
-        "url": "https://github.com/openclaw/openclaw/issues/119907",
-        "state": "open",
-        "author": "sji21",
-        "updatedAt": "2026-08-06T09:49:04Z"
-      },
-      {
-        "kind": "issue",
-        "number": 75,
-        "title": "Linux/Windows Clawdbot Apps",
-        "url": "https://github.com/openclaw/openclaw/issues/75",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-06T09:48:46Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119692,
-        "title": "fix(usage): OpenAI-compatible streaming path drops token usage for MiniMax-M3 (transcript written as all-zero)",
-        "url": "https://github.com/openclaw/openclaw/issues/119692",
-        "state": "open",
-        "author": "Aris-qin",
-        "updatedAt": "2026-08-06T09:47:38Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119861,
-        "title": "[Bug]: Slack boot auth.test times out in-process on 2026.7.2-beta.7 while the same request via curl answers in 0.27s; identity stays degraded with no recovery",
-        "url": "https://github.com/openclaw/openclaw/issues/119861",
-        "state": "open",
-        "author": "dan2k3k4",
-        "updatedAt": "2026-08-06T09:47:37Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119583,
-        "title": "CLI one-shot read commands open state/openclaw.sqlite read-write and auto-migrate, contending with the live gateway",
-        "url": "https://github.com/openclaw/openclaw/issues/119583",
-        "state": "open",
-        "author": "Jackten",
-        "updatedAt": "2026-08-06T09:47:34Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119083,
-        "title": "[Feature]: Continuously admit newly due cron jobs while earlier timer-batch jobs are still running",
-        "url": "https://github.com/openclaw/openclaw/issues/119083",
+        "number": 119866,
+        "title": "iOS: keyboard haptic feedback does not fire while typing in the app (works in every other app) — likely suppressed by an active .playAndRecord audio session",
+        "url": "https://github.com/openclaw/openclaw/issues/119866",
         "state": "open",
         "author": "joeykrug",
-        "updatedAt": "2026-08-06T09:47:33Z"
+        "updatedAt": "2026-08-06T15:24:32Z"
+      },
+      {
+        "kind": "issue",
+        "number": 119873,
+        "title": "exec timeout is in seconds but the field name does not say so; process timeout is milliseconds",
+        "url": "https://github.com/openclaw/openclaw/issues/119873",
+        "state": "open",
+        "author": "Marvinthebored",
+        "updatedAt": "2026-08-06T15:23:31Z"
+      },
+      {
+        "kind": "issue",
+        "number": 119979,
+        "title": "[Bug]: Turn failing before adoption wedges the channel ingress lane for the full 300s stall watchdog; messages sent meanwhile are silently dropped",
+        "url": "https://github.com/openclaw/openclaw/issues/119979",
+        "state": "open",
+        "author": "joeykrug",
+        "updatedAt": "2026-08-06T15:23:13Z"
+      },
+      {
+        "kind": "issue",
+        "number": 119980,
+        "title": "[Bug]: Moonshot models-list E2E makes trigger status time out",
+        "url": "https://github.com/openclaw/openclaw/issues/119980",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-06T15:23:11Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 119902,
-        "title": "feat(audit): carry execution identity into approvals",
-        "url": "https://github.com/openclaw/openclaw/pull/119902",
+        "number": 119987,
+        "title": "refactor(plugins): single-source question-reaction stores and preflight audio via plugin SDK",
+        "url": "https://github.com/openclaw/openclaw/pull/119987",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-08-06T09:50:12Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-06T15:26:58Z"
       },
       {
         "kind": "pr",
-        "number": 118685,
-        "title": "fix(agents): record stop reason in completion trajectory",
-        "url": "https://github.com/openclaw/openclaw/pull/118685",
-        "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-06T09:49:59Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119675,
-        "title": "fix(feishu): deliver interactive reply buttons via presentation card path",
-        "url": "https://github.com/openclaw/openclaw/pull/119675",
-        "state": "open",
-        "author": "SebTardif",
-        "updatedAt": "2026-08-06T09:49:58Z"
-      },
-      {
-        "kind": "pr",
-        "number": 80394,
-        "title": "feat(agents): per-agent model allowlist (with fallback to global)",
-        "url": "https://github.com/openclaw/openclaw/pull/80394",
-        "state": "open",
-        "author": "pleyvah",
-        "updatedAt": "2026-08-06T09:49:49Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119890,
-        "title": "fix(pr): fail fast on exhausted temporary storage",
-        "url": "https://github.com/openclaw/openclaw/pull/119890",
+        "number": 119809,
+        "title": "fix(test): zalo lifecycle suites fail Windows teardown with EBUSY on agent state DB",
+        "url": "https://github.com/openclaw/openclaw/pull/119809",
         "state": "closed",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-06T09:49:26Z"
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-08-06T15:26:45Z"
       },
       {
         "kind": "pr",
-        "number": 119906,
-        "title": "fix(ios): keep authenticated Control UI pages bound to the trusted Gateway [AI]",
-        "url": "https://github.com/openclaw/openclaw/pull/119906",
+        "number": 119988,
+        "title": "fix(cli): forward SIGINT to child and add force-kill timeout in attach",
+        "url": "https://github.com/openclaw/openclaw/pull/119988",
         "state": "open",
-        "author": "pgondhi987",
-        "updatedAt": "2026-08-06T09:48:01Z"
+        "author": "xialonglee",
+        "updatedAt": "2026-08-06T15:26:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119981,
+        "title": "fix(gateway): keep new nodes compatible with older gateways",
+        "url": "https://github.com/openclaw/openclaw/pull/119981",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-06T15:26:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119976,
+        "title": "fix(nextcloud-talk): redact upstream error body text in send and bot-preflight",
+        "url": "https://github.com/openclaw/openclaw/pull/119976",
+        "state": "open",
+        "author": "xialonglee",
+        "updatedAt": "2026-08-06T15:25:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119441,
+        "title": "fix(systemd): apply dotenv changes on gateway restart",
+        "url": "https://github.com/openclaw/openclaw/pull/119441",
+        "state": "open",
+        "author": "sallyom",
+        "updatedAt": "2026-08-06T15:25:32Z"
       }
     ]
   }

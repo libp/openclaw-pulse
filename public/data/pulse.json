@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-06T00:09:26.199Z",
+  "generatedAt": "2026-08-06T09:50:14.803Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -343,18 +343,18 @@
     },
     {
       "capturedOn": "2026-08-06",
-      "capturedAt": "2026-08-06T00:09:26.199Z",
-      "issueOpen": 3398,
-      "issueClosed": 42659,
-      "prOpen": 2120,
-      "prClosed": 69138,
-      "prMerged": 22650,
+      "capturedAt": "2026-08-06T09:50:14.803Z",
+      "issueOpen": 3380,
+      "issueClosed": 42722,
+      "prOpen": 2122,
+      "prClosed": 69221,
+      "prMerged": 22698,
       "workflowRuns": 40000,
-      "stars": 385260,
-      "forks": 80982,
-      "subscribers": 1760,
-      "commits": 76759,
-      "contributors": 3065,
+      "stars": 385313,
+      "forks": 81002,
+      "subscribers": 1759,
+      "commits": 76813,
+      "contributors": 3068,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -418,124 +418,124 @@
     },
     {
       "capturedOn": "2026-08-06",
-      "stars": 385260,
-      "forks": 80982,
-      "subscribers": 1760,
-      "commits": 76759,
-      "contributors": 3065
+      "stars": 385313,
+      "forks": 81002,
+      "subscribers": 1759,
+      "commits": 76813,
+      "contributors": 3068
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 44289,
-        "title": "Generate secretref reference docs from secret target registry metadata",
-        "url": "https://github.com/openclaw/openclaw/issues/44289",
+        "number": 119907,
+        "title": "[Bug]: Telegram PDF attachments never produce a usable reply — three runs, three different outcomes (one silent)",
+        "url": "https://github.com/openclaw/openclaw/issues/119907",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-06T00:09:05Z"
+        "author": "sji21",
+        "updatedAt": "2026-08-06T09:49:04Z"
       },
       {
         "kind": "issue",
-        "number": 100360,
-        "title": "message-tool send mid-turn writes 'delivery-mirror' side-branch into transcript → permanent HTTP 400 loop, session silently dead",
-        "url": "https://github.com/openclaw/openclaw/issues/100360",
+        "number": 75,
+        "title": "Linux/Windows Clawdbot Apps",
+        "url": "https://github.com/openclaw/openclaw/issues/75",
         "state": "closed",
-        "author": "joehere1988-droid",
-        "updatedAt": "2026-08-06T00:08:16Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-06T09:48:46Z"
       },
       {
         "kind": "issue",
-        "number": 94666,
-        "title": "Control UI 清理 2 个异常短命进程 按钮误触发 Gateway 自重启",
-        "url": "https://github.com/openclaw/openclaw/issues/94666",
-        "state": "closed",
-        "author": "wangsheng520520",
-        "updatedAt": "2026-08-06T00:08:16Z"
-      },
-      {
-        "kind": "issue",
-        "number": 111804,
-        "title": "[Bug]: memory-wiki bridge-mode wiki_search/wiki_get/wiki_apply intermittent \"path mismatch\" causing gateway OOM",
-        "url": "https://github.com/openclaw/openclaw/issues/111804",
-        "state": "closed",
-        "author": "dom521",
-        "updatedAt": "2026-08-06T00:08:14Z"
-      },
-      {
-        "kind": "issue",
-        "number": 100335,
-        "title": "[Bug]: WeChat channel session permanently corrupted after ingesting binary file attachments",
-        "url": "https://github.com/openclaw/openclaw/issues/100335",
-        "state": "closed",
-        "author": "nguyen9676745df-cyber",
-        "updatedAt": "2026-08-06T00:08:13Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119754,
-        "title": "Session transcript projection rejects requests during rebuild instead of waiting",
-        "url": "https://github.com/openclaw/openclaw/issues/119754",
+        "number": 119692,
+        "title": "fix(usage): OpenAI-compatible streaming path drops token usage for MiniMax-M3 (transcript written as all-zero)",
+        "url": "https://github.com/openclaw/openclaw/issues/119692",
         "state": "open",
-        "author": "AgentSolomon",
-        "updatedAt": "2026-08-06T00:02:46Z"
+        "author": "Aris-qin",
+        "updatedAt": "2026-08-06T09:47:38Z"
+      },
+      {
+        "kind": "issue",
+        "number": 119861,
+        "title": "[Bug]: Slack boot auth.test times out in-process on 2026.7.2-beta.7 while the same request via curl answers in 0.27s; identity stays degraded with no recovery",
+        "url": "https://github.com/openclaw/openclaw/issues/119861",
+        "state": "open",
+        "author": "dan2k3k4",
+        "updatedAt": "2026-08-06T09:47:37Z"
+      },
+      {
+        "kind": "issue",
+        "number": 119583,
+        "title": "CLI one-shot read commands open state/openclaw.sqlite read-write and auto-migrate, contending with the live gateway",
+        "url": "https://github.com/openclaw/openclaw/issues/119583",
+        "state": "open",
+        "author": "Jackten",
+        "updatedAt": "2026-08-06T09:47:34Z"
+      },
+      {
+        "kind": "issue",
+        "number": 119083,
+        "title": "[Feature]: Continuously admit newly due cron jobs while earlier timer-batch jobs are still running",
+        "url": "https://github.com/openclaw/openclaw/issues/119083",
+        "state": "open",
+        "author": "joeykrug",
+        "updatedAt": "2026-08-06T09:47:33Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 112283,
-        "title": "fix(diagnostics-otel): propagate exported span context",
-        "url": "https://github.com/openclaw/openclaw/pull/112283",
+        "number": 119902,
+        "title": "feat(audit): carry execution identity into approvals",
+        "url": "https://github.com/openclaw/openclaw/pull/119902",
         "state": "open",
-        "author": "HughTang",
-        "updatedAt": "2026-08-06T00:09:18Z"
+        "author": "joshavant",
+        "updatedAt": "2026-08-06T09:50:12Z"
       },
       {
         "kind": "pr",
-        "number": 58823,
-        "title": "fix(agents): restore global subagent model default priority over agent own model",
-        "url": "https://github.com/openclaw/openclaw/pull/58823",
-        "state": "open",
-        "author": "joeykrug",
-        "updatedAt": "2026-08-06T00:09:05Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119730,
-        "title": "test(gateway): lock sessions.reset recovery for stale main session",
-        "url": "https://github.com/openclaw/openclaw/pull/119730",
-        "state": "open",
-        "author": "SebTardif",
-        "updatedAt": "2026-08-06T00:08:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119718,
-        "title": "fix(googlechat): deliver remote media URLs as text links",
-        "url": "https://github.com/openclaw/openclaw/pull/119718",
+        "number": 118685,
+        "title": "fix(agents): record stop reason in completion trajectory",
+        "url": "https://github.com/openclaw/openclaw/pull/118685",
         "state": "open",
         "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-06T00:08:27Z"
+        "updatedAt": "2026-08-06T09:49:59Z"
       },
       {
         "kind": "pr",
-        "number": 119689,
-        "title": "fix(heartbeat): explain target-none skips",
-        "url": "https://github.com/openclaw/openclaw/pull/119689",
+        "number": 119675,
+        "title": "fix(feishu): deliver interactive reply buttons via presentation card path",
+        "url": "https://github.com/openclaw/openclaw/pull/119675",
         "state": "open",
-        "author": "metaforismo",
-        "updatedAt": "2026-08-06T00:06:29Z"
+        "author": "SebTardif",
+        "updatedAt": "2026-08-06T09:49:58Z"
       },
       {
         "kind": "pr",
-        "number": 119776,
-        "title": "fix(agents): fence restart recovery to gateway lifecycle",
-        "url": "https://github.com/openclaw/openclaw/pull/119776",
+        "number": 80394,
+        "title": "feat(agents): per-agent model allowlist (with fallback to global)",
+        "url": "https://github.com/openclaw/openclaw/pull/80394",
+        "state": "open",
+        "author": "pleyvah",
+        "updatedAt": "2026-08-06T09:49:49Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119890,
+        "title": "fix(pr): fail fast on exhausted temporary storage",
+        "url": "https://github.com/openclaw/openclaw/pull/119890",
         "state": "closed",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-06T00:05:35Z"
+        "updatedAt": "2026-08-06T09:49:26Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119906,
+        "title": "fix(ios): keep authenticated Control UI pages bound to the trusted Gateway [AI]",
+        "url": "https://github.com/openclaw/openclaw/pull/119906",
+        "state": "open",
+        "author": "pgondhi987",
+        "updatedAt": "2026-08-06T09:48:01Z"
       }
     ]
   }

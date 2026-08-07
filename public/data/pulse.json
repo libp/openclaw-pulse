@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-07T17:05:50.073Z",
+  "generatedAt": "2026-08-07T19:13:33.611Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -360,17 +360,17 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "capturedAt": "2026-08-07T17:05:50.073Z",
-      "issueOpen": 3396,
-      "issueClosed": 42828,
+      "capturedAt": "2026-08-07T19:13:33.611Z",
+      "issueOpen": 3400,
+      "issueClosed": 42834,
       "prOpen": 2177,
-      "prClosed": 69437,
-      "prMerged": 22828,
+      "prClosed": 69451,
+      "prMerged": 22840,
       "workflowRuns": 40000,
-      "stars": 385459,
-      "forks": 81020,
-      "subscribers": 1762,
-      "commits": 76976,
+      "stars": 385467,
+      "forks": 81023,
+      "subscribers": 1763,
+      "commits": 76988,
       "contributors": 3072,
       "source": "github-actions",
       "approximateDate": false
@@ -443,124 +443,69 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "stars": 385459,
-      "forks": 81020,
-      "subscribers": 1762,
-      "commits": 76976,
+      "stars": 385467,
+      "forks": 81023,
+      "subscribers": 1763,
+      "commits": 76988,
       "contributors": 3072
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 120154,
-        "title": "[Bug]: config reload unconditionally rebuilds all prepared-model runtime snapshots for every agents.entries.*",
-        "url": "https://github.com/openclaw/openclaw/issues/120154",
-        "state": "open",
-        "author": "shang-go",
-        "updatedAt": "2026-08-07T17:05:35Z"
-      },
-      {
-        "kind": "issue",
-        "number": 118785,
-        "title": "QA: primary proof for containers and external app SDK",
-        "url": "https://github.com/openclaw/openclaw/issues/118785",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-07T17:05:35Z"
-      },
-      {
-        "kind": "issue",
-        "number": 120178,
-        "title": "[BUG] L1 Extraction Fails: Cannot resolve SQLite session scope without an agent id for incognito sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/120178",
-        "state": "open",
-        "author": "dailylights",
-        "updatedAt": "2026-08-07T17:05:33Z"
-      },
-      {
-        "kind": "issue",
-        "number": 118911,
-        "title": "[Bug]: 2026.7.1-2 breaks @openclaw/codex plugin registration (openSyncKeyedStore TypeError)",
-        "url": "https://github.com/openclaw/openclaw/issues/118911",
-        "state": "open",
-        "author": "haldana88",
-        "updatedAt": "2026-08-07T17:05:22Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119484,
-        "title": "[Bug]: LF-only line endings in .cmd scripts (as written by AI editors) cause CMD to randomly drop characters / break nested blocks 鈥?silent corruption",
-        "url": "https://github.com/openclaw/openclaw/issues/119484",
-        "state": "open",
-        "author": "saner-spec",
-        "updatedAt": "2026-08-07T17:05:21Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119586,
-        "title": "[Feature]: Route ComfyUI workflows by typed media input signature",
-        "url": "https://github.com/openclaw/openclaw/issues/119586",
-        "state": "open",
-        "author": "beeven",
-        "updatedAt": "2026-08-07T17:05:10Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 119575,
-        "title": "[AI] feat(cron): add maintenance-window role isolation (v2 rewrite for #79192)",
-        "url": "https://github.com/openclaw/openclaw/pull/119575",
+        "number": 120248,
+        "title": "fix(amazon-bedrock): avoid O(n^2) tool-call arg re-parsing on large streamed payloads",
+        "url": "https://github.com/openclaw/openclaw/pull/120248",
         "state": "open",
-        "author": "JFWaskin",
-        "updatedAt": "2026-08-07T17:05:45Z"
+        "author": "lucascmg-vx",
+        "updatedAt": "2026-08-07T19:13:17Z"
       },
       {
         "kind": "pr",
-        "number": 112694,
-        "title": "fix(memory-core): add memory_get recall tracking with correct workspace and range",
-        "url": "https://github.com/openclaw/openclaw/pull/112694",
+        "number": 116570,
+        "title": "fix(windows): report Startup fallback launch failures",
+        "url": "https://github.com/openclaw/openclaw/pull/116570",
         "state": "open",
-        "author": "ITHACAJASON",
-        "updatedAt": "2026-08-07T17:05:35Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-07T19:13:04Z"
       },
       {
         "kind": "pr",
-        "number": 117306,
-        "title": "fix(channels): DM-capable channels reject the documented DM history overrides",
-        "url": "https://github.com/openclaw/openclaw/pull/117306",
+        "number": 112385,
+        "title": "feat(snapshot): compose RFC 0013 recovery points",
+        "url": "https://github.com/openclaw/openclaw/pull/112385",
         "state": "open",
-        "author": "ayaangazali",
-        "updatedAt": "2026-08-07T17:05:34Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-08-07T19:12:50Z"
       },
       {
         "kind": "pr",
-        "number": 111721,
-        "title": "fix(ai): flatten Gemini allOf tool schemas",
-        "url": "https://github.com/openclaw/openclaw/pull/111721",
+        "number": 82023,
+        "title": "feat(telegram): bind spawned subagents to forum topics",
+        "url": "https://github.com/openclaw/openclaw/pull/82023",
         "state": "open",
-        "author": "moeedahmed",
-        "updatedAt": "2026-08-07T17:04:41Z"
+        "author": "efpiva",
+        "updatedAt": "2026-08-07T19:12:02Z"
       },
       {
         "kind": "pr",
-        "number": 119309,
-        "title": "fix(dev): rebuild when agent-core, llm-core or model-catalog-core sources change",
-        "url": "https://github.com/openclaw/openclaw/pull/119309",
+        "number": 94383,
+        "title": "feat(plugins): persist plugin allow-always approvals",
+        "url": "https://github.com/openclaw/openclaw/pull/94383",
         "state": "open",
-        "author": "masatohoshino",
-        "updatedAt": "2026-08-07T17:04:39Z"
+        "author": "amknight",
+        "updatedAt": "2026-08-07T19:11:24Z"
       },
       {
         "kind": "pr",
-        "number": 119774,
-        "title": "[AI-assisted] fix(skills): omit per-skill version rows from Codex skill catalogs",
-        "url": "https://github.com/openclaw/openclaw/pull/119774",
+        "number": 88589,
+        "title": "fix(cli): allow agent gateway auth overrides",
+        "url": "https://github.com/openclaw/openclaw/pull/88589",
         "state": "open",
-        "author": "santhiprakash",
-        "updatedAt": "2026-08-07T17:04:37Z"
+        "author": "mbelinky",
+        "updatedAt": "2026-08-07T19:10:25Z"
       }
     ]
   }

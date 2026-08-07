@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-07T16:07:55.050Z",
+  "generatedAt": "2026-08-07T17:05:50.073Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -360,17 +360,17 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "capturedAt": "2026-08-07T16:07:55.050Z",
-      "issueOpen": 3398,
-      "issueClosed": 42821,
-      "prOpen": 2172,
-      "prClosed": 69434,
-      "prMerged": 22826,
+      "capturedAt": "2026-08-07T17:05:50.073Z",
+      "issueOpen": 3396,
+      "issueClosed": 42828,
+      "prOpen": 2177,
+      "prClosed": 69437,
+      "prMerged": 22828,
       "workflowRuns": 40000,
-      "stars": 385454,
+      "stars": 385459,
       "forks": 81020,
-      "subscribers": 1763,
-      "commits": 76974,
+      "subscribers": 1762,
+      "commits": 76976,
       "contributors": 3072,
       "source": "github-actions",
       "approximateDate": false
@@ -443,10 +443,10 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "stars": 385454,
+      "stars": 385459,
       "forks": 81020,
-      "subscribers": 1763,
-      "commits": 76974,
+      "subscribers": 1762,
+      "commits": 76976,
       "contributors": 3072
     }
   ],
@@ -454,68 +454,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 116277,
-        "title": "DeepSeek v4 Flash silent reply failure — no reply generated, generic fallback",
-        "url": "https://github.com/openclaw/openclaw/issues/116277",
-        "state": "closed",
-        "author": "sloptop-the-terrible",
-        "updatedAt": "2026-08-07T16:05:12Z"
+        "number": 120154,
+        "title": "[Bug]: config reload unconditionally rebuilds all prepared-model runtime snapshots for every agents.entries.*",
+        "url": "https://github.com/openclaw/openclaw/issues/120154",
+        "state": "open",
+        "author": "shang-go",
+        "updatedAt": "2026-08-07T17:05:35Z"
+      },
+      {
+        "kind": "issue",
+        "number": 118785,
+        "title": "QA: primary proof for containers and external app SDK",
+        "url": "https://github.com/openclaw/openclaw/issues/118785",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-07T17:05:35Z"
+      },
+      {
+        "kind": "issue",
+        "number": 120178,
+        "title": "[BUG] L1 Extraction Fails: Cannot resolve SQLite session scope without an agent id for incognito sessions",
+        "url": "https://github.com/openclaw/openclaw/issues/120178",
+        "state": "open",
+        "author": "dailylights",
+        "updatedAt": "2026-08-07T17:05:33Z"
+      },
+      {
+        "kind": "issue",
+        "number": 118911,
+        "title": "[Bug]: 2026.7.1-2 breaks @openclaw/codex plugin registration (openSyncKeyedStore TypeError)",
+        "url": "https://github.com/openclaw/openclaw/issues/118911",
+        "state": "open",
+        "author": "haldana88",
+        "updatedAt": "2026-08-07T17:05:22Z"
+      },
+      {
+        "kind": "issue",
+        "number": 119484,
+        "title": "[Bug]: LF-only line endings in .cmd scripts (as written by AI editors) cause CMD to randomly drop characters / break nested blocks 鈥?silent corruption",
+        "url": "https://github.com/openclaw/openclaw/issues/119484",
+        "state": "open",
+        "author": "saner-spec",
+        "updatedAt": "2026-08-07T17:05:21Z"
+      },
+      {
+        "kind": "issue",
+        "number": 119586,
+        "title": "[Feature]: Route ComfyUI workflows by typed media input signature",
+        "url": "https://github.com/openclaw/openclaw/issues/119586",
+        "state": "open",
+        "author": "beeven",
+        "updatedAt": "2026-08-07T17:05:10Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 81921,
-        "title": "fix(plugin-sdk): expose skills helper surfaces",
-        "url": "https://github.com/openclaw/openclaw/pull/81921",
+        "number": 119575,
+        "title": "[AI] feat(cron): add maintenance-window role isolation (v2 rewrite for #79192)",
+        "url": "https://github.com/openclaw/openclaw/pull/119575",
         "state": "open",
-        "author": "jbetala7",
-        "updatedAt": "2026-08-07T16:07:48Z"
+        "author": "JFWaskin",
+        "updatedAt": "2026-08-07T17:05:45Z"
       },
       {
         "kind": "pr",
-        "number": 119662,
-        "title": "fix(qa): require a fresh reply and real tool use after switching models",
-        "url": "https://github.com/openclaw/openclaw/pull/119662",
+        "number": 112694,
+        "title": "fix(memory-core): add memory_get recall tracking with correct workspace and range",
+        "url": "https://github.com/openclaw/openclaw/pull/112694",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-07T16:07:36Z"
+        "author": "ITHACAJASON",
+        "updatedAt": "2026-08-07T17:05:35Z"
       },
       {
         "kind": "pr",
-        "number": 112183,
-        "title": "fix(security): audit nested skill escapes under symlinked skills roots",
-        "url": "https://github.com/openclaw/openclaw/pull/112183",
+        "number": 117306,
+        "title": "fix(channels): DM-capable channels reject the documented DM history overrides",
+        "url": "https://github.com/openclaw/openclaw/pull/117306",
         "state": "open",
-        "author": "cornerblue",
-        "updatedAt": "2026-08-07T16:07:11Z"
+        "author": "ayaangazali",
+        "updatedAt": "2026-08-07T17:05:34Z"
       },
       {
         "kind": "pr",
-        "number": 119267,
-        "title": "feat(trajectory): record native tool events and structured delegation origin",
-        "url": "https://github.com/openclaw/openclaw/pull/119267",
+        "number": 111721,
+        "title": "fix(ai): flatten Gemini allOf tool schemas",
+        "url": "https://github.com/openclaw/openclaw/pull/111721",
         "state": "open",
-        "author": "IsaiahStapleton",
-        "updatedAt": "2026-08-07T16:07:02Z"
+        "author": "moeedahmed",
+        "updatedAt": "2026-08-07T17:04:41Z"
       },
       {
         "kind": "pr",
-        "number": 119549,
-        "title": "fix: preserve paragraph boundaries across streamed replies",
-        "url": "https://github.com/openclaw/openclaw/pull/119549",
+        "number": 119309,
+        "title": "fix(dev): rebuild when agent-core, llm-core or model-catalog-core sources change",
+        "url": "https://github.com/openclaw/openclaw/pull/119309",
         "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-08-07T16:06:54Z"
+        "author": "masatohoshino",
+        "updatedAt": "2026-08-07T17:04:39Z"
       },
       {
         "kind": "pr",
-        "number": 112055,
-        "title": "fix(install): repair stale Winget Node registrations",
-        "url": "https://github.com/openclaw/openclaw/pull/112055",
+        "number": 119774,
+        "title": "[AI-assisted] fix(skills): omit per-skill version rows from Codex skill catalogs",
+        "url": "https://github.com/openclaw/openclaw/pull/119774",
         "state": "open",
-        "author": "ooiuuii",
-        "updatedAt": "2026-08-07T16:06:37Z"
+        "author": "santhiprakash",
+        "updatedAt": "2026-08-07T17:04:37Z"
       }
     ]
   }

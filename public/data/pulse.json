@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-07T03:14:38.267Z",
+  "generatedAt": "2026-08-07T05:02:43.588Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -360,18 +360,18 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "capturedAt": "2026-08-07T03:14:38.267Z",
-      "issueOpen": 3384,
-      "issueClosed": 42779,
-      "prOpen": 2154,
-      "prClosed": 69347,
-      "prMerged": 22771,
+      "capturedAt": "2026-08-07T05:02:43.588Z",
+      "issueOpen": 3386,
+      "issueClosed": 42789,
+      "prOpen": 2150,
+      "prClosed": 69364,
+      "prMerged": 22781,
       "workflowRuns": 40000,
-      "stars": 385395,
-      "forks": 81016,
+      "stars": 385399,
+      "forks": 81017,
       "subscribers": 1762,
-      "commits": 76902,
-      "contributors": 3071,
+      "commits": 76912,
+      "contributors": 3072,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -443,69 +443,97 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "stars": 385395,
-      "forks": 81016,
+      "stars": 385399,
+      "forks": 81017,
       "subscribers": 1762,
-      "commits": 76902,
-      "contributors": 3071
+      "commits": 76912,
+      "contributors": 3072
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 120145,
+        "title": "Verify msteams HTTP listener surfaces bind errors as visible operator outcome",
+        "url": "https://github.com/openclaw/openclaw/issues/120145",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-07T05:01:01Z"
+      },
+      {
+        "kind": "issue",
+        "number": 120147,
+        "title": "[Bug]: Telegram channel loses \"action\" capability at runtime: message.action fails with \"unsupported channel\" while text sends keep working",
+        "url": "https://github.com/openclaw/openclaw/issues/120147",
+        "state": "open",
+        "author": "assistenteskynet",
+        "updatedAt": "2026-08-07T04:55:48Z"
+      },
+      {
+        "kind": "issue",
+        "number": 120142,
+        "title": "Tighten DISCORD_EMPTY_VISIBLE_REPLY_WARNING to identify cause",
+        "url": "https://github.com/openclaw/openclaw/issues/120142",
+        "state": "open",
+        "author": "patelmm79",
+        "updatedAt": "2026-08-07T04:51:41Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 117192,
-        "title": "Fix code scanning alerts and update dependencies",
-        "url": "https://github.com/openclaw/openclaw/pull/117192",
+        "number": 85651,
+        "title": "feat(continuation): context-pressure-aware continuation (continue_work / continue_delegate / request_compaction)",
+        "url": "https://github.com/openclaw/openclaw/pull/85651",
         "state": "open",
-        "author": "devops2626",
-        "updatedAt": "2026-08-07T03:14:29Z"
+        "author": "karmafeast",
+        "updatedAt": "2026-08-07T05:02:25Z"
       },
       {
         "kind": "pr",
-        "number": 107152,
-        "title": "fix(memory): hide QMD transport metadata from recalled content",
-        "url": "https://github.com/openclaw/openclaw/pull/107152",
+        "number": 120140,
+        "title": "feat: let plugins stop an agent run without discarding the session",
+        "url": "https://github.com/openclaw/openclaw/pull/120140",
         "state": "open",
-        "author": "BlackFrameAI",
-        "updatedAt": "2026-08-07T03:14:22Z"
+        "author": "amoghasgekar",
+        "updatedAt": "2026-08-07T05:02:19Z"
       },
       {
         "kind": "pr",
-        "number": 111117,
-        "title": "fix(update): keep repair JSON output parseable",
-        "url": "https://github.com/openclaw/openclaw/pull/111117",
+        "number": 120056,
+        "title": "fix(cron): treat NO_REPLY as absent when classifying tool failure rec…",
+        "url": "https://github.com/openclaw/openclaw/pull/120056",
         "state": "open",
-        "author": "arcabotai",
-        "updatedAt": "2026-08-07T03:14:21Z"
+        "author": "NarahariRaghava",
+        "updatedAt": "2026-08-07T05:02:03Z"
       },
       {
         "kind": "pr",
-        "number": 119942,
-        "title": "release: extended-stable 2026.6.35",
-        "url": "https://github.com/openclaw/openclaw/pull/119942",
+        "number": 119267,
+        "title": "feat(trajectory): record native tool events and structured delegation origin",
+        "url": "https://github.com/openclaw/openclaw/pull/119267",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-07T03:14:15Z"
+        "author": "IsaiahStapleton",
+        "updatedAt": "2026-08-07T05:01:37Z"
       },
       {
         "kind": "pr",
-        "number": 58421,
-        "title": "feat(plugins): add optional api.resetSession()",
-        "url": "https://github.com/openclaw/openclaw/pull/58421",
+        "number": 116511,
+        "title": "fix(agents): skip repeated workspace bootstrap on continuation turns",
+        "url": "https://github.com/openclaw/openclaw/pull/116511",
         "state": "open",
-        "author": "MrGPUs",
-        "updatedAt": "2026-08-07T03:14:01Z"
+        "author": "Alix-007",
+        "updatedAt": "2026-08-07T04:59:40Z"
       },
       {
         "kind": "pr",
-        "number": 109067,
-        "title": "fix(agents): idle-timeout stalled provider response body reads",
-        "url": "https://github.com/openclaw/openclaw/pull/109067",
+        "number": 120131,
+        "title": "fix(diagnostics-otel): keep telemetry exporting across in-process restarts",
+        "url": "https://github.com/openclaw/openclaw/pull/120131",
         "state": "open",
-        "author": "hugenshen",
-        "updatedAt": "2026-08-07T03:13:25Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-08-07T04:59:24Z"
       }
     ]
   }

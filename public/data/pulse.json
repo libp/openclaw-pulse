@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-07T10:09:05.658Z",
+  "generatedAt": "2026-08-07T11:06:15.115Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -360,17 +360,17 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "capturedAt": "2026-08-07T10:09:05.658Z",
-      "issueOpen": 3387,
-      "issueClosed": 42805,
+      "capturedAt": "2026-08-07T11:06:15.115Z",
+      "issueOpen": 3386,
+      "issueClosed": 42808,
       "prOpen": 2157,
-      "prClosed": 69402,
-      "prMerged": 22814,
+      "prClosed": 69409,
+      "prMerged": 22820,
       "workflowRuns": 40000,
-      "stars": 385443,
-      "forks": 81024,
+      "stars": 385446,
+      "forks": 81023,
       "subscribers": 1762,
-      "commits": 76962,
+      "commits": 76968,
       "contributors": 3072,
       "source": "github-actions",
       "approximateDate": false
@@ -443,69 +443,88 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "stars": 385443,
-      "forks": 81024,
+      "stars": 385446,
+      "forks": 81023,
       "subscribers": 1762,
-      "commits": 76962,
+      "commits": 76968,
       "contributors": 3072
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 120220,
+        "title": "TUI PTY source smoke falsely runs built-CLI-only cases",
+        "url": "https://github.com/openclaw/openclaw/issues/120220",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-07T11:02:25Z"
+      },
+      {
+        "kind": "issue",
+        "number": 120219,
+        "title": "[Bug]:Compaction safeguard mode fails with AWS Bedrock (SDK-authenticated) providers",
+        "url": "https://github.com/openclaw/openclaw/issues/120219",
+        "state": "open",
+        "author": "joeybernal",
+        "updatedAt": "2026-08-07T11:01:43Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 46303,
-        "title": "fix: drain inbound debounce buffer and followup queues before SIGUSR1 reload",
-        "url": "https://github.com/openclaw/openclaw/pull/46303",
+        "number": 120212,
+        "title": "fix(diagnostics-prometheus): send Content-Length on metrics HEAD responses",
+        "url": "https://github.com/openclaw/openclaw/pull/120212",
         "state": "open",
-        "author": "joeykrug",
-        "updatedAt": "2026-08-07T10:08:57Z"
+        "author": "zenglingbiao",
+        "updatedAt": "2026-08-07T11:05:45Z"
       },
       {
         "kind": "pr",
-        "number": 119001,
-        "title": "feat(codex): bind native realtime voice to existing sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/119001",
-        "state": "open",
-        "author": "GoatInAHat",
-        "updatedAt": "2026-08-07T10:08:30Z"
+        "number": 115237,
+        "title": "feat(claws): adopt portable profiles and native bootstrap",
+        "url": "https://github.com/openclaw/openclaw/pull/115237",
+        "state": "closed",
+        "author": "giodl73-repo",
+        "updatedAt": "2026-08-07T11:05:03Z"
       },
       {
         "kind": "pr",
-        "number": 111115,
-        "title": "fix(memory-core): unify QMD multi-collection search, add phase timings, fix archived-session identity loss",
-        "url": "https://github.com/openclaw/openclaw/pull/111115",
+        "number": 109623,
+        "title": "fix(copilot): resolve transport routing bug for issue #99240",
+        "url": "https://github.com/openclaw/openclaw/pull/109623",
         "state": "open",
-        "author": "jwest75674",
-        "updatedAt": "2026-08-07T10:07:25Z"
+        "author": "fourdollars",
+        "updatedAt": "2026-08-07T11:04:02Z"
       },
       {
         "kind": "pr",
-        "number": 103434,
-        "title": "fix(github-copilot): keep device login polling within GitHub limits",
-        "url": "https://github.com/openclaw/openclaw/pull/103434",
+        "number": 106636,
+        "title": "fix(sandbox): stream large command stdin buffers",
+        "url": "https://github.com/openclaw/openclaw/pull/106636",
+        "state": "open",
+        "author": "souvikDevloper",
+        "updatedAt": "2026-08-07T11:03:45Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119235,
+        "title": "feat(exec): let subprocess tools detect OpenClaw",
+        "url": "https://github.com/openclaw/openclaw/pull/119235",
+        "state": "open",
+        "author": "complynx",
+        "updatedAt": "2026-08-07T11:03:13Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120221,
+        "title": "fix: TUI source smoke no longer fails without a build",
+        "url": "https://github.com/openclaw/openclaw/pull/120221",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-07T10:07:06Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114287,
-        "title": "chore: add fail-closed publication security preflight",
-        "url": "https://github.com/openclaw/openclaw/pull/114287",
-        "state": "open",
-        "author": "fr-meyer",
-        "updatedAt": "2026-08-07T10:06:49Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114480,
-        "title": "fix(codex): account and trace every provider response",
-        "url": "https://github.com/openclaw/openclaw/pull/114480",
-        "state": "open",
-        "author": "zhl-cyber",
-        "updatedAt": "2026-08-07T10:06:21Z"
+        "updatedAt": "2026-08-07T11:03:01Z"
       }
     ]
   }

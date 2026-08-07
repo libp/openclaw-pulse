@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-06T15:27:07.748Z",
+  "generatedAt": "2026-08-07T00:13:57.933Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -357,6 +357,23 @@
       "contributors": 3070,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-07",
+      "capturedAt": "2026-08-07T00:13:57.933Z",
+      "issueOpen": 3388,
+      "issueClosed": 42765,
+      "prOpen": 2164,
+      "prClosed": 69295,
+      "prMerged": 22744,
+      "workflowRuns": 40000,
+      "stars": 385384,
+      "forks": 81018,
+      "subscribers": 1761,
+      "commits": 76871,
+      "contributors": 3071,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -423,101 +440,82 @@
       "subscribers": 1760,
       "commits": 76835,
       "contributors": 3070
+    },
+    {
+      "capturedOn": "2026-08-07",
+      "stars": 385384,
+      "forks": 81018,
+      "subscribers": 1761,
+      "commits": 76871,
+      "contributors": 3071
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 119866,
-        "title": "iOS: keyboard haptic feedback does not fire while typing in the app (works in every other app) — likely suppressed by an active .playAndRecord audio session",
-        "url": "https://github.com/openclaw/openclaw/issues/119866",
+        "number": 120074,
+        "title": "Gateway blocks its event loop for tens of seconds after every agent turn on multi-agent installs",
+        "url": "https://github.com/openclaw/openclaw/issues/120074",
         "state": "open",
-        "author": "joeykrug",
-        "updatedAt": "2026-08-06T15:24:32Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119873,
-        "title": "exec timeout is in seconds but the field name does not say so; process timeout is milliseconds",
-        "url": "https://github.com/openclaw/openclaw/issues/119873",
-        "state": "open",
-        "author": "Marvinthebored",
-        "updatedAt": "2026-08-06T15:23:31Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119979,
-        "title": "[Bug]: Turn failing before adoption wedges the channel ingress lane for the full 300s stall watchdog; messages sent meanwhile are silently dropped",
-        "url": "https://github.com/openclaw/openclaw/issues/119979",
-        "state": "open",
-        "author": "joeykrug",
-        "updatedAt": "2026-08-06T15:23:13Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119980,
-        "title": "[Bug]: Moonshot models-list E2E makes trigger status time out",
-        "url": "https://github.com/openclaw/openclaw/issues/119980",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-06T15:23:11Z"
+        "author": "sercada",
+        "updatedAt": "2026-08-07T00:13:12Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 119987,
-        "title": "refactor(plugins): single-source question-reaction stores and preflight audio via plugin SDK",
-        "url": "https://github.com/openclaw/openclaw/pull/119987",
+        "number": 119762,
+        "title": "feat(release): validate stable and prerelease Windows node releases",
+        "url": "https://github.com/openclaw/openclaw/pull/119762",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-06T15:26:58Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-07T00:13:37Z"
       },
       {
         "kind": "pr",
-        "number": 119809,
-        "title": "fix(test): zalo lifecycle suites fail Windows teardown with EBUSY on agent state DB",
-        "url": "https://github.com/openclaw/openclaw/pull/119809",
-        "state": "closed",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-08-06T15:26:45Z"
+        "number": 115237,
+        "title": "feat(claws): adopt portable profiles and native bootstrap",
+        "url": "https://github.com/openclaw/openclaw/pull/115237",
+        "state": "open",
+        "author": "giodl73-repo",
+        "updatedAt": "2026-08-07T00:13:11Z"
       },
       {
         "kind": "pr",
-        "number": 119988,
-        "title": "fix(cli): forward SIGINT to child and add force-kill timeout in attach",
-        "url": "https://github.com/openclaw/openclaw/pull/119988",
+        "number": 118749,
+        "title": "fix(gateway): make doctor dreaming timestamp comparators NaN-safe",
+        "url": "https://github.com/openclaw/openclaw/pull/118749",
         "state": "open",
-        "author": "xialonglee",
-        "updatedAt": "2026-08-06T15:26:25Z"
+        "author": "tzy-17",
+        "updatedAt": "2026-08-07T00:12:18Z"
       },
       {
         "kind": "pr",
-        "number": 119981,
-        "title": "fix(gateway): keep new nodes compatible with older gateways",
-        "url": "https://github.com/openclaw/openclaw/pull/119981",
+        "number": 119190,
+        "title": "fix: gateway reports constant memory pressure warnings on large-memory hosts",
+        "url": "https://github.com/openclaw/openclaw/pull/119190",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-06T15:26:17Z"
+        "author": "Marvinthebored",
+        "updatedAt": "2026-08-07T00:11:52Z"
       },
       {
         "kind": "pr",
-        "number": 119976,
-        "title": "fix(nextcloud-talk): redact upstream error body text in send and bot-preflight",
-        "url": "https://github.com/openclaw/openclaw/pull/119976",
+        "number": 119874,
+        "title": "fix: exec timeout field does not state its unit, so callers pass milliseconds",
+        "url": "https://github.com/openclaw/openclaw/pull/119874",
         "state": "open",
-        "author": "xialonglee",
-        "updatedAt": "2026-08-06T15:25:36Z"
+        "author": "Marvinthebored",
+        "updatedAt": "2026-08-07T00:11:50Z"
       },
       {
         "kind": "pr",
-        "number": 119441,
-        "title": "fix(systemd): apply dotenv changes on gateway restart",
-        "url": "https://github.com/openclaw/openclaw/pull/119441",
+        "number": 118430,
+        "title": "fix(node-cli): warn when systemd user lingering is disabled after install",
+        "url": "https://github.com/openclaw/openclaw/pull/118430",
         "state": "open",
-        "author": "sallyom",
-        "updatedAt": "2026-08-06T15:25:32Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-08-07T00:11:33Z"
       }
     ]
   }

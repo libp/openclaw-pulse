@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-07T11:55:36.454Z",
+  "generatedAt": "2026-08-07T13:37:04.092Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -360,16 +360,16 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "capturedAt": "2026-08-07T11:55:36.454Z",
-      "issueOpen": 3384,
-      "issueClosed": 42813,
-      "prOpen": 2157,
-      "prClosed": 69412,
+      "capturedAt": "2026-08-07T13:37:04.092Z",
+      "issueOpen": 3387,
+      "issueClosed": 42814,
+      "prOpen": 2156,
+      "prClosed": 69421,
       "prMerged": 22821,
       "workflowRuns": 40000,
-      "stars": 385447,
-      "forks": 81020,
-      "subscribers": 1762,
+      "stars": 385448,
+      "forks": 81021,
+      "subscribers": 1763,
       "commits": 76969,
       "contributors": 3072,
       "source": "github-actions",
@@ -443,9 +443,9 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "stars": 385447,
-      "forks": 81020,
-      "subscribers": 1762,
+      "stars": 385448,
+      "forks": 81021,
+      "subscribers": 1763,
       "commits": 76969,
       "contributors": 3072
     }
@@ -454,113 +454,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 120225,
-        "title": "[Feature]: Support for agent-plugins.org standard",
-        "url": "https://github.com/openclaw/openclaw/issues/120225",
-        "state": "closed",
-        "author": "forceworks",
-        "updatedAt": "2026-08-07T11:54:06Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119347,
-        "title": "Codex commentary visibility is unclear in quiet Slack turns",
-        "url": "https://github.com/openclaw/openclaw/issues/119347",
+        "number": 119338,
+        "title": "[Bug]: [codex] avoid injecting Codex recommended_plugins into OpenClaw prompts",
+        "url": "https://github.com/openclaw/openclaw/issues/119338",
         "state": "open",
         "author": "bek91",
-        "updatedAt": "2026-08-07T11:53:39Z"
+        "updatedAt": "2026-08-07T13:36:40Z"
       },
       {
         "kind": "issue",
-        "number": 91415,
-        "title": "[Feature]: Discord: add option to ignore mass mentions (@everyone & @here) for requireMention",
-        "url": "https://github.com/openclaw/openclaw/issues/91415",
+        "number": 120118,
+        "title": "[Bug]: Converted images retain stale filename extensions",
+        "url": "https://github.com/openclaw/openclaw/issues/120118",
         "state": "open",
-        "author": "rrouviere",
-        "updatedAt": "2026-08-07T11:53:38Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-07T13:36:35Z"
       },
       {
         "kind": "issue",
-        "number": 106203,
-        "title": "Remote Windows node is connected and system.which works, but Codex/WebChat exposes no node_exec surface",
-        "url": "https://github.com/openclaw/openclaw/issues/106203",
+        "number": 119895,
+        "title": "Plugin catalog fully reloads on first turn per agent after gateway restart (~11.8s / 140 bundled plugins) — measurements + plugins.allow workaround",
+        "url": "https://github.com/openclaw/openclaw/issues/119895",
         "state": "open",
-        "author": "JPKay-AI",
-        "updatedAt": "2026-08-07T11:53:32Z"
+        "author": "amdiakhate",
+        "updatedAt": "2026-08-07T13:36:33Z"
       },
       {
         "kind": "issue",
-        "number": 91697,
-        "title": "pruneDiagnosticSessionStates() does not clean up non-idle stale entries — ghost entries accumulate indefinitely after failed recovery",
-        "url": "https://github.com/openclaw/openclaw/issues/91697",
+        "number": 119254,
+        "title": "WhatsApp: design poll_vote_received plugin hook (narrow follow-up to #48570)",
+        "url": "https://github.com/openclaw/openclaw/issues/119254",
         "state": "open",
-        "author": "Jemtoh",
-        "updatedAt": "2026-08-07T11:53:25Z"
+        "author": "pscoutosoares",
+        "updatedAt": "2026-08-07T13:35:56Z"
       },
       {
         "kind": "issue",
-        "number": 118793,
-        "title": "Claude CLI \"session limit\" error dies with surface_error instead of triggering the model fallback chain",
-        "url": "https://github.com/openclaw/openclaw/issues/118793",
+        "number": 92015,
+        "title": "Hardening: Skip default workspace auto-scaffold & git init for runtime-managed (ACP) agents",
+        "url": "https://github.com/openclaw/openclaw/issues/92015",
         "state": "open",
-        "author": "germankovacevic-lab",
-        "updatedAt": "2026-08-07T11:53:20Z"
+        "author": "jleonelion",
+        "updatedAt": "2026-08-07T13:35:48Z"
+      },
+      {
+        "kind": "issue",
+        "number": 91556,
+        "title": "Support MCP `notifications/tools/list_changed` in the client + add an HTTP reload endpoint for `mcp.servers.*`",
+        "url": "https://github.com/openclaw/openclaw/issues/91556",
+        "state": "open",
+        "author": "ramontpalomo",
+        "updatedAt": "2026-08-07T13:35:47Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 41265,
-        "title": "fix(discord): preserve content-type and skip optimization for animated/WebP images",
-        "url": "https://github.com/openclaw/openclaw/pull/41265",
+        "number": 120239,
+        "title": "fix(googlechat): reject invalid UTF-8 in API JSON responses",
+        "url": "https://github.com/openclaw/openclaw/pull/120239",
         "state": "open",
-        "author": "skidder",
-        "updatedAt": "2026-08-07T11:55:06Z"
+        "author": "sunlit-deng",
+        "updatedAt": "2026-08-07T13:36:44Z"
       },
       {
         "kind": "pr",
-        "number": 120126,
-        "title": "fix(telegram): log error notification send failure instead of silent catch",
-        "url": "https://github.com/openclaw/openclaw/pull/120126",
+        "number": 120044,
+        "title": "fix(gateway): usage.status no longer waits on provider HTTP",
+        "url": "https://github.com/openclaw/openclaw/pull/120044",
         "state": "open",
-        "author": "xialonglee",
-        "updatedAt": "2026-08-07T11:54:09Z"
+        "author": "sasan1200",
+        "updatedAt": "2026-08-07T13:36:21Z"
       },
       {
         "kind": "pr",
-        "number": 120018,
-        "title": "improve(release): verify Linux Gateway-node compatibility",
-        "url": "https://github.com/openclaw/openclaw/pull/120018",
+        "number": 120240,
+        "title": "fix(ollama): reject invalid UTF-8 in streaming NDJSON responses",
+        "url": "https://github.com/openclaw/openclaw/pull/120240",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-07T11:54:00Z"
+        "author": "sunlit-deng",
+        "updatedAt": "2026-08-07T13:36:12Z"
       },
       {
         "kind": "pr",
-        "number": 120032,
-        "title": "improve(release): bind Gateway-node compatibility evidence",
-        "url": "https://github.com/openclaw/openclaw/pull/120032",
+        "number": 120192,
+        "title": "fix(daemon): avoid taskkill /T killing the restart CLI on Windows",
+        "url": "https://github.com/openclaw/openclaw/pull/120192",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-07T11:53:44Z"
+        "author": "licheer-zte",
+        "updatedAt": "2026-08-07T13:35:53Z"
       },
       {
         "kind": "pr",
-        "number": 119527,
-        "title": "fix(ui): transcript search opens the selected historical message",
-        "url": "https://github.com/openclaw/openclaw/pull/119527",
+        "number": 120208,
+        "title": "fix(gateway): complete bounded file prefix reads",
+        "url": "https://github.com/openclaw/openclaw/pull/120208",
         "state": "open",
-        "author": "samrusani",
-        "updatedAt": "2026-08-07T11:53:37Z"
+        "author": "sunlit-deng",
+        "updatedAt": "2026-08-07T13:35:40Z"
       },
       {
         "kind": "pr",
-        "number": 120193,
-        "title": "fix(ci): isolate package Telegram QA harness",
-        "url": "https://github.com/openclaw/openclaw/pull/120193",
+        "number": 117248,
+        "title": "fix(memory-core): filter junk topics from REM phase extraction (#111923)",
+        "url": "https://github.com/openclaw/openclaw/pull/117248",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-07T11:53:35Z"
+        "author": "synthalorian",
+        "updatedAt": "2026-08-07T13:35:40Z"
       }
     ]
   }

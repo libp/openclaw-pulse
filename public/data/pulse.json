@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-07T15:07:44.652Z",
+  "generatedAt": "2026-08-07T16:07:55.050Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -360,17 +360,17 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "capturedAt": "2026-08-07T15:07:44.652Z",
-      "issueOpen": 3393,
-      "issueClosed": 42820,
-      "prOpen": 2156,
-      "prClosed": 69427,
-      "prMerged": 22824,
+      "capturedAt": "2026-08-07T16:07:55.050Z",
+      "issueOpen": 3398,
+      "issueClosed": 42821,
+      "prOpen": 2172,
+      "prClosed": 69434,
+      "prMerged": 22826,
       "workflowRuns": 40000,
-      "stars": 385452,
-      "forks": 81021,
+      "stars": 385454,
+      "forks": 81020,
       "subscribers": 1763,
-      "commits": 76972,
+      "commits": 76974,
       "contributors": 3072,
       "source": "github-actions",
       "approximateDate": false
@@ -443,10 +443,10 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "stars": 385452,
-      "forks": 81021,
+      "stars": 385454,
+      "forks": 81020,
       "subscribers": 1763,
-      "commits": 76972,
+      "commits": 76974,
       "contributors": 3072
     }
   ],
@@ -454,113 +454,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 119958,
-        "title": "gateway restart reports failure after a fixed 60s health wait while startup legitimately takes 240s+ (in-process restart, PID unchanged, no way to tell 'starting' from 'dead')",
-        "url": "https://github.com/openclaw/openclaw/issues/119958",
-        "state": "open",
-        "author": "islandpreneur007",
-        "updatedAt": "2026-08-07T15:07:34Z"
-      },
-      {
-        "kind": "issue",
-        "number": 117644,
-        "title": "[Bug]: Agent emits Unix commands (head, tilde expansion) in PowerShell on Windows - broader than #10868",
-        "url": "https://github.com/openclaw/openclaw/issues/117644",
-        "state": "open",
-        "author": "blaiqcharles-cloud",
-        "updatedAt": "2026-08-07T15:07:19Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119858,
-        "title": "[Bug]: Android chat session switcher hides all of an agent's history after 24h idle, making agent switching look empty",
-        "url": "https://github.com/openclaw/openclaw/issues/119858",
-        "state": "open",
-        "author": "hidenori-endo",
-        "updatedAt": "2026-08-07T15:07:16Z"
-      },
-      {
-        "kind": "issue",
-        "number": 120006,
-        "title": "cli session reset (reason=message-policy) drops tool history, and concurrent CLI sessions can act on the same session key",
-        "url": "https://github.com/openclaw/openclaw/issues/120006",
-        "state": "open",
-        "author": "jcrodriguezdiez-gif",
-        "updatedAt": "2026-08-07T15:07:11Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119684,
-        "title": "[Bug]: saveRemoteMedia has no fallback for Wikimedia's thumbnail-width rejection (kills the whole reply)",
-        "url": "https://github.com/openclaw/openclaw/issues/119684",
-        "state": "open",
-        "author": "sappkevin",
-        "updatedAt": "2026-08-07T15:07:09Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119168,
-        "title": "[Bug]: durable-delivery treats adapter_returned_no_identity as not sent, unlike all sibling consumers",
-        "url": "https://github.com/openclaw/openclaw/issues/119168",
-        "state": "open",
-        "author": "ruel225",
-        "updatedAt": "2026-08-07T15:07:00Z"
+        "number": 116277,
+        "title": "DeepSeek v4 Flash silent reply failure — no reply generated, generic fallback",
+        "url": "https://github.com/openclaw/openclaw/issues/116277",
+        "state": "closed",
+        "author": "sloptop-the-terrible",
+        "updatedAt": "2026-08-07T16:05:12Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 79982,
-        "title": "feat(tools): introduce group:core for all built-in core tools",
-        "url": "https://github.com/openclaw/openclaw/pull/79982",
+        "number": 81921,
+        "title": "fix(plugin-sdk): expose skills helper surfaces",
+        "url": "https://github.com/openclaw/openclaw/pull/81921",
         "state": "open",
-        "author": "seank-com",
-        "updatedAt": "2026-08-07T15:07:28Z"
+        "author": "jbetala7",
+        "updatedAt": "2026-08-07T16:07:48Z"
       },
       {
         "kind": "pr",
-        "number": 120248,
-        "title": "fix(amazon-bedrock): avoid O(n^2) tool-call arg re-parsing on large streamed payloads",
-        "url": "https://github.com/openclaw/openclaw/pull/120248",
+        "number": 119662,
+        "title": "fix(qa): require a fresh reply and real tool use after switching models",
+        "url": "https://github.com/openclaw/openclaw/pull/119662",
         "state": "open",
-        "author": "lucascmg-vx",
-        "updatedAt": "2026-08-07T15:07:11Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-07T16:07:36Z"
       },
       {
         "kind": "pr",
-        "number": 72129,
-        "title": "feat(huggingface): add text-to-image generation via hf-inference Inference Providers route",
-        "url": "https://github.com/openclaw/openclaw/pull/72129",
+        "number": 112183,
+        "title": "fix(security): audit nested skill escapes under symlinked skills roots",
+        "url": "https://github.com/openclaw/openclaw/pull/112183",
         "state": "open",
-        "author": "lyfuci",
-        "updatedAt": "2026-08-07T15:07:01Z"
+        "author": "cornerblue",
+        "updatedAt": "2026-08-07T16:07:11Z"
       },
       {
         "kind": "pr",
-        "number": 111829,
-        "title": "fix(sessions): hide reasoning in generated titles",
-        "url": "https://github.com/openclaw/openclaw/pull/111829",
+        "number": 119267,
+        "title": "feat(trajectory): record native tool events and structured delegation origin",
+        "url": "https://github.com/openclaw/openclaw/pull/119267",
+        "state": "open",
+        "author": "IsaiahStapleton",
+        "updatedAt": "2026-08-07T16:07:02Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119549,
+        "title": "fix: preserve paragraph boundaries across streamed replies",
+        "url": "https://github.com/openclaw/openclaw/pull/119549",
+        "state": "open",
+        "author": "qingminglong",
+        "updatedAt": "2026-08-07T16:06:54Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112055,
+        "title": "fix(install): repair stale Winget Node registrations",
+        "url": "https://github.com/openclaw/openclaw/pull/112055",
         "state": "open",
         "author": "ooiuuii",
-        "updatedAt": "2026-08-07T15:06:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 116327,
-        "title": "fix(agents): pre-warm assemble before returning raw messages on heartbeat",
-        "url": "https://github.com/openclaw/openclaw/pull/116327",
-        "state": "open",
-        "author": "mpz4life",
-        "updatedAt": "2026-08-07T15:06:24Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117646,
-        "title": "fix(gateway): contain late sidecar stop failures",
-        "url": "https://github.com/openclaw/openclaw/pull/117646",
-        "state": "open",
-        "author": "IWhatsskill",
-        "updatedAt": "2026-08-07T15:06:08Z"
+        "updatedAt": "2026-08-07T16:06:37Z"
       }
     ]
   }

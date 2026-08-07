@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-07T05:02:43.588Z",
+  "generatedAt": "2026-08-07T06:17:39.790Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -360,17 +360,17 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "capturedAt": "2026-08-07T05:02:43.588Z",
+      "capturedAt": "2026-08-07T06:17:39.790Z",
       "issueOpen": 3386,
-      "issueClosed": 42789,
-      "prOpen": 2150,
-      "prClosed": 69364,
-      "prMerged": 22781,
+      "issueClosed": 42796,
+      "prOpen": 2149,
+      "prClosed": 69371,
+      "prMerged": 22788,
       "workflowRuns": 40000,
-      "stars": 385399,
-      "forks": 81017,
+      "stars": 385400,
+      "forks": 81016,
       "subscribers": 1762,
-      "commits": 76912,
+      "commits": 76925,
       "contributors": 3072,
       "source": "github-actions",
       "approximateDate": false
@@ -443,10 +443,10 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "stars": 385399,
-      "forks": 81017,
+      "stars": 385400,
+      "forks": 81016,
       "subscribers": 1762,
-      "commits": 76912,
+      "commits": 76925,
       "contributors": 3072
     }
   ],
@@ -454,86 +454,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 120145,
-        "title": "Verify msteams HTTP listener surfaces bind errors as visible operator outcome",
-        "url": "https://github.com/openclaw/openclaw/issues/120145",
+        "number": 118880,
+        "title": "Agent run timeout notice fires while the underlying run is still executing (not cancelled), producing misleading failure + late duplicate completion messages",
+        "url": "https://github.com/openclaw/openclaw/issues/118880",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-07T05:01:01Z"
+        "author": "cookywook",
+        "updatedAt": "2026-08-07T06:17:16Z"
       },
       {
         "kind": "issue",
-        "number": 120147,
-        "title": "[Bug]: Telegram channel loses \"action\" capability at runtime: message.action fails with \"unsupported channel\" while text sends keep working",
-        "url": "https://github.com/openclaw/openclaw/issues/120147",
+        "number": 118503,
+        "title": "Managed env keys in systemd env files don't sync when .env is edited",
+        "url": "https://github.com/openclaw/openclaw/issues/118503",
         "state": "open",
-        "author": "assistenteskynet",
-        "updatedAt": "2026-08-07T04:55:48Z"
+        "author": "JeffSteinbok",
+        "updatedAt": "2026-08-07T06:17:06Z"
       },
       {
         "kind": "issue",
-        "number": 120142,
-        "title": "Tighten DISCORD_EMPTY_VISIBLE_REPLY_WARNING to identify cause",
-        "url": "https://github.com/openclaw/openclaw/issues/120142",
+        "number": 118842,
+        "title": "Subagent settle announce redelivered after parent consolidate → parent thrash loop (NO_REPLY latch not enforced)",
+        "url": "https://github.com/openclaw/openclaw/issues/118842",
         "state": "open",
-        "author": "patelmm79",
-        "updatedAt": "2026-08-07T04:51:41Z"
+        "author": "MScottAdams",
+        "updatedAt": "2026-08-07T06:17:05Z"
+      },
+      {
+        "kind": "issue",
+        "number": 89114,
+        "title": "Minimax M3: /think menu missing xhigh, adaptive, max levels (provider profile limitation)",
+        "url": "https://github.com/openclaw/openclaw/issues/89114",
+        "state": "open",
+        "author": "superandylin",
+        "updatedAt": "2026-08-07T06:17:01Z"
+      },
+      {
+        "kind": "issue",
+        "number": 89216,
+        "title": "[Bug]: Matrix bindings for per-room agent routing are silently ignored",
+        "url": "https://github.com/openclaw/openclaw/issues/89216",
+        "state": "open",
+        "author": "cpgeek",
+        "updatedAt": "2026-08-07T06:17:00Z"
+      },
+      {
+        "kind": "issue",
+        "number": 117472,
+        "title": "Session tool catalog transiently loses a declared tool after prompt-content resume (claude-cli runtime)",
+        "url": "https://github.com/openclaw/openclaw/issues/117472",
+        "state": "open",
+        "author": "AntonOvichBot",
+        "updatedAt": "2026-08-07T06:16:59Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 85651,
-        "title": "feat(continuation): context-pressure-aware continuation (continue_work / continue_delegate / request_compaction)",
-        "url": "https://github.com/openclaw/openclaw/pull/85651",
+        "number": 120018,
+        "title": "improve(release): verify Linux Gateway-node compatibility",
+        "url": "https://github.com/openclaw/openclaw/pull/120018",
         "state": "open",
-        "author": "karmafeast",
-        "updatedAt": "2026-08-07T05:02:25Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-07T06:17:37Z"
       },
       {
         "kind": "pr",
-        "number": 120140,
-        "title": "feat: let plugins stop an agent run without discarding the session",
-        "url": "https://github.com/openclaw/openclaw/pull/120140",
+        "number": 120032,
+        "title": "improve(release): bind Gateway-node compatibility evidence",
+        "url": "https://github.com/openclaw/openclaw/pull/120032",
         "state": "open",
-        "author": "amoghasgekar",
-        "updatedAt": "2026-08-07T05:02:19Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-07T06:17:36Z"
       },
       {
         "kind": "pr",
-        "number": 120056,
-        "title": "fix(cron): treat NO_REPLY as absent when classifying tool failure rec…",
-        "url": "https://github.com/openclaw/openclaw/pull/120056",
+        "number": 119762,
+        "title": "feat(release): validate stable and prerelease Windows node releases",
+        "url": "https://github.com/openclaw/openclaw/pull/119762",
         "state": "open",
-        "author": "NarahariRaghava",
-        "updatedAt": "2026-08-07T05:02:03Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-07T06:17:32Z"
       },
       {
         "kind": "pr",
-        "number": 119267,
-        "title": "feat(trajectory): record native tool events and structured delegation origin",
-        "url": "https://github.com/openclaw/openclaw/pull/119267",
+        "number": 119325,
+        "title": "fix(models): preserve selection across fallback turns",
+        "url": "https://github.com/openclaw/openclaw/pull/119325",
         "state": "open",
-        "author": "IsaiahStapleton",
-        "updatedAt": "2026-08-07T05:01:37Z"
+        "author": "VACInc",
+        "updatedAt": "2026-08-07T06:17:21Z"
       },
       {
         "kind": "pr",
-        "number": 116511,
-        "title": "fix(agents): skip repeated workspace bootstrap on continuation turns",
-        "url": "https://github.com/openclaw/openclaw/pull/116511",
+        "number": 113271,
+        "title": "feat(control-ui): drag-to-resize chat composer",
+        "url": "https://github.com/openclaw/openclaw/pull/113271",
         "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-08-07T04:59:40Z"
+        "author": "zyyhhxx",
+        "updatedAt": "2026-08-07T06:16:58Z"
       },
       {
         "kind": "pr",
-        "number": 120131,
-        "title": "fix(diagnostics-otel): keep telemetry exporting across in-process restarts",
-        "url": "https://github.com/openclaw/openclaw/pull/120131",
+        "number": 117244,
+        "title": "fix(gateway): prevent mixed content when resuming changed media",
+        "url": "https://github.com/openclaw/openclaw/pull/117244",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-07T04:59:24Z"
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-08-07T06:16:55Z"
       }
     ]
   }

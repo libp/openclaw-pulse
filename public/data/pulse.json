@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-07T00:13:57.933Z",
+  "generatedAt": "2026-08-07T03:14:38.267Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -360,17 +360,17 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "capturedAt": "2026-08-07T00:13:57.933Z",
-      "issueOpen": 3388,
-      "issueClosed": 42765,
-      "prOpen": 2164,
-      "prClosed": 69295,
-      "prMerged": 22744,
+      "capturedAt": "2026-08-07T03:14:38.267Z",
+      "issueOpen": 3384,
+      "issueClosed": 42779,
+      "prOpen": 2154,
+      "prClosed": 69347,
+      "prMerged": 22771,
       "workflowRuns": 40000,
-      "stars": 385384,
-      "forks": 81018,
-      "subscribers": 1761,
-      "commits": 76871,
+      "stars": 385395,
+      "forks": 81016,
+      "subscribers": 1762,
+      "commits": 76902,
       "contributors": 3071,
       "source": "github-actions",
       "approximateDate": false
@@ -443,79 +443,69 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "stars": 385384,
-      "forks": 81018,
-      "subscribers": 1761,
-      "commits": 76871,
+      "stars": 385395,
+      "forks": 81016,
+      "subscribers": 1762,
+      "commits": 76902,
       "contributors": 3071
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 120074,
-        "title": "Gateway blocks its event loop for tens of seconds after every agent turn on multi-agent installs",
-        "url": "https://github.com/openclaw/openclaw/issues/120074",
-        "state": "open",
-        "author": "sercada",
-        "updatedAt": "2026-08-07T00:13:12Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 119762,
-        "title": "feat(release): validate stable and prerelease Windows node releases",
-        "url": "https://github.com/openclaw/openclaw/pull/119762",
+        "number": 117192,
+        "title": "Fix code scanning alerts and update dependencies",
+        "url": "https://github.com/openclaw/openclaw/pull/117192",
+        "state": "open",
+        "author": "devops2626",
+        "updatedAt": "2026-08-07T03:14:29Z"
+      },
+      {
+        "kind": "pr",
+        "number": 107152,
+        "title": "fix(memory): hide QMD transport metadata from recalled content",
+        "url": "https://github.com/openclaw/openclaw/pull/107152",
+        "state": "open",
+        "author": "BlackFrameAI",
+        "updatedAt": "2026-08-07T03:14:22Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111117,
+        "title": "fix(update): keep repair JSON output parseable",
+        "url": "https://github.com/openclaw/openclaw/pull/111117",
+        "state": "open",
+        "author": "arcabotai",
+        "updatedAt": "2026-08-07T03:14:21Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119942,
+        "title": "release: extended-stable 2026.6.35",
+        "url": "https://github.com/openclaw/openclaw/pull/119942",
         "state": "open",
         "author": "RomneyDa",
-        "updatedAt": "2026-08-07T00:13:37Z"
+        "updatedAt": "2026-08-07T03:14:15Z"
       },
       {
         "kind": "pr",
-        "number": 115237,
-        "title": "feat(claws): adopt portable profiles and native bootstrap",
-        "url": "https://github.com/openclaw/openclaw/pull/115237",
+        "number": 58421,
+        "title": "feat(plugins): add optional api.resetSession()",
+        "url": "https://github.com/openclaw/openclaw/pull/58421",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-08-07T00:13:11Z"
+        "author": "MrGPUs",
+        "updatedAt": "2026-08-07T03:14:01Z"
       },
       {
         "kind": "pr",
-        "number": 118749,
-        "title": "fix(gateway): make doctor dreaming timestamp comparators NaN-safe",
-        "url": "https://github.com/openclaw/openclaw/pull/118749",
+        "number": 109067,
+        "title": "fix(agents): idle-timeout stalled provider response body reads",
+        "url": "https://github.com/openclaw/openclaw/pull/109067",
         "state": "open",
-        "author": "tzy-17",
-        "updatedAt": "2026-08-07T00:12:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119190,
-        "title": "fix: gateway reports constant memory pressure warnings on large-memory hosts",
-        "url": "https://github.com/openclaw/openclaw/pull/119190",
-        "state": "open",
-        "author": "Marvinthebored",
-        "updatedAt": "2026-08-07T00:11:52Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119874,
-        "title": "fix: exec timeout field does not state its unit, so callers pass milliseconds",
-        "url": "https://github.com/openclaw/openclaw/pull/119874",
-        "state": "open",
-        "author": "Marvinthebored",
-        "updatedAt": "2026-08-07T00:11:50Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118430,
-        "title": "fix(node-cli): warn when systemd user lingering is disabled after install",
-        "url": "https://github.com/openclaw/openclaw/pull/118430",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-07T00:11:33Z"
+        "author": "hugenshen",
+        "updatedAt": "2026-08-07T03:13:25Z"
       }
     ]
   }

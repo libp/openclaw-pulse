@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-07T19:13:33.611Z",
+  "generatedAt": "2026-08-07T19:58:41.404Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -360,17 +360,17 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "capturedAt": "2026-08-07T19:13:33.611Z",
+      "capturedAt": "2026-08-07T19:58:41.404Z",
       "issueOpen": 3400,
-      "issueClosed": 42834,
-      "prOpen": 2177,
-      "prClosed": 69451,
-      "prMerged": 22840,
+      "issueClosed": 42838,
+      "prOpen": 2183,
+      "prClosed": 69455,
+      "prMerged": 22843,
       "workflowRuns": 40000,
       "stars": 385467,
-      "forks": 81023,
+      "forks": 81022,
       "subscribers": 1763,
-      "commits": 76988,
+      "commits": 76992,
       "contributors": 3072,
       "source": "github-actions",
       "approximateDate": false
@@ -444,24 +444,70 @@
     {
       "capturedOn": "2026-08-07",
       "stars": 385467,
-      "forks": 81023,
+      "forks": 81022,
       "subscribers": 1763,
-      "commits": 76988,
+      "commits": 76992,
       "contributors": 3072
     }
   ],
   "activity": {
-    "issues": [],
-    "prs": [
+    "issues": [
       {
-        "kind": "pr",
-        "number": 120248,
-        "title": "fix(amazon-bedrock): avoid O(n^2) tool-call arg re-parsing on large streamed payloads",
-        "url": "https://github.com/openclaw/openclaw/pull/120248",
+        "kind": "issue",
+        "number": 112350,
+        "title": "cron job actively firing (visible in `cron runs --id`) but absent from `cron list --all` / get / show; `rm` fails \"id not found\"",
+        "url": "https://github.com/openclaw/openclaw/issues/112350",
         "state": "open",
-        "author": "lucascmg-vx",
-        "updatedAt": "2026-08-07T19:13:17Z"
+        "author": "smokerinthewind",
+        "updatedAt": "2026-08-07T19:57:35Z"
       },
+      {
+        "kind": "issue",
+        "number": 112153,
+        "title": "[Bug] Unhandled exception when loading corrupted session state from SQLite store",
+        "url": "https://github.com/openclaw/openclaw/issues/112153",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-08-07T19:57:26Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112092,
+        "title": "[Refactor] Modularize model catalog provider resolution into plugin capabilities",
+        "url": "https://github.com/openclaw/openclaw/issues/112092",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-08-07T19:57:17Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112112,
+        "title": "[Architecture] Decouple audio processing pipeline from core speech bindings in packages/speech-core",
+        "url": "https://github.com/openclaw/openclaw/issues/112112",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-08-07T19:57:08Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112099,
+        "title": "[Architecture] Standardize audio/video asset pipeline across TTS and media generation skills",
+        "url": "https://github.com/openclaw/openclaw/issues/112099",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-08-07T19:56:59Z"
+      },
+      {
+        "kind": "issue",
+        "number": 117635,
+        "title": "[Bug]: compose run orphan",
+        "url": "https://github.com/openclaw/openclaw/issues/117635",
+        "state": "open",
+        "author": "MrJules88",
+        "updatedAt": "2026-08-07T19:54:07Z"
+      }
+    ],
+    "prs": [
       {
         "kind": "pr",
         "number": 116570,
@@ -469,43 +515,52 @@
         "url": "https://github.com/openclaw/openclaw/pull/116570",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-07T19:13:04Z"
+        "updatedAt": "2026-08-07T19:58:34Z"
       },
       {
         "kind": "pr",
-        "number": 112385,
-        "title": "feat(snapshot): compose RFC 0013 recovery points",
-        "url": "https://github.com/openclaw/openclaw/pull/112385",
+        "number": 119817,
+        "title": "fix(hooks): target hook-triggered heartbeat wakes at the hook agent/session (#119808)",
+        "url": "https://github.com/openclaw/openclaw/pull/119817",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-08-07T19:12:50Z"
+        "author": "licheer-zte",
+        "updatedAt": "2026-08-07T19:57:50Z"
       },
       {
         "kind": "pr",
-        "number": 82023,
-        "title": "feat(telegram): bind spawned subagents to forum topics",
-        "url": "https://github.com/openclaw/openclaw/pull/82023",
+        "number": 120319,
+        "title": "fix(control-ui): let operators forget a stale stored browser device credential",
+        "url": "https://github.com/openclaw/openclaw/pull/120319",
         "state": "open",
-        "author": "efpiva",
-        "updatedAt": "2026-08-07T19:12:02Z"
+        "author": "Nehanth",
+        "updatedAt": "2026-08-07T19:57:38Z"
       },
       {
         "kind": "pr",
-        "number": 94383,
-        "title": "feat(plugins): persist plugin allow-always approvals",
-        "url": "https://github.com/openclaw/openclaw/pull/94383",
+        "number": 120313,
+        "title": "fix(ci): align hosted gates with workflow applicability",
+        "url": "https://github.com/openclaw/openclaw/pull/120313",
         "state": "open",
-        "author": "amknight",
-        "updatedAt": "2026-08-07T19:11:24Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-07T19:57:16Z"
       },
       {
         "kind": "pr",
-        "number": 88589,
-        "title": "fix(cli): allow agent gateway auth overrides",
-        "url": "https://github.com/openclaw/openclaw/pull/88589",
+        "number": 120325,
+        "title": "refactor: restore canonical execution identity architecture",
+        "url": "https://github.com/openclaw/openclaw/pull/120325",
         "state": "open",
-        "author": "mbelinky",
-        "updatedAt": "2026-08-07T19:10:25Z"
+        "author": "joshavant",
+        "updatedAt": "2026-08-07T19:57:10Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120337,
+        "title": "fix(typing): keep long active turns visible",
+        "url": "https://github.com/openclaw/openclaw/pull/120337",
+        "state": "open",
+        "author": "joshavant",
+        "updatedAt": "2026-08-07T19:56:21Z"
       }
     ]
   }

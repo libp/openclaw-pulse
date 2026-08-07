@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-07T11:06:15.115Z",
+  "generatedAt": "2026-08-07T11:55:36.454Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -360,17 +360,17 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "capturedAt": "2026-08-07T11:06:15.115Z",
-      "issueOpen": 3386,
-      "issueClosed": 42808,
+      "capturedAt": "2026-08-07T11:55:36.454Z",
+      "issueOpen": 3384,
+      "issueClosed": 42813,
       "prOpen": 2157,
-      "prClosed": 69409,
-      "prMerged": 22820,
+      "prClosed": 69412,
+      "prMerged": 22821,
       "workflowRuns": 40000,
-      "stars": 385446,
-      "forks": 81023,
+      "stars": 385447,
+      "forks": 81020,
       "subscribers": 1762,
-      "commits": 76968,
+      "commits": 76969,
       "contributors": 3072,
       "source": "github-actions",
       "approximateDate": false
@@ -443,10 +443,10 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "stars": 385446,
-      "forks": 81023,
+      "stars": 385447,
+      "forks": 81020,
       "subscribers": 1762,
-      "commits": 76968,
+      "commits": 76969,
       "contributors": 3072
     }
   ],
@@ -454,77 +454,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 120220,
-        "title": "TUI PTY source smoke falsely runs built-CLI-only cases",
-        "url": "https://github.com/openclaw/openclaw/issues/120220",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-07T11:02:25Z"
+        "number": 120225,
+        "title": "[Feature]: Support for agent-plugins.org standard",
+        "url": "https://github.com/openclaw/openclaw/issues/120225",
+        "state": "closed",
+        "author": "forceworks",
+        "updatedAt": "2026-08-07T11:54:06Z"
       },
       {
         "kind": "issue",
-        "number": 120219,
-        "title": "[Bug]:Compaction safeguard mode fails with AWS Bedrock (SDK-authenticated) providers",
-        "url": "https://github.com/openclaw/openclaw/issues/120219",
+        "number": 119347,
+        "title": "Codex commentary visibility is unclear in quiet Slack turns",
+        "url": "https://github.com/openclaw/openclaw/issues/119347",
         "state": "open",
-        "author": "joeybernal",
-        "updatedAt": "2026-08-07T11:01:43Z"
+        "author": "bek91",
+        "updatedAt": "2026-08-07T11:53:39Z"
+      },
+      {
+        "kind": "issue",
+        "number": 91415,
+        "title": "[Feature]: Discord: add option to ignore mass mentions (@everyone & @here) for requireMention",
+        "url": "https://github.com/openclaw/openclaw/issues/91415",
+        "state": "open",
+        "author": "rrouviere",
+        "updatedAt": "2026-08-07T11:53:38Z"
+      },
+      {
+        "kind": "issue",
+        "number": 106203,
+        "title": "Remote Windows node is connected and system.which works, but Codex/WebChat exposes no node_exec surface",
+        "url": "https://github.com/openclaw/openclaw/issues/106203",
+        "state": "open",
+        "author": "JPKay-AI",
+        "updatedAt": "2026-08-07T11:53:32Z"
+      },
+      {
+        "kind": "issue",
+        "number": 91697,
+        "title": "pruneDiagnosticSessionStates() does not clean up non-idle stale entries — ghost entries accumulate indefinitely after failed recovery",
+        "url": "https://github.com/openclaw/openclaw/issues/91697",
+        "state": "open",
+        "author": "Jemtoh",
+        "updatedAt": "2026-08-07T11:53:25Z"
+      },
+      {
+        "kind": "issue",
+        "number": 118793,
+        "title": "Claude CLI \"session limit\" error dies with surface_error instead of triggering the model fallback chain",
+        "url": "https://github.com/openclaw/openclaw/issues/118793",
+        "state": "open",
+        "author": "germankovacevic-lab",
+        "updatedAt": "2026-08-07T11:53:20Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 120212,
-        "title": "fix(diagnostics-prometheus): send Content-Length on metrics HEAD responses",
-        "url": "https://github.com/openclaw/openclaw/pull/120212",
+        "number": 41265,
+        "title": "fix(discord): preserve content-type and skip optimization for animated/WebP images",
+        "url": "https://github.com/openclaw/openclaw/pull/41265",
         "state": "open",
-        "author": "zenglingbiao",
-        "updatedAt": "2026-08-07T11:05:45Z"
+        "author": "skidder",
+        "updatedAt": "2026-08-07T11:55:06Z"
       },
       {
         "kind": "pr",
-        "number": 115237,
-        "title": "feat(claws): adopt portable profiles and native bootstrap",
-        "url": "https://github.com/openclaw/openclaw/pull/115237",
-        "state": "closed",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-08-07T11:05:03Z"
+        "number": 120126,
+        "title": "fix(telegram): log error notification send failure instead of silent catch",
+        "url": "https://github.com/openclaw/openclaw/pull/120126",
+        "state": "open",
+        "author": "xialonglee",
+        "updatedAt": "2026-08-07T11:54:09Z"
       },
       {
         "kind": "pr",
-        "number": 109623,
-        "title": "fix(copilot): resolve transport routing bug for issue #99240",
-        "url": "https://github.com/openclaw/openclaw/pull/109623",
+        "number": 120018,
+        "title": "improve(release): verify Linux Gateway-node compatibility",
+        "url": "https://github.com/openclaw/openclaw/pull/120018",
         "state": "open",
-        "author": "fourdollars",
-        "updatedAt": "2026-08-07T11:04:02Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-07T11:54:00Z"
       },
       {
         "kind": "pr",
-        "number": 106636,
-        "title": "fix(sandbox): stream large command stdin buffers",
-        "url": "https://github.com/openclaw/openclaw/pull/106636",
+        "number": 120032,
+        "title": "improve(release): bind Gateway-node compatibility evidence",
+        "url": "https://github.com/openclaw/openclaw/pull/120032",
         "state": "open",
-        "author": "souvikDevloper",
-        "updatedAt": "2026-08-07T11:03:45Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-07T11:53:44Z"
       },
       {
         "kind": "pr",
-        "number": 119235,
-        "title": "feat(exec): let subprocess tools detect OpenClaw",
-        "url": "https://github.com/openclaw/openclaw/pull/119235",
+        "number": 119527,
+        "title": "fix(ui): transcript search opens the selected historical message",
+        "url": "https://github.com/openclaw/openclaw/pull/119527",
         "state": "open",
-        "author": "complynx",
-        "updatedAt": "2026-08-07T11:03:13Z"
+        "author": "samrusani",
+        "updatedAt": "2026-08-07T11:53:37Z"
       },
       {
         "kind": "pr",
-        "number": 120221,
-        "title": "fix: TUI source smoke no longer fails without a build",
-        "url": "https://github.com/openclaw/openclaw/pull/120221",
+        "number": 120193,
+        "title": "fix(ci): isolate package Telegram QA harness",
+        "url": "https://github.com/openclaw/openclaw/pull/120193",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-07T11:03:01Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-07T11:53:35Z"
       }
     ]
   }

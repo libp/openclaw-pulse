@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-07T13:37:04.092Z",
+  "generatedAt": "2026-08-07T15:07:44.652Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -360,17 +360,17 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "capturedAt": "2026-08-07T13:37:04.092Z",
-      "issueOpen": 3387,
-      "issueClosed": 42814,
+      "capturedAt": "2026-08-07T15:07:44.652Z",
+      "issueOpen": 3393,
+      "issueClosed": 42820,
       "prOpen": 2156,
-      "prClosed": 69421,
-      "prMerged": 22821,
+      "prClosed": 69427,
+      "prMerged": 22824,
       "workflowRuns": 40000,
-      "stars": 385448,
+      "stars": 385452,
       "forks": 81021,
       "subscribers": 1763,
-      "commits": 76969,
+      "commits": 76972,
       "contributors": 3072,
       "source": "github-actions",
       "approximateDate": false
@@ -443,10 +443,10 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "stars": 385448,
+      "stars": 385452,
       "forks": 81021,
       "subscribers": 1763,
-      "commits": 76969,
+      "commits": 76972,
       "contributors": 3072
     }
   ],
@@ -454,113 +454,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 119338,
-        "title": "[Bug]: [codex] avoid injecting Codex recommended_plugins into OpenClaw prompts",
-        "url": "https://github.com/openclaw/openclaw/issues/119338",
+        "number": 119958,
+        "title": "gateway restart reports failure after a fixed 60s health wait while startup legitimately takes 240s+ (in-process restart, PID unchanged, no way to tell 'starting' from 'dead')",
+        "url": "https://github.com/openclaw/openclaw/issues/119958",
         "state": "open",
-        "author": "bek91",
-        "updatedAt": "2026-08-07T13:36:40Z"
+        "author": "islandpreneur007",
+        "updatedAt": "2026-08-07T15:07:34Z"
       },
       {
         "kind": "issue",
-        "number": 120118,
-        "title": "[Bug]: Converted images retain stale filename extensions",
-        "url": "https://github.com/openclaw/openclaw/issues/120118",
+        "number": 117644,
+        "title": "[Bug]: Agent emits Unix commands (head, tilde expansion) in PowerShell on Windows - broader than #10868",
+        "url": "https://github.com/openclaw/openclaw/issues/117644",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-07T13:36:35Z"
+        "author": "blaiqcharles-cloud",
+        "updatedAt": "2026-08-07T15:07:19Z"
       },
       {
         "kind": "issue",
-        "number": 119895,
-        "title": "Plugin catalog fully reloads on first turn per agent after gateway restart (~11.8s / 140 bundled plugins) — measurements + plugins.allow workaround",
-        "url": "https://github.com/openclaw/openclaw/issues/119895",
+        "number": 119858,
+        "title": "[Bug]: Android chat session switcher hides all of an agent's history after 24h idle, making agent switching look empty",
+        "url": "https://github.com/openclaw/openclaw/issues/119858",
         "state": "open",
-        "author": "amdiakhate",
-        "updatedAt": "2026-08-07T13:36:33Z"
+        "author": "hidenori-endo",
+        "updatedAt": "2026-08-07T15:07:16Z"
       },
       {
         "kind": "issue",
-        "number": 119254,
-        "title": "WhatsApp: design poll_vote_received plugin hook (narrow follow-up to #48570)",
-        "url": "https://github.com/openclaw/openclaw/issues/119254",
+        "number": 120006,
+        "title": "cli session reset (reason=message-policy) drops tool history, and concurrent CLI sessions can act on the same session key",
+        "url": "https://github.com/openclaw/openclaw/issues/120006",
         "state": "open",
-        "author": "pscoutosoares",
-        "updatedAt": "2026-08-07T13:35:56Z"
+        "author": "jcrodriguezdiez-gif",
+        "updatedAt": "2026-08-07T15:07:11Z"
       },
       {
         "kind": "issue",
-        "number": 92015,
-        "title": "Hardening: Skip default workspace auto-scaffold & git init for runtime-managed (ACP) agents",
-        "url": "https://github.com/openclaw/openclaw/issues/92015",
+        "number": 119684,
+        "title": "[Bug]: saveRemoteMedia has no fallback for Wikimedia's thumbnail-width rejection (kills the whole reply)",
+        "url": "https://github.com/openclaw/openclaw/issues/119684",
         "state": "open",
-        "author": "jleonelion",
-        "updatedAt": "2026-08-07T13:35:48Z"
+        "author": "sappkevin",
+        "updatedAt": "2026-08-07T15:07:09Z"
       },
       {
         "kind": "issue",
-        "number": 91556,
-        "title": "Support MCP `notifications/tools/list_changed` in the client + add an HTTP reload endpoint for `mcp.servers.*`",
-        "url": "https://github.com/openclaw/openclaw/issues/91556",
+        "number": 119168,
+        "title": "[Bug]: durable-delivery treats adapter_returned_no_identity as not sent, unlike all sibling consumers",
+        "url": "https://github.com/openclaw/openclaw/issues/119168",
         "state": "open",
-        "author": "ramontpalomo",
-        "updatedAt": "2026-08-07T13:35:47Z"
+        "author": "ruel225",
+        "updatedAt": "2026-08-07T15:07:00Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 120239,
-        "title": "fix(googlechat): reject invalid UTF-8 in API JSON responses",
-        "url": "https://github.com/openclaw/openclaw/pull/120239",
+        "number": 79982,
+        "title": "feat(tools): introduce group:core for all built-in core tools",
+        "url": "https://github.com/openclaw/openclaw/pull/79982",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-08-07T13:36:44Z"
+        "author": "seank-com",
+        "updatedAt": "2026-08-07T15:07:28Z"
       },
       {
         "kind": "pr",
-        "number": 120044,
-        "title": "fix(gateway): usage.status no longer waits on provider HTTP",
-        "url": "https://github.com/openclaw/openclaw/pull/120044",
+        "number": 120248,
+        "title": "fix(amazon-bedrock): avoid O(n^2) tool-call arg re-parsing on large streamed payloads",
+        "url": "https://github.com/openclaw/openclaw/pull/120248",
         "state": "open",
-        "author": "sasan1200",
-        "updatedAt": "2026-08-07T13:36:21Z"
+        "author": "lucascmg-vx",
+        "updatedAt": "2026-08-07T15:07:11Z"
       },
       {
         "kind": "pr",
-        "number": 120240,
-        "title": "fix(ollama): reject invalid UTF-8 in streaming NDJSON responses",
-        "url": "https://github.com/openclaw/openclaw/pull/120240",
+        "number": 72129,
+        "title": "feat(huggingface): add text-to-image generation via hf-inference Inference Providers route",
+        "url": "https://github.com/openclaw/openclaw/pull/72129",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-08-07T13:36:12Z"
+        "author": "lyfuci",
+        "updatedAt": "2026-08-07T15:07:01Z"
       },
       {
         "kind": "pr",
-        "number": 120192,
-        "title": "fix(daemon): avoid taskkill /T killing the restart CLI on Windows",
-        "url": "https://github.com/openclaw/openclaw/pull/120192",
+        "number": 111829,
+        "title": "fix(sessions): hide reasoning in generated titles",
+        "url": "https://github.com/openclaw/openclaw/pull/111829",
         "state": "open",
-        "author": "licheer-zte",
-        "updatedAt": "2026-08-07T13:35:53Z"
+        "author": "ooiuuii",
+        "updatedAt": "2026-08-07T15:06:37Z"
       },
       {
         "kind": "pr",
-        "number": 120208,
-        "title": "fix(gateway): complete bounded file prefix reads",
-        "url": "https://github.com/openclaw/openclaw/pull/120208",
+        "number": 116327,
+        "title": "fix(agents): pre-warm assemble before returning raw messages on heartbeat",
+        "url": "https://github.com/openclaw/openclaw/pull/116327",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-08-07T13:35:40Z"
+        "author": "mpz4life",
+        "updatedAt": "2026-08-07T15:06:24Z"
       },
       {
         "kind": "pr",
-        "number": 117248,
-        "title": "fix(memory-core): filter junk topics from REM phase extraction (#111923)",
-        "url": "https://github.com/openclaw/openclaw/pull/117248",
+        "number": 117646,
+        "title": "fix(gateway): contain late sidecar stop failures",
+        "url": "https://github.com/openclaw/openclaw/pull/117646",
         "state": "open",
-        "author": "synthalorian",
-        "updatedAt": "2026-08-07T13:35:40Z"
+        "author": "IWhatsskill",
+        "updatedAt": "2026-08-07T15:06:08Z"
       }
     ]
   }

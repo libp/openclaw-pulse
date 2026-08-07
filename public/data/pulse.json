@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-07T06:17:39.790Z",
+  "generatedAt": "2026-08-07T08:20:10.615Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -360,17 +360,17 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "capturedAt": "2026-08-07T06:17:39.790Z",
-      "issueOpen": 3386,
-      "issueClosed": 42796,
-      "prOpen": 2149,
-      "prClosed": 69371,
-      "prMerged": 22788,
+      "capturedAt": "2026-08-07T08:20:10.615Z",
+      "issueOpen": 3387,
+      "issueClosed": 42801,
+      "prOpen": 2144,
+      "prClosed": 69396,
+      "prMerged": 22809,
       "workflowRuns": 40000,
-      "stars": 385400,
-      "forks": 81016,
+      "stars": 385425,
+      "forks": 81018,
       "subscribers": 1762,
-      "commits": 76925,
+      "commits": 76957,
       "contributors": 3072,
       "source": "github-actions",
       "approximateDate": false
@@ -443,10 +443,10 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "stars": 385400,
-      "forks": 81016,
+      "stars": 385425,
+      "forks": 81018,
       "subscribers": 1762,
-      "commits": 76925,
+      "commits": 76957,
       "contributors": 3072
     }
   ],
@@ -454,113 +454,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 118880,
-        "title": "Agent run timeout notice fires while the underlying run is still executing (not cancelled), producing misleading failure + late duplicate completion messages",
-        "url": "https://github.com/openclaw/openclaw/issues/118880",
+        "number": 119586,
+        "title": "[Feature]: Route ComfyUI workflows by typed media input signature",
+        "url": "https://github.com/openclaw/openclaw/issues/119586",
         "state": "open",
-        "author": "cookywook",
-        "updatedAt": "2026-08-07T06:17:16Z"
+        "author": "beeven",
+        "updatedAt": "2026-08-07T08:19:53Z"
       },
       {
         "kind": "issue",
-        "number": 118503,
-        "title": "Managed env keys in systemd env files don't sync when .env is edited",
-        "url": "https://github.com/openclaw/openclaw/issues/118503",
+        "number": 119083,
+        "title": "[Feature]: Continuously admit newly due cron jobs while earlier timer-batch jobs are still running",
+        "url": "https://github.com/openclaw/openclaw/issues/119083",
         "state": "open",
-        "author": "JeffSteinbok",
-        "updatedAt": "2026-08-07T06:17:06Z"
+        "author": "joeykrug",
+        "updatedAt": "2026-08-07T08:19:31Z"
       },
       {
         "kind": "issue",
-        "number": 118842,
-        "title": "Subagent settle announce redelivered after parent consolidate → parent thrash loop (NO_REPLY latch not enforced)",
-        "url": "https://github.com/openclaw/openclaw/issues/118842",
+        "number": 119958,
+        "title": "gateway restart reports failure after a fixed 60s health wait while startup legitimately takes 240s+ (in-process restart, PID unchanged, no way to tell 'starting' from 'dead')",
+        "url": "https://github.com/openclaw/openclaw/issues/119958",
         "state": "open",
-        "author": "MScottAdams",
-        "updatedAt": "2026-08-07T06:17:05Z"
+        "author": "islandpreneur007",
+        "updatedAt": "2026-08-07T08:19:16Z"
       },
       {
         "kind": "issue",
-        "number": 89114,
-        "title": "Minimax M3: /think menu missing xhigh, adaptive, max levels (provider profile limitation)",
-        "url": "https://github.com/openclaw/openclaw/issues/89114",
+        "number": 119873,
+        "title": "exec timeout is in seconds but the field name does not say so; process timeout is milliseconds",
+        "url": "https://github.com/openclaw/openclaw/issues/119873",
         "state": "open",
-        "author": "superandylin",
-        "updatedAt": "2026-08-07T06:17:01Z"
+        "author": "Marvinthebored",
+        "updatedAt": "2026-08-07T08:19:04Z"
       },
       {
         "kind": "issue",
-        "number": 89216,
-        "title": "[Bug]: Matrix bindings for per-room agent routing are silently ignored",
-        "url": "https://github.com/openclaw/openclaw/issues/89216",
+        "number": 119682,
+        "title": "[Bug]: Codex native hook relay is turn-scoped — cross-turn wait_agent and long-running worker pods fail with \"native hook relay not found\"",
+        "url": "https://github.com/openclaw/openclaw/issues/119682",
         "state": "open",
-        "author": "cpgeek",
-        "updatedAt": "2026-08-07T06:17:00Z"
+        "author": "smj-kairos",
+        "updatedAt": "2026-08-07T08:19:00Z"
       },
       {
         "kind": "issue",
-        "number": 117472,
-        "title": "Session tool catalog transiently loses a declared tool after prompt-content resume (claude-cli runtime)",
-        "url": "https://github.com/openclaw/openclaw/issues/117472",
+        "number": 119692,
+        "title": "fix(usage): OpenAI-compatible streaming path drops token usage for MiniMax-M3 (transcript written as all-zero)",
+        "url": "https://github.com/openclaw/openclaw/issues/119692",
         "state": "open",
-        "author": "AntonOvichBot",
-        "updatedAt": "2026-08-07T06:16:59Z"
+        "author": "Aris-qin",
+        "updatedAt": "2026-08-07T08:18:51Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 120018,
-        "title": "improve(release): verify Linux Gateway-node compatibility",
-        "url": "https://github.com/openclaw/openclaw/pull/120018",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-07T06:17:37Z"
+        "number": 120033,
+        "title": "fix(install): Windows installer no longer reports failed doctor migration as complete",
+        "url": "https://github.com/openclaw/openclaw/pull/120033",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-07T08:20:04Z"
       },
       {
         "kind": "pr",
-        "number": 120032,
-        "title": "improve(release): bind Gateway-node compatibility evidence",
-        "url": "https://github.com/openclaw/openclaw/pull/120032",
+        "number": 117354,
+        "title": "fix(discord): chunk long thread initial messages",
+        "url": "https://github.com/openclaw/openclaw/pull/117354",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-07T06:17:36Z"
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-08-07T08:20:00Z"
       },
       {
         "kind": "pr",
-        "number": 119762,
-        "title": "feat(release): validate stable and prerelease Windows node releases",
-        "url": "https://github.com/openclaw/openclaw/pull/119762",
+        "number": 109106,
+        "title": "fix(proxy): bound debug CA generation",
+        "url": "https://github.com/openclaw/openclaw/pull/109106",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-07T06:17:32Z"
+        "author": "Alix-007",
+        "updatedAt": "2026-08-07T08:19:42Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117305,
+        "title": "fix(sessions): distinguish transient lookup failures from policy denials",
+        "url": "https://github.com/openclaw/openclaw/pull/117305",
+        "state": "open",
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-08-07T08:19:27Z"
       },
       {
         "kind": "pr",
         "number": 119325,
-        "title": "fix(models): preserve selection across fallback turns",
+        "title": "fix(models): preserve session selection across fallback turns",
         "url": "https://github.com/openclaw/openclaw/pull/119325",
-        "state": "open",
+        "state": "closed",
         "author": "VACInc",
-        "updatedAt": "2026-08-07T06:17:21Z"
+        "updatedAt": "2026-08-07T08:19:21Z"
       },
       {
         "kind": "pr",
-        "number": 113271,
-        "title": "feat(control-ui): drag-to-resize chat composer",
-        "url": "https://github.com/openclaw/openclaw/pull/113271",
+        "number": 117504,
+        "title": "fix(bedrock): honor custom embedding endpoints without region drift",
+        "url": "https://github.com/openclaw/openclaw/pull/117504",
         "state": "open",
-        "author": "zyyhhxx",
-        "updatedAt": "2026-08-07T06:16:58Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117244,
-        "title": "fix(gateway): prevent mixed content when resuming changed media",
-        "url": "https://github.com/openclaw/openclaw/pull/117244",
-        "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-08-07T06:16:55Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-07T08:19:12Z"
       }
     ]
   }

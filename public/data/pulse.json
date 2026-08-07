@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-07T19:58:41.404Z",
+  "generatedAt": "2026-08-07T20:56:59.742Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -360,17 +360,17 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "capturedAt": "2026-08-07T19:58:41.404Z",
-      "issueOpen": 3400,
-      "issueClosed": 42838,
-      "prOpen": 2183,
-      "prClosed": 69455,
-      "prMerged": 22843,
+      "capturedAt": "2026-08-07T20:56:59.742Z",
+      "issueOpen": 3398,
+      "issueClosed": 42842,
+      "prOpen": 2186,
+      "prClosed": 69463,
+      "prMerged": 22850,
       "workflowRuns": 40000,
-      "stars": 385467,
-      "forks": 81022,
-      "subscribers": 1763,
-      "commits": 76992,
+      "stars": 385469,
+      "forks": 81023,
+      "subscribers": 1764,
+      "commits": 77000,
       "contributors": 3072,
       "source": "github-actions",
       "approximateDate": false
@@ -443,10 +443,10 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "stars": 385467,
-      "forks": 81022,
-      "subscribers": 1763,
-      "commits": 76992,
+      "stars": 385469,
+      "forks": 81023,
+      "subscribers": 1764,
+      "commits": 77000,
       "contributors": 3072
     }
   ],
@@ -454,113 +454,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 112350,
-        "title": "cron job actively firing (visible in `cron runs --id`) but absent from `cron list --all` / get / show; `rm` fails \"id not found\"",
-        "url": "https://github.com/openclaw/openclaw/issues/112350",
-        "state": "open",
-        "author": "smokerinthewind",
-        "updatedAt": "2026-08-07T19:57:35Z"
+        "number": 120288,
+        "title": "[Bug]: Voice Call can revive stale runtime generations during restart",
+        "url": "https://github.com/openclaw/openclaw/issues/120288",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-07T20:56:28Z"
       },
       {
         "kind": "issue",
-        "number": 112153,
-        "title": "[Bug] Unhandled exception when loading corrupted session state from SQLite store",
-        "url": "https://github.com/openclaw/openclaw/issues/112153",
+        "number": 94285,
+        "title": "[Feature]: Discord - Preserve progress draft and append final answer instead of replacing it (as a setting)",
+        "url": "https://github.com/openclaw/openclaw/issues/94285",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-07T19:57:26Z"
+        "author": "DinoMC",
+        "updatedAt": "2026-08-07T20:54:19Z"
       },
       {
         "kind": "issue",
-        "number": 112092,
-        "title": "[Refactor] Modularize model catalog provider resolution into plugin capabilities",
-        "url": "https://github.com/openclaw/openclaw/issues/112092",
+        "number": 89394,
+        "title": "[Feature]: Add TUI theme selection (--theme flag / config)",
+        "url": "https://github.com/openclaw/openclaw/issues/89394",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-07T19:57:17Z"
+        "author": "felixkwok911",
+        "updatedAt": "2026-08-07T20:54:12Z"
       },
       {
         "kind": "issue",
-        "number": 112112,
-        "title": "[Architecture] Decouple audio processing pipeline from core speech bindings in packages/speech-core",
-        "url": "https://github.com/openclaw/openclaw/issues/112112",
+        "number": 89528,
+        "title": "[Bug]: `--safe --skip-deferral` can still wait on restart reply drain for its own tool/final replies",
+        "url": "https://github.com/openclaw/openclaw/issues/89528",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-07T19:57:08Z"
+        "author": "songshikang0111",
+        "updatedAt": "2026-08-07T20:54:08Z"
       },
       {
         "kind": "issue",
-        "number": 112099,
-        "title": "[Architecture] Standardize audio/video asset pipeline across TTS and media generation skills",
-        "url": "https://github.com/openclaw/openclaw/issues/112099",
+        "number": 11487,
+        "title": "Add optional `name`/`label` field to group config entries",
+        "url": "https://github.com/openclaw/openclaw/issues/11487",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-07T19:56:59Z"
+        "author": "geilt",
+        "updatedAt": "2026-08-07T20:54:04Z"
       },
       {
         "kind": "issue",
-        "number": 117635,
-        "title": "[Bug]: compose run orphan",
-        "url": "https://github.com/openclaw/openclaw/issues/117635",
+        "number": 83442,
+        "title": "[Feature]: Add operator-friendly rendering for shell/bash command blocks in chat outputs",
+        "url": "https://github.com/openclaw/openclaw/issues/83442",
         "state": "open",
-        "author": "MrJules88",
-        "updatedAt": "2026-08-07T19:54:07Z"
+        "author": "ndj888",
+        "updatedAt": "2026-08-07T20:54:02Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 116570,
-        "title": "fix(windows): report Startup fallback launch failures",
-        "url": "https://github.com/openclaw/openclaw/pull/116570",
+        "number": 79397,
+        "title": "fix(nextcloud-talk): parse structured mention payloads",
+        "url": "https://github.com/openclaw/openclaw/pull/79397",
         "state": "open",
+        "author": "iclem",
+        "updatedAt": "2026-08-07T20:56:53Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120289,
+        "title": "fix(voice-call): prevent stale runtimes after gateway restart",
+        "url": "https://github.com/openclaw/openclaw/pull/120289",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-07T19:58:34Z"
+        "updatedAt": "2026-08-07T20:56:34Z"
       },
       {
         "kind": "pr",
-        "number": 119817,
-        "title": "fix(hooks): target hook-triggered heartbeat wakes at the hook agent/session (#119808)",
-        "url": "https://github.com/openclaw/openclaw/pull/119817",
+        "number": 111628,
+        "title": "fix(acp): /acp close leaves acpx session resumable, next message resumes the closed session",
+        "url": "https://github.com/openclaw/openclaw/pull/111628",
         "state": "open",
-        "author": "licheer-zte",
-        "updatedAt": "2026-08-07T19:57:50Z"
+        "author": "yetval",
+        "updatedAt": "2026-08-07T20:55:39Z"
       },
       {
         "kind": "pr",
-        "number": 120319,
-        "title": "fix(control-ui): let operators forget a stale stored browser device credential",
-        "url": "https://github.com/openclaw/openclaw/pull/120319",
-        "state": "open",
-        "author": "Nehanth",
-        "updatedAt": "2026-08-07T19:57:38Z"
+        "number": 120346,
+        "title": "refactor(plugins): shared legacy-state doctor migration and simple secret contracts",
+        "url": "https://github.com/openclaw/openclaw/pull/120346",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-07T20:55:37Z"
       },
       {
         "kind": "pr",
-        "number": 120313,
-        "title": "fix(ci): align hosted gates with workflow applicability",
-        "url": "https://github.com/openclaw/openclaw/pull/120313",
+        "number": 117189,
+        "title": "Fix SSRF vulnerability and update multiple dependencies",
+        "url": "https://github.com/openclaw/openclaw/pull/117189",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-07T19:57:16Z"
+        "author": "devops2626",
+        "updatedAt": "2026-08-07T20:55:23Z"
       },
       {
         "kind": "pr",
-        "number": 120325,
-        "title": "refactor: restore canonical execution identity architecture",
-        "url": "https://github.com/openclaw/openclaw/pull/120325",
+        "number": 120044,
+        "title": "fix(gateway): usage.status no longer waits on provider HTTP",
+        "url": "https://github.com/openclaw/openclaw/pull/120044",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-08-07T19:57:10Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120337,
-        "title": "fix(typing): keep long active turns visible",
-        "url": "https://github.com/openclaw/openclaw/pull/120337",
-        "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-08-07T19:56:21Z"
+        "author": "sasan1200",
+        "updatedAt": "2026-08-07T20:55:08Z"
       }
     ]
   }

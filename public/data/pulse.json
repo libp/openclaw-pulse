@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-07T08:20:10.615Z",
+  "generatedAt": "2026-08-07T10:09:05.658Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -360,17 +360,17 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "capturedAt": "2026-08-07T08:20:10.615Z",
+      "capturedAt": "2026-08-07T10:09:05.658Z",
       "issueOpen": 3387,
-      "issueClosed": 42801,
-      "prOpen": 2144,
-      "prClosed": 69396,
-      "prMerged": 22809,
+      "issueClosed": 42805,
+      "prOpen": 2157,
+      "prClosed": 69402,
+      "prMerged": 22814,
       "workflowRuns": 40000,
-      "stars": 385425,
-      "forks": 81018,
+      "stars": 385443,
+      "forks": 81024,
       "subscribers": 1762,
-      "commits": 76957,
+      "commits": 76962,
       "contributors": 3072,
       "source": "github-actions",
       "approximateDate": false
@@ -443,124 +443,69 @@
     },
     {
       "capturedOn": "2026-08-07",
-      "stars": 385425,
-      "forks": 81018,
+      "stars": 385443,
+      "forks": 81024,
       "subscribers": 1762,
-      "commits": 76957,
+      "commits": 76962,
       "contributors": 3072
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 119586,
-        "title": "[Feature]: Route ComfyUI workflows by typed media input signature",
-        "url": "https://github.com/openclaw/openclaw/issues/119586",
-        "state": "open",
-        "author": "beeven",
-        "updatedAt": "2026-08-07T08:19:53Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119083,
-        "title": "[Feature]: Continuously admit newly due cron jobs while earlier timer-batch jobs are still running",
-        "url": "https://github.com/openclaw/openclaw/issues/119083",
-        "state": "open",
-        "author": "joeykrug",
-        "updatedAt": "2026-08-07T08:19:31Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119958,
-        "title": "gateway restart reports failure after a fixed 60s health wait while startup legitimately takes 240s+ (in-process restart, PID unchanged, no way to tell 'starting' from 'dead')",
-        "url": "https://github.com/openclaw/openclaw/issues/119958",
-        "state": "open",
-        "author": "islandpreneur007",
-        "updatedAt": "2026-08-07T08:19:16Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119873,
-        "title": "exec timeout is in seconds but the field name does not say so; process timeout is milliseconds",
-        "url": "https://github.com/openclaw/openclaw/issues/119873",
-        "state": "open",
-        "author": "Marvinthebored",
-        "updatedAt": "2026-08-07T08:19:04Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119682,
-        "title": "[Bug]: Codex native hook relay is turn-scoped — cross-turn wait_agent and long-running worker pods fail with \"native hook relay not found\"",
-        "url": "https://github.com/openclaw/openclaw/issues/119682",
-        "state": "open",
-        "author": "smj-kairos",
-        "updatedAt": "2026-08-07T08:19:00Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119692,
-        "title": "fix(usage): OpenAI-compatible streaming path drops token usage for MiniMax-M3 (transcript written as all-zero)",
-        "url": "https://github.com/openclaw/openclaw/issues/119692",
-        "state": "open",
-        "author": "Aris-qin",
-        "updatedAt": "2026-08-07T08:18:51Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 120033,
-        "title": "fix(install): Windows installer no longer reports failed doctor migration as complete",
-        "url": "https://github.com/openclaw/openclaw/pull/120033",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-07T08:20:04Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117354,
-        "title": "fix(discord): chunk long thread initial messages",
-        "url": "https://github.com/openclaw/openclaw/pull/117354",
+        "number": 46303,
+        "title": "fix: drain inbound debounce buffer and followup queues before SIGUSR1 reload",
+        "url": "https://github.com/openclaw/openclaw/pull/46303",
         "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-08-07T08:20:00Z"
+        "author": "joeykrug",
+        "updatedAt": "2026-08-07T10:08:57Z"
       },
       {
         "kind": "pr",
-        "number": 109106,
-        "title": "fix(proxy): bound debug CA generation",
-        "url": "https://github.com/openclaw/openclaw/pull/109106",
+        "number": 119001,
+        "title": "feat(codex): bind native realtime voice to existing sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/119001",
         "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-08-07T08:19:42Z"
+        "author": "GoatInAHat",
+        "updatedAt": "2026-08-07T10:08:30Z"
       },
       {
         "kind": "pr",
-        "number": 117305,
-        "title": "fix(sessions): distinguish transient lookup failures from policy denials",
-        "url": "https://github.com/openclaw/openclaw/pull/117305",
+        "number": 111115,
+        "title": "fix(memory-core): unify QMD multi-collection search, add phase timings, fix archived-session identity loss",
+        "url": "https://github.com/openclaw/openclaw/pull/111115",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-07T08:19:27Z"
+        "author": "jwest75674",
+        "updatedAt": "2026-08-07T10:07:25Z"
       },
       {
         "kind": "pr",
-        "number": 119325,
-        "title": "fix(models): preserve session selection across fallback turns",
-        "url": "https://github.com/openclaw/openclaw/pull/119325",
-        "state": "closed",
-        "author": "VACInc",
-        "updatedAt": "2026-08-07T08:19:21Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117504,
-        "title": "fix(bedrock): honor custom embedding endpoints without region drift",
-        "url": "https://github.com/openclaw/openclaw/pull/117504",
+        "number": 103434,
+        "title": "fix(github-copilot): keep device login polling within GitHub limits",
+        "url": "https://github.com/openclaw/openclaw/pull/103434",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-07T08:19:12Z"
+        "updatedAt": "2026-08-07T10:07:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114287,
+        "title": "chore: add fail-closed publication security preflight",
+        "url": "https://github.com/openclaw/openclaw/pull/114287",
+        "state": "open",
+        "author": "fr-meyer",
+        "updatedAt": "2026-08-07T10:06:49Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114480,
+        "title": "fix(codex): account and trace every provider response",
+        "url": "https://github.com/openclaw/openclaw/pull/114480",
+        "state": "open",
+        "author": "zhl-cyber",
+        "updatedAt": "2026-08-07T10:06:21Z"
       }
     ]
   }

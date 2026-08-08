@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-08T18:56:48.745Z",
+  "generatedAt": "2026-08-08T19:42:54.141Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -377,17 +377,17 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "capturedAt": "2026-08-08T18:56:48.745Z",
-      "issueOpen": 3418,
+      "capturedAt": "2026-08-08T19:42:54.141Z",
+      "issueOpen": 3420,
       "issueClosed": 42909,
-      "prOpen": 2221,
-      "prClosed": 69657,
-      "prMerged": 22987,
+      "prOpen": 2220,
+      "prClosed": 69668,
+      "prMerged": 22996,
       "workflowRuns": 40000,
-      "stars": 385563,
-      "forks": 81040,
+      "stars": 385564,
+      "forks": 81042,
       "subscribers": 1765,
-      "commits": 77187,
+      "commits": 77196,
       "contributors": 3073,
       "source": "github-actions",
       "approximateDate": false
@@ -468,10 +468,10 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "stars": 385563,
-      "forks": 81040,
+      "stars": 385564,
+      "forks": 81042,
       "subscribers": 1765,
-      "commits": 77187,
+      "commits": 77196,
       "contributors": 3073
     }
   ],
@@ -479,86 +479,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 119853,
-        "title": "[Feature]: Filter out cron-created sessions in the Android app session list",
-        "url": "https://github.com/openclaw/openclaw/issues/119853",
+        "number": 67129,
+        "title": "[Feature]:",
+        "url": "https://github.com/openclaw/openclaw/issues/67129",
         "state": "open",
-        "author": "hidenori-endo",
-        "updatedAt": "2026-08-08T18:54:02Z"
+        "author": "davidjmorris",
+        "updatedAt": "2026-08-08T19:42:45Z"
       },
       {
         "kind": "issue",
-        "number": 80176,
-        "title": "[Codex×Pi parity Phase 5] JSONL session-replay harness",
-        "url": "https://github.com/openclaw/openclaw/issues/80176",
+        "number": 48855,
+        "title": "[Feature]: Android Gateway Support",
+        "url": "https://github.com/openclaw/openclaw/issues/48855",
         "state": "open",
-        "author": "100yenadmin",
-        "updatedAt": "2026-08-08T18:53:23Z"
+        "author": "Vasanthdev2004",
+        "updatedAt": "2026-08-08T19:42:45Z"
       },
       {
         "kind": "issue",
-        "number": 120656,
-        "title": "Local TUI onboarding can ask users to paste a Telegram bot token into the chat transcript",
-        "url": "https://github.com/openclaw/openclaw/issues/120656",
+        "number": 120655,
+        "title": "Cloud Worker accepted rollback can race an indeterminate apply",
+        "url": "https://github.com/openclaw/openclaw/issues/120655",
         "state": "open",
-        "author": "Sedrak-Hovhannisyan",
-        "updatedAt": "2026-08-08T18:53:18Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-08T19:42:44Z"
       },
       {
         "kind": "issue",
-        "number": 81084,
-        "title": "[Feature]: MSTeams channel-bound agents need opt-out from per-thread sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/81084",
+        "number": 74586,
+        "title": "AM embedded run aborts memory_search tool calls; classifies as timeout despite model completion",
+        "url": "https://github.com/openclaw/openclaw/issues/74586",
         "state": "open",
-        "author": "xjodoin",
-        "updatedAt": "2026-08-08T18:53:17Z"
+        "author": "islandpreneur007",
+        "updatedAt": "2026-08-08T19:42:44Z"
+      },
+      {
+        "kind": "issue",
+        "number": 53008,
+        "title": "Memory compaction blocks main processing lane, causing unresponsive bot for 10+ minutes",
+        "url": "https://github.com/openclaw/openclaw/issues/53008",
+        "state": "open",
+        "author": "petiblaster",
+        "updatedAt": "2026-08-08T19:42:44Z"
+      },
+      {
+        "kind": "issue",
+        "number": 84034,
+        "title": "[Bug] active-memory recall injects assistant chitchat into <active_memory_plugin> instead of NONE or valid memory summary",
+        "url": "https://github.com/openclaw/openclaw/issues/84034",
+        "state": "open",
+        "author": "xiao398008",
+        "updatedAt": "2026-08-08T19:42:42Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 80396,
-        "title": "fix(media): warn when MEDIA: token is skipped inside fenced code block (#41966)",
-        "url": "https://github.com/openclaw/openclaw/pull/80396",
+        "number": 120382,
+        "title": "[AI-assisted] docs(gateway): lead secrets guide with safe-migration quick path",
+        "url": "https://github.com/openclaw/openclaw/pull/120382",
         "state": "open",
-        "author": "Bartok9",
-        "updatedAt": "2026-08-08T18:55:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120457,
-        "title": "fix(ai): preserve long Responses sessions after server compaction",
-        "url": "https://github.com/openclaw/openclaw/pull/120457",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-08T18:55:29Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120389,
-        "title": "feat(android): add conversation reply notifications",
-        "url": "https://github.com/openclaw/openclaw/pull/120389",
-        "state": "open",
-        "author": "IWhatsskill",
-        "updatedAt": "2026-08-08T18:55:10Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120666,
-        "title": "fix(release): keep base upgrade validation hermetic",
-        "url": "https://github.com/openclaw/openclaw/pull/120666",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-08T18:54:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120539,
-        "title": "fix(qa): recover Crabbox proofs on fallback SSH ports",
-        "url": "https://github.com/openclaw/openclaw/pull/120539",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-08T18:54:22Z"
+        "author": "santhiprakash",
+        "updatedAt": "2026-08-08T19:42:42Z"
       },
       {
         "kind": "pr",
@@ -567,7 +549,43 @@
         "url": "https://github.com/openclaw/openclaw/pull/119946",
         "state": "open",
         "author": "wangmiao0668000666",
-        "updatedAt": "2026-08-08T18:54:21Z"
+        "updatedAt": "2026-08-08T19:42:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119678,
+        "title": "Add chat-rag-app: local Chat+RAG+multi-model learning project (Fase 1…",
+        "url": "https://github.com/openclaw/openclaw/pull/119678",
+        "state": "open",
+        "author": "jChantoHdz",
+        "updatedAt": "2026-08-08T19:42:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 97103,
+        "title": "[codex] fix(sessions): report archive cleanup in sessions cleanup",
+        "url": "https://github.com/openclaw/openclaw/pull/97103",
+        "state": "open",
+        "author": "samrusani",
+        "updatedAt": "2026-08-08T19:42:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120679,
+        "title": "docs(gateway): add \"Remote client cannot connect\" runbook section",
+        "url": "https://github.com/openclaw/openclaw/pull/120679",
+        "state": "open",
+        "author": "pstayets",
+        "updatedAt": "2026-08-08T19:42:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120466,
+        "title": "fix(matrix): non-positive mediaMaxMb blocks every outbound media send",
+        "url": "https://github.com/openclaw/openclaw/pull/120466",
+        "state": "open",
+        "author": "masatohoshino",
+        "updatedAt": "2026-08-08T19:42:40Z"
       }
     ]
   }

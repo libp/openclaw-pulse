@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-08T10:49:32.114Z",
+  "generatedAt": "2026-08-08T11:40:48.824Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -377,17 +377,17 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "capturedAt": "2026-08-08T10:49:32.114Z",
-      "issueOpen": 3418,
-      "issueClosed": 42883,
-      "prOpen": 2223,
-      "prClosed": 69578,
-      "prMerged": 22926,
+      "capturedAt": "2026-08-08T11:40:48.824Z",
+      "issueOpen": 3421,
+      "issueClosed": 42884,
+      "prOpen": 2227,
+      "prClosed": 69581,
+      "prMerged": 22928,
       "workflowRuns": 40000,
-      "stars": 385530,
-      "forks": 81028,
+      "stars": 385532,
+      "forks": 81031,
       "subscribers": 1764,
-      "commits": 77117,
+      "commits": 77119,
       "contributors": 3072,
       "source": "github-actions",
       "approximateDate": false
@@ -468,10 +468,10 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "stars": 385530,
-      "forks": 81028,
+      "stars": 385532,
+      "forks": 81031,
       "subscribers": 1764,
-      "commits": 77117,
+      "commits": 77119,
       "contributors": 3072
     }
   ],
@@ -479,113 +479,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 120504,
-        "title": "[Bug]: Session provenance merge leaves main CI red across protocol and agent gates",
-        "url": "https://github.com/openclaw/openclaw/issues/120504",
+        "number": 120558,
+        "title": "Bug: /stop does not cancel detached Skill Workshop experience review",
+        "url": "https://github.com/openclaw/openclaw/issues/120558",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-08T10:48:44Z"
+        "author": "litang9",
+        "updatedAt": "2026-08-08T11:40:44Z"
       },
       {
         "kind": "issue",
-        "number": 58957,
-        "title": "Model switch can fail silently when carried-over session context is too large",
-        "url": "https://github.com/openclaw/openclaw/issues/58957",
+        "number": 92500,
+        "title": "Add Telegram voice/STT handoff telemetry into agent context",
+        "url": "https://github.com/openclaw/openclaw/issues/92500",
         "state": "open",
-        "author": "LunaLee0130",
-        "updatedAt": "2026-08-08T10:48:43Z"
+        "author": "100yenadmin",
+        "updatedAt": "2026-08-08T11:40:41Z"
       },
       {
         "kind": "issue",
-        "number": 118845,
-        "title": "Workboard: workboard_comment tool rejects bodies > 2000 chars with cryptic error",
-        "url": "https://github.com/openclaw/openclaw/issues/118845",
+        "number": 72717,
+        "title": "Feature Request: SQLite FTS index for wiki_search to improve synthesis query performance",
+        "url": "https://github.com/openclaw/openclaw/issues/72717",
         "state": "open",
-        "author": "osipovia",
-        "updatedAt": "2026-08-08T10:48:40Z"
+        "author": "MagnaAI",
+        "updatedAt": "2026-08-08T11:40:34Z"
       },
       {
         "kind": "issue",
-        "number": 72504,
-        "title": "Feishu: bot strips its own <at> mention causing NO_REPLY in multi-bot groups",
-        "url": "https://github.com/openclaw/openclaw/issues/72504",
+        "number": 112244,
+        "title": "[Bug]: Feishu message send silently drops unsupported attachment params (file/filePath/attachments/…) and returns ok:true — attachment never sent",
+        "url": "https://github.com/openclaw/openclaw/issues/112244",
         "state": "open",
-        "author": "AxelHu",
-        "updatedAt": "2026-08-08T10:48:40Z"
-      },
-      {
-        "kind": "issue",
-        "number": 86537,
-        "title": "[Bug]: Subagent terminal reconciliation can expire suspended final delivery",
-        "url": "https://github.com/openclaw/openclaw/issues/86537",
-        "state": "open",
-        "author": "galiniliev",
-        "updatedAt": "2026-08-08T10:48:38Z"
-      },
-      {
-        "kind": "issue",
-        "number": 97287,
-        "title": "[Bug]: Feishu plugin: token invalid error (99991663) does not trigger automatic retry — requires manual gateway restart",
-        "url": "https://github.com/openclaw/openclaw/issues/97287",
-        "state": "open",
-        "author": "xueshenglin",
-        "updatedAt": "2026-08-08T10:48:37Z"
+        "author": "forrystudio",
+        "updatedAt": "2026-08-08T11:40:20Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 80396,
-        "title": "fix(media): warn when MEDIA: token is skipped inside fenced code block (#41966)",
-        "url": "https://github.com/openclaw/openclaw/pull/80396",
+        "number": 120572,
+        "title": "fix(agents): surface tool loop warnings to models",
+        "url": "https://github.com/openclaw/openclaw/pull/120572",
         "state": "open",
-        "author": "Bartok9",
-        "updatedAt": "2026-08-08T10:49:21Z"
+        "author": "Arata1202",
+        "updatedAt": "2026-08-08T11:40:44Z"
       },
       {
         "kind": "pr",
-        "number": 120487,
-        "title": "improve(ui): consolidate dashboard chat visibility into one Chat/Split/Dashboard toggle",
-        "url": "https://github.com/openclaw/openclaw/pull/120487",
+        "number": 118067,
+        "title": "feat(discord): support private provider endpoints",
+        "url": "https://github.com/openclaw/openclaw/pull/118067",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-08T11:40:44Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120426,
+        "title": "fix(agents): keep stalled turns visible after Responses streams settle",
+        "url": "https://github.com/openclaw/openclaw/pull/120426",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-08T10:48:59Z"
+        "updatedAt": "2026-08-08T11:40:41Z"
       },
       {
         "kind": "pr",
-        "number": 120564,
-        "title": "test(infra): isolate worktree migration plugin discovery",
-        "url": "https://github.com/openclaw/openclaw/pull/120564",
+        "number": 118598,
+        "title": "feat(ci): route around saturated Blacksmith capacity",
+        "url": "https://github.com/openclaw/openclaw/pull/118598",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-08T10:48:48Z"
+        "updatedAt": "2026-08-08T11:40:41Z"
       },
       {
         "kind": "pr",
-        "number": 58373,
-        "title": "fix(agents): bootstrap missing secondary model catalogs",
-        "url": "https://github.com/openclaw/openclaw/pull/58373",
-        "state": "open",
-        "author": "xiangri678",
-        "updatedAt": "2026-08-08T10:48:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120457,
-        "title": "fix(ai): preserve long Responses sessions after server compaction",
-        "url": "https://github.com/openclaw/openclaw/pull/120457",
+        "number": 120509,
+        "title": "fix(sessions): preserve context provenance across retries [AI]",
+        "url": "https://github.com/openclaw/openclaw/pull/120509",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-08T10:48:36Z"
+        "updatedAt": "2026-08-08T11:40:40Z"
       },
       {
         "kind": "pr",
-        "number": 120359,
-        "title": "fix(infra): unify env-truthiness, missing-path, realpath, and abort-sleep semantics",
-        "url": "https://github.com/openclaw/openclaw/pull/120359",
+        "number": 120148,
+        "title": "fix(model-fallback): treat empty non-GPT completions as failed candidates (#120132)",
+        "url": "https://github.com/openclaw/openclaw/pull/120148",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-08T10:48:36Z"
+        "author": "licheer-zte",
+        "updatedAt": "2026-08-08T11:40:40Z"
       }
     ]
   }

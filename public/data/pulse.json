@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-08T05:55:29.850Z",
+  "generatedAt": "2026-08-08T07:12:45.182Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -377,17 +377,17 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "capturedAt": "2026-08-08T05:55:29.850Z",
-      "issueOpen": 3408,
-      "issueClosed": 42869,
-      "prOpen": 2200,
-      "prClosed": 69552,
-      "prMerged": 22908,
+      "capturedAt": "2026-08-08T07:12:45.182Z",
+      "issueOpen": 3410,
+      "issueClosed": 42872,
+      "prOpen": 2211,
+      "prClosed": 69557,
+      "prMerged": 22912,
       "workflowRuns": 40000,
-      "stars": 385514,
-      "forks": 81030,
+      "stars": 385521,
+      "forks": 81028,
       "subscribers": 1764,
-      "commits": 77101,
+      "commits": 77104,
       "contributors": 3072,
       "source": "github-actions",
       "approximateDate": false
@@ -468,124 +468,69 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "stars": 385514,
-      "forks": 81030,
+      "stars": 385521,
+      "forks": 81028,
       "subscribers": 1764,
-      "commits": 77101,
+      "commits": 77104,
       "contributors": 3072
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 120488,
-        "title": "[Bug]: process poll does not consume notifyOnExit event, causing stale duplicate heartbeat relay",
-        "url": "https://github.com/openclaw/openclaw/issues/120488",
-        "state": "open",
-        "author": "aaajiao",
-        "updatedAt": "2026-08-08T05:54:02Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119200,
-        "title": "[Bug]: a throwing channel plugin migration callback crashes doctor/gateway startup",
-        "url": "https://github.com/openclaw/openclaw/issues/119200",
-        "state": "open",
-        "author": "ruel225",
-        "updatedAt": "2026-08-08T05:53:56Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119557,
-        "title": "[Bug]: chat delta throttle has no trailing flush, so a withheld chunk waits for the next qualifying event",
-        "url": "https://github.com/openclaw/openclaw/issues/119557",
-        "state": "open",
-        "author": "xyrolle",
-        "updatedAt": "2026-08-08T05:53:55Z"
-      },
-      {
-        "kind": "issue",
-        "number": 112350,
-        "title": "cron job actively firing (visible in `cron runs --id`) but absent from `cron list --all` / get / show; `rm` fails \"id not found\"",
-        "url": "https://github.com/openclaw/openclaw/issues/112350",
-        "state": "open",
-        "author": "smokerinthewind",
-        "updatedAt": "2026-08-08T05:53:55Z"
-      },
-      {
-        "kind": "issue",
-        "number": 120061,
-        "title": "Plugin SDK: tool execute() receives tool call ID as arg0, params as arg1",
-        "url": "https://github.com/openclaw/openclaw/issues/120061",
-        "state": "open",
-        "author": "JeffSteinbok",
-        "updatedAt": "2026-08-08T05:53:54Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119223,
-        "title": "[Feature]: Carry a prior-session summary across conversation rollover (parity with compaction)",
-        "url": "https://github.com/openclaw/openclaw/issues/119223",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-08-08T05:53:54Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 120087,
-        "title": "fix(slack): route Enterprise Grid messages by workspace",
-        "url": "https://github.com/openclaw/openclaw/pull/120087",
+        "number": 115278,
+        "title": "fix(mentions): match typed group mentions when the agent identity name is decorated",
+        "url": "https://github.com/openclaw/openclaw/pull/115278",
         "state": "open",
-        "author": "sjf-oa",
-        "updatedAt": "2026-08-08T05:55:03Z"
+        "author": "edenfunf",
+        "updatedAt": "2026-08-08T07:12:42Z"
       },
       {
         "kind": "pr",
-        "number": 118792,
-        "title": "fix(agents): never persist cumulative usage as session context snapshot (#118772)",
-        "url": "https://github.com/openclaw/openclaw/pull/118792",
+        "number": 120496,
+        "title": "fix(compaction): allow Claude CLI sessions to compact without API keys",
+        "url": "https://github.com/openclaw/openclaw/pull/120496",
         "state": "open",
-        "author": "Yuxin-Qiao",
-        "updatedAt": "2026-08-08T05:54:33Z"
+        "author": "VACInc",
+        "updatedAt": "2026-08-08T07:12:19Z"
       },
       {
         "kind": "pr",
-        "number": 116248,
-        "title": "fix(auth): default agent loses keys after secondary paste-api-key",
-        "url": "https://github.com/openclaw/openclaw/pull/116248",
+        "number": 120512,
+        "title": "feat: resolve short session references in the gateway",
+        "url": "https://github.com/openclaw/openclaw/pull/120512",
         "state": "open",
-        "author": "ericcaiwx-star",
-        "updatedAt": "2026-08-08T05:54:24Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-08T07:12:13Z"
       },
       {
         "kind": "pr",
-        "number": 119909,
-        "title": "fix(sessions): highWaterBytes 0 no longer deletes all session history",
-        "url": "https://github.com/openclaw/openclaw/pull/119909",
+        "number": 117305,
+        "title": "fix(sessions): distinguish transient lookup failures from policy denials",
+        "url": "https://github.com/openclaw/openclaw/pull/117305",
         "state": "open",
-        "author": "masatohoshino",
-        "updatedAt": "2026-08-08T05:54:01Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-08-08T07:11:34Z"
       },
       {
         "kind": "pr",
-        "number": 95847,
-        "title": "fix(subagents): credit requester-consumed descendant completions",
-        "url": "https://github.com/openclaw/openclaw/pull/95847",
+        "number": 119443,
+        "title": "fix(gateway): reject invalid session history cursor with 400",
+        "url": "https://github.com/openclaw/openclaw/pull/119443",
         "state": "open",
-        "author": "kklouzal",
-        "updatedAt": "2026-08-08T05:54:00Z"
+        "author": "xialonglee",
+        "updatedAt": "2026-08-08T07:11:24Z"
       },
       {
         "kind": "pr",
-        "number": 118307,
-        "title": "fix(matrix): preserve failed partial previews",
-        "url": "https://github.com/openclaw/openclaw/pull/118307",
+        "number": 112820,
+        "title": "feat(plugin-sdk): open Gateway-managed realtime Talk sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/112820",
         "state": "open",
-        "author": "shad0wca7",
-        "updatedAt": "2026-08-08T05:53:53Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-08T07:11:18Z"
       }
     ]
   }

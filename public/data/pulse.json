@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-08T19:42:54.141Z",
+  "generatedAt": "2026-08-08T20:46:52.881Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -377,17 +377,17 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "capturedAt": "2026-08-08T19:42:54.141Z",
-      "issueOpen": 3420,
-      "issueClosed": 42909,
-      "prOpen": 2220,
-      "prClosed": 69668,
-      "prMerged": 22996,
+      "capturedAt": "2026-08-08T20:46:52.881Z",
+      "issueOpen": 3414,
+      "issueClosed": 42916,
+      "prOpen": 2214,
+      "prClosed": 69693,
+      "prMerged": 23018,
       "workflowRuns": 40000,
-      "stars": 385564,
-      "forks": 81042,
+      "stars": 385569,
+      "forks": 81044,
       "subscribers": 1765,
-      "commits": 77196,
+      "commits": 77218,
       "contributors": 3073,
       "source": "github-actions",
       "approximateDate": false
@@ -468,10 +468,10 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "stars": 385564,
-      "forks": 81042,
+      "stars": 385569,
+      "forks": 81044,
       "subscribers": 1765,
-      "commits": 77196,
+      "commits": 77218,
       "contributors": 3073
     }
   ],
@@ -479,113 +479,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 67129,
-        "title": "[Feature]:",
-        "url": "https://github.com/openclaw/openclaw/issues/67129",
+        "number": 120315,
+        "title": "[Bug]: /stop user abort is misclassified as gateway restart recovery and leaves stale recovery state",
+        "url": "https://github.com/openclaw/openclaw/issues/120315",
         "state": "open",
-        "author": "davidjmorris",
-        "updatedAt": "2026-08-08T19:42:45Z"
+        "author": "hannesrudolph",
+        "updatedAt": "2026-08-08T20:46:35Z"
       },
       {
         "kind": "issue",
-        "number": 48855,
-        "title": "[Feature]: Android Gateway Support",
-        "url": "https://github.com/openclaw/openclaw/issues/48855",
+        "number": 119440,
+        "title": "[Bug]: Gateway main thread burns a full core under business load — ~18k failed readlink/s path-resolution storm; persists across 2026.7.2-beta.5 and beta.7 (survives #91517 fix)",
+        "url": "https://github.com/openclaw/openclaw/issues/119440",
         "state": "open",
-        "author": "Vasanthdev2004",
-        "updatedAt": "2026-08-08T19:42:45Z"
+        "author": "Mitchfffg",
+        "updatedAt": "2026-08-08T20:46:30Z"
       },
       {
         "kind": "issue",
-        "number": 120655,
-        "title": "Cloud Worker accepted rollback can race an indeterminate apply",
-        "url": "https://github.com/openclaw/openclaw/issues/120655",
+        "number": 114154,
+        "title": "bundle-mcp: tool passes policy (tools.allow/deny) and server reports healthy via mcp probe/mcp doctor, but agent sessions never bundle it — ToolSearch finds nothing, zero tool_action attempts logged",
+        "url": "https://github.com/openclaw/openclaw/issues/114154",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-08T19:42:44Z"
+        "author": "kayloehmann",
+        "updatedAt": "2026-08-08T20:46:30Z"
       },
       {
         "kind": "issue",
-        "number": 74586,
-        "title": "AM embedded run aborts memory_search tool calls; classifies as timeout despite model completion",
-        "url": "https://github.com/openclaw/openclaw/issues/74586",
+        "number": 119707,
+        "title": "[Feature]: Same-provider auth profile rotation for media generation tools (image/video) on rate-limit errors",
+        "url": "https://github.com/openclaw/openclaw/issues/119707",
         "state": "open",
-        "author": "islandpreneur007",
-        "updatedAt": "2026-08-08T19:42:44Z"
-      },
-      {
-        "kind": "issue",
-        "number": 53008,
-        "title": "Memory compaction blocks main processing lane, causing unresponsive bot for 10+ minutes",
-        "url": "https://github.com/openclaw/openclaw/issues/53008",
-        "state": "open",
-        "author": "petiblaster",
-        "updatedAt": "2026-08-08T19:42:44Z"
-      },
-      {
-        "kind": "issue",
-        "number": 84034,
-        "title": "[Bug] active-memory recall injects assistant chitchat into <active_memory_plugin> instead of NONE or valid memory summary",
-        "url": "https://github.com/openclaw/openclaw/issues/84034",
-        "state": "open",
-        "author": "xiao398008",
-        "updatedAt": "2026-08-08T19:42:42Z"
+        "author": "tsume-workflow",
+        "updatedAt": "2026-08-08T20:46:22Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 120382,
-        "title": "[AI-assisted] docs(gateway): lead secrets guide with safe-migration quick path",
-        "url": "https://github.com/openclaw/openclaw/pull/120382",
+        "number": 118685,
+        "title": "fix(agents): record stop reason in completion trajectory",
+        "url": "https://github.com/openclaw/openclaw/pull/118685",
         "state": "open",
-        "author": "santhiprakash",
-        "updatedAt": "2026-08-08T19:42:42Z"
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-08-08T20:46:48Z"
       },
       {
         "kind": "pr",
-        "number": 119946,
-        "title": "fix(cli): refresh running gateway auth state after models auth order set/clear",
-        "url": "https://github.com/openclaw/openclaw/pull/119946",
+        "number": 120366,
+        "title": "fix(codex): preserve configured MCP tools in scheduled turns",
+        "url": "https://github.com/openclaw/openclaw/pull/120366",
         "state": "open",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-08-08T19:42:41Z"
+        "author": "joshavant",
+        "updatedAt": "2026-08-08T20:46:45Z"
       },
       {
         "kind": "pr",
-        "number": 119678,
-        "title": "Add chat-rag-app: local Chat+RAG+multi-model learning project (Fase 1…",
-        "url": "https://github.com/openclaw/openclaw/pull/119678",
+        "number": 92499,
+        "title": "Memory/QMD: isolate mcporter sidecars per agent",
+        "url": "https://github.com/openclaw/openclaw/pull/92499",
         "state": "open",
-        "author": "jChantoHdz",
-        "updatedAt": "2026-08-08T19:42:41Z"
+        "author": "SYU8384",
+        "updatedAt": "2026-08-08T20:46:44Z"
       },
       {
         "kind": "pr",
-        "number": 97103,
-        "title": "[codex] fix(sessions): report archive cleanup in sessions cleanup",
-        "url": "https://github.com/openclaw/openclaw/pull/97103",
+        "number": 117935,
+        "title": "fix(ci): unblock full release validation",
+        "url": "https://github.com/openclaw/openclaw/pull/117935",
         "state": "open",
-        "author": "samrusani",
-        "updatedAt": "2026-08-08T19:42:41Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-08T20:46:42Z"
       },
       {
         "kind": "pr",
-        "number": 120679,
-        "title": "docs(gateway): add \"Remote client cannot connect\" runbook section",
-        "url": "https://github.com/openclaw/openclaw/pull/120679",
+        "number": 120696,
+        "title": "fix(openai): explicit service tier overrides fast mode",
+        "url": "https://github.com/openclaw/openclaw/pull/120696",
         "state": "open",
-        "author": "pstayets",
-        "updatedAt": "2026-08-08T19:42:40Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-08T20:46:39Z"
       },
       {
         "kind": "pr",
-        "number": 120466,
-        "title": "fix(matrix): non-positive mediaMaxMb blocks every outbound media send",
-        "url": "https://github.com/openclaw/openclaw/pull/120466",
+        "number": 120694,
+        "title": "fix(infra): classify virtiofs mounts as rollback-journal storage (#120549)",
+        "url": "https://github.com/openclaw/openclaw/pull/120694",
         "state": "open",
-        "author": "masatohoshino",
-        "updatedAt": "2026-08-08T19:42:40Z"
+        "author": "licheer-zte",
+        "updatedAt": "2026-08-08T20:46:38Z"
       }
     ]
   }

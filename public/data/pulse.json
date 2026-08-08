@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-07T20:56:59.742Z",
+  "generatedAt": "2026-08-08T02:19:49.976Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -374,6 +374,23 @@
       "contributors": 3072,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-08",
+      "capturedAt": "2026-08-08T02:19:49.976Z",
+      "issueOpen": 3409,
+      "issueClosed": 42858,
+      "prOpen": 2187,
+      "prClosed": 69513,
+      "prMerged": 22886,
+      "workflowRuns": 40000,
+      "stars": 385495,
+      "forks": 81028,
+      "subscribers": 1764,
+      "commits": 77080,
+      "contributors": 3072,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -448,119 +465,91 @@
       "subscribers": 1764,
       "commits": 77000,
       "contributors": 3072
+    },
+    {
+      "capturedOn": "2026-08-08",
+      "stars": 385495,
+      "forks": 81028,
+      "subscribers": 1764,
+      "commits": 77080,
+      "contributors": 3072
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 120288,
-        "title": "[Bug]: Voice Call can revive stale runtime generations during restart",
-        "url": "https://github.com/openclaw/openclaw/issues/120288",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-07T20:56:28Z"
+        "number": 120157,
+        "title": "[Bug]: runtime.subagent.run follow-up on a sessions_yield-paused subagent never wakes the original parent",
+        "url": "https://github.com/openclaw/openclaw/issues/120157",
+        "state": "open",
+        "author": "wonfong",
+        "updatedAt": "2026-08-08T02:07:45Z"
       },
       {
         "kind": "issue",
-        "number": 94285,
-        "title": "[Feature]: Discord - Preserve progress draft and append final answer instead of replacing it (as a setting)",
-        "url": "https://github.com/openclaw/openclaw/issues/94285",
+        "number": 120425,
+        "title": "Telegram DM reply-to-photo: unconditional re-fetch of quoted media causes multi-minute turns, races the no-reply timeout",
+        "url": "https://github.com/openclaw/openclaw/issues/120425",
         "state": "open",
-        "author": "DinoMC",
-        "updatedAt": "2026-08-07T20:54:19Z"
-      },
-      {
-        "kind": "issue",
-        "number": 89394,
-        "title": "[Feature]: Add TUI theme selection (--theme flag / config)",
-        "url": "https://github.com/openclaw/openclaw/issues/89394",
-        "state": "open",
-        "author": "felixkwok911",
-        "updatedAt": "2026-08-07T20:54:12Z"
-      },
-      {
-        "kind": "issue",
-        "number": 89528,
-        "title": "[Bug]: `--safe --skip-deferral` can still wait on restart reply drain for its own tool/final replies",
-        "url": "https://github.com/openclaw/openclaw/issues/89528",
-        "state": "open",
-        "author": "songshikang0111",
-        "updatedAt": "2026-08-07T20:54:08Z"
-      },
-      {
-        "kind": "issue",
-        "number": 11487,
-        "title": "Add optional `name`/`label` field to group config entries",
-        "url": "https://github.com/openclaw/openclaw/issues/11487",
-        "state": "open",
-        "author": "geilt",
-        "updatedAt": "2026-08-07T20:54:04Z"
-      },
-      {
-        "kind": "issue",
-        "number": 83442,
-        "title": "[Feature]: Add operator-friendly rendering for shell/bash command blocks in chat outputs",
-        "url": "https://github.com/openclaw/openclaw/issues/83442",
-        "state": "open",
-        "author": "ndj888",
-        "updatedAt": "2026-08-07T20:54:02Z"
+        "author": "vicky-ai-25",
+        "updatedAt": "2026-08-08T02:07:00Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 79397,
-        "title": "fix(nextcloud-talk): parse structured mention payloads",
-        "url": "https://github.com/openclaw/openclaw/pull/79397",
+        "number": 120148,
+        "title": "fix(model-fallback): treat empty non-GPT completions as failed candidates (#120132)",
+        "url": "https://github.com/openclaw/openclaw/pull/120148",
         "state": "open",
-        "author": "iclem",
-        "updatedAt": "2026-08-07T20:56:53Z"
+        "author": "licheer-zte",
+        "updatedAt": "2026-08-08T02:18:38Z"
       },
       {
         "kind": "pr",
-        "number": 120289,
-        "title": "fix(voice-call): prevent stale runtimes after gateway restart",
-        "url": "https://github.com/openclaw/openclaw/pull/120289",
+        "number": 120186,
+        "title": "fix(release): accept verified prerelease plugin companions",
+        "url": "https://github.com/openclaw/openclaw/pull/120186",
         "state": "closed",
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-08T02:18:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120240,
+        "title": "fix(ollama): reject invalid UTF-8 in streaming NDJSON responses",
+        "url": "https://github.com/openclaw/openclaw/pull/120240",
+        "state": "open",
+        "author": "sunlit-deng",
+        "updatedAt": "2026-08-08T02:18:14Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120084,
+        "title": "fix(plugins): align Fish Audio extension directory",
+        "url": "https://github.com/openclaw/openclaw/pull/120084",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-08T02:16:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120388,
+        "title": "feat(ui): show custom commit age in sidebar footer",
+        "url": "https://github.com/openclaw/openclaw/pull/120388",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-07T20:56:34Z"
+        "updatedAt": "2026-08-08T02:15:33Z"
       },
       {
         "kind": "pr",
-        "number": 111628,
-        "title": "fix(acp): /acp close leaves acpx session resumable, next message resumes the closed session",
-        "url": "https://github.com/openclaw/openclaw/pull/111628",
+        "number": 119001,
+        "title": "feat(codex): bind native realtime voice to existing sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/119001",
         "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-08-07T20:55:39Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120346,
-        "title": "refactor(plugins): shared legacy-state doctor migration and simple secret contracts",
-        "url": "https://github.com/openclaw/openclaw/pull/120346",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-07T20:55:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117189,
-        "title": "Fix SSRF vulnerability and update multiple dependencies",
-        "url": "https://github.com/openclaw/openclaw/pull/117189",
-        "state": "open",
-        "author": "devops2626",
-        "updatedAt": "2026-08-07T20:55:23Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120044,
-        "title": "fix(gateway): usage.status no longer waits on provider HTTP",
-        "url": "https://github.com/openclaw/openclaw/pull/120044",
-        "state": "open",
-        "author": "sasan1200",
-        "updatedAt": "2026-08-07T20:55:08Z"
+        "author": "GoatInAHat",
+        "updatedAt": "2026-08-08T02:13:53Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-08T02:19:49.976Z",
+  "generatedAt": "2026-08-08T05:55:29.850Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -377,17 +377,17 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "capturedAt": "2026-08-08T02:19:49.976Z",
-      "issueOpen": 3409,
-      "issueClosed": 42858,
-      "prOpen": 2187,
-      "prClosed": 69513,
-      "prMerged": 22886,
+      "capturedAt": "2026-08-08T05:55:29.850Z",
+      "issueOpen": 3408,
+      "issueClosed": 42869,
+      "prOpen": 2200,
+      "prClosed": 69552,
+      "prMerged": 22908,
       "workflowRuns": 40000,
-      "stars": 385495,
-      "forks": 81028,
+      "stars": 385514,
+      "forks": 81030,
       "subscribers": 1764,
-      "commits": 77080,
+      "commits": 77101,
       "contributors": 3072,
       "source": "github-actions",
       "approximateDate": false
@@ -468,10 +468,10 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "stars": 385495,
-      "forks": 81028,
+      "stars": 385514,
+      "forks": 81030,
       "subscribers": 1764,
-      "commits": 77080,
+      "commits": 77101,
       "contributors": 3072
     }
   ],
@@ -479,77 +479,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 120157,
-        "title": "[Bug]: runtime.subagent.run follow-up on a sessions_yield-paused subagent never wakes the original parent",
-        "url": "https://github.com/openclaw/openclaw/issues/120157",
+        "number": 120488,
+        "title": "[Bug]: process poll does not consume notifyOnExit event, causing stale duplicate heartbeat relay",
+        "url": "https://github.com/openclaw/openclaw/issues/120488",
         "state": "open",
-        "author": "wonfong",
-        "updatedAt": "2026-08-08T02:07:45Z"
+        "author": "aaajiao",
+        "updatedAt": "2026-08-08T05:54:02Z"
       },
       {
         "kind": "issue",
-        "number": 120425,
-        "title": "Telegram DM reply-to-photo: unconditional re-fetch of quoted media causes multi-minute turns, races the no-reply timeout",
-        "url": "https://github.com/openclaw/openclaw/issues/120425",
+        "number": 119200,
+        "title": "[Bug]: a throwing channel plugin migration callback crashes doctor/gateway startup",
+        "url": "https://github.com/openclaw/openclaw/issues/119200",
         "state": "open",
-        "author": "vicky-ai-25",
-        "updatedAt": "2026-08-08T02:07:00Z"
+        "author": "ruel225",
+        "updatedAt": "2026-08-08T05:53:56Z"
+      },
+      {
+        "kind": "issue",
+        "number": 119557,
+        "title": "[Bug]: chat delta throttle has no trailing flush, so a withheld chunk waits for the next qualifying event",
+        "url": "https://github.com/openclaw/openclaw/issues/119557",
+        "state": "open",
+        "author": "xyrolle",
+        "updatedAt": "2026-08-08T05:53:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112350,
+        "title": "cron job actively firing (visible in `cron runs --id`) but absent from `cron list --all` / get / show; `rm` fails \"id not found\"",
+        "url": "https://github.com/openclaw/openclaw/issues/112350",
+        "state": "open",
+        "author": "smokerinthewind",
+        "updatedAt": "2026-08-08T05:53:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 120061,
+        "title": "Plugin SDK: tool execute() receives tool call ID as arg0, params as arg1",
+        "url": "https://github.com/openclaw/openclaw/issues/120061",
+        "state": "open",
+        "author": "JeffSteinbok",
+        "updatedAt": "2026-08-08T05:53:54Z"
+      },
+      {
+        "kind": "issue",
+        "number": 119223,
+        "title": "[Feature]: Carry a prior-session summary across conversation rollover (parity with compaction)",
+        "url": "https://github.com/openclaw/openclaw/issues/119223",
+        "state": "open",
+        "author": "obviyus",
+        "updatedAt": "2026-08-08T05:53:54Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 120148,
-        "title": "fix(model-fallback): treat empty non-GPT completions as failed candidates (#120132)",
-        "url": "https://github.com/openclaw/openclaw/pull/120148",
+        "number": 120087,
+        "title": "fix(slack): route Enterprise Grid messages by workspace",
+        "url": "https://github.com/openclaw/openclaw/pull/120087",
         "state": "open",
-        "author": "licheer-zte",
-        "updatedAt": "2026-08-08T02:18:38Z"
+        "author": "sjf-oa",
+        "updatedAt": "2026-08-08T05:55:03Z"
       },
       {
         "kind": "pr",
-        "number": 120186,
-        "title": "fix(release): accept verified prerelease plugin companions",
-        "url": "https://github.com/openclaw/openclaw/pull/120186",
-        "state": "closed",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-08T02:18:25Z"
+        "number": 118792,
+        "title": "fix(agents): never persist cumulative usage as session context snapshot (#118772)",
+        "url": "https://github.com/openclaw/openclaw/pull/118792",
+        "state": "open",
+        "author": "Yuxin-Qiao",
+        "updatedAt": "2026-08-08T05:54:33Z"
       },
       {
         "kind": "pr",
-        "number": 120240,
-        "title": "fix(ollama): reject invalid UTF-8 in streaming NDJSON responses",
-        "url": "https://github.com/openclaw/openclaw/pull/120240",
+        "number": 116248,
+        "title": "fix(auth): default agent loses keys after secondary paste-api-key",
+        "url": "https://github.com/openclaw/openclaw/pull/116248",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-08-08T02:18:14Z"
+        "author": "ericcaiwx-star",
+        "updatedAt": "2026-08-08T05:54:24Z"
       },
       {
         "kind": "pr",
-        "number": 120084,
-        "title": "fix(plugins): align Fish Audio extension directory",
-        "url": "https://github.com/openclaw/openclaw/pull/120084",
+        "number": 119909,
+        "title": "fix(sessions): highWaterBytes 0 no longer deletes all session history",
+        "url": "https://github.com/openclaw/openclaw/pull/119909",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-08T02:16:40Z"
+        "author": "masatohoshino",
+        "updatedAt": "2026-08-08T05:54:01Z"
       },
       {
         "kind": "pr",
-        "number": 120388,
-        "title": "feat(ui): show custom commit age in sidebar footer",
-        "url": "https://github.com/openclaw/openclaw/pull/120388",
+        "number": 95847,
+        "title": "fix(subagents): credit requester-consumed descendant completions",
+        "url": "https://github.com/openclaw/openclaw/pull/95847",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-08T02:15:33Z"
+        "author": "kklouzal",
+        "updatedAt": "2026-08-08T05:54:00Z"
       },
       {
         "kind": "pr",
-        "number": 119001,
-        "title": "feat(codex): bind native realtime voice to existing sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/119001",
+        "number": 118307,
+        "title": "fix(matrix): preserve failed partial previews",
+        "url": "https://github.com/openclaw/openclaw/pull/118307",
         "state": "open",
-        "author": "GoatInAHat",
-        "updatedAt": "2026-08-08T02:13:53Z"
+        "author": "shad0wca7",
+        "updatedAt": "2026-08-08T05:53:53Z"
       }
     ]
   }

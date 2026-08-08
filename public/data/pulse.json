@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-08T08:58:24.913Z",
+  "generatedAt": "2026-08-08T09:53:15.476Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -377,16 +377,16 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "capturedAt": "2026-08-08T08:58:24.913Z",
-      "issueOpen": 3415,
-      "issueClosed": 42878,
-      "prOpen": 2222,
-      "prClosed": 69568,
+      "capturedAt": "2026-08-08T09:53:15.476Z",
+      "issueOpen": 3420,
+      "issueClosed": 42879,
+      "prOpen": 2228,
+      "prClosed": 69570,
       "prMerged": 22918,
       "workflowRuns": 40000,
-      "stars": 385524,
+      "stars": 385527,
       "forks": 81028,
-      "subscribers": 1764,
+      "subscribers": 1765,
       "commits": 77109,
       "contributors": 3072,
       "source": "github-actions",
@@ -468,9 +468,9 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "stars": 385524,
+      "stars": 385527,
       "forks": 81028,
-      "subscribers": 1764,
+      "subscribers": 1765,
       "commits": 77109,
       "contributors": 3072
     }
@@ -479,113 +479,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 103231,
-        "title": "`claude-cli` backend: `ownsNativeCompaction` assumption is false for `claude -p` sessions — nobody compacts, sessions grow past 200% context, and every recovery path (stuck-session abort, safeguard compaction) fails silently",
-        "url": "https://github.com/openclaw/openclaw/issues/103231",
-        "state": "open",
-        "author": "dankorotin",
-        "updatedAt": "2026-08-08T08:53:19Z"
-      },
-      {
-        "kind": "issue",
-        "number": 118923,
-        "title": "Safeguard compaction retry loop: 24 identical attempts in 47 min, no circuit breaker, session wedged until /new (2026.7.1-2)",
-        "url": "https://github.com/openclaw/openclaw/issues/118923",
-        "state": "open",
-        "author": "pashapashapasha777",
-        "updatedAt": "2026-08-08T08:53:17Z"
-      },
-      {
-        "kind": "issue",
-        "number": 109944,
-        "title": "feat(diagnostics-prometheus): attach the agent label to model-call, tool-execution, and run metric families",
-        "url": "https://github.com/openclaw/openclaw/issues/109944",
-        "state": "open",
-        "author": "jgrandguillaume",
-        "updatedAt": "2026-08-08T08:51:51Z"
-      },
-      {
-        "kind": "issue",
         "number": 86537,
         "title": "[Bug]: Subagent terminal reconciliation can expire suspended final delivery",
         "url": "https://github.com/openclaw/openclaw/issues/86537",
         "state": "open",
         "author": "galiniliev",
-        "updatedAt": "2026-08-08T08:51:27Z"
+        "updatedAt": "2026-08-08T09:50:24Z"
       },
       {
         "kind": "issue",
-        "number": 119484,
-        "title": "[Bug]: LF-only line endings in .cmd scripts (as written by AI editors) cause CMD to randomly drop characters / break nested blocks 鈥?silent corruption",
-        "url": "https://github.com/openclaw/openclaw/issues/119484",
+        "number": 120532,
+        "title": "gateway.tailscale.mode = \"serve\" has no effect — no Tailscale Serve route is created on gateway (re)start",
+        "url": "https://github.com/openclaw/openclaw/issues/120532",
         "state": "open",
-        "author": "saner-spec",
-        "updatedAt": "2026-08-08T08:51:25Z"
+        "author": "galli-personal",
+        "updatedAt": "2026-08-08T09:49:58Z"
       },
       {
         "kind": "issue",
-        "number": 69242,
-        "title": "exec tool on Linux intermittently SIGKILLs broad find/grep discovery commands without OOM evidence",
-        "url": "https://github.com/openclaw/openclaw/issues/69242",
+        "number": 97287,
+        "title": "[Bug]: Feishu plugin: token invalid error (99991663) does not trigger automatic retry — requires manual gateway restart",
+        "url": "https://github.com/openclaw/openclaw/issues/97287",
         "state": "open",
-        "author": "schksw-ctrl",
-        "updatedAt": "2026-08-08T08:51:23Z"
+        "author": "xueshenglin",
+        "updatedAt": "2026-08-08T09:49:57Z"
+      },
+      {
+        "kind": "issue",
+        "number": 90980,
+        "title": "[Bug]: Docker engine wedged/unresponsive → docker exec hangs (no timeout) → gateway blocks at startup, all agents offline (fresh repro of #5135 on 2026.5.28)",
+        "url": "https://github.com/openclaw/openclaw/issues/90980",
+        "state": "open",
+        "author": "alpersonalwebsite",
+        "updatedAt": "2026-08-08T09:49:57Z"
+      },
+      {
+        "kind": "issue",
+        "number": 59168,
+        "title": "feat(models): use provider/name as internal key to decouple from API model ID",
+        "url": "https://github.com/openclaw/openclaw/issues/59168",
+        "state": "open",
+        "author": "Kaspre",
+        "updatedAt": "2026-08-08T09:49:56Z"
+      },
+      {
+        "kind": "issue",
+        "number": 71689,
+        "title": "Bug: tasks registry restore fails on malformed SQLite image",
+        "url": "https://github.com/openclaw/openclaw/issues/71689",
+        "state": "open",
+        "author": "waynegault",
+        "updatedAt": "2026-08-08T09:49:54Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 120084,
-        "title": "fix(plugins): align Fish Audio extension directory",
-        "url": "https://github.com/openclaw/openclaw/pull/120084",
+        "number": 80396,
+        "title": "fix(media): warn when MEDIA: token is skipped inside fenced code block (#41966)",
+        "url": "https://github.com/openclaw/openclaw/pull/80396",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-08T08:58:16Z"
+        "author": "Bartok9",
+        "updatedAt": "2026-08-08T09:53:12Z"
       },
       {
         "kind": "pr",
-        "number": 119762,
-        "title": "feat(release): validate stable and prerelease Windows node releases",
-        "url": "https://github.com/openclaw/openclaw/pull/119762",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-08T08:58:07Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120545,
-        "title": "fix(codex): verify thread liveness before deferring automatic compaction",
-        "url": "https://github.com/openclaw/openclaw/pull/120545",
-        "state": "open",
-        "author": "Tejas-Raj01",
-        "updatedAt": "2026-08-08T08:57:46Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120544,
-        "title": "refactor(github-copilot): narrow runtime facade",
-        "url": "https://github.com/openclaw/openclaw/pull/120544",
+        "number": 120523,
+        "title": "fix(ci): clear Mantis reactions with app identity",
+        "url": "https://github.com/openclaw/openclaw/pull/120523",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-08T08:56:47Z"
+        "updatedAt": "2026-08-08T09:52:36Z"
       },
       {
         "kind": "pr",
-        "number": 120201,
-        "title": "fix: sessions.reset on default agent main session returns clean error instead of crashing",
-        "url": "https://github.com/openclaw/openclaw/pull/120201",
+        "number": 120493,
+        "title": "fix(ui): bulk session archive no longer stalls per thread",
+        "url": "https://github.com/openclaw/openclaw/pull/120493",
         "state": "open",
-        "author": "YangManBOBO",
-        "updatedAt": "2026-08-08T08:56:38Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-08T09:52:20Z"
       },
       {
         "kind": "pr",
-        "number": 119295,
-        "title": "fix(ui): prevent oversized WebRTC SDP answers from hanging Talk setup",
-        "url": "https://github.com/openclaw/openclaw/pull/119295",
+        "number": 120552,
+        "title": "refactor(gateway): centralize channel health projection",
+        "url": "https://github.com/openclaw/openclaw/pull/120552",
         "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-08-08T08:56:12Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-08T09:52:20Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120473,
+        "title": "refactor(ui): align sidebar session list on a single lead-slot rail",
+        "url": "https://github.com/openclaw/openclaw/pull/120473",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-08T09:50:51Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117911,
+        "title": "fix(exec): explain Linux OOM-score-adjusted SIGKILLs",
+        "url": "https://github.com/openclaw/openclaw/pull/117911",
+        "state": "open",
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-08-08T09:50:48Z"
       }
     ]
   }

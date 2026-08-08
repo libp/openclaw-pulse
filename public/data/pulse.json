@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-08T20:46:52.881Z",
+  "generatedAt": "2026-08-08T21:44:14.989Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -377,18 +377,18 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "capturedAt": "2026-08-08T20:46:52.881Z",
-      "issueOpen": 3414,
-      "issueClosed": 42916,
-      "prOpen": 2214,
-      "prClosed": 69693,
-      "prMerged": 23018,
+      "capturedAt": "2026-08-08T21:44:14.989Z",
+      "issueOpen": 3415,
+      "issueClosed": 42920,
+      "prOpen": 2215,
+      "prClosed": 69710,
+      "prMerged": 23034,
       "workflowRuns": 40000,
-      "stars": 385569,
-      "forks": 81044,
+      "stars": 385568,
+      "forks": 81045,
       "subscribers": 1765,
-      "commits": 77218,
-      "contributors": 3073,
+      "commits": 77234,
+      "contributors": 3075,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -468,32 +468,23 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "stars": 385569,
-      "forks": 81044,
+      "stars": 385568,
+      "forks": 81045,
       "subscribers": 1765,
-      "commits": 77218,
-      "contributors": 3073
+      "commits": 77234,
+      "contributors": 3075
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 120315,
-        "title": "[Bug]: /stop user abort is misclassified as gateway restart recovery and leaves stale recovery state",
-        "url": "https://github.com/openclaw/openclaw/issues/120315",
+        "number": 48855,
+        "title": "[Feature]: Android Gateway Support",
+        "url": "https://github.com/openclaw/openclaw/issues/48855",
         "state": "open",
-        "author": "hannesrudolph",
-        "updatedAt": "2026-08-08T20:46:35Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119440,
-        "title": "[Bug]: Gateway main thread burns a full core under business load — ~18k failed readlink/s path-resolution storm; persists across 2026.7.2-beta.5 and beta.7 (survives #91517 fix)",
-        "url": "https://github.com/openclaw/openclaw/issues/119440",
-        "state": "open",
-        "author": "Mitchfffg",
-        "updatedAt": "2026-08-08T20:46:30Z"
+        "author": "Vasanthdev2004",
+        "updatedAt": "2026-08-08T21:44:11Z"
       },
       {
         "kind": "issue",
@@ -502,72 +493,99 @@
         "url": "https://github.com/openclaw/openclaw/issues/114154",
         "state": "open",
         "author": "kayloehmann",
-        "updatedAt": "2026-08-08T20:46:30Z"
+        "updatedAt": "2026-08-08T21:44:06Z"
       },
       {
         "kind": "issue",
-        "number": 119707,
-        "title": "[Feature]: Same-provider auth profile rotation for media generation tools (image/video) on rate-limit errors",
-        "url": "https://github.com/openclaw/openclaw/issues/119707",
+        "number": 78537,
+        "title": "[Docs]: `allowInsecurePath` Linux uid-check behavior is undocumented; users on Linux cannot use system-package binaries (e.g. /usr/bin/op) without it",
+        "url": "https://github.com/openclaw/openclaw/issues/78537",
         "state": "open",
-        "author": "tsume-workflow",
-        "updatedAt": "2026-08-08T20:46:22Z"
+        "author": "esqandil",
+        "updatedAt": "2026-08-08T21:44:04Z"
+      },
+      {
+        "kind": "issue",
+        "number": 80131,
+        "title": "perf: per-request auth (5.5s) and tool bundling (8.9s) dominate gateway TTFT",
+        "url": "https://github.com/openclaw/openclaw/issues/80131",
+        "state": "open",
+        "author": "banna-commits",
+        "updatedAt": "2026-08-08T21:43:47Z"
+      },
+      {
+        "kind": "issue",
+        "number": 114031,
+        "title": "[Feature]: Make new thread creation feel instant",
+        "url": "https://github.com/openclaw/openclaw/issues/114031",
+        "state": "open",
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-08T21:43:37Z"
+      },
+      {
+        "kind": "issue",
+        "number": 98870,
+        "title": "[Bug]: Teams thread context omits newer replies when a channel thread has more than 50 replies",
+        "url": "https://github.com/openclaw/openclaw/issues/98870",
+        "state": "open",
+        "author": "qingminglong",
+        "updatedAt": "2026-08-08T21:43:34Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 118685,
-        "title": "fix(agents): record stop reason in completion trajectory",
-        "url": "https://github.com/openclaw/openclaw/pull/118685",
+        "number": 120722,
+        "title": "fix(context-engine): avoid legacy self-degradation",
+        "url": "https://github.com/openclaw/openclaw/pull/120722",
         "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-08T20:46:48Z"
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-08-08T21:44:09Z"
       },
       {
         "kind": "pr",
-        "number": 120366,
-        "title": "fix(codex): preserve configured MCP tools in scheduled turns",
-        "url": "https://github.com/openclaw/openclaw/pull/120366",
-        "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-08-08T20:46:45Z"
-      },
-      {
-        "kind": "pr",
-        "number": 92499,
-        "title": "Memory/QMD: isolate mcporter sidecars per agent",
-        "url": "https://github.com/openclaw/openclaw/pull/92499",
-        "state": "open",
-        "author": "SYU8384",
-        "updatedAt": "2026-08-08T20:46:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117935,
-        "title": "fix(ci): unblock full release validation",
-        "url": "https://github.com/openclaw/openclaw/pull/117935",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-08T20:46:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120696,
-        "title": "fix(openai): explicit service tier overrides fast mode",
-        "url": "https://github.com/openclaw/openclaw/pull/120696",
+        "number": 120717,
+        "title": "fix(cloud-workers): preserve accepted workspace after SSH loss",
+        "url": "https://github.com/openclaw/openclaw/pull/120717",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-08T20:46:39Z"
+        "updatedAt": "2026-08-08T21:44:07Z"
       },
       {
         "kind": "pr",
-        "number": 120694,
-        "title": "fix(infra): classify virtiofs mounts as rollback-journal storage (#120549)",
-        "url": "https://github.com/openclaw/openclaw/pull/120694",
+        "number": 120707,
+        "title": "fix(gateway): isolate remote probe device auth",
+        "url": "https://github.com/openclaw/openclaw/pull/120707",
         "state": "open",
-        "author": "licheer-zte",
-        "updatedAt": "2026-08-08T20:46:38Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-08T21:44:07Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114072,
+        "title": "fix(workboard): decomposed children no longer block aggregate parents",
+        "url": "https://github.com/openclaw/openclaw/pull/114072",
+        "state": "open",
+        "author": "fr-meyer",
+        "updatedAt": "2026-08-08T21:44:07Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114424,
+        "title": "improve(providers): consolidate provider contract tests without losing coverage",
+        "url": "https://github.com/openclaw/openclaw/pull/114424",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-08T21:44:11Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120699,
+        "title": "fix: prevent LaunchAgent reinstall from leaving gateway down",
+        "url": "https://github.com/openclaw/openclaw/pull/120699",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-08T21:43:55Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-08T11:40:48.824Z",
+  "generatedAt": "2026-08-08T13:10:50.083Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -377,17 +377,17 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "capturedAt": "2026-08-08T11:40:48.824Z",
-      "issueOpen": 3421,
-      "issueClosed": 42884,
-      "prOpen": 2227,
-      "prClosed": 69581,
-      "prMerged": 22928,
+      "capturedAt": "2026-08-08T13:10:50.083Z",
+      "issueOpen": 3419,
+      "issueClosed": 42889,
+      "prOpen": 2225,
+      "prClosed": 69597,
+      "prMerged": 22937,
       "workflowRuns": 40000,
-      "stars": 385532,
-      "forks": 81031,
+      "stars": 385530,
+      "forks": 81037,
       "subscribers": 1764,
-      "commits": 77119,
+      "commits": 77132,
       "contributors": 3072,
       "source": "github-actions",
       "approximateDate": false
@@ -468,10 +468,10 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "stars": 385532,
-      "forks": 81031,
+      "stars": 385530,
+      "forks": 81037,
       "subscribers": 1764,
-      "commits": 77119,
+      "commits": 77132,
       "contributors": 3072
     }
   ],
@@ -479,86 +479,41 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 120558,
-        "title": "Bug: /stop does not cancel detached Skill Workshop experience review",
-        "url": "https://github.com/openclaw/openclaw/issues/120558",
+        "number": 120592,
+        "title": "webchat: heartbeat system event leaks <<<BEGIN_OPENCLAW_INTERNAL_CONTEXT>>> block to user",
+        "url": "https://github.com/openclaw/openclaw/issues/120592",
         "state": "open",
-        "author": "litang9",
-        "updatedAt": "2026-08-08T11:40:44Z"
-      },
-      {
-        "kind": "issue",
-        "number": 92500,
-        "title": "Add Telegram voice/STT handoff telemetry into agent context",
-        "url": "https://github.com/openclaw/openclaw/issues/92500",
-        "state": "open",
-        "author": "100yenadmin",
-        "updatedAt": "2026-08-08T11:40:41Z"
-      },
-      {
-        "kind": "issue",
-        "number": 72717,
-        "title": "Feature Request: SQLite FTS index for wiki_search to improve synthesis query performance",
-        "url": "https://github.com/openclaw/openclaw/issues/72717",
-        "state": "open",
-        "author": "MagnaAI",
-        "updatedAt": "2026-08-08T11:40:34Z"
-      },
-      {
-        "kind": "issue",
-        "number": 112244,
-        "title": "[Bug]: Feishu message send silently drops unsupported attachment params (file/filePath/attachments/…) and returns ok:true — attachment never sent",
-        "url": "https://github.com/openclaw/openclaw/issues/112244",
-        "state": "open",
-        "author": "forrystudio",
-        "updatedAt": "2026-08-08T11:40:20Z"
+        "author": "Chow36-coder",
+        "updatedAt": "2026-08-08T12:57:49Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 120572,
-        "title": "fix(agents): surface tool loop warnings to models",
-        "url": "https://github.com/openclaw/openclaw/pull/120572",
-        "state": "open",
-        "author": "Arata1202",
-        "updatedAt": "2026-08-08T11:40:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118067,
-        "title": "feat(discord): support private provider endpoints",
-        "url": "https://github.com/openclaw/openclaw/pull/118067",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-08T11:40:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120426,
-        "title": "fix(agents): keep stalled turns visible after Responses streams settle",
-        "url": "https://github.com/openclaw/openclaw/pull/120426",
+        "number": 120470,
+        "title": "fix(agent): apply steering before unstarted tools",
+        "url": "https://github.com/openclaw/openclaw/pull/120470",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-08T11:40:41Z"
+        "updatedAt": "2026-08-08T13:10:37Z"
       },
       {
         "kind": "pr",
-        "number": 118598,
-        "title": "feat(ci): route around saturated Blacksmith capacity",
-        "url": "https://github.com/openclaw/openclaw/pull/118598",
+        "number": 120075,
+        "title": "fix: gateway stalls for tens of seconds after each agent turn on multi-agent installs",
+        "url": "https://github.com/openclaw/openclaw/pull/120075",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-08T11:40:41Z"
+        "author": "sercada",
+        "updatedAt": "2026-08-08T13:10:03Z"
       },
       {
         "kind": "pr",
-        "number": 120509,
-        "title": "fix(sessions): preserve context provenance across retries [AI]",
-        "url": "https://github.com/openclaw/openclaw/pull/120509",
+        "number": 89040,
+        "title": "perf: avoid event-loop stall during embedded_run bootstrap-context",
+        "url": "https://github.com/openclaw/openclaw/pull/89040",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-08T11:40:40Z"
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-08-08T13:09:01Z"
       },
       {
         "kind": "pr",
@@ -567,7 +522,25 @@
         "url": "https://github.com/openclaw/openclaw/pull/120148",
         "state": "open",
         "author": "licheer-zte",
-        "updatedAt": "2026-08-08T11:40:40Z"
+        "updatedAt": "2026-08-08T13:07:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119827,
+        "title": "fix(channels): bound ingress claim candidate IN lists below SQLite's bind-variable limit",
+        "url": "https://github.com/openclaw/openclaw/pull/119827",
+        "state": "closed",
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-08-08T13:07:00Z"
+      },
+      {
+        "kind": "pr",
+        "number": 97175,
+        "title": "fix(context-engine): keep background maintenance from blocking new messages",
+        "url": "https://github.com/openclaw/openclaw/pull/97175",
+        "state": "open",
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-08-08T13:06:43Z"
       }
     ]
   }

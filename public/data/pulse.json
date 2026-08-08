@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-08T13:55:24.289Z",
+  "generatedAt": "2026-08-08T15:44:00.929Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -377,18 +377,18 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "capturedAt": "2026-08-08T13:55:24.289Z",
-      "issueOpen": 3419,
-      "issueClosed": 42891,
-      "prOpen": 2222,
-      "prClosed": 69603,
-      "prMerged": 22941,
+      "capturedAt": "2026-08-08T15:44:00.929Z",
+      "issueOpen": 3418,
+      "issueClosed": 42897,
+      "prOpen": 2218,
+      "prClosed": 69623,
+      "prMerged": 22954,
       "workflowRuns": 40000,
-      "stars": 385536,
-      "forks": 81037,
+      "stars": 385548,
+      "forks": 81036,
       "subscribers": 1764,
-      "commits": 77137,
-      "contributors": 3072,
+      "commits": 77150,
+      "contributors": 3073,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -468,89 +468,35 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "stars": 385536,
-      "forks": 81037,
+      "stars": 385548,
+      "forks": 81036,
       "subscribers": 1764,
-      "commits": 77137,
-      "contributors": 3072
+      "commits": 77150,
+      "contributors": 3073
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 97287,
-        "title": "[Bug]: Feishu plugin: token invalid error (99991663) does not trigger automatic retry — requires manual gateway restart",
-        "url": "https://github.com/openclaw/openclaw/issues/97287",
+        "number": 119584,
+        "title": "WhatsApp: concurrent login flows race the shared credential directory — mid-pairing wipe yields linked:true credentials that 401 on every connect",
+        "url": "https://github.com/openclaw/openclaw/issues/119584",
         "state": "open",
-        "author": "xueshenglin",
-        "updatedAt": "2026-08-08T13:54:57Z"
+        "author": "Jackten",
+        "updatedAt": "2026-08-08T15:43:29Z"
       },
       {
         "kind": "issue",
-        "number": 119839,
-        "title": "[Feature]: Memory-flush tool list is a hardcoded {read, write} set, so a deployment that denies the native fs tools runs the flush with zero tools",
-        "url": "https://github.com/openclaw/openclaw/issues/119839",
+        "number": 92500,
+        "title": "Add Telegram voice/STT handoff telemetry into agent context",
+        "url": "https://github.com/openclaw/openclaw/issues/92500",
         "state": "open",
-        "author": "clemenshelm",
-        "updatedAt": "2026-08-08T13:51:20Z"
-      },
-      {
-        "kind": "issue",
-        "number": 120378,
-        "title": "Gateway session-store discovery runs once per stream event, so post-turn cost scales with answer length",
-        "url": "https://github.com/openclaw/openclaw/issues/120378",
-        "state": "open",
-        "author": "sercada",
-        "updatedAt": "2026-08-08T13:51:13Z"
-      },
-      {
-        "kind": "issue",
-        "number": 120142,
-        "title": "Tighten DISCORD_EMPTY_VISIBLE_REPLY_WARNING to identify cause",
-        "url": "https://github.com/openclaw/openclaw/issues/120142",
-        "state": "open",
-        "author": "patelmm79",
-        "updatedAt": "2026-08-08T13:51:10Z"
-      },
-      {
-        "kind": "issue",
-        "number": 77508,
-        "title": "Misleading error when channel block is missing during channels login",
-        "url": "https://github.com/openclaw/openclaw/issues/77508",
-        "state": "open",
-        "author": "xooid",
-        "updatedAt": "2026-08-08T13:50:53Z"
+        "author": "100yenadmin",
+        "updatedAt": "2026-08-08T15:43:06Z"
       }
     ],
     "prs": [
-      {
-        "kind": "pr",
-        "number": 120597,
-        "title": "fix(infra): detect virtiofs and 9p filesystems to prevent WAL corruption",
-        "url": "https://github.com/openclaw/openclaw/pull/120597",
-        "state": "open",
-        "author": "LiuwqGit",
-        "updatedAt": "2026-08-08T13:55:12Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119981,
-        "title": "fix(gateway): keep new nodes compatible with older gateways",
-        "url": "https://github.com/openclaw/openclaw/pull/119981",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-08T13:55:07Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120527,
-        "title": "fix(telegram): restore account-scoped reply mode",
-        "url": "https://github.com/openclaw/openclaw/pull/120527",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-08T13:54:05Z"
-      },
       {
         "kind": "pr",
         "number": 120434,
@@ -558,25 +504,52 @@
         "url": "https://github.com/openclaw/openclaw/pull/120434",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-08T13:53:53Z"
+        "updatedAt": "2026-08-08T15:43:54Z"
       },
       {
         "kind": "pr",
-        "number": 93247,
-        "title": "fix(diagnostics): idle ownerless state after failed recovery",
-        "url": "https://github.com/openclaw/openclaw/pull/93247",
+        "number": 119995,
+        "title": "feat(release): define gateway node compatibility evidence",
+        "url": "https://github.com/openclaw/openclaw/pull/119995",
         "state": "open",
-        "author": "1052326311",
-        "updatedAt": "2026-08-08T13:53:44Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-08T15:43:54Z"
       },
       {
         "kind": "pr",
-        "number": 120585,
-        "title": "fix: process poll leaves notify-on-exit completion queued",
-        "url": "https://github.com/openclaw/openclaw/pull/120585",
+        "number": 120040,
+        "title": "test(qa): define Gateway-node platform topologies",
+        "url": "https://github.com/openclaw/openclaw/pull/120040",
         "state": "open",
-        "author": "1052326311",
-        "updatedAt": "2026-08-08T13:53:11Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-08T15:43:58Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120506,
+        "title": "feat(update): scheduled update campaigns with countdown, dev-channel auto-update, and Updates settings page",
+        "url": "https://github.com/openclaw/openclaw/pull/120506",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-08T15:43:52Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120350,
+        "title": "refactor(core): adopt normalization-core leaf helpers across production",
+        "url": "https://github.com/openclaw/openclaw/pull/120350",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-08T15:43:51Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113746,
+        "title": "improve(memory-wiki): batch automation operations",
+        "url": "https://github.com/openclaw/openclaw/pull/113746",
+        "state": "open",
+        "author": "GSUCAS",
+        "updatedAt": "2026-08-08T15:43:50Z"
       }
     ]
   }

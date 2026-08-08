@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-08T07:12:45.182Z",
+  "generatedAt": "2026-08-08T07:58:30.119Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -377,17 +377,17 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "capturedAt": "2026-08-08T07:12:45.182Z",
-      "issueOpen": 3410,
-      "issueClosed": 42872,
-      "prOpen": 2211,
-      "prClosed": 69557,
-      "prMerged": 22912,
+      "capturedAt": "2026-08-08T07:58:30.119Z",
+      "issueOpen": 3414,
+      "issueClosed": 42873,
+      "prOpen": 2212,
+      "prClosed": 69560,
+      "prMerged": 22914,
       "workflowRuns": 40000,
-      "stars": 385521,
-      "forks": 81028,
+      "stars": 385525,
+      "forks": 81027,
       "subscribers": 1764,
-      "commits": 77104,
+      "commits": 77106,
       "contributors": 3072,
       "source": "github-actions",
       "approximateDate": false
@@ -468,69 +468,106 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "stars": 385521,
-      "forks": 81028,
+      "stars": 385525,
+      "forks": 81027,
       "subscribers": 1764,
-      "commits": 77104,
+      "commits": 77106,
       "contributors": 3072
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 120521,
+        "title": "[Bug]: systemPromptReport persisted per session entry causes ~15x read/write amplification in sessions.json",
+        "url": "https://github.com/openclaw/openclaw/issues/120521",
+        "state": "open",
+        "author": "charles-low",
+        "updatedAt": "2026-08-08T07:58:00Z"
+      },
+      {
+        "kind": "issue",
+        "number": 120520,
+        "title": "[Bug] Text-only primary model still receives raw image after imageModel media-understanding succeeds (chat/Telegram path)",
+        "url": "https://github.com/openclaw/openclaw/issues/120520",
+        "state": "open",
+        "author": "jarvisanwyl",
+        "updatedAt": "2026-08-08T07:51:57Z"
+      },
+      {
+        "kind": "issue",
+        "number": 120356,
+        "title": "[Bug]: Context Stays at 0% with VLLM backend.",
+        "url": "https://github.com/openclaw/openclaw/issues/120356",
+        "state": "open",
+        "author": "DigitalCharon",
+        "updatedAt": "2026-08-08T07:48:12Z"
+      },
+      {
+        "kind": "issue",
+        "number": 85111,
+        "title": "Feature: opt-in to bypass requireMention for in-thread replies when the bot has an active per-thread session binding",
+        "url": "https://github.com/openclaw/openclaw/issues/85111",
+        "state": "open",
+        "author": "paulmeier",
+        "updatedAt": "2026-08-08T07:46:18Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 115278,
-        "title": "fix(mentions): match typed group mentions when the agent identity name is decorated",
-        "url": "https://github.com/openclaw/openclaw/pull/115278",
-        "state": "open",
-        "author": "edenfunf",
-        "updatedAt": "2026-08-08T07:12:42Z"
+        "number": 118792,
+        "title": "fix(agents): never persist cumulative usage as session context snapshot (#118772)",
+        "url": "https://github.com/openclaw/openclaw/pull/118792",
+        "state": "closed",
+        "author": "Yuxin-Qiao",
+        "updatedAt": "2026-08-08T07:57:49Z"
       },
       {
         "kind": "pr",
-        "number": 120496,
-        "title": "fix(compaction): allow Claude CLI sessions to compact without API keys",
-        "url": "https://github.com/openclaw/openclaw/pull/120496",
-        "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-08-08T07:12:19Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120512,
-        "title": "feat: resolve short session references in the gateway",
-        "url": "https://github.com/openclaw/openclaw/pull/120512",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-08T07:12:13Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117305,
-        "title": "fix(sessions): distinguish transient lookup failures from policy denials",
-        "url": "https://github.com/openclaw/openclaw/pull/117305",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-08T07:11:34Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119443,
-        "title": "fix(gateway): reject invalid session history cursor with 400",
-        "url": "https://github.com/openclaw/openclaw/pull/119443",
-        "state": "open",
-        "author": "xialonglee",
-        "updatedAt": "2026-08-08T07:11:24Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112820,
-        "title": "feat(plugin-sdk): open Gateway-managed realtime Talk sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/112820",
+        "number": 119762,
+        "title": "feat(release): validate stable and prerelease Windows node releases",
+        "url": "https://github.com/openclaw/openclaw/pull/119762",
         "state": "open",
         "author": "RomneyDa",
-        "updatedAt": "2026-08-08T07:11:18Z"
+        "updatedAt": "2026-08-08T07:56:55Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120509,
+        "title": "fix(sessions): preserve context provenance across retries [AI]",
+        "url": "https://github.com/openclaw/openclaw/pull/120509",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-08T07:55:56Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120494,
+        "title": "fix: recover once from malformed tool arguments",
+        "url": "https://github.com/openclaw/openclaw/pull/120494",
+        "state": "open",
+        "author": "gharehyazie",
+        "updatedAt": "2026-08-08T07:55:47Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118008,
+        "title": "refactor(qa): adopt Crabline server terminology",
+        "url": "https://github.com/openclaw/openclaw/pull/118008",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-08T07:54:53Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120087,
+        "title": "fix(slack): route Enterprise Grid messages by workspace",
+        "url": "https://github.com/openclaw/openclaw/pull/120087",
+        "state": "open",
+        "author": "sjf-oa",
+        "updatedAt": "2026-08-08T07:54:21Z"
       }
     ]
   }

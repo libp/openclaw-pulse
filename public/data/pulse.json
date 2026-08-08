@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-08T09:53:15.476Z",
+  "generatedAt": "2026-08-08T10:49:32.114Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -377,17 +377,17 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "capturedAt": "2026-08-08T09:53:15.476Z",
-      "issueOpen": 3420,
-      "issueClosed": 42879,
-      "prOpen": 2228,
-      "prClosed": 69570,
-      "prMerged": 22918,
+      "capturedAt": "2026-08-08T10:49:32.114Z",
+      "issueOpen": 3418,
+      "issueClosed": 42883,
+      "prOpen": 2223,
+      "prClosed": 69578,
+      "prMerged": 22926,
       "workflowRuns": 40000,
-      "stars": 385527,
+      "stars": 385530,
       "forks": 81028,
-      "subscribers": 1765,
-      "commits": 77109,
+      "subscribers": 1764,
+      "commits": 77117,
       "contributors": 3072,
       "source": "github-actions",
       "approximateDate": false
@@ -468,10 +468,10 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "stars": 385527,
+      "stars": 385530,
       "forks": 81028,
-      "subscribers": 1765,
-      "commits": 77109,
+      "subscribers": 1764,
+      "commits": 77117,
       "contributors": 3072
     }
   ],
@@ -479,21 +479,48 @@
     "issues": [
       {
         "kind": "issue",
+        "number": 120504,
+        "title": "[Bug]: Session provenance merge leaves main CI red across protocol and agent gates",
+        "url": "https://github.com/openclaw/openclaw/issues/120504",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-08T10:48:44Z"
+      },
+      {
+        "kind": "issue",
+        "number": 58957,
+        "title": "Model switch can fail silently when carried-over session context is too large",
+        "url": "https://github.com/openclaw/openclaw/issues/58957",
+        "state": "open",
+        "author": "LunaLee0130",
+        "updatedAt": "2026-08-08T10:48:43Z"
+      },
+      {
+        "kind": "issue",
+        "number": 118845,
+        "title": "Workboard: workboard_comment tool rejects bodies > 2000 chars with cryptic error",
+        "url": "https://github.com/openclaw/openclaw/issues/118845",
+        "state": "open",
+        "author": "osipovia",
+        "updatedAt": "2026-08-08T10:48:40Z"
+      },
+      {
+        "kind": "issue",
+        "number": 72504,
+        "title": "Feishu: bot strips its own <at> mention causing NO_REPLY in multi-bot groups",
+        "url": "https://github.com/openclaw/openclaw/issues/72504",
+        "state": "open",
+        "author": "AxelHu",
+        "updatedAt": "2026-08-08T10:48:40Z"
+      },
+      {
+        "kind": "issue",
         "number": 86537,
         "title": "[Bug]: Subagent terminal reconciliation can expire suspended final delivery",
         "url": "https://github.com/openclaw/openclaw/issues/86537",
         "state": "open",
         "author": "galiniliev",
-        "updatedAt": "2026-08-08T09:50:24Z"
-      },
-      {
-        "kind": "issue",
-        "number": 120532,
-        "title": "gateway.tailscale.mode = \"serve\" has no effect — no Tailscale Serve route is created on gateway (re)start",
-        "url": "https://github.com/openclaw/openclaw/issues/120532",
-        "state": "open",
-        "author": "galli-personal",
-        "updatedAt": "2026-08-08T09:49:58Z"
+        "updatedAt": "2026-08-08T10:48:38Z"
       },
       {
         "kind": "issue",
@@ -502,34 +529,7 @@
         "url": "https://github.com/openclaw/openclaw/issues/97287",
         "state": "open",
         "author": "xueshenglin",
-        "updatedAt": "2026-08-08T09:49:57Z"
-      },
-      {
-        "kind": "issue",
-        "number": 90980,
-        "title": "[Bug]: Docker engine wedged/unresponsive → docker exec hangs (no timeout) → gateway blocks at startup, all agents offline (fresh repro of #5135 on 2026.5.28)",
-        "url": "https://github.com/openclaw/openclaw/issues/90980",
-        "state": "open",
-        "author": "alpersonalwebsite",
-        "updatedAt": "2026-08-08T09:49:57Z"
-      },
-      {
-        "kind": "issue",
-        "number": 59168,
-        "title": "feat(models): use provider/name as internal key to decouple from API model ID",
-        "url": "https://github.com/openclaw/openclaw/issues/59168",
-        "state": "open",
-        "author": "Kaspre",
-        "updatedAt": "2026-08-08T09:49:56Z"
-      },
-      {
-        "kind": "issue",
-        "number": 71689,
-        "title": "Bug: tasks registry restore fails on malformed SQLite image",
-        "url": "https://github.com/openclaw/openclaw/issues/71689",
-        "state": "open",
-        "author": "waynegault",
-        "updatedAt": "2026-08-08T09:49:54Z"
+        "updatedAt": "2026-08-08T10:48:37Z"
       }
     ],
     "prs": [
@@ -540,52 +540,52 @@
         "url": "https://github.com/openclaw/openclaw/pull/80396",
         "state": "open",
         "author": "Bartok9",
-        "updatedAt": "2026-08-08T09:53:12Z"
+        "updatedAt": "2026-08-08T10:49:21Z"
       },
       {
         "kind": "pr",
-        "number": 120523,
-        "title": "fix(ci): clear Mantis reactions with app identity",
-        "url": "https://github.com/openclaw/openclaw/pull/120523",
+        "number": 120487,
+        "title": "improve(ui): consolidate dashboard chat visibility into one Chat/Split/Dashboard toggle",
+        "url": "https://github.com/openclaw/openclaw/pull/120487",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-08T09:52:36Z"
+        "updatedAt": "2026-08-08T10:48:59Z"
       },
       {
         "kind": "pr",
-        "number": 120493,
-        "title": "fix(ui): bulk session archive no longer stalls per thread",
-        "url": "https://github.com/openclaw/openclaw/pull/120493",
+        "number": 120564,
+        "title": "test(infra): isolate worktree migration plugin discovery",
+        "url": "https://github.com/openclaw/openclaw/pull/120564",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-08T10:48:48Z"
+      },
+      {
+        "kind": "pr",
+        "number": 58373,
+        "title": "fix(agents): bootstrap missing secondary model catalogs",
+        "url": "https://github.com/openclaw/openclaw/pull/58373",
+        "state": "open",
+        "author": "xiangri678",
+        "updatedAt": "2026-08-08T10:48:44Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120457,
+        "title": "fix(ai): preserve long Responses sessions after server compaction",
+        "url": "https://github.com/openclaw/openclaw/pull/120457",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-08T09:52:20Z"
+        "updatedAt": "2026-08-08T10:48:36Z"
       },
       {
         "kind": "pr",
-        "number": 120552,
-        "title": "refactor(gateway): centralize channel health projection",
-        "url": "https://github.com/openclaw/openclaw/pull/120552",
+        "number": 120359,
+        "title": "fix(infra): unify env-truthiness, missing-path, realpath, and abort-sleep semantics",
+        "url": "https://github.com/openclaw/openclaw/pull/120359",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-08T09:52:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120473,
-        "title": "refactor(ui): align sidebar session list on a single lead-slot rail",
-        "url": "https://github.com/openclaw/openclaw/pull/120473",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-08T09:50:51Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117911,
-        "title": "fix(exec): explain Linux OOM-score-adjusted SIGKILLs",
-        "url": "https://github.com/openclaw/openclaw/pull/117911",
-        "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-08T09:50:48Z"
+        "updatedAt": "2026-08-08T10:48:36Z"
       }
     ]
   }

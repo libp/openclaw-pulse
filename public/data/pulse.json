@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-08T17:44:49.837Z",
+  "generatedAt": "2026-08-08T18:56:48.745Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -377,17 +377,17 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "capturedAt": "2026-08-08T17:44:49.837Z",
+      "capturedAt": "2026-08-08T18:56:48.745Z",
       "issueOpen": 3418,
-      "issueClosed": 42904,
-      "prOpen": 2223,
-      "prClosed": 69645,
-      "prMerged": 22975,
+      "issueClosed": 42909,
+      "prOpen": 2221,
+      "prClosed": 69657,
+      "prMerged": 22987,
       "workflowRuns": 40000,
-      "stars": 385558,
-      "forks": 81038,
-      "subscribers": 1764,
-      "commits": 77174,
+      "stars": 385563,
+      "forks": 81040,
+      "subscribers": 1765,
+      "commits": 77187,
       "contributors": 3073,
       "source": "github-actions",
       "approximateDate": false
@@ -468,10 +468,10 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "stars": 385558,
-      "forks": 81038,
-      "subscribers": 1764,
-      "commits": 77174,
+      "stars": 385563,
+      "forks": 81040,
+      "subscribers": 1765,
+      "commits": 77187,
       "contributors": 3073
     }
   ],
@@ -479,113 +479,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 81269,
-        "title": "Runtime injects agent slot id instead of identity.name causing identity confusion",
-        "url": "https://github.com/openclaw/openclaw/issues/81269",
+        "number": 119853,
+        "title": "[Feature]: Filter out cron-created sessions in the Android app session list",
+        "url": "https://github.com/openclaw/openclaw/issues/119853",
         "state": "open",
-        "author": "ethanhawkes-gif",
-        "updatedAt": "2026-08-08T17:44:45Z"
+        "author": "hidenori-endo",
+        "updatedAt": "2026-08-08T18:54:02Z"
       },
       {
         "kind": "issue",
-        "number": 80131,
-        "title": "perf: per-request auth (5.5s) and tool bundling (8.9s) dominate gateway TTFT",
-        "url": "https://github.com/openclaw/openclaw/issues/80131",
+        "number": 80176,
+        "title": "[Codex×Pi parity Phase 5] JSONL session-replay harness",
+        "url": "https://github.com/openclaw/openclaw/issues/80176",
         "state": "open",
-        "author": "banna-commits",
-        "updatedAt": "2026-08-08T17:44:33Z"
+        "author": "100yenadmin",
+        "updatedAt": "2026-08-08T18:53:23Z"
       },
       {
         "kind": "issue",
-        "number": 120616,
-        "title": "[Bug]: Gemini dotted cron update fields cause repeated patch-required failures",
-        "url": "https://github.com/openclaw/openclaw/issues/120616",
+        "number": 120656,
+        "title": "Local TUI onboarding can ask users to paste a Telegram bot token into the chat transcript",
+        "url": "https://github.com/openclaw/openclaw/issues/120656",
         "state": "open",
-        "author": "louria",
-        "updatedAt": "2026-08-08T17:44:32Z"
+        "author": "Sedrak-Hovhannisyan",
+        "updatedAt": "2026-08-08T18:53:18Z"
       },
       {
         "kind": "issue",
-        "number": 118904,
-        "title": "[Feature]: preserve Memory Wiki publication proof with fewer source hash passes",
-        "url": "https://github.com/openclaw/openclaw/issues/118904",
+        "number": 81084,
+        "title": "[Feature]: MSTeams channel-bound agents need opt-out from per-thread sessions",
+        "url": "https://github.com/openclaw/openclaw/issues/81084",
         "state": "open",
-        "author": "ZYV5ge",
-        "updatedAt": "2026-08-08T17:44:31Z"
-      },
-      {
-        "kind": "issue",
-        "number": 87269,
-        "title": "[whatsapp] Audio transcription replaces body without preserving media marker",
-        "url": "https://github.com/openclaw/openclaw/issues/87269",
-        "state": "open",
-        "author": "kiagentkronos-cell",
-        "updatedAt": "2026-08-08T17:44:20Z"
-      },
-      {
-        "kind": "issue",
-        "number": 112391,
-        "title": "[Bug]: Docker :latest tag regressed from 2026.7.1 to 2026.6.33, triggering downgrade guard and blocking startup",
-        "url": "https://github.com/openclaw/openclaw/issues/112391",
-        "state": "open",
-        "author": "czjlc3c3c3",
-        "updatedAt": "2026-08-08T17:44:15Z"
+        "author": "xjodoin",
+        "updatedAt": "2026-08-08T18:53:17Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 120614,
-        "title": "chore(i18n): refresh native locales",
-        "url": "https://github.com/openclaw/openclaw/pull/120614",
+        "number": 80396,
+        "title": "fix(media): warn when MEDIA: token is skipped inside fenced code block (#41966)",
+        "url": "https://github.com/openclaw/openclaw/pull/80396",
         "state": "open",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-08-08T17:44:43Z"
+        "author": "Bartok9",
+        "updatedAt": "2026-08-08T18:55:40Z"
       },
       {
         "kind": "pr",
-        "number": 117712,
-        "title": "chore(deps): bump the actions group across 1 directory with 10 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/117712",
-        "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-08T17:44:37Z"
+        "number": 120457,
+        "title": "fix(ai): preserve long Responses sessions after server compaction",
+        "url": "https://github.com/openclaw/openclaw/pull/120457",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-08T18:55:29Z"
       },
       {
         "kind": "pr",
-        "number": 116382,
-        "title": "fix: avoid false branch-switch errors after background updates",
-        "url": "https://github.com/openclaw/openclaw/pull/116382",
+        "number": 120389,
+        "title": "feat(android): add conversation reply notifications",
+        "url": "https://github.com/openclaw/openclaw/pull/120389",
         "state": "open",
-        "author": "scotthuang",
-        "updatedAt": "2026-08-08T17:44:37Z"
+        "author": "IWhatsskill",
+        "updatedAt": "2026-08-08T18:55:10Z"
       },
       {
         "kind": "pr",
-        "number": 120652,
-        "title": "fix: suppress fast-auto status updates when progress is hidden",
-        "url": "https://github.com/openclaw/openclaw/pull/120652",
-        "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-08T17:44:35Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120645,
-        "title": "docs(showcase): fix 404 link for lite-mode skill",
-        "url": "https://github.com/openclaw/openclaw/pull/120645",
-        "state": "open",
-        "author": "firepinn",
-        "updatedAt": "2026-08-08T17:44:35Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120621,
-        "title": "fix(qa): add inbound voice release proof",
-        "url": "https://github.com/openclaw/openclaw/pull/120621",
+        "number": 120666,
+        "title": "fix(release): keep base upgrade validation hermetic",
+        "url": "https://github.com/openclaw/openclaw/pull/120666",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-08T17:44:33Z"
+        "updatedAt": "2026-08-08T18:54:32Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120539,
+        "title": "fix(qa): recover Crabbox proofs on fallback SSH ports",
+        "url": "https://github.com/openclaw/openclaw/pull/120539",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-08T18:54:22Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119946,
+        "title": "fix(cli): refresh running gateway auth state after models auth order set/clear",
+        "url": "https://github.com/openclaw/openclaw/pull/119946",
+        "state": "open",
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-08-08T18:54:21Z"
       }
     ]
   }

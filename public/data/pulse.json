@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-08T22:44:57.487Z",
+  "generatedAt": "2026-08-08T23:43:37.918Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -377,17 +377,17 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "capturedAt": "2026-08-08T22:44:57.487Z",
-      "issueOpen": 3414,
-      "issueClosed": 42923,
-      "prOpen": 2207,
-      "prClosed": 69729,
-      "prMerged": 23049,
+      "capturedAt": "2026-08-08T23:43:37.918Z",
+      "issueOpen": 3433,
+      "issueClosed": 42924,
+      "prOpen": 2206,
+      "prClosed": 69748,
+      "prMerged": 23062,
       "workflowRuns": 40000,
-      "stars": 385567,
-      "forks": 81046,
+      "stars": 385576,
+      "forks": 81047,
       "subscribers": 1765,
-      "commits": 77250,
+      "commits": 77263,
       "contributors": 3075,
       "source": "github-actions",
       "approximateDate": false
@@ -468,10 +468,10 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "stars": 385567,
-      "forks": 81046,
+      "stars": 385576,
+      "forks": 81047,
       "subscribers": 1765,
-      "commits": 77250,
+      "commits": 77263,
       "contributors": 3075
     }
   ],
@@ -479,95 +479,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 84583,
-        "title": "cron announce delivery triggers EmbeddedAttemptSessionTakeoverError when user is actively chatting",
-        "url": "https://github.com/openclaw/openclaw/issues/84583",
-        "state": "open",
-        "author": "jonah791",
-        "updatedAt": "2026-08-08T22:44:47Z"
-      },
-      {
-        "kind": "issue",
         "number": 90516,
         "title": "[Bug]: Stalled direct chat model call surfaces LLM request failed instead of auto-resetting/retrying wedged session",
         "url": "https://github.com/openclaw/openclaw/issues/90516",
         "state": "open",
         "author": "aneym",
-        "updatedAt": "2026-08-08T22:44:46Z"
+        "updatedAt": "2026-08-08T23:43:27Z"
       },
       {
         "kind": "issue",
-        "number": 49740,
-        "title": "Feature request: cron job auto-retry on failure (--retry-count, --retry-delay)",
-        "url": "https://github.com/openclaw/openclaw/issues/49740",
+        "number": 113864,
+        "title": "[Bug] SECRETS_REF_IGNORED_INACTIVE_SURFACE skips Tavily API key resolution when Brave is the active web_search provider — tavily_search/tavily_extract broken",
+        "url": "https://github.com/openclaw/openclaw/issues/113864",
         "state": "open",
-        "author": "VerdiH",
-        "updatedAt": "2026-08-08T22:44:43Z"
+        "author": "Net-Sentinel",
+        "updatedAt": "2026-08-08T23:43:26Z"
       },
       {
         "kind": "issue",
-        "number": 54578,
-        "title": "Add tree view command to visualize active agents",
-        "url": "https://github.com/openclaw/openclaw/issues/54578",
+        "number": 120752,
+        "title": "[Bug]: Control UI model picker cannot distinguish inherited defaults from session pins",
+        "url": "https://github.com/openclaw/openclaw/issues/120752",
         "state": "open",
-        "author": "AmolDerickSoans",
-        "updatedAt": "2026-08-08T22:43:58Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-08T23:43:24Z"
+      },
+      {
+        "kind": "issue",
+        "number": 91734,
+        "title": "feat(cli): support input files for image generate",
+        "url": "https://github.com/openclaw/openclaw/issues/91734",
+        "state": "open",
+        "author": "shannon0430",
+        "updatedAt": "2026-08-08T23:43:23Z"
+      },
+      {
+        "kind": "issue",
+        "number": 98540,
+        "title": "[Bug]: Composer shows idle state while agent is actively executing tools",
+        "url": "https://github.com/openclaw/openclaw/issues/98540",
+        "state": "open",
+        "author": "ditingdapeng",
+        "updatedAt": "2026-08-08T23:43:19Z"
+      },
+      {
+        "kind": "issue",
+        "number": 91867,
+        "title": "[Design]: Preserve logical text+media payloads in channel.message and let plugins choose physical send shape",
+        "url": "https://github.com/openclaw/openclaw/issues/91867",
+        "state": "open",
+        "author": "xmoxmo",
+        "updatedAt": "2026-08-08T23:43:17Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 119813,
-        "title": "feat(ai): account for OpenAI transport submissions",
-        "url": "https://github.com/openclaw/openclaw/pull/119813",
+        "number": 120774,
+        "title": "fix(telegram): prevent message latency from growing with session count",
+        "url": "https://github.com/openclaw/openclaw/pull/120774",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-08T22:44:50Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-08T23:43:34Z"
       },
       {
         "kind": "pr",
-        "number": 99141,
-        "title": "improve(issue-template): collect UX recovery impact",
-        "url": "https://github.com/openclaw/openclaw/pull/99141",
+        "number": 90621,
+        "title": "chore(codeowners): gate heartbeat template and repair changes",
+        "url": "https://github.com/openclaw/openclaw/pull/90621",
         "state": "open",
-        "author": "100yenadmin",
-        "updatedAt": "2026-08-08T22:44:47Z"
+        "author": "hxy91819",
+        "updatedAt": "2026-08-08T23:43:33Z"
       },
       {
         "kind": "pr",
-        "number": 120190,
-        "title": "fix(compaction): add bounded resumable recovery",
-        "url": "https://github.com/openclaw/openclaw/pull/120190",
+        "number": 120382,
+        "title": "[AI-assisted] docs(gateway): lead secrets guide with safe-migration quick path",
+        "url": "https://github.com/openclaw/openclaw/pull/120382",
+        "state": "open",
+        "author": "santhiprakash",
+        "updatedAt": "2026-08-08T23:43:31Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110257,
+        "title": "fix(trajectory): session.ended timestamp matches model.completed before cleanup",
+        "url": "https://github.com/openclaw/openclaw/pull/110257",
+        "state": "open",
+        "author": "stantheman0128",
+        "updatedAt": "2026-08-08T23:43:31Z"
+      },
+      {
+        "kind": "pr",
+        "number": 95982,
+        "title": "fix(json-parse): exclude code-context tails from Windows-path heuristic (#93139)",
+        "url": "https://github.com/openclaw/openclaw/pull/95982",
+        "state": "open",
+        "author": "louria",
+        "updatedAt": "2026-08-08T23:43:31Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114072,
+        "title": "fix(workboard): decomposed children no longer block aggregate parents",
+        "url": "https://github.com/openclaw/openclaw/pull/114072",
         "state": "open",
         "author": "fr-meyer",
-        "updatedAt": "2026-08-08T22:44:45Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112888,
-        "title": "fix(models): keep external-CLI OAuth providers available when persisted snapshot expires",
-        "url": "https://github.com/openclaw/openclaw/pull/112888",
-        "state": "open",
-        "author": "XX441",
-        "updatedAt": "2026-08-08T22:44:43Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119706,
-        "title": "fix(proxy-capture): bound how long a capture read waits for the next byte",
-        "url": "https://github.com/openclaw/openclaw/pull/119706",
-        "state": "open",
-        "author": "masatohoshino",
-        "updatedAt": "2026-08-08T22:44:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120660,
-        "title": "fix(docker): build explicitly selected WhatsApp plugin",
-        "url": "https://github.com/openclaw/openclaw/pull/120660",
-        "state": "open",
-        "author": "fr-meyer",
-        "updatedAt": "2026-08-08T22:44:40Z"
+        "updatedAt": "2026-08-08T23:43:27Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-08T15:44:00.929Z",
+  "generatedAt": "2026-08-08T16:50:09.615Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -377,17 +377,17 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "capturedAt": "2026-08-08T15:44:00.929Z",
-      "issueOpen": 3418,
-      "issueClosed": 42897,
-      "prOpen": 2218,
-      "prClosed": 69623,
-      "prMerged": 22954,
+      "capturedAt": "2026-08-08T16:50:09.615Z",
+      "issueOpen": 3416,
+      "issueClosed": 42904,
+      "prOpen": 2222,
+      "prClosed": 69637,
+      "prMerged": 22967,
       "workflowRuns": 40000,
-      "stars": 385548,
-      "forks": 81036,
+      "stars": 385552,
+      "forks": 81038,
       "subscribers": 1764,
-      "commits": 77150,
+      "commits": 77166,
       "contributors": 3073,
       "source": "github-actions",
       "approximateDate": false
@@ -468,10 +468,10 @@
     },
     {
       "capturedOn": "2026-08-08",
-      "stars": 385548,
-      "forks": 81036,
+      "stars": 385552,
+      "forks": 81038,
       "subscribers": 1764,
-      "commits": 77150,
+      "commits": 77166,
       "contributors": 3073
     }
   ],
@@ -479,59 +479,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 119584,
-        "title": "WhatsApp: concurrent login flows race the shared credential directory — mid-pairing wipe yields linked:true credentials that 401 on every connect",
-        "url": "https://github.com/openclaw/openclaw/issues/119584",
+        "number": 120244,
+        "title": "RFC: cron maintenance window with role isolation (follow-up to #79192 / #119575)",
+        "url": "https://github.com/openclaw/openclaw/issues/120244",
         "state": "open",
-        "author": "Jackten",
-        "updatedAt": "2026-08-08T15:43:29Z"
+        "author": "JFWaskin",
+        "updatedAt": "2026-08-08T16:49:59Z"
       },
       {
         "kind": "issue",
-        "number": 92500,
-        "title": "Add Telegram voice/STT handoff telemetry into agent context",
-        "url": "https://github.com/openclaw/openclaw/issues/92500",
+        "number": 112360,
+        "title": "[Bug]: Voice Call can play a stale response after caller resumes speaking",
+        "url": "https://github.com/openclaw/openclaw/issues/112360",
         "state": "open",
-        "author": "100yenadmin",
-        "updatedAt": "2026-08-08T15:43:06Z"
+        "author": "DonShelly",
+        "updatedAt": "2026-08-08T16:49:58Z"
+      },
+      {
+        "kind": "issue",
+        "number": 120406,
+        "title": "exec host routing ignores tools.exec.host: \"gateway\" for sandboxed sessions — host-path agentTurn cron jobs fail with no config warning",
+        "url": "https://github.com/openclaw/openclaw/issues/120406",
+        "state": "open",
+        "author": "c-g14",
+        "updatedAt": "2026-08-08T16:49:57Z"
+      },
+      {
+        "kind": "issue",
+        "number": 120378,
+        "title": "Gateway session-store discovery runs once per stream event, so post-turn cost scales with answer length",
+        "url": "https://github.com/openclaw/openclaw/issues/120378",
+        "state": "open",
+        "author": "sercada",
+        "updatedAt": "2026-08-08T16:49:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 120596,
+        "title": "Thinking blocks persisted without signatures permanently wedge any think-enabled session",
+        "url": "https://github.com/openclaw/openclaw/issues/120596",
+        "state": "open",
+        "author": "al-prose",
+        "updatedAt": "2026-08-08T16:49:54Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112309,
+        "title": "[Bug]: announce-path delivery silently drops MEDIA attachment on iMessage — text delivered, ws send success, no chat.db attachment row (2026.7.1)",
+        "url": "https://github.com/openclaw/openclaw/issues/112309",
+        "state": "open",
+        "author": "lockhartheavyindustries",
+        "updatedAt": "2026-08-08T16:49:53Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 120434,
-        "title": "feat(agents): record run-end worktree cleanup outcome; prove Workboard dirty retention",
-        "url": "https://github.com/openclaw/openclaw/pull/120434",
+        "number": 120505,
+        "title": "refactor(gateway): centralize connect failure classification",
+        "url": "https://github.com/openclaw/openclaw/pull/120505",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-08T15:43:54Z"
+        "updatedAt": "2026-08-08T16:50:04Z"
       },
       {
         "kind": "pr",
-        "number": 119995,
-        "title": "feat(release): define gateway node compatibility evidence",
-        "url": "https://github.com/openclaw/openclaw/pull/119995",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-08T15:43:54Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120040,
-        "title": "test(qa): define Gateway-node platform topologies",
-        "url": "https://github.com/openclaw/openclaw/pull/120040",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-08T15:43:58Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120506,
-        "title": "feat(update): scheduled update campaigns with countdown, dev-channel auto-update, and Updates settings page",
-        "url": "https://github.com/openclaw/openclaw/pull/120506",
-        "state": "open",
+        "number": 120565,
+        "title": "refactor(pr): remove unreachable fork push retry",
+        "url": "https://github.com/openclaw/openclaw/pull/120565",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-08T15:43:52Z"
+        "updatedAt": "2026-08-08T16:50:00Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120428,
+        "title": "fix(matrix): ignore out-of-range hex escapes in env account tokens",
+        "url": "https://github.com/openclaw/openclaw/pull/120428",
+        "state": "open",
+        "author": "wanyongstar",
+        "updatedAt": "2026-08-08T16:49:56Z"
       },
       {
         "kind": "pr",
@@ -540,16 +567,25 @@
         "url": "https://github.com/openclaw/openclaw/pull/120350",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-08T15:43:51Z"
+        "updatedAt": "2026-08-08T16:49:50Z"
       },
       {
         "kind": "pr",
-        "number": 113746,
-        "title": "improve(memory-wiki): batch automation operations",
-        "url": "https://github.com/openclaw/openclaw/pull/113746",
+        "number": 120630,
+        "title": "fix(release): unblock deferred Telegram beta validation",
+        "url": "https://github.com/openclaw/openclaw/pull/120630",
         "state": "open",
-        "author": "GSUCAS",
-        "updatedAt": "2026-08-08T15:43:50Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-08T16:49:49Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120572,
+        "title": "fix(agents): surface tool loop warnings to models",
+        "url": "https://github.com/openclaw/openclaw/pull/120572",
+        "state": "open",
+        "author": "Arata1202",
+        "updatedAt": "2026-08-08T16:49:49Z"
       }
     ]
   }

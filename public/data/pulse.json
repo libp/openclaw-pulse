@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-09T09:00:49.496Z",
+  "generatedAt": "2026-08-09T10:51:29.872Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -394,17 +394,17 @@
     },
     {
       "capturedOn": "2026-08-09",
-      "capturedAt": "2026-08-09T09:00:49.496Z",
-      "issueOpen": 3430,
-      "issueClosed": 42957,
-      "prOpen": 2233,
-      "prClosed": 69929,
-      "prMerged": 23198,
+      "capturedAt": "2026-08-09T10:51:29.872Z",
+      "issueOpen": 3432,
+      "issueClosed": 42962,
+      "prOpen": 2218,
+      "prClosed": 69958,
+      "prMerged": 23221,
       "workflowRuns": 40000,
-      "stars": 385613,
-      "forks": 81056,
+      "stars": 385639,
+      "forks": 81058,
       "subscribers": 1766,
-      "commits": 77399,
+      "commits": 77423,
       "contributors": 3075,
       "source": "github-actions",
       "approximateDate": false
@@ -493,10 +493,10 @@
     },
     {
       "capturedOn": "2026-08-09",
-      "stars": 385613,
-      "forks": 81056,
+      "stars": 385639,
+      "forks": 81058,
       "subscribers": 1766,
-      "commits": 77399,
+      "commits": 77423,
       "contributors": 3075
     }
   ],
@@ -504,68 +504,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 121013,
-        "title": "No stable release lets Opus 5 use its 1M context window: fix landed on main 2026-07-25, still unreleased; beta has its own reply-breaking regression",
-        "url": "https://github.com/openclaw/openclaw/issues/121013",
+        "number": 57204,
+        "title": "perf(dev): gateway:watch triggers full rebuild on every startup when working tree is dirty",
+        "url": "https://github.com/openclaw/openclaw/issues/57204",
         "state": "open",
-        "author": "marsrobertson",
-        "updatedAt": "2026-08-09T08:59:06Z"
+        "author": "oNo500",
+        "updatedAt": "2026-08-09T10:49:58Z"
+      },
+      {
+        "kind": "issue",
+        "number": 121034,
+        "title": "ACP/Claude Code Bedrock spawns leak internal 'provider/model' string into ANTHROPIC_MODEL, breaking Bedrock invocation",
+        "url": "https://github.com/openclaw/openclaw/issues/121034",
+        "state": "open",
+        "author": "wirjo",
+        "updatedAt": "2026-08-09T10:49:54Z"
+      },
+      {
+        "kind": "issue",
+        "number": 75749,
+        "title": "[Bug]: Plugin approval delivers duplicate messages on Telegram — forwarder fallback and native runtime both send when turnSourceChannel is null",
+        "url": "https://github.com/openclaw/openclaw/issues/75749",
+        "state": "open",
+        "author": "choury",
+        "updatedAt": "2026-08-09T10:49:31Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 117040,
-        "title": "improve: make session lists faster on large stores",
-        "url": "https://github.com/openclaw/openclaw/pull/117040",
+        "number": 121027,
+        "title": "fix: sync Cloud Worker workspaces from macOS gateways",
+        "url": "https://github.com/openclaw/openclaw/pull/121027",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-09T10:51:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113801,
+        "title": "fix(ai): reject truncated OpenAI Responses streams",
+        "url": "https://github.com/openclaw/openclaw/pull/113801",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-09T09:00:05Z"
+        "updatedAt": "2026-08-09T10:51:25Z"
       },
       {
         "kind": "pr",
-        "number": 120694,
-        "title": "fix(infra): classify virtiofs mounts as rollback-journal storage (#120549)",
-        "url": "https://github.com/openclaw/openclaw/pull/120694",
-        "state": "open",
-        "author": "licheer-zte",
-        "updatedAt": "2026-08-09T09:00:04Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120936,
-        "title": "refactor(memory)!: remove the QMD backend; builtin is the only memory engine",
-        "url": "https://github.com/openclaw/openclaw/pull/120936",
+        "number": 120865,
+        "title": "refactor(gateway): consolidate interactive connection resolution",
+        "url": "https://github.com/openclaw/openclaw/pull/120865",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-09T08:59:54Z"
+        "updatedAt": "2026-08-09T10:51:20Z"
       },
       {
         "kind": "pr",
-        "number": 119681,
-        "title": "fix(message-tool): strip HEARTBEAT_OK from send payloads (#119653)",
-        "url": "https://github.com/openclaw/openclaw/pull/119681",
-        "state": "open",
-        "author": "licheer-zte",
-        "updatedAt": "2026-08-09T08:59:48Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120812,
-        "title": "fix(gateway): keep retryable errors supersedable past retry grace for agent.wait",
-        "url": "https://github.com/openclaw/openclaw/pull/120812",
-        "state": "open",
-        "author": "licheer-zte",
-        "updatedAt": "2026-08-09T08:59:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118451,
-        "title": "feat(meetings): enable Linux Chrome talk-back",
-        "url": "https://github.com/openclaw/openclaw/pull/118451",
+        "number": 121028,
+        "title": "fix: preserve tool results across session reset",
+        "url": "https://github.com/openclaw/openclaw/pull/121028",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-09T08:58:08Z"
+        "updatedAt": "2026-08-09T10:50:04Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113860,
+        "title": "fix(agents): keep removed background processes alive until exit",
+        "url": "https://github.com/openclaw/openclaw/pull/113860",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-09T10:50:02Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120205,
+        "title": "fix(parallel): redact x-api-key reflected in web search error bodies",
+        "url": "https://github.com/openclaw/openclaw/pull/120205",
+        "state": "open",
+        "author": "zenglingbiao",
+        "updatedAt": "2026-08-09T10:49:58Z"
       }
     ]
   }

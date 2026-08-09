@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-09T18:59:28.440Z",
+  "generatedAt": "2026-08-09T19:47:11.615Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -394,17 +394,17 @@
     },
     {
       "capturedOn": "2026-08-09",
-      "capturedAt": "2026-08-09T18:59:28.440Z",
-      "issueOpen": 3442,
-      "issueClosed": 42991,
-      "prOpen": 2205,
-      "prClosed": 70102,
-      "prMerged": 23342,
+      "capturedAt": "2026-08-09T19:47:11.615Z",
+      "issueOpen": 3446,
+      "issueClosed": 42993,
+      "prOpen": 2201,
+      "prClosed": 70114,
+      "prMerged": 23351,
       "workflowRuns": 40000,
-      "stars": 385689,
-      "forks": 81068,
+      "stars": 385693,
+      "forks": 81066,
       "subscribers": 1766,
-      "commits": 77550,
+      "commits": 77565,
       "contributors": 3076,
       "source": "github-actions",
       "approximateDate": false
@@ -493,69 +493,79 @@
     },
     {
       "capturedOn": "2026-08-09",
-      "stars": 385689,
-      "forks": 81068,
+      "stars": 385693,
+      "forks": 81066,
       "subscribers": 1766,
-      "commits": 77550,
+      "commits": 77565,
       "contributors": 3076
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 118625,
+        "title": "[Bug]: Main-session compaction holds the session write-lock past the 60s acquire timeout; completed subagent announces time out and give up, silently losing results",
+        "url": "https://github.com/openclaw/openclaw/issues/118625",
+        "state": "open",
+        "author": "ssica521sinence",
+        "updatedAt": "2026-08-09T19:47:03Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 121065,
-        "title": "fix(qa): resolve live model pairs after auth selection",
-        "url": "https://github.com/openclaw/openclaw/pull/121065",
-        "state": "closed",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-09T18:59:16Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121063,
-        "title": "fix(agent-core): bound runaway loops with turn/error-batch/idle-repeat guards (#120962)",
-        "url": "https://github.com/openclaw/openclaw/pull/121063",
+        "number": 120854,
+        "title": "feat(mattermost): isolate progress posts and deliver finals separately",
+        "url": "https://github.com/openclaw/openclaw/pull/120854",
         "state": "open",
-        "author": "Papilionidae",
-        "updatedAt": "2026-08-09T18:59:02Z"
+        "author": "aolea",
+        "updatedAt": "2026-08-09T19:47:05Z"
       },
       {
         "kind": "pr",
-        "number": 120864,
-        "title": "refactor(slack): detect Enterprise Grid installs and remove uneeded setting",
-        "url": "https://github.com/openclaw/openclaw/pull/120864",
-        "state": "open",
-        "author": "sjf-oa",
-        "updatedAt": "2026-08-09T18:58:49Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121205,
-        "title": "test(imessage): exercise chat lookup through runtime boundary",
-        "url": "https://github.com/openclaw/openclaw/pull/121205",
+        "number": 120804,
+        "title": "feat(gateway,ui): quiet Where picker, placement chip, and projects read model",
+        "url": "https://github.com/openclaw/openclaw/pull/120804",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-09T18:58:37Z"
+        "updatedAt": "2026-08-09T19:47:05Z"
       },
       {
         "kind": "pr",
-        "number": 117184,
-        "title": "feat(auto-reply): clean empty staged inbound media directories (#104358)",
-        "url": "https://github.com/openclaw/openclaw/pull/117184",
+        "number": 121141,
+        "title": "fix(telegram): preserve unsent media while deduplicating streamed replies",
+        "url": "https://github.com/openclaw/openclaw/pull/121141",
         "state": "open",
-        "author": "MasterSwords1",
-        "updatedAt": "2026-08-09T18:58:24Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-09T19:47:01Z"
       },
       {
         "kind": "pr",
-        "number": 121196,
-        "title": "feat(memory): supplement thin strict recall with bounded lexical expansion",
-        "url": "https://github.com/openclaw/openclaw/pull/121196",
-        "state": "closed",
+        "number": 103537,
+        "title": "fix(update): prevent Gateway respawn during package replacement",
+        "url": "https://github.com/openclaw/openclaw/pull/103537",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-09T18:57:33Z"
+        "updatedAt": "2026-08-09T19:46:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117027,
+        "title": "fix(discord): preserve authoritative interaction callback ownership",
+        "url": "https://github.com/openclaw/openclaw/pull/117027",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-09T19:46:58Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121122,
+        "title": "fix(workers): preserve disappeared-worker failures across restarts",
+        "url": "https://github.com/openclaw/openclaw/pull/121122",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-09T19:46:55Z"
       }
     ]
   }

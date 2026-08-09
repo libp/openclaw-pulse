@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-08T23:43:37.918Z",
+  "generatedAt": "2026-08-09T02:27:05.895Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -391,6 +391,23 @@
       "contributors": 3075,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-09",
+      "capturedAt": "2026-08-09T02:27:05.895Z",
+      "issueOpen": 3431,
+      "issueClosed": 42935,
+      "prOpen": 2208,
+      "prClosed": 69798,
+      "prMerged": 23104,
+      "workflowRuns": 40000,
+      "stars": 385582,
+      "forks": 81054,
+      "subscribers": 1765,
+      "commits": 77305,
+      "contributors": 3075,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -473,119 +490,91 @@
       "subscribers": 1765,
       "commits": 77263,
       "contributors": 3075
+    },
+    {
+      "capturedOn": "2026-08-09",
+      "stars": 385582,
+      "forks": 81054,
+      "subscribers": 1765,
+      "commits": 77305,
+      "contributors": 3075
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 90516,
-        "title": "[Bug]: Stalled direct chat model call surfaces LLM request failed instead of auto-resetting/retrying wedged session",
-        "url": "https://github.com/openclaw/openclaw/issues/90516",
+        "number": 120833,
+        "title": "Flaky: matrix-post-restart-room-continue — durable-turn admission rejects the post-restart reply on recovery-progress fields",
+        "url": "https://github.com/openclaw/openclaw/issues/120833",
         "state": "open",
-        "author": "aneym",
-        "updatedAt": "2026-08-08T23:43:27Z"
+        "author": "gucasbrg",
+        "updatedAt": "2026-08-09T02:22:25Z"
       },
       {
         "kind": "issue",
-        "number": 113864,
-        "title": "[Bug] SECRETS_REF_IGNORED_INACTIVE_SURFACE skips Tavily API key resolution when Brave is the active web_search provider — tavily_search/tavily_extract broken",
-        "url": "https://github.com/openclaw/openclaw/issues/113864",
+        "number": 120832,
+        "title": "Flaky on Windows: doctor-auth-secretref e2e outer timeout (240s) equals 2×120s inner CLI budgets with no headroom",
+        "url": "https://github.com/openclaw/openclaw/issues/120832",
         "state": "open",
-        "author": "Net-Sentinel",
-        "updatedAt": "2026-08-08T23:43:26Z"
-      },
-      {
-        "kind": "issue",
-        "number": 120752,
-        "title": "[Bug]: Control UI model picker cannot distinguish inherited defaults from session pins",
-        "url": "https://github.com/openclaw/openclaw/issues/120752",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-08T23:43:24Z"
-      },
-      {
-        "kind": "issue",
-        "number": 91734,
-        "title": "feat(cli): support input files for image generate",
-        "url": "https://github.com/openclaw/openclaw/issues/91734",
-        "state": "open",
-        "author": "shannon0430",
-        "updatedAt": "2026-08-08T23:43:23Z"
-      },
-      {
-        "kind": "issue",
-        "number": 98540,
-        "title": "[Bug]: Composer shows idle state while agent is actively executing tools",
-        "url": "https://github.com/openclaw/openclaw/issues/98540",
-        "state": "open",
-        "author": "ditingdapeng",
-        "updatedAt": "2026-08-08T23:43:19Z"
-      },
-      {
-        "kind": "issue",
-        "number": 91867,
-        "title": "[Design]: Preserve logical text+media payloads in channel.message and let plugins choose physical send shape",
-        "url": "https://github.com/openclaw/openclaw/issues/91867",
-        "state": "open",
-        "author": "xmoxmo",
-        "updatedAt": "2026-08-08T23:43:17Z"
+        "author": "gucasbrg",
+        "updatedAt": "2026-08-09T02:22:23Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 120774,
-        "title": "fix(telegram): prevent message latency from growing with session count",
-        "url": "https://github.com/openclaw/openclaw/pull/120774",
+        "number": 120268,
+        "title": "perf(sessions): externalize large entry blobs out of the hot list read; fix relayed-session titles",
+        "url": "https://github.com/openclaw/openclaw/pull/120268",
+        "state": "closed",
+        "author": "gucasbrg",
+        "updatedAt": "2026-08-09T02:27:01Z"
+      },
+      {
+        "kind": "pr",
+        "number": 101248,
+        "title": "feat(subagents): native announceTarget for subagent completion routing (#27445)",
+        "url": "https://github.com/openclaw/openclaw/pull/101248",
+        "state": "open",
+        "author": "nicknmorty",
+        "updatedAt": "2026-08-09T02:26:15Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120823,
+        "title": "improve(code-mode): add frozen frontier evidence matrix",
+        "url": "https://github.com/openclaw/openclaw/pull/120823",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-09T02:26:05Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120835,
+        "title": "fix(ui): archive eligible sessions from mixed selections",
+        "url": "https://github.com/openclaw/openclaw/pull/120835",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-08T23:43:34Z"
+        "updatedAt": "2026-08-09T02:26:01Z"
       },
       {
         "kind": "pr",
-        "number": 90621,
-        "title": "chore(codeowners): gate heartbeat template and repair changes",
-        "url": "https://github.com/openclaw/openclaw/pull/90621",
+        "number": 120821,
+        "title": "fix(agent): preserve authoritative run trace evidence",
+        "url": "https://github.com/openclaw/openclaw/pull/120821",
         "state": "open",
-        "author": "hxy91819",
-        "updatedAt": "2026-08-08T23:43:33Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-09T02:26:01Z"
       },
       {
         "kind": "pr",
-        "number": 120382,
-        "title": "[AI-assisted] docs(gateway): lead secrets guide with safe-migration quick path",
-        "url": "https://github.com/openclaw/openclaw/pull/120382",
+        "number": 120819,
+        "title": "feat(agent): add closed OpenClaw Code Mode trace schema",
+        "url": "https://github.com/openclaw/openclaw/pull/120819",
         "state": "open",
-        "author": "santhiprakash",
-        "updatedAt": "2026-08-08T23:43:31Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110257,
-        "title": "fix(trajectory): session.ended timestamp matches model.completed before cleanup",
-        "url": "https://github.com/openclaw/openclaw/pull/110257",
-        "state": "open",
-        "author": "stantheman0128",
-        "updatedAt": "2026-08-08T23:43:31Z"
-      },
-      {
-        "kind": "pr",
-        "number": 95982,
-        "title": "fix(json-parse): exclude code-context tails from Windows-path heuristic (#93139)",
-        "url": "https://github.com/openclaw/openclaw/pull/95982",
-        "state": "open",
-        "author": "louria",
-        "updatedAt": "2026-08-08T23:43:31Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114072,
-        "title": "fix(workboard): decomposed children no longer block aggregate parents",
-        "url": "https://github.com/openclaw/openclaw/pull/114072",
-        "state": "open",
-        "author": "fr-meyer",
-        "updatedAt": "2026-08-08T23:43:27Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-09T02:26:00Z"
       }
     ]
   }

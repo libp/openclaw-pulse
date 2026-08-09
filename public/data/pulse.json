@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-09T08:01:32.072Z",
+  "generatedAt": "2026-08-09T09:00:49.496Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -394,17 +394,17 @@
     },
     {
       "capturedOn": "2026-08-09",
-      "capturedAt": "2026-08-09T08:01:32.072Z",
-      "issueOpen": 3426,
-      "issueClosed": 42956,
-      "prOpen": 2228,
-      "prClosed": 69915,
-      "prMerged": 23191,
+      "capturedAt": "2026-08-09T09:00:49.496Z",
+      "issueOpen": 3430,
+      "issueClosed": 42957,
+      "prOpen": 2233,
+      "prClosed": 69929,
+      "prMerged": 23198,
       "workflowRuns": 40000,
-      "stars": 385611,
-      "forks": 81059,
+      "stars": 385613,
+      "forks": 81056,
       "subscribers": 1766,
-      "commits": 77392,
+      "commits": 77399,
       "contributors": 3075,
       "source": "github-actions",
       "approximateDate": false
@@ -493,10 +493,10 @@
     },
     {
       "capturedOn": "2026-08-09",
-      "stars": 385611,
-      "forks": 81059,
+      "stars": 385613,
+      "forks": 81056,
       "subscribers": 1766,
-      "commits": 77392,
+      "commits": 77399,
       "contributors": 3075
     }
   ],
@@ -504,68 +504,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 46369,
-        "title": "[Bug]: cron.remove does not clean up session records in sessions.json",
-        "url": "https://github.com/openclaw/openclaw/issues/46369",
-        "state": "closed",
-        "author": "15881266296-commits",
-        "updatedAt": "2026-08-09T07:51:57Z"
+        "number": 121013,
+        "title": "No stable release lets Opus 5 use its 1M context window: fix landed on main 2026-07-25, still unreleased; beta has its own reply-breaking regression",
+        "url": "https://github.com/openclaw/openclaw/issues/121013",
+        "state": "open",
+        "author": "marsrobertson",
+        "updatedAt": "2026-08-09T08:59:06Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 119762,
-        "title": "feat(release): validate stable and prerelease Windows node releases",
-        "url": "https://github.com/openclaw/openclaw/pull/119762",
+        "number": 117040,
+        "title": "improve: make session lists faster on large stores",
+        "url": "https://github.com/openclaw/openclaw/pull/117040",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-09T08:01:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118518,
-        "title": "fix(update): prevent stable upgrade notices on extended-stable",
-        "url": "https://github.com/openclaw/openclaw/pull/118518",
-        "state": "closed",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-09T08:01:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120759,
-        "title": "docs(memory): define multiplayer memory design",
-        "url": "https://github.com/openclaw/openclaw/pull/120759",
-        "state": "open",
-        "author": "galiniliev",
-        "updatedAt": "2026-08-09T08:00:30Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120975,
-        "title": "fix(plugin-sdk): detect private type changes in API baseline",
-        "url": "https://github.com/openclaw/openclaw/pull/120975",
-        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-09T08:00:27Z"
+        "updatedAt": "2026-08-09T09:00:05Z"
       },
       {
         "kind": "pr",
-        "number": 120760,
-        "title": "feat(memory): add authorization SDK contract",
-        "url": "https://github.com/openclaw/openclaw/pull/120760",
+        "number": 120694,
+        "title": "fix(infra): classify virtiofs mounts as rollback-journal storage (#120549)",
+        "url": "https://github.com/openclaw/openclaw/pull/120694",
         "state": "open",
-        "author": "galiniliev",
-        "updatedAt": "2026-08-09T08:00:19Z"
+        "author": "licheer-zte",
+        "updatedAt": "2026-08-09T09:00:04Z"
       },
       {
         "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
+        "number": 120936,
+        "title": "refactor(memory)!: remove the QMD backend; builtin is the only memory engine",
+        "url": "https://github.com/openclaw/openclaw/pull/120936",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-09T07:59:01Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-09T08:59:54Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119681,
+        "title": "fix(message-tool): strip HEARTBEAT_OK from send payloads (#119653)",
+        "url": "https://github.com/openclaw/openclaw/pull/119681",
+        "state": "open",
+        "author": "licheer-zte",
+        "updatedAt": "2026-08-09T08:59:48Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120812,
+        "title": "fix(gateway): keep retryable errors supersedable past retry grace for agent.wait",
+        "url": "https://github.com/openclaw/openclaw/pull/120812",
+        "state": "open",
+        "author": "licheer-zte",
+        "updatedAt": "2026-08-09T08:59:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118451,
+        "title": "feat(meetings): enable Linux Chrome talk-back",
+        "url": "https://github.com/openclaw/openclaw/pull/118451",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-09T08:58:08Z"
       }
     ]
   }

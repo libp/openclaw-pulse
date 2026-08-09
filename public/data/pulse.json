@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-09T16:52:19.090Z",
+  "generatedAt": "2026-08-09T17:46:18.479Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -394,17 +394,17 @@
     },
     {
       "capturedOn": "2026-08-09",
-      "capturedAt": "2026-08-09T16:52:19.090Z",
-      "issueOpen": 3432,
-      "issueClosed": 42989,
-      "prOpen": 2177,
-      "prClosed": 70077,
-      "prMerged": 23319,
+      "capturedAt": "2026-08-09T17:46:18.479Z",
+      "issueOpen": 3435,
+      "issueClosed": 42991,
+      "prOpen": 2209,
+      "prClosed": 70082,
+      "prMerged": 23324,
       "workflowRuns": 40000,
-      "stars": 385677,
+      "stars": 385680,
       "forks": 81065,
       "subscribers": 1766,
-      "commits": 77527,
+      "commits": 77533,
       "contributors": 3076,
       "source": "github-actions",
       "approximateDate": false
@@ -493,124 +493,69 @@
     },
     {
       "capturedOn": "2026-08-09",
-      "stars": 385677,
+      "stars": 385680,
       "forks": 81065,
       "subscribers": 1766,
-      "commits": 77527,
+      "commits": 77533,
       "contributors": 3076
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 119129,
-        "title": "[Bug]: owner-key TaskFlow lookup hits the terminal flow, so cancel/show skip a still-active flow",
-        "url": "https://github.com/openclaw/openclaw/issues/119129",
-        "state": "open",
-        "author": "ruel225",
-        "updatedAt": "2026-08-09T16:52:09Z"
-      },
-      {
-        "kind": "issue",
-        "number": 121132,
-        "title": "[Bug]: Beam mirror can complete sessions that were not confirmed inactive",
-        "url": "https://github.com/openclaw/openclaw/issues/121132",
-        "state": "open",
-        "author": "Leon-SK668",
-        "updatedAt": "2026-08-09T16:52:13Z"
-      },
-      {
-        "kind": "issue",
-        "number": 114067,
-        "title": "perf(cli): root help costs ~35x more when the config has a plugins key, for byte-identical output",
-        "url": "https://github.com/openclaw/openclaw/issues/114067",
-        "state": "open",
-        "author": "dexhunter",
-        "updatedAt": "2026-08-09T16:52:08Z"
-      },
-      {
-        "kind": "issue",
-        "number": 105462,
-        "title": "[Feature] Configurable connection retry limits and exponential backoff for SSH worker sandbox backend",
-        "url": "https://github.com/openclaw/openclaw/issues/105462",
-        "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-09T16:52:02Z"
-      },
-      {
-        "kind": "issue",
-        "number": 121131,
-        "title": "[Bug]: retained npm cleanup deletes packages with unreadable markers",
-        "url": "https://github.com/openclaw/openclaw/issues/121131",
-        "state": "open",
-        "author": "Leon-SK668",
-        "updatedAt": "2026-08-09T16:52:14Z"
-      },
-      {
-        "kind": "issue",
-        "number": 121128,
-        "title": "[Bug]: Plugin aliases are skipped during forced activation",
-        "url": "https://github.com/openclaw/openclaw/issues/121128",
-        "state": "open",
-        "author": "Leon-SK668",
-        "updatedAt": "2026-08-09T16:51:55Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 119611,
-        "title": "fix: improve Custodian setup control affordances",
-        "url": "https://github.com/openclaw/openclaw/pull/119611",
+        "number": 121051,
+        "title": "fix: a timed-out exec leaves its child's forked processes running forever",
+        "url": "https://github.com/openclaw/openclaw/pull/121051",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-09T16:52:14Z"
+        "author": "IlyaKuprov",
+        "updatedAt": "2026-08-09T17:46:14Z"
       },
       {
         "kind": "pr",
-        "number": 121100,
-        "title": "fix(automations): stop offering rejected agent retargets",
-        "url": "https://github.com/openclaw/openclaw/pull/121100",
-        "state": "open",
-        "author": "arhxam",
-        "updatedAt": "2026-08-09T16:52:12Z"
+        "number": 120964,
+        "title": "fix: steering misses the next tool boundary after ACK",
+        "url": "https://github.com/openclaw/openclaw/pull/120964",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-09T17:46:13Z"
       },
       {
         "kind": "pr",
-        "number": 113089,
-        "title": "feat(agents): return sessionId from sessions_spawn accept payload",
-        "url": "https://github.com/openclaw/openclaw/pull/113089",
+        "number": 116934,
+        "title": "fix(matrix): preserve messages sent during crash downtime",
+        "url": "https://github.com/openclaw/openclaw/pull/116934",
         "state": "open",
-        "author": "ericcaiwx-star",
-        "updatedAt": "2026-08-09T16:52:12Z"
+        "author": "yetval",
+        "updatedAt": "2026-08-09T17:46:13Z"
       },
       {
         "kind": "pr",
-        "number": 113673,
-        "title": "feat(workboard): clarify proof provenance and diagnostics",
-        "url": "https://github.com/openclaw/openclaw/pull/113673",
+        "number": 116511,
+        "title": "fix(agents): skip repeated workspace bootstrap on continuation turns",
+        "url": "https://github.com/openclaw/openclaw/pull/116511",
         "state": "open",
-        "author": "fr-meyer",
-        "updatedAt": "2026-08-09T16:52:10Z"
+        "author": "Alix-007",
+        "updatedAt": "2026-08-09T17:46:11Z"
       },
       {
         "kind": "pr",
-        "number": 121116,
-        "title": "fix(msteams): stop retrying non-idempotent activity creates on ambiguous 408/5xx",
-        "url": "https://github.com/openclaw/openclaw/pull/121116",
+        "number": 121032,
+        "title": "feat(pairing): guide Public URL and LAN setup in the Control UI",
+        "url": "https://github.com/openclaw/openclaw/pull/121032",
         "state": "open",
-        "author": "zenglingbiao",
-        "updatedAt": "2026-08-09T16:52:09Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-09T17:46:10Z"
       },
       {
         "kind": "pr",
-        "number": 121105,
-        "title": "fix(acpx): strip amazon-bedrock provider prefix from Claude ACP model refs",
-        "url": "https://github.com/openclaw/openclaw/pull/121105",
+        "number": 114113,
+        "title": "fix(cron): stop retrying permanent billing errors returned as HTTP 429",
+        "url": "https://github.com/openclaw/openclaw/pull/114113",
         "state": "open",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-08-09T16:52:09Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-09T17:46:10Z"
       }
     ]
   }

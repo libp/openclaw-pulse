@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-09T07:14:35.050Z",
+  "generatedAt": "2026-08-09T08:01:32.072Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -394,17 +394,17 @@
     },
     {
       "capturedOn": "2026-08-09",
-      "capturedAt": "2026-08-09T07:14:35.050Z",
+      "capturedAt": "2026-08-09T08:01:32.072Z",
       "issueOpen": 3426,
-      "issueClosed": 42954,
-      "prOpen": 2233,
-      "prClosed": 69895,
-      "prMerged": 23175,
+      "issueClosed": 42956,
+      "prOpen": 2228,
+      "prClosed": 69915,
+      "prMerged": 23191,
       "workflowRuns": 40000,
-      "stars": 385605,
-      "forks": 81057,
+      "stars": 385611,
+      "forks": 81059,
       "subscribers": 1766,
-      "commits": 77376,
+      "commits": 77392,
       "contributors": 3075,
       "source": "github-actions",
       "approximateDate": false
@@ -493,10 +493,10 @@
     },
     {
       "capturedOn": "2026-08-09",
-      "stars": 385605,
-      "forks": 81057,
+      "stars": 385611,
+      "forks": 81059,
       "subscribers": 1766,
-      "commits": 77376,
+      "commits": 77392,
       "contributors": 3075
     }
   ],
@@ -504,77 +504,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 119514,
-        "title": "[Bug]: MS Teams uploads and attachment downloads report nothing when a remote stalls under debug capture",
-        "url": "https://github.com/openclaw/openclaw/issues/119514",
+        "number": 46369,
+        "title": "[Bug]: cron.remove does not clean up session records in sessions.json",
+        "url": "https://github.com/openclaw/openclaw/issues/46369",
         "state": "closed",
-        "author": "masatohoshino",
-        "updatedAt": "2026-08-09T07:11:55Z"
-      },
-      {
-        "kind": "issue",
-        "number": 120956,
-        "title": "Workboard plugin: notification messages >240 chars crash dispatch (no truncation on write)",
-        "url": "https://github.com/openclaw/openclaw/issues/120956",
-        "state": "open",
-        "author": "Raamses",
-        "updatedAt": "2026-08-09T07:11:14Z"
+        "author": "15881266296-commits",
+        "updatedAt": "2026-08-09T07:51:57Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 120936,
-        "title": "refactor(memory)!: remove the QMD backend; builtin is the only memory engine",
-        "url": "https://github.com/openclaw/openclaw/pull/120936",
+        "number": 119762,
+        "title": "feat(release): validate stable and prerelease Windows node releases",
+        "url": "https://github.com/openclaw/openclaw/pull/119762",
         "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-09T08:01:20Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118518,
+        "title": "fix(update): prevent stable upgrade notices on extended-stable",
+        "url": "https://github.com/openclaw/openclaw/pull/118518",
+        "state": "closed",
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-09T08:01:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120759,
+        "title": "docs(memory): define multiplayer memory design",
+        "url": "https://github.com/openclaw/openclaw/pull/120759",
+        "state": "open",
+        "author": "galiniliev",
+        "updatedAt": "2026-08-09T08:00:30Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120975,
+        "title": "fix(plugin-sdk): detect private type changes in API baseline",
+        "url": "https://github.com/openclaw/openclaw/pull/120975",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-09T07:14:27Z"
+        "updatedAt": "2026-08-09T08:00:27Z"
       },
       {
         "kind": "pr",
-        "number": 119520,
-        "title": "fix(cron): remove deleted job sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/119520",
+        "number": 120760,
+        "title": "feat(memory): add authorization SDK contract",
+        "url": "https://github.com/openclaw/openclaw/pull/120760",
         "state": "open",
-        "author": "goutamadwant",
-        "updatedAt": "2026-08-09T07:14:17Z"
+        "author": "galiniliev",
+        "updatedAt": "2026-08-09T08:00:19Z"
       },
       {
         "kind": "pr",
-        "number": 120946,
-        "title": "refactor(outbound): reuse prepared channel plugins",
-        "url": "https://github.com/openclaw/openclaw/pull/120946",
+        "number": 120900,
+        "title": "feat(ui): review install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/120900",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-09T07:12:51Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120969,
-        "title": "fix(workers): skip shared-host quiescence sweeps",
-        "url": "https://github.com/openclaw/openclaw/pull/120969",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-09T07:12:49Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120927,
-        "title": "fix(beam): open uploads at canonical catalog URLs",
-        "url": "https://github.com/openclaw/openclaw/pull/120927",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-09T07:12:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111148,
-        "title": "fix(discord): rejoin threads on unarchive to restore MESSAGE_CREATE events",
-        "url": "https://github.com/openclaw/openclaw/pull/111148",
-        "state": "open",
-        "author": "hanamizuki",
-        "updatedAt": "2026-08-09T07:12:24Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-09T07:59:01Z"
       }
     ]
   }

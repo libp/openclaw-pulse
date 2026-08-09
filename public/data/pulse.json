@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-09T11:43:26.597Z",
+  "generatedAt": "2026-08-09T13:14:14.753Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -394,18 +394,18 @@
     },
     {
       "capturedOn": "2026-08-09",
-      "capturedAt": "2026-08-09T11:43:26.597Z",
-      "issueOpen": 3434,
-      "issueClosed": 42970,
-      "prOpen": 2207,
-      "prClosed": 69977,
-      "prMerged": 23237,
+      "capturedAt": "2026-08-09T13:14:14.753Z",
+      "issueOpen": 3427,
+      "issueClosed": 42981,
+      "prOpen": 2182,
+      "prClosed": 70011,
+      "prMerged": 23263,
       "workflowRuns": 40000,
-      "stars": 385643,
-      "forks": 81059,
+      "stars": 385654,
+      "forks": 81062,
       "subscribers": 1766,
-      "commits": 77438,
-      "contributors": 3075,
+      "commits": 77471,
+      "contributors": 3076,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -493,88 +493,52 @@
     },
     {
       "capturedOn": "2026-08-09",
-      "stars": 385643,
-      "forks": 81059,
+      "stars": 385654,
+      "forks": 81062,
       "subscribers": 1766,
-      "commits": 77438,
-      "contributors": 3075
+      "commits": 77471,
+      "contributors": 3076
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 121049,
-        "title": "A timed-out exec leaves its child's forked processes running forever",
-        "url": "https://github.com/openclaw/openclaw/issues/121049",
+        "number": 121039,
+        "title": "[Bug]: Crestodian run config omits reserved openclaw execution entry",
+        "url": "https://github.com/openclaw/openclaw/issues/121039",
         "state": "open",
-        "author": "IlyaKuprov",
-        "updatedAt": "2026-08-09T11:43:19Z"
-      },
-      {
-        "kind": "issue",
-        "number": 120735,
-        "title": "[Bug]: Telegram inbound stickers arrive as raw file refs with no description and are not staged to disk",
-        "url": "https://github.com/openclaw/openclaw/issues/120735",
-        "state": "open",
-        "author": "sloptop-the-terrible",
-        "updatedAt": "2026-08-09T11:43:19Z"
-      },
-      {
-        "kind": "issue",
-        "number": 57297,
-        "title": "WebChat TTS: add explicit routing/playback logs and user-visible delivery status",
-        "url": "https://github.com/openclaw/openclaw/issues/57297",
-        "state": "open",
-        "author": "andhai",
-        "updatedAt": "2026-08-09T11:43:17Z"
-      },
-      {
-        "kind": "issue",
-        "number": 84753,
-        "title": "[Feature]: Show display name instead of user ID in session list",
-        "url": "https://github.com/openclaw/openclaw/issues/84753",
-        "state": "open",
-        "author": "hbs1313",
-        "updatedAt": "2026-08-09T11:43:22Z"
-      },
-      {
-        "kind": "issue",
-        "number": 121046,
-        "title": "[Bug]: temporalDecay does not apply to dated files under memory/dreaming/ subdirectories (treated as evergreen)",
-        "url": "https://github.com/openclaw/openclaw/issues/121046",
-        "state": "open",
-        "author": "homeworld520",
-        "updatedAt": "2026-08-09T11:43:14Z"
-      },
-      {
-        "kind": "issue",
-        "number": 74743,
-        "title": "[Bug]: Custom session cron jobs do not persist in destination session.",
-        "url": "https://github.com/openclaw/openclaw/issues/74743",
-        "state": "open",
-        "author": "DreamNaber",
-        "updatedAt": "2026-08-09T11:43:13Z"
+        "author": "TheAngryPit",
+        "updatedAt": "2026-08-09T13:07:10Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 121024,
-        "title": "fix(cron): prevent stale scratch after job deletion",
-        "url": "https://github.com/openclaw/openclaw/pull/121024",
+        "number": 112054,
+        "title": "fix(gemini): accept tools with multi-type parameters",
+        "url": "https://github.com/openclaw/openclaw/pull/112054",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-09T11:43:18Z"
+        "author": "ooiuuii",
+        "updatedAt": "2026-08-09T13:13:57Z"
       },
       {
         "kind": "pr",
-        "number": 120992,
-        "title": "fix(telegram): enforce direct-message tool policies",
-        "url": "https://github.com/openclaw/openclaw/pull/120992",
+        "number": 121041,
+        "title": "fix: compaction leaves CLI-backed sessions resuming the pre-compaction history",
+        "url": "https://github.com/openclaw/openclaw/pull/121041",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-08-09T11:43:18Z"
+        "author": "IlyaKuprov",
+        "updatedAt": "2026-08-09T13:13:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121065,
+        "title": "fix(qa): resolve live model pairs after auth selection",
+        "url": "https://github.com/openclaw/openclaw/pull/121065",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-09T13:13:17Z"
       },
       {
         "kind": "pr",
@@ -583,34 +547,25 @@
         "url": "https://github.com/openclaw/openclaw/pull/120979",
         "state": "open",
         "author": "litang9",
-        "updatedAt": "2026-08-09T11:43:18Z"
+        "updatedAt": "2026-08-09T13:13:07Z"
       },
       {
         "kind": "pr",
-        "number": 120759,
-        "title": "docs(memory): define multiplayer memory design",
-        "url": "https://github.com/openclaw/openclaw/pull/120759",
+        "number": 121060,
+        "title": "fix(qa): enforce fresh Matrix state restarts",
+        "url": "https://github.com/openclaw/openclaw/pull/121060",
         "state": "open",
-        "author": "galiniliev",
-        "updatedAt": "2026-08-09T11:43:18Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-09T13:12:39Z"
       },
       {
         "kind": "pr",
-        "number": 119516,
-        "title": "fix(update): recover the managed gateway after a failed CLI update",
-        "url": "https://github.com/openclaw/openclaw/pull/119516",
+        "number": 96937,
+        "title": "feat(perplexity): add search context size",
+        "url": "https://github.com/openclaw/openclaw/pull/96937",
         "state": "open",
-        "author": "zyw02",
-        "updatedAt": "2026-08-09T11:43:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 106216,
-        "title": "test(gateway): isolate live-event sweep assertion",
-        "url": "https://github.com/openclaw/openclaw/pull/106216",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-09T11:43:18Z"
+        "author": "WilliamK112",
+        "updatedAt": "2026-08-09T13:12:38Z"
       }
     ]
   }

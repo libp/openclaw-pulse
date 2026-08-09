@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-09T14:51:14.426Z",
+  "generatedAt": "2026-08-09T16:52:19.090Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -394,17 +394,17 @@
     },
     {
       "capturedOn": "2026-08-09",
-      "capturedAt": "2026-08-09T14:51:14.426Z",
-      "issueOpen": 3427,
-      "issueClosed": 42985,
-      "prOpen": 2172,
-      "prClosed": 70032,
-      "prMerged": 23279,
+      "capturedAt": "2026-08-09T16:52:19.090Z",
+      "issueOpen": 3432,
+      "issueClosed": 42989,
+      "prOpen": 2177,
+      "prClosed": 70077,
+      "prMerged": 23319,
       "workflowRuns": 40000,
-      "stars": 385662,
-      "forks": 81061,
+      "stars": 385677,
+      "forks": 81065,
       "subscribers": 1766,
-      "commits": 77487,
+      "commits": 77527,
       "contributors": 3076,
       "source": "github-actions",
       "approximateDate": false
@@ -493,10 +493,10 @@
     },
     {
       "capturedOn": "2026-08-09",
-      "stars": 385662,
-      "forks": 81061,
+      "stars": 385677,
+      "forks": 81065,
       "subscribers": 1766,
-      "commits": 77487,
+      "commits": 77527,
       "contributors": 3076
     }
   ],
@@ -504,104 +504,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 121036,
-        "title": "[Bug]: Cloud Worker recovery can open tunnels to stale worker bundles after Gateway upgrade",
-        "url": "https://github.com/openclaw/openclaw/issues/121036",
+        "number": 119129,
+        "title": "[Bug]: owner-key TaskFlow lookup hits the terminal flow, so cancel/show skip a still-active flow",
+        "url": "https://github.com/openclaw/openclaw/issues/119129",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-09T14:51:02Z"
+        "author": "ruel225",
+        "updatedAt": "2026-08-09T16:52:09Z"
       },
       {
         "kind": "issue",
-        "number": 118007,
-        "title": "[Feature]: Align QA Lab with Crabline 0.1.13 server artifacts",
-        "url": "https://github.com/openclaw/openclaw/issues/118007",
+        "number": 121132,
+        "title": "[Bug]: Beam mirror can complete sessions that were not confirmed inactive",
+        "url": "https://github.com/openclaw/openclaw/issues/121132",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-09T14:50:43Z"
+        "author": "Leon-SK668",
+        "updatedAt": "2026-08-09T16:52:13Z"
       },
       {
         "kind": "issue",
-        "number": 109881,
-        "title": "[Bug]: Bedrock (bedrock-converse-stream) has no thinking-signature replay protection; \"Invalid signature in thinking block\" permanently bricks Claude 4+ sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/109881",
+        "number": 114067,
+        "title": "perf(cli): root help costs ~35x more when the config has a plugins key, for byte-identical output",
+        "url": "https://github.com/openclaw/openclaw/issues/114067",
         "state": "open",
-        "author": "AWTammsaar",
-        "updatedAt": "2026-08-09T14:50:13Z"
+        "author": "dexhunter",
+        "updatedAt": "2026-08-09T16:52:08Z"
       },
       {
         "kind": "issue",
-        "number": 50677,
-        "title": "Skills silently truncated - user-created skills invisible with no warning or prioritization",
-        "url": "https://github.com/openclaw/openclaw/issues/50677",
+        "number": 105462,
+        "title": "[Feature] Configurable connection retry limits and exponential backoff for SSH worker sandbox backend",
+        "url": "https://github.com/openclaw/openclaw/issues/105462",
         "state": "open",
-        "author": "barronlroth",
-        "updatedAt": "2026-08-09T14:50:07Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-08-09T16:52:02Z"
       },
       {
         "kind": "issue",
-        "number": 121034,
-        "title": "ACP/Claude Code Bedrock spawns leak internal 'provider/model' string into ANTHROPIC_MODEL, breaking Bedrock invocation",
-        "url": "https://github.com/openclaw/openclaw/issues/121034",
+        "number": 121131,
+        "title": "[Bug]: retained npm cleanup deletes packages with unreadable markers",
+        "url": "https://github.com/openclaw/openclaw/issues/121131",
         "state": "open",
-        "author": "wirjo",
-        "updatedAt": "2026-08-09T14:50:02Z"
+        "author": "Leon-SK668",
+        "updatedAt": "2026-08-09T16:52:14Z"
+      },
+      {
+        "kind": "issue",
+        "number": 121128,
+        "title": "[Bug]: Plugin aliases are skipped during forced activation",
+        "url": "https://github.com/openclaw/openclaw/issues/121128",
+        "state": "open",
+        "author": "Leon-SK668",
+        "updatedAt": "2026-08-09T16:51:55Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 110868,
-        "title": "fix(ui): show tool input when results precede calls",
-        "url": "https://github.com/openclaw/openclaw/pull/110868",
-        "state": "open",
-        "author": "NianJiuZst",
-        "updatedAt": "2026-08-09T14:51:09Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118169,
-        "title": "feat(signal): link accounts from setup QR",
-        "url": "https://github.com/openclaw/openclaw/pull/118169",
+        "number": 119611,
+        "title": "fix: improve Custodian setup control affordances",
+        "url": "https://github.com/openclaw/openclaw/pull/119611",
         "state": "open",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-09T14:51:05Z"
+        "updatedAt": "2026-08-09T16:52:14Z"
       },
       {
         "kind": "pr",
-        "number": 121073,
-        "title": "fix(memory): a memory_search that hits its own deadline reports a broken embedding provider",
-        "url": "https://github.com/openclaw/openclaw/pull/121073",
+        "number": 121100,
+        "title": "fix(automations): stop offering rejected agent retargets",
+        "url": "https://github.com/openclaw/openclaw/pull/121100",
         "state": "open",
-        "author": "IlyaKuprov",
-        "updatedAt": "2026-08-09T14:51:10Z"
+        "author": "arhxam",
+        "updatedAt": "2026-08-09T16:52:12Z"
       },
       {
         "kind": "pr",
-        "number": 121047,
-        "title": "fix(slack): file uploads arrive with no comment when the caller sends a caption",
-        "url": "https://github.com/openclaw/openclaw/pull/121047",
+        "number": 113089,
+        "title": "feat(agents): return sessionId from sessions_spawn accept payload",
+        "url": "https://github.com/openclaw/openclaw/pull/113089",
         "state": "open",
-        "author": "IlyaKuprov",
-        "updatedAt": "2026-08-09T14:50:59Z"
+        "author": "ericcaiwx-star",
+        "updatedAt": "2026-08-09T16:52:12Z"
       },
       {
         "kind": "pr",
-        "number": 121044,
-        "title": "fix: memory_search rebuilds the whole index after an ordinary zero-hit query",
-        "url": "https://github.com/openclaw/openclaw/pull/121044",
+        "number": 113673,
+        "title": "feat(workboard): clarify proof provenance and diagnostics",
+        "url": "https://github.com/openclaw/openclaw/pull/113673",
         "state": "open",
-        "author": "IlyaKuprov",
-        "updatedAt": "2026-08-09T14:50:59Z"
+        "author": "fr-meyer",
+        "updatedAt": "2026-08-09T16:52:10Z"
       },
       {
         "kind": "pr",
-        "number": 76744,
-        "title": "docs: standardize ACP behavior spelling",
-        "url": "https://github.com/openclaw/openclaw/pull/76744",
+        "number": 121116,
+        "title": "fix(msteams): stop retrying non-idempotent activity creates on ambiguous 408/5xx",
+        "url": "https://github.com/openclaw/openclaw/pull/121116",
         "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-09T14:50:54Z"
+        "author": "zenglingbiao",
+        "updatedAt": "2026-08-09T16:52:09Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121105,
+        "title": "fix(acpx): strip amazon-bedrock provider prefix from Claude ACP model refs",
+        "url": "https://github.com/openclaw/openclaw/pull/121105",
+        "state": "open",
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-08-09T16:52:09Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-09T21:46:24.903Z",
+  "generatedAt": "2026-08-09T23:44:45.498Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -394,17 +394,17 @@
     },
     {
       "capturedOn": "2026-08-09",
-      "capturedAt": "2026-08-09T21:46:24.903Z",
-      "issueOpen": 3452,
-      "issueClosed": 43002,
-      "prOpen": 2201,
-      "prClosed": 70133,
-      "prMerged": 23367,
+      "capturedAt": "2026-08-09T23:44:45.498Z",
+      "issueOpen": 3455,
+      "issueClosed": 43008,
+      "prOpen": 2188,
+      "prClosed": 70166,
+      "prMerged": 23393,
       "workflowRuns": 40000,
-      "stars": 385687,
-      "forks": 81067,
+      "stars": 385701,
+      "forks": 81071,
       "subscribers": 1766,
-      "commits": 77581,
+      "commits": 77608,
       "contributors": 3076,
       "source": "github-actions",
       "approximateDate": false
@@ -493,10 +493,10 @@
     },
     {
       "capturedOn": "2026-08-09",
-      "stars": 385687,
-      "forks": 81067,
+      "stars": 385701,
+      "forks": 81071,
       "subscribers": 1766,
-      "commits": 77581,
+      "commits": 77608,
       "contributors": 3076
     }
   ],
@@ -504,113 +504,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 110153,
-        "title": "Tool-error warnings fire on benign non-zero exits (no-match grep, recovered retries) since exit-code-based isToolResultError (#93228)",
-        "url": "https://github.com/openclaw/openclaw/issues/110153",
+        "number": 121128,
+        "title": "[Bug]: Plugin aliases are skipped during forced activation",
+        "url": "https://github.com/openclaw/openclaw/issues/121128",
         "state": "open",
-        "author": "ryanschmidt",
-        "updatedAt": "2026-08-09T21:45:51Z"
+        "author": "Leon-SK668",
+        "updatedAt": "2026-08-09T23:44:34Z"
       },
       {
         "kind": "issue",
-        "number": 121187,
-        "title": "[Bug]: yielded requester completion retries intentional NO_REPLY instead of settling quietly",
-        "url": "https://github.com/openclaw/openclaw/issues/121187",
+        "number": 108865,
+        "title": "Feishu (and other channels) drop inbound messages when session is archived — no auto-restore mechanism",
+        "url": "https://github.com/openclaw/openclaw/issues/108865",
         "state": "open",
-        "author": "BsnizND",
-        "updatedAt": "2026-08-09T21:45:35Z"
+        "author": "ZJXMGMV",
+        "updatedAt": "2026-08-09T23:44:00Z"
       },
       {
         "kind": "issue",
-        "number": 121245,
-        "title": "[Feature]: Bring back the old control UI!",
-        "url": "https://github.com/openclaw/openclaw/issues/121245",
+        "number": 107928,
+        "title": "[Feature]: Control UI: composer footer status values (\"Off\", \"10%\") lack labels/tooltips",
+        "url": "https://github.com/openclaw/openclaw/issues/107928",
+        "state": "open",
+        "author": "PrinceHeardofGodLiftedUp",
+        "updatedAt": "2026-08-09T23:43:28Z"
+      },
+      {
+        "kind": "issue",
+        "number": 101190,
+        "title": "Feature: Sleep/wait tool — agent can pause execution without burning tokens",
+        "url": "https://github.com/openclaw/openclaw/issues/101190",
+        "state": "open",
+        "author": "Dazlarus",
+        "updatedAt": "2026-08-09T23:43:23Z"
+      },
+      {
+        "kind": "issue",
+        "number": 121281,
+        "title": "Agent output includes technical execution commands and reasoning — how to restrict it to only the final conclusion?",
+        "url": "https://github.com/openclaw/openclaw/issues/121281",
         "state": "closed",
-        "author": "developercrocodiles",
-        "updatedAt": "2026-08-09T21:45:33Z"
-      },
-      {
-        "kind": "issue",
-        "number": 121232,
-        "title": "memory-core dreaming: ranker nominates candidates the applier always rejects (\"Ranked N, Promoted 0\" forever)",
-        "url": "https://github.com/openclaw/openclaw/issues/121232",
-        "state": "open",
-        "author": "ctbritt",
-        "updatedAt": "2026-08-09T21:45:24Z"
-      },
-      {
-        "kind": "issue",
-        "number": 121238,
-        "title": "[Bug]: Skill Workshop update fails through an explicitly allowed workspace symlink",
-        "url": "https://github.com/openclaw/openclaw/issues/121238",
-        "state": "open",
-        "author": "grobz",
-        "updatedAt": "2026-08-09T21:45:12Z"
-      },
-      {
-        "kind": "issue",
-        "number": 48708,
-        "title": "Feature: TUI chat message timestamps",
-        "url": "https://github.com/openclaw/openclaw/issues/48708",
-        "state": "open",
-        "author": "jimgifw-wang",
-        "updatedAt": "2026-08-09T21:44:55Z"
+        "author": "tkokotrade",
+        "updatedAt": "2026-08-09T23:43:11Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 121154,
-        "title": "galini microsoft galin memory permissions v2 p1a channel ingress",
-        "url": "https://github.com/openclaw/openclaw/pull/121154",
-        "state": "open",
-        "author": "galiniliev",
-        "updatedAt": "2026-08-09T21:46:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114593,
-        "title": "docs: remove retired diagnostics.cacheTrace detail fields from docs",
-        "url": "https://github.com/openclaw/openclaw/pull/114593",
-        "state": "open",
-        "author": "AAliKKhan",
-        "updatedAt": "2026-08-09T21:46:11Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120888,
-        "title": "fix(gateway): keep hello authorization aligned with RPC access",
-        "url": "https://github.com/openclaw/openclaw/pull/120888",
+        "number": 121262,
+        "title": "fix(cloud-workers): support large Git workspaces",
+        "url": "https://github.com/openclaw/openclaw/pull/121262",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-09T21:46:04Z"
+        "updatedAt": "2026-08-09T23:44:40Z"
       },
       {
         "kind": "pr",
-        "number": 120864,
-        "title": "[DO NOT MERGE] refactor(slack): detect Enterprise Grid installs and remove uneeded setting",
-        "url": "https://github.com/openclaw/openclaw/pull/120864",
+        "number": 121116,
+        "title": "fix(msteams): stop retrying non-idempotent activity creates on ambiguous 408/5xx",
+        "url": "https://github.com/openclaw/openclaw/pull/121116",
+        "state": "open",
+        "author": "zenglingbiao",
+        "updatedAt": "2026-08-09T23:44:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114503,
+        "title": "fix(control-ui): restore authenticated assistant profile avatars",
+        "url": "https://github.com/openclaw/openclaw/pull/114503",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-09T23:44:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121014,
+        "title": "[DO NOT MERGE] fix(slack): deferred Enterprise Grid actions lose workspace scope",
+        "url": "https://github.com/openclaw/openclaw/pull/121014",
         "state": "open",
         "author": "sjf-oa",
-        "updatedAt": "2026-08-09T21:45:54Z"
+        "updatedAt": "2026-08-09T23:44:34Z"
       },
       {
         "kind": "pr",
-        "number": 111452,
-        "title": "fix(plugin-sdk): detect pnpm CMD wrappers that launch .exe or .js directly",
-        "url": "https://github.com/openclaw/openclaw/pull/111452",
+        "number": 121273,
+        "title": "refactor: replace exec approvals lease with journal CAS",
+        "url": "https://github.com/openclaw/openclaw/pull/121273",
         "state": "open",
-        "author": "easyteacher",
-        "updatedAt": "2026-08-09T21:45:48Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-09T23:44:28Z"
       },
       {
         "kind": "pr",
-        "number": 117184,
-        "title": "feat(auto-reply): clean empty staged inbound media directories (#104358)",
-        "url": "https://github.com/openclaw/openclaw/pull/117184",
-        "state": "open",
-        "author": "MasterSwords1",
-        "updatedAt": "2026-08-09T21:45:41Z"
+        "number": 120893,
+        "title": "feat: continue dashboard sessions from CLI URLs",
+        "url": "https://github.com/openclaw/openclaw/pull/120893",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-09T23:44:27Z"
       }
     ]
   }

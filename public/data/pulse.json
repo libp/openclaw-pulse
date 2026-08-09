@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-09T17:46:18.479Z",
+  "generatedAt": "2026-08-09T18:59:28.440Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -394,17 +394,17 @@
     },
     {
       "capturedOn": "2026-08-09",
-      "capturedAt": "2026-08-09T17:46:18.479Z",
-      "issueOpen": 3435,
+      "capturedAt": "2026-08-09T18:59:28.440Z",
+      "issueOpen": 3442,
       "issueClosed": 42991,
-      "prOpen": 2209,
-      "prClosed": 70082,
-      "prMerged": 23324,
+      "prOpen": 2205,
+      "prClosed": 70102,
+      "prMerged": 23342,
       "workflowRuns": 40000,
-      "stars": 385680,
-      "forks": 81065,
+      "stars": 385689,
+      "forks": 81068,
       "subscribers": 1766,
-      "commits": 77533,
+      "commits": 77550,
       "contributors": 3076,
       "source": "github-actions",
       "approximateDate": false
@@ -493,10 +493,10 @@
     },
     {
       "capturedOn": "2026-08-09",
-      "stars": 385680,
-      "forks": 81065,
+      "stars": 385689,
+      "forks": 81068,
       "subscribers": 1766,
-      "commits": 77533,
+      "commits": 77550,
       "contributors": 3076
     }
   ],
@@ -505,57 +505,57 @@
     "prs": [
       {
         "kind": "pr",
-        "number": 121051,
-        "title": "fix: a timed-out exec leaves its child's forked processes running forever",
-        "url": "https://github.com/openclaw/openclaw/pull/121051",
-        "state": "open",
-        "author": "IlyaKuprov",
-        "updatedAt": "2026-08-09T17:46:14Z"
+        "number": 121065,
+        "title": "fix(qa): resolve live model pairs after auth selection",
+        "url": "https://github.com/openclaw/openclaw/pull/121065",
+        "state": "closed",
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-09T18:59:16Z"
       },
       {
         "kind": "pr",
-        "number": 120964,
-        "title": "fix: steering misses the next tool boundary after ACK",
-        "url": "https://github.com/openclaw/openclaw/pull/120964",
+        "number": 121063,
+        "title": "fix(agent-core): bound runaway loops with turn/error-batch/idle-repeat guards (#120962)",
+        "url": "https://github.com/openclaw/openclaw/pull/121063",
+        "state": "open",
+        "author": "Papilionidae",
+        "updatedAt": "2026-08-09T18:59:02Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120864,
+        "title": "refactor(slack): detect Enterprise Grid installs and remove uneeded setting",
+        "url": "https://github.com/openclaw/openclaw/pull/120864",
+        "state": "open",
+        "author": "sjf-oa",
+        "updatedAt": "2026-08-09T18:58:49Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121205,
+        "title": "test(imessage): exercise chat lookup through runtime boundary",
+        "url": "https://github.com/openclaw/openclaw/pull/121205",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-09T18:58:37Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117184,
+        "title": "feat(auto-reply): clean empty staged inbound media directories (#104358)",
+        "url": "https://github.com/openclaw/openclaw/pull/117184",
+        "state": "open",
+        "author": "MasterSwords1",
+        "updatedAt": "2026-08-09T18:58:24Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121196,
+        "title": "feat(memory): supplement thin strict recall with bounded lexical expansion",
+        "url": "https://github.com/openclaw/openclaw/pull/121196",
         "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-09T17:46:13Z"
-      },
-      {
-        "kind": "pr",
-        "number": 116934,
-        "title": "fix(matrix): preserve messages sent during crash downtime",
-        "url": "https://github.com/openclaw/openclaw/pull/116934",
-        "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-08-09T17:46:13Z"
-      },
-      {
-        "kind": "pr",
-        "number": 116511,
-        "title": "fix(agents): skip repeated workspace bootstrap on continuation turns",
-        "url": "https://github.com/openclaw/openclaw/pull/116511",
-        "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-08-09T17:46:11Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121032,
-        "title": "feat(pairing): guide Public URL and LAN setup in the Control UI",
-        "url": "https://github.com/openclaw/openclaw/pull/121032",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-09T17:46:10Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114113,
-        "title": "fix(cron): stop retrying permanent billing errors returned as HTTP 429",
-        "url": "https://github.com/openclaw/openclaw/pull/114113",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-09T17:46:10Z"
+        "updatedAt": "2026-08-09T18:57:33Z"
       }
     ]
   }

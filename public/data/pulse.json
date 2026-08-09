@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-09T13:58:24.204Z",
+  "generatedAt": "2026-08-09T14:51:14.426Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -394,17 +394,17 @@
     },
     {
       "capturedOn": "2026-08-09",
-      "capturedAt": "2026-08-09T13:58:24.204Z",
+      "capturedAt": "2026-08-09T14:51:14.426Z",
       "issueOpen": 3427,
-      "issueClosed": 42982,
-      "prOpen": 2181,
-      "prClosed": 70020,
-      "prMerged": 23268,
+      "issueClosed": 42985,
+      "prOpen": 2172,
+      "prClosed": 70032,
+      "prMerged": 23279,
       "workflowRuns": 40000,
-      "stars": 385658,
-      "forks": 81064,
+      "stars": 385662,
+      "forks": 81061,
       "subscribers": 1766,
-      "commits": 77476,
+      "commits": 77487,
       "contributors": 3076,
       "source": "github-actions",
       "approximateDate": false
@@ -493,10 +493,10 @@
     },
     {
       "capturedOn": "2026-08-09",
-      "stars": 385658,
-      "forks": 81064,
+      "stars": 385662,
+      "forks": 81061,
       "subscribers": 1766,
-      "commits": 77476,
+      "commits": 77487,
       "contributors": 3076
     }
   ],
@@ -504,68 +504,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 120425,
-        "title": "Telegram DM reply-to-photo: unconditional re-fetch of quoted media causes multi-minute turns, races the no-reply timeout",
-        "url": "https://github.com/openclaw/openclaw/issues/120425",
+        "number": 121036,
+        "title": "[Bug]: Cloud Worker recovery can open tunnels to stale worker bundles after Gateway upgrade",
+        "url": "https://github.com/openclaw/openclaw/issues/121036",
         "state": "open",
-        "author": "vicky-ai-25",
-        "updatedAt": "2026-08-09T13:55:21Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-09T14:51:02Z"
+      },
+      {
+        "kind": "issue",
+        "number": 118007,
+        "title": "[Feature]: Align QA Lab with Crabline 0.1.13 server artifacts",
+        "url": "https://github.com/openclaw/openclaw/issues/118007",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-09T14:50:43Z"
+      },
+      {
+        "kind": "issue",
+        "number": 109881,
+        "title": "[Bug]: Bedrock (bedrock-converse-stream) has no thinking-signature replay protection; \"Invalid signature in thinking block\" permanently bricks Claude 4+ sessions",
+        "url": "https://github.com/openclaw/openclaw/issues/109881",
+        "state": "open",
+        "author": "AWTammsaar",
+        "updatedAt": "2026-08-09T14:50:13Z"
+      },
+      {
+        "kind": "issue",
+        "number": 50677,
+        "title": "Skills silently truncated - user-created skills invisible with no warning or prioritization",
+        "url": "https://github.com/openclaw/openclaw/issues/50677",
+        "state": "open",
+        "author": "barronlroth",
+        "updatedAt": "2026-08-09T14:50:07Z"
+      },
+      {
+        "kind": "issue",
+        "number": 121034,
+        "title": "ACP/Claude Code Bedrock spawns leak internal 'provider/model' string into ANTHROPIC_MODEL, breaking Bedrock invocation",
+        "url": "https://github.com/openclaw/openclaw/issues/121034",
+        "state": "open",
+        "author": "wirjo",
+        "updatedAt": "2026-08-09T14:50:02Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113901,
-        "title": "fix(update): keep managed gateway updates in the correct profile",
-        "url": "https://github.com/openclaw/openclaw/pull/113901",
+        "number": 110868,
+        "title": "fix(ui): show tool input when results precede calls",
+        "url": "https://github.com/openclaw/openclaw/pull/110868",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-09T13:58:11Z"
+        "author": "NianJiuZst",
+        "updatedAt": "2026-08-09T14:51:09Z"
       },
       {
         "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-09T13:57:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120899,
-        "title": "feat(security): expose install policy warning approval",
-        "url": "https://github.com/openclaw/openclaw/pull/120899",
+        "number": 118169,
+        "title": "feat(signal): link accounts from setup QR",
+        "url": "https://github.com/openclaw/openclaw/pull/118169",
         "state": "open",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-09T13:57:40Z"
+        "updatedAt": "2026-08-09T14:51:05Z"
       },
       {
         "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
+        "number": 121073,
+        "title": "fix(memory): a memory_search that hits its own deadline reports a broken embedding provider",
+        "url": "https://github.com/openclaw/openclaw/pull/121073",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-09T13:57:40Z"
+        "author": "IlyaKuprov",
+        "updatedAt": "2026-08-09T14:51:10Z"
       },
       {
         "kind": "pr",
-        "number": 120865,
-        "title": "refactor(gateway): consolidate interactive connection resolution",
-        "url": "https://github.com/openclaw/openclaw/pull/120865",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-09T13:57:25Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114424,
-        "title": "improve(providers): consolidate provider contract tests without losing coverage",
-        "url": "https://github.com/openclaw/openclaw/pull/114424",
+        "number": 121047,
+        "title": "fix(slack): file uploads arrive with no comment when the caller sends a caption",
+        "url": "https://github.com/openclaw/openclaw/pull/121047",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-09T13:57:17Z"
+        "author": "IlyaKuprov",
+        "updatedAt": "2026-08-09T14:50:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121044,
+        "title": "fix: memory_search rebuilds the whole index after an ordinary zero-hit query",
+        "url": "https://github.com/openclaw/openclaw/pull/121044",
+        "state": "open",
+        "author": "IlyaKuprov",
+        "updatedAt": "2026-08-09T14:50:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 76744,
+        "title": "docs: standardize ACP behavior spelling",
+        "url": "https://github.com/openclaw/openclaw/pull/76744",
+        "state": "open",
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-08-09T14:50:54Z"
       }
     ]
   }

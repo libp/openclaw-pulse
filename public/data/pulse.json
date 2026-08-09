@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-09T13:14:14.753Z",
+  "generatedAt": "2026-08-09T13:58:24.204Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -394,17 +394,17 @@
     },
     {
       "capturedOn": "2026-08-09",
-      "capturedAt": "2026-08-09T13:14:14.753Z",
+      "capturedAt": "2026-08-09T13:58:24.204Z",
       "issueOpen": 3427,
-      "issueClosed": 42981,
-      "prOpen": 2182,
-      "prClosed": 70011,
-      "prMerged": 23263,
+      "issueClosed": 42982,
+      "prOpen": 2181,
+      "prClosed": 70020,
+      "prMerged": 23268,
       "workflowRuns": 40000,
-      "stars": 385654,
-      "forks": 81062,
+      "stars": 385658,
+      "forks": 81064,
       "subscribers": 1766,
-      "commits": 77471,
+      "commits": 77476,
       "contributors": 3076,
       "source": "github-actions",
       "approximateDate": false
@@ -493,10 +493,10 @@
     },
     {
       "capturedOn": "2026-08-09",
-      "stars": 385654,
-      "forks": 81062,
+      "stars": 385658,
+      "forks": 81064,
       "subscribers": 1766,
-      "commits": 77471,
+      "commits": 77476,
       "contributors": 3076
     }
   ],
@@ -504,68 +504,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 121039,
-        "title": "[Bug]: Crestodian run config omits reserved openclaw execution entry",
-        "url": "https://github.com/openclaw/openclaw/issues/121039",
+        "number": 120425,
+        "title": "Telegram DM reply-to-photo: unconditional re-fetch of quoted media causes multi-minute turns, races the no-reply timeout",
+        "url": "https://github.com/openclaw/openclaw/issues/120425",
         "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-08-09T13:07:10Z"
+        "author": "vicky-ai-25",
+        "updatedAt": "2026-08-09T13:55:21Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 112054,
-        "title": "fix(gemini): accept tools with multi-type parameters",
-        "url": "https://github.com/openclaw/openclaw/pull/112054",
+        "number": 113901,
+        "title": "fix(update): keep managed gateway updates in the correct profile",
+        "url": "https://github.com/openclaw/openclaw/pull/113901",
         "state": "open",
-        "author": "ooiuuii",
-        "updatedAt": "2026-08-09T13:13:57Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-09T13:58:11Z"
       },
       {
         "kind": "pr",
-        "number": 121041,
-        "title": "fix: compaction leaves CLI-backed sessions resuming the pre-compaction history",
-        "url": "https://github.com/openclaw/openclaw/pull/121041",
+        "number": 120900,
+        "title": "feat(ui): review install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/120900",
         "state": "open",
-        "author": "IlyaKuprov",
-        "updatedAt": "2026-08-09T13:13:18Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-09T13:57:42Z"
       },
       {
         "kind": "pr",
-        "number": 121065,
-        "title": "fix(qa): resolve live model pairs after auth selection",
-        "url": "https://github.com/openclaw/openclaw/pull/121065",
+        "number": 120899,
+        "title": "feat(security): expose install policy warning approval",
+        "url": "https://github.com/openclaw/openclaw/pull/120899",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-09T13:13:17Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-09T13:57:40Z"
       },
       {
         "kind": "pr",
-        "number": 120979,
-        "title": "fix(gateway): cancel disconnected hook admission",
-        "url": "https://github.com/openclaw/openclaw/pull/120979",
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
         "state": "open",
-        "author": "litang9",
-        "updatedAt": "2026-08-09T13:13:07Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-09T13:57:40Z"
       },
       {
         "kind": "pr",
-        "number": 121060,
-        "title": "fix(qa): enforce fresh Matrix state restarts",
-        "url": "https://github.com/openclaw/openclaw/pull/121060",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-09T13:12:39Z"
+        "number": 120865,
+        "title": "refactor(gateway): consolidate interactive connection resolution",
+        "url": "https://github.com/openclaw/openclaw/pull/120865",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-09T13:57:25Z"
       },
       {
         "kind": "pr",
-        "number": 96937,
-        "title": "feat(perplexity): add search context size",
-        "url": "https://github.com/openclaw/openclaw/pull/96937",
+        "number": 114424,
+        "title": "improve(providers): consolidate provider contract tests without losing coverage",
+        "url": "https://github.com/openclaw/openclaw/pull/114424",
         "state": "open",
-        "author": "WilliamK112",
-        "updatedAt": "2026-08-09T13:12:38Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-09T13:57:17Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-09T23:44:45.498Z",
+  "generatedAt": "2026-08-10T02:32:39.247Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -408,6 +408,23 @@
       "contributors": 3076,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-10",
+      "capturedAt": "2026-08-10T02:32:39.247Z",
+      "issueOpen": 3457,
+      "issueClosed": 43015,
+      "prOpen": 2195,
+      "prClosed": 70225,
+      "prMerged": 23440,
+      "workflowRuns": 40000,
+      "stars": 385706,
+      "forks": 81069,
+      "subscribers": 1766,
+      "commits": 77655,
+      "contributors": 3076,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -498,110 +515,72 @@
       "subscribers": 1766,
       "commits": 77608,
       "contributors": 3076
+    },
+    {
+      "capturedOn": "2026-08-10",
+      "stars": 385706,
+      "forks": 81069,
+      "subscribers": 1766,
+      "commits": 77655,
+      "contributors": 3076
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 121128,
-        "title": "[Bug]: Plugin aliases are skipped during forced activation",
-        "url": "https://github.com/openclaw/openclaw/issues/121128",
-        "state": "open",
-        "author": "Leon-SK668",
-        "updatedAt": "2026-08-09T23:44:34Z"
-      },
-      {
-        "kind": "issue",
-        "number": 108865,
-        "title": "Feishu (and other channels) drop inbound messages when session is archived — no auto-restore mechanism",
-        "url": "https://github.com/openclaw/openclaw/issues/108865",
-        "state": "open",
-        "author": "ZJXMGMV",
-        "updatedAt": "2026-08-09T23:44:00Z"
-      },
-      {
-        "kind": "issue",
-        "number": 107928,
-        "title": "[Feature]: Control UI: composer footer status values (\"Off\", \"10%\") lack labels/tooltips",
-        "url": "https://github.com/openclaw/openclaw/issues/107928",
-        "state": "open",
-        "author": "PrinceHeardofGodLiftedUp",
-        "updatedAt": "2026-08-09T23:43:28Z"
-      },
-      {
-        "kind": "issue",
-        "number": 101190,
-        "title": "Feature: Sleep/wait tool — agent can pause execution without burning tokens",
-        "url": "https://github.com/openclaw/openclaw/issues/101190",
-        "state": "open",
-        "author": "Dazlarus",
-        "updatedAt": "2026-08-09T23:43:23Z"
-      },
-      {
-        "kind": "issue",
-        "number": 121281,
-        "title": "Agent output includes technical execution commands and reasoning — how to restrict it to only the final conclusion?",
-        "url": "https://github.com/openclaw/openclaw/issues/121281",
-        "state": "closed",
-        "author": "tkokotrade",
-        "updatedAt": "2026-08-09T23:43:11Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 121262,
-        "title": "fix(cloud-workers): support large Git workspaces",
-        "url": "https://github.com/openclaw/openclaw/pull/121262",
+        "number": 113673,
+        "title": "feat(workboard): clarify proof provenance and diagnostics",
+        "url": "https://github.com/openclaw/openclaw/pull/113673",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-09T23:44:40Z"
+        "author": "fr-meyer",
+        "updatedAt": "2026-08-10T02:32:08Z"
       },
       {
         "kind": "pr",
-        "number": 121116,
-        "title": "fix(msteams): stop retrying non-idempotent activity creates on ambiguous 408/5xx",
-        "url": "https://github.com/openclaw/openclaw/pull/121116",
+        "number": 119525,
+        "title": "fix(memory): allow retry after search timeout",
+        "url": "https://github.com/openclaw/openclaw/pull/119525",
         "state": "open",
-        "author": "zenglingbiao",
-        "updatedAt": "2026-08-09T23:44:38Z"
+        "author": "momothemage",
+        "updatedAt": "2026-08-10T02:32:07Z"
       },
       {
         "kind": "pr",
-        "number": 114503,
-        "title": "fix(control-ui): restore authenticated assistant profile avatars",
-        "url": "https://github.com/openclaw/openclaw/pull/114503",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-09T23:44:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121014,
-        "title": "[DO NOT MERGE] fix(slack): deferred Enterprise Grid actions lose workspace scope",
-        "url": "https://github.com/openclaw/openclaw/pull/121014",
+        "number": 120864,
+        "title": "feat(slack): enable Enterprise Grid identity, DMs, routing, actions, approvals, and presence",
+        "url": "https://github.com/openclaw/openclaw/pull/120864",
         "state": "open",
         "author": "sjf-oa",
-        "updatedAt": "2026-08-09T23:44:34Z"
+        "updatedAt": "2026-08-10T02:31:53Z"
       },
       {
         "kind": "pr",
-        "number": 121273,
-        "title": "refactor: replace exec approvals lease with journal CAS",
-        "url": "https://github.com/openclaw/openclaw/pull/121273",
+        "number": 121357,
+        "title": "feat(slack): add workspace routing for Enterprise Grid actions and events",
+        "url": "https://github.com/openclaw/openclaw/pull/121357",
+        "state": "open",
+        "author": "sjf-oa",
+        "updatedAt": "2026-08-10T02:31:46Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121356,
+        "title": "fix(test): restore root-matrix unit-fast cleanup",
+        "url": "https://github.com/openclaw/openclaw/pull/121356",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-09T23:44:28Z"
+        "updatedAt": "2026-08-10T02:31:44Z"
       },
       {
         "kind": "pr",
-        "number": 120893,
-        "title": "feat: continue dashboard sessions from CLI URLs",
-        "url": "https://github.com/openclaw/openclaw/pull/120893",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-09T23:44:27Z"
+        "number": 121197,
+        "title": "refactor(slack): detect Enterprise Grid installs at runtime",
+        "url": "https://github.com/openclaw/openclaw/pull/121197",
+        "state": "open",
+        "author": "sjf-oa",
+        "updatedAt": "2026-08-10T02:31:29Z"
       }
     ]
   }

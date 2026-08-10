@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-10T19:14:50.559Z",
+  "generatedAt": "2026-08-10T20:01:52.058Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -411,17 +411,17 @@
     },
     {
       "capturedOn": "2026-08-10",
-      "capturedAt": "2026-08-10T19:14:50.559Z",
-      "issueOpen": 3482,
-      "issueClosed": 43069,
-      "prOpen": 2223,
-      "prClosed": 70463,
-      "prMerged": 23619,
+      "capturedAt": "2026-08-10T20:01:52.058Z",
+      "issueOpen": 3485,
+      "issueClosed": 43071,
+      "prOpen": 2217,
+      "prClosed": 70475,
+      "prMerged": 23625,
       "workflowRuns": 40000,
-      "stars": 385813,
+      "stars": 385816,
       "forks": 81087,
-      "subscribers": 1768,
-      "commits": 77876,
+      "subscribers": 1767,
+      "commits": 77884,
       "contributors": 3077,
       "source": "github-actions",
       "approximateDate": false
@@ -518,10 +518,10 @@
     },
     {
       "capturedOn": "2026-08-10",
-      "stars": 385813,
+      "stars": 385816,
       "forks": 81087,
-      "subscribers": 1768,
-      "commits": 77876,
+      "subscribers": 1767,
+      "commits": 77884,
       "contributors": 3077
     }
   ],
@@ -529,12 +529,30 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 116242,
-        "title": "[Bug]: Codex supervision redaction only covers 4 token-prefix classes; Google/AWS/JWT/GitHub-finegrained credentials leak to the runtime",
-        "url": "https://github.com/openclaw/openclaw/issues/116242",
+        "number": 120616,
+        "title": "[Bug]: Gemini dotted cron update fields cause repeated patch-required failures",
+        "url": "https://github.com/openclaw/openclaw/issues/120616",
         "state": "open",
-        "author": "miorbnli",
-        "updatedAt": "2026-08-10T19:12:43Z"
+        "author": "louria",
+        "updatedAt": "2026-08-10T20:01:42Z"
+      },
+      {
+        "kind": "issue",
+        "number": 120519,
+        "title": "agent cron tool payload schema rejects kind \"command\" (only systemEvent|agentTurn) while CLI and gateway CronJob.payload support it",
+        "url": "https://github.com/openclaw/openclaw/issues/120519",
+        "state": "open",
+        "author": "grant-kwok",
+        "updatedAt": "2026-08-10T20:01:47Z"
+      },
+      {
+        "kind": "issue",
+        "number": 120571,
+        "title": "before_tool_call { block: true } silently unenforced for Codex-native exec when appServer.approvalPolicy is \"never\" (fails open, logs claim it blocked)",
+        "url": "https://github.com/openclaw/openclaw/issues/120571",
+        "state": "open",
+        "author": "ykojima6",
+        "updatedAt": "2026-08-10T20:01:32Z"
       },
       {
         "kind": "issue",
@@ -543,63 +561,72 @@
         "url": "https://github.com/openclaw/openclaw/issues/121704",
         "state": "open",
         "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-10T19:11:27Z"
+        "updatedAt": "2026-08-10T20:01:26Z"
+      },
+      {
+        "kind": "issue",
+        "number": 81925,
+        "title": "Compaction: `after_compaction` not emitted when `result.compacted:false`; validation: single-quote delimiter trips tool-caller retries",
+        "url": "https://github.com/openclaw/openclaw/issues/81925",
+        "state": "open",
+        "author": "castigiova",
+        "updatedAt": "2026-08-10T20:01:26Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 121639,
-        "title": "improve: start fresh gateways without migration overhead",
-        "url": "https://github.com/openclaw/openclaw/pull/121639",
+        "number": 121708,
+        "title": "fix(slack): keep previously joined threads active beyond 24 hours",
+        "url": "https://github.com/openclaw/openclaw/pull/121708",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-10T19:14:34Z"
+        "author": "kevinslin",
+        "updatedAt": "2026-08-10T20:01:47Z"
       },
       {
         "kind": "pr",
-        "number": 121666,
-        "title": "fix: replacement sessions keep their managed worktrees",
-        "url": "https://github.com/openclaw/openclaw/pull/121666",
+        "number": 115104,
+        "title": "fix: finish completed tool work after empty final responses",
+        "url": "https://github.com/openclaw/openclaw/pull/115104",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-10T19:14:15Z"
+        "updatedAt": "2026-08-10T20:01:47Z"
       },
       {
         "kind": "pr",
-        "number": 121536,
-        "title": "refactor(sessions): drop the Sqlite infix from session-accessor exports",
-        "url": "https://github.com/openclaw/openclaw/pull/121536",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-10T19:13:03Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121657,
-        "title": "fix(agents): repair failover retry accounting ownership",
-        "url": "https://github.com/openclaw/openclaw/pull/121657",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-10T19:12:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121706,
-        "title": "refactor(gateway): split request context ownership facets",
-        "url": "https://github.com/openclaw/openclaw/pull/121706",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-10T19:12:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121705,
-        "title": "fix(ui): align agent switcher rows on one leading column",
-        "url": "https://github.com/openclaw/openclaw/pull/121705",
+        "number": 121692,
+        "title": "feat(ui): edit a queued chat message in place",
+        "url": "https://github.com/openclaw/openclaw/pull/121692",
         "state": "open",
         "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-10T19:12:18Z"
+        "updatedAt": "2026-08-10T20:01:44Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121625,
+        "title": "improve(ui): make warm session switching instant",
+        "url": "https://github.com/openclaw/openclaw/pull/121625",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-10T20:01:42Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119326,
+        "title": "fix(agents): honor account-scoped history limits instead of silently ignoring them",
+        "url": "https://github.com/openclaw/openclaw/pull/119326",
+        "state": "open",
+        "author": "ayaangazali",
+        "updatedAt": "2026-08-10T20:01:42Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121637,
+        "title": "fix(ui): prevent terminal garble after Gateway reconnect",
+        "url": "https://github.com/openclaw/openclaw/pull/121637",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-10T20:01:41Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-10T06:21:35.682Z",
+  "generatedAt": "2026-08-10T08:50:19.198Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -411,17 +411,17 @@
     },
     {
       "capturedOn": "2026-08-10",
-      "capturedAt": "2026-08-10T06:21:35.682Z",
-      "issueOpen": 3461,
-      "issueClosed": 43035,
-      "prOpen": 2191,
-      "prClosed": 70306,
-      "prMerged": 23505,
+      "capturedAt": "2026-08-10T08:50:19.198Z",
+      "issueOpen": 3469,
+      "issueClosed": 43043,
+      "prOpen": 2194,
+      "prClosed": 70352,
+      "prMerged": 23546,
       "workflowRuns": 40000,
-      "stars": 385724,
-      "forks": 81073,
-      "subscribers": 1769,
-      "commits": 77717,
+      "stars": 385739,
+      "forks": 81079,
+      "subscribers": 1768,
+      "commits": 77757,
       "contributors": 3076,
       "source": "github-actions",
       "approximateDate": false
@@ -518,69 +518,88 @@
     },
     {
       "capturedOn": "2026-08-10",
-      "stars": 385724,
-      "forks": 81073,
-      "subscribers": 1769,
-      "commits": 77717,
+      "stars": 385739,
+      "forks": 81079,
+      "subscribers": 1768,
+      "commits": 77757,
       "contributors": 3076
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 121524,
+        "title": "[Bug]: Flaky concurrent device identity creation can misread live SQLite WAL",
+        "url": "https://github.com/openclaw/openclaw/issues/121524",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-10T08:50:06Z"
+      },
+      {
+        "kind": "issue",
+        "number": 121515,
+        "title": "Host turn-candidate callback is dropped before harness dispatch, so context engines never commit a turn",
+        "url": "https://github.com/openclaw/openclaw/issues/121515",
+        "state": "open",
+        "author": "Marvinthebored",
+        "updatedAt": "2026-08-10T08:49:21Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 121400,
-        "title": "feat(control-ui): preview text attachments inline with a download action",
-        "url": "https://github.com/openclaw/openclaw/pull/121400",
+        "number": 121009,
+        "title": "fix(slack): avoid duplicate commentary while progress drafts stream",
+        "url": "https://github.com/openclaw/openclaw/pull/121009",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-10T06:21:25Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-10T08:50:16Z"
       },
       {
         "kind": "pr",
-        "number": 121457,
-        "title": "fix(agents): clean up SSH temp files when setup fails",
-        "url": "https://github.com/openclaw/openclaw/pull/121457",
+        "number": 121476,
+        "title": "feat(ui): show unsent-draft pencil on sidebar session rows",
+        "url": "https://github.com/openclaw/openclaw/pull/121476",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-10T06:21:32Z"
+        "updatedAt": "2026-08-10T08:50:11Z"
       },
       {
         "kind": "pr",
-        "number": 121249,
-        "title": "fix(ui): name new session groups in an owned dialog instead of a browser prompt",
-        "url": "https://github.com/openclaw/openclaw/pull/121249",
+        "number": 121394,
+        "title": "fix(cron): prevent invalid timestamps from stranding jobs",
+        "url": "https://github.com/openclaw/openclaw/pull/121394",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-10T06:21:21Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-10T08:50:11Z"
       },
       {
         "kind": "pr",
-        "number": 120804,
-        "title": "feat(gateway,ui): quiet Where picker, placement chip, and projects read model",
-        "url": "https://github.com/openclaw/openclaw/pull/120804",
+        "number": 94663,
+        "title": "feat(mcp): relay image and audio tool content to channels",
+        "url": "https://github.com/openclaw/openclaw/pull/94663",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-10T06:21:21Z"
+        "author": "yu-xin-c",
+        "updatedAt": "2026-08-10T08:50:09Z"
       },
       {
         "kind": "pr",
-        "number": 121439,
-        "title": "refactor(macos): remove obsolete Gateway startup probe",
-        "url": "https://github.com/openclaw/openclaw/pull/121439",
+        "number": 121510,
+        "title": "refactor(macos): consolidate gateway readiness ownership",
+        "url": "https://github.com/openclaw/openclaw/pull/121510",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-10T06:20:57Z"
+        "updatedAt": "2026-08-10T08:50:07Z"
       },
       {
         "kind": "pr",
-        "number": 121431,
-        "title": "refactor: consolidate duplicate helpers",
-        "url": "https://github.com/openclaw/openclaw/pull/121431",
+        "number": 121195,
+        "title": "fix(agents): settle yielded requester completions exactly once",
+        "url": "https://github.com/openclaw/openclaw/pull/121195",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-10T06:20:02Z"
+        "author": "BsnizND",
+        "updatedAt": "2026-08-10T08:50:01Z"
       }
     ]
   }

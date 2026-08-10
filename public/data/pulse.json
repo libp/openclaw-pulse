@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-10T20:01:52.058Z",
+  "generatedAt": "2026-08-10T21:00:39.959Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -411,17 +411,17 @@
     },
     {
       "capturedOn": "2026-08-10",
-      "capturedAt": "2026-08-10T20:01:52.058Z",
-      "issueOpen": 3485,
-      "issueClosed": 43071,
-      "prOpen": 2217,
-      "prClosed": 70475,
-      "prMerged": 23625,
+      "capturedAt": "2026-08-10T21:00:39.959Z",
+      "issueOpen": 3479,
+      "issueClosed": 43079,
+      "prOpen": 2210,
+      "prClosed": 70487,
+      "prMerged": 23636,
       "workflowRuns": 40000,
-      "stars": 385816,
+      "stars": 385817,
       "forks": 81087,
       "subscribers": 1767,
-      "commits": 77884,
+      "commits": 77897,
       "contributors": 3077,
       "source": "github-actions",
       "approximateDate": false
@@ -518,10 +518,10 @@
     },
     {
       "capturedOn": "2026-08-10",
-      "stars": 385816,
+      "stars": 385817,
       "forks": 81087,
       "subscribers": 1767,
-      "commits": 77884,
+      "commits": 77897,
       "contributors": 3077
     }
   ],
@@ -529,104 +529,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 120616,
-        "title": "[Bug]: Gemini dotted cron update fields cause repeated patch-required failures",
-        "url": "https://github.com/openclaw/openclaw/issues/120616",
+        "number": 120748,
+        "title": "[Bug]: Automation selectors display non-authoritative values",
+        "url": "https://github.com/openclaw/openclaw/issues/120748",
         "state": "open",
-        "author": "louria",
-        "updatedAt": "2026-08-10T20:01:42Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-08-10T21:00:28Z"
       },
       {
         "kind": "issue",
-        "number": 120519,
-        "title": "agent cron tool payload schema rejects kind \"command\" (only systemEvent|agentTurn) while CLI and gateway CronJob.payload support it",
-        "url": "https://github.com/openclaw/openclaw/issues/120519",
+        "number": 120745,
+        "title": "[Bug]: Embedded browser selection diverges from the displayed document",
+        "url": "https://github.com/openclaw/openclaw/issues/120745",
         "state": "open",
-        "author": "grant-kwok",
-        "updatedAt": "2026-08-10T20:01:47Z"
-      },
-      {
-        "kind": "issue",
-        "number": 120571,
-        "title": "before_tool_call { block: true } silently unenforced for Codex-native exec when appServer.approvalPolicy is \"never\" (fails open, logs claim it blocked)",
-        "url": "https://github.com/openclaw/openclaw/issues/120571",
-        "state": "open",
-        "author": "ykojima6",
-        "updatedAt": "2026-08-10T20:01:32Z"
-      },
-      {
-        "kind": "issue",
-        "number": 121704,
-        "title": "fix(ui): agent switcher rows do not share a leading column",
-        "url": "https://github.com/openclaw/openclaw/issues/121704",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-10T20:01:26Z"
-      },
-      {
-        "kind": "issue",
-        "number": 81925,
-        "title": "Compaction: `after_compaction` not emitted when `result.compacted:false`; validation: single-quote delimiter trips tool-caller retries",
-        "url": "https://github.com/openclaw/openclaw/issues/81925",
-        "state": "open",
-        "author": "castigiova",
-        "updatedAt": "2026-08-10T20:01:26Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-08-10T20:59:27Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 121708,
-        "title": "fix(slack): keep previously joined threads active beyond 24 hours",
-        "url": "https://github.com/openclaw/openclaw/pull/121708",
+        "number": 121129,
+        "title": "fix(ui): prevent failed plugin icons from retaining connections",
+        "url": "https://github.com/openclaw/openclaw/pull/121129",
         "state": "open",
-        "author": "kevinslin",
-        "updatedAt": "2026-08-10T20:01:47Z"
+        "author": "Alix-007",
+        "updatedAt": "2026-08-10T21:00:32Z"
       },
       {
         "kind": "pr",
-        "number": 115104,
-        "title": "fix: finish completed tool work after empty final responses",
-        "url": "https://github.com/openclaw/openclaw/pull/115104",
+        "number": 120534,
+        "title": "refactor(audit): add canonical admitted-run context",
+        "url": "https://github.com/openclaw/openclaw/pull/120534",
+        "state": "open",
+        "author": "joshavant",
+        "updatedAt": "2026-08-10T21:00:30Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121676,
+        "title": "fix(media): accept canonical file URL forms",
+        "url": "https://github.com/openclaw/openclaw/pull/121676",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-10T20:01:47Z"
+        "updatedAt": "2026-08-10T21:00:35Z"
       },
       {
         "kind": "pr",
-        "number": 121692,
-        "title": "feat(ui): edit a queued chat message in place",
-        "url": "https://github.com/openclaw/openclaw/pull/121692",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-10T20:01:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121625,
-        "title": "improve(ui): make warm session switching instant",
-        "url": "https://github.com/openclaw/openclaw/pull/121625",
+        "number": 121669,
+        "title": "fix(ci): release workflow checks fail on macOS Bash 3.2",
+        "url": "https://github.com/openclaw/openclaw/pull/121669",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-10T20:01:42Z"
+        "updatedAt": "2026-08-10T21:00:26Z"
       },
       {
         "kind": "pr",
-        "number": 119326,
-        "title": "fix(agents): honor account-scoped history limits instead of silently ignoring them",
-        "url": "https://github.com/openclaw/openclaw/pull/119326",
-        "state": "open",
-        "author": "ayaangazali",
-        "updatedAt": "2026-08-10T20:01:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121637,
-        "title": "fix(ui): prevent terminal garble after Gateway reconnect",
-        "url": "https://github.com/openclaw/openclaw/pull/121637",
+        "number": 121553,
+        "title": "refactor(agents): move announce, completion, recovery, and registry families into concept directories",
+        "url": "https://github.com/openclaw/openclaw/pull/121553",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-10T20:01:41Z"
+        "updatedAt": "2026-08-10T21:00:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121536,
+        "title": "refactor(sessions): drop the Sqlite infix from session-accessor exports",
+        "url": "https://github.com/openclaw/openclaw/pull/121536",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-10T21:00:23Z"
       }
     ]
   }

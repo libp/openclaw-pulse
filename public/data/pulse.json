@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-10T18:02:01.678Z",
+  "generatedAt": "2026-08-10T19:14:50.559Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -411,17 +411,17 @@
     },
     {
       "capturedOn": "2026-08-10",
-      "capturedAt": "2026-08-10T18:02:01.678Z",
+      "capturedAt": "2026-08-10T19:14:50.559Z",
       "issueOpen": 3482,
-      "issueClosed": 43066,
-      "prOpen": 2217,
-      "prClosed": 70453,
-      "prMerged": 23618,
+      "issueClosed": 43069,
+      "prOpen": 2223,
+      "prClosed": 70463,
+      "prMerged": 23619,
       "workflowRuns": 40000,
-      "stars": 385804,
-      "forks": 81086,
-      "subscribers": 1767,
-      "commits": 77871,
+      "stars": 385813,
+      "forks": 81087,
+      "subscribers": 1768,
+      "commits": 77876,
       "contributors": 3077,
       "source": "github-actions",
       "approximateDate": false
@@ -518,69 +518,88 @@
     },
     {
       "capturedOn": "2026-08-10",
-      "stars": 385804,
-      "forks": 81086,
-      "subscribers": 1767,
-      "commits": 77871,
+      "stars": 385813,
+      "forks": 81087,
+      "subscribers": 1768,
+      "commits": 77876,
       "contributors": 3077
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 116242,
+        "title": "[Bug]: Codex supervision redaction only covers 4 token-prefix classes; Google/AWS/JWT/GitHub-finegrained credentials leak to the runtime",
+        "url": "https://github.com/openclaw/openclaw/issues/116242",
+        "state": "open",
+        "author": "miorbnli",
+        "updatedAt": "2026-08-10T19:12:43Z"
+      },
+      {
+        "kind": "issue",
+        "number": 121704,
+        "title": "fix(ui): agent switcher rows do not share a leading column",
+        "url": "https://github.com/openclaw/openclaw/issues/121704",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-10T19:11:27Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 94322,
-        "title": "feat(plugins): expose resolved agentId on plugin command context",
-        "url": "https://github.com/openclaw/openclaw/pull/94322",
-        "state": "open",
-        "author": "hcnode",
-        "updatedAt": "2026-08-10T18:01:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113032,
-        "title": "fix(browser-extension): answer popup/side-panel messages even when the handler throws",
-        "url": "https://github.com/openclaw/openclaw/pull/113032",
-        "state": "open",
-        "author": "anagnorisis2peripeteia",
-        "updatedAt": "2026-08-10T18:01:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121553,
-        "title": "refactor(agents): move announce, completion, recovery, and registry families into concept directories",
-        "url": "https://github.com/openclaw/openclaw/pull/121553",
+        "number": 121639,
+        "title": "improve: start fresh gateways without migration overhead",
+        "url": "https://github.com/openclaw/openclaw/pull/121639",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-10T18:01:36Z"
+        "updatedAt": "2026-08-10T19:14:34Z"
       },
       {
         "kind": "pr",
-        "number": 121283,
-        "title": "fix: prompt caching breaks on Claude Opus 5 and Sonnet 5",
-        "url": "https://github.com/openclaw/openclaw/pull/121283",
+        "number": 121666,
+        "title": "fix: replacement sessions keep their managed worktrees",
+        "url": "https://github.com/openclaw/openclaw/pull/121666",
         "state": "open",
-        "author": "Chinmayrawat15",
-        "updatedAt": "2026-08-10T18:01:31Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-10T19:14:15Z"
       },
       {
         "kind": "pr",
-        "number": 110450,
-        "title": "fix(memory-core): bound dreaming markdown reads",
-        "url": "https://github.com/openclaw/openclaw/pull/110450",
+        "number": 121536,
+        "title": "refactor(sessions): drop the Sqlite infix from session-accessor exports",
+        "url": "https://github.com/openclaw/openclaw/pull/121536",
         "state": "open",
-        "author": "RileyJJY",
-        "updatedAt": "2026-08-10T18:01:31Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-10T19:13:03Z"
       },
       {
         "kind": "pr",
-        "number": 112945,
-        "title": "feat(media): polish voice transcript echo for review UX",
-        "url": "https://github.com/openclaw/openclaw/pull/112945",
+        "number": 121657,
+        "title": "fix(agents): repair failover retry accounting ownership",
+        "url": "https://github.com/openclaw/openclaw/pull/121657",
         "state": "open",
-        "author": "Bartok9",
-        "updatedAt": "2026-08-10T18:01:07Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-10T19:12:42Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121706,
+        "title": "refactor(gateway): split request context ownership facets",
+        "url": "https://github.com/openclaw/openclaw/pull/121706",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-10T19:12:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121705,
+        "title": "fix(ui): align agent switcher rows on one leading column",
+        "url": "https://github.com/openclaw/openclaw/pull/121705",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-10T19:12:18Z"
       }
     ]
   }

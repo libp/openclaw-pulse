@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-10T21:00:39.959Z",
+  "generatedAt": "2026-08-10T21:56:23.009Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -411,17 +411,17 @@
     },
     {
       "capturedOn": "2026-08-10",
-      "capturedAt": "2026-08-10T21:00:39.959Z",
-      "issueOpen": 3479,
-      "issueClosed": 43079,
-      "prOpen": 2210,
-      "prClosed": 70487,
-      "prMerged": 23636,
+      "capturedAt": "2026-08-10T21:56:23.009Z",
+      "issueOpen": 3481,
+      "issueClosed": 43082,
+      "prOpen": 2225,
+      "prClosed": 70491,
+      "prMerged": 23639,
       "workflowRuns": 40000,
-      "stars": 385817,
-      "forks": 81087,
+      "stars": 385821,
+      "forks": 81088,
       "subscribers": 1767,
-      "commits": 77897,
+      "commits": 77904,
       "contributors": 3077,
       "source": "github-actions",
       "approximateDate": false
@@ -518,10 +518,10 @@
     },
     {
       "capturedOn": "2026-08-10",
-      "stars": 385817,
-      "forks": 81087,
+      "stars": 385821,
+      "forks": 81088,
       "subscribers": 1767,
-      "commits": 77897,
+      "commits": 77904,
       "contributors": 3077
     }
   ],
@@ -529,41 +529,50 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 120748,
-        "title": "[Bug]: Automation selectors display non-authoritative values",
-        "url": "https://github.com/openclaw/openclaw/issues/120748",
+        "number": 98921,
+        "title": "[Feature]: Or bug? Problems with opencode",
+        "url": "https://github.com/openclaw/openclaw/issues/98921",
         "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-08-10T21:00:28Z"
+        "author": "bilogic",
+        "updatedAt": "2026-08-10T21:55:40Z"
       },
       {
         "kind": "issue",
-        "number": 120745,
-        "title": "[Bug]: Embedded browser selection diverges from the displayed document",
-        "url": "https://github.com/openclaw/openclaw/issues/120745",
+        "number": 84032,
+        "title": "Model picker should distinguish GPT provider/auth route from agent runtime",
+        "url": "https://github.com/openclaw/openclaw/issues/84032",
         "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-08-10T20:59:27Z"
+        "author": "ygc3817922006-sketch",
+        "updatedAt": "2026-08-10T21:55:30Z"
+      },
+      {
+        "kind": "issue",
+        "number": 98300,
+        "title": "Feature request: deferred/tiered registration for model-facing tools (name+description always-on, schema loaded on demand)",
+        "url": "https://github.com/openclaw/openclaw/issues/98300",
+        "state": "open",
+        "author": "cjalden",
+        "updatedAt": "2026-08-10T21:54:51Z"
+      },
+      {
+        "kind": "issue",
+        "number": 121744,
+        "title": "[Bug]: dashboard chat ui fixed main session can't be cleared or deleted",
+        "url": "https://github.com/openclaw/openclaw/issues/121744",
+        "state": "closed",
+        "author": "n0xena",
+        "updatedAt": "2026-08-10T21:54:50Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 121129,
-        "title": "fix(ui): prevent failed plugin icons from retaining connections",
-        "url": "https://github.com/openclaw/openclaw/pull/121129",
+        "number": 117287,
+        "title": "fix(channels): feishu and mattermost reject the contextVisibility key their runtime reads",
+        "url": "https://github.com/openclaw/openclaw/pull/117287",
         "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-08-10T21:00:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120534,
-        "title": "refactor(audit): add canonical admitted-run context",
-        "url": "https://github.com/openclaw/openclaw/pull/120534",
-        "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-08-10T21:00:30Z"
+        "author": "ayaangazali",
+        "updatedAt": "2026-08-10T21:56:17Z"
       },
       {
         "kind": "pr",
@@ -572,34 +581,43 @@
         "url": "https://github.com/openclaw/openclaw/pull/121676",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-10T21:00:35Z"
+        "updatedAt": "2026-08-10T21:56:15Z"
       },
       {
         "kind": "pr",
-        "number": 121669,
-        "title": "fix(ci): release workflow checks fail on macOS Bash 3.2",
-        "url": "https://github.com/openclaw/openclaw/pull/121669",
+        "number": 121735,
+        "title": "fix: prevent database verifier process CI hangs",
+        "url": "https://github.com/openclaw/openclaw/pull/121735",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-10T21:00:26Z"
+        "updatedAt": "2026-08-10T21:56:11Z"
       },
       {
         "kind": "pr",
-        "number": 121553,
-        "title": "refactor(agents): move announce, completion, recovery, and registry families into concept directories",
-        "url": "https://github.com/openclaw/openclaw/pull/121553",
+        "number": 120652,
+        "title": "fix: suppress fast-auto status updates when progress is hidden",
+        "url": "https://github.com/openclaw/openclaw/pull/120652",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-10T21:00:25Z"
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-08-10T21:56:08Z"
       },
       {
         "kind": "pr",
-        "number": 121536,
-        "title": "refactor(sessions): drop the Sqlite infix from session-accessor exports",
-        "url": "https://github.com/openclaw/openclaw/pull/121536",
+        "number": 121745,
+        "title": "test(bench): trim shared helper duplicates",
+        "url": "https://github.com/openclaw/openclaw/pull/121745",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-10T21:00:23Z"
+        "updatedAt": "2026-08-10T21:56:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121475,
+        "title": "feat(cloud-workers): add desktop apps and browser autonomy",
+        "url": "https://github.com/openclaw/openclaw/pull/121475",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-10T21:56:19Z"
       }
     ]
   }

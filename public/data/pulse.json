@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-10T13:41:42.358Z",
+  "generatedAt": "2026-08-10T18:02:01.678Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -411,18 +411,18 @@
     },
     {
       "capturedOn": "2026-08-10",
-      "capturedAt": "2026-08-10T13:41:42.358Z",
-      "issueOpen": 3472,
-      "issueClosed": 43053,
-      "prOpen": 2199,
-      "prClosed": 70411,
-      "prMerged": 23591,
+      "capturedAt": "2026-08-10T18:02:01.678Z",
+      "issueOpen": 3482,
+      "issueClosed": 43066,
+      "prOpen": 2217,
+      "prClosed": 70453,
+      "prMerged": 23618,
       "workflowRuns": 40000,
-      "stars": 385762,
-      "forks": 81075,
+      "stars": 385804,
+      "forks": 81086,
       "subscribers": 1767,
-      "commits": 77827,
-      "contributors": 3076,
+      "commits": 77871,
+      "contributors": 3077,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -518,79 +518,69 @@
     },
     {
       "capturedOn": "2026-08-10",
-      "stars": 385762,
-      "forks": 81075,
+      "stars": 385804,
+      "forks": 81086,
       "subscribers": 1767,
-      "commits": 77827,
-      "contributors": 3076
+      "commits": 77871,
+      "contributors": 3077
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 119715,
-        "title": "Provider idle timeout sends duplicate final error messages",
-        "url": "https://github.com/openclaw/openclaw/issues/119715",
-        "state": "open",
-        "author": "woodym-dotcom",
-        "updatedAt": "2026-08-10T13:41:20Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 121526,
-        "title": "fix(state): serialize ownership during database bootstrap",
-        "url": "https://github.com/openclaw/openclaw/pull/121526",
+        "number": 94322,
+        "title": "feat(plugins): expose resolved agentId on plugin command context",
+        "url": "https://github.com/openclaw/openclaw/pull/94322",
+        "state": "open",
+        "author": "hcnode",
+        "updatedAt": "2026-08-10T18:01:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113032,
+        "title": "fix(browser-extension): answer popup/side-panel messages even when the handler throws",
+        "url": "https://github.com/openclaw/openclaw/pull/113032",
+        "state": "open",
+        "author": "anagnorisis2peripeteia",
+        "updatedAt": "2026-08-10T18:01:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121553,
+        "title": "refactor(agents): move announce, completion, recovery, and registry families into concept directories",
+        "url": "https://github.com/openclaw/openclaw/pull/121553",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-10T13:41:28Z"
+        "updatedAt": "2026-08-10T18:01:36Z"
       },
       {
         "kind": "pr",
-        "number": 118553,
-        "title": "fix(gateway): send Content-Length on MCP App sandbox HEAD responses",
-        "url": "https://github.com/openclaw/openclaw/pull/118553",
+        "number": 121283,
+        "title": "fix: prompt caching breaks on Claude Opus 5 and Sonnet 5",
+        "url": "https://github.com/openclaw/openclaw/pull/121283",
         "state": "open",
-        "author": "zenglingbiao",
-        "updatedAt": "2026-08-10T13:41:22Z"
+        "author": "Chinmayrawat15",
+        "updatedAt": "2026-08-10T18:01:31Z"
       },
       {
         "kind": "pr",
-        "number": 89040,
-        "title": "perf: avoid event-loop stall during embedded_run bootstrap-context",
-        "url": "https://github.com/openclaw/openclaw/pull/89040",
+        "number": 110450,
+        "title": "fix(memory-core): bound dreaming markdown reads",
+        "url": "https://github.com/openclaw/openclaw/pull/110450",
         "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-08-10T13:41:15Z"
+        "author": "RileyJJY",
+        "updatedAt": "2026-08-10T18:01:31Z"
       },
       {
         "kind": "pr",
-        "number": 121575,
-        "title": "fix(models): use canonical auth for generated catalogs",
-        "url": "https://github.com/openclaw/openclaw/pull/121575",
+        "number": 112945,
+        "title": "feat(media): polish voice transcript echo for review UX",
+        "url": "https://github.com/openclaw/openclaw/pull/112945",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-10T13:41:11Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121137,
-        "title": "fix(cron): keep overview refreshes generation-consistent",
-        "url": "https://github.com/openclaw/openclaw/pull/121137",
-        "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-08-10T13:40:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 109203,
-        "title": "feat(ag-ui): AG-UI channel",
-        "url": "https://github.com/openclaw/openclaw/pull/109203",
-        "state": "open",
-        "author": "mme",
-        "updatedAt": "2026-08-10T13:40:35Z"
+        "author": "Bartok9",
+        "updatedAt": "2026-08-10T18:01:07Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-10T02:32:39.247Z",
+  "generatedAt": "2026-08-10T06:21:35.682Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -411,17 +411,17 @@
     },
     {
       "capturedOn": "2026-08-10",
-      "capturedAt": "2026-08-10T02:32:39.247Z",
-      "issueOpen": 3457,
-      "issueClosed": 43015,
-      "prOpen": 2195,
-      "prClosed": 70225,
-      "prMerged": 23440,
+      "capturedAt": "2026-08-10T06:21:35.682Z",
+      "issueOpen": 3461,
+      "issueClosed": 43035,
+      "prOpen": 2191,
+      "prClosed": 70306,
+      "prMerged": 23505,
       "workflowRuns": 40000,
-      "stars": 385706,
-      "forks": 81069,
-      "subscribers": 1766,
-      "commits": 77655,
+      "stars": 385724,
+      "forks": 81073,
+      "subscribers": 1769,
+      "commits": 77717,
       "contributors": 3076,
       "source": "github-actions",
       "approximateDate": false
@@ -518,10 +518,10 @@
     },
     {
       "capturedOn": "2026-08-10",
-      "stars": 385706,
-      "forks": 81069,
-      "subscribers": 1766,
-      "commits": 77655,
+      "stars": 385724,
+      "forks": 81073,
+      "subscribers": 1769,
+      "commits": 77717,
       "contributors": 3076
     }
   ],
@@ -530,57 +530,57 @@
     "prs": [
       {
         "kind": "pr",
-        "number": 113673,
-        "title": "feat(workboard): clarify proof provenance and diagnostics",
-        "url": "https://github.com/openclaw/openclaw/pull/113673",
-        "state": "open",
-        "author": "fr-meyer",
-        "updatedAt": "2026-08-10T02:32:08Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119525,
-        "title": "fix(memory): allow retry after search timeout",
-        "url": "https://github.com/openclaw/openclaw/pull/119525",
-        "state": "open",
-        "author": "momothemage",
-        "updatedAt": "2026-08-10T02:32:07Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120864,
-        "title": "feat(slack): enable Enterprise Grid identity, DMs, routing, actions, approvals, and presence",
-        "url": "https://github.com/openclaw/openclaw/pull/120864",
-        "state": "open",
-        "author": "sjf-oa",
-        "updatedAt": "2026-08-10T02:31:53Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121357,
-        "title": "feat(slack): add workspace routing for Enterprise Grid actions and events",
-        "url": "https://github.com/openclaw/openclaw/pull/121357",
-        "state": "open",
-        "author": "sjf-oa",
-        "updatedAt": "2026-08-10T02:31:46Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121356,
-        "title": "fix(test): restore root-matrix unit-fast cleanup",
-        "url": "https://github.com/openclaw/openclaw/pull/121356",
+        "number": 121400,
+        "title": "feat(control-ui): preview text attachments inline with a download action",
+        "url": "https://github.com/openclaw/openclaw/pull/121400",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-10T02:31:44Z"
+        "updatedAt": "2026-08-10T06:21:25Z"
       },
       {
         "kind": "pr",
-        "number": 121197,
-        "title": "refactor(slack): detect Enterprise Grid installs at runtime",
-        "url": "https://github.com/openclaw/openclaw/pull/121197",
+        "number": 121457,
+        "title": "fix(agents): clean up SSH temp files when setup fails",
+        "url": "https://github.com/openclaw/openclaw/pull/121457",
         "state": "open",
-        "author": "sjf-oa",
-        "updatedAt": "2026-08-10T02:31:29Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-10T06:21:32Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121249,
+        "title": "fix(ui): name new session groups in an owned dialog instead of a browser prompt",
+        "url": "https://github.com/openclaw/openclaw/pull/121249",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-10T06:21:21Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120804,
+        "title": "feat(gateway,ui): quiet Where picker, placement chip, and projects read model",
+        "url": "https://github.com/openclaw/openclaw/pull/120804",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-10T06:21:21Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121439,
+        "title": "refactor(macos): remove obsolete Gateway startup probe",
+        "url": "https://github.com/openclaw/openclaw/pull/121439",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-10T06:20:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121431,
+        "title": "refactor: consolidate duplicate helpers",
+        "url": "https://github.com/openclaw/openclaw/pull/121431",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-10T06:20:02Z"
       }
     ]
   }

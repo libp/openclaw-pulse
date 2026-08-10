@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-10T11:57:37.452Z",
+  "generatedAt": "2026-08-10T13:41:42.358Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -411,17 +411,17 @@
     },
     {
       "capturedOn": "2026-08-10",
-      "capturedAt": "2026-08-10T11:57:37.452Z",
-      "issueOpen": 3469,
-      "issueClosed": 43051,
-      "prOpen": 2191,
-      "prClosed": 70400,
-      "prMerged": 23587,
+      "capturedAt": "2026-08-10T13:41:42.358Z",
+      "issueOpen": 3472,
+      "issueClosed": 43053,
+      "prOpen": 2199,
+      "prClosed": 70411,
+      "prMerged": 23591,
       "workflowRuns": 40000,
-      "stars": 385754,
-      "forks": 81078,
+      "stars": 385762,
+      "forks": 81075,
       "subscribers": 1767,
-      "commits": 77822,
+      "commits": 77827,
       "contributors": 3076,
       "source": "github-actions",
       "approximateDate": false
@@ -518,10 +518,10 @@
     },
     {
       "capturedOn": "2026-08-10",
-      "stars": 385754,
-      "forks": 81078,
+      "stars": 385762,
+      "forks": 81075,
       "subscribers": 1767,
-      "commits": 77822,
+      "commits": 77827,
       "contributors": 3076
     }
   ],
@@ -529,113 +529,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 100892,
-        "title": "[Feature]: Allow restoring rejected skill workshop proposals back to pending",
-        "url": "https://github.com/openclaw/openclaw/issues/100892",
+        "number": 119715,
+        "title": "Provider idle timeout sends duplicate final error messages",
+        "url": "https://github.com/openclaw/openclaw/issues/119715",
         "state": "open",
-        "author": "xianshishan",
-        "updatedAt": "2026-08-10T11:57:27Z"
-      },
-      {
-        "kind": "issue",
-        "number": 102260,
-        "title": "Interactive parity with the Codex runtime: ask-user-question · plan mode · goal mode — the roadmap",
-        "url": "https://github.com/openclaw/openclaw/issues/102260",
-        "state": "open",
-        "author": "100yenadmin",
-        "updatedAt": "2026-08-10T11:57:26Z"
-      },
-      {
-        "kind": "issue",
-        "number": 81099,
-        "title": "[Bug]: claude-cli backend: AskUserQuestion tool call renders input but no picker UI / never returns a result",
-        "url": "https://github.com/openclaw/openclaw/issues/81099",
-        "state": "open",
-        "author": "cuuush",
-        "updatedAt": "2026-08-10T11:57:24Z"
-      },
-      {
-        "kind": "issue",
-        "number": 102279,
-        "title": "telegram: isolated-ingress handler-timeout dead-letters a user message silently (no reply, no replay, nothing surfaced)",
-        "url": "https://github.com/openclaw/openclaw/issues/102279",
-        "state": "open",
-        "author": "amittell",
-        "updatedAt": "2026-08-10T11:57:13Z"
-      },
-      {
-        "kind": "issue",
-        "number": 81925,
-        "title": "Compaction: `after_compaction` not emitted when `result.compacted:false`; validation: single-quote delimiter trips tool-caller retries",
-        "url": "https://github.com/openclaw/openclaw/issues/81925",
-        "state": "open",
-        "author": "castigiova",
-        "updatedAt": "2026-08-10T11:57:12Z"
-      },
-      {
-        "kind": "issue",
-        "number": 84134,
-        "title": "[Bug]: Feishu channel: message tool triggers \"missing tool result in session history\" in v2026.5.16+",
-        "url": "https://github.com/openclaw/openclaw/issues/84134",
-        "state": "open",
-        "author": "avatasia",
-        "updatedAt": "2026-08-10T11:56:56Z"
+        "author": "woodym-dotcom",
+        "updatedAt": "2026-08-10T13:41:20Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 104569,
-        "title": "fix(ui): explain replace-mode filtering in model picker",
-        "url": "https://github.com/openclaw/openclaw/pull/104569",
+        "number": 121526,
+        "title": "fix(state): serialize ownership during database bootstrap",
+        "url": "https://github.com/openclaw/openclaw/pull/121526",
         "state": "open",
-        "author": "samrusani",
-        "updatedAt": "2026-08-10T11:57:31Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-10T13:41:28Z"
       },
       {
         "kind": "pr",
-        "number": 104820,
-        "title": "fix(searxng): honor env SecretRef provider policy",
-        "url": "https://github.com/openclaw/openclaw/pull/104820",
+        "number": 118553,
+        "title": "fix(gateway): send Content-Length on MCP App sandbox HEAD responses",
+        "url": "https://github.com/openclaw/openclaw/pull/118553",
         "state": "open",
-        "author": "Leon-SK668",
-        "updatedAt": "2026-08-10T11:57:29Z"
+        "author": "zenglingbiao",
+        "updatedAt": "2026-08-10T13:41:22Z"
       },
       {
         "kind": "pr",
-        "number": 120860,
-        "title": "fix(message): describe channel provider parameter",
-        "url": "https://github.com/openclaw/openclaw/pull/120860",
+        "number": 89040,
+        "title": "perf: avoid event-loop stall during embedded_run bootstrap-context",
+        "url": "https://github.com/openclaw/openclaw/pull/89040",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-08-10T11:57:26Z"
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-08-10T13:41:15Z"
       },
       {
         "kind": "pr",
-        "number": 120606,
-        "title": "[Bug]: agent.wait can return error before the same run later ends successfully",
-        "url": "https://github.com/openclaw/openclaw/pull/120606",
+        "number": 121575,
+        "title": "fix(models): use canonical auth for generated catalogs",
+        "url": "https://github.com/openclaw/openclaw/pull/121575",
         "state": "open",
-        "author": "RileyJJY",
-        "updatedAt": "2026-08-10T11:57:23Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-10T13:41:11Z"
       },
       {
         "kind": "pr",
-        "number": 112966,
-        "title": "fix(ai): honor Responses reasoning effort maps",
-        "url": "https://github.com/openclaw/openclaw/pull/112966",
+        "number": 121137,
+        "title": "fix(cron): keep overview refreshes generation-consistent",
+        "url": "https://github.com/openclaw/openclaw/pull/121137",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-08-10T11:57:23Z"
+        "author": "Alix-007",
+        "updatedAt": "2026-08-10T13:40:40Z"
       },
       {
         "kind": "pr",
-        "number": 121009,
-        "title": "fix(channels): route commentary through one progress owner",
-        "url": "https://github.com/openclaw/openclaw/pull/121009",
+        "number": 109203,
+        "title": "feat(ag-ui): AG-UI channel",
+        "url": "https://github.com/openclaw/openclaw/pull/109203",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-10T11:57:22Z"
+        "author": "mme",
+        "updatedAt": "2026-08-10T13:40:35Z"
       }
     ]
   }

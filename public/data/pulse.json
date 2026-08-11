@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-11T19:18:22.579Z",
+  "generatedAt": "2026-08-11T21:02:26.312Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -428,17 +428,17 @@
     },
     {
       "capturedOn": "2026-08-11",
-      "capturedAt": "2026-08-11T19:18:22.579Z",
-      "issueOpen": 3475,
-      "issueClosed": 43199,
-      "prOpen": 2153,
-      "prClosed": 70925,
-      "prMerged": 23971,
+      "capturedAt": "2026-08-11T21:02:26.312Z",
+      "issueOpen": 3480,
+      "issueClosed": 43206,
+      "prOpen": 2143,
+      "prClosed": 70958,
+      "prMerged": 23998,
       "workflowRuns": 40000,
       "stars": 385950,
-      "forks": 81113,
+      "forks": 81116,
       "subscribers": 1769,
-      "commits": 78291,
+      "commits": 78318,
       "contributors": 3081,
       "source": "github-actions",
       "approximateDate": false
@@ -544,9 +544,9 @@
     {
       "capturedOn": "2026-08-11",
       "stars": 385950,
-      "forks": 81113,
+      "forks": 81116,
       "subscribers": 1769,
-      "commits": 78291,
+      "commits": 78318,
       "contributors": 3081
     }
   ],
@@ -554,77 +554,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 122225,
-        "title": "[Bug]: Control UI slash-command menu overuses accent color",
-        "url": "https://github.com/openclaw/openclaw/issues/122225",
+        "number": 105203,
+        "title": "[Enhancement]: Dynamically cap metadata lengths in agent steering queue",
+        "url": "https://github.com/openclaw/openclaw/issues/105203",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-11T19:17:52Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-08-11T21:02:21Z"
       },
       {
         "kind": "issue",
-        "number": 122224,
-        "title": "Ollama tool calls never execute — model returns valid tool_calls but OpenClaw stores it as plain text (repro on 2026.7.1-2)",
-        "url": "https://github.com/openclaw/openclaw/issues/122224",
+        "number": 108555,
+        "title": "Subagent runtime: exec-tool stalls inside subagent sessions while write-tool and LLM traffic continue to function",
+        "url": "https://github.com/openclaw/openclaw/issues/108555",
         "state": "open",
-        "author": "gabrielcolceriu",
-        "updatedAt": "2026-08-11T19:17:23Z"
+        "author": "grevock68",
+        "updatedAt": "2026-08-11T21:02:04Z"
+      },
+      {
+        "kind": "issue",
+        "number": 91774,
+        "title": "[Bug]: Codex native exec does not honor OpenClaw notifyOnExit/notifyOnExitEmptySuccess completion wake semantics",
+        "url": "https://github.com/openclaw/openclaw/issues/91774",
+        "state": "open",
+        "author": "Lapot300",
+        "updatedAt": "2026-08-11T21:01:58Z"
+      },
+      {
+        "kind": "issue",
+        "number": 97616,
+        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
+        "url": "https://github.com/openclaw/openclaw/issues/97616",
+        "state": "open",
+        "author": "avp717",
+        "updatedAt": "2026-08-11T21:01:52Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 120332,
-        "title": "fix(config): config validate rejects a replacement plugin's own channel config keys [AI]",
-        "url": "https://github.com/openclaw/openclaw/pull/120332",
+        "number": 108462,
+        "title": "fix(ai): recover stale Responses reasoning replay in streamSimple",
+        "url": "https://github.com/openclaw/openclaw/pull/108462",
         "state": "open",
-        "author": "marmar9615-cloud",
-        "updatedAt": "2026-08-11T19:18:16Z"
+        "author": "fanyangCS",
+        "updatedAt": "2026-08-11T21:02:19Z"
       },
       {
         "kind": "pr",
-        "number": 122009,
-        "title": "fix(channels): preserve failed agent run reactions",
-        "url": "https://github.com/openclaw/openclaw/pull/122009",
+        "number": 93207,
+        "title": "fix(cron): suppress unavailable-tool self-debug replies",
+        "url": "https://github.com/openclaw/openclaw/pull/93207",
+        "state": "open",
+        "author": "amknight",
+        "updatedAt": "2026-08-11T21:02:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 90836,
+        "title": "fix(cron): block self-narrating auto-announce replies",
+        "url": "https://github.com/openclaw/openclaw/pull/90836",
+        "state": "open",
+        "author": "jsasson",
+        "updatedAt": "2026-08-11T21:02:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120804,
+        "title": "feat(gateway,ui): quiet Where picker, placement chip, and projects read model",
+        "url": "https://github.com/openclaw/openclaw/pull/120804",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-11T19:18:08Z"
+        "updatedAt": "2026-08-11T21:02:17Z"
       },
       {
         "kind": "pr",
-        "number": 122036,
-        "title": "fix(agents): replace stale timeout payloads precisely",
-        "url": "https://github.com/openclaw/openclaw/pull/122036",
+        "number": 120491,
+        "title": "feat(tools): per-turn per-target send budget guard for message tools",
+        "url": "https://github.com/openclaw/openclaw/pull/120491",
         "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-08-11T19:17:48Z"
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-08-11T21:02:15Z"
       },
       {
         "kind": "pr",
-        "number": 107295,
-        "title": "refactor(qqbot): install plugin from Tencent package",
-        "url": "https://github.com/openclaw/openclaw/pull/107295",
+        "number": 110294,
+        "title": "fix(ci): bound docs-sync publish repo git fetch with timeout",
+        "url": "https://github.com/openclaw/openclaw/pull/110294",
         "state": "open",
-        "author": "sliverp",
-        "updatedAt": "2026-08-11T19:17:39Z"
-      },
-      {
-        "kind": "pr",
-        "number": 122074,
-        "title": "feat(google): add current-turn native video input",
-        "url": "https://github.com/openclaw/openclaw/pull/122074",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-11T19:17:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120794,
-        "title": "fix(prompt): unbounded channel context arrays and objects flood the model prompt",
-        "url": "https://github.com/openclaw/openclaw/pull/120794",
-        "state": "open",
-        "author": "pacocartones",
-        "updatedAt": "2026-08-11T19:16:58Z"
+        "author": "chengzhichao-xydt",
+        "updatedAt": "2026-08-11T21:02:21Z"
       }
     ]
   }

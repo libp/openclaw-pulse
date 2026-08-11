@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-11T21:02:26.312Z",
+  "generatedAt": "2026-08-11T22:02:59.537Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -428,18 +428,18 @@
     },
     {
       "capturedOn": "2026-08-11",
-      "capturedAt": "2026-08-11T21:02:26.312Z",
-      "issueOpen": 3480,
-      "issueClosed": 43206,
-      "prOpen": 2143,
-      "prClosed": 70958,
-      "prMerged": 23998,
+      "capturedAt": "2026-08-11T22:02:59.537Z",
+      "issueOpen": 3492,
+      "issueClosed": 43213,
+      "prOpen": 2157,
+      "prClosed": 70968,
+      "prMerged": 24007,
       "workflowRuns": 40000,
-      "stars": 385950,
-      "forks": 81116,
-      "subscribers": 1769,
-      "commits": 78318,
-      "contributors": 3081,
+      "stars": 385951,
+      "forks": 81120,
+      "subscribers": 1768,
+      "commits": 78327,
+      "contributors": 3082,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -543,106 +543,106 @@
     },
     {
       "capturedOn": "2026-08-11",
-      "stars": 385950,
-      "forks": 81116,
-      "subscribers": 1769,
-      "commits": 78318,
-      "contributors": 3081
+      "stars": 385951,
+      "forks": 81120,
+      "subscribers": 1768,
+      "commits": 78327,
+      "contributors": 3082
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 105203,
-        "title": "[Enhancement]: Dynamically cap metadata lengths in agent steering queue",
-        "url": "https://github.com/openclaw/openclaw/issues/105203",
+        "number": 95788,
+        "title": "[Bug]: OpenAI Responses server compaction config is read but not emitted on chatgpt-responses request path",
+        "url": "https://github.com/openclaw/openclaw/issues/95788",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-11T21:02:21Z"
+        "author": "FLAT-HAT",
+        "updatedAt": "2026-08-11T22:02:48Z"
       },
       {
         "kind": "issue",
-        "number": 108555,
-        "title": "Subagent runtime: exec-tool stalls inside subagent sessions while write-tool and LLM traffic continue to function",
-        "url": "https://github.com/openclaw/openclaw/issues/108555",
+        "number": 96703,
+        "title": "Turn-maintenance embedded run can stall a session for minutes with no per-task timeout; queued user message waits for the session-level abort",
+        "url": "https://github.com/openclaw/openclaw/issues/96703",
         "state": "open",
-        "author": "grevock68",
-        "updatedAt": "2026-08-11T21:02:04Z"
+        "author": "gorkem2020",
+        "updatedAt": "2026-08-11T22:02:56Z"
       },
       {
         "kind": "issue",
-        "number": 91774,
-        "title": "[Bug]: Codex native exec does not honor OpenClaw notifyOnExit/notifyOnExitEmptySuccess completion wake semantics",
-        "url": "https://github.com/openclaw/openclaw/issues/91774",
+        "number": 95835,
+        "title": "[Bug]: Telegram rich-message delivery prevents selected-text Quote/Quote & Reply",
+        "url": "https://github.com/openclaw/openclaw/issues/95835",
         "state": "open",
-        "author": "Lapot300",
-        "updatedAt": "2026-08-11T21:01:58Z"
+        "author": "Nickfost",
+        "updatedAt": "2026-08-11T22:02:40Z"
       },
       {
         "kind": "issue",
-        "number": 97616,
-        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
-        "url": "https://github.com/openclaw/openclaw/issues/97616",
+        "number": 109420,
+        "title": "[Bug]: iOS app — agent visible but starting new chat does nothing",
+        "url": "https://github.com/openclaw/openclaw/issues/109420",
         "state": "open",
-        "author": "avp717",
-        "updatedAt": "2026-08-11T21:01:52Z"
+        "author": "oscar-mcdom",
+        "updatedAt": "2026-08-11T22:02:13Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 108462,
-        "title": "fix(ai): recover stale Responses reasoning replay in streamSimple",
-        "url": "https://github.com/openclaw/openclaw/pull/108462",
-        "state": "open",
-        "author": "fanyangCS",
-        "updatedAt": "2026-08-11T21:02:19Z"
-      },
-      {
-        "kind": "pr",
-        "number": 93207,
-        "title": "fix(cron): suppress unavailable-tool self-debug replies",
-        "url": "https://github.com/openclaw/openclaw/pull/93207",
-        "state": "open",
-        "author": "amknight",
-        "updatedAt": "2026-08-11T21:02:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 90836,
-        "title": "fix(cron): block self-narrating auto-announce replies",
-        "url": "https://github.com/openclaw/openclaw/pull/90836",
-        "state": "open",
-        "author": "jsasson",
-        "updatedAt": "2026-08-11T21:02:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120804,
-        "title": "feat(gateway,ui): quiet Where picker, placement chip, and projects read model",
-        "url": "https://github.com/openclaw/openclaw/pull/120804",
+        "number": 122299,
+        "title": "refactor: consolidate coercion ownership",
+        "url": "https://github.com/openclaw/openclaw/pull/122299",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-11T21:02:17Z"
+        "updatedAt": "2026-08-11T22:02:55Z"
       },
       {
         "kind": "pr",
-        "number": 120491,
-        "title": "feat(tools): per-turn per-target send budget guard for message tools",
-        "url": "https://github.com/openclaw/openclaw/pull/120491",
+        "number": 101248,
+        "title": "feat(subagents): native announceTarget for subagent completion routing (#27445)",
+        "url": "https://github.com/openclaw/openclaw/pull/101248",
         "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-08-11T21:02:15Z"
+        "author": "nicknmorty",
+        "updatedAt": "2026-08-11T22:02:55Z"
       },
       {
         "kind": "pr",
-        "number": 110294,
-        "title": "fix(ci): bound docs-sync publish repo git fetch with timeout",
-        "url": "https://github.com/openclaw/openclaw/pull/110294",
+        "number": 85651,
+        "title": "feat(continuation): context-pressure-aware continuation (continue_work / continue_delegate / request_compaction)",
+        "url": "https://github.com/openclaw/openclaw/pull/85651",
         "state": "open",
-        "author": "chengzhichao-xydt",
-        "updatedAt": "2026-08-11T21:02:21Z"
+        "author": "karmafeast",
+        "updatedAt": "2026-08-11T22:02:54Z"
+      },
+      {
+        "kind": "pr",
+        "number": 95867,
+        "title": "fix(msteams): sanitize internal tool-trace lines from outbound text (#90684)",
+        "url": "https://github.com/openclaw/openclaw/pull/95867",
+        "state": "open",
+        "author": "jailbirt",
+        "updatedAt": "2026-08-11T22:02:49Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119950,
+        "title": "fix(gateway): reject unattributable loopback proxy traffic [AI]",
+        "url": "https://github.com/openclaw/openclaw/pull/119950",
+        "state": "open",
+        "author": "pgondhi987",
+        "updatedAt": "2026-08-11T22:02:47Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122140,
+        "title": "feat(onboard): label CLI candidates with subscription vs API-key auth",
+        "url": "https://github.com/openclaw/openclaw/pull/122140",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-11T22:02:46Z"
       }
     ]
   }

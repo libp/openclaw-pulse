@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-11T18:05:21.223Z",
+  "generatedAt": "2026-08-11T19:18:22.579Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -428,18 +428,18 @@
     },
     {
       "capturedOn": "2026-08-11",
-      "capturedAt": "2026-08-11T18:05:21.223Z",
-      "issueOpen": 3476,
-      "issueClosed": 43192,
-      "prOpen": 2146,
-      "prClosed": 70900,
-      "prMerged": 23948,
+      "capturedAt": "2026-08-11T19:18:22.579Z",
+      "issueOpen": 3475,
+      "issueClosed": 43199,
+      "prOpen": 2153,
+      "prClosed": 70925,
+      "prMerged": 23971,
       "workflowRuns": 40000,
-      "stars": 385945,
-      "forks": 81112,
+      "stars": 385950,
+      "forks": 81113,
       "subscribers": 1769,
-      "commits": 78269,
-      "contributors": 3080,
+      "commits": 78291,
+      "contributors": 3081,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -543,88 +543,88 @@
     },
     {
       "capturedOn": "2026-08-11",
-      "stars": 385945,
-      "forks": 81112,
+      "stars": 385950,
+      "forks": 81113,
       "subscribers": 1769,
-      "commits": 78269,
-      "contributors": 3080
+      "commits": 78291,
+      "contributors": 3081
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 89848,
-        "title": "[Enhancement]: failureAlert lacks threadId — per-cron failure alerts land in the wrong Telegram topic, forcing operators to watch an aggregate-only path",
-        "url": "https://github.com/openclaw/openclaw/issues/89848",
+        "number": 122225,
+        "title": "[Bug]: Control UI slash-command menu overuses accent color",
+        "url": "https://github.com/openclaw/openclaw/issues/122225",
         "state": "open",
-        "author": "BryceMurray",
-        "updatedAt": "2026-08-11T18:05:16Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-11T19:17:52Z"
       },
       {
         "kind": "issue",
-        "number": 84567,
-        "title": "[Bug]: Codex bundled harness initialize still hangs in 2026.5.18 isolated cron — surfaces via #64744 timeout-wrapping as 'isolated agent setup timed out before runner start'",
-        "url": "https://github.com/openclaw/openclaw/issues/84567",
+        "number": 122224,
+        "title": "Ollama tool calls never execute — model returns valid tool_calls but OpenClaw stores it as plain text (repro on 2026.7.1-2)",
+        "url": "https://github.com/openclaw/openclaw/issues/122224",
         "state": "open",
-        "author": "mrschaal",
-        "updatedAt": "2026-08-11T18:05:04Z"
+        "author": "gabrielcolceriu",
+        "updatedAt": "2026-08-11T19:17:23Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 122083,
-        "title": "refactor: eliminate final export name collisions",
-        "url": "https://github.com/openclaw/openclaw/pull/122083",
+        "number": 120332,
+        "title": "fix(config): config validate rejects a replacement plugin's own channel config keys [AI]",
+        "url": "https://github.com/openclaw/openclaw/pull/120332",
+        "state": "open",
+        "author": "marmar9615-cloud",
+        "updatedAt": "2026-08-11T19:18:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122009,
+        "title": "fix(channels): preserve failed agent run reactions",
+        "url": "https://github.com/openclaw/openclaw/pull/122009",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-11T18:05:17Z"
+        "updatedAt": "2026-08-11T19:18:08Z"
       },
       {
         "kind": "pr",
-        "number": 113111,
-        "title": "fix(whatsapp): label voice transcripts as untrusted",
-        "url": "https://github.com/openclaw/openclaw/pull/113111",
+        "number": 122036,
+        "title": "fix(agents): replace stale timeout payloads precisely",
+        "url": "https://github.com/openclaw/openclaw/pull/122036",
         "state": "open",
-        "author": "LauraGPT",
-        "updatedAt": "2026-08-11T18:05:12Z"
+        "author": "Alix-007",
+        "updatedAt": "2026-08-11T19:17:48Z"
       },
       {
         "kind": "pr",
-        "number": 121450,
-        "title": "feat(workboard): receipt-backed closeout tracking",
-        "url": "https://github.com/openclaw/openclaw/pull/121450",
+        "number": 107295,
+        "title": "refactor(qqbot): install plugin from Tencent package",
+        "url": "https://github.com/openclaw/openclaw/pull/107295",
         "state": "open",
-        "author": "nachopenclaw-svg",
-        "updatedAt": "2026-08-11T18:05:01Z"
+        "author": "sliverp",
+        "updatedAt": "2026-08-11T19:17:39Z"
       },
       {
         "kind": "pr",
-        "number": 122139,
-        "title": "test(gateway): increase timeout for kernel boot tests to 240s",
-        "url": "https://github.com/openclaw/openclaw/pull/122139",
+        "number": 122074,
+        "title": "feat(google): add current-turn native video input",
+        "url": "https://github.com/openclaw/openclaw/pull/122074",
         "state": "open",
-        "author": "MasterSwords1",
-        "updatedAt": "2026-08-11T18:05:00Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-11T19:17:38Z"
       },
       {
         "kind": "pr",
-        "number": 112214,
-        "title": "fix(memory-core): keep memory search usable during dirty sync",
-        "url": "https://github.com/openclaw/openclaw/pull/112214",
+        "number": 120794,
+        "title": "fix(prompt): unbounded channel context arrays and objects flood the model prompt",
+        "url": "https://github.com/openclaw/openclaw/pull/120794",
         "state": "open",
-        "author": "AdrianIp0204",
-        "updatedAt": "2026-08-11T18:05:00Z"
-      },
-      {
-        "kind": "pr",
-        "number": 97103,
-        "title": "fix(sessions): report archive cleanup in sessions cleanup",
-        "url": "https://github.com/openclaw/openclaw/pull/97103",
-        "state": "open",
-        "author": "samrusani",
-        "updatedAt": "2026-08-11T18:05:00Z"
+        "author": "pacocartones",
+        "updatedAt": "2026-08-11T19:16:58Z"
       }
     ]
   }

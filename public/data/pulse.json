@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-11T09:12:28.725Z",
+  "generatedAt": "2026-08-11T11:03:54.094Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -428,17 +428,17 @@
     },
     {
       "capturedOn": "2026-08-11",
-      "capturedAt": "2026-08-11T09:12:28.725Z",
-      "issueOpen": 3475,
-      "issueClosed": 43139,
-      "prOpen": 2155,
-      "prClosed": 70732,
-      "prMerged": 23814,
+      "capturedAt": "2026-08-11T11:03:54.094Z",
+      "issueOpen": 3469,
+      "issueClosed": 43153,
+      "prOpen": 2134,
+      "prClosed": 70775,
+      "prMerged": 23850,
       "workflowRuns": 40000,
-      "stars": 385874,
-      "forks": 81094,
+      "stars": 385890,
+      "forks": 81095,
       "subscribers": 1767,
-      "commits": 78085,
+      "commits": 78146,
       "contributors": 3079,
       "source": "github-actions",
       "approximateDate": false
@@ -543,10 +543,10 @@
     },
     {
       "capturedOn": "2026-08-11",
-      "stars": 385874,
-      "forks": 81094,
+      "stars": 385890,
+      "forks": 81095,
       "subscribers": 1767,
-      "commits": 78085,
+      "commits": 78146,
       "contributors": 3079
     }
   ],
@@ -554,68 +554,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 54397,
-        "title": "[Feature]: Topic/Session Management UI",
-        "url": "https://github.com/openclaw/openclaw/issues/54397",
+        "number": 122003,
+        "title": "[Bug]: Desktop client truncates long assistant messages — tail not rendered/copyable (server copy is complete)",
+        "url": "https://github.com/openclaw/openclaw/issues/122003",
         "state": "open",
-        "author": "SylvesterZH",
-        "updatedAt": "2026-08-11T09:10:03Z"
+        "author": "666999-q",
+        "updatedAt": "2026-08-11T11:03:22Z"
+      },
+      {
+        "kind": "issue",
+        "number": 102628,
+        "title": "buildHierarchyReinforcementMessage prepends orchestrator framing to solo agents on quota-resume, causing phantom-handoff hallucinations",
+        "url": "https://github.com/openclaw/openclaw/issues/102628",
+        "state": "open",
+        "author": "Joakim-Emanuelson",
+        "updatedAt": "2026-08-11T11:03:12Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 121647,
-        "title": "fix(context-engine): durable state stalls in long sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/121647",
+        "number": 121852,
+        "title": "fix(control-ui): hide unusable models from picker",
+        "url": "https://github.com/openclaw/openclaw/pull/121852",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-11T09:12:24Z"
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-08-11T11:03:49Z"
       },
       {
         "kind": "pr",
-        "number": 117712,
-        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/117712",
-        "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-11T09:12:22Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121907,
-        "title": "fix(telegram): preserve reply and quote context from batched messages",
-        "url": "https://github.com/openclaw/openclaw/pull/121907",
-        "state": "open",
-        "author": "iridescentWen",
-        "updatedAt": "2026-08-11T09:12:11Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121937,
-        "title": "fix(agents): remove stale media completion reply mechanics",
-        "url": "https://github.com/openclaw/openclaw/pull/121937",
+        "number": 121842,
+        "title": "refactor(plugin-sdk): make API baseline module-mergeable",
+        "url": "https://github.com/openclaw/openclaw/pull/121842",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-11T09:12:07Z"
+        "updatedAt": "2026-08-11T11:03:48Z"
       },
       {
         "kind": "pr",
-        "number": 121969,
-        "title": "fix: resume main sessions after gateway restarts",
-        "url": "https://github.com/openclaw/openclaw/pull/121969",
+        "number": 119988,
+        "title": "fix(cli): limit attach SIGINT shutdown to direct child and add force-kill timeout",
+        "url": "https://github.com/openclaw/openclaw/pull/119988",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-11T09:12:05Z"
+        "author": "xialonglee",
+        "updatedAt": "2026-08-11T11:03:48Z"
       },
       {
         "kind": "pr",
-        "number": 121943,
-        "title": "refactor(state): retire tenant-free agent lease schema",
-        "url": "https://github.com/openclaw/openclaw/pull/121943",
+        "number": 81176,
+        "title": "feat(agents): add context-window-relative compaction budget shares",
+        "url": "https://github.com/openclaw/openclaw/pull/81176",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-11T09:12:03Z"
+        "author": "sholomsbs33",
+        "updatedAt": "2026-08-11T11:03:46Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120491,
+        "title": "feat(tools): per-turn per-target send budget guard for message tools",
+        "url": "https://github.com/openclaw/openclaw/pull/120491",
+        "state": "open",
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-08-11T11:03:43Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119713,
+        "title": "fix: bound repeated transient model fallback failures",
+        "url": "https://github.com/openclaw/openclaw/pull/119713",
+        "state": "open",
+        "author": "rishitamrakar",
+        "updatedAt": "2026-08-11T11:03:41Z"
       }
     ]
   }

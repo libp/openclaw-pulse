@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-10T23:49:58.616Z",
+  "generatedAt": "2026-08-11T06:03:03.886Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -425,6 +425,23 @@
       "contributors": 3077,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-11",
+      "capturedAt": "2026-08-11T06:03:03.886Z",
+      "issueOpen": 3472,
+      "issueClosed": 43121,
+      "prOpen": 2166,
+      "prClosed": 70657,
+      "prMerged": 23766,
+      "workflowRuns": 40000,
+      "stars": 385845,
+      "forks": 81092,
+      "subscribers": 1765,
+      "commits": 78036,
+      "contributors": 3079,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -523,110 +540,109 @@
       "subscribers": 1767,
       "commits": 77936,
       "contributors": 3077
+    },
+    {
+      "capturedOn": "2026-08-11",
+      "stars": 385845,
+      "forks": 81092,
+      "subscribers": 1765,
+      "commits": 78036,
+      "contributors": 3079
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 102172,
-        "title": "[Bug]: claude-cli backend SIGKILLs entire process tree at turn end — Workflow / background tool orphans have no opt-out",
-        "url": "https://github.com/openclaw/openclaw/issues/102172",
+        "number": 14151,
+        "title": "[Feature]: Option to force-prepend an opening <think> tag for local reasoning models",
+        "url": "https://github.com/openclaw/openclaw/issues/14151",
         "state": "open",
-        "author": "BryceMurray",
-        "updatedAt": "2026-08-10T23:49:54Z"
+        "author": "LisaMacintosh",
+        "updatedAt": "2026-08-11T06:02:57Z"
       },
       {
         "kind": "issue",
-        "number": 22438,
-        "title": "feat: Tiered bootstrap file loading for progressive context control",
-        "url": "https://github.com/openclaw/openclaw/issues/22438",
+        "number": 83354,
+        "title": "Helper commands can silently resurrect stopped user-level openclaw-gateway units",
+        "url": "https://github.com/openclaw/openclaw/issues/83354",
         "state": "open",
-        "author": "882soft",
-        "updatedAt": "2026-08-10T23:49:09Z"
+        "author": "cdeyoung67",
+        "updatedAt": "2026-08-11T06:02:54Z"
       },
       {
         "kind": "issue",
-        "number": 29707,
-        "title": "[Feature Request]: Native Prompt Caching Support for Amazon Nova (Bedrock)",
-        "url": "https://github.com/openclaw/openclaw/issues/29707",
+        "number": 121880,
+        "title": "Heartbeat can report healthy with no user-visible delivery route",
+        "url": "https://github.com/openclaw/openclaw/issues/121880",
         "state": "open",
-        "author": "tribecar-shurn",
-        "updatedAt": "2026-08-10T23:49:06Z"
+        "author": "obviyus",
+        "updatedAt": "2026-08-11T06:02:51Z"
       },
       {
         "kind": "issue",
-        "number": 77849,
-        "title": "[Bug]: No restore step in openclaw backup docs",
-        "url": "https://github.com/openclaw/openclaw/issues/77849",
+        "number": 62513,
+        "title": "[Feature]: this.hasIndexedContent() seems to be called too frequently, causing performance issus",
+        "url": "https://github.com/openclaw/openclaw/issues/62513",
         "state": "open",
-        "author": "sanjarcode",
-        "updatedAt": "2026-08-10T23:49:02Z"
-      },
-      {
-        "kind": "issue",
-        "number": 117178,
-        "title": "[Feature]: Confirm disruptive lifecycle actions in Control UI and apps",
-        "url": "https://github.com/openclaw/openclaw/issues/117178",
-        "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-08-10T23:49:01Z"
+        "author": "lixianmin",
+        "updatedAt": "2026-08-11T06:02:50Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 121734,
-        "title": "feat(ui): lead the chat header with the project and its own icon",
-        "url": "https://github.com/openclaw/openclaw/pull/121734",
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-10T23:49:52Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-11T06:02:58Z"
       },
       {
         "kind": "pr",
-        "number": 68280,
-        "title": "test(status): preserve degraded probes for unresolved SecretRefs",
-        "url": "https://github.com/openclaw/openclaw/pull/68280",
+        "number": 121560,
+        "title": "feat(gateway): recover Custodian wizard sessions after reload",
+        "url": "https://github.com/openclaw/openclaw/pull/121560",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-11T06:02:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111913,
+        "title": "fix(anthropic): route long-context usage overflow through compact+retry",
+        "url": "https://github.com/openclaw/openclaw/pull/111913",
         "state": "open",
         "author": "amittell",
-        "updatedAt": "2026-08-10T23:49:51Z"
+        "updatedAt": "2026-08-11T06:02:57Z"
       },
       {
         "kind": "pr",
-        "number": 111782,
-        "title": "fix(bedrock): route Mantle OpenAI Responses models",
-        "url": "https://github.com/openclaw/openclaw/pull/111782",
+        "number": 120899,
+        "title": "feat(security): expose install policy warning approval",
+        "url": "https://github.com/openclaw/openclaw/pull/120899",
         "state": "open",
-        "author": "shaoohh",
-        "updatedAt": "2026-08-10T23:49:47Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-11T06:02:59Z"
       },
       {
         "kind": "pr",
-        "number": 121668,
-        "title": "feat(codex): config kill-switch for the native hook relay",
-        "url": "https://github.com/openclaw/openclaw/pull/121668",
+        "number": 96123,
+        "title": "fix(agent): scope mutating tool failure acknowledgements",
+        "url": "https://github.com/openclaw/openclaw/pull/96123",
         "state": "open",
-        "author": "nvtoroy",
-        "updatedAt": "2026-08-10T23:49:43Z"
+        "author": "AdrianIp0204",
+        "updatedAt": "2026-08-11T06:02:50Z"
       },
       {
         "kind": "pr",
-        "number": 121103,
-        "title": "fix(memory): apply temporal decay to dated files in memory subdirectories",
-        "url": "https://github.com/openclaw/openclaw/pull/121103",
-        "state": "open",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-08-10T23:49:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121671,
-        "title": "fix: cloud workers work with trusted-proxy browser auth",
-        "url": "https://github.com/openclaw/openclaw/pull/121671",
+        "number": 121886,
+        "title": "test(llama-cpp): remove duplicate progress bridge",
+        "url": "https://github.com/openclaw/openclaw/pull/121886",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-10T23:49:28Z"
+        "updatedAt": "2026-08-11T06:02:49Z"
       }
     ]
   }

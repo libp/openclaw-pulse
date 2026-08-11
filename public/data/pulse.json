@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-11T17:11:07.676Z",
+  "generatedAt": "2026-08-11T18:05:21.223Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -428,17 +428,17 @@
     },
     {
       "capturedOn": "2026-08-11",
-      "capturedAt": "2026-08-11T17:11:07.676Z",
-      "issueOpen": 3479,
-      "issueClosed": 43186,
-      "prOpen": 2144,
-      "prClosed": 70878,
-      "prMerged": 23930,
+      "capturedAt": "2026-08-11T18:05:21.223Z",
+      "issueOpen": 3476,
+      "issueClosed": 43192,
+      "prOpen": 2146,
+      "prClosed": 70900,
+      "prMerged": 23948,
       "workflowRuns": 40000,
-      "stars": 385938,
-      "forks": 81109,
+      "stars": 385945,
+      "forks": 81112,
       "subscribers": 1769,
-      "commits": 78251,
+      "commits": 78269,
       "contributors": 3080,
       "source": "github-actions",
       "approximateDate": false
@@ -543,10 +543,10 @@
     },
     {
       "capturedOn": "2026-08-11",
-      "stars": 385938,
-      "forks": 81109,
+      "stars": 385945,
+      "forks": 81112,
       "subscribers": 1769,
-      "commits": 78251,
+      "commits": 78269,
       "contributors": 3080
     }
   ],
@@ -554,77 +554,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 118999,
-        "title": "[Feature]: Bind native Codex Realtime V3 voice to existing sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/118999",
+        "number": 89848,
+        "title": "[Enhancement]: failureAlert lacks threadId — per-cron failure alerts land in the wrong Telegram topic, forcing operators to watch an aggregate-only path",
+        "url": "https://github.com/openclaw/openclaw/issues/89848",
         "state": "open",
-        "author": "GoatInAHat",
-        "updatedAt": "2026-08-11T17:10:43Z"
+        "author": "BryceMurray",
+        "updatedAt": "2026-08-11T18:05:16Z"
       },
       {
         "kind": "issue",
-        "number": 122132,
-        "title": "[Bug]: sessions_send does not accept timeoutSeconds/runTimeoutSeconds, preventing callers from sizing the recipient session",
-        "url": "https://github.com/openclaw/openclaw/issues/122132",
+        "number": 84567,
+        "title": "[Bug]: Codex bundled harness initialize still hangs in 2026.5.18 isolated cron — surfaces via #64744 timeout-wrapping as 'isolated agent setup timed out before runner start'",
+        "url": "https://github.com/openclaw/openclaw/issues/84567",
         "state": "open",
-        "author": "yozakura-ava",
-        "updatedAt": "2026-08-11T17:07:36Z"
+        "author": "mrschaal",
+        "updatedAt": "2026-08-11T18:05:04Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 98373,
-        "title": "docs(clickclack): add CSRF 403 troubleshooting for managed proxy (#98362)",
-        "url": "https://github.com/openclaw/openclaw/pull/98373",
+        "number": 122083,
+        "title": "refactor: eliminate final export name collisions",
+        "url": "https://github.com/openclaw/openclaw/pull/122083",
         "state": "open",
-        "author": "zhangLei99586",
-        "updatedAt": "2026-08-11T17:10:51Z"
-      },
-      {
-        "kind": "pr",
-        "number": 122154,
-        "title": "refactor(ai): remove stale completions compat test bridge",
-        "url": "https://github.com/openclaw/openclaw/pull/122154",
-        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-11T17:10:44Z"
+        "updatedAt": "2026-08-11T18:05:17Z"
       },
       {
         "kind": "pr",
-        "number": 119001,
-        "title": "feat(codex): bind native realtime voice to existing sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/119001",
+        "number": 113111,
+        "title": "fix(whatsapp): label voice transcripts as untrusted",
+        "url": "https://github.com/openclaw/openclaw/pull/113111",
         "state": "open",
-        "author": "GoatInAHat",
-        "updatedAt": "2026-08-11T17:10:43Z"
+        "author": "LauraGPT",
+        "updatedAt": "2026-08-11T18:05:12Z"
       },
       {
         "kind": "pr",
-        "number": 121164,
-        "title": "fix(gateway): bound stalled session subscriptions without changing browser defaults",
-        "url": "https://github.com/openclaw/openclaw/pull/121164",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-11T17:10:25Z"
-      },
-      {
-        "kind": "pr",
-        "number": 122036,
-        "title": "fix(agents): replace stale timeout payloads precisely",
-        "url": "https://github.com/openclaw/openclaw/pull/122036",
+        "number": 121450,
+        "title": "feat(workboard): receipt-backed closeout tracking",
+        "url": "https://github.com/openclaw/openclaw/pull/121450",
         "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-08-11T17:10:18Z"
+        "author": "nachopenclaw-svg",
+        "updatedAt": "2026-08-11T18:05:01Z"
       },
       {
         "kind": "pr",
-        "number": 122160,
-        "title": "fix(test): keep CLI process suites in owner lane",
-        "url": "https://github.com/openclaw/openclaw/pull/122160",
+        "number": 122139,
+        "title": "test(gateway): increase timeout for kernel boot tests to 240s",
+        "url": "https://github.com/openclaw/openclaw/pull/122139",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-11T17:09:54Z"
+        "author": "MasterSwords1",
+        "updatedAt": "2026-08-11T18:05:00Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112214,
+        "title": "fix(memory-core): keep memory search usable during dirty sync",
+        "url": "https://github.com/openclaw/openclaw/pull/112214",
+        "state": "open",
+        "author": "AdrianIp0204",
+        "updatedAt": "2026-08-11T18:05:00Z"
+      },
+      {
+        "kind": "pr",
+        "number": 97103,
+        "title": "fix(sessions): report archive cleanup in sessions cleanup",
+        "url": "https://github.com/openclaw/openclaw/pull/97103",
+        "state": "open",
+        "author": "samrusani",
+        "updatedAt": "2026-08-11T18:05:00Z"
       }
     ]
   }

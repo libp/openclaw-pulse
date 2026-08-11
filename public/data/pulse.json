@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-11T15:15:14.305Z",
+  "generatedAt": "2026-08-11T16:10:58.841Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -428,17 +428,17 @@
     },
     {
       "capturedOn": "2026-08-11",
-      "capturedAt": "2026-08-11T15:15:14.305Z",
-      "issueOpen": 3480,
-      "issueClosed": 43167,
-      "prOpen": 2147,
-      "prClosed": 70828,
-      "prMerged": 23891,
+      "capturedAt": "2026-08-11T16:10:58.841Z",
+      "issueOpen": 3479,
+      "issueClosed": 43178,
+      "prOpen": 2146,
+      "prClosed": 70853,
+      "prMerged": 23909,
       "workflowRuns": 40000,
-      "stars": 385928,
+      "stars": 385931,
       "forks": 81106,
-      "subscribers": 1768,
-      "commits": 78192,
+      "subscribers": 1769,
+      "commits": 78210,
       "contributors": 3079,
       "source": "github-actions",
       "approximateDate": false
@@ -543,10 +543,10 @@
     },
     {
       "capturedOn": "2026-08-11",
-      "stars": 385928,
+      "stars": 385931,
       "forks": 81106,
-      "subscribers": 1768,
-      "commits": 78192,
+      "subscribers": 1769,
+      "commits": 78210,
       "contributors": 3079
     }
   ],
@@ -554,113 +554,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 122094,
-        "title": "[Bug]: server-kernel test hangs at HTTP-listen under merge-ref shard compositions (120s timeout)",
-        "url": "https://github.com/openclaw/openclaw/issues/122094",
+        "number": 122114,
+        "title": "Feature: Per-turn tool call cap + durable-commit-gates-turn (P0 incident root cause)",
+        "url": "https://github.com/openclaw/openclaw/issues/122114",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-08-11T15:14:20Z"
+        "author": "xiaolongxia168",
+        "updatedAt": "2026-08-11T16:10:46Z"
       },
       {
         "kind": "issue",
-        "number": 58957,
-        "title": "Model switch can fail silently when carried-over session context is too large",
-        "url": "https://github.com/openclaw/openclaw/issues/58957",
-        "state": "open",
-        "author": "LunaLee0130",
-        "updatedAt": "2026-08-11T15:13:21Z"
+        "number": 120748,
+        "title": "[Bug]: Automation selectors display non-authoritative values",
+        "url": "https://github.com/openclaw/openclaw/issues/120748",
+        "state": "closed",
+        "author": "shakkernerd",
+        "updatedAt": "2026-08-11T16:10:00Z"
       },
       {
         "kind": "issue",
-        "number": 97616,
-        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
-        "url": "https://github.com/openclaw/openclaw/issues/97616",
+        "number": 82710,
+        "title": "[Feature]: Extend `models status --probe` with Codex app-server viability checks",
+        "url": "https://github.com/openclaw/openclaw/issues/82710",
         "state": "open",
-        "author": "avp717",
-        "updatedAt": "2026-08-11T15:13:19Z"
-      },
-      {
-        "kind": "issue",
-        "number": 78537,
-        "title": "[Docs]: `allowInsecurePath` Linux uid-check behavior is undocumented; users on Linux cannot use system-package binaries (e.g. /usr/bin/op) without it",
-        "url": "https://github.com/openclaw/openclaw/issues/78537",
-        "state": "open",
-        "author": "esqandil",
-        "updatedAt": "2026-08-11T15:13:12Z"
-      },
-      {
-        "kind": "issue",
-        "number": 68478,
-        "title": "Auto system messages spam the chat (e.g. '💾 Cron job created', '💾 Skill installed')",
-        "url": "https://github.com/openclaw/openclaw/issues/68478",
-        "state": "open",
-        "author": "ShadowEnemyx",
-        "updatedAt": "2026-08-11T15:13:12Z"
-      },
-      {
-        "kind": "issue",
-        "number": 102439,
-        "title": "[Bug]: Slack Socket Mode ghost connections after gateway restart silently drop inbound messages",
-        "url": "https://github.com/openclaw/openclaw/issues/102439",
-        "state": "open",
-        "author": "ZOOWH",
-        "updatedAt": "2026-08-11T15:13:05Z"
+        "author": "rteoo",
+        "updatedAt": "2026-08-11T16:09:59Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 122095,
-        "title": "improve: remove redundant slow heartbeat admission test",
-        "url": "https://github.com/openclaw/openclaw/pull/122095",
+        "number": 122020,
+        "title": "refactor: consolidate remaining coercion helpers",
+        "url": "https://github.com/openclaw/openclaw/pull/122020",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-11T15:15:09Z"
+        "updatedAt": "2026-08-11T16:10:55Z"
       },
       {
         "kind": "pr",
-        "number": 121991,
-        "title": "fix(discord): handle MCP stringified components",
-        "url": "https://github.com/openclaw/openclaw/pull/121991",
+        "number": 113673,
+        "title": "feat(workboard): clarify proof provenance and diagnostics",
+        "url": "https://github.com/openclaw/openclaw/pull/113673",
         "state": "open",
-        "author": "M-Nabeegh",
-        "updatedAt": "2026-08-11T15:14:59Z"
+        "author": "fr-meyer",
+        "updatedAt": "2026-08-11T16:10:50Z"
       },
       {
         "kind": "pr",
-        "number": 80396,
-        "title": "fix(media): warn when MEDIA: token is skipped inside fenced code block (#41966)",
-        "url": "https://github.com/openclaw/openclaw/pull/80396",
+        "number": 118488,
+        "title": "fix(heartbeat): keep failed work pending after alerts",
+        "url": "https://github.com/openclaw/openclaw/pull/118488",
         "state": "open",
-        "author": "Bartok9",
-        "updatedAt": "2026-08-11T15:14:35Z"
+        "author": "emma300es",
+        "updatedAt": "2026-08-11T16:10:49Z"
       },
       {
         "kind": "pr",
-        "number": 122086,
-        "title": "fix(ci): make Control UI artifact validation consistent",
-        "url": "https://github.com/openclaw/openclaw/pull/122086",
+        "number": 104820,
+        "title": "fix(searxng): honor env SecretRef provider policy",
+        "url": "https://github.com/openclaw/openclaw/pull/104820",
+        "state": "open",
+        "author": "Leon-SK668",
+        "updatedAt": "2026-08-11T16:10:43Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122129,
+        "title": "fix(mcp): preserve authorized sessions during login",
+        "url": "https://github.com/openclaw/openclaw/pull/122129",
+        "state": "open",
+        "author": "obviyus",
+        "updatedAt": "2026-08-11T16:10:32Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122104,
+        "title": "fix(slack): retry member events after transient lookup failures",
+        "url": "https://github.com/openclaw/openclaw/pull/122104",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-11T15:13:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112032,
-        "title": "fix(mcp): bind stored OAuth refresh token to its issuer",
-        "url": "https://github.com/openclaw/openclaw/pull/112032",
-        "state": "closed",
-        "author": "yetval",
-        "updatedAt": "2026-08-11T15:13:33Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119947,
-        "title": "feat(qa): execute Telegram module flows through the live adapter",
-        "url": "https://github.com/openclaw/openclaw/pull/119947",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-11T15:13:28Z"
+        "updatedAt": "2026-08-11T16:10:25Z"
       }
     ]
   }

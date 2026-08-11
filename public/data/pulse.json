@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-11T22:02:59.537Z",
+  "generatedAt": "2026-08-11T23:01:02.960Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -428,18 +428,18 @@
     },
     {
       "capturedOn": "2026-08-11",
-      "capturedAt": "2026-08-11T22:02:59.537Z",
-      "issueOpen": 3492,
-      "issueClosed": 43213,
-      "prOpen": 2157,
-      "prClosed": 70968,
-      "prMerged": 24007,
+      "capturedAt": "2026-08-11T23:01:02.960Z",
+      "issueOpen": 3488,
+      "issueClosed": 43224,
+      "prOpen": 2154,
+      "prClosed": 70992,
+      "prMerged": 24028,
       "workflowRuns": 40000,
-      "stars": 385951,
-      "forks": 81120,
+      "stars": 385956,
+      "forks": 81121,
       "subscribers": 1768,
-      "commits": 78327,
-      "contributors": 3082,
+      "commits": 78349,
+      "contributors": 3083,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -543,15 +543,42 @@
     },
     {
       "capturedOn": "2026-08-11",
-      "stars": 385951,
-      "forks": 81120,
+      "stars": 385956,
+      "forks": 81121,
       "subscribers": 1768,
-      "commits": 78327,
-      "contributors": 3082
+      "commits": 78349,
+      "contributors": 3083
     }
   ],
   "activity": {
     "issues": [
+      {
+        "kind": "issue",
+        "number": 105342,
+        "title": "All exec command outputs are rendered as images instead of text",
+        "url": "https://github.com/openclaw/openclaw/issues/105342",
+        "state": "open",
+        "author": "Ashowt",
+        "updatedAt": "2026-08-11T23:00:58Z"
+      },
+      {
+        "kind": "issue",
+        "number": 121953,
+        "title": "[Bug]: Cron agent turns stall on DeepSeek — the '[cron:<jobId> <name>] ' user-message prefix is deprioritized",
+        "url": "https://github.com/openclaw/openclaw/issues/121953",
+        "state": "open",
+        "author": "Dytchem",
+        "updatedAt": "2026-08-11T23:00:50Z"
+      },
+      {
+        "kind": "issue",
+        "number": 90732,
+        "title": "Rename \"Steer now\" button to non-technical language on user-facing chat surfaces",
+        "url": "https://github.com/openclaw/openclaw/issues/90732",
+        "state": "open",
+        "author": "gregstiehl",
+        "updatedAt": "2026-08-11T23:00:43Z"
+      },
       {
         "kind": "issue",
         "number": 95788,
@@ -559,90 +586,63 @@
         "url": "https://github.com/openclaw/openclaw/issues/95788",
         "state": "open",
         "author": "FLAT-HAT",
-        "updatedAt": "2026-08-11T22:02:48Z"
-      },
-      {
-        "kind": "issue",
-        "number": 96703,
-        "title": "Turn-maintenance embedded run can stall a session for minutes with no per-task timeout; queued user message waits for the session-level abort",
-        "url": "https://github.com/openclaw/openclaw/issues/96703",
-        "state": "open",
-        "author": "gorkem2020",
-        "updatedAt": "2026-08-11T22:02:56Z"
-      },
-      {
-        "kind": "issue",
-        "number": 95835,
-        "title": "[Bug]: Telegram rich-message delivery prevents selected-text Quote/Quote & Reply",
-        "url": "https://github.com/openclaw/openclaw/issues/95835",
-        "state": "open",
-        "author": "Nickfost",
-        "updatedAt": "2026-08-11T22:02:40Z"
-      },
-      {
-        "kind": "issue",
-        "number": 109420,
-        "title": "[Bug]: iOS app — agent visible but starting new chat does nothing",
-        "url": "https://github.com/openclaw/openclaw/issues/109420",
-        "state": "open",
-        "author": "oscar-mcdom",
-        "updatedAt": "2026-08-11T22:02:13Z"
+        "updatedAt": "2026-08-11T23:00:27Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 122299,
-        "title": "refactor: consolidate coercion ownership",
-        "url": "https://github.com/openclaw/openclaw/pull/122299",
+        "number": 119810,
+        "title": "feat(ui): add durable Activity run inspector",
+        "url": "https://github.com/openclaw/openclaw/pull/119810",
+        "state": "open",
+        "author": "joshavant",
+        "updatedAt": "2026-08-11T23:00:56Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121994,
+        "title": "fix(audit): admit explicit unknown invoker evidence",
+        "url": "https://github.com/openclaw/openclaw/pull/121994",
+        "state": "open",
+        "author": "joshavant",
+        "updatedAt": "2026-08-11T23:00:54Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122108,
+        "title": "fix(slack): surface unavailable forwarded images",
+        "url": "https://github.com/openclaw/openclaw/pull/122108",
+        "state": "open",
+        "author": "sunlit-deng",
+        "updatedAt": "2026-08-11T23:00:52Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120491,
+        "title": "feat(tools): per-turn per-target send budget guard for message tools",
+        "url": "https://github.com/openclaw/openclaw/pull/120491",
+        "state": "open",
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-08-11T23:00:50Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111543,
+        "title": "feat(localization): add contributor workflow skill",
+        "url": "https://github.com/openclaw/openclaw/pull/111543",
+        "state": "open",
+        "author": "giodl73-repo",
+        "updatedAt": "2026-08-11T23:00:49Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120804,
+        "title": "feat(gateway,ui): quiet Where picker, placement chip, and projects read model",
+        "url": "https://github.com/openclaw/openclaw/pull/120804",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-11T22:02:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 101248,
-        "title": "feat(subagents): native announceTarget for subagent completion routing (#27445)",
-        "url": "https://github.com/openclaw/openclaw/pull/101248",
-        "state": "open",
-        "author": "nicknmorty",
-        "updatedAt": "2026-08-11T22:02:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 85651,
-        "title": "feat(continuation): context-pressure-aware continuation (continue_work / continue_delegate / request_compaction)",
-        "url": "https://github.com/openclaw/openclaw/pull/85651",
-        "state": "open",
-        "author": "karmafeast",
-        "updatedAt": "2026-08-11T22:02:54Z"
-      },
-      {
-        "kind": "pr",
-        "number": 95867,
-        "title": "fix(msteams): sanitize internal tool-trace lines from outbound text (#90684)",
-        "url": "https://github.com/openclaw/openclaw/pull/95867",
-        "state": "open",
-        "author": "jailbirt",
-        "updatedAt": "2026-08-11T22:02:49Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119950,
-        "title": "fix(gateway): reject unattributable loopback proxy traffic [AI]",
-        "url": "https://github.com/openclaw/openclaw/pull/119950",
-        "state": "open",
-        "author": "pgondhi987",
-        "updatedAt": "2026-08-11T22:02:47Z"
-      },
-      {
-        "kind": "pr",
-        "number": 122140,
-        "title": "feat(onboard): label CLI candidates with subscription vs API-key auth",
-        "url": "https://github.com/openclaw/openclaw/pull/122140",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-11T22:02:46Z"
+        "updatedAt": "2026-08-11T23:00:48Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-11T06:03:03.886Z",
+  "generatedAt": "2026-08-11T09:12:28.725Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -428,17 +428,17 @@
     },
     {
       "capturedOn": "2026-08-11",
-      "capturedAt": "2026-08-11T06:03:03.886Z",
-      "issueOpen": 3472,
-      "issueClosed": 43121,
-      "prOpen": 2166,
-      "prClosed": 70657,
-      "prMerged": 23766,
+      "capturedAt": "2026-08-11T09:12:28.725Z",
+      "issueOpen": 3475,
+      "issueClosed": 43139,
+      "prOpen": 2155,
+      "prClosed": 70732,
+      "prMerged": 23814,
       "workflowRuns": 40000,
-      "stars": 385845,
-      "forks": 81092,
-      "subscribers": 1765,
-      "commits": 78036,
+      "stars": 385874,
+      "forks": 81094,
+      "subscribers": 1767,
+      "commits": 78085,
       "contributors": 3079,
       "source": "github-actions",
       "approximateDate": false
@@ -543,10 +543,10 @@
     },
     {
       "capturedOn": "2026-08-11",
-      "stars": 385845,
-      "forks": 81092,
-      "subscribers": 1765,
-      "commits": 78036,
+      "stars": 385874,
+      "forks": 81094,
+      "subscribers": 1767,
+      "commits": 78085,
       "contributors": 3079
     }
   ],
@@ -554,95 +554,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 14151,
-        "title": "[Feature]: Option to force-prepend an opening <think> tag for local reasoning models",
-        "url": "https://github.com/openclaw/openclaw/issues/14151",
+        "number": 54397,
+        "title": "[Feature]: Topic/Session Management UI",
+        "url": "https://github.com/openclaw/openclaw/issues/54397",
         "state": "open",
-        "author": "LisaMacintosh",
-        "updatedAt": "2026-08-11T06:02:57Z"
-      },
-      {
-        "kind": "issue",
-        "number": 83354,
-        "title": "Helper commands can silently resurrect stopped user-level openclaw-gateway units",
-        "url": "https://github.com/openclaw/openclaw/issues/83354",
-        "state": "open",
-        "author": "cdeyoung67",
-        "updatedAt": "2026-08-11T06:02:54Z"
-      },
-      {
-        "kind": "issue",
-        "number": 121880,
-        "title": "Heartbeat can report healthy with no user-visible delivery route",
-        "url": "https://github.com/openclaw/openclaw/issues/121880",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-08-11T06:02:51Z"
-      },
-      {
-        "kind": "issue",
-        "number": 62513,
-        "title": "[Feature]: this.hasIndexedContent() seems to be called too frequently, causing performance issus",
-        "url": "https://github.com/openclaw/openclaw/issues/62513",
-        "state": "open",
-        "author": "lixianmin",
-        "updatedAt": "2026-08-11T06:02:50Z"
+        "author": "SylvesterZH",
+        "updatedAt": "2026-08-11T09:10:03Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
+        "number": 121647,
+        "title": "fix(context-engine): durable state stalls in long sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/121647",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-11T06:02:58Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-08-11T09:12:24Z"
       },
       {
         "kind": "pr",
-        "number": 121560,
-        "title": "feat(gateway): recover Custodian wizard sessions after reload",
-        "url": "https://github.com/openclaw/openclaw/pull/121560",
+        "number": 117712,
+        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/117712",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-11T06:02:57Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-11T09:12:22Z"
       },
       {
         "kind": "pr",
-        "number": 111913,
-        "title": "fix(anthropic): route long-context usage overflow through compact+retry",
-        "url": "https://github.com/openclaw/openclaw/pull/111913",
+        "number": 121907,
+        "title": "fix(telegram): preserve reply and quote context from batched messages",
+        "url": "https://github.com/openclaw/openclaw/pull/121907",
         "state": "open",
-        "author": "amittell",
-        "updatedAt": "2026-08-11T06:02:57Z"
+        "author": "iridescentWen",
+        "updatedAt": "2026-08-11T09:12:11Z"
       },
       {
         "kind": "pr",
-        "number": 120899,
-        "title": "feat(security): expose install policy warning approval",
-        "url": "https://github.com/openclaw/openclaw/pull/120899",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-11T06:02:59Z"
-      },
-      {
-        "kind": "pr",
-        "number": 96123,
-        "title": "fix(agent): scope mutating tool failure acknowledgements",
-        "url": "https://github.com/openclaw/openclaw/pull/96123",
-        "state": "open",
-        "author": "AdrianIp0204",
-        "updatedAt": "2026-08-11T06:02:50Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121886,
-        "title": "test(llama-cpp): remove duplicate progress bridge",
-        "url": "https://github.com/openclaw/openclaw/pull/121886",
+        "number": 121937,
+        "title": "fix(agents): remove stale media completion reply mechanics",
+        "url": "https://github.com/openclaw/openclaw/pull/121937",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-11T06:02:49Z"
+        "updatedAt": "2026-08-11T09:12:07Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121969,
+        "title": "fix: resume main sessions after gateway restarts",
+        "url": "https://github.com/openclaw/openclaw/pull/121969",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-11T09:12:05Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121943,
+        "title": "refactor(state): retire tenant-free agent lease schema",
+        "url": "https://github.com/openclaw/openclaw/pull/121943",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-11T09:12:03Z"
       }
     ]
   }

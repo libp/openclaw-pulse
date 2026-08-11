@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-11T11:55:18.781Z",
+  "generatedAt": "2026-08-11T13:40:26.076Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -428,17 +428,17 @@
     },
     {
       "capturedOn": "2026-08-11",
-      "capturedAt": "2026-08-11T11:55:18.781Z",
-      "issueOpen": 3469,
-      "issueClosed": 43154,
-      "prOpen": 2138,
-      "prClosed": 70785,
-      "prMerged": 23859,
+      "capturedAt": "2026-08-11T13:40:26.076Z",
+      "issueOpen": 3474,
+      "issueClosed": 43162,
+      "prOpen": 2132,
+      "prClosed": 70809,
+      "prMerged": 23875,
       "workflowRuns": 40000,
-      "stars": 385896,
-      "forks": 81097,
+      "stars": 385919,
+      "forks": 81098,
       "subscribers": 1768,
-      "commits": 78155,
+      "commits": 78174,
       "contributors": 3079,
       "source": "github-actions",
       "approximateDate": false
@@ -543,10 +543,10 @@
     },
     {
       "capturedOn": "2026-08-11",
-      "stars": 385896,
-      "forks": 81097,
+      "stars": 385919,
+      "forks": 81098,
       "subscribers": 1768,
-      "commits": 78155,
+      "commits": 78174,
       "contributors": 3079
     }
   ],
@@ -554,95 +554,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 14629,
-        "title": "Output sanitizer: improve duplicate detection for same-line and partial duplicates",
-        "url": "https://github.com/openclaw/openclaw/issues/14629",
+        "number": 119181,
+        "title": "Session cost silently reports 0 while token usage is real; invalid configured model id silently substitutes a more expensive model",
+        "url": "https://github.com/openclaw/openclaw/issues/119181",
         "state": "open",
-        "author": "communityorg-discord",
-        "updatedAt": "2026-08-11T11:55:09Z"
-      },
-      {
-        "kind": "issue",
-        "number": 13634,
-        "title": "Feature: Slack workspace file injection + global systemPrompt (parity with Telegram)",
-        "url": "https://github.com/openclaw/openclaw/issues/13634",
-        "state": "open",
-        "author": "visshehi",
-        "updatedAt": "2026-08-11T11:54:19Z"
-      },
-      {
-        "kind": "issue",
-        "number": 122010,
-        "title": "claude-cli: \"You're out of usage credits\" classified as unknown — fallback chain aborts, agent fully down despite healthy cross-provider fallback",
-        "url": "https://github.com/openclaw/openclaw/issues/122010",
-        "state": "open",
-        "author": "hundredhandsio",
-        "updatedAt": "2026-08-11T11:54:17Z"
-      },
-      {
-        "kind": "issue",
-        "number": 16670,
-        "title": "Onboarding Wizard should include Memory/Embedding setup as a mandatory step",
-        "url": "https://github.com/openclaw/openclaw/issues/16670",
-        "state": "open",
-        "author": "actwebmaster",
-        "updatedAt": "2026-08-11T11:54:03Z"
+        "author": "morpheuxx",
+        "updatedAt": "2026-08-11T13:33:43Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 122008,
-        "title": "fix(state): keep agent media floor stable across schema upgrades",
-        "url": "https://github.com/openclaw/openclaw/pull/122008",
+        "number": 113734,
+        "title": "docs: add Neon AI Gateway provider guide",
+        "url": "https://github.com/openclaw/openclaw/pull/113734",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-11T11:55:11Z"
+        "author": "mezotv",
+        "updatedAt": "2026-08-11T13:39:41Z"
       },
       {
         "kind": "pr",
-        "number": 107295,
-        "title": "refactor(qqbot): install plugin from Tencent package",
-        "url": "https://github.com/openclaw/openclaw/pull/107295",
+        "number": 120332,
+        "title": "fix(config): config validate rejects a replacement plugin's own channel config keys [AI]",
+        "url": "https://github.com/openclaw/openclaw/pull/120332",
         "state": "open",
-        "author": "sliverp",
-        "updatedAt": "2026-08-11T11:54:58Z"
+        "author": "marmar9615-cloud",
+        "updatedAt": "2026-08-11T13:39:29Z"
       },
       {
         "kind": "pr",
-        "number": 122014,
-        "title": "refactor(gateway): finalize kernel composition",
-        "url": "https://github.com/openclaw/openclaw/pull/122014",
+        "number": 105564,
+        "title": "fix: tighten readSchema.limit from Type.Number to Type.Integer",
+        "url": "https://github.com/openclaw/openclaw/pull/105564",
         "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-11T11:54:56Z"
+        "author": "lzyyzznl",
+        "updatedAt": "2026-08-11T13:38:47Z"
       },
       {
         "kind": "pr",
-        "number": 120804,
-        "title": "feat(gateway,ui): quiet Where picker, placement chip, and projects read model",
-        "url": "https://github.com/openclaw/openclaw/pull/120804",
+        "number": 121991,
+        "title": "fix(discord): handle MCP stringified components",
+        "url": "https://github.com/openclaw/openclaw/pull/121991",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-11T11:54:51Z"
+        "author": "M-Nabeegh",
+        "updatedAt": "2026-08-11T13:38:39Z"
       },
       {
         "kind": "pr",
-        "number": 122018,
-        "title": "refactor(agents): collapse prompt dispatch relay",
-        "url": "https://github.com/openclaw/openclaw/pull/122018",
+        "number": 121893,
+        "title": "refactor: burn cross-directory export name collisions",
+        "url": "https://github.com/openclaw/openclaw/pull/121893",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-11T11:54:45Z"
+        "updatedAt": "2026-08-11T13:38:29Z"
       },
       {
         "kind": "pr",
-        "number": 73594,
-        "title": "feat(openrouter): inject cache_control for closed-source qwen models",
-        "url": "https://github.com/openclaw/openclaw/pull/73594",
+        "number": 122050,
+        "title": "fix(ci): isolate gateway kernel plugin registry state",
+        "url": "https://github.com/openclaw/openclaw/pull/122050",
         "state": "open",
-        "author": "simpx",
-        "updatedAt": "2026-08-11T11:54:40Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-11T13:38:05Z"
       }
     ]
   }

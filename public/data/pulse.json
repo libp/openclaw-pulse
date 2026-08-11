@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-11T16:10:58.841Z",
+  "generatedAt": "2026-08-11T17:11:07.676Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -428,18 +428,18 @@
     },
     {
       "capturedOn": "2026-08-11",
-      "capturedAt": "2026-08-11T16:10:58.841Z",
+      "capturedAt": "2026-08-11T17:11:07.676Z",
       "issueOpen": 3479,
-      "issueClosed": 43178,
-      "prOpen": 2146,
-      "prClosed": 70853,
-      "prMerged": 23909,
+      "issueClosed": 43186,
+      "prOpen": 2144,
+      "prClosed": 70878,
+      "prMerged": 23930,
       "workflowRuns": 40000,
-      "stars": 385931,
-      "forks": 81106,
+      "stars": 385938,
+      "forks": 81109,
       "subscribers": 1769,
-      "commits": 78210,
-      "contributors": 3079,
+      "commits": 78251,
+      "contributors": 3080,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -543,97 +543,88 @@
     },
     {
       "capturedOn": "2026-08-11",
-      "stars": 385931,
-      "forks": 81106,
+      "stars": 385938,
+      "forks": 81109,
       "subscribers": 1769,
-      "commits": 78210,
-      "contributors": 3079
+      "commits": 78251,
+      "contributors": 3080
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 122114,
-        "title": "Feature: Per-turn tool call cap + durable-commit-gates-turn (P0 incident root cause)",
-        "url": "https://github.com/openclaw/openclaw/issues/122114",
+        "number": 118999,
+        "title": "[Feature]: Bind native Codex Realtime V3 voice to existing sessions",
+        "url": "https://github.com/openclaw/openclaw/issues/118999",
         "state": "open",
-        "author": "xiaolongxia168",
-        "updatedAt": "2026-08-11T16:10:46Z"
+        "author": "GoatInAHat",
+        "updatedAt": "2026-08-11T17:10:43Z"
       },
       {
         "kind": "issue",
-        "number": 120748,
-        "title": "[Bug]: Automation selectors display non-authoritative values",
-        "url": "https://github.com/openclaw/openclaw/issues/120748",
-        "state": "closed",
-        "author": "shakkernerd",
-        "updatedAt": "2026-08-11T16:10:00Z"
-      },
-      {
-        "kind": "issue",
-        "number": 82710,
-        "title": "[Feature]: Extend `models status --probe` with Codex app-server viability checks",
-        "url": "https://github.com/openclaw/openclaw/issues/82710",
+        "number": 122132,
+        "title": "[Bug]: sessions_send does not accept timeoutSeconds/runTimeoutSeconds, preventing callers from sizing the recipient session",
+        "url": "https://github.com/openclaw/openclaw/issues/122132",
         "state": "open",
-        "author": "rteoo",
-        "updatedAt": "2026-08-11T16:09:59Z"
+        "author": "yozakura-ava",
+        "updatedAt": "2026-08-11T17:07:36Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 122020,
-        "title": "refactor: consolidate remaining coercion helpers",
-        "url": "https://github.com/openclaw/openclaw/pull/122020",
+        "number": 98373,
+        "title": "docs(clickclack): add CSRF 403 troubleshooting for managed proxy (#98362)",
+        "url": "https://github.com/openclaw/openclaw/pull/98373",
         "state": "open",
+        "author": "zhangLei99586",
+        "updatedAt": "2026-08-11T17:10:51Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122154,
+        "title": "refactor(ai): remove stale completions compat test bridge",
+        "url": "https://github.com/openclaw/openclaw/pull/122154",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-11T16:10:55Z"
+        "updatedAt": "2026-08-11T17:10:44Z"
       },
       {
         "kind": "pr",
-        "number": 113673,
-        "title": "feat(workboard): clarify proof provenance and diagnostics",
-        "url": "https://github.com/openclaw/openclaw/pull/113673",
+        "number": 119001,
+        "title": "feat(codex): bind native realtime voice to existing sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/119001",
         "state": "open",
-        "author": "fr-meyer",
-        "updatedAt": "2026-08-11T16:10:50Z"
+        "author": "GoatInAHat",
+        "updatedAt": "2026-08-11T17:10:43Z"
       },
       {
         "kind": "pr",
-        "number": 118488,
-        "title": "fix(heartbeat): keep failed work pending after alerts",
-        "url": "https://github.com/openclaw/openclaw/pull/118488",
+        "number": 121164,
+        "title": "fix(gateway): bound stalled session subscriptions without changing browser defaults",
+        "url": "https://github.com/openclaw/openclaw/pull/121164",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-11T17:10:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122036,
+        "title": "fix(agents): replace stale timeout payloads precisely",
+        "url": "https://github.com/openclaw/openclaw/pull/122036",
         "state": "open",
-        "author": "emma300es",
-        "updatedAt": "2026-08-11T16:10:49Z"
+        "author": "Alix-007",
+        "updatedAt": "2026-08-11T17:10:18Z"
       },
       {
         "kind": "pr",
-        "number": 104820,
-        "title": "fix(searxng): honor env SecretRef provider policy",
-        "url": "https://github.com/openclaw/openclaw/pull/104820",
-        "state": "open",
-        "author": "Leon-SK668",
-        "updatedAt": "2026-08-11T16:10:43Z"
-      },
-      {
-        "kind": "pr",
-        "number": 122129,
-        "title": "fix(mcp): preserve authorized sessions during login",
-        "url": "https://github.com/openclaw/openclaw/pull/122129",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-08-11T16:10:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 122104,
-        "title": "fix(slack): retry member events after transient lookup failures",
-        "url": "https://github.com/openclaw/openclaw/pull/122104",
+        "number": 122160,
+        "title": "fix(test): keep CLI process suites in owner lane",
+        "url": "https://github.com/openclaw/openclaw/pull/122160",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-11T16:10:25Z"
+        "updatedAt": "2026-08-11T17:09:54Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-11T13:40:26.076Z",
+  "generatedAt": "2026-08-11T15:15:14.305Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -428,17 +428,17 @@
     },
     {
       "capturedOn": "2026-08-11",
-      "capturedAt": "2026-08-11T13:40:26.076Z",
-      "issueOpen": 3474,
-      "issueClosed": 43162,
-      "prOpen": 2132,
-      "prClosed": 70809,
-      "prMerged": 23875,
+      "capturedAt": "2026-08-11T15:15:14.305Z",
+      "issueOpen": 3480,
+      "issueClosed": 43167,
+      "prOpen": 2147,
+      "prClosed": 70828,
+      "prMerged": 23891,
       "workflowRuns": 40000,
-      "stars": 385919,
-      "forks": 81098,
+      "stars": 385928,
+      "forks": 81106,
       "subscribers": 1768,
-      "commits": 78174,
+      "commits": 78192,
       "contributors": 3079,
       "source": "github-actions",
       "approximateDate": false
@@ -543,10 +543,10 @@
     },
     {
       "capturedOn": "2026-08-11",
-      "stars": 385919,
-      "forks": 81098,
+      "stars": 385928,
+      "forks": 81106,
       "subscribers": 1768,
-      "commits": 78174,
+      "commits": 78192,
       "contributors": 3079
     }
   ],
@@ -554,41 +554,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 119181,
-        "title": "Session cost silently reports 0 while token usage is real; invalid configured model id silently substitutes a more expensive model",
-        "url": "https://github.com/openclaw/openclaw/issues/119181",
+        "number": 122094,
+        "title": "[Bug]: server-kernel test hangs at HTTP-listen under merge-ref shard compositions (120s timeout)",
+        "url": "https://github.com/openclaw/openclaw/issues/122094",
         "state": "open",
-        "author": "morpheuxx",
-        "updatedAt": "2026-08-11T13:33:43Z"
+        "author": "obviyus",
+        "updatedAt": "2026-08-11T15:14:20Z"
+      },
+      {
+        "kind": "issue",
+        "number": 58957,
+        "title": "Model switch can fail silently when carried-over session context is too large",
+        "url": "https://github.com/openclaw/openclaw/issues/58957",
+        "state": "open",
+        "author": "LunaLee0130",
+        "updatedAt": "2026-08-11T15:13:21Z"
+      },
+      {
+        "kind": "issue",
+        "number": 97616,
+        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
+        "url": "https://github.com/openclaw/openclaw/issues/97616",
+        "state": "open",
+        "author": "avp717",
+        "updatedAt": "2026-08-11T15:13:19Z"
+      },
+      {
+        "kind": "issue",
+        "number": 78537,
+        "title": "[Docs]: `allowInsecurePath` Linux uid-check behavior is undocumented; users on Linux cannot use system-package binaries (e.g. /usr/bin/op) without it",
+        "url": "https://github.com/openclaw/openclaw/issues/78537",
+        "state": "open",
+        "author": "esqandil",
+        "updatedAt": "2026-08-11T15:13:12Z"
+      },
+      {
+        "kind": "issue",
+        "number": 68478,
+        "title": "Auto system messages spam the chat (e.g. '💾 Cron job created', '💾 Skill installed')",
+        "url": "https://github.com/openclaw/openclaw/issues/68478",
+        "state": "open",
+        "author": "ShadowEnemyx",
+        "updatedAt": "2026-08-11T15:13:12Z"
+      },
+      {
+        "kind": "issue",
+        "number": 102439,
+        "title": "[Bug]: Slack Socket Mode ghost connections after gateway restart silently drop inbound messages",
+        "url": "https://github.com/openclaw/openclaw/issues/102439",
+        "state": "open",
+        "author": "ZOOWH",
+        "updatedAt": "2026-08-11T15:13:05Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113734,
-        "title": "docs: add Neon AI Gateway provider guide",
-        "url": "https://github.com/openclaw/openclaw/pull/113734",
+        "number": 122095,
+        "title": "improve: remove redundant slow heartbeat admission test",
+        "url": "https://github.com/openclaw/openclaw/pull/122095",
         "state": "open",
-        "author": "mezotv",
-        "updatedAt": "2026-08-11T13:39:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120332,
-        "title": "fix(config): config validate rejects a replacement plugin's own channel config keys [AI]",
-        "url": "https://github.com/openclaw/openclaw/pull/120332",
-        "state": "open",
-        "author": "marmar9615-cloud",
-        "updatedAt": "2026-08-11T13:39:29Z"
-      },
-      {
-        "kind": "pr",
-        "number": 105564,
-        "title": "fix: tighten readSchema.limit from Type.Number to Type.Integer",
-        "url": "https://github.com/openclaw/openclaw/pull/105564",
-        "state": "closed",
-        "author": "lzyyzznl",
-        "updatedAt": "2026-08-11T13:38:47Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-11T15:15:09Z"
       },
       {
         "kind": "pr",
@@ -597,25 +624,43 @@
         "url": "https://github.com/openclaw/openclaw/pull/121991",
         "state": "open",
         "author": "M-Nabeegh",
-        "updatedAt": "2026-08-11T13:38:39Z"
+        "updatedAt": "2026-08-11T15:14:59Z"
       },
       {
         "kind": "pr",
-        "number": 121893,
-        "title": "refactor: burn cross-directory export name collisions",
-        "url": "https://github.com/openclaw/openclaw/pull/121893",
+        "number": 80396,
+        "title": "fix(media): warn when MEDIA: token is skipped inside fenced code block (#41966)",
+        "url": "https://github.com/openclaw/openclaw/pull/80396",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-11T13:38:29Z"
+        "author": "Bartok9",
+        "updatedAt": "2026-08-11T15:14:35Z"
       },
       {
         "kind": "pr",
-        "number": 122050,
-        "title": "fix(ci): isolate gateway kernel plugin registry state",
-        "url": "https://github.com/openclaw/openclaw/pull/122050",
+        "number": 122086,
+        "title": "fix(ci): make Control UI artifact validation consistent",
+        "url": "https://github.com/openclaw/openclaw/pull/122086",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-11T13:38:05Z"
+        "updatedAt": "2026-08-11T15:13:55Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112032,
+        "title": "fix(mcp): bind stored OAuth refresh token to its issuer",
+        "url": "https://github.com/openclaw/openclaw/pull/112032",
+        "state": "closed",
+        "author": "yetval",
+        "updatedAt": "2026-08-11T15:13:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119947,
+        "title": "feat(qa): execute Telegram module flows through the live adapter",
+        "url": "https://github.com/openclaw/openclaw/pull/119947",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-11T15:13:28Z"
       }
     ]
   }

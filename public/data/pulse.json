@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-12T19:18:15.626Z",
+  "generatedAt": "2026-08-12T21:01:25.108Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -445,17 +445,17 @@
     },
     {
       "capturedOn": "2026-08-12",
-      "capturedAt": "2026-08-12T19:18:15.626Z",
-      "issueOpen": 3414,
-      "issueClosed": 43415,
-      "prOpen": 2125,
-      "prClosed": 71347,
-      "prMerged": 24284,
+      "capturedAt": "2026-08-12T21:01:25.108Z",
+      "issueOpen": 3417,
+      "issueClosed": 43425,
+      "prOpen": 2108,
+      "prClosed": 71387,
+      "prMerged": 24307,
       "workflowRuns": 40000,
-      "stars": 386063,
-      "forks": 81140,
+      "stars": 386072,
+      "forks": 81141,
       "subscribers": 1767,
-      "commits": 78648,
+      "commits": 78670,
       "contributors": 3090,
       "source": "github-actions",
       "approximateDate": false
@@ -568,10 +568,10 @@
     },
     {
       "capturedOn": "2026-08-12",
-      "stars": 386063,
-      "forks": 81140,
+      "stars": 386072,
+      "forks": 81141,
       "subscribers": 1767,
-      "commits": 78648,
+      "commits": 78670,
       "contributors": 3090
     }
   ],
@@ -579,113 +579,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 109726,
-        "title": "Runtime-level model fallback on API call failure",
-        "url": "https://github.com/openclaw/openclaw/issues/109726",
-        "state": "open",
-        "author": "yangbo1014",
-        "updatedAt": "2026-08-12T19:18:02Z"
-      },
-      {
-        "kind": "issue",
-        "number": 116473,
-        "title": "[Feature]: Operator-initiated inter-agent delegation via @A ask @B syntax (one-shot, with audit log entry)",
-        "url": "https://github.com/openclaw/openclaw/issues/116473",
-        "state": "open",
-        "author": "patelmm79",
-        "updatedAt": "2026-08-12T19:17:49Z"
-      },
-      {
-        "kind": "issue",
-        "number": 122761,
-        "title": "WhatsApp: distinct-ID repeated messages can be dropped as echoes",
-        "url": "https://github.com/openclaw/openclaw/issues/122761",
+        "number": 122801,
+        "title": "Zalo: published setup API points to a missing runtime path",
+        "url": "https://github.com/openclaw/openclaw/issues/122801",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-12T19:17:42Z"
+        "updatedAt": "2026-08-12T21:00:58Z"
       },
       {
         "kind": "issue",
-        "number": 122763,
-        "title": "Capacity-group completion can indefinitely starve an older sibling queue",
-        "url": "https://github.com/openclaw/openclaw/issues/122763",
+        "number": 122797,
+        "title": "Onboarding: daemon install failure can exit successfully with --skip-health",
+        "url": "https://github.com/openclaw/openclaw/issues/122797",
         "state": "open",
-        "author": "HermanZeng",
-        "updatedAt": "2026-08-12T19:17:33Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-12T20:59:00Z"
       },
       {
         "kind": "issue",
-        "number": 122778,
-        "title": "Codex gateway health does not expose model account readiness",
-        "url": "https://github.com/openclaw/openclaw/issues/122778",
+        "number": 122799,
+        "title": "Control UI: allow read-only operators to copy retained task results",
+        "url": "https://github.com/openclaw/openclaw/issues/122799",
         "state": "open",
-        "author": "kevinlin-openai",
-        "updatedAt": "2026-08-12T19:17:17Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-12T20:58:27Z"
       },
       {
         "kind": "issue",
-        "number": 112099,
-        "title": "[Architecture] Standardize audio/video asset pipeline across TTS and media generation skills",
-        "url": "https://github.com/openclaw/openclaw/issues/112099",
+        "number": 122815,
+        "title": "[Bug]: Telegram inbound message dispatched to multiple agent sessions during long-running turns (single inbound receive spawns N paid model turns)",
+        "url": "https://github.com/openclaw/openclaw/issues/122815",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-12T19:16:46Z"
+        "author": "RookDev-AU",
+        "updatedAt": "2026-08-12T20:58:09Z"
+      },
+      {
+        "kind": "issue",
+        "number": 122798,
+        "title": "Feature Request: Integration of ClawController Kanban UI into OpenClaw Native Dashboard",
+        "url": "https://github.com/openclaw/openclaw/issues/122798",
+        "state": "open",
+        "author": "afonsoft",
+        "updatedAt": "2026-08-12T21:01:21Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 122503,
-        "title": "fix(codex): retain direct-child hook policy after parent yield",
-        "url": "https://github.com/openclaw/openclaw/pull/122503",
+        "number": 122644,
+        "title": "fix: resume sessions interrupted by gateway restarts",
+        "url": "https://github.com/openclaw/openclaw/pull/122644",
         "state": "open",
-        "author": "bek91",
-        "updatedAt": "2026-08-12T19:18:09Z"
+        "author": "jalehman",
+        "updatedAt": "2026-08-12T21:01:18Z"
       },
       {
         "kind": "pr",
-        "number": 119702,
-        "title": "fix(security): guard patternProperties defaults with compileSafeRegex",
-        "url": "https://github.com/openclaw/openclaw/pull/119702",
-        "state": "open",
-        "author": "SebTardif",
-        "updatedAt": "2026-08-12T19:18:08Z"
-      },
-      {
-        "kind": "pr",
-        "number": 82950,
-        "title": "fix(security): prevent unsafe approval patterns from hanging command authorization",
-        "url": "https://github.com/openclaw/openclaw/pull/82950",
-        "state": "open",
-        "author": "SebTardif",
-        "updatedAt": "2026-08-12T19:18:07Z"
-      },
-      {
-        "kind": "pr",
-        "number": 122777,
-        "title": "test(skills): reuse workshop state database",
-        "url": "https://github.com/openclaw/openclaw/pull/122777",
+        "number": 122811,
+        "title": "chore: parallelize web fetch CLI checks",
+        "url": "https://github.com/openclaw/openclaw/pull/122811",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-12T19:18:05Z"
+        "updatedAt": "2026-08-12T21:01:17Z"
       },
       {
         "kind": "pr",
-        "number": 119061,
-        "title": "fix(memory): show canonical-session migration recovery instead of provider error",
-        "url": "https://github.com/openclaw/openclaw/pull/119061",
+        "number": 114388,
+        "title": "refactor(agents): make multi-agent ownership explicit (H2-1 core)",
+        "url": "https://github.com/openclaw/openclaw/pull/114388",
         "state": "open",
-        "author": "ZYV5ge",
-        "updatedAt": "2026-08-12T19:18:02Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-12T21:01:13Z"
       },
       {
         "kind": "pr",
-        "number": 118800,
-        "title": "fix(agents): use 'unclassified' instead of 'unknown' for uncategorized fallback reasons",
-        "url": "https://github.com/openclaw/openclaw/pull/118800",
+        "number": 122536,
+        "title": "feat: portals — expose agent-run dev servers to the operator",
+        "url": "https://github.com/openclaw/openclaw/pull/122536",
         "state": "open",
-        "author": "shivamsinghofficialid01-hash",
-        "updatedAt": "2026-08-12T19:17:59Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-12T21:01:04Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122806,
+        "title": "fix(msteams): support channel-wide sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/122806",
+        "state": "open",
+        "author": "gbharg",
+        "updatedAt": "2026-08-12T21:00:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122782,
+        "title": "fix(slack): stop repeated outage notices in active threads",
+        "url": "https://github.com/openclaw/openclaw/pull/122782",
+        "state": "open",
+        "author": "Kimiyu-186",
+        "updatedAt": "2026-08-12T21:00:10Z"
       }
     ]
   }

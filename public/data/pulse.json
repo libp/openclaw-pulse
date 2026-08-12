@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-12T10:19:01.327Z",
+  "generatedAt": "2026-08-12T13:44:20.101Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -445,18 +445,18 @@
     },
     {
       "capturedOn": "2026-08-12",
-      "capturedAt": "2026-08-12T10:19:01.327Z",
-      "issueOpen": 3449,
-      "issueClosed": 43326,
-      "prOpen": 2123,
-      "prClosed": 71207,
-      "prMerged": 24176,
+      "capturedAt": "2026-08-12T13:44:20.101Z",
+      "issueOpen": 3426,
+      "issueClosed": 43366,
+      "prOpen": 2112,
+      "prClosed": 71248,
+      "prMerged": 24202,
       "workflowRuns": 40000,
-      "stars": 386027,
-      "forks": 81131,
+      "stars": 386046,
+      "forks": 81133,
       "subscribers": 1766,
-      "commits": 78521,
-      "contributors": 3084,
+      "commits": 78547,
+      "contributors": 3086,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -568,106 +568,115 @@
     },
     {
       "capturedOn": "2026-08-12",
-      "stars": 386027,
-      "forks": 81131,
+      "stars": 386046,
+      "forks": 81133,
       "subscribers": 1766,
-      "commits": 78521,
-      "contributors": 3084
+      "commits": 78547,
+      "contributors": 3086
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 122583,
-        "title": "[Bug]: Reasoning-only responses via OpenRouter discarded with 'No text output returned' (kimi-k2.6, minimax-m2.5)",
-        "url": "https://github.com/openclaw/openclaw/issues/122583",
-        "state": "open",
-        "author": "constant1n0",
-        "updatedAt": "2026-08-12T10:16:56Z"
+        "number": 56366,
+        "title": "feat(skills): add option to disable ~/.agents/skills scanning for Claude Code coexistence",
+        "url": "https://github.com/openclaw/openclaw/issues/56366",
+        "state": "closed",
+        "author": "buzhihuowu2019",
+        "updatedAt": "2026-08-12T13:43:39Z"
       },
       {
         "kind": "issue",
-        "number": 122582,
-        "title": "[Bug]: Config/auth change makes the gateway self-exit cleanly expecting a supervisor — under systemd Restart=on-failure it stays dead",
-        "url": "https://github.com/openclaw/openclaw/issues/122582",
-        "state": "open",
-        "author": "constant1n0",
-        "updatedAt": "2026-08-12T10:16:55Z"
+        "number": 57256,
+        "title": "[Bug]: openclaw status falsely reports openclaw-mem0 memory as unavailable when the live gateway plugin is working",
+        "url": "https://github.com/openclaw/openclaw/issues/57256",
+        "state": "closed",
+        "author": "leofaoro",
+        "updatedAt": "2026-08-12T13:40:30Z"
       },
       {
         "kind": "issue",
-        "number": 90445,
-        "title": "Control Panel: Add tooltips/clarifying labels for Reasoning and Thinking dropdowns (Config↔UI naming collision)",
-        "url": "https://github.com/openclaw/openclaw/issues/90445",
+        "number": 122630,
+        "title": "[Bug]: cron — an in-flight isolated run's own session entry is invalidated mid-run (no log, no API call); finalize discards the completed reply and the \"Retry.\" alert never retries",
+        "url": "https://github.com/openclaw/openclaw/issues/122630",
         "state": "open",
-        "author": "openkralle",
-        "updatedAt": "2026-08-12T10:16:47Z"
+        "author": "abacha",
+        "updatedAt": "2026-08-12T13:39:02Z"
       },
       {
         "kind": "issue",
-        "number": 61716,
-        "title": "[Feature]: Add model parameter prompts (context window, max_tokens, modalities) during OpenAI-compatible provider onboarding CLI flow",
-        "url": "https://github.com/openclaw/openclaw/issues/61716",
+        "number": 57307,
+        "title": "[Feature]: Memory importance scoring + time decay for long-term memory",
+        "url": "https://github.com/openclaw/openclaw/issues/57307",
+        "state": "closed",
+        "author": "kophysty",
+        "updatedAt": "2026-08-12T13:35:16Z"
+      },
+      {
+        "kind": "issue",
+        "number": 122629,
+        "title": "Gateway process was not replaced after restart handling for a channels.whatsapp.allowFrom config change (2026.6.33)",
+        "url": "https://github.com/openclaw/openclaw/issues/122629",
         "state": "open",
-        "author": "Andy-Xie-1145",
-        "updatedAt": "2026-08-12T10:16:18Z"
+        "author": "KrzychuM",
+        "updatedAt": "2026-08-12T13:31:17Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 111922,
-        "title": "fix(memory): filter assistant process chatter from dreams",
-        "url": "https://github.com/openclaw/openclaw/pull/111922",
+        "number": 122194,
+        "title": "feat(ai): add HTTP continuation cache for the OpenAI Responses SSE path",
+        "url": "https://github.com/openclaw/openclaw/pull/122194",
         "state": "open",
-        "author": "ArthurNie",
-        "updatedAt": "2026-08-12T10:17:49Z"
+        "author": "hartmark",
+        "updatedAt": "2026-08-12T13:40:21Z"
       },
       {
         "kind": "pr",
-        "number": 121137,
-        "title": "fix(cron): keep overview refreshes generation-consistent",
-        "url": "https://github.com/openclaw/openclaw/pull/121137",
+        "number": 122051,
+        "title": "fix(memory): recall prior conversation after session reset",
+        "url": "https://github.com/openclaw/openclaw/pull/122051",
+        "state": "open",
+        "author": "TheAngryPit",
+        "updatedAt": "2026-08-12T13:38:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119243,
+        "title": "fix(feishu): keep bot's own mention in group content",
+        "url": "https://github.com/openclaw/openclaw/pull/119243",
+        "state": "open",
+        "author": "licheer-zte",
+        "updatedAt": "2026-08-12T13:38:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 81157,
+        "title": "fix(agents): validate process actions at the schema boundary",
+        "url": "https://github.com/openclaw/openclaw/pull/81157",
+        "state": "open",
+        "author": "sholomsbs33",
+        "updatedAt": "2026-08-12T13:38:23Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122200,
+        "title": "fix(android): expand truncated assistant messages",
+        "url": "https://github.com/openclaw/openclaw/pull/122200",
         "state": "open",
         "author": "Alix-007",
-        "updatedAt": "2026-08-12T10:17:47Z"
+        "updatedAt": "2026-08-12T13:38:12Z"
       },
       {
         "kind": "pr",
-        "number": 122545,
-        "title": "feat: view this machine in the Desktop panel",
-        "url": "https://github.com/openclaw/openclaw/pull/122545",
+        "number": 113013,
+        "title": "fix(minimax): keep sensitive output terminal",
+        "url": "https://github.com/openclaw/openclaw/pull/113013",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-12T10:17:33Z"
-      },
-      {
-        "kind": "pr",
-        "number": 122485,
-        "title": "feat(backup): recorded runs, scheduled backups, and git-backed versioned snapshots",
-        "url": "https://github.com/openclaw/openclaw/pull/122485",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-12T10:17:15Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114506,
-        "title": "fix(browser): keep guarded CDP sockets on validated endpoints [AI]",
-        "url": "https://github.com/openclaw/openclaw/pull/114506",
-        "state": "open",
-        "author": "pgondhi987",
-        "updatedAt": "2026-08-12T10:17:15Z"
-      },
-      {
-        "kind": "pr",
-        "number": 122571,
-        "title": "chore(ui): refresh control ui locales",
-        "url": "https://github.com/openclaw/openclaw/pull/122571",
-        "state": "open",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-08-12T10:17:09Z"
+        "author": "liuhaiyang14",
+        "updatedAt": "2026-08-12T13:37:35Z"
       }
     ]
   }

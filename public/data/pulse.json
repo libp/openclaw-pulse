@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-12T13:44:20.101Z",
+  "generatedAt": "2026-08-12T15:13:08.735Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -445,18 +445,18 @@
     },
     {
       "capturedOn": "2026-08-12",
-      "capturedAt": "2026-08-12T13:44:20.101Z",
-      "issueOpen": 3426,
-      "issueClosed": 43366,
-      "prOpen": 2112,
-      "prClosed": 71248,
-      "prMerged": 24202,
+      "capturedAt": "2026-08-12T15:13:08.735Z",
+      "issueOpen": 3420,
+      "issueClosed": 43380,
+      "prOpen": 2134,
+      "prClosed": 71269,
+      "prMerged": 24217,
       "workflowRuns": 40000,
-      "stars": 386046,
-      "forks": 81133,
+      "stars": 386057,
+      "forks": 81140,
       "subscribers": 1766,
-      "commits": 78547,
-      "contributors": 3086,
+      "commits": 78578,
+      "contributors": 3087,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -568,115 +568,115 @@
     },
     {
       "capturedOn": "2026-08-12",
-      "stars": 386046,
-      "forks": 81133,
+      "stars": 386057,
+      "forks": 81140,
       "subscribers": 1766,
-      "commits": 78547,
-      "contributors": 3086
+      "commits": 78578,
+      "contributors": 3087
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 56366,
-        "title": "feat(skills): add option to disable ~/.agents/skills scanning for Claude Code coexistence",
-        "url": "https://github.com/openclaw/openclaw/issues/56366",
-        "state": "closed",
-        "author": "buzhihuowu2019",
-        "updatedAt": "2026-08-12T13:43:39Z"
-      },
-      {
-        "kind": "issue",
-        "number": 57256,
-        "title": "[Bug]: openclaw status falsely reports openclaw-mem0 memory as unavailable when the live gateway plugin is working",
-        "url": "https://github.com/openclaw/openclaw/issues/57256",
-        "state": "closed",
-        "author": "leofaoro",
-        "updatedAt": "2026-08-12T13:40:30Z"
-      },
-      {
-        "kind": "issue",
-        "number": 122630,
-        "title": "[Bug]: cron — an in-flight isolated run's own session entry is invalidated mid-run (no log, no API call); finalize discards the completed reply and the \"Retry.\" alert never retries",
-        "url": "https://github.com/openclaw/openclaw/issues/122630",
+        "number": 102412,
+        "title": "Feishu announce delivery never succeeds for isolated cron jobs; fallbackUsed inconsistently rescues output",
+        "url": "https://github.com/openclaw/openclaw/issues/102412",
         "state": "open",
-        "author": "abacha",
-        "updatedAt": "2026-08-12T13:39:02Z"
+        "author": "caspian9",
+        "updatedAt": "2026-08-12T15:12:36Z"
       },
       {
         "kind": "issue",
-        "number": 57307,
-        "title": "[Feature]: Memory importance scoring + time decay for long-term memory",
-        "url": "https://github.com/openclaw/openclaw/issues/57307",
-        "state": "closed",
-        "author": "kophysty",
-        "updatedAt": "2026-08-12T13:35:16Z"
-      },
-      {
-        "kind": "issue",
-        "number": 122629,
-        "title": "Gateway process was not replaced after restart handling for a channels.whatsapp.allowFrom config change (2026.6.33)",
-        "url": "https://github.com/openclaw/openclaw/issues/122629",
+        "number": 122201,
+        "title": "Background subagents (run_in_background) are killed by per-turn live-session recycling and misreported as user-stopped",
+        "url": "https://github.com/openclaw/openclaw/issues/122201",
         "state": "open",
-        "author": "KrzychuM",
-        "updatedAt": "2026-08-12T13:31:17Z"
+        "author": "eliavb43",
+        "updatedAt": "2026-08-12T15:12:27Z"
+      },
+      {
+        "kind": "issue",
+        "number": 84567,
+        "title": "[Bug]: Codex bundled harness initialize still hangs in 2026.5.18 isolated cron — surfaces via #64744 timeout-wrapping as 'isolated agent setup timed out before runner start'",
+        "url": "https://github.com/openclaw/openclaw/issues/84567",
+        "state": "open",
+        "author": "mrschaal",
+        "updatedAt": "2026-08-12T15:12:18Z"
+      },
+      {
+        "kind": "issue",
+        "number": 43567,
+        "title": "Surface internal system messages in a distinct UI block instead of normal chat bubbles",
+        "url": "https://github.com/openclaw/openclaw/issues/43567",
+        "state": "open",
+        "author": "prw760",
+        "updatedAt": "2026-08-12T15:12:08Z"
+      },
+      {
+        "kind": "issue",
+        "number": 103677,
+        "title": "cron: model override + agent-default toolsAllow silently breaks claude-cli scheduled runs; cron.run action fails even without override",
+        "url": "https://github.com/openclaw/openclaw/issues/103677",
+        "state": "open",
+        "author": "sandersaar",
+        "updatedAt": "2026-08-12T15:11:59Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 122194,
-        "title": "feat(ai): add HTTP continuation cache for the OpenAI Responses SSE path",
-        "url": "https://github.com/openclaw/openclaw/pull/122194",
+        "number": 122664,
+        "title": "fix(ci): preserve output across process polls",
+        "url": "https://github.com/openclaw/openclaw/pull/122664",
         "state": "open",
-        "author": "hartmark",
-        "updatedAt": "2026-08-12T13:40:21Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-12T15:13:02Z"
       },
       {
         "kind": "pr",
-        "number": 122051,
-        "title": "fix(memory): recall prior conversation after session reset",
-        "url": "https://github.com/openclaw/openclaw/pull/122051",
+        "number": 121659,
+        "title": "fix(ci): clear shared main reds for types, memory read, lint",
+        "url": "https://github.com/openclaw/openclaw/pull/121659",
         "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-08-12T13:38:35Z"
+        "author": "SebTardif",
+        "updatedAt": "2026-08-12T15:12:58Z"
       },
       {
         "kind": "pr",
-        "number": 119243,
-        "title": "fix(feishu): keep bot's own mention in group content",
-        "url": "https://github.com/openclaw/openclaw/pull/119243",
+        "number": 122675,
+        "title": "improve: speed up gateway session utility tests",
+        "url": "https://github.com/openclaw/openclaw/pull/122675",
         "state": "open",
-        "author": "licheer-zte",
-        "updatedAt": "2026-08-12T13:38:25Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-12T15:12:56Z"
       },
       {
         "kind": "pr",
-        "number": 81157,
-        "title": "fix(agents): validate process actions at the schema boundary",
-        "url": "https://github.com/openclaw/openclaw/pull/81157",
+        "number": 122660,
+        "title": "refactor(gateway): split Control UI auth test coverage",
+        "url": "https://github.com/openclaw/openclaw/pull/122660",
         "state": "open",
-        "author": "sholomsbs33",
-        "updatedAt": "2026-08-12T13:38:23Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-12T15:12:48Z"
       },
       {
         "kind": "pr",
-        "number": 122200,
-        "title": "fix(android): expand truncated assistant messages",
-        "url": "https://github.com/openclaw/openclaw/pull/122200",
+        "number": 122670,
+        "title": "refactor(openai): consolidate realtime test fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/122670",
         "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-08-12T13:38:12Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-12T15:12:41Z"
       },
       {
         "kind": "pr",
-        "number": 113013,
-        "title": "fix(minimax): keep sensitive output terminal",
-        "url": "https://github.com/openclaw/openclaw/pull/113013",
+        "number": 122667,
+        "title": "fix(slack): preserve original bytes for forced media",
+        "url": "https://github.com/openclaw/openclaw/pull/122667",
         "state": "open",
-        "author": "liuhaiyang14",
-        "updatedAt": "2026-08-12T13:37:35Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-12T15:12:40Z"
       }
     ]
   }

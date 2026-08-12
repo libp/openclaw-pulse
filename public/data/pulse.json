@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-12T15:13:08.735Z",
+  "generatedAt": "2026-08-12T16:08:42.226Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -445,18 +445,18 @@
     },
     {
       "capturedOn": "2026-08-12",
-      "capturedAt": "2026-08-12T15:13:08.735Z",
-      "issueOpen": 3420,
-      "issueClosed": 43380,
-      "prOpen": 2134,
-      "prClosed": 71269,
-      "prMerged": 24217,
+      "capturedAt": "2026-08-12T16:08:42.226Z",
+      "issueOpen": 3415,
+      "issueClosed": 43388,
+      "prOpen": 2130,
+      "prClosed": 71291,
+      "prMerged": 24235,
       "workflowRuns": 40000,
-      "stars": 386057,
+      "stars": 386056,
       "forks": 81140,
       "subscribers": 1766,
-      "commits": 78578,
-      "contributors": 3087,
+      "commits": 78598,
+      "contributors": 3088,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -568,115 +568,79 @@
     },
     {
       "capturedOn": "2026-08-12",
-      "stars": 386057,
+      "stars": 386056,
       "forks": 81140,
       "subscribers": 1766,
-      "commits": 78578,
-      "contributors": 3087
+      "commits": 78598,
+      "contributors": 3088
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 102412,
-        "title": "Feishu announce delivery never succeeds for isolated cron jobs; fallbackUsed inconsistently rescues output",
-        "url": "https://github.com/openclaw/openclaw/issues/102412",
-        "state": "open",
-        "author": "caspian9",
-        "updatedAt": "2026-08-12T15:12:36Z"
-      },
-      {
-        "kind": "issue",
-        "number": 122201,
-        "title": "Background subagents (run_in_background) are killed by per-turn live-session recycling and misreported as user-stopped",
-        "url": "https://github.com/openclaw/openclaw/issues/122201",
-        "state": "open",
-        "author": "eliavb43",
-        "updatedAt": "2026-08-12T15:12:27Z"
-      },
-      {
-        "kind": "issue",
-        "number": 84567,
-        "title": "[Bug]: Codex bundled harness initialize still hangs in 2026.5.18 isolated cron — surfaces via #64744 timeout-wrapping as 'isolated agent setup timed out before runner start'",
-        "url": "https://github.com/openclaw/openclaw/issues/84567",
-        "state": "open",
-        "author": "mrschaal",
-        "updatedAt": "2026-08-12T15:12:18Z"
-      },
-      {
-        "kind": "issue",
-        "number": 43567,
-        "title": "Surface internal system messages in a distinct UI block instead of normal chat bubbles",
-        "url": "https://github.com/openclaw/openclaw/issues/43567",
-        "state": "open",
-        "author": "prw760",
-        "updatedAt": "2026-08-12T15:12:08Z"
-      },
-      {
-        "kind": "issue",
-        "number": 103677,
-        "title": "cron: model override + agent-default toolsAllow silently breaks claude-cli scheduled runs; cron.run action fails even without override",
-        "url": "https://github.com/openclaw/openclaw/issues/103677",
-        "state": "open",
-        "author": "sandersaar",
-        "updatedAt": "2026-08-12T15:11:59Z"
+        "number": 41965,
+        "title": "Feature: force media delivery as document attachment (e.g. #doc)",
+        "url": "https://github.com/openclaw/openclaw/issues/41965",
+        "state": "closed",
+        "author": "phi0x",
+        "updatedAt": "2026-08-12T16:07:46Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 122664,
-        "title": "fix(ci): preserve output across process polls",
-        "url": "https://github.com/openclaw/openclaw/pull/122664",
+        "number": 122695,
+        "title": "fix(scripts): detect symlinked plugin SDK API barrels",
+        "url": "https://github.com/openclaw/openclaw/pull/122695",
         "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-12T16:08:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122702,
+        "title": "feat(cli): allow editing automation display names",
+        "url": "https://github.com/openclaw/openclaw/pull/122702",
+        "state": "open",
+        "author": "jjjhenriksen",
+        "updatedAt": "2026-08-12T16:08:32Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122356,
+        "title": "fix(slack): retry member events after transient lookup failures",
+        "url": "https://github.com/openclaw/openclaw/pull/122356",
+        "state": "closed",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-12T15:13:02Z"
+        "updatedAt": "2026-08-12T16:08:24Z"
       },
       {
         "kind": "pr",
-        "number": 121659,
-        "title": "fix(ci): clear shared main reds for types, memory read, lint",
-        "url": "https://github.com/openclaw/openclaw/pull/121659",
+        "number": 118681,
+        "title": "fix(agents): bounded memory flush before recovery compaction",
+        "url": "https://github.com/openclaw/openclaw/pull/118681",
         "state": "open",
-        "author": "SebTardif",
-        "updatedAt": "2026-08-12T15:12:58Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-08-12T16:08:24Z"
       },
       {
         "kind": "pr",
-        "number": 122675,
-        "title": "improve: speed up gateway session utility tests",
-        "url": "https://github.com/openclaw/openclaw/pull/122675",
+        "number": 119950,
+        "title": "fix(gateway): reject unattributable loopback proxy traffic [AI]",
+        "url": "https://github.com/openclaw/openclaw/pull/119950",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-12T15:12:56Z"
+        "author": "pgondhi987",
+        "updatedAt": "2026-08-12T16:08:15Z"
       },
       {
         "kind": "pr",
-        "number": 122660,
-        "title": "refactor(gateway): split Control UI auth test coverage",
-        "url": "https://github.com/openclaw/openclaw/pull/122660",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-12T15:12:48Z"
-      },
-      {
-        "kind": "pr",
-        "number": 122670,
-        "title": "refactor(openai): consolidate realtime test fixtures",
-        "url": "https://github.com/openclaw/openclaw/pull/122670",
+        "number": 114388,
+        "title": "refactor(agents): make multi-agent ownership explicit (H2-1 core)",
+        "url": "https://github.com/openclaw/openclaw/pull/114388",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-12T15:12:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 122667,
-        "title": "fix(slack): preserve original bytes for forced media",
-        "url": "https://github.com/openclaw/openclaw/pull/122667",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-12T15:12:40Z"
+        "updatedAt": "2026-08-12T16:08:12Z"
       }
     ]
   }

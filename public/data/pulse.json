@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-12T21:01:25.108Z",
+  "generatedAt": "2026-08-12T22:01:13.514Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -445,17 +445,17 @@
     },
     {
       "capturedOn": "2026-08-12",
-      "capturedAt": "2026-08-12T21:01:25.108Z",
-      "issueOpen": 3417,
-      "issueClosed": 43425,
-      "prOpen": 2108,
-      "prClosed": 71387,
-      "prMerged": 24307,
+      "capturedAt": "2026-08-12T22:01:13.514Z",
+      "issueOpen": 3414,
+      "issueClosed": 43431,
+      "prOpen": 2109,
+      "prClosed": 71402,
+      "prMerged": 24319,
       "workflowRuns": 40000,
       "stars": 386072,
-      "forks": 81141,
+      "forks": 81142,
       "subscribers": 1767,
-      "commits": 78670,
+      "commits": 78680,
       "contributors": 3090,
       "source": "github-actions",
       "approximateDate": false
@@ -569,9 +569,9 @@
     {
       "capturedOn": "2026-08-12",
       "stars": 386072,
-      "forks": 81141,
+      "forks": 81142,
       "subscribers": 1767,
-      "commits": 78670,
+      "commits": 78680,
       "contributors": 3090
     }
   ],
@@ -579,77 +579,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 122801,
-        "title": "Zalo: published setup API points to a missing runtime path",
-        "url": "https://github.com/openclaw/openclaw/issues/122801",
+        "number": 78038,
+        "title": "[Feature]: Improve zh-CN translation accuracy and completeness",
+        "url": "https://github.com/openclaw/openclaw/issues/78038",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-12T21:00:58Z"
+        "author": "LifetimeVip",
+        "updatedAt": "2026-08-12T22:00:49Z"
       },
       {
         "kind": "issue",
-        "number": 122797,
-        "title": "Onboarding: daemon install failure can exit successfully with --skip-health",
-        "url": "https://github.com/openclaw/openclaw/issues/122797",
+        "number": 122834,
+        "title": "Windows gateway restart path unreliable after active-turn crash",
+        "url": "https://github.com/openclaw/openclaw/issues/122834",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-12T20:59:00Z"
+        "author": "SimonSteggles",
+        "updatedAt": "2026-08-12T22:00:47Z"
       },
       {
         "kind": "issue",
-        "number": 122799,
-        "title": "Control UI: allow read-only operators to copy retained task results",
-        "url": "https://github.com/openclaw/openclaw/issues/122799",
+        "number": 110368,
+        "title": "[Bug]: ACP sessions in Control UI (webchat) show duplicate identical replies for each prompt",
+        "url": "https://github.com/openclaw/openclaw/issues/110368",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-12T20:58:27Z"
+        "author": "iamtornado",
+        "updatedAt": "2026-08-12T22:00:38Z"
       },
       {
         "kind": "issue",
-        "number": 122815,
-        "title": "[Bug]: Telegram inbound message dispatched to multiple agent sessions during long-running turns (single inbound receive spawns N paid model turns)",
-        "url": "https://github.com/openclaw/openclaw/issues/122815",
+        "number": 109659,
+        "title": "Channel auto-restart is lost silently when the abort signal races the backoff sleep (empty catch swallows the rejection)",
+        "url": "https://github.com/openclaw/openclaw/issues/109659",
         "state": "open",
-        "author": "RookDev-AU",
-        "updatedAt": "2026-08-12T20:58:09Z"
+        "author": "JOY",
+        "updatedAt": "2026-08-12T21:59:06Z"
       },
       {
         "kind": "issue",
-        "number": 122798,
-        "title": "Feature Request: Integration of ClawController Kanban UI into OpenClaw Native Dashboard",
-        "url": "https://github.com/openclaw/openclaw/issues/122798",
+        "number": 102907,
+        "title": "Azure OpenAI Responses throws 400 when prompt_cache_key is sent to endpoints that do not support it",
+        "url": "https://github.com/openclaw/openclaw/issues/102907",
         "state": "open",
-        "author": "afonsoft",
-        "updatedAt": "2026-08-12T21:01:21Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-08-12T21:58:20Z"
+      },
+      {
+        "kind": "issue",
+        "number": 102687,
+        "title": "[Bug]: Slack channel history window is never cleared on reply; \"Chat history since last reply\" grows into a rolling buffer",
+        "url": "https://github.com/openclaw/openclaw/issues/102687",
+        "state": "open",
+        "author": "gorkem2020",
+        "updatedAt": "2026-08-12T21:57:51Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 122644,
-        "title": "fix: resume sessions interrupted by gateway restarts",
-        "url": "https://github.com/openclaw/openclaw/pull/122644",
+        "number": 113241,
+        "title": "improve(acpx): reduce ACP router prompt overhead",
+        "url": "https://github.com/openclaw/openclaw/pull/113241",
         "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-08-12T21:01:18Z"
+        "author": "pjcka",
+        "updatedAt": "2026-08-12T22:00:59Z"
       },
       {
         "kind": "pr",
-        "number": 122811,
-        "title": "chore: parallelize web fetch CLI checks",
-        "url": "https://github.com/openclaw/openclaw/pull/122811",
+        "number": 122833,
+        "title": "chore: enforce precise TypeScript type evidence",
+        "url": "https://github.com/openclaw/openclaw/pull/122833",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-12T21:01:17Z"
+        "updatedAt": "2026-08-12T22:00:48Z"
       },
       {
         "kind": "pr",
-        "number": 114388,
-        "title": "refactor(agents): make multi-agent ownership explicit (H2-1 core)",
-        "url": "https://github.com/openclaw/openclaw/pull/114388",
+        "number": 122831,
+        "title": "fix(codex): keep sessionless mirror warnings out of onboarding",
+        "url": "https://github.com/openclaw/openclaw/pull/122831",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-12T21:01:13Z"
+        "updatedAt": "2026-08-12T22:00:41Z"
       },
       {
         "kind": "pr",
@@ -658,25 +667,25 @@
         "url": "https://github.com/openclaw/openclaw/pull/122536",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-12T21:01:04Z"
+        "updatedAt": "2026-08-12T22:00:41Z"
       },
       {
         "kind": "pr",
-        "number": 122806,
-        "title": "fix(msteams): support channel-wide sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/122806",
+        "number": 114388,
+        "title": "refactor(agents): make multi-agent ownership explicit (H2-1 core)",
+        "url": "https://github.com/openclaw/openclaw/pull/114388",
         "state": "open",
-        "author": "gbharg",
-        "updatedAt": "2026-08-12T21:00:33Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-12T22:00:33Z"
       },
       {
         "kind": "pr",
-        "number": 122782,
-        "title": "fix(slack): stop repeated outage notices in active threads",
-        "url": "https://github.com/openclaw/openclaw/pull/122782",
+        "number": 122832,
+        "title": "[BACKPORT] fix(slack): stop repeated outage notices in active threads",
+        "url": "https://github.com/openclaw/openclaw/pull/122832",
         "state": "open",
         "author": "Kimiyu-186",
-        "updatedAt": "2026-08-12T21:00:10Z"
+        "updatedAt": "2026-08-12T22:00:20Z"
       }
     ]
   }

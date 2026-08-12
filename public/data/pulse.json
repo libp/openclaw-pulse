@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-12T05:00:15.964Z",
+  "generatedAt": "2026-08-12T08:38:45.415Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -445,17 +445,17 @@
     },
     {
       "capturedOn": "2026-08-12",
-      "capturedAt": "2026-08-12T05:00:15.964Z",
-      "issueOpen": 3469,
-      "issueClosed": 43266,
-      "prOpen": 2130,
-      "prClosed": 71099,
-      "prMerged": 24099,
+      "capturedAt": "2026-08-12T08:38:45.415Z",
+      "issueOpen": 3468,
+      "issueClosed": 43300,
+      "prOpen": 2140,
+      "prClosed": 71174,
+      "prMerged": 24155,
       "workflowRuns": 40000,
-      "stars": 385998,
-      "forks": 81121,
-      "subscribers": 1768,
-      "commits": 78446,
+      "stars": 386015,
+      "forks": 81127,
+      "subscribers": 1767,
+      "commits": 78502,
       "contributors": 3083,
       "source": "github-actions",
       "approximateDate": false
@@ -568,69 +568,79 @@
     },
     {
       "capturedOn": "2026-08-12",
-      "stars": 385998,
-      "forks": 81121,
-      "subscribers": 1768,
-      "commits": 78446,
+      "stars": 386015,
+      "forks": 81127,
+      "subscribers": 1767,
+      "commits": 78502,
       "contributors": 3083
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 122539,
+        "title": "[Bug]: node camera URL download can destroy existing output",
+        "url": "https://github.com/openclaw/openclaw/issues/122539",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-12T08:38:20Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 122290,
-        "title": "fix(errors): detect HTML after HTTP reason phrases",
-        "url": "https://github.com/openclaw/openclaw/pull/122290",
+        "number": 122354,
+        "title": "Opgce",
+        "url": "https://github.com/openclaw/openclaw/pull/122354",
         "state": "open",
-        "author": "pengpengyi92",
-        "updatedAt": "2026-08-12T05:00:08Z"
+        "author": "igor-holt",
+        "updatedAt": "2026-08-12T08:38:40Z"
       },
       {
         "kind": "pr",
-        "number": 113013,
-        "title": "fix(minimax): keep sensitive output terminal",
-        "url": "https://github.com/openclaw/openclaw/pull/113013",
+        "number": 122485,
+        "title": "feat(backup): recorded runs, scheduled backups, and git-backed versioned snapshots",
+        "url": "https://github.com/openclaw/openclaw/pull/122485",
         "state": "open",
-        "author": "liuhaiyang14",
-        "updatedAt": "2026-08-12T05:00:06Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-12T08:38:32Z"
       },
       {
         "kind": "pr",
-        "number": 122363,
-        "title": "fix(slack): expose channel reaction events to thread turns",
-        "url": "https://github.com/openclaw/openclaw/pull/122363",
-        "state": "open",
-        "author": "sjf-oa",
-        "updatedAt": "2026-08-12T05:00:03Z"
+        "number": 122550,
+        "title": "fix(camera): URL download preserves existing output on failure",
+        "url": "https://github.com/openclaw/openclaw/pull/122550",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-12T08:38:22Z"
       },
       {
         "kind": "pr",
-        "number": 122428,
-        "title": "fix(packaging): hoist mdast-util-from-markdown for bundled memory-wiki plugin",
-        "url": "https://github.com/openclaw/openclaw/pull/122428",
+        "number": 122350,
+        "title": "fix(gateway): keep model catalog reads responsive",
+        "url": "https://github.com/openclaw/openclaw/pull/122350",
         "state": "open",
-        "author": "licheer-zte",
-        "updatedAt": "2026-08-12T04:59:59Z"
+        "author": "joshavant",
+        "updatedAt": "2026-08-12T08:38:16Z"
       },
       {
         "kind": "pr",
-        "number": 122264,
-        "title": "fix(gateway): project canonical ACP model identity and lock model selection in session rows",
-        "url": "https://github.com/openclaw/openclaw/pull/122264",
-        "state": "open",
-        "author": "licheer-zte",
-        "updatedAt": "2026-08-12T04:59:59Z"
+        "number": 86421,
+        "title": "Allow SubRip subtitle media uploads",
+        "url": "https://github.com/openclaw/openclaw/pull/86421",
+        "state": "closed",
+        "author": "kittenofdeath",
+        "updatedAt": "2026-08-12T08:38:11Z"
       },
       {
         "kind": "pr",
-        "number": 121697,
-        "title": "fix: install or review the publisher you picked when ClawHub skills share a slug",
-        "url": "https://github.com/openclaw/openclaw/pull/121697",
+        "number": 122557,
+        "title": "fix(matrix): keep streamed drafts until the replacement reply is delivered [AI-assisted]",
+        "url": "https://github.com/openclaw/openclaw/pull/122557",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-12T04:59:45Z"
+        "author": "Chinmayrawat15",
+        "updatedAt": "2026-08-12T08:37:35Z"
       }
     ]
   }

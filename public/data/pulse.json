@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-11T23:58:05.076Z",
+  "generatedAt": "2026-08-12T05:00:15.964Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -442,6 +442,23 @@
       "contributors": 3083,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-12",
+      "capturedAt": "2026-08-12T05:00:15.964Z",
+      "issueOpen": 3469,
+      "issueClosed": 43266,
+      "prOpen": 2130,
+      "prClosed": 71099,
+      "prMerged": 24099,
+      "workflowRuns": 40000,
+      "stars": 385998,
+      "forks": 81121,
+      "subscribers": 1768,
+      "commits": 78446,
+      "contributors": 3083,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -548,101 +565,72 @@
       "subscribers": 1768,
       "commits": 78381,
       "contributors": 3083
+    },
+    {
+      "capturedOn": "2026-08-12",
+      "stars": 385998,
+      "forks": 81121,
+      "subscribers": 1768,
+      "commits": 78446,
+      "contributors": 3083
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 83337,
-        "title": "Plugin/core version drift after upgrade causes silent channel failure",
-        "url": "https://github.com/openclaw/openclaw/issues/83337",
-        "state": "open",
-        "author": "cdeyoung67",
-        "updatedAt": "2026-08-11T23:58:00Z"
-      },
-      {
-        "kind": "issue",
-        "number": 98515,
-        "title": "[Feature]: Durable routines registry for scheduled team operations",
-        "url": "https://github.com/openclaw/openclaw/issues/98515",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-11T23:57:46Z"
-      },
-      {
-        "kind": "issue",
-        "number": 122347,
-        "title": "[Bug]: channels.status silently drops task failures and CLI warnings",
-        "url": "https://github.com/openclaw/openclaw/issues/122347",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-11T23:57:09Z"
-      },
-      {
-        "kind": "issue",
-        "number": 98435,
-        "title": "MCP loopback transport does not auto-reconnect on CLI side after gateway restart — recovered=1 is misleading",
-        "url": "https://github.com/openclaw/openclaw/issues/98435",
-        "state": "open",
-        "author": "alvelda",
-        "updatedAt": "2026-08-11T23:56:44Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 122328,
-        "title": "fix(ui): match chat transcript text rendering to prototype",
-        "url": "https://github.com/openclaw/openclaw/pull/122328",
+        "number": 122290,
+        "title": "fix(errors): detect HTML after HTTP reason phrases",
+        "url": "https://github.com/openclaw/openclaw/pull/122290",
+        "state": "open",
+        "author": "pengpengyi92",
+        "updatedAt": "2026-08-12T05:00:08Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113013,
+        "title": "fix(minimax): keep sensitive output terminal",
+        "url": "https://github.com/openclaw/openclaw/pull/113013",
+        "state": "open",
+        "author": "liuhaiyang14",
+        "updatedAt": "2026-08-12T05:00:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122363,
+        "title": "fix(slack): expose channel reaction events to thread turns",
+        "url": "https://github.com/openclaw/openclaw/pull/122363",
+        "state": "open",
+        "author": "sjf-oa",
+        "updatedAt": "2026-08-12T05:00:03Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122428,
+        "title": "fix(packaging): hoist mdast-util-from-markdown for bundled memory-wiki plugin",
+        "url": "https://github.com/openclaw/openclaw/pull/122428",
+        "state": "open",
+        "author": "licheer-zte",
+        "updatedAt": "2026-08-12T04:59:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122264,
+        "title": "fix(gateway): project canonical ACP model identity and lock model selection in session rows",
+        "url": "https://github.com/openclaw/openclaw/pull/122264",
+        "state": "open",
+        "author": "licheer-zte",
+        "updatedAt": "2026-08-12T04:59:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121697,
+        "title": "fix: install or review the publisher you picked when ClawHub skills share a slug",
+        "url": "https://github.com/openclaw/openclaw/pull/121697",
         "state": "open",
         "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-11T23:57:53Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120332,
-        "title": "fix(config): config validate rejects a replacement plugin's own channel config keys [AI]",
-        "url": "https://github.com/openclaw/openclaw/pull/120332",
-        "state": "open",
-        "author": "marmar9615-cloud",
-        "updatedAt": "2026-08-11T23:57:48Z"
-      },
-      {
-        "kind": "pr",
-        "number": 98458,
-        "title": "fix(feishu): add video preview covers",
-        "url": "https://github.com/openclaw/openclaw/pull/98458",
-        "state": "open",
-        "author": "areslp",
-        "updatedAt": "2026-08-11T23:57:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 122023,
-        "title": "fix: turn fails with generic auto-compaction error when fixed context overhead exceeds the budget",
-        "url": "https://github.com/openclaw/openclaw/pull/122023",
-        "state": "open",
-        "author": "xydigit-zt",
-        "updatedAt": "2026-08-11T23:57:35Z"
-      },
-      {
-        "kind": "pr",
-        "number": 122332,
-        "title": "chore(ui): refresh control ui locales",
-        "url": "https://github.com/openclaw/openclaw/pull/122332",
-        "state": "open",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-08-11T23:57:28Z"
-      },
-      {
-        "kind": "pr",
-        "number": 122334,
-        "title": "fix(windows): launch npm-installed native session CLIs",
-        "url": "https://github.com/openclaw/openclaw/pull/122334",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-11T23:57:22Z"
+        "updatedAt": "2026-08-12T04:59:45Z"
       }
     ]
   }

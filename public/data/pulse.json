@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-12T18:05:53.072Z",
+  "generatedAt": "2026-08-12T19:18:15.626Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -445,17 +445,17 @@
     },
     {
       "capturedOn": "2026-08-12",
-      "capturedAt": "2026-08-12T18:05:53.072Z",
-      "issueOpen": 3419,
-      "issueClosed": 43404,
-      "prOpen": 2128,
-      "prClosed": 71329,
-      "prMerged": 24271,
+      "capturedAt": "2026-08-12T19:18:15.626Z",
+      "issueOpen": 3414,
+      "issueClosed": 43415,
+      "prOpen": 2125,
+      "prClosed": 71347,
+      "prMerged": 24284,
       "workflowRuns": 40000,
-      "stars": 386062,
+      "stars": 386063,
       "forks": 81140,
-      "subscribers": 1766,
-      "commits": 78635,
+      "subscribers": 1767,
+      "commits": 78648,
       "contributors": 3090,
       "source": "github-actions",
       "approximateDate": false
@@ -568,10 +568,10 @@
     },
     {
       "capturedOn": "2026-08-12",
-      "stars": 386062,
+      "stars": 386063,
       "forks": 81140,
-      "subscribers": 1766,
-      "commits": 78635,
+      "subscribers": 1767,
+      "commits": 78648,
       "contributors": 3090
     }
   ],
@@ -579,68 +579,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 122758,
-        "title": "WhatsApp: define server-ack custody before marking sends complete",
-        "url": "https://github.com/openclaw/openclaw/issues/122758",
+        "number": 109726,
+        "title": "Runtime-level model fallback on API call failure",
+        "url": "https://github.com/openclaw/openclaw/issues/109726",
+        "state": "open",
+        "author": "yangbo1014",
+        "updatedAt": "2026-08-12T19:18:02Z"
+      },
+      {
+        "kind": "issue",
+        "number": 116473,
+        "title": "[Feature]: Operator-initiated inter-agent delegation via @A ask @B syntax (one-shot, with audit log entry)",
+        "url": "https://github.com/openclaw/openclaw/issues/116473",
+        "state": "open",
+        "author": "patelmm79",
+        "updatedAt": "2026-08-12T19:17:49Z"
+      },
+      {
+        "kind": "issue",
+        "number": 122761,
+        "title": "WhatsApp: distinct-ID repeated messages can be dropped as echoes",
+        "url": "https://github.com/openclaw/openclaw/issues/122761",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-12T18:05:44Z"
+        "updatedAt": "2026-08-12T19:17:42Z"
+      },
+      {
+        "kind": "issue",
+        "number": 122763,
+        "title": "Capacity-group completion can indefinitely starve an older sibling queue",
+        "url": "https://github.com/openclaw/openclaw/issues/122763",
+        "state": "open",
+        "author": "HermanZeng",
+        "updatedAt": "2026-08-12T19:17:33Z"
+      },
+      {
+        "kind": "issue",
+        "number": 122778,
+        "title": "Codex gateway health does not expose model account readiness",
+        "url": "https://github.com/openclaw/openclaw/issues/122778",
+        "state": "open",
+        "author": "kevinlin-openai",
+        "updatedAt": "2026-08-12T19:17:17Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112099,
+        "title": "[Architecture] Standardize audio/video asset pipeline across TTS and media generation skills",
+        "url": "https://github.com/openclaw/openclaw/issues/112099",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-08-12T19:16:46Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 122696,
-        "title": "feat(mcp): authorize OAuth servers from Control UI",
-        "url": "https://github.com/openclaw/openclaw/pull/122696",
+        "number": 122503,
+        "title": "fix(codex): retain direct-child hook policy after parent yield",
+        "url": "https://github.com/openclaw/openclaw/pull/122503",
         "state": "open",
-        "author": "vaiplus",
-        "updatedAt": "2026-08-12T18:05:47Z"
+        "author": "bek91",
+        "updatedAt": "2026-08-12T19:18:09Z"
       },
       {
         "kind": "pr",
-        "number": 122724,
-        "title": "feat(gateway): observe paired node desktops",
-        "url": "https://github.com/openclaw/openclaw/pull/122724",
+        "number": 119702,
+        "title": "fix(security): guard patternProperties defaults with compileSafeRegex",
+        "url": "https://github.com/openclaw/openclaw/pull/119702",
+        "state": "open",
+        "author": "SebTardif",
+        "updatedAt": "2026-08-12T19:18:08Z"
+      },
+      {
+        "kind": "pr",
+        "number": 82950,
+        "title": "fix(security): prevent unsafe approval patterns from hanging command authorization",
+        "url": "https://github.com/openclaw/openclaw/pull/82950",
+        "state": "open",
+        "author": "SebTardif",
+        "updatedAt": "2026-08-12T19:18:07Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122777,
+        "title": "test(skills): reuse workshop state database",
+        "url": "https://github.com/openclaw/openclaw/pull/122777",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-12T18:05:46Z"
+        "updatedAt": "2026-08-12T19:18:05Z"
       },
       {
         "kind": "pr",
-        "number": 114388,
-        "title": "refactor(agents): make multi-agent ownership explicit (H2-1 core)",
-        "url": "https://github.com/openclaw/openclaw/pull/114388",
+        "number": 119061,
+        "title": "fix(memory): show canonical-session migration recovery instead of provider error",
+        "url": "https://github.com/openclaw/openclaw/pull/119061",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-12T18:05:44Z"
+        "author": "ZYV5ge",
+        "updatedAt": "2026-08-12T19:18:02Z"
       },
       {
         "kind": "pr",
-        "number": 122350,
-        "title": "fix(gateway): keep model catalog reads responsive",
-        "url": "https://github.com/openclaw/openclaw/pull/122350",
+        "number": 118800,
+        "title": "fix(agents): use 'unclassified' instead of 'unknown' for uncategorized fallback reasons",
+        "url": "https://github.com/openclaw/openclaw/pull/118800",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-08-12T18:05:43Z"
-      },
-      {
-        "kind": "pr",
-        "number": 122284,
-        "title": "fix(plugins): expose static inventory in status",
-        "url": "https://github.com/openclaw/openclaw/pull/122284",
-        "state": "open",
-        "author": "DerrickBarra",
-        "updatedAt": "2026-08-12T18:05:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 116511,
-        "title": "fix(agents): skip repeated workspace bootstrap on continuation turns",
-        "url": "https://github.com/openclaw/openclaw/pull/116511",
-        "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-08-12T18:05:36Z"
+        "author": "shivamsinghofficialid01-hash",
+        "updatedAt": "2026-08-12T19:17:59Z"
       }
     ]
   }

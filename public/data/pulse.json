@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-12T16:08:42.226Z",
+  "generatedAt": "2026-08-12T17:10:33.001Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -445,18 +445,18 @@
     },
     {
       "capturedOn": "2026-08-12",
-      "capturedAt": "2026-08-12T16:08:42.226Z",
-      "issueOpen": 3415,
-      "issueClosed": 43388,
-      "prOpen": 2130,
-      "prClosed": 71291,
-      "prMerged": 24235,
+      "capturedAt": "2026-08-12T17:10:33.001Z",
+      "issueOpen": 3413,
+      "issueClosed": 43399,
+      "prOpen": 2129,
+      "prClosed": 71308,
+      "prMerged": 24252,
       "workflowRuns": 40000,
-      "stars": 386056,
-      "forks": 81140,
+      "stars": 386055,
+      "forks": 81141,
       "subscribers": 1766,
-      "commits": 78598,
-      "contributors": 3088,
+      "commits": 78616,
+      "contributors": 3090,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -568,79 +568,124 @@
     },
     {
       "capturedOn": "2026-08-12",
-      "stars": 386056,
-      "forks": 81140,
+      "stars": 386055,
+      "forks": 81141,
       "subscribers": 1766,
-      "commits": 78598,
-      "contributors": 3088
+      "commits": 78616,
+      "contributors": 3090
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 41965,
-        "title": "Feature: force media delivery as document attachment (e.g. #doc)",
-        "url": "https://github.com/openclaw/openclaw/issues/41965",
+        "number": 114084,
+        "title": "Bug: \"no such table: session_entries\" after session_entries → session_nodes migration (PR #113071)",
+        "url": "https://github.com/openclaw/openclaw/issues/114084",
+        "state": "open",
+        "author": "kai0126-claw",
+        "updatedAt": "2026-08-12T17:10:23Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112655,
+        "title": "Per-turn MCP bridge advertises ephemeral localhost port that can go stale (no listener) after gateway restart",
+        "url": "https://github.com/openclaw/openclaw/issues/112655",
+        "state": "open",
+        "author": "jarvis-drakon",
+        "updatedAt": "2026-08-12T17:10:09Z"
+      },
+      {
+        "kind": "issue",
+        "number": 120270,
+        "title": "[Bug]: No control over parallel model requests within one embedded --local agent run",
+        "url": "https://github.com/openclaw/openclaw/issues/120270",
+        "state": "open",
+        "author": "rogerallen1",
+        "updatedAt": "2026-08-12T17:10:02Z"
+      },
+      {
+        "kind": "issue",
+        "number": 120903,
+        "title": "[CI] Flaky test: io.observe-recovery.test.ts times out (120s) on compact-small-5 shard",
+        "url": "https://github.com/openclaw/openclaw/issues/120903",
+        "state": "open",
+        "author": "dailylights",
+        "updatedAt": "2026-08-12T17:09:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 106866,
+        "title": "[Bug]: Native QMD returns active slugified paths that do not exist on disk",
+        "url": "https://github.com/openclaw/openclaw/issues/106866",
+        "state": "open",
+        "author": "BlueboxC",
+        "updatedAt": "2026-08-12T17:09:48Z"
+      },
+      {
+        "kind": "issue",
+        "number": 37131,
+        "title": "[Feature]: Invoke tools directly without LLM round-trip",
+        "url": "https://github.com/openclaw/openclaw/issues/37131",
         "state": "closed",
-        "author": "phi0x",
-        "updatedAt": "2026-08-12T16:07:46Z"
+        "author": "ChrisJaunes",
+        "updatedAt": "2026-08-12T17:09:42Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 122695,
-        "title": "fix(scripts): detect symlinked plugin SDK API barrels",
-        "url": "https://github.com/openclaw/openclaw/pull/122695",
+        "number": 122726,
+        "title": "docs: clarify node pairing storage lives on the paired-device record",
+        "url": "https://github.com/openclaw/openclaw/pull/122726",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-12T16:08:35Z"
+        "author": "191612731-cloud",
+        "updatedAt": "2026-08-12T17:10:29Z"
       },
       {
         "kind": "pr",
-        "number": 122702,
-        "title": "feat(cli): allow editing automation display names",
-        "url": "https://github.com/openclaw/openclaw/pull/122702",
+        "number": 121764,
+        "title": "feat(plugin-sdk): add prepared cancellable OAuth refresh hooks",
+        "url": "https://github.com/openclaw/openclaw/pull/121764",
         "state": "open",
-        "author": "jjjhenriksen",
-        "updatedAt": "2026-08-12T16:08:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 122356,
-        "title": "fix(slack): retry member events after transient lookup failures",
-        "url": "https://github.com/openclaw/openclaw/pull/122356",
-        "state": "closed",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-12T16:08:24Z"
+        "updatedAt": "2026-08-12T17:10:29Z"
       },
       {
         "kind": "pr",
-        "number": 118681,
-        "title": "fix(agents): bounded memory flush before recovery compaction",
-        "url": "https://github.com/openclaw/openclaw/pull/118681",
+        "number": 122721,
+        "title": "fix(xai): preserve Grok 4.6 xhigh over OAuth",
+        "url": "https://github.com/openclaw/openclaw/pull/122721",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-12T16:08:24Z"
+        "author": "kiranmagic7",
+        "updatedAt": "2026-08-12T17:10:26Z"
       },
       {
         "kind": "pr",
-        "number": 119950,
-        "title": "fix(gateway): reject unattributable loopback proxy traffic [AI]",
-        "url": "https://github.com/openclaw/openclaw/pull/119950",
+        "number": 118148,
+        "title": "fix(channels): bundled channels reject the documented responsePrefix override",
+        "url": "https://github.com/openclaw/openclaw/pull/118148",
         "state": "open",
-        "author": "pgondhi987",
-        "updatedAt": "2026-08-12T16:08:15Z"
+        "author": "ayaangazali",
+        "updatedAt": "2026-08-12T17:10:26Z"
       },
       {
         "kind": "pr",
-        "number": 114388,
-        "title": "refactor(agents): make multi-agent ownership explicit (H2-1 core)",
-        "url": "https://github.com/openclaw/openclaw/pull/114388",
+        "number": 122566,
+        "title": "fix(codex): reuse completed OAuth rotations",
+        "url": "https://github.com/openclaw/openclaw/pull/122566",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-12T16:08:12Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-12T17:10:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121733,
+        "title": "fix(auth): preserve OAuth refresh ownership after caller timeout",
+        "url": "https://github.com/openclaw/openclaw/pull/121733",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-12T17:10:20Z"
       }
     ]
   }

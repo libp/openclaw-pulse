@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-13T13:45:07.396Z",
+  "generatedAt": "2026-08-13T15:13:38.245Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -462,17 +462,17 @@
     },
     {
       "capturedOn": "2026-08-13",
-      "capturedAt": "2026-08-13T13:45:07.396Z",
-      "issueOpen": 3393,
-      "issueClosed": 43514,
-      "prOpen": 2139,
-      "prClosed": 71683,
-      "prMerged": 24531,
+      "capturedAt": "2026-08-13T15:13:38.245Z",
+      "issueOpen": 3389,
+      "issueClosed": 43519,
+      "prOpen": 2158,
+      "prClosed": 71689,
+      "prMerged": 24534,
       "workflowRuns": 40000,
-      "stars": 386165,
-      "forks": 81167,
-      "subscribers": 1768,
-      "commits": 78907,
+      "stars": 386176,
+      "forks": 81171,
+      "subscribers": 1770,
+      "commits": 78909,
       "contributors": 3095,
       "source": "github-actions",
       "approximateDate": false
@@ -593,10 +593,10 @@
     },
     {
       "capturedOn": "2026-08-13",
-      "stars": 386165,
-      "forks": 81167,
-      "subscribers": 1768,
-      "commits": 78907,
+      "stars": 386176,
+      "forks": 81171,
+      "subscribers": 1770,
+      "commits": 78909,
       "contributors": 3095
     }
   ],
@@ -604,12 +604,21 @@
     "issues": [
       {
         "kind": "issue",
+        "number": 122495,
+        "title": "Cross-channel exec approval leak: WhatsApp-initiated requests are also delivered to Telegram",
+        "url": "https://github.com/openclaw/openclaw/issues/122495",
+        "state": "open",
+        "author": "choury",
+        "updatedAt": "2026-08-13T15:11:47Z"
+      },
+      {
+        "kind": "issue",
         "number": 112099,
         "title": "[Architecture] Standardize audio/video asset pipeline across TTS and media generation skills",
         "url": "https://github.com/openclaw/openclaw/issues/112099",
         "state": "open",
         "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-13T13:42:38Z"
+        "updatedAt": "2026-08-13T15:10:59Z"
       },
       {
         "kind": "issue",
@@ -618,7 +627,7 @@
         "url": "https://github.com/openclaw/openclaw/issues/114084",
         "state": "open",
         "author": "kai0126-claw",
-        "updatedAt": "2026-08-13T13:42:29Z"
+        "updatedAt": "2026-08-13T15:10:48Z"
       },
       {
         "kind": "issue",
@@ -627,16 +636,7 @@
         "url": "https://github.com/openclaw/openclaw/issues/97983",
         "state": "open",
         "author": "viernesmybot",
-        "updatedAt": "2026-08-13T13:42:20Z"
-      },
-      {
-        "kind": "issue",
-        "number": 74732,
-        "title": "docs+feat: Document oMLX (Apple Silicon MLX) as memorySearch embedding provider",
-        "url": "https://github.com/openclaw/openclaw/issues/74732",
-        "state": "open",
-        "author": "mppyes-ai",
-        "updatedAt": "2026-08-13T13:42:13Z"
+        "updatedAt": "2026-08-13T15:10:37Z"
       },
       {
         "kind": "issue",
@@ -645,7 +645,7 @@
         "url": "https://github.com/openclaw/openclaw/issues/118666",
         "state": "open",
         "author": "greggchen308",
-        "updatedAt": "2026-08-13T13:42:02Z"
+        "updatedAt": "2026-08-13T15:10:26Z"
       },
       {
         "kind": "issue",
@@ -654,63 +654,63 @@
         "url": "https://github.com/openclaw/openclaw/issues/47975",
         "state": "open",
         "author": "magnusbonnevier",
-        "updatedAt": "2026-08-13T13:41:55Z"
+        "updatedAt": "2026-08-13T15:10:14Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 118879,
-        "title": "fix: unblock healthy sessions after restart recovery settles",
-        "url": "https://github.com/openclaw/openclaw/pull/118879",
+        "number": 123017,
+        "title": "fix(ui): contain long sharing member labels",
+        "url": "https://github.com/openclaw/openclaw/pull/123017",
         "state": "open",
-        "author": "ZYV5ge",
-        "updatedAt": "2026-08-13T13:44:55Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-13T15:13:30Z"
       },
       {
         "kind": "pr",
-        "number": 58421,
-        "title": "feat(plugins): add optional api.resetSession()",
-        "url": "https://github.com/openclaw/openclaw/pull/58421",
+        "number": 123233,
+        "title": "test(browser): isolate native host fixture executable",
+        "url": "https://github.com/openclaw/openclaw/pull/123233",
         "state": "open",
-        "author": "MrGPUs",
-        "updatedAt": "2026-08-13T13:44:27Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-13T15:13:22Z"
       },
       {
         "kind": "pr",
-        "number": 123062,
-        "title": "fix(gateway): prevent duplicate admission for pipelined connects",
-        "url": "https://github.com/openclaw/openclaw/pull/123062",
+        "number": 122517,
+        "title": "fix(approvals): prevent cross-channel exec approval leak to Telegram (#122495)",
+        "url": "https://github.com/openclaw/openclaw/pull/122517",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-13T13:44:26Z"
+        "author": "vatsalgargg",
+        "updatedAt": "2026-08-13T15:11:47Z"
       },
       {
         "kind": "pr",
-        "number": 123177,
-        "title": "feat(gateway): monitor cloud session disk space",
-        "url": "https://github.com/openclaw/openclaw/pull/123177",
+        "number": 122899,
+        "title": "feat(agents): discover workspace files without shell access",
+        "url": "https://github.com/openclaw/openclaw/pull/122899",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-13T13:43:56Z"
+        "author": "ceckert",
+        "updatedAt": "2026-08-13T15:11:31Z"
       },
       {
         "kind": "pr",
-        "number": 55828,
-        "title": "feat(msteams): add native plugin interactivity parity",
-        "url": "https://github.com/openclaw/openclaw/pull/55828",
+        "number": 122503,
+        "title": "fix(codex): retain direct-child hook policy after parent yield",
+        "url": "https://github.com/openclaw/openclaw/pull/122503",
         "state": "open",
-        "author": "Evizero",
-        "updatedAt": "2026-08-13T13:43:44Z"
+        "author": "bek91",
+        "updatedAt": "2026-08-13T15:11:27Z"
       },
       {
         "kind": "pr",
-        "number": 82950,
-        "title": "fix(security): prevent unsafe approval patterns from hanging command authorization",
-        "url": "https://github.com/openclaw/openclaw/pull/82950",
+        "number": 123226,
+        "title": "fix(nextcloud-talk): redact credentials in bot preflight error text",
+        "url": "https://github.com/openclaw/openclaw/pull/123226",
         "state": "open",
-        "author": "SebTardif",
-        "updatedAt": "2026-08-13T13:43:27Z"
+        "author": "coaiMax",
+        "updatedAt": "2026-08-13T15:10:23Z"
       }
     ]
   }

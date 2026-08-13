@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-13T05:02:28.897Z",
+  "generatedAt": "2026-08-13T06:43:44.534Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -462,17 +462,17 @@
     },
     {
       "capturedOn": "2026-08-13",
-      "capturedAt": "2026-08-13T05:02:28.897Z",
-      "issueOpen": 3409,
-      "issueClosed": 43467,
-      "prOpen": 2103,
-      "prClosed": 71553,
-      "prMerged": 24441,
+      "capturedAt": "2026-08-13T06:43:44.534Z",
+      "issueOpen": 3402,
+      "issueClosed": 43477,
+      "prOpen": 2093,
+      "prClosed": 71589,
+      "prMerged": 24466,
       "workflowRuns": 40000,
-      "stars": 386107,
-      "forks": 81158,
+      "stars": 386118,
+      "forks": 81156,
       "subscribers": 1769,
-      "commits": 78808,
+      "commits": 78841,
       "contributors": 3095,
       "source": "github-actions",
       "approximateDate": false
@@ -593,10 +593,10 @@
     },
     {
       "capturedOn": "2026-08-13",
-      "stars": 386107,
-      "forks": 81158,
+      "stars": 386118,
+      "forks": 81156,
       "subscribers": 1769,
-      "commits": 78808,
+      "commits": 78841,
       "contributors": 3095
     }
   ],
@@ -604,95 +604,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 123009,
-        "title": "[Bug]: Recheck native Codex subscription blocks every five minutes",
-        "url": "https://github.com/openclaw/openclaw/issues/123009",
+        "number": 121953,
+        "title": "[Bug]: Cron agent turns stall on DeepSeek — the '[cron:<jobId> <name>] ' user-message prefix is deprioritized",
+        "url": "https://github.com/openclaw/openclaw/issues/121953",
         "state": "open",
-        "author": "Grynn",
-        "updatedAt": "2026-08-13T05:01:55Z"
+        "author": "Dytchem",
+        "updatedAt": "2026-08-13T06:40:12Z"
       },
       {
         "kind": "issue",
-        "number": 118999,
-        "title": "[Feature]: Bind native Codex Realtime V3 voice to existing sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/118999",
-        "state": "open",
-        "author": "GoatInAHat",
-        "updatedAt": "2026-08-13T05:01:43Z"
-      },
-      {
-        "kind": "issue",
-        "number": 122995,
-        "title": "[Bug]: Signal probe reports works after JSON-RPC failure",
-        "url": "https://github.com/openclaw/openclaw/issues/122995",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-13T05:01:06Z"
-      },
-      {
-        "kind": "issue",
-        "number": 122996,
-        "title": "hooks relay --provider codex spawns one ~479MB Node process per hook event with no concurrency cap — OOM-kills the gateway on small hosts",
-        "url": "https://github.com/openclaw/openclaw/issues/122996",
-        "state": "open",
-        "author": "James-16",
-        "updatedAt": "2026-08-13T05:01:01Z"
+        "number": 122321,
+        "title": "Gateway crash-loops on \"plugin migration inputs changed during startup convergence\" (codex@beta), leaking un-pruned npm generation dirs — filled host disk in ~2h",
+        "url": "https://github.com/openclaw/openclaw/issues/122321",
+        "state": "closed",
+        "author": "ree9622",
+        "updatedAt": "2026-08-13T06:39:19Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 121144,
-        "title": "fix(discord): report parent channel denies for thread permissions",
-        "url": "https://github.com/openclaw/openclaw/pull/121144",
+        "number": 118505,
+        "title": "macOS: surface realtime Talk settings",
+        "url": "https://github.com/openclaw/openclaw/pull/118505",
         "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-08-13T05:02:22Z"
+        "author": "zhilong1115",
+        "updatedAt": "2026-08-13T06:42:54Z"
       },
       {
         "kind": "pr",
-        "number": 120522,
-        "title": "ci: publish extended-stable GitHub releases",
-        "url": "https://github.com/openclaw/openclaw/pull/120522",
+        "number": 122425,
+        "title": "fix: allow slash skills inside normal messages",
+        "url": "https://github.com/openclaw/openclaw/pull/122425",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-13T06:42:28Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123039,
+        "title": "chore(nostr): stop leaking private key test fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/123039",
         "state": "open",
         "author": "RomneyDa",
-        "updatedAt": "2026-08-13T05:02:26Z"
+        "updatedAt": "2026-08-13T06:42:19Z"
       },
       {
         "kind": "pr",
-        "number": 118681,
-        "title": "fix(agents): bounded memory flush before recovery compaction",
-        "url": "https://github.com/openclaw/openclaw/pull/118681",
+        "number": 123038,
+        "title": "fix(release): make validation fail-fast optional",
+        "url": "https://github.com/openclaw/openclaw/pull/123038",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-13T05:02:21Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-13T06:42:16Z"
       },
       {
         "kind": "pr",
-        "number": 97162,
-        "title": "fix(secrets): add audit check severity threshold",
-        "url": "https://github.com/openclaw/openclaw/pull/97162",
+        "number": 123036,
+        "title": "refactor(plugin-sdk): replace API baselines with diffs",
+        "url": "https://github.com/openclaw/openclaw/pull/123036",
         "state": "open",
-        "author": "wangwllu",
-        "updatedAt": "2026-08-13T05:02:13Z"
+        "author": "obviyus",
+        "updatedAt": "2026-08-13T06:41:59Z"
       },
       {
         "kind": "pr",
-        "number": 120486,
-        "title": "fix: Discord progress draft drops tool command/args in raw mode",
-        "url": "https://github.com/openclaw/openclaw/pull/120486",
+        "number": 118954,
+        "title": "fix: Custodian wizard loses pending control after reload",
+        "url": "https://github.com/openclaw/openclaw/pull/118954",
         "state": "open",
-        "author": "LiuwqGit",
-        "updatedAt": "2026-08-13T05:02:01Z"
-      },
-      {
-        "kind": "pr",
-        "number": 122945,
-        "title": "fix(state): accept shipped commitments schema",
-        "url": "https://github.com/openclaw/openclaw/pull/122945",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-13T05:01:53Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-13T06:41:35Z"
       }
     ]
   }

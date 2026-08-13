@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-12T22:01:13.514Z",
+  "generatedAt": "2026-08-13T02:45:08.392Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -459,6 +459,23 @@
       "contributors": 3090,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-13",
+      "capturedAt": "2026-08-13T02:45:08.392Z",
+      "issueOpen": 3416,
+      "issueClosed": 43449,
+      "prOpen": 2116,
+      "prClosed": 71483,
+      "prMerged": 24388,
+      "workflowRuns": 40000,
+      "stars": 386094,
+      "forks": 81154,
+      "subscribers": 1768,
+      "commits": 78756,
+      "contributors": 3092,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -573,119 +590,82 @@
       "subscribers": 1767,
       "commits": 78680,
       "contributors": 3090
+    },
+    {
+      "capturedOn": "2026-08-13",
+      "stars": 386094,
+      "forks": 81154,
+      "subscribers": 1768,
+      "commits": 78756,
+      "contributors": 3092
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 78038,
-        "title": "[Feature]: Improve zh-CN translation accuracy and completeness",
-        "url": "https://github.com/openclaw/openclaw/issues/78038",
+        "number": 107814,
+        "title": "[Bug]: gpt-5.3-codex-spark emits empty arguments for required tool calls",
+        "url": "https://github.com/openclaw/openclaw/issues/107814",
         "state": "open",
-        "author": "LifetimeVip",
-        "updatedAt": "2026-08-12T22:00:49Z"
-      },
-      {
-        "kind": "issue",
-        "number": 122834,
-        "title": "Windows gateway restart path unreliable after active-turn crash",
-        "url": "https://github.com/openclaw/openclaw/issues/122834",
-        "state": "open",
-        "author": "SimonSteggles",
-        "updatedAt": "2026-08-12T22:00:47Z"
-      },
-      {
-        "kind": "issue",
-        "number": 110368,
-        "title": "[Bug]: ACP sessions in Control UI (webchat) show duplicate identical replies for each prompt",
-        "url": "https://github.com/openclaw/openclaw/issues/110368",
-        "state": "open",
-        "author": "iamtornado",
-        "updatedAt": "2026-08-12T22:00:38Z"
-      },
-      {
-        "kind": "issue",
-        "number": 109659,
-        "title": "Channel auto-restart is lost silently when the abort signal races the backoff sleep (empty catch swallows the rejection)",
-        "url": "https://github.com/openclaw/openclaw/issues/109659",
-        "state": "open",
-        "author": "JOY",
-        "updatedAt": "2026-08-12T21:59:06Z"
-      },
-      {
-        "kind": "issue",
-        "number": 102907,
-        "title": "Azure OpenAI Responses throws 400 when prompt_cache_key is sent to endpoints that do not support it",
-        "url": "https://github.com/openclaw/openclaw/issues/102907",
-        "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-12T21:58:20Z"
-      },
-      {
-        "kind": "issue",
-        "number": 102687,
-        "title": "[Bug]: Slack channel history window is never cleared on reply; \"Chat history since last reply\" grows into a rolling buffer",
-        "url": "https://github.com/openclaw/openclaw/issues/102687",
-        "state": "open",
-        "author": "gorkem2020",
-        "updatedAt": "2026-08-12T21:57:51Z"
+        "author": "laurenceputra",
+        "updatedAt": "2026-08-13T02:44:03Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113241,
-        "title": "improve(acpx): reduce ACP router prompt overhead",
-        "url": "https://github.com/openclaw/openclaw/pull/113241",
+        "number": 122943,
+        "title": "fix(discord): parse stringified components param from MCP transports",
+        "url": "https://github.com/openclaw/openclaw/pull/122943",
         "state": "open",
-        "author": "pjcka",
-        "updatedAt": "2026-08-12T22:00:59Z"
+        "author": "ruel225",
+        "updatedAt": "2026-08-13T02:45:04Z"
       },
       {
         "kind": "pr",
-        "number": 122833,
-        "title": "chore: enforce precise TypeScript type evidence",
-        "url": "https://github.com/openclaw/openclaw/pull/122833",
+        "number": 122889,
+        "title": "fix: keep multi-agent requests scoped to their selected agent",
+        "url": "https://github.com/openclaw/openclaw/pull/122889",
+        "state": "open",
+        "author": "jalehman",
+        "updatedAt": "2026-08-13T02:45:05Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122927,
+        "title": "refactor(config): retire dead streaming.progress.render key",
+        "url": "https://github.com/openclaw/openclaw/pull/122927",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-12T22:00:48Z"
+        "updatedAt": "2026-08-13T02:44:23Z"
       },
       {
         "kind": "pr",
-        "number": 122831,
-        "title": "fix(codex): keep sessionless mirror warnings out of onboarding",
-        "url": "https://github.com/openclaw/openclaw/pull/122831",
+        "number": 122350,
+        "title": "fix(gateway): keep model catalog reads responsive",
+        "url": "https://github.com/openclaw/openclaw/pull/122350",
+        "state": "open",
+        "author": "joshavant",
+        "updatedAt": "2026-08-13T02:44:15Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122934,
+        "title": "fix(slack): accept org-wide user IDs in Enterprise Grid policies",
+        "url": "https://github.com/openclaw/openclaw/pull/122934",
+        "state": "open",
+        "author": "sjf-oa",
+        "updatedAt": "2026-08-13T02:44:05Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122941,
+        "title": "feat(ui): open subagent details in chat sidebar",
+        "url": "https://github.com/openclaw/openclaw/pull/122941",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-12T22:00:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 122536,
-        "title": "feat: portals — expose agent-run dev servers to the operator",
-        "url": "https://github.com/openclaw/openclaw/pull/122536",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-12T22:00:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114388,
-        "title": "refactor(agents): make multi-agent ownership explicit (H2-1 core)",
-        "url": "https://github.com/openclaw/openclaw/pull/114388",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-12T22:00:33Z"
-      },
-      {
-        "kind": "pr",
-        "number": 122832,
-        "title": "[BACKPORT] fix(slack): stop repeated outage notices in active threads",
-        "url": "https://github.com/openclaw/openclaw/pull/122832",
-        "state": "open",
-        "author": "Kimiyu-186",
-        "updatedAt": "2026-08-12T22:00:20Z"
+        "updatedAt": "2026-08-13T02:43:56Z"
       }
     ]
   }

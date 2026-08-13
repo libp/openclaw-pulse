@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-13T02:45:08.392Z",
+  "generatedAt": "2026-08-13T05:02:28.897Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -462,18 +462,18 @@
     },
     {
       "capturedOn": "2026-08-13",
-      "capturedAt": "2026-08-13T02:45:08.392Z",
-      "issueOpen": 3416,
-      "issueClosed": 43449,
-      "prOpen": 2116,
-      "prClosed": 71483,
-      "prMerged": 24388,
+      "capturedAt": "2026-08-13T05:02:28.897Z",
+      "issueOpen": 3409,
+      "issueClosed": 43467,
+      "prOpen": 2103,
+      "prClosed": 71553,
+      "prMerged": 24441,
       "workflowRuns": 40000,
-      "stars": 386094,
-      "forks": 81154,
-      "subscribers": 1768,
-      "commits": 78756,
-      "contributors": 3092,
+      "stars": 386107,
+      "forks": 81158,
+      "subscribers": 1769,
+      "commits": 78808,
+      "contributors": 3095,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -593,79 +593,106 @@
     },
     {
       "capturedOn": "2026-08-13",
-      "stars": 386094,
-      "forks": 81154,
-      "subscribers": 1768,
-      "commits": 78756,
-      "contributors": 3092
+      "stars": 386107,
+      "forks": 81158,
+      "subscribers": 1769,
+      "commits": 78808,
+      "contributors": 3095
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 107814,
-        "title": "[Bug]: gpt-5.3-codex-spark emits empty arguments for required tool calls",
-        "url": "https://github.com/openclaw/openclaw/issues/107814",
+        "number": 123009,
+        "title": "[Bug]: Recheck native Codex subscription blocks every five minutes",
+        "url": "https://github.com/openclaw/openclaw/issues/123009",
         "state": "open",
-        "author": "laurenceputra",
-        "updatedAt": "2026-08-13T02:44:03Z"
+        "author": "Grynn",
+        "updatedAt": "2026-08-13T05:01:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 118999,
+        "title": "[Feature]: Bind native Codex Realtime V3 voice to existing sessions",
+        "url": "https://github.com/openclaw/openclaw/issues/118999",
+        "state": "open",
+        "author": "GoatInAHat",
+        "updatedAt": "2026-08-13T05:01:43Z"
+      },
+      {
+        "kind": "issue",
+        "number": 122995,
+        "title": "[Bug]: Signal probe reports works after JSON-RPC failure",
+        "url": "https://github.com/openclaw/openclaw/issues/122995",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-13T05:01:06Z"
+      },
+      {
+        "kind": "issue",
+        "number": 122996,
+        "title": "hooks relay --provider codex spawns one ~479MB Node process per hook event with no concurrency cap — OOM-kills the gateway on small hosts",
+        "url": "https://github.com/openclaw/openclaw/issues/122996",
+        "state": "open",
+        "author": "James-16",
+        "updatedAt": "2026-08-13T05:01:01Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 122943,
-        "title": "fix(discord): parse stringified components param from MCP transports",
-        "url": "https://github.com/openclaw/openclaw/pull/122943",
+        "number": 121144,
+        "title": "fix(discord): report parent channel denies for thread permissions",
+        "url": "https://github.com/openclaw/openclaw/pull/121144",
         "state": "open",
-        "author": "ruel225",
-        "updatedAt": "2026-08-13T02:45:04Z"
+        "author": "Alix-007",
+        "updatedAt": "2026-08-13T05:02:22Z"
       },
       {
         "kind": "pr",
-        "number": 122889,
-        "title": "fix: keep multi-agent requests scoped to their selected agent",
-        "url": "https://github.com/openclaw/openclaw/pull/122889",
+        "number": 120522,
+        "title": "ci: publish extended-stable GitHub releases",
+        "url": "https://github.com/openclaw/openclaw/pull/120522",
         "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-08-13T02:45:05Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-13T05:02:26Z"
       },
       {
         "kind": "pr",
-        "number": 122927,
-        "title": "refactor(config): retire dead streaming.progress.render key",
-        "url": "https://github.com/openclaw/openclaw/pull/122927",
+        "number": 118681,
+        "title": "fix(agents): bounded memory flush before recovery compaction",
+        "url": "https://github.com/openclaw/openclaw/pull/118681",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-13T02:44:23Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-08-13T05:02:21Z"
       },
       {
         "kind": "pr",
-        "number": 122350,
-        "title": "fix(gateway): keep model catalog reads responsive",
-        "url": "https://github.com/openclaw/openclaw/pull/122350",
+        "number": 97162,
+        "title": "fix(secrets): add audit check severity threshold",
+        "url": "https://github.com/openclaw/openclaw/pull/97162",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-08-13T02:44:15Z"
+        "author": "wangwllu",
+        "updatedAt": "2026-08-13T05:02:13Z"
       },
       {
         "kind": "pr",
-        "number": 122934,
-        "title": "fix(slack): accept org-wide user IDs in Enterprise Grid policies",
-        "url": "https://github.com/openclaw/openclaw/pull/122934",
+        "number": 120486,
+        "title": "fix: Discord progress draft drops tool command/args in raw mode",
+        "url": "https://github.com/openclaw/openclaw/pull/120486",
         "state": "open",
-        "author": "sjf-oa",
-        "updatedAt": "2026-08-13T02:44:05Z"
+        "author": "LiuwqGit",
+        "updatedAt": "2026-08-13T05:02:01Z"
       },
       {
         "kind": "pr",
-        "number": 122941,
-        "title": "feat(ui): open subagent details in chat sidebar",
-        "url": "https://github.com/openclaw/openclaw/pull/122941",
+        "number": 122945,
+        "title": "fix(state): accept shipped commitments schema",
+        "url": "https://github.com/openclaw/openclaw/pull/122945",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-13T02:43:56Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-13T05:01:53Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-13T15:13:38.245Z",
+  "generatedAt": "2026-08-13T16:08:53.222Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -462,15 +462,15 @@
     },
     {
       "capturedOn": "2026-08-13",
-      "capturedAt": "2026-08-13T15:13:38.245Z",
+      "capturedAt": "2026-08-13T16:08:53.222Z",
       "issueOpen": 3389,
-      "issueClosed": 43519,
-      "prOpen": 2158,
-      "prClosed": 71689,
+      "issueClosed": 43521,
+      "prOpen": 2171,
+      "prClosed": 71692,
       "prMerged": 24534,
       "workflowRuns": 40000,
-      "stars": 386176,
-      "forks": 81171,
+      "stars": 386179,
+      "forks": 81170,
       "subscribers": 1770,
       "commits": 78909,
       "contributors": 3095,
@@ -593,8 +593,8 @@
     },
     {
       "capturedOn": "2026-08-13",
-      "stars": 386176,
-      "forks": 81171,
+      "stars": 386179,
+      "forks": 81170,
       "subscribers": 1770,
       "commits": 78909,
       "contributors": 3095
@@ -604,113 +604,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 122495,
-        "title": "Cross-channel exec approval leak: WhatsApp-initiated requests are also delivered to Telegram",
-        "url": "https://github.com/openclaw/openclaw/issues/122495",
+        "number": 123242,
+        "title": "[Bug]: Android 2026.7.4 chat remains queued on stable Gateway 2026.7.1-2",
+        "url": "https://github.com/openclaw/openclaw/issues/123242",
         "state": "open",
-        "author": "choury",
-        "updatedAt": "2026-08-13T15:11:47Z"
+        "author": "saariuslystoned",
+        "updatedAt": "2026-08-13T16:07:33Z"
       },
       {
         "kind": "issue",
-        "number": 112099,
-        "title": "[Architecture] Standardize audio/video asset pipeline across TTS and media generation skills",
-        "url": "https://github.com/openclaw/openclaw/issues/112099",
+        "number": 114154,
+        "title": "bundle-mcp: tool passes policy (tools.allow/deny) and server reports healthy via mcp probe/mcp doctor, but agent sessions never bundle it — ToolSearch finds nothing, zero tool_action attempts logged",
+        "url": "https://github.com/openclaw/openclaw/issues/114154",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-13T15:10:59Z"
-      },
-      {
-        "kind": "issue",
-        "number": 114084,
-        "title": "Bug: \"no such table: session_entries\" after session_entries → session_nodes migration (PR #113071)",
-        "url": "https://github.com/openclaw/openclaw/issues/114084",
-        "state": "open",
-        "author": "kai0126-claw",
-        "updatedAt": "2026-08-13T15:10:48Z"
-      },
-      {
-        "kind": "issue",
-        "number": 97983,
-        "title": "iOS/WebChat messages append to transcript but do not trigger/deliver assistant replies",
-        "url": "https://github.com/openclaw/openclaw/issues/97983",
-        "state": "open",
-        "author": "viernesmybot",
-        "updatedAt": "2026-08-13T15:10:37Z"
-      },
-      {
-        "kind": "issue",
-        "number": 118666,
-        "title": "Feature Request: Expose Discord thread ID (topic_id) in inbound_meta.v2 metadata for voice-note reply routing",
-        "url": "https://github.com/openclaw/openclaw/issues/118666",
-        "state": "open",
-        "author": "greggchen308",
-        "updatedAt": "2026-08-13T15:10:26Z"
-      },
-      {
-        "kind": "issue",
-        "number": 47975,
-        "title": "Subagent sessions persist after completion, main session becomes unresponsive",
-        "url": "https://github.com/openclaw/openclaw/issues/47975",
-        "state": "open",
-        "author": "magnusbonnevier",
-        "updatedAt": "2026-08-13T15:10:14Z"
+        "author": "kayloehmann",
+        "updatedAt": "2026-08-13T16:04:19Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123017,
-        "title": "fix(ui): contain long sharing member labels",
-        "url": "https://github.com/openclaw/openclaw/pull/123017",
+        "number": 120443,
+        "title": "fix: read codex thread binding before deferring automatic compaction (#119977)",
+        "url": "https://github.com/openclaw/openclaw/pull/120443",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-13T15:13:30Z"
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-08-13T16:08:49Z"
       },
       {
         "kind": "pr",
-        "number": 123233,
-        "title": "test(browser): isolate native host fixture executable",
-        "url": "https://github.com/openclaw/openclaw/pull/123233",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-13T15:13:22Z"
+        "number": 123251,
+        "title": "fix(codex): preserve legacy binding ownership on upgrade",
+        "url": "https://github.com/openclaw/openclaw/pull/123251",
+        "state": "closed",
+        "author": "Solvely-Colin",
+        "updatedAt": "2026-08-13T16:06:52Z"
       },
       {
         "kind": "pr",
-        "number": 122517,
-        "title": "fix(approvals): prevent cross-channel exec approval leak to Telegram (#122495)",
-        "url": "https://github.com/openclaw/openclaw/pull/122517",
+        "number": 123235,
+        "title": "fix(codex): preserve legacy binding ownership on upgrade",
+        "url": "https://github.com/openclaw/openclaw/pull/123235",
         "state": "open",
-        "author": "vatsalgargg",
-        "updatedAt": "2026-08-13T15:11:47Z"
+        "author": "Solvely-Colin",
+        "updatedAt": "2026-08-13T16:06:04Z"
       },
       {
         "kind": "pr",
-        "number": 122899,
-        "title": "feat(agents): discover workspace files without shell access",
-        "url": "https://github.com/openclaw/openclaw/pull/122899",
+        "number": 89040,
+        "title": "perf: harden embedded bootstrap-context event loop and add substage timing",
+        "url": "https://github.com/openclaw/openclaw/pull/89040",
         "state": "open",
-        "author": "ceckert",
-        "updatedAt": "2026-08-13T15:11:31Z"
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-08-13T16:05:42Z"
       },
       {
         "kind": "pr",
-        "number": 122503,
-        "title": "fix(codex): retain direct-child hook policy after parent yield",
-        "url": "https://github.com/openclaw/openclaw/pull/122503",
+        "number": 113816,
+        "title": "fix(memory): avoid false Copilot index mismatch before provider init",
+        "url": "https://github.com/openclaw/openclaw/pull/113816",
         "state": "open",
-        "author": "bek91",
-        "updatedAt": "2026-08-13T15:11:27Z"
+        "author": "1052326311",
+        "updatedAt": "2026-08-13T16:04:02Z"
       },
       {
         "kind": "pr",
-        "number": 123226,
-        "title": "fix(nextcloud-talk): redact credentials in bot preflight error text",
-        "url": "https://github.com/openclaw/openclaw/pull/123226",
+        "number": 117423,
+        "title": "fix(providers): finalize capture when response bodies terminate",
+        "url": "https://github.com/openclaw/openclaw/pull/117423",
         "state": "open",
-        "author": "coaiMax",
-        "updatedAt": "2026-08-13T15:10:23Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-13T16:03:15Z"
       }
     ]
   }

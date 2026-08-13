@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-13T16:08:53.222Z",
+  "generatedAt": "2026-08-13T18:05:37.534Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -462,17 +462,17 @@
     },
     {
       "capturedOn": "2026-08-13",
-      "capturedAt": "2026-08-13T16:08:53.222Z",
-      "issueOpen": 3389,
-      "issueClosed": 43521,
-      "prOpen": 2171,
-      "prClosed": 71692,
-      "prMerged": 24534,
+      "capturedAt": "2026-08-13T18:05:37.534Z",
+      "issueOpen": 3391,
+      "issueClosed": 43523,
+      "prOpen": 2187,
+      "prClosed": 71698,
+      "prMerged": 24538,
       "workflowRuns": 40000,
-      "stars": 386179,
-      "forks": 81170,
-      "subscribers": 1770,
-      "commits": 78909,
+      "stars": 386185,
+      "forks": 81169,
+      "subscribers": 1771,
+      "commits": 78914,
       "contributors": 3095,
       "source": "github-actions",
       "approximateDate": false
@@ -593,10 +593,10 @@
     },
     {
       "capturedOn": "2026-08-13",
-      "stars": 386179,
-      "forks": 81170,
-      "subscribers": 1770,
-      "commits": 78909,
+      "stars": 386185,
+      "forks": 81169,
+      "subscribers": 1771,
+      "commits": 78914,
       "contributors": 3095
     }
   ],
@@ -604,77 +604,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 123242,
-        "title": "[Bug]: Android 2026.7.4 chat remains queued on stable Gateway 2026.7.1-2",
-        "url": "https://github.com/openclaw/openclaw/issues/123242",
+        "number": 121252,
+        "title": "[bug] buzz plugin - Enabling Buzz channel breaks inbound reply resolution for all non-Buzz channels",
+        "url": "https://github.com/openclaw/openclaw/issues/121252",
         "state": "open",
-        "author": "saariuslystoned",
-        "updatedAt": "2026-08-13T16:07:33Z"
-      },
-      {
-        "kind": "issue",
-        "number": 114154,
-        "title": "bundle-mcp: tool passes policy (tools.allow/deny) and server reports healthy via mcp probe/mcp doctor, but agent sessions never bundle it — ToolSearch finds nothing, zero tool_action attempts logged",
-        "url": "https://github.com/openclaw/openclaw/issues/114154",
-        "state": "open",
-        "author": "kayloehmann",
-        "updatedAt": "2026-08-13T16:04:19Z"
+        "author": "arividar",
+        "updatedAt": "2026-08-13T18:03:07Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 120443,
-        "title": "fix: read codex thread binding before deferring automatic compaction (#119977)",
-        "url": "https://github.com/openclaw/openclaw/pull/120443",
+        "number": 104569,
+        "title": "fix(ui): explain replace-mode filtering in model picker",
+        "url": "https://github.com/openclaw/openclaw/pull/104569",
         "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-08-13T16:08:49Z"
+        "author": "samrusani",
+        "updatedAt": "2026-08-13T18:05:34Z"
       },
       {
         "kind": "pr",
-        "number": 123251,
-        "title": "fix(codex): preserve legacy binding ownership on upgrade",
-        "url": "https://github.com/openclaw/openclaw/pull/123251",
-        "state": "closed",
-        "author": "Solvely-Colin",
-        "updatedAt": "2026-08-13T16:06:52Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123235,
-        "title": "fix(codex): preserve legacy binding ownership on upgrade",
-        "url": "https://github.com/openclaw/openclaw/pull/123235",
+        "number": 94185,
+        "title": "fix(doctor): recover sibling moltbot.json config dropped on upgrade (#54200) [AI-assisted]",
+        "url": "https://github.com/openclaw/openclaw/pull/94185",
         "state": "open",
-        "author": "Solvely-Colin",
-        "updatedAt": "2026-08-13T16:06:04Z"
+        "author": "ml12580",
+        "updatedAt": "2026-08-13T18:05:33Z"
       },
       {
         "kind": "pr",
-        "number": 89040,
-        "title": "perf: harden embedded bootstrap-context event loop and add substage timing",
-        "url": "https://github.com/openclaw/openclaw/pull/89040",
+        "number": 82540,
+        "title": "fix(wechat): preserve existing accounts across hot reload",
+        "url": "https://github.com/openclaw/openclaw/pull/82540",
         "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-08-13T16:05:42Z"
+        "author": "NewdlDewdl",
+        "updatedAt": "2026-08-13T18:05:27Z"
       },
       {
         "kind": "pr",
-        "number": 113816,
-        "title": "fix(memory): avoid false Copilot index mismatch before provider init",
-        "url": "https://github.com/openclaw/openclaw/pull/113816",
-        "state": "open",
-        "author": "1052326311",
-        "updatedAt": "2026-08-13T16:04:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117423,
-        "title": "fix(providers): finalize capture when response bodies terminate",
-        "url": "https://github.com/openclaw/openclaw/pull/117423",
+        "number": 123257,
+        "title": "fix: keep background work scoped to its selected agent",
+        "url": "https://github.com/openclaw/openclaw/pull/123257",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-13T16:03:15Z"
+        "updatedAt": "2026-08-13T18:05:15Z"
+      },
+      {
+        "kind": "pr",
+        "number": 99556,
+        "title": "fix(gateway): redact Responses media blocks in chat history sanitization",
+        "url": "https://github.com/openclaw/openclaw/pull/99556",
+        "state": "open",
+        "author": "ly85206559",
+        "updatedAt": "2026-08-13T18:04:45Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111462,
+        "title": "feat: isolate native subagent skill workspaces",
+        "url": "https://github.com/openclaw/openclaw/pull/111462",
+        "state": "open",
+        "author": "aliahnaf2013-max",
+        "updatedAt": "2026-08-13T18:04:10Z"
       }
     ]
   }

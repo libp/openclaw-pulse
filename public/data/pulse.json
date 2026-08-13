@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-13T11:58:02.763Z",
+  "generatedAt": "2026-08-13T13:45:07.396Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -462,17 +462,17 @@
     },
     {
       "capturedOn": "2026-08-13",
-      "capturedAt": "2026-08-13T11:58:02.763Z",
-      "issueOpen": 3397,
-      "issueClosed": 43507,
-      "prOpen": 2106,
-      "prClosed": 71679,
-      "prMerged": 24529,
+      "capturedAt": "2026-08-13T13:45:07.396Z",
+      "issueOpen": 3393,
+      "issueClosed": 43514,
+      "prOpen": 2139,
+      "prClosed": 71683,
+      "prMerged": 24531,
       "workflowRuns": 40000,
-      "stars": 386157,
-      "forks": 81165,
-      "subscribers": 1769,
-      "commits": 78905,
+      "stars": 386165,
+      "forks": 81167,
+      "subscribers": 1768,
+      "commits": 78907,
       "contributors": 3095,
       "source": "github-actions",
       "approximateDate": false
@@ -593,10 +593,10 @@
     },
     {
       "capturedOn": "2026-08-13",
-      "stars": 386157,
-      "forks": 81165,
-      "subscribers": 1769,
-      "commits": 78905,
+      "stars": 386165,
+      "forks": 81167,
+      "subscribers": 1768,
+      "commits": 78907,
       "contributors": 3095
     }
   ],
@@ -604,104 +604,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 106678,
-        "title": "[Security] Weak cryptographic nonce generation in MCP OAuth flow",
-        "url": "https://github.com/openclaw/openclaw/issues/106678",
-        "state": "closed",
+        "number": 112099,
+        "title": "[Architecture] Standardize audio/video asset pipeline across TTS and media generation skills",
+        "url": "https://github.com/openclaw/openclaw/issues/112099",
+        "state": "open",
         "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-13T11:53:48Z"
+        "updatedAt": "2026-08-13T13:42:38Z"
       },
       {
         "kind": "issue",
-        "number": 106652,
-        "title": "[Bug] mergeAgentRunTerminalOutcome can discard user-visible success errors",
-        "url": "https://github.com/openclaw/openclaw/issues/106652",
-        "state": "closed",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-13T11:53:45Z"
+        "number": 114084,
+        "title": "Bug: \"no such table: session_entries\" after session_entries → session_nodes migration (PR #113071)",
+        "url": "https://github.com/openclaw/openclaw/issues/114084",
+        "state": "open",
+        "author": "kai0126-claw",
+        "updatedAt": "2026-08-13T13:42:29Z"
       },
       {
         "kind": "issue",
-        "number": 106608,
-        "title": "[Security] Path Traversal in clawhub Plugin Package Extraction",
-        "url": "https://github.com/openclaw/openclaw/issues/106608",
-        "state": "closed",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-13T11:53:26Z"
+        "number": 97983,
+        "title": "iOS/WebChat messages append to transcript but do not trigger/deliver assistant replies",
+        "url": "https://github.com/openclaw/openclaw/issues/97983",
+        "state": "open",
+        "author": "viernesmybot",
+        "updatedAt": "2026-08-13T13:42:20Z"
       },
       {
         "kind": "issue",
-        "number": 106676,
-        "title": "[Security] Insecure direct object reference (IDOR) in message fetch paths",
-        "url": "https://github.com/openclaw/openclaw/issues/106676",
-        "state": "closed",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-13T11:52:10Z"
+        "number": 74732,
+        "title": "docs+feat: Document oMLX (Apple Silicon MLX) as memorySearch embedding provider",
+        "url": "https://github.com/openclaw/openclaw/issues/74732",
+        "state": "open",
+        "author": "mppyes-ai",
+        "updatedAt": "2026-08-13T13:42:13Z"
       },
       {
         "kind": "issue",
-        "number": 106866,
-        "title": "[Bug]: Native QMD returns active slugified paths that do not exist on disk",
-        "url": "https://github.com/openclaw/openclaw/issues/106866",
-        "state": "closed",
-        "author": "BlueboxC",
-        "updatedAt": "2026-08-13T11:50:00Z"
+        "number": 118666,
+        "title": "Feature Request: Expose Discord thread ID (topic_id) in inbound_meta.v2 metadata for voice-note reply routing",
+        "url": "https://github.com/openclaw/openclaw/issues/118666",
+        "state": "open",
+        "author": "greggchen308",
+        "updatedAt": "2026-08-13T13:42:02Z"
+      },
+      {
+        "kind": "issue",
+        "number": 47975,
+        "title": "Subagent sessions persist after completion, main session becomes unresponsive",
+        "url": "https://github.com/openclaw/openclaw/issues/47975",
+        "state": "open",
+        "author": "magnusbonnevier",
+        "updatedAt": "2026-08-13T13:41:55Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123163,
-        "title": "test(browser): align file chooser timeout assertions",
-        "url": "https://github.com/openclaw/openclaw/pull/123163",
+        "number": 118879,
+        "title": "fix: unblock healthy sessions after restart recovery settles",
+        "url": "https://github.com/openclaw/openclaw/pull/118879",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-13T11:57:40Z"
+        "author": "ZYV5ge",
+        "updatedAt": "2026-08-13T13:44:55Z"
       },
       {
         "kind": "pr",
-        "number": 123149,
-        "title": "fix(agents): keep portal URLs visible to the portal tool listing",
-        "url": "https://github.com/openclaw/openclaw/pull/123149",
+        "number": 58421,
+        "title": "feat(plugins): add optional api.resetSession()",
+        "url": "https://github.com/openclaw/openclaw/pull/58421",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-13T11:56:27Z"
+        "author": "MrGPUs",
+        "updatedAt": "2026-08-13T13:44:27Z"
       },
       {
         "kind": "pr",
-        "number": 123094,
-        "title": "feat(runners): publish atomic device runner inventory",
-        "url": "https://github.com/openclaw/openclaw/pull/123094",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-13T11:55:31Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123167,
-        "title": "fix(release): preserve explicit ownership across upgrades",
-        "url": "https://github.com/openclaw/openclaw/pull/123167",
+        "number": 123062,
+        "title": "fix(gateway): prevent duplicate admission for pipelined connects",
+        "url": "https://github.com/openclaw/openclaw/pull/123062",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-13T11:55:19Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-13T13:44:26Z"
       },
       {
         "kind": "pr",
-        "number": 123155,
-        "title": "improve: speed up focused model selection tests",
-        "url": "https://github.com/openclaw/openclaw/pull/123155",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-13T11:55:19Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123166,
-        "title": "refactor(ui): resolve duplicate stylesheet selectors and restore no-duplicate-selectors",
-        "url": "https://github.com/openclaw/openclaw/pull/123166",
+        "number": 123177,
+        "title": "feat(gateway): monitor cloud session disk space",
+        "url": "https://github.com/openclaw/openclaw/pull/123177",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-13T11:53:36Z"
+        "updatedAt": "2026-08-13T13:43:56Z"
+      },
+      {
+        "kind": "pr",
+        "number": 55828,
+        "title": "feat(msteams): add native plugin interactivity parity",
+        "url": "https://github.com/openclaw/openclaw/pull/55828",
+        "state": "open",
+        "author": "Evizero",
+        "updatedAt": "2026-08-13T13:43:44Z"
+      },
+      {
+        "kind": "pr",
+        "number": 82950,
+        "title": "fix(security): prevent unsafe approval patterns from hanging command authorization",
+        "url": "https://github.com/openclaw/openclaw/pull/82950",
+        "state": "open",
+        "author": "SebTardif",
+        "updatedAt": "2026-08-13T13:43:27Z"
       }
     ]
   }

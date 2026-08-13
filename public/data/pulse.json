@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-13T21:01:06.082Z",
+  "generatedAt": "2026-08-13T22:01:07.912Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -462,17 +462,17 @@
     },
     {
       "capturedOn": "2026-08-13",
-      "capturedAt": "2026-08-13T21:01:06.082Z",
-      "issueOpen": 3389,
-      "issueClosed": 43534,
-      "prOpen": 2184,
-      "prClosed": 71718,
-      "prMerged": 24554,
+      "capturedAt": "2026-08-13T22:01:07.912Z",
+      "issueOpen": 3396,
+      "issueClosed": 43538,
+      "prOpen": 2185,
+      "prClosed": 71734,
+      "prMerged": 24571,
       "workflowRuns": 40000,
-      "stars": 386186,
-      "forks": 81170,
+      "stars": 386190,
+      "forks": 81171,
       "subscribers": 1771,
-      "commits": 78932,
+      "commits": 78949,
       "contributors": 3095,
       "source": "github-actions",
       "approximateDate": false
@@ -593,10 +593,10 @@
     },
     {
       "capturedOn": "2026-08-13",
-      "stars": 386186,
-      "forks": 81170,
+      "stars": 386190,
+      "forks": 81171,
       "subscribers": 1771,
-      "commits": 78932,
+      "commits": 78949,
       "contributors": 3095
     }
   ],
@@ -604,113 +604,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 123307,
-        "title": "[Bug]: Chat header blend paints over the transcript scrollbar",
-        "url": "https://github.com/openclaw/openclaw/issues/123307",
+        "number": 123335,
+        "title": "[Bug]: `plugins init` scaffolds `openclaw: latest`, which can select an older CLI than the host and break `plugin:build`",
+        "url": "https://github.com/openclaw/openclaw/issues/123335",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-13T21:00:59Z"
+        "author": "andersonjeccel",
+        "updatedAt": "2026-08-13T21:57:26Z"
       },
       {
         "kind": "issue",
-        "number": 123306,
-        "title": "Control UI: slash command arguments should be staged in the composer, not typed as a chat turn",
-        "url": "https://github.com/openclaw/openclaw/issues/123306",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-13T20:59:57Z"
-      },
-      {
-        "kind": "issue",
-        "number": 123305,
-        "title": "[Bug]: Audio language autodetect forwards English default prompt that can leak into transcript",
-        "url": "https://github.com/openclaw/openclaw/issues/123305",
-        "state": "open",
-        "author": "aleps001",
-        "updatedAt": "2026-08-13T20:58:28Z"
-      },
-      {
-        "kind": "issue",
-        "number": 41740,
-        "title": "fix: discord exec approvals fails against local self-signed TLS gateway",
-        "url": "https://github.com/openclaw/openclaw/issues/41740",
+        "number": 123203,
+        "title": "[Bug]: Gateway draining is masked by pending startup",
+        "url": "https://github.com/openclaw/openclaw/issues/123203",
         "state": "closed",
-        "author": "ayanesakura",
-        "updatedAt": "2026-08-13T20:55:11Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-13T21:57:01Z"
       },
       {
         "kind": "issue",
-        "number": 123304,
-        "title": "[Bug]: stale-foreground suppression overwrites the assistant's own reply text in the transcript, erasing it from the model's context (agent disowns a message the user can see)",
-        "url": "https://github.com/openclaw/openclaw/issues/123304",
+        "number": 123334,
+        "title": "/new cannot recover a channel session after context overflow — SQLite session store neither rotates the session id nor purges the transcript",
+        "url": "https://github.com/openclaw/openclaw/issues/123334",
         "state": "open",
-        "author": "billbarhydt",
-        "updatedAt": "2026-08-13T20:54:31Z"
+        "author": "nocode-ananas",
+        "updatedAt": "2026-08-13T21:56:15Z"
       },
       {
         "kind": "issue",
-        "number": 123302,
-        "title": "[Bug]: Reply usage pricing drops explicit agent ownership",
-        "url": "https://github.com/openclaw/openclaw/issues/123302",
+        "number": 123262,
+        "title": "[Bug]: Skill Workshop collection review lacks prepared execution admission",
+        "url": "https://github.com/openclaw/openclaw/issues/123262",
         "state": "open",
-        "author": "hannesrudolph",
-        "updatedAt": "2026-08-13T20:44:37Z"
+        "author": "woodym-dotcom",
+        "updatedAt": "2026-08-13T21:53:30Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123178,
-        "title": "chore(ui): add dead-CSS audit script and delete unreferenced stylesheet rules",
-        "url": "https://github.com/openclaw/openclaw/pull/123178",
+        "number": 123185,
+        "title": "docs(ui): record stylesheet policy in the Control UI guide",
+        "url": "https://github.com/openclaw/openclaw/pull/123185",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-13T22:00:47Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123241,
+        "title": "fix: decode NAT64 embedded IPv4 prefixes [AI]",
+        "url": "https://github.com/openclaw/openclaw/pull/123241",
+        "state": "open",
+        "author": "mmaps",
+        "updatedAt": "2026-08-13T22:00:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123317,
+        "title": "fix(gateway): prevent targetless events from waking the wrong agent",
+        "url": "https://github.com/openclaw/openclaw/pull/123317",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-13T21:00:56Z"
+        "updatedAt": "2026-08-13T22:00:28Z"
       },
       {
         "kind": "pr",
-        "number": 123180,
-        "title": "chore: speed up sticky model mutation tests",
-        "url": "https://github.com/openclaw/openclaw/pull/123180",
+        "number": 123293,
+        "title": "fix(ui): remote-panel typing jumps to chat composer",
+        "url": "https://github.com/openclaw/openclaw/pull/123293",
+        "state": "open",
+        "author": "Solvely-Colin",
+        "updatedAt": "2026-08-13T21:59:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123336,
+        "title": "fix(gateway): first-use session category leaves group catalogs stale on all clients",
+        "url": "https://github.com/openclaw/openclaw/pull/123336",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-13T21:00:22Z"
+        "updatedAt": "2026-08-13T21:58:41Z"
       },
       {
         "kind": "pr",
-        "number": 122350,
-        "title": "fix(gateway): keep model catalog reads responsive",
-        "url": "https://github.com/openclaw/openclaw/pull/122350",
+        "number": 123235,
+        "title": "fix(codex): preserve legacy binding ownership on upgrade",
+        "url": "https://github.com/openclaw/openclaw/pull/123235",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-08-13T20:58:23Z"
-      },
-      {
-        "kind": "pr",
-        "number": 122475,
-        "title": "refactor(ui): make chat rails full-height resizable columns",
-        "url": "https://github.com/openclaw/openclaw/pull/122475",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-13T20:58:05Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123298,
-        "title": "feat(auth): explicit shared auth store seam",
-        "url": "https://github.com/openclaw/openclaw/pull/123298",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-13T20:57:28Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123303,
-        "title": "fix: heartbeats fail after successful replies in explicit agent fleets",
-        "url": "https://github.com/openclaw/openclaw/pull/123303",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-13T20:56:34Z"
+        "author": "Solvely-Colin",
+        "updatedAt": "2026-08-13T21:57:38Z"
       }
     ]
   }

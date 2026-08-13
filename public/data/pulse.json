@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-13T22:01:07.912Z",
+  "generatedAt": "2026-08-13T23:56:51.926Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -462,18 +462,18 @@
     },
     {
       "capturedOn": "2026-08-13",
-      "capturedAt": "2026-08-13T22:01:07.912Z",
+      "capturedAt": "2026-08-13T23:56:51.926Z",
       "issueOpen": 3396,
-      "issueClosed": 43538,
-      "prOpen": 2185,
-      "prClosed": 71734,
-      "prMerged": 24571,
+      "issueClosed": 43547,
+      "prOpen": 2173,
+      "prClosed": 71777,
+      "prMerged": 24604,
       "workflowRuns": 40000,
-      "stars": 386190,
-      "forks": 81171,
+      "stars": 386197,
+      "forks": 81172,
       "subscribers": 1771,
-      "commits": 78949,
-      "contributors": 3095,
+      "commits": 78985,
+      "contributors": 3097,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -593,106 +593,79 @@
     },
     {
       "capturedOn": "2026-08-13",
-      "stars": 386190,
-      "forks": 81171,
+      "stars": 386197,
+      "forks": 81172,
       "subscribers": 1771,
-      "commits": 78949,
-      "contributors": 3095
+      "commits": 78985,
+      "contributors": 3097
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 123335,
-        "title": "[Bug]: `plugins init` scaffolds `openclaw: latest`, which can select an older CLI than the host and break `plugin:build`",
-        "url": "https://github.com/openclaw/openclaw/issues/123335",
-        "state": "open",
-        "author": "andersonjeccel",
-        "updatedAt": "2026-08-13T21:57:26Z"
-      },
-      {
-        "kind": "issue",
-        "number": 123203,
-        "title": "[Bug]: Gateway draining is masked by pending startup",
-        "url": "https://github.com/openclaw/openclaw/issues/123203",
+        "number": 122989,
+        "title": "Control UI: add fullscreen mode to Desktop preview",
+        "url": "https://github.com/openclaw/openclaw/issues/122989",
         "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-13T21:57:01Z"
-      },
-      {
-        "kind": "issue",
-        "number": 123334,
-        "title": "/new cannot recover a channel session after context overflow — SQLite session store neither rotates the session id nor purges the transcript",
-        "url": "https://github.com/openclaw/openclaw/issues/123334",
-        "state": "open",
-        "author": "nocode-ananas",
-        "updatedAt": "2026-08-13T21:56:15Z"
-      },
-      {
-        "kind": "issue",
-        "number": 123262,
-        "title": "[Bug]: Skill Workshop collection review lacks prepared execution admission",
-        "url": "https://github.com/openclaw/openclaw/issues/123262",
-        "state": "open",
-        "author": "woodym-dotcom",
-        "updatedAt": "2026-08-13T21:53:30Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-13T23:50:15Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123185,
-        "title": "docs(ui): record stylesheet policy in the Control UI guide",
-        "url": "https://github.com/openclaw/openclaw/pull/123185",
+        "number": 123338,
+        "title": "fix(release): preserve upgrade diagnostic probe",
+        "url": "https://github.com/openclaw/openclaw/pull/123338",
         "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-13T22:00:47Z"
+        "updatedAt": "2026-08-13T23:56:48Z"
       },
       {
         "kind": "pr",
-        "number": 123241,
-        "title": "fix: decode NAT64 embedded IPv4 prefixes [AI]",
-        "url": "https://github.com/openclaw/openclaw/pull/123241",
-        "state": "open",
-        "author": "mmaps",
-        "updatedAt": "2026-08-13T22:00:33Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123317,
-        "title": "fix(gateway): prevent targetless events from waking the wrong agent",
-        "url": "https://github.com/openclaw/openclaw/pull/123317",
+        "number": 123164,
+        "title": "fix(doctor): repeated no-op OAuth migration prompt and swallowed migration error cause",
+        "url": "https://github.com/openclaw/openclaw/pull/123164",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-13T22:00:28Z"
+        "updatedAt": "2026-08-13T23:56:47Z"
       },
       {
         "kind": "pr",
-        "number": 123293,
-        "title": "fix(ui): remote-panel typing jumps to chat composer",
-        "url": "https://github.com/openclaw/openclaw/pull/123293",
-        "state": "open",
-        "author": "Solvely-Colin",
-        "updatedAt": "2026-08-13T21:59:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123336,
-        "title": "fix(gateway): first-use session category leaves group catalogs stale on all clients",
-        "url": "https://github.com/openclaw/openclaw/pull/123336",
+        "number": 123151,
+        "title": "fix(ai): provider terminal errors show as generic unknown error and trigger pointless failover",
+        "url": "https://github.com/openclaw/openclaw/pull/123151",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-13T21:58:41Z"
+        "updatedAt": "2026-08-13T23:56:18Z"
       },
       {
         "kind": "pr",
-        "number": 123235,
-        "title": "fix(codex): preserve legacy binding ownership on upgrade",
-        "url": "https://github.com/openclaw/openclaw/pull/123235",
+        "number": 123374,
+        "title": "fix(skills): keep shared skill roots safe during collection review",
+        "url": "https://github.com/openclaw/openclaw/pull/123374",
         "state": "open",
-        "author": "Solvely-Colin",
-        "updatedAt": "2026-08-13T21:57:38Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-13T23:55:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123324,
+        "title": "fix(ui): one failed full-message load pins the truncated preview for the whole session",
+        "url": "https://github.com/openclaw/openclaw/pull/123324",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-13T23:55:48Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123351,
+        "title": "feat(control-ui): invite operators to the Discord community once they are using OpenClaw",
+        "url": "https://github.com/openclaw/openclaw/pull/123351",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-13T23:55:29Z"
       }
     ]
   }

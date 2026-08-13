@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-13T06:43:44.534Z",
+  "generatedAt": "2026-08-13T11:58:02.763Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -462,17 +462,17 @@
     },
     {
       "capturedOn": "2026-08-13",
-      "capturedAt": "2026-08-13T06:43:44.534Z",
-      "issueOpen": 3402,
-      "issueClosed": 43477,
-      "prOpen": 2093,
-      "prClosed": 71589,
-      "prMerged": 24466,
+      "capturedAt": "2026-08-13T11:58:02.763Z",
+      "issueOpen": 3397,
+      "issueClosed": 43507,
+      "prOpen": 2106,
+      "prClosed": 71679,
+      "prMerged": 24529,
       "workflowRuns": 40000,
-      "stars": 386118,
-      "forks": 81156,
+      "stars": 386157,
+      "forks": 81165,
       "subscribers": 1769,
-      "commits": 78841,
+      "commits": 78905,
       "contributors": 3095,
       "source": "github-actions",
       "approximateDate": false
@@ -593,10 +593,10 @@
     },
     {
       "capturedOn": "2026-08-13",
-      "stars": 386118,
-      "forks": 81156,
+      "stars": 386157,
+      "forks": 81165,
       "subscribers": 1769,
-      "commits": 78841,
+      "commits": 78905,
       "contributors": 3095
     }
   ],
@@ -604,77 +604,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 121953,
-        "title": "[Bug]: Cron agent turns stall on DeepSeek — the '[cron:<jobId> <name>] ' user-message prefix is deprioritized",
-        "url": "https://github.com/openclaw/openclaw/issues/121953",
-        "state": "open",
-        "author": "Dytchem",
-        "updatedAt": "2026-08-13T06:40:12Z"
+        "number": 106678,
+        "title": "[Security] Weak cryptographic nonce generation in MCP OAuth flow",
+        "url": "https://github.com/openclaw/openclaw/issues/106678",
+        "state": "closed",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-08-13T11:53:48Z"
       },
       {
         "kind": "issue",
-        "number": 122321,
-        "title": "Gateway crash-loops on \"plugin migration inputs changed during startup convergence\" (codex@beta), leaking un-pruned npm generation dirs — filled host disk in ~2h",
-        "url": "https://github.com/openclaw/openclaw/issues/122321",
+        "number": 106652,
+        "title": "[Bug] mergeAgentRunTerminalOutcome can discard user-visible success errors",
+        "url": "https://github.com/openclaw/openclaw/issues/106652",
         "state": "closed",
-        "author": "ree9622",
-        "updatedAt": "2026-08-13T06:39:19Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-08-13T11:53:45Z"
+      },
+      {
+        "kind": "issue",
+        "number": 106608,
+        "title": "[Security] Path Traversal in clawhub Plugin Package Extraction",
+        "url": "https://github.com/openclaw/openclaw/issues/106608",
+        "state": "closed",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-08-13T11:53:26Z"
+      },
+      {
+        "kind": "issue",
+        "number": 106676,
+        "title": "[Security] Insecure direct object reference (IDOR) in message fetch paths",
+        "url": "https://github.com/openclaw/openclaw/issues/106676",
+        "state": "closed",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-08-13T11:52:10Z"
+      },
+      {
+        "kind": "issue",
+        "number": 106866,
+        "title": "[Bug]: Native QMD returns active slugified paths that do not exist on disk",
+        "url": "https://github.com/openclaw/openclaw/issues/106866",
+        "state": "closed",
+        "author": "BlueboxC",
+        "updatedAt": "2026-08-13T11:50:00Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 118505,
-        "title": "macOS: surface realtime Talk settings",
-        "url": "https://github.com/openclaw/openclaw/pull/118505",
+        "number": 123163,
+        "title": "test(browser): align file chooser timeout assertions",
+        "url": "https://github.com/openclaw/openclaw/pull/123163",
         "state": "open",
-        "author": "zhilong1115",
-        "updatedAt": "2026-08-13T06:42:54Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-13T11:57:40Z"
       },
       {
         "kind": "pr",
-        "number": 122425,
-        "title": "fix: allow slash skills inside normal messages",
-        "url": "https://github.com/openclaw/openclaw/pull/122425",
+        "number": 123149,
+        "title": "fix(agents): keep portal URLs visible to the portal tool listing",
+        "url": "https://github.com/openclaw/openclaw/pull/123149",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-13T06:42:28Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-13T11:56:27Z"
       },
       {
         "kind": "pr",
-        "number": 123039,
-        "title": "chore(nostr): stop leaking private key test fixtures",
-        "url": "https://github.com/openclaw/openclaw/pull/123039",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-13T06:42:19Z"
+        "number": 123094,
+        "title": "feat(runners): publish atomic device runner inventory",
+        "url": "https://github.com/openclaw/openclaw/pull/123094",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-13T11:55:31Z"
       },
       {
         "kind": "pr",
-        "number": 123038,
-        "title": "fix(release): make validation fail-fast optional",
-        "url": "https://github.com/openclaw/openclaw/pull/123038",
+        "number": 123167,
+        "title": "fix(release): preserve explicit ownership across upgrades",
+        "url": "https://github.com/openclaw/openclaw/pull/123167",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-13T06:42:16Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-13T11:55:19Z"
       },
       {
         "kind": "pr",
-        "number": 123036,
-        "title": "refactor(plugin-sdk): replace API baselines with diffs",
-        "url": "https://github.com/openclaw/openclaw/pull/123036",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-08-13T06:41:59Z"
+        "number": 123155,
+        "title": "improve: speed up focused model selection tests",
+        "url": "https://github.com/openclaw/openclaw/pull/123155",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-13T11:55:19Z"
       },
       {
         "kind": "pr",
-        "number": 118954,
-        "title": "fix: Custodian wizard loses pending control after reload",
-        "url": "https://github.com/openclaw/openclaw/pull/118954",
+        "number": 123166,
+        "title": "refactor(ui): resolve duplicate stylesheet selectors and restore no-duplicate-selectors",
+        "url": "https://github.com/openclaw/openclaw/pull/123166",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-13T06:41:35Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-13T11:53:36Z"
       }
     ]
   }

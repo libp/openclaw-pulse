@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-14T13:40:15.192Z",
+  "generatedAt": "2026-08-14T16:04:22.723Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -479,17 +479,17 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "capturedAt": "2026-08-14T13:40:15.192Z",
-      "issueOpen": 3393,
-      "issueClosed": 43604,
-      "prOpen": 2137,
-      "prClosed": 72042,
-      "prMerged": 24801,
+      "capturedAt": "2026-08-14T16:04:22.723Z",
+      "issueOpen": 3402,
+      "issueClosed": 43609,
+      "prOpen": 2144,
+      "prClosed": 72072,
+      "prMerged": 24822,
       "workflowRuns": 40000,
-      "stars": 386276,
-      "forks": 81191,
+      "stars": 386294,
+      "forks": 81197,
       "subscribers": 1769,
-      "commits": 79232,
+      "commits": 79253,
       "contributors": 3097,
       "source": "github-actions",
       "approximateDate": false
@@ -618,10 +618,10 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "stars": 386276,
-      "forks": 81191,
+      "stars": 386294,
+      "forks": 81197,
       "subscribers": 1769,
-      "commits": 79232,
+      "commits": 79253,
       "contributors": 3097
     }
   ],
@@ -629,113 +629,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 123668,
-        "title": "[Bug]: Mid-turn compaction can revive a superseded task after requester settlement",
-        "url": "https://github.com/openclaw/openclaw/issues/123668",
+        "number": 120316,
+        "title": "Auth store changes after runtime prep are invisible until full gateway restart (first credential written post-prep is never served)",
+        "url": "https://github.com/openclaw/openclaw/issues/120316",
         "state": "open",
-        "author": "andersonjeccel",
-        "updatedAt": "2026-08-14T13:39:22Z"
+        "author": "609NFT",
+        "updatedAt": "2026-08-14T16:03:04Z"
       },
       {
         "kind": "issue",
-        "number": 113577,
-        "title": "Qwen Token Plan catalog is stale: qwen3.8-max-preview missing, three output ceilings too low, six models missing video input",
-        "url": "https://github.com/openclaw/openclaw/issues/113577",
-        "state": "open",
-        "author": "oliver-mee",
-        "updatedAt": "2026-08-14T13:38:42Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113701,
-        "title": "Context Overflow: large tool outputs exceed context window, compaction can't recover, sessions enter failure loop",
-        "url": "https://github.com/openclaw/openclaw/issues/113701",
-        "state": "open",
-        "author": "ogilvymiles",
-        "updatedAt": "2026-08-14T13:38:35Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113756,
-        "title": "[Bug]: Message ordering conflict / out-of-order replies still occurring on 2026.7.1-2 (webchat)",
-        "url": "https://github.com/openclaw/openclaw/issues/113756",
-        "state": "open",
-        "author": "Ameazy77",
-        "updatedAt": "2026-08-14T13:38:33Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113582,
-        "title": "Proposal: fail-closed Workboard completion gates",
-        "url": "https://github.com/openclaw/openclaw/issues/113582",
-        "state": "open",
-        "author": "fr-meyer",
-        "updatedAt": "2026-08-14T13:38:33Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113911,
-        "title": "Transcript entry id is stripped before plugin conversation hooks, leaving no stable per-message identifier",
-        "url": "https://github.com/openclaw/openclaw/issues/113911",
-        "state": "open",
-        "author": "rh7",
-        "updatedAt": "2026-08-14T13:38:30Z"
+        "number": 123707,
+        "title": "[Bug]: Slack structured payloads drop final dispatch custody",
+        "url": "https://github.com/openclaw/openclaw/issues/123707",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-14T16:02:59Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123660,
-        "title": "fix(ui): stale tabs restore terminals without owners",
-        "url": "https://github.com/openclaw/openclaw/pull/123660",
+        "number": 123709,
+        "title": "feat(audit): explain outbound message delivery",
+        "url": "https://github.com/openclaw/openclaw/pull/123709",
+        "state": "open",
+        "author": "joshavant",
+        "updatedAt": "2026-08-14T16:04:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123724,
+        "title": "fix(ui): surface companion clear failures",
+        "url": "https://github.com/openclaw/openclaw/pull/123724",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-14T13:40:04Z"
+        "updatedAt": "2026-08-14T16:04:19Z"
       },
       {
         "kind": "pr",
-        "number": 82540,
-        "title": "fix(wechat): preserve existing accounts across hot reload",
-        "url": "https://github.com/openclaw/openclaw/pull/82540",
-        "state": "open",
-        "author": "NewdlDewdl",
-        "updatedAt": "2026-08-14T13:39:48Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123595,
-        "title": "improve: shorten hybrid compact Node shards",
-        "url": "https://github.com/openclaw/openclaw/pull/123595",
+        "number": 123705,
+        "title": "fix(ui): defer Skills fallback until first update",
+        "url": "https://github.com/openclaw/openclaw/pull/123705",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-14T13:39:24Z"
+        "updatedAt": "2026-08-14T16:04:14Z"
       },
       {
         "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-14T13:38:56Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123635,
-        "title": "feat(macos): add embedded CUA computer provider",
-        "url": "https://github.com/openclaw/openclaw/pull/123635",
+        "number": 123716,
+        "title": "fix(installer): reject unusable prefix installs",
+        "url": "https://github.com/openclaw/openclaw/pull/123716",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-14T13:38:52Z"
+        "updatedAt": "2026-08-14T16:04:12Z"
       },
       {
         "kind": "pr",
-        "number": 113894,
-        "title": "fix(ui): restore automatic agent fast-mode settings",
-        "url": "https://github.com/openclaw/openclaw/pull/113894",
+        "number": 123722,
+        "title": "chore(deps): automate trusted ClawHub CLI refresh",
+        "url": "https://github.com/openclaw/openclaw/pull/123722",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-14T13:38:42Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-08-14T16:04:11Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120319,
+        "title": "fix(control-ui): let operators forget a stale stored browser device credential",
+        "url": "https://github.com/openclaw/openclaw/pull/120319",
+        "state": "open",
+        "author": "Nehanth",
+        "updatedAt": "2026-08-14T16:04:17Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-14T21:39:00.404Z",
+  "generatedAt": "2026-08-14T22:38:46.745Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -479,17 +479,17 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "capturedAt": "2026-08-14T21:39:00.404Z",
-      "issueOpen": 3403,
-      "issueClosed": 43636,
-      "prOpen": 2145,
-      "prClosed": 72169,
-      "prMerged": 24900,
+      "capturedAt": "2026-08-14T22:38:46.745Z",
+      "issueOpen": 3404,
+      "issueClosed": 43640,
+      "prOpen": 2153,
+      "prClosed": 72180,
+      "prMerged": 24910,
       "workflowRuns": 40000,
-      "stars": 386323,
-      "forks": 81202,
+      "stars": 386326,
+      "forks": 81204,
       "subscribers": 1770,
-      "commits": 79332,
+      "commits": 79341,
       "contributors": 3097,
       "source": "github-actions",
       "approximateDate": false
@@ -618,10 +618,10 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "stars": 386323,
-      "forks": 81202,
+      "stars": 386326,
+      "forks": 81204,
       "subscribers": 1770,
-      "commits": 79332,
+      "commits": 79341,
       "contributors": 3097
     }
   ],
@@ -629,113 +629,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 80234,
-        "title": "Discord bot replies can trigger implicit reply-to-bot mentions",
-        "url": "https://github.com/openclaw/openclaw/issues/80234",
+        "number": 115063,
+        "title": "v2026.7.1 Codex extension can strand parent after Completed(None)",
+        "url": "https://github.com/openclaw/openclaw/issues/115063",
         "state": "open",
-        "author": "JiehoonKwak",
-        "updatedAt": "2026-08-14T21:38:48Z"
+        "author": "petlevoy",
+        "updatedAt": "2026-08-14T22:37:54Z"
       },
       {
         "kind": "issue",
-        "number": 107814,
-        "title": "[Bug]: gpt-5.3-codex-spark emits empty arguments for required tool calls",
-        "url": "https://github.com/openclaw/openclaw/issues/107814",
+        "number": 123873,
+        "title": "Claude CLI sessions invalidated mid-conversation by auth-profile churn (loses full context)",
+        "url": "https://github.com/openclaw/openclaw/issues/123873",
         "state": "open",
-        "author": "laurenceputra",
-        "updatedAt": "2026-08-14T21:38:56Z"
-      },
-      {
-        "kind": "issue",
-        "number": 94554,
-        "title": "[Feature]: `cloudflare-ai-gateway` is a single-model Anthropic passthrough, not a bridge to AI Gateway",
-        "url": "https://github.com/openclaw/openclaw/issues/94554",
-        "state": "open",
-        "author": "alexminza",
-        "updatedAt": "2026-08-14T21:38:33Z"
-      },
-      {
-        "kind": "issue",
-        "number": 123792,
-        "title": "[Bug]: Assistant turns render twice with CLI backends — live per-block view plus a concatenated aggregate record",
-        "url": "https://github.com/openclaw/openclaw/issues/123792",
-        "state": "open",
-        "author": "spunzon",
-        "updatedAt": "2026-08-14T21:38:30Z"
-      },
-      {
-        "kind": "issue",
-        "number": 120563,
-        "title": "Conversation history not sent to model on custom/Ollama provider — every turn gets a fixed-size context regardless of prior turns",
-        "url": "https://github.com/openclaw/openclaw/issues/120563",
-        "state": "open",
-        "author": "galli-personal",
-        "updatedAt": "2026-08-14T21:38:30Z"
-      },
-      {
-        "kind": "issue",
-        "number": 123823,
-        "title": "[Feature]: install.sh --install-method git full-clones ~4.9 GB to check out a pinned release tag",
-        "url": "https://github.com/openclaw/openclaw/issues/123823",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-14T21:38:24Z"
+        "author": "dubyak",
+        "updatedAt": "2026-08-14T22:37:23Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123597,
-        "title": "improve(ui): make sidebar updates a focused call to action",
-        "url": "https://github.com/openclaw/openclaw/pull/123597",
+        "number": 105025,
+        "title": "feat: add Twilio RCS channel [AI]",
+        "url": "https://github.com/openclaw/openclaw/pull/105025",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-14T21:38:55Z"
+        "author": "clawSean",
+        "updatedAt": "2026-08-14T22:38:39Z"
       },
       {
         "kind": "pr",
-        "number": 123682,
-        "title": "improve(ui): consolidate sidebar issues into a quiet panel",
-        "url": "https://github.com/openclaw/openclaw/pull/123682",
+        "number": 123808,
+        "title": "fix(doctor): keep migrated agents on their existing workspace",
+        "url": "https://github.com/openclaw/openclaw/pull/123808",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-14T21:38:54Z"
+        "author": "scotthuang",
+        "updatedAt": "2026-08-14T22:38:37Z"
       },
       {
         "kind": "pr",
-        "number": 123666,
-        "title": "feat(ui): make sidebar customization transactional",
-        "url": "https://github.com/openclaw/openclaw/pull/123666",
+        "number": 123613,
+        "title": "Unify sidebar iconography",
+        "url": "https://github.com/openclaw/openclaw/pull/123613",
         "state": "open",
         "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-14T21:38:54Z"
+        "updatedAt": "2026-08-14T22:38:35Z"
       },
       {
         "kind": "pr",
-        "number": 123656,
-        "title": "feat(ui): add sidebar customization surface",
-        "url": "https://github.com/openclaw/openclaw/pull/123656",
+        "number": 123863,
+        "title": "fix(memory): report truthful index outcomes for empty workspaces",
+        "url": "https://github.com/openclaw/openclaw/pull/123863",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-14T21:38:54Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-14T22:38:29Z"
       },
       {
         "kind": "pr",
-        "number": 123582,
-        "title": "improve(ui): unify sidebar account footer and identity menu",
-        "url": "https://github.com/openclaw/openclaw/pull/123582",
+        "number": 82519,
+        "title": "fix(test): stabilize red CI tests",
+        "url": "https://github.com/openclaw/openclaw/pull/82519",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-14T21:38:54Z"
+        "author": "lidge-jun",
+        "updatedAt": "2026-08-14T22:38:24Z"
       },
       {
         "kind": "pr",
-        "number": 123645,
-        "title": "feat(ui): refine sidebar Pages navigation",
-        "url": "https://github.com/openclaw/openclaw/pull/123645",
+        "number": 123869,
+        "title": "fix(gateway): keep node worker outcomes consistent under load",
+        "url": "https://github.com/openclaw/openclaw/pull/123869",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-14T21:38:53Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-14T22:38:17Z"
       }
     ]
   }

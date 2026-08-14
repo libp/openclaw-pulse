@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-14T18:05:00.694Z",
+  "generatedAt": "2026-08-14T19:12:05.292Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -479,17 +479,17 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "capturedAt": "2026-08-14T18:05:00.694Z",
-      "issueOpen": 3408,
-      "issueClosed": 43619,
-      "prOpen": 2156,
-      "prClosed": 72105,
-      "prMerged": 24848,
+      "capturedAt": "2026-08-14T19:12:05.292Z",
+      "issueOpen": 3406,
+      "issueClosed": 43624,
+      "prOpen": 2150,
+      "prClosed": 72126,
+      "prMerged": 24864,
       "workflowRuns": 40000,
-      "stars": 386312,
-      "forks": 81199,
+      "stars": 386319,
+      "forks": 81201,
       "subscribers": 1770,
-      "commits": 79279,
+      "commits": 79296,
       "contributors": 3097,
       "source": "github-actions",
       "approximateDate": false
@@ -618,10 +618,10 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "stars": 386312,
-      "forks": 81199,
+      "stars": 386319,
+      "forks": 81201,
       "subscribers": 1770,
-      "commits": 79279,
+      "commits": 79296,
       "contributors": 3097
     }
   ],
@@ -629,77 +629,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 118999,
-        "title": "[Feature]: Bind native Codex Realtime V3 voice to existing sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/118999",
+        "number": 123802,
+        "title": "Slack: message(action=react) fails in triggered channel/thread sessions — \"Delegated slack:react requires the exact current conversation and account for this plugin\"",
+        "url": "https://github.com/openclaw/openclaw/issues/123802",
         "state": "open",
-        "author": "GoatInAHat",
-        "updatedAt": "2026-08-14T18:03:20Z"
+        "author": "beefcakebot",
+        "updatedAt": "2026-08-14T19:12:00Z"
       },
       {
         "kind": "issue",
-        "number": 123781,
-        "title": "[Bug]: Browser Talk silently drops speech when relay appends stall",
-        "url": "https://github.com/openclaw/openclaw/issues/123781",
+        "number": 119971,
+        "title": "[Bug]: Preflight (budget) compaction treats Codex \"owns automatic compaction\" no-op as fatal and drops the user's turn",
+        "url": "https://github.com/openclaw/openclaw/issues/119971",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-14T18:02:02Z"
+        "author": "joeykrug",
+        "updatedAt": "2026-08-14T19:09:54Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 82572,
-        "title": "feat(queue): persist followup queues across gateway restarts",
-        "url": "https://github.com/openclaw/openclaw/pull/82572",
-        "state": "open",
-        "author": "jewseppi",
-        "updatedAt": "2026-08-14T18:04:56Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123718,
-        "title": "fix(ui): fork active sessions from stable history",
-        "url": "https://github.com/openclaw/openclaw/pull/123718",
-        "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-14T18:04:39Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-14T18:04:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123753,
-        "title": "test: trim failover classifier duplicates",
-        "url": "https://github.com/openclaw/openclaw/pull/123753",
+        "number": 123785,
+        "title": "fix(gateway): retire worker placements without sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/123785",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-14T18:03:40Z"
+        "updatedAt": "2026-08-14T19:11:57Z"
       },
       {
         "kind": "pr",
-        "number": 123752,
-        "title": "fix(cli): keep Doctor machine-output failures on stdout",
-        "url": "https://github.com/openclaw/openclaw/pull/123752",
+        "number": 123797,
+        "title": "fix(cli): sanitize stored strings in directory, cron show, agents, channels, and sessions output",
+        "url": "https://github.com/openclaw/openclaw/pull/123797",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-14T18:03:29Z"
+        "updatedAt": "2026-08-14T19:11:54Z"
       },
       {
         "kind": "pr",
-        "number": 123783,
-        "title": "fix(ui): surface Talk input backpressure",
-        "url": "https://github.com/openclaw/openclaw/pull/123783",
+        "number": 123705,
+        "title": "fix(ui): prevent duplicate Skills preload requests",
+        "url": "https://github.com/openclaw/openclaw/pull/123705",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-14T18:03:23Z"
+        "updatedAt": "2026-08-14T19:12:01Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123562,
+        "title": "improve(ui): unify sidebar section grammar",
+        "url": "https://github.com/openclaw/openclaw/pull/123562",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-14T19:11:49Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123655,
+        "title": "refactor(ui): unify sidebar transient surfaces",
+        "url": "https://github.com/openclaw/openclaw/pull/123655",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-14T19:11:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120443,
+        "title": "fix: read codex thread binding before deferring automatic compaction (#119977)",
+        "url": "https://github.com/openclaw/openclaw/pull/120443",
+        "state": "open",
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-08-14T19:11:26Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-13T23:56:51.926Z",
+  "generatedAt": "2026-08-14T04:59:51.624Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -476,6 +476,23 @@
       "contributors": 3097,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-14",
+      "capturedAt": "2026-08-14T04:59:51.624Z",
+      "issueOpen": 3394,
+      "issueClosed": 43568,
+      "prOpen": 2144,
+      "prClosed": 71885,
+      "prMerged": 24696,
+      "workflowRuns": 40000,
+      "stars": 386226,
+      "forks": 81177,
+      "subscribers": 1771,
+      "commits": 79117,
+      "contributors": 3096,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -598,74 +615,82 @@
       "subscribers": 1771,
       "commits": 78985,
       "contributors": 3097
+    },
+    {
+      "capturedOn": "2026-08-14",
+      "stars": 386226,
+      "forks": 81177,
+      "subscribers": 1771,
+      "commits": 79117,
+      "contributors": 3096
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 122989,
-        "title": "Control UI: add fullscreen mode to Desktop preview",
-        "url": "https://github.com/openclaw/openclaw/issues/122989",
+        "number": 123322,
+        "title": "[Bug]: `openclaw message send` fails with AgentSelectionRequiredError on explicit-ownership multi-agent installs; hint suggests a --agent flag the command doesn't have",
+        "url": "https://github.com/openclaw/openclaw/issues/123322",
         "state": "closed",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-13T23:50:15Z"
+        "author": "ToneLoke",
+        "updatedAt": "2026-08-14T04:57:30Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123338,
-        "title": "fix(release): preserve upgrade diagnostic probe",
-        "url": "https://github.com/openclaw/openclaw/pull/123338",
+        "number": 122705,
+        "title": "fix: clear CLI binding after manual compaction",
+        "url": "https://github.com/openclaw/openclaw/pull/122705",
+        "state": "open",
+        "author": "qingminglong",
+        "updatedAt": "2026-08-14T04:59:48Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121041,
+        "title": "fix: compaction leaves CLI-backed sessions resuming the pre-compaction history",
+        "url": "https://github.com/openclaw/openclaw/pull/121041",
+        "state": "open",
+        "author": "IlyaKuprov",
+        "updatedAt": "2026-08-14T04:59:46Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121907,
+        "title": "fix(telegram): preserve reply and quote context from batched messages",
+        "url": "https://github.com/openclaw/openclaw/pull/121907",
+        "state": "open",
+        "author": "iridescentWen",
+        "updatedAt": "2026-08-14T04:59:43Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123467,
+        "title": "fix: retain file changes across conversation compaction",
+        "url": "https://github.com/openclaw/openclaw/pull/123467",
         "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-13T23:56:48Z"
+        "updatedAt": "2026-08-14T04:59:39Z"
       },
       {
         "kind": "pr",
-        "number": 123164,
-        "title": "fix(doctor): repeated no-op OAuth migration prompt and swallowed migration error cause",
-        "url": "https://github.com/openclaw/openclaw/pull/123164",
+        "number": 112945,
+        "title": "feat(media): polish voice transcript echo for review UX",
+        "url": "https://github.com/openclaw/openclaw/pull/112945",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-13T23:56:47Z"
+        "author": "Bartok9",
+        "updatedAt": "2026-08-14T04:59:32Z"
       },
       {
         "kind": "pr",
-        "number": 123151,
-        "title": "fix(ai): provider terminal errors show as generic unknown error and trigger pointless failover",
-        "url": "https://github.com/openclaw/openclaw/pull/123151",
+        "number": 112375,
+        "title": "feat(cron): shell precheck gate to skip LLM when no work",
+        "url": "https://github.com/openclaw/openclaw/pull/112375",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-13T23:56:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123374,
-        "title": "fix(skills): keep shared skill roots safe during collection review",
-        "url": "https://github.com/openclaw/openclaw/pull/123374",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-13T23:55:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123324,
-        "title": "fix(ui): one failed full-message load pins the truncated preview for the whole session",
-        "url": "https://github.com/openclaw/openclaw/pull/123324",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-13T23:55:48Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123351,
-        "title": "feat(control-ui): invite operators to the Discord community once they are using OpenClaw",
-        "url": "https://github.com/openclaw/openclaw/pull/123351",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-13T23:55:29Z"
+        "author": "Bartok9",
+        "updatedAt": "2026-08-14T04:59:29Z"
       }
     ]
   }

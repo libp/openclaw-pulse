@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-14T11:08:34.483Z",
+  "generatedAt": "2026-08-14T13:40:15.192Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -479,18 +479,18 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "capturedAt": "2026-08-14T11:08:34.483Z",
-      "issueOpen": 3397,
-      "issueClosed": 43594,
-      "prOpen": 2138,
-      "prClosed": 71997,
-      "prMerged": 24768,
+      "capturedAt": "2026-08-14T13:40:15.192Z",
+      "issueOpen": 3393,
+      "issueClosed": 43604,
+      "prOpen": 2137,
+      "prClosed": 72042,
+      "prMerged": 24801,
       "workflowRuns": 40000,
-      "stars": 386280,
+      "stars": 386276,
       "forks": 81191,
       "subscribers": 1769,
-      "commits": 79198,
-      "contributors": 3096,
+      "commits": 79232,
+      "contributors": 3097,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -618,52 +618,97 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "stars": 386280,
+      "stars": 386276,
       "forks": 81191,
       "subscribers": 1769,
-      "commits": 79198,
-      "contributors": 3096
+      "commits": 79232,
+      "contributors": 3097
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 123610,
-        "title": "[Bug]: system event JSON mode emits no structured errors",
-        "url": "https://github.com/openclaw/openclaw/issues/123610",
+        "number": 123668,
+        "title": "[Bug]: Mid-turn compaction can revive a superseded task after requester settlement",
+        "url": "https://github.com/openclaw/openclaw/issues/123668",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-14T11:07:07Z"
+        "author": "andersonjeccel",
+        "updatedAt": "2026-08-14T13:39:22Z"
       },
       {
         "kind": "issue",
-        "number": 68618,
-        "title": "Feature request: sender name alias mapping for Feishu channel",
-        "url": "https://github.com/openclaw/openclaw/issues/68618",
-        "state": "closed",
-        "author": "Ecstasyzzz",
-        "updatedAt": "2026-08-14T11:06:40Z"
+        "number": 113577,
+        "title": "Qwen Token Plan catalog is stale: qwen3.8-max-preview missing, three output ceilings too low, six models missing video input",
+        "url": "https://github.com/openclaw/openclaw/issues/113577",
+        "state": "open",
+        "author": "oliver-mee",
+        "updatedAt": "2026-08-14T13:38:42Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113701,
+        "title": "Context Overflow: large tool outputs exceed context window, compaction can't recover, sessions enter failure loop",
+        "url": "https://github.com/openclaw/openclaw/issues/113701",
+        "state": "open",
+        "author": "ogilvymiles",
+        "updatedAt": "2026-08-14T13:38:35Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113756,
+        "title": "[Bug]: Message ordering conflict / out-of-order replies still occurring on 2026.7.1-2 (webchat)",
+        "url": "https://github.com/openclaw/openclaw/issues/113756",
+        "state": "open",
+        "author": "Ameazy77",
+        "updatedAt": "2026-08-14T13:38:33Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113582,
+        "title": "Proposal: fail-closed Workboard completion gates",
+        "url": "https://github.com/openclaw/openclaw/issues/113582",
+        "state": "open",
+        "author": "fr-meyer",
+        "updatedAt": "2026-08-14T13:38:33Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113911,
+        "title": "Transcript entry id is stripped before plugin conversation hooks, leaving no stable per-message identifier",
+        "url": "https://github.com/openclaw/openclaw/issues/113911",
+        "state": "open",
+        "author": "rh7",
+        "updatedAt": "2026-08-14T13:38:30Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123613,
-        "title": "Unify sidebar iconography",
-        "url": "https://github.com/openclaw/openclaw/pull/123613",
+        "number": 123660,
+        "title": "fix(ui): stale tabs restore terminals without owners",
+        "url": "https://github.com/openclaw/openclaw/pull/123660",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-14T11:08:25Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-14T13:40:04Z"
       },
       {
         "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
+        "number": 82540,
+        "title": "fix(wechat): preserve existing accounts across hot reload",
+        "url": "https://github.com/openclaw/openclaw/pull/82540",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-14T11:08:08Z"
+        "author": "NewdlDewdl",
+        "updatedAt": "2026-08-14T13:39:48Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123595,
+        "title": "improve: shorten hybrid compact Node shards",
+        "url": "https://github.com/openclaw/openclaw/pull/123595",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-14T13:39:24Z"
       },
       {
         "kind": "pr",
@@ -672,34 +717,25 @@
         "url": "https://github.com/openclaw/openclaw/pull/116489",
         "state": "open",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-14T11:08:06Z"
+        "updatedAt": "2026-08-14T13:38:56Z"
       },
       {
         "kind": "pr",
-        "number": 123585,
-        "title": "fix(acp): run session/new prompts in the requested cwd",
-        "url": "https://github.com/openclaw/openclaw/pull/123585",
-        "state": "open",
-        "author": "Chinmayrawat15",
-        "updatedAt": "2026-08-14T11:07:47Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123612,
-        "title": "feat(runners): enforce node worker capacity",
-        "url": "https://github.com/openclaw/openclaw/pull/123612",
+        "number": 123635,
+        "title": "feat(macos): add embedded CUA computer provider",
+        "url": "https://github.com/openclaw/openclaw/pull/123635",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-14T11:07:37Z"
+        "updatedAt": "2026-08-14T13:38:52Z"
       },
       {
         "kind": "pr",
-        "number": 123608,
-        "title": "fix: keep gateway control traffic responsive under concurrent turns",
-        "url": "https://github.com/openclaw/openclaw/pull/123608",
+        "number": 113894,
+        "title": "fix(ui): restore automatic agent fast-mode settings",
+        "url": "https://github.com/openclaw/openclaw/pull/113894",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-14T11:06:50Z"
+        "updatedAt": "2026-08-14T13:38:42Z"
       }
     ]
   }

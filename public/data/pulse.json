@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-14T08:36:44.486Z",
+  "generatedAt": "2026-08-14T10:15:16.531Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -479,17 +479,17 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "capturedAt": "2026-08-14T08:36:44.486Z",
-      "issueOpen": 3401,
-      "issueClosed": 43577,
-      "prOpen": 2152,
-      "prClosed": 71946,
-      "prMerged": 24737,
+      "capturedAt": "2026-08-14T10:15:16.531Z",
+      "issueOpen": 3395,
+      "issueClosed": 43591,
+      "prOpen": 2134,
+      "prClosed": 71990,
+      "prMerged": 24762,
       "workflowRuns": 40000,
-      "stars": 386256,
-      "forks": 81187,
-      "subscribers": 1769,
-      "commits": 79167,
+      "stars": 386270,
+      "forks": 81191,
+      "subscribers": 1768,
+      "commits": 79192,
       "contributors": 3096,
       "source": "github-actions",
       "approximateDate": false
@@ -618,10 +618,10 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "stars": 386256,
-      "forks": 81187,
-      "subscribers": 1769,
-      "commits": 79167,
+      "stars": 386270,
+      "forks": 81191,
+      "subscribers": 1768,
+      "commits": 79192,
       "contributors": 3096
     }
   ],
@@ -629,95 +629,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 45508,
-        "title": "[Feature]: Self-hosted STT/TTS provider support in webchat (Route webchat TTS through the gateway instead of browser Speech API)",
-        "url": "https://github.com/openclaw/openclaw/issues/45508",
+        "number": 123596,
+        "title": "[Bug]: Slow openclaw_agent_consult reply arrives after OpenAI Realtime turn already errored — voice hears \"no reply\", text session has the answer",
+        "url": "https://github.com/openclaw/openclaw/issues/123596",
         "state": "open",
-        "author": "mcfex",
-        "updatedAt": "2026-08-14T08:36:24Z"
+        "author": "PaulD-LeWagon",
+        "updatedAt": "2026-08-14T10:14:18Z"
       },
       {
         "kind": "issue",
-        "number": 88077,
-        "title": "[Bug]: Active Memory recall context uses full OpenClaw prompt envelope",
-        "url": "https://github.com/openclaw/openclaw/issues/88077",
+        "number": 109928,
+        "title": "Feature: let an outbound hook override the reply threadId (reply into an auto-created forum topic, not only the inbound thread)",
+        "url": "https://github.com/openclaw/openclaw/issues/109928",
         "state": "open",
-        "author": "gisk0",
-        "updatedAt": "2026-08-14T08:35:09Z"
+        "author": "andrea-kingautomation",
+        "updatedAt": "2026-08-14T10:13:10Z"
       },
       {
         "kind": "issue",
-        "number": 13304,
-        "title": "[Feature]: Content-based agent routing in bindings",
-        "url": "https://github.com/openclaw/openclaw/issues/13304",
+        "number": 109961,
+        "title": "ACP Issue",
+        "url": "https://github.com/openclaw/openclaw/issues/109961",
         "state": "open",
-        "author": "dan-dekel",
-        "updatedAt": "2026-08-14T08:35:08Z"
+        "author": "FUSED-ID",
+        "updatedAt": "2026-08-14T10:13:09Z"
       },
       {
         "kind": "issue",
-        "number": 120563,
-        "title": "Conversation history not sent to model on custom/Ollama provider — every turn gets a fixed-size context regardless of prior turns",
-        "url": "https://github.com/openclaw/openclaw/issues/120563",
+        "number": 109956,
+        "title": "Phantom `agent_databases` row with literal id `agent`: gateway keeps initializing a per-agent DB for a nonexistent agent; stale registry rows are never reconciled",
+        "url": "https://github.com/openclaw/openclaw/issues/109956",
         "state": "open",
-        "author": "galli-personal",
-        "updatedAt": "2026-08-14T08:34:29Z"
+        "author": "aaajiao",
+        "updatedAt": "2026-08-14T10:13:09Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 114173,
-        "title": "feat(ui): present system-agent setup QR codes",
-        "url": "https://github.com/openclaw/openclaw/pull/114173",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-14T08:36:28Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112474,
-        "title": "refactor(line,mattermost): declare single-account config promotion keys",
-        "url": "https://github.com/openclaw/openclaw/pull/112474",
-        "state": "open",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-08-14T08:36:24Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123189,
-        "title": "fix(gateway): recover embedded channel runs in chat startup projection",
-        "url": "https://github.com/openclaw/openclaw/pull/123189",
+        "number": 123193,
+        "title": "fix(channels/turn): clear pending history on error paths",
+        "url": "https://github.com/openclaw/openclaw/pull/123193",
         "state": "open",
         "author": "SunnyShu0925",
-        "updatedAt": "2026-08-14T08:36:22Z"
+        "updatedAt": "2026-08-14T10:15:11Z"
       },
       {
         "kind": "pr",
-        "number": 100193,
-        "title": "fix(agents): extend thinking error recovery to body, detail, and responseBody carriers",
-        "url": "https://github.com/openclaw/openclaw/pull/100193",
+        "number": 123566,
+        "title": "refactor(ui): move session state into a trailing endcap",
+        "url": "https://github.com/openclaw/openclaw/pull/123566",
         "state": "open",
-        "author": "nankingjing",
-        "updatedAt": "2026-08-14T08:36:20Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-14T10:15:08Z"
       },
       {
         "kind": "pr",
-        "number": 123004,
-        "title": "fix: prevent $-pattern injection in tilde expansion across extensions",
-        "url": "https://github.com/openclaw/openclaw/pull/123004",
+        "number": 123594,
+        "title": "feat(ui): add consistent session information cards",
+        "url": "https://github.com/openclaw/openclaw/pull/123594",
         "state": "open",
-        "author": "miorbnli",
-        "updatedAt": "2026-08-14T08:36:18Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-14T10:15:04Z"
       },
       {
         "kind": "pr",
-        "number": 123560,
-        "title": "fix(ui): preserve delayed final turn order",
-        "url": "https://github.com/openclaw/openclaw/pull/123560",
+        "number": 123081,
+        "title": "fix(sessions): honor total entry cap with protected history",
+        "url": "https://github.com/openclaw/openclaw/pull/123081",
         "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-08-14T08:35:55Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-14T10:15:03Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109908,
+        "title": "fix: timed-out agent runs no longer retain MCP processes",
+        "url": "https://github.com/openclaw/openclaw/pull/109908",
+        "state": "open",
+        "author": "Neomail2",
+        "updatedAt": "2026-08-14T10:14:50Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123586,
+        "title": "improve(ui): reveal session actions without sacrificing titles",
+        "url": "https://github.com/openclaw/openclaw/pull/123586",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-14T10:14:47Z"
       }
     ]
   }

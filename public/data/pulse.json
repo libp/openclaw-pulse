@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-14T22:38:46.745Z",
+  "generatedAt": "2026-08-14T23:35:27.415Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -479,17 +479,17 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "capturedAt": "2026-08-14T22:38:46.745Z",
-      "issueOpen": 3404,
-      "issueClosed": 43640,
-      "prOpen": 2153,
-      "prClosed": 72180,
-      "prMerged": 24910,
+      "capturedAt": "2026-08-14T23:35:27.415Z",
+      "issueOpen": 3397,
+      "issueClosed": 43648,
+      "prOpen": 2149,
+      "prClosed": 72194,
+      "prMerged": 24922,
       "workflowRuns": 40000,
-      "stars": 386326,
+      "stars": 386322,
       "forks": 81204,
-      "subscribers": 1770,
-      "commits": 79341,
+      "subscribers": 1768,
+      "commits": 79352,
       "contributors": 3097,
       "source": "github-actions",
       "approximateDate": false
@@ -618,10 +618,10 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "stars": 386326,
+      "stars": 386322,
       "forks": 81204,
-      "subscribers": 1770,
-      "commits": 79341,
+      "subscribers": 1768,
+      "commits": 79352,
       "contributors": 3097
     }
   ],
@@ -629,41 +629,41 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 115063,
-        "title": "v2026.7.1 Codex extension can strand parent after Completed(None)",
-        "url": "https://github.com/openclaw/openclaw/issues/115063",
+        "number": 112136,
+        "title": "[Performance] CPU bottleneck in Markdown code block syntax highlighting during streaming",
+        "url": "https://github.com/openclaw/openclaw/issues/112136",
         "state": "open",
-        "author": "petlevoy",
-        "updatedAt": "2026-08-14T22:37:54Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-08-14T23:34:00Z"
       },
       {
         "kind": "issue",
-        "number": 123873,
-        "title": "Claude CLI sessions invalidated mid-conversation by auth-profile churn (loses full context)",
-        "url": "https://github.com/openclaw/openclaw/issues/123873",
+        "number": 120600,
+        "title": "[Bug]: AGENTS.md never reaches the model on sandboxed Codex app-server runs (container cwd, host-side loader) — and the system-prompt report claims it was delivered",
+        "url": "https://github.com/openclaw/openclaw/issues/120600",
         "state": "open",
-        "author": "dubyak",
-        "updatedAt": "2026-08-14T22:37:23Z"
+        "author": "sercada",
+        "updatedAt": "2026-08-14T23:33:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 120558,
+        "title": "Bug: /stop does not cancel detached Skill Workshop experience review",
+        "url": "https://github.com/openclaw/openclaw/issues/120558",
+        "state": "open",
+        "author": "litang9",
+        "updatedAt": "2026-08-14T23:32:44Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 105025,
-        "title": "feat: add Twilio RCS channel [AI]",
-        "url": "https://github.com/openclaw/openclaw/pull/105025",
+        "number": 123884,
+        "title": "fix(cli): infer provider lists respect selected agent",
+        "url": "https://github.com/openclaw/openclaw/pull/123884",
         "state": "open",
-        "author": "clawSean",
-        "updatedAt": "2026-08-14T22:38:39Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123808,
-        "title": "fix(doctor): keep migrated agents on their existing workspace",
-        "url": "https://github.com/openclaw/openclaw/pull/123808",
-        "state": "open",
-        "author": "scotthuang",
-        "updatedAt": "2026-08-14T22:38:37Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-14T23:35:24Z"
       },
       {
         "kind": "pr",
@@ -672,34 +672,43 @@
         "url": "https://github.com/openclaw/openclaw/pull/123613",
         "state": "open",
         "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-14T22:38:35Z"
+        "updatedAt": "2026-08-14T23:35:09Z"
       },
       {
         "kind": "pr",
-        "number": 123863,
-        "title": "fix(memory): report truthful index outcomes for empty workspaces",
-        "url": "https://github.com/openclaw/openclaw/pull/123863",
+        "number": 123254,
+        "title": "fix(claws): recover lifecycle state safely",
+        "url": "https://github.com/openclaw/openclaw/pull/123254",
         "state": "open",
+        "author": "giodl73-repo",
+        "updatedAt": "2026-08-14T23:35:01Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123666,
+        "title": "feat(ui): make sidebar customization transactional",
+        "url": "https://github.com/openclaw/openclaw/pull/123666",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-14T23:34:30Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123656,
+        "title": "feat(ui): add sidebar customization surface",
+        "url": "https://github.com/openclaw/openclaw/pull/123656",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-14T23:34:26Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123883,
+        "title": "refactor(cli): test marketplace shorthand at command boundary",
+        "url": "https://github.com/openclaw/openclaw/pull/123883",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-14T22:38:29Z"
-      },
-      {
-        "kind": "pr",
-        "number": 82519,
-        "title": "fix(test): stabilize red CI tests",
-        "url": "https://github.com/openclaw/openclaw/pull/82519",
-        "state": "open",
-        "author": "lidge-jun",
-        "updatedAt": "2026-08-14T22:38:24Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123869,
-        "title": "fix(gateway): keep node worker outcomes consistent under load",
-        "url": "https://github.com/openclaw/openclaw/pull/123869",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-14T22:38:17Z"
+        "updatedAt": "2026-08-14T23:34:24Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-14T19:54:53.854Z",
+  "generatedAt": "2026-08-14T21:39:00.404Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -479,17 +479,17 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "capturedAt": "2026-08-14T19:54:53.854Z",
-      "issueOpen": 3405,
-      "issueClosed": 43626,
-      "prOpen": 2146,
-      "prClosed": 72132,
-      "prMerged": 24870,
+      "capturedAt": "2026-08-14T21:39:00.404Z",
+      "issueOpen": 3403,
+      "issueClosed": 43636,
+      "prOpen": 2145,
+      "prClosed": 72169,
+      "prMerged": 24900,
       "workflowRuns": 40000,
-      "stars": 386317,
-      "forks": 81201,
+      "stars": 386323,
+      "forks": 81202,
       "subscribers": 1770,
-      "commits": 79302,
+      "commits": 79332,
       "contributors": 3097,
       "source": "github-actions",
       "approximateDate": false
@@ -618,10 +618,10 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "stars": 386317,
-      "forks": 81201,
+      "stars": 386323,
+      "forks": 81202,
       "subscribers": 1770,
-      "commits": 79302,
+      "commits": 79332,
       "contributors": 3097
     }
   ],
@@ -629,113 +629,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 92866,
-        "title": "Feature: image_generate should support custom/third-party providers, not only built-in ones",
-        "url": "https://github.com/openclaw/openclaw/issues/92866",
+        "number": 80234,
+        "title": "Discord bot replies can trigger implicit reply-to-bot mentions",
+        "url": "https://github.com/openclaw/openclaw/issues/80234",
         "state": "open",
-        "author": "Kambrian",
-        "updatedAt": "2026-08-14T19:54:48Z"
+        "author": "JiehoonKwak",
+        "updatedAt": "2026-08-14T21:38:48Z"
       },
       {
         "kind": "issue",
-        "number": 119714,
-        "title": "Agent RPC completion can leave session status running",
-        "url": "https://github.com/openclaw/openclaw/issues/119714",
+        "number": 107814,
+        "title": "[Bug]: gpt-5.3-codex-spark emits empty arguments for required tool calls",
+        "url": "https://github.com/openclaw/openclaw/issues/107814",
         "state": "open",
-        "author": "woodym-dotcom",
-        "updatedAt": "2026-08-14T19:54:44Z"
+        "author": "laurenceputra",
+        "updatedAt": "2026-08-14T21:38:56Z"
       },
       {
         "kind": "issue",
-        "number": 56307,
-        "title": "[Feature]: Channel plugin threading policy for automatic subagent parameter injection",
-        "url": "https://github.com/openclaw/openclaw/issues/56307",
+        "number": 94554,
+        "title": "[Feature]: `cloudflare-ai-gateway` is a single-model Anthropic passthrough, not a bridge to AI Gateway",
+        "url": "https://github.com/openclaw/openclaw/issues/94554",
         "state": "open",
-        "author": "caibutou",
-        "updatedAt": "2026-08-14T19:54:40Z"
+        "author": "alexminza",
+        "updatedAt": "2026-08-14T21:38:33Z"
       },
       {
         "kind": "issue",
-        "number": 90390,
-        "title": "Discord component callbacks should support asynchronous workflows",
-        "url": "https://github.com/openclaw/openclaw/issues/90390",
+        "number": 123792,
+        "title": "[Bug]: Assistant turns render twice with CLI backends — live per-block view plus a concatenated aggregate record",
+        "url": "https://github.com/openclaw/openclaw/issues/123792",
         "state": "open",
-        "author": "100menotu001",
-        "updatedAt": "2026-08-14T19:54:14Z"
+        "author": "spunzon",
+        "updatedAt": "2026-08-14T21:38:30Z"
       },
       {
         "kind": "issue",
-        "number": 114211,
-        "title": "Bug: Matrix room agents can loop on visible no-reply output, restart recovery, and stale session replay",
-        "url": "https://github.com/openclaw/openclaw/issues/114211",
+        "number": 120563,
+        "title": "Conversation history not sent to model on custom/Ollama provider — every turn gets a fixed-size context regardless of prior turns",
+        "url": "https://github.com/openclaw/openclaw/issues/120563",
         "state": "open",
-        "author": "NossieUK",
-        "updatedAt": "2026-08-14T19:54:13Z"
+        "author": "galli-personal",
+        "updatedAt": "2026-08-14T21:38:30Z"
       },
       {
         "kind": "issue",
-        "number": 119720,
-        "title": "Synchronous SQLite agent.write transactions block the gateway event loop at scale; ANALYZE never runs after mass session deletion (36.7s → 809ms repro)",
-        "url": "https://github.com/openclaw/openclaw/issues/119720",
-        "state": "open",
-        "author": "todddickerson",
-        "updatedAt": "2026-08-14T19:53:51Z"
+        "number": 123823,
+        "title": "[Feature]: install.sh --install-method git full-clones ~4.9 GB to check out a pinned release tag",
+        "url": "https://github.com/openclaw/openclaw/issues/123823",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-14T21:38:24Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123796,
-        "title": "Add Planning Knowledge retrieval plugin",
-        "url": "https://github.com/openclaw/openclaw/pull/123796",
+        "number": 123597,
+        "title": "improve(ui): make sidebar updates a focused call to action",
+        "url": "https://github.com/openclaw/openclaw/pull/123597",
         "state": "open",
-        "author": "s0pple",
-        "updatedAt": "2026-08-14T19:54:45Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-14T21:38:55Z"
       },
       {
         "kind": "pr",
-        "number": 123803,
-        "title": "chore(ui): refresh control ui locales",
-        "url": "https://github.com/openclaw/openclaw/pull/123803",
+        "number": 123682,
+        "title": "improve(ui): consolidate sidebar issues into a quiet panel",
+        "url": "https://github.com/openclaw/openclaw/pull/123682",
         "state": "open",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-08-14T19:54:43Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-14T21:38:54Z"
       },
       {
         "kind": "pr",
-        "number": 123676,
-        "title": "fix: spawned child prompt omits staged attachment file paths",
-        "url": "https://github.com/openclaw/openclaw/pull/123676",
+        "number": 123666,
+        "title": "feat(ui): make sidebar customization transactional",
+        "url": "https://github.com/openclaw/openclaw/pull/123666",
         "state": "open",
-        "author": "felirami",
-        "updatedAt": "2026-08-14T19:54:48Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-14T21:38:54Z"
       },
       {
         "kind": "pr",
-        "number": 123709,
-        "title": "feat(audit): explain outbound message delivery",
-        "url": "https://github.com/openclaw/openclaw/pull/123709",
+        "number": 123656,
+        "title": "feat(ui): add sidebar customization surface",
+        "url": "https://github.com/openclaw/openclaw/pull/123656",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-08-14T19:54:15Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-14T21:38:54Z"
       },
       {
         "kind": "pr",
-        "number": 117302,
-        "title": "fix(irc): config validation rejects the documented healthMonitor override",
-        "url": "https://github.com/openclaw/openclaw/pull/117302",
+        "number": 123582,
+        "title": "improve(ui): unify sidebar account footer and identity menu",
+        "url": "https://github.com/openclaw/openclaw/pull/123582",
         "state": "open",
-        "author": "ayaangazali",
-        "updatedAt": "2026-08-14T19:54:13Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-14T21:38:54Z"
       },
       {
         "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-14T19:54:05Z"
+        "number": 123645,
+        "title": "feat(ui): refine sidebar Pages navigation",
+        "url": "https://github.com/openclaw/openclaw/pull/123645",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-14T21:38:53Z"
       }
     ]
   }

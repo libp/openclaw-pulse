@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-14T10:15:16.531Z",
+  "generatedAt": "2026-08-14T11:08:34.483Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -479,17 +479,17 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "capturedAt": "2026-08-14T10:15:16.531Z",
-      "issueOpen": 3395,
-      "issueClosed": 43591,
-      "prOpen": 2134,
-      "prClosed": 71990,
-      "prMerged": 24762,
+      "capturedAt": "2026-08-14T11:08:34.483Z",
+      "issueOpen": 3397,
+      "issueClosed": 43594,
+      "prOpen": 2138,
+      "prClosed": 71997,
+      "prMerged": 24768,
       "workflowRuns": 40000,
-      "stars": 386270,
+      "stars": 386280,
       "forks": 81191,
-      "subscribers": 1768,
-      "commits": 79192,
+      "subscribers": 1769,
+      "commits": 79198,
       "contributors": 3096,
       "source": "github-actions",
       "approximateDate": false
@@ -618,10 +618,10 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "stars": 386270,
+      "stars": 386280,
       "forks": 81191,
-      "subscribers": 1768,
-      "commits": 79192,
+      "subscribers": 1769,
+      "commits": 79198,
       "contributors": 3096
     }
   ],
@@ -629,95 +629,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 123596,
-        "title": "[Bug]: Slow openclaw_agent_consult reply arrives after OpenAI Realtime turn already errored — voice hears \"no reply\", text session has the answer",
-        "url": "https://github.com/openclaw/openclaw/issues/123596",
+        "number": 123610,
+        "title": "[Bug]: system event JSON mode emits no structured errors",
+        "url": "https://github.com/openclaw/openclaw/issues/123610",
         "state": "open",
-        "author": "PaulD-LeWagon",
-        "updatedAt": "2026-08-14T10:14:18Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-14T11:07:07Z"
       },
       {
         "kind": "issue",
-        "number": 109928,
-        "title": "Feature: let an outbound hook override the reply threadId (reply into an auto-created forum topic, not only the inbound thread)",
-        "url": "https://github.com/openclaw/openclaw/issues/109928",
-        "state": "open",
-        "author": "andrea-kingautomation",
-        "updatedAt": "2026-08-14T10:13:10Z"
-      },
-      {
-        "kind": "issue",
-        "number": 109961,
-        "title": "ACP Issue",
-        "url": "https://github.com/openclaw/openclaw/issues/109961",
-        "state": "open",
-        "author": "FUSED-ID",
-        "updatedAt": "2026-08-14T10:13:09Z"
-      },
-      {
-        "kind": "issue",
-        "number": 109956,
-        "title": "Phantom `agent_databases` row with literal id `agent`: gateway keeps initializing a per-agent DB for a nonexistent agent; stale registry rows are never reconciled",
-        "url": "https://github.com/openclaw/openclaw/issues/109956",
-        "state": "open",
-        "author": "aaajiao",
-        "updatedAt": "2026-08-14T10:13:09Z"
+        "number": 68618,
+        "title": "Feature request: sender name alias mapping for Feishu channel",
+        "url": "https://github.com/openclaw/openclaw/issues/68618",
+        "state": "closed",
+        "author": "Ecstasyzzz",
+        "updatedAt": "2026-08-14T11:06:40Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123193,
-        "title": "fix(channels/turn): clear pending history on error paths",
-        "url": "https://github.com/openclaw/openclaw/pull/123193",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-14T10:15:11Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123566,
-        "title": "refactor(ui): move session state into a trailing endcap",
-        "url": "https://github.com/openclaw/openclaw/pull/123566",
+        "number": 123613,
+        "title": "Unify sidebar iconography",
+        "url": "https://github.com/openclaw/openclaw/pull/123613",
         "state": "open",
         "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-14T10:15:08Z"
+        "updatedAt": "2026-08-14T11:08:25Z"
       },
       {
         "kind": "pr",
-        "number": 123594,
-        "title": "feat(ui): add consistent session information cards",
-        "url": "https://github.com/openclaw/openclaw/pull/123594",
+        "number": 120900,
+        "title": "feat(ui): review install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/120900",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-14T10:15:04Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-14T11:08:08Z"
       },
       {
         "kind": "pr",
-        "number": 123081,
-        "title": "fix(sessions): honor total entry cap with protected history",
-        "url": "https://github.com/openclaw/openclaw/pull/123081",
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-14T10:15:03Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-14T11:08:06Z"
       },
       {
         "kind": "pr",
-        "number": 109908,
-        "title": "fix: timed-out agent runs no longer retain MCP processes",
-        "url": "https://github.com/openclaw/openclaw/pull/109908",
+        "number": 123585,
+        "title": "fix(acp): run session/new prompts in the requested cwd",
+        "url": "https://github.com/openclaw/openclaw/pull/123585",
         "state": "open",
-        "author": "Neomail2",
-        "updatedAt": "2026-08-14T10:14:50Z"
+        "author": "Chinmayrawat15",
+        "updatedAt": "2026-08-14T11:07:47Z"
       },
       {
         "kind": "pr",
-        "number": 123586,
-        "title": "improve(ui): reveal session actions without sacrificing titles",
-        "url": "https://github.com/openclaw/openclaw/pull/123586",
+        "number": 123612,
+        "title": "feat(runners): enforce node worker capacity",
+        "url": "https://github.com/openclaw/openclaw/pull/123612",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-14T10:14:47Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-14T11:07:37Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123608,
+        "title": "fix: keep gateway control traffic responsive under concurrent turns",
+        "url": "https://github.com/openclaw/openclaw/pull/123608",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-14T11:06:50Z"
       }
     ]
   }

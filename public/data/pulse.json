@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-14T06:40:46.449Z",
+  "generatedAt": "2026-08-14T08:36:44.486Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -479,17 +479,17 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "capturedAt": "2026-08-14T06:40:46.449Z",
-      "issueOpen": 3397,
-      "issueClosed": 43575,
-      "prOpen": 2161,
-      "prClosed": 71913,
-      "prMerged": 24722,
+      "capturedAt": "2026-08-14T08:36:44.486Z",
+      "issueOpen": 3401,
+      "issueClosed": 43577,
+      "prOpen": 2152,
+      "prClosed": 71946,
+      "prMerged": 24737,
       "workflowRuns": 40000,
-      "stars": 386236,
-      "forks": 81182,
-      "subscribers": 1770,
-      "commits": 79152,
+      "stars": 386256,
+      "forks": 81187,
+      "subscribers": 1769,
+      "commits": 79167,
       "contributors": 3096,
       "source": "github-actions",
       "approximateDate": false
@@ -618,10 +618,10 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "stars": 386236,
-      "forks": 81182,
-      "subscribers": 1770,
-      "commits": 79152,
+      "stars": 386256,
+      "forks": 81187,
+      "subscribers": 1769,
+      "commits": 79167,
       "contributors": 3096
     }
   ],
@@ -629,51 +629,42 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 37131,
-        "title": "[Feature]: Invoke tools directly without LLM round-trip",
-        "url": "https://github.com/openclaw/openclaw/issues/37131",
-        "state": "closed",
-        "author": "ChrisJaunes",
-        "updatedAt": "2026-08-14T06:35:28Z"
+        "number": 45508,
+        "title": "[Feature]: Self-hosted STT/TTS provider support in webchat (Route webchat TTS through the gateway instead of browser Speech API)",
+        "url": "https://github.com/openclaw/openclaw/issues/45508",
+        "state": "open",
+        "author": "mcfex",
+        "updatedAt": "2026-08-14T08:36:24Z"
+      },
+      {
+        "kind": "issue",
+        "number": 88077,
+        "title": "[Bug]: Active Memory recall context uses full OpenClaw prompt envelope",
+        "url": "https://github.com/openclaw/openclaw/issues/88077",
+        "state": "open",
+        "author": "gisk0",
+        "updatedAt": "2026-08-14T08:35:09Z"
+      },
+      {
+        "kind": "issue",
+        "number": 13304,
+        "title": "[Feature]: Content-based agent routing in bindings",
+        "url": "https://github.com/openclaw/openclaw/issues/13304",
+        "state": "open",
+        "author": "dan-dekel",
+        "updatedAt": "2026-08-14T08:35:08Z"
+      },
+      {
+        "kind": "issue",
+        "number": 120563,
+        "title": "Conversation history not sent to model on custom/Ollama provider — every turn gets a fixed-size context regardless of prior turns",
+        "url": "https://github.com/openclaw/openclaw/issues/120563",
+        "state": "open",
+        "author": "galli-personal",
+        "updatedAt": "2026-08-14T08:34:29Z"
       }
     ],
     "prs": [
-      {
-        "kind": "pr",
-        "number": 119343,
-        "title": "feat(gateway): own QR setup sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/119343",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-14T06:40:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123477,
-        "title": "fix: preserve device sessions while runner is offline",
-        "url": "https://github.com/openclaw/openclaw/pull/123477",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-14T06:40:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123529,
-        "title": "fix(macos): keep model changes and node shutdown ordered",
-        "url": "https://github.com/openclaw/openclaw/pull/123529",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-14T06:40:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118169,
-        "title": "feat(signal): link accounts from setup QR",
-        "url": "https://github.com/openclaw/openclaw/pull/118169",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-14T06:40:34Z"
-      },
       {
         "kind": "pr",
         "number": 114173,
@@ -681,16 +672,52 @@
         "url": "https://github.com/openclaw/openclaw/pull/114173",
         "state": "open",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-14T06:40:33Z"
+        "updatedAt": "2026-08-14T08:36:28Z"
       },
       {
         "kind": "pr",
-        "number": 119341,
-        "title": "feat(gateway): define system-agent QR contract",
-        "url": "https://github.com/openclaw/openclaw/pull/119341",
+        "number": 112474,
+        "title": "refactor(line,mattermost): declare single-account config promotion keys",
+        "url": "https://github.com/openclaw/openclaw/pull/112474",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-14T06:40:22Z"
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-08-14T08:36:24Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123189,
+        "title": "fix(gateway): recover embedded channel runs in chat startup projection",
+        "url": "https://github.com/openclaw/openclaw/pull/123189",
+        "state": "open",
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-08-14T08:36:22Z"
+      },
+      {
+        "kind": "pr",
+        "number": 100193,
+        "title": "fix(agents): extend thinking error recovery to body, detail, and responseBody carriers",
+        "url": "https://github.com/openclaw/openclaw/pull/100193",
+        "state": "open",
+        "author": "nankingjing",
+        "updatedAt": "2026-08-14T08:36:20Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123004,
+        "title": "fix: prevent $-pattern injection in tilde expansion across extensions",
+        "url": "https://github.com/openclaw/openclaw/pull/123004",
+        "state": "open",
+        "author": "miorbnli",
+        "updatedAt": "2026-08-14T08:36:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123560,
+        "title": "fix(ui): preserve delayed final turn order",
+        "url": "https://github.com/openclaw/openclaw/pull/123560",
+        "state": "open",
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-08-14T08:35:55Z"
       }
     ]
   }

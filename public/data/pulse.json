@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-14T17:09:24.567Z",
+  "generatedAt": "2026-08-14T18:05:00.694Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -479,17 +479,17 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "capturedAt": "2026-08-14T17:09:24.567Z",
-      "issueOpen": 3410,
-      "issueClosed": 43613,
-      "prOpen": 2154,
-      "prClosed": 72088,
-      "prMerged": 24836,
+      "capturedAt": "2026-08-14T18:05:00.694Z",
+      "issueOpen": 3408,
+      "issueClosed": 43619,
+      "prOpen": 2156,
+      "prClosed": 72105,
+      "prMerged": 24848,
       "workflowRuns": 40000,
-      "stars": 386305,
-      "forks": 81197,
+      "stars": 386312,
+      "forks": 81199,
       "subscribers": 1770,
-      "commits": 79267,
+      "commits": 79279,
       "contributors": 3097,
       "source": "github-actions",
       "approximateDate": false
@@ -618,10 +618,10 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "stars": 386305,
-      "forks": 81197,
+      "stars": 386312,
+      "forks": 81199,
       "subscribers": 1770,
-      "commits": 79267,
+      "commits": 79279,
       "contributors": 3097
     }
   ],
@@ -629,95 +629,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 119360,
-        "title": "[Bug]: Transient restart-required config write still restarts after revert to identical config",
-        "url": "https://github.com/openclaw/openclaw/issues/119360",
+        "number": 118999,
+        "title": "[Feature]: Bind native Codex Realtime V3 voice to existing sessions",
+        "url": "https://github.com/openclaw/openclaw/issues/118999",
         "state": "open",
-        "author": "ape-deft",
-        "updatedAt": "2026-08-14T17:09:08Z"
+        "author": "GoatInAHat",
+        "updatedAt": "2026-08-14T18:03:20Z"
       },
       {
         "kind": "issue",
-        "number": 90378,
-        "title": "[Bug] Upgrading from 5.28 → 6.1: cron store migrated to SQLite silently, but new jobs default to delivery.mode=announce causing channel errors",
-        "url": "https://github.com/openclaw/openclaw/issues/90378",
+        "number": 123781,
+        "title": "[Bug]: Browser Talk silently drops speech when relay appends stall",
+        "url": "https://github.com/openclaw/openclaw/issues/123781",
         "state": "open",
-        "author": "olveww-dot",
-        "updatedAt": "2026-08-14T17:09:03Z"
-      },
-      {
-        "kind": "issue",
-        "number": 93908,
-        "title": "[Bug]: [Bug]: Feishu plugin skipping discovery - host reports 2026.5.28 despite 2026.6.8 install",
-        "url": "https://github.com/openclaw/openclaw/issues/93908",
-        "state": "open",
-        "author": "yifu223",
-        "updatedAt": "2026-08-14T17:08:33Z"
-      },
-      {
-        "kind": "issue",
-        "number": 81892,
-        "title": "[Bug]: Reasoning not delivered on Matrix channel (/reasoning on has no effect)",
-        "url": "https://github.com/openclaw/openclaw/issues/81892",
-        "state": "open",
-        "author": "bronson",
-        "updatedAt": "2026-08-14T17:07:08Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-14T18:02:02Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 122937,
-        "title": "fix(whatsapp): retry durable admission instead of dropping inbound messages",
-        "url": "https://github.com/openclaw/openclaw/pull/122937",
+        "number": 82572,
+        "title": "feat(queue): persist followup queues across gateway restarts",
+        "url": "https://github.com/openclaw/openclaw/pull/82572",
         "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-08-14T17:09:13Z"
+        "author": "jewseppi",
+        "updatedAt": "2026-08-14T18:04:56Z"
       },
       {
         "kind": "pr",
-        "number": 85866,
-        "title": "[codex] Add WhatsApp phone-code login",
-        "url": "https://github.com/openclaw/openclaw/pull/85866",
+        "number": 123718,
+        "title": "fix(ui): fork active sessions from stable history",
+        "url": "https://github.com/openclaw/openclaw/pull/123718",
         "state": "open",
-        "author": "VishalJ99",
-        "updatedAt": "2026-08-14T17:09:12Z"
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-14T18:04:39Z"
       },
       {
         "kind": "pr",
-        "number": 89894,
-        "title": "fix(docs): reorder AGENTS.md template to protect critical rules from truncation (fixes #75187)",
-        "url": "https://github.com/openclaw/openclaw/pull/89894",
-        "state": "open",
-        "author": "dwc1997",
-        "updatedAt": "2026-08-14T17:09:05Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123575,
-        "title": "fix(gateway): expose startup blockers before cutover",
-        "url": "https://github.com/openclaw/openclaw/pull/123575",
-        "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-08-14T17:09:04Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123693,
-        "title": "fix(ui): open image attachments in a lightbox",
-        "url": "https://github.com/openclaw/openclaw/pull/123693",
-        "state": "closed",
-        "author": "jalehman",
-        "updatedAt": "2026-08-14T17:09:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123556,
-        "title": "improve(gateway): avoid Git spawn during session loading",
-        "url": "https://github.com/openclaw/openclaw/pull/123556",
+        "number": 120900,
+        "title": "feat(ui): review install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/120900",
         "state": "open",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-14T17:08:56Z"
+        "updatedAt": "2026-08-14T18:04:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123753,
+        "title": "test: trim failover classifier duplicates",
+        "url": "https://github.com/openclaw/openclaw/pull/123753",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-14T18:03:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123752,
+        "title": "fix(cli): keep Doctor machine-output failures on stdout",
+        "url": "https://github.com/openclaw/openclaw/pull/123752",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-14T18:03:29Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123783,
+        "title": "fix(ui): surface Talk input backpressure",
+        "url": "https://github.com/openclaw/openclaw/pull/123783",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-14T18:03:23Z"
       }
     ]
   }

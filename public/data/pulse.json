@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-14T16:04:22.723Z",
+  "generatedAt": "2026-08-14T17:09:24.567Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -479,17 +479,17 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "capturedAt": "2026-08-14T16:04:22.723Z",
-      "issueOpen": 3402,
-      "issueClosed": 43609,
-      "prOpen": 2144,
-      "prClosed": 72072,
-      "prMerged": 24822,
+      "capturedAt": "2026-08-14T17:09:24.567Z",
+      "issueOpen": 3410,
+      "issueClosed": 43613,
+      "prOpen": 2154,
+      "prClosed": 72088,
+      "prMerged": 24836,
       "workflowRuns": 40000,
-      "stars": 386294,
+      "stars": 386305,
       "forks": 81197,
-      "subscribers": 1769,
-      "commits": 79253,
+      "subscribers": 1770,
+      "commits": 79267,
       "contributors": 3097,
       "source": "github-actions",
       "approximateDate": false
@@ -618,10 +618,10 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "stars": 386294,
+      "stars": 386305,
       "forks": 81197,
-      "subscribers": 1769,
-      "commits": 79253,
+      "subscribers": 1770,
+      "commits": 79267,
       "contributors": 3097
     }
   ],
@@ -629,77 +629,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 120316,
-        "title": "Auth store changes after runtime prep are invisible until full gateway restart (first credential written post-prep is never served)",
-        "url": "https://github.com/openclaw/openclaw/issues/120316",
+        "number": 119360,
+        "title": "[Bug]: Transient restart-required config write still restarts after revert to identical config",
+        "url": "https://github.com/openclaw/openclaw/issues/119360",
         "state": "open",
-        "author": "609NFT",
-        "updatedAt": "2026-08-14T16:03:04Z"
+        "author": "ape-deft",
+        "updatedAt": "2026-08-14T17:09:08Z"
       },
       {
         "kind": "issue",
-        "number": 123707,
-        "title": "[Bug]: Slack structured payloads drop final dispatch custody",
-        "url": "https://github.com/openclaw/openclaw/issues/123707",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-14T16:02:59Z"
+        "number": 90378,
+        "title": "[Bug] Upgrading from 5.28 → 6.1: cron store migrated to SQLite silently, but new jobs default to delivery.mode=announce causing channel errors",
+        "url": "https://github.com/openclaw/openclaw/issues/90378",
+        "state": "open",
+        "author": "olveww-dot",
+        "updatedAt": "2026-08-14T17:09:03Z"
+      },
+      {
+        "kind": "issue",
+        "number": 93908,
+        "title": "[Bug]: [Bug]: Feishu plugin skipping discovery - host reports 2026.5.28 despite 2026.6.8 install",
+        "url": "https://github.com/openclaw/openclaw/issues/93908",
+        "state": "open",
+        "author": "yifu223",
+        "updatedAt": "2026-08-14T17:08:33Z"
+      },
+      {
+        "kind": "issue",
+        "number": 81892,
+        "title": "[Bug]: Reasoning not delivered on Matrix channel (/reasoning on has no effect)",
+        "url": "https://github.com/openclaw/openclaw/issues/81892",
+        "state": "open",
+        "author": "bronson",
+        "updatedAt": "2026-08-14T17:07:08Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123709,
-        "title": "feat(audit): explain outbound message delivery",
-        "url": "https://github.com/openclaw/openclaw/pull/123709",
+        "number": 122937,
+        "title": "fix(whatsapp): retry durable admission instead of dropping inbound messages",
+        "url": "https://github.com/openclaw/openclaw/pull/122937",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-08-14T16:04:16Z"
+        "author": "yetval",
+        "updatedAt": "2026-08-14T17:09:13Z"
       },
       {
         "kind": "pr",
-        "number": 123724,
-        "title": "fix(ui): surface companion clear failures",
-        "url": "https://github.com/openclaw/openclaw/pull/123724",
+        "number": 85866,
+        "title": "[codex] Add WhatsApp phone-code login",
+        "url": "https://github.com/openclaw/openclaw/pull/85866",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-14T16:04:19Z"
+        "author": "VishalJ99",
+        "updatedAt": "2026-08-14T17:09:12Z"
       },
       {
         "kind": "pr",
-        "number": 123705,
-        "title": "fix(ui): defer Skills fallback until first update",
-        "url": "https://github.com/openclaw/openclaw/pull/123705",
+        "number": 89894,
+        "title": "fix(docs): reorder AGENTS.md template to protect critical rules from truncation (fixes #75187)",
+        "url": "https://github.com/openclaw/openclaw/pull/89894",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-14T16:04:14Z"
+        "author": "dwc1997",
+        "updatedAt": "2026-08-14T17:09:05Z"
       },
       {
         "kind": "pr",
-        "number": 123716,
-        "title": "fix(installer): reject unusable prefix installs",
-        "url": "https://github.com/openclaw/openclaw/pull/123716",
+        "number": 123575,
+        "title": "fix(gateway): expose startup blockers before cutover",
+        "url": "https://github.com/openclaw/openclaw/pull/123575",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-14T16:04:12Z"
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-08-14T17:09:04Z"
       },
       {
         "kind": "pr",
-        "number": 123722,
-        "title": "chore(deps): automate trusted ClawHub CLI refresh",
-        "url": "https://github.com/openclaw/openclaw/pull/123722",
-        "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-08-14T16:04:11Z"
+        "number": 123693,
+        "title": "fix(ui): open image attachments in a lightbox",
+        "url": "https://github.com/openclaw/openclaw/pull/123693",
+        "state": "closed",
+        "author": "jalehman",
+        "updatedAt": "2026-08-14T17:09:02Z"
       },
       {
         "kind": "pr",
-        "number": 120319,
-        "title": "fix(control-ui): let operators forget a stale stored browser device credential",
-        "url": "https://github.com/openclaw/openclaw/pull/120319",
+        "number": 123556,
+        "title": "improve(gateway): avoid Git spawn during session loading",
+        "url": "https://github.com/openclaw/openclaw/pull/123556",
         "state": "open",
-        "author": "Nehanth",
-        "updatedAt": "2026-08-14T16:04:17Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-14T17:08:56Z"
       }
     ]
   }

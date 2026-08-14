@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-14T04:59:51.624Z",
+  "generatedAt": "2026-08-14T06:40:46.449Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -479,17 +479,17 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "capturedAt": "2026-08-14T04:59:51.624Z",
-      "issueOpen": 3394,
-      "issueClosed": 43568,
-      "prOpen": 2144,
-      "prClosed": 71885,
-      "prMerged": 24696,
+      "capturedAt": "2026-08-14T06:40:46.449Z",
+      "issueOpen": 3397,
+      "issueClosed": 43575,
+      "prOpen": 2161,
+      "prClosed": 71913,
+      "prMerged": 24722,
       "workflowRuns": 40000,
-      "stars": 386226,
-      "forks": 81177,
-      "subscribers": 1771,
-      "commits": 79117,
+      "stars": 386236,
+      "forks": 81182,
+      "subscribers": 1770,
+      "commits": 79152,
       "contributors": 3096,
       "source": "github-actions",
       "approximateDate": false
@@ -618,10 +618,10 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "stars": 386226,
-      "forks": 81177,
-      "subscribers": 1771,
-      "commits": 79117,
+      "stars": 386236,
+      "forks": 81182,
+      "subscribers": 1770,
+      "commits": 79152,
       "contributors": 3096
     }
   ],
@@ -629,68 +629,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 123322,
-        "title": "[Bug]: `openclaw message send` fails with AgentSelectionRequiredError on explicit-ownership multi-agent installs; hint suggests a --agent flag the command doesn't have",
-        "url": "https://github.com/openclaw/openclaw/issues/123322",
+        "number": 37131,
+        "title": "[Feature]: Invoke tools directly without LLM round-trip",
+        "url": "https://github.com/openclaw/openclaw/issues/37131",
         "state": "closed",
-        "author": "ToneLoke",
-        "updatedAt": "2026-08-14T04:57:30Z"
+        "author": "ChrisJaunes",
+        "updatedAt": "2026-08-14T06:35:28Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 122705,
-        "title": "fix: clear CLI binding after manual compaction",
-        "url": "https://github.com/openclaw/openclaw/pull/122705",
+        "number": 119343,
+        "title": "feat(gateway): own QR setup sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/119343",
         "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-08-14T04:59:48Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-14T06:40:40Z"
       },
       {
         "kind": "pr",
-        "number": 121041,
-        "title": "fix: compaction leaves CLI-backed sessions resuming the pre-compaction history",
-        "url": "https://github.com/openclaw/openclaw/pull/121041",
+        "number": 123477,
+        "title": "fix: preserve device sessions while runner is offline",
+        "url": "https://github.com/openclaw/openclaw/pull/123477",
         "state": "open",
-        "author": "IlyaKuprov",
-        "updatedAt": "2026-08-14T04:59:46Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121907,
-        "title": "fix(telegram): preserve reply and quote context from batched messages",
-        "url": "https://github.com/openclaw/openclaw/pull/121907",
-        "state": "open",
-        "author": "iridescentWen",
-        "updatedAt": "2026-08-14T04:59:43Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123467,
-        "title": "fix: retain file changes across conversation compaction",
-        "url": "https://github.com/openclaw/openclaw/pull/123467",
-        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-14T04:59:39Z"
+        "updatedAt": "2026-08-14T06:40:38Z"
       },
       {
         "kind": "pr",
-        "number": 112945,
-        "title": "feat(media): polish voice transcript echo for review UX",
-        "url": "https://github.com/openclaw/openclaw/pull/112945",
+        "number": 123529,
+        "title": "fix(macos): keep model changes and node shutdown ordered",
+        "url": "https://github.com/openclaw/openclaw/pull/123529",
         "state": "open",
-        "author": "Bartok9",
-        "updatedAt": "2026-08-14T04:59:32Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-14T06:40:37Z"
       },
       {
         "kind": "pr",
-        "number": 112375,
-        "title": "feat(cron): shell precheck gate to skip LLM when no work",
-        "url": "https://github.com/openclaw/openclaw/pull/112375",
+        "number": 118169,
+        "title": "feat(signal): link accounts from setup QR",
+        "url": "https://github.com/openclaw/openclaw/pull/118169",
         "state": "open",
-        "author": "Bartok9",
-        "updatedAt": "2026-08-14T04:59:29Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-14T06:40:34Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114173,
+        "title": "feat(ui): present system-agent setup QR codes",
+        "url": "https://github.com/openclaw/openclaw/pull/114173",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-14T06:40:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119341,
+        "title": "feat(gateway): define system-agent QR contract",
+        "url": "https://github.com/openclaw/openclaw/pull/119341",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-14T06:40:22Z"
       }
     ]
   }

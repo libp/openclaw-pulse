@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-14T19:12:05.292Z",
+  "generatedAt": "2026-08-14T19:54:53.854Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -479,17 +479,17 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "capturedAt": "2026-08-14T19:12:05.292Z",
-      "issueOpen": 3406,
-      "issueClosed": 43624,
-      "prOpen": 2150,
-      "prClosed": 72126,
-      "prMerged": 24864,
+      "capturedAt": "2026-08-14T19:54:53.854Z",
+      "issueOpen": 3405,
+      "issueClosed": 43626,
+      "prOpen": 2146,
+      "prClosed": 72132,
+      "prMerged": 24870,
       "workflowRuns": 40000,
-      "stars": 386319,
+      "stars": 386317,
       "forks": 81201,
       "subscribers": 1770,
-      "commits": 79296,
+      "commits": 79302,
       "contributors": 3097,
       "source": "github-actions",
       "approximateDate": false
@@ -618,10 +618,10 @@
     },
     {
       "capturedOn": "2026-08-14",
-      "stars": 386319,
+      "stars": 386317,
       "forks": 81201,
       "subscribers": 1770,
-      "commits": 79296,
+      "commits": 79302,
       "contributors": 3097
     }
   ],
@@ -629,77 +629,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 123802,
-        "title": "Slack: message(action=react) fails in triggered channel/thread sessions — \"Delegated slack:react requires the exact current conversation and account for this plugin\"",
-        "url": "https://github.com/openclaw/openclaw/issues/123802",
+        "number": 92866,
+        "title": "Feature: image_generate should support custom/third-party providers, not only built-in ones",
+        "url": "https://github.com/openclaw/openclaw/issues/92866",
         "state": "open",
-        "author": "beefcakebot",
-        "updatedAt": "2026-08-14T19:12:00Z"
+        "author": "Kambrian",
+        "updatedAt": "2026-08-14T19:54:48Z"
       },
       {
         "kind": "issue",
-        "number": 119971,
-        "title": "[Bug]: Preflight (budget) compaction treats Codex \"owns automatic compaction\" no-op as fatal and drops the user's turn",
-        "url": "https://github.com/openclaw/openclaw/issues/119971",
+        "number": 119714,
+        "title": "Agent RPC completion can leave session status running",
+        "url": "https://github.com/openclaw/openclaw/issues/119714",
         "state": "open",
-        "author": "joeykrug",
-        "updatedAt": "2026-08-14T19:09:54Z"
+        "author": "woodym-dotcom",
+        "updatedAt": "2026-08-14T19:54:44Z"
+      },
+      {
+        "kind": "issue",
+        "number": 56307,
+        "title": "[Feature]: Channel plugin threading policy for automatic subagent parameter injection",
+        "url": "https://github.com/openclaw/openclaw/issues/56307",
+        "state": "open",
+        "author": "caibutou",
+        "updatedAt": "2026-08-14T19:54:40Z"
+      },
+      {
+        "kind": "issue",
+        "number": 90390,
+        "title": "Discord component callbacks should support asynchronous workflows",
+        "url": "https://github.com/openclaw/openclaw/issues/90390",
+        "state": "open",
+        "author": "100menotu001",
+        "updatedAt": "2026-08-14T19:54:14Z"
+      },
+      {
+        "kind": "issue",
+        "number": 114211,
+        "title": "Bug: Matrix room agents can loop on visible no-reply output, restart recovery, and stale session replay",
+        "url": "https://github.com/openclaw/openclaw/issues/114211",
+        "state": "open",
+        "author": "NossieUK",
+        "updatedAt": "2026-08-14T19:54:13Z"
+      },
+      {
+        "kind": "issue",
+        "number": 119720,
+        "title": "Synchronous SQLite agent.write transactions block the gateway event loop at scale; ANALYZE never runs after mass session deletion (36.7s → 809ms repro)",
+        "url": "https://github.com/openclaw/openclaw/issues/119720",
+        "state": "open",
+        "author": "todddickerson",
+        "updatedAt": "2026-08-14T19:53:51Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123785,
-        "title": "fix(gateway): retire worker placements without sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/123785",
+        "number": 123796,
+        "title": "Add Planning Knowledge retrieval plugin",
+        "url": "https://github.com/openclaw/openclaw/pull/123796",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-14T19:11:57Z"
+        "author": "s0pple",
+        "updatedAt": "2026-08-14T19:54:45Z"
       },
       {
         "kind": "pr",
-        "number": 123797,
-        "title": "fix(cli): sanitize stored strings in directory, cron show, agents, channels, and sessions output",
-        "url": "https://github.com/openclaw/openclaw/pull/123797",
+        "number": 123803,
+        "title": "chore(ui): refresh control ui locales",
+        "url": "https://github.com/openclaw/openclaw/pull/123803",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-14T19:11:54Z"
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-08-14T19:54:43Z"
       },
       {
         "kind": "pr",
-        "number": 123705,
-        "title": "fix(ui): prevent duplicate Skills preload requests",
-        "url": "https://github.com/openclaw/openclaw/pull/123705",
+        "number": 123676,
+        "title": "fix: spawned child prompt omits staged attachment file paths",
+        "url": "https://github.com/openclaw/openclaw/pull/123676",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-14T19:12:01Z"
+        "author": "felirami",
+        "updatedAt": "2026-08-14T19:54:48Z"
       },
       {
         "kind": "pr",
-        "number": 123562,
-        "title": "improve(ui): unify sidebar section grammar",
-        "url": "https://github.com/openclaw/openclaw/pull/123562",
+        "number": 123709,
+        "title": "feat(audit): explain outbound message delivery",
+        "url": "https://github.com/openclaw/openclaw/pull/123709",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-14T19:11:49Z"
+        "author": "joshavant",
+        "updatedAt": "2026-08-14T19:54:15Z"
       },
       {
         "kind": "pr",
-        "number": 123655,
-        "title": "refactor(ui): unify sidebar transient surfaces",
-        "url": "https://github.com/openclaw/openclaw/pull/123655",
+        "number": 117302,
+        "title": "fix(irc): config validation rejects the documented healthMonitor override",
+        "url": "https://github.com/openclaw/openclaw/pull/117302",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-14T19:11:41Z"
+        "author": "ayaangazali",
+        "updatedAt": "2026-08-14T19:54:13Z"
       },
       {
         "kind": "pr",
-        "number": 120443,
-        "title": "fix: read codex thread binding before deferring automatic compaction (#119977)",
-        "url": "https://github.com/openclaw/openclaw/pull/120443",
-        "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-08-14T19:11:26Z"
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-14T19:54:05Z"
       }
     ]
   }

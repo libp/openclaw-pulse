@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-15T20:37:05.044Z",
+  "generatedAt": "2026-08-15T21:33:46.163Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -496,17 +496,17 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "capturedAt": "2026-08-15T20:37:05.044Z",
+      "capturedAt": "2026-08-15T21:33:46.163Z",
       "issueOpen": 3394,
-      "issueClosed": 43741,
-      "prOpen": 2149,
-      "prClosed": 72489,
-      "prMerged": 25147,
+      "issueClosed": 43745,
+      "prOpen": 2154,
+      "prClosed": 72495,
+      "prMerged": 25153,
       "workflowRuns": 40000,
-      "stars": 386392,
-      "forks": 81207,
+      "stars": 386396,
+      "forks": 81209,
       "subscribers": 1760,
-      "commits": 79592,
+      "commits": 79598,
       "contributors": 3100,
       "source": "github-actions",
       "approximateDate": false
@@ -643,10 +643,10 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "stars": 386392,
-      "forks": 81207,
+      "stars": 386396,
+      "forks": 81209,
       "subscribers": 1760,
-      "commits": 79592,
+      "commits": 79598,
       "contributors": 3100
     }
   ],
@@ -654,95 +654,77 @@
     "issues": [
       {
         "kind": "issue",
+        "number": 124290,
+        "title": "Flaky: agent-file-lifecycle E2E fails across unrelated PRs (stale file content after save)",
+        "url": "https://github.com/openclaw/openclaw/issues/124290",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-15T21:33:21Z"
+      },
+      {
+        "kind": "issue",
+        "number": 92728,
+        "title": "memory-core: CJK LIKE fallback returns wrong results for multi-character queries",
+        "url": "https://github.com/openclaw/openclaw/issues/92728",
+        "state": "open",
+        "author": "rrriiiccckkk",
+        "updatedAt": "2026-08-15T21:32:42Z"
+      },
+      {
+        "kind": "issue",
+        "number": 91569,
+        "title": "[Bug]: Desktop app stuck on old version after gateway auto-update → \"protocol mismatch\" with no in-app prompt",
+        "url": "https://github.com/openclaw/openclaw/issues/91569",
+        "state": "open",
+        "author": "outkasttttt",
+        "updatedAt": "2026-08-15T21:32:21Z"
+      },
+      {
+        "kind": "issue",
+        "number": 86534,
+        "title": "TUI Competitive Analysis: 15 Gaps to Close vs Claude Code, Aider, Codex CLI, Kimi CLI, Goose",
+        "url": "https://github.com/openclaw/openclaw/issues/86534",
+        "state": "open",
+        "author": "AungMyoKyaw",
+        "updatedAt": "2026-08-15T21:32:02Z"
+      },
+      {
+        "kind": "issue",
         "number": 124233,
         "title": "Make queued-message reordering atomically durable",
         "url": "https://github.com/openclaw/openclaw/issues/124233",
         "state": "open",
         "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-15T20:36:49Z"
+        "updatedAt": "2026-08-15T21:32:00Z"
       },
       {
         "kind": "issue",
-        "number": 124232,
-        "title": "Use canonical update schemas at the Control UI trust boundary",
-        "url": "https://github.com/openclaw/openclaw/issues/124232",
+        "number": 82137,
+        "title": "RFC: Expose existing InputProvenance / AgentInternalEvent signals to ContextEngine.assemble()",
+        "url": "https://github.com/openclaw/openclaw/issues/82137",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-15T20:36:15Z"
-      },
-      {
-        "kind": "issue",
-        "number": 122352,
-        "title": "Android resurrects expired subagent activity on late terminal redelivery",
-        "url": "https://github.com/openclaw/openclaw/issues/122352",
-        "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-08-15T20:36:00Z"
-      },
-      {
-        "kind": "issue",
-        "number": 110715,
-        "title": "[Feature]: Plivo bidirectional audio streaming for realtime voice agents in voice-call",
-        "url": "https://github.com/openclaw/openclaw/issues/110715",
-        "state": "open",
-        "author": "sarveshpatil-plivo",
-        "updatedAt": "2026-08-15T20:35:33Z"
-      },
-      {
-        "kind": "issue",
-        "number": 121187,
-        "title": "[Bug]: yielded requester completion retries intentional NO_REPLY instead of settling quietly",
-        "url": "https://github.com/openclaw/openclaw/issues/121187",
-        "state": "open",
-        "author": "BsnizND",
-        "updatedAt": "2026-08-15T20:35:04Z"
-      },
-      {
-        "kind": "issue",
-        "number": 103239,
-        "title": "Crash between git worktree add and the registry insert during create() leaves a permanent, unreconcilable orphan that also blocks recreation under the same name",
-        "url": "https://github.com/openclaw/openclaw/issues/103239",
-        "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-08-15T20:34:55Z"
+        "author": "jetd1",
+        "updatedAt": "2026-08-15T21:31:57Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 124162,
-        "title": "fix: disconnection watchdog in provider lifecycle owner",
-        "url": "https://github.com/openclaw/openclaw/pull/124162",
-        "state": "open",
-        "author": "markr9805",
-        "updatedAt": "2026-08-15T20:36:49Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117231,
-        "title": "fix(ui): scope model provider catalogs to the selected agent",
-        "url": "https://github.com/openclaw/openclaw/pull/117231",
+        "number": 124291,
+        "title": "test(ios): remove low-value render and source guards",
+        "url": "https://github.com/openclaw/openclaw/pull/124291",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-15T20:36:48Z"
+        "updatedAt": "2026-08-15T21:33:40Z"
       },
       {
         "kind": "pr",
-        "number": 123855,
-        "title": "fix(memory-core): stop hammering a billing-exhausted embeddings provider every turn",
-        "url": "https://github.com/openclaw/openclaw/pull/123855",
+        "number": 124260,
+        "title": "test(agents): assert real ACP task-row ownership contract",
+        "url": "https://github.com/openclaw/openclaw/pull/124260",
         "state": "open",
-        "author": "hartmark",
-        "updatedAt": "2026-08-15T20:36:47Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124191,
-        "title": "fix: claude-cli prompt cache stops hitting after the first follow-up",
-        "url": "https://github.com/openclaw/openclaw/pull/124191",
-        "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-08-15T20:36:43Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-15T21:33:33Z"
       },
       {
         "kind": "pr",
@@ -751,16 +733,34 @@
         "url": "https://github.com/openclaw/openclaw/pull/117220",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-15T20:36:41Z"
+        "updatedAt": "2026-08-15T21:33:31Z"
       },
       {
         "kind": "pr",
-        "number": 124276,
-        "title": "refactor(feishu): remove thread-binding test reset",
-        "url": "https://github.com/openclaw/openclaw/pull/124276",
+        "number": 124256,
+        "title": "refactor(ui): unify composer menu active-option scrolling",
+        "url": "https://github.com/openclaw/openclaw/pull/124256",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-15T20:36:33Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-15T21:33:30Z"
+      },
+      {
+        "kind": "pr",
+        "number": 107921,
+        "title": "fix(memory): re-throw non-ENOENT/ENOTDIR errors in root memory file lookup",
+        "url": "https://github.com/openclaw/openclaw/pull/107921",
+        "state": "open",
+        "author": "tzy-17",
+        "updatedAt": "2026-08-15T21:33:26Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124285,
+        "title": "fix(ui): standardize scrollbar styling across the Control UI",
+        "url": "https://github.com/openclaw/openclaw/pull/124285",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-15T21:33:25Z"
       }
     ]
   }

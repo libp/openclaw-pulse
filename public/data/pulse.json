@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-15T16:39:15.655Z",
+  "generatedAt": "2026-08-15T17:34:00.818Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -496,17 +496,17 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "capturedAt": "2026-08-15T16:39:15.655Z",
-      "issueOpen": 3375,
-      "issueClosed": 43730,
-      "prOpen": 2138,
-      "prClosed": 72464,
-      "prMerged": 25127,
+      "capturedAt": "2026-08-15T17:34:00.818Z",
+      "issueOpen": 3374,
+      "issueClosed": 43735,
+      "prOpen": 2136,
+      "prClosed": 72471,
+      "prMerged": 25133,
       "workflowRuns": 40000,
-      "stars": 386371,
-      "forks": 81206,
+      "stars": 386374,
+      "forks": 81207,
       "subscribers": 1760,
-      "commits": 79571,
+      "commits": 79577,
       "contributors": 3099,
       "source": "github-actions",
       "approximateDate": false
@@ -643,10 +643,10 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "stars": 386371,
-      "forks": 81206,
+      "stars": 386374,
+      "forks": 81207,
       "subscribers": 1760,
-      "commits": 79571,
+      "commits": 79577,
       "contributors": 3099
     }
   ],
@@ -654,15 +654,69 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 7490,
-        "title": "Feature Request: Add 'description' field to agent config for dynamic agent discovery",
-        "url": "https://github.com/openclaw/openclaw/issues/7490",
+        "number": 93346,
+        "title": "[Bug]: Model dropdown does not reflect effective runtime model after fallback/default drift",
+        "url": "https://github.com/openclaw/openclaw/issues/93346",
         "state": "open",
-        "author": "shannon0430",
-        "updatedAt": "2026-08-15T16:38:58Z"
+        "author": "davidstoll",
+        "updatedAt": "2026-08-15T17:33:49Z"
+      },
+      {
+        "kind": "issue",
+        "number": 92535,
+        "title": "[Bug]: isolated cron can deliver unavailable-tool self-debug to Telegram",
+        "url": "https://github.com/openclaw/openclaw/issues/92535",
+        "state": "open",
+        "author": "kesslerio",
+        "updatedAt": "2026-08-15T17:33:17Z"
+      },
+      {
+        "kind": "issue",
+        "number": 92674,
+        "title": "[Bug] Thinking level fallback to \"adaptive\" silently increases token usage 4-5x when user requests \"medium\" on models that only support [off, adaptive]",
+        "url": "https://github.com/openclaw/openclaw/issues/92674",
+        "state": "open",
+        "author": "xxtyyq",
+        "updatedAt": "2026-08-15T17:32:31Z"
       }
     ],
     "prs": [
+      {
+        "kind": "pr",
+        "number": 123064,
+        "title": "fix(xai): report lazy voice bridge connect failure as a terminal error",
+        "url": "https://github.com/openclaw/openclaw/pull/123064",
+        "state": "open",
+        "author": "wanyongstar",
+        "updatedAt": "2026-08-15T17:33:51Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123875,
+        "title": "feat(slack): make presence event guidance configurable",
+        "url": "https://github.com/openclaw/openclaw/pull/123875",
+        "state": "open",
+        "author": "sjf-oa",
+        "updatedAt": "2026-08-15T17:33:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118157,
+        "title": "fix(channels): bundled channels reject the documented mediaMaxMb override",
+        "url": "https://github.com/openclaw/openclaw/pull/118157",
+        "state": "open",
+        "author": "ayaangazali",
+        "updatedAt": "2026-08-15T17:33:21Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122631,
+        "title": "fix(agents): detect sustained same-target write churn",
+        "url": "https://github.com/openclaw/openclaw/pull/122631",
+        "state": "open",
+        "author": "SweetSophia",
+        "updatedAt": "2026-08-15T17:33:19Z"
+      },
       {
         "kind": "pr",
         "number": 120900,
@@ -670,52 +724,16 @@
         "url": "https://github.com/openclaw/openclaw/pull/120900",
         "state": "closed",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-15T16:39:08Z"
+        "updatedAt": "2026-08-15T17:33:17Z"
       },
       {
         "kind": "pr",
-        "number": 124054,
-        "title": "fix: queued chat follow-ups stay stuck after missed terminal events",
-        "url": "https://github.com/openclaw/openclaw/pull/124054",
+        "number": 116604,
+        "title": "fix(codex): show the delivered answer, not a trailing NO_REPLY, in Activity",
+        "url": "https://github.com/openclaw/openclaw/pull/116604",
         "state": "open",
-        "author": "yanmo42",
-        "updatedAt": "2026-08-15T16:39:05Z"
-      },
-      {
-        "kind": "pr",
-        "number": 98248,
-        "title": "fix: Codex catalog honors app-server context caps",
-        "url": "https://github.com/openclaw/openclaw/pull/98248",
-        "state": "open",
-        "author": "hannesrudolph",
-        "updatedAt": "2026-08-15T16:39:12Z"
-      },
-      {
-        "kind": "pr",
-        "number": 97646,
-        "title": "fix(session): defer flushPendingToolResults by one event-loop tick",
-        "url": "https://github.com/openclaw/openclaw/pull/97646",
-        "state": "open",
-        "author": "xydt-tanshanshan",
-        "updatedAt": "2026-08-15T16:38:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124208,
-        "title": "fix(compaction): ignore raw tool identifiers in guard",
-        "url": "https://github.com/openclaw/openclaw/pull/124208",
-        "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-08-15T16:38:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124207,
-        "title": "fix(ui): show active model context budget",
-        "url": "https://github.com/openclaw/openclaw/pull/124207",
-        "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-08-15T16:38:37Z"
+        "author": "harjothkhara",
+        "updatedAt": "2026-08-15T17:33:55Z"
       }
     ]
   }

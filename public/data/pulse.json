@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-15T14:36:58.574Z",
+  "generatedAt": "2026-08-15T15:33:34.284Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -496,17 +496,17 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "capturedAt": "2026-08-15T14:36:58.574Z",
-      "issueOpen": 3380,
-      "issueClosed": 43724,
-      "prOpen": 2154,
-      "prClosed": 72428,
-      "prMerged": 25116,
+      "capturedAt": "2026-08-15T15:33:34.284Z",
+      "issueOpen": 3379,
+      "issueClosed": 43726,
+      "prOpen": 2153,
+      "prClosed": 72437,
+      "prMerged": 25120,
       "workflowRuns": 40000,
-      "stars": 386363,
-      "forks": 81206,
+      "stars": 386364,
+      "forks": 81208,
       "subscribers": 1760,
-      "commits": 79560,
+      "commits": 79564,
       "contributors": 3099,
       "source": "github-actions",
       "approximateDate": false
@@ -643,10 +643,10 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "stars": 386363,
-      "forks": 81206,
+      "stars": 386364,
+      "forks": 81208,
       "subscribers": 1760,
-      "commits": 79560,
+      "commits": 79564,
       "contributors": 3099
     }
   ],
@@ -654,95 +654,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 119682,
-        "title": "[Bug]: Codex native hook relay is turn-scoped — cross-turn wait_agent and long-running worker pods fail with \"native hook relay not found\"",
-        "url": "https://github.com/openclaw/openclaw/issues/119682",
+        "number": 123260,
+        "title": "TUI: support ==highlight== markdown syntax with theme color",
+        "url": "https://github.com/openclaw/openclaw/issues/123260",
         "state": "open",
-        "author": "smj-kairos",
-        "updatedAt": "2026-08-15T14:36:32Z"
+        "author": "von8794",
+        "updatedAt": "2026-08-15T15:33:04Z"
       },
       {
         "kind": "issue",
-        "number": 124187,
-        "title": "[Bug / Feature] @openclaw/feishu card streaming feels slow & choppy vs @larksuite/openclaw-lark's in-card token streaming — no true token-delta path on Feishu",
-        "url": "https://github.com/openclaw/openclaw/issues/124187",
+        "number": 9797,
+        "title": "[Feature]:  `queue_status` tool for intelligent task dispatch",
+        "url": "https://github.com/openclaw/openclaw/issues/9797",
         "state": "open",
-        "author": "Leorand-dev",
-        "updatedAt": "2026-08-15T14:35:54Z"
+        "author": "pahud",
+        "updatedAt": "2026-08-15T15:32:43Z"
       },
       {
         "kind": "issue",
-        "number": 122583,
-        "title": "[Bug]: Reasoning-only responses via OpenRouter discarded with 'No text output returned' (kimi-k2.6, minimax-m2.5)",
-        "url": "https://github.com/openclaw/openclaw/issues/122583",
+        "number": 80765,
+        "title": "Codex context-engine projection lacks exact pre-turn token accounting",
+        "url": "https://github.com/openclaw/openclaw/issues/80765",
         "state": "open",
-        "author": "constant1n0",
-        "updatedAt": "2026-08-15T14:34:43Z"
+        "author": "100yenadmin",
+        "updatedAt": "2026-08-15T15:32:38Z"
       },
       {
         "kind": "issue",
-        "number": 123009,
-        "title": "[Bug]: Recheck native Codex subscription blocks every five minutes",
-        "url": "https://github.com/openclaw/openclaw/issues/123009",
+        "number": 80178,
+        "title": "resolveCliAuthEpoch invalidates every live CLI session when local credential source-of-storage flips, even though identity is unchanged",
+        "url": "https://github.com/openclaw/openclaw/issues/80178",
         "state": "open",
-        "author": "Grynn",
-        "updatedAt": "2026-08-15T14:34:37Z"
+        "author": "alfredjbclaw",
+        "updatedAt": "2026-08-15T15:32:31Z"
       },
       {
         "kind": "issue",
-        "number": 122448,
-        "title": "classifySessionAttention: fallback branch flags CLI backend runs as stuck without checking lastProgressAge",
-        "url": "https://github.com/openclaw/openclaw/issues/122448",
+        "number": 79507,
+        "title": "Dreaming short-term promotion promotes cron delivery reports as high-value memories",
+        "url": "https://github.com/openclaw/openclaw/issues/79507",
         "state": "open",
-        "author": "nissl24",
-        "updatedAt": "2026-08-15T14:34:26Z"
+        "author": "arlen8411",
+        "updatedAt": "2026-08-15T15:32:28Z"
       },
       {
         "kind": "issue",
-        "number": 122851,
-        "title": "[Feature]: Show auth method (API key vs OAuth) in the webchat/Control UI model selector",
-        "url": "https://github.com/openclaw/openclaw/issues/122851",
+        "number": 98870,
+        "title": "[Bug]: Teams thread context omits newer replies when a channel thread has more than 50 replies",
+        "url": "https://github.com/openclaw/openclaw/issues/98870",
         "state": "open",
-        "author": "rafaeltrc",
-        "updatedAt": "2026-08-15T14:36:53Z"
+        "author": "qingminglong",
+        "updatedAt": "2026-08-15T15:32:27Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123975,
-        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
-        "url": "https://github.com/openclaw/openclaw/pull/123975",
+        "number": 121442,
+        "title": "fix(ai): preserve explicit null Responses reasoning summaries",
+        "url": "https://github.com/openclaw/openclaw/pull/121442",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-15T14:36:44Z"
+        "author": "zyw02",
+        "updatedAt": "2026-08-15T15:33:26Z"
       },
       {
         "kind": "pr",
-        "number": 115278,
-        "title": "fix(mentions): match typed group mentions when the agent identity name is decorated",
-        "url": "https://github.com/openclaw/openclaw/pull/115278",
+        "number": 96265,
+        "title": "feat: add interactive launcher menu as thin wrapper over existing CLI",
+        "url": "https://github.com/openclaw/openclaw/pull/96265",
         "state": "open",
-        "author": "edenfunf",
-        "updatedAt": "2026-08-15T14:36:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117977,
-        "title": "🐛 fix(skills): authorize configured canonical workshop roots",
-        "url": "https://github.com/openclaw/openclaw/pull/117977",
-        "state": "open",
-        "author": "pauljohnchamberlain",
-        "updatedAt": "2026-08-15T14:36:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 109493,
-        "title": "fix(gateway): worker workspaces recover after stalled process probes",
-        "url": "https://github.com/openclaw/openclaw/pull/109493",
-        "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-08-15T14:36:40Z"
+        "author": "sangjiexun",
+        "updatedAt": "2026-08-15T15:33:21Z"
       },
       {
         "kind": "pr",
@@ -751,16 +733,34 @@
         "url": "https://github.com/openclaw/openclaw/pull/82950",
         "state": "open",
         "author": "SebTardif",
-        "updatedAt": "2026-08-15T14:36:20Z"
+        "updatedAt": "2026-08-15T15:32:52Z"
       },
       {
         "kind": "pr",
-        "number": 110657,
-        "title": "fix(install): bound curl connection setup with --connect-timeout 20",
-        "url": "https://github.com/openclaw/openclaw/pull/110657",
+        "number": 124196,
+        "title": "test(diffs): remove private icon source mirrors",
+        "url": "https://github.com/openclaw/openclaw/pull/124196",
         "state": "open",
-        "author": "xydigit-zt",
-        "updatedAt": "2026-08-15T14:35:30Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-15T15:32:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123975,
+        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
+        "url": "https://github.com/openclaw/openclaw/pull/123975",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-15T15:32:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 96113,
+        "title": "feat(sessions): add read-only diagnose command",
+        "url": "https://github.com/openclaw/openclaw/pull/96113",
+        "state": "open",
+        "author": "zaidazmi",
+        "updatedAt": "2026-08-15T15:32:02Z"
       }
     ]
   }

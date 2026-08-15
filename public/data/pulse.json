@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-15T21:33:46.163Z",
+  "generatedAt": "2026-08-15T22:35:55.588Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -496,17 +496,17 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "capturedAt": "2026-08-15T21:33:46.163Z",
-      "issueOpen": 3394,
-      "issueClosed": 43745,
-      "prOpen": 2154,
-      "prClosed": 72495,
-      "prMerged": 25153,
+      "capturedAt": "2026-08-15T22:35:55.588Z",
+      "issueOpen": 3389,
+      "issueClosed": 43754,
+      "prOpen": 2147,
+      "prClosed": 72506,
+      "prMerged": 25164,
       "workflowRuns": 40000,
-      "stars": 386396,
+      "stars": 386398,
       "forks": 81209,
       "subscribers": 1760,
-      "commits": 79598,
+      "commits": 79609,
       "contributors": 3100,
       "source": "github-actions",
       "approximateDate": false
@@ -643,10 +643,10 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "stars": 386396,
+      "stars": 386398,
       "forks": 81209,
       "subscribers": 1760,
-      "commits": 79598,
+      "commits": 79609,
       "contributors": 3100
     }
   ],
@@ -654,113 +654,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 124290,
-        "title": "Flaky: agent-file-lifecycle E2E fails across unrelated PRs (stale file content after save)",
-        "url": "https://github.com/openclaw/openclaw/issues/124290",
+        "number": 8355,
+        "title": "Feature: Streaming TTS pipeline for voice calls (sentence-level LLM→TTS→audio)",
+        "url": "https://github.com/openclaw/openclaw/issues/8355",
         "state": "open",
+        "author": "pilkster",
+        "updatedAt": "2026-08-15T22:35:08Z"
+      },
+      {
+        "kind": "issue",
+        "number": 124234,
+        "title": "Stop inferring session-sharing identity kind from ID strings",
+        "url": "https://github.com/openclaw/openclaw/issues/124234",
+        "state": "closed",
         "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-15T21:33:21Z"
+        "updatedAt": "2026-08-15T22:34:17Z"
       },
       {
         "kind": "issue",
-        "number": 92728,
-        "title": "memory-core: CJK LIKE fallback returns wrong results for multi-character queries",
-        "url": "https://github.com/openclaw/openclaw/issues/92728",
+        "number": 121377,
+        "title": "sessions.patch silently drops toolOverrides.webSearch: true (session enable override cannot persist)",
+        "url": "https://github.com/openclaw/openclaw/issues/121377",
         "state": "open",
-        "author": "rrriiiccckkk",
-        "updatedAt": "2026-08-15T21:32:42Z"
+        "author": "zyw02",
+        "updatedAt": "2026-08-15T22:34:11Z"
       },
       {
         "kind": "issue",
-        "number": 91569,
-        "title": "[Bug]: Desktop app stuck on old version after gateway auto-update → \"protocol mismatch\" with no in-app prompt",
-        "url": "https://github.com/openclaw/openclaw/issues/91569",
+        "number": 119281,
+        "title": "[Bug]: Update fails during doctor checks due to Node.js version requirements (Node v24.12.0)",
+        "url": "https://github.com/openclaw/openclaw/issues/119281",
         "state": "open",
-        "author": "outkasttttt",
-        "updatedAt": "2026-08-15T21:32:21Z"
+        "author": "Istiyaq-Khan",
+        "updatedAt": "2026-08-15T22:33:46Z"
       },
       {
         "kind": "issue",
-        "number": 86534,
-        "title": "TUI Competitive Analysis: 15 Gaps to Close vs Claude Code, Aider, Codex CLI, Kimi CLI, Goose",
-        "url": "https://github.com/openclaw/openclaw/issues/86534",
+        "number": 77467,
+        "title": "[Bug] MiniMax Portal OAuth token cannot auto-refresh — refreshOAuth method not implemented",
+        "url": "https://github.com/openclaw/openclaw/issues/77467",
         "state": "open",
-        "author": "AungMyoKyaw",
-        "updatedAt": "2026-08-15T21:32:02Z"
+        "author": "rongtianhua",
+        "updatedAt": "2026-08-15T22:33:31Z"
       },
       {
         "kind": "issue",
-        "number": 124233,
-        "title": "Make queued-message reordering atomically durable",
-        "url": "https://github.com/openclaw/openclaw/issues/124233",
+        "number": 53406,
+        "title": "feat: Let users steer running ACP/sub-agent sessions from Discord (and other chat surfaces)",
+        "url": "https://github.com/openclaw/openclaw/issues/53406",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-15T21:32:00Z"
-      },
-      {
-        "kind": "issue",
-        "number": 82137,
-        "title": "RFC: Expose existing InputProvenance / AgentInternalEvent signals to ContextEngine.assemble()",
-        "url": "https://github.com/openclaw/openclaw/issues/82137",
-        "state": "open",
-        "author": "jetd1",
-        "updatedAt": "2026-08-15T21:31:57Z"
+        "author": "ubehera",
+        "updatedAt": "2026-08-15T22:33:31Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 124291,
-        "title": "test(ios): remove low-value render and source guards",
-        "url": "https://github.com/openclaw/openclaw/pull/124291",
+        "number": 124191,
+        "title": "fix: claude-cli prompt cache stops hitting after the first follow-up",
+        "url": "https://github.com/openclaw/openclaw/pull/124191",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-15T21:33:40Z"
+        "author": "VACInc",
+        "updatedAt": "2026-08-15T22:35:29Z"
       },
       {
         "kind": "pr",
-        "number": 124260,
-        "title": "test(agents): assert real ACP task-row ownership contract",
-        "url": "https://github.com/openclaw/openclaw/pull/124260",
+        "number": 124293,
+        "title": "fix: Windows cron jobs never run because the durable fence cannot read a process identity",
+        "url": "https://github.com/openclaw/openclaw/pull/124293",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-15T21:33:33Z"
+        "author": "Chinmayrawat15",
+        "updatedAt": "2026-08-15T22:35:23Z"
       },
       {
         "kind": "pr",
-        "number": 117220,
-        "title": "fix(cli): surface degraded auxiliary health diagnostics",
-        "url": "https://github.com/openclaw/openclaw/pull/117220",
+        "number": 121557,
+        "title": "fix(ui): honor global web-search disable as session kill switch",
+        "url": "https://github.com/openclaw/openclaw/pull/121557",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-15T21:33:31Z"
+        "author": "zyw02",
+        "updatedAt": "2026-08-15T22:35:04Z"
       },
       {
         "kind": "pr",
-        "number": 124256,
-        "title": "refactor(ui): unify composer menu active-option scrolling",
-        "url": "https://github.com/openclaw/openclaw/pull/124256",
+        "number": 124228,
+        "title": "fix(ui): disambiguate multi-account session labels",
+        "url": "https://github.com/openclaw/openclaw/pull/124228",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-15T21:33:30Z"
+        "author": "SebTardif",
+        "updatedAt": "2026-08-15T22:35:00Z"
       },
       {
         "kind": "pr",
-        "number": 107921,
-        "title": "fix(memory): re-throw non-ENOENT/ENOTDIR errors in root memory file lookup",
-        "url": "https://github.com/openclaw/openclaw/pull/107921",
+        "number": 124213,
+        "title": "fix(agents): collapse equivalent Unicode read aliases",
+        "url": "https://github.com/openclaw/openclaw/pull/124213",
         "state": "open",
-        "author": "tzy-17",
-        "updatedAt": "2026-08-15T21:33:26Z"
+        "author": "ceckert",
+        "updatedAt": "2026-08-15T22:34:57Z"
       },
       {
         "kind": "pr",
-        "number": 124285,
-        "title": "fix(ui): standardize scrollbar styling across the Control UI",
-        "url": "https://github.com/openclaw/openclaw/pull/124285",
+        "number": 123871,
+        "title": "fix(status): tolerate ownerless multi-agent diagnostics",
+        "url": "https://github.com/openclaw/openclaw/pull/123871",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-15T21:33:25Z"
+        "author": "jjjhenriksen",
+        "updatedAt": "2026-08-15T22:34:28Z"
       }
     ]
   }

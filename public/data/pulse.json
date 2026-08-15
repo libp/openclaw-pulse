@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-14T23:35:27.415Z",
+  "generatedAt": "2026-08-15T01:48:17.179Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -493,6 +493,23 @@
       "contributors": 3097,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-15",
+      "capturedAt": "2026-08-15T01:48:17.179Z",
+      "issueOpen": 3396,
+      "issueClosed": 43653,
+      "prOpen": 2153,
+      "prClosed": 72219,
+      "prMerged": 24944,
+      "workflowRuns": 40000,
+      "stars": 386315,
+      "forks": 81198,
+      "subscribers": 1760,
+      "commits": 79378,
+      "contributors": 3097,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -623,92 +640,109 @@
       "subscribers": 1768,
       "commits": 79352,
       "contributors": 3097
+    },
+    {
+      "capturedOn": "2026-08-15",
+      "stars": 386315,
+      "forks": 81198,
+      "subscribers": 1760,
+      "commits": 79378,
+      "contributors": 3097
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 112136,
-        "title": "[Performance] CPU bottleneck in Markdown code block syntax highlighting during streaming",
-        "url": "https://github.com/openclaw/openclaw/issues/112136",
+        "number": 78805,
+        "title": "[Bug]: Severe Event Loop Blocking / Freezing due to Synchronous I/O (execSync, readFileSync)",
+        "url": "https://github.com/openclaw/openclaw/issues/78805",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-14T23:34:00Z"
+        "author": "darklilyhand",
+        "updatedAt": "2026-08-15T01:47:53Z"
       },
       {
         "kind": "issue",
-        "number": 120600,
-        "title": "[Bug]: AGENTS.md never reaches the model on sandboxed Codex app-server runs (container cwd, host-side loader) — and the system-prompt report claims it was delivered",
-        "url": "https://github.com/openclaw/openclaw/issues/120600",
+        "number": 121934,
+        "title": "[Bug]: Desktop updater results disappear after dashboard navigation",
+        "url": "https://github.com/openclaw/openclaw/issues/121934",
         "state": "open",
-        "author": "sercada",
-        "updatedAt": "2026-08-14T23:33:55Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-15T01:47:29Z"
       },
       {
         "kind": "issue",
-        "number": 120558,
-        "title": "Bug: /stop does not cancel detached Skill Workshop experience review",
-        "url": "https://github.com/openclaw/openclaw/issues/120558",
+        "number": 64103,
+        "title": "Session `status` field values (\"failed\", \"timeout\", \"done\") mislead agents into spawning duplicate sessions",
+        "url": "https://github.com/openclaw/openclaw/issues/64103",
         "state": "open",
-        "author": "litang9",
-        "updatedAt": "2026-08-14T23:32:44Z"
+        "author": "lykeion-dev",
+        "updatedAt": "2026-08-15T01:46:54Z"
+      },
+      {
+        "kind": "issue",
+        "number": 78865,
+        "title": "Tool call circuit breaker needed — LLMs will blindly retry forever without one",
+        "url": "https://github.com/openclaw/openclaw/issues/78865",
+        "state": "open",
+        "author": "xhynice",
+        "updatedAt": "2026-08-15T01:46:39Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123884,
-        "title": "fix(cli): infer provider lists respect selected agent",
-        "url": "https://github.com/openclaw/openclaw/pull/123884",
+        "number": 123874,
+        "title": "improve(ui): unify chat side rails in a tabbed panel",
+        "url": "https://github.com/openclaw/openclaw/pull/123874",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-15T01:48:07Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123920,
+        "title": "fix(gateway): keep supervised restarts from migrating live state",
+        "url": "https://github.com/openclaw/openclaw/pull/123920",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-14T23:35:24Z"
+        "updatedAt": "2026-08-15T01:48:05Z"
       },
       {
         "kind": "pr",
-        "number": 123613,
-        "title": "Unify sidebar iconography",
-        "url": "https://github.com/openclaw/openclaw/pull/123613",
+        "number": 120302,
+        "title": "fix(ui): recover Model Providers usage cards after a failed usage.status",
+        "url": "https://github.com/openclaw/openclaw/pull/120302",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-14T23:35:09Z"
+        "author": "ayaangazali",
+        "updatedAt": "2026-08-15T01:48:03Z"
       },
       {
         "kind": "pr",
-        "number": 123254,
-        "title": "fix(claws): recover lifecycle state safely",
-        "url": "https://github.com/openclaw/openclaw/pull/123254",
+        "number": 123908,
+        "title": "fix(ui): dismiss landed steer notices",
+        "url": "https://github.com/openclaw/openclaw/pull/123908",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-08-14T23:35:01Z"
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-08-15T01:47:45Z"
       },
       {
         "kind": "pr",
-        "number": 123666,
-        "title": "feat(ui): make sidebar customization transactional",
-        "url": "https://github.com/openclaw/openclaw/pull/123666",
+        "number": 122425,
+        "title": "fix: allow slash skills inside normal messages",
+        "url": "https://github.com/openclaw/openclaw/pull/122425",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-14T23:34:30Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-15T01:47:40Z"
       },
       {
         "kind": "pr",
-        "number": 123656,
-        "title": "feat(ui): add sidebar customization surface",
-        "url": "https://github.com/openclaw/openclaw/pull/123656",
+        "number": 120900,
+        "title": "feat(ui): review install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/120900",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-14T23:34:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123883,
-        "title": "refactor(cli): test marketplace shorthand at command boundary",
-        "url": "https://github.com/openclaw/openclaw/pull/123883",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-14T23:34:24Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-15T01:47:36Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-15T05:38:41.768Z",
+  "generatedAt": "2026-08-15T08:43:49.951Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -496,18 +496,18 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "capturedAt": "2026-08-15T05:38:41.768Z",
-      "issueOpen": 3380,
-      "issueClosed": 43696,
-      "prOpen": 2162,
-      "prClosed": 72300,
-      "prMerged": 25018,
+      "capturedAt": "2026-08-15T08:43:49.951Z",
+      "issueOpen": 3379,
+      "issueClosed": 43712,
+      "prOpen": 2160,
+      "prClosed": 72359,
+      "prMerged": 25062,
       "workflowRuns": 40000,
-      "stars": 386331,
-      "forks": 81198,
+      "stars": 386346,
+      "forks": 81201,
       "subscribers": 1759,
-      "commits": 79460,
-      "contributors": 3098,
+      "commits": 79506,
+      "contributors": 3099,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -643,106 +643,124 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "stars": 386331,
-      "forks": 81198,
+      "stars": 386346,
+      "forks": 81201,
       "subscribers": 1759,
-      "commits": 79460,
-      "contributors": 3098
+      "commits": 79506,
+      "contributors": 3099
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 124038,
-        "title": "[Bug]: OpenAI-compatible HTTP endpoints report resolved agent failures as success",
-        "url": "https://github.com/openclaw/openclaw/issues/124038",
+        "number": 119148,
+        "title": "[Bug]: Bedrock Opus 5 reasoning-off requests ignore configured maxTokens",
+        "url": "https://github.com/openclaw/openclaw/issues/119148",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-15T05:38:12Z"
+        "author": "gaoming-wu",
+        "updatedAt": "2026-08-15T08:43:40Z"
       },
       {
         "kind": "issue",
-        "number": 102078,
-        "title": "[Bug]: Compaction fails with 'Thread group size (1024) exceeds maximum threads per threadgroup (896)'",
-        "url": "https://github.com/openclaw/openclaw/issues/102078",
+        "number": 118652,
+        "title": "CLI subprocess processes orphaned on gateway restart — in-memory supervisor registry lost without killing child processes",
+        "url": "https://github.com/openclaw/openclaw/issues/118652",
         "state": "open",
-        "author": "caiklv",
-        "updatedAt": "2026-08-15T05:38:12Z"
+        "author": "yozakura-ava",
+        "updatedAt": "2026-08-15T08:43:37Z"
       },
       {
         "kind": "issue",
-        "number": 101445,
-        "title": "[Bug]: Embedded Ollama agent reports payloads=0 tools=0 (incomplete_result) for certain prompts even though Ollama's own response contains a valid tool_calls entry",
-        "url": "https://github.com/openclaw/openclaw/issues/101445",
+        "number": 118774,
+        "title": "A spawned sub-agent cannot honor its own configured thinking level",
+        "url": "https://github.com/openclaw/openclaw/issues/118774",
         "state": "open",
-        "author": "Zvimarmor",
-        "updatedAt": "2026-08-15T05:37:12Z"
+        "author": "aleps001",
+        "updatedAt": "2026-08-15T08:43:36Z"
       },
       {
         "kind": "issue",
-        "number": 124007,
-        "title": "[Feature]: msteams: let federated auth get Bot Framework tokens from an external token endpoint (non-Azure hosts)",
-        "url": "https://github.com/openclaw/openclaw/issues/124007",
+        "number": 118845,
+        "title": "Workboard: workboard_comment tool rejects bodies > 2000 chars with cryptic error",
+        "url": "https://github.com/openclaw/openclaw/issues/118845",
         "state": "open",
-        "author": "kouohhashi",
-        "updatedAt": "2026-08-15T05:36:19Z"
+        "author": "osipovia",
+        "updatedAt": "2026-08-15T08:43:33Z"
+      },
+      {
+        "kind": "issue",
+        "number": 119035,
+        "title": "[Feature]: Add a wake-only cron payload kind",
+        "url": "https://github.com/openclaw/openclaw/issues/119035",
+        "state": "open",
+        "author": "omarshahine",
+        "updatedAt": "2026-08-15T08:43:31Z"
+      },
+      {
+        "kind": "issue",
+        "number": 118793,
+        "title": "Claude CLI \"session limit\" error dies with surface_error instead of triggering the model fallback chain",
+        "url": "https://github.com/openclaw/openclaw/issues/118793",
+        "state": "open",
+        "author": "germankovacevic-lab",
+        "updatedAt": "2026-08-15T08:43:29Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 124017,
-        "title": "fix(ui): show skill titles in chat reference picker",
-        "url": "https://github.com/openclaw/openclaw/pull/124017",
+        "number": 123814,
+        "title": "fix(gateway): prefer imported native blocks over cli-assistant aggregate",
+        "url": "https://github.com/openclaw/openclaw/pull/123814",
         "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-08-15T05:38:33Z"
+        "author": "licheer-zte",
+        "updatedAt": "2026-08-15T08:43:41Z"
       },
       {
         "kind": "pr",
-        "number": 108732,
-        "title": "fix(cron): tighten cron tool schema to prevent llama.cpp GBNF grammar overflow (#108690)",
-        "url": "https://github.com/openclaw/openclaw/pull/108732",
+        "number": 74252,
+        "title": "fix(logs): only report rotation when the log file actually shrank",
+        "url": "https://github.com/openclaw/openclaw/pull/74252",
         "state": "open",
-        "author": "SymbolStar",
-        "updatedAt": "2026-08-15T05:38:24Z"
+        "author": "BSG2000",
+        "updatedAt": "2026-08-15T08:43:38Z"
       },
       {
         "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-15T05:38:11Z"
+        "number": 118679,
+        "title": "fix(workboard): reconcile terminal subagent runs",
+        "url": "https://github.com/openclaw/openclaw/pull/118679",
+        "state": "open",
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-08-15T08:43:35Z"
       },
       {
         "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-15T05:38:10Z"
+        "number": 118535,
+        "title": "fix(release): smoke test GPT-5.6 through ChatGPT OAuth",
+        "url": "https://github.com/openclaw/openclaw/pull/118535",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-15T08:43:34Z"
       },
       {
         "kind": "pr",
-        "number": 123991,
-        "title": "test(computer-use): live end-to-end gate for both macOS providers",
-        "url": "https://github.com/openclaw/openclaw/pull/123991",
+        "number": 119040,
+        "title": "feat(cron): add wake-only payload",
+        "url": "https://github.com/openclaw/openclaw/pull/119040",
+        "state": "open",
+        "author": "omarshahine",
+        "updatedAt": "2026-08-15T08:43:32Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118830,
+        "title": "fix(media): preserve signed generation URLs across delivery retries",
+        "url": "https://github.com/openclaw/openclaw/pull/118830",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-15T05:38:09Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118989,
-        "title": "fix(macos): timestamp hash-pinned Developer ID signatures",
-        "url": "https://github.com/openclaw/openclaw/pull/118989",
-        "state": "open",
-        "author": "harjothkhara",
-        "updatedAt": "2026-08-15T05:38:08Z"
+        "updatedAt": "2026-08-15T08:43:30Z"
       }
     ]
   }

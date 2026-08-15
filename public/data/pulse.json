@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-15T03:52:25.856Z",
+  "generatedAt": "2026-08-15T04:45:44.355Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -496,17 +496,17 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "capturedAt": "2026-08-15T03:52:25.856Z",
-      "issueOpen": 3389,
-      "issueClosed": 43677,
-      "prOpen": 2169,
-      "prClosed": 72256,
-      "prMerged": 24977,
+      "capturedAt": "2026-08-15T04:45:44.355Z",
+      "issueOpen": 3380,
+      "issueClosed": 43689,
+      "prOpen": 2163,
+      "prClosed": 72284,
+      "prMerged": 25002,
       "workflowRuns": 40000,
-      "stars": 386322,
+      "stars": 386329,
       "forks": 81196,
       "subscribers": 1760,
-      "commits": 79416,
+      "commits": 79442,
       "contributors": 3097,
       "source": "github-actions",
       "approximateDate": false
@@ -643,10 +643,10 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "stars": 386322,
+      "stars": 386329,
       "forks": 81196,
       "subscribers": 1760,
-      "commits": 79416,
+      "commits": 79442,
       "contributors": 3097
     }
   ],
@@ -654,95 +654,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 123989,
-        "title": "[Bug]: Timeout compaction retry replays the original persisted prompt",
-        "url": "https://github.com/openclaw/openclaw/issues/123989",
+        "number": 120394,
+        "title": "Gateway memory leak causes event loop saturation and subagent orphaning",
+        "url": "https://github.com/openclaw/openclaw/issues/120394",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-15T03:51:56Z"
+        "author": "darnellt0",
+        "updatedAt": "2026-08-15T04:45:09Z"
       },
       {
         "kind": "issue",
-        "number": 122233,
-        "title": "Embedded run lane timeout can never fire: a blind 15s heartbeat resets its progress clock",
-        "url": "https://github.com/openclaw/openclaw/issues/122233",
+        "number": 123379,
+        "title": "[Bug]: Android app stops accepting touch after closing failed Canvas view",
+        "url": "https://github.com/openclaw/openclaw/issues/123379",
         "state": "open",
-        "author": "ernestrolfson-design",
-        "updatedAt": "2026-08-15T03:51:48Z"
+        "author": "saariuslystoned",
+        "updatedAt": "2026-08-15T04:43:22Z"
       },
       {
         "kind": "issue",
-        "number": 121944,
-        "title": "[Bug]: Bug Report: Feishu channel - MEDIA directive and tool output rendering break after gateway restart",
-        "url": "https://github.com/openclaw/openclaw/issues/121944",
-        "state": "open",
-        "author": "vsitk",
-        "updatedAt": "2026-08-15T03:51:25Z"
-      },
-      {
-        "kind": "issue",
-        "number": 108273,
-        "title": "[Bug]: regression with node:sqllite version testing",
-        "url": "https://github.com/openclaw/openclaw/issues/108273",
-        "state": "open",
-        "author": "xrow",
-        "updatedAt": "2026-08-15T03:50:55Z"
+        "number": 56078,
+        "title": "[Bug]: Cron Job Output Not Saved in OpenClaw 2026.3.24",
+        "url": "https://github.com/openclaw/openclaw/issues/56078",
+        "state": "closed",
+        "author": "nobbywfc",
+        "updatedAt": "2026-08-15T04:43:14Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123969,
-        "title": "fix(macos): keep replacement node worker active after stale exit",
-        "url": "https://github.com/openclaw/openclaw/pull/123969",
+        "number": 124013,
+        "title": "fix(ui): keep the chat transcript anchored while the pane resizes",
+        "url": "https://github.com/openclaw/openclaw/pull/124013",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-15T03:52:20Z"
+        "updatedAt": "2026-08-15T04:45:33Z"
       },
       {
         "kind": "pr",
-        "number": 123737,
-        "title": "fix(compaction): reject summaries foregrounding superseded tasks",
-        "url": "https://github.com/openclaw/openclaw/pull/123737",
+        "number": 124012,
+        "title": "fix: restore live duplicate-tombstone assertions",
+        "url": "https://github.com/openclaw/openclaw/pull/124012",
         "state": "open",
-        "author": "wangyan2026",
-        "updatedAt": "2026-08-15T03:52:18Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-15T04:45:19Z"
       },
       {
         "kind": "pr",
-        "number": 117712,
-        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/117712",
+        "number": 112375,
+        "title": "feat(cron): shell precheck gate to skip LLM when no work",
+        "url": "https://github.com/openclaw/openclaw/pull/112375",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-15T03:52:06Z"
+        "author": "Bartok9",
+        "updatedAt": "2026-08-15T04:45:19Z"
       },
       {
         "kind": "pr",
-        "number": 123976,
-        "title": "fix(gateway): frozen worker processes never resume when the host ps stalls",
-        "url": "https://github.com/openclaw/openclaw/pull/123976",
+        "number": 124016,
+        "title": "fix(channels): preserve legacy ingress failure settlement",
+        "url": "https://github.com/openclaw/openclaw/pull/124016",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-15T04:44:49Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123975,
+        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
+        "url": "https://github.com/openclaw/openclaw/pull/123975",
         "state": "open",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-15T03:52:04Z"
+        "updatedAt": "2026-08-15T04:44:46Z"
       },
       {
         "kind": "pr",
-        "number": 117128,
-        "title": "fix(secrets): preflight exec provider command paths before config acceptance",
-        "url": "https://github.com/openclaw/openclaw/pull/117128",
+        "number": 123585,
+        "title": "fix(acp): run session/new prompts in the requested cwd",
+        "url": "https://github.com/openclaw/openclaw/pull/123585",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-15T03:52:21Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123991,
-        "title": "test(computer-use): live end-to-end gate for both macOS providers",
-        "url": "https://github.com/openclaw/openclaw/pull/123991",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-15T03:51:41Z"
+        "author": "Chinmayrawat15",
+        "updatedAt": "2026-08-15T04:44:33Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-15T17:34:00.818Z",
+  "generatedAt": "2026-08-15T20:37:05.044Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -496,18 +496,18 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "capturedAt": "2026-08-15T17:34:00.818Z",
-      "issueOpen": 3374,
-      "issueClosed": 43735,
-      "prOpen": 2136,
-      "prClosed": 72471,
-      "prMerged": 25133,
+      "capturedAt": "2026-08-15T20:37:05.044Z",
+      "issueOpen": 3394,
+      "issueClosed": 43741,
+      "prOpen": 2149,
+      "prClosed": 72489,
+      "prMerged": 25147,
       "workflowRuns": 40000,
-      "stars": 386374,
+      "stars": 386392,
       "forks": 81207,
       "subscribers": 1760,
-      "commits": 79577,
-      "contributors": 3099,
+      "commits": 79592,
+      "contributors": 3100,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -643,97 +643,124 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "stars": 386374,
+      "stars": 386392,
       "forks": 81207,
       "subscribers": 1760,
-      "commits": 79577,
-      "contributors": 3099
+      "commits": 79592,
+      "contributors": 3100
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 93346,
-        "title": "[Bug]: Model dropdown does not reflect effective runtime model after fallback/default drift",
-        "url": "https://github.com/openclaw/openclaw/issues/93346",
+        "number": 124233,
+        "title": "Make queued-message reordering atomically durable",
+        "url": "https://github.com/openclaw/openclaw/issues/124233",
         "state": "open",
-        "author": "davidstoll",
-        "updatedAt": "2026-08-15T17:33:49Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-15T20:36:49Z"
       },
       {
         "kind": "issue",
-        "number": 92535,
-        "title": "[Bug]: isolated cron can deliver unavailable-tool self-debug to Telegram",
-        "url": "https://github.com/openclaw/openclaw/issues/92535",
+        "number": 124232,
+        "title": "Use canonical update schemas at the Control UI trust boundary",
+        "url": "https://github.com/openclaw/openclaw/issues/124232",
         "state": "open",
-        "author": "kesslerio",
-        "updatedAt": "2026-08-15T17:33:17Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-15T20:36:15Z"
       },
       {
         "kind": "issue",
-        "number": 92674,
-        "title": "[Bug] Thinking level fallback to \"adaptive\" silently increases token usage 4-5x when user requests \"medium\" on models that only support [off, adaptive]",
-        "url": "https://github.com/openclaw/openclaw/issues/92674",
+        "number": 122352,
+        "title": "Android resurrects expired subagent activity on late terminal redelivery",
+        "url": "https://github.com/openclaw/openclaw/issues/122352",
         "state": "open",
-        "author": "xxtyyq",
-        "updatedAt": "2026-08-15T17:32:31Z"
+        "author": "Alix-007",
+        "updatedAt": "2026-08-15T20:36:00Z"
+      },
+      {
+        "kind": "issue",
+        "number": 110715,
+        "title": "[Feature]: Plivo bidirectional audio streaming for realtime voice agents in voice-call",
+        "url": "https://github.com/openclaw/openclaw/issues/110715",
+        "state": "open",
+        "author": "sarveshpatil-plivo",
+        "updatedAt": "2026-08-15T20:35:33Z"
+      },
+      {
+        "kind": "issue",
+        "number": 121187,
+        "title": "[Bug]: yielded requester completion retries intentional NO_REPLY instead of settling quietly",
+        "url": "https://github.com/openclaw/openclaw/issues/121187",
+        "state": "open",
+        "author": "BsnizND",
+        "updatedAt": "2026-08-15T20:35:04Z"
+      },
+      {
+        "kind": "issue",
+        "number": 103239,
+        "title": "Crash between git worktree add and the registry insert during create() leaves a permanent, unreconcilable orphan that also blocks recreation under the same name",
+        "url": "https://github.com/openclaw/openclaw/issues/103239",
+        "state": "open",
+        "author": "yetval",
+        "updatedAt": "2026-08-15T20:34:55Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123064,
-        "title": "fix(xai): report lazy voice bridge connect failure as a terminal error",
-        "url": "https://github.com/openclaw/openclaw/pull/123064",
+        "number": 124162,
+        "title": "fix: disconnection watchdog in provider lifecycle owner",
+        "url": "https://github.com/openclaw/openclaw/pull/124162",
         "state": "open",
-        "author": "wanyongstar",
-        "updatedAt": "2026-08-15T17:33:51Z"
+        "author": "markr9805",
+        "updatedAt": "2026-08-15T20:36:49Z"
       },
       {
         "kind": "pr",
-        "number": 123875,
-        "title": "feat(slack): make presence event guidance configurable",
-        "url": "https://github.com/openclaw/openclaw/pull/123875",
+        "number": 117231,
+        "title": "fix(ui): scope model provider catalogs to the selected agent",
+        "url": "https://github.com/openclaw/openclaw/pull/117231",
         "state": "open",
-        "author": "sjf-oa",
-        "updatedAt": "2026-08-15T17:33:38Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-15T20:36:48Z"
       },
       {
         "kind": "pr",
-        "number": 118157,
-        "title": "fix(channels): bundled channels reject the documented mediaMaxMb override",
-        "url": "https://github.com/openclaw/openclaw/pull/118157",
+        "number": 123855,
+        "title": "fix(memory-core): stop hammering a billing-exhausted embeddings provider every turn",
+        "url": "https://github.com/openclaw/openclaw/pull/123855",
         "state": "open",
-        "author": "ayaangazali",
-        "updatedAt": "2026-08-15T17:33:21Z"
+        "author": "hartmark",
+        "updatedAt": "2026-08-15T20:36:47Z"
       },
       {
         "kind": "pr",
-        "number": 122631,
-        "title": "fix(agents): detect sustained same-target write churn",
-        "url": "https://github.com/openclaw/openclaw/pull/122631",
+        "number": 124191,
+        "title": "fix: claude-cli prompt cache stops hitting after the first follow-up",
+        "url": "https://github.com/openclaw/openclaw/pull/124191",
         "state": "open",
-        "author": "SweetSophia",
-        "updatedAt": "2026-08-15T17:33:19Z"
+        "author": "VACInc",
+        "updatedAt": "2026-08-15T20:36:43Z"
       },
       {
         "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-15T17:33:17Z"
+        "number": 117220,
+        "title": "fix(cli): surface degraded auxiliary health diagnostics",
+        "url": "https://github.com/openclaw/openclaw/pull/117220",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-15T20:36:41Z"
       },
       {
         "kind": "pr",
-        "number": 116604,
-        "title": "fix(codex): show the delivered answer, not a trailing NO_REPLY, in Activity",
-        "url": "https://github.com/openclaw/openclaw/pull/116604",
+        "number": 124276,
+        "title": "refactor(feishu): remove thread-binding test reset",
+        "url": "https://github.com/openclaw/openclaw/pull/124276",
         "state": "open",
-        "author": "harjothkhara",
-        "updatedAt": "2026-08-15T17:33:55Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-15T20:36:33Z"
       }
     ]
   }

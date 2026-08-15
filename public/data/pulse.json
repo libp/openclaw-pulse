@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-15T04:45:44.355Z",
+  "generatedAt": "2026-08-15T05:38:41.768Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -496,18 +496,18 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "capturedAt": "2026-08-15T04:45:44.355Z",
+      "capturedAt": "2026-08-15T05:38:41.768Z",
       "issueOpen": 3380,
-      "issueClosed": 43689,
-      "prOpen": 2163,
-      "prClosed": 72284,
-      "prMerged": 25002,
+      "issueClosed": 43696,
+      "prOpen": 2162,
+      "prClosed": 72300,
+      "prMerged": 25018,
       "workflowRuns": 40000,
-      "stars": 386329,
-      "forks": 81196,
-      "subscribers": 1760,
-      "commits": 79442,
-      "contributors": 3097,
+      "stars": 386331,
+      "forks": 81198,
+      "subscribers": 1759,
+      "commits": 79460,
+      "contributors": 3098,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -643,97 +643,106 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "stars": 386329,
-      "forks": 81196,
-      "subscribers": 1760,
-      "commits": 79442,
-      "contributors": 3097
+      "stars": 386331,
+      "forks": 81198,
+      "subscribers": 1759,
+      "commits": 79460,
+      "contributors": 3098
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 120394,
-        "title": "Gateway memory leak causes event loop saturation and subagent orphaning",
-        "url": "https://github.com/openclaw/openclaw/issues/120394",
+        "number": 124038,
+        "title": "[Bug]: OpenAI-compatible HTTP endpoints report resolved agent failures as success",
+        "url": "https://github.com/openclaw/openclaw/issues/124038",
         "state": "open",
-        "author": "darnellt0",
-        "updatedAt": "2026-08-15T04:45:09Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-15T05:38:12Z"
       },
       {
         "kind": "issue",
-        "number": 123379,
-        "title": "[Bug]: Android app stops accepting touch after closing failed Canvas view",
-        "url": "https://github.com/openclaw/openclaw/issues/123379",
+        "number": 102078,
+        "title": "[Bug]: Compaction fails with 'Thread group size (1024) exceeds maximum threads per threadgroup (896)'",
+        "url": "https://github.com/openclaw/openclaw/issues/102078",
         "state": "open",
-        "author": "saariuslystoned",
-        "updatedAt": "2026-08-15T04:43:22Z"
+        "author": "caiklv",
+        "updatedAt": "2026-08-15T05:38:12Z"
       },
       {
         "kind": "issue",
-        "number": 56078,
-        "title": "[Bug]: Cron Job Output Not Saved in OpenClaw 2026.3.24",
-        "url": "https://github.com/openclaw/openclaw/issues/56078",
-        "state": "closed",
-        "author": "nobbywfc",
-        "updatedAt": "2026-08-15T04:43:14Z"
+        "number": 101445,
+        "title": "[Bug]: Embedded Ollama agent reports payloads=0 tools=0 (incomplete_result) for certain prompts even though Ollama's own response contains a valid tool_calls entry",
+        "url": "https://github.com/openclaw/openclaw/issues/101445",
+        "state": "open",
+        "author": "Zvimarmor",
+        "updatedAt": "2026-08-15T05:37:12Z"
+      },
+      {
+        "kind": "issue",
+        "number": 124007,
+        "title": "[Feature]: msteams: let federated auth get Bot Framework tokens from an external token endpoint (non-Azure hosts)",
+        "url": "https://github.com/openclaw/openclaw/issues/124007",
+        "state": "open",
+        "author": "kouohhashi",
+        "updatedAt": "2026-08-15T05:36:19Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 124013,
-        "title": "fix(ui): keep the chat transcript anchored while the pane resizes",
-        "url": "https://github.com/openclaw/openclaw/pull/124013",
+        "number": 124017,
+        "title": "fix(ui): show skill titles in chat reference picker",
+        "url": "https://github.com/openclaw/openclaw/pull/124017",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-15T04:45:33Z"
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-08-15T05:38:33Z"
       },
       {
         "kind": "pr",
-        "number": 124012,
-        "title": "fix: restore live duplicate-tombstone assertions",
-        "url": "https://github.com/openclaw/openclaw/pull/124012",
+        "number": 108732,
+        "title": "fix(cron): tighten cron tool schema to prevent llama.cpp GBNF grammar overflow (#108690)",
+        "url": "https://github.com/openclaw/openclaw/pull/108732",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-15T04:45:19Z"
+        "author": "SymbolStar",
+        "updatedAt": "2026-08-15T05:38:24Z"
       },
       {
         "kind": "pr",
-        "number": 112375,
-        "title": "feat(cron): shell precheck gate to skip LLM when no work",
-        "url": "https://github.com/openclaw/openclaw/pull/112375",
-        "state": "open",
-        "author": "Bartok9",
-        "updatedAt": "2026-08-15T04:45:19Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124016,
-        "title": "fix(channels): preserve legacy ingress failure settlement",
-        "url": "https://github.com/openclaw/openclaw/pull/124016",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-15T04:44:49Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123975,
-        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
-        "url": "https://github.com/openclaw/openclaw/pull/123975",
-        "state": "open",
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
+        "state": "closed",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-15T04:44:46Z"
+        "updatedAt": "2026-08-15T05:38:11Z"
       },
       {
         "kind": "pr",
-        "number": 123585,
-        "title": "fix(acp): run session/new prompts in the requested cwd",
-        "url": "https://github.com/openclaw/openclaw/pull/123585",
+        "number": 120900,
+        "title": "feat(ui): review install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/120900",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-15T05:38:10Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123991,
+        "title": "test(computer-use): live end-to-end gate for both macOS providers",
+        "url": "https://github.com/openclaw/openclaw/pull/123991",
         "state": "open",
-        "author": "Chinmayrawat15",
-        "updatedAt": "2026-08-15T04:44:33Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-15T05:38:09Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118989,
+        "title": "fix(macos): timestamp hash-pinned Developer ID signatures",
+        "url": "https://github.com/openclaw/openclaw/pull/118989",
+        "state": "open",
+        "author": "harjothkhara",
+        "updatedAt": "2026-08-15T05:38:08Z"
       }
     ]
   }

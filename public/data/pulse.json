@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-15T08:43:49.951Z",
+  "generatedAt": "2026-08-15T09:38:16.315Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -496,17 +496,17 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "capturedAt": "2026-08-15T08:43:49.951Z",
+      "capturedAt": "2026-08-15T09:38:16.315Z",
       "issueOpen": 3379,
-      "issueClosed": 43712,
-      "prOpen": 2160,
-      "prClosed": 72359,
-      "prMerged": 25062,
+      "issueClosed": 43715,
+      "prOpen": 2161,
+      "prClosed": 72381,
+      "prMerged": 25082,
       "workflowRuns": 40000,
-      "stars": 386346,
-      "forks": 81201,
+      "stars": 386353,
+      "forks": 81202,
       "subscribers": 1759,
-      "commits": 79506,
+      "commits": 79526,
       "contributors": 3099,
       "source": "github-actions",
       "approximateDate": false
@@ -643,10 +643,10 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "stars": 386346,
-      "forks": 81201,
+      "stars": 386353,
+      "forks": 81202,
       "subscribers": 1759,
-      "commits": 79506,
+      "commits": 79526,
       "contributors": 3099
     }
   ],
@@ -654,113 +654,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 119148,
-        "title": "[Bug]: Bedrock Opus 5 reasoning-off requests ignore configured maxTokens",
-        "url": "https://github.com/openclaw/openclaw/issues/119148",
+        "number": 124084,
+        "title": "[Bug]: Tool Search dispatcher rejects recoverable double-wrapped arguments ({args:{id,args}}); agent gives up and channel shows only \"Tool Call failed\"",
+        "url": "https://github.com/openclaw/openclaw/issues/124084",
         "state": "open",
-        "author": "gaoming-wu",
-        "updatedAt": "2026-08-15T08:43:40Z"
+        "author": "pallaoro",
+        "updatedAt": "2026-08-15T09:38:05Z"
       },
       {
         "kind": "issue",
-        "number": 118652,
-        "title": "CLI subprocess processes orphaned on gateway restart — in-memory supervisor registry lost without killing child processes",
-        "url": "https://github.com/openclaw/openclaw/issues/118652",
+        "number": 79950,
+        "title": "Bug: async sessions_send results are not delivered cleanly to Telegram-bound requester session",
+        "url": "https://github.com/openclaw/openclaw/issues/79950",
         "state": "open",
-        "author": "yozakura-ava",
-        "updatedAt": "2026-08-15T08:43:37Z"
+        "author": "1001tur",
+        "updatedAt": "2026-08-15T09:38:01Z"
       },
       {
         "kind": "issue",
-        "number": 118774,
-        "title": "A spawned sub-agent cannot honor its own configured thinking level",
-        "url": "https://github.com/openclaw/openclaw/issues/118774",
+        "number": 41165,
+        "title": "[Bug]: Telegram DMs can still land in agent:main:main, polluting heartbeat/main session after #40519",
+        "url": "https://github.com/openclaw/openclaw/issues/41165",
         "state": "open",
-        "author": "aleps001",
-        "updatedAt": "2026-08-15T08:43:36Z"
+        "author": "ZemonVunter",
+        "updatedAt": "2026-08-15T09:37:52Z"
       },
       {
         "kind": "issue",
-        "number": 118845,
-        "title": "Workboard: workboard_comment tool rejects bodies > 2000 chars with cryptic error",
-        "url": "https://github.com/openclaw/openclaw/issues/118845",
+        "number": 41495,
+        "title": "Gemini models output inline buttons as raw JSON text instead of using tool format",
+        "url": "https://github.com/openclaw/openclaw/issues/41495",
         "state": "open",
-        "author": "osipovia",
-        "updatedAt": "2026-08-15T08:43:33Z"
+        "author": "moeedahmed",
+        "updatedAt": "2026-08-15T09:37:46Z"
       },
       {
         "kind": "issue",
-        "number": 119035,
-        "title": "[Feature]: Add a wake-only cron payload kind",
-        "url": "https://github.com/openclaw/openclaw/issues/119035",
+        "number": 43935,
+        "title": "Gateway: account-scoped channel config changes restart the entire channel and can disrupt active traffic",
+        "url": "https://github.com/openclaw/openclaw/issues/43935",
         "state": "open",
-        "author": "omarshahine",
-        "updatedAt": "2026-08-15T08:43:31Z"
-      },
-      {
-        "kind": "issue",
-        "number": 118793,
-        "title": "Claude CLI \"session limit\" error dies with surface_error instead of triggering the model fallback chain",
-        "url": "https://github.com/openclaw/openclaw/issues/118793",
-        "state": "open",
-        "author": "germankovacevic-lab",
-        "updatedAt": "2026-08-15T08:43:29Z"
+        "author": "coppynight",
+        "updatedAt": "2026-08-15T09:37:32Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123814,
-        "title": "fix(gateway): prefer imported native blocks over cli-assistant aggregate",
-        "url": "https://github.com/openclaw/openclaw/pull/123814",
-        "state": "open",
-        "author": "licheer-zte",
-        "updatedAt": "2026-08-15T08:43:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 74252,
-        "title": "fix(logs): only report rotation when the log file actually shrank",
-        "url": "https://github.com/openclaw/openclaw/pull/74252",
-        "state": "open",
-        "author": "BSG2000",
-        "updatedAt": "2026-08-15T08:43:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118679,
-        "title": "fix(workboard): reconcile terminal subagent runs",
-        "url": "https://github.com/openclaw/openclaw/pull/118679",
-        "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-15T08:43:35Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118535,
-        "title": "fix(release): smoke test GPT-5.6 through ChatGPT OAuth",
-        "url": "https://github.com/openclaw/openclaw/pull/118535",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-15T08:43:34Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119040,
-        "title": "feat(cron): add wake-only payload",
-        "url": "https://github.com/openclaw/openclaw/pull/119040",
-        "state": "open",
-        "author": "omarshahine",
-        "updatedAt": "2026-08-15T08:43:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118830,
-        "title": "fix(media): preserve signed generation URLs across delivery retries",
-        "url": "https://github.com/openclaw/openclaw/pull/118830",
+        "number": 124134,
+        "title": "refactor(plugins): remove dead provider seams",
+        "url": "https://github.com/openclaw/openclaw/pull/124134",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-15T08:43:30Z"
+        "updatedAt": "2026-08-15T09:38:04Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123346,
+        "title": "fix(slack): keep queued messages recoverable during long turns",
+        "url": "https://github.com/openclaw/openclaw/pull/123346",
+        "state": "open",
+        "author": "scoootscooob",
+        "updatedAt": "2026-08-15T09:38:04Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124137,
+        "title": "fix(codex): candidate checks reject a mismatched app-server",
+        "url": "https://github.com/openclaw/openclaw/pull/124137",
+        "state": "open",
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-08-15T09:37:51Z"
+      },
+      {
+        "kind": "pr",
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-15T09:37:51Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123626,
+        "title": "refactor(ui): normalize sidebar typography",
+        "url": "https://github.com/openclaw/openclaw/pull/123626",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-15T09:37:47Z"
+      },
+      {
+        "kind": "pr",
+        "number": 106902,
+        "title": "docs(clawhub): explain what ClawHub is and why on the CLI page",
+        "url": "https://github.com/openclaw/openclaw/pull/106902",
+        "state": "open",
+        "author": "lonexreb",
+        "updatedAt": "2026-08-15T09:37:46Z"
       }
     ]
   }

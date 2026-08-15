@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-15T09:38:16.315Z",
+  "generatedAt": "2026-08-15T11:32:46.392Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -496,17 +496,17 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "capturedAt": "2026-08-15T09:38:16.315Z",
-      "issueOpen": 3379,
-      "issueClosed": 43715,
-      "prOpen": 2161,
-      "prClosed": 72381,
-      "prMerged": 25082,
+      "capturedAt": "2026-08-15T11:32:46.392Z",
+      "issueOpen": 3378,
+      "issueClosed": 43717,
+      "prOpen": 2159,
+      "prClosed": 72401,
+      "prMerged": 25101,
       "workflowRuns": 40000,
-      "stars": 386353,
-      "forks": 81202,
+      "stars": 386359,
+      "forks": 81206,
       "subscribers": 1759,
-      "commits": 79526,
+      "commits": 79545,
       "contributors": 3099,
       "source": "github-actions",
       "approximateDate": false
@@ -643,10 +643,10 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "stars": 386353,
-      "forks": 81202,
+      "stars": 386359,
+      "forks": 81206,
       "subscribers": 1759,
-      "commits": 79526,
+      "commits": 79545,
       "contributors": 3099
     }
   ],
@@ -654,104 +654,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 124084,
-        "title": "[Bug]: Tool Search dispatcher rejects recoverable double-wrapped arguments ({args:{id,args}}); agent gives up and channel shows only \"Tool Call failed\"",
-        "url": "https://github.com/openclaw/openclaw/issues/124084",
+        "number": 103519,
+        "title": "Heartbeat agents leak `HEARTBEAT_OK` to the source DM (routed agent) / error on `@heartbeat` (isolated agent) via the general `message` tool",
+        "url": "https://github.com/openclaw/openclaw/issues/103519",
         "state": "open",
-        "author": "pallaoro",
-        "updatedAt": "2026-08-15T09:38:05Z"
+        "author": "aksheyw",
+        "updatedAt": "2026-08-15T11:32:35Z"
       },
       {
         "kind": "issue",
-        "number": 79950,
-        "title": "Bug: async sessions_send results are not delivered cleanly to Telegram-bound requester session",
-        "url": "https://github.com/openclaw/openclaw/issues/79950",
+        "number": 105907,
+        "title": "Consolidate duplicate async retry, timeout, and abort primitives",
+        "url": "https://github.com/openclaw/openclaw/issues/105907",
         "state": "open",
-        "author": "1001tur",
-        "updatedAt": "2026-08-15T09:38:01Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-15T11:31:57Z"
       },
       {
         "kind": "issue",
-        "number": 41165,
-        "title": "[Bug]: Telegram DMs can still land in agent:main:main, polluting heartbeat/main session after #40519",
-        "url": "https://github.com/openclaw/openclaw/issues/41165",
+        "number": 123690,
+        "title": "[Feature]: Add automated Cargo updates for the shipped Linux app",
+        "url": "https://github.com/openclaw/openclaw/issues/123690",
         "state": "open",
-        "author": "ZemonVunter",
-        "updatedAt": "2026-08-15T09:37:52Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-08-15T11:31:23Z"
       },
       {
         "kind": "issue",
-        "number": 41495,
-        "title": "Gemini models output inline buttons as raw JSON text instead of using tool format",
-        "url": "https://github.com/openclaw/openclaw/issues/41495",
+        "number": 104868,
+        "title": "[Bug]: Gemma4 tool calls leaked as raw text at end of stream are never recovered",
+        "url": "https://github.com/openclaw/openclaw/issues/104868",
         "state": "open",
-        "author": "moeedahmed",
-        "updatedAt": "2026-08-15T09:37:46Z"
+        "author": "jlapenna",
+        "updatedAt": "2026-08-15T11:31:19Z"
       },
       {
         "kind": "issue",
-        "number": 43935,
-        "title": "Gateway: account-scoped channel config changes restart the entire channel and can disrupt active traffic",
-        "url": "https://github.com/openclaw/openclaw/issues/43935",
+        "number": 121921,
+        "title": "[Bug]: Feishu inbound mentions cascade into replies again after #93522",
+        "url": "https://github.com/openclaw/openclaw/issues/121921",
         "state": "open",
-        "author": "coppynight",
-        "updatedAt": "2026-08-15T09:37:32Z"
+        "author": "AxelHu",
+        "updatedAt": "2026-08-15T11:30:19Z"
+      },
+      {
+        "kind": "issue",
+        "number": 101793,
+        "title": "[Bug]: Assistant text preceding a tool call in the same turn is silently dropped on Signal channel (Anthropic/Sonnet, non-streaming)",
+        "url": "https://github.com/openclaw/openclaw/issues/101793",
+        "state": "open",
+        "author": "musubi1893",
+        "updatedAt": "2026-08-15T11:28:32Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 124134,
-        "title": "refactor(plugins): remove dead provider seams",
-        "url": "https://github.com/openclaw/openclaw/pull/124134",
+        "number": 122223,
+        "title": "fix: preserve accepted user turns when preflight or ACP fails",
+        "url": "https://github.com/openclaw/openclaw/pull/122223",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-15T09:38:04Z"
+        "author": "Alix-007",
+        "updatedAt": "2026-08-15T11:32:32Z"
       },
       {
         "kind": "pr",
-        "number": 123346,
-        "title": "fix(slack): keep queued messages recoverable during long turns",
-        "url": "https://github.com/openclaw/openclaw/pull/123346",
+        "number": 123905,
+        "title": "fix(agents): surface tombstoned main-session recovery blocks instead of failing silently",
+        "url": "https://github.com/openclaw/openclaw/pull/123905",
         "state": "open",
-        "author": "scoootscooob",
-        "updatedAt": "2026-08-15T09:38:04Z"
+        "author": "hartmark",
+        "updatedAt": "2026-08-15T11:32:26Z"
       },
       {
         "kind": "pr",
-        "number": 124137,
-        "title": "fix(codex): candidate checks reject a mismatched app-server",
-        "url": "https://github.com/openclaw/openclaw/pull/124137",
+        "number": 124138,
+        "title": "fix(agents): recover double-wrapped tool_call/tool_describe selectors",
+        "url": "https://github.com/openclaw/openclaw/pull/124138",
         "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-08-15T09:37:51Z"
+        "author": "a-yeyang",
+        "updatedAt": "2026-08-15T11:32:19Z"
       },
       {
         "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
-        "state": "closed",
+        "number": 80396,
+        "title": "fix(media): warn when MEDIA: token is skipped inside fenced code block (#41966)",
+        "url": "https://github.com/openclaw/openclaw/pull/80396",
+        "state": "open",
+        "author": "Bartok9",
+        "updatedAt": "2026-08-15T11:31:58Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123975,
+        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
+        "url": "https://github.com/openclaw/openclaw/pull/123975",
+        "state": "open",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-15T09:37:51Z"
+        "updatedAt": "2026-08-15T11:30:42Z"
       },
       {
         "kind": "pr",
-        "number": 123626,
-        "title": "refactor(ui): normalize sidebar typography",
-        "url": "https://github.com/openclaw/openclaw/pull/123626",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-15T09:37:47Z"
-      },
-      {
-        "kind": "pr",
-        "number": 106902,
-        "title": "docs(clawhub): explain what ClawHub is and why on the CLI page",
-        "url": "https://github.com/openclaw/openclaw/pull/106902",
-        "state": "open",
-        "author": "lonexreb",
-        "updatedAt": "2026-08-15T09:37:46Z"
+        "number": 124156,
+        "title": "fix(cua): initialize execution resources on first use",
+        "url": "https://github.com/openclaw/openclaw/pull/124156",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-15T11:30:12Z"
       }
     ]
   }

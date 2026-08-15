@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-15T12:57:21.510Z",
+  "generatedAt": "2026-08-15T13:42:53.833Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -496,17 +496,17 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "capturedAt": "2026-08-15T12:57:21.510Z",
-      "issueOpen": 3378,
-      "issueClosed": 43721,
-      "prOpen": 2163,
-      "prClosed": 72411,
-      "prMerged": 25108,
+      "capturedAt": "2026-08-15T13:42:53.833Z",
+      "issueOpen": 3381,
+      "issueClosed": 43722,
+      "prOpen": 2157,
+      "prClosed": 72421,
+      "prMerged": 25112,
       "workflowRuns": 40000,
       "stars": 386360,
-      "forks": 81203,
+      "forks": 81206,
       "subscribers": 1759,
-      "commits": 79552,
+      "commits": 79556,
       "contributors": 3099,
       "source": "github-actions",
       "approximateDate": false
@@ -644,9 +644,9 @@
     {
       "capturedOn": "2026-08-15",
       "stars": 386360,
-      "forks": 81203,
+      "forks": 81206,
       "subscribers": 1759,
-      "commits": 79552,
+      "commits": 79556,
       "contributors": 3099
     }
   ],
@@ -654,21 +654,21 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 120616,
-        "title": "[Bug]: Gemini dotted cron update fields cause repeated patch-required failures",
-        "url": "https://github.com/openclaw/openclaw/issues/120616",
+        "number": 120978,
+        "title": "Hook requests can execute after client disconnects during admission",
+        "url": "https://github.com/openclaw/openclaw/issues/120978",
         "state": "open",
-        "author": "louria",
-        "updatedAt": "2026-08-15T12:57:14Z"
+        "author": "litang9",
+        "updatedAt": "2026-08-15T13:42:40Z"
       },
       {
         "kind": "issue",
-        "number": 104522,
-        "title": "Visible loser feedback for reaction-channel approvals (WhatsApp, Signal)",
-        "url": "https://github.com/openclaw/openclaw/issues/104522",
+        "number": 119454,
+        "title": "Stuck-session recovery self-suppresses on a leaked idle embedded run: repeated action=observe_only reason=active_embedded_run wedges the lane until restart",
+        "url": "https://github.com/openclaw/openclaw/issues/119454",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-15T12:57:16Z"
+        "author": "joeykrug",
+        "updatedAt": "2026-08-15T13:41:50Z"
       },
       {
         "kind": "issue",
@@ -677,54 +677,81 @@
         "url": "https://github.com/openclaw/openclaw/issues/97680",
         "state": "open",
         "author": "chac4l",
-        "updatedAt": "2026-08-15T12:57:09Z"
+        "updatedAt": "2026-08-15T13:41:21Z"
       },
       {
         "kind": "issue",
-        "number": 96084,
-        "title": "[Bug]: /readyz stays healthy when PVC-backed workspace is full and writes fail with ENOSPC",
-        "url": "https://github.com/openclaw/openclaw/issues/96084",
+        "number": 121058,
+        "title": "Silent reply failures still recurring after #116277 closed — no queued reply payload",
+        "url": "https://github.com/openclaw/openclaw/issues/121058",
         "state": "open",
-        "author": "katerinkaivanova",
-        "updatedAt": "2026-08-15T12:57:08Z"
+        "author": "sloptop-the-terrible",
+        "updatedAt": "2026-08-15T13:41:19Z"
       },
       {
         "kind": "issue",
-        "number": 123133,
-        "title": "[Feature]: Support DeepSeek Native Responses API",
-        "url": "https://github.com/openclaw/openclaw/issues/123133",
+        "number": 87584,
+        "title": "Feature request: make group room-event steering configurable",
+        "url": "https://github.com/openclaw/openclaw/issues/87584",
         "state": "open",
-        "author": "Redestiny",
-        "updatedAt": "2026-08-15T12:57:06Z"
+        "author": "mrclawfield",
+        "updatedAt": "2026-08-15T13:40:59Z"
       },
       {
         "kind": "issue",
-        "number": 120408,
-        "title": "config patch hot-apply reports success but runtime reads stale config until gateway restart (new agents.entries.*, sandbox.docker.image)",
-        "url": "https://github.com/openclaw/openclaw/issues/120408",
+        "number": 120968,
+        "title": "[Bug]: memory-core mandatory recall can duplicate active-memory context on person queries",
+        "url": "https://github.com/openclaw/openclaw/issues/120968",
         "state": "open",
-        "author": "c-g14",
-        "updatedAt": "2026-08-15T12:57:17Z"
+        "author": "shannon0430",
+        "updatedAt": "2026-08-15T13:40:19Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 97198,
-        "title": "fix(feishu): recover bot identity after abort races",
-        "url": "https://github.com/openclaw/openclaw/pull/97198",
+        "number": 117712,
+        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/117712",
         "state": "open",
-        "author": "lin-hongkuan",
-        "updatedAt": "2026-08-15T12:57:15Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-15T13:42:39Z"
       },
       {
         "kind": "pr",
-        "number": 96311,
-        "title": "fix(feishu): replace longer mention keys first",
-        "url": "https://github.com/openclaw/openclaw/pull/96311",
+        "number": 124182,
+        "title": "test: remove obsolete provider runtime wrappers",
+        "url": "https://github.com/openclaw/openclaw/pull/124182",
         "state": "open",
-        "author": "sliverp",
-        "updatedAt": "2026-08-15T12:57:15Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-15T13:42:30Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124115,
+        "title": "fix(maintainers): preserve PR merge attribution",
+        "url": "https://github.com/openclaw/openclaw/pull/124115",
+        "state": "open",
+        "author": "altaywtf",
+        "updatedAt": "2026-08-15T13:42:24Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122631,
+        "title": "fix(agents): detect sustained same-target write churn",
+        "url": "https://github.com/openclaw/openclaw/pull/122631",
+        "state": "open",
+        "author": "SweetSophia",
+        "updatedAt": "2026-08-15T13:42:22Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123975,
+        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
+        "url": "https://github.com/openclaw/openclaw/pull/123975",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-15T13:41:37Z"
       },
       {
         "kind": "pr",
@@ -733,34 +760,7 @@
         "url": "https://github.com/openclaw/openclaw/pull/80396",
         "state": "open",
         "author": "Bartok9",
-        "updatedAt": "2026-08-15T12:57:15Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120332,
-        "title": "fix(config): config validate rejects a replacement plugin's own channel config keys",
-        "url": "https://github.com/openclaw/openclaw/pull/120332",
-        "state": "open",
-        "author": "marmar9615-cloud",
-        "updatedAt": "2026-08-15T12:57:10Z"
-      },
-      {
-        "kind": "pr",
-        "number": 107012,
-        "title": "docs(reference): add Apple SpeechAnalyzer API knowledge-base page",
-        "url": "https://github.com/openclaw/openclaw/pull/107012",
-        "state": "open",
-        "author": "imaffe",
-        "updatedAt": "2026-08-15T12:57:04Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124174,
-        "title": "fix: session mutations rejected by an identity change end with no visible outcome",
-        "url": "https://github.com/openclaw/openclaw/pull/124174",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-15T12:57:03Z"
+        "updatedAt": "2026-08-15T13:41:15Z"
       }
     ]
   }

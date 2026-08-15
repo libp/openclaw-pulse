@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-15T15:33:34.284Z",
+  "generatedAt": "2026-08-15T16:39:15.655Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -496,17 +496,17 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "capturedAt": "2026-08-15T15:33:34.284Z",
-      "issueOpen": 3379,
-      "issueClosed": 43726,
-      "prOpen": 2153,
-      "prClosed": 72437,
-      "prMerged": 25120,
+      "capturedAt": "2026-08-15T16:39:15.655Z",
+      "issueOpen": 3375,
+      "issueClosed": 43730,
+      "prOpen": 2138,
+      "prClosed": 72464,
+      "prMerged": 25127,
       "workflowRuns": 40000,
-      "stars": 386364,
-      "forks": 81208,
+      "stars": 386371,
+      "forks": 81206,
       "subscribers": 1760,
-      "commits": 79564,
+      "commits": 79571,
       "contributors": 3099,
       "source": "github-actions",
       "approximateDate": false
@@ -643,10 +643,10 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "stars": 386364,
-      "forks": 81208,
+      "stars": 386371,
+      "forks": 81206,
       "subscribers": 1760,
-      "commits": 79564,
+      "commits": 79571,
       "contributors": 3099
     }
   ],
@@ -654,113 +654,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 123260,
-        "title": "TUI: support ==highlight== markdown syntax with theme color",
-        "url": "https://github.com/openclaw/openclaw/issues/123260",
+        "number": 7490,
+        "title": "Feature Request: Add 'description' field to agent config for dynamic agent discovery",
+        "url": "https://github.com/openclaw/openclaw/issues/7490",
         "state": "open",
-        "author": "von8794",
-        "updatedAt": "2026-08-15T15:33:04Z"
-      },
-      {
-        "kind": "issue",
-        "number": 9797,
-        "title": "[Feature]:  `queue_status` tool for intelligent task dispatch",
-        "url": "https://github.com/openclaw/openclaw/issues/9797",
-        "state": "open",
-        "author": "pahud",
-        "updatedAt": "2026-08-15T15:32:43Z"
-      },
-      {
-        "kind": "issue",
-        "number": 80765,
-        "title": "Codex context-engine projection lacks exact pre-turn token accounting",
-        "url": "https://github.com/openclaw/openclaw/issues/80765",
-        "state": "open",
-        "author": "100yenadmin",
-        "updatedAt": "2026-08-15T15:32:38Z"
-      },
-      {
-        "kind": "issue",
-        "number": 80178,
-        "title": "resolveCliAuthEpoch invalidates every live CLI session when local credential source-of-storage flips, even though identity is unchanged",
-        "url": "https://github.com/openclaw/openclaw/issues/80178",
-        "state": "open",
-        "author": "alfredjbclaw",
-        "updatedAt": "2026-08-15T15:32:31Z"
-      },
-      {
-        "kind": "issue",
-        "number": 79507,
-        "title": "Dreaming short-term promotion promotes cron delivery reports as high-value memories",
-        "url": "https://github.com/openclaw/openclaw/issues/79507",
-        "state": "open",
-        "author": "arlen8411",
-        "updatedAt": "2026-08-15T15:32:28Z"
-      },
-      {
-        "kind": "issue",
-        "number": 98870,
-        "title": "[Bug]: Teams thread context omits newer replies when a channel thread has more than 50 replies",
-        "url": "https://github.com/openclaw/openclaw/issues/98870",
-        "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-08-15T15:32:27Z"
+        "author": "shannon0430",
+        "updatedAt": "2026-08-15T16:38:58Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 121442,
-        "title": "fix(ai): preserve explicit null Responses reasoning summaries",
-        "url": "https://github.com/openclaw/openclaw/pull/121442",
-        "state": "open",
-        "author": "zyw02",
-        "updatedAt": "2026-08-15T15:33:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 96265,
-        "title": "feat: add interactive launcher menu as thin wrapper over existing CLI",
-        "url": "https://github.com/openclaw/openclaw/pull/96265",
-        "state": "open",
-        "author": "sangjiexun",
-        "updatedAt": "2026-08-15T15:33:21Z"
-      },
-      {
-        "kind": "pr",
-        "number": 82950,
-        "title": "fix(security): prevent unsafe approval patterns from hanging command authorization",
-        "url": "https://github.com/openclaw/openclaw/pull/82950",
-        "state": "open",
-        "author": "SebTardif",
-        "updatedAt": "2026-08-15T15:32:52Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124196,
-        "title": "test(diffs): remove private icon source mirrors",
-        "url": "https://github.com/openclaw/openclaw/pull/124196",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-15T15:32:35Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123975,
-        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
-        "url": "https://github.com/openclaw/openclaw/pull/123975",
-        "state": "open",
+        "number": 120900,
+        "title": "feat(ui): review install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/120900",
+        "state": "closed",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-15T15:32:06Z"
+        "updatedAt": "2026-08-15T16:39:08Z"
       },
       {
         "kind": "pr",
-        "number": 96113,
-        "title": "feat(sessions): add read-only diagnose command",
-        "url": "https://github.com/openclaw/openclaw/pull/96113",
+        "number": 124054,
+        "title": "fix: queued chat follow-ups stay stuck after missed terminal events",
+        "url": "https://github.com/openclaw/openclaw/pull/124054",
         "state": "open",
-        "author": "zaidazmi",
-        "updatedAt": "2026-08-15T15:32:02Z"
+        "author": "yanmo42",
+        "updatedAt": "2026-08-15T16:39:05Z"
+      },
+      {
+        "kind": "pr",
+        "number": 98248,
+        "title": "fix: Codex catalog honors app-server context caps",
+        "url": "https://github.com/openclaw/openclaw/pull/98248",
+        "state": "open",
+        "author": "hannesrudolph",
+        "updatedAt": "2026-08-15T16:39:12Z"
+      },
+      {
+        "kind": "pr",
+        "number": 97646,
+        "title": "fix(session): defer flushPendingToolResults by one event-loop tick",
+        "url": "https://github.com/openclaw/openclaw/pull/97646",
+        "state": "open",
+        "author": "xydt-tanshanshan",
+        "updatedAt": "2026-08-15T16:38:42Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124208,
+        "title": "fix(compaction): ignore raw tool identifiers in guard",
+        "url": "https://github.com/openclaw/openclaw/pull/124208",
+        "state": "open",
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-08-15T16:38:37Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124207,
+        "title": "fix(ui): show active model context budget",
+        "url": "https://github.com/openclaw/openclaw/pull/124207",
+        "state": "open",
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-08-15T16:38:37Z"
       }
     ]
   }

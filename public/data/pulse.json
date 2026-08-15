@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-15T01:48:17.179Z",
+  "generatedAt": "2026-08-15T03:52:25.856Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -496,17 +496,17 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "capturedAt": "2026-08-15T01:48:17.179Z",
-      "issueOpen": 3396,
-      "issueClosed": 43653,
-      "prOpen": 2153,
-      "prClosed": 72219,
-      "prMerged": 24944,
+      "capturedAt": "2026-08-15T03:52:25.856Z",
+      "issueOpen": 3389,
+      "issueClosed": 43677,
+      "prOpen": 2169,
+      "prClosed": 72256,
+      "prMerged": 24977,
       "workflowRuns": 40000,
-      "stars": 386315,
-      "forks": 81198,
+      "stars": 386322,
+      "forks": 81196,
       "subscribers": 1760,
-      "commits": 79378,
+      "commits": 79416,
       "contributors": 3097,
       "source": "github-actions",
       "approximateDate": false
@@ -643,10 +643,10 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "stars": 386315,
-      "forks": 81198,
+      "stars": 386322,
+      "forks": 81196,
       "subscribers": 1760,
-      "commits": 79378,
+      "commits": 79416,
       "contributors": 3097
     }
   ],
@@ -654,95 +654,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 78805,
-        "title": "[Bug]: Severe Event Loop Blocking / Freezing due to Synchronous I/O (execSync, readFileSync)",
-        "url": "https://github.com/openclaw/openclaw/issues/78805",
-        "state": "open",
-        "author": "darklilyhand",
-        "updatedAt": "2026-08-15T01:47:53Z"
-      },
-      {
-        "kind": "issue",
-        "number": 121934,
-        "title": "[Bug]: Desktop updater results disappear after dashboard navigation",
-        "url": "https://github.com/openclaw/openclaw/issues/121934",
+        "number": 123989,
+        "title": "[Bug]: Timeout compaction retry replays the original persisted prompt",
+        "url": "https://github.com/openclaw/openclaw/issues/123989",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-15T01:47:29Z"
+        "updatedAt": "2026-08-15T03:51:56Z"
       },
       {
         "kind": "issue",
-        "number": 64103,
-        "title": "Session `status` field values (\"failed\", \"timeout\", \"done\") mislead agents into spawning duplicate sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/64103",
+        "number": 122233,
+        "title": "Embedded run lane timeout can never fire: a blind 15s heartbeat resets its progress clock",
+        "url": "https://github.com/openclaw/openclaw/issues/122233",
         "state": "open",
-        "author": "lykeion-dev",
-        "updatedAt": "2026-08-15T01:46:54Z"
+        "author": "ernestrolfson-design",
+        "updatedAt": "2026-08-15T03:51:48Z"
       },
       {
         "kind": "issue",
-        "number": 78865,
-        "title": "Tool call circuit breaker needed — LLMs will blindly retry forever without one",
-        "url": "https://github.com/openclaw/openclaw/issues/78865",
+        "number": 121944,
+        "title": "[Bug]: Bug Report: Feishu channel - MEDIA directive and tool output rendering break after gateway restart",
+        "url": "https://github.com/openclaw/openclaw/issues/121944",
         "state": "open",
-        "author": "xhynice",
-        "updatedAt": "2026-08-15T01:46:39Z"
+        "author": "vsitk",
+        "updatedAt": "2026-08-15T03:51:25Z"
+      },
+      {
+        "kind": "issue",
+        "number": 108273,
+        "title": "[Bug]: regression with node:sqllite version testing",
+        "url": "https://github.com/openclaw/openclaw/issues/108273",
+        "state": "open",
+        "author": "xrow",
+        "updatedAt": "2026-08-15T03:50:55Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123874,
-        "title": "improve(ui): unify chat side rails in a tabbed panel",
-        "url": "https://github.com/openclaw/openclaw/pull/123874",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-15T01:48:07Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123920,
-        "title": "fix(gateway): keep supervised restarts from migrating live state",
-        "url": "https://github.com/openclaw/openclaw/pull/123920",
+        "number": 123969,
+        "title": "fix(macos): keep replacement node worker active after stale exit",
+        "url": "https://github.com/openclaw/openclaw/pull/123969",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-15T01:48:05Z"
+        "updatedAt": "2026-08-15T03:52:20Z"
       },
       {
         "kind": "pr",
-        "number": 120302,
-        "title": "fix(ui): recover Model Providers usage cards after a failed usage.status",
-        "url": "https://github.com/openclaw/openclaw/pull/120302",
+        "number": 123737,
+        "title": "fix(compaction): reject summaries foregrounding superseded tasks",
+        "url": "https://github.com/openclaw/openclaw/pull/123737",
         "state": "open",
-        "author": "ayaangazali",
-        "updatedAt": "2026-08-15T01:48:03Z"
+        "author": "wangyan2026",
+        "updatedAt": "2026-08-15T03:52:18Z"
       },
       {
         "kind": "pr",
-        "number": 123908,
-        "title": "fix(ui): dismiss landed steer notices",
-        "url": "https://github.com/openclaw/openclaw/pull/123908",
+        "number": 117712,
+        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/117712",
         "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-08-15T01:47:45Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-15T03:52:06Z"
       },
       {
         "kind": "pr",
-        "number": 122425,
-        "title": "fix: allow slash skills inside normal messages",
-        "url": "https://github.com/openclaw/openclaw/pull/122425",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-15T01:47:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
+        "number": 123976,
+        "title": "fix(gateway): frozen worker processes never resume when the host ps stalls",
+        "url": "https://github.com/openclaw/openclaw/pull/123976",
         "state": "open",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-15T01:47:36Z"
+        "updatedAt": "2026-08-15T03:52:04Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117128,
+        "title": "fix(secrets): preflight exec provider command paths before config acceptance",
+        "url": "https://github.com/openclaw/openclaw/pull/117128",
+        "state": "open",
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-08-15T03:52:21Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123991,
+        "title": "test(computer-use): live end-to-end gate for both macOS providers",
+        "url": "https://github.com/openclaw/openclaw/pull/123991",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-15T03:51:41Z"
       }
     ]
   }

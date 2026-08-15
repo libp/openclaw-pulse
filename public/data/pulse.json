@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-15T13:42:53.833Z",
+  "generatedAt": "2026-08-15T14:36:58.574Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -496,17 +496,17 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "capturedAt": "2026-08-15T13:42:53.833Z",
-      "issueOpen": 3381,
-      "issueClosed": 43722,
-      "prOpen": 2157,
-      "prClosed": 72421,
-      "prMerged": 25112,
+      "capturedAt": "2026-08-15T14:36:58.574Z",
+      "issueOpen": 3380,
+      "issueClosed": 43724,
+      "prOpen": 2154,
+      "prClosed": 72428,
+      "prMerged": 25116,
       "workflowRuns": 40000,
-      "stars": 386360,
+      "stars": 386363,
       "forks": 81206,
-      "subscribers": 1759,
-      "commits": 79556,
+      "subscribers": 1760,
+      "commits": 79560,
       "contributors": 3099,
       "source": "github-actions",
       "approximateDate": false
@@ -643,10 +643,10 @@
     },
     {
       "capturedOn": "2026-08-15",
-      "stars": 386360,
+      "stars": 386363,
       "forks": 81206,
-      "subscribers": 1759,
-      "commits": 79556,
+      "subscribers": 1760,
+      "commits": 79560,
       "contributors": 3099
     }
   ],
@@ -654,96 +654,60 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 120978,
-        "title": "Hook requests can execute after client disconnects during admission",
-        "url": "https://github.com/openclaw/openclaw/issues/120978",
+        "number": 119682,
+        "title": "[Bug]: Codex native hook relay is turn-scoped — cross-turn wait_agent and long-running worker pods fail with \"native hook relay not found\"",
+        "url": "https://github.com/openclaw/openclaw/issues/119682",
         "state": "open",
-        "author": "litang9",
-        "updatedAt": "2026-08-15T13:42:40Z"
+        "author": "smj-kairos",
+        "updatedAt": "2026-08-15T14:36:32Z"
       },
       {
         "kind": "issue",
-        "number": 119454,
-        "title": "Stuck-session recovery self-suppresses on a leaked idle embedded run: repeated action=observe_only reason=active_embedded_run wedges the lane until restart",
-        "url": "https://github.com/openclaw/openclaw/issues/119454",
+        "number": 124187,
+        "title": "[Bug / Feature] @openclaw/feishu card streaming feels slow & choppy vs @larksuite/openclaw-lark's in-card token streaming — no true token-delta path on Feishu",
+        "url": "https://github.com/openclaw/openclaw/issues/124187",
         "state": "open",
-        "author": "joeykrug",
-        "updatedAt": "2026-08-15T13:41:50Z"
+        "author": "Leorand-dev",
+        "updatedAt": "2026-08-15T14:35:54Z"
       },
       {
         "kind": "issue",
-        "number": 97680,
-        "title": "Beta-tagged update can leave official external plugins on latest instead of the requested beta tag",
-        "url": "https://github.com/openclaw/openclaw/issues/97680",
+        "number": 122583,
+        "title": "[Bug]: Reasoning-only responses via OpenRouter discarded with 'No text output returned' (kimi-k2.6, minimax-m2.5)",
+        "url": "https://github.com/openclaw/openclaw/issues/122583",
         "state": "open",
-        "author": "chac4l",
-        "updatedAt": "2026-08-15T13:41:21Z"
+        "author": "constant1n0",
+        "updatedAt": "2026-08-15T14:34:43Z"
       },
       {
         "kind": "issue",
-        "number": 121058,
-        "title": "Silent reply failures still recurring after #116277 closed — no queued reply payload",
-        "url": "https://github.com/openclaw/openclaw/issues/121058",
+        "number": 123009,
+        "title": "[Bug]: Recheck native Codex subscription blocks every five minutes",
+        "url": "https://github.com/openclaw/openclaw/issues/123009",
         "state": "open",
-        "author": "sloptop-the-terrible",
-        "updatedAt": "2026-08-15T13:41:19Z"
+        "author": "Grynn",
+        "updatedAt": "2026-08-15T14:34:37Z"
       },
       {
         "kind": "issue",
-        "number": 87584,
-        "title": "Feature request: make group room-event steering configurable",
-        "url": "https://github.com/openclaw/openclaw/issues/87584",
+        "number": 122448,
+        "title": "classifySessionAttention: fallback branch flags CLI backend runs as stuck without checking lastProgressAge",
+        "url": "https://github.com/openclaw/openclaw/issues/122448",
         "state": "open",
-        "author": "mrclawfield",
-        "updatedAt": "2026-08-15T13:40:59Z"
+        "author": "nissl24",
+        "updatedAt": "2026-08-15T14:34:26Z"
       },
       {
         "kind": "issue",
-        "number": 120968,
-        "title": "[Bug]: memory-core mandatory recall can duplicate active-memory context on person queries",
-        "url": "https://github.com/openclaw/openclaw/issues/120968",
+        "number": 122851,
+        "title": "[Feature]: Show auth method (API key vs OAuth) in the webchat/Control UI model selector",
+        "url": "https://github.com/openclaw/openclaw/issues/122851",
         "state": "open",
-        "author": "shannon0430",
-        "updatedAt": "2026-08-15T13:40:19Z"
+        "author": "rafaeltrc",
+        "updatedAt": "2026-08-15T14:36:53Z"
       }
     ],
     "prs": [
-      {
-        "kind": "pr",
-        "number": 117712,
-        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/117712",
-        "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-15T13:42:39Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124182,
-        "title": "test: remove obsolete provider runtime wrappers",
-        "url": "https://github.com/openclaw/openclaw/pull/124182",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-15T13:42:30Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124115,
-        "title": "fix(maintainers): preserve PR merge attribution",
-        "url": "https://github.com/openclaw/openclaw/pull/124115",
-        "state": "open",
-        "author": "altaywtf",
-        "updatedAt": "2026-08-15T13:42:24Z"
-      },
-      {
-        "kind": "pr",
-        "number": 122631,
-        "title": "fix(agents): detect sustained same-target write churn",
-        "url": "https://github.com/openclaw/openclaw/pull/122631",
-        "state": "open",
-        "author": "SweetSophia",
-        "updatedAt": "2026-08-15T13:42:22Z"
-      },
       {
         "kind": "pr",
         "number": 123975,
@@ -751,16 +715,52 @@
         "url": "https://github.com/openclaw/openclaw/pull/123975",
         "state": "open",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-15T13:41:37Z"
+        "updatedAt": "2026-08-15T14:36:44Z"
       },
       {
         "kind": "pr",
-        "number": 80396,
-        "title": "fix(media): warn when MEDIA: token is skipped inside fenced code block (#41966)",
-        "url": "https://github.com/openclaw/openclaw/pull/80396",
+        "number": 115278,
+        "title": "fix(mentions): match typed group mentions when the agent identity name is decorated",
+        "url": "https://github.com/openclaw/openclaw/pull/115278",
         "state": "open",
-        "author": "Bartok9",
-        "updatedAt": "2026-08-15T13:41:15Z"
+        "author": "edenfunf",
+        "updatedAt": "2026-08-15T14:36:42Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117977,
+        "title": "🐛 fix(skills): authorize configured canonical workshop roots",
+        "url": "https://github.com/openclaw/openclaw/pull/117977",
+        "state": "open",
+        "author": "pauljohnchamberlain",
+        "updatedAt": "2026-08-15T14:36:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109493,
+        "title": "fix(gateway): worker workspaces recover after stalled process probes",
+        "url": "https://github.com/openclaw/openclaw/pull/109493",
+        "state": "open",
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-08-15T14:36:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 82950,
+        "title": "fix(security): prevent unsafe approval patterns from hanging command authorization",
+        "url": "https://github.com/openclaw/openclaw/pull/82950",
+        "state": "open",
+        "author": "SebTardif",
+        "updatedAt": "2026-08-15T14:36:20Z"
+      },
+      {
+        "kind": "pr",
+        "number": 110657,
+        "title": "fix(install): bound curl connection setup with --connect-timeout 20",
+        "url": "https://github.com/openclaw/openclaw/pull/110657",
+        "state": "open",
+        "author": "xydigit-zt",
+        "updatedAt": "2026-08-15T14:35:30Z"
       }
     ]
   }

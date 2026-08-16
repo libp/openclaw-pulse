@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-16T09:40:01.910Z",
+  "generatedAt": "2026-08-16T10:37:36.204Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -513,17 +513,17 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "capturedAt": "2026-08-16T09:40:01.910Z",
-      "issueOpen": 3385,
+      "capturedAt": "2026-08-16T10:37:36.204Z",
+      "issueOpen": 3388,
       "issueClosed": 43800,
-      "prOpen": 2153,
-      "prClosed": 72682,
-      "prMerged": 25276,
+      "prOpen": 2152,
+      "prClosed": 72686,
+      "prMerged": 25280,
       "workflowRuns": 40000,
-      "stars": 386429,
-      "forks": 81208,
-      "subscribers": 1758,
-      "commits": 79723,
+      "stars": 386431,
+      "forks": 81206,
+      "subscribers": 1757,
+      "commits": 79727,
       "contributors": 3103,
       "source": "github-actions",
       "approximateDate": false
@@ -668,10 +668,10 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "stars": 386429,
-      "forks": 81208,
-      "subscribers": 1758,
-      "commits": 79723,
+      "stars": 386431,
+      "forks": 81206,
+      "subscribers": 1757,
+      "commits": 79727,
       "contributors": 3103
     }
   ],
@@ -679,95 +679,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 121013,
-        "title": "No stable release lets Opus 5 use its 1M context window: fix landed on main 2026-07-25, still unreleased; beta has its own reply-breaking regression",
-        "url": "https://github.com/openclaw/openclaw/issues/121013",
+        "number": 117708,
+        "title": "[Bug]: WhatsApp drops inbound media after a transient download failure",
+        "url": "https://github.com/openclaw/openclaw/issues/117708",
         "state": "open",
-        "author": "marsrobertson",
-        "updatedAt": "2026-08-16T09:38:44Z"
+        "author": "andersonjeccel",
+        "updatedAt": "2026-08-16T10:37:21Z"
       },
       {
         "kind": "issue",
-        "number": 7476,
-        "title": "Feature Request: WhatsApp sticker send support",
-        "url": "https://github.com/openclaw/openclaw/issues/7476",
+        "number": 116268,
+        "title": "[Feature]: Add jitter to Worker reconnect backoff to prevent thundering herd on gateway restart",
+        "url": "https://github.com/openclaw/openclaw/issues/116268",
         "state": "open",
-        "author": "giannisanni",
-        "updatedAt": "2026-08-16T09:38:13Z"
+        "author": "zw-xysk",
+        "updatedAt": "2026-08-16T10:37:04Z"
       },
       {
         "kind": "issue",
-        "number": 67552,
-        "title": "[Feature]: RFC: Tool Response Freshness Metadata",
-        "url": "https://github.com/openclaw/openclaw/issues/67552",
+        "number": 124424,
+        "title": "Control UI New session fails with unknown parent session on clean and normal gateways",
+        "url": "https://github.com/openclaw/openclaw/issues/124424",
         "state": "open",
-        "author": "CaptianZoro",
-        "updatedAt": "2026-08-16T09:37:56Z"
+        "author": "Matt2Build",
+        "updatedAt": "2026-08-16T10:36:18Z"
       },
       {
         "kind": "issue",
-        "number": 90674,
-        "title": "Gateway writes usage.cost: 0 for model strings absent from its internal price table (silent cost under-reporting)",
-        "url": "https://github.com/openclaw/openclaw/issues/90674",
+        "number": 51572,
+        "title": "Feature: fire session-memory hook on session reset/prune, not just compaction",
+        "url": "https://github.com/openclaw/openclaw/issues/51572",
         "state": "open",
-        "author": "motteman",
-        "updatedAt": "2026-08-16T09:37:46Z"
+        "author": "martins-oss",
+        "updatedAt": "2026-08-16T10:36:15Z"
+      },
+      {
+        "kind": "issue",
+        "number": 77598,
+        "title": "Track live dev agent behavior and trajectory",
+        "url": "https://github.com/openclaw/openclaw/issues/77598",
+        "state": "open",
+        "author": "pashpashpash",
+        "updatedAt": "2026-08-16T10:36:14Z"
+      },
+      {
+        "kind": "issue",
+        "number": 79182,
+        "title": "feat: openclaw message send --message-file <path>",
+        "url": "https://github.com/openclaw/openclaw/issues/79182",
+        "state": "open",
+        "author": "BigBot-ironlogic",
+        "updatedAt": "2026-08-16T10:36:13Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 112811,
-        "title": "feat(msteams): support multiple bot accounts",
-        "url": "https://github.com/openclaw/openclaw/pull/112811",
+        "number": 123975,
+        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
+        "url": "https://github.com/openclaw/openclaw/pull/123975",
         "state": "open",
-        "author": "jimmypuckett",
-        "updatedAt": "2026-08-16T09:39:32Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-16T10:37:02Z"
       },
       {
         "kind": "pr",
-        "number": 124415,
-        "title": "fix(plugins): propagate requested beta tag to plugin updates",
-        "url": "https://github.com/openclaw/openclaw/pull/124415",
-        "state": "open",
-        "author": "synthalorian",
-        "updatedAt": "2026-08-16T09:39:27Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123220,
-        "title": "fix(ui): stop retry loop when the chat file editor chunk fails to load",
-        "url": "https://github.com/openclaw/openclaw/pull/123220",
-        "state": "open",
-        "author": "wanyongstar",
-        "updatedAt": "2026-08-16T09:39:27Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
         "state": "closed",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-16T09:39:22Z"
+        "updatedAt": "2026-08-16T10:36:57Z"
       },
       {
         "kind": "pr",
-        "number": 123674,
-        "title": "fix(cli): prevent node/device RPCs from corrupting shared state",
-        "url": "https://github.com/openclaw/openclaw/pull/123674",
+        "number": 124477,
+        "title": "fix(shared): validate port range for numeric proxy strings in tailscale status",
+        "url": "https://github.com/openclaw/openclaw/pull/124477",
         "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-08-16T09:39:20Z"
+        "author": "coaiMax",
+        "updatedAt": "2026-08-16T10:36:11Z"
       },
       {
         "kind": "pr",
-        "number": 120138,
-        "title": "docs(secrets): keep SecretRef reference docs in sync",
-        "url": "https://github.com/openclaw/openclaw/pull/120138",
+        "number": 124528,
+        "title": "fix(gateway): prevent sustained-turn readiness stalls",
+        "url": "https://github.com/openclaw/openclaw/pull/124528",
         "state": "open",
-        "author": "goutamadwant",
-        "updatedAt": "2026-08-16T09:39:12Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-16T10:35:53Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124458,
+        "title": "fix(whatsapp): sendReadReceipts=false silently stops group inbound delivery on linked devices",
+        "url": "https://github.com/openclaw/openclaw/pull/124458",
+        "state": "open",
+        "author": "vatsalgargg",
+        "updatedAt": "2026-08-16T10:35:48Z"
+      },
+      {
+        "kind": "pr",
+        "number": 97175,
+        "title": "fix(context-engine): keep background maintenance from blocking new messages",
+        "url": "https://github.com/openclaw/openclaw/pull/97175",
+        "state": "open",
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-08-16T10:35:04Z"
       }
     ]
   }

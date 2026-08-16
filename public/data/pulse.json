@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-16T20:36:14.353Z",
+  "generatedAt": "2026-08-16T21:33:06.340Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -513,17 +513,17 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "capturedAt": "2026-08-16T20:36:14.353Z",
-      "issueOpen": 3391,
-      "issueClosed": 43846,
-      "prOpen": 2204,
-      "prClosed": 72876,
-      "prMerged": 25443,
+      "capturedAt": "2026-08-16T21:33:06.340Z",
+      "issueOpen": 3390,
+      "issueClosed": 43851,
+      "prOpen": 2196,
+      "prClosed": 72909,
+      "prMerged": 25470,
       "workflowRuns": 40000,
-      "stars": 386460,
-      "forks": 81208,
+      "stars": 386461,
+      "forks": 81207,
       "subscribers": 1758,
-      "commits": 79898,
+      "commits": 79925,
       "contributors": 3103,
       "source": "github-actions",
       "approximateDate": false
@@ -668,10 +668,10 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "stars": 386460,
-      "forks": 81208,
+      "stars": 386461,
+      "forks": 81207,
       "subscribers": 1758,
-      "commits": 79898,
+      "commits": 79925,
       "contributors": 3103
     }
   ],
@@ -679,23 +679,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 45415,
-        "title": "Feature request: MEMORY.md size warning/limit enforcement",
-        "url": "https://github.com/openclaw/openclaw/issues/45415",
+        "number": 29707,
+        "title": "[Feature Request]: Native Prompt Caching Support for Amazon Nova (Bedrock)",
+        "url": "https://github.com/openclaw/openclaw/issues/29707",
         "state": "open",
-        "author": "sabo961",
-        "updatedAt": "2026-08-16T20:36:00Z"
+        "author": "tribecar-shurn",
+        "updatedAt": "2026-08-16T21:32:56Z"
+      },
+      {
+        "kind": "issue",
+        "number": 63107,
+        "title": "cron: systemEvent on main session silently ignores shell commands in payload text",
+        "url": "https://github.com/openclaw/openclaw/issues/63107",
+        "state": "open",
+        "author": "liaoandi",
+        "updatedAt": "2026-08-16T21:32:49Z"
+      },
+      {
+        "kind": "issue",
+        "number": 59130,
+        "title": "memory-lancedb: stale recall can answer 'latest' queries without recency/provenance",
+        "url": "https://github.com/openclaw/openclaw/issues/59130",
+        "state": "open",
+        "author": "slip17mc",
+        "updatedAt": "2026-08-16T21:32:57Z"
+      },
+      {
+        "kind": "issue",
+        "number": 81595,
+        "title": "observability: emit per-MCP-server sub-spans inside bundle-tools so cold-start cost is attributable",
+        "url": "https://github.com/openclaw/openclaw/issues/81595",
+        "state": "open",
+        "author": "mlopez14",
+        "updatedAt": "2026-08-16T21:32:33Z"
+      },
+      {
+        "kind": "issue",
+        "number": 53531,
+        "title": "Compaction should use auth-profile rotation / failover within the same provider",
+        "url": "https://github.com/openclaw/openclaw/issues/53531",
+        "state": "open",
+        "author": "fertilejim",
+        "updatedAt": "2026-08-16T21:32:25Z"
+      },
+      {
+        "kind": "issue",
+        "number": 62328,
+        "title": "node:sqlite missing FTS5 module — memory search keyword fallback broken",
+        "url": "https://github.com/openclaw/openclaw/issues/62328",
+        "state": "open",
+        "author": "TimeAground",
+        "updatedAt": "2026-08-16T21:32:17Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 124772,
-        "title": "fix(ui): stop stale clients from acting connected",
-        "url": "https://github.com/openclaw/openclaw/pull/124772",
+        "number": 124849,
+        "title": "fix(cli): emit one JSON failure contract for --json invocations",
+        "url": "https://github.com/openclaw/openclaw/pull/124849",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-16T20:36:05Z"
+        "updatedAt": "2026-08-16T21:33:01Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124298,
+        "title": "fix(ui): edit queued messages in place",
+        "url": "https://github.com/openclaw/openclaw/pull/124298",
+        "state": "open",
+        "author": "jjjhenriksen",
+        "updatedAt": "2026-08-16T21:32:55Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124848,
+        "title": "feat: add plain-language verbose progress mode",
+        "url": "https://github.com/openclaw/openclaw/pull/124848",
+        "state": "open",
+        "author": "leviathanresearchllc-jpg",
+        "updatedAt": "2026-08-16T21:32:46Z"
       },
       {
         "kind": "pr",
@@ -704,43 +767,25 @@
         "url": "https://github.com/openclaw/openclaw/pull/117712",
         "state": "open",
         "author": "dependabot[bot]",
-        "updatedAt": "2026-08-16T20:36:02Z"
+        "updatedAt": "2026-08-16T21:32:43Z"
       },
       {
         "kind": "pr",
-        "number": 124793,
-        "title": "refactor(agents): persist directive facts at the assistant write boundary",
-        "url": "https://github.com/openclaw/openclaw/pull/124793",
+        "number": 124835,
+        "title": "refactor(plugin-sdk): extract stream and SecretRef primitives",
+        "url": "https://github.com/openclaw/openclaw/pull/124835",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-16T21:32:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124659,
+        "title": "fix(update): prevent duplicate managed gateway successors",
+        "url": "https://github.com/openclaw/openclaw/pull/124659",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-16T20:36:00Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124429,
-        "title": "fix(ui): reflect inherited agent skill allowlists",
-        "url": "https://github.com/openclaw/openclaw/pull/124429",
-        "state": "open",
-        "author": "jjjhenriksen",
-        "updatedAt": "2026-08-16T20:35:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124771,
-        "title": "fix(gateway): stop closed clients from restoring session subscriptions",
-        "url": "https://github.com/openclaw/openclaw/pull/124771",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-16T20:35:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117114,
-        "title": "fix: fence pnpm link out of source-checkout updates and warn on self-link damage",
-        "url": "https://github.com/openclaw/openclaw/pull/117114",
-        "state": "open",
-        "author": "synthalorian",
-        "updatedAt": "2026-08-16T20:36:09Z"
+        "updatedAt": "2026-08-16T21:32:32Z"
       }
     ]
   }

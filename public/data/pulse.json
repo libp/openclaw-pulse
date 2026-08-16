@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-16T13:43:48.861Z",
+  "generatedAt": "2026-08-16T15:34:16.959Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -513,17 +513,17 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "capturedAt": "2026-08-16T13:43:48.861Z",
+      "capturedAt": "2026-08-16T15:34:16.959Z",
       "issueOpen": 3395,
-      "issueClosed": 43809,
-      "prOpen": 2172,
-      "prClosed": 72732,
-      "prMerged": 25318,
+      "issueClosed": 43818,
+      "prOpen": 2174,
+      "prClosed": 72777,
+      "prMerged": 25360,
       "workflowRuns": 40000,
-      "stars": 386433,
-      "forks": 81202,
-      "subscribers": 1756,
-      "commits": 79769,
+      "stars": 386439,
+      "forks": 81206,
+      "subscribers": 1757,
+      "commits": 79812,
       "contributors": 3103,
       "source": "github-actions",
       "approximateDate": false
@@ -668,10 +668,10 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "stars": 386433,
-      "forks": 81202,
-      "subscribers": 1756,
-      "commits": 79769,
+      "stars": 386439,
+      "forks": 81206,
+      "subscribers": 1757,
+      "commits": 79812,
       "contributors": 3103
     }
   ],
@@ -679,68 +679,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 94947,
-        "title": "skill_workshop MCP action=create makes a sibling skill when the proposal is clearly meant to patch existing skills",
-        "url": "https://github.com/openclaw/openclaw/issues/94947",
+        "number": 111563,
+        "title": "[Feature]: Make agent-generated setup commands aware of the user's login shell",
+        "url": "https://github.com/openclaw/openclaw/issues/111563",
+        "state": "open",
+        "author": "bjesuiter",
+        "updatedAt": "2026-08-16T15:33:05Z"
+      },
+      {
+        "kind": "issue",
+        "number": 105517,
+        "title": "[Bug]: Subagent announce / status deliveries to the channel are never mirrored into the parent session's Control UI transcript",
+        "url": "https://github.com/openclaw/openclaw/issues/105517",
+        "state": "open",
+        "author": "aaajiao",
+        "updatedAt": "2026-08-16T15:32:57Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112173,
+        "title": "ACP workers hang forever on permission prompts when Gateway runs as a hidden-console Windows service (stdin.isTTY=true)",
+        "url": "https://github.com/openclaw/openclaw/issues/112173",
+        "state": "open",
+        "author": "Yuyorman",
+        "updatedAt": "2026-08-16T15:32:39Z"
+      },
+      {
+        "kind": "issue",
+        "number": 121018,
+        "title": "[Bug]: models.providers.<id>.timeoutSeconds is silently capped by global diagnostics.stuckSessionAbortMs — no per-provider/per-agent override exists",
+        "url": "https://github.com/openclaw/openclaw/issues/121018",
         "state": "open",
         "author": "redasadki",
-        "updatedAt": "2026-08-16T13:43:31Z"
+        "updatedAt": "2026-08-16T15:32:26Z"
+      },
+      {
+        "kind": "issue",
+        "number": 120978,
+        "title": "Hook requests can execute after client disconnects during admission",
+        "url": "https://github.com/openclaw/openclaw/issues/120978",
+        "state": "open",
+        "author": "litang9",
+        "updatedAt": "2026-08-16T15:32:26Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 124608,
-        "title": "fix(plugins): restrict npm project cleanup to owned roots",
-        "url": "https://github.com/openclaw/openclaw/pull/124608",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-16T13:43:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124600,
-        "title": "fix(plugins): surface unavailable channel state capabilities",
-        "url": "https://github.com/openclaw/openclaw/pull/124600",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-16T13:43:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111175,
-        "title": "fix(usage): omit costUsd when model pricing is all-zero (unknown)",
-        "url": "https://github.com/openclaw/openclaw/pull/111175",
-        "state": "open",
-        "author": "xydigit-zt",
-        "updatedAt": "2026-08-16T13:43:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124113,
-        "title": "fix(acp): don't send inherited thinking default as an ACP config control",
-        "url": "https://github.com/openclaw/openclaw/pull/124113",
-        "state": "open",
-        "author": "vovapetry",
-        "updatedAt": "2026-08-16T13:43:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124606,
-        "title": "fix(line): stop inbound media hangs after response headers",
-        "url": "https://github.com/openclaw/openclaw/pull/124606",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-16T13:43:28Z"
-      },
-      {
-        "kind": "pr",
         "number": 124611,
         "title": "fix(update): resolve detached dev status from origin",
         "url": "https://github.com/openclaw/openclaw/pull/124611",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-16T15:34:10Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124661,
+        "title": "fix(cli): report unknown subcommands instead of excess arguments",
+        "url": "https://github.com/openclaw/openclaw/pull/124661",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-16T13:43:26Z"
+        "updatedAt": "2026-08-16T15:34:08Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124666,
+        "title": "fix: keep doctor security conditions as single findings",
+        "url": "https://github.com/openclaw/openclaw/pull/124666",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-16T15:33:53Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124598,
+        "title": "fix: keep Codex delegation when image generation is denied",
+        "url": "https://github.com/openclaw/openclaw/pull/124598",
+        "state": "open",
+        "author": "Marvinthebored",
+        "updatedAt": "2026-08-16T15:33:42Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111351,
+        "title": "fix(auto-reply): defer rollover for legacy pending-reset tombstones with active runs",
+        "url": "https://github.com/openclaw/openclaw/pull/111351",
+        "state": "open",
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-08-16T15:33:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112641,
+        "title": "fix(sessions): enforce maxEntries/maxDiskBytes against durable conversation entries",
+        "url": "https://github.com/openclaw/openclaw/pull/112641",
+        "state": "open",
+        "author": "a-tokyo",
+        "updatedAt": "2026-08-16T15:33:37Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-16T03:11:35.463Z",
+  "generatedAt": "2026-08-16T03:57:32.921Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -513,17 +513,17 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "capturedAt": "2026-08-16T03:11:35.463Z",
-      "issueOpen": 3391,
-      "issueClosed": 43771,
-      "prOpen": 2151,
-      "prClosed": 72558,
-      "prMerged": 25207,
+      "capturedAt": "2026-08-16T03:57:32.921Z",
+      "issueOpen": 3392,
+      "issueClosed": 43775,
+      "prOpen": 2146,
+      "prClosed": 72580,
+      "prMerged": 25227,
       "workflowRuns": 40000,
-      "stars": 386417,
-      "forks": 81213,
+      "stars": 386422,
+      "forks": 81211,
       "subscribers": 1760,
-      "commits": 79654,
+      "commits": 79674,
       "contributors": 3101,
       "source": "github-actions",
       "approximateDate": false
@@ -668,69 +668,124 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "stars": 386417,
-      "forks": 81213,
+      "stars": 386422,
+      "forks": 81211,
       "subscribers": 1760,
-      "commits": 79654,
+      "commits": 79674,
       "contributors": 3101
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 124343,
+        "title": "[Bug]: yield-owned settle-wake parks a completed subagent forever — no delivery, no retry, no recorded reason",
+        "url": "https://github.com/openclaw/openclaw/issues/124343",
+        "state": "open",
+        "author": "aoclaw-glitch",
+        "updatedAt": "2026-08-16T03:57:28Z"
+      },
+      {
+        "kind": "issue",
+        "number": 47975,
+        "title": "Subagent sessions persist after completion, main session becomes unresponsive",
+        "url": "https://github.com/openclaw/openclaw/issues/47975",
+        "state": "closed",
+        "author": "magnusbonnevier",
+        "updatedAt": "2026-08-16T03:57:22Z"
+      },
+      {
+        "kind": "issue",
+        "number": 124396,
+        "title": "[Feature]: Make `openclaw update` one transaction: prove candidate before activation, verified state checkpoint, whole-product rollback, no crash-loop on migration warnings",
+        "url": "https://github.com/openclaw/openclaw/issues/124396",
+        "state": "open",
+        "author": "obviyus",
+        "updatedAt": "2026-08-16T03:57:19Z"
+      },
+      {
+        "kind": "issue",
+        "number": 39588,
+        "title": "[Bug]: macOS app 'Launch at login' stops sticking / appears to turn itself off after app updates",
+        "url": "https://github.com/openclaw/openclaw/issues/39588",
+        "state": "open",
+        "author": "Ahmet-Dedeler",
+        "updatedAt": "2026-08-16T03:57:05Z"
+      },
+      {
+        "kind": "issue",
+        "number": 124392,
+        "title": "apply_patch applies a whitespace-tolerant hunk to the first lookalike block, silently editing the wrong location",
+        "url": "https://github.com/openclaw/openclaw/issues/124392",
+        "state": "open",
+        "author": "yetval",
+        "updatedAt": "2026-08-16T03:56:34Z"
+      },
+      {
+        "kind": "issue",
+        "number": 123815,
+        "title": "Signal outbound attachments are passed to signal-cli as a filesystem path, breaking any deployment where the daemon runs as a different uid",
+        "url": "https://github.com/openclaw/openclaw/issues/123815",
+        "state": "open",
+        "author": "NavehBrenner",
+        "updatedAt": "2026-08-16T03:56:14Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123674,
-        "title": "fix(cli): prevent node/device RPCs from corrupting shared state",
-        "url": "https://github.com/openclaw/openclaw/pull/123674",
+        "number": 124397,
+        "title": "test(codex): split the session-catalog suite along module seams",
+        "url": "https://github.com/openclaw/openclaw/pull/124397",
         "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-08-16T03:09:27Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-16T03:57:29Z"
       },
       {
         "kind": "pr",
-        "number": 123975,
-        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
-        "url": "https://github.com/openclaw/openclaw/pull/123975",
+        "number": 124359,
+        "title": "feat(lint): SAFETY-comment assertion ratchet + repo deslop skill",
+        "url": "https://github.com/openclaw/openclaw/pull/124359",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-16T03:09:23Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-16T03:57:23Z"
       },
       {
         "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-16T03:09:14Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117712,
-        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/117712",
+        "number": 97135,
+        "title": "fix(auto-reply): hide recovered failed tool progress",
+        "url": "https://github.com/openclaw/openclaw/pull/97135",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-16T03:08:34Z"
+        "author": "litang9",
+        "updatedAt": "2026-08-16T03:57:30Z"
       },
       {
         "kind": "pr",
-        "number": 124269,
-        "title": "fix(gateway): stop chat.startup from blocking on workspace icon discovery",
-        "url": "https://github.com/openclaw/openclaw/pull/124269",
+        "number": 124250,
+        "title": "Preserve ClawHub external source identity and expose only supported actions",
+        "url": "https://github.com/openclaw/openclaw/pull/124250",
         "state": "open",
         "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-16T03:08:28Z"
+        "updatedAt": "2026-08-16T03:56:32Z"
       },
       {
         "kind": "pr",
-        "number": 123803,
-        "title": "chore(ui): refresh control ui locales",
-        "url": "https://github.com/openclaw/openclaw/pull/123803",
-        "state": "closed",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-08-16T03:08:25Z"
+        "number": 124379,
+        "title": "fix(agents): apply_patch silently deletes lines when a chunk is marked End of File",
+        "url": "https://github.com/openclaw/openclaw/pull/124379",
+        "state": "open",
+        "author": "yetval",
+        "updatedAt": "2026-08-16T03:56:31Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124372,
+        "title": "fix(gateway): stop repeated session store identity scans",
+        "url": "https://github.com/openclaw/openclaw/pull/124372",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-16T03:56:11Z"
       }
     ]
   }

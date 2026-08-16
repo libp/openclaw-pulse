@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-16T19:31:26.721Z",
+  "generatedAt": "2026-08-16T20:36:14.353Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -513,17 +513,17 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "capturedAt": "2026-08-16T19:31:26.721Z",
-      "issueOpen": 3392,
-      "issueClosed": 43838,
-      "prOpen": 2191,
-      "prClosed": 72853,
-      "prMerged": 25426,
+      "capturedAt": "2026-08-16T20:36:14.353Z",
+      "issueOpen": 3391,
+      "issueClosed": 43846,
+      "prOpen": 2204,
+      "prClosed": 72876,
+      "prMerged": 25443,
       "workflowRuns": 40000,
-      "stars": 386457,
-      "forks": 81204,
-      "subscribers": 1759,
-      "commits": 79881,
+      "stars": 386460,
+      "forks": 81208,
+      "subscribers": 1758,
+      "commits": 79898,
       "contributors": 3103,
       "source": "github-actions",
       "approximateDate": false
@@ -668,10 +668,10 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "stars": 386457,
-      "forks": 81204,
-      "subscribers": 1759,
-      "commits": 79881,
+      "stars": 386460,
+      "forks": 81208,
+      "subscribers": 1758,
+      "commits": 79898,
       "contributors": 3103
     }
   ],
@@ -679,51 +679,15 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 99709,
-        "title": "cron: on-exit hot reload re-executes an in-flight watched command when any cron.* config key changes",
-        "url": "https://github.com/openclaw/openclaw/issues/99709",
+        "number": 45415,
+        "title": "Feature request: MEMORY.md size warning/limit enforcement",
+        "url": "https://github.com/openclaw/openclaw/issues/45415",
         "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-08-16T19:29:44Z"
-      },
-      {
-        "kind": "issue",
-        "number": 107244,
-        "title": "WhatsApp group messages never reach inbound handling (LID groups?) — DMs work; repro across relink + 2026.6.11→2026.7.1",
-        "url": "https://github.com/openclaw/openclaw/issues/107244",
-        "state": "open",
-        "author": "kaluyckx",
-        "updatedAt": "2026-08-16T19:29:43Z"
+        "author": "sabo961",
+        "updatedAt": "2026-08-16T20:36:00Z"
       }
     ],
     "prs": [
-      {
-        "kind": "pr",
-        "number": 124735,
-        "title": "fix: honor context caps on Codex-routed models",
-        "url": "https://github.com/openclaw/openclaw/pull/124735",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-16T19:31:21Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124755,
-        "title": "refactor(line): replace nine-marker prompt DSL with typed rich messages",
-        "url": "https://github.com/openclaw/openclaw/pull/124755",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-16T19:31:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124752,
-        "title": "fix(tasks): cancel subagents through gateway",
-        "url": "https://github.com/openclaw/openclaw/pull/124752",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-16T19:31:18Z"
-      },
       {
         "kind": "pr",
         "number": 124772,
@@ -731,25 +695,52 @@
         "url": "https://github.com/openclaw/openclaw/pull/124772",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-16T19:31:15Z"
+        "updatedAt": "2026-08-16T20:36:05Z"
       },
       {
         "kind": "pr",
-        "number": 96937,
-        "title": "feat(perplexity): add search context size",
-        "url": "https://github.com/openclaw/openclaw/pull/96937",
+        "number": 117712,
+        "title": "chore(deps): bump the actions group across 1 directory with 10 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/117712",
         "state": "open",
-        "author": "WilliamK112",
-        "updatedAt": "2026-08-16T19:31:10Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-16T20:36:02Z"
       },
       {
         "kind": "pr",
-        "number": 124729,
-        "title": "fix(openai): keep setup auth choices consistent",
-        "url": "https://github.com/openclaw/openclaw/pull/124729",
-        "state": "closed",
+        "number": 124793,
+        "title": "refactor(agents): persist directive facts at the assistant write boundary",
+        "url": "https://github.com/openclaw/openclaw/pull/124793",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-16T19:31:05Z"
+        "updatedAt": "2026-08-16T20:36:00Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124429,
+        "title": "fix(ui): reflect inherited agent skill allowlists",
+        "url": "https://github.com/openclaw/openclaw/pull/124429",
+        "state": "open",
+        "author": "jjjhenriksen",
+        "updatedAt": "2026-08-16T20:35:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124771,
+        "title": "fix(gateway): stop closed clients from restoring session subscriptions",
+        "url": "https://github.com/openclaw/openclaw/pull/124771",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-16T20:35:55Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117114,
+        "title": "fix: fence pnpm link out of source-checkout updates and warn on self-link damage",
+        "url": "https://github.com/openclaw/openclaw/pull/117114",
+        "state": "open",
+        "author": "synthalorian",
+        "updatedAt": "2026-08-16T20:36:09Z"
       }
     ]
   }

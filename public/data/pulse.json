@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-16T18:45:20.368Z",
+  "generatedAt": "2026-08-16T19:31:26.721Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -513,17 +513,17 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "capturedAt": "2026-08-16T18:45:20.368Z",
-      "issueOpen": 3395,
-      "issueClosed": 43829,
-      "prOpen": 2187,
-      "prClosed": 72832,
-      "prMerged": 25407,
+      "capturedAt": "2026-08-16T19:31:26.721Z",
+      "issueOpen": 3392,
+      "issueClosed": 43838,
+      "prOpen": 2191,
+      "prClosed": 72853,
+      "prMerged": 25426,
       "workflowRuns": 40000,
-      "stars": 386456,
+      "stars": 386457,
       "forks": 81204,
-      "subscribers": 1758,
-      "commits": 79861,
+      "subscribers": 1759,
+      "commits": 79881,
       "contributors": 3103,
       "source": "github-actions",
       "approximateDate": false
@@ -668,10 +668,10 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "stars": 386456,
+      "stars": 386457,
       "forks": 81204,
-      "subscribers": 1758,
-      "commits": 79861,
+      "subscribers": 1759,
+      "commits": 79881,
       "contributors": 3103
     }
   ],
@@ -679,77 +679,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 122121,
-        "title": "[Bug]: Chrome relay loses unchanged shared tabs after extension reconnect",
-        "url": "https://github.com/openclaw/openclaw/issues/122121",
-        "state": "closed",
-        "author": "carlitose",
-        "updatedAt": "2026-08-16T18:44:21Z"
+        "number": 99709,
+        "title": "cron: on-exit hot reload re-executes an in-flight watched command when any cron.* config key changes",
+        "url": "https://github.com/openclaw/openclaw/issues/99709",
+        "state": "open",
+        "author": "yetval",
+        "updatedAt": "2026-08-16T19:29:44Z"
       },
       {
         "kind": "issue",
-        "number": 86012,
-        "title": "[Bug] LINE channel: messages silently lost due to reply token expiry + missing push fallback safeguards",
-        "url": "https://github.com/openclaw/openclaw/issues/86012",
+        "number": 107244,
+        "title": "WhatsApp group messages never reach inbound handling (LID groups?) — DMs work; repro across relink + 2026.6.11→2026.7.1",
+        "url": "https://github.com/openclaw/openclaw/issues/107244",
         "state": "open",
-        "author": "samson1357924",
-        "updatedAt": "2026-08-16T18:43:56Z"
+        "author": "kaluyckx",
+        "updatedAt": "2026-08-16T19:29:43Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 124301,
-        "title": "improve(control-ui): restructure the composer as a multiline surface",
-        "url": "https://github.com/openclaw/openclaw/pull/124301",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-16T18:45:14Z"
+        "number": 124735,
+        "title": "fix: honor context caps on Codex-routed models",
+        "url": "https://github.com/openclaw/openclaw/pull/124735",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-16T19:31:21Z"
       },
       {
         "kind": "pr",
-        "number": 107479,
-        "title": "docs: add ClawHub glossary labels",
-        "url": "https://github.com/openclaw/openclaw/pull/107479",
+        "number": 124755,
+        "title": "refactor(line): replace nine-marker prompt DSL with typed rich messages",
+        "url": "https://github.com/openclaw/openclaw/pull/124755",
         "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-16T18:45:07Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-16T19:31:20Z"
       },
       {
         "kind": "pr",
-        "number": 124298,
-        "title": "fix(ui): edit queued messages in place",
-        "url": "https://github.com/openclaw/openclaw/pull/124298",
-        "state": "open",
-        "author": "jjjhenriksen",
-        "updatedAt": "2026-08-16T18:45:05Z"
+        "number": 124752,
+        "title": "fix(tasks): cancel subagents through gateway",
+        "url": "https://github.com/openclaw/openclaw/pull/124752",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-16T19:31:18Z"
       },
       {
         "kind": "pr",
-        "number": 124429,
-        "title": "fix(ui): reflect inherited agent skill allowlists",
-        "url": "https://github.com/openclaw/openclaw/pull/124429",
+        "number": 124772,
+        "title": "fix(ui): stop stale clients from acting connected",
+        "url": "https://github.com/openclaw/openclaw/pull/124772",
         "state": "open",
-        "author": "jjjhenriksen",
-        "updatedAt": "2026-08-16T18:45:04Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-16T19:31:15Z"
       },
       {
         "kind": "pr",
-        "number": 124309,
-        "title": "fix(gateway): surface blocking startup progress",
-        "url": "https://github.com/openclaw/openclaw/pull/124309",
+        "number": 96937,
+        "title": "feat(perplexity): add search context size",
+        "url": "https://github.com/openclaw/openclaw/pull/96937",
         "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-16T18:45:02Z"
+        "author": "WilliamK112",
+        "updatedAt": "2026-08-16T19:31:10Z"
       },
       {
         "kind": "pr",
-        "number": 124162,
-        "title": "fix: disconnection watchdog in provider lifecycle owner",
-        "url": "https://github.com/openclaw/openclaw/pull/124162",
-        "state": "open",
-        "author": "markr9805",
-        "updatedAt": "2026-08-16T18:45:01Z"
+        "number": 124729,
+        "title": "fix(openai): keep setup auth choices consistent",
+        "url": "https://github.com/openclaw/openclaw/pull/124729",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-16T19:31:05Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-16T16:40:58.772Z",
+  "generatedAt": "2026-08-16T17:32:40.406Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -513,17 +513,17 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "capturedAt": "2026-08-16T16:40:58.772Z",
-      "issueOpen": 3394,
-      "issueClosed": 43822,
-      "prOpen": 2175,
-      "prClosed": 72796,
-      "prMerged": 25375,
+      "capturedAt": "2026-08-16T17:32:40.406Z",
+      "issueOpen": 3396,
+      "issueClosed": 43825,
+      "prOpen": 2173,
+      "prClosed": 72811,
+      "prMerged": 25386,
       "workflowRuns": 40000,
-      "stars": 386449,
-      "forks": 81205,
-      "subscribers": 1757,
-      "commits": 79827,
+      "stars": 386454,
+      "forks": 81206,
+      "subscribers": 1758,
+      "commits": 79838,
       "contributors": 3103,
       "source": "github-actions",
       "approximateDate": false
@@ -668,10 +668,10 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "stars": 386449,
-      "forks": 81205,
-      "subscribers": 1757,
-      "commits": 79827,
+      "stars": 386454,
+      "forks": 81206,
+      "subscribers": 1758,
+      "commits": 79838,
       "contributors": 3103
     }
   ],
@@ -679,86 +679,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 123583,
-        "title": "Attachment resolution hands a tool the attachment's directory instead of the resolved file",
-        "url": "https://github.com/openclaw/openclaw/issues/123583",
+        "number": 110763,
+        "title": "[Bug]: No API key in header for Minimax??",
+        "url": "https://github.com/openclaw/openclaw/issues/110763",
         "state": "open",
-        "author": "diegoln",
-        "updatedAt": "2026-08-16T16:40:38Z"
+        "author": "najef1979-code",
+        "updatedAt": "2026-08-16T17:32:29Z"
       },
       {
         "kind": "issue",
-        "number": 124689,
-        "title": "[Bug]: Model picker only applies changes to new sessions; Ollama Cloud requests sign-in despite configured API key",
-        "url": "https://github.com/openclaw/openclaw/issues/124689",
+        "number": 111355,
+        "title": "RFC: Consolidate approval flow behind an ApprovalService port",
+        "url": "https://github.com/openclaw/openclaw/issues/111355",
         "state": "open",
-        "author": "Jaulustus",
-        "updatedAt": "2026-08-16T16:40:26Z"
+        "author": "gnnave-sudo",
+        "updatedAt": "2026-08-16T17:32:23Z"
       },
       {
         "kind": "issue",
-        "number": 119986,
-        "title": "Suppress stray text tokens emitted before tool calls",
-        "url": "https://github.com/openclaw/openclaw/issues/119986",
+        "number": 77897,
+        "title": "[Bug]: searchMemoryCorpusSupplements uses Promise.all causing single supplement failure to discard all results",
+        "url": "https://github.com/openclaw/openclaw/issues/77897",
         "state": "open",
-        "author": "DECLAW-wego",
-        "updatedAt": "2026-08-16T16:40:00Z"
+        "author": "SimbaKingjoe",
+        "updatedAt": "2026-08-16T17:32:35Z"
+      },
+      {
+        "kind": "issue",
+        "number": 28300,
+        "title": "Theme Customization System — Preset Themes + Custom Theme Studio",
+        "url": "https://github.com/openclaw/openclaw/issues/28300",
+        "state": "open",
+        "author": "xingzihai",
+        "updatedAt": "2026-08-16T17:32:23Z"
+      },
+      {
+        "kind": "issue",
+        "number": 96879,
+        "title": "[Feature]:  Add Interactions API transport for Gemini provider",
+        "url": "https://github.com/openclaw/openclaw/issues/96879",
+        "state": "open",
+        "author": "fenglanhua",
+        "updatedAt": "2026-08-16T17:32:19Z"
+      },
+      {
+        "kind": "issue",
+        "number": 119003,
+        "title": "lightContext:true on isolated cron agentTurns strips only bootstrap workspace files, not the skills manifest or tool schemas — runs still load tens of thousands of tokens",
+        "url": "https://github.com/openclaw/openclaw/issues/119003",
+        "state": "open",
+        "author": "Cobblestone-Digital1",
+        "updatedAt": "2026-08-16T17:32:11Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 124665,
-        "title": "refactor(config): consolidate context budget to one per-model knob",
-        "url": "https://github.com/openclaw/openclaw/pull/124665",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-16T16:40:53Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124687,
-        "title": "fix(onboarding): stop printing gateway token URLs",
-        "url": "https://github.com/openclaw/openclaw/pull/124687",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-16T16:40:52Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124685,
-        "title": "fix: keep dirty changed checks scoped to local edits",
-        "url": "https://github.com/openclaw/openclaw/pull/124685",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-16T16:40:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124302,
-        "title": "gateway: make core readiness independent of sidecars",
-        "url": "https://github.com/openclaw/openclaw/pull/124302",
+        "number": 124298,
+        "title": "fix(ui): edit queued messages in place",
+        "url": "https://github.com/openclaw/openclaw/pull/124298",
         "state": "open",
         "author": "jjjhenriksen",
-        "updatedAt": "2026-08-16T16:40:51Z"
+        "updatedAt": "2026-08-16T17:32:26Z"
       },
       {
         "kind": "pr",
-        "number": 124688,
-        "title": "docs(docker): warn against single-file binding openclaw.json",
-        "url": "https://github.com/openclaw/openclaw/pull/124688",
+        "number": 124649,
+        "title": "fix(codex): reject malformed native tool arguments",
+        "url": "https://github.com/openclaw/openclaw/pull/124649",
         "state": "open",
-        "author": "ericcaiwx-star",
-        "updatedAt": "2026-08-16T16:40:48Z"
+        "author": "PollyBot13",
+        "updatedAt": "2026-08-16T17:32:36Z"
       },
       {
         "kind": "pr",
-        "number": 124640,
-        "title": "feat(nodes): expose installed worker bundle status",
-        "url": "https://github.com/openclaw/openclaw/pull/124640",
+        "number": 124707,
+        "title": "fix(cli): report unknown subcommands even with --help",
+        "url": "https://github.com/openclaw/openclaw/pull/124707",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-16T16:40:55Z"
+        "updatedAt": "2026-08-16T17:32:10Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124670,
+        "title": "fix(agents): prevent invalid names from targeting the default agent",
+        "url": "https://github.com/openclaw/openclaw/pull/124670",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-16T17:31:56Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124708,
+        "title": "feat(voice-call): sessionScope \"main\" routes calls into the agent main session",
+        "url": "https://github.com/openclaw/openclaw/pull/124708",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-16T17:31:26Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124706,
+        "title": "fix(doctor): stop reporting a fully configured Telegram setup as first-time setup",
+        "url": "https://github.com/openclaw/openclaw/pull/124706",
+        "state": "open",
+        "author": "ggeutzzang",
+        "updatedAt": "2026-08-16T17:31:11Z"
       }
     ]
   }

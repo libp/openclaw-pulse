@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-16T01:55:59.716Z",
+  "generatedAt": "2026-08-16T03:11:35.463Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -513,18 +513,18 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "capturedAt": "2026-08-16T01:55:59.716Z",
-      "issueOpen": 3385,
-      "issueClosed": 43768,
+      "capturedAt": "2026-08-16T03:11:35.463Z",
+      "issueOpen": 3391,
+      "issueClosed": 43771,
       "prOpen": 2151,
-      "prClosed": 72534,
-      "prMerged": 25184,
+      "prClosed": 72558,
+      "prMerged": 25207,
       "workflowRuns": 40000,
-      "stars": 386405,
-      "forks": 81215,
+      "stars": 386417,
+      "forks": 81213,
       "subscribers": 1760,
-      "commits": 79631,
-      "contributors": 3100,
+      "commits": 79654,
+      "contributors": 3101,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -668,124 +668,69 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "stars": 386405,
-      "forks": 81215,
+      "stars": 386417,
+      "forks": 81213,
       "subscribers": 1760,
-      "commits": 79631,
-      "contributors": 3100
+      "commits": 79654,
+      "contributors": 3101
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 123652,
-        "title": "[Bug]: Azure/OpenAI Responses: runtimeContextCarrier tail relocation breaks GPT-5.6 prompt cache lineage",
-        "url": "https://github.com/openclaw/openclaw/issues/123652",
-        "state": "open",
-        "author": "rpy123",
-        "updatedAt": "2026-08-16T01:55:38Z"
-      },
-      {
-        "kind": "issue",
-        "number": 123273,
-        "title": "Image attachments fail for named (non-default) agents — \"failed to hydrate structured image attachment(s) for CLI input\"",
-        "url": "https://github.com/openclaw/openclaw/issues/123273",
-        "state": "open",
-        "author": "kikisarem",
-        "updatedAt": "2026-08-16T01:55:38Z"
-      },
-      {
-        "kind": "issue",
-        "number": 123755,
-        "title": "[Bug]: Older CLI rejects additive secret-store column after downgrade",
-        "url": "https://github.com/openclaw/openclaw/issues/123755",
-        "state": "open",
-        "author": "hannesrudolph",
-        "updatedAt": "2026-08-16T01:55:26Z"
-      },
-      {
-        "kind": "issue",
-        "number": 95724,
-        "title": "feat(memory): index by source directory, not by agent — eliminate duplicate vector stores for same-workspace agents",
-        "url": "https://github.com/openclaw/openclaw/issues/95724",
-        "state": "open",
-        "author": "xmoxmo",
-        "updatedAt": "2026-08-16T01:55:25Z"
-      },
-      {
-        "kind": "issue",
-        "number": 83030,
-        "title": "feat(image-generation): Add ReCraft V4.1 model family support (Standard, Utility, Vector) via OpenRouter",
-        "url": "https://github.com/openclaw/openclaw/issues/83030",
-        "state": "open",
-        "author": "Yachiyo1680",
-        "updatedAt": "2026-08-16T01:55:23Z"
-      },
-      {
-        "kind": "issue",
-        "number": 120918,
-        "title": "Stable offline API or CLI for committing pending plugin installs without launcher respawn",
-        "url": "https://github.com/openclaw/openclaw/issues/120918",
-        "state": "open",
-        "author": "Niggo173",
-        "updatedAt": "2026-08-16T01:55:21Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 124313,
-        "title": "fix(outbound): preserve RFC 5322 angle-addr email addresses in sanitizeForPlainText",
-        "url": "https://github.com/openclaw/openclaw/pull/124313",
+        "number": 123674,
+        "title": "fix(cli): prevent node/device RPCs from corrupting shared state",
+        "url": "https://github.com/openclaw/openclaw/pull/123674",
         "state": "open",
-        "author": "synthalorian",
-        "updatedAt": "2026-08-16T01:55:54Z"
+        "author": "VACInc",
+        "updatedAt": "2026-08-16T03:09:27Z"
       },
       {
         "kind": "pr",
-        "number": 123912,
-        "title": "feat(ui): open links in Control UI browser",
-        "url": "https://github.com/openclaw/openclaw/pull/123912",
+        "number": 123975,
+        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
+        "url": "https://github.com/openclaw/openclaw/pull/123975",
         "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-08-16T01:55:52Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-16T03:09:23Z"
       },
       {
         "kind": "pr",
-        "number": 120491,
-        "title": "feat(tools): per-turn per-target send budget guard for message tools",
-        "url": "https://github.com/openclaw/openclaw/pull/120491",
-        "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-08-16T01:55:50Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
         "state": "closed",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-16T01:55:43Z"
+        "updatedAt": "2026-08-16T03:09:14Z"
       },
       {
         "kind": "pr",
-        "number": 124162,
-        "title": "fix: disconnection watchdog in provider lifecycle owner",
-        "url": "https://github.com/openclaw/openclaw/pull/124162",
+        "number": 117712,
+        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/117712",
         "state": "open",
-        "author": "markr9805",
-        "updatedAt": "2026-08-16T01:55:42Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-16T03:08:34Z"
       },
       {
         "kind": "pr",
-        "number": 124341,
-        "title": "fix(ci): unblock Performance on current source builds",
-        "url": "https://github.com/openclaw/openclaw/pull/124341",
+        "number": 124269,
+        "title": "fix(gateway): stop chat.startup from blocking on workspace icon discovery",
+        "url": "https://github.com/openclaw/openclaw/pull/124269",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-16T01:55:38Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-16T03:08:28Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123803,
+        "title": "chore(ui): refresh control ui locales",
+        "url": "https://github.com/openclaw/openclaw/pull/123803",
+        "state": "closed",
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-08-16T03:08:25Z"
       }
     ]
   }

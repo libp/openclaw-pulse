@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-16T11:32:39.782Z",
+  "generatedAt": "2026-08-16T12:58:57.667Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -513,17 +513,17 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "capturedAt": "2026-08-16T11:32:39.782Z",
-      "issueOpen": 3388,
-      "issueClosed": 43801,
-      "prOpen": 2155,
-      "prClosed": 72690,
-      "prMerged": 25283,
+      "capturedAt": "2026-08-16T12:58:57.667Z",
+      "issueOpen": 3396,
+      "issueClosed": 43804,
+      "prOpen": 2169,
+      "prClosed": 72710,
+      "prMerged": 25299,
       "workflowRuns": 40000,
-      "stars": 386429,
-      "forks": 81206,
-      "subscribers": 1757,
-      "commits": 79730,
+      "stars": 386433,
+      "forks": 81203,
+      "subscribers": 1756,
+      "commits": 79748,
       "contributors": 3103,
       "source": "github-actions",
       "approximateDate": false
@@ -668,10 +668,10 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "stars": 386429,
-      "forks": 81206,
-      "subscribers": 1757,
-      "commits": 79730,
+      "stars": 386433,
+      "forks": 81203,
+      "subscribers": 1756,
+      "commits": 79748,
       "contributors": 3103
     }
   ],
@@ -679,113 +679,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 123815,
-        "title": "Signal outbound attachments are passed to signal-cli as a filesystem path, breaking any deployment where the daemon runs as a different uid",
-        "url": "https://github.com/openclaw/openclaw/issues/123815",
+        "number": 124220,
+        "title": "[Bug]: `sessions_spawn` hard-blocked at admission (`tool_blocked`, never dispatched) for a messaging-profile agent — regression between 2026.7.2-beta.4 and beta.7",
+        "url": "https://github.com/openclaw/openclaw/issues/124220",
         "state": "open",
-        "author": "NavehBrenner",
-        "updatedAt": "2026-08-16T11:32:16Z"
+        "author": "migelizaga-rgb",
+        "updatedAt": "2026-08-16T12:58:48Z"
       },
       {
         "kind": "issue",
-        "number": 124527,
-        "title": "[Bug]: Telegram image understanding fails with xAI \"Unknown model\"",
-        "url": "https://github.com/openclaw/openclaw/issues/124527",
+        "number": 123886,
+        "title": "[Bug]: Telegram model picker overlaps stale rich text after legacy edit",
+        "url": "https://github.com/openclaw/openclaw/issues/123886",
         "state": "open",
-        "author": "tiniecookie",
-        "updatedAt": "2026-08-16T11:32:13Z"
+        "author": "clawSean",
+        "updatedAt": "2026-08-16T12:58:00Z"
       },
       {
         "kind": "issue",
-        "number": 50481,
-        "title": "Slack: support assistant.threads.setSuggestedPrompts for dynamic prompt suggestions",
-        "url": "https://github.com/openclaw/openclaw/issues/50481",
+        "number": 124099,
+        "title": "SessionCanonicalKeyMigrationRequiredError loop after 2026.8.1-beta.2: trigger-pending rows block dispatch, doctor --fix deadlocks, healthy model gets fallbacked",
+        "url": "https://github.com/openclaw/openclaw/issues/124099",
         "state": "open",
-        "author": "leslielesleyles",
-        "updatedAt": "2026-08-16T11:32:09Z"
+        "author": "njuboy11",
+        "updatedAt": "2026-08-16T12:57:57Z"
       },
       {
         "kind": "issue",
-        "number": 121667,
-        "title": "[Feature]: Control UI queued messages are dead ends — add reorder, edit round-trip, and a discoverable row menu",
-        "url": "https://github.com/openclaw/openclaw/issues/121667",
+        "number": 122073,
+        "title": "[Bug]: WhatsApp inbound group bodies keep raw @<LID> mention tokens — never resolved to a participant identity, and no structured mentions[] exists, though the channel's own LID→PN store and the outbound path both resolve it",
+        "url": "https://github.com/openclaw/openclaw/issues/122073",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-16T11:32:07Z"
-      },
-      {
-        "kind": "issue",
-        "number": 67128,
-        "title": "[Feature]: /usage command or session stats panel in Telegram",
-        "url": "https://github.com/openclaw/openclaw/issues/67128",
-        "state": "open",
-        "author": "Bronsontt",
-        "updatedAt": "2026-08-16T11:31:49Z"
-      },
-      {
-        "kind": "issue",
-        "number": 53645,
-        "title": "飞书消息回复引用(replyTo)有时不显示 - OpenClaw 2026.3.23-2",
-        "url": "https://github.com/openclaw/openclaw/issues/53645",
-        "state": "open",
-        "author": "Kimin2011",
-        "updatedAt": "2026-08-16T11:31:33Z"
+        "author": "abacha",
+        "updatedAt": "2026-08-16T12:57:41Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 124464,
-        "title": "fix(line): replies are lost when a push hits a transient failure",
-        "url": "https://github.com/openclaw/openclaw/pull/124464",
+        "number": 124448,
+        "title": "fix(gateway): distinguish queued chats from completed empty replies",
+        "url": "https://github.com/openclaw/openclaw/pull/124448",
         "state": "open",
-        "author": "edenfunf",
-        "updatedAt": "2026-08-16T11:32:31Z"
+        "author": "algal",
+        "updatedAt": "2026-08-16T12:58:45Z"
       },
       {
         "kind": "pr",
-        "number": 123906,
-        "title": "fix: TUI startup fails after update rewrites chunks",
-        "url": "https://github.com/openclaw/openclaw/pull/123906",
+        "number": 111117,
+        "title": "fix(update): keep repair JSON output parseable",
+        "url": "https://github.com/openclaw/openclaw/pull/111117",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-16T11:32:26Z"
+        "author": "arcabotai",
+        "updatedAt": "2026-08-16T12:58:43Z"
       },
       {
         "kind": "pr",
-        "number": 122574,
-        "title": "feat(update): assess configured plugins before package updates",
-        "url": "https://github.com/openclaw/openclaw/pull/122574",
+        "number": 124582,
+        "title": "fix(gateway): keep shutdown reliable during updates",
+        "url": "https://github.com/openclaw/openclaw/pull/124582",
         "state": "open",
-        "author": "PollyBot13",
-        "updatedAt": "2026-08-16T11:32:26Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-16T12:58:54Z"
       },
       {
         "kind": "pr",
-        "number": 121063,
-        "title": "fix(agent-core): bound runaway loops with turn/error-batch/idle-repeat guards (#120962)",
-        "url": "https://github.com/openclaw/openclaw/pull/121063",
+        "number": 117712,
+        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/117712",
         "state": "open",
-        "author": "Papilionidae",
-        "updatedAt": "2026-08-16T11:32:21Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-16T12:58:38Z"
       },
       {
         "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-16T11:31:52Z"
+        "number": 124565,
+        "title": "perf(test): reuse QA hook routing fixture",
+        "url": "https://github.com/openclaw/openclaw/pull/124565",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-16T12:58:34Z"
       },
       {
         "kind": "pr",
-        "number": 123975,
-        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
-        "url": "https://github.com/openclaw/openclaw/pull/123975",
+        "number": 124578,
+        "title": "fix(ui): prevent stale Labs errors after reconnect",
+        "url": "https://github.com/openclaw/openclaw/pull/124578",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-16T11:31:48Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-16T12:58:28Z"
       }
     ]
   }

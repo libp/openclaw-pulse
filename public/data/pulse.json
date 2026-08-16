@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-16T15:34:16.959Z",
+  "generatedAt": "2026-08-16T16:40:58.772Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -513,17 +513,17 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "capturedAt": "2026-08-16T15:34:16.959Z",
-      "issueOpen": 3395,
-      "issueClosed": 43818,
-      "prOpen": 2174,
-      "prClosed": 72777,
-      "prMerged": 25360,
+      "capturedAt": "2026-08-16T16:40:58.772Z",
+      "issueOpen": 3394,
+      "issueClosed": 43822,
+      "prOpen": 2175,
+      "prClosed": 72796,
+      "prMerged": 25375,
       "workflowRuns": 40000,
-      "stars": 386439,
-      "forks": 81206,
+      "stars": 386449,
+      "forks": 81205,
       "subscribers": 1757,
-      "commits": 79812,
+      "commits": 79827,
       "contributors": 3103,
       "source": "github-actions",
       "approximateDate": false
@@ -668,10 +668,10 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "stars": 386439,
-      "forks": 81206,
+      "stars": 386449,
+      "forks": 81205,
       "subscribers": 1757,
-      "commits": 79812,
+      "commits": 79827,
       "contributors": 3103
     }
   ],
@@ -679,104 +679,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 111563,
-        "title": "[Feature]: Make agent-generated setup commands aware of the user's login shell",
-        "url": "https://github.com/openclaw/openclaw/issues/111563",
+        "number": 123583,
+        "title": "Attachment resolution hands a tool the attachment's directory instead of the resolved file",
+        "url": "https://github.com/openclaw/openclaw/issues/123583",
         "state": "open",
-        "author": "bjesuiter",
-        "updatedAt": "2026-08-16T15:33:05Z"
+        "author": "diegoln",
+        "updatedAt": "2026-08-16T16:40:38Z"
       },
       {
         "kind": "issue",
-        "number": 105517,
-        "title": "[Bug]: Subagent announce / status deliveries to the channel are never mirrored into the parent session's Control UI transcript",
-        "url": "https://github.com/openclaw/openclaw/issues/105517",
+        "number": 124689,
+        "title": "[Bug]: Model picker only applies changes to new sessions; Ollama Cloud requests sign-in despite configured API key",
+        "url": "https://github.com/openclaw/openclaw/issues/124689",
         "state": "open",
-        "author": "aaajiao",
-        "updatedAt": "2026-08-16T15:32:57Z"
+        "author": "Jaulustus",
+        "updatedAt": "2026-08-16T16:40:26Z"
       },
       {
         "kind": "issue",
-        "number": 112173,
-        "title": "ACP workers hang forever on permission prompts when Gateway runs as a hidden-console Windows service (stdin.isTTY=true)",
-        "url": "https://github.com/openclaw/openclaw/issues/112173",
+        "number": 119986,
+        "title": "Suppress stray text tokens emitted before tool calls",
+        "url": "https://github.com/openclaw/openclaw/issues/119986",
         "state": "open",
-        "author": "Yuyorman",
-        "updatedAt": "2026-08-16T15:32:39Z"
-      },
-      {
-        "kind": "issue",
-        "number": 121018,
-        "title": "[Bug]: models.providers.<id>.timeoutSeconds is silently capped by global diagnostics.stuckSessionAbortMs — no per-provider/per-agent override exists",
-        "url": "https://github.com/openclaw/openclaw/issues/121018",
-        "state": "open",
-        "author": "redasadki",
-        "updatedAt": "2026-08-16T15:32:26Z"
-      },
-      {
-        "kind": "issue",
-        "number": 120978,
-        "title": "Hook requests can execute after client disconnects during admission",
-        "url": "https://github.com/openclaw/openclaw/issues/120978",
-        "state": "open",
-        "author": "litang9",
-        "updatedAt": "2026-08-16T15:32:26Z"
+        "author": "DECLAW-wego",
+        "updatedAt": "2026-08-16T16:40:00Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 124611,
-        "title": "fix(update): resolve detached dev status from origin",
-        "url": "https://github.com/openclaw/openclaw/pull/124611",
+        "number": 124665,
+        "title": "refactor(config): consolidate context budget to one per-model knob",
+        "url": "https://github.com/openclaw/openclaw/pull/124665",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-16T16:40:53Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124687,
+        "title": "fix(onboarding): stop printing gateway token URLs",
+        "url": "https://github.com/openclaw/openclaw/pull/124687",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-16T16:40:52Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124685,
+        "title": "fix: keep dirty changed checks scoped to local edits",
+        "url": "https://github.com/openclaw/openclaw/pull/124685",
         "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-16T15:34:10Z"
+        "updatedAt": "2026-08-16T16:40:55Z"
       },
       {
         "kind": "pr",
-        "number": 124661,
-        "title": "fix(cli): report unknown subcommands instead of excess arguments",
-        "url": "https://github.com/openclaw/openclaw/pull/124661",
+        "number": 124302,
+        "title": "gateway: make core readiness independent of sidecars",
+        "url": "https://github.com/openclaw/openclaw/pull/124302",
+        "state": "open",
+        "author": "jjjhenriksen",
+        "updatedAt": "2026-08-16T16:40:51Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124688,
+        "title": "docs(docker): warn against single-file binding openclaw.json",
+        "url": "https://github.com/openclaw/openclaw/pull/124688",
+        "state": "open",
+        "author": "ericcaiwx-star",
+        "updatedAt": "2026-08-16T16:40:48Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124640,
+        "title": "feat(nodes): expose installed worker bundle status",
+        "url": "https://github.com/openclaw/openclaw/pull/124640",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-16T15:34:08Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124666,
-        "title": "fix: keep doctor security conditions as single findings",
-        "url": "https://github.com/openclaw/openclaw/pull/124666",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-16T15:33:53Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124598,
-        "title": "fix: keep Codex delegation when image generation is denied",
-        "url": "https://github.com/openclaw/openclaw/pull/124598",
-        "state": "open",
-        "author": "Marvinthebored",
-        "updatedAt": "2026-08-16T15:33:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111351,
-        "title": "fix(auto-reply): defer rollover for legacy pending-reset tombstones with active runs",
-        "url": "https://github.com/openclaw/openclaw/pull/111351",
-        "state": "open",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-08-16T15:33:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112641,
-        "title": "fix(sessions): enforce maxEntries/maxDiskBytes against durable conversation entries",
-        "url": "https://github.com/openclaw/openclaw/pull/112641",
-        "state": "open",
-        "author": "a-tokyo",
-        "updatedAt": "2026-08-16T15:33:37Z"
+        "updatedAt": "2026-08-16T16:40:55Z"
       }
     ]
   }

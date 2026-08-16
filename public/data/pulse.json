@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-16T04:48:54.674Z",
+  "generatedAt": "2026-08-16T05:41:19.529Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -513,17 +513,17 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "capturedAt": "2026-08-16T04:48:54.674Z",
-      "issueOpen": 3393,
-      "issueClosed": 43778,
-      "prOpen": 2148,
-      "prClosed": 72597,
-      "prMerged": 25240,
+      "capturedAt": "2026-08-16T05:41:19.529Z",
+      "issueOpen": 3390,
+      "issueClosed": 43784,
+      "prOpen": 2147,
+      "prClosed": 72614,
+      "prMerged": 25252,
       "workflowRuns": 40000,
       "stars": 386424,
-      "forks": 81211,
+      "forks": 81210,
       "subscribers": 1759,
-      "commits": 79687,
+      "commits": 79699,
       "contributors": 3101,
       "source": "github-actions",
       "approximateDate": false
@@ -669,9 +669,9 @@
     {
       "capturedOn": "2026-08-16",
       "stars": 386424,
-      "forks": 81211,
+      "forks": 81210,
       "subscribers": 1759,
-      "commits": 79687,
+      "commits": 79699,
       "contributors": 3101
     }
   ],
@@ -679,113 +679,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 124349,
-        "title": "[Bug]: exec rejects host:\"auto\" under host=gateway with no sandbox, and the suggested fix widens execution to node hosts",
-        "url": "https://github.com/openclaw/openclaw/issues/124349",
-        "state": "open",
-        "author": "aoclaw-glitch",
-        "updatedAt": "2026-08-16T04:48:39Z"
+        "number": 124420,
+        "title": "Bug: openclaw/plugin-sdk/channel-runtime export missing on main breaks WeChat plugin (reading 'logger')",
+        "url": "https://github.com/openclaw/openclaw/issues/124420",
+        "state": "closed",
+        "author": "Zhangbo-cn",
+        "updatedAt": "2026-08-16T05:40:56Z"
       },
       {
         "kind": "issue",
-        "number": 120551,
-        "title": "[Regression] Opening a cron session in Control Web UI shows no conversation history",
-        "url": "https://github.com/openclaw/openclaw/issues/120551",
+        "number": 51028,
+        "title": "Sessions panel: sort by last meaningful activity, not just last message",
+        "url": "https://github.com/openclaw/openclaw/issues/51028",
         "state": "open",
-        "author": "mtuwei",
-        "updatedAt": "2026-08-16T04:48:12Z"
+        "author": "TSCarterJr",
+        "updatedAt": "2026-08-16T05:40:27Z"
       },
       {
         "kind": "issue",
-        "number": 123360,
-        "title": "[Bug]: memory-core dreaming: first-finisher cleanup races sibling phases; completed narratives discarded for fallback diary entries on multi-phase nights (v2026.7.1-2)",
-        "url": "https://github.com/openclaw/openclaw/issues/123360",
+        "number": 44502,
+        "title": "[Bug]: Discord routing / mention-gating issue in OpenClaw",
+        "url": "https://github.com/openclaw/openclaw/issues/44502",
         "state": "open",
-        "author": "nissanlogan",
-        "updatedAt": "2026-08-16T04:48:11Z"
+        "author": "JustAskNudge",
+        "updatedAt": "2026-08-16T05:39:27Z"
       },
       {
         "kind": "issue",
-        "number": 119586,
-        "title": "[Feature]: Route ComfyUI workflows by typed media input signature",
-        "url": "https://github.com/openclaw/openclaw/issues/119586",
-        "state": "open",
-        "author": "beeven",
-        "updatedAt": "2026-08-16T04:48:11Z"
-      },
-      {
-        "kind": "issue",
-        "number": 124407,
-        "title": "CLI gateway commands take 10–30s on Windows due to eager module/plugin bootstrap before RPC",
-        "url": "https://github.com/openclaw/openclaw/issues/124407",
-        "state": "open",
-        "author": "dgmoon1994",
-        "updatedAt": "2026-08-16T04:48:02Z"
-      },
-      {
-        "kind": "issue",
-        "number": 47840,
-        "title": "Control UI: Model provider display shows original config value instead of normalized value (e.g., 'bailian' vs 'zai')",
-        "url": "https://github.com/openclaw/openclaw/issues/47840",
-        "state": "open",
-        "author": "def177",
-        "updatedAt": "2026-08-16T04:47:51Z"
+        "number": 115276,
+        "title": "Group members addressing an agent whose identity name contains emoji or decorative symbols are silently ignored unless they type the decoration too (requireMention)",
+        "url": "https://github.com/openclaw/openclaw/issues/115276",
+        "state": "closed",
+        "author": "edenfunf",
+        "updatedAt": "2026-08-16T05:39:05Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 109493,
-        "title": "fix(gateway): worker workspaces recover after stalled process probes",
-        "url": "https://github.com/openclaw/openclaw/pull/109493",
+        "number": 120989,
+        "title": "fix(memory): make persistence promises receipt-backed",
+        "url": "https://github.com/openclaw/openclaw/pull/120989",
         "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-08-16T04:48:48Z"
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-08-16T05:41:08Z"
       },
       {
         "kind": "pr",
-        "number": 124359,
-        "title": "feat(lint): SAFETY-comment assertion ratchet + repo deslop skill",
-        "url": "https://github.com/openclaw/openclaw/pull/124359",
+        "number": 124438,
+        "title": "fix(plugin-sdk): restore openclaw/plugin-sdk/channel-runtime export",
+        "url": "https://github.com/openclaw/openclaw/pull/124438",
+        "state": "open",
+        "author": "Zhangbo-cn",
+        "updatedAt": "2026-08-16T05:40:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124406,
+        "title": "fix: preserve cloud workspace results across tunnel reconnects",
+        "url": "https://github.com/openclaw/openclaw/pull/124406",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-16T04:48:45Z"
+        "updatedAt": "2026-08-16T05:40:22Z"
       },
       {
         "kind": "pr",
-        "number": 124419,
-        "title": "fix(agents): allow exec host:auto when configured host is gateway with no sandbox",
-        "url": "https://github.com/openclaw/openclaw/pull/124419",
+        "number": 124377,
+        "title": "fix(agents): keep conversation history when truncating oversized tool results",
+        "url": "https://github.com/openclaw/openclaw/pull/124377",
         "state": "open",
-        "author": "synthalorian",
-        "updatedAt": "2026-08-16T04:48:42Z"
+        "author": "yetval",
+        "updatedAt": "2026-08-16T05:40:15Z"
       },
       {
         "kind": "pr",
-        "number": 124371,
-        "title": "fix(ui): keep task recovery actions across refresh",
-        "url": "https://github.com/openclaw/openclaw/pull/124371",
+        "number": 107209,
+        "title": "Suppress model fallback notices in rooms",
+        "url": "https://github.com/openclaw/openclaw/pull/107209",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-16T04:48:16Z"
+        "author": "NehoraiHadad",
+        "updatedAt": "2026-08-16T05:39:38Z"
       },
       {
         "kind": "pr",
-        "number": 103872,
-        "title": "feat(skills): preview proposals before approval",
-        "url": "https://github.com/openclaw/openclaw/pull/103872",
+        "number": 123356,
+        "title": "improve(control-ui): stage slash command arguments in the composer",
+        "url": "https://github.com/openclaw/openclaw/pull/123356",
         "state": "open",
-        "author": "Glucksberg",
-        "updatedAt": "2026-08-16T04:48:09Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120491,
-        "title": "feat(tools): per-turn per-target send budget guard for message tools",
-        "url": "https://github.com/openclaw/openclaw/pull/120491",
-        "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-08-16T04:48:00Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-16T05:39:29Z"
       }
     ]
   }

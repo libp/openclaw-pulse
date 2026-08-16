@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-16T21:33:06.340Z",
+  "generatedAt": "2026-08-16T22:35:21.099Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -513,17 +513,17 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "capturedAt": "2026-08-16T21:33:06.340Z",
-      "issueOpen": 3390,
-      "issueClosed": 43851,
-      "prOpen": 2196,
-      "prClosed": 72909,
-      "prMerged": 25470,
+      "capturedAt": "2026-08-16T22:35:21.099Z",
+      "issueOpen": 3392,
+      "issueClosed": 43855,
+      "prOpen": 2197,
+      "prClosed": 72927,
+      "prMerged": 25485,
       "workflowRuns": 40000,
-      "stars": 386461,
-      "forks": 81207,
+      "stars": 386464,
+      "forks": 81209,
       "subscribers": 1758,
-      "commits": 79925,
+      "commits": 79941,
       "contributors": 3103,
       "source": "github-actions",
       "approximateDate": false
@@ -668,10 +668,10 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "stars": 386461,
-      "forks": 81207,
+      "stars": 386464,
+      "forks": 81209,
       "subscribers": 1758,
-      "commits": 79925,
+      "commits": 79941,
       "contributors": 3103
     }
   ],
@@ -679,113 +679,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 29707,
-        "title": "[Feature Request]: Native Prompt Caching Support for Amazon Nova (Bedrock)",
-        "url": "https://github.com/openclaw/openclaw/issues/29707",
+        "number": 124874,
+        "title": "[Bug]: tools.toolsBySender wildcard deny hits internal-origin turns (subagent completion, cron) — exec silently stripped until next real owner message",
+        "url": "https://github.com/openclaw/openclaw/issues/124874",
         "state": "open",
-        "author": "tribecar-shurn",
-        "updatedAt": "2026-08-16T21:32:56Z"
+        "author": "nicknmorty",
+        "updatedAt": "2026-08-16T22:33:57Z"
       },
       {
         "kind": "issue",
-        "number": 63107,
-        "title": "cron: systemEvent on main session silently ignores shell commands in payload text",
-        "url": "https://github.com/openclaw/openclaw/issues/63107",
+        "number": 124873,
+        "title": "[Bug]: Buzz agent replies nest progressively inside existing threads",
+        "url": "https://github.com/openclaw/openclaw/issues/124873",
         "state": "open",
-        "author": "liaoandi",
-        "updatedAt": "2026-08-16T21:32:49Z"
+        "author": "LeahArmstrong",
+        "updatedAt": "2026-08-16T22:33:44Z"
       },
       {
         "kind": "issue",
-        "number": 59130,
-        "title": "memory-lancedb: stale recall can answer 'latest' queries without recency/provenance",
-        "url": "https://github.com/openclaw/openclaw/issues/59130",
+        "number": 112029,
+        "title": "[Bug]: errored/aborted assistant turns replay dangling tool_use + empty thinking, bricking sessions with provider HTTP 400",
+        "url": "https://github.com/openclaw/openclaw/issues/112029",
         "state": "open",
-        "author": "slip17mc",
-        "updatedAt": "2026-08-16T21:32:57Z"
+        "author": "0xSolace",
+        "updatedAt": "2026-08-16T22:33:39Z"
       },
       {
         "kind": "issue",
-        "number": 81595,
-        "title": "observability: emit per-MCP-server sub-spans inside bundle-tools so cold-start cost is attributable",
-        "url": "https://github.com/openclaw/openclaw/issues/81595",
+        "number": 119862,
+        "title": "Bug: Feishu API errors silently swallowed, agent receives outcome=completed on failure",
+        "url": "https://github.com/openclaw/openclaw/issues/119862",
         "state": "open",
-        "author": "mlopez14",
-        "updatedAt": "2026-08-16T21:32:33Z"
-      },
-      {
-        "kind": "issue",
-        "number": 53531,
-        "title": "Compaction should use auth-profile rotation / failover within the same provider",
-        "url": "https://github.com/openclaw/openclaw/issues/53531",
-        "state": "open",
-        "author": "fertilejim",
-        "updatedAt": "2026-08-16T21:32:25Z"
-      },
-      {
-        "kind": "issue",
-        "number": 62328,
-        "title": "node:sqlite missing FTS5 module — memory search keyword fallback broken",
-        "url": "https://github.com/openclaw/openclaw/issues/62328",
-        "state": "open",
-        "author": "TimeAground",
-        "updatedAt": "2026-08-16T21:32:17Z"
+        "author": "Enominera",
+        "updatedAt": "2026-08-16T22:32:41Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 124849,
-        "title": "fix(cli): emit one JSON failure contract for --json invocations",
-        "url": "https://github.com/openclaw/openclaw/pull/124849",
+        "number": 123709,
+        "title": "feat(audit): explain outbound message delivery",
+        "url": "https://github.com/openclaw/openclaw/pull/123709",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-16T21:33:01Z"
+        "author": "joshavant",
+        "updatedAt": "2026-08-16T22:35:15Z"
       },
       {
         "kind": "pr",
-        "number": 124298,
-        "title": "fix(ui): edit queued messages in place",
-        "url": "https://github.com/openclaw/openclaw/pull/124298",
+        "number": 99100,
+        "title": "fix: harden qa lab report table rendering",
+        "url": "https://github.com/openclaw/openclaw/pull/99100",
         "state": "open",
-        "author": "jjjhenriksen",
-        "updatedAt": "2026-08-16T21:32:55Z"
+        "author": "hxy91819",
+        "updatedAt": "2026-08-16T22:35:11Z"
       },
       {
         "kind": "pr",
-        "number": 124848,
-        "title": "feat: add plain-language verbose progress mode",
-        "url": "https://github.com/openclaw/openclaw/pull/124848",
+        "number": 98694,
+        "title": "fix(telegram): use index-based callback_data to avoid silent model drops in /model picker (fixes #98221)",
+        "url": "https://github.com/openclaw/openclaw/pull/98694",
         "state": "open",
-        "author": "leviathanresearchllc-jpg",
-        "updatedAt": "2026-08-16T21:32:46Z"
+        "author": "zw-xysk",
+        "updatedAt": "2026-08-16T22:35:02Z"
       },
       {
         "kind": "pr",
-        "number": 117712,
-        "title": "chore(deps): bump the actions group across 1 directory with 10 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/117712",
-        "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-16T21:32:43Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124835,
-        "title": "refactor(plugin-sdk): extract stream and SecretRef primitives",
-        "url": "https://github.com/openclaw/openclaw/pull/124835",
+        "number": 124856,
+        "title": "fix(protocol): model cron run delivery trace",
+        "url": "https://github.com/openclaw/openclaw/pull/124856",
         "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-16T21:32:36Z"
+        "updatedAt": "2026-08-16T22:34:59Z"
       },
       {
         "kind": "pr",
-        "number": 124659,
-        "title": "fix(update): prevent duplicate managed gateway successors",
-        "url": "https://github.com/openclaw/openclaw/pull/124659",
+        "number": 120900,
+        "title": "feat(ui): review install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/120900",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-16T22:34:56Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124784,
+        "title": "fix(skills): expand explicit references on agent turns",
+        "url": "https://github.com/openclaw/openclaw/pull/124784",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-16T21:32:32Z"
+        "updatedAt": "2026-08-16T22:34:18Z"
       }
     ]
   }

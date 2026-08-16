@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-16T08:45:37.479Z",
+  "generatedAt": "2026-08-16T09:40:01.910Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -513,17 +513,17 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "capturedAt": "2026-08-16T08:45:37.479Z",
-      "issueOpen": 3383,
+      "capturedAt": "2026-08-16T09:40:01.910Z",
+      "issueOpen": 3385,
       "issueClosed": 43800,
-      "prOpen": 2156,
-      "prClosed": 72675,
-      "prMerged": 25272,
+      "prOpen": 2153,
+      "prClosed": 72682,
+      "prMerged": 25276,
       "workflowRuns": 40000,
       "stars": 386429,
-      "forks": 81210,
+      "forks": 81208,
       "subscribers": 1758,
-      "commits": 79719,
+      "commits": 79723,
       "contributors": 3103,
       "source": "github-actions",
       "approximateDate": false
@@ -669,9 +669,9 @@
     {
       "capturedOn": "2026-08-16",
       "stars": 386429,
-      "forks": 81210,
+      "forks": 81208,
       "subscribers": 1758,
-      "commits": 79719,
+      "commits": 79723,
       "contributors": 3103
     }
   ],
@@ -679,113 +679,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 119065,
-        "title": "[Bug]: `gateway stop` reports false success when port is busy but process cannot be identified",
-        "url": "https://github.com/openclaw/openclaw/issues/119065",
+        "number": 121013,
+        "title": "No stable release lets Opus 5 use its 1M context window: fix landed on main 2026-07-25, still unreleased; beta has its own reply-breaking regression",
+        "url": "https://github.com/openclaw/openclaw/issues/121013",
         "state": "open",
-        "author": "Schimuneck",
-        "updatedAt": "2026-08-16T08:45:29Z"
+        "author": "marsrobertson",
+        "updatedAt": "2026-08-16T09:38:44Z"
       },
       {
         "kind": "issue",
-        "number": 110763,
-        "title": "[Bug]: No API key in header for Minimax??",
-        "url": "https://github.com/openclaw/openclaw/issues/110763",
+        "number": 7476,
+        "title": "Feature Request: WhatsApp sticker send support",
+        "url": "https://github.com/openclaw/openclaw/issues/7476",
         "state": "open",
-        "author": "najef1979-code",
-        "updatedAt": "2026-08-16T08:45:29Z"
+        "author": "giannisanni",
+        "updatedAt": "2026-08-16T09:38:13Z"
       },
       {
         "kind": "issue",
-        "number": 90467,
-        "title": "[Bug]: Cron dashboard should suggest/validate Telegram announce “To” targets from configured groups",
-        "url": "https://github.com/openclaw/openclaw/issues/90467",
+        "number": 67552,
+        "title": "[Feature]: RFC: Tool Response Freshness Metadata",
+        "url": "https://github.com/openclaw/openclaw/issues/67552",
         "state": "open",
-        "author": "rogerallen1",
-        "updatedAt": "2026-08-16T08:45:29Z"
+        "author": "CaptianZoro",
+        "updatedAt": "2026-08-16T09:37:56Z"
       },
       {
         "kind": "issue",
-        "number": 106786,
-        "title": "[Bug]: gpt-5.6-* is advertised on the ChatGPT-OAuth route, then silently falls back when the provider rejects it",
-        "url": "https://github.com/openclaw/openclaw/issues/106786",
+        "number": 90674,
+        "title": "Gateway writes usage.cost: 0 for model strings absent from its internal price table (silent cost under-reporting)",
+        "url": "https://github.com/openclaw/openclaw/issues/90674",
         "state": "open",
-        "author": "YoungMoneyInvestments",
-        "updatedAt": "2026-08-16T08:45:27Z"
-      },
-      {
-        "kind": "issue",
-        "number": 88543,
-        "title": "TUI: Ctrl+V image paste with inline [imgN] tokens (macOS)",
-        "url": "https://github.com/openclaw/openclaw/issues/88543",
-        "state": "open",
-        "author": "idanshimon",
-        "updatedAt": "2026-08-16T08:45:25Z"
-      },
-      {
-        "kind": "issue",
-        "number": 89668,
-        "title": "[Bug]: WebChat can leak internal browser tool commentary/debug text into user-visible replies",
-        "url": "https://github.com/openclaw/openclaw/issues/89668",
-        "state": "open",
-        "author": "lamyliu",
-        "updatedAt": "2026-08-16T08:45:20Z"
+        "author": "motteman",
+        "updatedAt": "2026-08-16T09:37:46Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 121100,
-        "title": "fix(automations): stop offering rejected agent retargets",
-        "url": "https://github.com/openclaw/openclaw/pull/121100",
+        "number": 112811,
+        "title": "feat(msteams): support multiple bot accounts",
+        "url": "https://github.com/openclaw/openclaw/pull/112811",
         "state": "open",
-        "author": "arhxam",
-        "updatedAt": "2026-08-16T08:45:32Z"
+        "author": "jimmypuckett",
+        "updatedAt": "2026-08-16T09:39:32Z"
       },
       {
         "kind": "pr",
-        "number": 91091,
-        "title": "fix(memory): do not prune session index from a failed directory scan",
-        "url": "https://github.com/openclaw/openclaw/pull/91091",
+        "number": 124415,
+        "title": "fix(plugins): propagate requested beta tag to plugin updates",
+        "url": "https://github.com/openclaw/openclaw/pull/124415",
         "state": "open",
-        "author": "amknight",
-        "updatedAt": "2026-08-16T08:45:30Z"
+        "author": "synthalorian",
+        "updatedAt": "2026-08-16T09:39:27Z"
       },
       {
         "kind": "pr",
-        "number": 124309,
-        "title": "fix(gateway): surface blocking startup progress",
-        "url": "https://github.com/openclaw/openclaw/pull/124309",
+        "number": 123220,
+        "title": "fix(ui): stop retry loop when the chat file editor chunk fails to load",
+        "url": "https://github.com/openclaw/openclaw/pull/123220",
         "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-16T08:45:29Z"
+        "author": "wanyongstar",
+        "updatedAt": "2026-08-16T09:39:27Z"
       },
       {
         "kind": "pr",
-        "number": 119938,
-        "title": "fix: prevent stale image edit completion delivery",
-        "url": "https://github.com/openclaw/openclaw/pull/119938",
-        "state": "open",
-        "author": "lockhartheavyindustries",
-        "updatedAt": "2026-08-16T08:45:26Z"
+        "number": 120900,
+        "title": "feat(ui): review install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/120900",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-16T09:39:22Z"
       },
       {
         "kind": "pr",
-        "number": 123055,
-        "title": "fix(agents): unblock session turns after embedded runs stall",
-        "url": "https://github.com/openclaw/openclaw/pull/123055",
+        "number": 123674,
+        "title": "fix(cli): prevent node/device RPCs from corrupting shared state",
+        "url": "https://github.com/openclaw/openclaw/pull/123674",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-16T08:45:25Z"
+        "author": "VACInc",
+        "updatedAt": "2026-08-16T09:39:20Z"
       },
       {
         "kind": "pr",
-        "number": 114575,
-        "title": "fix(gateway): add killSignal SIGKILL to all ps probes in quiescence scripts",
-        "url": "https://github.com/openclaw/openclaw/pull/114575",
+        "number": 120138,
+        "title": "docs(secrets): keep SecretRef reference docs in sync",
+        "url": "https://github.com/openclaw/openclaw/pull/120138",
         "state": "open",
-        "author": "tzy-17",
-        "updatedAt": "2026-08-16T08:45:24Z"
+        "author": "goutamadwant",
+        "updatedAt": "2026-08-16T09:39:12Z"
       }
     ]
   }

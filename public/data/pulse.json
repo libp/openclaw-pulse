@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-16T17:32:40.406Z",
+  "generatedAt": "2026-08-16T18:45:20.368Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -513,17 +513,17 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "capturedAt": "2026-08-16T17:32:40.406Z",
-      "issueOpen": 3396,
-      "issueClosed": 43825,
-      "prOpen": 2173,
-      "prClosed": 72811,
-      "prMerged": 25386,
+      "capturedAt": "2026-08-16T18:45:20.368Z",
+      "issueOpen": 3395,
+      "issueClosed": 43829,
+      "prOpen": 2187,
+      "prClosed": 72832,
+      "prMerged": 25407,
       "workflowRuns": 40000,
-      "stars": 386454,
-      "forks": 81206,
+      "stars": 386456,
+      "forks": 81204,
       "subscribers": 1758,
-      "commits": 79838,
+      "commits": 79861,
       "contributors": 3103,
       "source": "github-actions",
       "approximateDate": false
@@ -668,10 +668,10 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "stars": 386454,
-      "forks": 81206,
+      "stars": 386456,
+      "forks": 81204,
       "subscribers": 1758,
-      "commits": 79838,
+      "commits": 79861,
       "contributors": 3103
     }
   ],
@@ -679,60 +679,42 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 110763,
-        "title": "[Bug]: No API key in header for Minimax??",
-        "url": "https://github.com/openclaw/openclaw/issues/110763",
-        "state": "open",
-        "author": "najef1979-code",
-        "updatedAt": "2026-08-16T17:32:29Z"
+        "number": 122121,
+        "title": "[Bug]: Chrome relay loses unchanged shared tabs after extension reconnect",
+        "url": "https://github.com/openclaw/openclaw/issues/122121",
+        "state": "closed",
+        "author": "carlitose",
+        "updatedAt": "2026-08-16T18:44:21Z"
       },
       {
         "kind": "issue",
-        "number": 111355,
-        "title": "RFC: Consolidate approval flow behind an ApprovalService port",
-        "url": "https://github.com/openclaw/openclaw/issues/111355",
+        "number": 86012,
+        "title": "[Bug] LINE channel: messages silently lost due to reply token expiry + missing push fallback safeguards",
+        "url": "https://github.com/openclaw/openclaw/issues/86012",
         "state": "open",
-        "author": "gnnave-sudo",
-        "updatedAt": "2026-08-16T17:32:23Z"
-      },
-      {
-        "kind": "issue",
-        "number": 77897,
-        "title": "[Bug]: searchMemoryCorpusSupplements uses Promise.all causing single supplement failure to discard all results",
-        "url": "https://github.com/openclaw/openclaw/issues/77897",
-        "state": "open",
-        "author": "SimbaKingjoe",
-        "updatedAt": "2026-08-16T17:32:35Z"
-      },
-      {
-        "kind": "issue",
-        "number": 28300,
-        "title": "Theme Customization System — Preset Themes + Custom Theme Studio",
-        "url": "https://github.com/openclaw/openclaw/issues/28300",
-        "state": "open",
-        "author": "xingzihai",
-        "updatedAt": "2026-08-16T17:32:23Z"
-      },
-      {
-        "kind": "issue",
-        "number": 96879,
-        "title": "[Feature]:  Add Interactions API transport for Gemini provider",
-        "url": "https://github.com/openclaw/openclaw/issues/96879",
-        "state": "open",
-        "author": "fenglanhua",
-        "updatedAt": "2026-08-16T17:32:19Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119003,
-        "title": "lightContext:true on isolated cron agentTurns strips only bootstrap workspace files, not the skills manifest or tool schemas — runs still load tens of thousands of tokens",
-        "url": "https://github.com/openclaw/openclaw/issues/119003",
-        "state": "open",
-        "author": "Cobblestone-Digital1",
-        "updatedAt": "2026-08-16T17:32:11Z"
+        "author": "samson1357924",
+        "updatedAt": "2026-08-16T18:43:56Z"
       }
     ],
     "prs": [
+      {
+        "kind": "pr",
+        "number": 124301,
+        "title": "improve(control-ui): restructure the composer as a multiline surface",
+        "url": "https://github.com/openclaw/openclaw/pull/124301",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-16T18:45:14Z"
+      },
+      {
+        "kind": "pr",
+        "number": 107479,
+        "title": "docs: add ClawHub glossary labels",
+        "url": "https://github.com/openclaw/openclaw/pull/107479",
+        "state": "open",
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-08-16T18:45:07Z"
+      },
       {
         "kind": "pr",
         "number": 124298,
@@ -740,52 +722,34 @@
         "url": "https://github.com/openclaw/openclaw/pull/124298",
         "state": "open",
         "author": "jjjhenriksen",
-        "updatedAt": "2026-08-16T17:32:26Z"
+        "updatedAt": "2026-08-16T18:45:05Z"
       },
       {
         "kind": "pr",
-        "number": 124649,
-        "title": "fix(codex): reject malformed native tool arguments",
-        "url": "https://github.com/openclaw/openclaw/pull/124649",
+        "number": 124429,
+        "title": "fix(ui): reflect inherited agent skill allowlists",
+        "url": "https://github.com/openclaw/openclaw/pull/124429",
         "state": "open",
-        "author": "PollyBot13",
-        "updatedAt": "2026-08-16T17:32:36Z"
+        "author": "jjjhenriksen",
+        "updatedAt": "2026-08-16T18:45:04Z"
       },
       {
         "kind": "pr",
-        "number": 124707,
-        "title": "fix(cli): report unknown subcommands even with --help",
-        "url": "https://github.com/openclaw/openclaw/pull/124707",
+        "number": 124309,
+        "title": "fix(gateway): surface blocking startup progress",
+        "url": "https://github.com/openclaw/openclaw/pull/124309",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-16T17:32:10Z"
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-16T18:45:02Z"
       },
       {
         "kind": "pr",
-        "number": 124670,
-        "title": "fix(agents): prevent invalid names from targeting the default agent",
-        "url": "https://github.com/openclaw/openclaw/pull/124670",
+        "number": 124162,
+        "title": "fix: disconnection watchdog in provider lifecycle owner",
+        "url": "https://github.com/openclaw/openclaw/pull/124162",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-16T17:31:56Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124708,
-        "title": "feat(voice-call): sessionScope \"main\" routes calls into the agent main session",
-        "url": "https://github.com/openclaw/openclaw/pull/124708",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-16T17:31:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124706,
-        "title": "fix(doctor): stop reporting a fully configured Telegram setup as first-time setup",
-        "url": "https://github.com/openclaw/openclaw/pull/124706",
-        "state": "open",
-        "author": "ggeutzzang",
-        "updatedAt": "2026-08-16T17:31:11Z"
+        "author": "markr9805",
+        "updatedAt": "2026-08-16T18:45:01Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-16T12:58:57.667Z",
+  "generatedAt": "2026-08-16T13:43:48.861Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -513,17 +513,17 @@
     },
     {
       "capturedOn": "2026-08-16",
-      "capturedAt": "2026-08-16T12:58:57.667Z",
-      "issueOpen": 3396,
-      "issueClosed": 43804,
-      "prOpen": 2169,
-      "prClosed": 72710,
-      "prMerged": 25299,
+      "capturedAt": "2026-08-16T13:43:48.861Z",
+      "issueOpen": 3395,
+      "issueClosed": 43809,
+      "prOpen": 2172,
+      "prClosed": 72732,
+      "prMerged": 25318,
       "workflowRuns": 40000,
       "stars": 386433,
-      "forks": 81203,
+      "forks": 81202,
       "subscribers": 1756,
-      "commits": 79748,
+      "commits": 79769,
       "contributors": 3103,
       "source": "github-actions",
       "approximateDate": false
@@ -669,9 +669,9 @@
     {
       "capturedOn": "2026-08-16",
       "stars": 386433,
-      "forks": 81203,
+      "forks": 81202,
       "subscribers": 1756,
-      "commits": 79748,
+      "commits": 79769,
       "contributors": 3103
     }
   ],
@@ -679,95 +679,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 124220,
-        "title": "[Bug]: `sessions_spawn` hard-blocked at admission (`tool_blocked`, never dispatched) for a messaging-profile agent — regression between 2026.7.2-beta.4 and beta.7",
-        "url": "https://github.com/openclaw/openclaw/issues/124220",
+        "number": 94947,
+        "title": "skill_workshop MCP action=create makes a sibling skill when the proposal is clearly meant to patch existing skills",
+        "url": "https://github.com/openclaw/openclaw/issues/94947",
         "state": "open",
-        "author": "migelizaga-rgb",
-        "updatedAt": "2026-08-16T12:58:48Z"
-      },
-      {
-        "kind": "issue",
-        "number": 123886,
-        "title": "[Bug]: Telegram model picker overlaps stale rich text after legacy edit",
-        "url": "https://github.com/openclaw/openclaw/issues/123886",
-        "state": "open",
-        "author": "clawSean",
-        "updatedAt": "2026-08-16T12:58:00Z"
-      },
-      {
-        "kind": "issue",
-        "number": 124099,
-        "title": "SessionCanonicalKeyMigrationRequiredError loop after 2026.8.1-beta.2: trigger-pending rows block dispatch, doctor --fix deadlocks, healthy model gets fallbacked",
-        "url": "https://github.com/openclaw/openclaw/issues/124099",
-        "state": "open",
-        "author": "njuboy11",
-        "updatedAt": "2026-08-16T12:57:57Z"
-      },
-      {
-        "kind": "issue",
-        "number": 122073,
-        "title": "[Bug]: WhatsApp inbound group bodies keep raw @<LID> mention tokens — never resolved to a participant identity, and no structured mentions[] exists, though the channel's own LID→PN store and the outbound path both resolve it",
-        "url": "https://github.com/openclaw/openclaw/issues/122073",
-        "state": "open",
-        "author": "abacha",
-        "updatedAt": "2026-08-16T12:57:41Z"
+        "author": "redasadki",
+        "updatedAt": "2026-08-16T13:43:31Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 124448,
-        "title": "fix(gateway): distinguish queued chats from completed empty replies",
-        "url": "https://github.com/openclaw/openclaw/pull/124448",
-        "state": "open",
-        "author": "algal",
-        "updatedAt": "2026-08-16T12:58:45Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111117,
-        "title": "fix(update): keep repair JSON output parseable",
-        "url": "https://github.com/openclaw/openclaw/pull/111117",
-        "state": "open",
-        "author": "arcabotai",
-        "updatedAt": "2026-08-16T12:58:43Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124582,
-        "title": "fix(gateway): keep shutdown reliable during updates",
-        "url": "https://github.com/openclaw/openclaw/pull/124582",
+        "number": 124608,
+        "title": "fix(plugins): restrict npm project cleanup to owned roots",
+        "url": "https://github.com/openclaw/openclaw/pull/124608",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-16T12:58:54Z"
+        "updatedAt": "2026-08-16T13:43:44Z"
       },
       {
         "kind": "pr",
-        "number": 117712,
-        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/117712",
+        "number": 124600,
+        "title": "fix(plugins): surface unavailable channel state capabilities",
+        "url": "https://github.com/openclaw/openclaw/pull/124600",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-16T13:43:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111175,
+        "title": "fix(usage): omit costUsd when model pricing is all-zero (unknown)",
+        "url": "https://github.com/openclaw/openclaw/pull/111175",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-16T12:58:38Z"
+        "author": "xydigit-zt",
+        "updatedAt": "2026-08-16T13:43:41Z"
       },
       {
         "kind": "pr",
-        "number": 124565,
-        "title": "perf(test): reuse QA hook routing fixture",
-        "url": "https://github.com/openclaw/openclaw/pull/124565",
+        "number": 124113,
+        "title": "fix(acp): don't send inherited thinking default as an ACP config control",
+        "url": "https://github.com/openclaw/openclaw/pull/124113",
+        "state": "open",
+        "author": "vovapetry",
+        "updatedAt": "2026-08-16T13:43:37Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124606,
+        "title": "fix(line): stop inbound media hangs after response headers",
+        "url": "https://github.com/openclaw/openclaw/pull/124606",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-16T12:58:34Z"
+        "updatedAt": "2026-08-16T13:43:28Z"
       },
       {
         "kind": "pr",
-        "number": 124578,
-        "title": "fix(ui): prevent stale Labs errors after reconnect",
-        "url": "https://github.com/openclaw/openclaw/pull/124578",
+        "number": 124611,
+        "title": "fix(update): resolve detached dev status from origin",
+        "url": "https://github.com/openclaw/openclaw/pull/124611",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-16T12:58:28Z"
+        "updatedAt": "2026-08-16T13:43:26Z"
       }
     ]
   }

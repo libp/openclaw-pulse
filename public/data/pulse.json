@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-16T23:32:48.494Z",
+  "generatedAt": "2026-08-17T03:11:50.985Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -527,6 +527,23 @@
       "contributors": 3103,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-17",
+      "capturedAt": "2026-08-17T03:11:50.985Z",
+      "issueOpen": 3392,
+      "issueClosed": 43879,
+      "prOpen": 2182,
+      "prClosed": 73049,
+      "prMerged": 25569,
+      "workflowRuns": 40000,
+      "stars": 386476,
+      "forks": 81212,
+      "subscribers": 1758,
+      "commits": 80033,
+      "contributors": 3104,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -673,119 +690,127 @@
       "subscribers": 1758,
       "commits": 79971,
       "contributors": 3103
+    },
+    {
+      "capturedOn": "2026-08-17",
+      "stars": 386476,
+      "forks": 81212,
+      "subscribers": 1758,
+      "commits": 80033,
+      "contributors": 3104
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 124911,
-        "title": "Compaction reserveTokensFloor ignores model context window; adaptive helper exists but is only used in the error message",
-        "url": "https://github.com/openclaw/openclaw/issues/124911",
-        "state": "open",
-        "author": "shanselman",
-        "updatedAt": "2026-08-16T23:32:39Z"
+        "number": 124933,
+        "title": "[Bug]: Mobile chat transcript always shows message metadata and actions",
+        "url": "https://github.com/openclaw/openclaw/issues/124933",
+        "state": "closed",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-17T03:10:50Z"
       },
       {
         "kind": "issue",
-        "number": 52803,
-        "title": "[Feature]: Improve Control UI for Multi-Agent + Subagent Orchestration (Hierarchy, Bulk Ops, and Scalability)",
-        "url": "https://github.com/openclaw/openclaw/issues/52803",
+        "number": 95318,
+        "title": "[Bug]: WebChat history text cap is hardcoded to 8KB and not configurable",
+        "url": "https://github.com/openclaw/openclaw/issues/95318",
         "state": "open",
-        "author": "Leeon-K",
-        "updatedAt": "2026-08-16T23:32:33Z"
+        "author": "toruvieI",
+        "updatedAt": "2026-08-17T03:10:34Z"
       },
       {
         "kind": "issue",
-        "number": 102196,
-        "title": "Feishu: benign non-zero exec exit codes render as \"Exec failed\" in tool-progress and interrupt streaming; no per-channel toolProgress toggle",
-        "url": "https://github.com/openclaw/openclaw/issues/102196",
+        "number": 119122,
+        "title": "Control UI: add option to render audio/voice attachments after message text (like chat channels)",
+        "url": "https://github.com/openclaw/openclaw/issues/119122",
         "state": "open",
-        "author": "Junesgone",
-        "updatedAt": "2026-08-16T23:32:26Z"
+        "author": "Tangqiu25",
+        "updatedAt": "2026-08-17T03:10:32Z"
       },
       {
         "kind": "issue",
-        "number": 100368,
-        "title": "message_tool_only: withheld finals stay in the agent's context as normal turns, desynchronizing agent memory from what the user saw",
-        "url": "https://github.com/openclaw/openclaw/issues/100368",
+        "number": 66263,
+        "title": "[Bug]: Codex native compaction can leave post-compaction context usage stale or unknown",
+        "url": "https://github.com/openclaw/openclaw/issues/66263",
         "state": "open",
-        "author": "gorkem2020",
-        "updatedAt": "2026-08-16T23:32:00Z"
+        "author": "cyrusaf",
+        "updatedAt": "2026-08-17T03:10:31Z"
       },
       {
         "kind": "issue",
-        "number": 114612,
-        "title": "[memory-core] SQLite unbounded growth: memory_index_chunks + memory_embedding_cache tables have no retention policy, will fill disk over time",
-        "url": "https://github.com/openclaw/openclaw/issues/114612",
+        "number": 119129,
+        "title": "[Bug]: owner-key TaskFlow lookup hits the terminal flow, so cancel/show skip a still-active flow",
+        "url": "https://github.com/openclaw/openclaw/issues/119129",
         "state": "open",
-        "author": "ralf003",
-        "updatedAt": "2026-08-16T23:31:43Z"
+        "author": "ruel225",
+        "updatedAt": "2026-08-17T03:10:30Z"
       },
       {
         "kind": "issue",
-        "number": 124908,
-        "title": "[Bug]: Image inspection can replace requested attachment delivery",
-        "url": "https://github.com/openclaw/openclaw/issues/124908",
+        "number": 94906,
+        "title": "Add recovery path for provider-rejected image blocks in session history",
+        "url": "https://github.com/openclaw/openclaw/issues/94906",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-16T23:31:34Z"
+        "author": "AxelHu",
+        "updatedAt": "2026-08-17T03:10:30Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 91245,
-        "title": "fix(plugin-runtime): restore channel turn alias",
-        "url": "https://github.com/openclaw/openclaw/pull/91245",
+        "number": 114637,
+        "title": "test: lock in provider timeoutSeconds on static catalog fallback model resolution",
+        "url": "https://github.com/openclaw/openclaw/pull/114637",
         "state": "open",
-        "author": "849261680",
-        "updatedAt": "2026-08-16T23:32:40Z"
+        "author": "synthalorian",
+        "updatedAt": "2026-08-17T03:11:37Z"
       },
       {
         "kind": "pr",
-        "number": 124548,
-        "title": "fix(agents): persist sender identity for direct-message turns",
-        "url": "https://github.com/openclaw/openclaw/pull/124548",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-16T23:32:34Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112811,
-        "title": "feat(msteams): support multiple bot accounts",
-        "url": "https://github.com/openclaw/openclaw/pull/112811",
-        "state": "open",
-        "author": "jimmypuckett",
-        "updatedAt": "2026-08-16T23:32:30Z"
-      },
-      {
-        "kind": "pr",
-        "number": 122457,
-        "title": "fix(plugins): adopt root context engines on caller-owned handles",
-        "url": "https://github.com/openclaw/openclaw/pull/122457",
-        "state": "open",
-        "author": "felirami",
-        "updatedAt": "2026-08-16T23:32:27Z"
-      },
-      {
-        "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-16T23:32:16Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124891,
-        "title": "fix(gateway): prevent control-plane polling stalls",
-        "url": "https://github.com/openclaw/openclaw/pull/124891",
+        "number": 124915,
+        "title": "fix(ui): preserve steer order and simplify composer ownership",
+        "url": "https://github.com/openclaw/openclaw/pull/124915",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-16T23:32:15Z"
+        "updatedAt": "2026-08-17T03:11:34Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124701,
+        "title": "fix(plugins): restore installed plugins after policy refresh",
+        "url": "https://github.com/openclaw/openclaw/pull/124701",
+        "state": "open",
+        "author": "qingminglong",
+        "updatedAt": "2026-08-17T03:11:21Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124936,
+        "title": "fix(ui): hide mobile transcript metadata until tap",
+        "url": "https://github.com/openclaw/openclaw/pull/124936",
+        "state": "closed",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-17T03:11:11Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124922,
+        "title": "fix(openrouter): keep OAuth loopback open after invalid callbacks",
+        "url": "https://github.com/openclaw/openclaw/pull/124922",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-17T03:11:11Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124909,
+        "title": "feat: session permission modes with worktree-scoped defaults",
+        "url": "https://github.com/openclaw/openclaw/pull/124909",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-17T03:10:54Z"
       }
     ]
   }

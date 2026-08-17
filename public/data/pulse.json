@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-17T10:47:10.912Z",
+  "generatedAt": "2026-08-17T11:37:40.414Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -530,18 +530,18 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "capturedAt": "2026-08-17T10:47:10.912Z",
-      "issueOpen": 3408,
-      "issueClosed": 43894,
-      "prOpen": 2194,
-      "prClosed": 73216,
-      "prMerged": 25707,
+      "capturedAt": "2026-08-17T11:37:40.414Z",
+      "issueOpen": 3419,
+      "issueClosed": 43901,
+      "prOpen": 2195,
+      "prClosed": 73236,
+      "prMerged": 25725,
       "workflowRuns": 40000,
-      "stars": 386509,
+      "stars": 386510,
       "forks": 81220,
       "subscribers": 1758,
-      "commits": 80177,
-      "contributors": 3105,
+      "commits": 80196,
+      "contributors": 3106,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -693,124 +693,106 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "stars": 386509,
+      "stars": 386510,
       "forks": 81220,
       "subscribers": 1758,
-      "commits": 80177,
-      "contributors": 3105
+      "commits": 80196,
+      "contributors": 3106
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 112155,
-        "title": "[Architecture] Standardize diagnostic exporter artifact package structure",
-        "url": "https://github.com/openclaw/openclaw/issues/112155",
+        "number": 125254,
+        "title": "[Bug]: Degraded context engine makes the Codex runtime project the whole transcript into near-window turn inputs (up to 90% of the context window) on freshly started native threads",
+        "url": "https://github.com/openclaw/openclaw/issues/125254",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-17T10:47:00Z"
+        "author": "Marvinthebored",
+        "updatedAt": "2026-08-17T11:37:20Z"
       },
       {
         "kind": "issue",
-        "number": 124008,
-        "title": "[Bug]: New Session model picker omits dynamically discovered providers from chat.metadata",
-        "url": "https://github.com/openclaw/openclaw/issues/124008",
+        "number": 121187,
+        "title": "[Bug]: yielded requester completion retries intentional NO_REPLY instead of settling quietly",
+        "url": "https://github.com/openclaw/openclaw/issues/121187",
         "state": "open",
-        "author": "catsonkeyboard",
-        "updatedAt": "2026-08-17T10:47:06Z"
+        "author": "BsnizND",
+        "updatedAt": "2026-08-17T11:36:30Z"
       },
       {
         "kind": "issue",
-        "number": 122448,
-        "title": "classifySessionAttention: fallback branch flags CLI backend runs as stuck without checking lastProgressAge",
-        "url": "https://github.com/openclaw/openclaw/issues/122448",
+        "number": 121083,
+        "title": "[Docs Bug]: SecretRef `provider: \"default\"` is an implicit built-in alias — make this explicit in the docs",
+        "url": "https://github.com/openclaw/openclaw/issues/121083",
         "state": "open",
-        "author": "nissl24",
-        "updatedAt": "2026-08-17T10:46:56Z"
+        "author": "fujixm5",
+        "updatedAt": "2026-08-17T11:36:30Z"
       },
       {
         "kind": "issue",
-        "number": 125214,
-        "title": "Transcript redaction can corrupt restart-recovery idempotency keys",
-        "url": "https://github.com/openclaw/openclaw/issues/125214",
+        "number": 83088,
+        "title": "Stale explicit auth.order can collapse profile rotation after update",
+        "url": "https://github.com/openclaw/openclaw/issues/83088",
         "state": "open",
-        "author": "PollyBot13",
-        "updatedAt": "2026-08-17T10:46:50Z"
-      },
-      {
-        "kind": "issue",
-        "number": 125204,
-        "title": "[Bug]: Existing session keeps stale agentRuntime.id=codex pin after switching to OpenRouter model (regression)",
-        "url": "https://github.com/openclaw/openclaw/issues/125204",
-        "state": "open",
-        "author": "RothElektronik",
-        "updatedAt": "2026-08-17T10:47:02Z"
-      },
-      {
-        "kind": "issue",
-        "number": 103231,
-        "title": "`claude-cli` backend: `ownsNativeCompaction` assumption is false for `claude -p` sessions — nobody compacts, sessions grow past 200% context, and every recovery path (stuck-session abort, safeguard compaction) fails silently",
-        "url": "https://github.com/openclaw/openclaw/issues/103231",
-        "state": "open",
-        "author": "dankorotin",
-        "updatedAt": "2026-08-17T10:46:48Z"
+        "author": "DeadlySilent",
+        "updatedAt": "2026-08-17T11:35:29Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 125193,
-        "title": "feat(node-host): support Cloudflare Access service tokens",
-        "url": "https://github.com/openclaw/openclaw/pull/125193",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-17T10:47:03Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125207,
-        "title": "fix(heartbeat): avoid claiming excluded outcomes were recorded",
-        "url": "https://github.com/openclaw/openclaw/pull/125207",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-17T10:47:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125195,
-        "title": "fix(telegram): unify targeted command grammar",
-        "url": "https://github.com/openclaw/openclaw/pull/125195",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-17T10:46:53Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125197,
-        "title": "fix(ui): keep streamed replies ordered across steering",
-        "url": "https://github.com/openclaw/openclaw/pull/125197",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-17T10:46:52Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117535,
-        "title": "fix(doctor): classify critically low disk space as an error",
-        "url": "https://github.com/openclaw/openclaw/pull/117535",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-17T10:46:47Z"
-      },
-      {
-        "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
+        "number": 124909,
+        "title": "feat: session permission modes with worktree-scoped defaults",
+        "url": "https://github.com/openclaw/openclaw/pull/124909",
         "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-17T10:46:45Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-17T11:37:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123078,
+        "title": "build(deps): bump the swift-deps group across 1 directory with 3 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/123078",
+        "state": "open",
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-17T11:37:31Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125217,
+        "title": "fix(sessions): make deletion cleanup outcomes accurate",
+        "url": "https://github.com/openclaw/openclaw/pull/125217",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-17T11:37:23Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125251,
+        "title": "fix(test): standalone upgrade survivor repairs unreleased plugins",
+        "url": "https://github.com/openclaw/openclaw/pull/125251",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-17T11:37:22Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125169,
+        "title": "feat: add Critical Apply transaction contracts",
+        "url": "https://github.com/openclaw/openclaw/pull/125169",
+        "state": "open",
+        "author": "stickaliciousbot",
+        "updatedAt": "2026-08-17T11:37:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117951,
+        "title": "fix(gateway): preserve assistant media in live chat events",
+        "url": "https://github.com/openclaw/openclaw/pull/117951",
+        "state": "open",
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-08-17T11:37:10Z"
       }
     ]
   }

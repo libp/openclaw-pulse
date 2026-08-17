@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-17T04:00:38.766Z",
+  "generatedAt": "2026-08-17T05:48:24.097Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -530,17 +530,17 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "capturedAt": "2026-08-17T04:00:38.766Z",
-      "issueOpen": 3395,
-      "issueClosed": 43880,
-      "prOpen": 2180,
-      "prClosed": 73068,
-      "prMerged": 25580,
+      "capturedAt": "2026-08-17T05:48:24.097Z",
+      "issueOpen": 3399,
+      "issueClosed": 43885,
+      "prOpen": 2184,
+      "prClosed": 73118,
+      "prMerged": 25617,
       "workflowRuns": 40000,
-      "stars": 386483,
-      "forks": 81210,
-      "subscribers": 1758,
-      "commits": 80048,
+      "stars": 386497,
+      "forks": 81213,
+      "subscribers": 1759,
+      "commits": 80085,
       "contributors": 3104,
       "source": "github-actions",
       "approximateDate": false
@@ -693,88 +693,69 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "stars": 386483,
-      "forks": 81210,
-      "subscribers": 1758,
-      "commits": 80048,
+      "stars": 386497,
+      "forks": 81213,
+      "subscribers": 1759,
+      "commits": 80085,
       "contributors": 3104
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 125026,
-        "title": "[Feature]: Decouple fork lineage from sidebar ownership hierarchy",
-        "url": "https://github.com/openclaw/openclaw/issues/125026",
-        "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-17T04:00:08Z"
-      },
-      {
-        "kind": "issue",
-        "number": 107499,
-        "title": "[Architecture] Enforce strict typings for command payloads in packages/gateway-protocol",
-        "url": "https://github.com/openclaw/openclaw/issues/107499",
-        "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-17T04:00:07Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 125027,
-        "title": "fix(ui): recover stale Control UI after gateway updates",
-        "url": "https://github.com/openclaw/openclaw/pull/125027",
+        "number": 124269,
+        "title": "fix(gateway): stop chat.startup from blocking on workspace icon discovery",
+        "url": "https://github.com/openclaw/openclaw/pull/124269",
         "state": "open",
-        "author": "sallyom",
-        "updatedAt": "2026-08-17T04:00:35Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-17T05:48:20Z"
       },
       {
         "kind": "pr",
-        "number": 114098,
-        "title": "feat(signal): add validated interactive setup wizard",
-        "url": "https://github.com/openclaw/openclaw/pull/114098",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-17T04:00:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124990,
-        "title": "fix(ui): show Review immediately when opening files",
-        "url": "https://github.com/openclaw/openclaw/pull/124990",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-17T04:00:25Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124701,
-        "title": "fix(plugins): restore installed plugins after policy refresh",
-        "url": "https://github.com/openclaw/openclaw/pull/124701",
-        "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-08-17T04:00:25Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124988,
-        "title": "improve: detect Claude CLI prompt cache regressions",
-        "url": "https://github.com/openclaw/openclaw/pull/124988",
-        "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-08-17T04:00:16Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124997,
-        "title": "refactor(gateway,ui): one bounded display projection; delete marker strip sites",
-        "url": "https://github.com/openclaw/openclaw/pull/124997",
+        "number": 125089,
+        "title": "test(qa): cover Discord progress draft lifecycle",
+        "url": "https://github.com/openclaw/openclaw/pull/125089",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-17T04:00:06Z"
+        "updatedAt": "2026-08-17T05:48:19Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112375,
+        "title": "feat(cron): shell precheck gate to skip LLM when no work",
+        "url": "https://github.com/openclaw/openclaw/pull/112375",
+        "state": "open",
+        "author": "Bartok9",
+        "updatedAt": "2026-08-17T05:48:19Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124934,
+        "title": "fix(code-mode): show the final tool surface in debug logs",
+        "url": "https://github.com/openclaw/openclaw/pull/124934",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-17T05:48:09Z"
+      },
+      {
+        "kind": "pr",
+        "number": 82950,
+        "title": "fix(security): prevent unsafe approval patterns from hanging command authorization",
+        "url": "https://github.com/openclaw/openclaw/pull/82950",
+        "state": "open",
+        "author": "SebTardif",
+        "updatedAt": "2026-08-17T05:48:04Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111901,
+        "title": "feat(plugin-runtime): support declarative tools and single-attempt completions",
+        "url": "https://github.com/openclaw/openclaw/pull/111901",
+        "state": "open",
+        "author": "Vicenteut",
+        "updatedAt": "2026-08-17T05:48:01Z"
       }
     ]
   }

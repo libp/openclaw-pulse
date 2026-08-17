@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-17T07:14:34.958Z",
+  "generatedAt": "2026-08-17T09:55:59.273Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -530,18 +530,18 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "capturedAt": "2026-08-17T07:14:34.958Z",
-      "issueOpen": 3400,
-      "issueClosed": 43887,
+      "capturedAt": "2026-08-17T09:55:59.273Z",
+      "issueOpen": 3406,
+      "issueClosed": 43893,
       "prOpen": 2190,
-      "prClosed": 73157,
-      "prMerged": 25653,
+      "prClosed": 73209,
+      "prMerged": 25701,
       "workflowRuns": 40000,
-      "stars": 386505,
-      "forks": 81218,
-      "subscribers": 1759,
-      "commits": 80122,
-      "contributors": 3104,
+      "stars": 386501,
+      "forks": 81214,
+      "subscribers": 1758,
+      "commits": 80171,
+      "contributors": 3105,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -693,69 +693,97 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "stars": 386505,
-      "forks": 81218,
-      "subscribers": 1759,
-      "commits": 80122,
-      "contributors": 3104
+      "stars": 386501,
+      "forks": 81214,
+      "subscribers": 1758,
+      "commits": 80171,
+      "contributors": 3105
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 18985,
+        "title": "[Feature]: Supports Windows 11 MSYS environment and Fishshell.",
+        "url": "https://github.com/openclaw/openclaw/issues/18985",
+        "state": "open",
+        "author": "ahaoboy",
+        "updatedAt": "2026-08-17T09:55:48Z"
+      },
+      {
+        "kind": "issue",
+        "number": 64103,
+        "title": "Session `status` field values (\"failed\", \"timeout\", \"done\") mislead agents into spawning duplicate sessions",
+        "url": "https://github.com/openclaw/openclaw/issues/64103",
+        "state": "open",
+        "author": "lykeion-dev",
+        "updatedAt": "2026-08-17T09:55:44Z"
+      },
+      {
+        "kind": "issue",
+        "number": 21207,
+        "title": "[Feature]: Feature Request: Batch Tool Calls + Context Block Management + Plan Enforcement",
+        "url": "https://github.com/openclaw/openclaw/issues/21207",
+        "state": "open",
+        "author": "mmx998",
+        "updatedAt": "2026-08-17T09:55:02Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 125127,
-        "title": "fix(msteams): avoid ambiguous delivery replay",
-        "url": "https://github.com/openclaw/openclaw/pull/125127",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-17T07:14:07Z"
+        "number": 125196,
+        "title": "improve(ui): compose pull request session icons",
+        "url": "https://github.com/openclaw/openclaw/pull/125196",
+        "state": "open",
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-17T09:55:44Z"
       },
       {
         "kind": "pr",
-        "number": 125014,
-        "title": "feat(ui): make session references first-class links with titled chips and hovercards",
-        "url": "https://github.com/openclaw/openclaw/pull/125014",
+        "number": 125193,
+        "title": "feat(node-host): support Cloudflare Access service tokens",
+        "url": "https://github.com/openclaw/openclaw/pull/125193",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-17T07:13:48Z"
+        "updatedAt": "2026-08-17T09:55:44Z"
       },
       {
         "kind": "pr",
-        "number": 125091,
-        "title": "fix(sandbox): queue reads behind in-flight writes to the same file",
-        "url": "https://github.com/openclaw/openclaw/pull/125091",
-        "state": "open",
-        "author": "malimo",
-        "updatedAt": "2026-08-17T07:13:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112375,
-        "title": "feat(cron): shell precheck gate to skip LLM when no work",
-        "url": "https://github.com/openclaw/openclaw/pull/112375",
-        "state": "open",
-        "author": "Bartok9",
-        "updatedAt": "2026-08-17T07:13:39Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125069,
-        "title": "fix(discord): restore voice auto-join on multi-agent gateways",
-        "url": "https://github.com/openclaw/openclaw/pull/125069",
+        "number": 125172,
+        "title": "fix(state): keep unresolved legacy agent state advisory",
+        "url": "https://github.com/openclaw/openclaw/pull/125172",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-17T07:13:36Z"
+        "updatedAt": "2026-08-17T09:55:44Z"
       },
       {
         "kind": "pr",
-        "number": 125024,
-        "title": "fix(agents): standardize image inspection as view_image",
-        "url": "https://github.com/openclaw/openclaw/pull/125024",
+        "number": 123078,
+        "title": "chore(deps): bump the swift-deps group across 1 directory with 3 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/123078",
+        "state": "open",
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-17T09:55:44Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125201,
+        "title": "fix(gateway): honor requested session preview length",
+        "url": "https://github.com/openclaw/openclaw/pull/125201",
+        "state": "open",
+        "author": "Alix-007",
+        "updatedAt": "2026-08-17T09:55:55Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124909,
+        "title": "feat: session permission modes with worktree-scoped defaults",
+        "url": "https://github.com/openclaw/openclaw/pull/124909",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-17T07:13:23Z"
+        "updatedAt": "2026-08-17T09:55:39Z"
       }
     ]
   }

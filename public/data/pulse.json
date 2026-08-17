@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-17T18:55:23.233Z",
+  "generatedAt": "2026-08-17T19:40:32.469Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -530,17 +530,17 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "capturedAt": "2026-08-17T18:55:23.233Z",
-      "issueOpen": 3448,
-      "issueClosed": 43906,
-      "prOpen": 2217,
-      "prClosed": 73291,
-      "prMerged": 25763,
+      "capturedAt": "2026-08-17T19:40:32.469Z",
+      "issueOpen": 3450,
+      "issueClosed": 43907,
+      "prOpen": 2216,
+      "prClosed": 73297,
+      "prMerged": 25768,
       "workflowRuns": 40000,
-      "stars": 386547,
-      "forks": 81222,
+      "stars": 386551,
+      "forks": 81223,
       "subscribers": 1759,
-      "commits": 80233,
+      "commits": 80238,
       "contributors": 3106,
       "source": "github-actions",
       "approximateDate": false
@@ -693,10 +693,10 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "stars": 386547,
-      "forks": 81222,
+      "stars": 386551,
+      "forks": 81223,
       "subscribers": 1759,
-      "commits": 80233,
+      "commits": 80238,
       "contributors": 3106
     }
   ],
@@ -704,32 +704,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 70934,
-        "title": "[Feature]: Show value before customization during first-run onboarding",
-        "url": "https://github.com/openclaw/openclaw/issues/70934",
+        "number": 90746,
+        "title": "Document practical requirements for QMD memory backend on CPU-only VPS deployments",
+        "url": "https://github.com/openclaw/openclaw/issues/90746",
         "state": "open",
-        "author": "johnsonbuilds",
-        "updatedAt": "2026-08-17T18:55:13Z"
+        "author": "holgergruenhagen",
+        "updatedAt": "2026-08-17T19:39:43Z"
       },
       {
         "kind": "issue",
-        "number": 125369,
-        "title": "[Feature]: configurable tailnet port for managed Tailscale Serve/Funnel",
-        "url": "https://github.com/openclaw/openclaw/issues/125369",
+        "number": 125376,
+        "title": "Expose a stable per-delivery attempt ID across outbound message hooks",
+        "url": "https://github.com/openclaw/openclaw/issues/125376",
         "state": "open",
-        "author": "iorudyit",
-        "updatedAt": "2026-08-17T18:53:34Z"
+        "author": "lockhartheavyindustries",
+        "updatedAt": "2026-08-17T19:39:36Z"
+      },
+      {
+        "kind": "issue",
+        "number": 91563,
+        "title": "Dreaming deep phase: minUniqueQueries gate bypassed by day-diversity counting",
+        "url": "https://github.com/openclaw/openclaw/issues/91563",
+        "state": "open",
+        "author": "Orionation",
+        "updatedAt": "2026-08-17T19:39:35Z"
+      },
+      {
+        "kind": "issue",
+        "number": 125375,
+        "title": "iMessage inline replies drop replied-to attachment context",
+        "url": "https://github.com/openclaw/openclaw/issues/125375",
+        "state": "open",
+        "author": "lockhartheavyindustries",
+        "updatedAt": "2026-08-17T19:39:02Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 112375,
-        "title": "feat(cron): shell precheck gate to skip LLM when no work",
-        "url": "https://github.com/openclaw/openclaw/pull/112375",
+        "number": 125033,
+        "title": "fix(ui): show menus for child sessions in the sidebar",
+        "url": "https://github.com/openclaw/openclaw/pull/125033",
         "state": "open",
-        "author": "Bartok9",
-        "updatedAt": "2026-08-17T18:55:11Z"
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-17T19:40:22Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123416,
+        "title": "fix(plugins): let bundledDiscovery compat exempt bundled plugins from the allowlist gate",
+        "url": "https://github.com/openclaw/openclaw/pull/123416",
+        "state": "open",
+        "author": "lonexreb",
+        "updatedAt": "2026-08-17T19:40:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125368,
+        "title": "fix(ui): balance side panel tab pill padding",
+        "url": "https://github.com/openclaw/openclaw/pull/125368",
+        "state": "open",
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-17T19:40:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125245,
+        "title": "feat(ui): add Markdown table interactions",
+        "url": "https://github.com/openclaw/openclaw/pull/125245",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-17T19:40:09Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125377,
+        "title": "fix(cli): honor explicit system agent in configure",
+        "url": "https://github.com/openclaw/openclaw/pull/125377",
+        "state": "open",
+        "author": "jjjhenriksen",
+        "updatedAt": "2026-08-17T19:39:26Z"
       },
       {
         "kind": "pr",
@@ -738,43 +792,7 @@
         "url": "https://github.com/openclaw/openclaw/pull/123356",
         "state": "open",
         "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-17T18:55:09Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125007,
-        "title": "fix(cli): render missing gateway credentials consistently",
-        "url": "https://github.com/openclaw/openclaw/pull/125007",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-17T18:55:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-17T18:54:47Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125302,
-        "title": "fix(agents): stop silent compaction failures",
-        "url": "https://github.com/openclaw/openclaw/pull/125302",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-17T18:54:43Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123906,
-        "title": "fix: TUI startup fails after update rewrites chunks",
-        "url": "https://github.com/openclaw/openclaw/pull/123906",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-17T18:54:29Z"
+        "updatedAt": "2026-08-17T19:39:24Z"
       }
     ]
   }

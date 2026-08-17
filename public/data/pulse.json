@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-17T05:48:24.097Z",
+  "generatedAt": "2026-08-17T07:14:34.958Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -530,17 +530,17 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "capturedAt": "2026-08-17T05:48:24.097Z",
-      "issueOpen": 3399,
-      "issueClosed": 43885,
-      "prOpen": 2184,
-      "prClosed": 73118,
-      "prMerged": 25617,
+      "capturedAt": "2026-08-17T07:14:34.958Z",
+      "issueOpen": 3400,
+      "issueClosed": 43887,
+      "prOpen": 2190,
+      "prClosed": 73157,
+      "prMerged": 25653,
       "workflowRuns": 40000,
-      "stars": 386497,
-      "forks": 81213,
+      "stars": 386505,
+      "forks": 81218,
       "subscribers": 1759,
-      "commits": 80085,
+      "commits": 80122,
       "contributors": 3104,
       "source": "github-actions",
       "approximateDate": false
@@ -693,10 +693,10 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "stars": 386497,
-      "forks": 81213,
+      "stars": 386505,
+      "forks": 81218,
       "subscribers": 1759,
-      "commits": 80085,
+      "commits": 80122,
       "contributors": 3104
     }
   ],
@@ -705,21 +705,30 @@
     "prs": [
       {
         "kind": "pr",
-        "number": 124269,
-        "title": "fix(gateway): stop chat.startup from blocking on workspace icon discovery",
-        "url": "https://github.com/openclaw/openclaw/pull/124269",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-17T05:48:20Z"
+        "number": 125127,
+        "title": "fix(msteams): avoid ambiguous delivery replay",
+        "url": "https://github.com/openclaw/openclaw/pull/125127",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-17T07:14:07Z"
       },
       {
         "kind": "pr",
-        "number": 125089,
-        "title": "test(qa): cover Discord progress draft lifecycle",
-        "url": "https://github.com/openclaw/openclaw/pull/125089",
+        "number": 125014,
+        "title": "feat(ui): make session references first-class links with titled chips and hovercards",
+        "url": "https://github.com/openclaw/openclaw/pull/125014",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-17T05:48:19Z"
+        "updatedAt": "2026-08-17T07:13:48Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125091,
+        "title": "fix(sandbox): queue reads behind in-flight writes to the same file",
+        "url": "https://github.com/openclaw/openclaw/pull/125091",
+        "state": "open",
+        "author": "malimo",
+        "updatedAt": "2026-08-17T07:13:41Z"
       },
       {
         "kind": "pr",
@@ -728,34 +737,25 @@
         "url": "https://github.com/openclaw/openclaw/pull/112375",
         "state": "open",
         "author": "Bartok9",
-        "updatedAt": "2026-08-17T05:48:19Z"
+        "updatedAt": "2026-08-17T07:13:39Z"
       },
       {
         "kind": "pr",
-        "number": 124934,
-        "title": "fix(code-mode): show the final tool surface in debug logs",
-        "url": "https://github.com/openclaw/openclaw/pull/124934",
+        "number": 125069,
+        "title": "fix(discord): restore voice auto-join on multi-agent gateways",
+        "url": "https://github.com/openclaw/openclaw/pull/125069",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-17T05:48:09Z"
+        "updatedAt": "2026-08-17T07:13:36Z"
       },
       {
         "kind": "pr",
-        "number": 82950,
-        "title": "fix(security): prevent unsafe approval patterns from hanging command authorization",
-        "url": "https://github.com/openclaw/openclaw/pull/82950",
+        "number": 125024,
+        "title": "fix(agents): standardize image inspection as view_image",
+        "url": "https://github.com/openclaw/openclaw/pull/125024",
         "state": "open",
-        "author": "SebTardif",
-        "updatedAt": "2026-08-17T05:48:04Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111901,
-        "title": "feat(plugin-runtime): support declarative tools and single-attempt completions",
-        "url": "https://github.com/openclaw/openclaw/pull/111901",
-        "state": "open",
-        "author": "Vicenteut",
-        "updatedAt": "2026-08-17T05:48:01Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-17T07:13:23Z"
       }
     ]
   }

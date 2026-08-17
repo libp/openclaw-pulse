@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-17T16:44:07.130Z",
+  "generatedAt": "2026-08-17T18:55:23.233Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -530,17 +530,17 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "capturedAt": "2026-08-17T16:44:07.130Z",
-      "issueOpen": 3443,
-      "issueClosed": 43903,
+      "capturedAt": "2026-08-17T18:55:23.233Z",
+      "issueOpen": 3448,
+      "issueClosed": 43906,
       "prOpen": 2217,
-      "prClosed": 73276,
-      "prMerged": 25750,
+      "prClosed": 73291,
+      "prMerged": 25763,
       "workflowRuns": 40000,
-      "stars": 386525,
-      "forks": 81220,
+      "stars": 386547,
+      "forks": 81222,
       "subscribers": 1759,
-      "commits": 80220,
+      "commits": 80233,
       "contributors": 3106,
       "source": "github-actions",
       "approximateDate": false
@@ -693,10 +693,10 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "stars": 386525,
-      "forks": 81220,
+      "stars": 386547,
+      "forks": 81222,
       "subscribers": 1759,
-      "commits": 80220,
+      "commits": 80233,
       "contributors": 3106
     }
   ],
@@ -704,95 +704,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 114105,
-        "title": "Token Plan catalog curation in #113681 used the Coding Plan endpoint: adds a model that 404s and keeps the oldest of each family",
-        "url": "https://github.com/openclaw/openclaw/issues/114105",
+        "number": 70934,
+        "title": "[Feature]: Show value before customization during first-run onboarding",
+        "url": "https://github.com/openclaw/openclaw/issues/70934",
         "state": "open",
-        "author": "oliver-mee",
-        "updatedAt": "2026-08-17T16:43:39Z"
+        "author": "johnsonbuilds",
+        "updatedAt": "2026-08-17T18:55:13Z"
       },
       {
         "kind": "issue",
-        "number": 13601,
-        "title": "Add persistent cron job execution history with filtering",
-        "url": "https://github.com/openclaw/openclaw/issues/13601",
+        "number": 125369,
+        "title": "[Feature]: configurable tailnet port for managed Tailscale Serve/Funnel",
+        "url": "https://github.com/openclaw/openclaw/issues/125369",
         "state": "open",
-        "author": "trevorgordon981",
-        "updatedAt": "2026-08-17T16:42:00Z"
-      },
-      {
-        "kind": "issue",
-        "number": 125311,
-        "title": "sessions tail should surface compact per-event metrics; harness trajectory recorder should be a revocable host capability",
-        "url": "https://github.com/openclaw/openclaw/issues/125311",
-        "state": "open",
-        "author": "Grynn",
-        "updatedAt": "2026-08-17T16:41:29Z"
-      },
-      {
-        "kind": "issue",
-        "number": 124396,
-        "title": "[Feature]: Make `openclaw update` one transaction: prove candidate before activation, verified state checkpoint, whole-product rollback, no crash-loop on migration warnings",
-        "url": "https://github.com/openclaw/openclaw/issues/124396",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-08-17T16:40:10Z"
+        "author": "iorudyit",
+        "updatedAt": "2026-08-17T18:53:34Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 125332,
-        "title": "feat(ui): preserve composer drafts across restarts",
-        "url": "https://github.com/openclaw/openclaw/pull/125332",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-17T16:44:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123482,
-        "title": "fix: session list stalls while loading workspace state",
-        "url": "https://github.com/openclaw/openclaw/pull/123482",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-17T16:43:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112811,
-        "title": "feat(msteams): support multiple bot accounts",
-        "url": "https://github.com/openclaw/openclaw/pull/112811",
-        "state": "open",
-        "author": "jimmypuckett",
-        "updatedAt": "2026-08-17T16:43:15Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125262,
-        "title": "chore(i18n): refresh native locales",
-        "url": "https://github.com/openclaw/openclaw/pull/125262",
-        "state": "open",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-08-17T16:43:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125346,
-        "title": "fix: keep model skill catalogs bounded and available",
-        "url": "https://github.com/openclaw/openclaw/pull/125346",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-17T16:42:51Z"
-      },
-      {
-        "kind": "pr",
-        "number": 91237,
-        "title": "fix(providers/openrouter): treat OpenRouter (URL + default route) as long-TTL-eligible for Anthropic cache_control",
-        "url": "https://github.com/openclaw/openclaw/pull/91237",
+        "number": 112375,
+        "title": "feat(cron): shell precheck gate to skip LLM when no work",
+        "url": "https://github.com/openclaw/openclaw/pull/112375",
         "state": "open",
         "author": "Bartok9",
-        "updatedAt": "2026-08-17T16:42:37Z"
+        "updatedAt": "2026-08-17T18:55:11Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123356,
+        "title": "improve(control-ui): stage slash command arguments in the composer",
+        "url": "https://github.com/openclaw/openclaw/pull/123356",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-17T18:55:09Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125007,
+        "title": "fix(cli): render missing gateway credentials consistently",
+        "url": "https://github.com/openclaw/openclaw/pull/125007",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-17T18:55:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120900,
+        "title": "feat(ui): review install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/120900",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-17T18:54:47Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125302,
+        "title": "fix(agents): stop silent compaction failures",
+        "url": "https://github.com/openclaw/openclaw/pull/125302",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-17T18:54:43Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123906,
+        "title": "fix: TUI startup fails after update rewrites chunks",
+        "url": "https://github.com/openclaw/openclaw/pull/123906",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-17T18:54:29Z"
       }
     ]
   }

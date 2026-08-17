@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-17T19:40:32.469Z",
+  "generatedAt": "2026-08-17T22:38:56.941Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -530,17 +530,17 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "capturedAt": "2026-08-17T19:40:32.469Z",
-      "issueOpen": 3450,
-      "issueClosed": 43907,
-      "prOpen": 2216,
-      "prClosed": 73297,
-      "prMerged": 25768,
+      "capturedAt": "2026-08-17T22:38:56.941Z",
+      "issueOpen": 3455,
+      "issueClosed": 43915,
+      "prOpen": 2237,
+      "prClosed": 73321,
+      "prMerged": 25783,
       "workflowRuns": 40000,
-      "stars": 386551,
-      "forks": 81223,
-      "subscribers": 1759,
-      "commits": 80238,
+      "stars": 386557,
+      "forks": 81227,
+      "subscribers": 1760,
+      "commits": 80253,
       "contributors": 3106,
       "source": "github-actions",
       "approximateDate": false
@@ -693,10 +693,10 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "stars": 386551,
-      "forks": 81223,
-      "subscribers": 1759,
-      "commits": 80238,
+      "stars": 386557,
+      "forks": 81227,
+      "subscribers": 1760,
+      "commits": 80253,
       "contributors": 3106
     }
   ],
@@ -704,95 +704,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 90746,
-        "title": "Document practical requirements for QMD memory backend on CPU-only VPS deployments",
-        "url": "https://github.com/openclaw/openclaw/issues/90746",
+        "number": 60816,
+        "title": "edit tool should classify concurrent identical edits as noop and distinguish them from both success and failure",
+        "url": "https://github.com/openclaw/openclaw/issues/60816",
         "state": "open",
-        "author": "holgergruenhagen",
-        "updatedAt": "2026-08-17T19:39:43Z"
+        "author": "bboguri",
+        "updatedAt": "2026-08-17T22:38:40Z"
       },
       {
         "kind": "issue",
-        "number": 125376,
-        "title": "Expose a stable per-delivery attempt ID across outbound message hooks",
-        "url": "https://github.com/openclaw/openclaw/issues/125376",
+        "number": 110136,
+        "title": "[Feature]: Allow hiding progress activity receipt while keeping commentary",
+        "url": "https://github.com/openclaw/openclaw/issues/110136",
         "state": "open",
-        "author": "lockhartheavyindustries",
-        "updatedAt": "2026-08-17T19:39:36Z"
+        "author": "TailsProwerWorks",
+        "updatedAt": "2026-08-17T22:38:37Z"
       },
       {
         "kind": "issue",
-        "number": 91563,
-        "title": "Dreaming deep phase: minUniqueQueries gate bypassed by day-diversity counting",
-        "url": "https://github.com/openclaw/openclaw/issues/91563",
+        "number": 20837,
+        "title": "[Feature]: make agent aware of communication channel",
+        "url": "https://github.com/openclaw/openclaw/issues/20837",
         "state": "open",
-        "author": "Orionation",
-        "updatedAt": "2026-08-17T19:39:35Z"
+        "author": "SvenMeyer",
+        "updatedAt": "2026-08-17T22:38:30Z"
       },
       {
         "kind": "issue",
-        "number": 125375,
-        "title": "iMessage inline replies drop replied-to attachment context",
-        "url": "https://github.com/openclaw/openclaw/issues/125375",
+        "number": 88903,
+        "title": "[Feature]: Suppress EmbeddedAttemptSessionTakeoverError from conversation context on user-initiated abort",
+        "url": "https://github.com/openclaw/openclaw/issues/88903",
         "state": "open",
-        "author": "lockhartheavyindustries",
-        "updatedAt": "2026-08-17T19:39:02Z"
+        "author": "lykeion-dev",
+        "updatedAt": "2026-08-17T22:38:24Z"
+      },
+      {
+        "kind": "issue",
+        "number": 81924,
+        "title": "gateway: add a suppressed marker to sessions.changed when a silent-reply broadcast is dropped",
+        "url": "https://github.com/openclaw/openclaw/issues/81924",
+        "state": "open",
+        "author": "nuioo",
+        "updatedAt": "2026-08-17T22:38:18Z"
+      },
+      {
+        "kind": "issue",
+        "number": 125328,
+        "title": "[CLARIFICATION] exec rejects \"timeout\" by design, but code-mode → openclaw:core:terminal chain still emits it — what is the contract?",
+        "url": "https://github.com/openclaw/openclaw/issues/125328",
+        "state": "open",
+        "author": "zhucegep",
+        "updatedAt": "2026-08-17T22:38:12Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 125033,
-        "title": "fix(ui): show menus for child sessions in the sidebar",
-        "url": "https://github.com/openclaw/openclaw/pull/125033",
-        "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-17T19:40:22Z"
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-17T22:38:48Z"
       },
       {
         "kind": "pr",
-        "number": 123416,
-        "title": "fix(plugins): let bundledDiscovery compat exempt bundled plugins from the allowlist gate",
-        "url": "https://github.com/openclaw/openclaw/pull/123416",
+        "number": 125408,
+        "title": "fix(macos): keep elevation host CUA-free",
+        "url": "https://github.com/openclaw/openclaw/pull/125408",
         "state": "open",
-        "author": "lonexreb",
-        "updatedAt": "2026-08-17T19:40:17Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-17T22:38:45Z"
       },
       {
         "kind": "pr",
-        "number": 125368,
-        "title": "fix(ui): balance side panel tab pill padding",
-        "url": "https://github.com/openclaw/openclaw/pull/125368",
-        "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-17T19:40:16Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125245,
-        "title": "feat(ui): add Markdown table interactions",
-        "url": "https://github.com/openclaw/openclaw/pull/125245",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-17T19:40:09Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125377,
-        "title": "fix(cli): honor explicit system agent in configure",
-        "url": "https://github.com/openclaw/openclaw/pull/125377",
+        "number": 124429,
+        "title": "fix(ui): reflect inherited agent skill allowlists",
+        "url": "https://github.com/openclaw/openclaw/pull/124429",
         "state": "open",
         "author": "jjjhenriksen",
-        "updatedAt": "2026-08-17T19:39:26Z"
+        "updatedAt": "2026-08-17T22:38:40Z"
       },
       {
         "kind": "pr",
-        "number": 123356,
-        "title": "improve(control-ui): stage slash command arguments in the composer",
-        "url": "https://github.com/openclaw/openclaw/pull/123356",
+        "number": 123535,
+        "title": "fix(ui): avoid session catalog refresh storms",
+        "url": "https://github.com/openclaw/openclaw/pull/123535",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-17T19:39:24Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-17T22:38:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125384,
+        "title": "refactor(workers): make worker turns node-only",
+        "url": "https://github.com/openclaw/openclaw/pull/125384",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-17T22:38:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125383,
+        "title": "fix(llama): support embedding-only managed servers",
+        "url": "https://github.com/openclaw/openclaw/pull/125383",
+        "state": "open",
+        "author": "jjjhenriksen",
+        "updatedAt": "2026-08-17T22:38:33Z"
       }
     ]
   }

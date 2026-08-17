@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-17T11:37:40.414Z",
+  "generatedAt": "2026-08-17T13:03:54.015Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -530,17 +530,17 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "capturedAt": "2026-08-17T11:37:40.414Z",
-      "issueOpen": 3419,
-      "issueClosed": 43901,
-      "prOpen": 2195,
-      "prClosed": 73236,
-      "prMerged": 25725,
+      "capturedAt": "2026-08-17T13:03:54.015Z",
+      "issueOpen": 3429,
+      "issueClosed": 43902,
+      "prOpen": 2197,
+      "prClosed": 73251,
+      "prMerged": 25736,
       "workflowRuns": 40000,
-      "stars": 386510,
-      "forks": 81220,
+      "stars": 386514,
+      "forks": 81217,
       "subscribers": 1758,
-      "commits": 80196,
+      "commits": 80206,
       "contributors": 3106,
       "source": "github-actions",
       "approximateDate": false
@@ -693,10 +693,10 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "stars": 386510,
-      "forks": 81220,
+      "stars": 386514,
+      "forks": 81217,
       "subscribers": 1758,
-      "commits": 80196,
+      "commits": 80206,
       "contributors": 3106
     }
   ],
@@ -704,95 +704,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 125254,
-        "title": "[Bug]: Degraded context engine makes the Codex runtime project the whole transcript into near-window turn inputs (up to 90% of the context window) on freshly started native threads",
-        "url": "https://github.com/openclaw/openclaw/issues/125254",
+        "number": 125277,
+        "title": "[Bug] Session/heartbeat message timestamps freeze at last inbound message; persist across gateway restart AND laptop reboot",
+        "url": "https://github.com/openclaw/openclaw/issues/125277",
         "state": "open",
-        "author": "Marvinthebored",
-        "updatedAt": "2026-08-17T11:37:20Z"
+        "author": "EchoOfTheConstellation",
+        "updatedAt": "2026-08-17T13:03:22Z"
       },
       {
         "kind": "issue",
-        "number": 121187,
-        "title": "[Bug]: yielded requester completion retries intentional NO_REPLY instead of settling quietly",
-        "url": "https://github.com/openclaw/openclaw/issues/121187",
+        "number": 125274,
+        "title": "[Bug]: Telegram final message silently dropped on multi-tool turns — sendMessage ok in log, never received in client (7.2-beta.7)",
+        "url": "https://github.com/openclaw/openclaw/issues/125274",
         "state": "open",
-        "author": "BsnizND",
-        "updatedAt": "2026-08-17T11:36:30Z"
+        "author": "jbabybutt",
+        "updatedAt": "2026-08-17T13:02:40Z"
       },
       {
         "kind": "issue",
-        "number": 121083,
-        "title": "[Docs Bug]: SecretRef `provider: \"default\"` is an implicit built-in alias — make this explicit in the docs",
-        "url": "https://github.com/openclaw/openclaw/issues/121083",
+        "number": 22438,
+        "title": "feat: Tiered bootstrap file loading for progressive context control",
+        "url": "https://github.com/openclaw/openclaw/issues/22438",
         "state": "open",
-        "author": "fujixm5",
-        "updatedAt": "2026-08-17T11:36:30Z"
-      },
-      {
-        "kind": "issue",
-        "number": 83088,
-        "title": "Stale explicit auth.order can collapse profile rotation after update",
-        "url": "https://github.com/openclaw/openclaw/issues/83088",
-        "state": "open",
-        "author": "DeadlySilent",
-        "updatedAt": "2026-08-17T11:35:29Z"
+        "author": "882soft",
+        "updatedAt": "2026-08-17T13:02:30Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 124909,
-        "title": "feat: session permission modes with worktree-scoped defaults",
-        "url": "https://github.com/openclaw/openclaw/pull/124909",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-17T11:37:36Z"
+        "number": 120860,
+        "title": "fix(message): describe channel provider parameter",
+        "url": "https://github.com/openclaw/openclaw/pull/120860",
+        "state": "open",
+        "author": "sunlit-deng",
+        "updatedAt": "2026-08-17T13:03:34Z"
       },
       {
         "kind": "pr",
-        "number": 123078,
-        "title": "build(deps): bump the swift-deps group across 1 directory with 3 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/123078",
+        "number": 115432,
+        "title": "fix(security): audit open Feishu and Teams DMs",
+        "url": "https://github.com/openclaw/openclaw/pull/115432",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-17T11:37:31Z"
+        "author": "aspalagin",
+        "updatedAt": "2026-08-17T13:03:23Z"
       },
       {
         "kind": "pr",
-        "number": 125217,
-        "title": "fix(sessions): make deletion cleanup outcomes accurate",
-        "url": "https://github.com/openclaw/openclaw/pull/125217",
+        "number": 125280,
+        "title": "Show worktree option only for Git group folders",
+        "url": "https://github.com/openclaw/openclaw/pull/125280",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-17T11:37:23Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-17T13:03:20Z"
       },
       {
         "kind": "pr",
-        "number": 125251,
-        "title": "fix(test): standalone upgrade survivor repairs unreleased plugins",
-        "url": "https://github.com/openclaw/openclaw/pull/125251",
+        "number": 123556,
+        "title": "perf(gateway): share Git checkout probes during session loading",
+        "url": "https://github.com/openclaw/openclaw/pull/123556",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-17T11:37:22Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-17T13:03:17Z"
       },
       {
         "kind": "pr",
-        "number": 125169,
-        "title": "feat: add Critical Apply transaction contracts",
-        "url": "https://github.com/openclaw/openclaw/pull/125169",
+        "number": 125190,
+        "title": "fix(telegram): keep plugin approvals in group topics (openclaw#125166)",
+        "url": "https://github.com/openclaw/openclaw/pull/125190",
         "state": "open",
-        "author": "stickaliciousbot",
-        "updatedAt": "2026-08-17T11:37:18Z"
+        "author": "Waste2Time",
+        "updatedAt": "2026-08-17T13:03:14Z"
       },
       {
         "kind": "pr",
-        "number": 117951,
-        "title": "fix(gateway): preserve assistant media in live chat events",
-        "url": "https://github.com/openclaw/openclaw/pull/117951",
+        "number": 123585,
+        "title": "fix(acp): run session/new prompts in the requested cwd",
+        "url": "https://github.com/openclaw/openclaw/pull/123585",
         "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-17T11:37:10Z"
+        "author": "Chinmayrawat15",
+        "updatedAt": "2026-08-17T13:03:09Z"
       }
     ]
   }

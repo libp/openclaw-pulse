@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-17T14:42:47.704Z",
+  "generatedAt": "2026-08-17T15:36:57.326Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -530,15 +530,15 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "capturedAt": "2026-08-17T14:42:47.704Z",
-      "issueOpen": 3428,
-      "issueClosed": 43902,
-      "prOpen": 2204,
-      "prClosed": 73259,
+      "capturedAt": "2026-08-17T15:36:57.326Z",
+      "issueOpen": 3439,
+      "issueClosed": 43903,
+      "prOpen": 2213,
+      "prClosed": 73262,
       "prMerged": 25740,
       "workflowRuns": 40000,
-      "stars": 386521,
-      "forks": 81216,
+      "stars": 386525,
+      "forks": 81217,
       "subscribers": 1759,
       "commits": 80210,
       "contributors": 3106,
@@ -693,8 +693,8 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "stars": 386521,
-      "forks": 81216,
+      "stars": 386525,
+      "forks": 81217,
       "subscribers": 1759,
       "commits": 80210,
       "contributors": 3106
@@ -704,86 +704,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 82450,
-        "title": "Accessibility Request: Linear Persistent Workspace Mode for Blind Users",
-        "url": "https://github.com/openclaw/openclaw/issues/82450",
+        "number": 120638,
+        "title": "Docs site documents main instead of the latest stable release",
+        "url": "https://github.com/openclaw/openclaw/issues/120638",
         "state": "open",
-        "author": "xiaopinpin-music",
-        "updatedAt": "2026-08-17T14:42:36Z"
+        "author": "nikhilmaddirala",
+        "updatedAt": "2026-08-17T15:36:47Z"
       },
       {
         "kind": "issue",
-        "number": 81924,
-        "title": "gateway: add a suppressed marker to sessions.changed when a silent-reply broadcast is dropped",
-        "url": "https://github.com/openclaw/openclaw/issues/81924",
+        "number": 11977,
+        "title": "feat: add linux/riscv64 Docker image to multi-platform build",
+        "url": "https://github.com/openclaw/openclaw/issues/11977",
         "state": "open",
-        "author": "nuioo",
-        "updatedAt": "2026-08-17T14:42:19Z"
+        "author": "gounthar",
+        "updatedAt": "2026-08-17T15:36:45Z"
       },
       {
         "kind": "issue",
-        "number": 10005,
-        "title": "Add option to hide session status card",
-        "url": "https://github.com/openclaw/openclaw/issues/10005",
+        "number": 125309,
+        "title": "[Bug]: Durable memory maintenance rescans per search, forces full reindex on chunking bump, and replays provenance backfill on every open",
+        "url": "https://github.com/openclaw/openclaw/issues/125309",
         "state": "open",
-        "author": "kiss2223320-cmyk",
-        "updatedAt": "2026-08-17T14:40:50Z"
+        "author": "Grynn",
+        "updatedAt": "2026-08-17T15:36:41Z"
+      },
+      {
+        "kind": "issue",
+        "number": 14206,
+        "title": "Add Message Rate Limiting for Feishu Channel",
+        "url": "https://github.com/openclaw/openclaw/issues/14206",
+        "state": "open",
+        "author": "immars",
+        "updatedAt": "2026-08-17T15:36:23Z"
+      },
+      {
+        "kind": "issue",
+        "number": 13593,
+        "title": "Add logging and warnings for cron job execution failures",
+        "url": "https://github.com/openclaw/openclaw/issues/13593",
+        "state": "open",
+        "author": "trevorgordon981",
+        "updatedAt": "2026-08-17T15:36:10Z"
+      },
+      {
+        "kind": "issue",
+        "number": 125315,
+        "title": "Rate-limit cooldowns trigger full provider-catalog rewarm; CLI session listing and model resolution redo heavyweight initialization",
+        "url": "https://github.com/openclaw/openclaw/issues/125315",
+        "state": "open",
+        "author": "Grynn",
+        "updatedAt": "2026-08-17T15:35:34Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 125195,
-        "title": "fix(telegram): unify targeted command grammar",
-        "url": "https://github.com/openclaw/openclaw/pull/125195",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-17T14:42:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120419,
-        "title": "fix(channels): requeue pre-adoption ingress stalls instead of silently losing the message",
-        "url": "https://github.com/openclaw/openclaw/pull/120419",
-        "state": "open",
-        "author": "Grynn",
-        "updatedAt": "2026-08-17T14:42:34Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123979,
-        "title": "fix(scripts): build heap ignores its systemd memory budget and takes the full default",
-        "url": "https://github.com/openclaw/openclaw/pull/123979",
+        "number": 123482,
+        "title": "fix: session list stalls while loading workspace state",
+        "url": "https://github.com/openclaw/openclaw/pull/123482",
         "state": "open",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-17T14:42:26Z"
+        "updatedAt": "2026-08-17T15:36:24Z"
       },
       {
         "kind": "pr",
-        "number": 118468,
-        "title": "fix(diagnostics): stall notices overstate delays and misname why replies were dropped",
-        "url": "https://github.com/openclaw/openclaw/pull/118468",
+        "number": 125107,
+        "title": "feat(control-ui): persistent Ask OpenClaw companion with global toggle",
+        "url": "https://github.com/openclaw/openclaw/pull/125107",
         "state": "open",
-        "author": "zeroaltitude",
-        "updatedAt": "2026-08-17T14:42:26Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-17T15:36:16Z"
       },
       {
         "kind": "pr",
-        "number": 121796,
-        "title": "fix(cron): surface Code Mode tool failures in cron run history",
-        "url": "https://github.com/openclaw/openclaw/pull/121796",
+        "number": 125324,
+        "title": "fix(codex): degraded-engine continuity no longer projects the whole context window per turn",
+        "url": "https://github.com/openclaw/openclaw/pull/125324",
         "state": "open",
-        "author": "Grynn",
-        "updatedAt": "2026-08-17T14:42:23Z"
+        "author": "Marvinthebored",
+        "updatedAt": "2026-08-17T15:36:07Z"
       },
       {
         "kind": "pr",
-        "number": 115138,
-        "title": "perf(sqlite): memory-map reads on local-filesystem databases (#112758)",
-        "url": "https://github.com/openclaw/openclaw/pull/115138",
+        "number": 123556,
+        "title": "perf(gateway): share Git checkout probes during session loading",
+        "url": "https://github.com/openclaw/openclaw/pull/123556",
         "state": "open",
-        "author": "chelsealong",
-        "updatedAt": "2026-08-17T14:42:17Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-17T15:35:44Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125325,
+        "title": "fix(auto-reply): report failed queued replies after status delivery",
+        "url": "https://github.com/openclaw/openclaw/pull/125325",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-17T15:35:28Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118067,
+        "title": "feat(discord): support private provider endpoints",
+        "url": "https://github.com/openclaw/openclaw/pull/118067",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-17T15:35:23Z"
       }
     ]
   }

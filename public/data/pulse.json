@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-17T22:38:56.941Z",
+  "generatedAt": "2026-08-17T23:35:05.201Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -530,17 +530,17 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "capturedAt": "2026-08-17T22:38:56.941Z",
+      "capturedAt": "2026-08-17T23:35:05.201Z",
       "issueOpen": 3455,
-      "issueClosed": 43915,
-      "prOpen": 2237,
-      "prClosed": 73321,
-      "prMerged": 25783,
+      "issueClosed": 43920,
+      "prOpen": 2230,
+      "prClosed": 73339,
+      "prMerged": 25800,
       "workflowRuns": 40000,
-      "stars": 386557,
-      "forks": 81227,
+      "stars": 386561,
+      "forks": 81228,
       "subscribers": 1760,
-      "commits": 80253,
+      "commits": 80270,
       "contributors": 3106,
       "source": "github-actions",
       "approximateDate": false
@@ -693,10 +693,10 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "stars": 386557,
-      "forks": 81227,
+      "stars": 386561,
+      "forks": 81228,
       "subscribers": 1760,
-      "commits": 80253,
+      "commits": 80270,
       "contributors": 3106
     }
   ],
@@ -704,113 +704,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 60816,
-        "title": "edit tool should classify concurrent identical edits as noop and distinguish them from both success and failure",
-        "url": "https://github.com/openclaw/openclaw/issues/60816",
+        "number": 117178,
+        "title": "[Feature]: Confirm disruptive lifecycle actions in Control UI and apps",
+        "url": "https://github.com/openclaw/openclaw/issues/117178",
         "state": "open",
-        "author": "bboguri",
-        "updatedAt": "2026-08-17T22:38:40Z"
+        "author": "VACInc",
+        "updatedAt": "2026-08-17T23:33:53Z"
       },
       {
         "kind": "issue",
-        "number": 110136,
-        "title": "[Feature]: Allow hiding progress activity receipt while keeping commentary",
-        "url": "https://github.com/openclaw/openclaw/issues/110136",
+        "number": 110160,
+        "title": "Enhancement: Add protection against slow bot-to-bot conversation loops",
+        "url": "https://github.com/openclaw/openclaw/issues/110160",
         "state": "open",
-        "author": "TailsProwerWorks",
-        "updatedAt": "2026-08-17T22:38:37Z"
+        "author": "chenriquefg-eng",
+        "updatedAt": "2026-08-17T23:33:48Z"
       },
       {
         "kind": "issue",
-        "number": 20837,
-        "title": "[Feature]: make agent aware of communication channel",
-        "url": "https://github.com/openclaw/openclaw/issues/20837",
+        "number": 113756,
+        "title": "[Bug]: Message ordering conflict / out-of-order replies still occurring on 2026.7.1-2 (webchat)",
+        "url": "https://github.com/openclaw/openclaw/issues/113756",
         "state": "open",
-        "author": "SvenMeyer",
-        "updatedAt": "2026-08-17T22:38:30Z"
+        "author": "Ameazy77",
+        "updatedAt": "2026-08-17T23:33:35Z"
       },
       {
         "kind": "issue",
-        "number": 88903,
-        "title": "[Feature]: Suppress EmbeddedAttemptSessionTakeoverError from conversation context on user-initiated abort",
-        "url": "https://github.com/openclaw/openclaw/issues/88903",
+        "number": 117154,
+        "title": "thread-reply deliveries are not marked as current-source replies (follow-up to #116909)",
+        "url": "https://github.com/openclaw/openclaw/issues/117154",
         "state": "open",
-        "author": "lykeion-dev",
-        "updatedAt": "2026-08-17T22:38:24Z"
+        "author": "omarshahine",
+        "updatedAt": "2026-08-17T23:33:12Z"
       },
       {
         "kind": "issue",
-        "number": 81924,
-        "title": "gateway: add a suppressed marker to sessions.changed when a silent-reply broadcast is dropped",
-        "url": "https://github.com/openclaw/openclaw/issues/81924",
+        "number": 116731,
+        "title": "Cron failureAlert silently swallowed by quiet exits and misses WSL2 drvfs mount failure",
+        "url": "https://github.com/openclaw/openclaw/issues/116731",
         "state": "open",
-        "author": "nuioo",
-        "updatedAt": "2026-08-17T22:38:18Z"
-      },
-      {
-        "kind": "issue",
-        "number": 125328,
-        "title": "[CLARIFICATION] exec rejects \"timeout\" by design, but code-mode → openclaw:core:terminal chain still emits it — what is the contract?",
-        "url": "https://github.com/openclaw/openclaw/issues/125328",
-        "state": "open",
-        "author": "zhucegep",
-        "updatedAt": "2026-08-17T22:38:12Z"
+        "author": "warren2008-2020-spec",
+        "updatedAt": "2026-08-17T23:33:02Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
+        "number": 124162,
+        "title": "fix: disconnection watchdog in provider lifecycle owner",
+        "url": "https://github.com/openclaw/openclaw/pull/124162",
+        "state": "open",
+        "author": "markr9805",
+        "updatedAt": "2026-08-17T23:34:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125448,
+        "title": "improve(testing): prove live OpenAI turns after packaged upgrades",
+        "url": "https://github.com/openclaw/openclaw/pull/125448",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-17T23:34:47Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125429,
+        "title": "fix(workboard): stop lifecycle sync errors with multiple agents",
+        "url": "https://github.com/openclaw/openclaw/pull/125429",
         "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-17T22:38:48Z"
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-08-17T23:34:47Z"
       },
       {
         "kind": "pr",
-        "number": 125408,
-        "title": "fix(macos): keep elevation host CUA-free",
-        "url": "https://github.com/openclaw/openclaw/pull/125408",
+        "number": 124516,
+        "title": "fix(sessions): bound store lookup to stop gateway CPU wedge without dropping retired stores",
+        "url": "https://github.com/openclaw/openclaw/pull/124516",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-17T22:38:45Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-08-17T23:34:41Z"
       },
       {
         "kind": "pr",
-        "number": 124429,
-        "title": "fix(ui): reflect inherited agent skill allowlists",
-        "url": "https://github.com/openclaw/openclaw/pull/124429",
-        "state": "open",
-        "author": "jjjhenriksen",
-        "updatedAt": "2026-08-17T22:38:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-17T22:38:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125384,
-        "title": "refactor(workers): make worker turns node-only",
-        "url": "https://github.com/openclaw/openclaw/pull/125384",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-17T22:38:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125383,
-        "title": "fix(llama): support embedding-only managed servers",
-        "url": "https://github.com/openclaw/openclaw/pull/125383",
+        "number": 125377,
+        "title": "fix(cli): honor explicit system agent in configure",
+        "url": "https://github.com/openclaw/openclaw/pull/125377",
         "state": "open",
         "author": "jjjhenriksen",
-        "updatedAt": "2026-08-17T22:38:33Z"
+        "updatedAt": "2026-08-17T23:34:30Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123356,
+        "title": "improve(control-ui): stage slash command arguments in the composer",
+        "url": "https://github.com/openclaw/openclaw/pull/123356",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-17T23:34:19Z"
       }
     ]
   }

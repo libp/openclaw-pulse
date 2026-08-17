@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-17T13:03:54.015Z",
+  "generatedAt": "2026-08-17T14:42:47.704Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -530,17 +530,17 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "capturedAt": "2026-08-17T13:03:54.015Z",
-      "issueOpen": 3429,
+      "capturedAt": "2026-08-17T14:42:47.704Z",
+      "issueOpen": 3428,
       "issueClosed": 43902,
-      "prOpen": 2197,
-      "prClosed": 73251,
-      "prMerged": 25736,
+      "prOpen": 2204,
+      "prClosed": 73259,
+      "prMerged": 25740,
       "workflowRuns": 40000,
-      "stars": 386514,
-      "forks": 81217,
-      "subscribers": 1758,
-      "commits": 80206,
+      "stars": 386521,
+      "forks": 81216,
+      "subscribers": 1759,
+      "commits": 80210,
       "contributors": 3106,
       "source": "github-actions",
       "approximateDate": false
@@ -693,10 +693,10 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "stars": 386514,
-      "forks": 81217,
-      "subscribers": 1758,
-      "commits": 80206,
+      "stars": 386521,
+      "forks": 81216,
+      "subscribers": 1759,
+      "commits": 80210,
       "contributors": 3106
     }
   ],
@@ -704,86 +704,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 125277,
-        "title": "[Bug] Session/heartbeat message timestamps freeze at last inbound message; persist across gateway restart AND laptop reboot",
-        "url": "https://github.com/openclaw/openclaw/issues/125277",
+        "number": 82450,
+        "title": "Accessibility Request: Linear Persistent Workspace Mode for Blind Users",
+        "url": "https://github.com/openclaw/openclaw/issues/82450",
         "state": "open",
-        "author": "EchoOfTheConstellation",
-        "updatedAt": "2026-08-17T13:03:22Z"
+        "author": "xiaopinpin-music",
+        "updatedAt": "2026-08-17T14:42:36Z"
       },
       {
         "kind": "issue",
-        "number": 125274,
-        "title": "[Bug]: Telegram final message silently dropped on multi-tool turns — sendMessage ok in log, never received in client (7.2-beta.7)",
-        "url": "https://github.com/openclaw/openclaw/issues/125274",
+        "number": 81924,
+        "title": "gateway: add a suppressed marker to sessions.changed when a silent-reply broadcast is dropped",
+        "url": "https://github.com/openclaw/openclaw/issues/81924",
         "state": "open",
-        "author": "jbabybutt",
-        "updatedAt": "2026-08-17T13:02:40Z"
+        "author": "nuioo",
+        "updatedAt": "2026-08-17T14:42:19Z"
       },
       {
         "kind": "issue",
-        "number": 22438,
-        "title": "feat: Tiered bootstrap file loading for progressive context control",
-        "url": "https://github.com/openclaw/openclaw/issues/22438",
+        "number": 10005,
+        "title": "Add option to hide session status card",
+        "url": "https://github.com/openclaw/openclaw/issues/10005",
         "state": "open",
-        "author": "882soft",
-        "updatedAt": "2026-08-17T13:02:30Z"
+        "author": "kiss2223320-cmyk",
+        "updatedAt": "2026-08-17T14:40:50Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 120860,
-        "title": "fix(message): describe channel provider parameter",
-        "url": "https://github.com/openclaw/openclaw/pull/120860",
+        "number": 125195,
+        "title": "fix(telegram): unify targeted command grammar",
+        "url": "https://github.com/openclaw/openclaw/pull/125195",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-08-17T13:03:34Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-17T14:42:38Z"
       },
       {
         "kind": "pr",
-        "number": 115432,
-        "title": "fix(security): audit open Feishu and Teams DMs",
-        "url": "https://github.com/openclaw/openclaw/pull/115432",
+        "number": 120419,
+        "title": "fix(channels): requeue pre-adoption ingress stalls instead of silently losing the message",
+        "url": "https://github.com/openclaw/openclaw/pull/120419",
         "state": "open",
-        "author": "aspalagin",
-        "updatedAt": "2026-08-17T13:03:23Z"
+        "author": "Grynn",
+        "updatedAt": "2026-08-17T14:42:34Z"
       },
       {
         "kind": "pr",
-        "number": 125280,
-        "title": "Show worktree option only for Git group folders",
-        "url": "https://github.com/openclaw/openclaw/pull/125280",
+        "number": 123979,
+        "title": "fix(scripts): build heap ignores its systemd memory budget and takes the full default",
+        "url": "https://github.com/openclaw/openclaw/pull/123979",
         "state": "open",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-17T13:03:20Z"
+        "updatedAt": "2026-08-17T14:42:26Z"
       },
       {
         "kind": "pr",
-        "number": 123556,
-        "title": "perf(gateway): share Git checkout probes during session loading",
-        "url": "https://github.com/openclaw/openclaw/pull/123556",
+        "number": 118468,
+        "title": "fix(diagnostics): stall notices overstate delays and misname why replies were dropped",
+        "url": "https://github.com/openclaw/openclaw/pull/118468",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-17T13:03:17Z"
+        "author": "zeroaltitude",
+        "updatedAt": "2026-08-17T14:42:26Z"
       },
       {
         "kind": "pr",
-        "number": 125190,
-        "title": "fix(telegram): keep plugin approvals in group topics (openclaw#125166)",
-        "url": "https://github.com/openclaw/openclaw/pull/125190",
+        "number": 121796,
+        "title": "fix(cron): surface Code Mode tool failures in cron run history",
+        "url": "https://github.com/openclaw/openclaw/pull/121796",
         "state": "open",
-        "author": "Waste2Time",
-        "updatedAt": "2026-08-17T13:03:14Z"
+        "author": "Grynn",
+        "updatedAt": "2026-08-17T14:42:23Z"
       },
       {
         "kind": "pr",
-        "number": 123585,
-        "title": "fix(acp): run session/new prompts in the requested cwd",
-        "url": "https://github.com/openclaw/openclaw/pull/123585",
+        "number": 115138,
+        "title": "perf(sqlite): memory-map reads on local-filesystem databases (#112758)",
+        "url": "https://github.com/openclaw/openclaw/pull/115138",
         "state": "open",
-        "author": "Chinmayrawat15",
-        "updatedAt": "2026-08-17T13:03:09Z"
+        "author": "chelsealong",
+        "updatedAt": "2026-08-17T14:42:17Z"
       }
     ]
   }

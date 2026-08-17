@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-17T09:55:59.273Z",
+  "generatedAt": "2026-08-17T10:47:10.912Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -530,17 +530,17 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "capturedAt": "2026-08-17T09:55:59.273Z",
-      "issueOpen": 3406,
-      "issueClosed": 43893,
-      "prOpen": 2190,
-      "prClosed": 73209,
-      "prMerged": 25701,
+      "capturedAt": "2026-08-17T10:47:10.912Z",
+      "issueOpen": 3408,
+      "issueClosed": 43894,
+      "prOpen": 2194,
+      "prClosed": 73216,
+      "prMerged": 25707,
       "workflowRuns": 40000,
-      "stars": 386501,
-      "forks": 81214,
+      "stars": 386509,
+      "forks": 81220,
       "subscribers": 1758,
-      "commits": 80171,
+      "commits": 80177,
       "contributors": 3105,
       "source": "github-actions",
       "approximateDate": false
@@ -693,10 +693,10 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "stars": 386501,
-      "forks": 81214,
+      "stars": 386509,
+      "forks": 81220,
       "subscribers": 1758,
-      "commits": 80171,
+      "commits": 80177,
       "contributors": 3105
     }
   ],
@@ -704,42 +704,60 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 18985,
-        "title": "[Feature]: Supports Windows 11 MSYS environment and Fishshell.",
-        "url": "https://github.com/openclaw/openclaw/issues/18985",
+        "number": 112155,
+        "title": "[Architecture] Standardize diagnostic exporter artifact package structure",
+        "url": "https://github.com/openclaw/openclaw/issues/112155",
         "state": "open",
-        "author": "ahaoboy",
-        "updatedAt": "2026-08-17T09:55:48Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-08-17T10:47:00Z"
       },
       {
         "kind": "issue",
-        "number": 64103,
-        "title": "Session `status` field values (\"failed\", \"timeout\", \"done\") mislead agents into spawning duplicate sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/64103",
+        "number": 124008,
+        "title": "[Bug]: New Session model picker omits dynamically discovered providers from chat.metadata",
+        "url": "https://github.com/openclaw/openclaw/issues/124008",
         "state": "open",
-        "author": "lykeion-dev",
-        "updatedAt": "2026-08-17T09:55:44Z"
+        "author": "catsonkeyboard",
+        "updatedAt": "2026-08-17T10:47:06Z"
       },
       {
         "kind": "issue",
-        "number": 21207,
-        "title": "[Feature]: Feature Request: Batch Tool Calls + Context Block Management + Plan Enforcement",
-        "url": "https://github.com/openclaw/openclaw/issues/21207",
+        "number": 122448,
+        "title": "classifySessionAttention: fallback branch flags CLI backend runs as stuck without checking lastProgressAge",
+        "url": "https://github.com/openclaw/openclaw/issues/122448",
         "state": "open",
-        "author": "mmx998",
-        "updatedAt": "2026-08-17T09:55:02Z"
+        "author": "nissl24",
+        "updatedAt": "2026-08-17T10:46:56Z"
+      },
+      {
+        "kind": "issue",
+        "number": 125214,
+        "title": "Transcript redaction can corrupt restart-recovery idempotency keys",
+        "url": "https://github.com/openclaw/openclaw/issues/125214",
+        "state": "open",
+        "author": "PollyBot13",
+        "updatedAt": "2026-08-17T10:46:50Z"
+      },
+      {
+        "kind": "issue",
+        "number": 125204,
+        "title": "[Bug]: Existing session keeps stale agentRuntime.id=codex pin after switching to OpenRouter model (regression)",
+        "url": "https://github.com/openclaw/openclaw/issues/125204",
+        "state": "open",
+        "author": "RothElektronik",
+        "updatedAt": "2026-08-17T10:47:02Z"
+      },
+      {
+        "kind": "issue",
+        "number": 103231,
+        "title": "`claude-cli` backend: `ownsNativeCompaction` assumption is false for `claude -p` sessions — nobody compacts, sessions grow past 200% context, and every recovery path (stuck-session abort, safeguard compaction) fails silently",
+        "url": "https://github.com/openclaw/openclaw/issues/103231",
+        "state": "open",
+        "author": "dankorotin",
+        "updatedAt": "2026-08-17T10:46:48Z"
       }
     ],
     "prs": [
-      {
-        "kind": "pr",
-        "number": 125196,
-        "title": "improve(ui): compose pull request session icons",
-        "url": "https://github.com/openclaw/openclaw/pull/125196",
-        "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-17T09:55:44Z"
-      },
       {
         "kind": "pr",
         "number": 125193,
@@ -747,43 +765,52 @@
         "url": "https://github.com/openclaw/openclaw/pull/125193",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-17T09:55:44Z"
+        "updatedAt": "2026-08-17T10:47:03Z"
       },
       {
         "kind": "pr",
-        "number": 125172,
-        "title": "fix(state): keep unresolved legacy agent state advisory",
-        "url": "https://github.com/openclaw/openclaw/pull/125172",
+        "number": 125207,
+        "title": "fix(heartbeat): avoid claiming excluded outcomes were recorded",
+        "url": "https://github.com/openclaw/openclaw/pull/125207",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-17T09:55:44Z"
+        "updatedAt": "2026-08-17T10:47:02Z"
       },
       {
         "kind": "pr",
-        "number": 123078,
-        "title": "chore(deps): bump the swift-deps group across 1 directory with 3 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/123078",
-        "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-17T09:55:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125201,
-        "title": "fix(gateway): honor requested session preview length",
-        "url": "https://github.com/openclaw/openclaw/pull/125201",
-        "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-08-17T09:55:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124909,
-        "title": "feat: session permission modes with worktree-scoped defaults",
-        "url": "https://github.com/openclaw/openclaw/pull/124909",
+        "number": 125195,
+        "title": "fix(telegram): unify targeted command grammar",
+        "url": "https://github.com/openclaw/openclaw/pull/125195",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-17T09:55:39Z"
+        "updatedAt": "2026-08-17T10:46:53Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125197,
+        "title": "fix(ui): keep streamed replies ordered across steering",
+        "url": "https://github.com/openclaw/openclaw/pull/125197",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-17T10:46:52Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117535,
+        "title": "fix(doctor): classify critically low disk space as an error",
+        "url": "https://github.com/openclaw/openclaw/pull/117535",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-17T10:46:47Z"
+      },
+      {
+        "kind": "pr",
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-17T10:46:45Z"
       }
     ]
   }

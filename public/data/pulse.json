@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-17T15:36:57.326Z",
+  "generatedAt": "2026-08-17T16:44:07.130Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -530,17 +530,17 @@
     },
     {
       "capturedOn": "2026-08-17",
-      "capturedAt": "2026-08-17T15:36:57.326Z",
-      "issueOpen": 3439,
+      "capturedAt": "2026-08-17T16:44:07.130Z",
+      "issueOpen": 3443,
       "issueClosed": 43903,
-      "prOpen": 2213,
-      "prClosed": 73262,
-      "prMerged": 25740,
+      "prOpen": 2217,
+      "prClosed": 73276,
+      "prMerged": 25750,
       "workflowRuns": 40000,
       "stars": 386525,
-      "forks": 81217,
+      "forks": 81220,
       "subscribers": 1759,
-      "commits": 80210,
+      "commits": 80220,
       "contributors": 3106,
       "source": "github-actions",
       "approximateDate": false
@@ -694,9 +694,9 @@
     {
       "capturedOn": "2026-08-17",
       "stars": 386525,
-      "forks": 81217,
+      "forks": 81220,
       "subscribers": 1759,
-      "commits": 80210,
+      "commits": 80220,
       "contributors": 3106
     }
   ],
@@ -704,60 +704,51 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 120638,
-        "title": "Docs site documents main instead of the latest stable release",
-        "url": "https://github.com/openclaw/openclaw/issues/120638",
+        "number": 114105,
+        "title": "Token Plan catalog curation in #113681 used the Coding Plan endpoint: adds a model that 404s and keeps the oldest of each family",
+        "url": "https://github.com/openclaw/openclaw/issues/114105",
         "state": "open",
-        "author": "nikhilmaddirala",
-        "updatedAt": "2026-08-17T15:36:47Z"
+        "author": "oliver-mee",
+        "updatedAt": "2026-08-17T16:43:39Z"
       },
       {
         "kind": "issue",
-        "number": 11977,
-        "title": "feat: add linux/riscv64 Docker image to multi-platform build",
-        "url": "https://github.com/openclaw/openclaw/issues/11977",
-        "state": "open",
-        "author": "gounthar",
-        "updatedAt": "2026-08-17T15:36:45Z"
-      },
-      {
-        "kind": "issue",
-        "number": 125309,
-        "title": "[Bug]: Durable memory maintenance rescans per search, forces full reindex on chunking bump, and replays provenance backfill on every open",
-        "url": "https://github.com/openclaw/openclaw/issues/125309",
-        "state": "open",
-        "author": "Grynn",
-        "updatedAt": "2026-08-17T15:36:41Z"
-      },
-      {
-        "kind": "issue",
-        "number": 14206,
-        "title": "Add Message Rate Limiting for Feishu Channel",
-        "url": "https://github.com/openclaw/openclaw/issues/14206",
-        "state": "open",
-        "author": "immars",
-        "updatedAt": "2026-08-17T15:36:23Z"
-      },
-      {
-        "kind": "issue",
-        "number": 13593,
-        "title": "Add logging and warnings for cron job execution failures",
-        "url": "https://github.com/openclaw/openclaw/issues/13593",
+        "number": 13601,
+        "title": "Add persistent cron job execution history with filtering",
+        "url": "https://github.com/openclaw/openclaw/issues/13601",
         "state": "open",
         "author": "trevorgordon981",
-        "updatedAt": "2026-08-17T15:36:10Z"
+        "updatedAt": "2026-08-17T16:42:00Z"
       },
       {
         "kind": "issue",
-        "number": 125315,
-        "title": "Rate-limit cooldowns trigger full provider-catalog rewarm; CLI session listing and model resolution redo heavyweight initialization",
-        "url": "https://github.com/openclaw/openclaw/issues/125315",
+        "number": 125311,
+        "title": "sessions tail should surface compact per-event metrics; harness trajectory recorder should be a revocable host capability",
+        "url": "https://github.com/openclaw/openclaw/issues/125311",
         "state": "open",
         "author": "Grynn",
-        "updatedAt": "2026-08-17T15:35:34Z"
+        "updatedAt": "2026-08-17T16:41:29Z"
+      },
+      {
+        "kind": "issue",
+        "number": 124396,
+        "title": "[Feature]: Make `openclaw update` one transaction: prove candidate before activation, verified state checkpoint, whole-product rollback, no crash-loop on migration warnings",
+        "url": "https://github.com/openclaw/openclaw/issues/124396",
+        "state": "open",
+        "author": "obviyus",
+        "updatedAt": "2026-08-17T16:40:10Z"
       }
     ],
     "prs": [
+      {
+        "kind": "pr",
+        "number": 125332,
+        "title": "feat(ui): preserve composer drafts across restarts",
+        "url": "https://github.com/openclaw/openclaw/pull/125332",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-17T16:44:02Z"
+      },
       {
         "kind": "pr",
         "number": 123482,
@@ -765,52 +756,43 @@
         "url": "https://github.com/openclaw/openclaw/pull/123482",
         "state": "open",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-17T15:36:24Z"
+        "updatedAt": "2026-08-17T16:43:41Z"
       },
       {
         "kind": "pr",
-        "number": 125107,
-        "title": "feat(control-ui): persistent Ask OpenClaw companion with global toggle",
-        "url": "https://github.com/openclaw/openclaw/pull/125107",
+        "number": 112811,
+        "title": "feat(msteams): support multiple bot accounts",
+        "url": "https://github.com/openclaw/openclaw/pull/112811",
+        "state": "open",
+        "author": "jimmypuckett",
+        "updatedAt": "2026-08-17T16:43:15Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125262,
+        "title": "chore(i18n): refresh native locales",
+        "url": "https://github.com/openclaw/openclaw/pull/125262",
+        "state": "open",
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-08-17T16:43:02Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125346,
+        "title": "fix: keep model skill catalogs bounded and available",
+        "url": "https://github.com/openclaw/openclaw/pull/125346",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-17T15:36:16Z"
+        "updatedAt": "2026-08-17T16:42:51Z"
       },
       {
         "kind": "pr",
-        "number": 125324,
-        "title": "fix(codex): degraded-engine continuity no longer projects the whole context window per turn",
-        "url": "https://github.com/openclaw/openclaw/pull/125324",
+        "number": 91237,
+        "title": "fix(providers/openrouter): treat OpenRouter (URL + default route) as long-TTL-eligible for Anthropic cache_control",
+        "url": "https://github.com/openclaw/openclaw/pull/91237",
         "state": "open",
-        "author": "Marvinthebored",
-        "updatedAt": "2026-08-17T15:36:07Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123556,
-        "title": "perf(gateway): share Git checkout probes during session loading",
-        "url": "https://github.com/openclaw/openclaw/pull/123556",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-17T15:35:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125325,
-        "title": "fix(auto-reply): report failed queued replies after status delivery",
-        "url": "https://github.com/openclaw/openclaw/pull/125325",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-17T15:35:28Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118067,
-        "title": "feat(discord): support private provider endpoints",
-        "url": "https://github.com/openclaw/openclaw/pull/118067",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-17T15:35:23Z"
+        "author": "Bartok9",
+        "updatedAt": "2026-08-17T16:42:37Z"
       }
     ]
   }

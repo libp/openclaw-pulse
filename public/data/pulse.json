@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-18T11:38:36.012Z",
+  "generatedAt": "2026-08-18T13:05:54.507Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -547,17 +547,17 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "capturedAt": "2026-08-18T11:38:36.012Z",
-      "issueOpen": 3472,
-      "issueClosed": 43981,
-      "prOpen": 2244,
-      "prClosed": 73586,
-      "prMerged": 26013,
+      "capturedAt": "2026-08-18T13:05:54.507Z",
+      "issueOpen": 3471,
+      "issueClosed": 43987,
+      "prOpen": 2253,
+      "prClosed": 73597,
+      "prMerged": 26019,
       "workflowRuns": 40000,
-      "stars": 386620,
-      "forks": 81245,
-      "subscribers": 1758,
-      "commits": 80483,
+      "stars": 386629,
+      "forks": 81248,
+      "subscribers": 1757,
+      "commits": 80489,
       "contributors": 3108,
       "source": "github-actions",
       "approximateDate": false
@@ -718,10 +718,10 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "stars": 386620,
-      "forks": 81245,
-      "subscribers": 1758,
-      "commits": 80483,
+      "stars": 386629,
+      "forks": 81248,
+      "subscribers": 1757,
+      "commits": 80489,
       "contributors": 3108
     }
   ],
@@ -729,104 +729,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 86214,
-        "title": "[Bug]: Codex app-server client closes mid-turn during image/tool requests with large logs_2.sqlite",
-        "url": "https://github.com/openclaw/openclaw/issues/86214",
-        "state": "open",
-        "author": "ericpearson",
-        "updatedAt": "2026-08-18T11:36:53Z"
-      },
-      {
-        "kind": "issue",
-        "number": 86493,
-        "title": "[Bug]: StepFun (stepfun-plan) plugin does not register image generation provider — image_generate silently fails",
-        "url": "https://github.com/openclaw/openclaw/issues/86493",
-        "state": "open",
-        "author": "gaodaabao",
-        "updatedAt": "2026-08-18T11:36:30Z"
-      },
-      {
-        "kind": "issue",
-        "number": 56619,
-        "title": "Feature: notify sender on WhatsApp after pairing approval",
-        "url": "https://github.com/openclaw/openclaw/issues/56619",
-        "state": "open",
-        "author": "Pibot-Dev",
-        "updatedAt": "2026-08-18T11:36:15Z"
-      },
-      {
-        "kind": "issue",
-        "number": 121927,
-        "title": "tool_search_code intermittently fails with Electron FATAL \"Unable to find helper app\" after gateway SIGUSR1 restart",
-        "url": "https://github.com/openclaw/openclaw/issues/121927",
-        "state": "open",
-        "author": "noma1107",
-        "updatedAt": "2026-08-18T11:35:58Z"
-      },
-      {
-        "kind": "issue",
-        "number": 125745,
-        "title": "[Bug]: Web UI models.probe fails for direct credentials (apiKey / env var) because isolated probe profile is resolved against canonical agent dir",
-        "url": "https://github.com/openclaw/openclaw/issues/125745",
-        "state": "open",
-        "author": "xialonglee",
-        "updatedAt": "2026-08-18T11:35:52Z"
+        "number": 125817,
+        "title": "[Bug]: WhatsApp inbound silently dropped when it lands during an idle-session rollover — \"changed while starting work. Retry.\" but nothing retries",
+        "url": "https://github.com/openclaw/openclaw/issues/125817",
+        "state": "closed",
+        "author": "aleps001",
+        "updatedAt": "2026-08-18T13:03:03Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123356,
-        "title": "improve(control-ui): stage slash command arguments in the composer",
-        "url": "https://github.com/openclaw/openclaw/pull/123356",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-18T11:38:28Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "number": 124014,
+        "title": "fix(auth): reset only the profile replaced by a successful login",
+        "url": "https://github.com/openclaw/openclaw/pull/124014",
         "state": "open",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-18T11:38:12Z"
+        "updatedAt": "2026-08-18T13:05:42Z"
       },
       {
         "kind": "pr",
-        "number": 121941,
-        "title": "fix(browser): resolve agent dir for screenshot descriptions",
-        "url": "https://github.com/openclaw/openclaw/pull/121941",
+        "number": 125796,
+        "title": "fix(doctor): skip host service management in container environments",
+        "url": "https://github.com/openclaw/openclaw/pull/125796",
         "state": "open",
-        "author": "nissl24",
-        "updatedAt": "2026-08-18T11:38:11Z"
+        "author": "hongran997",
+        "updatedAt": "2026-08-18T13:05:36Z"
       },
       {
         "kind": "pr",
-        "number": 125664,
-        "title": "fix(feishu): promote send attachment aliases instead of silent drop",
-        "url": "https://github.com/openclaw/openclaw/pull/125664",
+        "number": 125815,
+        "title": "fix(sessions): let owner-assigned sessions reply",
+        "url": "https://github.com/openclaw/openclaw/pull/125815",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-18T11:38:13Z"
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-18T13:05:12Z"
       },
       {
         "kind": "pr",
-        "number": 90703,
-        "title": "Support compat reasoning levels for thinking xhigh",
-        "url": "https://github.com/openclaw/openclaw/pull/90703",
+        "number": 125823,
+        "title": "fix(ui): stop completed chats staying in progress",
+        "url": "https://github.com/openclaw/openclaw/pull/125823",
         "state": "open",
-        "author": "Alex-Govorov",
-        "updatedAt": "2026-08-18T11:37:55Z"
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-18T13:05:08Z"
       },
       {
         "kind": "pr",
-        "number": 125782,
-        "title": "fix(ui): retain filtered automation conflict job",
-        "url": "https://github.com/openclaw/openclaw/pull/125782",
+        "number": 125820,
+        "title": "improve(ui): put session row actions on the title line",
+        "url": "https://github.com/openclaw/openclaw/pull/125820",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-18T11:37:37Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-18T13:05:08Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118169,
+        "title": "feat(signal): link first account from setup QR",
+        "url": "https://github.com/openclaw/openclaw/pull/118169",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-18T13:05:05Z"
       }
     ]
   }

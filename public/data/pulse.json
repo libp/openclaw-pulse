@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-17T23:35:05.201Z",
+  "generatedAt": "2026-08-18T01:49:23.320Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -544,6 +544,23 @@
       "contributors": 3106,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-18",
+      "capturedAt": "2026-08-18T01:49:23.320Z",
+      "issueOpen": 3456,
+      "issueClosed": 43926,
+      "prOpen": 2225,
+      "prClosed": 73388,
+      "prMerged": 25846,
+      "workflowRuns": 40000,
+      "stars": 386566,
+      "forks": 81229,
+      "subscribers": 1758,
+      "commits": 80316,
+      "contributors": 3106,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -698,110 +715,82 @@
       "subscribers": 1760,
       "commits": 80270,
       "contributors": 3106
+    },
+    {
+      "capturedOn": "2026-08-18",
+      "stars": 386566,
+      "forks": 81229,
+      "subscribers": 1758,
+      "commits": 80316,
+      "contributors": 3106
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 117178,
-        "title": "[Feature]: Confirm disruptive lifecycle actions in Control UI and apps",
-        "url": "https://github.com/openclaw/openclaw/issues/117178",
+        "number": 111630,
+        "title": "[Bug]: session_status and /status show Context: ?/1.0m for minimax-portal/MiniMax-M3 — TUI formatter \"?\" + provider usage payload gap",
+        "url": "https://github.com/openclaw/openclaw/issues/111630",
         "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-08-17T23:33:53Z"
-      },
-      {
-        "kind": "issue",
-        "number": 110160,
-        "title": "Enhancement: Add protection against slow bot-to-bot conversation loops",
-        "url": "https://github.com/openclaw/openclaw/issues/110160",
-        "state": "open",
-        "author": "chenriquefg-eng",
-        "updatedAt": "2026-08-17T23:33:48Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113756,
-        "title": "[Bug]: Message ordering conflict / out-of-order replies still occurring on 2026.7.1-2 (webchat)",
-        "url": "https://github.com/openclaw/openclaw/issues/113756",
-        "state": "open",
-        "author": "Ameazy77",
-        "updatedAt": "2026-08-17T23:33:35Z"
-      },
-      {
-        "kind": "issue",
-        "number": 117154,
-        "title": "thread-reply deliveries are not marked as current-source replies (follow-up to #116909)",
-        "url": "https://github.com/openclaw/openclaw/issues/117154",
-        "state": "open",
-        "author": "omarshahine",
-        "updatedAt": "2026-08-17T23:33:12Z"
-      },
-      {
-        "kind": "issue",
-        "number": 116731,
-        "title": "Cron failureAlert silently swallowed by quiet exits and misses WSL2 drvfs mount failure",
-        "url": "https://github.com/openclaw/openclaw/issues/116731",
-        "state": "open",
-        "author": "warren2008-2020-spec",
-        "updatedAt": "2026-08-17T23:33:02Z"
+        "author": "simondkan",
+        "updatedAt": "2026-08-18T01:47:02Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 124162,
-        "title": "fix: disconnection watchdog in provider lifecycle owner",
-        "url": "https://github.com/openclaw/openclaw/pull/124162",
-        "state": "open",
-        "author": "markr9805",
-        "updatedAt": "2026-08-17T23:34:59Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125448,
-        "title": "improve(testing): prove live OpenAI turns after packaged upgrades",
-        "url": "https://github.com/openclaw/openclaw/pull/125448",
+        "number": 125502,
+        "title": "fix(openai): prevent realtime barge-in truncation errors",
+        "url": "https://github.com/openclaw/openclaw/pull/125502",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-17T23:34:47Z"
+        "updatedAt": "2026-08-18T01:49:13Z"
       },
       {
         "kind": "pr",
-        "number": 125429,
-        "title": "fix(workboard): stop lifecycle sync errors with multiple agents",
-        "url": "https://github.com/openclaw/openclaw/pull/125429",
-        "state": "closed",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-08-17T23:34:47Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124516,
-        "title": "fix(sessions): bound store lookup to stop gateway CPU wedge without dropping retired stores",
-        "url": "https://github.com/openclaw/openclaw/pull/124516",
+        "number": 121186,
+        "title": "fix(beam): retry failed terminal mirror uploads",
+        "url": "https://github.com/openclaw/openclaw/pull/121186",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-17T23:34:41Z"
+        "author": "Leon-SK668",
+        "updatedAt": "2026-08-18T01:49:11Z"
       },
       {
         "kind": "pr",
-        "number": 125377,
-        "title": "fix(cli): honor explicit system agent in configure",
-        "url": "https://github.com/openclaw/openclaw/pull/125377",
-        "state": "open",
-        "author": "jjjhenriksen",
-        "updatedAt": "2026-08-17T23:34:30Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123356,
-        "title": "improve(control-ui): stage slash command arguments in the composer",
-        "url": "https://github.com/openclaw/openclaw/pull/123356",
+        "number": 125250,
+        "title": "improve(ui): refine chat widget host and image actions",
+        "url": "https://github.com/openclaw/openclaw/pull/125250",
         "state": "open",
         "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-17T23:34:19Z"
+        "updatedAt": "2026-08-18T01:49:03Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122015,
+        "title": "feat: record subagent execution lineage",
+        "url": "https://github.com/openclaw/openclaw/pull/122015",
+        "state": "open",
+        "author": "joshavant",
+        "updatedAt": "2026-08-18T01:48:58Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123078,
+        "title": "build(deps): bump the swift-deps group across 1 directory with 3 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/123078",
+        "state": "open",
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-18T01:48:43Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120332,
+        "title": "fix(config): config validate rejects a replacement plugin's own channel config keys",
+        "url": "https://github.com/openclaw/openclaw/pull/120332",
+        "state": "open",
+        "author": "marmar9615-cloud",
+        "updatedAt": "2026-08-18T01:48:40Z"
       }
     ]
   }

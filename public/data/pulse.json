@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-18T13:05:54.507Z",
+  "generatedAt": "2026-08-18T13:55:03.073Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -547,17 +547,17 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "capturedAt": "2026-08-18T13:05:54.507Z",
-      "issueOpen": 3471,
-      "issueClosed": 43987,
-      "prOpen": 2253,
-      "prClosed": 73597,
-      "prMerged": 26019,
+      "capturedAt": "2026-08-18T13:55:03.073Z",
+      "issueOpen": 3477,
+      "issueClosed": 43990,
+      "prOpen": 2255,
+      "prClosed": 73603,
+      "prMerged": 26021,
       "workflowRuns": 40000,
-      "stars": 386629,
-      "forks": 81248,
+      "stars": 386633,
+      "forks": 81247,
       "subscribers": 1757,
-      "commits": 80489,
+      "commits": 80491,
       "contributors": 3108,
       "source": "github-actions",
       "approximateDate": false
@@ -718,10 +718,10 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "stars": 386629,
-      "forks": 81248,
+      "stars": 386633,
+      "forks": 81247,
       "subscribers": 1757,
-      "commits": 80489,
+      "commits": 80491,
       "contributors": 3108
     }
   ],
@@ -729,68 +729,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 125817,
-        "title": "[Bug]: WhatsApp inbound silently dropped when it lands during an idle-session rollover — \"changed while starting work. Retry.\" but nothing retries",
-        "url": "https://github.com/openclaw/openclaw/issues/125817",
-        "state": "closed",
-        "author": "aleps001",
-        "updatedAt": "2026-08-18T13:03:03Z"
+        "number": 125840,
+        "title": "[Bug]: Gateway restart can outlive its shutdown deadline when embedded-run abort wedges the event loop",
+        "url": "https://github.com/openclaw/openclaw/issues/125840",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-18T13:54:54Z"
+      },
+      {
+        "kind": "issue",
+        "number": 56619,
+        "title": "Feature: notify sender on WhatsApp after pairing approval",
+        "url": "https://github.com/openclaw/openclaw/issues/56619",
+        "state": "open",
+        "author": "Pibot-Dev",
+        "updatedAt": "2026-08-18T13:54:51Z"
+      },
+      {
+        "kind": "issue",
+        "number": 125839,
+        "title": "CI: codex extension lane exceeds the no-output watchdog; all extensions-touching PRs red",
+        "url": "https://github.com/openclaw/openclaw/issues/125839",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-18T13:54:18Z"
+      },
+      {
+        "kind": "issue",
+        "number": 121729,
+        "title": "[Feature]: Friendly daily spending allowances for agents running in the background",
+        "url": "https://github.com/openclaw/openclaw/issues/121729",
+        "state": "open",
+        "author": "ArielSmoliar",
+        "updatedAt": "2026-08-18T13:54:18Z"
+      },
+      {
+        "kind": "issue",
+        "number": 99277,
+        "title": "Mattermost: ack reactions unimplemented — messages.ackReactionScope is a silent no-op",
+        "url": "https://github.com/openclaw/openclaw/issues/99277",
+        "state": "open",
+        "author": "josh-cornelius",
+        "updatedAt": "2026-08-18T13:52:52Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 124014,
-        "title": "fix(auth): reset only the profile replaced by a successful login",
-        "url": "https://github.com/openclaw/openclaw/pull/124014",
+        "number": 125835,
+        "title": "chore(worker): stabilize inference cancellation tests",
+        "url": "https://github.com/openclaw/openclaw/pull/125835",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-18T13:05:42Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-18T13:54:56Z"
       },
       {
         "kind": "pr",
-        "number": 125796,
-        "title": "fix(doctor): skip host service management in container environments",
-        "url": "https://github.com/openclaw/openclaw/pull/125796",
+        "number": 125811,
+        "title": "chore(ui): refresh control ui locales",
+        "url": "https://github.com/openclaw/openclaw/pull/125811",
         "state": "open",
-        "author": "hongran997",
-        "updatedAt": "2026-08-18T13:05:36Z"
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-08-18T13:54:56Z"
       },
       {
         "kind": "pr",
-        "number": 125815,
-        "title": "fix(sessions): let owner-assigned sessions reply",
-        "url": "https://github.com/openclaw/openclaw/pull/125815",
+        "number": 125095,
+        "title": "feat(skills): add taskmarket delegation skill (browse/create/submit paid tasks)",
+        "url": "https://github.com/openclaw/openclaw/pull/125095",
         "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-18T13:05:12Z"
+        "author": "Autonomy-Labs-Tech",
+        "updatedAt": "2026-08-18T13:54:44Z"
       },
       {
         "kind": "pr",
-        "number": 125823,
-        "title": "fix(ui): stop completed chats staying in progress",
-        "url": "https://github.com/openclaw/openclaw/pull/125823",
+        "number": 125803,
+        "title": "feat: add A2UI widgets to session boards",
+        "url": "https://github.com/openclaw/openclaw/pull/125803",
         "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-18T13:05:08Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-18T13:54:41Z"
       },
       {
         "kind": "pr",
-        "number": 125820,
-        "title": "improve(ui): put session row actions on the title line",
-        "url": "https://github.com/openclaw/openclaw/pull/125820",
+        "number": 125833,
+        "title": "fix(agents): record the final-call context fact on cumulative provider usage (#125333)",
+        "url": "https://github.com/openclaw/openclaw/pull/125833",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-18T13:05:08Z"
+        "author": "Yuyorman",
+        "updatedAt": "2026-08-18T13:54:38Z"
       },
       {
         "kind": "pr",
-        "number": 118169,
-        "title": "feat(signal): link first account from setup QR",
-        "url": "https://github.com/openclaw/openclaw/pull/118169",
+        "number": 125812,
+        "title": "fix: preserve idempotencyKey exactly in transcript redaction",
+        "url": "https://github.com/openclaw/openclaw/pull/125812",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-18T13:05:05Z"
+        "author": "markr9805",
+        "updatedAt": "2026-08-18T13:54:30Z"
       }
     ]
   }

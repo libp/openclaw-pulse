@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-18T19:39:33.383Z",
+  "generatedAt": "2026-08-18T21:36:20.588Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -547,17 +547,17 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "capturedAt": "2026-08-18T19:39:33.383Z",
-      "issueOpen": 3479,
-      "issueClosed": 44017,
-      "prOpen": 2250,
-      "prClosed": 73714,
-      "prMerged": 26119,
+      "capturedAt": "2026-08-18T21:36:20.588Z",
+      "issueOpen": 3491,
+      "issueClosed": 44025,
+      "prOpen": 2266,
+      "prClosed": 73735,
+      "prMerged": 26138,
       "workflowRuns": 40000,
-      "stars": 386666,
-      "forks": 81256,
+      "stars": 386667,
+      "forks": 81259,
       "subscribers": 1757,
-      "commits": 80589,
+      "commits": 80608,
       "contributors": 3108,
       "source": "github-actions",
       "approximateDate": false
@@ -718,10 +718,10 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "stars": 386666,
-      "forks": 81256,
+      "stars": 386667,
+      "forks": 81259,
       "subscribers": 1757,
-      "commits": 80589,
+      "commits": 80608,
       "contributors": 3108
     }
   ],
@@ -729,95 +729,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 42246,
-        "title": "[Feature]: Configurable batching/aggregation of outbound Telegram notifications",
-        "url": "https://github.com/openclaw/openclaw/issues/42246",
+        "number": 94747,
+        "title": "Discord channel mention can end as non_deliverable_terminal_turn with no message.send and no visible reply",
+        "url": "https://github.com/openclaw/openclaw/issues/94747",
         "state": "open",
-        "author": "fireniko",
-        "updatedAt": "2026-08-18T19:39:25Z"
+        "author": "fanyangCS",
+        "updatedAt": "2026-08-18T21:36:15Z"
       },
       {
         "kind": "issue",
-        "number": 125975,
-        "title": "Secret Store needs explicit protected and agent-readable access modes",
-        "url": "https://github.com/openclaw/openclaw/issues/125975",
+        "number": 50205,
+        "title": "[Feature]: Support configurable request labels for Gemini API calls (GCP billing tracking)",
+        "url": "https://github.com/openclaw/openclaw/issues/50205",
+        "state": "open",
+        "author": "ikujyh",
+        "updatedAt": "2026-08-18T21:36:01Z"
+      },
+      {
+        "kind": "issue",
+        "number": 9986,
+        "title": "Feature: Trigger model fallback on context length exceeded",
+        "url": "https://github.com/openclaw/openclaw/issues/9986",
+        "state": "open",
+        "author": "amirarenco-create",
+        "updatedAt": "2026-08-18T21:35:47Z"
+      },
+      {
+        "kind": "issue",
+        "number": 125802,
+        "title": "[Bug]: successful provider streams can skip response hooks",
+        "url": "https://github.com/openclaw/openclaw/issues/125802",
+        "state": "open",
+        "author": "osolmaz",
+        "updatedAt": "2026-08-18T21:35:30Z"
+      },
+      {
+        "kind": "issue",
+        "number": 126026,
+        "title": "[Bug]: Assign to me does not update the session owner",
+        "url": "https://github.com/openclaw/openclaw/issues/126026",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-18T19:39:19Z"
+        "updatedAt": "2026-08-18T21:35:28Z"
       },
       {
         "kind": "issue",
-        "number": 125942,
-        "title": "erroredAssistantResultPolicy hardcoded to \"drop\" causes silent replay of failed user turns",
-        "url": "https://github.com/openclaw/openclaw/issues/125942",
+        "number": 126002,
+        "title": "Structured secret redaction masks non-secret JSON fields based on key name alone (e.g. Azure Logs Analytics SYN0002 token field)",
+        "url": "https://github.com/openclaw/openclaw/issues/126002",
         "state": "open",
-        "author": "tcpool",
-        "updatedAt": "2026-08-18T19:38:55Z"
-      },
-      {
-        "kind": "issue",
-        "number": 39923,
-        "title": "feat(config): use datetime suffix for config backup files instead of numeric rotation",
-        "url": "https://github.com/openclaw/openclaw/issues/39923",
-        "state": "open",
-        "author": "davidxcli",
-        "updatedAt": "2026-08-18T19:37:57Z"
+        "author": "DrNatas",
+        "updatedAt": "2026-08-18T21:35:14Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 125958,
-        "title": "fix(config): fail config unset on a missing path again",
-        "url": "https://github.com/openclaw/openclaw/pull/125958",
+        "number": 122238,
+        "title": "fix(discord): batch queued messages by thread",
+        "url": "https://github.com/openclaw/openclaw/pull/122238",
+        "state": "open",
+        "author": "k-oc-agent",
+        "updatedAt": "2026-08-18T21:36:14Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125992,
+        "title": "fix(install): avoid success after incomplete lifecycle changes",
+        "url": "https://github.com/openclaw/openclaw/pull/125992",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-18T19:39:25Z"
+        "updatedAt": "2026-08-18T21:36:10Z"
       },
       {
         "kind": "pr",
-        "number": 125966,
-        "title": "fix(codex): keep large AGENTS.md instructions visible",
-        "url": "https://github.com/openclaw/openclaw/pull/125966",
+        "number": 124429,
+        "title": "fix(ui): reflect inherited agent skill allowlists",
+        "url": "https://github.com/openclaw/openclaw/pull/124429",
+        "state": "open",
+        "author": "jjjhenriksen",
+        "updatedAt": "2026-08-18T21:36:10Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126028,
+        "title": "fix(providers): report request acceptance consistently",
+        "url": "https://github.com/openclaw/openclaw/pull/126028",
+        "state": "open",
+        "author": "osolmaz",
+        "updatedAt": "2026-08-18T21:36:09Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126030,
+        "title": "refactor(canvas): make the panel a widget presenter",
+        "url": "https://github.com/openclaw/openclaw/pull/126030",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-18T19:39:21Z"
+        "updatedAt": "2026-08-18T21:36:00Z"
       },
       {
         "kind": "pr",
-        "number": 123209,
-        "title": "fix(config): channel schema ownership follows the declared preferOver replacement",
-        "url": "https://github.com/openclaw/openclaw/pull/123209",
+        "number": 126029,
+        "title": "docs(gateway): document the Cloudflare Tunnel and Access deployment",
+        "url": "https://github.com/openclaw/openclaw/pull/126029",
         "state": "open",
-        "author": "marmar9615-cloud",
-        "updatedAt": "2026-08-18T19:39:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 107378,
-        "title": "feat(minimax): route /fast to MiniMax's faster paid lanes with correct pricing",
-        "url": "https://github.com/openclaw/openclaw/pull/107378",
-        "state": "open",
-        "author": "jzakirov",
-        "updatedAt": "2026-08-18T19:39:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125271,
-        "title": "fix(macos): gateway process tests fail under configured host port",
-        "url": "https://github.com/openclaw/openclaw/pull/125271",
-        "state": "open",
-        "author": "PollyBot13",
-        "updatedAt": "2026-08-18T19:39:14Z"
-      },
-      {
-        "kind": "pr",
-        "number": 78035,
-        "title": "fix(memory-core): preserve sibling supplement results when one search rejects (#77897)",
-        "url": "https://github.com/openclaw/openclaw/pull/78035",
-        "state": "open",
-        "author": "lonexreb",
-        "updatedAt": "2026-08-18T19:39:07Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-18T21:35:49Z"
       }
     ]
   }

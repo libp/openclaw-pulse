@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-18T13:55:03.073Z",
+  "generatedAt": "2026-08-18T14:51:08.724Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -547,17 +547,17 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "capturedAt": "2026-08-18T13:55:03.073Z",
+      "capturedAt": "2026-08-18T14:51:08.724Z",
       "issueOpen": 3477,
-      "issueClosed": 43990,
-      "prOpen": 2255,
-      "prClosed": 73603,
-      "prMerged": 26021,
+      "issueClosed": 43994,
+      "prOpen": 2248,
+      "prClosed": 73628,
+      "prMerged": 26042,
       "workflowRuns": 40000,
-      "stars": 386633,
-      "forks": 81247,
+      "stars": 386635,
+      "forks": 81244,
       "subscribers": 1757,
-      "commits": 80491,
+      "commits": 80512,
       "contributors": 3108,
       "source": "github-actions",
       "approximateDate": false
@@ -718,10 +718,10 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "stars": 386633,
-      "forks": 81247,
+      "stars": 386635,
+      "forks": 81244,
       "subscribers": 1757,
-      "commits": 80491,
+      "commits": 80512,
       "contributors": 3108
     }
   ],
@@ -729,104 +729,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 125840,
-        "title": "[Bug]: Gateway restart can outlive its shutdown deadline when embedded-run abort wedges the event loop",
-        "url": "https://github.com/openclaw/openclaw/issues/125840",
+        "number": 122488,
+        "title": "[Feature]: Populate the Control UI composer from the harness's ACP model config option instead of locking it",
+        "url": "https://github.com/openclaw/openclaw/issues/122488",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-18T13:54:54Z"
+        "author": "enblanco",
+        "updatedAt": "2026-08-18T14:50:58Z"
       },
       {
         "kind": "issue",
-        "number": 56619,
-        "title": "Feature: notify sender on WhatsApp after pairing approval",
-        "url": "https://github.com/openclaw/openclaw/issues/56619",
+        "number": 122476,
+        "title": "Single-character streamed prefix of NO_REPLY can render before suppression (Matrix and other delta-rendering channels)",
+        "url": "https://github.com/openclaw/openclaw/issues/122476",
         "state": "open",
-        "author": "Pibot-Dev",
-        "updatedAt": "2026-08-18T13:54:51Z"
+        "author": "imabotone-ui",
+        "updatedAt": "2026-08-18T14:50:29Z"
       },
       {
         "kind": "issue",
-        "number": 125839,
-        "title": "CI: codex extension lane exceeds the no-output watchdog; all extensions-touching PRs red",
-        "url": "https://github.com/openclaw/openclaw/issues/125839",
+        "number": 122473,
+        "title": "[Bug]: Rotated Responses message IDs fail terminal output reconciliation",
+        "url": "https://github.com/openclaw/openclaw/issues/122473",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-18T13:54:18Z"
-      },
-      {
-        "kind": "issue",
-        "number": 121729,
-        "title": "[Feature]: Friendly daily spending allowances for agents running in the background",
-        "url": "https://github.com/openclaw/openclaw/issues/121729",
-        "state": "open",
-        "author": "ArielSmoliar",
-        "updatedAt": "2026-08-18T13:54:18Z"
-      },
-      {
-        "kind": "issue",
-        "number": 99277,
-        "title": "Mattermost: ack reactions unimplemented — messages.ackReactionScope is a silent no-op",
-        "url": "https://github.com/openclaw/openclaw/issues/99277",
-        "state": "open",
-        "author": "josh-cornelius",
-        "updatedAt": "2026-08-18T13:52:52Z"
+        "author": "snotty",
+        "updatedAt": "2026-08-18T14:50:05Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 125835,
-        "title": "chore(worker): stabilize inference cancellation tests",
-        "url": "https://github.com/openclaw/openclaw/pull/125835",
+        "number": 117712,
+        "title": "chore(deps): bump the actions group across 1 directory with 10 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/117712",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-18T13:54:56Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-18T14:50:58Z"
       },
       {
         "kind": "pr",
-        "number": 125811,
-        "title": "chore(ui): refresh control ui locales",
-        "url": "https://github.com/openclaw/openclaw/pull/125811",
+        "number": 125862,
+        "title": "refactor(ui): selected-session sends; delete exact-run steer machinery",
+        "url": "https://github.com/openclaw/openclaw/pull/125862",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-18T14:50:54Z"
+      },
+      {
+        "kind": "pr",
+        "number": 90703,
+        "title": "Support compat reasoning levels for thinking xhigh",
+        "url": "https://github.com/openclaw/openclaw/pull/90703",
+        "state": "open",
+        "author": "Alex-Govorov",
+        "updatedAt": "2026-08-18T14:50:54Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125859,
+        "title": "chore(i18n): refresh native locales",
+        "url": "https://github.com/openclaw/openclaw/pull/125859",
         "state": "open",
         "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-08-18T13:54:56Z"
+        "updatedAt": "2026-08-18T14:50:50Z"
       },
       {
         "kind": "pr",
-        "number": 125095,
-        "title": "feat(skills): add taskmarket delegation skill (browse/create/submit paid tasks)",
-        "url": "https://github.com/openclaw/openclaw/pull/125095",
+        "number": 125685,
+        "title": "test(matrix): expose raw command mention safety",
+        "url": "https://github.com/openclaw/openclaw/pull/125685",
         "state": "open",
-        "author": "Autonomy-Labs-Tech",
-        "updatedAt": "2026-08-18T13:54:44Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-18T14:50:33Z"
       },
       {
         "kind": "pr",
-        "number": 125803,
-        "title": "feat: add A2UI widgets to session boards",
-        "url": "https://github.com/openclaw/openclaw/pull/125803",
+        "number": 125596,
+        "title": "fix: prevent plugin metadata rescans from stalling Gateway",
+        "url": "https://github.com/openclaw/openclaw/pull/125596",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-18T13:54:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125833,
-        "title": "fix(agents): record the final-call context fact on cumulative provider usage (#125333)",
-        "url": "https://github.com/openclaw/openclaw/pull/125833",
-        "state": "open",
-        "author": "Yuyorman",
-        "updatedAt": "2026-08-18T13:54:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125812,
-        "title": "fix: preserve idempotencyKey exactly in transcript redaction",
-        "url": "https://github.com/openclaw/openclaw/pull/125812",
-        "state": "open",
-        "author": "markr9805",
-        "updatedAt": "2026-08-18T13:54:30Z"
+        "updatedAt": "2026-08-18T14:50:06Z"
       }
     ]
   }

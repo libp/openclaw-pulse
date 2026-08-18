@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-18T14:51:08.724Z",
+  "generatedAt": "2026-08-18T19:39:33.383Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -547,17 +547,17 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "capturedAt": "2026-08-18T14:51:08.724Z",
-      "issueOpen": 3477,
-      "issueClosed": 43994,
-      "prOpen": 2248,
-      "prClosed": 73628,
-      "prMerged": 26042,
+      "capturedAt": "2026-08-18T19:39:33.383Z",
+      "issueOpen": 3479,
+      "issueClosed": 44017,
+      "prOpen": 2250,
+      "prClosed": 73714,
+      "prMerged": 26119,
       "workflowRuns": 40000,
-      "stars": 386635,
-      "forks": 81244,
+      "stars": 386666,
+      "forks": 81256,
       "subscribers": 1757,
-      "commits": 80512,
+      "commits": 80589,
       "contributors": 3108,
       "source": "github-actions",
       "approximateDate": false
@@ -718,10 +718,10 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "stars": 386635,
-      "forks": 81244,
+      "stars": 386666,
+      "forks": 81256,
       "subscribers": 1757,
-      "commits": 80512,
+      "commits": 80589,
       "contributors": 3108
     }
   ],
@@ -729,86 +729,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 122488,
-        "title": "[Feature]: Populate the Control UI composer from the harness's ACP model config option instead of locking it",
-        "url": "https://github.com/openclaw/openclaw/issues/122488",
+        "number": 42246,
+        "title": "[Feature]: Configurable batching/aggregation of outbound Telegram notifications",
+        "url": "https://github.com/openclaw/openclaw/issues/42246",
         "state": "open",
-        "author": "enblanco",
-        "updatedAt": "2026-08-18T14:50:58Z"
+        "author": "fireniko",
+        "updatedAt": "2026-08-18T19:39:25Z"
       },
       {
         "kind": "issue",
-        "number": 122476,
-        "title": "Single-character streamed prefix of NO_REPLY can render before suppression (Matrix and other delta-rendering channels)",
-        "url": "https://github.com/openclaw/openclaw/issues/122476",
+        "number": 125975,
+        "title": "Secret Store needs explicit protected and agent-readable access modes",
+        "url": "https://github.com/openclaw/openclaw/issues/125975",
         "state": "open",
-        "author": "imabotone-ui",
-        "updatedAt": "2026-08-18T14:50:29Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-18T19:39:19Z"
       },
       {
         "kind": "issue",
-        "number": 122473,
-        "title": "[Bug]: Rotated Responses message IDs fail terminal output reconciliation",
-        "url": "https://github.com/openclaw/openclaw/issues/122473",
+        "number": 125942,
+        "title": "erroredAssistantResultPolicy hardcoded to \"drop\" causes silent replay of failed user turns",
+        "url": "https://github.com/openclaw/openclaw/issues/125942",
         "state": "open",
-        "author": "snotty",
-        "updatedAt": "2026-08-18T14:50:05Z"
+        "author": "tcpool",
+        "updatedAt": "2026-08-18T19:38:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 39923,
+        "title": "feat(config): use datetime suffix for config backup files instead of numeric rotation",
+        "url": "https://github.com/openclaw/openclaw/issues/39923",
+        "state": "open",
+        "author": "davidxcli",
+        "updatedAt": "2026-08-18T19:37:57Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 117712,
-        "title": "chore(deps): bump the actions group across 1 directory with 10 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/117712",
-        "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-18T14:50:58Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125862,
-        "title": "refactor(ui): selected-session sends; delete exact-run steer machinery",
-        "url": "https://github.com/openclaw/openclaw/pull/125862",
+        "number": 125958,
+        "title": "fix(config): fail config unset on a missing path again",
+        "url": "https://github.com/openclaw/openclaw/pull/125958",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-18T14:50:54Z"
+        "updatedAt": "2026-08-18T19:39:25Z"
       },
       {
         "kind": "pr",
-        "number": 90703,
-        "title": "Support compat reasoning levels for thinking xhigh",
-        "url": "https://github.com/openclaw/openclaw/pull/90703",
-        "state": "open",
-        "author": "Alex-Govorov",
-        "updatedAt": "2026-08-18T14:50:54Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125859,
-        "title": "chore(i18n): refresh native locales",
-        "url": "https://github.com/openclaw/openclaw/pull/125859",
-        "state": "open",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-08-18T14:50:50Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125685,
-        "title": "test(matrix): expose raw command mention safety",
-        "url": "https://github.com/openclaw/openclaw/pull/125685",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-18T14:50:33Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125596,
-        "title": "fix: prevent plugin metadata rescans from stalling Gateway",
-        "url": "https://github.com/openclaw/openclaw/pull/125596",
+        "number": 125966,
+        "title": "fix(codex): keep large AGENTS.md instructions visible",
+        "url": "https://github.com/openclaw/openclaw/pull/125966",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-18T14:50:06Z"
+        "updatedAt": "2026-08-18T19:39:21Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123209,
+        "title": "fix(config): channel schema ownership follows the declared preferOver replacement",
+        "url": "https://github.com/openclaw/openclaw/pull/123209",
+        "state": "open",
+        "author": "marmar9615-cloud",
+        "updatedAt": "2026-08-18T19:39:20Z"
+      },
+      {
+        "kind": "pr",
+        "number": 107378,
+        "title": "feat(minimax): route /fast to MiniMax's faster paid lanes with correct pricing",
+        "url": "https://github.com/openclaw/openclaw/pull/107378",
+        "state": "open",
+        "author": "jzakirov",
+        "updatedAt": "2026-08-18T19:39:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125271,
+        "title": "fix(macos): gateway process tests fail under configured host port",
+        "url": "https://github.com/openclaw/openclaw/pull/125271",
+        "state": "open",
+        "author": "PollyBot13",
+        "updatedAt": "2026-08-18T19:39:14Z"
+      },
+      {
+        "kind": "pr",
+        "number": 78035,
+        "title": "fix(memory-core): preserve sibling supplement results when one search rejects (#77897)",
+        "url": "https://github.com/openclaw/openclaw/pull/78035",
+        "state": "open",
+        "author": "lonexreb",
+        "updatedAt": "2026-08-18T19:39:07Z"
       }
     ]
   }

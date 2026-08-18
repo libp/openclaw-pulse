@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-18T21:36:20.588Z",
+  "generatedAt": "2026-08-18T22:39:56.875Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -547,17 +547,17 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "capturedAt": "2026-08-18T21:36:20.588Z",
-      "issueOpen": 3491,
-      "issueClosed": 44025,
-      "prOpen": 2266,
-      "prClosed": 73735,
-      "prMerged": 26138,
+      "capturedAt": "2026-08-18T22:39:56.875Z",
+      "issueOpen": 3490,
+      "issueClosed": 44027,
+      "prOpen": 2268,
+      "prClosed": 73757,
+      "prMerged": 26157,
       "workflowRuns": 40000,
-      "stars": 386667,
+      "stars": 386669,
       "forks": 81259,
       "subscribers": 1757,
-      "commits": 80608,
+      "commits": 80627,
       "contributors": 3108,
       "source": "github-actions",
       "approximateDate": false
@@ -718,10 +718,10 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "stars": 386667,
+      "stars": 386669,
       "forks": 81259,
       "subscribers": 1757,
-      "commits": 80608,
+      "commits": 80627,
       "contributors": 3108
     }
   ],
@@ -729,113 +729,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 94747,
-        "title": "Discord channel mention can end as non_deliverable_terminal_turn with no message.send and no visible reply",
-        "url": "https://github.com/openclaw/openclaw/issues/94747",
+        "number": 114020,
+        "title": "Feishu/Telegram channel dispatch fails: runChannelInboundEvent requires runDispatchLifecycle",
+        "url": "https://github.com/openclaw/openclaw/issues/114020",
         "state": "open",
-        "author": "fanyangCS",
-        "updatedAt": "2026-08-18T21:36:15Z"
+        "author": "jooey",
+        "updatedAt": "2026-08-18T22:39:35Z"
       },
       {
         "kind": "issue",
-        "number": 50205,
-        "title": "[Feature]: Support configurable request labels for Gemini API calls (GCP billing tracking)",
-        "url": "https://github.com/openclaw/openclaw/issues/50205",
+        "number": 90587,
+        "title": "[Bug]: Openclaw returns \"run error: codex app-server exited\" for RISC-V64 System",
+        "url": "https://github.com/openclaw/openclaw/issues/90587",
         "state": "open",
-        "author": "ikujyh",
-        "updatedAt": "2026-08-18T21:36:01Z"
-      },
-      {
-        "kind": "issue",
-        "number": 9986,
-        "title": "Feature: Trigger model fallback on context length exceeded",
-        "url": "https://github.com/openclaw/openclaw/issues/9986",
-        "state": "open",
-        "author": "amirarenco-create",
-        "updatedAt": "2026-08-18T21:35:47Z"
-      },
-      {
-        "kind": "issue",
-        "number": 125802,
-        "title": "[Bug]: successful provider streams can skip response hooks",
-        "url": "https://github.com/openclaw/openclaw/issues/125802",
-        "state": "open",
-        "author": "osolmaz",
-        "updatedAt": "2026-08-18T21:35:30Z"
-      },
-      {
-        "kind": "issue",
-        "number": 126026,
-        "title": "[Bug]: Assign to me does not update the session owner",
-        "url": "https://github.com/openclaw/openclaw/issues/126026",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-18T21:35:28Z"
-      },
-      {
-        "kind": "issue",
-        "number": 126002,
-        "title": "Structured secret redaction masks non-secret JSON fields based on key name alone (e.g. Azure Logs Analytics SYN0002 token field)",
-        "url": "https://github.com/openclaw/openclaw/issues/126002",
-        "state": "open",
-        "author": "DrNatas",
-        "updatedAt": "2026-08-18T21:35:14Z"
+        "author": "SaitejaB31",
+        "updatedAt": "2026-08-18T22:37:04Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 122238,
-        "title": "fix(discord): batch queued messages by thread",
-        "url": "https://github.com/openclaw/openclaw/pull/122238",
+        "number": 123975,
+        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
+        "url": "https://github.com/openclaw/openclaw/pull/123975",
         "state": "open",
-        "author": "k-oc-agent",
-        "updatedAt": "2026-08-18T21:36:14Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-18T22:39:45Z"
       },
       {
         "kind": "pr",
-        "number": 125992,
-        "title": "fix(install): avoid success after incomplete lifecycle changes",
-        "url": "https://github.com/openclaw/openclaw/pull/125992",
+        "number": 123535,
+        "title": "fix(ui): avoid session catalog refresh storms",
+        "url": "https://github.com/openclaw/openclaw/pull/123535",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-18T21:36:10Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-18T22:39:45Z"
       },
       {
         "kind": "pr",
-        "number": 124429,
-        "title": "fix(ui): reflect inherited agent skill allowlists",
-        "url": "https://github.com/openclaw/openclaw/pull/124429",
-        "state": "open",
-        "author": "jjjhenriksen",
-        "updatedAt": "2026-08-18T21:36:10Z"
+        "number": 120900,
+        "title": "feat(ui): review install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/120900",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-18T22:39:40Z"
       },
       {
         "kind": "pr",
-        "number": 126028,
-        "title": "fix(providers): report request acceptance consistently",
-        "url": "https://github.com/openclaw/openclaw/pull/126028",
+        "number": 126020,
+        "title": "fix: plugin install rejects bare prerelease gateway minimums",
+        "url": "https://github.com/openclaw/openclaw/pull/126020",
         "state": "open",
-        "author": "osolmaz",
-        "updatedAt": "2026-08-18T21:36:09Z"
+        "author": "jalehman",
+        "updatedAt": "2026-08-18T22:39:24Z"
       },
       {
         "kind": "pr",
-        "number": 126030,
-        "title": "refactor(canvas): make the panel a widget presenter",
-        "url": "https://github.com/openclaw/openclaw/pull/126030",
+        "number": 126056,
+        "title": "fix(ui): start new chat worktrees from fresh defaults",
+        "url": "https://github.com/openclaw/openclaw/pull/126056",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-18T21:36:00Z"
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-18T22:39:23Z"
       },
       {
         "kind": "pr",
-        "number": 126029,
-        "title": "docs(gateway): document the Cloudflare Tunnel and Access deployment",
-        "url": "https://github.com/openclaw/openclaw/pull/126029",
+        "number": 120443,
+        "title": "fix: read codex thread binding before deferring automatic compaction (#119977)",
+        "url": "https://github.com/openclaw/openclaw/pull/120443",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-18T21:35:49Z"
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-08-18T22:38:55Z"
       }
     ]
   }

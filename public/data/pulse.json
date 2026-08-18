@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-18T03:07:25.728Z",
+  "generatedAt": "2026-08-18T03:56:20.392Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -547,17 +547,17 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "capturedAt": "2026-08-18T03:07:25.728Z",
-      "issueOpen": 3462,
-      "issueClosed": 43933,
-      "prOpen": 2239,
-      "prClosed": 73411,
-      "prMerged": 25863,
+      "capturedAt": "2026-08-18T03:56:20.392Z",
+      "issueOpen": 3460,
+      "issueClosed": 43938,
+      "prOpen": 2235,
+      "prClosed": 73431,
+      "prMerged": 25878,
       "workflowRuns": 40000,
-      "stars": 386572,
+      "stars": 386573,
       "forks": 81235,
       "subscribers": 1758,
-      "commits": 80333,
+      "commits": 80348,
       "contributors": 3107,
       "source": "github-actions",
       "approximateDate": false
@@ -718,10 +718,10 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "stars": 386572,
+      "stars": 386573,
       "forks": 81235,
       "subscribers": 1758,
-      "commits": 80333,
+      "commits": 80348,
       "contributors": 3107
     }
   ],
@@ -729,104 +729,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 52960,
-        "title": "[Feature]: Control UI should show compact run progress for long or multi-agent tasks",
-        "url": "https://github.com/openclaw/openclaw/issues/52960",
+        "number": 117703,
+        "title": "Feature request: log failed tool executions to a persistent log",
+        "url": "https://github.com/openclaw/openclaw/issues/117703",
         "state": "open",
-        "author": "betamod",
-        "updatedAt": "2026-08-18T03:07:05Z"
-      },
-      {
-        "kind": "issue",
-        "number": 100537,
-        "title": "[Bug]: active-memory embedded run cannot resolve Lossless Claw lcm_* tools despite runtime plugin inspect showing them registered",
-        "url": "https://github.com/openclaw/openclaw/issues/100537",
-        "state": "open",
-        "author": "guarismo",
-        "updatedAt": "2026-08-18T03:06:59Z"
-      },
-      {
-        "kind": "issue",
-        "number": 65983,
-        "title": "Background PTY exec runs can survive restart/session loss and become untracked orphan process trees",
-        "url": "https://github.com/openclaw/openclaw/issues/65983",
-        "state": "open",
-        "author": "andydoucet",
-        "updatedAt": "2026-08-18T03:06:58Z"
-      },
-      {
-        "kind": "issue",
-        "number": 74378,
-        "title": "[Bug]: OpenClaw CLI commands remain alive as node.exe processes after execution on Windows",
-        "url": "https://github.com/openclaw/openclaw/issues/74378",
-        "state": "open",
-        "author": "2ndNuts",
-        "updatedAt": "2026-08-18T03:06:57Z"
-      },
-      {
-        "kind": "issue",
-        "number": 125549,
-        "title": "User bubbles: replace Show more with a five-line chevron disclosure",
-        "url": "https://github.com/openclaw/openclaw/issues/125549",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-18T03:06:53Z"
+        "author": "pkmatt",
+        "updatedAt": "2026-08-18T03:55:45Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 125539,
-        "title": "improve(ui): reduce startup stylesheet size",
-        "url": "https://github.com/openclaw/openclaw/pull/125539",
+        "number": 117712,
+        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/117712",
+        "state": "open",
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-18T03:56:15Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125564,
+        "title": "fix(mcp): prevent stale catalogs and silent tool failures",
+        "url": "https://github.com/openclaw/openclaw/pull/125564",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-18T03:07:19Z"
+        "updatedAt": "2026-08-18T03:56:14Z"
       },
       {
         "kind": "pr",
-        "number": 124709,
-        "title": "fix(channels): resolve registered plugins before agent workspace",
-        "url": "https://github.com/openclaw/openclaw/pull/124709",
+        "number": 125244,
+        "title": "fix(ui): show users typing in the transcript",
+        "url": "https://github.com/openclaw/openclaw/pull/125244",
         "state": "open",
-        "author": "Leon-SK668",
-        "updatedAt": "2026-08-18T03:07:16Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-18T03:56:08Z"
       },
       {
         "kind": "pr",
-        "number": 125552,
-        "title": "fix(voice-call): keep Funnel off occupied HTTPS ports",
-        "url": "https://github.com/openclaw/openclaw/pull/125552",
+        "number": 125571,
+        "title": "improve: stress packaged SQLite upgrade migration",
+        "url": "https://github.com/openclaw/openclaw/pull/125571",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-18T03:07:12Z"
+        "updatedAt": "2026-08-18T03:56:07Z"
       },
       {
         "kind": "pr",
-        "number": 116253,
-        "title": "fix(embedded-runner): flush partial streaming output before run budget abort",
-        "url": "https://github.com/openclaw/openclaw/pull/116253",
+        "number": 120327,
+        "title": "fix(ui): stop the home session ring after a run ends",
+        "url": "https://github.com/openclaw/openclaw/pull/120327",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-18T03:07:12Z"
+        "author": "ayaangazali",
+        "updatedAt": "2026-08-18T03:56:07Z"
       },
       {
         "kind": "pr",
-        "number": 118977,
-        "title": "feat(sdk): support realtime transcription WebSocket protocols",
-        "url": "https://github.com/openclaw/openclaw/pull/118977",
+        "number": 125563,
+        "title": "fix(ui): show session hovercards for every sidebar row beside the rail",
+        "url": "https://github.com/openclaw/openclaw/pull/125563",
         "state": "open",
-        "author": "LauraGPT",
-        "updatedAt": "2026-08-18T03:07:10Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125550,
-        "title": "Android: fix photos.latest returning stale, over-shrunk images",
-        "url": "https://github.com/openclaw/openclaw/pull/125550",
-        "state": "open",
-        "author": "Kaneki-x",
-        "updatedAt": "2026-08-18T03:07:06Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-18T03:55:47Z"
       }
     ]
   }

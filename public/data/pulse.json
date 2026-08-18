@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-18T09:47:08.822Z",
+  "generatedAt": "2026-08-18T10:44:40.072Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -547,17 +547,17 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "capturedAt": "2026-08-18T09:47:08.822Z",
-      "issueOpen": 3465,
-      "issueClosed": 43973,
-      "prOpen": 2251,
-      "prClosed": 73560,
-      "prMerged": 25987,
+      "capturedAt": "2026-08-18T10:44:40.072Z",
+      "issueOpen": 3472,
+      "issueClosed": 43977,
+      "prOpen": 2249,
+      "prClosed": 73576,
+      "prMerged": 26005,
       "workflowRuns": 40000,
-      "stars": 386618,
+      "stars": 386615,
       "forks": 81242,
       "subscribers": 1758,
-      "commits": 80457,
+      "commits": 80475,
       "contributors": 3108,
       "source": "github-actions",
       "approximateDate": false
@@ -718,10 +718,10 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "stars": 386618,
+      "stars": 386615,
       "forks": 81242,
       "subscribers": 1758,
-      "commits": 80457,
+      "commits": 80475,
       "contributors": 3108
     }
   ],
@@ -729,113 +729,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 105266,
-        "title": "flaky(ui): locale-rendering tests fail nondeterministically with rotating victims in core-runtime-media-ui shard",
-        "url": "https://github.com/openclaw/openclaw/issues/105266",
+        "number": 72021,
+        "title": "Short-term promotion: signalCount mixes daily/session signals with real recalls",
+        "url": "https://github.com/openclaw/openclaw/issues/72021",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-18T09:46:59Z"
+        "author": "CSZ-w",
+        "updatedAt": "2026-08-18T10:44:21Z"
       },
       {
         "kind": "issue",
-        "number": 104486,
-        "title": "Sync vendored shared skills from openclaw/agent-skills",
-        "url": "https://github.com/openclaw/openclaw/issues/104486",
+        "number": 77717,
+        "title": "Feishu channel: bot identity recovery race condition causes permanent disconnection",
+        "url": "https://github.com/openclaw/openclaw/issues/77717",
         "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-08-18T09:46:58Z"
+        "author": "Enominera",
+        "updatedAt": "2026-08-18T10:44:19Z"
       },
       {
         "kind": "issue",
-        "number": 104312,
-        "title": "[Feature]: Intent-scoped MCP activation for large MCP catalogs",
-        "url": "https://github.com/openclaw/openclaw/issues/104312",
+        "number": 72717,
+        "title": "Feature Request: SQLite FTS index for wiki_search to improve synthesis query performance",
+        "url": "https://github.com/openclaw/openclaw/issues/72717",
         "state": "open",
-        "author": "ssavitang",
-        "updatedAt": "2026-08-18T09:46:57Z"
+        "author": "MagnaAI",
+        "updatedAt": "2026-08-18T10:44:18Z"
       },
       {
         "kind": "issue",
-        "number": 105494,
-        "title": "[Feature]: Interactive \"memory therapy\" session to resolve open questions & contradictions with the user",
-        "url": "https://github.com/openclaw/openclaw/issues/105494",
+        "number": 70055,
+        "title": "[Feature]: Allow disabling external-cli-sync for auth-profiles via config",
+        "url": "https://github.com/openclaw/openclaw/issues/70055",
         "state": "open",
-        "author": "kip-claw",
-        "updatedAt": "2026-08-18T09:46:54Z"
+        "author": "keareyChia",
+        "updatedAt": "2026-08-18T10:44:15Z"
       },
       {
         "kind": "issue",
-        "number": 105453,
-        "title": "[Enhancement] Support dynamic batching and deferred queue writes for audit log persistence",
-        "url": "https://github.com/openclaw/openclaw/issues/105453",
+        "number": 69669,
+        "title": "ACP: keep thread-bound follow-ups parent-orchestrated by default, not raw pass-through",
+        "url": "https://github.com/openclaw/openclaw/issues/69669",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-18T09:46:49Z"
+        "author": "V0hgg",
+        "updatedAt": "2026-08-18T10:44:14Z"
       },
       {
         "kind": "issue",
-        "number": 104782,
-        "title": "Gateway: carry side-chat display question in chat.side_result for non-initiating clients",
-        "url": "https://github.com/openclaw/openclaw/issues/104782",
+        "number": 71452,
+        "title": "feat(message): list chat / list messages should support pagination instead of hardcoded 25 limit",
+        "url": "https://github.com/openclaw/openclaw/issues/71452",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-18T09:46:39Z"
+        "author": "JerryTao-AI",
+        "updatedAt": "2026-08-18T10:44:13Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 125471,
-        "title": "fix(models): keep Claude CLI OAuth available in Control UI",
-        "url": "https://github.com/openclaw/openclaw/pull/125471",
+        "number": 124303,
+        "title": "fix(sessions): track context window provenance",
+        "url": "https://github.com/openclaw/openclaw/pull/124303",
         "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-08-18T09:46:50Z"
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-08-18T10:44:30Z"
       },
       {
         "kind": "pr",
-        "number": 123975,
-        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
-        "url": "https://github.com/openclaw/openclaw/pull/123975",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-18T09:46:46Z"
-      },
-      {
-        "kind": "pr",
-        "number": 104691,
-        "title": "fix(msteams): proactive sends fail after conversation migration",
-        "url": "https://github.com/openclaw/openclaw/pull/104691",
-        "state": "open",
-        "author": "jimmypuckett",
-        "updatedAt": "2026-08-18T09:46:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125698,
-        "title": "fix(ui): preserve automation mutation lifecycle",
-        "url": "https://github.com/openclaw/openclaw/pull/125698",
+        "number": 125492,
+        "title": "feat(control-ui): simplified settings experience for non-admin operators",
+        "url": "https://github.com/openclaw/openclaw/pull/125492",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-18T09:46:40Z"
+        "updatedAt": "2026-08-18T10:44:35Z"
       },
       {
         "kind": "pr",
-        "number": 123356,
-        "title": "improve(control-ui): stage slash command arguments in the composer",
-        "url": "https://github.com/openclaw/openclaw/pull/123356",
+        "number": 75165,
+        "title": "feat(agents): composable termination algebra + GSAR grounding scorer",
+        "url": "https://github.com/openclaw/openclaw/pull/75165",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-18T09:46:32Z"
+        "author": "fede-kamel",
+        "updatedAt": "2026-08-18T10:44:22Z"
       },
       {
         "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-18T09:46:32Z"
+        "number": 125781,
+        "title": "feat(llama-cpp): support external llama-server",
+        "url": "https://github.com/openclaw/openclaw/pull/125781",
+        "state": "open",
+        "author": "osolmaz",
+        "updatedAt": "2026-08-18T10:44:21Z"
+      },
+      {
+        "kind": "pr",
+        "number": 96113,
+        "title": "feat(sessions): add read-only diagnose command",
+        "url": "https://github.com/openclaw/openclaw/pull/96113",
+        "state": "open",
+        "author": "zaidazmi",
+        "updatedAt": "2026-08-18T10:44:07Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125788,
+        "title": "fix(agents): keep the skills catalog when toolsAllow is not a narrow grant",
+        "url": "https://github.com/openclaw/openclaw/pull/125788",
+        "state": "open",
+        "author": "interkelstar",
+        "updatedAt": "2026-08-18T10:43:23Z"
       }
     ]
   }

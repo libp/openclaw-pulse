@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-18T22:39:56.875Z",
+  "generatedAt": "2026-08-18T23:34:25.677Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -547,17 +547,17 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "capturedAt": "2026-08-18T22:39:56.875Z",
-      "issueOpen": 3490,
-      "issueClosed": 44027,
-      "prOpen": 2268,
-      "prClosed": 73757,
-      "prMerged": 26157,
+      "capturedAt": "2026-08-18T23:34:25.677Z",
+      "issueOpen": 3495,
+      "issueClosed": 44029,
+      "prOpen": 2272,
+      "prClosed": 73770,
+      "prMerged": 26169,
       "workflowRuns": 40000,
-      "stars": 386669,
+      "stars": 386674,
       "forks": 81259,
       "subscribers": 1757,
-      "commits": 80627,
+      "commits": 80639,
       "contributors": 3108,
       "source": "github-actions",
       "approximateDate": false
@@ -718,10 +718,10 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "stars": 386669,
+      "stars": 386674,
       "forks": 81259,
       "subscribers": 1757,
-      "commits": 80627,
+      "commits": 80639,
       "contributors": 3108
     }
   ],
@@ -729,32 +729,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 114020,
-        "title": "Feishu/Telegram channel dispatch fails: runChannelInboundEvent requires runDispatchLifecycle",
-        "url": "https://github.com/openclaw/openclaw/issues/114020",
+        "number": 96869,
+        "title": "[Bug]: Reasoning+content streaming chunk loses visible content when an inline code span straddles the boundary (visible persisted with unclosed backtick, remainder routed to thinking)",
+        "url": "https://github.com/openclaw/openclaw/issues/96869",
         "state": "open",
-        "author": "jooey",
-        "updatedAt": "2026-08-18T22:39:35Z"
+        "author": "flashosophy",
+        "updatedAt": "2026-08-18T23:34:20Z"
       },
       {
         "kind": "issue",
-        "number": 90587,
-        "title": "[Bug]: Openclaw returns \"run error: codex app-server exited\" for RISC-V64 System",
-        "url": "https://github.com/openclaw/openclaw/issues/90587",
+        "number": 86612,
+        "title": "Docker gateway container restart loop when OPENCLAW_SANDBOX=1 and OPENCLAW_HOME=/mnt/...",
+        "url": "https://github.com/openclaw/openclaw/issues/86612",
         "state": "open",
-        "author": "SaitejaB31",
-        "updatedAt": "2026-08-18T22:37:04Z"
+        "author": "trevorsandy",
+        "updatedAt": "2026-08-18T23:34:14Z"
+      },
+      {
+        "kind": "issue",
+        "number": 114081,
+        "title": "[Bug]: Pre-compaction memory flush never runs when the reactive overflow-recovery path fires (two disconnected compaction systems)",
+        "url": "https://github.com/openclaw/openclaw/issues/114081",
+        "state": "open",
+        "author": "XdotX78",
+        "updatedAt": "2026-08-18T23:34:08Z"
+      },
+      {
+        "kind": "issue",
+        "number": 111510,
+        "title": "[Bug]: codex/* provider POSTs to legacy /backend-api/responses (403) at clean boot while sibling openai/* canonicalizes to /backend-api/codex/responses (200) — 2026.7.1",
+        "url": "https://github.com/openclaw/openclaw/issues/111510",
+        "state": "open",
+        "author": "cslade",
+        "updatedAt": "2026-08-18T23:34:04Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112912,
+        "title": "boot-md: all BOOT.md startup hooks fail silently with CronSessionLifecycleClaimError on first boot after upgrading from <=2026.6.x (stale legacy boot session entries)",
+        "url": "https://github.com/openclaw/openclaw/issues/112912",
+        "state": "open",
+        "author": "andrea-kingautomation",
+        "updatedAt": "2026-08-18T23:34:03Z"
+      },
+      {
+        "kind": "issue",
+        "number": 79611,
+        "title": "active-memory plugin: pins to one provider, no failover; timeout shorter than provider latency causes silent drops",
+        "url": "https://github.com/openclaw/openclaw/issues/79611",
+        "state": "open",
+        "author": "wherewolf87",
+        "updatedAt": "2026-08-18T23:33:54Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123975,
-        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
-        "url": "https://github.com/openclaw/openclaw/pull/123975",
+        "number": 125143,
+        "title": "fix(cli): allow agent selection for direct inference",
+        "url": "https://github.com/openclaw/openclaw/pull/125143",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-18T22:39:45Z"
+        "author": "omarshahine",
+        "updatedAt": "2026-08-18T23:34:20Z"
       },
       {
         "kind": "pr",
@@ -763,7 +799,34 @@
         "url": "https://github.com/openclaw/openclaw/pull/123535",
         "state": "open",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-18T22:39:45Z"
+        "updatedAt": "2026-08-18T23:34:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125812,
+        "title": "fix: preserve idempotencyKey exactly in transcript redaction",
+        "url": "https://github.com/openclaw/openclaw/pull/125812",
+        "state": "open",
+        "author": "markr9805",
+        "updatedAt": "2026-08-18T23:34:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114576,
+        "title": "fix(ui): keep active preambles visible when opening sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/114576",
+        "state": "open",
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-18T23:34:08Z"
+      },
+      {
+        "kind": "pr",
+        "number": 114625,
+        "title": "fix(nextcloud-talk): retry room kind lookup failures",
+        "url": "https://github.com/openclaw/openclaw/pull/114625",
+        "state": "open",
+        "author": "sunlit-deng",
+        "updatedAt": "2026-08-18T23:34:05Z"
       },
       {
         "kind": "pr",
@@ -772,34 +835,7 @@
         "url": "https://github.com/openclaw/openclaw/pull/120900",
         "state": "closed",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-18T22:39:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126020,
-        "title": "fix: plugin install rejects bare prerelease gateway minimums",
-        "url": "https://github.com/openclaw/openclaw/pull/126020",
-        "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-08-18T22:39:24Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126056,
-        "title": "fix(ui): start new chat worktrees from fresh defaults",
-        "url": "https://github.com/openclaw/openclaw/pull/126056",
-        "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-18T22:39:23Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120443,
-        "title": "fix: read codex thread binding before deferring automatic compaction (#119977)",
-        "url": "https://github.com/openclaw/openclaw/pull/120443",
-        "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-08-18T22:38:55Z"
+        "updatedAt": "2026-08-18T23:34:03Z"
       }
     ]
   }

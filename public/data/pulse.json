@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-18T07:52:15.066Z",
+  "generatedAt": "2026-08-18T08:51:59.958Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -547,17 +547,17 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "capturedAt": "2026-08-18T07:52:15.066Z",
+      "capturedAt": "2026-08-18T08:51:59.958Z",
       "issueOpen": 3467,
-      "issueClosed": 43961,
-      "prOpen": 2254,
-      "prClosed": 73515,
-      "prMerged": 25951,
+      "issueClosed": 43966,
+      "prOpen": 2263,
+      "prClosed": 73538,
+      "prMerged": 25968,
       "workflowRuns": 40000,
-      "stars": 386601,
-      "forks": 81241,
+      "stars": 386604,
+      "forks": 81242,
       "subscribers": 1758,
-      "commits": 80421,
+      "commits": 80438,
       "contributors": 3108,
       "source": "github-actions",
       "approximateDate": false
@@ -718,10 +718,10 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "stars": 386601,
-      "forks": 81241,
+      "stars": 386604,
+      "forks": 81242,
       "subscribers": 1758,
-      "commits": 80421,
+      "commits": 80438,
       "contributors": 3108
     }
   ],
@@ -729,77 +729,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 119041,
-        "title": "[Bug]: Slack partial preview rotates into new messages on MiniMax reasoning boundaries",
-        "url": "https://github.com/openclaw/openclaw/issues/119041",
-        "state": "open",
-        "author": "lubao515",
-        "updatedAt": "2026-08-18T07:51:06Z"
+        "number": 125655,
+        "title": "[Bug]: generated attachments can show matching raw image Markdown",
+        "url": "https://github.com/openclaw/openclaw/issues/125655",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-18T08:51:47Z"
       },
       {
         "kind": "issue",
-        "number": 112960,
-        "title": "memory-wiki: transient 'unable to resolve opened file path' on first wiki_get/wiki_search, succeeds on retry",
-        "url": "https://github.com/openclaw/openclaw/issues/112960",
+        "number": 125223,
+        "title": "Control UI: redesign tool calls as lightweight transcript activity",
+        "url": "https://github.com/openclaw/openclaw/issues/125223",
+        "state": "closed",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-18T08:51:39Z"
+      },
+      {
+        "kind": "issue",
+        "number": 92100,
+        "title": "Feishu no-visible fallback is opaque after delegated turns",
+        "url": "https://github.com/openclaw/openclaw/issues/92100",
+        "state": "closed",
+        "author": "loyur",
+        "updatedAt": "2026-08-18T08:51:38Z"
+      },
+      {
+        "kind": "issue",
+        "number": 125648,
+        "title": "[Feature]: Dynamic Fallback Model Routing with Conditional Logic",
+        "url": "https://github.com/openclaw/openclaw/issues/125648",
+        "state": "closed",
+        "author": "GHDash",
+        "updatedAt": "2026-08-18T08:51:36Z"
+      },
+      {
+        "kind": "issue",
+        "number": 121958,
+        "title": "[Bug]: Correction-release container images embed the base version and show a permanent update banner",
+        "url": "https://github.com/openclaw/openclaw/issues/121958",
         "state": "open",
-        "author": "dom521",
-        "updatedAt": "2026-08-18T07:50:47Z"
+        "author": "enblanco",
+        "updatedAt": "2026-08-18T08:51:11Z"
+      },
+      {
+        "kind": "issue",
+        "number": 111647,
+        "title": "[Bug]:  Nested subagent returns a valid result, but parent Task and mirrored Flow terminalize as blocked",
+        "url": "https://github.com/openclaw/openclaw/issues/111647",
+        "state": "open",
+        "author": "backthatup",
+        "updatedAt": "2026-08-18T08:51:10Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 125700,
-        "title": "feat(gateway): reach a Gateway behind an identity-aware proxy from the CLI",
-        "url": "https://github.com/openclaw/openclaw/pull/125700",
+        "number": 125612,
+        "title": "refactor(realtime): share audio duration calculation",
+        "url": "https://github.com/openclaw/openclaw/pull/125612",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-18T08:51:50Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125650,
+        "title": "chore(i18n): refresh native locales",
+        "url": "https://github.com/openclaw/openclaw/pull/125650",
+        "state": "closed",
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-08-18T08:51:44Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109493,
+        "title": "fix(gateway): worker workspaces recover after stalled process probes",
+        "url": "https://github.com/openclaw/openclaw/pull/109493",
+        "state": "open",
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-08-18T08:51:43Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117712,
+        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/117712",
+        "state": "open",
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-18T08:51:42Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125644,
+        "title": "fix(doctor): classify critical disk exhaustion as error",
+        "url": "https://github.com/openclaw/openclaw/pull/125644",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-18T08:51:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125732,
+        "title": "fix(ui): disable review-only approval actions",
+        "url": "https://github.com/openclaw/openclaw/pull/125732",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-18T07:52:06Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-18T07:52:03Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125705,
-        "title": "fix(update): schedule dev updates after slow Git fetches",
-        "url": "https://github.com/openclaw/openclaw/pull/125705",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-18T07:52:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125645,
-        "title": "fix(ui): align session owner filtering terminology",
-        "url": "https://github.com/openclaw/openclaw/pull/125645",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-18T07:52:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125664,
-        "title": "fix(feishu): promote send attachment aliases instead of silent drop",
-        "url": "https://github.com/openclaw/openclaw/pull/125664",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-18T07:51:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125633,
-        "title": "fix(imessage): preserve inbound SMS routing in auto mode [AI-assisted]",
-        "url": "https://github.com/openclaw/openclaw/pull/125633",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-18T07:51:50Z"
+        "updatedAt": "2026-08-18T08:51:38Z"
       }
     ]
   }

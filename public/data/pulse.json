@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-18T04:49:45.142Z",
+  "generatedAt": "2026-08-18T05:43:39.853Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -547,17 +547,17 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "capturedAt": "2026-08-18T04:49:45.142Z",
-      "issueOpen": 3461,
-      "issueClosed": 43945,
-      "prOpen": 2238,
-      "prClosed": 73453,
-      "prMerged": 25900,
+      "capturedAt": "2026-08-18T05:43:39.853Z",
+      "issueOpen": 3464,
+      "issueClosed": 43948,
+      "prOpen": 2249,
+      "prClosed": 73468,
+      "prMerged": 25914,
       "workflowRuns": 40000,
-      "stars": 386579,
-      "forks": 81234,
+      "stars": 386585,
+      "forks": 81238,
       "subscribers": 1758,
-      "commits": 80370,
+      "commits": 80384,
       "contributors": 3107,
       "source": "github-actions",
       "approximateDate": false
@@ -718,10 +718,10 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "stars": 386579,
-      "forks": 81234,
+      "stars": 386585,
+      "forks": 81238,
       "subscribers": 1758,
-      "commits": 80370,
+      "commits": 80384,
       "contributors": 3107
     }
   ],
@@ -729,95 +729,41 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 81924,
-        "title": "gateway: add a suppressed marker to sessions.changed when a silent-reply broadcast is dropped",
-        "url": "https://github.com/openclaw/openclaw/issues/81924",
+        "number": 125570,
+        "title": "[Bug]: Skill Workshop update apply overwrites the live skill's description, silently breaking skill routing",
+        "url": "https://github.com/openclaw/openclaw/issues/125570",
         "state": "open",
-        "author": "nuioo",
-        "updatedAt": "2026-08-18T04:49:37Z"
+        "author": "XX441",
+        "updatedAt": "2026-08-18T05:43:28Z"
       },
       {
         "kind": "issue",
-        "number": 125328,
-        "title": "[CLARIFICATION] exec rejects \"timeout\" by design, but code-mode → openclaw:core:terminal chain still emits it — what is the contract?",
-        "url": "https://github.com/openclaw/openclaw/issues/125328",
+        "number": 125626,
+        "title": "Release validation: v2026.8.1-beta.2",
+        "url": "https://github.com/openclaw/openclaw/issues/125626",
         "state": "open",
-        "author": "zhucegep",
-        "updatedAt": "2026-08-18T04:49:27Z"
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-08-18T05:43:22Z"
       },
       {
         "kind": "issue",
-        "number": 13601,
-        "title": "Add persistent cron job execution history with filtering",
-        "url": "https://github.com/openclaw/openclaw/issues/13601",
+        "number": 125635,
+        "title": "[Bug]: TUI /auth (local mode) — spawned auth wizard exits 1 instantly, no diagnostics in TUI or file log",
+        "url": "https://github.com/openclaw/openclaw/issues/125635",
         "state": "open",
-        "author": "trevorgordon981",
-        "updatedAt": "2026-08-18T04:49:18Z"
-      },
-      {
-        "kind": "issue",
-        "number": 86778,
-        "title": "[bug]：Gateway pairing failure on Trim OS / TerraMaster NAS: WebSocket closes with code 1002 during device proof response",
-        "url": "https://github.com/openclaw/openclaw/issues/86778",
-        "state": "open",
-        "author": "wp1018347903",
-        "updatedAt": "2026-08-18T04:49:07Z"
-      },
-      {
-        "kind": "issue",
-        "number": 90746,
-        "title": "Document practical requirements for QMD memory backend on CPU-only VPS deployments",
-        "url": "https://github.com/openclaw/openclaw/issues/90746",
-        "state": "open",
-        "author": "holgergruenhagen",
-        "updatedAt": "2026-08-18T04:48:58Z"
-      },
-      {
-        "kind": "issue",
-        "number": 125602,
-        "title": "[Feature]: Let non-admin operators use shared cloud runners",
-        "url": "https://github.com/openclaw/openclaw/issues/125602",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-18T04:48:54Z"
+        "author": "P5ina",
+        "updatedAt": "2026-08-18T05:42:38Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 125574,
-        "title": "fix(codex): enforce hosted search domains for web fetch",
-        "url": "https://github.com/openclaw/openclaw/pull/125574",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-18T04:49:39Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125600,
-        "title": "fix(agents): reap the MCP stdio process group when the leader exits on its own",
-        "url": "https://github.com/openclaw/openclaw/pull/125600",
+        "number": 117712,
+        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/117712",
         "state": "open",
-        "author": "he-yufeng",
-        "updatedAt": "2026-08-18T04:49:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125585,
-        "title": "improve(ui): defer offscreen plugin row rendering",
-        "url": "https://github.com/openclaw/openclaw/pull/125585",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-18T04:49:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125598,
-        "title": "fix(gateway): allow write-scoped worktree creation",
-        "url": "https://github.com/openclaw/openclaw/pull/125598",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-18T04:49:22Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-18T05:43:31Z"
       },
       {
         "kind": "pr",
@@ -826,7 +772,25 @@
         "url": "https://github.com/openclaw/openclaw/pull/112375",
         "state": "open",
         "author": "Bartok9",
-        "updatedAt": "2026-08-18T04:49:22Z"
+        "updatedAt": "2026-08-18T05:43:30Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125249,
+        "title": "feat(ui): unify fenced code block visual styling",
+        "url": "https://github.com/openclaw/openclaw/pull/125249",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-18T05:43:28Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125296,
+        "title": "fix(release): bound ClawHub publish without GNU timeout",
+        "url": "https://github.com/openclaw/openclaw/pull/125296",
+        "state": "open",
+        "author": "PollyBot13",
+        "updatedAt": "2026-08-18T05:43:28Z"
       },
       {
         "kind": "pr",
@@ -835,7 +799,16 @@
         "url": "https://github.com/openclaw/openclaw/pull/120900",
         "state": "closed",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-18T04:49:20Z"
+        "updatedAt": "2026-08-18T05:43:23Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125636,
+        "title": "fix(gateway): preserve chat metadata across UI prefs",
+        "url": "https://github.com/openclaw/openclaw/pull/125636",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-18T05:43:20Z"
       }
     ]
   }

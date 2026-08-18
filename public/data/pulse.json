@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-18T03:56:20.392Z",
+  "generatedAt": "2026-08-18T04:49:45.142Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -547,17 +547,17 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "capturedAt": "2026-08-18T03:56:20.392Z",
-      "issueOpen": 3460,
-      "issueClosed": 43938,
-      "prOpen": 2235,
-      "prClosed": 73431,
-      "prMerged": 25878,
+      "capturedAt": "2026-08-18T04:49:45.142Z",
+      "issueOpen": 3461,
+      "issueClosed": 43945,
+      "prOpen": 2238,
+      "prClosed": 73453,
+      "prMerged": 25900,
       "workflowRuns": 40000,
-      "stars": 386573,
-      "forks": 81235,
+      "stars": 386579,
+      "forks": 81234,
       "subscribers": 1758,
-      "commits": 80348,
+      "commits": 80370,
       "contributors": 3107,
       "source": "github-actions",
       "approximateDate": false
@@ -718,10 +718,10 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "stars": 386573,
-      "forks": 81235,
+      "stars": 386579,
+      "forks": 81234,
       "subscribers": 1758,
-      "commits": 80348,
+      "commits": 80370,
       "contributors": 3107
     }
   ],
@@ -729,68 +729,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 117703,
-        "title": "Feature request: log failed tool executions to a persistent log",
-        "url": "https://github.com/openclaw/openclaw/issues/117703",
+        "number": 81924,
+        "title": "gateway: add a suppressed marker to sessions.changed when a silent-reply broadcast is dropped",
+        "url": "https://github.com/openclaw/openclaw/issues/81924",
         "state": "open",
-        "author": "pkmatt",
-        "updatedAt": "2026-08-18T03:55:45Z"
+        "author": "nuioo",
+        "updatedAt": "2026-08-18T04:49:37Z"
+      },
+      {
+        "kind": "issue",
+        "number": 125328,
+        "title": "[CLARIFICATION] exec rejects \"timeout\" by design, but code-mode → openclaw:core:terminal chain still emits it — what is the contract?",
+        "url": "https://github.com/openclaw/openclaw/issues/125328",
+        "state": "open",
+        "author": "zhucegep",
+        "updatedAt": "2026-08-18T04:49:27Z"
+      },
+      {
+        "kind": "issue",
+        "number": 13601,
+        "title": "Add persistent cron job execution history with filtering",
+        "url": "https://github.com/openclaw/openclaw/issues/13601",
+        "state": "open",
+        "author": "trevorgordon981",
+        "updatedAt": "2026-08-18T04:49:18Z"
+      },
+      {
+        "kind": "issue",
+        "number": 86778,
+        "title": "[bug]：Gateway pairing failure on Trim OS / TerraMaster NAS: WebSocket closes with code 1002 during device proof response",
+        "url": "https://github.com/openclaw/openclaw/issues/86778",
+        "state": "open",
+        "author": "wp1018347903",
+        "updatedAt": "2026-08-18T04:49:07Z"
+      },
+      {
+        "kind": "issue",
+        "number": 90746,
+        "title": "Document practical requirements for QMD memory backend on CPU-only VPS deployments",
+        "url": "https://github.com/openclaw/openclaw/issues/90746",
+        "state": "open",
+        "author": "holgergruenhagen",
+        "updatedAt": "2026-08-18T04:48:58Z"
+      },
+      {
+        "kind": "issue",
+        "number": 125602,
+        "title": "[Feature]: Let non-admin operators use shared cloud runners",
+        "url": "https://github.com/openclaw/openclaw/issues/125602",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-18T04:48:54Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 117712,
-        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/117712",
-        "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-18T03:56:15Z"
+        "number": 125574,
+        "title": "fix(codex): enforce hosted search domains for web fetch",
+        "url": "https://github.com/openclaw/openclaw/pull/125574",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-18T04:49:39Z"
       },
       {
         "kind": "pr",
-        "number": 125564,
-        "title": "fix(mcp): prevent stale catalogs and silent tool failures",
-        "url": "https://github.com/openclaw/openclaw/pull/125564",
+        "number": 125600,
+        "title": "fix(agents): reap the MCP stdio process group when the leader exits on its own",
+        "url": "https://github.com/openclaw/openclaw/pull/125600",
+        "state": "open",
+        "author": "he-yufeng",
+        "updatedAt": "2026-08-18T04:49:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125585,
+        "title": "improve(ui): defer offscreen plugin row rendering",
+        "url": "https://github.com/openclaw/openclaw/pull/125585",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-18T03:56:14Z"
+        "updatedAt": "2026-08-18T04:49:26Z"
       },
       {
         "kind": "pr",
-        "number": 125244,
-        "title": "fix(ui): show users typing in the transcript",
-        "url": "https://github.com/openclaw/openclaw/pull/125244",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-18T03:56:08Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125571,
-        "title": "improve: stress packaged SQLite upgrade migration",
-        "url": "https://github.com/openclaw/openclaw/pull/125571",
+        "number": 125598,
+        "title": "fix(gateway): allow write-scoped worktree creation",
+        "url": "https://github.com/openclaw/openclaw/pull/125598",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-18T03:56:07Z"
+        "updatedAt": "2026-08-18T04:49:22Z"
       },
       {
         "kind": "pr",
-        "number": 120327,
-        "title": "fix(ui): stop the home session ring after a run ends",
-        "url": "https://github.com/openclaw/openclaw/pull/120327",
+        "number": 112375,
+        "title": "feat(cron): shell precheck gate to skip LLM when no work",
+        "url": "https://github.com/openclaw/openclaw/pull/112375",
         "state": "open",
-        "author": "ayaangazali",
-        "updatedAt": "2026-08-18T03:56:07Z"
+        "author": "Bartok9",
+        "updatedAt": "2026-08-18T04:49:22Z"
       },
       {
         "kind": "pr",
-        "number": 125563,
-        "title": "fix(ui): show session hovercards for every sidebar row beside the rail",
-        "url": "https://github.com/openclaw/openclaw/pull/125563",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-18T03:55:47Z"
+        "number": 120900,
+        "title": "feat(ui): review install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/120900",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-18T04:49:20Z"
       }
     ]
   }

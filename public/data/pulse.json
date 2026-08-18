@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-18T08:51:59.958Z",
+  "generatedAt": "2026-08-18T09:47:08.822Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -547,17 +547,17 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "capturedAt": "2026-08-18T08:51:59.958Z",
-      "issueOpen": 3467,
-      "issueClosed": 43966,
-      "prOpen": 2263,
-      "prClosed": 73538,
-      "prMerged": 25968,
+      "capturedAt": "2026-08-18T09:47:08.822Z",
+      "issueOpen": 3465,
+      "issueClosed": 43973,
+      "prOpen": 2251,
+      "prClosed": 73560,
+      "prMerged": 25987,
       "workflowRuns": 40000,
-      "stars": 386604,
+      "stars": 386618,
       "forks": 81242,
       "subscribers": 1758,
-      "commits": 80438,
+      "commits": 80457,
       "contributors": 3108,
       "source": "github-actions",
       "approximateDate": false
@@ -718,10 +718,10 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "stars": 386604,
+      "stars": 386618,
       "forks": 81242,
       "subscribers": 1758,
-      "commits": 80438,
+      "commits": 80457,
       "contributors": 3108
     }
   ],
@@ -729,113 +729,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 125655,
-        "title": "[Bug]: generated attachments can show matching raw image Markdown",
-        "url": "https://github.com/openclaw/openclaw/issues/125655",
-        "state": "closed",
+        "number": 105266,
+        "title": "flaky(ui): locale-rendering tests fail nondeterministically with rotating victims in core-runtime-media-ui shard",
+        "url": "https://github.com/openclaw/openclaw/issues/105266",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-18T08:51:47Z"
+        "updatedAt": "2026-08-18T09:46:59Z"
       },
       {
         "kind": "issue",
-        "number": 125223,
-        "title": "Control UI: redesign tool calls as lightweight transcript activity",
-        "url": "https://github.com/openclaw/openclaw/issues/125223",
-        "state": "closed",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-18T08:51:39Z"
-      },
-      {
-        "kind": "issue",
-        "number": 92100,
-        "title": "Feishu no-visible fallback is opaque after delegated turns",
-        "url": "https://github.com/openclaw/openclaw/issues/92100",
-        "state": "closed",
-        "author": "loyur",
-        "updatedAt": "2026-08-18T08:51:38Z"
-      },
-      {
-        "kind": "issue",
-        "number": 125648,
-        "title": "[Feature]: Dynamic Fallback Model Routing with Conditional Logic",
-        "url": "https://github.com/openclaw/openclaw/issues/125648",
-        "state": "closed",
-        "author": "GHDash",
-        "updatedAt": "2026-08-18T08:51:36Z"
-      },
-      {
-        "kind": "issue",
-        "number": 121958,
-        "title": "[Bug]: Correction-release container images embed the base version and show a permanent update banner",
-        "url": "https://github.com/openclaw/openclaw/issues/121958",
+        "number": 104486,
+        "title": "Sync vendored shared skills from openclaw/agent-skills",
+        "url": "https://github.com/openclaw/openclaw/issues/104486",
         "state": "open",
-        "author": "enblanco",
-        "updatedAt": "2026-08-18T08:51:11Z"
+        "author": "TheAngryPit",
+        "updatedAt": "2026-08-18T09:46:58Z"
       },
       {
         "kind": "issue",
-        "number": 111647,
-        "title": "[Bug]:  Nested subagent returns a valid result, but parent Task and mirrored Flow terminalize as blocked",
-        "url": "https://github.com/openclaw/openclaw/issues/111647",
+        "number": 104312,
+        "title": "[Feature]: Intent-scoped MCP activation for large MCP catalogs",
+        "url": "https://github.com/openclaw/openclaw/issues/104312",
         "state": "open",
-        "author": "backthatup",
-        "updatedAt": "2026-08-18T08:51:10Z"
+        "author": "ssavitang",
+        "updatedAt": "2026-08-18T09:46:57Z"
+      },
+      {
+        "kind": "issue",
+        "number": 105494,
+        "title": "[Feature]: Interactive \"memory therapy\" session to resolve open questions & contradictions with the user",
+        "url": "https://github.com/openclaw/openclaw/issues/105494",
+        "state": "open",
+        "author": "kip-claw",
+        "updatedAt": "2026-08-18T09:46:54Z"
+      },
+      {
+        "kind": "issue",
+        "number": 105453,
+        "title": "[Enhancement] Support dynamic batching and deferred queue writes for audit log persistence",
+        "url": "https://github.com/openclaw/openclaw/issues/105453",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-08-18T09:46:49Z"
+      },
+      {
+        "kind": "issue",
+        "number": 104782,
+        "title": "Gateway: carry side-chat display question in chat.side_result for non-initiating clients",
+        "url": "https://github.com/openclaw/openclaw/issues/104782",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-18T09:46:39Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 125612,
-        "title": "refactor(realtime): share audio duration calculation",
-        "url": "https://github.com/openclaw/openclaw/pull/125612",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-18T08:51:50Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125650,
-        "title": "chore(i18n): refresh native locales",
-        "url": "https://github.com/openclaw/openclaw/pull/125650",
-        "state": "closed",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-08-18T08:51:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 109493,
-        "title": "fix(gateway): worker workspaces recover after stalled process probes",
-        "url": "https://github.com/openclaw/openclaw/pull/109493",
+        "number": 125471,
+        "title": "fix(models): keep Claude CLI OAuth available in Control UI",
+        "url": "https://github.com/openclaw/openclaw/pull/125471",
         "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-08-18T08:51:43Z"
+        "author": "VACInc",
+        "updatedAt": "2026-08-18T09:46:50Z"
       },
       {
         "kind": "pr",
-        "number": 117712,
-        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/117712",
+        "number": 123975,
+        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
+        "url": "https://github.com/openclaw/openclaw/pull/123975",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-18T08:51:42Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-18T09:46:46Z"
       },
       {
         "kind": "pr",
-        "number": 125644,
-        "title": "fix(doctor): classify critical disk exhaustion as error",
-        "url": "https://github.com/openclaw/openclaw/pull/125644",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-18T08:51:41Z"
+        "number": 104691,
+        "title": "fix(msteams): proactive sends fail after conversation migration",
+        "url": "https://github.com/openclaw/openclaw/pull/104691",
+        "state": "open",
+        "author": "jimmypuckett",
+        "updatedAt": "2026-08-18T09:46:42Z"
       },
       {
         "kind": "pr",
-        "number": 125732,
-        "title": "fix(ui): disable review-only approval actions",
-        "url": "https://github.com/openclaw/openclaw/pull/125732",
+        "number": 125698,
+        "title": "fix(ui): preserve automation mutation lifecycle",
+        "url": "https://github.com/openclaw/openclaw/pull/125698",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-18T08:51:38Z"
+        "updatedAt": "2026-08-18T09:46:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123356,
+        "title": "improve(control-ui): stage slash command arguments in the composer",
+        "url": "https://github.com/openclaw/openclaw/pull/123356",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-18T09:46:32Z"
+      },
+      {
+        "kind": "pr",
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-18T09:46:32Z"
       }
     ]
   }

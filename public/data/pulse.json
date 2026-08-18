@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-18T10:44:40.072Z",
+  "generatedAt": "2026-08-18T11:38:36.012Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -547,17 +547,17 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "capturedAt": "2026-08-18T10:44:40.072Z",
+      "capturedAt": "2026-08-18T11:38:36.012Z",
       "issueOpen": 3472,
-      "issueClosed": 43977,
-      "prOpen": 2249,
-      "prClosed": 73576,
-      "prMerged": 26005,
+      "issueClosed": 43981,
+      "prOpen": 2244,
+      "prClosed": 73586,
+      "prMerged": 26013,
       "workflowRuns": 40000,
-      "stars": 386615,
-      "forks": 81242,
+      "stars": 386620,
+      "forks": 81245,
       "subscribers": 1758,
-      "commits": 80475,
+      "commits": 80483,
       "contributors": 3108,
       "source": "github-actions",
       "approximateDate": false
@@ -718,10 +718,10 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "stars": 386615,
-      "forks": 81242,
+      "stars": 386620,
+      "forks": 81245,
       "subscribers": 1758,
-      "commits": 80475,
+      "commits": 80483,
       "contributors": 3108
     }
   ],
@@ -729,113 +729,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 72021,
-        "title": "Short-term promotion: signalCount mixes daily/session signals with real recalls",
-        "url": "https://github.com/openclaw/openclaw/issues/72021",
+        "number": 86214,
+        "title": "[Bug]: Codex app-server client closes mid-turn during image/tool requests with large logs_2.sqlite",
+        "url": "https://github.com/openclaw/openclaw/issues/86214",
         "state": "open",
-        "author": "CSZ-w",
-        "updatedAt": "2026-08-18T10:44:21Z"
+        "author": "ericpearson",
+        "updatedAt": "2026-08-18T11:36:53Z"
       },
       {
         "kind": "issue",
-        "number": 77717,
-        "title": "Feishu channel: bot identity recovery race condition causes permanent disconnection",
-        "url": "https://github.com/openclaw/openclaw/issues/77717",
+        "number": 86493,
+        "title": "[Bug]: StepFun (stepfun-plan) plugin does not register image generation provider — image_generate silently fails",
+        "url": "https://github.com/openclaw/openclaw/issues/86493",
         "state": "open",
-        "author": "Enominera",
-        "updatedAt": "2026-08-18T10:44:19Z"
+        "author": "gaodaabao",
+        "updatedAt": "2026-08-18T11:36:30Z"
       },
       {
         "kind": "issue",
-        "number": 72717,
-        "title": "Feature Request: SQLite FTS index for wiki_search to improve synthesis query performance",
-        "url": "https://github.com/openclaw/openclaw/issues/72717",
+        "number": 56619,
+        "title": "Feature: notify sender on WhatsApp after pairing approval",
+        "url": "https://github.com/openclaw/openclaw/issues/56619",
         "state": "open",
-        "author": "MagnaAI",
-        "updatedAt": "2026-08-18T10:44:18Z"
+        "author": "Pibot-Dev",
+        "updatedAt": "2026-08-18T11:36:15Z"
       },
       {
         "kind": "issue",
-        "number": 70055,
-        "title": "[Feature]: Allow disabling external-cli-sync for auth-profiles via config",
-        "url": "https://github.com/openclaw/openclaw/issues/70055",
+        "number": 121927,
+        "title": "tool_search_code intermittently fails with Electron FATAL \"Unable to find helper app\" after gateway SIGUSR1 restart",
+        "url": "https://github.com/openclaw/openclaw/issues/121927",
         "state": "open",
-        "author": "keareyChia",
-        "updatedAt": "2026-08-18T10:44:15Z"
+        "author": "noma1107",
+        "updatedAt": "2026-08-18T11:35:58Z"
       },
       {
         "kind": "issue",
-        "number": 69669,
-        "title": "ACP: keep thread-bound follow-ups parent-orchestrated by default, not raw pass-through",
-        "url": "https://github.com/openclaw/openclaw/issues/69669",
+        "number": 125745,
+        "title": "[Bug]: Web UI models.probe fails for direct credentials (apiKey / env var) because isolated probe profile is resolved against canonical agent dir",
+        "url": "https://github.com/openclaw/openclaw/issues/125745",
         "state": "open",
-        "author": "V0hgg",
-        "updatedAt": "2026-08-18T10:44:14Z"
-      },
-      {
-        "kind": "issue",
-        "number": 71452,
-        "title": "feat(message): list chat / list messages should support pagination instead of hardcoded 25 limit",
-        "url": "https://github.com/openclaw/openclaw/issues/71452",
-        "state": "open",
-        "author": "JerryTao-AI",
-        "updatedAt": "2026-08-18T10:44:13Z"
+        "author": "xialonglee",
+        "updatedAt": "2026-08-18T11:35:52Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 124303,
-        "title": "fix(sessions): track context window provenance",
-        "url": "https://github.com/openclaw/openclaw/pull/124303",
+        "number": 123356,
+        "title": "improve(control-ui): stage slash command arguments in the composer",
+        "url": "https://github.com/openclaw/openclaw/pull/123356",
         "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-08-18T10:44:30Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-18T11:38:28Z"
       },
       {
         "kind": "pr",
-        "number": 125492,
-        "title": "feat(control-ui): simplified settings experience for non-admin operators",
-        "url": "https://github.com/openclaw/openclaw/pull/125492",
+        "number": 123535,
+        "title": "fix(ui): avoid session catalog refresh storms",
+        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-18T11:38:12Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121941,
+        "title": "fix(browser): resolve agent dir for screenshot descriptions",
+        "url": "https://github.com/openclaw/openclaw/pull/121941",
+        "state": "open",
+        "author": "nissl24",
+        "updatedAt": "2026-08-18T11:38:11Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125664,
+        "title": "fix(feishu): promote send attachment aliases instead of silent drop",
+        "url": "https://github.com/openclaw/openclaw/pull/125664",
+        "state": "open",
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-08-18T11:38:13Z"
+      },
+      {
+        "kind": "pr",
+        "number": 90703,
+        "title": "Support compat reasoning levels for thinking xhigh",
+        "url": "https://github.com/openclaw/openclaw/pull/90703",
+        "state": "open",
+        "author": "Alex-Govorov",
+        "updatedAt": "2026-08-18T11:37:55Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125782,
+        "title": "fix(ui): retain filtered automation conflict job",
+        "url": "https://github.com/openclaw/openclaw/pull/125782",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-18T10:44:35Z"
-      },
-      {
-        "kind": "pr",
-        "number": 75165,
-        "title": "feat(agents): composable termination algebra + GSAR grounding scorer",
-        "url": "https://github.com/openclaw/openclaw/pull/75165",
-        "state": "open",
-        "author": "fede-kamel",
-        "updatedAt": "2026-08-18T10:44:22Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125781,
-        "title": "feat(llama-cpp): support external llama-server",
-        "url": "https://github.com/openclaw/openclaw/pull/125781",
-        "state": "open",
-        "author": "osolmaz",
-        "updatedAt": "2026-08-18T10:44:21Z"
-      },
-      {
-        "kind": "pr",
-        "number": 96113,
-        "title": "feat(sessions): add read-only diagnose command",
-        "url": "https://github.com/openclaw/openclaw/pull/96113",
-        "state": "open",
-        "author": "zaidazmi",
-        "updatedAt": "2026-08-18T10:44:07Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125788,
-        "title": "fix(agents): keep the skills catalog when toolsAllow is not a narrow grant",
-        "url": "https://github.com/openclaw/openclaw/pull/125788",
-        "state": "open",
-        "author": "interkelstar",
-        "updatedAt": "2026-08-18T10:43:23Z"
+        "updatedAt": "2026-08-18T11:37:37Z"
       }
     ]
   }

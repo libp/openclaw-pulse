@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-18T05:43:39.853Z",
+  "generatedAt": "2026-08-18T07:52:15.066Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -547,18 +547,18 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "capturedAt": "2026-08-18T05:43:39.853Z",
-      "issueOpen": 3464,
-      "issueClosed": 43948,
-      "prOpen": 2249,
-      "prClosed": 73468,
-      "prMerged": 25914,
+      "capturedAt": "2026-08-18T07:52:15.066Z",
+      "issueOpen": 3467,
+      "issueClosed": 43961,
+      "prOpen": 2254,
+      "prClosed": 73515,
+      "prMerged": 25951,
       "workflowRuns": 40000,
-      "stars": 386585,
-      "forks": 81238,
+      "stars": 386601,
+      "forks": 81241,
       "subscribers": 1758,
-      "commits": 80384,
-      "contributors": 3107,
+      "commits": 80421,
+      "contributors": 3108,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -718,97 +718,88 @@
     },
     {
       "capturedOn": "2026-08-18",
-      "stars": 386585,
-      "forks": 81238,
+      "stars": 386601,
+      "forks": 81241,
       "subscribers": 1758,
-      "commits": 80384,
-      "contributors": 3107
+      "commits": 80421,
+      "contributors": 3108
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 125570,
-        "title": "[Bug]: Skill Workshop update apply overwrites the live skill's description, silently breaking skill routing",
-        "url": "https://github.com/openclaw/openclaw/issues/125570",
+        "number": 119041,
+        "title": "[Bug]: Slack partial preview rotates into new messages on MiniMax reasoning boundaries",
+        "url": "https://github.com/openclaw/openclaw/issues/119041",
         "state": "open",
-        "author": "XX441",
-        "updatedAt": "2026-08-18T05:43:28Z"
+        "author": "lubao515",
+        "updatedAt": "2026-08-18T07:51:06Z"
       },
       {
         "kind": "issue",
-        "number": 125626,
-        "title": "Release validation: v2026.8.1-beta.2",
-        "url": "https://github.com/openclaw/openclaw/issues/125626",
+        "number": 112960,
+        "title": "memory-wiki: transient 'unable to resolve opened file path' on first wiki_get/wiki_search, succeeds on retry",
+        "url": "https://github.com/openclaw/openclaw/issues/112960",
         "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-08-18T05:43:22Z"
-      },
-      {
-        "kind": "issue",
-        "number": 125635,
-        "title": "[Bug]: TUI /auth (local mode) — spawned auth wizard exits 1 instantly, no diagnostics in TUI or file log",
-        "url": "https://github.com/openclaw/openclaw/issues/125635",
-        "state": "open",
-        "author": "P5ina",
-        "updatedAt": "2026-08-18T05:42:38Z"
+        "author": "dom521",
+        "updatedAt": "2026-08-18T07:50:47Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 117712,
-        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/117712",
-        "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-18T05:43:31Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112375,
-        "title": "feat(cron): shell precheck gate to skip LLM when no work",
-        "url": "https://github.com/openclaw/openclaw/pull/112375",
-        "state": "open",
-        "author": "Bartok9",
-        "updatedAt": "2026-08-18T05:43:30Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125249,
-        "title": "feat(ui): unify fenced code block visual styling",
-        "url": "https://github.com/openclaw/openclaw/pull/125249",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-18T05:43:28Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125296,
-        "title": "fix(release): bound ClawHub publish without GNU timeout",
-        "url": "https://github.com/openclaw/openclaw/pull/125296",
-        "state": "open",
-        "author": "PollyBot13",
-        "updatedAt": "2026-08-18T05:43:28Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-18T05:43:23Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125636,
-        "title": "fix(gateway): preserve chat metadata across UI prefs",
-        "url": "https://github.com/openclaw/openclaw/pull/125636",
+        "number": 125700,
+        "title": "feat(gateway): reach a Gateway behind an identity-aware proxy from the CLI",
+        "url": "https://github.com/openclaw/openclaw/pull/125700",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-18T05:43:20Z"
+        "updatedAt": "2026-08-18T07:52:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123535,
+        "title": "fix(ui): avoid session catalog refresh storms",
+        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-18T07:52:03Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125705,
+        "title": "fix(update): schedule dev updates after slow Git fetches",
+        "url": "https://github.com/openclaw/openclaw/pull/125705",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-18T07:52:02Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125645,
+        "title": "fix(ui): align session owner filtering terminology",
+        "url": "https://github.com/openclaw/openclaw/pull/125645",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-18T07:52:02Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125664,
+        "title": "fix(feishu): promote send attachment aliases instead of silent drop",
+        "url": "https://github.com/openclaw/openclaw/pull/125664",
+        "state": "open",
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-08-18T07:51:55Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125633,
+        "title": "fix(imessage): preserve inbound SMS routing in auto mode [AI-assisted]",
+        "url": "https://github.com/openclaw/openclaw/pull/125633",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-18T07:51:50Z"
       }
     ]
   }

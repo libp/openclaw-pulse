@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-19T15:44:23.388Z",
+  "generatedAt": "2026-08-19T16:45:12.118Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -564,17 +564,17 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "capturedAt": "2026-08-19T15:44:23.388Z",
-      "issueOpen": 3492,
-      "issueClosed": 44093,
-      "prOpen": 2277,
-      "prClosed": 73958,
-      "prMerged": 26324,
+      "capturedAt": "2026-08-19T16:45:12.118Z",
+      "issueOpen": 3496,
+      "issueClosed": 44095,
+      "prOpen": 2286,
+      "prClosed": 73964,
+      "prMerged": 26329,
       "workflowRuns": 40000,
-      "stars": 386782,
-      "forks": 81260,
+      "stars": 386788,
+      "forks": 81262,
       "subscribers": 1757,
-      "commits": 80794,
+      "commits": 80799,
       "contributors": 3110,
       "source": "github-actions",
       "approximateDate": false
@@ -743,10 +743,10 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "stars": 386782,
-      "forks": 81260,
+      "stars": 386788,
+      "forks": 81262,
       "subscribers": 1757,
-      "commits": 80794,
+      "commits": 80799,
       "contributors": 3110
     }
   ],
@@ -754,113 +754,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 88657,
-        "title": "Bug: DeepSeek V4 Flash incomplete turn (payloads=0, tools=2, replaySafe=no, stopReason=stop) in 2026.5.27/28",
-        "url": "https://github.com/openclaw/openclaw/issues/88657",
+        "number": 96660,
+        "title": "[Workspace panel] Root path drops leading dot, false 'Missing' labels on existing folders, broken layout",
+        "url": "https://github.com/openclaw/openclaw/issues/96660",
         "state": "open",
-        "author": "mikefaierberg-byte",
-        "updatedAt": "2026-08-19T15:44:10Z"
+        "author": "mmhzlrj",
+        "updatedAt": "2026-08-19T16:44:38Z"
       },
       {
         "kind": "issue",
-        "number": 126229,
-        "title": "[Bug]: cap-truncated chat projections carry no structured truncation flag, so session.message consumers cannot detect a bounded preview",
-        "url": "https://github.com/openclaw/openclaw/issues/126229",
+        "number": 126357,
+        "title": "[Bug]: Self-hosted web_search endpoint on loopback is routed to the external proxy when proxy.enabled is true",
+        "url": "https://github.com/openclaw/openclaw/issues/126357",
         "state": "open",
-        "author": "alfredjbclaw",
-        "updatedAt": "2026-08-19T15:44:07Z"
+        "author": "emailyc",
+        "updatedAt": "2026-08-19T16:43:04Z"
       },
       {
         "kind": "issue",
-        "number": 111903,
-        "title": "fix(feishu): custom domain rejects uppercase HTTPS scheme",
-        "url": "https://github.com/openclaw/openclaw/issues/111903",
+        "number": 126337,
+        "title": "openclaw-tui: stale \"running\" footer + streaming-watchdog banner persist after run completes (activeChatRunId never cleared)",
+        "url": "https://github.com/openclaw/openclaw/issues/126337",
         "state": "open",
-        "author": "VectorPeak",
-        "updatedAt": "2026-08-19T15:44:07Z"
+        "author": "yakattack77",
+        "updatedAt": "2026-08-19T16:41:46Z"
       },
       {
         "kind": "issue",
-        "number": 88508,
-        "title": "[Feature]: [Feature Request] Plugin contract should support thinkingOverride to enable dynamic thinking level (low/medium/high/xhigh) per round",
-        "url": "https://github.com/openclaw/openclaw/issues/88508",
+        "number": 98298,
+        "title": "feat: Prune stale thinking blocks from older assistant turns in contextPruning",
+        "url": "https://github.com/openclaw/openclaw/issues/98298",
         "state": "open",
-        "author": "CocoChavan",
-        "updatedAt": "2026-08-19T15:44:02Z"
+        "author": "NOVA-Openclaw",
+        "updatedAt": "2026-08-19T16:40:32Z"
       },
       {
         "kind": "issue",
-        "number": 88903,
-        "title": "[Feature]: Suppress EmbeddedAttemptSessionTakeoverError from conversation context on user-initiated abort",
-        "url": "https://github.com/openclaw/openclaw/issues/88903",
+        "number": 119475,
+        "title": "WhatsApp: inbound DMs from LID-addressed chats (usernames, CTWA ads) silently dropped when no PN mapping exists — 79 unique senders lost in 24h",
+        "url": "https://github.com/openclaw/openclaw/issues/119475",
         "state": "open",
-        "author": "lykeion-dev",
-        "updatedAt": "2026-08-19T15:43:53Z"
-      },
-      {
-        "kind": "issue",
-        "number": 81924,
-        "title": "gateway: add a suppressed marker to sessions.changed when a silent-reply broadcast is dropped",
-        "url": "https://github.com/openclaw/openclaw/issues/81924",
-        "state": "open",
-        "author": "nuioo",
-        "updatedAt": "2026-08-19T15:43:45Z"
+        "author": "davidzuluaga5",
+        "updatedAt": "2026-08-19T16:39:30Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 117339,
-        "title": "fix(media): reject non-binary generated video downloads across providers",
-        "url": "https://github.com/openclaw/openclaw/pull/117339",
+        "number": 120472,
+        "title": "fix(scripts): reject non-decimal hosted-gate PR numbers",
+        "url": "https://github.com/openclaw/openclaw/pull/120472",
         "state": "open",
-        "author": "Yigtwxx",
-        "updatedAt": "2026-08-19T15:44:08Z"
+        "author": "qingminglong",
+        "updatedAt": "2026-08-19T16:45:08Z"
       },
       {
         "kind": "pr",
-        "number": 119718,
-        "title": "fix(googlechat): deliver remote media URLs as text links",
-        "url": "https://github.com/openclaw/openclaw/pull/119718",
+        "number": 126359,
+        "title": "[ENG-6173] Expire inactive thread sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/126359",
         "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-19T15:43:55Z"
+        "author": "neilkach",
+        "updatedAt": "2026-08-19T16:45:00Z"
       },
       {
         "kind": "pr",
-        "number": 126329,
-        "title": "Hide internal media completion wakes from chat history [AI]",
-        "url": "https://github.com/openclaw/openclaw/pull/126329",
+        "number": 125528,
+        "title": "fix(claude-cli): apply thinking and keep live sessions warm",
+        "url": "https://github.com/openclaw/openclaw/pull/125528",
         "state": "open",
-        "author": "mmaps",
-        "updatedAt": "2026-08-19T15:43:39Z"
+        "author": "VACInc",
+        "updatedAt": "2026-08-19T16:44:49Z"
       },
       {
         "kind": "pr",
-        "number": 126338,
-        "title": "test(mac): speed up elevation host suite",
-        "url": "https://github.com/openclaw/openclaw/pull/126338",
+        "number": 126347,
+        "title": "fix: explain preserved session worktrees accurately",
+        "url": "https://github.com/openclaw/openclaw/pull/126347",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-19T15:43:20Z"
+        "updatedAt": "2026-08-19T16:44:08Z"
       },
       {
         "kind": "pr",
-        "number": 119671,
-        "title": "fix(discord): preserve MIME extension for component uploads",
-        "url": "https://github.com/openclaw/openclaw/pull/119671",
+        "number": 126258,
+        "title": "fix(ci): restore agentic plugin prerelease fixture loading",
+        "url": "https://github.com/openclaw/openclaw/pull/126258",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-08-19T15:43:02Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-19T16:43:38Z"
       },
       {
         "kind": "pr",
-        "number": 119426,
-        "title": "fix(agents): preserve schema-valid sessions_send timeouts",
-        "url": "https://github.com/openclaw/openclaw/pull/119426",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-19T15:43:01Z"
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-19T16:43:19Z"
       }
     ]
   }

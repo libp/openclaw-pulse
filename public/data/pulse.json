@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-19T11:37:31.898Z",
+  "generatedAt": "2026-08-19T13:06:58.806Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -564,17 +564,17 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "capturedAt": "2026-08-19T11:37:31.898Z",
-      "issueOpen": 3492,
-      "issueClosed": 44080,
-      "prOpen": 2285,
-      "prClosed": 73933,
-      "prMerged": 26309,
+      "capturedAt": "2026-08-19T13:06:58.806Z",
+      "issueOpen": 3494,
+      "issueClosed": 44082,
+      "prOpen": 2283,
+      "prClosed": 73942,
+      "prMerged": 26317,
       "workflowRuns": 40000,
-      "stars": 386756,
+      "stars": 386766,
       "forks": 81260,
-      "subscribers": 1758,
-      "commits": 80779,
+      "subscribers": 1757,
+      "commits": 80787,
       "contributors": 3110,
       "source": "github-actions",
       "approximateDate": false
@@ -743,10 +743,10 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "stars": 386756,
+      "stars": 386766,
       "forks": 81260,
-      "subscribers": 1758,
-      "commits": 80779,
+      "subscribers": 1757,
+      "commits": 80787,
       "contributors": 3110
     }
   ],
@@ -754,113 +754,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 44395,
-        "title": "feat: heading-aware chunking + entity extraction for memory search",
-        "url": "https://github.com/openclaw/openclaw/issues/44395",
-        "state": "open",
-        "author": "tymrtn",
-        "updatedAt": "2026-08-19T11:34:38Z"
+        "number": 126192,
+        "title": "[Bug]: Per-agent model metadata diverges across selection surfaces",
+        "url": "https://github.com/openclaw/openclaw/issues/126192",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-19T13:04:26Z"
       },
       {
         "kind": "issue",
-        "number": 33478,
-        "title": "[Feature]: Structured Callback Actions and Thread Context Inheritance for Agent Handoffs",
-        "url": "https://github.com/openclaw/openclaw/issues/33478",
+        "number": 126302,
+        "title": "[Bug]: Completed-work disclosure has uneven vertical spacing",
+        "url": "https://github.com/openclaw/openclaw/issues/126302",
         "state": "open",
-        "author": "Displayer226",
-        "updatedAt": "2026-08-19T11:34:27Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-19T13:02:18Z"
       },
       {
         "kind": "issue",
-        "number": 62505,
-        "title": "[Bug]: Coding Agent never completes anything (worked in 2026.4.2 and earlier)",
-        "url": "https://github.com/openclaw/openclaw/issues/62505",
+        "number": 126242,
+        "title": "[Bug]: expanding the last chat code block loses the visual scroll anchor",
+        "url": "https://github.com/openclaw/openclaw/issues/126242",
         "state": "open",
-        "author": "drpau",
-        "updatedAt": "2026-08-19T11:34:15Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-19T13:01:21Z"
       },
       {
         "kind": "issue",
-        "number": 39343,
-        "title": "Feature Request: Image batching / media group buffering at gateway layer",
-        "url": "https://github.com/openclaw/openclaw/issues/39343",
+        "number": 126231,
+        "title": "handler-timeout ingress events die with attempts=0 — silently lost messages",
+        "url": "https://github.com/openclaw/openclaw/issues/126231",
         "state": "open",
-        "author": "walkpod1007",
-        "updatedAt": "2026-08-19T11:33:45Z"
+        "author": "r3n3x",
+        "updatedAt": "2026-08-19T13:00:33Z"
       },
       {
         "kind": "issue",
-        "number": 42648,
-        "title": "Memory MVP: build write pipeline with classification, dedupe, merge, and conflict handling",
-        "url": "https://github.com/openclaw/openclaw/issues/42648",
+        "number": 124788,
+        "title": "beta.2 gateway: event loop blocks ~100s every ~10 min (anchored timer; string building + fs scan; persists with all memory plugins disabled)",
+        "url": "https://github.com/openclaw/openclaw/issues/124788",
         "state": "open",
-        "author": "vinced45",
-        "updatedAt": "2026-08-19T11:33:43Z"
+        "author": "therealmacsteel",
+        "updatedAt": "2026-08-19T13:00:16Z"
       },
       {
         "kind": "issue",
-        "number": 25883,
-        "title": "[Feature]: Proposal - OpenClaw Horizontal Scaling",
-        "url": "https://github.com/openclaw/openclaw/issues/25883",
+        "number": 94557,
+        "title": "[Feature]: Use any native model provider through the Cloudflare AI Gateway by allowing `modelIdNormalization` in `models.providers.<provider>` config",
+        "url": "https://github.com/openclaw/openclaw/issues/94557",
         "state": "open",
-        "author": "mourad-ghafiri",
-        "updatedAt": "2026-08-19T11:33:43Z"
+        "author": "alexminza",
+        "updatedAt": "2026-08-19T13:00:13Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 125844,
-        "title": "fix: prevent session sends from restoring denied tools",
-        "url": "https://github.com/openclaw/openclaw/pull/125844",
+        "number": 125471,
+        "title": "fix(models): keep Claude CLI OAuth available in Control UI",
+        "url": "https://github.com/openclaw/openclaw/pull/125471",
         "state": "open",
-        "author": "pgondhi987",
-        "updatedAt": "2026-08-19T11:37:25Z"
+        "author": "VACInc",
+        "updatedAt": "2026-08-19T13:06:25Z"
       },
       {
         "kind": "pr",
-        "number": 103201,
-        "title": "fix(memory): session sync deletes and re-embeds every indexed chunk as transcripts grow",
-        "url": "https://github.com/openclaw/openclaw/pull/103201",
+        "number": 123356,
+        "title": "improve(control-ui): stage slash command arguments in the composer",
+        "url": "https://github.com/openclaw/openclaw/pull/123356",
         "state": "open",
-        "author": "wr-web",
-        "updatedAt": "2026-08-19T11:37:12Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-19T13:05:44Z"
       },
       {
         "kind": "pr",
-        "number": 126291,
-        "title": "refactor(gateway): interrupt at admission; sessions.steer delegates to chat.send",
-        "url": "https://github.com/openclaw/openclaw/pull/126291",
-        "state": "closed",
+        "number": 126013,
+        "title": "fix(ui): New Session misses dynamically discovered models",
+        "url": "https://github.com/openclaw/openclaw/pull/126013",
+        "state": "open",
+        "author": "ekinnee",
+        "updatedAt": "2026-08-19T13:06:53Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126030,
+        "title": "refactor(canvas): make the panel a widget presenter",
+        "url": "https://github.com/openclaw/openclaw/pull/126030",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-19T11:37:02Z"
+        "updatedAt": "2026-08-19T13:05:26Z"
       },
       {
         "kind": "pr",
-        "number": 126255,
-        "title": "feat(browser): prefer Browser Harness for model control",
-        "url": "https://github.com/openclaw/openclaw/pull/126255",
+        "number": 125847,
+        "title": "fix: thinking controls update after dynamic model discovery",
+        "url": "https://github.com/openclaw/openclaw/pull/125847",
         "state": "open",
-        "author": "MagMueller",
-        "updatedAt": "2026-08-19T11:36:26Z"
+        "author": "ekinnee",
+        "updatedAt": "2026-08-19T13:04:57Z"
       },
       {
         "kind": "pr",
-        "number": 126290,
-        "title": "fix: browser screenshots fail on routed Control UI pages",
-        "url": "https://github.com/openclaw/openclaw/pull/126290",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-19T11:36:21Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123975,
-        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
-        "url": "https://github.com/openclaw/openclaw/pull/123975",
+        "number": 123535,
+        "title": "fix(ui): avoid session catalog refresh storms",
+        "url": "https://github.com/openclaw/openclaw/pull/123535",
         "state": "open",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-19T11:36:01Z"
+        "updatedAt": "2026-08-19T13:04:48Z"
       }
     ]
   }

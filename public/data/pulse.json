@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-19T04:50:01.869Z",
+  "generatedAt": "2026-08-19T05:45:13.402Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -564,17 +564,17 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "capturedAt": "2026-08-19T04:50:01.869Z",
+      "capturedAt": "2026-08-19T05:45:13.402Z",
       "issueOpen": 3498,
-      "issueClosed": 44052,
-      "prOpen": 2280,
-      "prClosed": 73841,
-      "prMerged": 26234,
+      "issueClosed": 44054,
+      "prOpen": 2276,
+      "prClosed": 73864,
+      "prMerged": 26251,
       "workflowRuns": 40000,
-      "stars": 386691,
-      "forks": 81262,
+      "stars": 386696,
+      "forks": 81264,
       "subscribers": 1757,
-      "commits": 80704,
+      "commits": 80721,
       "contributors": 3109,
       "source": "github-actions",
       "approximateDate": false
@@ -743,10 +743,10 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "stars": 386691,
-      "forks": 81262,
+      "stars": 386696,
+      "forks": 81264,
       "subscribers": 1757,
-      "commits": 80704,
+      "commits": 80721,
       "contributors": 3109
     }
   ],
@@ -754,113 +754,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 35799,
-        "title": "[Feature] Prime-number default scheduling for HEARTBEAT / cron “every” + deterministic per-agent phase jitter (anti top-of-hour spikes)",
-        "url": "https://github.com/openclaw/openclaw/issues/35799",
+        "number": 123071,
+        "title": "openclaw doctor hangs after startup optimization on 2026.6.1",
+        "url": "https://github.com/openclaw/openclaw/issues/123071",
         "state": "open",
-        "author": "newtontech",
-        "updatedAt": "2026-08-19T04:49:52Z"
+        "author": "ktwulobster",
+        "updatedAt": "2026-08-19T05:45:01Z"
       },
       {
         "kind": "issue",
-        "number": 86612,
-        "title": "Docker gateway container restart loop when OPENCLAW_SANDBOX=1 and OPENCLAW_HOME=/mnt/...",
-        "url": "https://github.com/openclaw/openclaw/issues/86612",
-        "state": "open",
-        "author": "trevorsandy",
-        "updatedAt": "2026-08-19T04:49:46Z"
-      },
-      {
-        "kind": "issue",
-        "number": 111510,
-        "title": "[Bug]: codex/* provider POSTs to legacy /backend-api/responses (403) at clean boot while sibling openai/* canonicalizes to /backend-api/codex/responses (200) — 2026.7.1",
-        "url": "https://github.com/openclaw/openclaw/issues/111510",
-        "state": "open",
-        "author": "cslade",
-        "updatedAt": "2026-08-19T04:49:40Z"
-      },
-      {
-        "kind": "issue",
-        "number": 124177,
-        "title": "Codex app-server strips OpenClaw `read` on container sandbox backends; #83667 only restored ssh",
-        "url": "https://github.com/openclaw/openclaw/issues/124177",
-        "state": "open",
-        "author": "AdminExcellenc3",
-        "updatedAt": "2026-08-19T04:49:33Z"
-      },
-      {
-        "kind": "issue",
-        "number": 79611,
-        "title": "active-memory plugin: pins to one provider, no failover; timeout shorter than provider latency causes silent drops",
-        "url": "https://github.com/openclaw/openclaw/issues/79611",
-        "state": "open",
-        "author": "wherewolf87",
-        "updatedAt": "2026-08-19T04:49:33Z"
-      },
-      {
-        "kind": "issue",
-        "number": 114851,
-        "title": "Slack durable ingress drain stalls during long hybrid exec/process turns; other conversations delayed minutes with zero main-lane wait",
-        "url": "https://github.com/openclaw/openclaw/issues/114851",
-        "state": "open",
-        "author": "roko-boy",
-        "updatedAt": "2026-08-19T04:49:27Z"
+        "number": 126163,
+        "title": "[Bug]: Required cron delivery failure can report successful completion",
+        "url": "https://github.com/openclaw/openclaw/issues/126163",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-19T05:44:35Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126133,
-        "title": "chore(ui): refresh control ui locales",
-        "url": "https://github.com/openclaw/openclaw/pull/126133",
+        "number": 123976,
+        "title": "fix(gateway): frozen worker processes never resume when the host ps stalls",
+        "url": "https://github.com/openclaw/openclaw/pull/123976",
         "state": "open",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-08-19T04:49:49Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-19T05:45:04Z"
       },
       {
         "kind": "pr",
-        "number": 126147,
-        "title": "improve(gateway): avoid repeated logging and delivery scans",
-        "url": "https://github.com/openclaw/openclaw/pull/126147",
+        "number": 125186,
+        "title": "feat(qa): standalone Telegram Desktop recorder with a prebaked desktop image",
+        "url": "https://github.com/openclaw/openclaw/pull/125186",
+        "state": "open",
+        "author": "obviyus",
+        "updatedAt": "2026-08-19T05:45:02Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126208,
+        "title": "fix(agents): stop after terminal dynamic tool results",
+        "url": "https://github.com/openclaw/openclaw/pull/126208",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-19T04:49:48Z"
+        "updatedAt": "2026-08-19T05:45:01Z"
       },
       {
         "kind": "pr",
-        "number": 125858,
-        "title": "fix(agents): guard JSON.parse in hasDuplicateJsonObjectKeys with try/catch",
-        "url": "https://github.com/openclaw/openclaw/pull/125858",
+        "number": 125974,
+        "title": "feat(discord): auto-join occupied voice rooms",
+        "url": "https://github.com/openclaw/openclaw/pull/125974",
         "state": "open",
-        "author": "coaiMax",
-        "updatedAt": "2026-08-19T04:49:57Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-19T05:44:56Z"
       },
       {
         "kind": "pr",
-        "number": 117712,
-        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/117712",
+        "number": 120854,
+        "title": "feat(mattermost): isolate progress posts and deliver finals separately",
+        "url": "https://github.com/openclaw/openclaw/pull/120854",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-19T04:49:35Z"
+        "author": "aolea",
+        "updatedAt": "2026-08-19T05:44:49Z"
       },
       {
         "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "number": 126193,
+        "title": "refactor(plugin-sdk): promote shared runtime primitives",
+        "url": "https://github.com/openclaw/openclaw/pull/126193",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-19T04:49:04Z"
-      },
-      {
-        "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-19T04:48:58Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-19T05:44:42Z"
       }
     ]
   }

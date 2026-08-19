@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-19T10:44:42.016Z",
+  "generatedAt": "2026-08-19T11:37:31.898Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -564,17 +564,17 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "capturedAt": "2026-08-19T10:44:42.016Z",
-      "issueOpen": 3491,
-      "issueClosed": 44078,
+      "capturedAt": "2026-08-19T11:37:31.898Z",
+      "issueOpen": 3492,
+      "issueClosed": 44080,
       "prOpen": 2285,
-      "prClosed": 73927,
-      "prMerged": 26304,
+      "prClosed": 73933,
+      "prMerged": 26309,
       "workflowRuns": 40000,
-      "stars": 386750,
+      "stars": 386756,
       "forks": 81260,
       "subscribers": 1758,
-      "commits": 80774,
+      "commits": 80779,
       "contributors": 3110,
       "source": "github-actions",
       "approximateDate": false
@@ -743,10 +743,10 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "stars": 386750,
+      "stars": 386756,
       "forks": 81260,
       "subscribers": 1758,
-      "commits": 80774,
+      "commits": 80779,
       "contributors": 3110
     }
   ],
@@ -754,68 +754,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 126295,
-        "title": "Failed background preflight compaction is silent in chat — no visible failure notice",
-        "url": "https://github.com/openclaw/openclaw/issues/126295",
-        "state": "closed",
-        "author": "r3n3x",
-        "updatedAt": "2026-08-19T10:41:45Z"
+        "number": 44395,
+        "title": "feat: heading-aware chunking + entity extraction for memory search",
+        "url": "https://github.com/openclaw/openclaw/issues/44395",
+        "state": "open",
+        "author": "tymrtn",
+        "updatedAt": "2026-08-19T11:34:38Z"
+      },
+      {
+        "kind": "issue",
+        "number": 33478,
+        "title": "[Feature]: Structured Callback Actions and Thread Context Inheritance for Agent Handoffs",
+        "url": "https://github.com/openclaw/openclaw/issues/33478",
+        "state": "open",
+        "author": "Displayer226",
+        "updatedAt": "2026-08-19T11:34:27Z"
+      },
+      {
+        "kind": "issue",
+        "number": 62505,
+        "title": "[Bug]: Coding Agent never completes anything (worked in 2026.4.2 and earlier)",
+        "url": "https://github.com/openclaw/openclaw/issues/62505",
+        "state": "open",
+        "author": "drpau",
+        "updatedAt": "2026-08-19T11:34:15Z"
+      },
+      {
+        "kind": "issue",
+        "number": 39343,
+        "title": "Feature Request: Image batching / media group buffering at gateway layer",
+        "url": "https://github.com/openclaw/openclaw/issues/39343",
+        "state": "open",
+        "author": "walkpod1007",
+        "updatedAt": "2026-08-19T11:33:45Z"
+      },
+      {
+        "kind": "issue",
+        "number": 42648,
+        "title": "Memory MVP: build write pipeline with classification, dedupe, merge, and conflict handling",
+        "url": "https://github.com/openclaw/openclaw/issues/42648",
+        "state": "open",
+        "author": "vinced45",
+        "updatedAt": "2026-08-19T11:33:43Z"
+      },
+      {
+        "kind": "issue",
+        "number": 25883,
+        "title": "[Feature]: Proposal - OpenClaw Horizontal Scaling",
+        "url": "https://github.com/openclaw/openclaw/issues/25883",
+        "state": "open",
+        "author": "mourad-ghafiri",
+        "updatedAt": "2026-08-19T11:33:43Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 117231,
-        "title": "fix(ui): scope model provider catalogs to the selected agent",
-        "url": "https://github.com/openclaw/openclaw/pull/117231",
+        "number": 125844,
+        "title": "fix: prevent session sends from restoring denied tools",
+        "url": "https://github.com/openclaw/openclaw/pull/125844",
         "state": "open",
+        "author": "pgondhi987",
+        "updatedAt": "2026-08-19T11:37:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 103201,
+        "title": "fix(memory): session sync deletes and re-embeds every indexed chunk as transcripts grow",
+        "url": "https://github.com/openclaw/openclaw/pull/103201",
+        "state": "open",
+        "author": "wr-web",
+        "updatedAt": "2026-08-19T11:37:12Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126291,
+        "title": "refactor(gateway): interrupt at admission; sessions.steer delegates to chat.send",
+        "url": "https://github.com/openclaw/openclaw/pull/126291",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-19T10:44:36Z"
+        "updatedAt": "2026-08-19T11:37:02Z"
       },
       {
         "kind": "pr",
-        "number": 126257,
-        "title": "fix(macos): localize gateway setup alerts",
-        "url": "https://github.com/openclaw/openclaw/pull/126257",
+        "number": 126255,
+        "title": "feat(browser): prefer Browser Harness for model control",
+        "url": "https://github.com/openclaw/openclaw/pull/126255",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-19T10:44:34Z"
+        "author": "MagMueller",
+        "updatedAt": "2026-08-19T11:36:26Z"
       },
       {
         "kind": "pr",
-        "number": 93247,
-        "title": "fix(diagnostics): idle ownerless state after failed recovery",
-        "url": "https://github.com/openclaw/openclaw/pull/93247",
-        "state": "open",
-        "author": "1052326311",
-        "updatedAt": "2026-08-19T10:44:29Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117488,
-        "title": "fix(doctor): reject conflicting maintenance operations before side effects",
-        "url": "https://github.com/openclaw/openclaw/pull/117488",
-        "state": "open",
+        "number": 126290,
+        "title": "fix: browser screenshots fail on routed Control UI pages",
+        "url": "https://github.com/openclaw/openclaw/pull/126290",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-19T10:44:21Z"
+        "updatedAt": "2026-08-19T11:36:21Z"
       },
       {
         "kind": "pr",
-        "number": 117174,
-        "title": "fix(whatsapp): render self LID mentions as agent identity",
-        "url": "https://github.com/openclaw/openclaw/pull/117174",
+        "number": 123975,
+        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
+        "url": "https://github.com/openclaw/openclaw/pull/123975",
         "state": "open",
-        "author": "shad0wca7",
-        "updatedAt": "2026-08-19T10:44:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117480,
-        "title": "fix(ci): bound trufflehog installer download timeouts",
-        "url": "https://github.com/openclaw/openclaw/pull/117480",
-        "state": "open",
-        "author": "zenglingbiao",
-        "updatedAt": "2026-08-19T10:43:20Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-19T11:36:01Z"
       }
     ]
   }

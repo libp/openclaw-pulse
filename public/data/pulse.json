@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-19T13:55:59.730Z",
+  "generatedAt": "2026-08-19T14:51:57.616Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -564,17 +564,17 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "capturedAt": "2026-08-19T13:55:59.730Z",
-      "issueOpen": 3495,
-      "issueClosed": 44084,
-      "prOpen": 2282,
-      "prClosed": 73945,
-      "prMerged": 26319,
+      "capturedAt": "2026-08-19T14:51:57.616Z",
+      "issueOpen": 3494,
+      "issueClosed": 44088,
+      "prOpen": 2281,
+      "prClosed": 73951,
+      "prMerged": 26322,
       "workflowRuns": 40000,
-      "stars": 386777,
-      "forks": 81261,
+      "stars": 386785,
+      "forks": 81259,
       "subscribers": 1757,
-      "commits": 80789,
+      "commits": 80792,
       "contributors": 3110,
       "source": "github-actions",
       "approximateDate": false
@@ -743,10 +743,10 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "stars": 386777,
-      "forks": 81261,
+      "stars": 386785,
+      "forks": 81259,
       "subscribers": 1757,
-      "commits": 80789,
+      "commits": 80792,
       "contributors": 3110
     }
   ],
@@ -754,68 +754,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 50287,
-        "title": "Next Sprint B: model-input validation guardrails",
-        "url": "https://github.com/openclaw/openclaw/issues/50287",
+        "number": 80864,
+        "title": "[Optimization] Standardized Preflight Validation Framework",
+        "url": "https://github.com/openclaw/openclaw/issues/80864",
         "state": "open",
-        "author": "Piboonsak",
-        "updatedAt": "2026-08-19T13:55:16Z"
+        "author": "edgarstool",
+        "updatedAt": "2026-08-19T14:51:50Z"
       },
       {
         "kind": "issue",
-        "number": 56227,
-        "title": "Gateway restart failure should keep previous instance running to avoid total disconnect",
-        "url": "https://github.com/openclaw/openclaw/issues/56227",
+        "number": 42276,
+        "title": "Reasoning stream",
+        "url": "https://github.com/openclaw/openclaw/issues/42276",
         "state": "open",
-        "author": "cloudpaw5216",
-        "updatedAt": "2026-08-19T13:54:37Z"
+        "author": "cryptopsy0",
+        "updatedAt": "2026-08-19T14:51:43Z"
       },
       {
         "kind": "issue",
-        "number": 126323,
-        "title": "[Bug]: Successful subagent work can surface as cancelled or timed out after races and Gateway reload",
-        "url": "https://github.com/openclaw/openclaw/issues/126323",
-        "state": "closed",
-        "author": "bottenbenny",
-        "updatedAt": "2026-08-19T13:54:36Z"
+        "number": 119148,
+        "title": "[Bug]: Bedrock Opus 5 reasoning-off requests ignore configured maxTokens",
+        "url": "https://github.com/openclaw/openclaw/issues/119148",
+        "state": "open",
+        "author": "gaoming-wu",
+        "updatedAt": "2026-08-19T14:50:33Z"
       },
       {
         "kind": "issue",
-        "number": 58407,
-        "title": "[Feature]: Inject parent channel pinned messages into Discord thread session context",
-        "url": "https://github.com/openclaw/openclaw/issues/58407",
+        "number": 118705,
+        "title": "[Bug]: sessions.patch stamps every model override as modelOverrideSource \"user\", disabling failover, heartbeat self-heal, and reset clearing",
+        "url": "https://github.com/openclaw/openclaw/issues/118705",
         "state": "open",
-        "author": "garyz-inspirum",
-        "updatedAt": "2026-08-19T13:54:18Z"
+        "author": "trevorotts1",
+        "updatedAt": "2026-08-19T14:50:25Z"
       },
       {
         "kind": "issue",
-        "number": 62505,
-        "title": "[Bug]: Coding Agent never completes anything (worked in 2026.4.2 and earlier)",
-        "url": "https://github.com/openclaw/openclaw/issues/62505",
+        "number": 119117,
+        "title": "[Bug]: Deferred turn maintenance has no timeout; resulting stale running rows cannot be cleared by any supported command",
+        "url": "https://github.com/openclaw/openclaw/issues/119117",
         "state": "open",
-        "author": "drpau",
-        "updatedAt": "2026-08-19T13:53:24Z"
+        "author": "brkastner",
+        "updatedAt": "2026-08-19T14:49:41Z"
       },
       {
         "kind": "issue",
-        "number": 48709,
-        "title": "Gemini 2.5 Pro: textSignature bloat + think tags + mixed text/tool causes session failures",
-        "url": "https://github.com/openclaw/openclaw/issues/48709",
+        "number": 126328,
+        "title": "[Bug]: text and Markdown code fences collapse behind hidden lines",
+        "url": "https://github.com/openclaw/openclaw/issues/126328",
         "state": "open",
-        "author": "jarvis-playrockets",
-        "updatedAt": "2026-08-19T13:51:23Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-19T14:49:40Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "number": 126322,
+        "title": "fix(sessions): interrupt orphaned subagent runs on startup",
+        "url": "https://github.com/openclaw/openclaw/pull/126322",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-19T13:55:49Z"
+        "author": "vladimirkrdzic",
+        "updatedAt": "2026-08-19T14:51:30Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118516,
+        "title": "fix: align extension security and thinking levels",
+        "url": "https://github.com/openclaw/openclaw/pull/118516",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-19T14:51:14Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125258,
+        "title": "fix: large videos play distorted with no log hint when ffprobe is missing",
+        "url": "https://github.com/openclaw/openclaw/pull/125258",
+        "state": "open",
+        "author": "maxwelhoener",
+        "updatedAt": "2026-08-19T14:51:04Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125894,
+        "title": "feat(channels): persist bounded group context across restarts",
+        "url": "https://github.com/openclaw/openclaw/pull/125894",
+        "state": "open",
+        "author": "nikai",
+        "updatedAt": "2026-08-19T14:50:50Z"
       },
       {
         "kind": "pr",
@@ -824,43 +851,16 @@
         "url": "https://github.com/openclaw/openclaw/pull/125471",
         "state": "open",
         "author": "VACInc",
-        "updatedAt": "2026-08-19T13:55:17Z"
+        "updatedAt": "2026-08-19T14:50:37Z"
       },
       {
         "kind": "pr",
-        "number": 126322,
-        "title": "fix(sessions): interrupt orphaned subagent runs on startup",
-        "url": "https://github.com/openclaw/openclaw/pull/126322",
+        "number": 118603,
+        "title": "docs: show canonical SQLite paths in sessions JSON example",
+        "url": "https://github.com/openclaw/openclaw/pull/118603",
         "state": "open",
-        "author": "vladimirkrdzic",
-        "updatedAt": "2026-08-19T13:55:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125844,
-        "title": "fix: prevent session sends from restoring denied tools",
-        "url": "https://github.com/openclaw/openclaw/pull/125844",
-        "state": "open",
-        "author": "pgondhi987",
-        "updatedAt": "2026-08-19T13:54:53Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123356,
-        "title": "improve(control-ui): stage slash command arguments in the composer",
-        "url": "https://github.com/openclaw/openclaw/pull/123356",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-19T13:54:46Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126027,
-        "title": "feat(audit): explain plugin and remote actions",
-        "url": "https://github.com/openclaw/openclaw/pull/126027",
-        "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-08-19T13:54:35Z"
+        "author": "madhavsomani",
+        "updatedAt": "2026-08-19T14:50:25Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-19T22:39:27.096Z",
+  "generatedAt": "2026-08-19T23:34:44.615Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -564,18 +564,18 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "capturedAt": "2026-08-19T22:39:27.096Z",
-      "issueOpen": 3508,
-      "issueClosed": 44119,
-      "prOpen": 2295,
-      "prClosed": 74023,
-      "prMerged": 26386,
+      "capturedAt": "2026-08-19T23:34:44.615Z",
+      "issueOpen": 3509,
+      "issueClosed": 44122,
+      "prOpen": 2285,
+      "prClosed": 74041,
+      "prMerged": 26399,
       "workflowRuns": 40000,
-      "stars": 386803,
+      "stars": 386806,
       "forks": 81262,
       "subscribers": 1757,
-      "commits": 80856,
-      "contributors": 3111,
+      "commits": 80872,
+      "contributors": 3112,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -743,124 +743,124 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "stars": 386803,
+      "stars": 386806,
       "forks": 81262,
       "subscribers": 1757,
-      "commits": 80856,
-      "contributors": 3111
+      "commits": 80872,
+      "contributors": 3112
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 110136,
-        "title": "[Feature]: Allow hiding progress activity receipt while keeping commentary",
-        "url": "https://github.com/openclaw/openclaw/issues/110136",
+        "number": 93288,
+        "title": "feat(msteams): per-call topLevel override on send action for proactive new channel threads",
+        "url": "https://github.com/openclaw/openclaw/issues/93288",
         "state": "open",
-        "author": "TailsProwerWorks",
-        "updatedAt": "2026-08-19T22:39:14Z"
+        "author": "leen109",
+        "updatedAt": "2026-08-19T23:34:39Z"
       },
       {
         "kind": "issue",
-        "number": 20837,
-        "title": "[Feature]: make agent aware of communication channel",
-        "url": "https://github.com/openclaw/openclaw/issues/20837",
+        "number": 126469,
+        "title": "agents: tool-result truncation replay aborts on idempotencyKey and permanently cuts off conversation history",
+        "url": "https://github.com/openclaw/openclaw/issues/126469",
         "state": "open",
-        "author": "SvenMeyer",
-        "updatedAt": "2026-08-19T22:39:09Z"
+        "author": "yetval",
+        "updatedAt": "2026-08-19T23:33:39Z"
       },
       {
         "kind": "issue",
-        "number": 13601,
-        "title": "Add persistent cron job execution history with filtering",
-        "url": "https://github.com/openclaw/openclaw/issues/13601",
+        "number": 79854,
+        "title": "sessions.get returns wrapper-only transcript while chat.history returns full conversation; sessionFile field is misleading",
+        "url": "https://github.com/openclaw/openclaw/issues/79854",
         "state": "open",
-        "author": "trevorgordon981",
-        "updatedAt": "2026-08-19T22:39:03Z"
+        "author": "datus1982",
+        "updatedAt": "2026-08-19T23:32:55Z"
       },
       {
         "kind": "issue",
-        "number": 56693,
-        "title": "OpenAI Codex OAuth can bind to a deactivated ChatGPT workspace when accounts have multiple workspaces",
-        "url": "https://github.com/openclaw/openclaw/issues/56693",
+        "number": 77598,
+        "title": "Track live dev agent behavior and trajectory",
+        "url": "https://github.com/openclaw/openclaw/issues/77598",
         "state": "open",
-        "author": "sinogello",
-        "updatedAt": "2026-08-19T22:38:58Z"
+        "author": "pashpashpash",
+        "updatedAt": "2026-08-19T23:32:55Z"
       },
       {
         "kind": "issue",
-        "number": 38327,
-        "title": "[Bug] \"Cannot convert undefined or null to object\" in 2026.3.2 with google-vertex/gemini-3.1-pro-preview",
-        "url": "https://github.com/openclaw/openclaw/issues/38327",
+        "number": 92015,
+        "title": "Hardening: Skip default workspace auto-scaffold & git init for runtime-managed (ACP) agents",
+        "url": "https://github.com/openclaw/openclaw/issues/92015",
         "state": "open",
-        "author": "SUBA666",
-        "updatedAt": "2026-08-19T22:38:57Z"
+        "author": "jleonelion",
+        "updatedAt": "2026-08-19T23:32:27Z"
       },
       {
         "kind": "issue",
-        "number": 35799,
-        "title": "[Feature] Prime-number default scheduling for HEARTBEAT / cron “every” + deterministic per-agent phase jitter (anti top-of-hour spikes)",
-        "url": "https://github.com/openclaw/openclaw/issues/35799",
+        "number": 91052,
+        "title": "[Feature]: make voice-call realtime barge-in detection configurable",
+        "url": "https://github.com/openclaw/openclaw/issues/91052",
         "state": "open",
-        "author": "newtontech",
-        "updatedAt": "2026-08-19T22:38:50Z"
+        "author": "xueqingli1",
+        "updatedAt": "2026-08-19T23:32:25Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126250,
-        "title": "fix(discord): route polls through canonical delivery",
-        "url": "https://github.com/openclaw/openclaw/pull/126250",
+        "number": 119763,
+        "title": "fix(slack): keep queued mentions visibly thinking",
+        "url": "https://github.com/openclaw/openclaw/pull/119763",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-19T22:39:21Z"
+        "author": "Kimiyu-186",
+        "updatedAt": "2026-08-19T23:34:38Z"
       },
       {
         "kind": "pr",
-        "number": 126265,
-        "title": "fix(doctor): bound recovered session migrations",
-        "url": "https://github.com/openclaw/openclaw/pull/126265",
+        "number": 126085,
+        "title": "fix: gateway stop throws when port is busy without identified owner",
+        "url": "https://github.com/openclaw/openclaw/pull/126085",
         "state": "open",
-        "author": "hannesrudolph",
-        "updatedAt": "2026-08-19T22:39:18Z"
+        "author": "Schimuneck",
+        "updatedAt": "2026-08-19T23:34:37Z"
       },
       {
         "kind": "pr",
-        "number": 126248,
-        "title": "fix(telegram): finalize streamed questions in place",
-        "url": "https://github.com/openclaw/openclaw/pull/126248",
+        "number": 119753,
+        "title": "fix(codex): align skill guidance with tool surface",
+        "url": "https://github.com/openclaw/openclaw/pull/119753",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-19T22:39:18Z"
+        "author": "bek91",
+        "updatedAt": "2026-08-19T23:34:28Z"
       },
       {
         "kind": "pr",
-        "number": 126208,
-        "title": "fix(agents): stop after terminal dynamic tool results",
-        "url": "https://github.com/openclaw/openclaw/pull/126208",
+        "number": 90703,
+        "title": "Support compat reasoning levels for thinking xhigh",
+        "url": "https://github.com/openclaw/openclaw/pull/90703",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-19T22:39:15Z"
+        "author": "Alex-Govorov",
+        "updatedAt": "2026-08-19T23:34:06Z"
       },
       {
         "kind": "pr",
-        "number": 126207,
-        "title": "fix(telegram): preserve direct-message topic routing",
-        "url": "https://github.com/openclaw/openclaw/pull/126207",
+        "number": 118152,
+        "title": "fix(channels): group-capable channels reject the documented historyLimit override",
+        "url": "https://github.com/openclaw/openclaw/pull/118152",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-19T22:39:13Z"
+        "author": "ayaangazali",
+        "updatedAt": "2026-08-19T23:33:56Z"
       },
       {
         "kind": "pr",
-        "number": 108482,
-        "title": "refactor(skills): centralize internal write paths",
-        "url": "https://github.com/openclaw/openclaw/pull/108482",
+        "number": 119030,
+        "title": "fix(channels): reply-capable channels reject the documented replyToMode override",
+        "url": "https://github.com/openclaw/openclaw/pull/119030",
         "state": "open",
-        "author": "tadad",
-        "updatedAt": "2026-08-19T22:39:13Z"
+        "author": "ayaangazali",
+        "updatedAt": "2026-08-19T23:33:54Z"
       }
     ]
   }

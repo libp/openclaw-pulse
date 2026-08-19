@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-19T16:45:12.118Z",
+  "generatedAt": "2026-08-19T17:38:47.092Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -564,17 +564,17 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "capturedAt": "2026-08-19T16:45:12.118Z",
+      "capturedAt": "2026-08-19T17:38:47.092Z",
       "issueOpen": 3496,
-      "issueClosed": 44095,
-      "prOpen": 2286,
-      "prClosed": 73964,
-      "prMerged": 26329,
+      "issueClosed": 44098,
+      "prOpen": 2292,
+      "prClosed": 73974,
+      "prMerged": 26339,
       "workflowRuns": 40000,
-      "stars": 386788,
-      "forks": 81262,
+      "stars": 386790,
+      "forks": 81260,
       "subscribers": 1757,
-      "commits": 80799,
+      "commits": 80809,
       "contributors": 3110,
       "source": "github-actions",
       "approximateDate": false
@@ -743,10 +743,10 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "stars": 386788,
-      "forks": 81262,
+      "stars": 386790,
+      "forks": 81260,
       "subscribers": 1757,
-      "commits": 80799,
+      "commits": 80809,
       "contributors": 3110
     }
   ],
@@ -754,104 +754,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 96660,
-        "title": "[Workspace panel] Root path drops leading dot, false 'Missing' labels on existing folders, broken layout",
-        "url": "https://github.com/openclaw/openclaw/issues/96660",
+        "number": 9637,
+        "title": "Add accessibility config option to disable emojis and unicode symbols in TUI",
+        "url": "https://github.com/openclaw/openclaw/issues/9637",
         "state": "open",
-        "author": "mmhzlrj",
-        "updatedAt": "2026-08-19T16:44:38Z"
+        "author": "robin24",
+        "updatedAt": "2026-08-19T17:38:26Z"
       },
       {
         "kind": "issue",
-        "number": 126357,
-        "title": "[Bug]: Self-hosted web_search endpoint on loopback is routed to the external proxy when proxy.enabled is true",
-        "url": "https://github.com/openclaw/openclaw/issues/126357",
+        "number": 9016,
+        "title": "Feature: Expose OpenRouter usage cost to agent runtime",
+        "url": "https://github.com/openclaw/openclaw/issues/9016",
         "state": "open",
-        "author": "emailyc",
-        "updatedAt": "2026-08-19T16:43:04Z"
+        "author": "eric-wien",
+        "updatedAt": "2026-08-19T17:37:54Z"
       },
       {
         "kind": "issue",
-        "number": 126337,
-        "title": "openclaw-tui: stale \"running\" footer + streaming-watchdog banner persist after run completes (activeChatRunId never cleared)",
-        "url": "https://github.com/openclaw/openclaw/issues/126337",
+        "number": 16670,
+        "title": "Onboarding Wizard should include Memory/Embedding setup as a mandatory step",
+        "url": "https://github.com/openclaw/openclaw/issues/16670",
         "state": "open",
-        "author": "yakattack77",
-        "updatedAt": "2026-08-19T16:41:46Z"
+        "author": "actwebmaster",
+        "updatedAt": "2026-08-19T17:37:21Z"
       },
       {
         "kind": "issue",
-        "number": 98298,
-        "title": "feat: Prune stale thinking blocks from older assistant turns in contextPruning",
-        "url": "https://github.com/openclaw/openclaw/issues/98298",
+        "number": 38573,
+        "title": "[Feature]: Allow topic/forum cron deliveries to use main-session announce/agent-turn flow instead of forced direct delivery",
+        "url": "https://github.com/openclaw/openclaw/issues/38573",
         "state": "open",
-        "author": "NOVA-Openclaw",
-        "updatedAt": "2026-08-19T16:40:32Z"
+        "author": "wonrax",
+        "updatedAt": "2026-08-19T17:36:44Z"
       },
       {
         "kind": "issue",
-        "number": 119475,
-        "title": "WhatsApp: inbound DMs from LID-addressed chats (usernames, CTWA ads) silently dropped when no PN mapping exists — 79 unique senders lost in 24h",
-        "url": "https://github.com/openclaw/openclaw/issues/119475",
+        "number": 6625,
+        "title": "Feature: Graceful sub-agent timeout (pre-timeout warning)",
+        "url": "https://github.com/openclaw/openclaw/issues/6625",
         "state": "open",
-        "author": "davidzuluaga5",
-        "updatedAt": "2026-08-19T16:39:30Z"
+        "author": "jekard",
+        "updatedAt": "2026-08-19T17:36:38Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 120472,
-        "title": "fix(scripts): reject non-decimal hosted-gate PR numbers",
-        "url": "https://github.com/openclaw/openclaw/pull/120472",
-        "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-08-19T16:45:08Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126359,
-        "title": "[ENG-6173] Expire inactive thread sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/126359",
-        "state": "open",
-        "author": "neilkach",
-        "updatedAt": "2026-08-19T16:45:00Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125528,
-        "title": "fix(claude-cli): apply thinking and keep live sessions warm",
-        "url": "https://github.com/openclaw/openclaw/pull/125528",
-        "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-08-19T16:44:49Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126347,
-        "title": "fix: explain preserved session worktrees accurately",
-        "url": "https://github.com/openclaw/openclaw/pull/126347",
+        "number": 126306,
+        "title": "feat(gateway): broker GitHub publication",
+        "url": "https://github.com/openclaw/openclaw/pull/126306",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-19T16:44:08Z"
+        "updatedAt": "2026-08-19T17:38:40Z"
       },
       {
         "kind": "pr",
-        "number": 126258,
-        "title": "fix(ci): restore agentic plugin prerelease fixture loading",
-        "url": "https://github.com/openclaw/openclaw/pull/126258",
+        "number": 126345,
+        "title": "fix(ui): dismiss session hovercard before its menu opens",
+        "url": "https://github.com/openclaw/openclaw/pull/126345",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-19T16:43:38Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-19T17:38:30Z"
       },
       {
         "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-19T16:43:19Z"
+        "number": 126348,
+        "title": "fix(ui): contain narrated tool details",
+        "url": "https://github.com/openclaw/openclaw/pull/126348",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-19T17:38:02Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126027,
+        "title": "feat(audit): explain plugin and remote actions",
+        "url": "https://github.com/openclaw/openclaw/pull/126027",
+        "state": "open",
+        "author": "joshavant",
+        "updatedAt": "2026-08-19T17:37:53Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126379,
+        "title": "fix(agents): preserve empty CLI subagent completions",
+        "url": "https://github.com/openclaw/openclaw/pull/126379",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-19T17:37:52Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126220,
+        "title": "feat(qa): run the Mantis Telegram lane on the prebaked desktop",
+        "url": "https://github.com/openclaw/openclaw/pull/126220",
+        "state": "open",
+        "author": "obviyus",
+        "updatedAt": "2026-08-19T17:37:43Z"
       }
     ]
   }

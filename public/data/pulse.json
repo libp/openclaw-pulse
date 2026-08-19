@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-19T07:52:58.406Z",
+  "generatedAt": "2026-08-19T08:53:08.911Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -564,17 +564,17 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "capturedAt": "2026-08-19T07:52:58.406Z",
-      "issueOpen": 3489,
-      "issueClosed": 44071,
-      "prOpen": 2283,
-      "prClosed": 73892,
-      "prMerged": 26278,
+      "capturedAt": "2026-08-19T08:53:08.911Z",
+      "issueOpen": 3488,
+      "issueClosed": 44072,
+      "prOpen": 2281,
+      "prClosed": 73909,
+      "prMerged": 26292,
       "workflowRuns": 40000,
-      "stars": 386721,
-      "forks": 81265,
+      "stars": 386734,
+      "forks": 81262,
       "subscribers": 1757,
-      "commits": 80748,
+      "commits": 80762,
       "contributors": 3110,
       "source": "github-actions",
       "approximateDate": false
@@ -743,88 +743,69 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "stars": 386721,
-      "forks": 81265,
+      "stars": 386734,
+      "forks": 81262,
       "subscribers": 1757,
-      "commits": 80748,
+      "commits": 80762,
       "contributors": 3110
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 125838,
-        "title": "QQBot: slash command 轻量回复未投递 (/think, /status 无回复)",
-        "url": "https://github.com/openclaw/openclaw/issues/125838",
-        "state": "open",
-        "author": "lwy521",
-        "updatedAt": "2026-08-19T07:50:50Z"
-      },
-      {
-        "kind": "issue",
-        "number": 60398,
-        "title": "gateway install fails with error 5 when home directory is on external APFS volume",
-        "url": "https://github.com/openclaw/openclaw/issues/60398",
-        "state": "open",
-        "author": "SandeepSAulakh",
-        "updatedAt": "2026-08-19T07:50:45Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 126221,
-        "title": "fix: nested session tools retain caller scope on multi-agent hosts",
-        "url": "https://github.com/openclaw/openclaw/pull/126221",
+        "number": 126256,
+        "title": "test(qa): wait for terminal task metadata",
+        "url": "https://github.com/openclaw/openclaw/pull/126256",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-19T08:53:01Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125967,
+        "title": "chore(i18n): refresh native locales",
+        "url": "https://github.com/openclaw/openclaw/pull/125967",
+        "state": "closed",
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-08-19T08:52:52Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117712,
+        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/117712",
+        "state": "open",
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-19T08:52:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126259,
+        "title": "fix: explicit Codex runtime policies reach embedded attempts",
+        "url": "https://github.com/openclaw/openclaw/pull/126259",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-19T08:52:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126220,
+        "title": "feat(qa): run the Mantis Telegram lane on the prebaked desktop",
+        "url": "https://github.com/openclaw/openclaw/pull/126220",
         "state": "open",
         "author": "obviyus",
-        "updatedAt": "2026-08-19T07:52:51Z"
+        "updatedAt": "2026-08-19T08:52:18Z"
       },
       {
         "kind": "pr",
-        "number": 126146,
-        "title": "feat(sessions): organize visible sessions through agent tools",
-        "url": "https://github.com/openclaw/openclaw/pull/126146",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-19T07:52:51Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126216,
-        "title": "fix(agents): distinguish review routing from enforcement",
-        "url": "https://github.com/openclaw/openclaw/pull/126216",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-19T07:52:49Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124531,
-        "title": "fix(mattermost): prevent messages from sharing another sender's turn",
-        "url": "https://github.com/openclaw/openclaw/pull/124531",
-        "state": "open",
-        "author": "pgondhi987",
-        "updatedAt": "2026-08-19T07:52:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126252,
-        "title": "fix(browser): avoid loading Playwright during gateway startup",
-        "url": "https://github.com/openclaw/openclaw/pull/126252",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-19T07:52:31Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117432,
-        "title": "fix(system-agent): tell messaging users a delegated approval can't be applied from chat (#116519)",
-        "url": "https://github.com/openclaw/openclaw/pull/117432",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-19T07:52:27Z"
+        "number": 126156,
+        "title": "fix(skills): require re-review when proposals change",
+        "url": "https://github.com/openclaw/openclaw/pull/126156",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-19T08:52:15Z"
       }
     ]
   }

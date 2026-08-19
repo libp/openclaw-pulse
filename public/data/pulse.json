@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-19T08:53:08.911Z",
+  "generatedAt": "2026-08-19T09:47:56.676Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -564,17 +564,17 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "capturedAt": "2026-08-19T08:53:08.911Z",
-      "issueOpen": 3488,
-      "issueClosed": 44072,
-      "prOpen": 2281,
-      "prClosed": 73909,
-      "prMerged": 26292,
+      "capturedAt": "2026-08-19T09:47:56.676Z",
+      "issueOpen": 3491,
+      "issueClosed": 44074,
+      "prOpen": 2290,
+      "prClosed": 73913,
+      "prMerged": 26294,
       "workflowRuns": 40000,
-      "stars": 386734,
-      "forks": 81262,
-      "subscribers": 1757,
-      "commits": 80762,
+      "stars": 386747,
+      "forks": 81261,
+      "subscribers": 1758,
+      "commits": 80764,
       "contributors": 3110,
       "source": "github-actions",
       "approximateDate": false
@@ -743,69 +743,124 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "stars": 386734,
-      "forks": 81262,
-      "subscribers": 1757,
-      "commits": 80762,
+      "stars": 386747,
+      "forks": 81261,
+      "subscribers": 1758,
+      "commits": 80764,
       "contributors": 3110
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 119760,
+        "title": "2026.7.1-2: timed-out channel stop leaks entire MCP child-process fleets on each health-monitor restart -> host memory exhaustion (regression from 2026.6.11)",
+        "url": "https://github.com/openclaw/openclaw/issues/119760",
+        "state": "open",
+        "author": "michaeljgood71",
+        "updatedAt": "2026-08-19T09:47:45Z"
+      },
+      {
+        "kind": "issue",
+        "number": 31379,
+        "title": "[Feature]: Channels settings page should always show built-in channels alongside custom channels",
+        "url": "https://github.com/openclaw/openclaw/issues/31379",
+        "state": "open",
+        "author": "BUGKillerKing",
+        "updatedAt": "2026-08-19T09:47:52Z"
+      },
+      {
+        "kind": "issue",
+        "number": 17211,
+        "title": "[Feature]: Add native checkpoint engine with deterministic resume and diff",
+        "url": "https://github.com/openclaw/openclaw/issues/17211",
+        "state": "open",
+        "author": "Ar3ss12",
+        "updatedAt": "2026-08-19T09:46:57Z"
+      },
+      {
+        "kind": "issue",
+        "number": 43374,
+        "title": "All LLM API calls time out simultaneously despite APIs being reachable (multi-agent concurrency issue)",
+        "url": "https://github.com/openclaw/openclaw/issues/43374",
+        "state": "open",
+        "author": "conanwhf",
+        "updatedAt": "2026-08-19T09:46:41Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112246,
+        "title": "Codex app-server: stable session-key bindings are retired without a TTL, permanently bricking web/dashboard GPT sessions (context loss on forced session rotation)",
+        "url": "https://github.com/openclaw/openclaw/issues/112246",
+        "state": "open",
+        "author": "alfredjbclaw",
+        "updatedAt": "2026-08-19T09:46:31Z"
+      },
+      {
+        "kind": "issue",
+        "number": 111695,
+        "title": "Android node not declaring capabilities (v2026.7.1, Motorola Edge 60 Fusion, Android 16)",
+        "url": "https://github.com/openclaw/openclaw/issues/111695",
+        "state": "open",
+        "author": "mahmoudesmat92",
+        "updatedAt": "2026-08-19T09:46:23Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126256,
-        "title": "test(qa): wait for terminal task metadata",
-        "url": "https://github.com/openclaw/openclaw/pull/126256",
+        "number": 126275,
+        "title": "fix(protocol): keep root barrel within lint budget",
+        "url": "https://github.com/openclaw/openclaw/pull/126275",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-19T08:53:01Z"
+        "updatedAt": "2026-08-19T09:47:49Z"
       },
       {
         "kind": "pr",
-        "number": 125967,
-        "title": "chore(i18n): refresh native locales",
-        "url": "https://github.com/openclaw/openclaw/pull/125967",
-        "state": "closed",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-08-19T08:52:52Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117712,
-        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/117712",
+        "number": 115735,
+        "title": "fix(skills): honor Codex agents/openai.yaml invocation policy",
+        "url": "https://github.com/openclaw/openclaw/pull/115735",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-19T08:52:40Z"
+        "author": "ml12580",
+        "updatedAt": "2026-08-19T09:47:45Z"
       },
       {
         "kind": "pr",
-        "number": 126259,
-        "title": "fix: explicit Codex runtime policies reach embedded attempts",
-        "url": "https://github.com/openclaw/openclaw/pull/126259",
+        "number": 121799,
+        "title": "fix(gateway): usage.status no longer waits on provider HTTP",
+        "url": "https://github.com/openclaw/openclaw/pull/121799",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-19T08:52:25Z"
+        "author": "sasan1200",
+        "updatedAt": "2026-08-19T09:47:40Z"
       },
       {
         "kind": "pr",
-        "number": 126220,
-        "title": "feat(qa): run the Mantis Telegram lane on the prebaked desktop",
-        "url": "https://github.com/openclaw/openclaw/pull/126220",
+        "number": 126279,
+        "title": "fix(browser): resolve chrome-extension bundled dir from built package layout",
+        "url": "https://github.com/openclaw/openclaw/pull/126279",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-08-19T08:52:18Z"
+        "author": "QQSHI13",
+        "updatedAt": "2026-08-19T09:47:31Z"
       },
       {
         "kind": "pr",
-        "number": 126156,
-        "title": "fix(skills): require re-review when proposals change",
-        "url": "https://github.com/openclaw/openclaw/pull/126156",
-        "state": "closed",
+        "number": 120491,
+        "title": "feat(tools): per-turn per-target send budget guard for message tools",
+        "url": "https://github.com/openclaw/openclaw/pull/120491",
+        "state": "open",
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-08-19T09:47:29Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126285,
+        "title": "fix(codex): reap app-server descendant processes",
+        "url": "https://github.com/openclaw/openclaw/pull/126285",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-19T08:52:15Z"
+        "updatedAt": "2026-08-19T09:47:18Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-19T19:37:17.342Z",
+  "generatedAt": "2026-08-19T20:44:06.582Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -564,17 +564,17 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "capturedAt": "2026-08-19T19:37:17.342Z",
-      "issueOpen": 3501,
-      "issueClosed": 44104,
-      "prOpen": 2296,
-      "prClosed": 73997,
-      "prMerged": 26360,
+      "capturedAt": "2026-08-19T20:44:06.582Z",
+      "issueOpen": 3505,
+      "issueClosed": 44108,
+      "prOpen": 2303,
+      "prClosed": 74005,
+      "prMerged": 26368,
       "workflowRuns": 40000,
-      "stars": 386799,
-      "forks": 81261,
+      "stars": 386803,
+      "forks": 81264,
       "subscribers": 1757,
-      "commits": 80830,
+      "commits": 80838,
       "contributors": 3111,
       "source": "github-actions",
       "approximateDate": false
@@ -743,10 +743,10 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "stars": 386799,
-      "forks": 81261,
+      "stars": 386803,
+      "forks": 81264,
       "subscribers": 1757,
-      "commits": 80830,
+      "commits": 80838,
       "contributors": 3111
     }
   ],
@@ -754,113 +754,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 120162,
-        "title": "Safeguard compaction: qualityGuard audit retry shares the timeoutSeconds budget and is killed by the same abort signal, failing the whole compaction",
-        "url": "https://github.com/openclaw/openclaw/issues/120162",
+        "number": 81099,
+        "title": "[Bug]: claude-cli backend: AskUserQuestion tool call renders input but no picker UI / never returns a result",
+        "url": "https://github.com/openclaw/openclaw/issues/81099",
         "state": "open",
-        "author": "wave-workflow",
-        "updatedAt": "2026-08-19T19:36:20Z"
+        "author": "cuuush",
+        "updatedAt": "2026-08-19T20:43:08Z"
       },
       {
         "kind": "issue",
-        "number": 107891,
-        "title": "Dashboard sidebar lost agents/sessions sections after 2026-07-01 update",
-        "url": "https://github.com/openclaw/openclaw/issues/107891",
+        "number": 111595,
+        "title": "[Bug]: Equivalent Windows cwd spellings split catalog project groups",
+        "url": "https://github.com/openclaw/openclaw/issues/111595",
         "state": "open",
-        "author": "TheDenStudios",
-        "updatedAt": "2026-08-19T19:36:05Z"
+        "author": "ooiuuii",
+        "updatedAt": "2026-08-19T20:42:11Z"
       },
       {
         "kind": "issue",
-        "number": 43374,
-        "title": "All LLM API calls time out simultaneously despite APIs being reachable (multi-agent concurrency issue)",
-        "url": "https://github.com/openclaw/openclaw/issues/43374",
+        "number": 103659,
+        "title": "[Feature]: Per-agent/per-provider override for tools.toolSearch",
+        "url": "https://github.com/openclaw/openclaw/issues/103659",
         "state": "open",
-        "author": "conanwhf",
-        "updatedAt": "2026-08-19T19:35:59Z"
+        "author": "1Vision365-PeterTijsma",
+        "updatedAt": "2026-08-19T20:40:57Z"
       },
       {
         "kind": "issue",
-        "number": 112246,
-        "title": "Codex app-server: stable session-key bindings are retired without a TTL, permanently bricking web/dashboard GPT sessions (context loss on forced session rotation)",
-        "url": "https://github.com/openclaw/openclaw/issues/112246",
+        "number": 126440,
+        "title": "[Bug]: Setup mode lists bundled migration providers without detecting source state",
+        "url": "https://github.com/openclaw/openclaw/issues/126440",
         "state": "open",
-        "author": "alfredjbclaw",
-        "updatedAt": "2026-08-19T19:35:51Z"
-      },
-      {
-        "kind": "issue",
-        "number": 111695,
-        "title": "Android node not declaring capabilities (v2026.7.1, Motorola Edge 60 Fusion, Android 16)",
-        "url": "https://github.com/openclaw/openclaw/issues/111695",
-        "state": "open",
-        "author": "mahmoudesmat92",
-        "updatedAt": "2026-08-19T19:35:46Z"
-      },
-      {
-        "kind": "issue",
-        "number": 122903,
-        "title": "perf(plugins): bundled channel setup plugins pull ~1700 source files through jiti in a source checkout (43-107s vs 8.9s with dist) [AI]",
-        "url": "https://github.com/openclaw/openclaw/issues/122903",
-        "state": "open",
-        "author": "marmar9615-cloud",
-        "updatedAt": "2026-08-19T19:35:37Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-08-19T20:36:22Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126399,
-        "title": "fix(codex): allow computer reuse across completed runs",
-        "url": "https://github.com/openclaw/openclaw/pull/126399",
+        "number": 126220,
+        "title": "feat(qa): run the Mantis Telegram lane on the prebaked desktop",
+        "url": "https://github.com/openclaw/openclaw/pull/126220",
         "state": "open",
-        "author": "wszkxlllll",
-        "updatedAt": "2026-08-19T19:37:14Z"
+        "author": "obviyus",
+        "updatedAt": "2026-08-19T20:43:39Z"
       },
       {
         "kind": "pr",
-        "number": 126417,
-        "title": "fix(crabbox): harden worker desktop setup",
-        "url": "https://github.com/openclaw/openclaw/pull/126417",
+        "number": 126355,
+        "title": "fix(ui): keep mobile sidebar session menus reachable",
+        "url": "https://github.com/openclaw/openclaw/pull/126355",
+        "state": "open",
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-19T20:43:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124308,
+        "title": "fix(daemon): skip gateway port-release assertion when stopping a node-host LaunchAgent",
+        "url": "https://github.com/openclaw/openclaw/pull/124308",
+        "state": "open",
+        "author": "aniskhan001",
+        "updatedAt": "2026-08-19T20:43:29Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123535,
+        "title": "fix(ui): avoid session catalog refresh storms",
+        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-19T20:43:26Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126434,
+        "title": "refactor(llama-cpp): use one provider for managed and existing servers",
+        "url": "https://github.com/openclaw/openclaw/pull/126434",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-19T19:37:10Z"
+        "updatedAt": "2026-08-19T20:43:19Z"
       },
       {
         "kind": "pr",
-        "number": 126398,
-        "title": "chore(ui): refresh control ui locales",
-        "url": "https://github.com/openclaw/openclaw/pull/126398",
-        "state": "open",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-08-19T19:37:05Z"
-      },
-      {
-        "kind": "pr",
-        "number": 68843,
-        "title": "fix(acp): treat missing cwd as stale bound session",
-        "url": "https://github.com/openclaw/openclaw/pull/68843",
-        "state": "open",
-        "author": "kesslerio",
-        "updatedAt": "2026-08-19T19:37:04Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126284,
-        "title": "feat(sessions): recover offline device placements",
-        "url": "https://github.com/openclaw/openclaw/pull/126284",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-19T19:36:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 68236,
-        "title": "test(auth): add oauth e2e regression coverage",
-        "url": "https://github.com/openclaw/openclaw/pull/68236",
-        "state": "open",
-        "author": "ngutman",
-        "updatedAt": "2026-08-19T19:36:29Z"
+        "number": 120900,
+        "title": "feat(ui): review install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/120900",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-19T20:41:55Z"
       }
     ]
   }

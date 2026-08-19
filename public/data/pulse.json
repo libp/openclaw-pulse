@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-19T18:51:30.565Z",
+  "generatedAt": "2026-08-19T19:37:17.342Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -564,17 +564,17 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "capturedAt": "2026-08-19T18:51:30.565Z",
-      "issueOpen": 3498,
-      "issueClosed": 44103,
-      "prOpen": 2290,
-      "prClosed": 73994,
-      "prMerged": 26357,
+      "capturedAt": "2026-08-19T19:37:17.342Z",
+      "issueOpen": 3501,
+      "issueClosed": 44104,
+      "prOpen": 2296,
+      "prClosed": 73997,
+      "prMerged": 26360,
       "workflowRuns": 40000,
-      "stars": 386796,
+      "stars": 386799,
       "forks": 81261,
       "subscribers": 1757,
-      "commits": 80827,
+      "commits": 80830,
       "contributors": 3111,
       "source": "github-actions",
       "approximateDate": false
@@ -743,69 +743,124 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "stars": 386796,
+      "stars": 386799,
       "forks": 81261,
       "subscribers": 1757,
-      "commits": 80827,
+      "commits": 80830,
       "contributors": 3111
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 120162,
+        "title": "Safeguard compaction: qualityGuard audit retry shares the timeoutSeconds budget and is killed by the same abort signal, failing the whole compaction",
+        "url": "https://github.com/openclaw/openclaw/issues/120162",
+        "state": "open",
+        "author": "wave-workflow",
+        "updatedAt": "2026-08-19T19:36:20Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107891,
+        "title": "Dashboard sidebar lost agents/sessions sections after 2026-07-01 update",
+        "url": "https://github.com/openclaw/openclaw/issues/107891",
+        "state": "open",
+        "author": "TheDenStudios",
+        "updatedAt": "2026-08-19T19:36:05Z"
+      },
+      {
+        "kind": "issue",
+        "number": 43374,
+        "title": "All LLM API calls time out simultaneously despite APIs being reachable (multi-agent concurrency issue)",
+        "url": "https://github.com/openclaw/openclaw/issues/43374",
+        "state": "open",
+        "author": "conanwhf",
+        "updatedAt": "2026-08-19T19:35:59Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112246,
+        "title": "Codex app-server: stable session-key bindings are retired without a TTL, permanently bricking web/dashboard GPT sessions (context loss on forced session rotation)",
+        "url": "https://github.com/openclaw/openclaw/issues/112246",
+        "state": "open",
+        "author": "alfredjbclaw",
+        "updatedAt": "2026-08-19T19:35:51Z"
+      },
+      {
+        "kind": "issue",
+        "number": 111695,
+        "title": "Android node not declaring capabilities (v2026.7.1, Motorola Edge 60 Fusion, Android 16)",
+        "url": "https://github.com/openclaw/openclaw/issues/111695",
+        "state": "open",
+        "author": "mahmoudesmat92",
+        "updatedAt": "2026-08-19T19:35:46Z"
+      },
+      {
+        "kind": "issue",
+        "number": 122903,
+        "title": "perf(plugins): bundled channel setup plugins pull ~1700 source files through jiti in a source checkout (43-107s vs 8.9s with dist) [AI]",
+        "url": "https://github.com/openclaw/openclaw/issues/122903",
+        "state": "open",
+        "author": "marmar9615-cloud",
+        "updatedAt": "2026-08-19T19:35:37Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 124831,
-        "title": "feat(macos): package an exact prewarmed development runtime",
-        "url": "https://github.com/openclaw/openclaw/pull/124831",
+        "number": 126399,
+        "title": "fix(codex): allow computer reuse across completed runs",
+        "url": "https://github.com/openclaw/openclaw/pull/126399",
         "state": "open",
-        "author": "hannesrudolph",
-        "updatedAt": "2026-08-19T18:51:22Z"
+        "author": "wszkxlllll",
+        "updatedAt": "2026-08-19T19:37:14Z"
       },
       {
         "kind": "pr",
-        "number": 126404,
-        "title": "feat(agent): add bounded turn finalization",
-        "url": "https://github.com/openclaw/openclaw/pull/126404",
+        "number": 126417,
+        "title": "fix(crabbox): harden worker desktop setup",
+        "url": "https://github.com/openclaw/openclaw/pull/126417",
         "state": "open",
-        "author": "MagMueller",
-        "updatedAt": "2026-08-19T18:51:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118884,
-        "title": "fix(control-ui): queue distinct repeated submissions instead of dropping user actions",
-        "url": "https://github.com/openclaw/openclaw/pull/118884",
-        "state": "open",
-        "author": "ZYV5ge",
-        "updatedAt": "2026-08-19T18:51:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125518,
-        "title": "fix(agents): rebind tool search snapshot executors",
-        "url": "https://github.com/openclaw/openclaw/pull/125518",
-        "state": "open",
-        "author": "TreyLawrence",
-        "updatedAt": "2026-08-19T18:51:08Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126393,
-        "title": "fix: restore cloud worker Desktop on node-backed Crabbox workers",
-        "url": "https://github.com/openclaw/openclaw/pull/126393",
-        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-19T18:50:53Z"
+        "updatedAt": "2026-08-19T19:37:10Z"
       },
       {
         "kind": "pr",
-        "number": 118831,
-        "title": "fix(macos): restore Settings pane scrolling",
-        "url": "https://github.com/openclaw/openclaw/pull/118831",
+        "number": 126398,
+        "title": "chore(ui): refresh control ui locales",
+        "url": "https://github.com/openclaw/openclaw/pull/126398",
         "state": "open",
-        "author": "ctbritt",
-        "updatedAt": "2026-08-19T18:50:37Z"
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-08-19T19:37:05Z"
+      },
+      {
+        "kind": "pr",
+        "number": 68843,
+        "title": "fix(acp): treat missing cwd as stale bound session",
+        "url": "https://github.com/openclaw/openclaw/pull/68843",
+        "state": "open",
+        "author": "kesslerio",
+        "updatedAt": "2026-08-19T19:37:04Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126284,
+        "title": "feat(sessions): recover offline device placements",
+        "url": "https://github.com/openclaw/openclaw/pull/126284",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-19T19:36:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 68236,
+        "title": "test(auth): add oauth e2e regression coverage",
+        "url": "https://github.com/openclaw/openclaw/pull/68236",
+        "state": "open",
+        "author": "ngutman",
+        "updatedAt": "2026-08-19T19:36:29Z"
       }
     ]
   }

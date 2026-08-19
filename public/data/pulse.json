@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-18T23:34:25.677Z",
+  "generatedAt": "2026-08-19T01:51:29.465Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -561,6 +561,23 @@
       "contributors": 3108,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-19",
+      "capturedAt": "2026-08-19T01:51:29.465Z",
+      "issueOpen": 3500,
+      "issueClosed": 44036,
+      "prOpen": 2275,
+      "prClosed": 73796,
+      "prMerged": 26191,
+      "workflowRuns": 40000,
+      "stars": 386680,
+      "forks": 81260,
+      "subscribers": 1757,
+      "commits": 80661,
+      "contributors": 3109,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -723,119 +740,109 @@
       "subscribers": 1757,
       "commits": 80639,
       "contributors": 3108
+    },
+    {
+      "capturedOn": "2026-08-19",
+      "stars": 386680,
+      "forks": 81260,
+      "subscribers": 1757,
+      "commits": 80661,
+      "contributors": 3109
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 96869,
-        "title": "[Bug]: Reasoning+content streaming chunk loses visible content when an inline code span straddles the boundary (visible persisted with unclosed backtick, remainder routed to thinking)",
-        "url": "https://github.com/openclaw/openclaw/issues/96869",
+        "number": 115354,
+        "title": "Catch-all binding creates stale runtime bindings that override ACP configured bindings",
+        "url": "https://github.com/openclaw/openclaw/issues/115354",
         "state": "open",
-        "author": "flashosophy",
-        "updatedAt": "2026-08-18T23:34:20Z"
+        "author": "Enominera",
+        "updatedAt": "2026-08-19T01:51:12Z"
       },
       {
         "kind": "issue",
-        "number": 86612,
-        "title": "Docker gateway container restart loop when OPENCLAW_SANDBOX=1 and OPENCLAW_HOME=/mnt/...",
-        "url": "https://github.com/openclaw/openclaw/issues/86612",
+        "number": 115062,
+        "title": "[Bug]: System-agent inference probe loses valid file SecretRef for custom model provider",
+        "url": "https://github.com/openclaw/openclaw/issues/115062",
         "state": "open",
-        "author": "trevorsandy",
-        "updatedAt": "2026-08-18T23:34:14Z"
+        "author": "Tony-ooo",
+        "updatedAt": "2026-08-19T01:50:34Z"
       },
       {
         "kind": "issue",
-        "number": 114081,
-        "title": "[Bug]: Pre-compaction memory flush never runs when the reactive overflow-recovery path fires (two disconnected compaction systems)",
-        "url": "https://github.com/openclaw/openclaw/issues/114081",
+        "number": 113326,
+        "title": "[Bug]: Standalone codex CLI login and gateway 'openai' profile are separate auth stores, and there is no headless way to refresh the gateway one",
+        "url": "https://github.com/openclaw/openclaw/issues/113326",
         "state": "open",
-        "author": "XdotX78",
-        "updatedAt": "2026-08-18T23:34:08Z"
+        "author": "brunocaetano-ia",
+        "updatedAt": "2026-08-19T01:50:31Z"
       },
       {
         "kind": "issue",
-        "number": 111510,
-        "title": "[Bug]: codex/* provider POSTs to legacy /backend-api/responses (403) at clean boot while sibling openai/* canonicalizes to /backend-api/codex/responses (200) — 2026.7.1",
-        "url": "https://github.com/openclaw/openclaw/issues/111510",
+        "number": 116205,
+        "title": "heartbeat: agents.*.heartbeat.session is ignored because cron monitor passes forcedSessionKey=main",
+        "url": "https://github.com/openclaw/openclaw/issues/116205",
         "state": "open",
-        "author": "cslade",
-        "updatedAt": "2026-08-18T23:34:04Z"
-      },
-      {
-        "kind": "issue",
-        "number": 112912,
-        "title": "boot-md: all BOOT.md startup hooks fail silently with CronSessionLifecycleClaimError on first boot after upgrading from <=2026.6.x (stale legacy boot session entries)",
-        "url": "https://github.com/openclaw/openclaw/issues/112912",
-        "state": "open",
-        "author": "andrea-kingautomation",
-        "updatedAt": "2026-08-18T23:34:03Z"
-      },
-      {
-        "kind": "issue",
-        "number": 79611,
-        "title": "active-memory plugin: pins to one provider, no failover; timeout shorter than provider latency causes silent drops",
-        "url": "https://github.com/openclaw/openclaw/issues/79611",
-        "state": "open",
-        "author": "wherewolf87",
-        "updatedAt": "2026-08-18T23:33:54Z"
+        "author": "QQSHI13",
+        "updatedAt": "2026-08-19T01:50:03Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 125143,
-        "title": "fix(cli): allow agent selection for direct inference",
-        "url": "https://github.com/openclaw/openclaw/pull/125143",
+        "number": 126114,
+        "title": "fix: capture GitHub identity from authenticated sign-in",
+        "url": "https://github.com/openclaw/openclaw/pull/126114",
         "state": "open",
-        "author": "omarshahine",
-        "updatedAt": "2026-08-18T23:34:20Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-19T01:51:19Z"
       },
       {
         "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "number": 126082,
+        "title": "Audit exact-bound owner-native lifecycle receipts",
+        "url": "https://github.com/openclaw/openclaw/pull/126082",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-18T23:34:18Z"
+        "author": "joshavant",
+        "updatedAt": "2026-08-19T01:51:18Z"
       },
       {
         "kind": "pr",
-        "number": 125812,
-        "title": "fix: preserve idempotencyKey exactly in transcript redaction",
-        "url": "https://github.com/openclaw/openclaw/pull/125812",
+        "number": 126087,
+        "title": "fix: restart-recovered turns no longer show fatal errors",
+        "url": "https://github.com/openclaw/openclaw/pull/126087",
         "state": "open",
-        "author": "markr9805",
-        "updatedAt": "2026-08-18T23:34:17Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-19T01:51:17Z"
       },
       {
         "kind": "pr",
-        "number": 114576,
-        "title": "fix(ui): keep active preambles visible when opening sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/114576",
+        "number": 126089,
+        "title": "fix(compaction): ignore decimal identifier fragments",
+        "url": "https://github.com/openclaw/openclaw/pull/126089",
         "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-18T23:34:08Z"
+        "author": "MertBasar0",
+        "updatedAt": "2026-08-19T01:51:14Z"
       },
       {
         "kind": "pr",
-        "number": 114625,
-        "title": "fix(nextcloud-talk): retry room kind lookup failures",
-        "url": "https://github.com/openclaw/openclaw/pull/114625",
+        "number": 126083,
+        "title": "fix(mcp): preserve catalog and result integrity",
+        "url": "https://github.com/openclaw/openclaw/pull/126083",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-08-18T23:34:05Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-19T01:51:09Z"
       },
       {
         "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-18T23:34:03Z"
+        "number": 126116,
+        "title": "fix(ui): require exact active run ownership",
+        "url": "https://github.com/openclaw/openclaw/pull/126116",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-19T01:50:40Z"
       }
     ]
   }

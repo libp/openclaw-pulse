@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-19T14:51:57.616Z",
+  "generatedAt": "2026-08-19T15:44:23.388Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -564,17 +564,17 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "capturedAt": "2026-08-19T14:51:57.616Z",
-      "issueOpen": 3494,
-      "issueClosed": 44088,
-      "prOpen": 2281,
-      "prClosed": 73951,
-      "prMerged": 26322,
+      "capturedAt": "2026-08-19T15:44:23.388Z",
+      "issueOpen": 3492,
+      "issueClosed": 44093,
+      "prOpen": 2277,
+      "prClosed": 73958,
+      "prMerged": 26324,
       "workflowRuns": 40000,
-      "stars": 386785,
-      "forks": 81259,
+      "stars": 386782,
+      "forks": 81260,
       "subscribers": 1757,
-      "commits": 80792,
+      "commits": 80794,
       "contributors": 3110,
       "source": "github-actions",
       "approximateDate": false
@@ -743,10 +743,10 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "stars": 386785,
-      "forks": 81259,
+      "stars": 386782,
+      "forks": 81260,
       "subscribers": 1757,
-      "commits": 80792,
+      "commits": 80794,
       "contributors": 3110
     }
   ],
@@ -754,113 +754,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 80864,
-        "title": "[Optimization] Standardized Preflight Validation Framework",
-        "url": "https://github.com/openclaw/openclaw/issues/80864",
+        "number": 88657,
+        "title": "Bug: DeepSeek V4 Flash incomplete turn (payloads=0, tools=2, replaySafe=no, stopReason=stop) in 2026.5.27/28",
+        "url": "https://github.com/openclaw/openclaw/issues/88657",
         "state": "open",
-        "author": "edgarstool",
-        "updatedAt": "2026-08-19T14:51:50Z"
+        "author": "mikefaierberg-byte",
+        "updatedAt": "2026-08-19T15:44:10Z"
       },
       {
         "kind": "issue",
-        "number": 42276,
-        "title": "Reasoning stream",
-        "url": "https://github.com/openclaw/openclaw/issues/42276",
+        "number": 126229,
+        "title": "[Bug]: cap-truncated chat projections carry no structured truncation flag, so session.message consumers cannot detect a bounded preview",
+        "url": "https://github.com/openclaw/openclaw/issues/126229",
         "state": "open",
-        "author": "cryptopsy0",
-        "updatedAt": "2026-08-19T14:51:43Z"
+        "author": "alfredjbclaw",
+        "updatedAt": "2026-08-19T15:44:07Z"
       },
       {
         "kind": "issue",
-        "number": 119148,
-        "title": "[Bug]: Bedrock Opus 5 reasoning-off requests ignore configured maxTokens",
-        "url": "https://github.com/openclaw/openclaw/issues/119148",
+        "number": 111903,
+        "title": "fix(feishu): custom domain rejects uppercase HTTPS scheme",
+        "url": "https://github.com/openclaw/openclaw/issues/111903",
         "state": "open",
-        "author": "gaoming-wu",
-        "updatedAt": "2026-08-19T14:50:33Z"
+        "author": "VectorPeak",
+        "updatedAt": "2026-08-19T15:44:07Z"
       },
       {
         "kind": "issue",
-        "number": 118705,
-        "title": "[Bug]: sessions.patch stamps every model override as modelOverrideSource \"user\", disabling failover, heartbeat self-heal, and reset clearing",
-        "url": "https://github.com/openclaw/openclaw/issues/118705",
+        "number": 88508,
+        "title": "[Feature]: [Feature Request] Plugin contract should support thinkingOverride to enable dynamic thinking level (low/medium/high/xhigh) per round",
+        "url": "https://github.com/openclaw/openclaw/issues/88508",
         "state": "open",
-        "author": "trevorotts1",
-        "updatedAt": "2026-08-19T14:50:25Z"
+        "author": "CocoChavan",
+        "updatedAt": "2026-08-19T15:44:02Z"
       },
       {
         "kind": "issue",
-        "number": 119117,
-        "title": "[Bug]: Deferred turn maintenance has no timeout; resulting stale running rows cannot be cleared by any supported command",
-        "url": "https://github.com/openclaw/openclaw/issues/119117",
+        "number": 88903,
+        "title": "[Feature]: Suppress EmbeddedAttemptSessionTakeoverError from conversation context on user-initiated abort",
+        "url": "https://github.com/openclaw/openclaw/issues/88903",
         "state": "open",
-        "author": "brkastner",
-        "updatedAt": "2026-08-19T14:49:41Z"
+        "author": "lykeion-dev",
+        "updatedAt": "2026-08-19T15:43:53Z"
       },
       {
         "kind": "issue",
-        "number": 126328,
-        "title": "[Bug]: text and Markdown code fences collapse behind hidden lines",
-        "url": "https://github.com/openclaw/openclaw/issues/126328",
+        "number": 81924,
+        "title": "gateway: add a suppressed marker to sessions.changed when a silent-reply broadcast is dropped",
+        "url": "https://github.com/openclaw/openclaw/issues/81924",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-19T14:49:40Z"
+        "author": "nuioo",
+        "updatedAt": "2026-08-19T15:43:45Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126322,
-        "title": "fix(sessions): interrupt orphaned subagent runs on startup",
-        "url": "https://github.com/openclaw/openclaw/pull/126322",
+        "number": 117339,
+        "title": "fix(media): reject non-binary generated video downloads across providers",
+        "url": "https://github.com/openclaw/openclaw/pull/117339",
         "state": "open",
-        "author": "vladimirkrdzic",
-        "updatedAt": "2026-08-19T14:51:30Z"
+        "author": "Yigtwxx",
+        "updatedAt": "2026-08-19T15:44:08Z"
       },
       {
         "kind": "pr",
-        "number": 118516,
-        "title": "fix: align extension security and thinking levels",
-        "url": "https://github.com/openclaw/openclaw/pull/118516",
+        "number": 119718,
+        "title": "fix(googlechat): deliver remote media URLs as text links",
+        "url": "https://github.com/openclaw/openclaw/pull/119718",
+        "state": "open",
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-08-19T15:43:55Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126329,
+        "title": "Hide internal media completion wakes from chat history [AI]",
+        "url": "https://github.com/openclaw/openclaw/pull/126329",
+        "state": "open",
+        "author": "mmaps",
+        "updatedAt": "2026-08-19T15:43:39Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126338,
+        "title": "test(mac): speed up elevation host suite",
+        "url": "https://github.com/openclaw/openclaw/pull/126338",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-19T14:51:14Z"
+        "updatedAt": "2026-08-19T15:43:20Z"
       },
       {
         "kind": "pr",
-        "number": 125258,
-        "title": "fix: large videos play distorted with no log hint when ffprobe is missing",
-        "url": "https://github.com/openclaw/openclaw/pull/125258",
+        "number": 119671,
+        "title": "fix(discord): preserve MIME extension for component uploads",
+        "url": "https://github.com/openclaw/openclaw/pull/119671",
         "state": "open",
-        "author": "maxwelhoener",
-        "updatedAt": "2026-08-19T14:51:04Z"
+        "author": "sunlit-deng",
+        "updatedAt": "2026-08-19T15:43:02Z"
       },
       {
         "kind": "pr",
-        "number": 125894,
-        "title": "feat(channels): persist bounded group context across restarts",
-        "url": "https://github.com/openclaw/openclaw/pull/125894",
+        "number": 119426,
+        "title": "fix(agents): preserve schema-valid sessions_send timeouts",
+        "url": "https://github.com/openclaw/openclaw/pull/119426",
         "state": "open",
-        "author": "nikai",
-        "updatedAt": "2026-08-19T14:50:50Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125471,
-        "title": "fix(models): keep Claude CLI OAuth available in Control UI",
-        "url": "https://github.com/openclaw/openclaw/pull/125471",
-        "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-08-19T14:50:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118603,
-        "title": "docs: show canonical SQLite paths in sessions JSON example",
-        "url": "https://github.com/openclaw/openclaw/pull/118603",
-        "state": "open",
-        "author": "madhavsomani",
-        "updatedAt": "2026-08-19T14:50:25Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-19T15:43:01Z"
       }
     ]
   }

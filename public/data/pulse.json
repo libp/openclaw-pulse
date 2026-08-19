@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-19T21:38:36.100Z",
+  "generatedAt": "2026-08-19T22:39:27.096Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -564,17 +564,17 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "capturedAt": "2026-08-19T21:38:36.100Z",
-      "issueOpen": 3509,
-      "issueClosed": 44109,
+      "capturedAt": "2026-08-19T22:39:27.096Z",
+      "issueOpen": 3508,
+      "issueClosed": 44119,
       "prOpen": 2295,
-      "prClosed": 74014,
-      "prMerged": 26377,
+      "prClosed": 74023,
+      "prMerged": 26386,
       "workflowRuns": 40000,
       "stars": 386803,
-      "forks": 81264,
+      "forks": 81262,
       "subscribers": 1757,
-      "commits": 80847,
+      "commits": 80856,
       "contributors": 3111,
       "source": "github-actions",
       "approximateDate": false
@@ -744,9 +744,9 @@
     {
       "capturedOn": "2026-08-19",
       "stars": 386803,
-      "forks": 81264,
+      "forks": 81262,
       "subscribers": 1757,
-      "commits": 80847,
+      "commits": 80856,
       "contributors": 3111
     }
   ],
@@ -754,113 +754,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 112243,
-        "title": "Feature Request: Auto-update deliveryContext based on message source channel",
-        "url": "https://github.com/openclaw/openclaw/issues/112243",
+        "number": 110136,
+        "title": "[Feature]: Allow hiding progress activity receipt while keeping commentary",
+        "url": "https://github.com/openclaw/openclaw/issues/110136",
         "state": "open",
-        "author": "fritheric",
-        "updatedAt": "2026-08-19T21:38:04Z"
+        "author": "TailsProwerWorks",
+        "updatedAt": "2026-08-19T22:39:14Z"
       },
       {
         "kind": "issue",
-        "number": 95866,
-        "title": "Forced gateway restart discards in-flight replies (reply drain timeout 0ms)",
-        "url": "https://github.com/openclaw/openclaw/issues/95866",
+        "number": 20837,
+        "title": "[Feature]: make agent aware of communication channel",
+        "url": "https://github.com/openclaw/openclaw/issues/20837",
         "state": "open",
-        "author": "abacha",
-        "updatedAt": "2026-08-19T21:36:13Z"
+        "author": "SvenMeyer",
+        "updatedAt": "2026-08-19T22:39:09Z"
       },
       {
         "kind": "issue",
-        "number": 58957,
-        "title": "Model switch can fail silently when carried-over session context is too large",
-        "url": "https://github.com/openclaw/openclaw/issues/58957",
+        "number": 13601,
+        "title": "Add persistent cron job execution history with filtering",
+        "url": "https://github.com/openclaw/openclaw/issues/13601",
         "state": "open",
-        "author": "LunaLee0130",
-        "updatedAt": "2026-08-19T21:36:13Z"
+        "author": "trevorgordon981",
+        "updatedAt": "2026-08-19T22:39:03Z"
       },
       {
         "kind": "issue",
-        "number": 126446,
-        "title": "[Bug]: accepted sessions_yield handoff is rewritten as Aborted and can end with no visible reply",
-        "url": "https://github.com/openclaw/openclaw/issues/126446",
+        "number": 56693,
+        "title": "OpenAI Codex OAuth can bind to a deactivated ChatGPT workspace when accounts have multiple workspaces",
+        "url": "https://github.com/openclaw/openclaw/issues/56693",
         "state": "open",
-        "author": "andersonjeccel",
-        "updatedAt": "2026-08-19T21:36:12Z"
+        "author": "sinogello",
+        "updatedAt": "2026-08-19T22:38:58Z"
       },
       {
         "kind": "issue",
-        "number": 126445,
-        "title": "[Bug]: launchd restart can orphan the Tailscale claimant and crash-loop on port 443",
-        "url": "https://github.com/openclaw/openclaw/issues/126445",
+        "number": 38327,
+        "title": "[Bug] \"Cannot convert undefined or null to object\" in 2026.3.2 with google-vertex/gemini-3.1-pro-preview",
+        "url": "https://github.com/openclaw/openclaw/issues/38327",
         "state": "open",
-        "author": "PollyBot13",
-        "updatedAt": "2026-08-19T21:35:58Z"
+        "author": "SUBA666",
+        "updatedAt": "2026-08-19T22:38:57Z"
       },
       {
         "kind": "issue",
-        "number": 80859,
-        "title": "doctor: preflight check for secret-resolve apply-path shape coverage",
-        "url": "https://github.com/openclaw/openclaw/issues/80859",
+        "number": 35799,
+        "title": "[Feature] Prime-number default scheduling for HEARTBEAT / cron “every” + deterministic per-agent phase jitter (anti top-of-hour spikes)",
+        "url": "https://github.com/openclaw/openclaw/issues/35799",
         "state": "open",
-        "author": "ScientificProgrammer",
-        "updatedAt": "2026-08-19T21:35:23Z"
+        "author": "newtontech",
+        "updatedAt": "2026-08-19T22:38:50Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126447,
-        "title": "fix(cli): accept daemon --json before subcommands",
-        "url": "https://github.com/openclaw/openclaw/pull/126447",
+        "number": 126250,
+        "title": "fix(discord): route polls through canonical delivery",
+        "url": "https://github.com/openclaw/openclaw/pull/126250",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-19T21:38:32Z"
+        "updatedAt": "2026-08-19T22:39:21Z"
       },
       {
         "kind": "pr",
-        "number": 126437,
-        "title": "fix(model-fallback): keep proxy provider auth for multi-level model ids (#126430)",
-        "url": "https://github.com/openclaw/openclaw/pull/126437",
+        "number": 126265,
+        "title": "fix(doctor): bound recovered session migrations",
+        "url": "https://github.com/openclaw/openclaw/pull/126265",
         "state": "open",
-        "author": "Funado20",
-        "updatedAt": "2026-08-19T21:38:28Z"
+        "author": "hannesrudolph",
+        "updatedAt": "2026-08-19T22:39:18Z"
       },
       {
         "kind": "pr",
-        "number": 119215,
-        "title": "fix(ui): ignore malformed realtime talk audio frames instead of throwing",
-        "url": "https://github.com/openclaw/openclaw/pull/119215",
+        "number": 126248,
+        "title": "fix(telegram): finalize streamed questions in place",
+        "url": "https://github.com/openclaw/openclaw/pull/126248",
         "state": "open",
-        "author": "wanyongstar",
-        "updatedAt": "2026-08-19T21:38:25Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-19T22:39:18Z"
       },
       {
         "kind": "pr",
-        "number": 126255,
-        "title": "feat(browser): prefer Browser Harness for model control",
-        "url": "https://github.com/openclaw/openclaw/pull/126255",
+        "number": 126208,
+        "title": "fix(agents): stop after terminal dynamic tool results",
+        "url": "https://github.com/openclaw/openclaw/pull/126208",
         "state": "open",
-        "author": "MagMueller",
-        "updatedAt": "2026-08-19T21:38:06Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-19T22:39:15Z"
       },
       {
         "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-19T21:37:56Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123975,
-        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
-        "url": "https://github.com/openclaw/openclaw/pull/123975",
+        "number": 126207,
+        "title": "fix(telegram): preserve direct-message topic routing",
+        "url": "https://github.com/openclaw/openclaw/pull/126207",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-19T21:37:46Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-19T22:39:13Z"
+      },
+      {
+        "kind": "pr",
+        "number": 108482,
+        "title": "refactor(skills): centralize internal write paths",
+        "url": "https://github.com/openclaw/openclaw/pull/108482",
+        "state": "open",
+        "author": "tadad",
+        "updatedAt": "2026-08-19T22:39:13Z"
       }
     ]
   }

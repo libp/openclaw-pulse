@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-19T01:51:29.465Z",
+  "generatedAt": "2026-08-19T03:57:21.970Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -564,17 +564,17 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "capturedAt": "2026-08-19T01:51:29.465Z",
-      "issueOpen": 3500,
-      "issueClosed": 44036,
-      "prOpen": 2275,
-      "prClosed": 73796,
-      "prMerged": 26191,
+      "capturedAt": "2026-08-19T03:57:21.970Z",
+      "issueOpen": 3499,
+      "issueClosed": 44050,
+      "prOpen": 2281,
+      "prClosed": 73826,
+      "prMerged": 26220,
       "workflowRuns": 40000,
-      "stars": 386680,
-      "forks": 81260,
+      "stars": 386691,
+      "forks": 81264,
       "subscribers": 1757,
-      "commits": 80661,
+      "commits": 80690,
       "contributors": 3109,
       "source": "github-actions",
       "approximateDate": false
@@ -743,10 +743,10 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "stars": 386680,
-      "forks": 81260,
+      "stars": 386691,
+      "forks": 81264,
       "subscribers": 1757,
-      "commits": 80661,
+      "commits": 80690,
       "contributors": 3109
     }
   ],
@@ -754,95 +754,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 115354,
-        "title": "Catch-all binding creates stale runtime bindings that override ACP configured bindings",
-        "url": "https://github.com/openclaw/openclaw/issues/115354",
+        "number": 126171,
+        "title": "[Bug]: Native Codex compaction leaves no SQLite replay boundary, causing repeated memory-flush loop",
+        "url": "https://github.com/openclaw/openclaw/issues/126171",
         "state": "open",
-        "author": "Enominera",
-        "updatedAt": "2026-08-19T01:51:12Z"
-      },
-      {
-        "kind": "issue",
-        "number": 115062,
-        "title": "[Bug]: System-agent inference probe loses valid file SecretRef for custom model provider",
-        "url": "https://github.com/openclaw/openclaw/issues/115062",
-        "state": "open",
-        "author": "Tony-ooo",
-        "updatedAt": "2026-08-19T01:50:34Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113326,
-        "title": "[Bug]: Standalone codex CLI login and gateway 'openai' profile are separate auth stores, and there is no headless way to refresh the gateway one",
-        "url": "https://github.com/openclaw/openclaw/issues/113326",
-        "state": "open",
-        "author": "brunocaetano-ia",
-        "updatedAt": "2026-08-19T01:50:31Z"
-      },
-      {
-        "kind": "issue",
-        "number": 116205,
-        "title": "heartbeat: agents.*.heartbeat.session is ignored because cron monitor passes forcedSessionKey=main",
-        "url": "https://github.com/openclaw/openclaw/issues/116205",
-        "state": "open",
-        "author": "QQSHI13",
-        "updatedAt": "2026-08-19T01:50:03Z"
+        "author": "sebastian-openclaw",
+        "updatedAt": "2026-08-19T03:55:51Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126114,
-        "title": "fix: capture GitHub identity from authenticated sign-in",
-        "url": "https://github.com/openclaw/openclaw/pull/126114",
+        "number": 117712,
+        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/117712",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-19T01:51:19Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-19T03:57:14Z"
       },
       {
         "kind": "pr",
-        "number": 126082,
-        "title": "Audit exact-bound owner-native lifecycle receipts",
-        "url": "https://github.com/openclaw/openclaw/pull/126082",
+        "number": 112375,
+        "title": "feat(cron): shell precheck gate to skip LLM when no work",
+        "url": "https://github.com/openclaw/openclaw/pull/112375",
+        "state": "open",
+        "author": "Bartok9",
+        "updatedAt": "2026-08-19T03:57:14Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126141,
+        "title": "fix(update): prevent Doctor OOM during finalization",
+        "url": "https://github.com/openclaw/openclaw/pull/126141",
+        "state": "open",
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-19T03:57:11Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126143,
+        "title": "feat(ui): unify focused presentation routes",
+        "url": "https://github.com/openclaw/openclaw/pull/126143",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-19T03:57:09Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117199,
+        "title": "fix(plugins): preserve packaged runtime entrypoint ownership",
+        "url": "https://github.com/openclaw/openclaw/pull/117199",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-19T03:57:09Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126007,
+        "title": "feat(ui): explain decision receipts in Activity",
+        "url": "https://github.com/openclaw/openclaw/pull/126007",
         "state": "open",
         "author": "joshavant",
-        "updatedAt": "2026-08-19T01:51:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126087,
-        "title": "fix: restart-recovered turns no longer show fatal errors",
-        "url": "https://github.com/openclaw/openclaw/pull/126087",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-19T01:51:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126089,
-        "title": "fix(compaction): ignore decimal identifier fragments",
-        "url": "https://github.com/openclaw/openclaw/pull/126089",
-        "state": "open",
-        "author": "MertBasar0",
-        "updatedAt": "2026-08-19T01:51:14Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126083,
-        "title": "fix(mcp): preserve catalog and result integrity",
-        "url": "https://github.com/openclaw/openclaw/pull/126083",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-19T01:51:09Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126116,
-        "title": "fix(ui): require exact active run ownership",
-        "url": "https://github.com/openclaw/openclaw/pull/126116",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-19T01:50:40Z"
+        "updatedAt": "2026-08-19T03:57:07Z"
       }
     ]
   }

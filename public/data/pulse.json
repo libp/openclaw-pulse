@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-19T05:45:13.402Z",
+  "generatedAt": "2026-08-19T07:52:58.406Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -564,18 +564,18 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "capturedAt": "2026-08-19T05:45:13.402Z",
-      "issueOpen": 3498,
-      "issueClosed": 44054,
-      "prOpen": 2276,
-      "prClosed": 73864,
-      "prMerged": 26251,
+      "capturedAt": "2026-08-19T07:52:58.406Z",
+      "issueOpen": 3489,
+      "issueClosed": 44071,
+      "prOpen": 2283,
+      "prClosed": 73892,
+      "prMerged": 26278,
       "workflowRuns": 40000,
-      "stars": 386696,
-      "forks": 81264,
+      "stars": 386721,
+      "forks": 81265,
       "subscribers": 1757,
-      "commits": 80721,
-      "contributors": 3109,
+      "commits": 80748,
+      "contributors": 3110,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -743,88 +743,88 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "stars": 386696,
-      "forks": 81264,
+      "stars": 386721,
+      "forks": 81265,
       "subscribers": 1757,
-      "commits": 80721,
-      "contributors": 3109
+      "commits": 80748,
+      "contributors": 3110
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 123071,
-        "title": "openclaw doctor hangs after startup optimization on 2026.6.1",
-        "url": "https://github.com/openclaw/openclaw/issues/123071",
+        "number": 125838,
+        "title": "QQBot: slash command 轻量回复未投递 (/think, /status 无回复)",
+        "url": "https://github.com/openclaw/openclaw/issues/125838",
         "state": "open",
-        "author": "ktwulobster",
-        "updatedAt": "2026-08-19T05:45:01Z"
+        "author": "lwy521",
+        "updatedAt": "2026-08-19T07:50:50Z"
       },
       {
         "kind": "issue",
-        "number": 126163,
-        "title": "[Bug]: Required cron delivery failure can report successful completion",
-        "url": "https://github.com/openclaw/openclaw/issues/126163",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-19T05:44:35Z"
+        "number": 60398,
+        "title": "gateway install fails with error 5 when home directory is on external APFS volume",
+        "url": "https://github.com/openclaw/openclaw/issues/60398",
+        "state": "open",
+        "author": "SandeepSAulakh",
+        "updatedAt": "2026-08-19T07:50:45Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123976,
-        "title": "fix(gateway): frozen worker processes never resume when the host ps stalls",
-        "url": "https://github.com/openclaw/openclaw/pull/123976",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-19T05:45:04Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125186,
-        "title": "feat(qa): standalone Telegram Desktop recorder with a prebaked desktop image",
-        "url": "https://github.com/openclaw/openclaw/pull/125186",
+        "number": 126221,
+        "title": "fix: nested session tools retain caller scope on multi-agent hosts",
+        "url": "https://github.com/openclaw/openclaw/pull/126221",
         "state": "open",
         "author": "obviyus",
-        "updatedAt": "2026-08-19T05:45:02Z"
+        "updatedAt": "2026-08-19T07:52:51Z"
       },
       {
         "kind": "pr",
-        "number": 126208,
-        "title": "fix(agents): stop after terminal dynamic tool results",
-        "url": "https://github.com/openclaw/openclaw/pull/126208",
+        "number": 126146,
+        "title": "feat(sessions): organize visible sessions through agent tools",
+        "url": "https://github.com/openclaw/openclaw/pull/126146",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-19T05:45:01Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-19T07:52:51Z"
       },
       {
         "kind": "pr",
-        "number": 125974,
-        "title": "feat(discord): auto-join occupied voice rooms",
-        "url": "https://github.com/openclaw/openclaw/pull/125974",
+        "number": 126216,
+        "title": "fix(agents): distinguish review routing from enforcement",
+        "url": "https://github.com/openclaw/openclaw/pull/126216",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-19T05:44:56Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-19T07:52:49Z"
       },
       {
         "kind": "pr",
-        "number": 120854,
-        "title": "feat(mattermost): isolate progress posts and deliver finals separately",
-        "url": "https://github.com/openclaw/openclaw/pull/120854",
+        "number": 124531,
+        "title": "fix(mattermost): prevent messages from sharing another sender's turn",
+        "url": "https://github.com/openclaw/openclaw/pull/124531",
         "state": "open",
-        "author": "aolea",
-        "updatedAt": "2026-08-19T05:44:49Z"
+        "author": "pgondhi987",
+        "updatedAt": "2026-08-19T07:52:42Z"
       },
       {
         "kind": "pr",
-        "number": 126193,
-        "title": "refactor(plugin-sdk): promote shared runtime primitives",
-        "url": "https://github.com/openclaw/openclaw/pull/126193",
+        "number": 126252,
+        "title": "fix(browser): avoid loading Playwright during gateway startup",
+        "url": "https://github.com/openclaw/openclaw/pull/126252",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-19T05:44:42Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-19T07:52:31Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117432,
+        "title": "fix(system-agent): tell messaging users a delegated approval can't be applied from chat (#116519)",
+        "url": "https://github.com/openclaw/openclaw/pull/117432",
+        "state": "open",
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-08-19T07:52:27Z"
       }
     ]
   }

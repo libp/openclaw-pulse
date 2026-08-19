@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-19T17:38:47.092Z",
+  "generatedAt": "2026-08-19T18:51:30.565Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -564,18 +564,18 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "capturedAt": "2026-08-19T17:38:47.092Z",
-      "issueOpen": 3496,
-      "issueClosed": 44098,
-      "prOpen": 2292,
-      "prClosed": 73974,
-      "prMerged": 26339,
+      "capturedAt": "2026-08-19T18:51:30.565Z",
+      "issueOpen": 3498,
+      "issueClosed": 44103,
+      "prOpen": 2290,
+      "prClosed": 73994,
+      "prMerged": 26357,
       "workflowRuns": 40000,
-      "stars": 386790,
-      "forks": 81260,
+      "stars": 386796,
+      "forks": 81261,
       "subscribers": 1757,
-      "commits": 80809,
-      "contributors": 3110,
+      "commits": 80827,
+      "contributors": 3111,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -743,115 +743,69 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "stars": 386790,
-      "forks": 81260,
+      "stars": 386796,
+      "forks": 81261,
       "subscribers": 1757,
-      "commits": 80809,
-      "contributors": 3110
+      "commits": 80827,
+      "contributors": 3111
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 9637,
-        "title": "Add accessibility config option to disable emojis and unicode symbols in TUI",
-        "url": "https://github.com/openclaw/openclaw/issues/9637",
-        "state": "open",
-        "author": "robin24",
-        "updatedAt": "2026-08-19T17:38:26Z"
-      },
-      {
-        "kind": "issue",
-        "number": 9016,
-        "title": "Feature: Expose OpenRouter usage cost to agent runtime",
-        "url": "https://github.com/openclaw/openclaw/issues/9016",
-        "state": "open",
-        "author": "eric-wien",
-        "updatedAt": "2026-08-19T17:37:54Z"
-      },
-      {
-        "kind": "issue",
-        "number": 16670,
-        "title": "Onboarding Wizard should include Memory/Embedding setup as a mandatory step",
-        "url": "https://github.com/openclaw/openclaw/issues/16670",
-        "state": "open",
-        "author": "actwebmaster",
-        "updatedAt": "2026-08-19T17:37:21Z"
-      },
-      {
-        "kind": "issue",
-        "number": 38573,
-        "title": "[Feature]: Allow topic/forum cron deliveries to use main-session announce/agent-turn flow instead of forced direct delivery",
-        "url": "https://github.com/openclaw/openclaw/issues/38573",
-        "state": "open",
-        "author": "wonrax",
-        "updatedAt": "2026-08-19T17:36:44Z"
-      },
-      {
-        "kind": "issue",
-        "number": 6625,
-        "title": "Feature: Graceful sub-agent timeout (pre-timeout warning)",
-        "url": "https://github.com/openclaw/openclaw/issues/6625",
-        "state": "open",
-        "author": "jekard",
-        "updatedAt": "2026-08-19T17:36:38Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 126306,
-        "title": "feat(gateway): broker GitHub publication",
-        "url": "https://github.com/openclaw/openclaw/pull/126306",
+        "number": 124831,
+        "title": "feat(macos): package an exact prewarmed development runtime",
+        "url": "https://github.com/openclaw/openclaw/pull/124831",
         "state": "open",
+        "author": "hannesrudolph",
+        "updatedAt": "2026-08-19T18:51:22Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126404,
+        "title": "feat(agent): add bounded turn finalization",
+        "url": "https://github.com/openclaw/openclaw/pull/126404",
+        "state": "open",
+        "author": "MagMueller",
+        "updatedAt": "2026-08-19T18:51:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118884,
+        "title": "fix(control-ui): queue distinct repeated submissions instead of dropping user actions",
+        "url": "https://github.com/openclaw/openclaw/pull/118884",
+        "state": "open",
+        "author": "ZYV5ge",
+        "updatedAt": "2026-08-19T18:51:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125518,
+        "title": "fix(agents): rebind tool search snapshot executors",
+        "url": "https://github.com/openclaw/openclaw/pull/125518",
+        "state": "open",
+        "author": "TreyLawrence",
+        "updatedAt": "2026-08-19T18:51:08Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126393,
+        "title": "fix: restore cloud worker Desktop on node-backed Crabbox workers",
+        "url": "https://github.com/openclaw/openclaw/pull/126393",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-19T17:38:40Z"
+        "updatedAt": "2026-08-19T18:50:53Z"
       },
       {
         "kind": "pr",
-        "number": 126345,
-        "title": "fix(ui): dismiss session hovercard before its menu opens",
-        "url": "https://github.com/openclaw/openclaw/pull/126345",
+        "number": 118831,
+        "title": "fix(macos): restore Settings pane scrolling",
+        "url": "https://github.com/openclaw/openclaw/pull/118831",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-19T17:38:30Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126348,
-        "title": "fix(ui): contain narrated tool details",
-        "url": "https://github.com/openclaw/openclaw/pull/126348",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-19T17:38:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126027,
-        "title": "feat(audit): explain plugin and remote actions",
-        "url": "https://github.com/openclaw/openclaw/pull/126027",
-        "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-08-19T17:37:53Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126379,
-        "title": "fix(agents): preserve empty CLI subagent completions",
-        "url": "https://github.com/openclaw/openclaw/pull/126379",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-19T17:37:52Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126220,
-        "title": "feat(qa): run the Mantis Telegram lane on the prebaked desktop",
-        "url": "https://github.com/openclaw/openclaw/pull/126220",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-08-19T17:37:43Z"
+        "author": "ctbritt",
+        "updatedAt": "2026-08-19T18:50:37Z"
       }
     ]
   }

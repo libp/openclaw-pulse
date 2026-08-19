@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-19T20:44:06.582Z",
+  "generatedAt": "2026-08-19T21:38:36.100Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -564,17 +564,17 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "capturedAt": "2026-08-19T20:44:06.582Z",
-      "issueOpen": 3505,
-      "issueClosed": 44108,
-      "prOpen": 2303,
-      "prClosed": 74005,
-      "prMerged": 26368,
+      "capturedAt": "2026-08-19T21:38:36.100Z",
+      "issueOpen": 3509,
+      "issueClosed": 44109,
+      "prOpen": 2295,
+      "prClosed": 74014,
+      "prMerged": 26377,
       "workflowRuns": 40000,
       "stars": 386803,
       "forks": 81264,
       "subscribers": 1757,
-      "commits": 80838,
+      "commits": 80847,
       "contributors": 3111,
       "source": "github-actions",
       "approximateDate": false
@@ -746,7 +746,7 @@
       "stars": 386803,
       "forks": 81264,
       "subscribers": 1757,
-      "commits": 80838,
+      "commits": 80847,
       "contributors": 3111
     }
   ],
@@ -754,95 +754,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 81099,
-        "title": "[Bug]: claude-cli backend: AskUserQuestion tool call renders input but no picker UI / never returns a result",
-        "url": "https://github.com/openclaw/openclaw/issues/81099",
+        "number": 112243,
+        "title": "Feature Request: Auto-update deliveryContext based on message source channel",
+        "url": "https://github.com/openclaw/openclaw/issues/112243",
         "state": "open",
-        "author": "cuuush",
-        "updatedAt": "2026-08-19T20:43:08Z"
+        "author": "fritheric",
+        "updatedAt": "2026-08-19T21:38:04Z"
       },
       {
         "kind": "issue",
-        "number": 111595,
-        "title": "[Bug]: Equivalent Windows cwd spellings split catalog project groups",
-        "url": "https://github.com/openclaw/openclaw/issues/111595",
+        "number": 95866,
+        "title": "Forced gateway restart discards in-flight replies (reply drain timeout 0ms)",
+        "url": "https://github.com/openclaw/openclaw/issues/95866",
         "state": "open",
-        "author": "ooiuuii",
-        "updatedAt": "2026-08-19T20:42:11Z"
+        "author": "abacha",
+        "updatedAt": "2026-08-19T21:36:13Z"
       },
       {
         "kind": "issue",
-        "number": 103659,
-        "title": "[Feature]: Per-agent/per-provider override for tools.toolSearch",
-        "url": "https://github.com/openclaw/openclaw/issues/103659",
+        "number": 58957,
+        "title": "Model switch can fail silently when carried-over session context is too large",
+        "url": "https://github.com/openclaw/openclaw/issues/58957",
         "state": "open",
-        "author": "1Vision365-PeterTijsma",
-        "updatedAt": "2026-08-19T20:40:57Z"
+        "author": "LunaLee0130",
+        "updatedAt": "2026-08-19T21:36:13Z"
       },
       {
         "kind": "issue",
-        "number": 126440,
-        "title": "[Bug]: Setup mode lists bundled migration providers without detecting source state",
-        "url": "https://github.com/openclaw/openclaw/issues/126440",
+        "number": 126446,
+        "title": "[Bug]: accepted sessions_yield handoff is rewritten as Aborted and can end with no visible reply",
+        "url": "https://github.com/openclaw/openclaw/issues/126446",
         "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-08-19T20:36:22Z"
+        "author": "andersonjeccel",
+        "updatedAt": "2026-08-19T21:36:12Z"
+      },
+      {
+        "kind": "issue",
+        "number": 126445,
+        "title": "[Bug]: launchd restart can orphan the Tailscale claimant and crash-loop on port 443",
+        "url": "https://github.com/openclaw/openclaw/issues/126445",
+        "state": "open",
+        "author": "PollyBot13",
+        "updatedAt": "2026-08-19T21:35:58Z"
+      },
+      {
+        "kind": "issue",
+        "number": 80859,
+        "title": "doctor: preflight check for secret-resolve apply-path shape coverage",
+        "url": "https://github.com/openclaw/openclaw/issues/80859",
+        "state": "open",
+        "author": "ScientificProgrammer",
+        "updatedAt": "2026-08-19T21:35:23Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126220,
-        "title": "feat(qa): run the Mantis Telegram lane on the prebaked desktop",
-        "url": "https://github.com/openclaw/openclaw/pull/126220",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-08-19T20:43:39Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126355,
-        "title": "fix(ui): keep mobile sidebar session menus reachable",
-        "url": "https://github.com/openclaw/openclaw/pull/126355",
-        "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-19T20:43:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124308,
-        "title": "fix(daemon): skip gateway port-release assertion when stopping a node-host LaunchAgent",
-        "url": "https://github.com/openclaw/openclaw/pull/124308",
-        "state": "open",
-        "author": "aniskhan001",
-        "updatedAt": "2026-08-19T20:43:29Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-19T20:43:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126434,
-        "title": "refactor(llama-cpp): use one provider for managed and existing servers",
-        "url": "https://github.com/openclaw/openclaw/pull/126434",
+        "number": 126447,
+        "title": "fix(cli): accept daemon --json before subcommands",
+        "url": "https://github.com/openclaw/openclaw/pull/126447",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-19T20:43:19Z"
+        "updatedAt": "2026-08-19T21:38:32Z"
       },
       {
         "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
+        "number": 126437,
+        "title": "fix(model-fallback): keep proxy provider auth for multi-level model ids (#126430)",
+        "url": "https://github.com/openclaw/openclaw/pull/126437",
+        "state": "open",
+        "author": "Funado20",
+        "updatedAt": "2026-08-19T21:38:28Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119215,
+        "title": "fix(ui): ignore malformed realtime talk audio frames instead of throwing",
+        "url": "https://github.com/openclaw/openclaw/pull/119215",
+        "state": "open",
+        "author": "wanyongstar",
+        "updatedAt": "2026-08-19T21:38:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126255,
+        "title": "feat(browser): prefer Browser Harness for model control",
+        "url": "https://github.com/openclaw/openclaw/pull/126255",
+        "state": "open",
+        "author": "MagMueller",
+        "updatedAt": "2026-08-19T21:38:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
         "state": "closed",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-19T20:41:55Z"
+        "updatedAt": "2026-08-19T21:37:56Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123975,
+        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
+        "url": "https://github.com/openclaw/openclaw/pull/123975",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-19T21:37:46Z"
       }
     ]
   }

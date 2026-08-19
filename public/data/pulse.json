@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-19T03:57:21.970Z",
+  "generatedAt": "2026-08-19T04:50:01.869Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -564,17 +564,17 @@
     },
     {
       "capturedOn": "2026-08-19",
-      "capturedAt": "2026-08-19T03:57:21.970Z",
-      "issueOpen": 3499,
-      "issueClosed": 44050,
-      "prOpen": 2281,
-      "prClosed": 73826,
-      "prMerged": 26220,
+      "capturedAt": "2026-08-19T04:50:01.869Z",
+      "issueOpen": 3498,
+      "issueClosed": 44052,
+      "prOpen": 2280,
+      "prClosed": 73841,
+      "prMerged": 26234,
       "workflowRuns": 40000,
       "stars": 386691,
-      "forks": 81264,
+      "forks": 81262,
       "subscribers": 1757,
-      "commits": 80690,
+      "commits": 80704,
       "contributors": 3109,
       "source": "github-actions",
       "approximateDate": false
@@ -744,9 +744,9 @@
     {
       "capturedOn": "2026-08-19",
       "stars": 386691,
-      "forks": 81264,
+      "forks": 81262,
       "subscribers": 1757,
-      "commits": 80690,
+      "commits": 80704,
       "contributors": 3109
     }
   ],
@@ -754,15 +754,87 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 126171,
-        "title": "[Bug]: Native Codex compaction leaves no SQLite replay boundary, causing repeated memory-flush loop",
-        "url": "https://github.com/openclaw/openclaw/issues/126171",
+        "number": 35799,
+        "title": "[Feature] Prime-number default scheduling for HEARTBEAT / cron “every” + deterministic per-agent phase jitter (anti top-of-hour spikes)",
+        "url": "https://github.com/openclaw/openclaw/issues/35799",
         "state": "open",
-        "author": "sebastian-openclaw",
-        "updatedAt": "2026-08-19T03:55:51Z"
+        "author": "newtontech",
+        "updatedAt": "2026-08-19T04:49:52Z"
+      },
+      {
+        "kind": "issue",
+        "number": 86612,
+        "title": "Docker gateway container restart loop when OPENCLAW_SANDBOX=1 and OPENCLAW_HOME=/mnt/...",
+        "url": "https://github.com/openclaw/openclaw/issues/86612",
+        "state": "open",
+        "author": "trevorsandy",
+        "updatedAt": "2026-08-19T04:49:46Z"
+      },
+      {
+        "kind": "issue",
+        "number": 111510,
+        "title": "[Bug]: codex/* provider POSTs to legacy /backend-api/responses (403) at clean boot while sibling openai/* canonicalizes to /backend-api/codex/responses (200) — 2026.7.1",
+        "url": "https://github.com/openclaw/openclaw/issues/111510",
+        "state": "open",
+        "author": "cslade",
+        "updatedAt": "2026-08-19T04:49:40Z"
+      },
+      {
+        "kind": "issue",
+        "number": 124177,
+        "title": "Codex app-server strips OpenClaw `read` on container sandbox backends; #83667 only restored ssh",
+        "url": "https://github.com/openclaw/openclaw/issues/124177",
+        "state": "open",
+        "author": "AdminExcellenc3",
+        "updatedAt": "2026-08-19T04:49:33Z"
+      },
+      {
+        "kind": "issue",
+        "number": 79611,
+        "title": "active-memory plugin: pins to one provider, no failover; timeout shorter than provider latency causes silent drops",
+        "url": "https://github.com/openclaw/openclaw/issues/79611",
+        "state": "open",
+        "author": "wherewolf87",
+        "updatedAt": "2026-08-19T04:49:33Z"
+      },
+      {
+        "kind": "issue",
+        "number": 114851,
+        "title": "Slack durable ingress drain stalls during long hybrid exec/process turns; other conversations delayed minutes with zero main-lane wait",
+        "url": "https://github.com/openclaw/openclaw/issues/114851",
+        "state": "open",
+        "author": "roko-boy",
+        "updatedAt": "2026-08-19T04:49:27Z"
       }
     ],
     "prs": [
+      {
+        "kind": "pr",
+        "number": 126133,
+        "title": "chore(ui): refresh control ui locales",
+        "url": "https://github.com/openclaw/openclaw/pull/126133",
+        "state": "open",
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-08-19T04:49:49Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126147,
+        "title": "improve(gateway): avoid repeated logging and delivery scans",
+        "url": "https://github.com/openclaw/openclaw/pull/126147",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-19T04:49:48Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125858,
+        "title": "fix(agents): guard JSON.parse in hasDuplicateJsonObjectKeys with try/catch",
+        "url": "https://github.com/openclaw/openclaw/pull/125858",
+        "state": "open",
+        "author": "coaiMax",
+        "updatedAt": "2026-08-19T04:49:57Z"
+      },
       {
         "kind": "pr",
         "number": 117712,
@@ -770,52 +842,25 @@
         "url": "https://github.com/openclaw/openclaw/pull/117712",
         "state": "open",
         "author": "dependabot[bot]",
-        "updatedAt": "2026-08-19T03:57:14Z"
+        "updatedAt": "2026-08-19T04:49:35Z"
       },
       {
         "kind": "pr",
-        "number": 112375,
-        "title": "feat(cron): shell precheck gate to skip LLM when no work",
-        "url": "https://github.com/openclaw/openclaw/pull/112375",
+        "number": 123535,
+        "title": "fix(ui): avoid session catalog refresh storms",
+        "url": "https://github.com/openclaw/openclaw/pull/123535",
         "state": "open",
-        "author": "Bartok9",
-        "updatedAt": "2026-08-19T03:57:14Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-19T04:49:04Z"
       },
       {
         "kind": "pr",
-        "number": 126141,
-        "title": "fix(update): prevent Doctor OOM during finalization",
-        "url": "https://github.com/openclaw/openclaw/pull/126141",
-        "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-19T03:57:11Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126143,
-        "title": "feat(ui): unify focused presentation routes",
-        "url": "https://github.com/openclaw/openclaw/pull/126143",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-19T03:57:09Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117199,
-        "title": "fix(plugins): preserve packaged runtime entrypoint ownership",
-        "url": "https://github.com/openclaw/openclaw/pull/117199",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-19T03:57:09Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126007,
-        "title": "feat(ui): explain decision receipts in Activity",
-        "url": "https://github.com/openclaw/openclaw/pull/126007",
-        "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-08-19T03:57:07Z"
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-19T04:48:58Z"
       }
     ]
   }

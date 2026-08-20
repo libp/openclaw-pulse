@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-20T17:43:44.714Z",
+  "generatedAt": "2026-08-20T18:57:39.123Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -581,18 +581,18 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "capturedAt": "2026-08-20T17:43:44.714Z",
-      "issueOpen": 3515,
-      "issueClosed": 44193,
-      "prOpen": 2280,
-      "prClosed": 74256,
-      "prMerged": 26583,
+      "capturedAt": "2026-08-20T18:57:39.123Z",
+      "issueOpen": 3517,
+      "issueClosed": 44194,
+      "prOpen": 2287,
+      "prClosed": 74283,
+      "prMerged": 26608,
       "workflowRuns": 40000,
       "stars": 386899,
-      "forks": 81273,
+      "forks": 81275,
       "subscribers": 1760,
-      "commits": 81060,
-      "contributors": 3113,
+      "commits": 81083,
+      "contributors": 3114,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -769,78 +769,105 @@
     {
       "capturedOn": "2026-08-20",
       "stars": 386899,
-      "forks": 81273,
+      "forks": 81275,
       "subscribers": 1760,
-      "commits": 81060,
-      "contributors": 3113
+      "commits": 81083,
+      "contributors": 3114
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 123318,
-        "title": "[Bug]: git updater: recreated upstream tags make `git fetch --tags` fail forever while `openclaw status` reports \"up to date\" from stale refs",
-        "url": "https://github.com/openclaw/openclaw/issues/123318",
+        "number": 48179,
+        "title": "enhancement: Optimize voice message processing pipeline for Telegram",
+        "url": "https://github.com/openclaw/openclaw/issues/48179",
         "state": "open",
-        "author": "ToneLoke",
-        "updatedAt": "2026-08-20T17:41:50Z"
+        "author": "Moltmanisgreat",
+        "updatedAt": "2026-08-20T18:57:34Z"
+      },
+      {
+        "kind": "issue",
+        "number": 126796,
+        "title": "[Bug]: ClickClack menu 403 warning misdiagnoses permission and hides account",
+        "url": "https://github.com/openclaw/openclaw/issues/126796",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-20T18:57:31Z"
+      },
+      {
+        "kind": "issue",
+        "number": 124952,
+        "title": "[Bug]: modelPolicy.allow is never migrated off legacy claude-cli/* refs, leaving no selectable Claude model",
+        "url": "https://github.com/openclaw/openclaw/issues/124952",
+        "state": "open",
+        "author": "yoursomm2021-art",
+        "updatedAt": "2026-08-20T18:57:26Z"
+      },
+      {
+        "kind": "issue",
+        "number": 47910,
+        "title": "feat: provider fallback by failure class — quarantine auth-broken providers",
+        "url": "https://github.com/openclaw/openclaw/issues/47910",
+        "state": "open",
+        "author": "issaba1",
+        "updatedAt": "2026-08-20T18:57:02Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126763,
-        "title": "fix(cron): stop retrying permanent command failures as provider overloads",
-        "url": "https://github.com/openclaw/openclaw/pull/126763",
+        "number": 121576,
+        "title": "fix(text): only insert separator between word chars when stripping model tokens",
+        "url": "https://github.com/openclaw/openclaw/pull/121576",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-20T17:43:41Z"
+        "author": "ruel225",
+        "updatedAt": "2026-08-20T18:57:33Z"
       },
       {
         "kind": "pr",
-        "number": 126726,
-        "title": "fix(ui): session hovercards stop replaying unchanged PR status",
-        "url": "https://github.com/openclaw/openclaw/pull/126726",
+        "number": 96291,
+        "title": "[codex] Bound memory flush append payloads",
+        "url": "https://github.com/openclaw/openclaw/pull/96291",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-20T17:43:29Z"
+        "author": "AdrianIp0204",
+        "updatedAt": "2026-08-20T18:57:33Z"
       },
       {
         "kind": "pr",
-        "number": 126616,
-        "title": "fix: HTTP chat binds one unbounded session from a constant OpenAI user",
-        "url": "https://github.com/openclaw/openclaw/pull/126616",
+        "number": 126777,
+        "title": "fix(qa): preserve Codex auth identity across restarts",
+        "url": "https://github.com/openclaw/openclaw/pull/126777",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-20T18:57:12Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126618,
+        "title": "fix: Tool Search directory/tools wrap native read/exec in tool_call",
+        "url": "https://github.com/openclaw/openclaw/pull/126618",
         "state": "open",
         "author": "RaviTharuma",
-        "updatedAt": "2026-08-20T17:43:28Z"
+        "updatedAt": "2026-08-20T18:56:58Z"
       },
       {
         "kind": "pr",
-        "number": 125471,
-        "title": "fix(models): keep Claude CLI OAuth available in Control UI",
-        "url": "https://github.com/openclaw/openclaw/pull/125471",
-        "state": "closed",
-        "author": "VACInc",
-        "updatedAt": "2026-08-20T17:43:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "number": 126262,
+        "title": "improve(code-mode): call tools as global functions",
+        "url": "https://github.com/openclaw/openclaw/pull/126262",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-20T17:42:41Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-20T18:56:55Z"
       },
       {
         "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-20T17:42:40Z"
+        "number": 126790,
+        "title": "fix(agents): bind the gateway instance for heartbeat-spawned and visible subagents",
+        "url": "https://github.com/openclaw/openclaw/pull/126790",
+        "state": "open",
+        "author": "zeroaltitude",
+        "updatedAt": "2026-08-20T18:56:48Z"
       }
     ]
   }

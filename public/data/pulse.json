@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-20T07:04:41.476Z",
+  "generatedAt": "2026-08-20T08:54:52.170Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -581,17 +581,17 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "capturedAt": "2026-08-20T07:04:41.476Z",
-      "issueOpen": 3510,
-      "issueClosed": 44142,
-      "prOpen": 2295,
-      "prClosed": 74101,
-      "prMerged": 26449,
+      "capturedAt": "2026-08-20T08:54:52.170Z",
+      "issueOpen": 3505,
+      "issueClosed": 44158,
+      "prOpen": 2284,
+      "prClosed": 74143,
+      "prMerged": 26485,
       "workflowRuns": 40000,
-      "stars": 386829,
-      "forks": 81262,
+      "stars": 386842,
+      "forks": 81265,
       "subscribers": 1758,
-      "commits": 80925,
+      "commits": 80962,
       "contributors": 3112,
       "source": "github-actions",
       "approximateDate": false
@@ -768,10 +768,10 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "stars": 386829,
-      "forks": 81262,
+      "stars": 386842,
+      "forks": 81265,
       "subscribers": 1758,
-      "commits": 80925,
+      "commits": 80962,
       "contributors": 3112
     }
   ],
@@ -779,113 +779,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 119361,
-        "title": "[Feature]: Support Windows Logbook screen capture",
-        "url": "https://github.com/openclaw/openclaw/issues/119361",
+        "number": 126598,
+        "title": "[Bug]: Safeguard never sees overflow because max_completion_tokens clamp uses configured contextTokens, not the model's real window",
+        "url": "https://github.com/openclaw/openclaw/issues/126598",
         "state": "open",
-        "author": "rodrigo-fonseca-oliveira",
-        "updatedAt": "2026-08-20T07:04:33Z"
+        "author": "eightHundreds",
+        "updatedAt": "2026-08-20T08:54:46Z"
       },
       {
         "kind": "issue",
-        "number": 119282,
-        "title": "imsg rpc stderr still blanket-logged at ERROR — #79610 closed as completed but its fix PR #79760 never merged",
-        "url": "https://github.com/openclaw/openclaw/issues/119282",
+        "number": 126400,
+        "title": "failTurn() logs error=Error and omits runId — turn failures are neither diagnosable nor correlatable",
+        "url": "https://github.com/openclaw/openclaw/issues/126400",
         "state": "open",
-        "author": "prashantkamani",
-        "updatedAt": "2026-08-20T07:04:31Z"
+        "author": "bnello2021",
+        "updatedAt": "2026-08-20T08:53:16Z"
       },
       {
         "kind": "issue",
-        "number": 14785,
-        "title": "Reduce tool schema token overhead (~3,500 tok/session)",
-        "url": "https://github.com/openclaw/openclaw/issues/14785",
+        "number": 53628,
+        "title": "[Bug]: ${XDG_CONFIG_HOME} is not process when installing a skill",
+        "url": "https://github.com/openclaw/openclaw/issues/53628",
         "state": "open",
-        "author": "seans-openclawbot",
-        "updatedAt": "2026-08-20T07:04:31Z"
+        "author": "Devattom",
+        "updatedAt": "2026-08-20T08:52:56Z"
       },
       {
         "kind": "issue",
-        "number": 119241,
-        "title": "Feature Request: Expandable or Fullscreen Prompt Composer",
-        "url": "https://github.com/openclaw/openclaw/issues/119241",
+        "number": 47910,
+        "title": "feat: provider fallback by failure class — quarantine auth-broken providers",
+        "url": "https://github.com/openclaw/openclaw/issues/47910",
         "state": "open",
-        "author": "Leonardgoz",
-        "updatedAt": "2026-08-20T07:04:30Z"
+        "author": "issaba1",
+        "updatedAt": "2026-08-20T08:52:48Z"
       },
       {
         "kind": "issue",
-        "number": 10142,
-        "title": "Feature: session:end internal hook event",
-        "url": "https://github.com/openclaw/openclaw/issues/10142",
+        "number": 95840,
+        "title": "contextPruning (mode: cache-ttl) never fires on OpenAI models: isCacheTtlEligibleProvider excludes OpenAI, so the idle-gap tool-result firebreak is dead for the highest-volume provider",
+        "url": "https://github.com/openclaw/openclaw/issues/95840",
         "state": "open",
-        "author": "spk-alex",
-        "updatedAt": "2026-08-20T07:04:30Z"
+        "author": "aleps001",
+        "updatedAt": "2026-08-20T08:52:43Z"
       },
       {
         "kind": "issue",
-        "number": 119255,
-        "title": "[Feature]: Bring completed-turn \"Worked for X\" rollups to native Apple chat",
-        "url": "https://github.com/openclaw/openclaw/issues/119255",
+        "number": 119751,
+        "title": "`openclaw agent exec --isolated` and `--auth-env-only` can never run: both discard the roster by design, and `resolveRunWorkspaceDir` refuses the implicit-agent config the rest of agent-scope-config supports",
+        "url": "https://github.com/openclaw/openclaw/issues/119751",
         "state": "open",
-        "author": "CBruney",
-        "updatedAt": "2026-08-20T07:04:29Z"
+        "author": "abacha",
+        "updatedAt": "2026-08-20T08:52:40Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 124519,
-        "title": "fix(status): stop Gateway status from blocking on static catalog discovery",
-        "url": "https://github.com/openclaw/openclaw/pull/124519",
-        "state": "open",
-        "author": "ragesaq",
-        "updatedAt": "2026-08-20T07:04:33Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114492,
-        "title": "fix: honor bundled channel activation contracts",
-        "url": "https://github.com/openclaw/openclaw/pull/114492",
+        "number": 126608,
+        "title": "fix(gateway): preserve agent owner for live events",
+        "url": "https://github.com/openclaw/openclaw/pull/126608",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-20T07:04:31Z"
+        "updatedAt": "2026-08-20T08:54:48Z"
       },
       {
         "kind": "pr",
-        "number": 126567,
-        "title": "fix(ui): keep sidebar icon endcap intact in single-line session rows",
-        "url": "https://github.com/openclaw/openclaw/pull/126567",
+        "number": 126609,
+        "title": "fix(nodes): preserve node inventory failures",
+        "url": "https://github.com/openclaw/openclaw/pull/126609",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-20T07:04:30Z"
+        "updatedAt": "2026-08-20T08:54:46Z"
       },
       {
         "kind": "pr",
-        "number": 114576,
-        "title": "fix(ui): keep active preambles visible when opening sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/114576",
+        "number": 109074,
+        "title": "fix(tts): bound response body read with timeout in OpenAI-compatible providers",
+        "url": "https://github.com/openclaw/openclaw/pull/109074",
         "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-20T07:04:30Z"
+        "author": "lsr911",
+        "updatedAt": "2026-08-20T08:54:29Z"
       },
       {
         "kind": "pr",
-        "number": 113894,
-        "title": "fix(ui): restore automatic agent fast-mode settings",
-        "url": "https://github.com/openclaw/openclaw/pull/113894",
+        "number": 124288,
+        "title": "fix(models): classify catalog timeouts by identity",
+        "url": "https://github.com/openclaw/openclaw/pull/124288",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-20T07:04:29Z"
+        "author": "jjjhenriksen",
+        "updatedAt": "2026-08-20T08:54:24Z"
       },
       {
         "kind": "pr",
-        "number": 115119,
-        "title": "fix(workboard): unassigned cards fail to dispatch a worker",
-        "url": "https://github.com/openclaw/openclaw/pull/115119",
+        "number": 123078,
+        "title": "build(deps): bump the swift-deps group across 1 directory with 3 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/123078",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-20T07:04:28Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-20T08:54:13Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117712,
+        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/117712",
+        "state": "open",
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-20T08:54:08Z"
       }
     ]
   }

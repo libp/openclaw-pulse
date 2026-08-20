@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-20T13:57:54.891Z",
+  "generatedAt": "2026-08-20T14:53:35.247Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -581,17 +581,17 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "capturedAt": "2026-08-20T13:57:54.891Z",
-      "issueOpen": 3514,
-      "issueClosed": 44179,
-      "prOpen": 2289,
-      "prClosed": 74185,
-      "prMerged": 26522,
+      "capturedAt": "2026-08-20T14:53:35.247Z",
+      "issueOpen": 3517,
+      "issueClosed": 44181,
+      "prOpen": 2281,
+      "prClosed": 74196,
+      "prMerged": 26528,
       "workflowRuns": 40000,
       "stars": 386891,
-      "forks": 81274,
-      "subscribers": 1759,
-      "commits": 80999,
+      "forks": 81270,
+      "subscribers": 1760,
+      "commits": 81005,
       "contributors": 3113,
       "source": "github-actions",
       "approximateDate": false
@@ -769,9 +769,9 @@
     {
       "capturedOn": "2026-08-20",
       "stars": 386891,
-      "forks": 81274,
-      "subscribers": 1759,
-      "commits": 80999,
+      "forks": 81270,
+      "subscribers": 1760,
+      "commits": 81005,
       "contributors": 3113
     }
   ],
@@ -779,104 +779,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 123596,
-        "title": "[Bug]: Slow openclaw_agent_consult reply arrives after OpenAI Realtime turn already errored — voice hears \"no reply\", text session has the answer",
-        "url": "https://github.com/openclaw/openclaw/issues/123596",
+        "number": 120207,
+        "title": "[Bug]: claude-cli live session discards accumulated turn output on abort — failTurn never reads streamingParser.getOutput(), so aborted turns produce no assistant text",
+        "url": "https://github.com/openclaw/openclaw/issues/120207",
         "state": "open",
-        "author": "PaulD-LeWagon",
-        "updatedAt": "2026-08-20T13:57:30Z"
+        "author": "dito-fm",
+        "updatedAt": "2026-08-20T14:53:25Z"
       },
       {
         "kind": "issue",
-        "number": 72527,
-        "title": "[Bug]: Downgrading from 2026.4.x to 2026.3.2 leaves openclaw.json in invalid/broken state with no warning",
-        "url": "https://github.com/openclaw/openclaw/issues/72527",
+        "number": 126694,
+        "title": "Docs feedback: /install",
+        "url": "https://github.com/openclaw/openclaw/issues/126694",
         "state": "open",
-        "author": "Schlaflied",
-        "updatedAt": "2026-08-20T13:56:58Z"
+        "author": "phehellonthoana-dev",
+        "updatedAt": "2026-08-20T14:52:59Z"
       },
       {
         "kind": "issue",
-        "number": 44734,
-        "title": "[Bug]: Memory Multimodal Indexing - Gemini API rejects OGG/Opus audio files",
-        "url": "https://github.com/openclaw/openclaw/issues/44734",
+        "number": 124177,
+        "title": "Codex app-server strips OpenClaw `read` on container sandbox backends; #83667 only restored ssh",
+        "url": "https://github.com/openclaw/openclaw/issues/124177",
         "state": "open",
-        "author": "olmirr",
-        "updatedAt": "2026-08-20T13:56:57Z"
+        "author": "AdminExcellenc3",
+        "updatedAt": "2026-08-20T14:52:47Z"
       },
       {
         "kind": "issue",
-        "number": 53628,
-        "title": "[Bug]: ${XDG_CONFIG_HOME} is not process when installing a skill",
-        "url": "https://github.com/openclaw/openclaw/issues/53628",
+        "number": 125980,
+        "title": "[Bug]: Restart-recovery CAS conflict strands channel session; watchdog no-ops on no_active_work",
+        "url": "https://github.com/openclaw/openclaw/issues/125980",
         "state": "open",
-        "author": "Devattom",
-        "updatedAt": "2026-08-20T13:56:49Z"
+        "author": "PollyBot13",
+        "updatedAt": "2026-08-20T14:52:46Z"
       },
       {
         "kind": "issue",
-        "number": 47910,
-        "title": "feat: provider fallback by failure class — quarantine auth-broken providers",
-        "url": "https://github.com/openclaw/openclaw/issues/47910",
+        "number": 126693,
+        "title": "[Bug]: background process ordering drops newest sessions and flips after completion",
+        "url": "https://github.com/openclaw/openclaw/issues/126693",
         "state": "open",
-        "author": "issaba1",
-        "updatedAt": "2026-08-20T13:56:39Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119751,
-        "title": "`openclaw agent exec --isolated` and `--auth-env-only` can never run: both discard the roster by design, and `resolveRunWorkspaceDir` refuses the implicit-agent config the rest of agent-scope-config supports",
-        "url": "https://github.com/openclaw/openclaw/issues/119751",
-        "state": "open",
-        "author": "abacha",
-        "updatedAt": "2026-08-20T13:56:29Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-20T14:52:40Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126534,
-        "title": "feat(ui): manage automation condition triggers",
-        "url": "https://github.com/openclaw/openclaw/pull/126534",
+        "number": 114466,
+        "title": "fix(discord): strip internal runtime context",
+        "url": "https://github.com/openclaw/openclaw/pull/114466",
         "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-20T13:57:49Z"
+        "author": "Alix-007",
+        "updatedAt": "2026-08-20T14:53:22Z"
       },
       {
         "kind": "pr",
-        "number": 91237,
-        "title": "fix(providers/openrouter): treat OpenRouter (URL + default route) as long-TTL-eligible for Anthropic cache_control",
-        "url": "https://github.com/openclaw/openclaw/pull/91237",
+        "number": 126537,
+        "title": "fix(agent-core): preserve accepted handoff in tool settlement catches",
+        "url": "https://github.com/openclaw/openclaw/pull/126537",
         "state": "open",
-        "author": "Bartok9",
-        "updatedAt": "2026-08-20T13:57:40Z"
+        "author": "wangyan2026",
+        "updatedAt": "2026-08-20T14:53:12Z"
       },
       {
         "kind": "pr",
-        "number": 114983,
-        "title": "fix(doctor): doctor --fix fails to persist when legacy models map has a bare provider key",
-        "url": "https://github.com/openclaw/openclaw/pull/114983",
+        "number": 126424,
+        "title": "fix(gateway): keep conversation delivery within agent bindings",
+        "url": "https://github.com/openclaw/openclaw/pull/126424",
         "state": "open",
-        "author": "synthalorian",
-        "updatedAt": "2026-08-20T13:57:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126684,
-        "title": "fix(sessions): strip runtime-only resolvedSkills from SQLite entry_json",
-        "url": "https://github.com/openclaw/openclaw/pull/126684",
-        "state": "open",
-        "author": "ruel225",
-        "updatedAt": "2026-08-20T13:57:34Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126618,
-        "title": "fix: Tool Search directory/tools wrap native read/exec in tool_call",
-        "url": "https://github.com/openclaw/openclaw/pull/126618",
-        "state": "open",
-        "author": "RaviTharuma",
-        "updatedAt": "2026-08-20T13:57:49Z"
+        "author": "joshavant",
+        "updatedAt": "2026-08-20T14:53:08Z"
       },
       {
         "kind": "pr",
@@ -885,7 +858,25 @@
         "url": "https://github.com/openclaw/openclaw/pull/123535",
         "state": "open",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-20T13:57:11Z"
+        "updatedAt": "2026-08-20T14:53:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119341,
+        "title": "feat(system-agent): present generic QR setup steps",
+        "url": "https://github.com/openclaw/openclaw/pull/119341",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-20T14:52:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126614,
+        "title": "chore(ui): refresh control ui locales",
+        "url": "https://github.com/openclaw/openclaw/pull/126614",
+        "state": "open",
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-08-20T14:51:47Z"
       }
     ]
   }

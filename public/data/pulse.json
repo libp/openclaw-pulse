@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-20T04:51:30.896Z",
+  "generatedAt": "2026-08-20T05:44:54.389Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -581,17 +581,17 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "capturedAt": "2026-08-20T04:51:30.896Z",
-      "issueOpen": 3511,
-      "issueClosed": 44137,
-      "prOpen": 2289,
-      "prClosed": 74084,
-      "prMerged": 26436,
+      "capturedAt": "2026-08-20T05:44:54.389Z",
+      "issueOpen": 3510,
+      "issueClosed": 44140,
+      "prOpen": 2292,
+      "prClosed": 74091,
+      "prMerged": 26441,
       "workflowRuns": 40000,
-      "stars": 386818,
-      "forks": 81262,
+      "stars": 386822,
+      "forks": 81261,
       "subscribers": 1757,
-      "commits": 80910,
+      "commits": 80915,
       "contributors": 3112,
       "source": "github-actions",
       "approximateDate": false
@@ -768,10 +768,10 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "stars": 386818,
-      "forks": 81262,
+      "stars": 386822,
+      "forks": 81261,
       "subscribers": 1757,
-      "commits": 80910,
+      "commits": 80915,
       "contributors": 3112
     }
   ],
@@ -779,39 +779,30 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 79859,
-        "title": "feat(tui): add recording-friendly quiet status mode",
-        "url": "https://github.com/openclaw/openclaw/issues/79859",
+        "number": 119454,
+        "title": "Stuck-session recovery self-suppresses on a leaked idle embedded run: repeated action=observe_only reason=active_embedded_run wedges the lane until restart",
+        "url": "https://github.com/openclaw/openclaw/issues/119454",
         "state": "open",
-        "author": "toruvieI",
-        "updatedAt": "2026-08-20T04:51:19Z"
+        "author": "joeykrug",
+        "updatedAt": "2026-08-20T05:44:41Z"
       },
       {
         "kind": "issue",
-        "number": 82089,
-        "title": "Feature: Telegram temporary tool-progress previews with final native quote replies",
-        "url": "https://github.com/openclaw/openclaw/issues/82089",
+        "number": 115478,
+        "title": "WeChat plugin (@tencent-weixin/openclaw-weixin 2.4.6) fails to load: missing openclaw/plugin-sdk/channel-runtime export",
+        "url": "https://github.com/openclaw/openclaw/issues/115478",
         "state": "open",
-        "author": "alexph-dev",
-        "updatedAt": "2026-08-20T04:51:05Z"
+        "author": "QQSHI13",
+        "updatedAt": "2026-08-20T05:44:40Z"
       },
       {
         "kind": "issue",
-        "number": 77733,
-        "title": "[Bug]: Bare `/new` and `/reset` no longer trigger the persona greeting in 2026.5.3 (regression vs 4.x)**",
-        "url": "https://github.com/openclaw/openclaw/issues/77733",
+        "number": 116360,
+        "title": "[Feature]: no event for workboard card status changes - hook bus has no workboard events, notification kinds limited to completed|failed|stale",
+        "url": "https://github.com/openclaw/openclaw/issues/116360",
         "state": "open",
-        "author": "jw8957",
-        "updatedAt": "2026-08-20T04:51:04Z"
-      },
-      {
-        "kind": "issue",
-        "number": 80621,
-        "title": "Plugin loaded but registerTool fails — \"plugin must declare contracts.tools\"",
-        "url": "https://github.com/openclaw/openclaw/issues/80621",
-        "state": "open",
-        "author": "qiaoyuhub413",
-        "updatedAt": "2026-08-20T04:51:02Z"
+        "author": "sergei-ivanisenko",
+        "updatedAt": "2026-08-20T05:44:38Z"
       },
       {
         "kind": "issue",
@@ -820,63 +811,81 @@
         "url": "https://github.com/openclaw/openclaw/issues/95840",
         "state": "open",
         "author": "aleps001",
-        "updatedAt": "2026-08-20T04:48:44Z"
+        "updatedAt": "2026-08-20T05:44:35Z"
+      },
+      {
+        "kind": "issue",
+        "number": 124751,
+        "title": "[Bug]: iOS app duplicates assistant replies at the bottom and does not auto-scroll to latest message",
+        "url": "https://github.com/openclaw/openclaw/issues/124751",
+        "state": "open",
+        "author": "VirPoe",
+        "updatedAt": "2026-08-20T05:44:34Z"
+      },
+      {
+        "kind": "issue",
+        "number": 116452,
+        "title": "Isolated cron sessions cannot execute shell commands",
+        "url": "https://github.com/openclaw/openclaw/issues/116452",
+        "state": "open",
+        "author": "Allonz",
+        "updatedAt": "2026-08-20T05:44:27Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-20T04:51:05Z"
+        "number": 118960,
+        "title": "fix(gateway): route system-agent approvals off the exec channel bus",
+        "url": "https://github.com/openclaw/openclaw/pull/118960",
+        "state": "open",
+        "author": "harjothkhara",
+        "updatedAt": "2026-08-20T05:44:48Z"
       },
       {
         "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "number": 88121,
+        "title": "Lower profile tool policy filter audit logs",
+        "url": "https://github.com/openclaw/openclaw/pull/88121",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-20T04:51:02Z"
+        "author": "sjf",
+        "updatedAt": "2026-08-20T05:44:45Z"
       },
       {
         "kind": "pr",
-        "number": 126501,
-        "title": "feat: let /v1/responses callers set a delivery target so subagent completions can be delivered",
-        "url": "https://github.com/openclaw/openclaw/pull/126501",
+        "number": 87793,
+        "title": "fix(codex): clarify unsafe app-server completion stalls",
+        "url": "https://github.com/openclaw/openclaw/pull/87793",
         "state": "open",
-        "author": "alexeysophia",
-        "updatedAt": "2026-08-20T04:50:44Z"
+        "author": "slatem",
+        "updatedAt": "2026-08-20T05:44:37Z"
       },
       {
         "kind": "pr",
-        "number": 123356,
-        "title": "improve(control-ui): stage slash command arguments in the composer",
-        "url": "https://github.com/openclaw/openclaw/pull/123356",
+        "number": 111586,
+        "title": "fix(gateway): bound TLS cert/key file reads with size limit",
+        "url": "https://github.com/openclaw/openclaw/pull/111586",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-20T04:50:44Z"
+        "author": "zhanxingxin1998",
+        "updatedAt": "2026-08-20T05:44:29Z"
       },
       {
         "kind": "pr",
-        "number": 118169,
-        "title": "feat(signal): link first account from setup QR",
-        "url": "https://github.com/openclaw/openclaw/pull/118169",
+        "number": 110561,
+        "title": "fix(sqlite): normalize BLOB/TEXT type mismatches during STRICT migration",
+        "url": "https://github.com/openclaw/openclaw/pull/110561",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-20T04:50:34Z"
+        "author": "wangyan2026",
+        "updatedAt": "2026-08-20T05:44:29Z"
       },
       {
         "kind": "pr",
-        "number": 126220,
-        "title": "feat(qa): run the Mantis Telegram lane on the prebaked desktop",
-        "url": "https://github.com/openclaw/openclaw/pull/126220",
+        "number": 126259,
+        "title": "fix: explicit Codex runtime policies reach embedded attempts",
+        "url": "https://github.com/openclaw/openclaw/pull/126259",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-08-20T04:50:32Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-20T05:44:24Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-20T21:41:54.021Z",
+  "generatedAt": "2026-08-20T22:43:36.491Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -581,17 +581,17 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "capturedAt": "2026-08-20T21:41:54.021Z",
-      "issueOpen": 3535,
-      "issueClosed": 44205,
-      "prOpen": 2284,
-      "prClosed": 74301,
-      "prMerged": 26634,
+      "capturedAt": "2026-08-20T22:43:36.491Z",
+      "issueOpen": 3529,
+      "issueClosed": 44213,
+      "prOpen": 2286,
+      "prClosed": 74312,
+      "prMerged": 26644,
       "workflowRuns": 40000,
-      "stars": 386905,
-      "forks": 81276,
+      "stars": 386909,
+      "forks": 81277,
       "subscribers": 1761,
-      "commits": 81111,
+      "commits": 81120,
       "contributors": 3114,
       "source": "github-actions",
       "approximateDate": false
@@ -768,10 +768,10 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "stars": 386905,
-      "forks": 81276,
+      "stars": 386909,
+      "forks": 81277,
       "subscribers": 1761,
-      "commits": 81111,
+      "commits": 81120,
       "contributors": 3114
     }
   ],
@@ -779,86 +779,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 121252,
-        "title": "[bug] buzz plugin - Enabling Buzz channel breaks inbound reply resolution for all non-Buzz channels",
-        "url": "https://github.com/openclaw/openclaw/issues/121252",
+        "number": 126533,
+        "title": "Drop MESSAGE_CREATE event when receiving-bot-account has isDefault=true AND a more-specific-scoped binding matches for the target channel",
+        "url": "https://github.com/openclaw/openclaw/issues/126533",
         "state": "open",
-        "author": "arividar",
-        "updatedAt": "2026-08-20T21:41:11Z"
+        "author": "hedwig-lgtm",
+        "updatedAt": "2026-08-20T22:43:13Z"
       },
       {
         "kind": "issue",
-        "number": 126246,
-        "title": "[Bug]: Telegram durable outbound deliveries remain stuck in send_attempt_started and are lost on restart",
-        "url": "https://github.com/openclaw/openclaw/issues/126246",
+        "number": 126532,
+        "title": "[Feature]: web界面网关日志添加查看历史日志的功能",
+        "url": "https://github.com/openclaw/openclaw/issues/126532",
         "state": "open",
-        "author": "MAG-Linares-Andalucia",
-        "updatedAt": "2026-08-20T21:41:00Z"
+        "author": "whl1997-an",
+        "updatedAt": "2026-08-20T22:43:12Z"
       },
       {
         "kind": "issue",
-        "number": 35799,
-        "title": "[Feature] Prime-number default scheduling for HEARTBEAT / cron “every” + deterministic per-agent phase jitter (anti top-of-hour spikes)",
-        "url": "https://github.com/openclaw/openclaw/issues/35799",
+        "number": 124873,
+        "title": "[Bug]: Buzz agent replies nest progressively inside existing threads",
+        "url": "https://github.com/openclaw/openclaw/issues/124873",
         "state": "open",
-        "author": "newtontech",
-        "updatedAt": "2026-08-20T21:40:06Z"
+        "author": "LeahArmstrong",
+        "updatedAt": "2026-08-20T22:43:10Z"
+      },
+      {
+        "kind": "issue",
+        "number": 124220,
+        "title": "[Bug]: `sessions_spawn` hard-blocked at admission (`tool_blocked`, never dispatched) for a messaging-profile agent — regression between 2026.7.2-beta.4 and beta.7",
+        "url": "https://github.com/openclaw/openclaw/issues/124220",
+        "state": "open",
+        "author": "migelizaga-rgb",
+        "updatedAt": "2026-08-20T22:43:09Z"
+      },
+      {
+        "kind": "issue",
+        "number": 125059,
+        "title": "[Feature]: Android sidebar session grouping and show-more",
+        "url": "https://github.com/openclaw/openclaw/issues/125059",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-20T22:43:07Z"
+      },
+      {
+        "kind": "issue",
+        "number": 124524,
+        "title": "sessions list misreports archive state and effective runtime",
+        "url": "https://github.com/openclaw/openclaw/issues/124524",
+        "state": "open",
+        "author": "woodym-dotcom",
+        "updatedAt": "2026-08-20T22:43:07Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 116511,
-        "title": "fix(agents): skip repeated workspace bootstrap on continuation turns",
-        "url": "https://github.com/openclaw/openclaw/pull/116511",
-        "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-08-20T21:41:48Z"
+        "number": 126867,
+        "title": "fix(plugins): refresh WhatsApp runtime after plugin replacement",
+        "url": "https://github.com/openclaw/openclaw/pull/126867",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-20T22:43:25Z"
       },
       {
         "kind": "pr",
-        "number": 126853,
-        "title": "fix(agents): heartbeat runs no longer block visible turns",
-        "url": "https://github.com/openclaw/openclaw/pull/126853",
+        "number": 123356,
+        "title": "improve(control-ui): stage slash command arguments in the composer",
+        "url": "https://github.com/openclaw/openclaw/pull/123356",
         "state": "open",
-        "author": "jason-allen-oneal",
-        "updatedAt": "2026-08-20T21:41:45Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-20T22:43:15Z"
       },
       {
         "kind": "pr",
-        "number": 126313,
-        "title": "feat(talk): add configurable idle timeout for Talk mode sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/126313",
+        "number": 126721,
+        "title": "fix(qa): wait for config restart wake completion",
+        "url": "https://github.com/openclaw/openclaw/pull/126721",
         "state": "open",
-        "author": "jimcadden",
-        "updatedAt": "2026-08-20T21:41:27Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-20T22:43:13Z"
       },
       {
         "kind": "pr",
-        "number": 122300,
-        "title": "fix(control-ui): keep usable multi-profile providers ready",
-        "url": "https://github.com/openclaw/openclaw/pull/122300",
+        "number": 126556,
+        "title": "fix(exec): prevent zsh literal expansion failures",
+        "url": "https://github.com/openclaw/openclaw/pull/126556",
         "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-08-20T21:41:23Z"
+        "author": "bilzeng",
+        "updatedAt": "2026-08-20T22:42:56Z"
       },
       {
         "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "number": 118499,
+        "title": "macOS: add realtime Gateway-relay Talk support",
+        "url": "https://github.com/openclaw/openclaw/pull/118499",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-20T21:41:13Z"
+        "author": "zhilong1115",
+        "updatedAt": "2026-08-20T22:42:53Z"
       },
       {
         "kind": "pr",
-        "number": 126618,
-        "title": "fix: Tool Search directory/tools wrap native read/exec in tool_call",
-        "url": "https://github.com/openclaw/openclaw/pull/126618",
+        "number": 109973,
+        "title": "fix(acp): defer session snapshot update after newSession/resumeSession result",
+        "url": "https://github.com/openclaw/openclaw/pull/109973",
         "state": "open",
-        "author": "RaviTharuma",
-        "updatedAt": "2026-08-20T21:41:08Z"
+        "author": "xydt-tanshanshan",
+        "updatedAt": "2026-08-20T22:41:25Z"
       }
     ]
   }

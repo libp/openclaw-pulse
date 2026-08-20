@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-20T03:09:20.181Z",
+  "generatedAt": "2026-08-20T03:56:50.187Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -581,17 +581,17 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "capturedAt": "2026-08-20T03:09:20.181Z",
-      "issueOpen": 3507,
-      "issueClosed": 44132,
-      "prOpen": 2289,
-      "prClosed": 74073,
-      "prMerged": 26427,
+      "capturedAt": "2026-08-20T03:56:50.187Z",
+      "issueOpen": 3512,
+      "issueClosed": 44135,
+      "prOpen": 2290,
+      "prClosed": 74078,
+      "prMerged": 26430,
       "workflowRuns": 40000,
-      "stars": 386808,
+      "stars": 386815,
       "forks": 81262,
       "subscribers": 1757,
-      "commits": 80900,
+      "commits": 80904,
       "contributors": 3112,
       "source": "github-actions",
       "approximateDate": false
@@ -768,10 +768,10 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "stars": 386808,
+      "stars": 386815,
       "forks": 81262,
       "subscribers": 1757,
-      "commits": 80900,
+      "commits": 80904,
       "contributors": 3112
     }
   ],
@@ -779,113 +779,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 79611,
-        "title": "active-memory plugin: pins to one provider, no failover; timeout shorter than provider latency causes silent drops",
-        "url": "https://github.com/openclaw/openclaw/issues/79611",
+        "number": 126533,
+        "title": "Drop MESSAGE_CREATE event when receiving-bot-account has isDefault=true AND a more-specific-scoped binding matches for the target channel",
+        "url": "https://github.com/openclaw/openclaw/issues/126533",
         "state": "open",
-        "author": "wherewolf87",
-        "updatedAt": "2026-08-20T03:09:05Z"
-      },
-      {
-        "kind": "issue",
-        "number": 90361,
-        "title": "[Bug]:Intermittent memory_search \"index metadata is missing\" despite valid builtin memory index; likely search/reindex race. Locally hotfixed.",
-        "url": "https://github.com/openclaw/openclaw/issues/90361",
-        "state": "open",
-        "author": "AyitLabs",
-        "updatedAt": "2026-08-20T03:08:55Z"
-      },
-      {
-        "kind": "issue",
-        "number": 89511,
-        "title": "Gateway can crash with RangeError: Invalid string length during long-running turns, leaving sessions stuck without final reply",
-        "url": "https://github.com/openclaw/openclaw/issues/89511",
-        "state": "open",
-        "author": "Yuki-K-Forone",
-        "updatedAt": "2026-08-20T03:08:44Z"
-      },
-      {
-        "kind": "issue",
-        "number": 94747,
-        "title": "Discord channel mention can end as non_deliverable_terminal_turn with no message.send and no visible reply",
-        "url": "https://github.com/openclaw/openclaw/issues/94747",
-        "state": "open",
-        "author": "fanyangCS",
-        "updatedAt": "2026-08-20T03:08:34Z"
-      },
-      {
-        "kind": "issue",
-        "number": 97341,
-        "title": "Slack per-thread context customization and isolation",
-        "url": "https://github.com/openclaw/openclaw/issues/97341",
-        "state": "open",
-        "author": "drodecker",
-        "updatedAt": "2026-08-20T03:08:23Z"
-      },
-      {
-        "kind": "issue",
-        "number": 83598,
-        "title": "[Bug]: anthropic:claude-cli OAuth refresh still dead-ends main lane in 2026.5.12 despite #73682 fix",
-        "url": "https://github.com/openclaw/openclaw/issues/83598",
-        "state": "open",
-        "author": "ChattanoogaDan",
-        "updatedAt": "2026-08-20T03:08:13Z"
+        "author": "hedwig-lgtm",
+        "updatedAt": "2026-08-20T03:55:19Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 121050,
-        "title": "fix(control-ui): retain webchat context for config restarts",
-        "url": "https://github.com/openclaw/openclaw/pull/121050",
+        "number": 121573,
+        "title": "fix(browser): bound Playwright CDP connection memory via max-age recycling",
+        "url": "https://github.com/openclaw/openclaw/pull/121573",
         "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-20T03:09:07Z"
+        "author": "turing-cto",
+        "updatedAt": "2026-08-20T03:56:44Z"
       },
       {
         "kind": "pr",
-        "number": 125979,
-        "title": "fix(memory): distinguish missing file reads",
-        "url": "https://github.com/openclaw/openclaw/pull/125979",
+        "number": 126527,
+        "title": "fix: keep ambient room events silent",
+        "url": "https://github.com/openclaw/openclaw/pull/126527",
         "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-20T03:08:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126220,
-        "title": "feat(qa): run the Mantis Telegram lane on the prebaked desktop",
-        "url": "https://github.com/openclaw/openclaw/pull/126220",
-        "state": "open",
         "author": "obviyus",
-        "updatedAt": "2026-08-20T03:08:48Z"
+        "updatedAt": "2026-08-20T03:56:43Z"
       },
       {
         "kind": "pr",
-        "number": 126303,
-        "title": "fix(ui): balance completed-work spacing",
-        "url": "https://github.com/openclaw/openclaw/pull/126303",
+        "number": 126518,
+        "title": "fix(llm-task): trust explicit provider for slash-containing model ids",
+        "url": "https://github.com/openclaw/openclaw/pull/126518",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-20T03:08:09Z"
+        "author": "ChrisCantwell",
+        "updatedAt": "2026-08-20T03:56:43Z"
       },
       {
         "kind": "pr",
-        "number": 126515,
-        "title": "fix: group onboarding agent imports",
-        "url": "https://github.com/openclaw/openclaw/pull/126515",
+        "number": 113548,
+        "title": "feat(agents): add warn-only usage budgets",
+        "url": "https://github.com/openclaw/openclaw/pull/113548",
         "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-08-20T03:07:58Z"
+        "author": "litang9",
+        "updatedAt": "2026-08-20T03:56:38Z"
       },
       {
         "kind": "pr",
-        "number": 122581,
-        "title": "fix(agents): keep shell compound commands readable",
-        "url": "https://github.com/openclaw/openclaw/pull/122581",
+        "number": 126530,
+        "title": "fix(memory): preserve requested corpus outcomes",
+        "url": "https://github.com/openclaw/openclaw/pull/126530",
         "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-08-20T03:07:36Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-20T03:56:34Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121487,
+        "title": "fix: large streaming tool calls stall the agent while arguments finish streaming",
+        "url": "https://github.com/openclaw/openclaw/pull/121487",
+        "state": "open",
+        "author": "nikhiljain-dot",
+        "updatedAt": "2026-08-20T03:56:30Z"
       }
     ]
   }

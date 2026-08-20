@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-20T09:49:00.818Z",
+  "generatedAt": "2026-08-20T10:45:34.000Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -581,17 +581,17 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "capturedAt": "2026-08-20T09:49:00.818Z",
-      "issueOpen": 3504,
-      "issueClosed": 44162,
-      "prOpen": 2290,
-      "prClosed": 74152,
-      "prMerged": 26493,
+      "capturedAt": "2026-08-20T10:45:34.000Z",
+      "issueOpen": 3507,
+      "issueClosed": 44165,
+      "prOpen": 2283,
+      "prClosed": 74164,
+      "prMerged": 26502,
       "workflowRuns": 40000,
-      "stars": 386854,
-      "forks": 81266,
+      "stars": 386861,
+      "forks": 81270,
       "subscribers": 1759,
-      "commits": 80970,
+      "commits": 80979,
       "contributors": 3113,
       "source": "github-actions",
       "approximateDate": false
@@ -768,10 +768,10 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "stars": 386854,
-      "forks": 81266,
+      "stars": 386861,
+      "forks": 81270,
       "subscribers": 1759,
-      "commits": 80970,
+      "commits": 80979,
       "contributors": 3113
     }
   ],
@@ -779,30 +779,21 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 119079,
-        "title": "[Bug]: Talk realtime transcript persistence fails on STRICT session store — cannot store REAL value in INTEGER column session_nodes.updated_at (beta.6 + beta.7)",
-        "url": "https://github.com/openclaw/openclaw/issues/119079",
+        "number": 124247,
+        "title": "[Feature]: Add a safe concise summary to Telegram exec approval cards",
+        "url": "https://github.com/openclaw/openclaw/issues/124247",
         "state": "open",
-        "author": "vmanuelort-sys",
-        "updatedAt": "2026-08-20T09:48:49Z"
+        "author": "nirhau",
+        "updatedAt": "2026-08-20T10:45:11Z"
       },
       {
         "kind": "issue",
-        "number": 119161,
-        "title": "[Bug]: pending final cleared when a payload failed before delivery alongside a block-deduped payload",
-        "url": "https://github.com/openclaw/openclaw/issues/119161",
+        "number": 95840,
+        "title": "contextPruning (mode: cache-ttl) never fires on OpenAI models: isCacheTtlEligibleProvider excludes OpenAI, so the idle-gap tool-result firebreak is dead for the highest-volume provider",
+        "url": "https://github.com/openclaw/openclaw/issues/95840",
         "state": "open",
-        "author": "ruel225",
-        "updatedAt": "2026-08-20T09:48:57Z"
-      },
-      {
-        "kind": "issue",
-        "number": 118999,
-        "title": "[Feature]: Bind native Codex Realtime V3 voice to existing sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/118999",
-        "state": "open",
-        "author": "GoatInAHat",
-        "updatedAt": "2026-08-20T09:48:44Z"
+        "author": "aleps001",
+        "updatedAt": "2026-08-20T10:44:49Z"
       },
       {
         "kind": "issue",
@@ -811,72 +802,63 @@
         "url": "https://github.com/openclaw/openclaw/issues/113326",
         "state": "open",
         "author": "brunocaetano-ia",
-        "updatedAt": "2026-08-20T09:47:24Z"
-      },
-      {
-        "kind": "issue",
-        "number": 123799,
-        "title": "Need safe upgrade/backport guidance for production affected by Codex compact 404 on 2026.5.12",
-        "url": "https://github.com/openclaw/openclaw/issues/123799",
-        "state": "open",
-        "author": "FlaviaDyckerhoff",
-        "updatedAt": "2026-08-20T09:46:37Z"
+        "updatedAt": "2026-08-20T10:43:22Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126608,
-        "title": "fix(gateway): preserve agent owner for live events",
-        "url": "https://github.com/openclaw/openclaw/pull/126608",
+        "number": 126618,
+        "title": "fix: Tool Search directory/tools wrap native read/exec in tool_call",
+        "url": "https://github.com/openclaw/openclaw/pull/126618",
+        "state": "open",
+        "author": "RaviTharuma",
+        "updatedAt": "2026-08-20T10:45:08Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126366,
+        "title": "fix(apple): honor authoritative session routing",
+        "url": "https://github.com/openclaw/openclaw/pull/126366",
+        "state": "open",
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-20T10:44:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126630,
+        "title": "perf(agents): reuse gateway plugin generation for prepared model runtime",
+        "url": "https://github.com/openclaw/openclaw/pull/126630",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-20T09:48:53Z"
+        "updatedAt": "2026-08-20T10:44:13Z"
       },
       {
         "kind": "pr",
-        "number": 118830,
-        "title": "fix(media): preserve signed generation URLs across delivery retries",
-        "url": "https://github.com/openclaw/openclaw/pull/118830",
+        "number": 126316,
+        "title": "fix(protocol): expose authoritative session routing contract [AI-assisted]",
+        "url": "https://github.com/openclaw/openclaw/pull/126316",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-20T09:48:45Z"
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-20T10:44:06Z"
       },
       {
         "kind": "pr",
-        "number": 119040,
-        "title": "feat(cron): add wake-only payload",
-        "url": "https://github.com/openclaw/openclaw/pull/119040",
+        "number": 126145,
+        "title": "fix(cron): persist outbound route only after successful delivery",
+        "url": "https://github.com/openclaw/openclaw/pull/126145",
         "state": "open",
-        "author": "omarshahine",
-        "updatedAt": "2026-08-20T09:48:22Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-08-20T10:43:51Z"
       },
       {
         "kind": "pr",
-        "number": 126627,
-        "title": "fix(gateway): prevent stale plugin state after reload",
-        "url": "https://github.com/openclaw/openclaw/pull/126627",
+        "number": 125872,
+        "title": "fix(gateway): avoid session-store reads during streamed responses",
+        "url": "https://github.com/openclaw/openclaw/pull/125872",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-20T09:48:11Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126625,
-        "title": "fix(telegram): recognize current-source message targets",
-        "url": "https://github.com/openclaw/openclaw/pull/126625",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-08-20T09:47:51Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126626,
-        "title": "fix(agents): keep turns on their admitted plugin generation",
-        "url": "https://github.com/openclaw/openclaw/pull/126626",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-20T09:47:46Z"
+        "author": "goutamadwant",
+        "updatedAt": "2026-08-20T10:43:22Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-20T15:47:25.454Z",
+  "generatedAt": "2026-08-20T16:49:20.028Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -581,17 +581,17 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "capturedAt": "2026-08-20T15:47:25.454Z",
-      "issueOpen": 3514,
-      "issueClosed": 44187,
-      "prOpen": 2284,
-      "prClosed": 74216,
-      "prMerged": 26548,
+      "capturedAt": "2026-08-20T16:49:20.028Z",
+      "issueOpen": 3517,
+      "issueClosed": 44189,
+      "prOpen": 2283,
+      "prClosed": 74236,
+      "prMerged": 26565,
       "workflowRuns": 40000,
-      "stars": 386896,
-      "forks": 81268,
+      "stars": 386899,
+      "forks": 81270,
       "subscribers": 1760,
-      "commits": 81025,
+      "commits": 81042,
       "contributors": 3113,
       "source": "github-actions",
       "approximateDate": false
@@ -768,10 +768,10 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "stars": 386896,
-      "forks": 81268,
+      "stars": 386899,
+      "forks": 81270,
       "subscribers": 1760,
-      "commits": 81025,
+      "commits": 81042,
       "contributors": 3113
     }
   ],
@@ -779,68 +779,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 119547,
-        "title": "[Feature]: Detect Chrome extension version drift after upgrades",
-        "url": "https://github.com/openclaw/openclaw/issues/119547",
+        "number": 126659,
+        "title": "Android location.get ignores maxAgeMs when it falls back to a live fix request",
+        "url": "https://github.com/openclaw/openclaw/issues/126659",
         "state": "open",
-        "author": "johan-eilertsen",
-        "updatedAt": "2026-08-20T15:46:32Z"
+        "author": "fallenlibrarian",
+        "updatedAt": "2026-08-20T16:47:37Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126180,
-        "title": "fix(ui): recover queued follow-ups from settled runs",
-        "url": "https://github.com/openclaw/openclaw/pull/126180",
+        "number": 126284,
+        "title": "feat(sessions): recover offline device placements",
+        "url": "https://github.com/openclaw/openclaw/pull/126284",
         "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-20T15:47:14Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-20T16:48:51Z"
       },
       {
         "kind": "pr",
-        "number": 125049,
-        "title": "fix(plugins): guard malformed node payloadJSON in session catalog unwrap",
-        "url": "https://github.com/openclaw/openclaw/pull/125049",
+        "number": 126726,
+        "title": "fix(ui): session hovercards stop replaying unchanged PR status",
+        "url": "https://github.com/openclaw/openclaw/pull/126726",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-20T15:47:12Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-20T16:48:21Z"
       },
       {
         "kind": "pr",
-        "number": 91237,
-        "title": "fix(providers/openrouter): treat OpenRouter (URL + default route) as long-TTL-eligible for Anthropic cache_control",
-        "url": "https://github.com/openclaw/openclaw/pull/91237",
+        "number": 125323,
+        "title": "fix: Android Chat mic tap records a voice note when on-device dictation is unavailable",
+        "url": "https://github.com/openclaw/openclaw/pull/125323",
         "state": "open",
-        "author": "Bartok9",
-        "updatedAt": "2026-08-20T15:47:12Z"
+        "author": "RaviTharuma",
+        "updatedAt": "2026-08-20T16:48:15Z"
       },
       {
         "kind": "pr",
-        "number": 124434,
-        "title": "fix(media-understanding): omit implicit English audio prompt on language autodetect",
-        "url": "https://github.com/openclaw/openclaw/pull/124434",
+        "number": 126611,
+        "title": "fix: custom reasoning models truncate tool-call JSON at default 8192 maxTokens",
+        "url": "https://github.com/openclaw/openclaw/pull/126611",
         "state": "open",
-        "author": "synthalorian",
-        "updatedAt": "2026-08-20T15:47:05Z"
+        "author": "RaviTharuma",
+        "updatedAt": "2026-08-20T16:48:13Z"
       },
       {
         "kind": "pr",
-        "number": 126692,
-        "title": "fix(outbound): preserve selected plugin for target resolution",
-        "url": "https://github.com/openclaw/openclaw/pull/126692",
+        "number": 123535,
+        "title": "fix(ui): avoid session catalog refresh storms",
+        "url": "https://github.com/openclaw/openclaw/pull/123535",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-08-20T15:47:04Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
-        "state": "closed",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-20T15:47:02Z"
+        "updatedAt": "2026-08-20T16:48:13Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126725,
+        "title": "fix(plugin-sdk): prevent API diff string overflow",
+        "url": "https://github.com/openclaw/openclaw/pull/126725",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-20T16:48:12Z"
       }
     ]
   }

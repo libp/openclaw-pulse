@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-20T22:43:36.491Z",
+  "generatedAt": "2026-08-20T23:38:07.362Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -581,17 +581,17 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "capturedAt": "2026-08-20T22:43:36.491Z",
-      "issueOpen": 3529,
-      "issueClosed": 44213,
-      "prOpen": 2286,
-      "prClosed": 74312,
-      "prMerged": 26644,
+      "capturedAt": "2026-08-20T23:38:07.362Z",
+      "issueOpen": 3534,
+      "issueClosed": 44214,
+      "prOpen": 2287,
+      "prClosed": 74316,
+      "prMerged": 26648,
       "workflowRuns": 40000,
       "stars": 386909,
       "forks": 81277,
       "subscribers": 1761,
-      "commits": 81120,
+      "commits": 81124,
       "contributors": 3114,
       "source": "github-actions",
       "approximateDate": false
@@ -771,7 +771,7 @@
       "stars": 386909,
       "forks": 81277,
       "subscribers": 1761,
-      "commits": 81120,
+      "commits": 81124,
       "contributors": 3114
     }
   ],
@@ -779,86 +779,50 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 126533,
-        "title": "Drop MESSAGE_CREATE event when receiving-bot-account has isDefault=true AND a more-specific-scoped binding matches for the target channel",
-        "url": "https://github.com/openclaw/openclaw/issues/126533",
+        "number": 126879,
+        "title": "[Bug]: renamed trajectory archives (*.trajectory.jsonl.deleted.<ts>) slip into the session memory corpus — archive filename predicates lack a trajectory guard",
+        "url": "https://github.com/openclaw/openclaw/issues/126879",
         "state": "open",
-        "author": "hedwig-lgtm",
-        "updatedAt": "2026-08-20T22:43:13Z"
+        "author": "anyech",
+        "updatedAt": "2026-08-20T23:37:16Z"
       },
       {
         "kind": "issue",
-        "number": 126532,
-        "title": "[Feature]: web界面网关日志添加查看历史日志的功能",
-        "url": "https://github.com/openclaw/openclaw/issues/126532",
+        "number": 114102,
+        "title": "[Bug] Image attachment 6MB hard-coded limit cannot be configured; tools.media.image.maxBytes is protected",
+        "url": "https://github.com/openclaw/openclaw/issues/114102",
         "state": "open",
-        "author": "whl1997-an",
-        "updatedAt": "2026-08-20T22:43:12Z"
-      },
-      {
-        "kind": "issue",
-        "number": 124873,
-        "title": "[Bug]: Buzz agent replies nest progressively inside existing threads",
-        "url": "https://github.com/openclaw/openclaw/issues/124873",
-        "state": "open",
-        "author": "LeahArmstrong",
-        "updatedAt": "2026-08-20T22:43:10Z"
-      },
-      {
-        "kind": "issue",
-        "number": 124220,
-        "title": "[Bug]: `sessions_spawn` hard-blocked at admission (`tool_blocked`, never dispatched) for a messaging-profile agent — regression between 2026.7.2-beta.4 and beta.7",
-        "url": "https://github.com/openclaw/openclaw/issues/124220",
-        "state": "open",
-        "author": "migelizaga-rgb",
-        "updatedAt": "2026-08-20T22:43:09Z"
-      },
-      {
-        "kind": "issue",
-        "number": 125059,
-        "title": "[Feature]: Android sidebar session grouping and show-more",
-        "url": "https://github.com/openclaw/openclaw/issues/125059",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-20T22:43:07Z"
-      },
-      {
-        "kind": "issue",
-        "number": 124524,
-        "title": "sessions list misreports archive state and effective runtime",
-        "url": "https://github.com/openclaw/openclaw/issues/124524",
-        "state": "open",
-        "author": "woodym-dotcom",
-        "updatedAt": "2026-08-20T22:43:07Z"
+        "author": "woshicby",
+        "updatedAt": "2026-08-20T23:36:07Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126867,
-        "title": "fix(plugins): refresh WhatsApp runtime after plugin replacement",
-        "url": "https://github.com/openclaw/openclaw/pull/126867",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-20T22:43:25Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123356,
-        "title": "improve(control-ui): stage slash command arguments in the composer",
-        "url": "https://github.com/openclaw/openclaw/pull/123356",
+        "number": 117712,
+        "title": "chore(deps): bump the actions group across 1 directory with 10 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/117712",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-20T22:43:15Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-20T23:37:55Z"
       },
       {
         "kind": "pr",
-        "number": 126721,
-        "title": "fix(qa): wait for config restart wake completion",
-        "url": "https://github.com/openclaw/openclaw/pull/126721",
+        "number": 126881,
+        "title": "fix(release): keep protected tooling trusted after main moves",
+        "url": "https://github.com/openclaw/openclaw/pull/126881",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-20T22:43:13Z"
+        "updatedAt": "2026-08-20T23:37:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122444,
+        "title": "fix(cron): suggest canonical conversation targets",
+        "url": "https://github.com/openclaw/openclaw/pull/122444",
+        "state": "open",
+        "author": "Alix-007",
+        "updatedAt": "2026-08-20T23:37:37Z"
       },
       {
         "kind": "pr",
@@ -867,25 +831,25 @@
         "url": "https://github.com/openclaw/openclaw/pull/126556",
         "state": "open",
         "author": "bilzeng",
-        "updatedAt": "2026-08-20T22:42:56Z"
+        "updatedAt": "2026-08-20T23:37:22Z"
       },
       {
         "kind": "pr",
-        "number": 118499,
-        "title": "macOS: add realtime Gateway-relay Talk support",
-        "url": "https://github.com/openclaw/openclaw/pull/118499",
+        "number": 125316,
+        "title": "fix(state): serialize audit writes through shared owner",
+        "url": "https://github.com/openclaw/openclaw/pull/125316",
         "state": "open",
-        "author": "zhilong1115",
-        "updatedAt": "2026-08-20T22:42:53Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-20T23:38:00Z"
       },
       {
         "kind": "pr",
-        "number": 109973,
-        "title": "fix(acp): defer session snapshot update after newSession/resumeSession result",
-        "url": "https://github.com/openclaw/openclaw/pull/109973",
+        "number": 125424,
+        "title": "fix(session-catalog): hide OpenClaw-managed provider sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/125424",
         "state": "open",
-        "author": "xydt-tanshanshan",
-        "updatedAt": "2026-08-20T22:41:25Z"
+        "author": "VACInc",
+        "updatedAt": "2026-08-20T23:37:05Z"
       }
     ]
   }

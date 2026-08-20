@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-20T03:56:50.187Z",
+  "generatedAt": "2026-08-20T04:51:30.896Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -581,17 +581,17 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "capturedAt": "2026-08-20T03:56:50.187Z",
-      "issueOpen": 3512,
-      "issueClosed": 44135,
-      "prOpen": 2290,
-      "prClosed": 74078,
-      "prMerged": 26430,
+      "capturedAt": "2026-08-20T04:51:30.896Z",
+      "issueOpen": 3511,
+      "issueClosed": 44137,
+      "prOpen": 2289,
+      "prClosed": 74084,
+      "prMerged": 26436,
       "workflowRuns": 40000,
-      "stars": 386815,
+      "stars": 386818,
       "forks": 81262,
       "subscribers": 1757,
-      "commits": 80904,
+      "commits": 80910,
       "contributors": 3112,
       "source": "github-actions",
       "approximateDate": false
@@ -768,10 +768,10 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "stars": 386815,
+      "stars": 386818,
       "forks": 81262,
       "subscribers": 1757,
-      "commits": 80904,
+      "commits": 80910,
       "contributors": 3112
     }
   ],
@@ -779,68 +779,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 126533,
-        "title": "Drop MESSAGE_CREATE event when receiving-bot-account has isDefault=true AND a more-specific-scoped binding matches for the target channel",
-        "url": "https://github.com/openclaw/openclaw/issues/126533",
+        "number": 79859,
+        "title": "feat(tui): add recording-friendly quiet status mode",
+        "url": "https://github.com/openclaw/openclaw/issues/79859",
         "state": "open",
-        "author": "hedwig-lgtm",
-        "updatedAt": "2026-08-20T03:55:19Z"
+        "author": "toruvieI",
+        "updatedAt": "2026-08-20T04:51:19Z"
+      },
+      {
+        "kind": "issue",
+        "number": 82089,
+        "title": "Feature: Telegram temporary tool-progress previews with final native quote replies",
+        "url": "https://github.com/openclaw/openclaw/issues/82089",
+        "state": "open",
+        "author": "alexph-dev",
+        "updatedAt": "2026-08-20T04:51:05Z"
+      },
+      {
+        "kind": "issue",
+        "number": 77733,
+        "title": "[Bug]: Bare `/new` and `/reset` no longer trigger the persona greeting in 2026.5.3 (regression vs 4.x)**",
+        "url": "https://github.com/openclaw/openclaw/issues/77733",
+        "state": "open",
+        "author": "jw8957",
+        "updatedAt": "2026-08-20T04:51:04Z"
+      },
+      {
+        "kind": "issue",
+        "number": 80621,
+        "title": "Plugin loaded but registerTool fails — \"plugin must declare contracts.tools\"",
+        "url": "https://github.com/openclaw/openclaw/issues/80621",
+        "state": "open",
+        "author": "qiaoyuhub413",
+        "updatedAt": "2026-08-20T04:51:02Z"
+      },
+      {
+        "kind": "issue",
+        "number": 95840,
+        "title": "contextPruning (mode: cache-ttl) never fires on OpenAI models: isCacheTtlEligibleProvider excludes OpenAI, so the idle-gap tool-result firebreak is dead for the highest-volume provider",
+        "url": "https://github.com/openclaw/openclaw/issues/95840",
+        "state": "open",
+        "author": "aleps001",
+        "updatedAt": "2026-08-20T04:48:44Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 121573,
-        "title": "fix(browser): bound Playwright CDP connection memory via max-age recycling",
-        "url": "https://github.com/openclaw/openclaw/pull/121573",
-        "state": "open",
-        "author": "turing-cto",
-        "updatedAt": "2026-08-20T03:56:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126527,
-        "title": "fix: keep ambient room events silent",
-        "url": "https://github.com/openclaw/openclaw/pull/126527",
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
         "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-20T04:51:05Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123535,
+        "title": "fix(ui): avoid session catalog refresh storms",
+        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-20T04:51:02Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126501,
+        "title": "feat: let /v1/responses callers set a delivery target so subagent completions can be delivered",
+        "url": "https://github.com/openclaw/openclaw/pull/126501",
+        "state": "open",
+        "author": "alexeysophia",
+        "updatedAt": "2026-08-20T04:50:44Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123356,
+        "title": "improve(control-ui): stage slash command arguments in the composer",
+        "url": "https://github.com/openclaw/openclaw/pull/123356",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-20T04:50:44Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118169,
+        "title": "feat(signal): link first account from setup QR",
+        "url": "https://github.com/openclaw/openclaw/pull/118169",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-20T04:50:34Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126220,
+        "title": "feat(qa): run the Mantis Telegram lane on the prebaked desktop",
+        "url": "https://github.com/openclaw/openclaw/pull/126220",
+        "state": "open",
         "author": "obviyus",
-        "updatedAt": "2026-08-20T03:56:43Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126518,
-        "title": "fix(llm-task): trust explicit provider for slash-containing model ids",
-        "url": "https://github.com/openclaw/openclaw/pull/126518",
-        "state": "open",
-        "author": "ChrisCantwell",
-        "updatedAt": "2026-08-20T03:56:43Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113548,
-        "title": "feat(agents): add warn-only usage budgets",
-        "url": "https://github.com/openclaw/openclaw/pull/113548",
-        "state": "open",
-        "author": "litang9",
-        "updatedAt": "2026-08-20T03:56:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126530,
-        "title": "fix(memory): preserve requested corpus outcomes",
-        "url": "https://github.com/openclaw/openclaw/pull/126530",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-20T03:56:34Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121487,
-        "title": "fix: large streaming tool calls stall the agent while arguments finish streaming",
-        "url": "https://github.com/openclaw/openclaw/pull/121487",
-        "state": "open",
-        "author": "nikhiljain-dot",
-        "updatedAt": "2026-08-20T03:56:30Z"
+        "updatedAt": "2026-08-20T04:50:32Z"
       }
     ]
   }

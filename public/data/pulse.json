@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-20T11:40:11.960Z",
+  "generatedAt": "2026-08-20T13:09:38.806Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -581,17 +581,17 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "capturedAt": "2026-08-20T11:40:11.960Z",
-      "issueOpen": 3508,
-      "issueClosed": 44168,
-      "prOpen": 2280,
-      "prClosed": 74173,
-      "prMerged": 26510,
+      "capturedAt": "2026-08-20T13:09:38.806Z",
+      "issueOpen": 3513,
+      "issueClosed": 44173,
+      "prOpen": 2288,
+      "prClosed": 74179,
+      "prMerged": 26516,
       "workflowRuns": 40000,
-      "stars": 386869,
-      "forks": 81271,
+      "stars": 386885,
+      "forks": 81277,
       "subscribers": 1759,
-      "commits": 80987,
+      "commits": 80993,
       "contributors": 3113,
       "source": "github-actions",
       "approximateDate": false
@@ -768,10 +768,10 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "stars": 386869,
-      "forks": 81271,
+      "stars": 386885,
+      "forks": 81277,
       "subscribers": 1759,
-      "commits": 80987,
+      "commits": 80993,
       "contributors": 3113
     }
   ],
@@ -779,95 +779,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 94747,
-        "title": "Discord channel mention can end as non_deliverable_terminal_turn with no message.send and no visible reply",
-        "url": "https://github.com/openclaw/openclaw/issues/94747",
+        "number": 42276,
+        "title": "Reasoning stream",
+        "url": "https://github.com/openclaw/openclaw/issues/42276",
         "state": "open",
-        "author": "fanyangCS",
-        "updatedAt": "2026-08-20T11:40:06Z"
+        "author": "cryptopsy0",
+        "updatedAt": "2026-08-20T13:09:31Z"
       },
       {
         "kind": "issue",
-        "number": 97341,
-        "title": "Slack per-thread context customization and isolation",
-        "url": "https://github.com/openclaw/openclaw/issues/97341",
+        "number": 88657,
+        "title": "Bug: DeepSeek V4 Flash incomplete turn (payloads=0, tools=2, replaySafe=no, stopReason=stop) in 2026.5.27/28",
+        "url": "https://github.com/openclaw/openclaw/issues/88657",
         "state": "open",
-        "author": "drodecker",
-        "updatedAt": "2026-08-20T11:39:57Z"
+        "author": "mikefaierberg-byte",
+        "updatedAt": "2026-08-20T13:09:19Z"
       },
       {
         "kind": "issue",
-        "number": 110265,
-        "title": "[Bug]: Codex final reply is dropped after native shell completion in iMessage",
-        "url": "https://github.com/openclaw/openclaw/issues/110265",
+        "number": 88508,
+        "title": "[Feature]: [Feature Request] Plugin contract should support thinkingOverride to enable dynamic thinking level (low/medium/high/xhigh) per round",
+        "url": "https://github.com/openclaw/openclaw/issues/88508",
         "state": "open",
-        "author": "omarshahine",
-        "updatedAt": "2026-08-20T11:40:05Z"
+        "author": "CocoChavan",
+        "updatedAt": "2026-08-20T13:09:10Z"
       },
       {
         "kind": "issue",
-        "number": 83598,
-        "title": "[Bug]: anthropic:claude-cli OAuth refresh still dead-ends main lane in 2026.5.12 despite #73682 fix",
-        "url": "https://github.com/openclaw/openclaw/issues/83598",
+        "number": 86778,
+        "title": "[bug]：Gateway pairing failure on Trim OS / TerraMaster NAS: WebSocket closes with code 1002 during device proof response",
+        "url": "https://github.com/openclaw/openclaw/issues/86778",
         "state": "open",
-        "author": "ChattanoogaDan",
-        "updatedAt": "2026-08-20T11:39:48Z"
+        "author": "wp1018347903",
+        "updatedAt": "2026-08-20T13:08:59Z"
       },
       {
         "kind": "issue",
-        "number": 80864,
-        "title": "[Optimization] Standardized Preflight Validation Framework",
-        "url": "https://github.com/openclaw/openclaw/issues/80864",
+        "number": 90746,
+        "title": "Document practical requirements for QMD memory backend on CPU-only VPS deployments",
+        "url": "https://github.com/openclaw/openclaw/issues/90746",
         "state": "open",
-        "author": "edgarstool",
-        "updatedAt": "2026-08-20T11:39:40Z"
+        "author": "holgergruenhagen",
+        "updatedAt": "2026-08-20T13:08:51Z"
       },
       {
         "kind": "issue",
-        "number": 96334,
-        "title": "lightContext causes missing tools/rules in isolated sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/96334",
+        "number": 91563,
+        "title": "Dreaming deep phase: minUniqueQueries gate bypassed by day-diversity counting",
+        "url": "https://github.com/openclaw/openclaw/issues/91563",
         "state": "open",
-        "author": "taosiuman",
-        "updatedAt": "2026-08-20T11:39:32Z"
+        "author": "Orionation",
+        "updatedAt": "2026-08-20T13:08:41Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 121764,
-        "title": "feat(plugin-sdk): add prepared cancellable OAuth refresh hooks",
-        "url": "https://github.com/openclaw/openclaw/pull/121764",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-20T11:39:48Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126618,
-        "title": "fix: Tool Search directory/tools wrap native read/exec in tool_call",
-        "url": "https://github.com/openclaw/openclaw/pull/126618",
-        "state": "open",
-        "author": "RaviTharuma",
-        "updatedAt": "2026-08-20T11:39:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118402,
-        "title": "fix(agents): stop runaway shell retry loops whose error text keeps changing",
-        "url": "https://github.com/openclaw/openclaw/pull/118402",
-        "state": "open",
-        "author": "MoerAI",
-        "updatedAt": "2026-08-20T11:38:48Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117712,
-        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/117712",
+        "number": 123078,
+        "title": "chore(deps): bump the swift-deps group across 1 directory with 3 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/123078",
         "state": "open",
         "author": "dependabot[bot]",
-        "updatedAt": "2026-08-20T11:37:28Z"
+        "updatedAt": "2026-08-20T13:09:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126662,
+        "title": "fix(talk): activate configured realtime voice provider",
+        "url": "https://github.com/openclaw/openclaw/pull/126662",
+        "state": "open",
+        "author": "itkdm",
+        "updatedAt": "2026-08-20T13:09:12Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123975,
+        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
+        "url": "https://github.com/openclaw/openclaw/pull/123975",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-20T13:09:03Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126287,
+        "title": "fix(ui): keep peer identity stable when actions appear",
+        "url": "https://github.com/openclaw/openclaw/pull/126287",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-20T13:08:51Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126658,
+        "title": "feat(qa): trigger Mantis proof from pull requests",
+        "url": "https://github.com/openclaw/openclaw/pull/126658",
+        "state": "open",
+        "author": "obviyus",
+        "updatedAt": "2026-08-20T13:08:46Z"
       },
       {
         "kind": "pr",
@@ -876,16 +885,7 @@
         "url": "https://github.com/openclaw/openclaw/pull/126145",
         "state": "open",
         "author": "SunnyShu0925",
-        "updatedAt": "2026-08-20T11:37:19Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-20T11:36:48Z"
+        "updatedAt": "2026-08-20T13:08:19Z"
       }
     ]
   }

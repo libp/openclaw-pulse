@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-20T05:44:54.389Z",
+  "generatedAt": "2026-08-20T07:04:41.476Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -581,17 +581,17 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "capturedAt": "2026-08-20T05:44:54.389Z",
+      "capturedAt": "2026-08-20T07:04:41.476Z",
       "issueOpen": 3510,
-      "issueClosed": 44140,
-      "prOpen": 2292,
-      "prClosed": 74091,
-      "prMerged": 26441,
+      "issueClosed": 44142,
+      "prOpen": 2295,
+      "prClosed": 74101,
+      "prMerged": 26449,
       "workflowRuns": 40000,
-      "stars": 386822,
-      "forks": 81261,
-      "subscribers": 1757,
-      "commits": 80915,
+      "stars": 386829,
+      "forks": 81262,
+      "subscribers": 1758,
+      "commits": 80925,
       "contributors": 3112,
       "source": "github-actions",
       "approximateDate": false
@@ -768,10 +768,10 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "stars": 386822,
-      "forks": 81261,
-      "subscribers": 1757,
-      "commits": 80915,
+      "stars": 386829,
+      "forks": 81262,
+      "subscribers": 1758,
+      "commits": 80925,
       "contributors": 3112
     }
   ],
@@ -779,113 +779,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 119454,
-        "title": "Stuck-session recovery self-suppresses on a leaked idle embedded run: repeated action=observe_only reason=active_embedded_run wedges the lane until restart",
-        "url": "https://github.com/openclaw/openclaw/issues/119454",
+        "number": 119361,
+        "title": "[Feature]: Support Windows Logbook screen capture",
+        "url": "https://github.com/openclaw/openclaw/issues/119361",
         "state": "open",
-        "author": "joeykrug",
-        "updatedAt": "2026-08-20T05:44:41Z"
+        "author": "rodrigo-fonseca-oliveira",
+        "updatedAt": "2026-08-20T07:04:33Z"
       },
       {
         "kind": "issue",
-        "number": 115478,
-        "title": "WeChat plugin (@tencent-weixin/openclaw-weixin 2.4.6) fails to load: missing openclaw/plugin-sdk/channel-runtime export",
-        "url": "https://github.com/openclaw/openclaw/issues/115478",
+        "number": 119282,
+        "title": "imsg rpc stderr still blanket-logged at ERROR — #79610 closed as completed but its fix PR #79760 never merged",
+        "url": "https://github.com/openclaw/openclaw/issues/119282",
         "state": "open",
-        "author": "QQSHI13",
-        "updatedAt": "2026-08-20T05:44:40Z"
+        "author": "prashantkamani",
+        "updatedAt": "2026-08-20T07:04:31Z"
       },
       {
         "kind": "issue",
-        "number": 116360,
-        "title": "[Feature]: no event for workboard card status changes - hook bus has no workboard events, notification kinds limited to completed|failed|stale",
-        "url": "https://github.com/openclaw/openclaw/issues/116360",
+        "number": 14785,
+        "title": "Reduce tool schema token overhead (~3,500 tok/session)",
+        "url": "https://github.com/openclaw/openclaw/issues/14785",
         "state": "open",
-        "author": "sergei-ivanisenko",
-        "updatedAt": "2026-08-20T05:44:38Z"
+        "author": "seans-openclawbot",
+        "updatedAt": "2026-08-20T07:04:31Z"
       },
       {
         "kind": "issue",
-        "number": 95840,
-        "title": "contextPruning (mode: cache-ttl) never fires on OpenAI models: isCacheTtlEligibleProvider excludes OpenAI, so the idle-gap tool-result firebreak is dead for the highest-volume provider",
-        "url": "https://github.com/openclaw/openclaw/issues/95840",
+        "number": 119241,
+        "title": "Feature Request: Expandable or Fullscreen Prompt Composer",
+        "url": "https://github.com/openclaw/openclaw/issues/119241",
         "state": "open",
-        "author": "aleps001",
-        "updatedAt": "2026-08-20T05:44:35Z"
+        "author": "Leonardgoz",
+        "updatedAt": "2026-08-20T07:04:30Z"
       },
       {
         "kind": "issue",
-        "number": 124751,
-        "title": "[Bug]: iOS app duplicates assistant replies at the bottom and does not auto-scroll to latest message",
-        "url": "https://github.com/openclaw/openclaw/issues/124751",
+        "number": 10142,
+        "title": "Feature: session:end internal hook event",
+        "url": "https://github.com/openclaw/openclaw/issues/10142",
         "state": "open",
-        "author": "VirPoe",
-        "updatedAt": "2026-08-20T05:44:34Z"
+        "author": "spk-alex",
+        "updatedAt": "2026-08-20T07:04:30Z"
       },
       {
         "kind": "issue",
-        "number": 116452,
-        "title": "Isolated cron sessions cannot execute shell commands",
-        "url": "https://github.com/openclaw/openclaw/issues/116452",
+        "number": 119255,
+        "title": "[Feature]: Bring completed-turn \"Worked for X\" rollups to native Apple chat",
+        "url": "https://github.com/openclaw/openclaw/issues/119255",
         "state": "open",
-        "author": "Allonz",
-        "updatedAt": "2026-08-20T05:44:27Z"
+        "author": "CBruney",
+        "updatedAt": "2026-08-20T07:04:29Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 118960,
-        "title": "fix(gateway): route system-agent approvals off the exec channel bus",
-        "url": "https://github.com/openclaw/openclaw/pull/118960",
+        "number": 124519,
+        "title": "fix(status): stop Gateway status from blocking on static catalog discovery",
+        "url": "https://github.com/openclaw/openclaw/pull/124519",
         "state": "open",
-        "author": "harjothkhara",
-        "updatedAt": "2026-08-20T05:44:48Z"
+        "author": "ragesaq",
+        "updatedAt": "2026-08-20T07:04:33Z"
       },
       {
         "kind": "pr",
-        "number": 88121,
-        "title": "Lower profile tool policy filter audit logs",
-        "url": "https://github.com/openclaw/openclaw/pull/88121",
+        "number": 114492,
+        "title": "fix: honor bundled channel activation contracts",
+        "url": "https://github.com/openclaw/openclaw/pull/114492",
         "state": "open",
-        "author": "sjf",
-        "updatedAt": "2026-08-20T05:44:45Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-20T07:04:31Z"
       },
       {
         "kind": "pr",
-        "number": 87793,
-        "title": "fix(codex): clarify unsafe app-server completion stalls",
-        "url": "https://github.com/openclaw/openclaw/pull/87793",
+        "number": 126567,
+        "title": "fix(ui): keep sidebar icon endcap intact in single-line session rows",
+        "url": "https://github.com/openclaw/openclaw/pull/126567",
         "state": "open",
-        "author": "slatem",
-        "updatedAt": "2026-08-20T05:44:37Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-20T07:04:30Z"
       },
       {
         "kind": "pr",
-        "number": 111586,
-        "title": "fix(gateway): bound TLS cert/key file reads with size limit",
-        "url": "https://github.com/openclaw/openclaw/pull/111586",
+        "number": 114576,
+        "title": "fix(ui): keep active preambles visible when opening sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/114576",
         "state": "open",
-        "author": "zhanxingxin1998",
-        "updatedAt": "2026-08-20T05:44:29Z"
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-20T07:04:30Z"
       },
       {
         "kind": "pr",
-        "number": 110561,
-        "title": "fix(sqlite): normalize BLOB/TEXT type mismatches during STRICT migration",
-        "url": "https://github.com/openclaw/openclaw/pull/110561",
+        "number": 113894,
+        "title": "fix(ui): restore automatic agent fast-mode settings",
+        "url": "https://github.com/openclaw/openclaw/pull/113894",
         "state": "open",
-        "author": "wangyan2026",
-        "updatedAt": "2026-08-20T05:44:29Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-20T07:04:29Z"
       },
       {
         "kind": "pr",
-        "number": 126259,
-        "title": "fix: explicit Codex runtime policies reach embedded attempts",
-        "url": "https://github.com/openclaw/openclaw/pull/126259",
+        "number": 115119,
+        "title": "fix(workboard): unassigned cards fail to dispatch a worker",
+        "url": "https://github.com/openclaw/openclaw/pull/115119",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-20T05:44:24Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-20T07:04:28Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-20T14:53:35.247Z",
+  "generatedAt": "2026-08-20T15:47:25.454Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -581,17 +581,17 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "capturedAt": "2026-08-20T14:53:35.247Z",
-      "issueOpen": 3517,
-      "issueClosed": 44181,
-      "prOpen": 2281,
-      "prClosed": 74196,
-      "prMerged": 26528,
+      "capturedAt": "2026-08-20T15:47:25.454Z",
+      "issueOpen": 3514,
+      "issueClosed": 44187,
+      "prOpen": 2284,
+      "prClosed": 74216,
+      "prMerged": 26548,
       "workflowRuns": 40000,
-      "stars": 386891,
-      "forks": 81270,
+      "stars": 386896,
+      "forks": 81268,
       "subscribers": 1760,
-      "commits": 81005,
+      "commits": 81025,
       "contributors": 3113,
       "source": "github-actions",
       "approximateDate": false
@@ -768,10 +768,10 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "stars": 386891,
-      "forks": 81270,
+      "stars": 386896,
+      "forks": 81268,
       "subscribers": 1760,
-      "commits": 81005,
+      "commits": 81025,
       "contributors": 3113
     }
   ],
@@ -779,104 +779,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 120207,
-        "title": "[Bug]: claude-cli live session discards accumulated turn output on abort — failTurn never reads streamingParser.getOutput(), so aborted turns produce no assistant text",
-        "url": "https://github.com/openclaw/openclaw/issues/120207",
+        "number": 119547,
+        "title": "[Feature]: Detect Chrome extension version drift after upgrades",
+        "url": "https://github.com/openclaw/openclaw/issues/119547",
         "state": "open",
-        "author": "dito-fm",
-        "updatedAt": "2026-08-20T14:53:25Z"
-      },
-      {
-        "kind": "issue",
-        "number": 126694,
-        "title": "Docs feedback: /install",
-        "url": "https://github.com/openclaw/openclaw/issues/126694",
-        "state": "open",
-        "author": "phehellonthoana-dev",
-        "updatedAt": "2026-08-20T14:52:59Z"
-      },
-      {
-        "kind": "issue",
-        "number": 124177,
-        "title": "Codex app-server strips OpenClaw `read` on container sandbox backends; #83667 only restored ssh",
-        "url": "https://github.com/openclaw/openclaw/issues/124177",
-        "state": "open",
-        "author": "AdminExcellenc3",
-        "updatedAt": "2026-08-20T14:52:47Z"
-      },
-      {
-        "kind": "issue",
-        "number": 125980,
-        "title": "[Bug]: Restart-recovery CAS conflict strands channel session; watchdog no-ops on no_active_work",
-        "url": "https://github.com/openclaw/openclaw/issues/125980",
-        "state": "open",
-        "author": "PollyBot13",
-        "updatedAt": "2026-08-20T14:52:46Z"
-      },
-      {
-        "kind": "issue",
-        "number": 126693,
-        "title": "[Bug]: background process ordering drops newest sessions and flips after completion",
-        "url": "https://github.com/openclaw/openclaw/issues/126693",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-20T14:52:40Z"
+        "author": "johan-eilertsen",
+        "updatedAt": "2026-08-20T15:46:32Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 114466,
-        "title": "fix(discord): strip internal runtime context",
-        "url": "https://github.com/openclaw/openclaw/pull/114466",
+        "number": 126180,
+        "title": "fix(ui): recover queued follow-ups from settled runs",
+        "url": "https://github.com/openclaw/openclaw/pull/126180",
         "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-08-20T14:53:22Z"
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-20T15:47:14Z"
       },
       {
         "kind": "pr",
-        "number": 126537,
-        "title": "fix(agent-core): preserve accepted handoff in tool settlement catches",
-        "url": "https://github.com/openclaw/openclaw/pull/126537",
+        "number": 125049,
+        "title": "fix(plugins): guard malformed node payloadJSON in session catalog unwrap",
+        "url": "https://github.com/openclaw/openclaw/pull/125049",
         "state": "open",
-        "author": "wangyan2026",
-        "updatedAt": "2026-08-20T14:53:12Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-08-20T15:47:12Z"
       },
       {
         "kind": "pr",
-        "number": 126424,
-        "title": "fix(gateway): keep conversation delivery within agent bindings",
-        "url": "https://github.com/openclaw/openclaw/pull/126424",
+        "number": 91237,
+        "title": "fix(providers/openrouter): treat OpenRouter (URL + default route) as long-TTL-eligible for Anthropic cache_control",
+        "url": "https://github.com/openclaw/openclaw/pull/91237",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-08-20T14:53:08Z"
+        "author": "Bartok9",
+        "updatedAt": "2026-08-20T15:47:12Z"
       },
       {
         "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "number": 124434,
+        "title": "fix(media-understanding): omit implicit English audio prompt on language autodetect",
+        "url": "https://github.com/openclaw/openclaw/pull/124434",
         "state": "open",
+        "author": "synthalorian",
+        "updatedAt": "2026-08-20T15:47:05Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126692,
+        "title": "fix(outbound): preserve selected plugin for target resolution",
+        "url": "https://github.com/openclaw/openclaw/pull/126692",
+        "state": "open",
+        "author": "sunlit-deng",
+        "updatedAt": "2026-08-20T15:47:04Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120900,
+        "title": "feat(ui): review install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/120900",
+        "state": "closed",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-20T14:53:06Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119341,
-        "title": "feat(system-agent): present generic QR setup steps",
-        "url": "https://github.com/openclaw/openclaw/pull/119341",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-20T14:52:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126614,
-        "title": "chore(ui): refresh control ui locales",
-        "url": "https://github.com/openclaw/openclaw/pull/126614",
-        "state": "open",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-08-20T14:51:47Z"
+        "updatedAt": "2026-08-20T15:47:02Z"
       }
     ]
   }

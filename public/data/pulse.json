@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-20T18:57:39.123Z",
+  "generatedAt": "2026-08-20T21:41:54.021Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -581,17 +581,17 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "capturedAt": "2026-08-20T18:57:39.123Z",
-      "issueOpen": 3517,
-      "issueClosed": 44194,
-      "prOpen": 2287,
-      "prClosed": 74283,
-      "prMerged": 26608,
+      "capturedAt": "2026-08-20T21:41:54.021Z",
+      "issueOpen": 3535,
+      "issueClosed": 44205,
+      "prOpen": 2284,
+      "prClosed": 74301,
+      "prMerged": 26634,
       "workflowRuns": 40000,
-      "stars": 386899,
-      "forks": 81275,
-      "subscribers": 1760,
-      "commits": 81083,
+      "stars": 386905,
+      "forks": 81276,
+      "subscribers": 1761,
+      "commits": 81111,
       "contributors": 3114,
       "source": "github-actions",
       "approximateDate": false
@@ -768,10 +768,10 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "stars": 386899,
-      "forks": 81275,
-      "subscribers": 1760,
-      "commits": 81083,
+      "stars": 386905,
+      "forks": 81276,
+      "subscribers": 1761,
+      "commits": 81111,
       "contributors": 3114
     }
   ],
@@ -779,68 +779,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 48179,
-        "title": "enhancement: Optimize voice message processing pipeline for Telegram",
-        "url": "https://github.com/openclaw/openclaw/issues/48179",
+        "number": 121252,
+        "title": "[bug] buzz plugin - Enabling Buzz channel breaks inbound reply resolution for all non-Buzz channels",
+        "url": "https://github.com/openclaw/openclaw/issues/121252",
         "state": "open",
-        "author": "Moltmanisgreat",
-        "updatedAt": "2026-08-20T18:57:34Z"
+        "author": "arividar",
+        "updatedAt": "2026-08-20T21:41:11Z"
       },
       {
         "kind": "issue",
-        "number": 126796,
-        "title": "[Bug]: ClickClack menu 403 warning misdiagnoses permission and hides account",
-        "url": "https://github.com/openclaw/openclaw/issues/126796",
+        "number": 126246,
+        "title": "[Bug]: Telegram durable outbound deliveries remain stuck in send_attempt_started and are lost on restart",
+        "url": "https://github.com/openclaw/openclaw/issues/126246",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-20T18:57:31Z"
+        "author": "MAG-Linares-Andalucia",
+        "updatedAt": "2026-08-20T21:41:00Z"
       },
       {
         "kind": "issue",
-        "number": 124952,
-        "title": "[Bug]: modelPolicy.allow is never migrated off legacy claude-cli/* refs, leaving no selectable Claude model",
-        "url": "https://github.com/openclaw/openclaw/issues/124952",
+        "number": 35799,
+        "title": "[Feature] Prime-number default scheduling for HEARTBEAT / cron “every” + deterministic per-agent phase jitter (anti top-of-hour spikes)",
+        "url": "https://github.com/openclaw/openclaw/issues/35799",
         "state": "open",
-        "author": "yoursomm2021-art",
-        "updatedAt": "2026-08-20T18:57:26Z"
-      },
-      {
-        "kind": "issue",
-        "number": 47910,
-        "title": "feat: provider fallback by failure class — quarantine auth-broken providers",
-        "url": "https://github.com/openclaw/openclaw/issues/47910",
-        "state": "open",
-        "author": "issaba1",
-        "updatedAt": "2026-08-20T18:57:02Z"
+        "author": "newtontech",
+        "updatedAt": "2026-08-20T21:40:06Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 121576,
-        "title": "fix(text): only insert separator between word chars when stripping model tokens",
-        "url": "https://github.com/openclaw/openclaw/pull/121576",
+        "number": 116511,
+        "title": "fix(agents): skip repeated workspace bootstrap on continuation turns",
+        "url": "https://github.com/openclaw/openclaw/pull/116511",
         "state": "open",
-        "author": "ruel225",
-        "updatedAt": "2026-08-20T18:57:33Z"
+        "author": "Alix-007",
+        "updatedAt": "2026-08-20T21:41:48Z"
       },
       {
         "kind": "pr",
-        "number": 96291,
-        "title": "[codex] Bound memory flush append payloads",
-        "url": "https://github.com/openclaw/openclaw/pull/96291",
+        "number": 126853,
+        "title": "fix(agents): heartbeat runs no longer block visible turns",
+        "url": "https://github.com/openclaw/openclaw/pull/126853",
         "state": "open",
-        "author": "AdrianIp0204",
-        "updatedAt": "2026-08-20T18:57:33Z"
+        "author": "jason-allen-oneal",
+        "updatedAt": "2026-08-20T21:41:45Z"
       },
       {
         "kind": "pr",
-        "number": 126777,
-        "title": "fix(qa): preserve Codex auth identity across restarts",
-        "url": "https://github.com/openclaw/openclaw/pull/126777",
+        "number": 126313,
+        "title": "feat(talk): add configurable idle timeout for Talk mode sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/126313",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-20T18:57:12Z"
+        "author": "jimcadden",
+        "updatedAt": "2026-08-20T21:41:27Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122300,
+        "title": "fix(control-ui): keep usable multi-profile providers ready",
+        "url": "https://github.com/openclaw/openclaw/pull/122300",
+        "state": "open",
+        "author": "Alix-007",
+        "updatedAt": "2026-08-20T21:41:23Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123535,
+        "title": "fix(ui): avoid session catalog refresh storms",
+        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-20T21:41:13Z"
       },
       {
         "kind": "pr",
@@ -849,25 +858,7 @@
         "url": "https://github.com/openclaw/openclaw/pull/126618",
         "state": "open",
         "author": "RaviTharuma",
-        "updatedAt": "2026-08-20T18:56:58Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126262,
-        "title": "improve(code-mode): call tools as global functions",
-        "url": "https://github.com/openclaw/openclaw/pull/126262",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-20T18:56:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126790,
-        "title": "fix(agents): bind the gateway instance for heartbeat-spawned and visible subagents",
-        "url": "https://github.com/openclaw/openclaw/pull/126790",
-        "state": "open",
-        "author": "zeroaltitude",
-        "updatedAt": "2026-08-20T18:56:48Z"
+        "updatedAt": "2026-08-20T21:41:08Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-19T23:34:44.615Z",
+  "generatedAt": "2026-08-20T01:49:58.620Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -578,6 +578,23 @@
       "contributors": 3112,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-20",
+      "capturedAt": "2026-08-20T01:49:58.620Z",
+      "issueOpen": 3505,
+      "issueClosed": 44131,
+      "prOpen": 2290,
+      "prClosed": 74065,
+      "prMerged": 26420,
+      "workflowRuns": 40000,
+      "stars": 386806,
+      "forks": 81264,
+      "subscribers": 1757,
+      "commits": 80893,
+      "contributors": 3112,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -748,119 +765,91 @@
       "subscribers": 1757,
       "commits": 80872,
       "contributors": 3112
+    },
+    {
+      "capturedOn": "2026-08-20",
+      "stars": 386806,
+      "forks": 81264,
+      "subscribers": 1757,
+      "commits": 80893,
+      "contributors": 3112
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 93288,
-        "title": "feat(msteams): per-call topLevel override on send action for proactive new channel threads",
-        "url": "https://github.com/openclaw/openclaw/issues/93288",
+        "number": 78537,
+        "title": "[Docs]: `allowInsecurePath` Linux uid-check behavior is undocumented; users on Linux cannot use system-package binaries (e.g. /usr/bin/op) without it",
+        "url": "https://github.com/openclaw/openclaw/issues/78537",
         "state": "open",
-        "author": "leen109",
-        "updatedAt": "2026-08-19T23:34:39Z"
+        "author": "esqandil",
+        "updatedAt": "2026-08-20T01:49:54Z"
       },
       {
         "kind": "issue",
-        "number": 126469,
-        "title": "agents: tool-result truncation replay aborts on idempotencyKey and permanently cuts off conversation history",
-        "url": "https://github.com/openclaw/openclaw/issues/126469",
+        "number": 113149,
+        "title": "CLI-backend empty_response fallback restart kills unrelated concurrent background Agent-tool sessions",
+        "url": "https://github.com/openclaw/openclaw/issues/113149",
         "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-08-19T23:33:39Z"
-      },
-      {
-        "kind": "issue",
-        "number": 79854,
-        "title": "sessions.get returns wrapper-only transcript while chat.history returns full conversation; sessionFile field is misleading",
-        "url": "https://github.com/openclaw/openclaw/issues/79854",
-        "state": "open",
-        "author": "datus1982",
-        "updatedAt": "2026-08-19T23:32:55Z"
-      },
-      {
-        "kind": "issue",
-        "number": 77598,
-        "title": "Track live dev agent behavior and trajectory",
-        "url": "https://github.com/openclaw/openclaw/issues/77598",
-        "state": "open",
-        "author": "pashpashpash",
-        "updatedAt": "2026-08-19T23:32:55Z"
-      },
-      {
-        "kind": "issue",
-        "number": 92015,
-        "title": "Hardening: Skip default workspace auto-scaffold & git init for runtime-managed (ACP) agents",
-        "url": "https://github.com/openclaw/openclaw/issues/92015",
-        "state": "open",
-        "author": "jleonelion",
-        "updatedAt": "2026-08-19T23:32:27Z"
-      },
-      {
-        "kind": "issue",
-        "number": 91052,
-        "title": "[Feature]: make voice-call realtime barge-in detection configurable",
-        "url": "https://github.com/openclaw/openclaw/issues/91052",
-        "state": "open",
-        "author": "xueqingli1",
-        "updatedAt": "2026-08-19T23:32:25Z"
+        "author": "cobenrogers",
+        "updatedAt": "2026-08-20T01:46:52Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 119763,
-        "title": "fix(slack): keep queued mentions visibly thinking",
-        "url": "https://github.com/openclaw/openclaw/pull/119763",
+        "number": 120273,
+        "title": "fix(ui): bound usage-mosaic hour iteration across extreme activity spans",
+        "url": "https://github.com/openclaw/openclaw/pull/120273",
         "state": "open",
-        "author": "Kimiyu-186",
-        "updatedAt": "2026-08-19T23:34:38Z"
+        "author": "wanyongstar",
+        "updatedAt": "2026-08-20T01:49:53Z"
       },
       {
         "kind": "pr",
-        "number": 126085,
-        "title": "fix: gateway stop throws when port is busy without identified owner",
-        "url": "https://github.com/openclaw/openclaw/pull/126085",
+        "number": 126510,
+        "title": "fix(codex): short approvals repeat denied action scope",
+        "url": "https://github.com/openclaw/openclaw/pull/126510",
         "state": "open",
-        "author": "Schimuneck",
-        "updatedAt": "2026-08-19T23:34:37Z"
+        "author": "nickotheguy-afk",
+        "updatedAt": "2026-08-20T01:49:48Z"
       },
       {
         "kind": "pr",
-        "number": 119753,
-        "title": "fix(codex): align skill guidance with tool surface",
-        "url": "https://github.com/openclaw/openclaw/pull/119753",
+        "number": 126478,
+        "title": "fix(plugin-sdk): published Firecrawl plugins load on current OpenClaw",
+        "url": "https://github.com/openclaw/openclaw/pull/126478",
         "state": "open",
-        "author": "bek91",
-        "updatedAt": "2026-08-19T23:34:28Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-08-20T01:49:40Z"
       },
       {
         "kind": "pr",
-        "number": 90703,
-        "title": "Support compat reasoning levels for thinking xhigh",
-        "url": "https://github.com/openclaw/openclaw/pull/90703",
+        "number": 126499,
+        "title": "chore(i18n): refresh native locales",
+        "url": "https://github.com/openclaw/openclaw/pull/126499",
         "state": "open",
-        "author": "Alex-Govorov",
-        "updatedAt": "2026-08-19T23:34:06Z"
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-08-20T01:49:29Z"
       },
       {
         "kind": "pr",
-        "number": 118152,
-        "title": "fix(channels): group-capable channels reject the documented historyLimit override",
-        "url": "https://github.com/openclaw/openclaw/pull/118152",
+        "number": 125471,
+        "title": "fix(models): keep Claude CLI OAuth available in Control UI",
+        "url": "https://github.com/openclaw/openclaw/pull/125471",
         "state": "open",
-        "author": "ayaangazali",
-        "updatedAt": "2026-08-19T23:33:56Z"
+        "author": "VACInc",
+        "updatedAt": "2026-08-20T01:49:22Z"
       },
       {
         "kind": "pr",
-        "number": 119030,
-        "title": "fix(channels): reply-capable channels reject the documented replyToMode override",
-        "url": "https://github.com/openclaw/openclaw/pull/119030",
+        "number": 123535,
+        "title": "fix(ui): avoid session catalog refresh storms",
+        "url": "https://github.com/openclaw/openclaw/pull/123535",
         "state": "open",
-        "author": "ayaangazali",
-        "updatedAt": "2026-08-19T23:33:54Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-20T01:49:18Z"
       }
     ]
   }

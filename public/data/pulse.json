@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-20T01:49:58.620Z",
+  "generatedAt": "2026-08-20T03:09:20.181Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -581,17 +581,17 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "capturedAt": "2026-08-20T01:49:58.620Z",
-      "issueOpen": 3505,
-      "issueClosed": 44131,
-      "prOpen": 2290,
-      "prClosed": 74065,
-      "prMerged": 26420,
+      "capturedAt": "2026-08-20T03:09:20.181Z",
+      "issueOpen": 3507,
+      "issueClosed": 44132,
+      "prOpen": 2289,
+      "prClosed": 74073,
+      "prMerged": 26427,
       "workflowRuns": 40000,
-      "stars": 386806,
-      "forks": 81264,
+      "stars": 386808,
+      "forks": 81262,
       "subscribers": 1757,
-      "commits": 80893,
+      "commits": 80900,
       "contributors": 3112,
       "source": "github-actions",
       "approximateDate": false
@@ -768,10 +768,10 @@
     },
     {
       "capturedOn": "2026-08-20",
-      "stars": 386806,
-      "forks": 81264,
+      "stars": 386808,
+      "forks": 81262,
       "subscribers": 1757,
-      "commits": 80893,
+      "commits": 80900,
       "contributors": 3112
     }
   ],
@@ -779,77 +779,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 78537,
-        "title": "[Docs]: `allowInsecurePath` Linux uid-check behavior is undocumented; users on Linux cannot use system-package binaries (e.g. /usr/bin/op) without it",
-        "url": "https://github.com/openclaw/openclaw/issues/78537",
+        "number": 79611,
+        "title": "active-memory plugin: pins to one provider, no failover; timeout shorter than provider latency causes silent drops",
+        "url": "https://github.com/openclaw/openclaw/issues/79611",
         "state": "open",
-        "author": "esqandil",
-        "updatedAt": "2026-08-20T01:49:54Z"
+        "author": "wherewolf87",
+        "updatedAt": "2026-08-20T03:09:05Z"
       },
       {
         "kind": "issue",
-        "number": 113149,
-        "title": "CLI-backend empty_response fallback restart kills unrelated concurrent background Agent-tool sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/113149",
+        "number": 90361,
+        "title": "[Bug]:Intermittent memory_search \"index metadata is missing\" despite valid builtin memory index; likely search/reindex race. Locally hotfixed.",
+        "url": "https://github.com/openclaw/openclaw/issues/90361",
         "state": "open",
-        "author": "cobenrogers",
-        "updatedAt": "2026-08-20T01:46:52Z"
+        "author": "AyitLabs",
+        "updatedAt": "2026-08-20T03:08:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 89511,
+        "title": "Gateway can crash with RangeError: Invalid string length during long-running turns, leaving sessions stuck without final reply",
+        "url": "https://github.com/openclaw/openclaw/issues/89511",
+        "state": "open",
+        "author": "Yuki-K-Forone",
+        "updatedAt": "2026-08-20T03:08:44Z"
+      },
+      {
+        "kind": "issue",
+        "number": 94747,
+        "title": "Discord channel mention can end as non_deliverable_terminal_turn with no message.send and no visible reply",
+        "url": "https://github.com/openclaw/openclaw/issues/94747",
+        "state": "open",
+        "author": "fanyangCS",
+        "updatedAt": "2026-08-20T03:08:34Z"
+      },
+      {
+        "kind": "issue",
+        "number": 97341,
+        "title": "Slack per-thread context customization and isolation",
+        "url": "https://github.com/openclaw/openclaw/issues/97341",
+        "state": "open",
+        "author": "drodecker",
+        "updatedAt": "2026-08-20T03:08:23Z"
+      },
+      {
+        "kind": "issue",
+        "number": 83598,
+        "title": "[Bug]: anthropic:claude-cli OAuth refresh still dead-ends main lane in 2026.5.12 despite #73682 fix",
+        "url": "https://github.com/openclaw/openclaw/issues/83598",
+        "state": "open",
+        "author": "ChattanoogaDan",
+        "updatedAt": "2026-08-20T03:08:13Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 120273,
-        "title": "fix(ui): bound usage-mosaic hour iteration across extreme activity spans",
-        "url": "https://github.com/openclaw/openclaw/pull/120273",
+        "number": 121050,
+        "title": "fix(control-ui): retain webchat context for config restarts",
+        "url": "https://github.com/openclaw/openclaw/pull/121050",
         "state": "open",
-        "author": "wanyongstar",
-        "updatedAt": "2026-08-20T01:49:53Z"
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-08-20T03:09:07Z"
       },
       {
         "kind": "pr",
-        "number": 126510,
-        "title": "fix(codex): short approvals repeat denied action scope",
-        "url": "https://github.com/openclaw/openclaw/pull/126510",
-        "state": "open",
-        "author": "nickotheguy-afk",
-        "updatedAt": "2026-08-20T01:49:48Z"
+        "number": 125979,
+        "title": "fix(memory): distinguish missing file reads",
+        "url": "https://github.com/openclaw/openclaw/pull/125979",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-20T03:08:55Z"
       },
       {
         "kind": "pr",
-        "number": 126478,
-        "title": "fix(plugin-sdk): published Firecrawl plugins load on current OpenClaw",
-        "url": "https://github.com/openclaw/openclaw/pull/126478",
+        "number": 126220,
+        "title": "feat(qa): run the Mantis Telegram lane on the prebaked desktop",
+        "url": "https://github.com/openclaw/openclaw/pull/126220",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-08-20T01:49:40Z"
+        "author": "obviyus",
+        "updatedAt": "2026-08-20T03:08:48Z"
       },
       {
         "kind": "pr",
-        "number": 126499,
-        "title": "chore(i18n): refresh native locales",
-        "url": "https://github.com/openclaw/openclaw/pull/126499",
+        "number": 126303,
+        "title": "fix(ui): balance completed-work spacing",
+        "url": "https://github.com/openclaw/openclaw/pull/126303",
         "state": "open",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-08-20T01:49:29Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-20T03:08:09Z"
       },
       {
         "kind": "pr",
-        "number": 125471,
-        "title": "fix(models): keep Claude CLI OAuth available in Control UI",
-        "url": "https://github.com/openclaw/openclaw/pull/125471",
+        "number": 126515,
+        "title": "fix: group onboarding agent imports",
+        "url": "https://github.com/openclaw/openclaw/pull/126515",
         "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-08-20T01:49:22Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-08-20T03:07:58Z"
       },
       {
         "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "number": 122581,
+        "title": "fix(agents): keep shell compound commands readable",
+        "url": "https://github.com/openclaw/openclaw/pull/122581",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-20T01:49:18Z"
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-08-20T03:07:36Z"
       }
     ]
   }

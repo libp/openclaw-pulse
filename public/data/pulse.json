@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-21T04:01:19.729Z",
+  "generatedAt": "2026-08-21T04:52:57.390Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -598,18 +598,18 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "capturedAt": "2026-08-21T04:01:19.729Z",
-      "issueOpen": 3545,
-      "issueClosed": 44229,
-      "prOpen": 2285,
-      "prClosed": 74397,
-      "prMerged": 26698,
+      "capturedAt": "2026-08-21T04:52:57.390Z",
+      "issueOpen": 3540,
+      "issueClosed": 44237,
+      "prOpen": 2293,
+      "prClosed": 74419,
+      "prMerged": 26716,
       "workflowRuns": 40000,
-      "stars": 386937,
-      "forks": 81275,
+      "stars": 386943,
+      "forks": 81279,
       "subscribers": 1761,
-      "commits": 81173,
-      "contributors": 3114,
+      "commits": 81191,
+      "contributors": 3115,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -793,124 +793,106 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "stars": 386937,
-      "forks": 81275,
+      "stars": 386943,
+      "forks": 81279,
       "subscribers": 1761,
-      "commits": 81173,
-      "contributors": 3114
+      "commits": 81191,
+      "contributors": 3115
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 114995,
-        "title": "Teams Meetings plugin documented as bundled but missing from stable npm build",
-        "url": "https://github.com/openclaw/openclaw/issues/114995",
+        "number": 126978,
+        "title": "[Bug]: Control UI loses loaded older messages after chat pane cache eviction",
+        "url": "https://github.com/openclaw/openclaw/issues/126978",
         "state": "open",
-        "author": "Qi-Eric",
-        "updatedAt": "2026-08-21T04:01:01Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-21T04:52:44Z"
       },
       {
         "kind": "issue",
-        "number": 114966,
-        "title": "[Bug]: pnpm link during agent-driven live update stripped pnpm-workspace.yaml override pins and self-linked openclaw, breaking every install (ERR_PNPM_LOCKFILE_CONFIG_MISMATCH)",
-        "url": "https://github.com/openclaw/openclaw/issues/114966",
-        "state": "open",
-        "author": "piotx",
-        "updatedAt": "2026-08-21T04:00:48Z"
+        "number": 121530,
+        "title": "cron edit: blank/invalid --webhook forges delivery.mode=webhook without URL",
+        "url": "https://github.com/openclaw/openclaw/issues/121530",
+        "state": "closed",
+        "author": "zyw02",
+        "updatedAt": "2026-08-21T04:52:32Z"
       },
       {
         "kind": "issue",
-        "number": 126905,
-        "title": "googlechat/feishu tests synchronize close assertions on wall-clock windows",
-        "url": "https://github.com/openclaw/openclaw/issues/126905",
+        "number": 127009,
+        "title": "read tool embeds full-res image for non-vision models, base64 token bloat kills session",
+        "url": "https://github.com/openclaw/openclaw/issues/127009",
         "state": "open",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-08-21T04:00:21Z"
+        "author": "kagura-agent",
+        "updatedAt": "2026-08-21T04:52:13Z"
       },
       {
         "kind": "issue",
-        "number": 114964,
-        "title": "[Bug]: doctor --fix cannot complete when legacy agents.defaults.models has a bare provider key — models→modelPolicy.allow migration copies runtime-dead keys verbatim",
-        "url": "https://github.com/openclaw/openclaw/issues/114964",
+        "number": 126996,
+        "title": "[Bug]: skills JSON failures exit with empty stdout",
+        "url": "https://github.com/openclaw/openclaw/issues/126996",
         "state": "open",
-        "author": "piotx",
-        "updatedAt": "2026-08-21T04:00:00Z"
-      },
-      {
-        "kind": "issue",
-        "number": 126904,
-        "title": "cua-computer: session-scoped watch teardown permanently bricks the process-lifetime provider",
-        "url": "https://github.com/openclaw/openclaw/issues/126904",
-        "state": "open",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-08-21T03:59:52Z"
-      },
-      {
-        "kind": "issue",
-        "number": 126903,
-        "title": "ACP reconnect reconcile drops a completed run's reply and swallows run errors as end_turn",
-        "url": "https://github.com/openclaw/openclaw/issues/126903",
-        "state": "open",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-08-21T03:59:21Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-21T04:51:40Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126979,
-        "title": "fix(ui): keep loaded older history after switching sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/126979",
+        "number": 126714,
+        "title": "fix(ui): soften active split-pane indication",
+        "url": "https://github.com/openclaw/openclaw/pull/126714",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-21T04:01:14Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-21T04:52:50Z"
       },
       {
         "kind": "pr",
-        "number": 126986,
-        "title": "fix(codex): preserve agent workspace instructions",
-        "url": "https://github.com/openclaw/openclaw/pull/126986",
+        "number": 121533,
+        "title": "fix(cron): reject blank/invalid --webhook before delivery.mode flip",
+        "url": "https://github.com/openclaw/openclaw/pull/121533",
+        "state": "closed",
+        "author": "zyw02",
+        "updatedAt": "2026-08-21T04:52:45Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119195,
+        "title": "Cron: bound cross-tick admission",
+        "url": "https://github.com/openclaw/openclaw/pull/119195",
+        "state": "open",
+        "author": "mjzcng",
+        "updatedAt": "2026-08-21T04:52:44Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126825,
+        "title": "perf(sqlite): skip schema write lock on current state",
+        "url": "https://github.com/openclaw/openclaw/pull/126825",
         "state": "open",
         "author": "jason-allen-oneal",
-        "updatedAt": "2026-08-21T04:01:16Z"
+        "updatedAt": "2026-08-21T04:52:43Z"
       },
       {
         "kind": "pr",
-        "number": 126908,
-        "title": "fix(nextcloud-talk): dispose webhook auth rate limiter on monitor stop",
-        "url": "https://github.com/openclaw/openclaw/pull/126908",
+        "number": 127012,
+        "title": "fix(release): require concrete validation retry groups",
+        "url": "https://github.com/openclaw/openclaw/pull/127012",
         "state": "open",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-08-21T04:00:53Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-21T04:52:36Z"
       },
       {
         "kind": "pr",
-        "number": 126975,
-        "title": "fix(qa): reject skipped-only confidence lanes",
-        "url": "https://github.com/openclaw/openclaw/pull/126975",
+        "number": 126973,
+        "title": "fix(cli): reject ignored onboarding options on recommendation actions",
+        "url": "https://github.com/openclaw/openclaw/pull/126973",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-21T04:00:50Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117712,
-        "title": "chore(deps): bump the actions group across 1 directory with 10 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/117712",
-        "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-21T04:00:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 116446,
-        "title": "feat(qa): run Discord through Crabline's local provider server",
-        "url": "https://github.com/openclaw/openclaw/pull/116446",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-21T04:00:39Z"
+        "updatedAt": "2026-08-21T04:52:35Z"
       }
     ]
   }

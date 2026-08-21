@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-21T13:56:51.042Z",
+  "generatedAt": "2026-08-21T14:52:16.011Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -598,17 +598,17 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "capturedAt": "2026-08-21T13:56:51.042Z",
-      "issueOpen": 3555,
-      "issueClosed": 44271,
-      "prOpen": 2317,
-      "prClosed": 74541,
-      "prMerged": 26810,
+      "capturedAt": "2026-08-21T14:52:16.011Z",
+      "issueOpen": 3560,
+      "issueClosed": 44275,
+      "prOpen": 2322,
+      "prClosed": 74549,
+      "prMerged": 26815,
       "workflowRuns": 40000,
-      "stars": 387021,
-      "forks": 81292,
+      "stars": 387024,
+      "forks": 81291,
       "subscribers": 1759,
-      "commits": 81287,
+      "commits": 81291,
       "contributors": 3119,
       "source": "github-actions",
       "approximateDate": false
@@ -793,10 +793,10 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "stars": 387021,
-      "forks": 81292,
+      "stars": 387024,
+      "forks": 81291,
       "subscribers": 1759,
-      "commits": 81287,
+      "commits": 81291,
       "contributors": 3119
     }
   ],
@@ -804,69 +804,60 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 115430,
-        "title": "[Bug]: Corepack fails with EPERM creating pnpm shim in C:\\Program Files\\nodejs on Windows",
-        "url": "https://github.com/openclaw/openclaw/issues/115430",
+        "number": 80864,
+        "title": "[Optimization] Standardized Preflight Validation Framework",
+        "url": "https://github.com/openclaw/openclaw/issues/80864",
         "state": "open",
-        "author": "africoding",
-        "updatedAt": "2026-08-21T13:56:18Z"
+        "author": "edgarstool",
+        "updatedAt": "2026-08-21T14:52:10Z"
       },
       {
         "kind": "issue",
-        "number": 127195,
-        "title": "Sixteen call sites emit an identical \"changed while starting work\" error with no reason code, so the cause is not knowable from production output",
-        "url": "https://github.com/openclaw/openclaw/issues/127195",
+        "number": 96334,
+        "title": "lightContext causes missing tools/rules in isolated sessions",
+        "url": "https://github.com/openclaw/openclaw/issues/96334",
         "state": "open",
-        "author": "abacha",
-        "updatedAt": "2026-08-21T13:55:24Z"
+        "author": "taosiuman",
+        "updatedAt": "2026-08-21T14:52:01Z"
+      },
+      {
+        "kind": "issue",
+        "number": 125064,
+        "title": "[Feature]: Make envelope timestamp position configurable (move to suffix for prompt-cache stability)",
+        "url": "https://github.com/openclaw/openclaw/issues/125064",
+        "state": "open",
+        "author": "YanDawsonBot",
+        "updatedAt": "2026-08-21T14:51:58Z"
+      },
+      {
+        "kind": "issue",
+        "number": 58777,
+        "title": "Sub-agent model pin fidelity: requested vs effective model mismatch, no telemetry",
+        "url": "https://github.com/openclaw/openclaw/issues/58777",
+        "state": "open",
+        "author": "SmithU64",
+        "updatedAt": "2026-08-21T14:51:52Z"
+      },
+      {
+        "kind": "issue",
+        "number": 58957,
+        "title": "Model switch can fail silently when carried-over session context is too large",
+        "url": "https://github.com/openclaw/openclaw/issues/58957",
+        "state": "open",
+        "author": "LunaLee0130",
+        "updatedAt": "2026-08-21T14:51:44Z"
+      },
+      {
+        "kind": "issue",
+        "number": 125744,
+        "title": "[Bug] State DB ptrmap corruption recurs on 2026.8.1-beta.2 — gateway holds unlinked -shm; in-place recovery never fires",
+        "url": "https://github.com/openclaw/openclaw/issues/125744",
+        "state": "open",
+        "author": "rollingshmily",
+        "updatedAt": "2026-08-21T14:51:42Z"
       }
     ],
     "prs": [
-      {
-        "kind": "pr",
-        "number": 127198,
-        "title": "improve(ui): declutter Automations across desktop and mobile",
-        "url": "https://github.com/openclaw/openclaw/pull/127198",
-        "state": "closed",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-21T13:56:47Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120606,
-        "title": "fix: agent.wait can return error before the same run later ends successfully",
-        "url": "https://github.com/openclaw/openclaw/pull/120606",
-        "state": "open",
-        "author": "RileyJJY",
-        "updatedAt": "2026-08-21T13:56:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 127194,
-        "title": "fix(ui): make Lobsterdex Copy link recover from clipboard failures",
-        "url": "https://github.com/openclaw/openclaw/pull/127194",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-21T13:56:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 127138,
-        "title": "perf(ci): parallelize installer smoke validation",
-        "url": "https://github.com/openclaw/openclaw/pull/127138",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-21T13:56:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110429,
-        "title": "fix(comfy): bound workflowPath file reads",
-        "url": "https://github.com/openclaw/openclaw/pull/110429",
-        "state": "open",
-        "author": "RileyJJY",
-        "updatedAt": "2026-08-21T13:56:28Z"
-      },
       {
         "kind": "pr",
         "number": 127160,
@@ -874,7 +865,52 @@
         "url": "https://github.com/openclaw/openclaw/pull/127160",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-21T13:56:18Z"
+        "updatedAt": "2026-08-21T14:52:08Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124014,
+        "title": "fix(auth): reset only the profile replaced by a successful login",
+        "url": "https://github.com/openclaw/openclaw/pull/124014",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-21T14:52:07Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121096,
+        "title": "fix: legacy WhatsApp/Feishu/Telegram plugin builds crash on every inbound message after runDispatchLifecycle guard",
+        "url": "https://github.com/openclaw/openclaw/pull/121096",
+        "state": "open",
+        "author": "fridaylans2000-art",
+        "updatedAt": "2026-08-21T14:52:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127225,
+        "title": "fix(cli): bound session listing work to the requested limit",
+        "url": "https://github.com/openclaw/openclaw/pull/127225",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-21T14:52:11Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125357,
+        "title": "fix(subagents): keep the failure cause on pending-error timeout announces",
+        "url": "https://github.com/openclaw/openclaw/pull/125357",
+        "state": "open",
+        "author": "rishitamrakar",
+        "updatedAt": "2026-08-21T14:51:49Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125742,
+        "title": "fix(talk): transcribe the speaker on browser-owned realtime calls",
+        "url": "https://github.com/openclaw/openclaw/pull/125742",
+        "state": "open",
+        "author": "openperf",
+        "updatedAt": "2026-08-21T14:51:36Z"
       }
     ]
   }

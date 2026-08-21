@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-20T23:38:07.362Z",
+  "generatedAt": "2026-08-21T01:56:08.841Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -595,6 +595,23 @@
       "contributors": 3114,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-21",
+      "capturedAt": "2026-08-21T01:56:08.841Z",
+      "issueOpen": 3545,
+      "issueClosed": 44222,
+      "prOpen": 2299,
+      "prClosed": 74343,
+      "prMerged": 26669,
+      "workflowRuns": 40000,
+      "stars": 386923,
+      "forks": 81274,
+      "subscribers": 1761,
+      "commits": 81144,
+      "contributors": 3113,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -773,83 +790,91 @@
       "subscribers": 1761,
       "commits": 81124,
       "contributors": 3114
+    },
+    {
+      "capturedOn": "2026-08-21",
+      "stars": 386923,
+      "forks": 81274,
+      "subscribers": 1761,
+      "commits": 81144,
+      "contributors": 3113
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 126879,
-        "title": "[Bug]: renamed trajectory archives (*.trajectory.jsonl.deleted.<ts>) slip into the session memory corpus — archive filename predicates lack a trajectory guard",
-        "url": "https://github.com/openclaw/openclaw/issues/126879",
+        "number": 123872,
+        "title": "Restart drain waits 300s by default while the packaged systemd unit stops at 30s — every stall ends in SIGKILL instead of a bounded abort",
+        "url": "https://github.com/openclaw/openclaw/issues/123872",
         "state": "open",
-        "author": "anyech",
-        "updatedAt": "2026-08-20T23:37:16Z"
+        "author": "abacha",
+        "updatedAt": "2026-08-21T01:54:45Z"
       },
       {
         "kind": "issue",
-        "number": 114102,
-        "title": "[Bug] Image attachment 6MB hard-coded limit cannot be configured; tools.media.image.maxBytes is protected",
-        "url": "https://github.com/openclaw/openclaw/issues/114102",
+        "number": 126938,
+        "title": "Control UI hides and reorders pre-steer activity during an active run",
+        "url": "https://github.com/openclaw/openclaw/issues/126938",
         "state": "open",
-        "author": "woshicby",
-        "updatedAt": "2026-08-20T23:36:07Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-08-21T01:54:20Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 117712,
-        "title": "chore(deps): bump the actions group across 1 directory with 10 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/117712",
+        "number": 126939,
+        "title": "feat: persist bounded transcript display rows",
+        "url": "https://github.com/openclaw/openclaw/pull/126939",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-20T23:37:55Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-08-21T01:56:02Z"
       },
       {
         "kind": "pr",
-        "number": 126881,
-        "title": "fix(release): keep protected tooling trusted after main moves",
-        "url": "https://github.com/openclaw/openclaw/pull/126881",
+        "number": 126616,
+        "title": "fix: HTTP chat binds one unbounded session from a constant OpenAI user",
+        "url": "https://github.com/openclaw/openclaw/pull/126616",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-20T23:37:40Z"
+        "author": "RaviTharuma",
+        "updatedAt": "2026-08-21T01:55:35Z"
       },
       {
         "kind": "pr",
-        "number": 122444,
-        "title": "fix(cron): suggest canonical conversation targets",
-        "url": "https://github.com/openclaw/openclaw/pull/122444",
+        "number": 126775,
+        "title": "fix(sandbox): provision materialized skills mount target as sandbox user",
+        "url": "https://github.com/openclaw/openclaw/pull/126775",
         "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-08-20T23:37:37Z"
+        "author": "LiuwqGit",
+        "updatedAt": "2026-08-21T01:55:19Z"
       },
       {
         "kind": "pr",
-        "number": 126556,
-        "title": "fix(exec): prevent zsh literal expansion failures",
-        "url": "https://github.com/openclaw/openclaw/pull/126556",
+        "number": 119326,
+        "title": "fix(agents): honor account-scoped history limits instead of silently ignoring them",
+        "url": "https://github.com/openclaw/openclaw/pull/119326",
         "state": "open",
-        "author": "bilzeng",
-        "updatedAt": "2026-08-20T23:37:22Z"
+        "author": "ayaangazali",
+        "updatedAt": "2026-08-21T01:55:14Z"
       },
       {
         "kind": "pr",
-        "number": 125316,
-        "title": "fix(state): serialize audit writes through shared owner",
-        "url": "https://github.com/openclaw/openclaw/pull/125316",
-        "state": "open",
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
+        "state": "closed",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-20T23:38:00Z"
+        "updatedAt": "2026-08-21T01:54:50Z"
       },
       {
         "kind": "pr",
-        "number": 125424,
-        "title": "fix(session-catalog): hide OpenClaw-managed provider sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/125424",
+        "number": 126933,
+        "title": "chore: prepare fresh Amp orb lifecycle",
+        "url": "https://github.com/openclaw/openclaw/pull/126933",
         "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-08-20T23:37:05Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-21T01:54:44Z"
       }
     ]
   }

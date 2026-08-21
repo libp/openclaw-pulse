@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-21T14:52:16.011Z",
+  "generatedAt": "2026-08-21T15:46:39.398Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -598,17 +598,17 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "capturedAt": "2026-08-21T14:52:16.011Z",
-      "issueOpen": 3560,
-      "issueClosed": 44275,
-      "prOpen": 2322,
-      "prClosed": 74549,
-      "prMerged": 26815,
+      "capturedAt": "2026-08-21T15:46:39.398Z",
+      "issueOpen": 3569,
+      "issueClosed": 44280,
+      "prOpen": 2324,
+      "prClosed": 74559,
+      "prMerged": 26821,
       "workflowRuns": 40000,
-      "stars": 387024,
-      "forks": 81291,
+      "stars": 387028,
+      "forks": 81294,
       "subscribers": 1759,
-      "commits": 81291,
+      "commits": 81299,
       "contributors": 3119,
       "source": "github-actions",
       "approximateDate": false
@@ -793,10 +793,10 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "stars": 387024,
-      "forks": 81291,
+      "stars": 387028,
+      "forks": 81294,
       "subscribers": 1759,
-      "commits": 81291,
+      "commits": 81299,
       "contributors": 3119
     }
   ],
@@ -804,113 +804,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 80864,
-        "title": "[Optimization] Standardized Preflight Validation Framework",
-        "url": "https://github.com/openclaw/openclaw/issues/80864",
+        "number": 127234,
+        "title": "Inbound media staging: no cross-turn dedupe, no GC — 168x duplication (3.0 GB) from thread-bound Slack attachments",
+        "url": "https://github.com/openclaw/openclaw/issues/127234",
         "state": "open",
-        "author": "edgarstool",
-        "updatedAt": "2026-08-21T14:52:10Z"
+        "author": "billbarhydt",
+        "updatedAt": "2026-08-21T15:45:58Z"
       },
       {
         "kind": "issue",
-        "number": 96334,
-        "title": "lightContext causes missing tools/rules in isolated sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/96334",
+        "number": 126282,
+        "title": "Channel outbound sends leave no durable receipt — silent-failure forensics requires snowflake archaeology",
+        "url": "https://github.com/openclaw/openclaw/issues/126282",
         "state": "open",
-        "author": "taosiuman",
-        "updatedAt": "2026-08-21T14:52:01Z"
+        "author": "Agonb",
+        "updatedAt": "2026-08-21T15:45:56Z"
       },
       {
         "kind": "issue",
-        "number": 125064,
-        "title": "[Feature]: Make envelope timestamp position configurable (move to suffix for prompt-cache stability)",
-        "url": "https://github.com/openclaw/openclaw/issues/125064",
+        "number": 126296,
+        "title": "Compaction config usability: softThresholdTokens name implies absolute level but is distance-from-edge; no guard when keepRecentTokens >= threshold",
+        "url": "https://github.com/openclaw/openclaw/issues/126296",
         "state": "open",
-        "author": "YanDawsonBot",
-        "updatedAt": "2026-08-21T14:51:58Z"
+        "author": "r3n3x",
+        "updatedAt": "2026-08-21T15:45:54Z"
       },
       {
         "kind": "issue",
-        "number": 58777,
-        "title": "Sub-agent model pin fidelity: requested vs effective model mismatch, no telemetry",
-        "url": "https://github.com/openclaw/openclaw/issues/58777",
+        "number": 127238,
+        "title": "TUI: status spinner freezes on 'processing' after run is aborted (wasActiveRun mismatch)",
+        "url": "https://github.com/openclaw/openclaw/issues/127238",
         "state": "open",
-        "author": "SmithU64",
-        "updatedAt": "2026-08-21T14:51:52Z"
-      },
-      {
-        "kind": "issue",
-        "number": 58957,
-        "title": "Model switch can fail silently when carried-over session context is too large",
-        "url": "https://github.com/openclaw/openclaw/issues/58957",
-        "state": "open",
-        "author": "LunaLee0130",
-        "updatedAt": "2026-08-21T14:51:44Z"
-      },
-      {
-        "kind": "issue",
-        "number": 125744,
-        "title": "[Bug] State DB ptrmap corruption recurs on 2026.8.1-beta.2 — gateway holds unlinked -shm; in-place recovery never fires",
-        "url": "https://github.com/openclaw/openclaw/issues/125744",
-        "state": "open",
-        "author": "rollingshmily",
-        "updatedAt": "2026-08-21T14:51:42Z"
+        "author": "isaias210",
+        "updatedAt": "2026-08-21T15:45:47Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 127160,
-        "title": "fix(ci): isolate performance candidate trust",
-        "url": "https://github.com/openclaw/openclaw/pull/127160",
+        "number": 127248,
+        "title": "feat(opencode): add anonymous Ox Alpha preview",
+        "url": "https://github.com/openclaw/openclaw/pull/127248",
+        "state": "open",
+        "author": "VACInc",
+        "updatedAt": "2026-08-21T15:46:32Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127226,
+        "title": "feat(signal): link first account from setup QR",
+        "url": "https://github.com/openclaw/openclaw/pull/127226",
+        "state": "open",
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-21T15:46:34Z"
+      },
+      {
+        "kind": "pr",
+        "number": 91479,
+        "title": "fix(acp): preserve timeout progress summaries",
+        "url": "https://github.com/openclaw/openclaw/pull/91479",
+        "state": "open",
+        "author": "moeedahmed",
+        "updatedAt": "2026-08-21T15:46:30Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127138,
+        "title": "perf(ci): parallelize installer smoke validation",
+        "url": "https://github.com/openclaw/openclaw/pull/127138",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-21T14:52:08Z"
+        "updatedAt": "2026-08-21T15:46:19Z"
       },
       {
         "kind": "pr",
-        "number": 124014,
-        "title": "fix(auth): reset only the profile replaced by a successful login",
-        "url": "https://github.com/openclaw/openclaw/pull/124014",
+        "number": 82540,
+        "title": "fix(wechat): preserve existing accounts across hot reload",
+        "url": "https://github.com/openclaw/openclaw/pull/82540",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-21T14:52:07Z"
+        "author": "NewdlDewdl",
+        "updatedAt": "2026-08-21T15:46:08Z"
       },
       {
         "kind": "pr",
-        "number": 121096,
-        "title": "fix: legacy WhatsApp/Feishu/Telegram plugin builds crash on every inbound message after runDispatchLifecycle guard",
-        "url": "https://github.com/openclaw/openclaw/pull/121096",
+        "number": 90970,
+        "title": "i18n(fr): expand French glossary with page titles and common terms",
+        "url": "https://github.com/openclaw/openclaw/pull/90970",
         "state": "open",
-        "author": "fridaylans2000-art",
-        "updatedAt": "2026-08-21T14:52:06Z"
-      },
-      {
-        "kind": "pr",
-        "number": 127225,
-        "title": "fix(cli): bound session listing work to the requested limit",
-        "url": "https://github.com/openclaw/openclaw/pull/127225",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-21T14:52:11Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125357,
-        "title": "fix(subagents): keep the failure cause on pending-error timeout announces",
-        "url": "https://github.com/openclaw/openclaw/pull/125357",
-        "state": "open",
-        "author": "rishitamrakar",
-        "updatedAt": "2026-08-21T14:51:49Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125742,
-        "title": "fix(talk): transcribe the speaker on browser-owned realtime calls",
-        "url": "https://github.com/openclaw/openclaw/pull/125742",
-        "state": "open",
-        "author": "openperf",
-        "updatedAt": "2026-08-21T14:51:36Z"
+        "author": "notadev99",
+        "updatedAt": "2026-08-21T15:45:59Z"
       }
     ]
   }

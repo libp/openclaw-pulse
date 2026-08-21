@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-21T18:54:09.615Z",
+  "generatedAt": "2026-08-21T20:39:22.352Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -598,17 +598,17 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "capturedAt": "2026-08-21T18:54:09.615Z",
-      "issueOpen": 3641,
-      "issueClosed": 44288,
-      "prOpen": 2319,
-      "prClosed": 74625,
-      "prMerged": 26875,
+      "capturedAt": "2026-08-21T20:39:22.352Z",
+      "issueOpen": 3755,
+      "issueClosed": 44289,
+      "prOpen": 2311,
+      "prClosed": 74651,
+      "prMerged": 26899,
       "workflowRuns": 40000,
-      "stars": 387037,
-      "forks": 81297,
+      "stars": 387041,
+      "forks": 81298,
       "subscribers": 1758,
-      "commits": 81350,
+      "commits": 81374,
       "contributors": 3119,
       "source": "github-actions",
       "approximateDate": false
@@ -793,10 +793,10 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "stars": 387037,
-      "forks": 81297,
+      "stars": 387041,
+      "forks": 81298,
       "subscribers": 1758,
-      "commits": 81350,
+      "commits": 81374,
       "contributors": 3119
     }
   ],
@@ -804,77 +804,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 118185,
-        "title": "[Bug]: One claude-cli turn is written to the transcript twice by two writers that assemble the reply differently",
-        "url": "https://github.com/openclaw/openclaw/issues/118185",
+        "number": 127517,
+        "title": "Matrix unclean restart drops cached events while retaining their sync cursor",
+        "url": "https://github.com/openclaw/openclaw/issues/127517",
         "state": "open",
-        "author": "rodrigo-fonseca-oliveira",
-        "updatedAt": "2026-08-21T18:53:52Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-21T20:39:17Z"
       },
       {
         "kind": "issue",
-        "number": 113219,
-        "title": "[Bug]: exec / read tools mangle GBK-encoded output on Windows (cp936), corrupting transcript and causing empty-response loop",
-        "url": "https://github.com/openclaw/openclaw/issues/113219",
+        "number": 127514,
+        "title": "Secret-FD delivery failure can leave rejected child startup descendants alive",
+        "url": "https://github.com/openclaw/openclaw/issues/127514",
         "state": "open",
-        "author": "DIPENG-02",
-        "updatedAt": "2026-08-21T18:53:52Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-21T20:39:13Z"
       },
       {
         "kind": "issue",
-        "number": 120223,
-        "title": "[Feature]: Add `provider` label to `openclaw_tool_execution_total` for per-provider image cost tracking",
-        "url": "https://github.com/openclaw/openclaw/issues/120223",
+        "number": 127518,
+        "title": "[Bug]: Terminal precheck-overflow abort is silent on stable v2026.7.1 (regression of #85712, fix not in stable channel)",
+        "url": "https://github.com/openclaw/openclaw/issues/127518",
         "state": "open",
-        "author": "EduHerranz",
-        "updatedAt": "2026-08-21T18:53:47Z"
+        "author": "oleagui",
+        "updatedAt": "2026-08-21T20:39:07Z"
       },
       {
         "kind": "issue",
-        "number": 118030,
-        "title": "[Feature]: Feishu group replies can mention the human sender",
-        "url": "https://github.com/openclaw/openclaw/issues/118030",
+        "number": 112698,
+        "title": "[Bug]: Codex app-server notification path starves Gateway main thread ~22s — quadratic reasoning-snapshot rebuild per streaming delta (2026.7.1-2)",
+        "url": "https://github.com/openclaw/openclaw/issues/112698",
         "state": "open",
-        "author": "Cao150702",
-        "updatedAt": "2026-08-21T18:53:34Z"
+        "author": "hvhoon",
+        "updatedAt": "2026-08-21T20:39:00Z"
       },
       {
         "kind": "issue",
-        "number": 126879,
-        "title": "[Bug]: renamed trajectory archives (*.trajectory.jsonl.deleted.<ts>) slip into the session memory corpus — archive filename predicates lack a trajectory guard",
-        "url": "https://github.com/openclaw/openclaw/issues/126879",
+        "number": 127528,
+        "title": "Compaction omits the aggregate bootstrap-truncation notice",
+        "url": "https://github.com/openclaw/openclaw/issues/127528",
         "state": "open",
-        "author": "anyech",
-        "updatedAt": "2026-08-21T18:53:20Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-21T20:38:28Z"
       },
       {
         "kind": "issue",
-        "number": 114169,
-        "title": "[Bug]: BUSY_ACTIVITY_STALE_THRESHOLD_MS hardcoded at 25min with no config surface — health monitor restarts channel mid-turn",
-        "url": "https://github.com/openclaw/openclaw/issues/114169",
+        "number": 127523,
+        "title": "Recovery compaction swallows caller abort and continues post-cancel work",
+        "url": "https://github.com/openclaw/openclaw/issues/127523",
         "state": "open",
-        "author": "Serjinho1",
-        "updatedAt": "2026-08-21T18:53:15Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-21T20:38:01Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126618,
-        "title": "fix: Tool Search directory/tools wrap native read/exec in tool_call",
-        "url": "https://github.com/openclaw/openclaw/pull/126618",
+        "number": 127503,
+        "title": "fix(gateway): clear stale credential warnings after channel plugin removal",
+        "url": "https://github.com/openclaw/openclaw/pull/127503",
         "state": "open",
-        "author": "RaviTharuma",
-        "updatedAt": "2026-08-21T18:54:03Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-21T20:39:06Z"
       },
       {
         "kind": "pr",
-        "number": 123699,
-        "title": "fix(logs): report truncated channel tails",
-        "url": "https://github.com/openclaw/openclaw/pull/123699",
+        "number": 113894,
+        "title": "fix(ui): restore automatic agent fast-mode settings",
+        "url": "https://github.com/openclaw/openclaw/pull/113894",
         "state": "open",
-        "author": "masatohoshino",
-        "updatedAt": "2026-08-21T18:54:01Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-21T20:39:05Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117712,
+        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/117712",
+        "state": "open",
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-21T20:39:04Z"
       },
       {
         "kind": "pr",
@@ -883,34 +892,25 @@
         "url": "https://github.com/openclaw/openclaw/pull/125471",
         "state": "closed",
         "author": "VACInc",
-        "updatedAt": "2026-08-21T18:53:57Z"
+        "updatedAt": "2026-08-21T20:38:39Z"
       },
       {
         "kind": "pr",
-        "number": 127370,
-        "title": "fix(cli): give hooks enable/disable failures a next step",
-        "url": "https://github.com/openclaw/openclaw/pull/127370",
+        "number": 126424,
+        "title": "fix(gateway): keep conversation delivery within agent bindings",
+        "url": "https://github.com/openclaw/openclaw/pull/126424",
+        "state": "closed",
+        "author": "joshavant",
+        "updatedAt": "2026-08-21T20:38:37Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117413,
+        "title": "fix(google): enforce terminal video generation ownership",
+        "url": "https://github.com/openclaw/openclaw/pull/117413",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-21T18:53:56Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126496,
-        "title": "fix(cron): preserve Codex trigger exec authority",
-        "url": "https://github.com/openclaw/openclaw/pull/126496",
-        "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-08-21T18:53:56Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-21T18:53:56Z"
+        "updatedAt": "2026-08-21T20:38:16Z"
       }
     ]
   }

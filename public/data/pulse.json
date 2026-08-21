@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-21T01:56:08.841Z",
+  "generatedAt": "2026-08-21T04:01:19.729Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -598,18 +598,18 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "capturedAt": "2026-08-21T01:56:08.841Z",
+      "capturedAt": "2026-08-21T04:01:19.729Z",
       "issueOpen": 3545,
-      "issueClosed": 44222,
-      "prOpen": 2299,
-      "prClosed": 74343,
-      "prMerged": 26669,
+      "issueClosed": 44229,
+      "prOpen": 2285,
+      "prClosed": 74397,
+      "prMerged": 26698,
       "workflowRuns": 40000,
-      "stars": 386923,
-      "forks": 81274,
+      "stars": 386937,
+      "forks": 81275,
       "subscribers": 1761,
-      "commits": 81144,
-      "contributors": 3113,
+      "commits": 81173,
+      "contributors": 3114,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -793,88 +793,124 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "stars": 386923,
-      "forks": 81274,
+      "stars": 386937,
+      "forks": 81275,
       "subscribers": 1761,
-      "commits": 81144,
-      "contributors": 3113
+      "commits": 81173,
+      "contributors": 3114
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 123872,
-        "title": "Restart drain waits 300s by default while the packaged systemd unit stops at 30s — every stall ends in SIGKILL instead of a bounded abort",
-        "url": "https://github.com/openclaw/openclaw/issues/123872",
+        "number": 114995,
+        "title": "Teams Meetings plugin documented as bundled but missing from stable npm build",
+        "url": "https://github.com/openclaw/openclaw/issues/114995",
         "state": "open",
-        "author": "abacha",
-        "updatedAt": "2026-08-21T01:54:45Z"
+        "author": "Qi-Eric",
+        "updatedAt": "2026-08-21T04:01:01Z"
       },
       {
         "kind": "issue",
-        "number": 126938,
-        "title": "Control UI hides and reorders pre-steer activity during an active run",
-        "url": "https://github.com/openclaw/openclaw/issues/126938",
+        "number": 114966,
+        "title": "[Bug]: pnpm link during agent-driven live update stripped pnpm-workspace.yaml override pins and self-linked openclaw, breaking every install (ERR_PNPM_LOCKFILE_CONFIG_MISMATCH)",
+        "url": "https://github.com/openclaw/openclaw/issues/114966",
         "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-08-21T01:54:20Z"
+        "author": "piotx",
+        "updatedAt": "2026-08-21T04:00:48Z"
+      },
+      {
+        "kind": "issue",
+        "number": 126905,
+        "title": "googlechat/feishu tests synchronize close assertions on wall-clock windows",
+        "url": "https://github.com/openclaw/openclaw/issues/126905",
+        "state": "open",
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-08-21T04:00:21Z"
+      },
+      {
+        "kind": "issue",
+        "number": 114964,
+        "title": "[Bug]: doctor --fix cannot complete when legacy agents.defaults.models has a bare provider key — models→modelPolicy.allow migration copies runtime-dead keys verbatim",
+        "url": "https://github.com/openclaw/openclaw/issues/114964",
+        "state": "open",
+        "author": "piotx",
+        "updatedAt": "2026-08-21T04:00:00Z"
+      },
+      {
+        "kind": "issue",
+        "number": 126904,
+        "title": "cua-computer: session-scoped watch teardown permanently bricks the process-lifetime provider",
+        "url": "https://github.com/openclaw/openclaw/issues/126904",
+        "state": "open",
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-08-21T03:59:52Z"
+      },
+      {
+        "kind": "issue",
+        "number": 126903,
+        "title": "ACP reconnect reconcile drops a completed run's reply and swallows run errors as end_turn",
+        "url": "https://github.com/openclaw/openclaw/issues/126903",
+        "state": "open",
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-08-21T03:59:21Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126939,
-        "title": "feat: persist bounded transcript display rows",
-        "url": "https://github.com/openclaw/openclaw/pull/126939",
-        "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-08-21T01:56:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126616,
-        "title": "fix: HTTP chat binds one unbounded session from a constant OpenAI user",
-        "url": "https://github.com/openclaw/openclaw/pull/126616",
-        "state": "open",
-        "author": "RaviTharuma",
-        "updatedAt": "2026-08-21T01:55:35Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126775,
-        "title": "fix(sandbox): provision materialized skills mount target as sandbox user",
-        "url": "https://github.com/openclaw/openclaw/pull/126775",
-        "state": "open",
-        "author": "LiuwqGit",
-        "updatedAt": "2026-08-21T01:55:19Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119326,
-        "title": "fix(agents): honor account-scoped history limits instead of silently ignoring them",
-        "url": "https://github.com/openclaw/openclaw/pull/119326",
-        "state": "open",
-        "author": "ayaangazali",
-        "updatedAt": "2026-08-21T01:55:14Z"
-      },
-      {
-        "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-21T01:54:50Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126933,
-        "title": "chore: prepare fresh Amp orb lifecycle",
-        "url": "https://github.com/openclaw/openclaw/pull/126933",
+        "number": 126979,
+        "title": "fix(ui): keep loaded older history after switching sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/126979",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-21T01:54:44Z"
+        "updatedAt": "2026-08-21T04:01:14Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126986,
+        "title": "fix(codex): preserve agent workspace instructions",
+        "url": "https://github.com/openclaw/openclaw/pull/126986",
+        "state": "open",
+        "author": "jason-allen-oneal",
+        "updatedAt": "2026-08-21T04:01:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126908,
+        "title": "fix(nextcloud-talk): dispose webhook auth rate limiter on monitor stop",
+        "url": "https://github.com/openclaw/openclaw/pull/126908",
+        "state": "open",
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-08-21T04:00:53Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126975,
+        "title": "fix(qa): reject skipped-only confidence lanes",
+        "url": "https://github.com/openclaw/openclaw/pull/126975",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-21T04:00:50Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117712,
+        "title": "chore(deps): bump the actions group across 1 directory with 10 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/117712",
+        "state": "open",
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-21T04:00:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 116446,
+        "title": "feat(qa): run Discord through Crabline's local provider server",
+        "url": "https://github.com/openclaw/openclaw/pull/116446",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-21T04:00:39Z"
       }
     ]
   }

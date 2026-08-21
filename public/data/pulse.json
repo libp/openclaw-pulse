@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-21T04:52:57.390Z",
+  "generatedAt": "2026-08-21T07:55:33.478Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -598,17 +598,17 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "capturedAt": "2026-08-21T04:52:57.390Z",
-      "issueOpen": 3540,
-      "issueClosed": 44237,
-      "prOpen": 2293,
-      "prClosed": 74419,
-      "prMerged": 26716,
+      "capturedAt": "2026-08-21T07:55:33.478Z",
+      "issueOpen": 3544,
+      "issueClosed": 44247,
+      "prOpen": 2297,
+      "prClosed": 74476,
+      "prMerged": 26765,
       "workflowRuns": 40000,
-      "stars": 386943,
-      "forks": 81279,
+      "stars": 386963,
+      "forks": 81282,
       "subscribers": 1761,
-      "commits": 81191,
+      "commits": 81242,
       "contributors": 3115,
       "source": "github-actions",
       "approximateDate": false
@@ -793,10 +793,10 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "stars": 386943,
-      "forks": 81279,
+      "stars": 386963,
+      "forks": 81282,
       "subscribers": 1761,
-      "commits": 81191,
+      "commits": 81242,
       "contributors": 3115
     }
   ],
@@ -804,95 +804,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 126978,
-        "title": "[Bug]: Control UI loses loaded older messages after chat pane cache eviction",
-        "url": "https://github.com/openclaw/openclaw/issues/126978",
+        "number": 97616,
+        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
+        "url": "https://github.com/openclaw/openclaw/issues/97616",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-21T04:52:44Z"
+        "author": "avp717",
+        "updatedAt": "2026-08-21T07:55:26Z"
       },
       {
         "kind": "issue",
-        "number": 121530,
-        "title": "cron edit: blank/invalid --webhook forges delivery.mode=webhook without URL",
-        "url": "https://github.com/openclaw/openclaw/issues/121530",
-        "state": "closed",
-        "author": "zyw02",
-        "updatedAt": "2026-08-21T04:52:32Z"
+        "number": 125776,
+        "title": "Codex dynamic tool progress duplicates a single call in Telegram",
+        "url": "https://github.com/openclaw/openclaw/issues/125776",
+        "state": "open",
+        "author": "sunnydongbo",
+        "updatedAt": "2026-08-21T07:55:22Z"
       },
       {
         "kind": "issue",
-        "number": 127009,
-        "title": "read tool embeds full-res image for non-vision models, base64 token bloat kills session",
-        "url": "https://github.com/openclaw/openclaw/issues/127009",
+        "number": 51441,
+        "title": "feat: expose resolved backend model in session_status and agent runtime",
+        "url": "https://github.com/openclaw/openclaw/issues/51441",
         "state": "open",
-        "author": "kagura-agent",
-        "updatedAt": "2026-08-21T04:52:13Z"
-      },
-      {
-        "kind": "issue",
-        "number": 126996,
-        "title": "[Bug]: skills JSON failures exit with empty stdout",
-        "url": "https://github.com/openclaw/openclaw/issues/126996",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-21T04:51:40Z"
+        "author": "Kyzcreig",
+        "updatedAt": "2026-08-21T07:54:28Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126714,
-        "title": "fix(ui): soften active split-pane indication",
-        "url": "https://github.com/openclaw/openclaw/pull/126714",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-21T04:52:50Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121533,
-        "title": "fix(cron): reject blank/invalid --webhook before delivery.mode flip",
-        "url": "https://github.com/openclaw/openclaw/pull/121533",
-        "state": "closed",
-        "author": "zyw02",
-        "updatedAt": "2026-08-21T04:52:45Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119195,
-        "title": "Cron: bound cross-tick admission",
-        "url": "https://github.com/openclaw/openclaw/pull/119195",
-        "state": "open",
-        "author": "mjzcng",
-        "updatedAt": "2026-08-21T04:52:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126825,
-        "title": "perf(sqlite): skip schema write lock on current state",
-        "url": "https://github.com/openclaw/openclaw/pull/126825",
-        "state": "open",
-        "author": "jason-allen-oneal",
-        "updatedAt": "2026-08-21T04:52:43Z"
-      },
-      {
-        "kind": "pr",
-        "number": 127012,
-        "title": "fix(release): require concrete validation retry groups",
-        "url": "https://github.com/openclaw/openclaw/pull/127012",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-21T04:52:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126973,
-        "title": "fix(cli): reject ignored onboarding options on recommendation actions",
-        "url": "https://github.com/openclaw/openclaw/pull/126973",
+        "number": 127060,
+        "title": "fix(setup): reject message with onboarding options",
+        "url": "https://github.com/openclaw/openclaw/pull/127060",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-21T04:52:35Z"
+        "updatedAt": "2026-08-21T07:55:22Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127013,
+        "title": "test(release): require live channel after restart",
+        "url": "https://github.com/openclaw/openclaw/pull/127013",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-21T07:55:20Z"
+      },
+      {
+        "kind": "pr",
+        "number": 116373,
+        "title": "fix(heartbeat): stop cron wakes from forcing the main session over heartbeat.session",
+        "url": "https://github.com/openclaw/openclaw/pull/116373",
+        "state": "open",
+        "author": "sloptop-the-terrible",
+        "updatedAt": "2026-08-21T07:55:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127093,
+        "title": "fix(browser): stop routing detached extension child sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/127093",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-21T07:55:13Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125471,
+        "title": "fix(models): keep Claude CLI OAuth available in Control UI",
+        "url": "https://github.com/openclaw/openclaw/pull/125471",
+        "state": "closed",
+        "author": "VACInc",
+        "updatedAt": "2026-08-21T07:55:05Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127094,
+        "title": "test(gateway): start full runtime in agent E2Es",
+        "url": "https://github.com/openclaw/openclaw/pull/127094",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-21T07:54:49Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-21T22:39:33.544Z",
+  "generatedAt": "2026-08-21T23:36:11.757Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -598,17 +598,17 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "capturedAt": "2026-08-21T22:39:33.544Z",
-      "issueOpen": 3855,
-      "issueClosed": 44293,
-      "prOpen": 2320,
-      "prClosed": 74677,
-      "prMerged": 26923,
+      "capturedAt": "2026-08-21T23:36:11.757Z",
+      "issueOpen": 3856,
+      "issueClosed": 44295,
+      "prOpen": 2324,
+      "prClosed": 74693,
+      "prMerged": 26938,
       "workflowRuns": 40000,
-      "stars": 387043,
+      "stars": 387045,
       "forks": 81299,
-      "subscribers": 1758,
-      "commits": 81398,
+      "subscribers": 1759,
+      "commits": 81413,
       "contributors": 3119,
       "source": "github-actions",
       "approximateDate": false
@@ -793,10 +793,10 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "stars": 387043,
+      "stars": 387045,
       "forks": 81299,
-      "subscribers": 1758,
-      "commits": 81398,
+      "subscribers": 1759,
+      "commits": 81413,
       "contributors": 3119
     }
   ],
@@ -804,77 +804,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 120884,
-        "title": "[Bug]: iOS — software keyboard is not exposed to VoiceOver in chat (text field itself is fine)",
-        "url": "https://github.com/openclaw/openclaw/issues/120884",
+        "number": 125254,
+        "title": "[Bug]: Degraded context engine makes the Codex runtime project the whole transcript into near-window turn inputs (up to 90% of the context window) on freshly started native threads",
+        "url": "https://github.com/openclaw/openclaw/issues/125254",
         "state": "open",
-        "author": "Matthew2244",
-        "updatedAt": "2026-08-21T22:37:24Z"
+        "author": "Marvinthebored",
+        "updatedAt": "2026-08-21T23:34:51Z"
       },
       {
         "kind": "issue",
-        "number": 120070,
-        "title": "Imported before_tool_call hook appears to be skipped for browser over /tools/invoke",
-        "url": "https://github.com/openclaw/openclaw/issues/120070",
+        "number": 125776,
+        "title": "Codex dynamic tool progress duplicates a single call in Telegram",
+        "url": "https://github.com/openclaw/openclaw/issues/125776",
         "state": "open",
-        "author": "jflavigne",
-        "updatedAt": "2026-08-21T22:37:14Z"
+        "author": "sunnydongbo",
+        "updatedAt": "2026-08-21T23:34:48Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127689,
+        "title": "[Bug]: macOS onboarding live test races Gateway restart after plugin install",
+        "url": "https://github.com/openclaw/openclaw/issues/127689",
+        "state": "open",
+        "author": "hannesrudolph",
+        "updatedAt": "2026-08-21T23:34:26Z"
+      },
+      {
+        "kind": "issue",
+        "number": 126868,
+        "title": "qa(runtime-pair): attribute transport assertions by cell and process",
+        "url": "https://github.com/openclaw/openclaw/issues/126868",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-21T23:34:16Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 119160,
-        "title": "fix(bedrock): honor Opus 5 maxTokens when reasoning is off",
-        "url": "https://github.com/openclaw/openclaw/pull/119160",
+        "number": 112896,
+        "title": "feat(snapshot): admit restored recovery points",
+        "url": "https://github.com/openclaw/openclaw/pull/112896",
         "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-21T22:39:24Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-08-21T23:35:59Z"
       },
       {
         "kind": "pr",
-        "number": 126424,
-        "title": "fix(gateway): keep conversation delivery within agent bindings",
-        "url": "https://github.com/openclaw/openclaw/pull/126424",
+        "number": 127690,
+        "title": "fix(discord): require whitespace-only suffix for closing code fence lines",
+        "url": "https://github.com/openclaw/openclaw/pull/127690",
+        "state": "open",
+        "author": "loulanyue",
+        "updatedAt": "2026-08-21T23:35:55Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120900,
+        "title": "feat(ui): review install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/120900",
         "state": "closed",
-        "author": "joshavant",
-        "updatedAt": "2026-08-21T22:39:22Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-21T23:35:51Z"
       },
       {
         "kind": "pr",
-        "number": 127660,
-        "title": "fix(gateway): let cloud sessions retry failed worker cleanup",
-        "url": "https://github.com/openclaw/openclaw/pull/127660",
+        "number": 117712,
+        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/117712",
+        "state": "open",
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-21T23:35:47Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127687,
+        "title": "fix(talk): keep unused speech secrets from blocking startup",
+        "url": "https://github.com/openclaw/openclaw/pull/127687",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-21T22:39:19Z"
+        "updatedAt": "2026-08-21T23:35:46Z"
       },
       {
         "kind": "pr",
-        "number": 96011,
-        "title": "Guard Skill Workshop create proposals from existing-skill patch content",
-        "url": "https://github.com/openclaw/openclaw/pull/96011",
-        "state": "open",
-        "author": "momothemage",
-        "updatedAt": "2026-08-21T22:39:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121799,
-        "title": "fix(gateway): usage.status no longer waits on provider HTTP",
-        "url": "https://github.com/openclaw/openclaw/pull/121799",
-        "state": "open",
-        "author": "sasan1200",
-        "updatedAt": "2026-08-21T22:39:06Z"
-      },
-      {
-        "kind": "pr",
-        "number": 84758,
-        "title": "feat(subagents): add execution backend placement contract",
-        "url": "https://github.com/openclaw/openclaw/pull/84758",
-        "state": "open",
-        "author": "napetrov",
-        "updatedAt": "2026-08-21T22:39:04Z"
+        "number": 127679,
+        "title": "fix(cli): render plugin search JSON failures",
+        "url": "https://github.com/openclaw/openclaw/pull/127679",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-21T23:35:21Z"
       }
     ]
   }

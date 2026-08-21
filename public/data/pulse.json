@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-21T17:43:05.933Z",
+  "generatedAt": "2026-08-21T18:54:09.615Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -598,17 +598,17 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "capturedAt": "2026-08-21T17:43:05.933Z",
-      "issueOpen": 3585,
-      "issueClosed": 44284,
-      "prOpen": 2328,
-      "prClosed": 74595,
-      "prMerged": 26848,
+      "capturedAt": "2026-08-21T18:54:09.615Z",
+      "issueOpen": 3641,
+      "issueClosed": 44288,
+      "prOpen": 2319,
+      "prClosed": 74625,
+      "prMerged": 26875,
       "workflowRuns": 40000,
-      "stars": 387032,
-      "forks": 81295,
+      "stars": 387037,
+      "forks": 81297,
       "subscribers": 1758,
-      "commits": 81325,
+      "commits": 81350,
       "contributors": 3119,
       "source": "github-actions",
       "approximateDate": false
@@ -793,10 +793,10 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "stars": 387032,
-      "forks": 81295,
+      "stars": 387037,
+      "forks": 81297,
       "subscribers": 1758,
-      "commits": 81325,
+      "commits": 81350,
       "contributors": 3119
     }
   ],
@@ -804,95 +804,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 127287,
-        "title": "github-copilot: copilot-developer-cli integration-id breaks GHE data-residency (*.ghe.com) tenants — request config escape hatch",
-        "url": "https://github.com/openclaw/openclaw/issues/127287",
+        "number": 118185,
+        "title": "[Bug]: One claude-cli turn is written to the transcript twice by two writers that assemble the reply differently",
+        "url": "https://github.com/openclaw/openclaw/issues/118185",
         "state": "open",
-        "author": "phoenixgao",
-        "updatedAt": "2026-08-21T17:42:28Z"
+        "author": "rodrigo-fonseca-oliveira",
+        "updatedAt": "2026-08-21T18:53:52Z"
       },
       {
         "kind": "issue",
-        "number": 124689,
-        "title": "[Bug]: Model picker only applies changes to new sessions; Ollama Cloud requests sign-in despite configured API key",
-        "url": "https://github.com/openclaw/openclaw/issues/124689",
+        "number": 113219,
+        "title": "[Bug]: exec / read tools mangle GBK-encoded output on Windows (cp936), corrupting transcript and causing empty-response loop",
+        "url": "https://github.com/openclaw/openclaw/issues/113219",
         "state": "open",
-        "author": "Jaulustus",
-        "updatedAt": "2026-08-21T17:42:16Z"
+        "author": "DIPENG-02",
+        "updatedAt": "2026-08-21T18:53:52Z"
       },
       {
         "kind": "issue",
-        "number": 127312,
-        "title": "[Bug]: migrate leaf commands discard parent-positioned options",
-        "url": "https://github.com/openclaw/openclaw/issues/127312",
+        "number": 120223,
+        "title": "[Feature]: Add `provider` label to `openclaw_tool_execution_total` for per-provider image cost tracking",
+        "url": "https://github.com/openclaw/openclaw/issues/120223",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-21T17:42:02Z"
+        "author": "EduHerranz",
+        "updatedAt": "2026-08-21T18:53:47Z"
       },
       {
         "kind": "issue",
-        "number": 126311,
-        "title": "[Bug]: Fallback model keeps running after the primary's terminal error ended the run — task stays running forever, cancel says 'already terminal'",
-        "url": "https://github.com/openclaw/openclaw/issues/126311",
+        "number": 118030,
+        "title": "[Feature]: Feishu group replies can mention the human sender",
+        "url": "https://github.com/openclaw/openclaw/issues/118030",
         "state": "open",
-        "author": "aleps001",
-        "updatedAt": "2026-08-21T17:41:57Z"
+        "author": "Cao150702",
+        "updatedAt": "2026-08-21T18:53:34Z"
+      },
+      {
+        "kind": "issue",
+        "number": 126879,
+        "title": "[Bug]: renamed trajectory archives (*.trajectory.jsonl.deleted.<ts>) slip into the session memory corpus — archive filename predicates lack a trajectory guard",
+        "url": "https://github.com/openclaw/openclaw/issues/126879",
+        "state": "open",
+        "author": "anyech",
+        "updatedAt": "2026-08-21T18:53:20Z"
+      },
+      {
+        "kind": "issue",
+        "number": 114169,
+        "title": "[Bug]: BUSY_ACTIVITY_STALE_THRESHOLD_MS hardcoded at 25min with no config surface — health monitor restarts channel mid-turn",
+        "url": "https://github.com/openclaw/openclaw/issues/114169",
+        "state": "open",
+        "author": "Serjinho1",
+        "updatedAt": "2026-08-21T18:53:15Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 119209,
-        "title": "fix(openai): route GPT-Live through supported auth endpoints",
-        "url": "https://github.com/openclaw/openclaw/pull/119209",
+        "number": 126618,
+        "title": "fix: Tool Search directory/tools wrap native read/exec in tool_call",
+        "url": "https://github.com/openclaw/openclaw/pull/126618",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-21T17:42:59Z"
+        "author": "RaviTharuma",
+        "updatedAt": "2026-08-21T18:54:03Z"
       },
       {
         "kind": "pr",
-        "number": 113462,
-        "title": "fix(moonshot): type anyOf branches so Kimi accepts MCP tool schemas",
-        "url": "https://github.com/openclaw/openclaw/pull/113462",
+        "number": 123699,
+        "title": "fix(logs): report truncated channel tails",
+        "url": "https://github.com/openclaw/openclaw/pull/123699",
         "state": "open",
-        "author": "harjothkhara",
-        "updatedAt": "2026-08-21T17:42:55Z"
+        "author": "masatohoshino",
+        "updatedAt": "2026-08-21T18:54:01Z"
       },
       {
         "kind": "pr",
-        "number": 127226,
-        "title": "feat(signal): link first account from setup QR",
-        "url": "https://github.com/openclaw/openclaw/pull/127226",
-        "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-21T17:42:49Z"
+        "number": 125471,
+        "title": "fix(models): keep Claude CLI OAuth available in Control UI",
+        "url": "https://github.com/openclaw/openclaw/pull/125471",
+        "state": "closed",
+        "author": "VACInc",
+        "updatedAt": "2026-08-21T18:53:57Z"
       },
       {
         "kind": "pr",
-        "number": 127309,
-        "title": "fix(whatsapp): honor channels.whatsapp.implicitMentions in group gating",
-        "url": "https://github.com/openclaw/openclaw/pull/127309",
+        "number": 127370,
+        "title": "fix(cli): give hooks enable/disable failures a next step",
+        "url": "https://github.com/openclaw/openclaw/pull/127370",
         "state": "open",
-        "author": "aichohan",
-        "updatedAt": "2026-08-21T17:42:46Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-21T18:53:56Z"
       },
       {
         "kind": "pr",
-        "number": 127026,
-        "title": "fix(codex): support managed runtime 0.149",
-        "url": "https://github.com/openclaw/openclaw/pull/127026",
+        "number": 126496,
+        "title": "fix(cron): preserve Codex trigger exec authority",
+        "url": "https://github.com/openclaw/openclaw/pull/126496",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-21T17:42:40Z"
+        "author": "jalehman",
+        "updatedAt": "2026-08-21T18:53:56Z"
       },
       {
         "kind": "pr",
-        "number": 127285,
-        "title": "fix(qa): exercise a real config restart boundary",
-        "url": "https://github.com/openclaw/openclaw/pull/127285",
+        "number": 123535,
+        "title": "fix(ui): avoid session catalog refresh storms",
+        "url": "https://github.com/openclaw/openclaw/pull/123535",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-21T17:42:38Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-21T18:53:56Z"
       }
     ]
   }

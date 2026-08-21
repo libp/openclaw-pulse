@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-21T13:09:14.726Z",
+  "generatedAt": "2026-08-21T13:56:51.042Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -598,18 +598,18 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "capturedAt": "2026-08-21T13:09:14.726Z",
-      "issueOpen": 3554,
-      "issueClosed": 44265,
-      "prOpen": 2316,
-      "prClosed": 74535,
-      "prMerged": 26804,
+      "capturedAt": "2026-08-21T13:56:51.042Z",
+      "issueOpen": 3555,
+      "issueClosed": 44271,
+      "prOpen": 2317,
+      "prClosed": 74541,
+      "prMerged": 26810,
       "workflowRuns": 40000,
-      "stars": 387014,
+      "stars": 387021,
       "forks": 81292,
       "subscribers": 1759,
-      "commits": 81280,
-      "contributors": 3117,
+      "commits": 81287,
+      "contributors": 3119,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -793,106 +793,88 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "stars": 387014,
+      "stars": 387021,
       "forks": 81292,
       "subscribers": 1759,
-      "commits": 81280,
-      "contributors": 3117
+      "commits": 81287,
+      "contributors": 3119
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 127176,
-        "title": "[Bug]: CLI and Node Host alternate device metadata approvals on Windows",
-        "url": "https://github.com/openclaw/openclaw/issues/127176",
+        "number": 115430,
+        "title": "[Bug]: Corepack fails with EPERM creating pnpm shim in C:\\Program Files\\nodejs on Windows",
+        "url": "https://github.com/openclaw/openclaw/issues/115430",
         "state": "open",
-        "author": "wszkxlllll",
-        "updatedAt": "2026-08-21T13:08:54Z"
+        "author": "africoding",
+        "updatedAt": "2026-08-21T13:56:18Z"
       },
       {
         "kind": "issue",
-        "number": 127183,
-        "title": "Skill watcher generations are unbounded across execution roots",
-        "url": "https://github.com/openclaw/openclaw/issues/127183",
+        "number": 127195,
+        "title": "Sixteen call sites emit an identical \"changed while starting work\" error with no reason code, so the cause is not knowable from production output",
+        "url": "https://github.com/openclaw/openclaw/issues/127195",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-21T13:08:39Z"
-      },
-      {
-        "kind": "issue",
-        "number": 11676,
-        "title": "[Feature]: Support running OpenClaw on devices without Linux / Node.js (inspired by MimiClaw)",
-        "url": "https://github.com/openclaw/openclaw/issues/11676",
-        "state": "open",
-        "author": "crispyberry",
-        "updatedAt": "2026-08-21T13:07:17Z"
-      },
-      {
-        "kind": "issue",
-        "number": 124705,
-        "title": "doctor: configured multi-account Telegram reported as first-time setup",
-        "url": "https://github.com/openclaw/openclaw/issues/124705",
-        "state": "open",
-        "author": "ggeutzzang",
-        "updatedAt": "2026-08-21T13:07:09Z"
+        "author": "abacha",
+        "updatedAt": "2026-08-21T13:55:24Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126028,
-        "title": "fix(providers): report request acceptance consistently",
-        "url": "https://github.com/openclaw/openclaw/pull/126028",
-        "state": "open",
-        "author": "osolmaz",
-        "updatedAt": "2026-08-21T13:09:11Z"
+        "number": 127198,
+        "title": "improve(ui): declutter Automations across desktop and mobile",
+        "url": "https://github.com/openclaw/openclaw/pull/127198",
+        "state": "closed",
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-21T13:56:47Z"
       },
       {
         "kind": "pr",
-        "number": 126662,
-        "title": "fix(talk): activate configured realtime voice provider",
-        "url": "https://github.com/openclaw/openclaw/pull/126662",
+        "number": 120606,
+        "title": "fix: agent.wait can return error before the same run later ends successfully",
+        "url": "https://github.com/openclaw/openclaw/pull/120606",
         "state": "open",
-        "author": "itkdm",
-        "updatedAt": "2026-08-21T13:09:06Z"
+        "author": "RileyJJY",
+        "updatedAt": "2026-08-21T13:56:44Z"
       },
       {
         "kind": "pr",
-        "number": 126503,
-        "title": "fix(agents): stop transcript rewrite replay from aborting and losing dedup on idempotency keys",
-        "url": "https://github.com/openclaw/openclaw/pull/126503",
-        "state": "open",
-        "author": "chelsealong",
-        "updatedAt": "2026-08-21T13:09:04Z"
-      },
-      {
-        "kind": "pr",
-        "number": 127190,
-        "title": "fix(tui): stop local shell commands when exiting",
-        "url": "https://github.com/openclaw/openclaw/pull/127190",
+        "number": 127194,
+        "title": "fix(ui): make Lobsterdex Copy link recover from clipboard failures",
+        "url": "https://github.com/openclaw/openclaw/pull/127194",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-21T13:09:02Z"
+        "updatedAt": "2026-08-21T13:56:40Z"
       },
       {
         "kind": "pr",
-        "number": 127014,
-        "title": "fix(release): report blockers before diagnostics finish",
-        "url": "https://github.com/openclaw/openclaw/pull/127014",
+        "number": 127138,
+        "title": "perf(ci): parallelize installer smoke validation",
+        "url": "https://github.com/openclaw/openclaw/pull/127138",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-21T13:08:59Z"
+        "updatedAt": "2026-08-21T13:56:38Z"
       },
       {
         "kind": "pr",
-        "number": 127177,
-        "title": "fix(gateway): prevent repeated Windows device approval",
-        "url": "https://github.com/openclaw/openclaw/pull/127177",
+        "number": 110429,
+        "title": "fix(comfy): bound workflowPath file reads",
+        "url": "https://github.com/openclaw/openclaw/pull/110429",
         "state": "open",
-        "author": "wszkxlllll",
-        "updatedAt": "2026-08-21T13:08:52Z"
+        "author": "RileyJJY",
+        "updatedAt": "2026-08-21T13:56:28Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127160,
+        "title": "fix(ci): isolate performance candidate trust",
+        "url": "https://github.com/openclaw/openclaw/pull/127160",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-21T13:56:18Z"
       }
     ]
   }

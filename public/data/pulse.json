@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-21T20:39:22.352Z",
+  "generatedAt": "2026-08-21T21:36:42.153Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -598,17 +598,17 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "capturedAt": "2026-08-21T20:39:22.352Z",
-      "issueOpen": 3755,
-      "issueClosed": 44289,
-      "prOpen": 2311,
-      "prClosed": 74651,
-      "prMerged": 26899,
+      "capturedAt": "2026-08-21T21:36:42.153Z",
+      "issueOpen": 3825,
+      "issueClosed": 44291,
+      "prOpen": 2317,
+      "prClosed": 74661,
+      "prMerged": 26909,
       "workflowRuns": 40000,
-      "stars": 387041,
-      "forks": 81298,
+      "stars": 387043,
+      "forks": 81300,
       "subscribers": 1758,
-      "commits": 81374,
+      "commits": 81384,
       "contributors": 3119,
       "source": "github-actions",
       "approximateDate": false
@@ -793,10 +793,10 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "stars": 387041,
-      "forks": 81298,
+      "stars": 387043,
+      "forks": 81300,
       "subscribers": 1758,
-      "commits": 81374,
+      "commits": 81384,
       "contributors": 3119
     }
   ],
@@ -804,77 +804,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 127517,
-        "title": "Matrix unclean restart drops cached events while retaining their sync cursor",
-        "url": "https://github.com/openclaw/openclaw/issues/127517",
+        "number": 127608,
+        "title": "Logbook closes its SQLite owner while OCR analysis remains in flight",
+        "url": "https://github.com/openclaw/openclaw/issues/127608",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-21T20:39:17Z"
+        "updatedAt": "2026-08-21T21:36:22Z"
       },
       {
         "kind": "issue",
-        "number": 127514,
-        "title": "Secret-FD delivery failure can leave rejected child startup descendants alive",
-        "url": "https://github.com/openclaw/openclaw/issues/127514",
+        "number": 127616,
+        "title": "Rapid macOS Browser Control toggles race independent CAS transactions and lose the latest intent",
+        "url": "https://github.com/openclaw/openclaw/issues/127616",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-21T20:39:13Z"
+        "updatedAt": "2026-08-21T21:36:21Z"
       },
       {
         "kind": "issue",
-        "number": 127518,
-        "title": "[Bug]: Terminal precheck-overflow abort is silent on stable v2026.7.1 (regression of #85712, fix not in stable channel)",
-        "url": "https://github.com/openclaw/openclaw/issues/127518",
-        "state": "open",
-        "author": "oleagui",
-        "updatedAt": "2026-08-21T20:39:07Z"
-      },
-      {
-        "kind": "issue",
-        "number": 112698,
-        "title": "[Bug]: Codex app-server notification path starves Gateway main thread ~22s — quadratic reasoning-snapshot rebuild per streaming delta (2026.7.1-2)",
-        "url": "https://github.com/openclaw/openclaw/issues/112698",
-        "state": "open",
-        "author": "hvhoon",
-        "updatedAt": "2026-08-21T20:39:00Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127528,
-        "title": "Compaction omits the aggregate bootstrap-truncation notice",
-        "url": "https://github.com/openclaw/openclaw/issues/127528",
+        "number": 127607,
+        "title": "Media-understanding results have no hard per-result or aggregate text budget",
+        "url": "https://github.com/openclaw/openclaw/issues/127607",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-21T20:38:28Z"
+        "updatedAt": "2026-08-21T21:36:12Z"
       },
       {
         "kind": "issue",
-        "number": 127523,
-        "title": "Recovery compaction swallows caller abort and continues post-cancel work",
-        "url": "https://github.com/openclaw/openclaw/issues/127523",
+        "number": 86574,
+        "title": "feat(gateway): allow per-agent replyToCurrent=false to disable auto-attaching assistant text as reply",
+        "url": "https://github.com/openclaw/openclaw/issues/86574",
+        "state": "open",
+        "author": "90yuwang",
+        "updatedAt": "2026-08-21T21:36:09Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127615,
+        "title": "macOS Browser Control can pair a sparse failed-read config with a current hash and delete unrelated settings",
+        "url": "https://github.com/openclaw/openclaw/issues/127615",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-21T20:38:01Z"
+        "updatedAt": "2026-08-21T21:36:01Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127606,
+        "title": "Reply cancellation is dropped before media-understanding provider and CLI work",
+        "url": "https://github.com/openclaw/openclaw/issues/127606",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-21T21:35:58Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 127503,
-        "title": "fix(gateway): clear stale credential warnings after channel plugin removal",
-        "url": "https://github.com/openclaw/openclaw/pull/127503",
+        "number": 125718,
+        "title": "fix(matrix): bound poll relation pagination",
+        "url": "https://github.com/openclaw/openclaw/pull/125718",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-21T20:39:06Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113894,
-        "title": "fix(ui): restore automatic agent fast-mode settings",
-        "url": "https://github.com/openclaw/openclaw/pull/113894",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-21T20:39:05Z"
+        "author": "wanyongstar",
+        "updatedAt": "2026-08-21T21:36:24Z"
       },
       {
         "kind": "pr",
@@ -883,34 +874,43 @@
         "url": "https://github.com/openclaw/openclaw/pull/117712",
         "state": "open",
         "author": "dependabot[bot]",
-        "updatedAt": "2026-08-21T20:39:04Z"
+        "updatedAt": "2026-08-21T21:36:11Z"
       },
       {
         "kind": "pr",
-        "number": 125471,
-        "title": "fix(models): keep Claude CLI OAuth available in Control UI",
-        "url": "https://github.com/openclaw/openclaw/pull/125471",
+        "number": 120900,
+        "title": "feat(ui): review install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/120900",
         "state": "closed",
-        "author": "VACInc",
-        "updatedAt": "2026-08-21T20:38:39Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-21T21:35:31Z"
       },
       {
         "kind": "pr",
-        "number": 126424,
-        "title": "fix(gateway): keep conversation delivery within agent bindings",
-        "url": "https://github.com/openclaw/openclaw/pull/126424",
-        "state": "closed",
-        "author": "joshavant",
-        "updatedAt": "2026-08-21T20:38:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117413,
-        "title": "fix(google): enforce terminal video generation ownership",
-        "url": "https://github.com/openclaw/openclaw/pull/117413",
+        "number": 126889,
+        "title": "docs: add Perplexity Agent API provider, MCP, and CLI; Sonar turndown",
+        "url": "https://github.com/openclaw/openclaw/pull/126889",
         "state": "open",
+        "author": "andrewmadson-pplx",
+        "updatedAt": "2026-08-21T21:35:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127554,
+        "title": "fix(cli): tell operators a racing config set changed nothing",
+        "url": "https://github.com/openclaw/openclaw/pull/127554",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-21T20:38:16Z"
+        "updatedAt": "2026-08-21T21:34:56Z"
+      },
+      {
+        "kind": "pr",
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-21T21:34:42Z"
       }
     ]
   }

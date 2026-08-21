@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-21T15:46:39.398Z",
+  "generatedAt": "2026-08-21T17:43:05.933Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -598,17 +598,17 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "capturedAt": "2026-08-21T15:46:39.398Z",
-      "issueOpen": 3569,
-      "issueClosed": 44280,
-      "prOpen": 2324,
-      "prClosed": 74559,
-      "prMerged": 26821,
+      "capturedAt": "2026-08-21T17:43:05.933Z",
+      "issueOpen": 3585,
+      "issueClosed": 44284,
+      "prOpen": 2328,
+      "prClosed": 74595,
+      "prMerged": 26848,
       "workflowRuns": 40000,
-      "stars": 387028,
-      "forks": 81294,
-      "subscribers": 1759,
-      "commits": 81299,
+      "stars": 387032,
+      "forks": 81295,
+      "subscribers": 1758,
+      "commits": 81325,
       "contributors": 3119,
       "source": "github-actions",
       "approximateDate": false
@@ -793,10 +793,10 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "stars": 387028,
-      "forks": 81294,
-      "subscribers": 1759,
-      "commits": 81299,
+      "stars": 387032,
+      "forks": 81295,
+      "subscribers": 1758,
+      "commits": 81325,
       "contributors": 3119
     }
   ],
@@ -804,50 +804,59 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 127234,
-        "title": "Inbound media staging: no cross-turn dedupe, no GC — 168x duplication (3.0 GB) from thread-bound Slack attachments",
-        "url": "https://github.com/openclaw/openclaw/issues/127234",
+        "number": 127287,
+        "title": "github-copilot: copilot-developer-cli integration-id breaks GHE data-residency (*.ghe.com) tenants — request config escape hatch",
+        "url": "https://github.com/openclaw/openclaw/issues/127287",
         "state": "open",
-        "author": "billbarhydt",
-        "updatedAt": "2026-08-21T15:45:58Z"
+        "author": "phoenixgao",
+        "updatedAt": "2026-08-21T17:42:28Z"
       },
       {
         "kind": "issue",
-        "number": 126282,
-        "title": "Channel outbound sends leave no durable receipt — silent-failure forensics requires snowflake archaeology",
-        "url": "https://github.com/openclaw/openclaw/issues/126282",
+        "number": 124689,
+        "title": "[Bug]: Model picker only applies changes to new sessions; Ollama Cloud requests sign-in despite configured API key",
+        "url": "https://github.com/openclaw/openclaw/issues/124689",
         "state": "open",
-        "author": "Agonb",
-        "updatedAt": "2026-08-21T15:45:56Z"
+        "author": "Jaulustus",
+        "updatedAt": "2026-08-21T17:42:16Z"
       },
       {
         "kind": "issue",
-        "number": 126296,
-        "title": "Compaction config usability: softThresholdTokens name implies absolute level but is distance-from-edge; no guard when keepRecentTokens >= threshold",
-        "url": "https://github.com/openclaw/openclaw/issues/126296",
+        "number": 127312,
+        "title": "[Bug]: migrate leaf commands discard parent-positioned options",
+        "url": "https://github.com/openclaw/openclaw/issues/127312",
         "state": "open",
-        "author": "r3n3x",
-        "updatedAt": "2026-08-21T15:45:54Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-21T17:42:02Z"
       },
       {
         "kind": "issue",
-        "number": 127238,
-        "title": "TUI: status spinner freezes on 'processing' after run is aborted (wasActiveRun mismatch)",
-        "url": "https://github.com/openclaw/openclaw/issues/127238",
+        "number": 126311,
+        "title": "[Bug]: Fallback model keeps running after the primary's terminal error ended the run — task stays running forever, cancel says 'already terminal'",
+        "url": "https://github.com/openclaw/openclaw/issues/126311",
         "state": "open",
-        "author": "isaias210",
-        "updatedAt": "2026-08-21T15:45:47Z"
+        "author": "aleps001",
+        "updatedAt": "2026-08-21T17:41:57Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 127248,
-        "title": "feat(opencode): add anonymous Ox Alpha preview",
-        "url": "https://github.com/openclaw/openclaw/pull/127248",
+        "number": 119209,
+        "title": "fix(openai): route GPT-Live through supported auth endpoints",
+        "url": "https://github.com/openclaw/openclaw/pull/119209",
         "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-08-21T15:46:32Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-21T17:42:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113462,
+        "title": "fix(moonshot): type anyOf branches so Kimi accepts MCP tool schemas",
+        "url": "https://github.com/openclaw/openclaw/pull/113462",
+        "state": "open",
+        "author": "harjothkhara",
+        "updatedAt": "2026-08-21T17:42:55Z"
       },
       {
         "kind": "pr",
@@ -856,43 +865,34 @@
         "url": "https://github.com/openclaw/openclaw/pull/127226",
         "state": "open",
         "author": "clawsweeper",
-        "updatedAt": "2026-08-21T15:46:34Z"
+        "updatedAt": "2026-08-21T17:42:49Z"
       },
       {
         "kind": "pr",
-        "number": 91479,
-        "title": "fix(acp): preserve timeout progress summaries",
-        "url": "https://github.com/openclaw/openclaw/pull/91479",
+        "number": 127309,
+        "title": "fix(whatsapp): honor channels.whatsapp.implicitMentions in group gating",
+        "url": "https://github.com/openclaw/openclaw/pull/127309",
         "state": "open",
-        "author": "moeedahmed",
-        "updatedAt": "2026-08-21T15:46:30Z"
+        "author": "aichohan",
+        "updatedAt": "2026-08-21T17:42:46Z"
       },
       {
         "kind": "pr",
-        "number": 127138,
-        "title": "perf(ci): parallelize installer smoke validation",
-        "url": "https://github.com/openclaw/openclaw/pull/127138",
+        "number": 127026,
+        "title": "fix(codex): support managed runtime 0.149",
+        "url": "https://github.com/openclaw/openclaw/pull/127026",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-21T15:46:19Z"
+        "updatedAt": "2026-08-21T17:42:40Z"
       },
       {
         "kind": "pr",
-        "number": 82540,
-        "title": "fix(wechat): preserve existing accounts across hot reload",
-        "url": "https://github.com/openclaw/openclaw/pull/82540",
+        "number": 127285,
+        "title": "fix(qa): exercise a real config restart boundary",
+        "url": "https://github.com/openclaw/openclaw/pull/127285",
         "state": "open",
-        "author": "NewdlDewdl",
-        "updatedAt": "2026-08-21T15:46:08Z"
-      },
-      {
-        "kind": "pr",
-        "number": 90970,
-        "title": "i18n(fr): expand French glossary with page titles and common terms",
-        "url": "https://github.com/openclaw/openclaw/pull/90970",
-        "state": "open",
-        "author": "notadev99",
-        "updatedAt": "2026-08-21T15:45:59Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-21T17:42:38Z"
       }
     ]
   }

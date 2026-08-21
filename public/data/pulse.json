@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-21T09:51:02.066Z",
+  "generatedAt": "2026-08-21T13:09:14.726Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -598,18 +598,18 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "capturedAt": "2026-08-21T09:51:02.066Z",
-      "issueOpen": 3550,
-      "issueClosed": 44254,
-      "prOpen": 2308,
-      "prClosed": 74510,
-      "prMerged": 26784,
+      "capturedAt": "2026-08-21T13:09:14.726Z",
+      "issueOpen": 3554,
+      "issueClosed": 44265,
+      "prOpen": 2316,
+      "prClosed": 74535,
+      "prMerged": 26804,
       "workflowRuns": 40000,
-      "stars": 386995,
-      "forks": 81286,
+      "stars": 387014,
+      "forks": 81292,
       "subscribers": 1759,
-      "commits": 81260,
-      "contributors": 3116,
+      "commits": 81280,
+      "contributors": 3117,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -793,124 +793,106 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "stars": 386995,
-      "forks": 81286,
+      "stars": 387014,
+      "forks": 81292,
       "subscribers": 1759,
-      "commits": 81260,
-      "contributors": 3116
+      "commits": 81280,
+      "contributors": 3117
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 115328,
-        "title": "[Bug]: iMessage final replies can be stranded after send_attempt_started (no reconcileUnknownSend; refuses blind replay)",
-        "url": "https://github.com/openclaw/openclaw/issues/115328",
+        "number": 127176,
+        "title": "[Bug]: CLI and Node Host alternate device metadata approvals on Windows",
+        "url": "https://github.com/openclaw/openclaw/issues/127176",
         "state": "open",
-        "author": "clawSean",
-        "updatedAt": "2026-08-21T09:50:19Z"
+        "author": "wszkxlllll",
+        "updatedAt": "2026-08-21T13:08:54Z"
       },
       {
         "kind": "issue",
-        "number": 115826,
-        "title": "[Feature]: Let plugins render transient TUI run status",
-        "url": "https://github.com/openclaw/openclaw/issues/115826",
+        "number": 127183,
+        "title": "Skill watcher generations are unbounded across execution roots",
+        "url": "https://github.com/openclaw/openclaw/issues/127183",
         "state": "open",
-        "author": "LJ-XRPL",
-        "updatedAt": "2026-08-21T09:50:04Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-21T13:08:39Z"
       },
       {
         "kind": "issue",
-        "number": 114967,
-        "title": "[Bug]: agent-driven live update left a launchctl submit keepalive validator force-restarting the gateway every ~2 minutes",
-        "url": "https://github.com/openclaw/openclaw/issues/114967",
+        "number": 11676,
+        "title": "[Feature]: Support running OpenClaw on devices without Linux / Node.js (inspired by MimiClaw)",
+        "url": "https://github.com/openclaw/openclaw/issues/11676",
         "state": "open",
-        "author": "piotx",
-        "updatedAt": "2026-08-21T09:49:59Z"
+        "author": "crispyberry",
+        "updatedAt": "2026-08-21T13:07:17Z"
       },
       {
         "kind": "issue",
-        "number": 115354,
-        "title": "Catch-all binding creates stale runtime bindings that override ACP configured bindings",
-        "url": "https://github.com/openclaw/openclaw/issues/115354",
+        "number": 124705,
+        "title": "doctor: configured multi-account Telegram reported as first-time setup",
+        "url": "https://github.com/openclaw/openclaw/issues/124705",
         "state": "open",
-        "author": "Enominera",
-        "updatedAt": "2026-08-21T09:49:58Z"
-      },
-      {
-        "kind": "issue",
-        "number": 115368,
-        "title": "Add 'openclaw tools' subcommand for cross-source tool discovery (built-in / plugin / MCP)",
-        "url": "https://github.com/openclaw/openclaw/issues/115368",
-        "state": "open",
-        "author": "Wanxian-Liu",
-        "updatedAt": "2026-08-21T09:49:53Z"
-      },
-      {
-        "kind": "issue",
-        "number": 125461,
-        "title": "iMessage CLI treats bare numeric chat row IDs as phone handles despite `handle/chat_id` help",
-        "url": "https://github.com/openclaw/openclaw/issues/125461",
-        "state": "open",
-        "author": "lockhartheavyindustries",
-        "updatedAt": "2026-08-21T09:49:49Z"
+        "author": "ggeutzzang",
+        "updatedAt": "2026-08-21T13:07:09Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126618,
-        "title": "fix: Tool Search directory/tools wrap native read/exec in tool_call",
-        "url": "https://github.com/openclaw/openclaw/pull/126618",
+        "number": 126028,
+        "title": "fix(providers): report request acceptance consistently",
+        "url": "https://github.com/openclaw/openclaw/pull/126028",
         "state": "open",
-        "author": "RaviTharuma",
-        "updatedAt": "2026-08-21T09:50:55Z"
+        "author": "osolmaz",
+        "updatedAt": "2026-08-21T13:09:11Z"
       },
       {
         "kind": "pr",
-        "number": 117641,
-        "title": "fix(gateway): active turns are interrupted on SIGTERM",
-        "url": "https://github.com/openclaw/openclaw/pull/117641",
+        "number": 126662,
+        "title": "fix(talk): activate configured realtime voice provider",
+        "url": "https://github.com/openclaw/openclaw/pull/126662",
         "state": "open",
-        "author": "sjf-oa",
-        "updatedAt": "2026-08-21T09:50:46Z"
+        "author": "itkdm",
+        "updatedAt": "2026-08-21T13:09:06Z"
       },
       {
         "kind": "pr",
-        "number": 125664,
-        "title": "fix(feishu): promote send attachment aliases instead of silent drop",
-        "url": "https://github.com/openclaw/openclaw/pull/125664",
+        "number": 126503,
+        "title": "fix(agents): stop transcript rewrite replay from aborting and losing dedup on idempotency keys",
+        "url": "https://github.com/openclaw/openclaw/pull/126503",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-21T09:50:44Z"
+        "author": "chelsealong",
+        "updatedAt": "2026-08-21T13:09:04Z"
       },
       {
         "kind": "pr",
-        "number": 126619,
-        "title": "fix: HTTP chat still sends a full system prompt when tools.profile is minimal",
-        "url": "https://github.com/openclaw/openclaw/pull/126619",
+        "number": 127190,
+        "title": "fix(tui): stop local shell commands when exiting",
+        "url": "https://github.com/openclaw/openclaw/pull/127190",
         "state": "open",
-        "author": "RaviTharuma",
-        "updatedAt": "2026-08-21T09:50:26Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-21T13:09:02Z"
       },
       {
         "kind": "pr",
-        "number": 126616,
-        "title": "fix: HTTP chat binds one unbounded session from a constant OpenAI user",
-        "url": "https://github.com/openclaw/openclaw/pull/126616",
+        "number": 127014,
+        "title": "fix(release): report blockers before diagnostics finish",
+        "url": "https://github.com/openclaw/openclaw/pull/127014",
         "state": "open",
-        "author": "RaviTharuma",
-        "updatedAt": "2026-08-21T09:50:22Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-21T13:08:59Z"
       },
       {
         "kind": "pr",
-        "number": 117574,
-        "title": "[codex] fix skills prompt canonical locations",
-        "url": "https://github.com/openclaw/openclaw/pull/117574",
+        "number": 127177,
+        "title": "fix(gateway): prevent repeated Windows device approval",
+        "url": "https://github.com/openclaw/openclaw/pull/127177",
         "state": "open",
-        "author": "marchpure",
-        "updatedAt": "2026-08-21T09:50:11Z"
+        "author": "wszkxlllll",
+        "updatedAt": "2026-08-21T13:08:52Z"
       }
     ]
   }

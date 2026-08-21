@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-21T08:56:35.862Z",
+  "generatedAt": "2026-08-21T09:51:02.066Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -598,17 +598,17 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "capturedAt": "2026-08-21T08:56:35.862Z",
-      "issueOpen": 3546,
-      "issueClosed": 44251,
+      "capturedAt": "2026-08-21T09:51:02.066Z",
+      "issueOpen": 3550,
+      "issueClosed": 44254,
       "prOpen": 2308,
-      "prClosed": 74498,
-      "prMerged": 26776,
+      "prClosed": 74510,
+      "prMerged": 26784,
       "workflowRuns": 40000,
-      "stars": 386988,
-      "forks": 81285,
+      "stars": 386995,
+      "forks": 81286,
       "subscribers": 1759,
-      "commits": 81252,
+      "commits": 81260,
       "contributors": 3116,
       "source": "github-actions",
       "approximateDate": false
@@ -793,10 +793,10 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "stars": 386988,
-      "forks": 81285,
+      "stars": 386995,
+      "forks": 81286,
       "subscribers": 1759,
-      "commits": 81252,
+      "commits": 81260,
       "contributors": 3116
     }
   ],
@@ -804,69 +804,60 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 97616,
-        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
-        "url": "https://github.com/openclaw/openclaw/issues/97616",
+        "number": 115328,
+        "title": "[Bug]: iMessage final replies can be stranded after send_attempt_started (no reconcileUnknownSend; refuses blind replay)",
+        "url": "https://github.com/openclaw/openclaw/issues/115328",
         "state": "open",
-        "author": "avp717",
-        "updatedAt": "2026-08-21T08:56:24Z"
+        "author": "clawSean",
+        "updatedAt": "2026-08-21T09:50:19Z"
       },
       {
         "kind": "issue",
-        "number": 127119,
-        "title": "[Bug]: Model Studio (Qwen/DashScope) requests send max_completion_tokens, but the vendor documents max_tokens",
-        "url": "https://github.com/openclaw/openclaw/issues/127119",
+        "number": 115826,
+        "title": "[Feature]: Let plugins render transient TUI run status",
+        "url": "https://github.com/openclaw/openclaw/issues/115826",
         "state": "open",
-        "author": "rrmars",
-        "updatedAt": "2026-08-21T08:55:14Z"
+        "author": "LJ-XRPL",
+        "updatedAt": "2026-08-21T09:50:04Z"
       },
       {
         "kind": "issue",
-        "number": 78537,
-        "title": "[Docs]: `allowInsecurePath` Linux uid-check behavior is undocumented; users on Linux cannot use system-package binaries (e.g. /usr/bin/op) without it",
-        "url": "https://github.com/openclaw/openclaw/issues/78537",
+        "number": 114967,
+        "title": "[Bug]: agent-driven live update left a launchctl submit keepalive validator force-restarting the gateway every ~2 minutes",
+        "url": "https://github.com/openclaw/openclaw/issues/114967",
         "state": "open",
-        "author": "esqandil",
-        "updatedAt": "2026-08-21T08:55:10Z"
+        "author": "piotx",
+        "updatedAt": "2026-08-21T09:49:59Z"
       },
       {
         "kind": "issue",
-        "number": 113093,
-        "title": "Bug: v2026.7.1-2 full profile + llama.cpp MTP server returns 413/400 on tool payload",
-        "url": "https://github.com/openclaw/openclaw/issues/113093",
+        "number": 115354,
+        "title": "Catch-all binding creates stale runtime bindings that override ACP configured bindings",
+        "url": "https://github.com/openclaw/openclaw/issues/115354",
         "state": "open",
-        "author": "j7l9",
-        "updatedAt": "2026-08-21T08:55:08Z"
+        "author": "Enominera",
+        "updatedAt": "2026-08-21T09:49:58Z"
       },
       {
         "kind": "issue",
-        "number": 90746,
-        "title": "Document practical requirements for QMD memory backend on CPU-only VPS deployments",
-        "url": "https://github.com/openclaw/openclaw/issues/90746",
+        "number": 115368,
+        "title": "Add 'openclaw tools' subcommand for cross-source tool discovery (built-in / plugin / MCP)",
+        "url": "https://github.com/openclaw/openclaw/issues/115368",
         "state": "open",
-        "author": "holgergruenhagen",
-        "updatedAt": "2026-08-21T08:54:59Z"
+        "author": "Wanxian-Liu",
+        "updatedAt": "2026-08-21T09:49:53Z"
       },
       {
         "kind": "issue",
-        "number": 88508,
-        "title": "[Feature]: [Feature Request] Plugin contract should support thinkingOverride to enable dynamic thinking level (low/medium/high/xhigh) per round",
-        "url": "https://github.com/openclaw/openclaw/issues/88508",
+        "number": 125461,
+        "title": "iMessage CLI treats bare numeric chat row IDs as phone handles despite `handle/chat_id` help",
+        "url": "https://github.com/openclaw/openclaw/issues/125461",
         "state": "open",
-        "author": "CocoChavan",
-        "updatedAt": "2026-08-21T08:54:52Z"
+        "author": "lockhartheavyindustries",
+        "updatedAt": "2026-08-21T09:49:49Z"
       }
     ],
     "prs": [
-      {
-        "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-21T08:56:10Z"
-      },
       {
         "kind": "pr",
         "number": 126618,
@@ -874,34 +865,34 @@
         "url": "https://github.com/openclaw/openclaw/pull/126618",
         "state": "open",
         "author": "RaviTharuma",
-        "updatedAt": "2026-08-21T08:55:51Z"
+        "updatedAt": "2026-08-21T09:50:55Z"
       },
       {
         "kind": "pr",
-        "number": 116373,
-        "title": "fix(heartbeat): stop cron wakes from forcing the main session over heartbeat.session",
-        "url": "https://github.com/openclaw/openclaw/pull/116373",
+        "number": 117641,
+        "title": "fix(gateway): active turns are interrupted on SIGTERM",
+        "url": "https://github.com/openclaw/openclaw/pull/117641",
         "state": "open",
-        "author": "sloptop-the-terrible",
-        "updatedAt": "2026-08-21T08:55:45Z"
+        "author": "sjf-oa",
+        "updatedAt": "2026-08-21T09:50:46Z"
       },
       {
         "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "number": 125664,
+        "title": "fix(feishu): promote send attachment aliases instead of silent drop",
+        "url": "https://github.com/openclaw/openclaw/pull/125664",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-21T08:55:44Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-08-21T09:50:44Z"
       },
       {
         "kind": "pr",
-        "number": 125471,
-        "title": "fix(models): keep Claude CLI OAuth available in Control UI",
-        "url": "https://github.com/openclaw/openclaw/pull/125471",
-        "state": "closed",
-        "author": "VACInc",
-        "updatedAt": "2026-08-21T08:55:36Z"
+        "number": 126619,
+        "title": "fix: HTTP chat still sends a full system prompt when tools.profile is minimal",
+        "url": "https://github.com/openclaw/openclaw/pull/126619",
+        "state": "open",
+        "author": "RaviTharuma",
+        "updatedAt": "2026-08-21T09:50:26Z"
       },
       {
         "kind": "pr",
@@ -910,7 +901,16 @@
         "url": "https://github.com/openclaw/openclaw/pull/126616",
         "state": "open",
         "author": "RaviTharuma",
-        "updatedAt": "2026-08-21T08:54:47Z"
+        "updatedAt": "2026-08-21T09:50:22Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117574,
+        "title": "[codex] fix skills prompt canonical locations",
+        "url": "https://github.com/openclaw/openclaw/pull/117574",
+        "state": "open",
+        "author": "marchpure",
+        "updatedAt": "2026-08-21T09:50:11Z"
       }
     ]
   }

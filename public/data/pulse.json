@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-21T21:36:42.153Z",
+  "generatedAt": "2026-08-21T22:39:33.544Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -598,17 +598,17 @@
     },
     {
       "capturedOn": "2026-08-21",
-      "capturedAt": "2026-08-21T21:36:42.153Z",
-      "issueOpen": 3825,
-      "issueClosed": 44291,
-      "prOpen": 2317,
-      "prClosed": 74661,
-      "prMerged": 26909,
+      "capturedAt": "2026-08-21T22:39:33.544Z",
+      "issueOpen": 3855,
+      "issueClosed": 44293,
+      "prOpen": 2320,
+      "prClosed": 74677,
+      "prMerged": 26923,
       "workflowRuns": 40000,
       "stars": 387043,
-      "forks": 81300,
+      "forks": 81299,
       "subscribers": 1758,
-      "commits": 81384,
+      "commits": 81398,
       "contributors": 3119,
       "source": "github-actions",
       "approximateDate": false
@@ -794,9 +794,9 @@
     {
       "capturedOn": "2026-08-21",
       "stars": 387043,
-      "forks": 81300,
+      "forks": 81299,
       "subscribers": 1758,
-      "commits": 81384,
+      "commits": 81398,
       "contributors": 3119
     }
   ],
@@ -804,113 +804,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 127608,
-        "title": "Logbook closes its SQLite owner while OCR analysis remains in flight",
-        "url": "https://github.com/openclaw/openclaw/issues/127608",
+        "number": 120884,
+        "title": "[Bug]: iOS — software keyboard is not exposed to VoiceOver in chat (text field itself is fine)",
+        "url": "https://github.com/openclaw/openclaw/issues/120884",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-21T21:36:22Z"
+        "author": "Matthew2244",
+        "updatedAt": "2026-08-21T22:37:24Z"
       },
       {
         "kind": "issue",
-        "number": 127616,
-        "title": "Rapid macOS Browser Control toggles race independent CAS transactions and lose the latest intent",
-        "url": "https://github.com/openclaw/openclaw/issues/127616",
+        "number": 120070,
+        "title": "Imported before_tool_call hook appears to be skipped for browser over /tools/invoke",
+        "url": "https://github.com/openclaw/openclaw/issues/120070",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-21T21:36:21Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127607,
-        "title": "Media-understanding results have no hard per-result or aggregate text budget",
-        "url": "https://github.com/openclaw/openclaw/issues/127607",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-21T21:36:12Z"
-      },
-      {
-        "kind": "issue",
-        "number": 86574,
-        "title": "feat(gateway): allow per-agent replyToCurrent=false to disable auto-attaching assistant text as reply",
-        "url": "https://github.com/openclaw/openclaw/issues/86574",
-        "state": "open",
-        "author": "90yuwang",
-        "updatedAt": "2026-08-21T21:36:09Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127615,
-        "title": "macOS Browser Control can pair a sparse failed-read config with a current hash and delete unrelated settings",
-        "url": "https://github.com/openclaw/openclaw/issues/127615",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-21T21:36:01Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127606,
-        "title": "Reply cancellation is dropped before media-understanding provider and CLI work",
-        "url": "https://github.com/openclaw/openclaw/issues/127606",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-21T21:35:58Z"
+        "author": "jflavigne",
+        "updatedAt": "2026-08-21T22:37:14Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 125718,
-        "title": "fix(matrix): bound poll relation pagination",
-        "url": "https://github.com/openclaw/openclaw/pull/125718",
+        "number": 119160,
+        "title": "fix(bedrock): honor Opus 5 maxTokens when reasoning is off",
+        "url": "https://github.com/openclaw/openclaw/pull/119160",
         "state": "open",
-        "author": "wanyongstar",
-        "updatedAt": "2026-08-21T21:36:24Z"
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-08-21T22:39:24Z"
       },
       {
         "kind": "pr",
-        "number": 117712,
-        "title": "build(deps): bump the actions group across 1 directory with 10 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/117712",
-        "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-21T21:36:11Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
+        "number": 126424,
+        "title": "fix(gateway): keep conversation delivery within agent bindings",
+        "url": "https://github.com/openclaw/openclaw/pull/126424",
         "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-21T21:35:31Z"
+        "author": "joshavant",
+        "updatedAt": "2026-08-21T22:39:22Z"
       },
       {
         "kind": "pr",
-        "number": 126889,
-        "title": "docs: add Perplexity Agent API provider, MCP, and CLI; Sonar turndown",
-        "url": "https://github.com/openclaw/openclaw/pull/126889",
+        "number": 127660,
+        "title": "fix(gateway): let cloud sessions retry failed worker cleanup",
+        "url": "https://github.com/openclaw/openclaw/pull/127660",
         "state": "open",
-        "author": "andrewmadson-pplx",
-        "updatedAt": "2026-08-21T21:35:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 127554,
-        "title": "fix(cli): tell operators a racing config set changed nothing",
-        "url": "https://github.com/openclaw/openclaw/pull/127554",
-        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-21T21:34:56Z"
+        "updatedAt": "2026-08-21T22:39:19Z"
       },
       {
         "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-21T21:34:42Z"
+        "number": 96011,
+        "title": "Guard Skill Workshop create proposals from existing-skill patch content",
+        "url": "https://github.com/openclaw/openclaw/pull/96011",
+        "state": "open",
+        "author": "momothemage",
+        "updatedAt": "2026-08-21T22:39:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121799,
+        "title": "fix(gateway): usage.status no longer waits on provider HTTP",
+        "url": "https://github.com/openclaw/openclaw/pull/121799",
+        "state": "open",
+        "author": "sasan1200",
+        "updatedAt": "2026-08-21T22:39:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 84758,
+        "title": "feat(subagents): add execution backend placement contract",
+        "url": "https://github.com/openclaw/openclaw/pull/84758",
+        "state": "open",
+        "author": "napetrov",
+        "updatedAt": "2026-08-21T22:39:04Z"
       }
     ]
   }

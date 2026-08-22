@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-22T12:58:49.127Z",
+  "generatedAt": "2026-08-22T13:43:16.764Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -615,17 +615,17 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "capturedAt": "2026-08-22T12:58:49.127Z",
-      "issueOpen": 3757,
-      "issueClosed": 44451,
-      "prOpen": 2303,
-      "prClosed": 74849,
-      "prMerged": 27039,
+      "capturedAt": "2026-08-22T13:43:16.764Z",
+      "issueOpen": 3769,
+      "issueClosed": 44491,
+      "prOpen": 2308,
+      "prClosed": 74860,
+      "prMerged": 27043,
       "workflowRuns": 40000,
-      "stars": 387104,
-      "forks": 81307,
+      "stars": 387111,
+      "forks": 81309,
       "subscribers": 1759,
-      "commits": 81516,
+      "commits": 81520,
       "contributors": 3120,
       "source": "github-actions",
       "approximateDate": false
@@ -818,10 +818,10 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "stars": 387104,
-      "forks": 81307,
+      "stars": 387111,
+      "forks": 81309,
       "subscribers": 1759,
-      "commits": 81516,
+      "commits": 81520,
       "contributors": 3120
     }
   ],
@@ -829,86 +829,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 111019,
-        "title": "codex: clean `final:true` / `sessions_yield` close interrupts the turn, writing a false \"user interrupted\" marker into the thread rollout",
-        "url": "https://github.com/openclaw/openclaw/issues/111019",
-        "state": "open",
-        "author": "clawSean",
-        "updatedAt": "2026-08-22T12:58:36Z"
-      },
-      {
-        "kind": "issue",
-        "number": 85532,
-        "title": "Diagnostic recovery aborts active embedded runs after terminal-looking app-server progress",
-        "url": "https://github.com/openclaw/openclaw/issues/85532",
-        "state": "open",
-        "author": "mrclawfield",
-        "updatedAt": "2026-08-22T12:58:36Z"
-      },
-      {
-        "kind": "issue",
-        "number": 109436,
-        "title": "Model fallback selection ignores candidate context windows, causing overflow/compaction storms on mid-turn failover",
-        "url": "https://github.com/openclaw/openclaw/issues/109436",
-        "state": "open",
-        "author": "davidste",
-        "updatedAt": "2026-08-22T12:58:34Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127139,
-        "title": "[Bug]: Codex progress message(action=send) still ends turn after #108487 when final is omitted and stopReason is toolUse",
-        "url": "https://github.com/openclaw/openclaw/issues/127139",
-        "state": "open",
-        "author": "Alpy-Kursai",
-        "updatedAt": "2026-08-22T12:58:41Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127550,
-        "title": "Shared SSE byte guard can hang terminal cleanup and suppress overflow errors on pending cancel",
-        "url": "https://github.com/openclaw/openclaw/issues/127550",
+        "number": 127586,
+        "title": "Chat Completions loses ownership boundaries across parallel tool-result images",
+        "url": "https://github.com/openclaw/openclaw/issues/127586",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-22T12:58:20Z"
+        "updatedAt": "2026-08-22T13:42:15Z"
       },
       {
         "kind": "issue",
-        "number": 111489,
-        "title": "BUG: Workboard cannot spawn ACP workers (opencode / Codex / Claude Code)",
-        "url": "https://github.com/openclaw/openclaw/issues/111489",
+        "number": 84809,
+        "title": "[Data loss] 2026.5.19 update/backup flow removed ~/.openclaw/workspace and left plugin/npm state inconsistent",
+        "url": "https://github.com/openclaw/openclaw/issues/84809",
         "state": "open",
-        "author": "xiayingren123",
-        "updatedAt": "2026-08-22T12:58:08Z"
+        "author": "Niriakot",
+        "updatedAt": "2026-08-22T13:41:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127219,
+        "title": "[Bug]: per-agent exec cleanup retention is process-global and lazy",
+        "url": "https://github.com/openclaw/openclaw/issues/127219",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-22T13:41:35Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127588,
+        "title": "Future-dated location cache entries bypass every max-age request after clock rollback",
+        "url": "https://github.com/openclaw/openclaw/issues/127588",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-22T13:41:32Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127531,
+        "title": "ACP failed-spawn cleanup can close a newer same-key session",
+        "url": "https://github.com/openclaw/openclaw/issues/127531",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-22T13:41:08Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127788,
+        "title": "[Bug]: Openclaw continues to attempt to use IP address for different provider",
+        "url": "https://github.com/openclaw/openclaw/issues/127788",
+        "state": "closed",
+        "author": "FireBelow",
+        "updatedAt": "2026-08-22T13:40:54Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123975,
-        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
-        "url": "https://github.com/openclaw/openclaw/pull/123975",
+        "number": 123535,
+        "title": "fix(ui): avoid session catalog refresh storms",
+        "url": "https://github.com/openclaw/openclaw/pull/123535",
         "state": "open",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-22T12:58:42Z"
+        "updatedAt": "2026-08-22T13:43:08Z"
       },
       {
         "kind": "pr",
-        "number": 127172,
-        "title": "fix(gateway): isolate Gravatar waiter deadlines",
-        "url": "https://github.com/openclaw/openclaw/pull/127172",
+        "number": 97135,
+        "title": "fix(auto-reply): hide recovered failed tool progress",
+        "url": "https://github.com/openclaw/openclaw/pull/97135",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-22T12:58:41Z"
+        "author": "litang9",
+        "updatedAt": "2026-08-22T13:42:49Z"
       },
       {
         "kind": "pr",
-        "number": 126909,
-        "title": "fix(acp): recover terminal reply and surface run errors on reconnect reconcile",
-        "url": "https://github.com/openclaw/openclaw/pull/126909",
+        "number": 121124,
+        "title": "fix(feishu): stop repeated doc child pagination",
+        "url": "https://github.com/openclaw/openclaw/pull/121124",
         "state": "open",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-08-22T12:58:41Z"
+        "author": "Alix-007",
+        "updatedAt": "2026-08-22T13:42:47Z"
       },
       {
         "kind": "pr",
@@ -917,25 +917,25 @@
         "url": "https://github.com/openclaw/openclaw/pull/126618",
         "state": "open",
         "author": "RaviTharuma",
-        "updatedAt": "2026-08-22T12:58:24Z"
+        "updatedAt": "2026-08-22T13:42:21Z"
       },
       {
         "kind": "pr",
-        "number": 120572,
-        "title": "fix(agents): surface tool loop warnings to models",
-        "url": "https://github.com/openclaw/openclaw/pull/120572",
+        "number": 69417,
+        "title": "fix(mcp): allow SecretRef values in mcp.servers env and headers [AI-assisted]",
+        "url": "https://github.com/openclaw/openclaw/pull/69417",
         "state": "open",
-        "author": "Arata1202",
-        "updatedAt": "2026-08-22T12:58:09Z"
+        "author": "fgabelmannjr",
+        "updatedAt": "2026-08-22T13:42:21Z"
       },
       {
         "kind": "pr",
-        "number": 118015,
-        "title": "fix(qa): prioritize and stream native suite work",
-        "url": "https://github.com/openclaw/openclaw/pull/118015",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-22T12:57:27Z"
+        "number": 125471,
+        "title": "fix(models): keep Claude CLI OAuth available in Control UI",
+        "url": "https://github.com/openclaw/openclaw/pull/125471",
+        "state": "closed",
+        "author": "VACInc",
+        "updatedAt": "2026-08-22T13:42:20Z"
       }
     ]
   }

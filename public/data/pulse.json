@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-22T01:48:43.528Z",
+  "generatedAt": "2026-08-22T03:06:08.246Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -615,17 +615,17 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "capturedAt": "2026-08-22T01:48:43.528Z",
-      "issueOpen": 3858,
-      "issueClosed": 44305,
-      "prOpen": 2325,
-      "prClosed": 74740,
-      "prMerged": 26977,
+      "capturedAt": "2026-08-22T03:06:08.246Z",
+      "issueOpen": 3859,
+      "issueClosed": 44309,
+      "prOpen": 2329,
+      "prClosed": 74748,
+      "prMerged": 26985,
       "workflowRuns": 40000,
-      "stars": 387047,
-      "forks": 81298,
+      "stars": 387050,
+      "forks": 81300,
       "subscribers": 1759,
-      "commits": 81454,
+      "commits": 81462,
       "contributors": 3119,
       "source": "github-actions",
       "approximateDate": false
@@ -818,10 +818,10 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "stars": 387047,
-      "forks": 81298,
+      "stars": 387050,
+      "forks": 81300,
       "subscribers": 1759,
-      "commits": 81454,
+      "commits": 81462,
       "contributors": 3119
     }
   ],
@@ -829,77 +829,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 124243,
-        "title": "Split chat-responsive.browser.test.ts by UI owner",
-        "url": "https://github.com/openclaw/openclaw/issues/124243",
+        "number": 89216,
+        "title": "[Bug]: Matrix bindings for per-room agent routing are silently ignored",
+        "url": "https://github.com/openclaw/openclaw/issues/89216",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-22T01:47:35Z"
+        "author": "cpgeek",
+        "updatedAt": "2026-08-22T03:04:53Z"
       },
       {
         "kind": "issue",
-        "number": 125287,
-        "title": "[Bug]: 2026.7.1-2 Codex cron turns still stall post-tool without turn/completed",
-        "url": "https://github.com/openclaw/openclaw/issues/125287",
+        "number": 98435,
+        "title": "MCP loopback transport does not auto-reconnect on CLI side after gateway restart — recovered=1 is misleading",
+        "url": "https://github.com/openclaw/openclaw/issues/98435",
         "state": "open",
-        "author": "overscanindustries",
-        "updatedAt": "2026-08-22T01:47:24Z"
+        "author": "alvelda",
+        "updatedAt": "2026-08-22T03:04:48Z"
+      },
+      {
+        "kind": "issue",
+        "number": 90445,
+        "title": "Control Panel: Add tooltips/clarifying labels for Reasoning and Thinking dropdowns (Config↔UI naming collision)",
+        "url": "https://github.com/openclaw/openclaw/issues/90445",
+        "state": "open",
+        "author": "openkralle",
+        "updatedAt": "2026-08-22T03:04:46Z"
+      },
+      {
+        "kind": "issue",
+        "number": 88077,
+        "title": "[Bug]: Active Memory recall context uses full OpenClaw prompt envelope",
+        "url": "https://github.com/openclaw/openclaw/issues/88077",
+        "state": "open",
+        "author": "gisk0",
+        "updatedAt": "2026-08-22T03:04:46Z"
+      },
+      {
+        "kind": "issue",
+        "number": 126311,
+        "title": "[Bug]: Fallback model keeps running after the primary's terminal error ended the run — task stays running forever, cancel says 'already terminal'",
+        "url": "https://github.com/openclaw/openclaw/issues/126311",
+        "state": "open",
+        "author": "aleps001",
+        "updatedAt": "2026-08-22T03:04:45Z"
+      },
+      {
+        "kind": "issue",
+        "number": 99055,
+        "title": "Feature Request: Opt-in Telegram media downloads",
+        "url": "https://github.com/openclaw/openclaw/issues/99055",
+        "state": "open",
+        "author": "fintlp",
+        "updatedAt": "2026-08-22T03:04:44Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 127737,
-        "title": "fix: current chat attachments fail after send acknowledgement",
-        "url": "https://github.com/openclaw/openclaw/pull/127737",
-        "state": "closed",
+        "number": 127765,
+        "title": "test(plugins): preserve configless manifest expectation",
+        "url": "https://github.com/openclaw/openclaw/pull/127765",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-22T03:06:00Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127697,
+        "title": "fix: preserve source code in tool results",
+        "url": "https://github.com/openclaw/openclaw/pull/127697",
+        "state": "open",
+        "author": "jalehman",
+        "updatedAt": "2026-08-22T03:05:54Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127760,
+        "title": "fix(ui): prevent second touches from hijacking resize drags",
+        "url": "https://github.com/openclaw/openclaw/pull/127760",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-22T01:48:29Z"
+        "updatedAt": "2026-08-22T03:05:28Z"
       },
       {
         "kind": "pr",
-        "number": 123356,
-        "title": "improve(control-ui): stage slash command arguments in the composer",
-        "url": "https://github.com/openclaw/openclaw/pull/123356",
+        "number": 84758,
+        "title": "feat(subagents): add execution backend placement contract",
+        "url": "https://github.com/openclaw/openclaw/pull/84758",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-22T01:48:29Z"
+        "author": "napetrov",
+        "updatedAt": "2026-08-22T03:05:09Z"
       },
       {
         "kind": "pr",
-        "number": 127749,
-        "title": "perf(ui): scan streaming markdown incrementally",
-        "url": "https://github.com/openclaw/openclaw/pull/127749",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-22T01:48:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 127681,
-        "title": "chore(i18n): refresh native locales",
-        "url": "https://github.com/openclaw/openclaw/pull/127681",
-        "state": "open",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-08-22T01:48:24Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-22T01:48:22Z"
-      },
-      {
-        "kind": "pr",
-        "number": 127738,
-        "title": "fix(ui): align page titles with page content",
-        "url": "https://github.com/openclaw/openclaw/pull/127738",
+        "number": 127759,
+        "title": "fix: Code Mode shell calls stall near yield deadline",
+        "url": "https://github.com/openclaw/openclaw/pull/127759",
         "state": "open",
         "author": "clawsweeper",
-        "updatedAt": "2026-08-22T01:48:20Z"
+        "updatedAt": "2026-08-22T03:05:00Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127704,
+        "title": "fix: stop limited access status from shifting page layouts",
+        "url": "https://github.com/openclaw/openclaw/pull/127704",
+        "state": "open",
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-22T03:04:51Z"
       }
     ]
   }

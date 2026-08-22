@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-22T11:33:38.778Z",
+  "generatedAt": "2026-08-22T12:58:49.127Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -615,17 +615,17 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "capturedAt": "2026-08-22T11:33:38.778Z",
-      "issueOpen": 3760,
-      "issueClosed": 44447,
-      "prOpen": 2304,
-      "prClosed": 74840,
-      "prMerged": 27033,
+      "capturedAt": "2026-08-22T12:58:49.127Z",
+      "issueOpen": 3757,
+      "issueClosed": 44451,
+      "prOpen": 2303,
+      "prClosed": 74849,
+      "prMerged": 27039,
       "workflowRuns": 40000,
-      "stars": 387094,
-      "forks": 81306,
+      "stars": 387104,
+      "forks": 81307,
       "subscribers": 1759,
-      "commits": 81510,
+      "commits": 81516,
       "contributors": 3120,
       "source": "github-actions",
       "approximateDate": false
@@ -818,10 +818,10 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "stars": 387094,
-      "forks": 81306,
+      "stars": 387104,
+      "forks": 81307,
       "subscribers": 1759,
-      "commits": 81510,
+      "commits": 81516,
       "contributors": 3120
     }
   ],
@@ -829,113 +829,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 125635,
-        "title": "[Bug]: TUI /auth (local mode) — spawned auth wizard exits 1 instantly, no diagnostics in TUI or file log",
-        "url": "https://github.com/openclaw/openclaw/issues/125635",
+        "number": 111019,
+        "title": "codex: clean `final:true` / `sessions_yield` close interrupts the turn, writing a false \"user interrupted\" marker into the thread rollout",
+        "url": "https://github.com/openclaw/openclaw/issues/111019",
         "state": "open",
-        "author": "P5ina",
-        "updatedAt": "2026-08-22T11:33:01Z"
+        "author": "clawSean",
+        "updatedAt": "2026-08-22T12:58:36Z"
       },
       {
         "kind": "issue",
-        "number": 126246,
-        "title": "[Bug]: Telegram durable outbound deliveries remain stuck in send_attempt_started and are lost on restart",
-        "url": "https://github.com/openclaw/openclaw/issues/126246",
+        "number": 85532,
+        "title": "Diagnostic recovery aborts active embedded runs after terminal-looking app-server progress",
+        "url": "https://github.com/openclaw/openclaw/issues/85532",
         "state": "open",
-        "author": "MAG-Linares-Andalucia",
-        "updatedAt": "2026-08-22T11:32:55Z"
+        "author": "mrclawfield",
+        "updatedAt": "2026-08-22T12:58:36Z"
       },
       {
         "kind": "issue",
-        "number": 125356,
-        "title": "Subagent announce drops the failure cause when a failed run surfaces as a pending-error timeout",
-        "url": "https://github.com/openclaw/openclaw/issues/125356",
+        "number": 109436,
+        "title": "Model fallback selection ignores candidate context windows, causing overflow/compaction storms on mid-turn failover",
+        "url": "https://github.com/openclaw/openclaw/issues/109436",
         "state": "open",
-        "author": "rishitamrakar",
-        "updatedAt": "2026-08-22T11:32:35Z"
+        "author": "davidste",
+        "updatedAt": "2026-08-22T12:58:34Z"
       },
       {
         "kind": "issue",
-        "number": 126458,
-        "title": "[Bug]: Custom openai-completions omitted maxTokens still defaults to 8192; thinking truncates tool-call JSON",
-        "url": "https://github.com/openclaw/openclaw/issues/126458",
+        "number": 127139,
+        "title": "[Bug]: Codex progress message(action=send) still ends turn after #108487 when final is omitted and stopReason is toolUse",
+        "url": "https://github.com/openclaw/openclaw/issues/127139",
         "state": "open",
-        "author": "RaviTharuma",
-        "updatedAt": "2026-08-22T11:32:23Z"
+        "author": "Alpy-Kursai",
+        "updatedAt": "2026-08-22T12:58:41Z"
       },
       {
         "kind": "issue",
-        "number": 124486,
-        "title": "[Bug]: malformed Skill Workshop proposals cannot be rejected or quarantined",
-        "url": "https://github.com/openclaw/openclaw/issues/124486",
+        "number": 127550,
+        "title": "Shared SSE byte guard can hang terminal cleanup and suppress overflow errors on pending cancel",
+        "url": "https://github.com/openclaw/openclaw/issues/127550",
         "state": "open",
-        "author": "woodym-dotcom",
-        "updatedAt": "2026-08-22T11:32:23Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-22T12:58:20Z"
       },
       {
         "kind": "issue",
-        "number": 124689,
-        "title": "[Bug]: Model picker only applies changes to new sessions; Ollama Cloud requests sign-in despite configured API key",
-        "url": "https://github.com/openclaw/openclaw/issues/124689",
+        "number": 111489,
+        "title": "BUG: Workboard cannot spawn ACP workers (opencode / Codex / Claude Code)",
+        "url": "https://github.com/openclaw/openclaw/issues/111489",
         "state": "open",
-        "author": "Jaulustus",
-        "updatedAt": "2026-08-22T11:32:21Z"
+        "author": "xiayingren123",
+        "updatedAt": "2026-08-22T12:58:08Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126851,
-        "title": "fix(ui): clear stuck session run spinner on stale terminal projection",
-        "url": "https://github.com/openclaw/openclaw/pull/126851",
+        "number": 123975,
+        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
+        "url": "https://github.com/openclaw/openclaw/pull/123975",
         "state": "open",
-        "author": "1MrazorT1",
-        "updatedAt": "2026-08-22T11:33:30Z"
-      },
-      {
-        "kind": "pr",
-        "number": 127778,
-        "title": "fix(codex): keep Computer Use working after desktop updates",
-        "url": "https://github.com/openclaw/openclaw/pull/127778",
-        "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-08-22T11:33:25Z"
-      },
-      {
-        "kind": "pr",
-        "number": 127873,
-        "title": "fix(android): make unreachable gateway retries battery-safe",
-        "url": "https://github.com/openclaw/openclaw/pull/127873",
-        "state": "open",
-        "author": "masatohoshino",
-        "updatedAt": "2026-08-22T11:33:19Z"
-      },
-      {
-        "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
-        "state": "closed",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-22T11:33:13Z"
+        "updatedAt": "2026-08-22T12:58:42Z"
       },
       {
         "kind": "pr",
-        "number": 127818,
-        "title": "perf(ui): stop long-lived request and session caches from growing forever",
-        "url": "https://github.com/openclaw/openclaw/pull/127818",
+        "number": 127172,
+        "title": "fix(gateway): isolate Gravatar waiter deadlines",
+        "url": "https://github.com/openclaw/openclaw/pull/127172",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-22T11:33:04Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-22T12:58:41Z"
       },
       {
         "kind": "pr",
-        "number": 126424,
-        "title": "fix(gateway): keep conversation delivery within agent bindings",
-        "url": "https://github.com/openclaw/openclaw/pull/126424",
-        "state": "closed",
-        "author": "joshavant",
-        "updatedAt": "2026-08-22T11:32:59Z"
+        "number": 126909,
+        "title": "fix(acp): recover terminal reply and surface run errors on reconnect reconcile",
+        "url": "https://github.com/openclaw/openclaw/pull/126909",
+        "state": "open",
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-08-22T12:58:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126618,
+        "title": "fix: Tool Search directory/tools wrap native read/exec in tool_call",
+        "url": "https://github.com/openclaw/openclaw/pull/126618",
+        "state": "open",
+        "author": "RaviTharuma",
+        "updatedAt": "2026-08-22T12:58:24Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120572,
+        "title": "fix(agents): surface tool loop warnings to models",
+        "url": "https://github.com/openclaw/openclaw/pull/120572",
+        "state": "open",
+        "author": "Arata1202",
+        "updatedAt": "2026-08-22T12:58:09Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118015,
+        "title": "fix(qa): prioritize and stream native suite work",
+        "url": "https://github.com/openclaw/openclaw/pull/118015",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-22T12:57:27Z"
       }
     ]
   }

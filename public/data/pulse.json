@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-22T18:47:27.651Z",
+  "generatedAt": "2026-08-22T19:33:02.626Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -615,17 +615,17 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "capturedAt": "2026-08-22T18:47:27.651Z",
-      "issueOpen": 3778,
-      "issueClosed": 44507,
-      "prOpen": 2313,
-      "prClosed": 74893,
-      "prMerged": 27062,
+      "capturedAt": "2026-08-22T19:33:02.626Z",
+      "issueOpen": 3782,
+      "issueClosed": 44508,
+      "prOpen": 2315,
+      "prClosed": 74896,
+      "prMerged": 27065,
       "workflowRuns": 40000,
-      "stars": 387124,
-      "forks": 81310,
+      "stars": 387128,
+      "forks": 81312,
       "subscribers": 1759,
-      "commits": 81539,
+      "commits": 81542,
       "contributors": 3120,
       "source": "github-actions",
       "approximateDate": false
@@ -818,10 +818,10 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "stars": 387124,
-      "forks": 81310,
+      "stars": 387128,
+      "forks": 81312,
       "subscribers": 1759,
-      "commits": 81539,
+      "commits": 81542,
       "contributors": 3120
     }
   ],
@@ -829,113 +829,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 128011,
-        "title": "Feature: durable, supervised background agent runs with a structured lifecycle contract",
-        "url": "https://github.com/openclaw/openclaw/issues/128011",
+        "number": 126360,
+        "title": "AgentSelectionRequiredError floods logs under explicit multi-agent ownership: logbook plugin, Control UI global RPCs, and system-agent turns all lack an agentId target",
+        "url": "https://github.com/openclaw/openclaw/issues/126360",
         "state": "open",
-        "author": "hvhoon",
-        "updatedAt": "2026-08-22T18:47:18Z"
+        "author": "ctbritt",
+        "updatedAt": "2026-08-22T19:32:51Z"
       },
       {
         "kind": "issue",
-        "number": 124689,
-        "title": "[Bug]: Model picker only applies changes to new sessions; Ollama Cloud requests sign-in despite configured API key",
-        "url": "https://github.com/openclaw/openclaw/issues/124689",
+        "number": 126011,
+        "title": "Gateway restart races with Windows Task Scheduler (MultipleInstancesPolicy=IgnoreNew), causes ECONNREFUSED",
+        "url": "https://github.com/openclaw/openclaw/issues/126011",
         "state": "open",
-        "author": "Jaulustus",
-        "updatedAt": "2026-08-22T18:46:55Z"
+        "author": "SalvianoLopes",
+        "updatedAt": "2026-08-22T19:32:40Z"
       },
       {
         "kind": "issue",
-        "number": 82014,
-        "title": "Google Chat message-tool replies do not edit typing placeholder",
-        "url": "https://github.com/openclaw/openclaw/issues/82014",
-        "state": "closed",
-        "author": "jai",
-        "updatedAt": "2026-08-22T18:46:55Z"
-      },
-      {
-        "kind": "issue",
-        "number": 106374,
-        "title": "[Bug]: openai/gpt-5.6-terra listed by OpenAI provider but Gateway run fails with missing models.providers.openai.models[] entry",
-        "url": "https://github.com/openclaw/openclaw/issues/106374",
-        "state": "closed",
-        "author": "VanessaHammes",
-        "updatedAt": "2026-08-22T18:46:16Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127381,
-        "title": "Model fallback drops usage and cost from completed discarded candidates",
-        "url": "https://github.com/openclaw/openclaw/issues/127381",
+        "number": 119592,
+        "title": "fix(workboard): workboard_move to terminal status leaves live claim and running execution",
+        "url": "https://github.com/openclaw/openclaw/issues/119592",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-22T18:46:08Z"
+        "author": "printerjam",
+        "updatedAt": "2026-08-22T19:32:33Z"
       },
       {
         "kind": "issue",
-        "number": 127596,
-        "title": "Voice Call legacy streaming migration overwrites explicit canonical provider config",
-        "url": "https://github.com/openclaw/openclaw/issues/127596",
+        "number": 123746,
+        "title": "Slack: allow delaying typing indicators for silent turns",
+        "url": "https://github.com/openclaw/openclaw/issues/123746",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-22T18:46:07Z"
+        "author": "rabsef-bicrym",
+        "updatedAt": "2026-08-22T19:32:19Z"
+      },
+      {
+        "kind": "issue",
+        "number": 54200,
+        "title": "moltbot.json in ~/.openclaw/ silently dropped on upgrade to v2026.3.22+ causing blank UI and crash-loop",
+        "url": "https://github.com/openclaw/openclaw/issues/54200",
+        "state": "open",
+        "author": "mfbergmann",
+        "updatedAt": "2026-08-22T19:32:03Z"
+      },
+      {
+        "kind": "issue",
+        "number": 54128,
+        "title": "Add maxThreads config for local embedding (node-llama-cpp)",
+        "url": "https://github.com/openclaw/openclaw/issues/54128",
+        "state": "open",
+        "author": "hsuaaron",
+        "updatedAt": "2026-08-22T19:31:50Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 114983,
-        "title": "fix(doctor): doctor --fix fails to persist when legacy models map has a bare provider key",
-        "url": "https://github.com/openclaw/openclaw/pull/114983",
+        "number": 119937,
+        "title": "Improve sessions_search limit diagnostics",
+        "url": "https://github.com/openclaw/openclaw/pull/119937",
         "state": "open",
-        "author": "synthalorian",
-        "updatedAt": "2026-08-22T18:47:22Z"
+        "author": "BSG2000",
+        "updatedAt": "2026-08-22T19:32:53Z"
       },
       {
         "kind": "pr",
-        "number": 115086,
-        "title": "fix(agents): reject execCommand's promise on AbortSignal cancellation",
-        "url": "https://github.com/openclaw/openclaw/pull/115086",
+        "number": 127964,
+        "title": "feat(mantis): prove Gateway restart and crash recovery",
+        "url": "https://github.com/openclaw/openclaw/pull/127964",
         "state": "open",
-        "author": "OfficialAbhinavSingh",
-        "updatedAt": "2026-08-22T18:46:59Z"
+        "author": "HermanZeng",
+        "updatedAt": "2026-08-22T19:32:58Z"
       },
       {
         "kind": "pr",
-        "number": 127700,
-        "title": "chore(deps): bump the actions group across 1 directory with 11 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/127700",
+        "number": 123975,
+        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
+        "url": "https://github.com/openclaw/openclaw/pull/123975",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-22T18:46:46Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-22T19:32:41Z"
       },
       {
         "kind": "pr",
-        "number": 128001,
-        "title": "fix(agents): propagate requester abort to ACP spawn",
-        "url": "https://github.com/openclaw/openclaw/pull/128001",
+        "number": 128020,
+        "title": "fix(test): expose diagnostics when Vitest stalls",
+        "url": "https://github.com/openclaw/openclaw/pull/128020",
         "state": "open",
-        "author": "original4422",
-        "updatedAt": "2026-08-22T18:46:28Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-22T19:32:30Z"
       },
       {
         "kind": "pr",
-        "number": 115048,
-        "title": "improve(codex): reduce long-history prompt allocations",
-        "url": "https://github.com/openclaw/openclaw/pull/115048",
+        "number": 123356,
+        "title": "improve(control-ui): stage slash command arguments in the composer",
+        "url": "https://github.com/openclaw/openclaw/pull/123356",
         "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-08-22T18:46:26Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-22T19:32:17Z"
       },
       {
         "kind": "pr",
-        "number": 127998,
-        "title": "fix: Doctor authority remediation lists disabled automations",
-        "url": "https://github.com/openclaw/openclaw/pull/127998",
+        "number": 127982,
+        "title": "feat(plugins): expose durable plugin session state",
+        "url": "https://github.com/openclaw/openclaw/pull/127982",
         "state": "open",
-        "author": "MonkeyLeeT",
-        "updatedAt": "2026-08-22T18:46:15Z"
+        "author": "Giantswr86",
+        "updatedAt": "2026-08-22T19:32:01Z"
       }
     ]
   }

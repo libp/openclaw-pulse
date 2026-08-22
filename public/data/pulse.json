@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-22T08:46:17.072Z",
+  "generatedAt": "2026-08-22T09:40:06.458Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -615,17 +615,17 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "capturedAt": "2026-08-22T08:46:17.072Z",
-      "issueOpen": 3741,
-      "issueClosed": 44440,
-      "prOpen": 2286,
-      "prClosed": 74821,
-      "prMerged": 27019,
+      "capturedAt": "2026-08-22T09:40:06.458Z",
+      "issueOpen": 3748,
+      "issueClosed": 44442,
+      "prOpen": 2293,
+      "prClosed": 74829,
+      "prMerged": 27025,
       "workflowRuns": 40000,
-      "stars": 387081,
-      "forks": 81307,
+      "stars": 387084,
+      "forks": 81308,
       "subscribers": 1760,
-      "commits": 81496,
+      "commits": 81502,
       "contributors": 3120,
       "source": "github-actions",
       "approximateDate": false
@@ -818,10 +818,10 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "stars": 387081,
-      "forks": 81307,
+      "stars": 387084,
+      "forks": 81308,
       "subscribers": 1760,
-      "commits": 81496,
+      "commits": 81502,
       "contributors": 3120
     }
   ],
@@ -829,113 +829,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 95759,
-        "title": "[Bug] ACP sessions_spawn with opencode agentId: session registered but 0 bytes transcript (silent failure)",
-        "url": "https://github.com/openclaw/openclaw/issues/95759",
+        "number": 127828,
+        "title": "perf(ui): avoid full snapshot cache scans on each flush",
+        "url": "https://github.com/openclaw/openclaw/issues/127828",
         "state": "open",
-        "author": "SabaTech-dev",
-        "updatedAt": "2026-08-22T08:46:07Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-22T09:39:55Z"
       },
       {
         "kind": "issue",
-        "number": 52046,
-        "title": "[Feature]:  Non-blocking heartbeat execution to prevent message processing delays",
-        "url": "https://github.com/openclaw/openclaw/issues/52046",
+        "number": 127455,
+        "title": "Darwin DNS-SD browse resolves and publishes services removed before browse completion",
+        "url": "https://github.com/openclaw/openclaw/issues/127455",
         "state": "open",
-        "author": "ccff0",
-        "updatedAt": "2026-08-22T08:45:55Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-22T09:39:49Z"
       },
       {
         "kind": "issue",
-        "number": 89791,
-        "title": "5.26 supervisor mode + dual-plist install: 30s EADDRINUSE loop + silent-fail unset order",
-        "url": "https://github.com/openclaw/openclaw/issues/89791",
+        "number": 127287,
+        "title": "github-copilot: copilot-developer-cli integration-id breaks GHE data-residency (*.ghe.com) tenants — request config escape hatch",
+        "url": "https://github.com/openclaw/openclaw/issues/127287",
         "state": "open",
-        "author": "shao-zhijie",
-        "updatedAt": "2026-08-22T08:45:47Z"
+        "author": "phoenixgao",
+        "updatedAt": "2026-08-22T09:38:45Z"
       },
       {
         "kind": "issue",
-        "number": 90588,
-        "title": "[Bug] v2026.5.28 ~ v2026.6.1: All QQ Bot agents unresponsive — Cannot read properties of undefined (reading 'run')",
-        "url": "https://github.com/openclaw/openclaw/issues/90588",
+        "number": 127817,
+        "title": "perf(ui): bound long-lived request and session state",
+        "url": "https://github.com/openclaw/openclaw/issues/127817",
         "state": "open",
-        "author": "xie-yong-an",
-        "updatedAt": "2026-08-22T08:45:39Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-22T09:38:05Z"
       },
       {
         "kind": "issue",
-        "number": 57425,
-        "title": "Feature: Graceful Gateway Restart with Session Recovery",
-        "url": "https://github.com/openclaw/openclaw/issues/57425",
+        "number": 127816,
+        "title": "perf(ui): scope live session catalog comparisons",
+        "url": "https://github.com/openclaw/openclaw/issues/127816",
         "state": "open",
-        "author": "lmdeagles",
-        "updatedAt": "2026-08-22T08:45:29Z"
-      },
-      {
-        "kind": "issue",
-        "number": 49381,
-        "title": "Feishu: duplicate final replies can occur after model failover from rate-limited primary",
-        "url": "https://github.com/openclaw/openclaw/issues/49381",
-        "state": "open",
-        "author": "qwertysc",
-        "updatedAt": "2026-08-22T08:45:19Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-22T09:38:05Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 127808,
-        "title": "fix(ui): scope new-session skill catalogs",
-        "url": "https://github.com/openclaw/openclaw/pull/127808",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-22T08:45:29Z"
-      },
-      {
-        "kind": "pr",
-        "number": 127810,
-        "title": "fix(logging): preserve incomplete tail records",
-        "url": "https://github.com/openclaw/openclaw/pull/127810",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-22T08:45:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124301,
-        "title": "improve(control-ui): restructure the composer as a multiline surface",
-        "url": "https://github.com/openclaw/openclaw/pull/124301",
+        "number": 126272,
+        "title": "fix(ui): keep transcript disclosures anchored",
+        "url": "https://github.com/openclaw/openclaw/pull/126272",
         "state": "open",
         "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-22T08:44:51Z"
+        "updatedAt": "2026-08-22T09:40:00Z"
       },
       {
         "kind": "pr",
-        "number": 117128,
-        "title": "fix(secrets): preflight exec provider command paths before config acceptance",
-        "url": "https://github.com/openclaw/openclaw/pull/117128",
+        "number": 127821,
+        "title": "perf(ui): defer hidden retained pane hydration",
+        "url": "https://github.com/openclaw/openclaw/pull/127821",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-22T08:44:51Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-22T09:39:53Z"
       },
       {
         "kind": "pr",
-        "number": 127301,
-        "title": "fix(release): preserve validation state across reruns",
-        "url": "https://github.com/openclaw/openclaw/pull/127301",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-22T08:44:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 127796,
-        "title": "feat(agent): allow explicit one-shot tools",
-        "url": "https://github.com/openclaw/openclaw/pull/127796",
+        "number": 126255,
+        "title": "feat(browser): add policy-bound Browser Use CLI 3.0",
+        "url": "https://github.com/openclaw/openclaw/pull/126255",
         "state": "open",
         "author": "MagMueller",
-        "updatedAt": "2026-08-22T08:44:23Z"
+        "updatedAt": "2026-08-22T09:39:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127834,
+        "title": "perf(tui): avoid blocking path autocomplete",
+        "url": "https://github.com/openclaw/openclaw/pull/127834",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-22T09:39:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127819,
+        "title": "perf(ui): scope live session catalog comparisons",
+        "url": "https://github.com/openclaw/openclaw/pull/127819",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-22T09:39:23Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127832,
+        "title": "refactor(ui): share background task active count",
+        "url": "https://github.com/openclaw/openclaw/pull/127832",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-22T09:39:08Z"
       }
     ]
   }

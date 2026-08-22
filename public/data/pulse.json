@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-22T10:38:20.094Z",
+  "generatedAt": "2026-08-22T11:33:38.778Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -615,17 +615,17 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "capturedAt": "2026-08-22T10:38:20.094Z",
-      "issueOpen": 3750,
-      "issueClosed": 44444,
-      "prOpen": 2305,
-      "prClosed": 74834,
-      "prMerged": 27029,
+      "capturedAt": "2026-08-22T11:33:38.778Z",
+      "issueOpen": 3760,
+      "issueClosed": 44447,
+      "prOpen": 2304,
+      "prClosed": 74840,
+      "prMerged": 27033,
       "workflowRuns": 40000,
-      "stars": 387092,
+      "stars": 387094,
       "forks": 81306,
       "subscribers": 1759,
-      "commits": 81506,
+      "commits": 81510,
       "contributors": 3120,
       "source": "github-actions",
       "approximateDate": false
@@ -818,10 +818,10 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "stars": 387092,
+      "stars": 387094,
       "forks": 81306,
       "subscribers": 1759,
-      "commits": 81506,
+      "commits": 81510,
       "contributors": 3120
     }
   ],
@@ -829,86 +829,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 127852,
-        "title": "[Bug]: Current-session cron result can enter a reset replacement conversation",
-        "url": "https://github.com/openclaw/openclaw/issues/127852",
+        "number": 125635,
+        "title": "[Bug]: TUI /auth (local mode) — spawned auth wizard exits 1 instantly, no diagnostics in TUI or file log",
+        "url": "https://github.com/openclaw/openclaw/issues/125635",
         "state": "open",
-        "author": "HermanZeng",
-        "updatedAt": "2026-08-22T10:37:46Z"
+        "author": "P5ina",
+        "updatedAt": "2026-08-22T11:33:01Z"
       },
       {
         "kind": "issue",
-        "number": 92474,
-        "title": "[Bug]: PYTHONPATH in MCP stdio env config floods gateway journal with per-spawn warnings",
-        "url": "https://github.com/openclaw/openclaw/issues/92474",
+        "number": 126246,
+        "title": "[Bug]: Telegram durable outbound deliveries remain stuck in send_attempt_started and are lost on restart",
+        "url": "https://github.com/openclaw/openclaw/issues/126246",
         "state": "open",
-        "author": "ayeshachohan",
-        "updatedAt": "2026-08-22T10:37:26Z"
+        "author": "MAG-Linares-Andalucia",
+        "updatedAt": "2026-08-22T11:32:55Z"
       },
       {
         "kind": "issue",
-        "number": 127399,
-        "title": "[Bug]: generated-media recovery replays Telegram photos after ambiguous network failure",
-        "url": "https://github.com/openclaw/openclaw/issues/127399",
+        "number": 125356,
+        "title": "Subagent announce drops the failure cause when a failed run surfaces as a pending-error timeout",
+        "url": "https://github.com/openclaw/openclaw/issues/125356",
         "state": "open",
-        "author": "andersonjeccel",
-        "updatedAt": "2026-08-22T10:36:32Z"
+        "author": "rishitamrakar",
+        "updatedAt": "2026-08-22T11:32:35Z"
+      },
+      {
+        "kind": "issue",
+        "number": 126458,
+        "title": "[Bug]: Custom openai-completions omitted maxTokens still defaults to 8192; thinking truncates tool-call JSON",
+        "url": "https://github.com/openclaw/openclaw/issues/126458",
+        "state": "open",
+        "author": "RaviTharuma",
+        "updatedAt": "2026-08-22T11:32:23Z"
+      },
+      {
+        "kind": "issue",
+        "number": 124486,
+        "title": "[Bug]: malformed Skill Workshop proposals cannot be rejected or quarantined",
+        "url": "https://github.com/openclaw/openclaw/issues/124486",
+        "state": "open",
+        "author": "woodym-dotcom",
+        "updatedAt": "2026-08-22T11:32:23Z"
+      },
+      {
+        "kind": "issue",
+        "number": 124689,
+        "title": "[Bug]: Model picker only applies changes to new sessions; Ollama Cloud requests sign-in despite configured API key",
+        "url": "https://github.com/openclaw/openclaw/issues/124689",
+        "state": "open",
+        "author": "Jaulustus",
+        "updatedAt": "2026-08-22T11:32:21Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 124543,
-        "title": "fix(gateway): assistant turns render twice on CLI backends",
-        "url": "https://github.com/openclaw/openclaw/pull/124543",
+        "number": 126851,
+        "title": "fix(ui): clear stuck session run spinner on stale terminal projection",
+        "url": "https://github.com/openclaw/openclaw/pull/126851",
         "state": "open",
-        "author": "spunzon",
-        "updatedAt": "2026-08-22T10:38:10Z"
+        "author": "1MrazorT1",
+        "updatedAt": "2026-08-22T11:33:30Z"
       },
       {
         "kind": "pr",
-        "number": 123356,
-        "title": "improve(control-ui): stage slash command arguments in the composer",
-        "url": "https://github.com/openclaw/openclaw/pull/123356",
+        "number": 127778,
+        "title": "fix(codex): keep Computer Use working after desktop updates",
+        "url": "https://github.com/openclaw/openclaw/pull/127778",
+        "state": "open",
+        "author": "joshavant",
+        "updatedAt": "2026-08-22T11:33:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127873,
+        "title": "fix(android): make unreachable gateway retries battery-safe",
+        "url": "https://github.com/openclaw/openclaw/pull/127873",
+        "state": "open",
+        "author": "masatohoshino",
+        "updatedAt": "2026-08-22T11:33:19Z"
+      },
+      {
+        "kind": "pr",
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-22T11:33:13Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127818,
+        "title": "perf(ui): stop long-lived request and session caches from growing forever",
+        "url": "https://github.com/openclaw/openclaw/pull/127818",
         "state": "open",
         "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-22T10:38:05Z"
+        "updatedAt": "2026-08-22T11:33:04Z"
       },
       {
         "kind": "pr",
-        "number": 127700,
-        "title": "chore(deps): bump the actions group across 1 directory with 11 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/127700",
-        "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-22T10:38:03Z"
-      },
-      {
-        "kind": "pr",
-        "number": 127793,
-        "title": "feat: add durable fleet operations to Sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/127793",
-        "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-22T10:37:53Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121576,
-        "title": "fix(text): only insert separator between word chars when stripping model tokens",
-        "url": "https://github.com/openclaw/openclaw/pull/121576",
-        "state": "open",
-        "author": "ruel225",
-        "updatedAt": "2026-08-22T10:37:33Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111349,
-        "title": "fix(plugins): pretag pack checks stop hanging on stalled commands",
-        "url": "https://github.com/openclaw/openclaw/pull/111349",
-        "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-08-22T10:37:24Z"
+        "number": 126424,
+        "title": "fix(gateway): keep conversation delivery within agent bindings",
+        "url": "https://github.com/openclaw/openclaw/pull/126424",
+        "state": "closed",
+        "author": "joshavant",
+        "updatedAt": "2026-08-22T11:32:59Z"
       }
     ]
   }

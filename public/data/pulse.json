@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-22T21:34:23.764Z",
+  "generatedAt": "2026-08-22T22:36:18.415Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -615,17 +615,17 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "capturedAt": "2026-08-22T21:34:23.764Z",
-      "issueOpen": 3784,
-      "issueClosed": 44513,
-      "prOpen": 2309,
-      "prClosed": 74911,
-      "prMerged": 27078,
+      "capturedAt": "2026-08-22T22:36:18.415Z",
+      "issueOpen": 3786,
+      "issueClosed": 44516,
+      "prOpen": 2310,
+      "prClosed": 74916,
+      "prMerged": 27081,
       "workflowRuns": 40000,
-      "stars": 387140,
-      "forks": 81313,
-      "subscribers": 1758,
-      "commits": 81555,
+      "stars": 387145,
+      "forks": 81312,
+      "subscribers": 1757,
+      "commits": 81558,
       "contributors": 3121,
       "source": "github-actions",
       "approximateDate": false
@@ -818,10 +818,10 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "stars": 387140,
-      "forks": 81313,
-      "subscribers": 1758,
-      "commits": 81555,
+      "stars": 387145,
+      "forks": 81312,
+      "subscribers": 1757,
+      "commits": 81558,
       "contributors": 3121
     }
   ],
@@ -829,113 +829,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 124362,
-        "title": "[Feature]: Give openclaw-modal-dialog a canonical panel instead of 36 hand-built surfaces",
-        "url": "https://github.com/openclaw/openclaw/issues/124362",
+        "number": 127125,
+        "title": "[Bug]: Failed ACPX admission retains managed-tools delegate",
+        "url": "https://github.com/openclaw/openclaw/issues/127125",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-22T21:34:06Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-22T22:36:05Z"
       },
       {
         "kind": "issue",
-        "number": 125475,
-        "title": "Release validation: v2026.8.1-beta.3",
-        "url": "https://github.com/openclaw/openclaw/issues/125475",
+        "number": 89528,
+        "title": "[Bug]: `--safe --skip-deferral` can still wait on restart reply drain for its own tool/final replies",
+        "url": "https://github.com/openclaw/openclaw/issues/89528",
         "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-08-22T21:33:56Z"
+        "author": "songshikang0111",
+        "updatedAt": "2026-08-22T22:35:42Z"
       },
       {
         "kind": "issue",
-        "number": 82137,
-        "title": "RFC: Expose existing InputProvenance / AgentInternalEvent signals to ContextEngine.assemble()",
-        "url": "https://github.com/openclaw/openclaw/issues/82137",
+        "number": 125255,
+        "title": "[Bug]: agent --timeout wins over nested exec --timeout when both are set",
+        "url": "https://github.com/openclaw/openclaw/issues/125255",
         "state": "open",
-        "author": "jetd1",
-        "updatedAt": "2026-08-22T21:33:53Z"
+        "author": "zyw02",
+        "updatedAt": "2026-08-22T22:35:18Z"
       },
       {
         "kind": "issue",
-        "number": 128025,
-        "title": "Auth profile store write errors are swallowed and misreported as \"lock may be busy\"",
-        "url": "https://github.com/openclaw/openclaw/issues/128025",
+        "number": 45224,
+        "title": "Unhandled Playwright assertion error in CRSession._onMessage crashes Gateway",
+        "url": "https://github.com/openclaw/openclaw/issues/45224",
         "state": "open",
-        "author": "jpriotti",
-        "updatedAt": "2026-08-22T21:33:46Z"
+        "author": "yyxiaohui",
+        "updatedAt": "2026-08-22T22:35:02Z"
       },
       {
         "kind": "issue",
-        "number": 83342,
-        "title": "5.16-beta.5: /models browse picker duplicates models under both canonical provider and CLI runtime alias provider",
-        "url": "https://github.com/openclaw/openclaw/issues/83342",
+        "number": 89043,
+        "title": "Feature request: distribute same-app agents' channel posts as room events to co-bound agents (multi-agent single-app Slack deployments)",
+        "url": "https://github.com/openclaw/openclaw/issues/89043",
         "state": "open",
-        "author": "Adam-Researchh",
-        "updatedAt": "2026-08-22T21:33:34Z"
+        "author": "Nivrafaeli",
+        "updatedAt": "2026-08-22T22:34:59Z"
       },
       {
         "kind": "issue",
-        "number": 81946,
-        "title": "Control UI: add guarded dashboard keyboard shortcuts",
-        "url": "https://github.com/openclaw/openclaw/issues/81946",
+        "number": 124911,
+        "title": "Compaction reserveTokensFloor ignores model context window; adaptive helper exists but is only used in the error message",
+        "url": "https://github.com/openclaw/openclaw/issues/124911",
         "state": "open",
-        "author": "BunsDev",
-        "updatedAt": "2026-08-22T21:33:17Z"
+        "author": "shanselman",
+        "updatedAt": "2026-08-22T22:34:58Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 127186,
-        "title": "fix(talk): isolate cancellation ownership contract",
-        "url": "https://github.com/openclaw/openclaw/pull/127186",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-22T21:34:16Z"
+        "number": 120900,
+        "title": "feat(ui): review install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/120900",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-22T22:36:02Z"
       },
       {
         "kind": "pr",
-        "number": 126976,
-        "title": "fix(announce): report unknown token usage instead of zero on the stats line",
-        "url": "https://github.com/openclaw/openclaw/pull/126976",
+        "number": 118505,
+        "title": "macOS: surface realtime Talk settings",
+        "url": "https://github.com/openclaw/openclaw/pull/118505",
         "state": "open",
-        "author": "zeroaltitude",
-        "updatedAt": "2026-08-22T21:34:07Z"
+        "author": "zhilong1115",
+        "updatedAt": "2026-08-22T22:35:56Z"
       },
       {
         "kind": "pr",
-        "number": 83760,
-        "title": "feat(comfy): dynamic aspect ratio → width/height injection",
-        "url": "https://github.com/openclaw/openclaw/pull/83760",
-        "state": "open",
-        "author": "sola-ryu",
-        "updatedAt": "2026-08-22T21:34:04Z"
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-22T22:35:56Z"
       },
       {
         "kind": "pr",
-        "number": 126035,
-        "title": "fix(sessions): prevent gateway stalls during large session cleanup",
-        "url": "https://github.com/openclaw/openclaw/pull/126035",
+        "number": 127530,
+        "title": "fix: explicit session resets clear prior context",
+        "url": "https://github.com/openclaw/openclaw/pull/127530",
         "state": "open",
-        "author": "HermanZeng",
-        "updatedAt": "2026-08-22T21:33:58Z"
+        "author": "Grynn",
+        "updatedAt": "2026-08-22T22:36:13Z"
       },
       {
         "kind": "pr",
-        "number": 127700,
-        "title": "chore(deps): bump the actions group across 1 directory with 11 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/127700",
+        "number": 128050,
+        "title": "feat(ui): send composer prompts to background sessions [AI-assisted]",
+        "url": "https://github.com/openclaw/openclaw/pull/128050",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-22T21:33:43Z"
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-22T22:35:25Z"
       },
       {
         "kind": "pr",
-        "number": 128020,
-        "title": "fix(test): expose diagnostics when Vitest stalls",
-        "url": "https://github.com/openclaw/openclaw/pull/128020",
+        "number": 118499,
+        "title": "macOS: add realtime Gateway-relay Talk support",
+        "url": "https://github.com/openclaw/openclaw/pull/118499",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-22T21:33:33Z"
+        "author": "zhilong1115",
+        "updatedAt": "2026-08-22T22:35:20Z"
       }
     ]
   }

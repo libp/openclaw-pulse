@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-22T22:36:18.415Z",
+  "generatedAt": "2026-08-22T23:33:29.725Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -615,17 +615,17 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "capturedAt": "2026-08-22T22:36:18.415Z",
+      "capturedAt": "2026-08-22T23:33:29.725Z",
       "issueOpen": 3786,
-      "issueClosed": 44516,
+      "issueClosed": 44519,
       "prOpen": 2310,
-      "prClosed": 74916,
-      "prMerged": 27081,
+      "prClosed": 74920,
+      "prMerged": 27085,
       "workflowRuns": 40000,
-      "stars": 387145,
-      "forks": 81312,
+      "stars": 387146,
+      "forks": 81311,
       "subscribers": 1757,
-      "commits": 81558,
+      "commits": 81562,
       "contributors": 3121,
       "source": "github-actions",
       "approximateDate": false
@@ -818,10 +818,10 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "stars": 387145,
-      "forks": 81312,
+      "stars": 387146,
+      "forks": 81311,
       "subscribers": 1757,
-      "commits": 81558,
+      "commits": 81562,
       "contributors": 3121
     }
   ],
@@ -829,96 +829,60 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 127125,
-        "title": "[Bug]: Failed ACPX admission retains managed-tools delegate",
-        "url": "https://github.com/openclaw/openclaw/issues/127125",
+        "number": 92116,
+        "title": "Bug: sessions_yield subagent completion delivered as passive context — LLM can silently ignore it, breaking orchestration loops",
+        "url": "https://github.com/openclaw/openclaw/issues/92116",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-22T22:36:05Z"
+        "author": "lileilei-camera",
+        "updatedAt": "2026-08-22T23:33:23Z"
       },
       {
         "kind": "issue",
-        "number": 89528,
-        "title": "[Bug]: `--safe --skip-deferral` can still wait on restart reply drain for its own tool/final replies",
-        "url": "https://github.com/openclaw/openclaw/issues/89528",
+        "number": 124689,
+        "title": "[Bug]: Model picker only applies changes to new sessions; Ollama Cloud requests sign-in despite configured API key",
+        "url": "https://github.com/openclaw/openclaw/issues/124689",
         "state": "open",
-        "author": "songshikang0111",
-        "updatedAt": "2026-08-22T22:35:42Z"
+        "author": "Jaulustus",
+        "updatedAt": "2026-08-22T23:33:15Z"
       },
       {
         "kind": "issue",
-        "number": 125255,
-        "title": "[Bug]: agent --timeout wins over nested exec --timeout when both are set",
-        "url": "https://github.com/openclaw/openclaw/issues/125255",
+        "number": 124345,
+        "title": "[Bug]: Setup inference probe's 32-token cap starves reasoning models, reporting healthy local models as broken inference",
+        "url": "https://github.com/openclaw/openclaw/issues/124345",
         "state": "open",
-        "author": "zyw02",
-        "updatedAt": "2026-08-22T22:35:18Z"
+        "author": "eggc-tech",
+        "updatedAt": "2026-08-22T23:33:09Z"
       },
       {
         "kind": "issue",
-        "number": 45224,
-        "title": "Unhandled Playwright assertion error in CRSession._onMessage crashes Gateway",
-        "url": "https://github.com/openclaw/openclaw/issues/45224",
+        "number": 128043,
+        "title": "[Bug]: Dreaming promotion still stalls on 2026.6.10 — light re-stages the same ~100 candidates nightly, recalls stay 0, zero promotions (continuation of #64068/#86249)",
+        "url": "https://github.com/openclaw/openclaw/issues/128043",
         "state": "open",
-        "author": "yyxiaohui",
-        "updatedAt": "2026-08-22T22:35:02Z"
+        "author": "triptamina-labs",
+        "updatedAt": "2026-08-22T23:33:02Z"
       },
       {
         "kind": "issue",
-        "number": 89043,
-        "title": "Feature request: distribute same-app agents' channel posts as room events to co-bound agents (multi-agent single-app Slack deployments)",
-        "url": "https://github.com/openclaw/openclaw/issues/89043",
+        "number": 105622,
+        "title": "[Enhancement] Agent Tool Execution Safety: Forward Abort Signals to Before-Tool Hooks and Add Bounded Execution Timeouts",
+        "url": "https://github.com/openclaw/openclaw/issues/105622",
         "state": "open",
-        "author": "Nivrafaeli",
-        "updatedAt": "2026-08-22T22:34:59Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-08-22T23:32:57Z"
       },
       {
         "kind": "issue",
-        "number": 124911,
-        "title": "Compaction reserveTokensFloor ignores model context window; adaptive helper exists but is only used in the error message",
-        "url": "https://github.com/openclaw/openclaw/issues/124911",
+        "number": 105200,
+        "title": "[Feature]: Adopt dynamic exponential backoff for Channel Health Monitor",
+        "url": "https://github.com/openclaw/openclaw/issues/105200",
         "state": "open",
-        "author": "shanselman",
-        "updatedAt": "2026-08-22T22:34:58Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-08-22T23:32:39Z"
       }
     ],
     "prs": [
-      {
-        "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-22T22:36:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 118505,
-        "title": "macOS: surface realtime Talk settings",
-        "url": "https://github.com/openclaw/openclaw/pull/118505",
-        "state": "open",
-        "author": "zhilong1115",
-        "updatedAt": "2026-08-22T22:35:56Z"
-      },
-      {
-        "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-22T22:35:56Z"
-      },
-      {
-        "kind": "pr",
-        "number": 127530,
-        "title": "fix: explicit session resets clear prior context",
-        "url": "https://github.com/openclaw/openclaw/pull/127530",
-        "state": "open",
-        "author": "Grynn",
-        "updatedAt": "2026-08-22T22:36:13Z"
-      },
       {
         "kind": "pr",
         "number": 128050,
@@ -926,16 +890,52 @@
         "url": "https://github.com/openclaw/openclaw/pull/128050",
         "state": "open",
         "author": "clawsweeper",
-        "updatedAt": "2026-08-22T22:35:25Z"
+        "updatedAt": "2026-08-22T23:33:11Z"
       },
       {
         "kind": "pr",
-        "number": 118499,
-        "title": "macOS: add realtime Gateway-relay Talk support",
-        "url": "https://github.com/openclaw/openclaw/pull/118499",
+        "number": 123975,
+        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
+        "url": "https://github.com/openclaw/openclaw/pull/123975",
         "state": "open",
-        "author": "zhilong1115",
-        "updatedAt": "2026-08-22T22:35:20Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-22T23:33:07Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112623,
+        "title": "feat(agents): inject Recently Completed Subagents into parent prompt",
+        "url": "https://github.com/openclaw/openclaw/pull/112623",
+        "state": "open",
+        "author": "ericcaiwx-star",
+        "updatedAt": "2026-08-22T23:32:56Z"
+      },
+      {
+        "kind": "pr",
+        "number": 128047,
+        "title": "fix(ui): make login recovery commands copyable",
+        "url": "https://github.com/openclaw/openclaw/pull/128047",
+        "state": "open",
+        "author": "IWhatsskill",
+        "updatedAt": "2026-08-22T23:32:52Z"
+      },
+      {
+        "kind": "pr",
+        "number": 84758,
+        "title": "feat(subagents): add execution backend placement contract",
+        "url": "https://github.com/openclaw/openclaw/pull/84758",
+        "state": "open",
+        "author": "napetrov",
+        "updatedAt": "2026-08-22T23:32:13Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121576,
+        "title": "fix(text): only insert separator between word chars when stripping model tokens",
+        "url": "https://github.com/openclaw/openclaw/pull/121576",
+        "state": "open",
+        "author": "ruel225",
+        "updatedAt": "2026-08-22T23:32:11Z"
       }
     ]
   }

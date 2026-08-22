@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-22T04:47:22.407Z",
+  "generatedAt": "2026-08-22T05:40:28.199Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -615,17 +615,17 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "capturedAt": "2026-08-22T04:47:22.407Z",
-      "issueOpen": 3744,
-      "issueClosed": 44428,
-      "prOpen": 2297,
-      "prClosed": 74788,
-      "prMerged": 26995,
+      "capturedAt": "2026-08-22T05:40:28.199Z",
+      "issueOpen": 3742,
+      "issueClosed": 44433,
+      "prOpen": 2289,
+      "prClosed": 74801,
+      "prMerged": 27004,
       "workflowRuns": 40000,
-      "stars": 387058,
+      "stars": 387059,
       "forks": 81303,
-      "subscribers": 1759,
-      "commits": 81472,
+      "subscribers": 1760,
+      "commits": 81481,
       "contributors": 3119,
       "source": "github-actions",
       "approximateDate": false
@@ -818,10 +818,10 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "stars": 387058,
+      "stars": 387059,
       "forks": 81303,
-      "subscribers": 1759,
-      "commits": 81472,
+      "subscribers": 1760,
+      "commits": 81481,
       "contributors": 3119
     }
   ],
@@ -829,113 +829,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 98435,
-        "title": "MCP loopback transport does not auto-reconnect on CLI side after gateway restart — recovered=1 is misleading",
-        "url": "https://github.com/openclaw/openclaw/issues/98435",
-        "state": "open",
-        "author": "alvelda",
-        "updatedAt": "2026-08-22T04:47:07Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127388,
-        "title": "Pending archive failures poison unrelated session deletes and starve recovery",
-        "url": "https://github.com/openclaw/openclaw/issues/127388",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-22T04:47:05Z"
-      },
-      {
-        "kind": "issue",
-        "number": 52046,
-        "title": "[Feature]:  Non-blocking heartbeat execution to prevent message processing delays",
-        "url": "https://github.com/openclaw/openclaw/issues/52046",
-        "state": "open",
-        "author": "ccff0",
-        "updatedAt": "2026-08-22T04:46:57Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127387,
-        "title": "Agent read-only SQLite opens bypass corruption quarantine",
-        "url": "https://github.com/openclaw/openclaw/issues/127387",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-22T04:46:42Z"
-      },
-      {
-        "kind": "issue",
         "number": 124689,
         "title": "[Bug]: Model picker only applies changes to new sessions; Ollama Cloud requests sign-in despite configured API key",
         "url": "https://github.com/openclaw/openclaw/issues/124689",
         "state": "open",
         "author": "Jaulustus",
-        "updatedAt": "2026-08-22T04:46:40Z"
+        "updatedAt": "2026-08-22T05:40:20Z"
       },
       {
         "kind": "issue",
-        "number": 127383,
-        "title": "Signal container WebSocket retains unbounded valid event bursts",
-        "url": "https://github.com/openclaw/openclaw/issues/127383",
+        "number": 69678,
+        "title": "cron run-log: hard-coded 2000-char summary truncation makes long agent outputs unreadable",
+        "url": "https://github.com/openclaw/openclaw/issues/69678",
+        "state": "open",
+        "author": "wanhuahua0108",
+        "updatedAt": "2026-08-22T05:40:08Z"
+      },
+      {
+        "kind": "issue",
+        "number": 126373,
+        "title": "[Bug]: Codex computer tool leaves the computer host busy after a completed run",
+        "url": "https://github.com/openclaw/openclaw/issues/126373",
+        "state": "open",
+        "author": "wszkxlllll",
+        "updatedAt": "2026-08-22T05:39:54Z"
+      },
+      {
+        "kind": "issue",
+        "number": 126276,
+        "title": "[Bug]: One agent run renders as several transcript responses",
+        "url": "https://github.com/openclaw/openclaw/issues/126276",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-22T05:39:33Z"
+      },
+      {
+        "kind": "issue",
+        "number": 125059,
+        "title": "[Feature]: Android sidebar session grouping and show-more",
+        "url": "https://github.com/openclaw/openclaw/issues/125059",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-22T04:46:06Z"
+        "updatedAt": "2026-08-22T05:38:12Z"
+      },
+      {
+        "kind": "issue",
+        "number": 125371,
+        "title": "[Bug]: Android Realtime Talk suppresses the microphone for all of assistant playback, so it cannot be interrupted",
+        "url": "https://github.com/openclaw/openclaw/issues/125371",
+        "state": "closed",
+        "author": "masatohoshino",
+        "updatedAt": "2026-08-22T05:37:42Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 124551,
-        "title": "fix(cli): merge nested MCP configure and tools patches",
-        "url": "https://github.com/openclaw/openclaw/pull/124551",
+        "number": 127697,
+        "title": "fix: preserve source code in tool results",
+        "url": "https://github.com/openclaw/openclaw/pull/127697",
         "state": "open",
-        "author": "zyw02",
-        "updatedAt": "2026-08-22T04:47:16Z"
+        "author": "jalehman",
+        "updatedAt": "2026-08-22T05:40:18Z"
       },
       {
         "kind": "pr",
-        "number": 127730,
-        "title": "fix(codex): accept bounded upstream prompt provenance",
-        "url": "https://github.com/openclaw/openclaw/pull/127730",
+        "number": 119736,
+        "title": "refactor: share bounded terminal delivery evidence",
+        "url": "https://github.com/openclaw/openclaw/pull/119736",
         "state": "open",
-        "author": "Marvinthebored",
-        "updatedAt": "2026-08-22T04:47:00Z"
+        "author": "synapse-homeroot",
+        "updatedAt": "2026-08-22T05:40:16Z"
       },
       {
         "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-22T04:46:52Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125471,
-        "title": "fix(models): keep Claude CLI OAuth available in Control UI",
-        "url": "https://github.com/openclaw/openclaw/pull/125471",
+        "number": 127787,
+        "title": "fix(mantis): publish proof comments on auto-triggered runs",
+        "url": "https://github.com/openclaw/openclaw/pull/127787",
         "state": "closed",
-        "author": "VACInc",
-        "updatedAt": "2026-08-22T04:46:50Z"
+        "author": "obviyus",
+        "updatedAt": "2026-08-22T05:40:13Z"
       },
       {
         "kind": "pr",
-        "number": 126825,
-        "title": "perf(sqlite): skip schema write lock on current state",
-        "url": "https://github.com/openclaw/openclaw/pull/126825",
+        "number": 123146,
+        "title": "fix(telegram): skip audio download in groups when disableAudioPreflight is set",
+        "url": "https://github.com/openclaw/openclaw/pull/123146",
         "state": "open",
-        "author": "jason-allen-oneal",
-        "updatedAt": "2026-08-22T04:46:37Z"
+        "author": "Xemo96Altyn",
+        "updatedAt": "2026-08-22T05:40:08Z"
       },
       {
         "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-22T04:46:36Z"
+        "number": 123139,
+        "title": "fix(approvals): adopt native delivery receipts on replay",
+        "url": "https://github.com/openclaw/openclaw/pull/123139",
+        "state": "open",
+        "author": "schickling",
+        "updatedAt": "2026-08-22T05:39:39Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127110,
+        "title": "fix(compaction): stop repeated transcript byte compaction",
+        "url": "https://github.com/openclaw/openclaw/pull/127110",
+        "state": "open",
+        "author": "yu-xin-c",
+        "updatedAt": "2026-08-22T05:39:32Z"
       }
     ]
   }

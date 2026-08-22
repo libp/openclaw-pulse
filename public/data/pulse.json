@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-22T19:33:02.626Z",
+  "generatedAt": "2026-08-22T21:34:23.764Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -615,18 +615,18 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "capturedAt": "2026-08-22T19:33:02.626Z",
-      "issueOpen": 3782,
-      "issueClosed": 44508,
-      "prOpen": 2315,
-      "prClosed": 74896,
-      "prMerged": 27065,
+      "capturedAt": "2026-08-22T21:34:23.764Z",
+      "issueOpen": 3784,
+      "issueClosed": 44513,
+      "prOpen": 2309,
+      "prClosed": 74911,
+      "prMerged": 27078,
       "workflowRuns": 40000,
-      "stars": 387128,
-      "forks": 81312,
-      "subscribers": 1759,
-      "commits": 81542,
-      "contributors": 3120,
+      "stars": 387140,
+      "forks": 81313,
+      "subscribers": 1758,
+      "commits": 81555,
+      "contributors": 3121,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -818,97 +818,115 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "stars": 387128,
-      "forks": 81312,
-      "subscribers": 1759,
-      "commits": 81542,
-      "contributors": 3120
+      "stars": 387140,
+      "forks": 81313,
+      "subscribers": 1758,
+      "commits": 81555,
+      "contributors": 3121
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 126360,
-        "title": "AgentSelectionRequiredError floods logs under explicit multi-agent ownership: logbook plugin, Control UI global RPCs, and system-agent turns all lack an agentId target",
-        "url": "https://github.com/openclaw/openclaw/issues/126360",
+        "number": 124362,
+        "title": "[Feature]: Give openclaw-modal-dialog a canonical panel instead of 36 hand-built surfaces",
+        "url": "https://github.com/openclaw/openclaw/issues/124362",
         "state": "open",
-        "author": "ctbritt",
-        "updatedAt": "2026-08-22T19:32:51Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-22T21:34:06Z"
       },
       {
         "kind": "issue",
-        "number": 126011,
-        "title": "Gateway restart races with Windows Task Scheduler (MultipleInstancesPolicy=IgnoreNew), causes ECONNREFUSED",
-        "url": "https://github.com/openclaw/openclaw/issues/126011",
+        "number": 125475,
+        "title": "Release validation: v2026.8.1-beta.3",
+        "url": "https://github.com/openclaw/openclaw/issues/125475",
         "state": "open",
-        "author": "SalvianoLopes",
-        "updatedAt": "2026-08-22T19:32:40Z"
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-08-22T21:33:56Z"
       },
       {
         "kind": "issue",
-        "number": 119592,
-        "title": "fix(workboard): workboard_move to terminal status leaves live claim and running execution",
-        "url": "https://github.com/openclaw/openclaw/issues/119592",
+        "number": 82137,
+        "title": "RFC: Expose existing InputProvenance / AgentInternalEvent signals to ContextEngine.assemble()",
+        "url": "https://github.com/openclaw/openclaw/issues/82137",
         "state": "open",
-        "author": "printerjam",
-        "updatedAt": "2026-08-22T19:32:33Z"
+        "author": "jetd1",
+        "updatedAt": "2026-08-22T21:33:53Z"
       },
       {
         "kind": "issue",
-        "number": 123746,
-        "title": "Slack: allow delaying typing indicators for silent turns",
-        "url": "https://github.com/openclaw/openclaw/issues/123746",
+        "number": 128025,
+        "title": "Auth profile store write errors are swallowed and misreported as \"lock may be busy\"",
+        "url": "https://github.com/openclaw/openclaw/issues/128025",
         "state": "open",
-        "author": "rabsef-bicrym",
-        "updatedAt": "2026-08-22T19:32:19Z"
+        "author": "jpriotti",
+        "updatedAt": "2026-08-22T21:33:46Z"
       },
       {
         "kind": "issue",
-        "number": 54200,
-        "title": "moltbot.json in ~/.openclaw/ silently dropped on upgrade to v2026.3.22+ causing blank UI and crash-loop",
-        "url": "https://github.com/openclaw/openclaw/issues/54200",
+        "number": 83342,
+        "title": "5.16-beta.5: /models browse picker duplicates models under both canonical provider and CLI runtime alias provider",
+        "url": "https://github.com/openclaw/openclaw/issues/83342",
         "state": "open",
-        "author": "mfbergmann",
-        "updatedAt": "2026-08-22T19:32:03Z"
+        "author": "Adam-Researchh",
+        "updatedAt": "2026-08-22T21:33:34Z"
       },
       {
         "kind": "issue",
-        "number": 54128,
-        "title": "Add maxThreads config for local embedding (node-llama-cpp)",
-        "url": "https://github.com/openclaw/openclaw/issues/54128",
+        "number": 81946,
+        "title": "Control UI: add guarded dashboard keyboard shortcuts",
+        "url": "https://github.com/openclaw/openclaw/issues/81946",
         "state": "open",
-        "author": "hsuaaron",
-        "updatedAt": "2026-08-22T19:31:50Z"
+        "author": "BunsDev",
+        "updatedAt": "2026-08-22T21:33:17Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 119937,
-        "title": "Improve sessions_search limit diagnostics",
-        "url": "https://github.com/openclaw/openclaw/pull/119937",
+        "number": 127186,
+        "title": "fix(talk): isolate cancellation ownership contract",
+        "url": "https://github.com/openclaw/openclaw/pull/127186",
         "state": "open",
-        "author": "BSG2000",
-        "updatedAt": "2026-08-22T19:32:53Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-22T21:34:16Z"
       },
       {
         "kind": "pr",
-        "number": 127964,
-        "title": "feat(mantis): prove Gateway restart and crash recovery",
-        "url": "https://github.com/openclaw/openclaw/pull/127964",
+        "number": 126976,
+        "title": "fix(announce): report unknown token usage instead of zero on the stats line",
+        "url": "https://github.com/openclaw/openclaw/pull/126976",
+        "state": "open",
+        "author": "zeroaltitude",
+        "updatedAt": "2026-08-22T21:34:07Z"
+      },
+      {
+        "kind": "pr",
+        "number": 83760,
+        "title": "feat(comfy): dynamic aspect ratio → width/height injection",
+        "url": "https://github.com/openclaw/openclaw/pull/83760",
+        "state": "open",
+        "author": "sola-ryu",
+        "updatedAt": "2026-08-22T21:34:04Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126035,
+        "title": "fix(sessions): prevent gateway stalls during large session cleanup",
+        "url": "https://github.com/openclaw/openclaw/pull/126035",
         "state": "open",
         "author": "HermanZeng",
-        "updatedAt": "2026-08-22T19:32:58Z"
+        "updatedAt": "2026-08-22T21:33:58Z"
       },
       {
         "kind": "pr",
-        "number": 123975,
-        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
-        "url": "https://github.com/openclaw/openclaw/pull/123975",
+        "number": 127700,
+        "title": "chore(deps): bump the actions group across 1 directory with 11 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/127700",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-22T19:32:41Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-22T21:33:43Z"
       },
       {
         "kind": "pr",
@@ -917,25 +935,7 @@
         "url": "https://github.com/openclaw/openclaw/pull/128020",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-22T19:32:30Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123356,
-        "title": "improve(control-ui): stage slash command arguments in the composer",
-        "url": "https://github.com/openclaw/openclaw/pull/123356",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-22T19:32:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 127982,
-        "title": "feat(plugins): expose durable plugin session state",
-        "url": "https://github.com/openclaw/openclaw/pull/127982",
-        "state": "open",
-        "author": "Giantswr86",
-        "updatedAt": "2026-08-22T19:32:01Z"
+        "updatedAt": "2026-08-22T21:33:33Z"
       }
     ]
   }

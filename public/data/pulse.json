@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-22T09:40:06.458Z",
+  "generatedAt": "2026-08-22T10:38:20.094Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -615,17 +615,17 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "capturedAt": "2026-08-22T09:40:06.458Z",
-      "issueOpen": 3748,
-      "issueClosed": 44442,
-      "prOpen": 2293,
-      "prClosed": 74829,
-      "prMerged": 27025,
+      "capturedAt": "2026-08-22T10:38:20.094Z",
+      "issueOpen": 3750,
+      "issueClosed": 44444,
+      "prOpen": 2305,
+      "prClosed": 74834,
+      "prMerged": 27029,
       "workflowRuns": 40000,
-      "stars": 387084,
-      "forks": 81308,
-      "subscribers": 1760,
-      "commits": 81502,
+      "stars": 387092,
+      "forks": 81306,
+      "subscribers": 1759,
+      "commits": 81506,
       "contributors": 3120,
       "source": "github-actions",
       "approximateDate": false
@@ -818,10 +818,10 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "stars": 387084,
-      "forks": 81308,
-      "subscribers": 1760,
-      "commits": 81502,
+      "stars": 387092,
+      "forks": 81306,
+      "subscribers": 1759,
+      "commits": 81506,
       "contributors": 3120
     }
   ],
@@ -829,104 +829,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 127828,
-        "title": "perf(ui): avoid full snapshot cache scans on each flush",
-        "url": "https://github.com/openclaw/openclaw/issues/127828",
+        "number": 127852,
+        "title": "[Bug]: Current-session cron result can enter a reset replacement conversation",
+        "url": "https://github.com/openclaw/openclaw/issues/127852",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-22T09:39:55Z"
+        "author": "HermanZeng",
+        "updatedAt": "2026-08-22T10:37:46Z"
       },
       {
         "kind": "issue",
-        "number": 127455,
-        "title": "Darwin DNS-SD browse resolves and publishes services removed before browse completion",
-        "url": "https://github.com/openclaw/openclaw/issues/127455",
+        "number": 92474,
+        "title": "[Bug]: PYTHONPATH in MCP stdio env config floods gateway journal with per-spawn warnings",
+        "url": "https://github.com/openclaw/openclaw/issues/92474",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-22T09:39:49Z"
+        "author": "ayeshachohan",
+        "updatedAt": "2026-08-22T10:37:26Z"
       },
       {
         "kind": "issue",
-        "number": 127287,
-        "title": "github-copilot: copilot-developer-cli integration-id breaks GHE data-residency (*.ghe.com) tenants — request config escape hatch",
-        "url": "https://github.com/openclaw/openclaw/issues/127287",
+        "number": 127399,
+        "title": "[Bug]: generated-media recovery replays Telegram photos after ambiguous network failure",
+        "url": "https://github.com/openclaw/openclaw/issues/127399",
         "state": "open",
-        "author": "phoenixgao",
-        "updatedAt": "2026-08-22T09:38:45Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127817,
-        "title": "perf(ui): bound long-lived request and session state",
-        "url": "https://github.com/openclaw/openclaw/issues/127817",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-22T09:38:05Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127816,
-        "title": "perf(ui): scope live session catalog comparisons",
-        "url": "https://github.com/openclaw/openclaw/issues/127816",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-22T09:38:05Z"
+        "author": "andersonjeccel",
+        "updatedAt": "2026-08-22T10:36:32Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126272,
-        "title": "fix(ui): keep transcript disclosures anchored",
-        "url": "https://github.com/openclaw/openclaw/pull/126272",
+        "number": 124543,
+        "title": "fix(gateway): assistant turns render twice on CLI backends",
+        "url": "https://github.com/openclaw/openclaw/pull/124543",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-22T09:40:00Z"
+        "author": "spunzon",
+        "updatedAt": "2026-08-22T10:38:10Z"
       },
       {
         "kind": "pr",
-        "number": 127821,
-        "title": "perf(ui): defer hidden retained pane hydration",
-        "url": "https://github.com/openclaw/openclaw/pull/127821",
+        "number": 123356,
+        "title": "improve(control-ui): stage slash command arguments in the composer",
+        "url": "https://github.com/openclaw/openclaw/pull/123356",
         "state": "open",
         "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-22T09:39:53Z"
+        "updatedAt": "2026-08-22T10:38:05Z"
       },
       {
         "kind": "pr",
-        "number": 126255,
-        "title": "feat(browser): add policy-bound Browser Use CLI 3.0",
-        "url": "https://github.com/openclaw/openclaw/pull/126255",
+        "number": 127700,
+        "title": "chore(deps): bump the actions group across 1 directory with 11 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/127700",
         "state": "open",
-        "author": "MagMueller",
-        "updatedAt": "2026-08-22T09:39:40Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-22T10:38:03Z"
       },
       {
         "kind": "pr",
-        "number": 127834,
-        "title": "perf(tui): avoid blocking path autocomplete",
-        "url": "https://github.com/openclaw/openclaw/pull/127834",
+        "number": 127793,
+        "title": "feat: add durable fleet operations to Sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/127793",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-22T09:39:33Z"
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-22T10:37:53Z"
       },
       {
         "kind": "pr",
-        "number": 127819,
-        "title": "perf(ui): scope live session catalog comparisons",
-        "url": "https://github.com/openclaw/openclaw/pull/127819",
+        "number": 121576,
+        "title": "fix(text): only insert separator between word chars when stripping model tokens",
+        "url": "https://github.com/openclaw/openclaw/pull/121576",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-22T09:39:23Z"
+        "author": "ruel225",
+        "updatedAt": "2026-08-22T10:37:33Z"
       },
       {
         "kind": "pr",
-        "number": 127832,
-        "title": "refactor(ui): share background task active count",
-        "url": "https://github.com/openclaw/openclaw/pull/127832",
+        "number": 111349,
+        "title": "fix(plugins): pretag pack checks stop hanging on stalled commands",
+        "url": "https://github.com/openclaw/openclaw/pull/111349",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-22T09:39:08Z"
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-08-22T10:37:24Z"
       }
     ]
   }

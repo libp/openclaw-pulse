@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-22T14:36:13.013Z",
+  "generatedAt": "2026-08-22T16:39:02.750Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -615,17 +615,17 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "capturedAt": "2026-08-22T14:36:13.013Z",
-      "issueOpen": 3771,
-      "issueClosed": 44494,
+      "capturedAt": "2026-08-22T16:39:02.750Z",
+      "issueOpen": 3769,
+      "issueClosed": 44500,
       "prOpen": 2308,
-      "prClosed": 74862,
-      "prMerged": 27044,
+      "prClosed": 74874,
+      "prMerged": 27052,
       "workflowRuns": 40000,
-      "stars": 387113,
+      "stars": 387117,
       "forks": 81306,
       "subscribers": 1759,
-      "commits": 81521,
+      "commits": 81529,
       "contributors": 3120,
       "source": "github-actions",
       "approximateDate": false
@@ -818,10 +818,10 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "stars": 387113,
+      "stars": 387117,
       "forks": 81306,
       "subscribers": 1759,
-      "commits": 81521,
+      "commits": 81529,
       "contributors": 3120
     }
   ],
@@ -829,113 +829,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 126813,
-        "title": "Queued peer message re-invokes an agent with answer-expected delivery hint and no acknowledgment of its just-delivered reply, causing duplicate answers in multi-agent rooms",
-        "url": "https://github.com/openclaw/openclaw/issues/126813",
-        "state": "open",
-        "author": "gorkem2020",
-        "updatedAt": "2026-08-22T14:36:04Z"
-      },
-      {
-        "kind": "issue",
-        "number": 90911,
-        "title": "[Feature]: Record token usage on task_runs / subagent_runs (parity with cron_run_logs.total_tokens)",
-        "url": "https://github.com/openclaw/openclaw/issues/90911",
-        "state": "open",
-        "author": "bosszukung",
-        "updatedAt": "2026-08-22T14:35:26Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127574,
-        "title": "Generated-media runtimes accept provider outputs beyond authorized cardinality",
-        "url": "https://github.com/openclaw/openclaw/issues/127574",
+        "number": 127605,
+        "title": "Slack, Teams, and Mattermost reaction side paths lose thread-session identity",
+        "url": "https://github.com/openclaw/openclaw/issues/127605",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-22T14:35:13Z"
+        "updatedAt": "2026-08-22T16:38:35Z"
       },
       {
         "kind": "issue",
-        "number": 127955,
-        "title": "Dashboard/sessions list shows inflated context usage (e.g. 400%) because totalTokens includes cumulative cacheRead",
-        "url": "https://github.com/openclaw/openclaw/issues/127955",
-        "state": "closed",
-        "author": "laobaiAI1983",
-        "updatedAt": "2026-08-22T14:34:43Z"
-      },
-      {
-        "kind": "issue",
-        "number": 89254,
-        "title": "Matrix channel: inbound DMs intermittently not dispatched to agent; no reply delivery; cross-user verification cannot complete (E2EE, self-hosted homeserver)",
-        "url": "https://github.com/openclaw/openclaw/issues/89254",
+        "number": 127633,
+        "title": "sessions.list numeric continuation duplicates or omits rows as the roster reorders",
+        "url": "https://github.com/openclaw/openclaw/issues/127633",
         "state": "open",
-        "author": "sem00-ft",
-        "updatedAt": "2026-08-22T14:34:32Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-22T16:38:31Z"
       },
       {
         "kind": "issue",
-        "number": 127957,
-        "title": "Gateway attach for one-shot agent runs times out under load and silently degrades to embedded fallback",
-        "url": "https://github.com/openclaw/openclaw/issues/127957",
+        "number": 127973,
+        "title": "openclaw doctor is silent about a pending legacy device auth migration and reports zero local device auth findings",
+        "url": "https://github.com/openclaw/openclaw/issues/127973",
         "state": "open",
-        "author": "hvhoon",
-        "updatedAt": "2026-08-22T14:33:57Z"
+        "author": "yetval",
+        "updatedAt": "2026-08-22T16:37:47Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127628,
+        "title": "Discord mention gating durably drops recognized membership and room system messages",
+        "url": "https://github.com/openclaw/openclaw/issues/127628",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-22T16:37:47Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127626,
+        "title": "Ollama terminal conversion drops concrete model identity such as implicit :latest resolution",
+        "url": "https://github.com/openclaw/openclaw/issues/127626",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-22T16:37:43Z"
+      },
+      {
+        "kind": "issue",
+        "number": 45505,
+        "title": "Generalize post-timeout compaction completion reconciliation across session state",
+        "url": "https://github.com/openclaw/openclaw/issues/45505",
+        "state": "open",
+        "author": "jackal092927",
+        "updatedAt": "2026-08-22T16:37:43Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 120443,
-        "title": "fix: read codex thread binding before deferring automatic compaction (#119977)",
-        "url": "https://github.com/openclaw/openclaw/pull/120443",
+        "number": 127951,
+        "title": "feat(agents): selectable Claude CLI context window (200K/1M)",
+        "url": "https://github.com/openclaw/openclaw/pull/127951",
         "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-08-22T14:36:04Z"
+        "author": "obviyus",
+        "updatedAt": "2026-08-22T16:38:56Z"
       },
       {
         "kind": "pr",
-        "number": 125656,
-        "title": "fix(memory-wiki): reject out-of-range claim confidence at the mutation boundary",
-        "url": "https://github.com/openclaw/openclaw/pull/125656",
-        "state": "open",
-        "author": "wanyongstar",
-        "updatedAt": "2026-08-22T14:35:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125550,
-        "title": "Android: fix photos.latest returning stale, over-shrunk images",
-        "url": "https://github.com/openclaw/openclaw/pull/125550",
-        "state": "open",
-        "author": "Kaneki-x",
-        "updatedAt": "2026-08-22T14:34:53Z"
-      },
-      {
-        "kind": "pr",
-        "number": 127879,
-        "title": "fix: show WebChat attachments from active runs [AI-assisted]",
-        "url": "https://github.com/openclaw/openclaw/pull/127879",
-        "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-22T14:34:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125593,
-        "title": "docs(skills): add interrupted-run recovery to openclaw-debugging",
-        "url": "https://github.com/openclaw/openclaw/pull/125593",
+        "number": 123975,
+        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
+        "url": "https://github.com/openclaw/openclaw/pull/123975",
         "state": "open",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-22T14:33:58Z"
+        "updatedAt": "2026-08-22T16:38:55Z"
       },
       {
         "kind": "pr",
-        "number": 127836,
-        "title": "fix(agents): never drop or stall a steer accepted at the end of a turn",
-        "url": "https://github.com/openclaw/openclaw/pull/127836",
+        "number": 110455,
+        "title": "fix(acp): order new session response before updates",
+        "url": "https://github.com/openclaw/openclaw/pull/110455",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-22T14:33:51Z"
+        "author": "superdiaodiao",
+        "updatedAt": "2026-08-22T16:38:45Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123535,
+        "title": "fix(ui): avoid session catalog refresh storms",
+        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-22T16:38:24Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126424,
+        "title": "fix(gateway): keep conversation delivery within agent bindings",
+        "url": "https://github.com/openclaw/openclaw/pull/126424",
+        "state": "closed",
+        "author": "joshavant",
+        "updatedAt": "2026-08-22T16:38:20Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126618,
+        "title": "fix: Tool Search directory/tools wrap native read/exec in tool_call",
+        "url": "https://github.com/openclaw/openclaw/pull/126618",
+        "state": "open",
+        "author": "RaviTharuma",
+        "updatedAt": "2026-08-22T16:38:12Z"
       }
     ]
   }

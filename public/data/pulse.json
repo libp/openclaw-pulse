@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-22T03:55:13.146Z",
+  "generatedAt": "2026-08-22T04:47:22.407Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -615,17 +615,17 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "capturedAt": "2026-08-22T03:55:13.146Z",
-      "issueOpen": 3745,
-      "issueClosed": 44424,
-      "prOpen": 2300,
-      "prClosed": 74780,
-      "prMerged": 26989,
+      "capturedAt": "2026-08-22T04:47:22.407Z",
+      "issueOpen": 3744,
+      "issueClosed": 44428,
+      "prOpen": 2297,
+      "prClosed": 74788,
+      "prMerged": 26995,
       "workflowRuns": 40000,
-      "stars": 387054,
-      "forks": 81300,
+      "stars": 387058,
+      "forks": 81303,
       "subscribers": 1759,
-      "commits": 81466,
+      "commits": 81472,
       "contributors": 3119,
       "source": "github-actions",
       "approximateDate": false
@@ -818,10 +818,10 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "stars": 387054,
-      "forks": 81300,
+      "stars": 387058,
+      "forks": 81303,
       "subscribers": 1759,
-      "commits": 81466,
+      "commits": 81472,
       "contributors": 3119
     }
   ],
@@ -829,113 +829,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 125776,
-        "title": "Codex dynamic tool progress duplicates a single call in Telegram",
-        "url": "https://github.com/openclaw/openclaw/issues/125776",
+        "number": 98435,
+        "title": "MCP loopback transport does not auto-reconnect on CLI side after gateway restart — recovered=1 is misleading",
+        "url": "https://github.com/openclaw/openclaw/issues/98435",
         "state": "open",
-        "author": "sunnydongbo",
-        "updatedAt": "2026-08-22T03:55:05Z"
+        "author": "alvelda",
+        "updatedAt": "2026-08-22T04:47:07Z"
       },
       {
         "kind": "issue",
-        "number": 53958,
-        "title": "[Feature]: Overview should show config file path",
-        "url": "https://github.com/openclaw/openclaw/issues/53958",
+        "number": 127388,
+        "title": "Pending archive failures poison unrelated session deletes and starve recovery",
+        "url": "https://github.com/openclaw/openclaw/issues/127388",
         "state": "open",
-        "author": "robertPiro",
-        "updatedAt": "2026-08-22T03:54:53Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-22T04:47:05Z"
       },
       {
         "kind": "issue",
-        "number": 53763,
-        "title": "[Feature]: Built-in headless browser for reliable web access without external dependencies",
-        "url": "https://github.com/openclaw/openclaw/issues/53763",
+        "number": 52046,
+        "title": "[Feature]:  Non-blocking heartbeat execution to prevent message processing delays",
+        "url": "https://github.com/openclaw/openclaw/issues/52046",
         "state": "open",
-        "author": "luoziyan100",
-        "updatedAt": "2026-08-22T03:54:51Z"
+        "author": "ccff0",
+        "updatedAt": "2026-08-22T04:46:57Z"
       },
       {
         "kind": "issue",
-        "number": 80176,
-        "title": "[Codex×Pi parity Phase 5] JSONL session-replay harness",
-        "url": "https://github.com/openclaw/openclaw/issues/80176",
+        "number": 127387,
+        "title": "Agent read-only SQLite opens bypass corruption quarantine",
+        "url": "https://github.com/openclaw/openclaw/issues/127387",
         "state": "open",
-        "author": "100yenadmin",
-        "updatedAt": "2026-08-22T03:54:50Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-22T04:46:42Z"
       },
       {
         "kind": "issue",
-        "number": 53540,
-        "title": "[Bug]: Embedded runner \"Network connection lost\" when LLM generates a tool call with large parameters (param generation latency > underlying request timeout)",
-        "url": "https://github.com/openclaw/openclaw/issues/53540",
+        "number": 124689,
+        "title": "[Bug]: Model picker only applies changes to new sessions; Ollama Cloud requests sign-in despite configured API key",
+        "url": "https://github.com/openclaw/openclaw/issues/124689",
         "state": "open",
-        "author": "yilunzhang",
-        "updatedAt": "2026-08-22T03:54:50Z"
+        "author": "Jaulustus",
+        "updatedAt": "2026-08-22T04:46:40Z"
       },
       {
         "kind": "issue",
-        "number": 60736,
-        "title": "Google provider: implement proper Vertex AI OAuth and endpoint routing",
-        "url": "https://github.com/openclaw/openclaw/issues/60736",
+        "number": 127383,
+        "title": "Signal container WebSocket retains unbounded valid event bursts",
+        "url": "https://github.com/openclaw/openclaw/issues/127383",
         "state": "open",
-        "author": "PewterZz",
-        "updatedAt": "2026-08-22T03:54:40Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-22T04:46:06Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 127763,
-        "title": "fix(ci): apply Kova runtime-major RSS calibration",
-        "url": "https://github.com/openclaw/openclaw/pull/127763",
+        "number": 124551,
+        "title": "fix(cli): merge nested MCP configure and tools patches",
+        "url": "https://github.com/openclaw/openclaw/pull/124551",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-22T03:54:54Z"
+        "author": "zyw02",
+        "updatedAt": "2026-08-22T04:47:16Z"
       },
       {
         "kind": "pr",
-        "number": 127729,
-        "title": "fix: preserve message-tool images across gateway restarts",
-        "url": "https://github.com/openclaw/openclaw/pull/127729",
+        "number": 127730,
+        "title": "fix(codex): accept bounded upstream prompt provenance",
+        "url": "https://github.com/openclaw/openclaw/pull/127730",
         "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-22T03:54:43Z"
+        "author": "Marvinthebored",
+        "updatedAt": "2026-08-22T04:47:00Z"
       },
       {
         "kind": "pr",
-        "number": 124301,
-        "title": "improve(control-ui): restructure the composer as a multiline surface",
-        "url": "https://github.com/openclaw/openclaw/pull/124301",
+        "number": 123535,
+        "title": "fix(ui): avoid session catalog refresh storms",
+        "url": "https://github.com/openclaw/openclaw/pull/123535",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-22T03:54:40Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-22T04:46:52Z"
       },
       {
         "kind": "pr",
-        "number": 126713,
-        "title": "improve(ui): simplify session sidebar indicators",
-        "url": "https://github.com/openclaw/openclaw/pull/126713",
-        "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-22T03:54:37Z"
+        "number": 125471,
+        "title": "fix(models): keep Claude CLI OAuth available in Control UI",
+        "url": "https://github.com/openclaw/openclaw/pull/125471",
+        "state": "closed",
+        "author": "VACInc",
+        "updatedAt": "2026-08-22T04:46:50Z"
       },
       {
         "kind": "pr",
-        "number": 101593,
-        "title": "fix(infra): handle detached respawn child errors",
-        "url": "https://github.com/openclaw/openclaw/pull/101593",
+        "number": 126825,
+        "title": "perf(sqlite): skip schema write lock on current state",
+        "url": "https://github.com/openclaw/openclaw/pull/126825",
         "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-22T03:54:31Z"
+        "author": "jason-allen-oneal",
+        "updatedAt": "2026-08-22T04:46:37Z"
       },
       {
         "kind": "pr",
-        "number": 119525,
-        "title": "fix(memory): allow retry after search timeout",
-        "url": "https://github.com/openclaw/openclaw/pull/119525",
-        "state": "open",
-        "author": "momothemage",
-        "updatedAt": "2026-08-22T03:54:29Z"
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-22T04:46:36Z"
       }
     ]
   }

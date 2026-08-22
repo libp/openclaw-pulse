@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-22T13:43:16.764Z",
+  "generatedAt": "2026-08-22T14:36:13.013Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -615,17 +615,17 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "capturedAt": "2026-08-22T13:43:16.764Z",
-      "issueOpen": 3769,
-      "issueClosed": 44491,
+      "capturedAt": "2026-08-22T14:36:13.013Z",
+      "issueOpen": 3771,
+      "issueClosed": 44494,
       "prOpen": 2308,
-      "prClosed": 74860,
-      "prMerged": 27043,
+      "prClosed": 74862,
+      "prMerged": 27044,
       "workflowRuns": 40000,
-      "stars": 387111,
-      "forks": 81309,
+      "stars": 387113,
+      "forks": 81306,
       "subscribers": 1759,
-      "commits": 81520,
+      "commits": 81521,
       "contributors": 3120,
       "source": "github-actions",
       "approximateDate": false
@@ -818,10 +818,10 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "stars": 387111,
-      "forks": 81309,
+      "stars": 387113,
+      "forks": 81306,
       "subscribers": 1759,
-      "commits": 81520,
+      "commits": 81521,
       "contributors": 3120
     }
   ],
@@ -829,113 +829,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 127586,
-        "title": "Chat Completions loses ownership boundaries across parallel tool-result images",
-        "url": "https://github.com/openclaw/openclaw/issues/127586",
+        "number": 126813,
+        "title": "Queued peer message re-invokes an agent with answer-expected delivery hint and no acknowledgment of its just-delivered reply, causing duplicate answers in multi-agent rooms",
+        "url": "https://github.com/openclaw/openclaw/issues/126813",
+        "state": "open",
+        "author": "gorkem2020",
+        "updatedAt": "2026-08-22T14:36:04Z"
+      },
+      {
+        "kind": "issue",
+        "number": 90911,
+        "title": "[Feature]: Record token usage on task_runs / subagent_runs (parity with cron_run_logs.total_tokens)",
+        "url": "https://github.com/openclaw/openclaw/issues/90911",
+        "state": "open",
+        "author": "bosszukung",
+        "updatedAt": "2026-08-22T14:35:26Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127574,
+        "title": "Generated-media runtimes accept provider outputs beyond authorized cardinality",
+        "url": "https://github.com/openclaw/openclaw/issues/127574",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-22T13:42:15Z"
+        "updatedAt": "2026-08-22T14:35:13Z"
       },
       {
         "kind": "issue",
-        "number": 84809,
-        "title": "[Data loss] 2026.5.19 update/backup flow removed ~/.openclaw/workspace and left plugin/npm state inconsistent",
-        "url": "https://github.com/openclaw/openclaw/issues/84809",
-        "state": "open",
-        "author": "Niriakot",
-        "updatedAt": "2026-08-22T13:41:55Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127219,
-        "title": "[Bug]: per-agent exec cleanup retention is process-global and lazy",
-        "url": "https://github.com/openclaw/openclaw/issues/127219",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-22T13:41:35Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127588,
-        "title": "Future-dated location cache entries bypass every max-age request after clock rollback",
-        "url": "https://github.com/openclaw/openclaw/issues/127588",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-22T13:41:32Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127531,
-        "title": "ACP failed-spawn cleanup can close a newer same-key session",
-        "url": "https://github.com/openclaw/openclaw/issues/127531",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-22T13:41:08Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127788,
-        "title": "[Bug]: Openclaw continues to attempt to use IP address for different provider",
-        "url": "https://github.com/openclaw/openclaw/issues/127788",
+        "number": 127955,
+        "title": "Dashboard/sessions list shows inflated context usage (e.g. 400%) because totalTokens includes cumulative cacheRead",
+        "url": "https://github.com/openclaw/openclaw/issues/127955",
         "state": "closed",
-        "author": "FireBelow",
-        "updatedAt": "2026-08-22T13:40:54Z"
+        "author": "laobaiAI1983",
+        "updatedAt": "2026-08-22T14:34:43Z"
+      },
+      {
+        "kind": "issue",
+        "number": 89254,
+        "title": "Matrix channel: inbound DMs intermittently not dispatched to agent; no reply delivery; cross-user verification cannot complete (E2EE, self-hosted homeserver)",
+        "url": "https://github.com/openclaw/openclaw/issues/89254",
+        "state": "open",
+        "author": "sem00-ft",
+        "updatedAt": "2026-08-22T14:34:32Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127957,
+        "title": "Gateway attach for one-shot agent runs times out under load and silently degrades to embedded fallback",
+        "url": "https://github.com/openclaw/openclaw/issues/127957",
+        "state": "open",
+        "author": "hvhoon",
+        "updatedAt": "2026-08-22T14:33:57Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "number": 120443,
+        "title": "fix: read codex thread binding before deferring automatic compaction (#119977)",
+        "url": "https://github.com/openclaw/openclaw/pull/120443",
+        "state": "open",
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-08-22T14:36:04Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125656,
+        "title": "fix(memory-wiki): reject out-of-range claim confidence at the mutation boundary",
+        "url": "https://github.com/openclaw/openclaw/pull/125656",
+        "state": "open",
+        "author": "wanyongstar",
+        "updatedAt": "2026-08-22T14:35:42Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125550,
+        "title": "Android: fix photos.latest returning stale, over-shrunk images",
+        "url": "https://github.com/openclaw/openclaw/pull/125550",
+        "state": "open",
+        "author": "Kaneki-x",
+        "updatedAt": "2026-08-22T14:34:53Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127879,
+        "title": "fix: show WebChat attachments from active runs [AI-assisted]",
+        "url": "https://github.com/openclaw/openclaw/pull/127879",
+        "state": "open",
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-22T14:34:02Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125593,
+        "title": "docs(skills): add interrupted-run recovery to openclaw-debugging",
+        "url": "https://github.com/openclaw/openclaw/pull/125593",
         "state": "open",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-22T13:43:08Z"
+        "updatedAt": "2026-08-22T14:33:58Z"
       },
       {
         "kind": "pr",
-        "number": 97135,
-        "title": "fix(auto-reply): hide recovered failed tool progress",
-        "url": "https://github.com/openclaw/openclaw/pull/97135",
+        "number": 127836,
+        "title": "fix(agents): never drop or stall a steer accepted at the end of a turn",
+        "url": "https://github.com/openclaw/openclaw/pull/127836",
         "state": "open",
-        "author": "litang9",
-        "updatedAt": "2026-08-22T13:42:49Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121124,
-        "title": "fix(feishu): stop repeated doc child pagination",
-        "url": "https://github.com/openclaw/openclaw/pull/121124",
-        "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-08-22T13:42:47Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126618,
-        "title": "fix: Tool Search directory/tools wrap native read/exec in tool_call",
-        "url": "https://github.com/openclaw/openclaw/pull/126618",
-        "state": "open",
-        "author": "RaviTharuma",
-        "updatedAt": "2026-08-22T13:42:21Z"
-      },
-      {
-        "kind": "pr",
-        "number": 69417,
-        "title": "fix(mcp): allow SecretRef values in mcp.servers env and headers [AI-assisted]",
-        "url": "https://github.com/openclaw/openclaw/pull/69417",
-        "state": "open",
-        "author": "fgabelmannjr",
-        "updatedAt": "2026-08-22T13:42:21Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125471,
-        "title": "fix(models): keep Claude CLI OAuth available in Control UI",
-        "url": "https://github.com/openclaw/openclaw/pull/125471",
-        "state": "closed",
-        "author": "VACInc",
-        "updatedAt": "2026-08-22T13:42:20Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-22T14:33:51Z"
       }
     ]
   }

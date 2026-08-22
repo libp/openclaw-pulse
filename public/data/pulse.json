@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-22T16:39:02.750Z",
+  "generatedAt": "2026-08-22T18:47:27.651Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -615,17 +615,17 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "capturedAt": "2026-08-22T16:39:02.750Z",
-      "issueOpen": 3769,
-      "issueClosed": 44500,
-      "prOpen": 2308,
-      "prClosed": 74874,
-      "prMerged": 27052,
+      "capturedAt": "2026-08-22T18:47:27.651Z",
+      "issueOpen": 3778,
+      "issueClosed": 44507,
+      "prOpen": 2313,
+      "prClosed": 74893,
+      "prMerged": 27062,
       "workflowRuns": 40000,
-      "stars": 387117,
-      "forks": 81306,
+      "stars": 387124,
+      "forks": 81310,
       "subscribers": 1759,
-      "commits": 81529,
+      "commits": 81539,
       "contributors": 3120,
       "source": "github-actions",
       "approximateDate": false
@@ -818,10 +818,10 @@
     },
     {
       "capturedOn": "2026-08-22",
-      "stars": 387117,
-      "forks": 81306,
+      "stars": 387124,
+      "forks": 81310,
       "subscribers": 1759,
-      "commits": 81529,
+      "commits": 81539,
       "contributors": 3120
     }
   ],
@@ -829,113 +829,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 127605,
-        "title": "Slack, Teams, and Mattermost reaction side paths lose thread-session identity",
-        "url": "https://github.com/openclaw/openclaw/issues/127605",
+        "number": 128011,
+        "title": "Feature: durable, supervised background agent runs with a structured lifecycle contract",
+        "url": "https://github.com/openclaw/openclaw/issues/128011",
+        "state": "open",
+        "author": "hvhoon",
+        "updatedAt": "2026-08-22T18:47:18Z"
+      },
+      {
+        "kind": "issue",
+        "number": 124689,
+        "title": "[Bug]: Model picker only applies changes to new sessions; Ollama Cloud requests sign-in despite configured API key",
+        "url": "https://github.com/openclaw/openclaw/issues/124689",
+        "state": "open",
+        "author": "Jaulustus",
+        "updatedAt": "2026-08-22T18:46:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 82014,
+        "title": "Google Chat message-tool replies do not edit typing placeholder",
+        "url": "https://github.com/openclaw/openclaw/issues/82014",
+        "state": "closed",
+        "author": "jai",
+        "updatedAt": "2026-08-22T18:46:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 106374,
+        "title": "[Bug]: openai/gpt-5.6-terra listed by OpenAI provider but Gateway run fails with missing models.providers.openai.models[] entry",
+        "url": "https://github.com/openclaw/openclaw/issues/106374",
+        "state": "closed",
+        "author": "VanessaHammes",
+        "updatedAt": "2026-08-22T18:46:16Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127381,
+        "title": "Model fallback drops usage and cost from completed discarded candidates",
+        "url": "https://github.com/openclaw/openclaw/issues/127381",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-22T16:38:35Z"
+        "updatedAt": "2026-08-22T18:46:08Z"
       },
       {
         "kind": "issue",
-        "number": 127633,
-        "title": "sessions.list numeric continuation duplicates or omits rows as the roster reorders",
-        "url": "https://github.com/openclaw/openclaw/issues/127633",
+        "number": 127596,
+        "title": "Voice Call legacy streaming migration overwrites explicit canonical provider config",
+        "url": "https://github.com/openclaw/openclaw/issues/127596",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-22T16:38:31Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127973,
-        "title": "openclaw doctor is silent about a pending legacy device auth migration and reports zero local device auth findings",
-        "url": "https://github.com/openclaw/openclaw/issues/127973",
-        "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-08-22T16:37:47Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127628,
-        "title": "Discord mention gating durably drops recognized membership and room system messages",
-        "url": "https://github.com/openclaw/openclaw/issues/127628",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-22T16:37:47Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127626,
-        "title": "Ollama terminal conversion drops concrete model identity such as implicit :latest resolution",
-        "url": "https://github.com/openclaw/openclaw/issues/127626",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-22T16:37:43Z"
-      },
-      {
-        "kind": "issue",
-        "number": 45505,
-        "title": "Generalize post-timeout compaction completion reconciliation across session state",
-        "url": "https://github.com/openclaw/openclaw/issues/45505",
-        "state": "open",
-        "author": "jackal092927",
-        "updatedAt": "2026-08-22T16:37:43Z"
+        "updatedAt": "2026-08-22T18:46:07Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 127951,
-        "title": "feat(agents): selectable Claude CLI context window (200K/1M)",
-        "url": "https://github.com/openclaw/openclaw/pull/127951",
+        "number": 114983,
+        "title": "fix(doctor): doctor --fix fails to persist when legacy models map has a bare provider key",
+        "url": "https://github.com/openclaw/openclaw/pull/114983",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-08-22T16:38:56Z"
+        "author": "synthalorian",
+        "updatedAt": "2026-08-22T18:47:22Z"
       },
       {
         "kind": "pr",
-        "number": 123975,
-        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
-        "url": "https://github.com/openclaw/openclaw/pull/123975",
+        "number": 115086,
+        "title": "fix(agents): reject execCommand's promise on AbortSignal cancellation",
+        "url": "https://github.com/openclaw/openclaw/pull/115086",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-22T16:38:55Z"
+        "author": "OfficialAbhinavSingh",
+        "updatedAt": "2026-08-22T18:46:59Z"
       },
       {
         "kind": "pr",
-        "number": 110455,
-        "title": "fix(acp): order new session response before updates",
-        "url": "https://github.com/openclaw/openclaw/pull/110455",
+        "number": 127700,
+        "title": "chore(deps): bump the actions group across 1 directory with 11 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/127700",
         "state": "open",
-        "author": "superdiaodiao",
-        "updatedAt": "2026-08-22T16:38:45Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-22T18:46:46Z"
       },
       {
         "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "number": 128001,
+        "title": "fix(agents): propagate requester abort to ACP spawn",
+        "url": "https://github.com/openclaw/openclaw/pull/128001",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-22T16:38:24Z"
+        "author": "original4422",
+        "updatedAt": "2026-08-22T18:46:28Z"
       },
       {
         "kind": "pr",
-        "number": 126424,
-        "title": "fix(gateway): keep conversation delivery within agent bindings",
-        "url": "https://github.com/openclaw/openclaw/pull/126424",
-        "state": "closed",
-        "author": "joshavant",
-        "updatedAt": "2026-08-22T16:38:20Z"
+        "number": 115048,
+        "title": "improve(codex): reduce long-history prompt allocations",
+        "url": "https://github.com/openclaw/openclaw/pull/115048",
+        "state": "open",
+        "author": "jalehman",
+        "updatedAt": "2026-08-22T18:46:26Z"
       },
       {
         "kind": "pr",
-        "number": 126618,
-        "title": "fix: Tool Search directory/tools wrap native read/exec in tool_call",
-        "url": "https://github.com/openclaw/openclaw/pull/126618",
+        "number": 127998,
+        "title": "fix: Doctor authority remediation lists disabled automations",
+        "url": "https://github.com/openclaw/openclaw/pull/127998",
         "state": "open",
-        "author": "RaviTharuma",
-        "updatedAt": "2026-08-22T16:38:12Z"
+        "author": "MonkeyLeeT",
+        "updatedAt": "2026-08-22T18:46:15Z"
       }
     ]
   }

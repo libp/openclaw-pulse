@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-23T05:42:58.401Z",
+  "generatedAt": "2026-08-23T07:45:57.898Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -632,17 +632,17 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "capturedAt": "2026-08-23T05:42:58.401Z",
-      "issueOpen": 3728,
-      "issueClosed": 44596,
-      "prOpen": 2308,
-      "prClosed": 74970,
-      "prMerged": 27117,
+      "capturedAt": "2026-08-23T07:45:57.898Z",
+      "issueOpen": 3725,
+      "issueClosed": 44602,
+      "prOpen": 2311,
+      "prClosed": 74984,
+      "prMerged": 27130,
       "workflowRuns": 40000,
-      "stars": 387172,
-      "forks": 81311,
+      "stars": 387185,
+      "forks": 81309,
       "subscribers": 1757,
-      "commits": 81595,
+      "commits": 81609,
       "contributors": 3121,
       "source": "github-actions",
       "approximateDate": false
@@ -843,10 +843,10 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "stars": 387172,
-      "forks": 81311,
+      "stars": 387185,
+      "forks": 81309,
       "subscribers": 1757,
-      "commits": 81595,
+      "commits": 81609,
       "contributors": 3121
     }
   ],
@@ -854,95 +854,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 128123,
-        "title": "[Behavior bug]: embedded agent run aborts at ~90s regardless of configured timeout",
-        "url": "https://github.com/openclaw/openclaw/issues/128123",
-        "state": "closed",
-        "author": "zachisfine",
-        "updatedAt": "2026-08-23T05:41:58Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127472,
-        "title": "Terminal cron receipts are bounded per live job ID but unbounded across deleted job IDs",
-        "url": "https://github.com/openclaw/openclaw/issues/127472",
+        "number": 127506,
+        "title": "Workspace prompt-content cache is unbounded and retains deleted workspace bytes",
+        "url": "https://github.com/openclaw/openclaw/issues/127506",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-23T05:41:33Z"
+        "updatedAt": "2026-08-23T07:45:35Z"
       },
       {
         "kind": "issue",
-        "number": 124873,
-        "title": "[Bug]: Buzz agent replies nest progressively inside existing threads",
-        "url": "https://github.com/openclaw/openclaw/issues/124873",
+        "number": 127532,
+        "title": "OTEL queue admission drops traces and logs without updating exporter health",
+        "url": "https://github.com/openclaw/openclaw/issues/127532",
         "state": "open",
-        "author": "LeahArmstrong",
-        "updatedAt": "2026-08-23T05:40:50Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-23T07:45:34Z"
       },
       {
         "kind": "issue",
-        "number": 92116,
-        "title": "Bug: sessions_yield subagent completion delivered as passive context — LLM can silently ignore it, breaking orchestration loops",
-        "url": "https://github.com/openclaw/openclaw/issues/92116",
+        "number": 127519,
+        "title": "Plugin HTTP route inventories have no aggregate admission bound",
+        "url": "https://github.com/openclaw/openclaw/issues/127519",
         "state": "open",
-        "author": "lileilei-camera",
-        "updatedAt": "2026-08-23T05:40:37Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-23T07:45:34Z"
+      },
+      {
+        "kind": "issue",
+        "number": 116062,
+        "title": "Dashboard: Anthropic provider group missing from full model settings panel (stale after gateway restart, no config change)",
+        "url": "https://github.com/openclaw/openclaw/issues/116062",
+        "state": "open",
+        "author": "julio-vallejos",
+        "updatedAt": "2026-08-23T07:44:39Z"
+      },
+      {
+        "kind": "issue",
+        "number": 118625,
+        "title": "[Bug]: Main-session compaction holds the session write-lock past the 60s acquire timeout; completed subagent announces time out and give up, silently losing results",
+        "url": "https://github.com/openclaw/openclaw/issues/118625",
+        "state": "open",
+        "author": "ssica521sinence",
+        "updatedAt": "2026-08-23T07:44:33Z"
+      },
+      {
+        "kind": "issue",
+        "number": 126847,
+        "title": "A failed tool call always terminates the visible turn as \"temporary model failure\" — the error is never returned to the model (0/40 recoverable in 24h)",
+        "url": "https://github.com/openclaw/openclaw/issues/126847",
+        "state": "open",
+        "author": "todddickerson",
+        "updatedAt": "2026-08-23T07:44:27Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 127709,
-        "title": "fix(macos): retire queued dashboard intent on window close",
-        "url": "https://github.com/openclaw/openclaw/pull/127709",
+        "number": 120598,
+        "title": "feat(capability): add private model-run prompt files",
+        "url": "https://github.com/openclaw/openclaw/pull/120598",
         "state": "open",
-        "author": "chelsealong",
-        "updatedAt": "2026-08-23T05:42:51Z"
+        "author": "shad0wca7",
+        "updatedAt": "2026-08-23T07:45:47Z"
       },
       {
         "kind": "pr",
-        "number": 116232,
-        "title": "fix(whatsapp): stop retrying transport-level timed-out sends",
-        "url": "https://github.com/openclaw/openclaw/pull/116232",
+        "number": 128144,
+        "title": "fix(gateway): prevent silent delivery loss on closing connections",
+        "url": "https://github.com/openclaw/openclaw/pull/128144",
         "state": "open",
-        "author": "miorbnli",
-        "updatedAt": "2026-08-23T05:42:48Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-23T07:45:44Z"
       },
       {
         "kind": "pr",
-        "number": 123356,
-        "title": "improve(control-ui): stage slash command arguments in the composer",
-        "url": "https://github.com/openclaw/openclaw/pull/123356",
+        "number": 120577,
+        "title": "fix(codex): render dynamic tool images in chat",
+        "url": "https://github.com/openclaw/openclaw/pull/120577",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-23T05:42:39Z"
+        "author": "f-trycua",
+        "updatedAt": "2026-08-23T07:45:27Z"
       },
       {
         "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "number": 128137,
+        "title": "fix(release): repair frozen beta validation blockers",
+        "url": "https://github.com/openclaw/openclaw/pull/128137",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-23T05:42:37Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-23T07:45:11Z"
       },
       {
         "kind": "pr",
-        "number": 69417,
-        "title": "fix(mcp): allow SecretRef values in mcp.servers env and headers [AI-assisted]",
-        "url": "https://github.com/openclaw/openclaw/pull/69417",
+        "number": 124310,
+        "title": "fix(outbound): prevent duplicate sends from proven-not-sent message-tool failures",
+        "url": "https://github.com/openclaw/openclaw/pull/124310",
         "state": "open",
-        "author": "fgabelmannjr",
-        "updatedAt": "2026-08-23T05:42:34Z"
+        "author": "synthalorian",
+        "updatedAt": "2026-08-23T07:45:04Z"
       },
       {
         "kind": "pr",
-        "number": 93218,
-        "title": "feat: add session stream mode command",
-        "url": "https://github.com/openclaw/openclaw/pull/93218",
+        "number": 127700,
+        "title": "build(deps): bump the actions group across 1 directory with 11 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/127700",
         "state": "open",
-        "author": "clawSean",
-        "updatedAt": "2026-08-23T05:42:31Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-23T07:44:59Z"
       }
     ]
   }

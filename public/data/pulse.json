@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-23T20:37:17.385Z",
+  "generatedAt": "2026-08-23T21:34:41.648Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -632,18 +632,18 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "capturedAt": "2026-08-23T20:37:17.385Z",
-      "issueOpen": 3725,
-      "issueClosed": 44649,
-      "prOpen": 2291,
-      "prClosed": 75166,
-      "prMerged": 27278,
+      "capturedAt": "2026-08-23T21:34:41.648Z",
+      "issueOpen": 3714,
+      "issueClosed": 44663,
+      "prOpen": 2289,
+      "prClosed": 75189,
+      "prMerged": 27298,
       "workflowRuns": 40000,
-      "stars": 387256,
-      "forks": 81328,
+      "stars": 387264,
+      "forks": 81327,
       "subscribers": 1756,
-      "commits": 81749,
-      "contributors": 3125,
+      "commits": 81768,
+      "contributors": 3126,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -843,124 +843,115 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "stars": 387256,
-      "forks": 81328,
+      "stars": 387264,
+      "forks": 81327,
       "subscribers": 1756,
-      "commits": 81749,
-      "contributors": 3125
+      "commits": 81768,
+      "contributors": 3126
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 127450,
-        "title": "Completion cache existence is treated as content validity and generation-mode compatibility",
-        "url": "https://github.com/openclaw/openclaw/issues/127450",
+        "number": 111807,
+        "title": "/think off doesn't disable thinking on claude-cli — inherits Claude Code's default effort (contradicts docs)",
+        "url": "https://github.com/openclaw/openclaw/issues/111807",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-23T20:37:08Z"
+        "author": "Zeus-Deus",
+        "updatedAt": "2026-08-23T21:34:07Z"
       },
       {
         "kind": "issue",
-        "number": 127361,
-        "title": "POSIX installer overrides an explicit Git target with the caller checkout",
-        "url": "https://github.com/openclaw/openclaw/issues/127361",
+        "number": 127710,
+        "title": "prepared-model-runtime fails closed on transient generation churn: one fingerprint drift permanently wedges the gateway; owner-commit race silently drops messages",
+        "url": "https://github.com/openclaw/openclaw/issues/127710",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-23T20:35:43Z"
+        "author": "kiranvk-2011",
+        "updatedAt": "2026-08-23T21:33:25Z"
       },
       {
         "kind": "issue",
-        "number": 127518,
-        "title": "[Bug]: Terminal precheck-overflow abort is silent on stable v2026.7.1 (regression of #85712, fix not in stable channel)",
-        "url": "https://github.com/openclaw/openclaw/issues/127518",
+        "number": 100067,
+        "title": "[bug] 2026.6.x auth-store migration to SQLite silently strands existing JSON auth profiles — all OAuth/token providers lose auth, fallback chains die silently",
+        "url": "https://github.com/openclaw/openclaw/issues/100067",
         "state": "open",
-        "author": "oleagui",
-        "updatedAt": "2026-08-23T20:35:25Z"
+        "author": "Jason-Vaughan",
+        "updatedAt": "2026-08-23T21:33:16Z"
       },
       {
         "kind": "issue",
-        "number": 128305,
-        "title": "Slack socket mode: connection goes permanently deaf after event-loop starvation — client never detects server-side close (status stays connected, no reconnect, no log)",
-        "url": "https://github.com/openclaw/openclaw/issues/128305",
+        "number": 116062,
+        "title": "Dashboard: Anthropic provider group missing from full model settings panel (stale after gateway restart, no config change)",
+        "url": "https://github.com/openclaw/openclaw/issues/116062",
         "state": "open",
-        "author": "shannon0430",
-        "updatedAt": "2026-08-23T20:35:22Z"
+        "author": "julio-vallejos",
+        "updatedAt": "2026-08-23T21:33:09Z"
       },
       {
         "kind": "issue",
-        "number": 121756,
-        "title": "[Bug]: Control UI cannot recover channel-originated active run after reload",
-        "url": "https://github.com/openclaw/openclaw/issues/121756",
+        "number": 126847,
+        "title": "A failed tool call always terminates the visible turn as \"temporary model failure\" — the error is never returned to the model (0/40 recoverable in 24h)",
+        "url": "https://github.com/openclaw/openclaw/issues/126847",
         "state": "open",
-        "author": "hannesrudolph",
-        "updatedAt": "2026-08-23T20:35:15Z"
-      },
-      {
-        "kind": "issue",
-        "number": 121953,
-        "title": "[Bug]: Cron agent turns stall on DeepSeek — the '[cron:<jobId> <name>] ' user-message prefix is deprioritized",
-        "url": "https://github.com/openclaw/openclaw/issues/121953",
-        "state": "open",
-        "author": "Dytchem",
-        "updatedAt": "2026-08-23T20:35:14Z"
+        "author": "todddickerson",
+        "updatedAt": "2026-08-23T21:33:04Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 113366,
-        "title": "fix(line): preserve invalid carousel replies as text",
-        "url": "https://github.com/openclaw/openclaw/pull/113366",
+        "number": 122118,
+        "title": "fix(state): preserve database verification cadence across restarts",
+        "url": "https://github.com/openclaw/openclaw/pull/122118",
         "state": "open",
-        "author": "edenfunf",
-        "updatedAt": "2026-08-23T20:37:10Z"
+        "author": "keshavbotagent",
+        "updatedAt": "2026-08-23T21:34:21Z"
       },
       {
         "kind": "pr",
-        "number": 128350,
-        "title": "fix(macos): keep CLI install complete when Gateway startup fails",
-        "url": "https://github.com/openclaw/openclaw/pull/128350",
+        "number": 111826,
+        "title": "fix: /think off does not disable thinking on claude-cli",
+        "url": "https://github.com/openclaw/openclaw/pull/111826",
         "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-23T20:37:06Z"
+        "author": "Zeus-Deus",
+        "updatedAt": "2026-08-23T21:34:20Z"
       },
       {
         "kind": "pr",
-        "number": 128335,
-        "title": "test(qa-lab): release cached databases before removing fixture temp dirs",
-        "url": "https://github.com/openclaw/openclaw/pull/128335",
+        "number": 126618,
+        "title": "fix: Tool Search directory/tools wrap native read/exec in tool_call",
+        "url": "https://github.com/openclaw/openclaw/pull/126618",
+        "state": "open",
+        "author": "RaviTharuma",
+        "updatedAt": "2026-08-23T21:34:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123535,
+        "title": "fix(ui): avoid session catalog refresh storms",
+        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-23T21:34:15Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120900,
+        "title": "feat(ui): review install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/120900",
         "state": "closed",
-        "author": "Yigtwxx",
-        "updatedAt": "2026-08-23T20:36:56Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-23T21:34:14Z"
       },
       {
         "kind": "pr",
-        "number": 128034,
-        "title": "fix(ollama): start local services for native chat",
-        "url": "https://github.com/openclaw/openclaw/pull/128034",
+        "number": 128361,
+        "title": "fix(state): avoid startup refusal when retired identity reappears",
+        "url": "https://github.com/openclaw/openclaw/pull/128361",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-23T20:36:39Z"
-      },
-      {
-        "kind": "pr",
-        "number": 128334,
-        "title": "refactor(protocol): rely on synthesized Swift coding keys",
-        "url": "https://github.com/openclaw/openclaw/pull/128334",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-23T20:35:58Z"
-      },
-      {
-        "kind": "pr",
-        "number": 128062,
-        "title": "fix(ollama): record differing terminal model identity as responseModel",
-        "url": "https://github.com/openclaw/openclaw/pull/128062",
-        "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-23T20:35:34Z"
+        "author": "VACInc",
+        "updatedAt": "2026-08-23T21:34:06Z"
       }
     ]
   }

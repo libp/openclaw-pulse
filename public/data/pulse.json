@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-23T11:33:30.645Z",
+  "generatedAt": "2026-08-23T13:44:32.805Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -632,17 +632,17 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "capturedAt": "2026-08-23T11:33:30.645Z",
-      "issueOpen": 3732,
-      "issueClosed": 44609,
-      "prOpen": 2310,
-      "prClosed": 75024,
-      "prMerged": 27163,
+      "capturedAt": "2026-08-23T13:44:32.805Z",
+      "issueOpen": 3736,
+      "issueClosed": 44612,
+      "prOpen": 2302,
+      "prClosed": 75058,
+      "prMerged": 27190,
       "workflowRuns": 40000,
-      "stars": 387206,
-      "forks": 81317,
+      "stars": 387215,
+      "forks": 81320,
       "subscribers": 1757,
-      "commits": 81639,
+      "commits": 81663,
       "contributors": 3122,
       "source": "github-actions",
       "approximateDate": false
@@ -843,10 +843,10 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "stars": 387206,
-      "forks": 81317,
+      "stars": 387215,
+      "forks": 81320,
       "subscribers": 1757,
-      "commits": 81639,
+      "commits": 81663,
       "contributors": 3122
     }
   ],
@@ -854,113 +854,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 128052,
-        "title": "[Feature]: Add a first-class session trajectory view",
-        "url": "https://github.com/openclaw/openclaw/issues/128052",
+        "number": 126813,
+        "title": "Queued peer message re-invokes an agent with answer-expected delivery hint and no acknowledgment of its just-delivered reply, causing duplicate answers in multi-agent rooms",
+        "url": "https://github.com/openclaw/openclaw/issues/126813",
         "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-23T11:33:24Z"
+        "author": "gorkem2020",
+        "updatedAt": "2026-08-23T13:44:18Z"
       },
       {
         "kind": "issue",
-        "number": 127219,
-        "title": "[Bug]: per-agent exec cleanup retention is process-global and lazy",
-        "url": "https://github.com/openclaw/openclaw/issues/127219",
+        "number": 126090,
+        "title": "Bug: Telegram channel-final delivery-mirror bypasses text-based dedup, writes duplicate assistant messages to session transcript",
+        "url": "https://github.com/openclaw/openclaw/issues/126090",
+        "state": "open",
+        "author": "icantdothatdave",
+        "updatedAt": "2026-08-23T13:44:14Z"
+      },
+      {
+        "kind": "issue",
+        "number": 125257,
+        "title": "cron list costs 3.9 s CPU / 273 MB RSS to read from a running gateway (gateway calls it 73x/hour)",
+        "url": "https://github.com/openclaw/openclaw/issues/125257",
+        "state": "open",
+        "author": "mohamedelsayedhussein1011-netizen",
+        "updatedAt": "2026-08-23T13:43:13Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127511,
+        "title": "Progress-card cache remains stale across same-client Gateway reconnects",
+        "url": "https://github.com/openclaw/openclaw/issues/127511",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-23T11:33:19Z"
-      },
-      {
-        "kind": "issue",
-        "number": 128005,
-        "title": "[Bug]: Android location.get ignores maxAgeMs when it falls back to a live fix",
-        "url": "https://github.com/openclaw/openclaw/issues/128005",
-        "state": "open",
-        "author": "corvid-reads",
-        "updatedAt": "2026-08-23T11:33:00Z"
-      },
-      {
-        "kind": "issue",
-        "number": 102199,
-        "title": "Feature: preserve completed progress draft in Telegram progress mode",
-        "url": "https://github.com/openclaw/openclaw/issues/102199",
-        "state": "open",
-        "author": "GoldenrodScript",
-        "updatedAt": "2026-08-23T11:32:37Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127581,
-        "title": "Trajectory directory export is not failure-atomic and blocks identical retry",
-        "url": "https://github.com/openclaw/openclaw/issues/127581",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-23T11:32:36Z"
-      },
-      {
-        "kind": "issue",
-        "number": 101383,
-        "title": "[Bug]: Unawaited persistGatewaySessionLifecycleEvent swallows write failures and drops session start markers",
-        "url": "https://github.com/openclaw/openclaw/issues/101383",
-        "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-23T11:32:33Z"
+        "updatedAt": "2026-08-23T13:43:04Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123975,
-        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
-        "url": "https://github.com/openclaw/openclaw/pull/123975",
+        "number": 126424,
+        "title": "fix(gateway): keep conversation delivery within agent bindings",
+        "url": "https://github.com/openclaw/openclaw/pull/126424",
+        "state": "closed",
+        "author": "joshavant",
+        "updatedAt": "2026-08-23T13:44:26Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124014,
+        "title": "fix(auth): reset only the profile replaced by a successful login",
+        "url": "https://github.com/openclaw/openclaw/pull/124014",
         "state": "open",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-23T11:33:19Z"
+        "updatedAt": "2026-08-23T13:44:21Z"
       },
       {
         "kind": "pr",
-        "number": 128192,
-        "title": "fix(auth): preserve shared profile ownership on fresh installs",
-        "url": "https://github.com/openclaw/openclaw/pull/128192",
+        "number": 128224,
+        "title": "fix(cli): return JSON for session validation failures",
+        "url": "https://github.com/openclaw/openclaw/pull/128224",
         "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-23T13:43:52Z"
+      },
+      {
+        "kind": "pr",
+        "number": 128226,
+        "title": "fix(release): repair beta onboarding proof",
+        "url": "https://github.com/openclaw/openclaw/pull/128226",
+        "state": "closed",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-23T11:33:18Z"
+        "updatedAt": "2026-08-23T13:43:42Z"
       },
       {
         "kind": "pr",
-        "number": 126618,
-        "title": "fix: Tool Search directory/tools wrap native read/exec in tool_call",
-        "url": "https://github.com/openclaw/openclaw/pull/126618",
-        "state": "open",
-        "author": "RaviTharuma",
-        "updatedAt": "2026-08-23T11:33:18Z"
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-23T13:43:31Z"
       },
       {
         "kind": "pr",
-        "number": 123356,
-        "title": "improve(control-ui): stage slash command arguments in the composer",
-        "url": "https://github.com/openclaw/openclaw/pull/123356",
+        "number": 128115,
+        "title": "feat(ui): add collapsible Workboard columns",
+        "url": "https://github.com/openclaw/openclaw/pull/128115",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-23T11:33:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 127853,
-        "title": "fix(agents): keep runtime-only context out of user turns",
-        "url": "https://github.com/openclaw/openclaw/pull/127853",
-        "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-08-23T11:33:12Z"
-      },
-      {
-        "kind": "pr",
-        "number": 128077,
-        "title": "fix(security): let operators opt out of the transcript credential contract",
-        "url": "https://github.com/openclaw/openclaw/pull/128077",
-        "state": "open",
-        "author": "ejc3",
-        "updatedAt": "2026-08-23T11:33:04Z"
+        "author": "Solvely-Colin",
+        "updatedAt": "2026-08-23T13:43:21Z"
       }
     ]
   }

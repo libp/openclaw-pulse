@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-23T21:34:41.648Z",
+  "generatedAt": "2026-08-23T22:36:26.910Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -632,18 +632,18 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "capturedAt": "2026-08-23T21:34:41.648Z",
+      "capturedAt": "2026-08-23T22:36:26.910Z",
       "issueOpen": 3714,
-      "issueClosed": 44663,
-      "prOpen": 2289,
-      "prClosed": 75189,
-      "prMerged": 27298,
+      "issueClosed": 44669,
+      "prOpen": 2284,
+      "prClosed": 75207,
+      "prMerged": 27307,
       "workflowRuns": 40000,
-      "stars": 387264,
-      "forks": 81327,
+      "stars": 387266,
+      "forks": 81329,
       "subscribers": 1756,
-      "commits": 81768,
-      "contributors": 3126,
+      "commits": 81776,
+      "contributors": 3127,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -843,115 +843,97 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "stars": 387264,
-      "forks": 81327,
+      "stars": 387266,
+      "forks": 81329,
       "subscribers": 1756,
-      "commits": 81768,
-      "contributors": 3126
+      "commits": 81776,
+      "contributors": 3127
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 111807,
-        "title": "/think off doesn't disable thinking on claude-cli — inherits Claude Code's default effort (contradicts docs)",
-        "url": "https://github.com/openclaw/openclaw/issues/111807",
+        "number": 128385,
+        "title": "No-op write/edit terminator (#97044) can never surface its terminal presentation — replay-safety gate is poisoned by the mutating tool itself, yielding a repeatable generic-error dead end",
+        "url": "https://github.com/openclaw/openclaw/issues/128385",
         "state": "open",
-        "author": "Zeus-Deus",
-        "updatedAt": "2026-08-23T21:34:07Z"
+        "author": "aspalagin",
+        "updatedAt": "2026-08-23T22:34:58Z"
       },
       {
         "kind": "issue",
-        "number": 127710,
-        "title": "prepared-model-runtime fails closed on transient generation churn: one fingerprint drift permanently wedges the gateway; owner-commit race silently drops messages",
-        "url": "https://github.com/openclaw/openclaw/issues/127710",
+        "number": 124873,
+        "title": "[Bug]: Buzz agent replies nest progressively inside existing threads",
+        "url": "https://github.com/openclaw/openclaw/issues/124873",
         "state": "open",
-        "author": "kiranvk-2011",
-        "updatedAt": "2026-08-23T21:33:25Z"
+        "author": "LeahArmstrong",
+        "updatedAt": "2026-08-23T22:34:47Z"
       },
       {
         "kind": "issue",
-        "number": 100067,
-        "title": "[bug] 2026.6.x auth-store migration to SQLite silently strands existing JSON auth profiles — all OAuth/token providers lose auth, fallback chains die silently",
-        "url": "https://github.com/openclaw/openclaw/issues/100067",
+        "number": 127490,
+        "title": "Voice-call cleanup stops after the first disposer failure and drops the runtime slot",
+        "url": "https://github.com/openclaw/openclaw/issues/127490",
         "state": "open",
-        "author": "Jason-Vaughan",
-        "updatedAt": "2026-08-23T21:33:16Z"
-      },
-      {
-        "kind": "issue",
-        "number": 116062,
-        "title": "Dashboard: Anthropic provider group missing from full model settings panel (stale after gateway restart, no config change)",
-        "url": "https://github.com/openclaw/openclaw/issues/116062",
-        "state": "open",
-        "author": "julio-vallejos",
-        "updatedAt": "2026-08-23T21:33:09Z"
-      },
-      {
-        "kind": "issue",
-        "number": 126847,
-        "title": "A failed tool call always terminates the visible turn as \"temporary model failure\" — the error is never returned to the model (0/40 recoverable in 24h)",
-        "url": "https://github.com/openclaw/openclaw/issues/126847",
-        "state": "open",
-        "author": "todddickerson",
-        "updatedAt": "2026-08-23T21:33:04Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-23T22:34:04Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 122118,
-        "title": "fix(state): preserve database verification cadence across restarts",
-        "url": "https://github.com/openclaw/openclaw/pull/122118",
-        "state": "open",
-        "author": "keshavbotagent",
-        "updatedAt": "2026-08-23T21:34:21Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111826,
-        "title": "fix: /think off does not disable thinking on claude-cli",
-        "url": "https://github.com/openclaw/openclaw/pull/111826",
-        "state": "open",
-        "author": "Zeus-Deus",
-        "updatedAt": "2026-08-23T21:34:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126618,
-        "title": "fix: Tool Search directory/tools wrap native read/exec in tool_call",
-        "url": "https://github.com/openclaw/openclaw/pull/126618",
-        "state": "open",
-        "author": "RaviTharuma",
-        "updatedAt": "2026-08-23T21:34:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-23T21:34:15Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
+        "number": 123975,
+        "title": "fix(scripts): clean up tsgo process trees on timeout or signal",
+        "url": "https://github.com/openclaw/openclaw/pull/123975",
         "state": "closed",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-23T21:34:14Z"
+        "updatedAt": "2026-08-23T22:36:20Z"
       },
       {
         "kind": "pr",
-        "number": 128361,
-        "title": "fix(state): avoid startup refusal when retired identity reappears",
-        "url": "https://github.com/openclaw/openclaw/pull/128361",
+        "number": 128111,
+        "title": "chore(ui): refresh control ui locales",
+        "url": "https://github.com/openclaw/openclaw/pull/128111",
         "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-08-23T21:34:06Z"
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-08-23T22:36:13Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126082,
+        "title": "Audit exact-bound owner-native lifecycle receipts",
+        "url": "https://github.com/openclaw/openclaw/pull/126082",
+        "state": "open",
+        "author": "joshavant",
+        "updatedAt": "2026-08-23T22:36:23Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118555,
+        "title": "fix(plugins): mark dropped before_prompt_build contributions in the prompt",
+        "url": "https://github.com/openclaw/openclaw/pull/118555",
+        "state": "open",
+        "author": "zeroaltitude",
+        "updatedAt": "2026-08-23T22:35:31Z"
+      },
+      {
+        "kind": "pr",
+        "number": 128392,
+        "title": "improve(matrix): avoid duplicate outbound body projection",
+        "url": "https://github.com/openclaw/openclaw/pull/128392",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-23T22:35:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 128391,
+        "title": "fix(release): register focused beta evidence on main",
+        "url": "https://github.com/openclaw/openclaw/pull/128391",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-23T22:35:17Z"
       }
     ]
   }

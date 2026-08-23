@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-23T09:41:08.603Z",
+  "generatedAt": "2026-08-23T10:38:11.364Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -632,17 +632,17 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "capturedAt": "2026-08-23T09:41:08.603Z",
-      "issueOpen": 3729,
-      "issueClosed": 44605,
-      "prOpen": 2309,
-      "prClosed": 75005,
-      "prMerged": 27146,
+      "capturedAt": "2026-08-23T10:38:11.364Z",
+      "issueOpen": 3730,
+      "issueClosed": 44608,
+      "prOpen": 2320,
+      "prClosed": 75010,
+      "prMerged": 27150,
       "workflowRuns": 40000,
-      "stars": 387194,
-      "forks": 81314,
+      "stars": 387199,
+      "forks": 81316,
       "subscribers": 1757,
-      "commits": 81623,
+      "commits": 81627,
       "contributors": 3122,
       "source": "github-actions",
       "approximateDate": false
@@ -843,88 +843,60 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "stars": 387194,
-      "forks": 81314,
+      "stars": 387199,
+      "forks": 81316,
       "subscribers": 1757,
-      "commits": 81623,
+      "commits": 81627,
       "contributors": 3122
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 127628,
-        "title": "Discord mention gating durably drops recognized membership and room system messages",
-        "url": "https://github.com/openclaw/openclaw/issues/127628",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-23T09:40:54Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127574,
-        "title": "Generated-media runtimes accept provider outputs beyond authorized cardinality",
-        "url": "https://github.com/openclaw/openclaw/issues/127574",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-23T09:40:41Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127569,
-        "title": "macOS camera clips and screen recordings can exceed the Gateway frame budget",
-        "url": "https://github.com/openclaw/openclaw/issues/127569",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-23T09:40:09Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127588,
-        "title": "Future-dated location cache entries bypass every max-age request after clock rollback",
-        "url": "https://github.com/openclaw/openclaw/issues/127588",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-23T09:40:08Z"
-      },
-      {
-        "kind": "issue",
-        "number": 125026,
-        "title": "[Feature]: Decouple fork lineage from sidebar ownership hierarchy",
-        "url": "https://github.com/openclaw/openclaw/issues/125026",
-        "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-23T09:40:06Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127564,
-        "title": "Typing cleanup can be followed by a late provider start across channels",
-        "url": "https://github.com/openclaw/openclaw/issues/127564",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-23T09:39:57Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 121100,
-        "title": "fix(automations): stop offering rejected agent retargets",
-        "url": "https://github.com/openclaw/openclaw/pull/121100",
+        "number": 127791,
+        "title": "fix: installing an official plugin on a beta gateway lands the stable release",
+        "url": "https://github.com/openclaw/openclaw/pull/127791",
         "state": "open",
-        "author": "arhxam",
-        "updatedAt": "2026-08-23T09:41:02Z"
+        "author": "edenfunf",
+        "updatedAt": "2026-08-23T10:37:55Z"
       },
       {
         "kind": "pr",
-        "number": 127989,
-        "title": "fix(auto-reply): acknowledge an already-delivered reply in queued peer re-invocations",
-        "url": "https://github.com/openclaw/openclaw/pull/127989",
+        "number": 128178,
+        "title": "fix(gateway): clarify skip-deferral reply drain",
+        "url": "https://github.com/openclaw/openclaw/pull/128178",
         "state": "open",
-        "author": "Finn763",
-        "updatedAt": "2026-08-23T09:40:59Z"
+        "author": "gaoanze888",
+        "updatedAt": "2026-08-23T10:37:43Z"
+      },
+      {
+        "kind": "pr",
+        "number": 116486,
+        "title": "fix(channels): attribute zero-payload turn warnings and stop false silent-drop alarms",
+        "url": "https://github.com/openclaw/openclaw/pull/116486",
+        "state": "open",
+        "author": "edenfunf",
+        "updatedAt": "2026-08-23T10:37:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124115,
+        "title": "fix(maintainers): preserve PR merge attribution",
+        "url": "https://github.com/openclaw/openclaw/pull/124115",
+        "state": "open",
+        "author": "altaywtf",
+        "updatedAt": "2026-08-23T10:37:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121123,
+        "title": "fix(telegram): preserve context for animated and video stickers",
+        "url": "https://github.com/openclaw/openclaw/pull/121123",
+        "state": "open",
+        "author": "arhxam",
+        "updatedAt": "2026-08-23T10:37:24Z"
       },
       {
         "kind": "pr",
@@ -933,34 +905,7 @@
         "url": "https://github.com/openclaw/openclaw/pull/128103",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-23T09:40:58Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126713,
-        "title": "improve(ui): simplify session sidebar indicators",
-        "url": "https://github.com/openclaw/openclaw/pull/126713",
-        "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-23T09:40:56Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125422,
-        "title": "fix: prevent long automations from delaying scheduled runs",
-        "url": "https://github.com/openclaw/openclaw/pull/125422",
-        "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-23T09:40:45Z"
-      },
-      {
-        "kind": "pr",
-        "number": 128165,
-        "title": "fix(sessions): stop labeling internal completion provenance as \"webchat\"",
-        "url": "https://github.com/openclaw/openclaw/pull/128165",
-        "state": "open",
-        "author": "a-yeyang",
-        "updatedAt": "2026-08-23T09:40:35Z"
+        "updatedAt": "2026-08-23T10:37:23Z"
       }
     ]
   }

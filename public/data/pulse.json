@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-23T03:13:52.153Z",
+  "generatedAt": "2026-08-23T04:00:19.730Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -632,17 +632,17 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "capturedAt": "2026-08-23T03:13:52.153Z",
-      "issueOpen": 3785,
-      "issueClosed": 44532,
-      "prOpen": 2311,
-      "prClosed": 74938,
-      "prMerged": 27101,
+      "capturedAt": "2026-08-23T04:00:19.730Z",
+      "issueOpen": 3732,
+      "issueClosed": 44587,
+      "prOpen": 2306,
+      "prClosed": 74955,
+      "prMerged": 27105,
       "workflowRuns": 40000,
       "stars": 387169,
-      "forks": 81315,
+      "forks": 81313,
       "subscribers": 1757,
-      "commits": 81579,
+      "commits": 81583,
       "contributors": 3121,
       "source": "github-actions",
       "approximateDate": false
@@ -844,9 +844,9 @@
     {
       "capturedOn": "2026-08-23",
       "stars": 387169,
-      "forks": 81315,
+      "forks": 81313,
       "subscribers": 1757,
-      "commits": 81579,
+      "commits": 81583,
       "contributors": 3121
     }
   ],
@@ -854,86 +854,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 126276,
-        "title": "[Bug]: One agent run renders as several transcript responses",
-        "url": "https://github.com/openclaw/openclaw/issues/126276",
-        "state": "closed",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-23T03:13:29Z"
-      },
-      {
-        "kind": "issue",
-        "number": 126880,
-        "title": "[Feature]: memory status — expose pending-delta detail; \"dirty: true\" is steady-state on active deployments",
-        "url": "https://github.com/openclaw/openclaw/issues/126880",
+        "number": 107218,
+        "title": "feature request: `chat.history` should support a visible-only filter so `limit` can count conversation messages instead of transcript rows",
+        "url": "https://github.com/openclaw/openclaw/issues/107218",
         "state": "open",
-        "author": "anyech",
-        "updatedAt": "2026-08-23T03:11:50Z"
+        "author": "rodja",
+        "updatedAt": "2026-08-23T04:00:15Z"
       },
       {
         "kind": "issue",
-        "number": 121729,
-        "title": "[Feature]: Friendly daily spending allowances for agents running in the background",
-        "url": "https://github.com/openclaw/openclaw/issues/121729",
+        "number": 105729,
+        "title": "[Bug]: OpenAI-compatible proxy transport clamps max_completion_tokens to 1 after context precheck",
+        "url": "https://github.com/openclaw/openclaw/issues/105729",
         "state": "open",
-        "author": "ArielSmoliar",
-        "updatedAt": "2026-08-23T03:11:49Z"
+        "author": "glebsergeevich",
+        "updatedAt": "2026-08-23T04:00:04Z"
       },
       {
         "kind": "issue",
-        "number": 127329,
-        "title": "[Bug]: Config scalar validation reasons are inaccessible",
-        "url": "https://github.com/openclaw/openclaw/issues/127329",
+        "number": 127317,
+        "title": "[Bug]: Control UI route commits lack accessible destination lifecycle",
+        "url": "https://github.com/openclaw/openclaw/issues/127317",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-23T03:11:48Z"
+        "updatedAt": "2026-08-23T04:00:02Z"
       },
       {
         "kind": "issue",
-        "number": 127328,
-        "title": "[Bug]: Config selection and expansion state is CSS-only",
-        "url": "https://github.com/openclaw/openclaw/issues/127328",
+        "number": 92870,
+        "title": "System event text leaked into user message attribution during compaction",
+        "url": "https://github.com/openclaw/openclaw/issues/92870",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-23T03:11:37Z"
+        "author": "zenassist26-create",
+        "updatedAt": "2026-08-23T04:00:00Z"
       },
       {
         "kind": "issue",
-        "number": 127335,
-        "title": "[Bug]: imperative smooth scrolling ignores reduced motion",
-        "url": "https://github.com/openclaw/openclaw/issues/127335",
+        "number": 119587,
+        "title": "Model catalog publish rejects video input that the plugin SDK type accepts (regression of #97048 on the hosted-catalog path)",
+        "url": "https://github.com/openclaw/openclaw/issues/119587",
+        "state": "open",
+        "author": "oliver-mee",
+        "updatedAt": "2026-08-23T03:59:59Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127411,
+        "title": "Source installers can report success from a conflicted git rebase",
+        "url": "https://github.com/openclaw/openclaw/issues/127411",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-23T03:11:35Z"
+        "updatedAt": "2026-08-23T03:59:53Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126278,
-        "title": "fix(ui): keep one agent run in one transcript response",
-        "url": "https://github.com/openclaw/openclaw/pull/126278",
-        "state": "closed",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-23T03:13:30Z"
-      },
-      {
-        "kind": "pr",
-        "number": 127700,
-        "title": "chore(deps): bump the actions group across 1 directory with 11 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/127700",
+        "number": 128046,
+        "title": "feat: add per-session developer tool modes [AI-assisted]",
+        "url": "https://github.com/openclaw/openclaw/pull/128046",
         "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-23T03:13:26Z"
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-23T04:00:12Z"
       },
       {
         "kind": "pr",
-        "number": 127752,
-        "title": "feat(workers): run OpenClaw and Codex on the same cloud profile",
-        "url": "https://github.com/openclaw/openclaw/pull/127752",
+        "number": 126329,
+        "title": "Hide internal media completion wakes from chat history [AI]",
+        "url": "https://github.com/openclaw/openclaw/pull/126329",
+        "state": "open",
+        "author": "mmaps",
+        "updatedAt": "2026-08-23T04:00:07Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126462,
+        "title": "fix(sessions): preserve in-use groups on catalog put",
+        "url": "https://github.com/openclaw/openclaw/pull/126462",
+        "state": "open",
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-23T04:00:05Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126895,
+        "title": "fix(heartbeat): deliver exec completions with disabled cadence",
+        "url": "https://github.com/openclaw/openclaw/pull/126895",
+        "state": "open",
+        "author": "jason-allen-oneal",
+        "updatedAt": "2026-08-23T04:00:02Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126406,
+        "title": "fix(macos): restart Codex catalog after child exit",
+        "url": "https://github.com/openclaw/openclaw/pull/126406",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-23T03:13:22Z"
+        "updatedAt": "2026-08-23T04:00:02Z"
       },
       {
         "kind": "pr",
@@ -942,25 +960,7 @@
         "url": "https://github.com/openclaw/openclaw/pull/121576",
         "state": "open",
         "author": "ruel225",
-        "updatedAt": "2026-08-23T03:13:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 69417,
-        "title": "fix(mcp): allow SecretRef values in mcp.servers env and headers [AI-assisted]",
-        "url": "https://github.com/openclaw/openclaw/pull/69417",
-        "state": "open",
-        "author": "fgabelmannjr",
-        "updatedAt": "2026-08-23T03:13:16Z"
-      },
-      {
-        "kind": "pr",
-        "number": 128053,
-        "title": "feat: add session trajectory view",
-        "url": "https://github.com/openclaw/openclaw/pull/128053",
-        "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-23T03:12:57Z"
+        "updatedAt": "2026-08-23T03:59:56Z"
       }
     ]
   }

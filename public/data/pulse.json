@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-23T13:44:32.805Z",
+  "generatedAt": "2026-08-23T14:36:52.936Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -632,17 +632,17 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "capturedAt": "2026-08-23T13:44:32.805Z",
-      "issueOpen": 3736,
-      "issueClosed": 44612,
-      "prOpen": 2302,
-      "prClosed": 75058,
-      "prMerged": 27190,
+      "capturedAt": "2026-08-23T14:36:52.936Z",
+      "issueOpen": 3733,
+      "issueClosed": 44618,
+      "prOpen": 2296,
+      "prClosed": 75069,
+      "prMerged": 27198,
       "workflowRuns": 40000,
-      "stars": 387215,
-      "forks": 81320,
+      "stars": 387221,
+      "forks": 81323,
       "subscribers": 1757,
-      "commits": 81663,
+      "commits": 81670,
       "contributors": 3122,
       "source": "github-actions",
       "approximateDate": false
@@ -843,10 +843,10 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "stars": 387215,
-      "forks": 81320,
+      "stars": 387221,
+      "forks": 81323,
       "subscribers": 1757,
-      "commits": 81663,
+      "commits": 81670,
       "contributors": 3122
     }
   ],
@@ -854,95 +854,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 126813,
-        "title": "Queued peer message re-invokes an agent with answer-expected delivery hint and no acknowledgment of its just-delivered reply, causing duplicate answers in multi-agent rooms",
-        "url": "https://github.com/openclaw/openclaw/issues/126813",
+        "number": 128014,
+        "title": "Prompt-cache invalidation in long Anthropic sessions: sender-dependent toolset flapping + late message enrichment moving cache breakpoints",
+        "url": "https://github.com/openclaw/openclaw/issues/128014",
         "state": "open",
-        "author": "gorkem2020",
-        "updatedAt": "2026-08-23T13:44:18Z"
+        "author": "marcioapm",
+        "updatedAt": "2026-08-23T14:36:42Z"
       },
       {
         "kind": "issue",
-        "number": 126090,
-        "title": "Bug: Telegram channel-final delivery-mirror bypasses text-based dedup, writes duplicate assistant messages to session transcript",
-        "url": "https://github.com/openclaw/openclaw/issues/126090",
+        "number": 111630,
+        "title": "[Bug]: session_status and /status show Context: ?/1.0m for minimax-portal/MiniMax-M3 — TUI formatter \"?\" + provider usage payload gap",
+        "url": "https://github.com/openclaw/openclaw/issues/111630",
         "state": "open",
-        "author": "icantdothatdave",
-        "updatedAt": "2026-08-23T13:44:14Z"
+        "author": "simondkan",
+        "updatedAt": "2026-08-23T14:36:39Z"
       },
       {
         "kind": "issue",
-        "number": 125257,
-        "title": "cron list costs 3.9 s CPU / 273 MB RSS to read from a running gateway (gateway calls it 73x/hour)",
-        "url": "https://github.com/openclaw/openclaw/issues/125257",
+        "number": 106203,
+        "title": "Remote Windows node is connected and system.which works, but Codex/WebChat exposes no node_exec surface",
+        "url": "https://github.com/openclaw/openclaw/issues/106203",
         "state": "open",
-        "author": "mohamedelsayedhussein1011-netizen",
-        "updatedAt": "2026-08-23T13:43:13Z"
+        "author": "JPKay-AI",
+        "updatedAt": "2026-08-23T14:36:38Z"
       },
       {
         "kind": "issue",
-        "number": 127511,
-        "title": "Progress-card cache remains stale across same-client Gateway reconnects",
-        "url": "https://github.com/openclaw/openclaw/issues/127511",
+        "number": 125635,
+        "title": "[Bug]: TUI /auth (local mode) — spawned auth wizard exits 1 instantly, no diagnostics in TUI or file log",
+        "url": "https://github.com/openclaw/openclaw/issues/125635",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-23T13:43:04Z"
+        "author": "P5ina",
+        "updatedAt": "2026-08-23T14:36:47Z"
+      },
+      {
+        "kind": "issue",
+        "number": 102439,
+        "title": "[Bug]: Slack Socket Mode ghost connections after gateway restart silently drop inbound messages",
+        "url": "https://github.com/openclaw/openclaw/issues/102439",
+        "state": "open",
+        "author": "ZOOWH",
+        "updatedAt": "2026-08-23T14:36:28Z"
+      },
+      {
+        "kind": "issue",
+        "number": 101383,
+        "title": "[Bug]: Unawaited persistGatewaySessionLifecycleEvent swallows write failures and drops session start markers",
+        "url": "https://github.com/openclaw/openclaw/issues/101383",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-08-23T14:36:19Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126424,
-        "title": "fix(gateway): keep conversation delivery within agent bindings",
-        "url": "https://github.com/openclaw/openclaw/pull/126424",
-        "state": "closed",
-        "author": "joshavant",
-        "updatedAt": "2026-08-23T13:44:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124014,
-        "title": "fix(auth): reset only the profile replaced by a successful login",
-        "url": "https://github.com/openclaw/openclaw/pull/124014",
+        "number": 124015,
+        "title": "fix(signal): report managed daemon port collisions before startup",
+        "url": "https://github.com/openclaw/openclaw/pull/124015",
         "state": "open",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-23T13:44:21Z"
+        "updatedAt": "2026-08-23T14:36:44Z"
       },
       {
         "kind": "pr",
-        "number": 128224,
-        "title": "fix(cli): return JSON for session validation failures",
-        "url": "https://github.com/openclaw/openclaw/pull/128224",
+        "number": 102039,
+        "title": "fix(daemon): route systemd restarts through SIGUSR1",
+        "url": "https://github.com/openclaw/openclaw/pull/102039",
+        "state": "open",
+        "author": "410979729",
+        "updatedAt": "2026-08-23T14:36:43Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125421,
+        "title": "fix(cli): migrate legacy state for an explicit agent",
+        "url": "https://github.com/openclaw/openclaw/pull/125421",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-23T13:43:52Z"
+        "updatedAt": "2026-08-23T14:36:41Z"
       },
       {
         "kind": "pr",
-        "number": 128226,
-        "title": "fix(release): repair beta onboarding proof",
-        "url": "https://github.com/openclaw/openclaw/pull/128226",
-        "state": "closed",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-23T13:43:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-23T13:43:31Z"
-      },
-      {
-        "kind": "pr",
-        "number": 128115,
-        "title": "feat(ui): add collapsible Workboard columns",
-        "url": "https://github.com/openclaw/openclaw/pull/128115",
+        "number": 101665,
+        "title": "feat: let plugin tools yield turns",
+        "url": "https://github.com/openclaw/openclaw/pull/101665",
         "state": "open",
-        "author": "Solvely-Colin",
-        "updatedAt": "2026-08-23T13:43:21Z"
+        "author": "BenGuanRan",
+        "updatedAt": "2026-08-23T14:36:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127936,
+        "title": "fix(msteams): follow absolute nextLink for thread replies pagination",
+        "url": "https://github.com/openclaw/openclaw/pull/127936",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-08-23T14:36:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127824,
+        "title": "improve(control-ui): redesign composer slash and skill invocations",
+        "url": "https://github.com/openclaw/openclaw/pull/127824",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-23T14:36:25Z"
       }
     ]
   }

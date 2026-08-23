@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-23T16:42:07.960Z",
+  "generatedAt": "2026-08-23T19:32:54.423Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -632,18 +632,18 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "capturedAt": "2026-08-23T16:42:07.960Z",
-      "issueOpen": 3729,
-      "issueClosed": 44634,
-      "prOpen": 2285,
-      "prClosed": 75115,
-      "prMerged": 27236,
+      "capturedAt": "2026-08-23T19:32:54.423Z",
+      "issueOpen": 3726,
+      "issueClosed": 44647,
+      "prOpen": 2295,
+      "prClosed": 75156,
+      "prMerged": 27271,
       "workflowRuns": 40000,
-      "stars": 387230,
-      "forks": 81326,
-      "subscribers": 1757,
-      "commits": 81707,
-      "contributors": 3124,
+      "stars": 387250,
+      "forks": 81328,
+      "subscribers": 1756,
+      "commits": 81742,
+      "contributors": 3125,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -843,97 +843,124 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "stars": 387230,
-      "forks": 81326,
-      "subscribers": 1757,
-      "commits": 81707,
-      "contributors": 3124
+      "stars": 387250,
+      "forks": 81328,
+      "subscribers": 1756,
+      "commits": 81742,
+      "contributors": 3125
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 127528,
-        "title": "Compaction omits the aggregate bootstrap-truncation notice",
-        "url": "https://github.com/openclaw/openclaw/issues/127528",
+        "number": 125764,
+        "title": "Telegram adapter: network-failed outbound sends dead-lettered after a single attempt — announce/completion replies silently lost (no retry, no reconcileUnknownSend)",
+        "url": "https://github.com/openclaw/openclaw/issues/125764",
+        "state": "open",
+        "author": "ksiyuna-claw",
+        "updatedAt": "2026-08-23T19:31:43Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127694,
+        "title": "[Bug]: scheduler queue freezes for ~90 minutes after manual `run force`, then batch-flushes overdue jobs",
+        "url": "https://github.com/openclaw/openclaw/issues/127694",
+        "state": "open",
+        "author": "henghe2026",
+        "updatedAt": "2026-08-23T19:31:28Z"
+      },
+      {
+        "kind": "issue",
+        "number": 125873,
+        "title": "Bedrock toolUse.input replayed unsanitized — poisons conversation history (sibling of #21873)",
+        "url": "https://github.com/openclaw/openclaw/issues/125873",
+        "state": "open",
+        "author": "odrodash",
+        "updatedAt": "2026-08-23T19:31:25Z"
+      },
+      {
+        "kind": "issue",
+        "number": 119229,
+        "title": "[Feature]: Set AI_AGENT for OpenClaw subprocesses",
+        "url": "https://github.com/openclaw/openclaw/issues/119229",
+        "state": "open",
+        "author": "complynx",
+        "updatedAt": "2026-08-23T19:31:21Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127333,
+        "title": "[Bug]: plugin search completion is not announced",
+        "url": "https://github.com/openclaw/openclaw/issues/127333",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-23T16:41:26Z"
+        "updatedAt": "2026-08-23T19:31:18Z"
       },
       {
         "kind": "issue",
-        "number": 126459,
-        "title": "[Bug]: HTTP /v1/chat/completions still sends ~50k+ prompt_tokens after skills:[] + contextInjection:never + tools.profile:minimal",
-        "url": "https://github.com/openclaw/openclaw/issues/126459",
+        "number": 127214,
+        "title": "[Bug]: deepseek plugin does not recognize deepseek-v4-flash-vision-exp (max thinking unsupported, no thinking payload patch)",
+        "url": "https://github.com/openclaw/openclaw/issues/127214",
         "state": "open",
-        "author": "RaviTharuma",
-        "updatedAt": "2026-08-23T16:41:00Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127743,
-        "title": "[Bug]: Expired sessions.catalog.list cache blocks Control UI on slow external catalog scans",
-        "url": "https://github.com/openclaw/openclaw/issues/127743",
-        "state": "open",
-        "author": "giangthb",
-        "updatedAt": "2026-08-23T16:40:42Z"
+        "author": "KevinChansGit",
+        "updatedAt": "2026-08-23T19:31:18Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 124301,
-        "title": "improve(control-ui): restructure the composer as a multiline surface",
-        "url": "https://github.com/openclaw/openclaw/pull/124301",
+        "number": 128115,
+        "title": "feat(ui): add collapsible Workboard columns",
+        "url": "https://github.com/openclaw/openclaw/pull/128115",
+        "state": "open",
+        "author": "Solvely-Colin",
+        "updatedAt": "2026-08-23T19:32:34Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125471,
+        "title": "fix(models): keep Claude CLI OAuth available in Control UI",
+        "url": "https://github.com/openclaw/openclaw/pull/125471",
+        "state": "closed",
+        "author": "VACInc",
+        "updatedAt": "2026-08-23T19:32:34Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123975,
+        "title": "fix(scripts): clean up tsgo process trees on timeout or signal",
+        "url": "https://github.com/openclaw/openclaw/pull/123975",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-23T19:32:31Z"
+      },
+      {
+        "kind": "pr",
+        "number": 128346,
+        "title": "fix(sessions): keep admin events out of model context [AI-assisted]",
+        "url": "https://github.com/openclaw/openclaw/pull/128346",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-23T19:32:28Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126424,
+        "title": "fix(gateway): keep conversation delivery within agent bindings",
+        "url": "https://github.com/openclaw/openclaw/pull/126424",
+        "state": "closed",
+        "author": "joshavant",
+        "updatedAt": "2026-08-23T19:32:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123356,
+        "title": "improve(control-ui): stage slash command arguments in the composer",
+        "url": "https://github.com/openclaw/openclaw/pull/123356",
         "state": "open",
         "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-23T16:42:01Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117114,
-        "title": "fix: fence pnpm link out of source-checkout updates and warn on self-link damage",
-        "url": "https://github.com/openclaw/openclaw/pull/117114",
-        "state": "open",
-        "author": "synthalorian",
-        "updatedAt": "2026-08-23T16:42:00Z"
-      },
-      {
-        "kind": "pr",
-        "number": 124222,
-        "title": "fix(telegram): route model-confirmation edit through rich funnel",
-        "url": "https://github.com/openclaw/openclaw/pull/124222",
-        "state": "open",
-        "author": "a-yeyang",
-        "updatedAt": "2026-08-23T16:41:56Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119204,
-        "title": "fix(gateway): detect merged PR heads beyond the session PR display cap",
-        "url": "https://github.com/openclaw/openclaw/pull/119204",
-        "state": "closed",
-        "author": "wanyongstar",
-        "updatedAt": "2026-08-23T16:41:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121638,
-        "title": "docs: document Poolside Agent ACPX alias",
-        "url": "https://github.com/openclaw/openclaw/pull/121638",
-        "state": "open",
-        "author": "amypoolside",
-        "updatedAt": "2026-08-23T16:41:45Z"
-      },
-      {
-        "kind": "pr",
-        "number": 105393,
-        "title": "fix(browser): don't steal focus on headed screenshot captures",
-        "url": "https://github.com/openclaw/openclaw/pull/105393",
-        "state": "open",
-        "author": "ObliviateRickLin",
-        "updatedAt": "2026-08-23T16:41:39Z"
+        "updatedAt": "2026-08-23T19:32:25Z"
       }
     ]
   }

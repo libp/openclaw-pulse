@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-23T10:38:11.364Z",
+  "generatedAt": "2026-08-23T11:33:30.645Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -632,17 +632,17 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "capturedAt": "2026-08-23T10:38:11.364Z",
-      "issueOpen": 3730,
-      "issueClosed": 44608,
-      "prOpen": 2320,
-      "prClosed": 75010,
-      "prMerged": 27150,
+      "capturedAt": "2026-08-23T11:33:30.645Z",
+      "issueOpen": 3732,
+      "issueClosed": 44609,
+      "prOpen": 2310,
+      "prClosed": 75024,
+      "prMerged": 27163,
       "workflowRuns": 40000,
-      "stars": 387199,
-      "forks": 81316,
+      "stars": 387206,
+      "forks": 81317,
       "subscribers": 1757,
-      "commits": 81627,
+      "commits": 81639,
       "contributors": 3122,
       "source": "github-actions",
       "approximateDate": false
@@ -843,69 +843,124 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "stars": 387199,
-      "forks": 81316,
+      "stars": 387206,
+      "forks": 81317,
       "subscribers": 1757,
-      "commits": 81627,
+      "commits": 81639,
       "contributors": 3122
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 128052,
+        "title": "[Feature]: Add a first-class session trajectory view",
+        "url": "https://github.com/openclaw/openclaw/issues/128052",
+        "state": "open",
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-23T11:33:24Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127219,
+        "title": "[Bug]: per-agent exec cleanup retention is process-global and lazy",
+        "url": "https://github.com/openclaw/openclaw/issues/127219",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-23T11:33:19Z"
+      },
+      {
+        "kind": "issue",
+        "number": 128005,
+        "title": "[Bug]: Android location.get ignores maxAgeMs when it falls back to a live fix",
+        "url": "https://github.com/openclaw/openclaw/issues/128005",
+        "state": "open",
+        "author": "corvid-reads",
+        "updatedAt": "2026-08-23T11:33:00Z"
+      },
+      {
+        "kind": "issue",
+        "number": 102199,
+        "title": "Feature: preserve completed progress draft in Telegram progress mode",
+        "url": "https://github.com/openclaw/openclaw/issues/102199",
+        "state": "open",
+        "author": "GoldenrodScript",
+        "updatedAt": "2026-08-23T11:32:37Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127581,
+        "title": "Trajectory directory export is not failure-atomic and blocks identical retry",
+        "url": "https://github.com/openclaw/openclaw/issues/127581",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-23T11:32:36Z"
+      },
+      {
+        "kind": "issue",
+        "number": 101383,
+        "title": "[Bug]: Unawaited persistGatewaySessionLifecycleEvent swallows write failures and drops session start markers",
+        "url": "https://github.com/openclaw/openclaw/issues/101383",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-08-23T11:32:33Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 127791,
-        "title": "fix: installing an official plugin on a beta gateway lands the stable release",
-        "url": "https://github.com/openclaw/openclaw/pull/127791",
+        "number": 123975,
+        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
+        "url": "https://github.com/openclaw/openclaw/pull/123975",
         "state": "open",
-        "author": "edenfunf",
-        "updatedAt": "2026-08-23T10:37:55Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-23T11:33:19Z"
       },
       {
         "kind": "pr",
-        "number": 128178,
-        "title": "fix(gateway): clarify skip-deferral reply drain",
-        "url": "https://github.com/openclaw/openclaw/pull/128178",
+        "number": 128192,
+        "title": "fix(auth): preserve shared profile ownership on fresh installs",
+        "url": "https://github.com/openclaw/openclaw/pull/128192",
         "state": "open",
-        "author": "gaoanze888",
-        "updatedAt": "2026-08-23T10:37:43Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-23T11:33:18Z"
       },
       {
         "kind": "pr",
-        "number": 116486,
-        "title": "fix(channels): attribute zero-payload turn warnings and stop false silent-drop alarms",
-        "url": "https://github.com/openclaw/openclaw/pull/116486",
+        "number": 126618,
+        "title": "fix: Tool Search directory/tools wrap native read/exec in tool_call",
+        "url": "https://github.com/openclaw/openclaw/pull/126618",
         "state": "open",
-        "author": "edenfunf",
-        "updatedAt": "2026-08-23T10:37:36Z"
+        "author": "RaviTharuma",
+        "updatedAt": "2026-08-23T11:33:18Z"
       },
       {
         "kind": "pr",
-        "number": 124115,
-        "title": "fix(maintainers): preserve PR merge attribution",
-        "url": "https://github.com/openclaw/openclaw/pull/124115",
+        "number": 123356,
+        "title": "improve(control-ui): stage slash command arguments in the composer",
+        "url": "https://github.com/openclaw/openclaw/pull/123356",
         "state": "open",
-        "author": "altaywtf",
-        "updatedAt": "2026-08-23T10:37:25Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-23T11:33:17Z"
       },
       {
         "kind": "pr",
-        "number": 121123,
-        "title": "fix(telegram): preserve context for animated and video stickers",
-        "url": "https://github.com/openclaw/openclaw/pull/121123",
+        "number": 127853,
+        "title": "fix(agents): keep runtime-only context out of user turns",
+        "url": "https://github.com/openclaw/openclaw/pull/127853",
         "state": "open",
-        "author": "arhxam",
-        "updatedAt": "2026-08-23T10:37:24Z"
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-08-23T11:33:12Z"
       },
       {
         "kind": "pr",
-        "number": 128103,
-        "title": "fix(gateway): avoid failed worker cleanup blocking startup",
-        "url": "https://github.com/openclaw/openclaw/pull/128103",
+        "number": 128077,
+        "title": "fix(security): let operators opt out of the transcript credential contract",
+        "url": "https://github.com/openclaw/openclaw/pull/128077",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-23T10:37:23Z"
+        "author": "ejc3",
+        "updatedAt": "2026-08-23T11:33:04Z"
       }
     ]
   }

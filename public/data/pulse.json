@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-23T22:36:26.910Z",
+  "generatedAt": "2026-08-23T23:34:23.901Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -632,17 +632,17 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "capturedAt": "2026-08-23T22:36:26.910Z",
-      "issueOpen": 3714,
-      "issueClosed": 44669,
-      "prOpen": 2284,
-      "prClosed": 75207,
-      "prMerged": 27307,
+      "capturedAt": "2026-08-23T23:34:23.901Z",
+      "issueOpen": 3711,
+      "issueClosed": 44672,
+      "prOpen": 2280,
+      "prClosed": 75222,
+      "prMerged": 27320,
       "workflowRuns": 40000,
-      "stars": 387266,
-      "forks": 81329,
+      "stars": 387265,
+      "forks": 81327,
       "subscribers": 1756,
-      "commits": 81776,
+      "commits": 81788,
       "contributors": 3127,
       "source": "github-actions",
       "approximateDate": false
@@ -843,10 +843,10 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "stars": 387266,
-      "forks": 81329,
+      "stars": 387265,
+      "forks": 81327,
       "subscribers": 1756,
-      "commits": 81776,
+      "commits": 81788,
       "contributors": 3127
     }
   ],
@@ -854,50 +854,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 128385,
-        "title": "No-op write/edit terminator (#97044) can never surface its terminal presentation — replay-safety gate is poisoned by the mutating tool itself, yielding a repeatable generic-error dead end",
-        "url": "https://github.com/openclaw/openclaw/issues/128385",
+        "number": 121709,
+        "title": "Timed-out model call swallows subsequent inbound messages until session reset",
+        "url": "https://github.com/openclaw/openclaw/issues/121709",
         "state": "open",
-        "author": "aspalagin",
-        "updatedAt": "2026-08-23T22:34:58Z"
+        "author": "shivadityasingh",
+        "updatedAt": "2026-08-23T23:34:20Z"
       },
       {
         "kind": "issue",
-        "number": 124873,
-        "title": "[Bug]: Buzz agent replies nest progressively inside existing threads",
-        "url": "https://github.com/openclaw/openclaw/issues/124873",
+        "number": 79507,
+        "title": "Dreaming short-term promotion promotes cron delivery reports as high-value memories",
+        "url": "https://github.com/openclaw/openclaw/issues/79507",
         "state": "open",
-        "author": "LeahArmstrong",
-        "updatedAt": "2026-08-23T22:34:47Z"
+        "author": "arlen8411",
+        "updatedAt": "2026-08-23T23:33:58Z"
       },
       {
         "kind": "issue",
-        "number": 127490,
-        "title": "Voice-call cleanup stops after the first disposer failure and drops the runtime slot",
-        "url": "https://github.com/openclaw/openclaw/issues/127490",
+        "number": 128395,
+        "title": "claude-cli backend: per-agent tools.deny never reaches --disallowedTools, so every agent can call every mcp.servers entry",
+        "url": "https://github.com/openclaw/openclaw/issues/128395",
+        "state": "open",
+        "author": "abacha",
+        "updatedAt": "2026-08-23T23:33:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 75923,
+        "title": "[Feature]: Add run-scoped cross-tool consecutive error cascade detection",
+        "url": "https://github.com/openclaw/openclaw/issues/75923",
+        "state": "open",
+        "author": "Shockang",
+        "updatedAt": "2026-08-23T23:33:22Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127533,
+        "title": "Managed OpenAI transports inherit hidden SDK retries with abort-insensitive backoff",
+        "url": "https://github.com/openclaw/openclaw/issues/127533",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-23T22:34:04Z"
+        "updatedAt": "2026-08-23T23:33:06Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127551,
+        "title": "Recovery compaction drops the admitted writer fence and can publish a superseded summary",
+        "url": "https://github.com/openclaw/openclaw/issues/127551",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-23T23:32:57Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123975,
-        "title": "fix(scripts): clean up tsgo process trees on timeout or signal",
-        "url": "https://github.com/openclaw/openclaw/pull/123975",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-23T22:36:20Z"
+        "number": 90477,
+        "title": "fix: defer WhatsApp visible-reply typing until send start",
+        "url": "https://github.com/openclaw/openclaw/pull/90477",
+        "state": "open",
+        "author": "mcaxtr",
+        "updatedAt": "2026-08-23T23:34:17Z"
       },
       {
         "kind": "pr",
-        "number": 128111,
-        "title": "chore(ui): refresh control ui locales",
-        "url": "https://github.com/openclaw/openclaw/pull/128111",
+        "number": 128375,
+        "title": "fix(agents): surface provider auth guidance for terminal failures",
+        "url": "https://github.com/openclaw/openclaw/pull/128375",
         "state": "open",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-08-23T22:36:13Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-23T23:34:16Z"
       },
       {
         "kind": "pr",
@@ -906,34 +933,34 @@
         "url": "https://github.com/openclaw/openclaw/pull/126082",
         "state": "open",
         "author": "joshavant",
-        "updatedAt": "2026-08-23T22:36:23Z"
+        "updatedAt": "2026-08-23T23:33:52Z"
       },
       {
         "kind": "pr",
-        "number": 118555,
-        "title": "fix(plugins): mark dropped before_prompt_build contributions in the prompt",
-        "url": "https://github.com/openclaw/openclaw/pull/118555",
+        "number": 121576,
+        "title": "fix(text): only insert separator between word chars when stripping model tokens",
+        "url": "https://github.com/openclaw/openclaw/pull/121576",
         "state": "open",
-        "author": "zeroaltitude",
-        "updatedAt": "2026-08-23T22:35:31Z"
+        "author": "ruel225",
+        "updatedAt": "2026-08-23T23:33:49Z"
       },
       {
         "kind": "pr",
-        "number": 128392,
-        "title": "improve(matrix): avoid duplicate outbound body projection",
-        "url": "https://github.com/openclaw/openclaw/pull/128392",
+        "number": 90258,
+        "title": "fix(qr): stabilize terminal colors",
+        "url": "https://github.com/openclaw/openclaw/pull/90258",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-23T22:35:25Z"
+        "author": "sliverp",
+        "updatedAt": "2026-08-23T23:33:19Z"
       },
       {
         "kind": "pr",
-        "number": 128391,
-        "title": "fix(release): register focused beta evidence on main",
-        "url": "https://github.com/openclaw/openclaw/pull/128391",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-23T22:35:17Z"
+        "number": 126424,
+        "title": "fix(gateway): keep conversation delivery within agent bindings",
+        "url": "https://github.com/openclaw/openclaw/pull/126424",
+        "state": "closed",
+        "author": "joshavant",
+        "updatedAt": "2026-08-23T23:32:58Z"
       }
     ]
   }

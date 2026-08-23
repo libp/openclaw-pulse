@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-23T01:58:17.304Z",
+  "generatedAt": "2026-08-23T03:13:52.153Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -632,17 +632,17 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "capturedAt": "2026-08-23T01:58:17.304Z",
-      "issueOpen": 3783,
-      "issueClosed": 44528,
-      "prOpen": 2314,
-      "prClosed": 74928,
-      "prMerged": 27094,
+      "capturedAt": "2026-08-23T03:13:52.153Z",
+      "issueOpen": 3785,
+      "issueClosed": 44532,
+      "prOpen": 2311,
+      "prClosed": 74938,
+      "prMerged": 27101,
       "workflowRuns": 40000,
-      "stars": 387156,
-      "forks": 81312,
+      "stars": 387169,
+      "forks": 81315,
       "subscribers": 1757,
-      "commits": 81572,
+      "commits": 81579,
       "contributors": 3121,
       "source": "github-actions",
       "approximateDate": false
@@ -843,10 +843,10 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "stars": 387156,
-      "forks": 81312,
+      "stars": 387169,
+      "forks": 81315,
       "subscribers": 1757,
-      "commits": 81572,
+      "commits": 81579,
       "contributors": 3121
     }
   ],
@@ -854,77 +854,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 128075,
-        "title": "[Bug]: Heartbeat runs ignore models.providers.<id>.baseUrl and call the provider's default endpoint",
-        "url": "https://github.com/openclaw/openclaw/issues/128075",
-        "state": "open",
-        "author": "ggeutzzang",
-        "updatedAt": "2026-08-23T01:57:48Z"
+        "number": 126276,
+        "title": "[Bug]: One agent run renders as several transcript responses",
+        "url": "https://github.com/openclaw/openclaw/issues/126276",
+        "state": "closed",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-23T03:13:29Z"
       },
       {
         "kind": "issue",
-        "number": 126850,
-        "title": "[Bug] Loading spinner next to session name stays spinning after agent finishes responding",
-        "url": "https://github.com/openclaw/openclaw/issues/126850",
+        "number": 126880,
+        "title": "[Feature]: memory status — expose pending-delta detail; \"dirty: true\" is steady-state on active deployments",
+        "url": "https://github.com/openclaw/openclaw/issues/126880",
         "state": "open",
-        "author": "1MrazorT1",
-        "updatedAt": "2026-08-23T01:57:10Z"
+        "author": "anyech",
+        "updatedAt": "2026-08-23T03:11:50Z"
       },
       {
         "kind": "issue",
-        "number": 101676,
-        "title": "Live model switch mid-attempt terminates the run instead of retrying against the new model",
-        "url": "https://github.com/openclaw/openclaw/issues/101676",
+        "number": 121729,
+        "title": "[Feature]: Friendly daily spending allowances for agents running in the background",
+        "url": "https://github.com/openclaw/openclaw/issues/121729",
         "state": "open",
-        "author": "tford-ui",
-        "updatedAt": "2026-08-23T01:56:48Z"
+        "author": "ArielSmoliar",
+        "updatedAt": "2026-08-23T03:11:49Z"
       },
       {
         "kind": "issue",
-        "number": 124524,
-        "title": "sessions list misreports archive state and effective runtime",
-        "url": "https://github.com/openclaw/openclaw/issues/124524",
-        "state": "open",
-        "author": "woodym-dotcom",
-        "updatedAt": "2026-08-23T01:56:35Z"
-      },
-      {
-        "kind": "issue",
-        "number": 125375,
-        "title": "iMessage inline replies drop replied-to attachment context",
-        "url": "https://github.com/openclaw/openclaw/issues/125375",
-        "state": "open",
-        "author": "lockhartheavyindustries",
-        "updatedAt": "2026-08-23T01:56:26Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127312,
-        "title": "[Bug]: migrate leaf commands discard parent-positioned options",
-        "url": "https://github.com/openclaw/openclaw/issues/127312",
+        "number": 127329,
+        "title": "[Bug]: Config scalar validation reasons are inaccessible",
+        "url": "https://github.com/openclaw/openclaw/issues/127329",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-23T01:56:24Z"
+        "updatedAt": "2026-08-23T03:11:48Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127328,
+        "title": "[Bug]: Config selection and expansion state is CSS-only",
+        "url": "https://github.com/openclaw/openclaw/issues/127328",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-23T03:11:37Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127335,
+        "title": "[Bug]: imperative smooth scrolling ignores reduced motion",
+        "url": "https://github.com/openclaw/openclaw/issues/127335",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-23T03:11:35Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 128046,
-        "title": "feat: add per-session developer tool modes [AI-assisted]",
-        "url": "https://github.com/openclaw/openclaw/pull/128046",
-        "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-23T01:57:43Z"
+        "number": 126278,
+        "title": "fix(ui): keep one agent run in one transcript response",
+        "url": "https://github.com/openclaw/openclaw/pull/126278",
+        "state": "closed",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-23T03:13:30Z"
       },
       {
         "kind": "pr",
-        "number": 126818,
-        "title": "fix(channels): release rejected webhook connections after answering them",
-        "url": "https://github.com/openclaw/openclaw/pull/126818",
+        "number": 127700,
+        "title": "chore(deps): bump the actions group across 1 directory with 11 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/127700",
         "state": "open",
-        "author": "edenfunf",
-        "updatedAt": "2026-08-23T01:57:41Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-23T03:13:26Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127752,
+        "title": "feat(workers): run OpenClaw and Codex on the same cloud profile",
+        "url": "https://github.com/openclaw/openclaw/pull/127752",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-23T03:13:22Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121576,
+        "title": "fix(text): only insert separator between word chars when stripping model tokens",
+        "url": "https://github.com/openclaw/openclaw/pull/121576",
+        "state": "open",
+        "author": "ruel225",
+        "updatedAt": "2026-08-23T03:13:17Z"
       },
       {
         "kind": "pr",
@@ -933,34 +951,16 @@
         "url": "https://github.com/openclaw/openclaw/pull/69417",
         "state": "open",
         "author": "fgabelmannjr",
-        "updatedAt": "2026-08-23T01:57:25Z"
+        "updatedAt": "2026-08-23T03:13:16Z"
       },
       {
         "kind": "pr",
-        "number": 123975,
-        "title": "fix(scripts): typecheck hangs forever when tsgo wedges instead of failing",
-        "url": "https://github.com/openclaw/openclaw/pull/123975",
+        "number": 128053,
+        "title": "feat: add session trajectory view",
+        "url": "https://github.com/openclaw/openclaw/pull/128053",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-23T01:57:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-23T01:57:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-23T01:56:41Z"
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-23T03:12:57Z"
       }
     ]
   }

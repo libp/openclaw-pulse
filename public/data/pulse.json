@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-23T04:50:45.794Z",
+  "generatedAt": "2026-08-23T05:42:58.401Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -632,17 +632,17 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "capturedAt": "2026-08-23T04:50:45.794Z",
-      "issueOpen": 3731,
-      "issueClosed": 44591,
-      "prOpen": 2309,
-      "prClosed": 74962,
-      "prMerged": 27110,
+      "capturedAt": "2026-08-23T05:42:58.401Z",
+      "issueOpen": 3728,
+      "issueClosed": 44596,
+      "prOpen": 2308,
+      "prClosed": 74970,
+      "prMerged": 27117,
       "workflowRuns": 40000,
-      "stars": 387169,
+      "stars": 387172,
       "forks": 81311,
       "subscribers": 1757,
-      "commits": 81588,
+      "commits": 81595,
       "contributors": 3121,
       "source": "github-actions",
       "approximateDate": false
@@ -843,10 +843,10 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "stars": 387169,
+      "stars": 387172,
       "forks": 81311,
       "subscribers": 1757,
-      "commits": 81588,
+      "commits": 81595,
       "contributors": 3121
     }
   ],
@@ -854,86 +854,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 97616,
-        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
-        "url": "https://github.com/openclaw/openclaw/issues/97616",
-        "state": "open",
-        "author": "avp717",
-        "updatedAt": "2026-08-23T04:50:28Z"
+        "number": 128123,
+        "title": "[Behavior bug]: embedded agent run aborts at ~90s regardless of configured timeout",
+        "url": "https://github.com/openclaw/openclaw/issues/128123",
+        "state": "closed",
+        "author": "zachisfine",
+        "updatedAt": "2026-08-23T05:41:58Z"
       },
       {
         "kind": "issue",
-        "number": 78537,
-        "title": "[Docs]: `allowInsecurePath` Linux uid-check behavior is undocumented; users on Linux cannot use system-package binaries (e.g. /usr/bin/op) without it",
-        "url": "https://github.com/openclaw/openclaw/issues/78537",
+        "number": 127472,
+        "title": "Terminal cron receipts are bounded per live job ID but unbounded across deleted job IDs",
+        "url": "https://github.com/openclaw/openclaw/issues/127472",
         "state": "open",
-        "author": "esqandil",
-        "updatedAt": "2026-08-23T04:50:25Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-23T05:41:33Z"
       },
       {
         "kind": "issue",
-        "number": 115450,
-        "title": "Hook timeout releases lane but leaves hook child processes alive",
-        "url": "https://github.com/openclaw/openclaw/issues/115450",
+        "number": 124873,
+        "title": "[Bug]: Buzz agent replies nest progressively inside existing threads",
+        "url": "https://github.com/openclaw/openclaw/issues/124873",
         "state": "open",
-        "author": "nilsmichels",
-        "updatedAt": "2026-08-23T04:50:13Z"
+        "author": "LeahArmstrong",
+        "updatedAt": "2026-08-23T05:40:50Z"
       },
       {
         "kind": "issue",
-        "number": 127518,
-        "title": "[Bug]: Terminal precheck-overflow abort is silent on stable v2026.7.1 (regression of #85712, fix not in stable channel)",
-        "url": "https://github.com/openclaw/openclaw/issues/127518",
+        "number": 92116,
+        "title": "Bug: sessions_yield subagent completion delivered as passive context — LLM can silently ignore it, breaking orchestration loops",
+        "url": "https://github.com/openclaw/openclaw/issues/92116",
         "state": "open",
-        "author": "oleagui",
-        "updatedAt": "2026-08-23T04:50:06Z"
-      },
-      {
-        "kind": "issue",
-        "number": 83416,
-        "title": "[Bug]: openclaw_image vision times out after 60s on valid Talk JPEG in 2026.5.12",
-        "url": "https://github.com/openclaw/openclaw/issues/83416",
-        "state": "open",
-        "author": "ndj888",
-        "updatedAt": "2026-08-23T04:50:03Z"
-      },
-      {
-        "kind": "issue",
-        "number": 113374,
-        "title": "Hardcoded 300s per-chat queue timeout with no configuration or lifecycle hooks",
-        "url": "https://github.com/openclaw/openclaw/issues/113374",
-        "state": "open",
-        "author": "Enominera",
-        "updatedAt": "2026-08-23T04:50:01Z"
+        "author": "lileilei-camera",
+        "updatedAt": "2026-08-23T05:40:37Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 128102,
-        "title": "fix(mcp): dedupe blocked stdio env warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/128102",
+        "number": 127709,
+        "title": "fix(macos): retire queued dashboard intent on window close",
+        "url": "https://github.com/openclaw/openclaw/pull/127709",
         "state": "open",
-        "author": "gaoanze888",
-        "updatedAt": "2026-08-23T04:50:41Z"
+        "author": "chelsealong",
+        "updatedAt": "2026-08-23T05:42:51Z"
       },
       {
         "kind": "pr",
-        "number": 128094,
-        "title": "feat(mantis): give the proof agent a developer shell and gateway restart",
-        "url": "https://github.com/openclaw/openclaw/pull/128094",
+        "number": 116232,
+        "title": "fix(whatsapp): stop retrying transport-level timed-out sends",
+        "url": "https://github.com/openclaw/openclaw/pull/116232",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-08-23T04:50:40Z"
+        "author": "miorbnli",
+        "updatedAt": "2026-08-23T05:42:48Z"
       },
       {
         "kind": "pr",
-        "number": 127232,
-        "title": "fix(talk): share and bound Apple relay lifecycle",
-        "url": "https://github.com/openclaw/openclaw/pull/127232",
+        "number": 123356,
+        "title": "improve(control-ui): stage slash command arguments in the composer",
+        "url": "https://github.com/openclaw/openclaw/pull/123356",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-23T04:50:38Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-23T05:42:39Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123535,
+        "title": "fix(ui): avoid session catalog refresh storms",
+        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-23T05:42:37Z"
       },
       {
         "kind": "pr",
@@ -942,25 +933,16 @@
         "url": "https://github.com/openclaw/openclaw/pull/69417",
         "state": "open",
         "author": "fgabelmannjr",
-        "updatedAt": "2026-08-23T04:50:33Z"
+        "updatedAt": "2026-08-23T05:42:34Z"
       },
       {
         "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-23T04:50:29Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125471,
-        "title": "fix(models): keep Claude CLI OAuth available in Control UI",
-        "url": "https://github.com/openclaw/openclaw/pull/125471",
-        "state": "closed",
-        "author": "VACInc",
-        "updatedAt": "2026-08-23T04:50:28Z"
+        "number": 93218,
+        "title": "feat: add session stream mode command",
+        "url": "https://github.com/openclaw/openclaw/pull/93218",
+        "state": "open",
+        "author": "clawSean",
+        "updatedAt": "2026-08-23T05:42:31Z"
       }
     ]
   }

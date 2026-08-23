@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-23T15:34:54.522Z",
+  "generatedAt": "2026-08-23T16:42:07.960Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -632,18 +632,18 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "capturedAt": "2026-08-23T15:34:54.522Z",
-      "issueOpen": 3732,
-      "issueClosed": 44625,
-      "prOpen": 2286,
-      "prClosed": 75089,
-      "prMerged": 27214,
+      "capturedAt": "2026-08-23T16:42:07.960Z",
+      "issueOpen": 3729,
+      "issueClosed": 44634,
+      "prOpen": 2285,
+      "prClosed": 75115,
+      "prMerged": 27236,
       "workflowRuns": 40000,
-      "stars": 387228,
+      "stars": 387230,
       "forks": 81326,
       "subscribers": 1757,
-      "commits": 81686,
-      "contributors": 3123,
+      "commits": 81707,
+      "contributors": 3124,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -843,124 +843,97 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "stars": 387228,
+      "stars": 387230,
       "forks": 81326,
       "subscribers": 1757,
-      "commits": 81686,
-      "contributors": 3123
+      "commits": 81707,
+      "contributors": 3124
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 97616,
-        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
-        "url": "https://github.com/openclaw/openclaw/issues/97616",
+        "number": 127528,
+        "title": "Compaction omits the aggregate bootstrap-truncation notice",
+        "url": "https://github.com/openclaw/openclaw/issues/127528",
         "state": "open",
-        "author": "avp717",
-        "updatedAt": "2026-08-23T15:34:29Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-23T16:41:26Z"
       },
       {
         "kind": "issue",
-        "number": 81892,
-        "title": "[Bug]: Reasoning not delivered on Matrix channel (/reasoning on has no effect)",
-        "url": "https://github.com/openclaw/openclaw/issues/81892",
+        "number": 126459,
+        "title": "[Bug]: HTTP /v1/chat/completions still sends ~50k+ prompt_tokens after skills:[] + contextInjection:never + tools.profile:minimal",
+        "url": "https://github.com/openclaw/openclaw/issues/126459",
         "state": "open",
-        "author": "bronson",
-        "updatedAt": "2026-08-23T15:34:28Z"
+        "author": "RaviTharuma",
+        "updatedAt": "2026-08-23T16:41:00Z"
       },
       {
         "kind": "issue",
-        "number": 77039,
-        "title": "registerMemoryCorpusSupplement registrations get wiped on lazy tool-load re-register of non-activating plugins",
-        "url": "https://github.com/openclaw/openclaw/issues/77039",
+        "number": 127743,
+        "title": "[Bug]: Expired sessions.catalog.list cache blocks Control UI on slow external catalog scans",
+        "url": "https://github.com/openclaw/openclaw/issues/127743",
         "state": "open",
-        "author": "inxaos",
-        "updatedAt": "2026-08-23T15:33:54Z"
-      },
-      {
-        "kind": "issue",
-        "number": 120659,
-        "title": "[Bug]: Docker selection stages WhatsApp but excludes it from the runtime build",
-        "url": "https://github.com/openclaw/openclaw/issues/120659",
-        "state": "open",
-        "author": "fr-meyer",
-        "updatedAt": "2026-08-23T15:33:44Z"
-      },
-      {
-        "kind": "issue",
-        "number": 125380,
-        "title": "Child process output can be lost after event-loop stalls exceed drain deadline",
-        "url": "https://github.com/openclaw/openclaw/issues/125380",
-        "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-23T15:33:41Z"
-      },
-      {
-        "kind": "issue",
-        "number": 120968,
-        "title": "[Bug]: memory-core mandatory recall can duplicate active-memory context on person queries",
-        "url": "https://github.com/openclaw/openclaw/issues/120968",
-        "state": "open",
-        "author": "shannon0430",
-        "updatedAt": "2026-08-23T15:33:41Z"
+        "author": "giangthb",
+        "updatedAt": "2026-08-23T16:40:42Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 128239,
-        "title": "chore(mock): keep Control UI mock tabs identifiable",
-        "url": "https://github.com/openclaw/openclaw/pull/128239",
+        "number": 124301,
+        "title": "improve(control-ui): restructure the composer as a multiline surface",
+        "url": "https://github.com/openclaw/openclaw/pull/124301",
         "state": "open",
         "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-23T15:34:42Z"
+        "updatedAt": "2026-08-23T16:42:01Z"
       },
       {
         "kind": "pr",
-        "number": 126013,
-        "title": "fix(ui): New Session misses dynamically discovered models",
-        "url": "https://github.com/openclaw/openclaw/pull/126013",
+        "number": 117114,
+        "title": "fix: fence pnpm link out of source-checkout updates and warn on self-link damage",
+        "url": "https://github.com/openclaw/openclaw/pull/117114",
         "state": "open",
-        "author": "ekinnee",
-        "updatedAt": "2026-08-23T15:34:37Z"
+        "author": "synthalorian",
+        "updatedAt": "2026-08-23T16:42:00Z"
       },
       {
         "kind": "pr",
-        "number": 118505,
-        "title": "macOS: surface realtime Talk settings",
-        "url": "https://github.com/openclaw/openclaw/pull/118505",
-        "state": "closed",
-        "author": "zhilong1115",
-        "updatedAt": "2026-08-23T15:34:28Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126708,
-        "title": "fix(ui): make sidebar session pagination global",
-        "url": "https://github.com/openclaw/openclaw/pull/126708",
+        "number": 124222,
+        "title": "fix(telegram): route model-confirmation edit through rich funnel",
+        "url": "https://github.com/openclaw/openclaw/pull/124222",
         "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-23T15:34:23Z"
+        "author": "a-yeyang",
+        "updatedAt": "2026-08-23T16:41:56Z"
       },
       {
         "kind": "pr",
-        "number": 126424,
-        "title": "fix(gateway): keep conversation delivery within agent bindings",
-        "url": "https://github.com/openclaw/openclaw/pull/126424",
+        "number": 119204,
+        "title": "fix(gateway): detect merged PR heads beyond the session PR display cap",
+        "url": "https://github.com/openclaw/openclaw/pull/119204",
         "state": "closed",
-        "author": "joshavant",
-        "updatedAt": "2026-08-23T15:34:20Z"
+        "author": "wanyongstar",
+        "updatedAt": "2026-08-23T16:41:55Z"
       },
       {
         "kind": "pr",
-        "number": 123975,
-        "title": "fix(scripts): clean up tsgo process trees on timeout or signal",
-        "url": "https://github.com/openclaw/openclaw/pull/123975",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-23T15:34:17Z"
+        "number": 121638,
+        "title": "docs: document Poolside Agent ACPX alias",
+        "url": "https://github.com/openclaw/openclaw/pull/121638",
+        "state": "open",
+        "author": "amypoolside",
+        "updatedAt": "2026-08-23T16:41:45Z"
+      },
+      {
+        "kind": "pr",
+        "number": 105393,
+        "title": "fix(browser): don't steal focus on headed screenshot captures",
+        "url": "https://github.com/openclaw/openclaw/pull/105393",
+        "state": "open",
+        "author": "ObliviateRickLin",
+        "updatedAt": "2026-08-23T16:41:39Z"
       }
     ]
   }

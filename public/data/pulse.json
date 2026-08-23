@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-23T14:36:52.936Z",
+  "generatedAt": "2026-08-23T15:34:54.522Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -632,18 +632,18 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "capturedAt": "2026-08-23T14:36:52.936Z",
-      "issueOpen": 3733,
-      "issueClosed": 44618,
-      "prOpen": 2296,
-      "prClosed": 75069,
-      "prMerged": 27198,
+      "capturedAt": "2026-08-23T15:34:54.522Z",
+      "issueOpen": 3732,
+      "issueClosed": 44625,
+      "prOpen": 2286,
+      "prClosed": 75089,
+      "prMerged": 27214,
       "workflowRuns": 40000,
-      "stars": 387221,
-      "forks": 81323,
+      "stars": 387228,
+      "forks": 81326,
       "subscribers": 1757,
-      "commits": 81670,
-      "contributors": 3122,
+      "commits": 81686,
+      "contributors": 3123,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -843,124 +843,124 @@
     },
     {
       "capturedOn": "2026-08-23",
-      "stars": 387221,
-      "forks": 81323,
+      "stars": 387228,
+      "forks": 81326,
       "subscribers": 1757,
-      "commits": 81670,
-      "contributors": 3122
+      "commits": 81686,
+      "contributors": 3123
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 128014,
-        "title": "Prompt-cache invalidation in long Anthropic sessions: sender-dependent toolset flapping + late message enrichment moving cache breakpoints",
-        "url": "https://github.com/openclaw/openclaw/issues/128014",
+        "number": 97616,
+        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
+        "url": "https://github.com/openclaw/openclaw/issues/97616",
         "state": "open",
-        "author": "marcioapm",
-        "updatedAt": "2026-08-23T14:36:42Z"
+        "author": "avp717",
+        "updatedAt": "2026-08-23T15:34:29Z"
       },
       {
         "kind": "issue",
-        "number": 111630,
-        "title": "[Bug]: session_status and /status show Context: ?/1.0m for minimax-portal/MiniMax-M3 — TUI formatter \"?\" + provider usage payload gap",
-        "url": "https://github.com/openclaw/openclaw/issues/111630",
+        "number": 81892,
+        "title": "[Bug]: Reasoning not delivered on Matrix channel (/reasoning on has no effect)",
+        "url": "https://github.com/openclaw/openclaw/issues/81892",
         "state": "open",
-        "author": "simondkan",
-        "updatedAt": "2026-08-23T14:36:39Z"
+        "author": "bronson",
+        "updatedAt": "2026-08-23T15:34:28Z"
       },
       {
         "kind": "issue",
-        "number": 106203,
-        "title": "Remote Windows node is connected and system.which works, but Codex/WebChat exposes no node_exec surface",
-        "url": "https://github.com/openclaw/openclaw/issues/106203",
+        "number": 77039,
+        "title": "registerMemoryCorpusSupplement registrations get wiped on lazy tool-load re-register of non-activating plugins",
+        "url": "https://github.com/openclaw/openclaw/issues/77039",
         "state": "open",
-        "author": "JPKay-AI",
-        "updatedAt": "2026-08-23T14:36:38Z"
+        "author": "inxaos",
+        "updatedAt": "2026-08-23T15:33:54Z"
       },
       {
         "kind": "issue",
-        "number": 125635,
-        "title": "[Bug]: TUI /auth (local mode) — spawned auth wizard exits 1 instantly, no diagnostics in TUI or file log",
-        "url": "https://github.com/openclaw/openclaw/issues/125635",
+        "number": 120659,
+        "title": "[Bug]: Docker selection stages WhatsApp but excludes it from the runtime build",
+        "url": "https://github.com/openclaw/openclaw/issues/120659",
         "state": "open",
-        "author": "P5ina",
-        "updatedAt": "2026-08-23T14:36:47Z"
+        "author": "fr-meyer",
+        "updatedAt": "2026-08-23T15:33:44Z"
       },
       {
         "kind": "issue",
-        "number": 102439,
-        "title": "[Bug]: Slack Socket Mode ghost connections after gateway restart silently drop inbound messages",
-        "url": "https://github.com/openclaw/openclaw/issues/102439",
+        "number": 125380,
+        "title": "Child process output can be lost after event-loop stalls exceed drain deadline",
+        "url": "https://github.com/openclaw/openclaw/issues/125380",
         "state": "open",
-        "author": "ZOOWH",
-        "updatedAt": "2026-08-23T14:36:28Z"
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-23T15:33:41Z"
       },
       {
         "kind": "issue",
-        "number": 101383,
-        "title": "[Bug]: Unawaited persistGatewaySessionLifecycleEvent swallows write failures and drops session start markers",
-        "url": "https://github.com/openclaw/openclaw/issues/101383",
+        "number": 120968,
+        "title": "[Bug]: memory-core mandatory recall can duplicate active-memory context on person queries",
+        "url": "https://github.com/openclaw/openclaw/issues/120968",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-23T14:36:19Z"
+        "author": "shannon0430",
+        "updatedAt": "2026-08-23T15:33:41Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 124015,
-        "title": "fix(signal): report managed daemon port collisions before startup",
-        "url": "https://github.com/openclaw/openclaw/pull/124015",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-23T14:36:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 102039,
-        "title": "fix(daemon): route systemd restarts through SIGUSR1",
-        "url": "https://github.com/openclaw/openclaw/pull/102039",
-        "state": "open",
-        "author": "410979729",
-        "updatedAt": "2026-08-23T14:36:43Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125421,
-        "title": "fix(cli): migrate legacy state for an explicit agent",
-        "url": "https://github.com/openclaw/openclaw/pull/125421",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-23T14:36:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 101665,
-        "title": "feat: let plugin tools yield turns",
-        "url": "https://github.com/openclaw/openclaw/pull/101665",
-        "state": "open",
-        "author": "BenGuanRan",
-        "updatedAt": "2026-08-23T14:36:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 127936,
-        "title": "fix(msteams): follow absolute nextLink for thread replies pagination",
-        "url": "https://github.com/openclaw/openclaw/pull/127936",
-        "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-23T14:36:33Z"
-      },
-      {
-        "kind": "pr",
-        "number": 127824,
-        "title": "improve(control-ui): redesign composer slash and skill invocations",
-        "url": "https://github.com/openclaw/openclaw/pull/127824",
+        "number": 128239,
+        "title": "chore(mock): keep Control UI mock tabs identifiable",
+        "url": "https://github.com/openclaw/openclaw/pull/128239",
         "state": "open",
         "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-23T14:36:25Z"
+        "updatedAt": "2026-08-23T15:34:42Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126013,
+        "title": "fix(ui): New Session misses dynamically discovered models",
+        "url": "https://github.com/openclaw/openclaw/pull/126013",
+        "state": "open",
+        "author": "ekinnee",
+        "updatedAt": "2026-08-23T15:34:37Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118505,
+        "title": "macOS: surface realtime Talk settings",
+        "url": "https://github.com/openclaw/openclaw/pull/118505",
+        "state": "closed",
+        "author": "zhilong1115",
+        "updatedAt": "2026-08-23T15:34:28Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126708,
+        "title": "fix(ui): make sidebar session pagination global",
+        "url": "https://github.com/openclaw/openclaw/pull/126708",
+        "state": "open",
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-23T15:34:23Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126424,
+        "title": "fix(gateway): keep conversation delivery within agent bindings",
+        "url": "https://github.com/openclaw/openclaw/pull/126424",
+        "state": "closed",
+        "author": "joshavant",
+        "updatedAt": "2026-08-23T15:34:20Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123975,
+        "title": "fix(scripts): clean up tsgo process trees on timeout or signal",
+        "url": "https://github.com/openclaw/openclaw/pull/123975",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-23T15:34:17Z"
       }
     ]
   }

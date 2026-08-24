@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-24T10:52:05.369Z",
+  "generatedAt": "2026-08-24T11:42:28.367Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -649,18 +649,18 @@
     },
     {
       "capturedOn": "2026-08-24",
-      "capturedAt": "2026-08-24T10:52:05.369Z",
+      "capturedAt": "2026-08-24T11:42:28.367Z",
       "issueOpen": 3634,
-      "issueClosed": 44821,
-      "prOpen": 2232,
-      "prClosed": 75473,
-      "prMerged": 27494,
+      "issueClosed": 44829,
+      "prOpen": 2231,
+      "prClosed": 75482,
+      "prMerged": 27497,
       "workflowRuns": 40000,
-      "stars": 387289,
-      "forks": 81329,
+      "stars": 387298,
+      "forks": 81332,
       "subscribers": 1756,
-      "commits": 81961,
-      "contributors": 3138,
+      "commits": 81964,
+      "contributors": 3139,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -868,124 +868,88 @@
     },
     {
       "capturedOn": "2026-08-24",
-      "stars": 387289,
-      "forks": 81329,
+      "stars": 387298,
+      "forks": 81332,
       "subscribers": 1756,
-      "commits": 81961,
-      "contributors": 3138
+      "commits": 81964,
+      "contributors": 3139
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 127809,
-        "title": "Bug: `/tasks` can report “All clear” while an owner-bound managed TaskFlow is still open",
-        "url": "https://github.com/openclaw/openclaw/issues/127809",
+        "number": 120222,
+        "title": "[Bug]: Startup model-runtime discovery starves the Gateway event loop and couples channel startup + turns to its outcome (regression of 11f0244cf43's channels-first property)",
+        "url": "https://github.com/openclaw/openclaw/issues/120222",
         "state": "open",
-        "author": "anyech",
-        "updatedAt": "2026-08-24T10:52:00Z"
+        "author": "Jackten",
+        "updatedAt": "2026-08-24T11:41:38Z"
       },
       {
         "kind": "issue",
-        "number": 127546,
-        "title": "models auth order set can persist a dangling profile after concurrent logout",
-        "url": "https://github.com/openclaw/openclaw/issues/127546",
+        "number": 128696,
+        "title": "[Bug]: terminal initial commands can be mangled before login shell readiness",
+        "url": "https://github.com/openclaw/openclaw/issues/128696",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-24T10:51:33Z"
-      },
-      {
-        "kind": "issue",
-        "number": 128679,
-        "title": "Dependency refresh broke frozen installs on main",
-        "url": "https://github.com/openclaw/openclaw/issues/128679",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-24T10:51:28Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127403,
-        "title": "Claude generated-command overwrite skips the migration item backup",
-        "url": "https://github.com/openclaw/openclaw/issues/127403",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-24T10:51:02Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127418,
-        "title": "Stability retention can delete the just-published bundle and report success",
-        "url": "https://github.com/openclaw/openclaw/issues/127418",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-24T10:50:56Z"
-      },
-      {
-        "kind": "issue",
-        "number": 128666,
-        "title": "[Bug]: Overlay entrances use conflicting motion origins",
-        "url": "https://github.com/openclaw/openclaw/issues/128666",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-24T10:50:51Z"
+        "author": "noelillinger",
+        "updatedAt": "2026-08-24T11:41:05Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 128650,
-        "title": "Consolidate Program Manager context and safety contracts",
-        "url": "https://github.com/openclaw/openclaw/pull/128650",
+        "number": 126943,
+        "title": "feat: persist stateful transcript display semantics",
+        "url": "https://github.com/openclaw/openclaw/pull/126943",
         "state": "open",
-        "author": "SnowBelt",
-        "updatedAt": "2026-08-24T10:51:52Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-08-24T11:42:20Z"
       },
       {
         "kind": "pr",
-        "number": 116376,
-        "title": "fix(doctor): archive the removed user-scope systemd unit instead of deleting it",
-        "url": "https://github.com/openclaw/openclaw/pull/116376",
+        "number": 123786,
+        "title": "fix(plugin-sdk): expose current inbound message context",
+        "url": "https://github.com/openclaw/openclaw/pull/123786",
         "state": "open",
-        "author": "sloptop-the-terrible",
-        "updatedAt": "2026-08-24T10:51:51Z"
+        "author": "8lulee",
+        "updatedAt": "2026-08-24T11:42:17Z"
       },
       {
         "kind": "pr",
-        "number": 113587,
-        "title": "feat(opencode): hybrid models.dev + gateway catalog freshness",
-        "url": "https://github.com/openclaw/openclaw/pull/113587",
+        "number": 124280,
+        "title": "fix(workboard): start cards with current context after handoff",
+        "url": "https://github.com/openclaw/openclaw/pull/124280",
         "state": "open",
-        "author": "samson1357924",
-        "updatedAt": "2026-08-24T10:51:45Z"
+        "author": "CBruney",
+        "updatedAt": "2026-08-24T11:41:54Z"
       },
       {
         "kind": "pr",
-        "number": 128681,
-        "title": "fix(deps): restore broken production audit after SDK refresh",
-        "url": "https://github.com/openclaw/openclaw/pull/128681",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-24T10:51:40Z"
+        "number": 126424,
+        "title": "fix(gateway): keep conversation delivery within agent bindings",
+        "url": "https://github.com/openclaw/openclaw/pull/126424",
+        "state": "closed",
+        "author": "joshavant",
+        "updatedAt": "2026-08-24T11:41:51Z"
       },
       {
         "kind": "pr",
-        "number": 125897,
-        "title": "perf(codex): narrow the direct message tool schema and teach deferred-tool batching",
-        "url": "https://github.com/openclaw/openclaw/pull/125897",
+        "number": 123356,
+        "title": "improve(control-ui): stage slash command arguments in the composer",
+        "url": "https://github.com/openclaw/openclaw/pull/123356",
         "state": "open",
-        "author": "Grynn",
-        "updatedAt": "2026-08-24T10:51:37Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-24T11:41:51Z"
       },
       {
         "kind": "pr",
-        "number": 121579,
-        "title": "fix(agents): acknowledge rejected/refused mutating tool outcomes",
-        "url": "https://github.com/openclaw/openclaw/pull/121579",
+        "number": 123535,
+        "title": "fix(ui): avoid session catalog refresh storms",
+        "url": "https://github.com/openclaw/openclaw/pull/123535",
         "state": "open",
-        "author": "SebTardif",
-        "updatedAt": "2026-08-24T10:51:35Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-24T11:41:48Z"
       }
     ]
   }

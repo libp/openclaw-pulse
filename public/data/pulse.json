@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-24T10:02:09.969Z",
+  "generatedAt": "2026-08-24T10:52:05.369Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -649,17 +649,17 @@
     },
     {
       "capturedOn": "2026-08-24",
-      "capturedAt": "2026-08-24T10:02:09.969Z",
-      "issueOpen": 3631,
-      "issueClosed": 44814,
-      "prOpen": 2225,
-      "prClosed": 75460,
-      "prMerged": 27489,
+      "capturedAt": "2026-08-24T10:52:05.369Z",
+      "issueOpen": 3634,
+      "issueClosed": 44821,
+      "prOpen": 2232,
+      "prClosed": 75473,
+      "prMerged": 27494,
       "workflowRuns": 40000,
-      "stars": 387287,
-      "forks": 81328,
+      "stars": 387289,
+      "forks": 81329,
       "subscribers": 1756,
-      "commits": 81956,
+      "commits": 81961,
       "contributors": 3138,
       "source": "github-actions",
       "approximateDate": false
@@ -868,10 +868,10 @@
     },
     {
       "capturedOn": "2026-08-24",
-      "stars": 387287,
-      "forks": 81328,
+      "stars": 387289,
+      "forks": 81329,
       "subscribers": 1756,
-      "commits": 81956,
+      "commits": 81961,
       "contributors": 3138
     }
   ],
@@ -879,86 +879,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 125838,
-        "title": "QQBot: slash command 轻量回复未投递 (/think, /status 无回复)",
-        "url": "https://github.com/openclaw/openclaw/issues/125838",
+        "number": 127809,
+        "title": "Bug: `/tasks` can report “All clear” while an owner-bound managed TaskFlow is still open",
+        "url": "https://github.com/openclaw/openclaw/issues/127809",
         "state": "open",
-        "author": "lwy521",
-        "updatedAt": "2026-08-24T10:01:03Z"
+        "author": "anyech",
+        "updatedAt": "2026-08-24T10:52:00Z"
       },
       {
         "kind": "issue",
-        "number": 60612,
-        "title": "Doctor warns about NVM node instead of Homebrew/system node, but cannot be fixed",
-        "url": "https://github.com/openclaw/openclaw/issues/60612",
+        "number": 127546,
+        "title": "models auth order set can persist a dangling profile after concurrent logout",
+        "url": "https://github.com/openclaw/openclaw/issues/127546",
         "state": "open",
-        "author": "drzeast-png",
-        "updatedAt": "2026-08-24T10:00:32Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-24T10:51:33Z"
       },
       {
         "kind": "issue",
-        "number": 97616,
-        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
-        "url": "https://github.com/openclaw/openclaw/issues/97616",
+        "number": 128679,
+        "title": "Dependency refresh broke frozen installs on main",
+        "url": "https://github.com/openclaw/openclaw/issues/128679",
         "state": "open",
-        "author": "avp717",
-        "updatedAt": "2026-08-24T09:59:45Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-24T10:51:28Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127403,
+        "title": "Claude generated-command overwrite skips the migration item backup",
+        "url": "https://github.com/openclaw/openclaw/issues/127403",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-24T10:51:02Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127418,
+        "title": "Stability retention can delete the just-published bundle and report success",
+        "url": "https://github.com/openclaw/openclaw/issues/127418",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-24T10:50:56Z"
+      },
+      {
+        "kind": "issue",
+        "number": 128666,
+        "title": "[Bug]: Overlay entrances use conflicting motion origins",
+        "url": "https://github.com/openclaw/openclaw/issues/128666",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-24T10:50:51Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 128414,
-        "title": "chore: refresh dependencies after seven-day cooldown",
-        "url": "https://github.com/openclaw/openclaw/pull/128414",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-24T10:02:00Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125370,
-        "title": "fix(mattermost): react action rejects raw emoji glyphs",
-        "url": "https://github.com/openclaw/openclaw/pull/125370",
+        "number": 128650,
+        "title": "Consolidate Program Manager context and safety contracts",
+        "url": "https://github.com/openclaw/openclaw/pull/128650",
         "state": "open",
-        "author": "goffern",
-        "updatedAt": "2026-08-24T10:01:57Z"
+        "author": "SnowBelt",
+        "updatedAt": "2026-08-24T10:51:52Z"
       },
       {
         "kind": "pr",
-        "number": 128459,
-        "title": "perf(ci): split Telegram prerelease tests",
-        "url": "https://github.com/openclaw/openclaw/pull/128459",
+        "number": 116376,
+        "title": "fix(doctor): archive the removed user-scope systemd unit instead of deleting it",
+        "url": "https://github.com/openclaw/openclaw/pull/116376",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-24T10:01:39Z"
+        "author": "sloptop-the-terrible",
+        "updatedAt": "2026-08-24T10:51:51Z"
       },
       {
         "kind": "pr",
-        "number": 125820,
-        "title": "improve(ui): stop sidebar rows rearranging themselves on hover",
-        "url": "https://github.com/openclaw/openclaw/pull/125820",
+        "number": 113587,
+        "title": "feat(opencode): hybrid models.dev + gateway catalog freshness",
+        "url": "https://github.com/openclaw/openclaw/pull/113587",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-24T10:01:11Z"
+        "author": "samson1357924",
+        "updatedAt": "2026-08-24T10:51:45Z"
       },
       {
         "kind": "pr",
-        "number": 128635,
-        "title": "fix(sqlite): stage read-only snapshots in private user cache",
-        "url": "https://github.com/openclaw/openclaw/pull/128635",
+        "number": 128681,
+        "title": "fix(deps): restore broken production audit after SDK refresh",
+        "url": "https://github.com/openclaw/openclaw/pull/128681",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-24T10:00:10Z"
+        "updatedAt": "2026-08-24T10:51:40Z"
       },
       {
         "kind": "pr",
-        "number": 128505,
-        "title": "fix(agents): preserve plugin tool termination",
-        "url": "https://github.com/openclaw/openclaw/pull/128505",
+        "number": 125897,
+        "title": "perf(codex): narrow the direct message tool schema and teach deferred-tool batching",
+        "url": "https://github.com/openclaw/openclaw/pull/125897",
         "state": "open",
-        "author": "gaoanze888",
-        "updatedAt": "2026-08-24T10:00:10Z"
+        "author": "Grynn",
+        "updatedAt": "2026-08-24T10:51:37Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121579,
+        "title": "fix(agents): acknowledge rejected/refused mutating tool outcomes",
+        "url": "https://github.com/openclaw/openclaw/pull/121579",
+        "state": "open",
+        "author": "SebTardif",
+        "updatedAt": "2026-08-24T10:51:35Z"
       }
     ]
   }

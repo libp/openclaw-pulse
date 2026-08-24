@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-24T18:57:49.882Z",
+  "generatedAt": "2026-08-24T20:46:46.613Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -649,18 +649,18 @@
     },
     {
       "capturedOn": "2026-08-24",
-      "capturedAt": "2026-08-24T18:57:49.882Z",
-      "issueOpen": 3638,
-      "issueClosed": 44866,
-      "prOpen": 2234,
-      "prClosed": 75570,
-      "prMerged": 27569,
+      "capturedAt": "2026-08-24T20:46:46.613Z",
+      "issueOpen": 3641,
+      "issueClosed": 44872,
+      "prOpen": 2232,
+      "prClosed": 75589,
+      "prMerged": 27583,
       "workflowRuns": 40000,
-      "stars": 387380,
-      "forks": 81341,
+      "stars": 387397,
+      "forks": 81342,
       "subscribers": 1755,
-      "commits": 82036,
-      "contributors": 3139,
+      "commits": 82050,
+      "contributors": 3140,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -868,106 +868,124 @@
     },
     {
       "capturedOn": "2026-08-24",
-      "stars": 387380,
-      "forks": 81341,
+      "stars": 387397,
+      "forks": 81342,
       "subscribers": 1755,
-      "commits": 82036,
-      "contributors": 3139
+      "commits": 82050,
+      "contributors": 3140
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 126064,
-        "title": "[Feature]: expose session group assignment in agent tools",
-        "url": "https://github.com/openclaw/openclaw/issues/126064",
+        "number": 126246,
+        "title": "[Bug]: Telegram durable outbound deliveries remain stuck in send_attempt_started and are lost on restart",
+        "url": "https://github.com/openclaw/openclaw/issues/126246",
+        "state": "open",
+        "author": "MAG-Linares-Andalucia",
+        "updatedAt": "2026-08-24T20:46:25Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127655,
+        "title": "Render-aware chunking silently drops valid long whitespace runs",
+        "url": "https://github.com/openclaw/openclaw/issues/127655",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-24T20:46:24Z"
+      },
+      {
+        "kind": "issue",
+        "number": 125942,
+        "title": "erroredAssistantResultPolicy hardcoded to \"drop\" causes silent replay of failed user turns",
+        "url": "https://github.com/openclaw/openclaw/issues/125942",
+        "state": "open",
+        "author": "tcpool",
+        "updatedAt": "2026-08-24T20:46:15Z"
+      },
+      {
+        "kind": "issue",
+        "number": 128242,
+        "title": "[Feature]: Pin sessions within groups",
+        "url": "https://github.com/openclaw/openclaw/issues/128242",
         "state": "open",
         "author": "clawsweeper",
-        "updatedAt": "2026-08-24T18:57:28Z"
+        "updatedAt": "2026-08-24T20:46:14Z"
       },
       {
         "kind": "issue",
-        "number": 125475,
-        "title": "Release validation: v2026.8.1-beta.3",
-        "url": "https://github.com/openclaw/openclaw/issues/125475",
+        "number": 128251,
+        "title": "fix(ui): warning callouts render without warning styles",
+        "url": "https://github.com/openclaw/openclaw/issues/128251",
         "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-08-24T18:56:21Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-24T20:46:05Z"
       },
       {
         "kind": "issue",
-        "number": 127497,
-        "title": "Browser download save outlives cancellation and has no publication byte bound",
-        "url": "https://github.com/openclaw/openclaw/issues/127497",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-24T18:56:11Z"
-      },
-      {
-        "kind": "issue",
-        "number": 125639,
-        "title": "Remove the progress-card legacy stream:\"plan\" fallback (sunset 2026-10-18)",
-        "url": "https://github.com/openclaw/openclaw/issues/125639",
+        "number": 127596,
+        "title": "Voice Call legacy streaming migration overwrites explicit canonical provider config",
+        "url": "https://github.com/openclaw/openclaw/issues/127596",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-24T18:56:04Z"
+        "updatedAt": "2026-08-24T20:46:01Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 128833,
-        "title": "fix(gateway): keep verified GitHub users online during outages",
-        "url": "https://github.com/openclaw/openclaw/pull/128833",
+        "number": 128849,
+        "title": "fix(plugins): surface load errors in the default plugin list",
+        "url": "https://github.com/openclaw/openclaw/pull/128849",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-24T18:57:46Z"
+        "updatedAt": "2026-08-24T20:46:42Z"
       },
       {
         "kind": "pr",
-        "number": 128831,
-        "title": "fix(state): retire session_nodes entry-validity write-triggers (beta.3 schema)",
-        "url": "https://github.com/openclaw/openclaw/pull/128831",
+        "number": 121799,
+        "title": "fix(gateway): usage.status no longer waits on provider HTTP",
+        "url": "https://github.com/openclaw/openclaw/pull/121799",
         "state": "open",
-        "author": "njuboy11",
-        "updatedAt": "2026-08-24T18:57:13Z"
+        "author": "sasan1200",
+        "updatedAt": "2026-08-24T20:46:39Z"
       },
       {
         "kind": "pr",
-        "number": 127284,
-        "title": "fix(agents): tolerate replaced thinking catalog owners",
-        "url": "https://github.com/openclaw/openclaw/pull/127284",
+        "number": 128802,
+        "title": "fix(auth): Claude CLI login reported as expired on an idle gateway",
+        "url": "https://github.com/openclaw/openclaw/pull/128802",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-24T18:57:10Z"
+        "author": "elikampf",
+        "updatedAt": "2026-08-24T20:46:38Z"
       },
       {
         "kind": "pr",
-        "number": 126618,
-        "title": "fix: Tool Search directory/tools wrap native read/exec in tool_call",
-        "url": "https://github.com/openclaw/openclaw/pull/126618",
+        "number": 112932,
+        "title": "fix(auth): re-seed only the tombstoned OAuth target from fresh Codex login",
+        "url": "https://github.com/openclaw/openclaw/pull/112932",
         "state": "open",
-        "author": "RaviTharuma",
-        "updatedAt": "2026-08-24T18:57:09Z"
+        "author": "amittell",
+        "updatedAt": "2026-08-24T20:46:37Z"
       },
       {
         "kind": "pr",
-        "number": 119030,
-        "title": "fix(channels): reply-capable channels reject the documented replyToMode override",
-        "url": "https://github.com/openclaw/openclaw/pull/119030",
+        "number": 104060,
+        "title": "feat: enforce agent-scoped usage budgets",
+        "url": "https://github.com/openclaw/openclaw/pull/104060",
         "state": "open",
-        "author": "ayaangazali",
-        "updatedAt": "2026-08-24T18:57:13Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-24T20:46:34Z"
       },
       {
         "kind": "pr",
-        "number": 119674,
-        "title": "fix(daemon): scope systemd unit resolution to the active profile",
-        "url": "https://github.com/openclaw/openclaw/pull/119674",
+        "number": 128732,
+        "title": "fix(agents): preserve CLI session binding on format-class failover",
+        "url": "https://github.com/openclaw/openclaw/pull/128732",
         "state": "open",
-        "author": "SebTardif",
-        "updatedAt": "2026-08-24T18:56:59Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-08-24T20:46:24Z"
       }
     ]
   }

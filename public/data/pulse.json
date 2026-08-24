@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-23T23:34:23.901Z",
+  "generatedAt": "2026-08-24T01:56:01.100Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -646,6 +646,23 @@
       "contributors": 3127,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-24",
+      "capturedAt": "2026-08-24T01:56:01.100Z",
+      "issueOpen": 3703,
+      "issueClosed": 44695,
+      "prOpen": 2276,
+      "prClosed": 75256,
+      "prMerged": 27346,
+      "workflowRuns": 40000,
+      "stars": 387279,
+      "forks": 81324,
+      "subscribers": 1756,
+      "commits": 81813,
+      "contributors": 3129,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -848,119 +865,109 @@
       "subscribers": 1756,
       "commits": 81788,
       "contributors": 3127
+    },
+    {
+      "capturedOn": "2026-08-24",
+      "stars": 387279,
+      "forks": 81324,
+      "subscribers": 1756,
+      "commits": 81813,
+      "contributors": 3129
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 121709,
-        "title": "Timed-out model call swallows subsequent inbound messages until session reset",
-        "url": "https://github.com/openclaw/openclaw/issues/121709",
+        "number": 128172,
+        "title": "[Bug]: macOS App Health stays pending with current channel state",
+        "url": "https://github.com/openclaw/openclaw/issues/128172",
         "state": "open",
-        "author": "shivadityasingh",
-        "updatedAt": "2026-08-23T23:34:20Z"
+        "author": "TheAngryPit",
+        "updatedAt": "2026-08-24T01:55:31Z"
       },
       {
         "kind": "issue",
-        "number": 79507,
-        "title": "Dreaming short-term promotion promotes cron delivery reports as high-value memories",
-        "url": "https://github.com/openclaw/openclaw/issues/79507",
-        "state": "open",
-        "author": "arlen8411",
-        "updatedAt": "2026-08-23T23:33:58Z"
-      },
-      {
-        "kind": "issue",
-        "number": 128395,
-        "title": "claude-cli backend: per-agent tools.deny never reaches --disallowedTools, so every agent can call every mcp.servers entry",
-        "url": "https://github.com/openclaw/openclaw/issues/128395",
-        "state": "open",
-        "author": "abacha",
-        "updatedAt": "2026-08-23T23:33:55Z"
-      },
-      {
-        "kind": "issue",
-        "number": 75923,
-        "title": "[Feature]: Add run-scoped cross-tool consecutive error cascade detection",
-        "url": "https://github.com/openclaw/openclaw/issues/75923",
-        "state": "open",
-        "author": "Shockang",
-        "updatedAt": "2026-08-23T23:33:22Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127533,
-        "title": "Managed OpenAI transports inherit hidden SDK retries with abort-insensitive backoff",
-        "url": "https://github.com/openclaw/openclaw/issues/127533",
+        "number": 127569,
+        "title": "macOS camera clips and screen recordings can exceed the Gateway frame budget",
+        "url": "https://github.com/openclaw/openclaw/issues/127569",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-23T23:33:06Z"
+        "updatedAt": "2026-08-24T01:55:28Z"
       },
       {
         "kind": "issue",
-        "number": 127551,
-        "title": "Recovery compaction drops the admitted writer fence and can publish a superseded summary",
-        "url": "https://github.com/openclaw/openclaw/issues/127551",
+        "number": 127594,
+        "title": "Retained session-workspace file drafts have no entry, byte, or lifecycle bound",
+        "url": "https://github.com/openclaw/openclaw/issues/127594",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-23T23:32:57Z"
+        "updatedAt": "2026-08-24T01:55:23Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127592,
+        "title": "Agents Files Refresh leaves active file content cached and stale",
+        "url": "https://github.com/openclaw/openclaw/issues/127592",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-24T01:54:21Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 90477,
-        "title": "fix: defer WhatsApp visible-reply typing until send start",
-        "url": "https://github.com/openclaw/openclaw/pull/90477",
-        "state": "open",
-        "author": "mcaxtr",
-        "updatedAt": "2026-08-23T23:34:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 128375,
-        "title": "fix(agents): surface provider auth guidance for terminal failures",
-        "url": "https://github.com/openclaw/openclaw/pull/128375",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-23T23:34:16Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126082,
-        "title": "Audit exact-bound owner-native lifecycle receipts",
-        "url": "https://github.com/openclaw/openclaw/pull/126082",
-        "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-08-23T23:33:52Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121576,
-        "title": "fix(text): only insert separator between word chars when stripping model tokens",
-        "url": "https://github.com/openclaw/openclaw/pull/121576",
+        "number": 128453,
+        "title": "fix(matrix): exclude code regions from spoiler collision predicate",
+        "url": "https://github.com/openclaw/openclaw/pull/128453",
         "state": "open",
         "author": "ruel225",
-        "updatedAt": "2026-08-23T23:33:49Z"
+        "updatedAt": "2026-08-24T01:55:56Z"
       },
       {
         "kind": "pr",
-        "number": 90258,
-        "title": "fix(qr): stabilize terminal colors",
-        "url": "https://github.com/openclaw/openclaw/pull/90258",
+        "number": 128428,
+        "title": "fix(ci): prevent gateway profile live startup stalls",
+        "url": "https://github.com/openclaw/openclaw/pull/128428",
         "state": "open",
-        "author": "sliverp",
-        "updatedAt": "2026-08-23T23:33:19Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-24T01:55:50Z"
       },
       {
         "kind": "pr",
-        "number": 126424,
-        "title": "fix(gateway): keep conversation delivery within agent bindings",
-        "url": "https://github.com/openclaw/openclaw/pull/126424",
-        "state": "closed",
-        "author": "joshavant",
-        "updatedAt": "2026-08-23T23:32:58Z"
+        "number": 124305,
+        "title": "feat(whatsapp): add configurable replyRate for probabilistic inbound …",
+        "url": "https://github.com/openclaw/openclaw/pull/124305",
+        "state": "open",
+        "author": "srikarkrishna",
+        "updatedAt": "2026-08-24T01:55:49Z"
+      },
+      {
+        "kind": "pr",
+        "number": 121063,
+        "title": "fix(agent-core): bound runaway loops with turn/error-batch/idle-repeat guards (#120962)",
+        "url": "https://github.com/openclaw/openclaw/pull/121063",
+        "state": "open",
+        "author": "Papilionidae",
+        "updatedAt": "2026-08-24T01:55:49Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126789,
+        "title": "fix(telegram): prevent duplicate reply images from reaching the agent",
+        "url": "https://github.com/openclaw/openclaw/pull/126789",
+        "state": "open",
+        "author": "amittell",
+        "updatedAt": "2026-08-24T01:55:48Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127823,
+        "title": "improve(control-ui): attach the message queue to the composer",
+        "url": "https://github.com/openclaw/openclaw/pull/127823",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-24T01:55:36Z"
       }
     ]
   }

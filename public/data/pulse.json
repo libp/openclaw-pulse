@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-24T22:42:39.657Z",
+  "generatedAt": "2026-08-24T23:33:27.967Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -649,17 +649,17 @@
     },
     {
       "capturedOn": "2026-08-24",
-      "capturedAt": "2026-08-24T22:42:39.657Z",
+      "capturedAt": "2026-08-24T23:33:27.967Z",
       "issueOpen": 3647,
-      "issueClosed": 44876,
-      "prOpen": 2239,
-      "prClosed": 75600,
-      "prMerged": 27593,
+      "issueClosed": 44880,
+      "prOpen": 2237,
+      "prClosed": 75612,
+      "prMerged": 27600,
       "workflowRuns": 40000,
-      "stars": 387420,
-      "forks": 81346,
+      "stars": 387429,
+      "forks": 81347,
       "subscribers": 1755,
-      "commits": 82060,
+      "commits": 82067,
       "contributors": 3140,
       "source": "github-actions",
       "approximateDate": false
@@ -868,10 +868,10 @@
     },
     {
       "capturedOn": "2026-08-24",
-      "stars": 387420,
-      "forks": 81346,
+      "stars": 387429,
+      "forks": 81347,
       "subscribers": 1755,
-      "commits": 82060,
+      "commits": 82067,
       "contributors": 3140
     }
   ],
@@ -879,113 +879,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 126647,
-        "title": "sessions cleanup --enforce hangs/OOMs clearing a large session backlog (worker structured-clone does not scale)",
-        "url": "https://github.com/openclaw/openclaw/issues/126647",
+        "number": 125375,
+        "title": "iMessage inline replies drop replied-to attachment context",
+        "url": "https://github.com/openclaw/openclaw/issues/125375",
         "state": "open",
-        "author": "gucasbrg",
-        "updatedAt": "2026-08-24T22:42:33Z"
+        "author": "lockhartheavyindustries",
+        "updatedAt": "2026-08-24T23:33:20Z"
       },
       {
         "kind": "issue",
-        "number": 115028,
-        "title": "[Bug]: SSH control tunnel restarts on a fixed 2s delay with no escalation or attempt cap",
-        "url": "https://github.com/openclaw/openclaw/issues/115028",
+        "number": 127095,
+        "title": "[Bug]: Node host duplicates concurrent skill-bin refreshes",
+        "url": "https://github.com/openclaw/openclaw/issues/127095",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-24T22:41:38Z"
+        "updatedAt": "2026-08-24T23:32:56Z"
       },
       {
         "kind": "issue",
-        "number": 128887,
-        "title": "Architecture takeaways from a reverse-engineered Cursor-family agent: actionable improvement plan",
-        "url": "https://github.com/openclaw/openclaw/issues/128887",
+        "number": 127533,
+        "title": "Managed OpenAI transports inherit hidden SDK retries with abort-insensitive backoff",
+        "url": "https://github.com/openclaw/openclaw/issues/127533",
         "state": "open",
-        "author": "sheep-o-matic",
-        "updatedAt": "2026-08-24T22:41:26Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-24T23:32:43Z"
       },
       {
         "kind": "issue",
-        "number": 128002,
-        "title": "[Bug]: Talk mode collapses responses into single column",
-        "url": "https://github.com/openclaw/openclaw/issues/128002",
+        "number": 127629,
+        "title": "chat.history continuation offsets duplicate or omit rows under live appends",
+        "url": "https://github.com/openclaw/openclaw/issues/127629",
         "state": "open",
-        "author": "mihakrajnc",
-        "updatedAt": "2026-08-24T22:41:17Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-24T23:32:40Z"
       },
       {
         "kind": "issue",
-        "number": 104358,
-        "title": "[Feature]: clean up empty openclaw-staged-* inbound media staging directories automatically",
-        "url": "https://github.com/openclaw/openclaw/issues/104358",
+        "number": 47120,
+        "title": "[Feature Request] Session List: Show timestamp + last message preview",
+        "url": "https://github.com/openclaw/openclaw/issues/47120",
         "state": "open",
-        "author": "danilovmy",
-        "updatedAt": "2026-08-24T22:41:10Z"
+        "author": "SiriuSM00N",
+        "updatedAt": "2026-08-24T23:32:39Z"
       },
       {
         "kind": "issue",
-        "number": 126282,
-        "title": "Channel outbound sends leave no durable receipt — silent-failure forensics requires snowflake archaeology",
-        "url": "https://github.com/openclaw/openclaw/issues/126282",
+        "number": 126242,
+        "title": "[Bug]: expanding the last chat code block loses the visual scroll anchor",
+        "url": "https://github.com/openclaw/openclaw/issues/126242",
         "state": "open",
-        "author": "Agonb",
-        "updatedAt": "2026-08-24T22:40:56Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-24T23:32:37Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 118465,
-        "title": "perf(gateway): first message after startup stalls on lazy model-catalog and plugin-registry loads",
-        "url": "https://github.com/openclaw/openclaw/pull/118465",
+        "number": 128757,
+        "title": "fix(ollama): support adaptive thinking level for Ollama models",
+        "url": "https://github.com/openclaw/openclaw/pull/128757",
         "state": "open",
-        "author": "zeroaltitude",
-        "updatedAt": "2026-08-24T22:42:31Z"
+        "author": "MasterSwords1",
+        "updatedAt": "2026-08-24T23:33:17Z"
       },
       {
         "kind": "pr",
-        "number": 101866,
-        "title": "fix(sessions): ground assistant transcript media refs before replay",
-        "url": "https://github.com/openclaw/openclaw/pull/101866",
+        "number": 126986,
+        "title": "fix(codex): preserve agent workspace instructions",
+        "url": "https://github.com/openclaw/openclaw/pull/126986",
+        "state": "open",
+        "author": "jason-allen-oneal",
+        "updatedAt": "2026-08-24T23:33:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 88908,
+        "title": "fix(gateway): make supervised lock recovery draining-aware",
+        "url": "https://github.com/openclaw/openclaw/pull/88908",
         "state": "open",
         "author": "amittell",
-        "updatedAt": "2026-08-24T22:42:31Z"
+        "updatedAt": "2026-08-24T23:33:14Z"
       },
       {
         "kind": "pr",
-        "number": 91988,
-        "title": "fix: preserve BOOTSTRAP.md in preseeded workspaces (#91931)",
-        "url": "https://github.com/openclaw/openclaw/pull/91988",
+        "number": 128901,
+        "title": "fix(msteams): restore missing channel thread context",
+        "url": "https://github.com/openclaw/openclaw/pull/128901",
         "state": "open",
-        "author": "LiuwqGit",
-        "updatedAt": "2026-08-24T22:42:12Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-24T23:33:13Z"
       },
       {
         "kind": "pr",
-        "number": 128884,
-        "title": "fix: status checks exceed CPU limit after SQLite lock hardening",
-        "url": "https://github.com/openclaw/openclaw/pull/128884",
+        "number": 113038,
+        "title": "fix(webchat): strip media directives from streamed replies",
+        "url": "https://github.com/openclaw/openclaw/pull/113038",
         "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-08-24T22:42:01Z"
+        "author": "jincheng-xydt",
+        "updatedAt": "2026-08-24T23:32:45Z"
       },
       {
         "kind": "pr",
-        "number": 128878,
-        "title": "fix(daemon): write gateway stderr to resolved log path on launchd",
-        "url": "https://github.com/openclaw/openclaw/pull/128878",
+        "number": 128608,
+        "title": "fix: /models stops working after an unrelated config edit and never recovers",
+        "url": "https://github.com/openclaw/openclaw/pull/128608",
         "state": "open",
-        "author": "PKM-M84",
-        "updatedAt": "2026-08-24T22:41:59Z"
-      },
-      {
-        "kind": "pr",
-        "number": 89823,
-        "title": "fix(ui): C-1+C-2 — glass consistency + skeleton loading states",
-        "url": "https://github.com/openclaw/openclaw/pull/89823",
-        "state": "open",
-        "author": "BunsDev",
-        "updatedAt": "2026-08-24T22:40:32Z"
+        "author": "Marvinthebored",
+        "updatedAt": "2026-08-24T23:32:44Z"
       }
     ]
   }

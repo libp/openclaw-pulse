@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-24T09:02:54.868Z",
+  "generatedAt": "2026-08-24T10:02:09.969Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -649,17 +649,17 @@
     },
     {
       "capturedOn": "2026-08-24",
-      "capturedAt": "2026-08-24T09:02:54.868Z",
-      "issueOpen": 3645,
-      "issueClosed": 44795,
-      "prOpen": 2232,
-      "prClosed": 75438,
-      "prMerged": 27474,
+      "capturedAt": "2026-08-24T10:02:09.969Z",
+      "issueOpen": 3631,
+      "issueClosed": 44814,
+      "prOpen": 2225,
+      "prClosed": 75460,
+      "prMerged": 27489,
       "workflowRuns": 40000,
-      "stars": 387284,
-      "forks": 81327,
+      "stars": 387287,
+      "forks": 81328,
       "subscribers": 1756,
-      "commits": 81941,
+      "commits": 81956,
       "contributors": 3138,
       "source": "github-actions",
       "approximateDate": false
@@ -868,10 +868,10 @@
     },
     {
       "capturedOn": "2026-08-24",
-      "stars": 387284,
-      "forks": 81327,
+      "stars": 387287,
+      "forks": 81328,
       "subscribers": 1756,
-      "commits": 81941,
+      "commits": 81956,
       "contributors": 3138
     }
   ],
@@ -879,95 +879,50 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 126016,
-        "title": "Compaction strict identifier extractor treats decimal fragments in tool results as exact IDs, causing guard_blocked",
-        "url": "https://github.com/openclaw/openclaw/issues/126016",
+        "number": 125838,
+        "title": "QQBot: slash command 轻量回复未投递 (/think, /status 无回复)",
+        "url": "https://github.com/openclaw/openclaw/issues/125838",
         "state": "open",
-        "author": "aaajiao",
-        "updatedAt": "2026-08-24T09:02:31Z"
+        "author": "lwy521",
+        "updatedAt": "2026-08-24T10:01:03Z"
       },
       {
         "kind": "issue",
-        "number": 125901,
-        "title": "[Bug]: Web UI Terminal mode cannot input CJK characters via IME",
-        "url": "https://github.com/openclaw/openclaw/issues/125901",
+        "number": 60612,
+        "title": "Doctor warns about NVM node instead of Homebrew/system node, but cannot be fixed",
+        "url": "https://github.com/openclaw/openclaw/issues/60612",
         "state": "open",
-        "author": "xialonglee",
-        "updatedAt": "2026-08-24T09:02:20Z"
+        "author": "drzeast-png",
+        "updatedAt": "2026-08-24T10:00:32Z"
       },
       {
         "kind": "issue",
-        "number": 125589,
-        "title": "[Bug]: doctor --fix treats Kubernetes containers as systemd-managed host installs",
-        "url": "https://github.com/openclaw/openclaw/issues/125589",
+        "number": 97616,
+        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
+        "url": "https://github.com/openclaw/openclaw/issues/97616",
         "state": "open",
-        "author": "Conan-Scott",
-        "updatedAt": "2026-08-24T09:02:15Z"
-      },
-      {
-        "kind": "issue",
-        "number": 122251,
-        "title": "Heartbeat treats cancelled agent turns as runner failures",
-        "url": "https://github.com/openclaw/openclaw/issues/122251",
-        "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-08-24T09:02:07Z"
-      },
-      {
-        "kind": "issue",
-        "number": 122395,
-        "title": "[UX]: Move desktop navigation controls into the sidebar header",
-        "url": "https://github.com/openclaw/openclaw/issues/122395",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-24T09:02:00Z"
-      },
-      {
-        "kind": "issue",
-        "number": 128623,
-        "title": "[Bug]: Model Setup goes blank while checking AI access",
-        "url": "https://github.com/openclaw/openclaw/issues/128623",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-24T09:01:58Z"
+        "author": "avp717",
+        "updatedAt": "2026-08-24T09:59:45Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 127967,
-        "title": "fix(auto-reply): hand completed source replies to queued successors",
-        "url": "https://github.com/openclaw/openclaw/pull/127967",
-        "state": "open",
-        "author": "HermanZeng",
-        "updatedAt": "2026-08-24T09:02:51Z"
+        "number": 128414,
+        "title": "chore: refresh dependencies after seven-day cooldown",
+        "url": "https://github.com/openclaw/openclaw/pull/128414",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-24T10:02:00Z"
       },
       {
         "kind": "pr",
-        "number": 128253,
-        "title": "fix(ui): warning callouts render without warning styles",
-        "url": "https://github.com/openclaw/openclaw/pull/128253",
+        "number": 125370,
+        "title": "fix(mattermost): react action rejects raw emoji glyphs",
+        "url": "https://github.com/openclaw/openclaw/pull/125370",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-24T09:02:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 128629,
-        "title": "build(deps): bump the android-deps group across 1 directory with 26 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/128629",
-        "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-24T09:02:35Z"
-      },
-      {
-        "kind": "pr",
-        "number": 128521,
-        "title": "fix(sessions): skip inherited auto fallback overrides",
-        "url": "https://github.com/openclaw/openclaw/pull/128521",
-        "state": "open",
-        "author": "gaoanze888",
-        "updatedAt": "2026-08-24T09:02:22Z"
+        "author": "goffern",
+        "updatedAt": "2026-08-24T10:01:57Z"
       },
       {
         "kind": "pr",
@@ -976,16 +931,34 @@
         "url": "https://github.com/openclaw/openclaw/pull/128459",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-24T09:02:21Z"
+        "updatedAt": "2026-08-24T10:01:39Z"
       },
       {
         "kind": "pr",
-        "number": 121063,
-        "title": "fix(agent-core): bound runaway loops with turn/error-batch/idle-repeat guards (#120962)",
-        "url": "https://github.com/openclaw/openclaw/pull/121063",
+        "number": 125820,
+        "title": "improve(ui): stop sidebar rows rearranging themselves on hover",
+        "url": "https://github.com/openclaw/openclaw/pull/125820",
         "state": "open",
-        "author": "Papilionidae",
-        "updatedAt": "2026-08-24T09:02:20Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-24T10:01:11Z"
+      },
+      {
+        "kind": "pr",
+        "number": 128635,
+        "title": "fix(sqlite): stage read-only snapshots in private user cache",
+        "url": "https://github.com/openclaw/openclaw/pull/128635",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-24T10:00:10Z"
+      },
+      {
+        "kind": "pr",
+        "number": 128505,
+        "title": "fix(agents): preserve plugin tool termination",
+        "url": "https://github.com/openclaw/openclaw/pull/128505",
+        "state": "open",
+        "author": "gaoanze888",
+        "updatedAt": "2026-08-24T10:00:10Z"
       }
     ]
   }

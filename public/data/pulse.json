@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-24T11:42:28.367Z",
+  "generatedAt": "2026-08-24T13:11:35.730Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -649,17 +649,17 @@
     },
     {
       "capturedOn": "2026-08-24",
-      "capturedAt": "2026-08-24T11:42:28.367Z",
-      "issueOpen": 3634,
-      "issueClosed": 44829,
-      "prOpen": 2231,
-      "prClosed": 75482,
-      "prMerged": 27497,
+      "capturedAt": "2026-08-24T13:11:35.730Z",
+      "issueOpen": 3628,
+      "issueClosed": 44843,
+      "prOpen": 2223,
+      "prClosed": 75516,
+      "prMerged": 27522,
       "workflowRuns": 40000,
-      "stars": 387298,
+      "stars": 387312,
       "forks": 81332,
       "subscribers": 1756,
-      "commits": 81964,
+      "commits": 81989,
       "contributors": 3139,
       "source": "github-actions",
       "approximateDate": false
@@ -868,10 +868,10 @@
     },
     {
       "capturedOn": "2026-08-24",
-      "stars": 387298,
+      "stars": 387312,
       "forks": 81332,
       "subscribers": 1756,
-      "commits": 81964,
+      "commits": 81989,
       "contributors": 3139
     }
   ],
@@ -879,68 +879,50 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 120222,
-        "title": "[Bug]: Startup model-runtime discovery starves the Gateway event loop and couples channel startup + turns to its outcome (regression of 11f0244cf43's channels-first property)",
-        "url": "https://github.com/openclaw/openclaw/issues/120222",
+        "number": 127440,
+        "title": "Codex sandbox non-stream HTTP outlives connection ownership and buffers the full response",
+        "url": "https://github.com/openclaw/openclaw/issues/127440",
         "state": "open",
-        "author": "Jackten",
-        "updatedAt": "2026-08-24T11:41:38Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-24T13:11:24Z"
       },
       {
         "kind": "issue",
-        "number": 128696,
-        "title": "[Bug]: terminal initial commands can be mangled before login shell readiness",
-        "url": "https://github.com/openclaw/openclaw/issues/128696",
-        "state": "open",
-        "author": "noelillinger",
-        "updatedAt": "2026-08-24T11:41:05Z"
+        "number": 128539,
+        "title": "[Bug]: Filtered session lists admit unrelated active sessions",
+        "url": "https://github.com/openclaw/openclaw/issues/128539",
+        "state": "closed",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-08-24T13:10:57Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126943,
-        "title": "feat: persist stateful transcript display semantics",
-        "url": "https://github.com/openclaw/openclaw/pull/126943",
+        "number": 128630,
+        "title": "fix(discord): a failing slash command leaves the user watching a spinner that never resolves",
+        "url": "https://github.com/openclaw/openclaw/pull/128630",
         "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-08-24T11:42:20Z"
+        "author": "Marvinthebored",
+        "updatedAt": "2026-08-24T13:11:28Z"
       },
       {
         "kind": "pr",
-        "number": 123786,
-        "title": "fix(plugin-sdk): expose current inbound message context",
-        "url": "https://github.com/openclaw/openclaw/pull/123786",
+        "number": 128735,
+        "title": "fix(ci): pin iOS Fastlane toolchain",
+        "url": "https://github.com/openclaw/openclaw/pull/128735",
         "state": "open",
-        "author": "8lulee",
-        "updatedAt": "2026-08-24T11:42:17Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-24T13:11:26Z"
       },
       {
         "kind": "pr",
-        "number": 124280,
-        "title": "fix(workboard): start cards with current context after handoff",
-        "url": "https://github.com/openclaw/openclaw/pull/124280",
+        "number": 68236,
+        "title": "test(auth): add oauth e2e regression coverage",
+        "url": "https://github.com/openclaw/openclaw/pull/68236",
         "state": "open",
-        "author": "CBruney",
-        "updatedAt": "2026-08-24T11:41:54Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126424,
-        "title": "fix(gateway): keep conversation delivery within agent bindings",
-        "url": "https://github.com/openclaw/openclaw/pull/126424",
-        "state": "closed",
-        "author": "joshavant",
-        "updatedAt": "2026-08-24T11:41:51Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123356,
-        "title": "improve(control-ui): stage slash command arguments in the composer",
-        "url": "https://github.com/openclaw/openclaw/pull/123356",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-24T11:41:51Z"
+        "author": "ngutman",
+        "updatedAt": "2026-08-24T13:11:21Z"
       },
       {
         "kind": "pr",
@@ -949,7 +931,25 @@
         "url": "https://github.com/openclaw/openclaw/pull/123535",
         "state": "open",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-24T11:41:48Z"
+        "updatedAt": "2026-08-24T13:11:13Z"
+      },
+      {
+        "kind": "pr",
+        "number": 109074,
+        "title": "fix(tts): bound response body read with timeout in OpenAI-compatible providers",
+        "url": "https://github.com/openclaw/openclaw/pull/109074",
+        "state": "open",
+        "author": "lsr911",
+        "updatedAt": "2026-08-24T13:11:10Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127524,
+        "title": "docs: clarify ${VAR} substitution doesn't reach .env file values",
+        "url": "https://github.com/openclaw/openclaw/pull/127524",
+        "state": "open",
+        "author": "dkling-it",
+        "updatedAt": "2026-08-24T13:11:06Z"
       }
     ]
   }

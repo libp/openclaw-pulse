@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-24T14:01:03.165Z",
+  "generatedAt": "2026-08-24T14:58:21.364Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -649,17 +649,17 @@
     },
     {
       "capturedOn": "2026-08-24",
-      "capturedAt": "2026-08-24T14:01:03.165Z",
-      "issueOpen": 3624,
-      "issueClosed": 44851,
-      "prOpen": 2215,
-      "prClosed": 75532,
-      "prMerged": 27538,
+      "capturedAt": "2026-08-24T14:58:21.364Z",
+      "issueOpen": 3626,
+      "issueClosed": 44853,
+      "prOpen": 2229,
+      "prClosed": 75537,
+      "prMerged": 27542,
       "workflowRuns": 40000,
-      "stars": 387325,
-      "forks": 81330,
+      "stars": 387335,
+      "forks": 81329,
       "subscribers": 1755,
-      "commits": 82005,
+      "commits": 82009,
       "contributors": 3139,
       "source": "github-actions",
       "approximateDate": false
@@ -868,10 +868,10 @@
     },
     {
       "capturedOn": "2026-08-24",
-      "stars": 387325,
-      "forks": 81330,
+      "stars": 387335,
+      "forks": 81329,
       "subscribers": 1755,
-      "commits": 82005,
+      "commits": 82009,
       "contributors": 3139
     }
   ],
@@ -879,68 +879,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 120561,
-        "title": "[Bug]: agent.wait can return error before the same run later ends successfully",
-        "url": "https://github.com/openclaw/openclaw/issues/120561",
+        "number": 126902,
+        "title": "nextcloud-talk: webhook monitor leaks auth rate limiter prune timer on every stop/start cycle",
+        "url": "https://github.com/openclaw/openclaw/issues/126902",
         "state": "closed",
-        "author": "reisball",
-        "updatedAt": "2026-08-24T14:00:01Z"
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-08-24T14:58:00Z"
       },
       {
         "kind": "issue",
-        "number": 128744,
-        "title": "Cloud node destroy replay bootstraps worker before teardown",
-        "url": "https://github.com/openclaw/openclaw/issues/128744",
-        "state": "closed",
+        "number": 128769,
+        "title": "Cloud-managed nodes reappear as paired devices when ownership is uncertain",
+        "url": "https://github.com/openclaw/openclaw/issues/128769",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-24T13:58:27Z"
+        "updatedAt": "2026-08-24T14:57:42Z"
+      },
+      {
+        "kind": "issue",
+        "number": 78537,
+        "title": "[Docs]: `allowInsecurePath` Linux uid-check behavior is undocumented; users on Linux cannot use system-package binaries (e.g. /usr/bin/op) without it",
+        "url": "https://github.com/openclaw/openclaw/issues/78537",
+        "state": "open",
+        "author": "esqandil",
+        "updatedAt": "2026-08-24T14:56:21Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126939,
-        "title": "feat: persist bounded transcript display rows",
-        "url": "https://github.com/openclaw/openclaw/pull/126939",
+        "number": 118720,
+        "title": "fix(agents): node plugin tool calls report a generic client timeout",
+        "url": "https://github.com/openclaw/openclaw/pull/118720",
         "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-08-24T14:00:49Z"
+        "author": "Yigtwxx",
+        "updatedAt": "2026-08-24T14:58:17Z"
       },
       {
         "kind": "pr",
-        "number": 117151,
-        "title": "fix(process): clean attached Unix descendants on cancellation",
-        "url": "https://github.com/openclaw/openclaw/pull/117151",
+        "number": 128673,
+        "title": "chore(deps): bump the actions group across 1 directory with 6 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/128673",
         "state": "open",
-        "author": "miorbnli",
-        "updatedAt": "2026-08-24T14:00:32Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-24T14:58:10Z"
       },
       {
         "kind": "pr",
-        "number": 123482,
-        "title": "fix: session list stalls while loading workspace state",
-        "url": "https://github.com/openclaw/openclaw/pull/123482",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-24T14:00:25Z"
+        "number": 126908,
+        "title": "fix(nextcloud-talk): dispose webhook auth rate limiter on monitor stop",
+        "url": "https://github.com/openclaw/openclaw/pull/126908",
+        "state": "closed",
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-08-24T14:58:10Z"
       },
       {
         "kind": "pr",
-        "number": 128454,
-        "title": "feat(auto-reply): clean empty staged inbound media directories (#104358)",
-        "url": "https://github.com/openclaw/openclaw/pull/128454",
+        "number": 128770,
+        "title": "refactor(tooling): remove test-only production helper exports",
+        "url": "https://github.com/openclaw/openclaw/pull/128770",
         "state": "open",
-        "author": "MasterSwords1",
-        "updatedAt": "2026-08-24T14:00:23Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-24T14:57:57Z"
       },
       {
         "kind": "pr",
-        "number": 117144,
-        "title": "fix(ci): package runtime resources in dist artifact",
-        "url": "https://github.com/openclaw/openclaw/pull/117144",
+        "number": 128735,
+        "title": "fix(ci): pin iOS Fastlane toolchain",
+        "url": "https://github.com/openclaw/openclaw/pull/128735",
         "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-24T14:00:16Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-24T14:57:53Z"
       },
       {
         "kind": "pr",
@@ -949,7 +958,7 @@
         "url": "https://github.com/openclaw/openclaw/pull/127224",
         "state": "open",
         "author": "clawsweeper",
-        "updatedAt": "2026-08-24T14:00:13Z"
+        "updatedAt": "2026-08-24T14:57:52Z"
       }
     ]
   }

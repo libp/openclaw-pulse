@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-24T16:53:45.750Z",
+  "generatedAt": "2026-08-24T17:45:33.965Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -649,17 +649,17 @@
     },
     {
       "capturedOn": "2026-08-24",
-      "capturedAt": "2026-08-24T16:53:45.750Z",
-      "issueOpen": 3629,
+      "capturedAt": "2026-08-24T17:45:33.965Z",
+      "issueOpen": 3633,
       "issueClosed": 44863,
-      "prOpen": 2233,
-      "prClosed": 75554,
-      "prMerged": 27555,
+      "prOpen": 2234,
+      "prClosed": 75561,
+      "prMerged": 27562,
       "workflowRuns": 40000,
-      "stars": 387360,
-      "forks": 81331,
+      "stars": 387367,
+      "forks": 81334,
       "subscribers": 1755,
-      "commits": 82022,
+      "commits": 82029,
       "contributors": 3139,
       "source": "github-actions",
       "approximateDate": false
@@ -868,10 +868,10 @@
     },
     {
       "capturedOn": "2026-08-24",
-      "stars": 387360,
-      "forks": 81331,
+      "stars": 387367,
+      "forks": 81334,
       "subscribers": 1755,
-      "commits": 82022,
+      "commits": 82029,
       "contributors": 3139
     }
   ],
@@ -879,77 +879,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 128794,
-        "title": "Transient node supervisor initialization permanently disables session hosting",
-        "url": "https://github.com/openclaw/openclaw/issues/128794",
+        "number": 112313,
+        "title": "Dead-lettered outbound delivery queue entries are permanent: every accessor filters status='pending', no CLI/RPC/TTL can clear them",
+        "url": "https://github.com/openclaw/openclaw/issues/112313",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-24T16:52:11Z"
+        "author": "igorrius",
+        "updatedAt": "2026-08-24T17:45:14Z"
       },
       {
         "kind": "issue",
-        "number": 128792,
-        "title": "[Bug]: gateway call chat.send cannot invoke admin-scoped ACP lifecycle commands",
-        "url": "https://github.com/openclaw/openclaw/issues/128792",
+        "number": 96467,
+        "title": "openclaw models status --probe: wallclock dominated by /v1/messages completion call; --probe-timeout not honored",
+        "url": "https://github.com/openclaw/openclaw/issues/96467",
         "state": "open",
-        "author": "rusty-cole",
-        "updatedAt": "2026-08-24T16:52:10Z"
+        "author": "jackmtl71",
+        "updatedAt": "2026-08-24T17:45:14Z"
+      },
+      {
+        "kind": "issue",
+        "number": 120241,
+        "title": "[Bug]: iOS relay-backed push keeps replaying cached registration after APNs 410 Unregistered",
+        "url": "https://github.com/openclaw/openclaw/issues/120241",
+        "state": "open",
+        "author": "yham5016-source",
+        "updatedAt": "2026-08-24T17:45:12Z"
+      },
+      {
+        "kind": "issue",
+        "number": 120356,
+        "title": "[Bug]: Context Stays at 0% with VLLM backend.",
+        "url": "https://github.com/openclaw/openclaw/issues/120356",
+        "state": "open",
+        "author": "DigitalCharon",
+        "updatedAt": "2026-08-24T17:45:02Z"
+      },
+      {
+        "kind": "issue",
+        "number": 98436,
+        "title": "[Feature]: Batch/debounce gateway restart on multiple protected-path config edits",
+        "url": "https://github.com/openclaw/openclaw/issues/98436",
+        "state": "open",
+        "author": "alvelda",
+        "updatedAt": "2026-08-24T17:44:37Z"
+      },
+      {
+        "kind": "issue",
+        "number": 128815,
+        "title": "[Bug]: Doctor media migration still exhausts heap on large session-window corpora",
+        "url": "https://github.com/openclaw/openclaw/issues/128815",
+        "state": "open",
+        "author": "ashawwal",
+        "updatedAt": "2026-08-24T17:44:31Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 106789,
-        "title": "docs: respect configured Crabbox provider for agent tests",
-        "url": "https://github.com/openclaw/openclaw/pull/106789",
-        "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-08-24T16:53:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 128796,
-        "title": "fix(web-search): redact reflected credentials in shared API error surfaces",
-        "url": "https://github.com/openclaw/openclaw/pull/128796",
-        "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-24T16:53:31Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126424,
-        "title": "fix(gateway): keep conversation delivery within agent bindings",
-        "url": "https://github.com/openclaw/openclaw/pull/126424",
-        "state": "closed",
-        "author": "joshavant",
-        "updatedAt": "2026-08-24T16:53:31Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126851,
-        "title": "fix(ui): clear stuck session run spinner on stale terminal projection",
-        "url": "https://github.com/openclaw/openclaw/pull/126851",
-        "state": "open",
-        "author": "1MrazorT1",
-        "updatedAt": "2026-08-24T16:53:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125535,
-        "title": "fix(whatsapp): resolve LID-addressed inbound identity from the envelope",
-        "url": "https://github.com/openclaw/openclaw/pull/125535",
-        "state": "open",
-        "author": "openperf",
-        "updatedAt": "2026-08-24T16:53:25Z"
-      },
-      {
-        "kind": "pr",
-        "number": 128763,
-        "title": "fix(matrix): show edited messages in replies and thread context",
-        "url": "https://github.com/openclaw/openclaw/pull/128763",
+        "number": 128798,
+        "title": "fix(node-host): recover worker hosting after transient initialization failures",
+        "url": "https://github.com/openclaw/openclaw/pull/128798",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-24T16:53:22Z"
+        "updatedAt": "2026-08-24T17:45:02Z"
+      },
+      {
+        "kind": "pr",
+        "number": 128812,
+        "title": "fix(tasks): reconcile terminal subagent cancellation",
+        "url": "https://github.com/openclaw/openclaw/pull/128812",
+        "state": "open",
+        "author": "jogly",
+        "updatedAt": "2026-08-24T17:44:56Z"
+      },
+      {
+        "kind": "pr",
+        "number": 118616,
+        "title": "fix(diagnostic): stop aborting healthy agent turns that wait on a background subagent",
+        "url": "https://github.com/openclaw/openclaw/pull/118616",
+        "state": "open",
+        "author": "MoerAI",
+        "updatedAt": "2026-08-24T17:44:43Z"
+      },
+      {
+        "kind": "pr",
+        "number": 128816,
+        "title": "fix(doctor): bound media migration session scans",
+        "url": "https://github.com/openclaw/openclaw/pull/128816",
+        "state": "open",
+        "author": "ashawwal",
+        "updatedAt": "2026-08-24T17:44:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 103961,
+        "title": "fix(usage): reclaim refresh locks leaked by the current process (#103910)",
+        "url": "https://github.com/openclaw/openclaw/pull/103961",
+        "state": "open",
+        "author": "ObliviateRickLin",
+        "updatedAt": "2026-08-24T17:44:30Z"
+      },
+      {
+        "kind": "pr",
+        "number": 68280,
+        "title": "test(status): preserve degraded probes for unresolved SecretRefs",
+        "url": "https://github.com/openclaw/openclaw/pull/68280",
+        "state": "open",
+        "author": "amittell",
+        "updatedAt": "2026-08-24T17:44:07Z"
       }
     ]
   }

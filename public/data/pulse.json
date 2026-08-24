@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-24T04:06:47.010Z",
+  "generatedAt": "2026-08-24T07:18:46.883Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -649,18 +649,18 @@
     },
     {
       "capturedOn": "2026-08-24",
-      "capturedAt": "2026-08-24T04:06:47.010Z",
-      "issueOpen": 3671,
-      "issueClosed": 44735,
-      "prOpen": 2273,
-      "prClosed": 75281,
-      "prMerged": 27359,
+      "capturedAt": "2026-08-24T07:18:46.883Z",
+      "issueOpen": 3658,
+      "issueClosed": 44775,
+      "prOpen": 2258,
+      "prClosed": 75379,
+      "prMerged": 27426,
       "workflowRuns": 40000,
-      "stars": 387287,
+      "stars": 387282,
       "forks": 81329,
       "subscribers": 1756,
-      "commits": 81826,
-      "contributors": 3129,
+      "commits": 81893,
+      "contributors": 3133,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -868,124 +868,79 @@
     },
     {
       "capturedOn": "2026-08-24",
-      "stars": 387287,
+      "stars": 387282,
       "forks": 81329,
       "subscribers": 1756,
-      "commits": 81826,
-      "contributors": 3129
+      "commits": 81893,
+      "contributors": 3133
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 127265,
-        "title": "[Bug]: trusted-proxy webhook clients share a proxy-wide concurrency bucket",
-        "url": "https://github.com/openclaw/openclaw/issues/127265",
+        "number": 128593,
+        "title": "[Bug]: Gateway never becomes stably ready with Discord enabled on Windows (2026.7.1-2) — WS opening handshake starved by startup, unbounded retry in waitForGatewayReady",
+        "url": "https://github.com/openclaw/openclaw/issues/128593",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-24T04:06:09Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127119,
-        "title": "[Bug]: Model Studio (Qwen/DashScope) requests send max_completion_tokens, but the vendor documents max_tokens",
-        "url": "https://github.com/openclaw/openclaw/issues/127119",
-        "state": "open",
-        "author": "rrmars",
-        "updatedAt": "2026-08-24T04:05:56Z"
-      },
-      {
-        "kind": "issue",
-        "number": 128483,
-        "title": "Agent binding JSON validation failures emit empty stdout",
-        "url": "https://github.com/openclaw/openclaw/issues/128483",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-24T04:05:45Z"
-      },
-      {
-        "kind": "issue",
-        "number": 128472,
-        "title": "Aborted turns with no delivered content should trigger one automatic retry",
-        "url": "https://github.com/openclaw/openclaw/issues/128472",
-        "state": "closed",
-        "author": "r3n3x",
-        "updatedAt": "2026-08-24T04:05:40Z"
-      },
-      {
-        "kind": "issue",
-        "number": 126810,
-        "title": "[Bug]: macOS paired node rejects plugin-owned Codex catalog commands when native supervision is disabled",
-        "url": "https://github.com/openclaw/openclaw/issues/126810",
-        "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-08-24T04:05:30Z"
-      },
-      {
-        "kind": "issue",
-        "number": 103931,
-        "title": "qualityGuard adopts the summary from the final compaction attempt even when it fails its own quality audit (not fail-closed)",
-        "url": "https://github.com/openclaw/openclaw/issues/103931",
-        "state": "closed",
-        "author": "revision-co-ltd",
-        "updatedAt": "2026-08-24T04:05:17Z"
+        "author": "wijehdude",
+        "updatedAt": "2026-08-24T07:18:02Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 128475,
-        "title": "fix(qa): pin forced runtime model policy",
-        "url": "https://github.com/openclaw/openclaw/pull/128475",
+        "number": 128594,
+        "title": "fix(skills): show byte-aware errors for long descriptions",
+        "url": "https://github.com/openclaw/openclaw/pull/128594",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-24T04:06:41Z"
+        "author": "Alix-007",
+        "updatedAt": "2026-08-24T07:18:35Z"
       },
       {
         "kind": "pr",
-        "number": 128478,
-        "title": "docs(hooks): clarify command logger storage",
-        "url": "https://github.com/openclaw/openclaw/pull/128478",
+        "number": 119739,
+        "title": "fix(doctor): refresh planner statistics (ANALYZE) after SQLite compaction",
+        "url": "https://github.com/openclaw/openclaw/pull/119739",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-08-24T04:06:39Z"
+        "author": "todddickerson",
+        "updatedAt": "2026-08-24T07:18:35Z"
       },
       {
         "kind": "pr",
-        "number": 127076,
-        "title": "fix(ui): structure chat transcript attachments by kind",
-        "url": "https://github.com/openclaw/openclaw/pull/127076",
+        "number": 128552,
+        "title": "feat(ui): show disk space in diagnostics overlay",
+        "url": "https://github.com/openclaw/openclaw/pull/128552",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-08-24T07:18:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126177,
+        "title": "feat(sessions): find sessions worth organizing",
+        "url": "https://github.com/openclaw/openclaw/pull/126177",
         "state": "open",
         "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-24T04:06:39Z"
+        "updatedAt": "2026-08-24T07:18:29Z"
       },
       {
         "kind": "pr",
-        "number": 128185,
-        "title": "fix(crabbox): preserve Machine0 provisioning budget",
-        "url": "https://github.com/openclaw/openclaw/pull/128185",
+        "number": 128548,
+        "title": "feat(gateway): generic operator roles for non-maintainer access",
+        "url": "https://github.com/openclaw/openclaw/pull/128548",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-24T04:06:37Z"
+        "updatedAt": "2026-08-24T07:18:27Z"
       },
       {
         "kind": "pr",
-        "number": 128484,
-        "title": "fix(cli): render agent binding JSON failures",
-        "url": "https://github.com/openclaw/openclaw/pull/128484",
+        "number": 128591,
+        "title": "fix(location): reject future-dated cached fixes",
+        "url": "https://github.com/openclaw/openclaw/pull/128591",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-24T04:06:33Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125103,
-        "title": "[AI] fix(file-transfer): surface bare allow-entry footgun with actionable glob hint",
-        "url": "https://github.com/openclaw/openclaw/pull/125103",
-        "state": "open",
-        "author": "xydt-tanshanshan",
-        "updatedAt": "2026-08-24T04:06:31Z"
+        "updatedAt": "2026-08-24T07:18:23Z"
       }
     ]
   }

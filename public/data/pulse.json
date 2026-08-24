@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-24T13:11:35.730Z",
+  "generatedAt": "2026-08-24T14:01:03.165Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -649,17 +649,17 @@
     },
     {
       "capturedOn": "2026-08-24",
-      "capturedAt": "2026-08-24T13:11:35.730Z",
-      "issueOpen": 3628,
-      "issueClosed": 44843,
-      "prOpen": 2223,
-      "prClosed": 75516,
-      "prMerged": 27522,
+      "capturedAt": "2026-08-24T14:01:03.165Z",
+      "issueOpen": 3624,
+      "issueClosed": 44851,
+      "prOpen": 2215,
+      "prClosed": 75532,
+      "prMerged": 27538,
       "workflowRuns": 40000,
-      "stars": 387312,
-      "forks": 81332,
-      "subscribers": 1756,
-      "commits": 81989,
+      "stars": 387325,
+      "forks": 81330,
+      "subscribers": 1755,
+      "commits": 82005,
       "contributors": 3139,
       "source": "github-actions",
       "approximateDate": false
@@ -868,10 +868,10 @@
     },
     {
       "capturedOn": "2026-08-24",
-      "stars": 387312,
-      "forks": 81332,
-      "subscribers": 1756,
-      "commits": 81989,
+      "stars": 387325,
+      "forks": 81330,
+      "subscribers": 1755,
+      "commits": 82005,
       "contributors": 3139
     }
   ],
@@ -879,77 +879,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 127440,
-        "title": "Codex sandbox non-stream HTTP outlives connection ownership and buffers the full response",
-        "url": "https://github.com/openclaw/openclaw/issues/127440",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-24T13:11:24Z"
+        "number": 120561,
+        "title": "[Bug]: agent.wait can return error before the same run later ends successfully",
+        "url": "https://github.com/openclaw/openclaw/issues/120561",
+        "state": "closed",
+        "author": "reisball",
+        "updatedAt": "2026-08-24T14:00:01Z"
       },
       {
         "kind": "issue",
-        "number": 128539,
-        "title": "[Bug]: Filtered session lists admit unrelated active sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/128539",
+        "number": 128744,
+        "title": "Cloud node destroy replay bootstraps worker before teardown",
+        "url": "https://github.com/openclaw/openclaw/issues/128744",
         "state": "closed",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-08-24T13:10:57Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-24T13:58:27Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 128630,
-        "title": "fix(discord): a failing slash command leaves the user watching a spinner that never resolves",
-        "url": "https://github.com/openclaw/openclaw/pull/128630",
+        "number": 126939,
+        "title": "feat: persist bounded transcript display rows",
+        "url": "https://github.com/openclaw/openclaw/pull/126939",
         "state": "open",
-        "author": "Marvinthebored",
-        "updatedAt": "2026-08-24T13:11:28Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-08-24T14:00:49Z"
       },
       {
         "kind": "pr",
-        "number": 128735,
-        "title": "fix(ci): pin iOS Fastlane toolchain",
-        "url": "https://github.com/openclaw/openclaw/pull/128735",
+        "number": 117151,
+        "title": "fix(process): clean attached Unix descendants on cancellation",
+        "url": "https://github.com/openclaw/openclaw/pull/117151",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-24T13:11:26Z"
+        "author": "miorbnli",
+        "updatedAt": "2026-08-24T14:00:32Z"
       },
       {
         "kind": "pr",
-        "number": 68236,
-        "title": "test(auth): add oauth e2e regression coverage",
-        "url": "https://github.com/openclaw/openclaw/pull/68236",
-        "state": "open",
-        "author": "ngutman",
-        "updatedAt": "2026-08-24T13:11:21Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "number": 123482,
+        "title": "fix: session list stalls while loading workspace state",
+        "url": "https://github.com/openclaw/openclaw/pull/123482",
         "state": "open",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-24T13:11:13Z"
+        "updatedAt": "2026-08-24T14:00:25Z"
       },
       {
         "kind": "pr",
-        "number": 109074,
-        "title": "fix(tts): bound response body read with timeout in OpenAI-compatible providers",
-        "url": "https://github.com/openclaw/openclaw/pull/109074",
+        "number": 128454,
+        "title": "feat(auto-reply): clean empty staged inbound media directories (#104358)",
+        "url": "https://github.com/openclaw/openclaw/pull/128454",
         "state": "open",
-        "author": "lsr911",
-        "updatedAt": "2026-08-24T13:11:10Z"
+        "author": "MasterSwords1",
+        "updatedAt": "2026-08-24T14:00:23Z"
       },
       {
         "kind": "pr",
-        "number": 127524,
-        "title": "docs: clarify ${VAR} substitution doesn't reach .env file values",
-        "url": "https://github.com/openclaw/openclaw/pull/127524",
+        "number": 117144,
+        "title": "fix(ci): package runtime resources in dist artifact",
+        "url": "https://github.com/openclaw/openclaw/pull/117144",
         "state": "open",
-        "author": "dkling-it",
-        "updatedAt": "2026-08-24T13:11:06Z"
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-08-24T14:00:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127224,
+        "title": "feat(system-agent): present generic QR setup steps",
+        "url": "https://github.com/openclaw/openclaw/pull/127224",
+        "state": "open",
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-24T14:00:13Z"
       }
     ]
   }

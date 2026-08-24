@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-24T20:46:46.613Z",
+  "generatedAt": "2026-08-24T21:42:37.410Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -649,17 +649,17 @@
     },
     {
       "capturedOn": "2026-08-24",
-      "capturedAt": "2026-08-24T20:46:46.613Z",
-      "issueOpen": 3641,
-      "issueClosed": 44872,
-      "prOpen": 2232,
-      "prClosed": 75589,
-      "prMerged": 27583,
+      "capturedAt": "2026-08-24T21:42:37.410Z",
+      "issueOpen": 3643,
+      "issueClosed": 44873,
+      "prOpen": 2234,
+      "prClosed": 75595,
+      "prMerged": 27588,
       "workflowRuns": 40000,
-      "stars": 387397,
-      "forks": 81342,
+      "stars": 387408,
+      "forks": 81344,
       "subscribers": 1755,
-      "commits": 82050,
+      "commits": 82055,
       "contributors": 3140,
       "source": "github-actions",
       "approximateDate": false
@@ -868,10 +868,10 @@
     },
     {
       "capturedOn": "2026-08-24",
-      "stars": 387397,
-      "forks": 81342,
+      "stars": 387408,
+      "forks": 81344,
       "subscribers": 1755,
-      "commits": 82050,
+      "commits": 82055,
       "contributors": 3140
     }
   ],
@@ -879,68 +879,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 126246,
-        "title": "[Bug]: Telegram durable outbound deliveries remain stuck in send_attempt_started and are lost on restart",
-        "url": "https://github.com/openclaw/openclaw/issues/126246",
+        "number": 97616,
+        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
+        "url": "https://github.com/openclaw/openclaw/issues/97616",
         "state": "open",
-        "author": "MAG-Linares-Andalucia",
-        "updatedAt": "2026-08-24T20:46:25Z"
+        "author": "avp717",
+        "updatedAt": "2026-08-24T21:42:21Z"
       },
       {
         "kind": "issue",
-        "number": 127655,
-        "title": "Render-aware chunking silently drops valid long whitespace runs",
-        "url": "https://github.com/openclaw/openclaw/issues/127655",
+        "number": 126332,
+        "title": "[Bug]: Child sessions inherit an active auto-fallback model override, and inherited overrides lose their fallback provenance",
+        "url": "https://github.com/openclaw/openclaw/issues/126332",
+        "state": "open",
+        "author": "petroff",
+        "updatedAt": "2026-08-24T21:41:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 122648,
+        "title": "iOS app on iOS 26.6.0: composer ignores keyboard input; credential save fails after force-quit (persists across reinstall)",
+        "url": "https://github.com/openclaw/openclaw/issues/122648",
+        "state": "open",
+        "author": "Bikerpilot1967",
+        "updatedAt": "2026-08-24T21:41:36Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127593,
+        "title": "Session workspace can publish a superseded browse response and retire valid selection",
+        "url": "https://github.com/openclaw/openclaw/issues/127593",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-24T20:46:24Z"
+        "updatedAt": "2026-08-24T21:41:33Z"
       },
       {
         "kind": "issue",
-        "number": 125942,
-        "title": "erroredAssistantResultPolicy hardcoded to \"drop\" causes silent replay of failed user turns",
-        "url": "https://github.com/openclaw/openclaw/issues/125942",
+        "number": 128866,
+        "title": "[Bug]: Telegram private-topic restart recovery rejects scoped/raw thread IDs and strands session",
+        "url": "https://github.com/openclaw/openclaw/issues/128866",
         "state": "open",
-        "author": "tcpool",
-        "updatedAt": "2026-08-24T20:46:15Z"
+        "author": "hannesrudolph",
+        "updatedAt": "2026-08-24T21:41:15Z"
       },
       {
         "kind": "issue",
-        "number": 128242,
-        "title": "[Feature]: Pin sessions within groups",
-        "url": "https://github.com/openclaw/openclaw/issues/128242",
-        "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-24T20:46:14Z"
-      },
-      {
-        "kind": "issue",
-        "number": 128251,
-        "title": "fix(ui): warning callouts render without warning styles",
-        "url": "https://github.com/openclaw/openclaw/issues/128251",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-24T20:46:05Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127596,
-        "title": "Voice Call legacy streaming migration overwrites explicit canonical provider config",
-        "url": "https://github.com/openclaw/openclaw/issues/127596",
+        "number": 127525,
+        "title": "Failed plugin start rollback can remain unsettled outside strict-stop lease fencing",
+        "url": "https://github.com/openclaw/openclaw/issues/127525",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-24T20:46:01Z"
+        "updatedAt": "2026-08-24T21:41:13Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 128849,
-        "title": "fix(plugins): surface load errors in the default plugin list",
-        "url": "https://github.com/openclaw/openclaw/pull/128849",
+        "number": 128870,
+        "title": "fix(browser): keep action URLs out of Gateway transport",
+        "url": "https://github.com/openclaw/openclaw/pull/128870",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-24T20:46:42Z"
+        "updatedAt": "2026-08-24T21:42:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126858,
+        "title": "fix(compaction): strict identifier guard blocks compaction on decimal numbers in tool results",
+        "url": "https://github.com/openclaw/openclaw/pull/126858",
+        "state": "open",
+        "author": "sashankh",
+        "updatedAt": "2026-08-24T21:42:32Z"
+      },
+      {
+        "kind": "pr",
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-24T21:41:50Z"
       },
       {
         "kind": "pr",
@@ -949,43 +967,25 @@
         "url": "https://github.com/openclaw/openclaw/pull/121799",
         "state": "open",
         "author": "sasan1200",
-        "updatedAt": "2026-08-24T20:46:39Z"
+        "updatedAt": "2026-08-24T21:41:49Z"
       },
       {
         "kind": "pr",
-        "number": 128802,
-        "title": "fix(auth): Claude CLI login reported as expired on an idle gateway",
-        "url": "https://github.com/openclaw/openclaw/pull/128802",
-        "state": "open",
-        "author": "elikampf",
-        "updatedAt": "2026-08-24T20:46:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112932,
-        "title": "fix(auth): re-seed only the tombstoned OAuth target from fresh Codex login",
-        "url": "https://github.com/openclaw/openclaw/pull/112932",
-        "state": "open",
-        "author": "amittell",
-        "updatedAt": "2026-08-24T20:46:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 104060,
-        "title": "feat: enforce agent-scoped usage budgets",
-        "url": "https://github.com/openclaw/openclaw/pull/104060",
+        "number": 128868,
+        "title": "fix(update): bind managed handoffs to exact targets",
+        "url": "https://github.com/openclaw/openclaw/pull/128868",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-24T20:46:34Z"
+        "updatedAt": "2026-08-24T21:40:59Z"
       },
       {
         "kind": "pr",
-        "number": 128732,
-        "title": "fix(agents): preserve CLI session binding on format-class failover",
-        "url": "https://github.com/openclaw/openclaw/pull/128732",
+        "number": 128454,
+        "title": "feat(auto-reply): clean empty staged inbound media directories (#104358)",
+        "url": "https://github.com/openclaw/openclaw/pull/128454",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-24T20:46:24Z"
+        "author": "MasterSwords1",
+        "updatedAt": "2026-08-24T21:40:55Z"
       }
     ]
   }

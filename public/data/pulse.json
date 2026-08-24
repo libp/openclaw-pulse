@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-24T03:15:33.005Z",
+  "generatedAt": "2026-08-24T04:06:47.010Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -649,17 +649,17 @@
     },
     {
       "capturedOn": "2026-08-24",
-      "capturedAt": "2026-08-24T03:15:33.005Z",
-      "issueOpen": 3696,
-      "issueClosed": 44708,
-      "prOpen": 2279,
-      "prClosed": 75264,
-      "prMerged": 27352,
+      "capturedAt": "2026-08-24T04:06:47.010Z",
+      "issueOpen": 3671,
+      "issueClosed": 44735,
+      "prOpen": 2273,
+      "prClosed": 75281,
+      "prMerged": 27359,
       "workflowRuns": 40000,
-      "stars": 387284,
-      "forks": 81328,
+      "stars": 387287,
+      "forks": 81329,
       "subscribers": 1756,
-      "commits": 81819,
+      "commits": 81826,
       "contributors": 3129,
       "source": "github-actions",
       "approximateDate": false
@@ -868,10 +868,10 @@
     },
     {
       "capturedOn": "2026-08-24",
-      "stars": 387284,
-      "forks": 81328,
+      "stars": 387287,
+      "forks": 81329,
       "subscribers": 1756,
-      "commits": 81819,
+      "commits": 81826,
       "contributors": 3129
     }
   ],
@@ -879,68 +879,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 105203,
-        "title": "[Enhancement]: Dynamically cap metadata lengths in agent steering queue",
-        "url": "https://github.com/openclaw/openclaw/issues/105203",
+        "number": 127265,
+        "title": "[Bug]: trusted-proxy webhook clients share a proxy-wide concurrency bucket",
+        "url": "https://github.com/openclaw/openclaw/issues/127265",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-24T04:06:09Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127119,
+        "title": "[Bug]: Model Studio (Qwen/DashScope) requests send max_completion_tokens, but the vendor documents max_tokens",
+        "url": "https://github.com/openclaw/openclaw/issues/127119",
+        "state": "open",
+        "author": "rrmars",
+        "updatedAt": "2026-08-24T04:05:56Z"
+      },
+      {
+        "kind": "issue",
+        "number": 128483,
+        "title": "Agent binding JSON validation failures emit empty stdout",
+        "url": "https://github.com/openclaw/openclaw/issues/128483",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-24T04:05:45Z"
+      },
+      {
+        "kind": "issue",
+        "number": 128472,
+        "title": "Aborted turns with no delivered content should trigger one automatic retry",
+        "url": "https://github.com/openclaw/openclaw/issues/128472",
         "state": "closed",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-08-24T03:15:08Z"
+        "author": "r3n3x",
+        "updatedAt": "2026-08-24T04:05:40Z"
+      },
+      {
+        "kind": "issue",
+        "number": 126810,
+        "title": "[Bug]: macOS paired node rejects plugin-owned Codex catalog commands when native supervision is disabled",
+        "url": "https://github.com/openclaw/openclaw/issues/126810",
+        "state": "open",
+        "author": "TheAngryPit",
+        "updatedAt": "2026-08-24T04:05:30Z"
+      },
+      {
+        "kind": "issue",
+        "number": 103931,
+        "title": "qualityGuard adopts the summary from the final compaction attempt even when it fails its own quality audit (not fail-closed)",
+        "url": "https://github.com/openclaw/openclaw/issues/103931",
+        "state": "closed",
+        "author": "revision-co-ltd",
+        "updatedAt": "2026-08-24T04:05:17Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 128093,
-        "title": "fix(signal): preserve messages redelivered behind a busy lane",
-        "url": "https://github.com/openclaw/openclaw/pull/128093",
+        "number": 128475,
+        "title": "fix(qa): pin forced runtime model policy",
+        "url": "https://github.com/openclaw/openclaw/pull/128475",
         "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-24T03:15:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121576,
-        "title": "fix(text): only insert separator between word chars when stripping model tokens",
-        "url": "https://github.com/openclaw/openclaw/pull/121576",
-        "state": "open",
-        "author": "ruel225",
-        "updatedAt": "2026-08-24T03:15:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-24T03:15:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-24T03:15:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 128371,
-        "title": "fix(release): authorize focused beta evidence",
-        "url": "https://github.com/openclaw/openclaw/pull/128371",
-        "state": "closed",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-24T03:15:16Z"
+        "updatedAt": "2026-08-24T04:06:41Z"
       },
       {
         "kind": "pr",
-        "number": 125471,
-        "title": "fix(models): keep Claude CLI OAuth available in Control UI",
-        "url": "https://github.com/openclaw/openclaw/pull/125471",
-        "state": "closed",
-        "author": "VACInc",
-        "updatedAt": "2026-08-24T03:15:16Z"
+        "number": 128478,
+        "title": "docs(hooks): clarify command logger storage",
+        "url": "https://github.com/openclaw/openclaw/pull/128478",
+        "state": "open",
+        "author": "obviyus",
+        "updatedAt": "2026-08-24T04:06:39Z"
+      },
+      {
+        "kind": "pr",
+        "number": 127076,
+        "title": "fix(ui): structure chat transcript attachments by kind",
+        "url": "https://github.com/openclaw/openclaw/pull/127076",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-24T04:06:39Z"
+      },
+      {
+        "kind": "pr",
+        "number": 128185,
+        "title": "fix(crabbox): preserve Machine0 provisioning budget",
+        "url": "https://github.com/openclaw/openclaw/pull/128185",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-24T04:06:37Z"
+      },
+      {
+        "kind": "pr",
+        "number": 128484,
+        "title": "fix(cli): render agent binding JSON failures",
+        "url": "https://github.com/openclaw/openclaw/pull/128484",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-24T04:06:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125103,
+        "title": "[AI] fix(file-transfer): surface bare allow-entry footgun with actionable glob hint",
+        "url": "https://github.com/openclaw/openclaw/pull/125103",
+        "state": "open",
+        "author": "xydt-tanshanshan",
+        "updatedAt": "2026-08-24T04:06:31Z"
       }
     ]
   }

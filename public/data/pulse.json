@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-25T16:53:37.662Z",
+  "generatedAt": "2026-08-25T17:44:25.588Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -666,17 +666,17 @@
     },
     {
       "capturedOn": "2026-08-25",
-      "capturedAt": "2026-08-25T16:53:37.662Z",
-      "issueOpen": 3658,
-      "issueClosed": 45006,
-      "prOpen": 2315,
-      "prClosed": 75967,
-      "prMerged": 27898,
+      "capturedAt": "2026-08-25T17:44:25.588Z",
+      "issueOpen": 3656,
+      "issueClosed": 45011,
+      "prOpen": 2321,
+      "prClosed": 75984,
+      "prMerged": 27912,
       "workflowRuns": 40000,
-      "stars": 387575,
-      "forks": 81363,
+      "stars": 387579,
+      "forks": 81365,
       "subscribers": 1755,
-      "commits": 82366,
+      "commits": 82378,
       "contributors": 3147,
       "source": "github-actions",
       "approximateDate": false
@@ -893,69 +893,88 @@
     },
     {
       "capturedOn": "2026-08-25",
-      "stars": 387575,
-      "forks": 81363,
+      "stars": 387579,
+      "forks": 81365,
       "subscribers": 1755,
-      "commits": 82366,
+      "commits": 82378,
       "contributors": 3147
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 129353,
+        "title": "[Bug]: UI tests can finish while lazy sidebar modules are still loading",
+        "url": "https://github.com/openclaw/openclaw/issues/129353",
+        "state": "closed",
+        "author": "shakkernerd",
+        "updatedAt": "2026-08-25T17:43:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 125802,
+        "title": "[Bug]: successful provider streams can skip response hooks",
+        "url": "https://github.com/openclaw/openclaw/issues/125802",
+        "state": "closed",
+        "author": "osolmaz",
+        "updatedAt": "2026-08-25T17:43:53Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 120364,
-        "title": "fix: add circuit breaker for durable goal continuation loops",
-        "url": "https://github.com/openclaw/openclaw/pull/120364",
+        "number": 126547,
+        "title": "fix(gateway): keep channels working after plugin reloads",
+        "url": "https://github.com/openclaw/openclaw/pull/126547",
         "state": "open",
-        "author": "RawNuke",
-        "updatedAt": "2026-08-25T16:53:32Z"
+        "author": "NianJiuZst",
+        "updatedAt": "2026-08-25T17:44:19Z"
       },
       {
         "kind": "pr",
-        "number": 123236,
-        "title": "fix(worker): carry resolved exec authority across the launch boundary",
-        "url": "https://github.com/openclaw/openclaw/pull/123236",
-        "state": "open",
-        "author": "drobison00",
-        "updatedAt": "2026-08-25T16:53:30Z"
-      },
-      {
-        "kind": "pr",
-        "number": 129472,
-        "title": "fix(feishu): deliver rich-post attachments in order without duplicate downloads",
-        "url": "https://github.com/openclaw/openclaw/pull/129472",
+        "number": 129395,
+        "title": "fix(qa): reject incomplete manual lane responses",
+        "url": "https://github.com/openclaw/openclaw/pull/129395",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-25T16:53:33Z"
+        "updatedAt": "2026-08-25T17:44:13Z"
       },
       {
         "kind": "pr",
-        "number": 129399,
-        "title": "fix(ui): reflect active plugin account runtime state",
-        "url": "https://github.com/openclaw/openclaw/pull/129399",
+        "number": 121484,
+        "title": "fix(text): preserve leading whitespace in stripped reasoning message body",
+        "url": "https://github.com/openclaw/openclaw/pull/121484",
         "state": "open",
+        "author": "ruel225",
+        "updatedAt": "2026-08-25T17:44:13Z"
+      },
+      {
+        "kind": "pr",
+        "number": 129281,
+        "title": "fix(whatsapp): avoid mentions inside unterminated inline code",
+        "url": "https://github.com/openclaw/openclaw/pull/129281",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-25T16:53:29Z"
+        "updatedAt": "2026-08-25T17:44:09Z"
       },
       {
         "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-25T16:53:29Z"
+        "number": 129375,
+        "title": "fix: clean retired Claude auth before Doctor health",
+        "url": "https://github.com/openclaw/openclaw/pull/129375",
+        "state": "closed",
+        "author": "shakkernerd",
+        "updatedAt": "2026-08-25T17:44:06Z"
       },
       {
         "kind": "pr",
-        "number": 129371,
-        "title": "fix: agent-created automations appear under the session creator",
-        "url": "https://github.com/openclaw/openclaw/pull/129371",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-08-25T16:53:25Z"
+        "number": 129382,
+        "title": "test: remove stale Claude ambient discovery fixture",
+        "url": "https://github.com/openclaw/openclaw/pull/129382",
+        "state": "closed",
+        "author": "shakkernerd",
+        "updatedAt": "2026-08-25T17:44:02Z"
       }
     ]
   }

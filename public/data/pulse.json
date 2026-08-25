@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-25T05:46:13.168Z",
+  "generatedAt": "2026-08-25T07:56:36.422Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -666,18 +666,18 @@
     },
     {
       "capturedOn": "2026-08-25",
-      "capturedAt": "2026-08-25T05:46:13.168Z",
-      "issueOpen": 3665,
-      "issueClosed": 44915,
-      "prOpen": 2258,
-      "prClosed": 75665,
-      "prMerged": 27637,
+      "capturedAt": "2026-08-25T07:56:36.422Z",
+      "issueOpen": 3657,
+      "issueClosed": 44941,
+      "prOpen": 2279,
+      "prClosed": 75733,
+      "prMerged": 27696,
       "workflowRuns": 40000,
-      "stars": 387486,
-      "forks": 81350,
+      "stars": 387512,
+      "forks": 81352,
       "subscribers": 1754,
-      "commits": 82104,
-      "contributors": 3140,
+      "commits": 82163,
+      "contributors": 3141,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -893,115 +893,115 @@
     },
     {
       "capturedOn": "2026-08-25",
-      "stars": 387486,
-      "forks": 81350,
+      "stars": 387512,
+      "forks": 81352,
       "subscribers": 1754,
-      "commits": 82104,
-      "contributors": 3140
+      "commits": 82163,
+      "contributors": 3141
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 128877,
-        "title": "[Bug]: llama-cpp plugin validateInstalledServer regex rejects the pinned b10453 llama-server --version output",
-        "url": "https://github.com/openclaw/openclaw/issues/128877",
-        "state": "closed",
-        "author": "NovaUnboundAi",
-        "updatedAt": "2026-08-25T05:46:07Z"
+        "number": 97435,
+        "title": "[Bug] LINE channel inbound events were delayed before agent run and later drained",
+        "url": "https://github.com/openclaw/openclaw/issues/97435",
+        "state": "open",
+        "author": "FelixStarlite",
+        "updatedAt": "2026-08-25T07:56:17Z"
       },
       {
         "kind": "issue",
-        "number": 116964,
-        "title": "[Bug]: Docker-sandboxed session: apply_patch fails on rw-mounted workspace paths with empty failure payload (git apply/write succeed); failure masks real cron error",
-        "url": "https://github.com/openclaw/openclaw/issues/116964",
+        "number": 83030,
+        "title": "feat(image-generation): Add ReCraft V4.1 model family support (Standard, Utility, Vector) via OpenRouter",
+        "url": "https://github.com/openclaw/openclaw/issues/83030",
         "state": "open",
-        "author": "c-g14",
-        "updatedAt": "2026-08-25T05:45:06Z"
+        "author": "Yachiyo1680",
+        "updatedAt": "2026-08-25T07:55:49Z"
       },
       {
         "kind": "issue",
-        "number": 128617,
-        "title": "Control UI message cuts overwrite replacement state after reconnect",
-        "url": "https://github.com/openclaw/openclaw/issues/128617",
+        "number": 86894,
+        "title": "[Feature]: Auto-play assistant MEDIA: audio attachments in Control UI",
+        "url": "https://github.com/openclaw/openclaw/issues/86894",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-25T05:43:55Z"
+        "author": "iamfurgus",
+        "updatedAt": "2026-08-25T07:55:45Z"
       },
       {
         "kind": "issue",
-        "number": 125773,
-        "title": "[Feature]: Make Control UI goal actions transcript-free",
-        "url": "https://github.com/openclaw/openclaw/issues/125773",
+        "number": 122911,
+        "title": "workboard: dead worker run's execution record permanently starves its agent's dispatch lane",
+        "url": "https://github.com/openclaw/openclaw/issues/122911",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-25T05:43:42Z"
+        "author": "alfredjbclaw",
+        "updatedAt": "2026-08-25T07:55:24Z"
       },
       {
         "kind": "issue",
-        "number": 127512,
-        "title": "Late terminal.attach completion recreates streams after connection disposal",
-        "url": "https://github.com/openclaw/openclaw/issues/127512",
+        "number": 129126,
+        "title": "[Bug]: Chat bubble identity changes during send and failed messages duplicate",
+        "url": "https://github.com/openclaw/openclaw/issues/129126",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-25T05:46:09Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-08-25T07:55:19Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 119153,
-        "title": "test(telegram): cover reply and selected-quote inbound contracts",
-        "url": "https://github.com/openclaw/openclaw/pull/119153",
-        "state": "open",
-        "author": "jamesachurchill",
-        "updatedAt": "2026-08-25T05:46:06Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126986,
-        "title": "fix(codex): preserve agent workspace instructions",
-        "url": "https://github.com/openclaw/openclaw/pull/126986",
-        "state": "open",
-        "author": "jason-allen-oneal",
-        "updatedAt": "2026-08-25T05:45:54Z"
-      },
-      {
-        "kind": "pr",
-        "number": 129019,
-        "title": "fix(ui): update the new-session model picker when catalogs load",
-        "url": "https://github.com/openclaw/openclaw/pull/129019",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-25T05:45:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119061,
-        "title": "fix(memory): show canonical-session migration recovery instead of provider error",
-        "url": "https://github.com/openclaw/openclaw/pull/119061",
-        "state": "open",
-        "author": "ZYV5ge",
-        "updatedAt": "2026-08-25T05:45:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 129001,
-        "title": "fix(auto-reply): queue instead of steering after a terminal source-reply receipt",
-        "url": "https://github.com/openclaw/openclaw/pull/129001",
-        "state": "open",
-        "author": "Finn763",
-        "updatedAt": "2026-08-25T05:45:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 129028,
-        "title": "refactor(infra): reuse canonical PATH prepend normalization",
-        "url": "https://github.com/openclaw/openclaw/pull/129028",
+        "number": 129136,
+        "title": "fix(android): preserve photo orientation in chat images",
+        "url": "https://github.com/openclaw/openclaw/pull/129136",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-25T05:45:18Z"
+        "updatedAt": "2026-08-25T07:56:32Z"
+      },
+      {
+        "kind": "pr",
+        "number": 129068,
+        "title": "fix(discord): preserve per-button reusable settings",
+        "url": "https://github.com/openclaw/openclaw/pull/129068",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-25T07:56:29Z"
+      },
+      {
+        "kind": "pr",
+        "number": 129052,
+        "title": "fix: keep Claude CLI authentication native",
+        "url": "https://github.com/openclaw/openclaw/pull/129052",
+        "state": "open",
+        "author": "obviyus",
+        "updatedAt": "2026-08-25T07:56:29Z"
+      },
+      {
+        "kind": "pr",
+        "number": 129112,
+        "title": "fix(cli): nested command help stalls while loading routed commands",
+        "url": "https://github.com/openclaw/openclaw/pull/129112",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-25T07:56:24Z"
+      },
+      {
+        "kind": "pr",
+        "number": 129117,
+        "title": "refactor(plugins): consolidate provider registration flows",
+        "url": "https://github.com/openclaw/openclaw/pull/129117",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-25T07:56:21Z"
+      },
+      {
+        "kind": "pr",
+        "number": 129109,
+        "title": "fix(codex): preserve native subagent gateway delivery",
+        "url": "https://github.com/openclaw/openclaw/pull/129109",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-25T07:56:19Z"
       }
     ]
   }

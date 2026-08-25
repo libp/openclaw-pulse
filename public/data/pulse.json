@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-25T09:49:49.605Z",
+  "generatedAt": "2026-08-25T11:41:44.578Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -666,17 +666,17 @@
     },
     {
       "capturedOn": "2026-08-25",
-      "capturedAt": "2026-08-25T09:49:49.605Z",
-      "issueOpen": 3642,
-      "issueClosed": 44976,
-      "prOpen": 2238,
-      "prClosed": 75836,
-      "prMerged": 27791,
+      "capturedAt": "2026-08-25T11:41:44.578Z",
+      "issueOpen": 3637,
+      "issueClosed": 44984,
+      "prOpen": 2243,
+      "prClosed": 75892,
+      "prMerged": 27841,
       "workflowRuns": 40000,
-      "stars": 387538,
-      "forks": 81351,
-      "subscribers": 1754,
-      "commits": 82258,
+      "stars": 387554,
+      "forks": 81353,
+      "subscribers": 1755,
+      "commits": 82309,
       "contributors": 3147,
       "source": "github-actions",
       "approximateDate": false
@@ -893,10 +893,10 @@
     },
     {
       "capturedOn": "2026-08-25",
-      "stars": 387538,
-      "forks": 81351,
-      "subscribers": 1754,
-      "commits": 82258,
+      "stars": 387554,
+      "forks": 81353,
+      "subscribers": 1755,
+      "commits": 82309,
       "contributors": 3147
     }
   ],
@@ -904,68 +904,59 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 125792,
-        "title": "Managed llama.cpp embeddings server starts with the model's full context (32k x 4 slots), reserving ~5.3 GB; not configurable and models.ini is regenerated on every start",
-        "url": "https://github.com/openclaw/openclaw/issues/125792",
+        "number": 128385,
+        "title": "No-op write/edit terminator (#97044) can never surface its terminal presentation — replay-safety gate is poisoned by the mutating tool itself, yielding a repeatable generic-error dead end",
+        "url": "https://github.com/openclaw/openclaw/issues/128385",
         "state": "open",
-        "author": "spunzon",
-        "updatedAt": "2026-08-25T09:49:28Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127644,
-        "title": "Targeted macOS Settings opens retain a stale tab request that hijacks a later reopen",
-        "url": "https://github.com/openclaw/openclaw/issues/127644",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-25T09:49:18Z"
-      },
-      {
-        "kind": "issue",
-        "number": 129217,
-        "title": "[Performance]: SQLite-only startup enters legacy session migration without a sessions directory",
-        "url": "https://github.com/openclaw/openclaw/issues/129217",
-        "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-08-25T09:49:14Z"
-      },
-      {
-        "kind": "issue",
-        "number": 128082,
-        "title": "[Feature]: Add stable URLs for individual automations",
-        "url": "https://github.com/openclaw/openclaw/issues/128082",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-25T09:49:09Z"
-      },
-      {
-        "kind": "issue",
-        "number": 82020,
-        "title": "[Bug]: Custom provider sharing baseUrl with built-in provider still broken in latest release (Regression from 4.29)",
-        "url": "https://github.com/openclaw/openclaw/issues/82020",
-        "state": "open",
-        "author": "davidjoshua7692-code",
-        "updatedAt": "2026-08-25T09:49:08Z"
+        "author": "aspalagin",
+        "updatedAt": "2026-08-25T11:40:08Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 128808,
-        "title": "fix(terminal): wait for login-shell readiness before initial command",
-        "url": "https://github.com/openclaw/openclaw/pull/128808",
+        "number": 129284,
+        "title": "docs(himalaya): update configuration.md to v2.1.0 schema",
+        "url": "https://github.com/openclaw/openclaw/pull/129284",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-25T09:49:42Z"
+        "author": "KhanCold",
+        "updatedAt": "2026-08-25T11:41:41Z"
       },
       {
         "kind": "pr",
-        "number": 129058,
-        "title": "test(core): deduplicate runtime fixtures",
-        "url": "https://github.com/openclaw/openclaw/pull/129058",
+        "number": 129214,
+        "title": "fix(heartbeat): preserve cron wakes across clock jumps and handler replacement",
+        "url": "https://github.com/openclaw/openclaw/pull/129214",
         "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-25T09:49:39Z"
+        "updatedAt": "2026-08-25T11:41:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112623,
+        "title": "feat(agents): inject Recently Completed Subagents into parent prompt",
+        "url": "https://github.com/openclaw/openclaw/pull/112623",
+        "state": "open",
+        "author": "ericcaiwx-star",
+        "updatedAt": "2026-08-25T11:41:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123535,
+        "title": "fix(ui): avoid session catalog refresh storms",
+        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-25T11:41:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 128457,
+        "title": "fix(models): allow headless device-code login",
+        "url": "https://github.com/openclaw/openclaw/pull/128457",
+        "state": "open",
+        "author": "gaoanze888",
+        "updatedAt": "2026-08-25T11:41:35Z"
       },
       {
         "kind": "pr",
@@ -974,34 +965,7 @@
         "url": "https://github.com/openclaw/openclaw/pull/128371",
         "state": "closed",
         "author": "vincentkoc",
-        "updatedAt": "2026-08-25T09:49:39Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125471,
-        "title": "fix(models): keep Claude CLI OAuth available in Control UI",
-        "url": "https://github.com/openclaw/openclaw/pull/125471",
-        "state": "closed",
-        "author": "VACInc",
-        "updatedAt": "2026-08-25T09:49:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 129195,
-        "title": "fix(onboarding): OpenAI setup installs mismatched Codex plugin",
-        "url": "https://github.com/openclaw/openclaw/pull/129195",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-25T09:49:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125385,
-        "title": "fix(ingress): heartbeat deferred queue ownership",
-        "url": "https://github.com/openclaw/openclaw/pull/125385",
-        "state": "open",
-        "author": "sjf-oa",
-        "updatedAt": "2026-08-25T09:49:24Z"
+        "updatedAt": "2026-08-25T11:41:35Z"
       }
     ]
   }

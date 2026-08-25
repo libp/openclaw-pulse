@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-24T23:33:27.967Z",
+  "generatedAt": "2026-08-25T03:11:28.477Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -663,6 +663,23 @@
       "contributors": 3140,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-25",
+      "capturedAt": "2026-08-25T03:11:28.477Z",
+      "issueOpen": 3667,
+      "issueClosed": 44898,
+      "prOpen": 2249,
+      "prClosed": 75642,
+      "prMerged": 27623,
+      "workflowRuns": 40000,
+      "stars": 387455,
+      "forks": 81348,
+      "subscribers": 1754,
+      "commits": 82090,
+      "contributors": 3140,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -873,119 +890,127 @@
       "subscribers": 1755,
       "commits": 82067,
       "contributors": 3140
+    },
+    {
+      "capturedOn": "2026-08-25",
+      "stars": 387455,
+      "forks": 81348,
+      "subscribers": 1754,
+      "commits": 82090,
+      "contributors": 3140
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 125375,
-        "title": "iMessage inline replies drop replied-to attachment context",
-        "url": "https://github.com/openclaw/openclaw/issues/125375",
+        "number": 128593,
+        "title": "[Bug]: Gateway never becomes stably ready with Discord enabled on Windows (2026.7.1-2) — WS opening handshake starved by startup, unbounded retry in waitForGatewayReady",
+        "url": "https://github.com/openclaw/openclaw/issues/128593",
         "state": "open",
-        "author": "lockhartheavyindustries",
-        "updatedAt": "2026-08-24T23:33:20Z"
+        "author": "wijehdude",
+        "updatedAt": "2026-08-25T03:11:15Z"
       },
       {
         "kind": "issue",
-        "number": 127095,
-        "title": "[Bug]: Node host duplicates concurrent skill-bin refreshes",
-        "url": "https://github.com/openclaw/openclaw/issues/127095",
+        "number": 127535,
+        "title": "Mattermost reaction add reports failure after an accepted 201 when its unused body read fails",
+        "url": "https://github.com/openclaw/openclaw/issues/127535",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-24T23:32:56Z"
+        "updatedAt": "2026-08-25T03:11:06Z"
       },
       {
         "kind": "issue",
-        "number": 127533,
-        "title": "Managed OpenAI transports inherit hidden SDK retries with abort-insensitive backoff",
-        "url": "https://github.com/openclaw/openclaw/issues/127533",
+        "number": 128962,
+        "title": "Subagent result discarded and parent session hangs forever when an announce run compacts (`Cannot continue from message role: assistant`)",
+        "url": "https://github.com/openclaw/openclaw/issues/128962",
+        "state": "open",
+        "author": "carakessler",
+        "updatedAt": "2026-08-25T03:10:42Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127647,
+        "title": "Closing the macOS Dashboard does not retire queued native commands and navigation",
+        "url": "https://github.com/openclaw/openclaw/issues/127647",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-24T23:32:43Z"
+        "updatedAt": "2026-08-25T03:10:37Z"
       },
       {
         "kind": "issue",
-        "number": 127629,
-        "title": "chat.history continuation offsets duplicate or omit rows under live appends",
-        "url": "https://github.com/openclaw/openclaw/issues/127629",
+        "number": 128509,
+        "title": "[Bug]: beta.3 durable context-engine commit mixes full-transcript positions with closed-turn messages",
+        "url": "https://github.com/openclaw/openclaw/issues/128509",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-24T23:32:40Z"
+        "author": "lamkan0210",
+        "updatedAt": "2026-08-25T03:10:08Z"
       },
       {
         "kind": "issue",
-        "number": 47120,
-        "title": "[Feature Request] Session List: Show timestamp + last message preview",
-        "url": "https://github.com/openclaw/openclaw/issues/47120",
+        "number": 116295,
+        "title": "Plugin daemon health check is shallow (PID-only, no liveness probe) — stuck daemons go undetected for 21+ hours",
+        "url": "https://github.com/openclaw/openclaw/issues/116295",
         "state": "open",
-        "author": "SiriuSM00N",
-        "updatedAt": "2026-08-24T23:32:39Z"
-      },
-      {
-        "kind": "issue",
-        "number": 126242,
-        "title": "[Bug]: expanding the last chat code block loses the visual scroll anchor",
-        "url": "https://github.com/openclaw/openclaw/issues/126242",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-24T23:32:37Z"
+        "author": "xiaov1024",
+        "updatedAt": "2026-08-25T03:09:01Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 128757,
-        "title": "fix(ollama): support adaptive thinking level for Ollama models",
-        "url": "https://github.com/openclaw/openclaw/pull/128757",
-        "state": "open",
-        "author": "MasterSwords1",
-        "updatedAt": "2026-08-24T23:33:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 126986,
-        "title": "fix(codex): preserve agent workspace instructions",
-        "url": "https://github.com/openclaw/openclaw/pull/126986",
-        "state": "open",
-        "author": "jason-allen-oneal",
-        "updatedAt": "2026-08-24T23:33:16Z"
-      },
-      {
-        "kind": "pr",
-        "number": 88908,
-        "title": "fix(gateway): make supervised lock recovery draining-aware",
-        "url": "https://github.com/openclaw/openclaw/pull/88908",
-        "state": "open",
-        "author": "amittell",
-        "updatedAt": "2026-08-24T23:33:14Z"
-      },
-      {
-        "kind": "pr",
-        "number": 128901,
-        "title": "fix(msteams): restore missing channel thread context",
-        "url": "https://github.com/openclaw/openclaw/pull/128901",
+        "number": 116354,
+        "title": "fix(gateway): enforce OpenAI-compatible response contracts",
+        "url": "https://github.com/openclaw/openclaw/pull/116354",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-24T23:33:13Z"
+        "updatedAt": "2026-08-25T03:11:13Z"
       },
       {
         "kind": "pr",
-        "number": 113038,
-        "title": "fix(webchat): strip media directives from streamed replies",
-        "url": "https://github.com/openclaw/openclaw/pull/113038",
+        "number": 128742,
+        "title": "fix(codex): let /codex bind transfer the current session",
+        "url": "https://github.com/openclaw/openclaw/pull/128742",
         "state": "open",
-        "author": "jincheng-xydt",
-        "updatedAt": "2026-08-24T23:32:45Z"
+        "author": "libaojiang",
+        "updatedAt": "2026-08-25T03:10:43Z"
       },
       {
         "kind": "pr",
-        "number": 128608,
-        "title": "fix: /models stops working after an unrelated config edit and never recovers",
-        "url": "https://github.com/openclaw/openclaw/pull/128608",
+        "number": 128508,
+        "title": "fix(codex): preserve child hooks across turns",
+        "url": "https://github.com/openclaw/openclaw/pull/128508",
         "state": "open",
-        "author": "Marvinthebored",
-        "updatedAt": "2026-08-24T23:32:44Z"
+        "author": "bek91",
+        "updatedAt": "2026-08-25T03:10:43Z"
+      },
+      {
+        "kind": "pr",
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-25T03:10:13Z"
+      },
+      {
+        "kind": "pr",
+        "number": 116337,
+        "title": "fix(gateway): media preprocessing continues after client disconnect",
+        "url": "https://github.com/openclaw/openclaw/pull/116337",
+        "state": "open",
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-08-25T03:10:13Z"
+      },
+      {
+        "kind": "pr",
+        "number": 128286,
+        "title": "feat: pin sessions within groups",
+        "url": "https://github.com/openclaw/openclaw/pull/128286",
+        "state": "open",
+        "author": "clawsweeper",
+        "updatedAt": "2026-08-25T03:10:04Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-25T15:03:11.801Z",
+  "generatedAt": "2026-08-25T16:53:37.662Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -666,17 +666,17 @@
     },
     {
       "capturedOn": "2026-08-25",
-      "capturedAt": "2026-08-25T15:03:11.801Z",
-      "issueOpen": 3651,
-      "issueClosed": 44997,
-      "prOpen": 2272,
-      "prClosed": 75949,
-      "prMerged": 27884,
+      "capturedAt": "2026-08-25T16:53:37.662Z",
+      "issueOpen": 3658,
+      "issueClosed": 45006,
+      "prOpen": 2315,
+      "prClosed": 75967,
+      "prMerged": 27898,
       "workflowRuns": 40000,
-      "stars": 387566,
-      "forks": 81360,
+      "stars": 387575,
+      "forks": 81363,
       "subscribers": 1755,
-      "commits": 82352,
+      "commits": 82366,
       "contributors": 3147,
       "source": "github-actions",
       "approximateDate": false
@@ -893,10 +893,10 @@
     },
     {
       "capturedOn": "2026-08-25",
-      "stars": 387566,
-      "forks": 81360,
+      "stars": 387575,
+      "forks": 81363,
       "subscribers": 1755,
-      "commits": 82352,
+      "commits": 82366,
       "contributors": 3147
     }
   ],
@@ -905,39 +905,39 @@
     "prs": [
       {
         "kind": "pr",
-        "number": 129395,
-        "title": "fix(qa): reject incomplete manual lane responses",
-        "url": "https://github.com/openclaw/openclaw/pull/129395",
+        "number": 120364,
+        "title": "fix: add circuit breaker for durable goal continuation loops",
+        "url": "https://github.com/openclaw/openclaw/pull/120364",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-25T15:03:05Z"
+        "author": "RawNuke",
+        "updatedAt": "2026-08-25T16:53:32Z"
       },
       {
         "kind": "pr",
-        "number": 129393,
-        "title": "fix(plugins): exclude scaffold tests from published packages",
-        "url": "https://github.com/openclaw/openclaw/pull/129393",
+        "number": 123236,
+        "title": "fix(worker): carry resolved exec authority across the launch boundary",
+        "url": "https://github.com/openclaw/openclaw/pull/123236",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-25T15:03:00Z"
+        "author": "drobison00",
+        "updatedAt": "2026-08-25T16:53:30Z"
       },
       {
         "kind": "pr",
-        "number": 129394,
-        "title": "fix(browser): detect selected profile executable consistently",
-        "url": "https://github.com/openclaw/openclaw/pull/129394",
+        "number": 129472,
+        "title": "fix(feishu): deliver rich-post attachments in order without duplicate downloads",
+        "url": "https://github.com/openclaw/openclaw/pull/129472",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-25T15:03:08Z"
+        "updatedAt": "2026-08-25T16:53:33Z"
       },
       {
         "kind": "pr",
-        "number": 128905,
-        "title": "fix(sessions): retain completed summaries on multi-store cleanup partial failure (#127583)",
-        "url": "https://github.com/openclaw/openclaw/pull/128905",
+        "number": 129399,
+        "title": "fix(ui): reflect active plugin account runtime state",
+        "url": "https://github.com/openclaw/openclaw/pull/129399",
         "state": "open",
-        "author": "MasterSwords1",
-        "updatedAt": "2026-08-25T15:03:06Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-25T16:53:29Z"
       },
       {
         "kind": "pr",
@@ -946,16 +946,16 @@
         "url": "https://github.com/openclaw/openclaw/pull/123535",
         "state": "open",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-25T15:02:55Z"
+        "updatedAt": "2026-08-25T16:53:29Z"
       },
       {
         "kind": "pr",
-        "number": 129392,
-        "title": "fix(cli): match hook info and mutation selector precedence",
-        "url": "https://github.com/openclaw/openclaw/pull/129392",
+        "number": 129371,
+        "title": "fix: agent-created automations appear under the session creator",
+        "url": "https://github.com/openclaw/openclaw/pull/129371",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-25T15:02:48Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-08-25T16:53:25Z"
       }
     ]
   }

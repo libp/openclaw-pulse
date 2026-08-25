@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-25T13:09:40.022Z",
+  "generatedAt": "2026-08-25T15:03:11.801Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -666,17 +666,17 @@
     },
     {
       "capturedOn": "2026-08-25",
-      "capturedAt": "2026-08-25T13:09:40.022Z",
-      "issueOpen": 3643,
-      "issueClosed": 44990,
-      "prOpen": 2249,
-      "prClosed": 75929,
-      "prMerged": 27869,
+      "capturedAt": "2026-08-25T15:03:11.801Z",
+      "issueOpen": 3651,
+      "issueClosed": 44997,
+      "prOpen": 2272,
+      "prClosed": 75949,
+      "prMerged": 27884,
       "workflowRuns": 40000,
-      "stars": 387556,
-      "forks": 81356,
+      "stars": 387566,
+      "forks": 81360,
       "subscribers": 1755,
-      "commits": 82336,
+      "commits": 82352,
       "contributors": 3147,
       "source": "github-actions",
       "approximateDate": false
@@ -893,10 +893,10 @@
     },
     {
       "capturedOn": "2026-08-25",
-      "stars": 387556,
-      "forks": 81356,
+      "stars": 387566,
+      "forks": 81360,
       "subscribers": 1755,
-      "commits": 82336,
+      "commits": 82352,
       "contributors": 3147
     }
   ],
@@ -905,57 +905,57 @@
     "prs": [
       {
         "kind": "pr",
-        "number": 113115,
-        "title": "feat(matrix): intelligent multi-agent communication via fast AI-guided participation control and fresh-message redrafting",
-        "url": "https://github.com/openclaw/openclaw/pull/113115",
-        "state": "open",
-        "author": "bdjben",
-        "updatedAt": "2026-08-25T13:09:35Z"
-      },
-      {
-        "kind": "pr",
-        "number": 129265,
-        "title": "fix(mac): prevent network discovery crashes on addressless interfaces",
-        "url": "https://github.com/openclaw/openclaw/pull/129265",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-25T13:09:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120305,
-        "title": "feat(models): add auth cooldown recovery command",
-        "url": "https://github.com/openclaw/openclaw/pull/120305",
-        "state": "open",
-        "author": "jsasson",
-        "updatedAt": "2026-08-25T13:09:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 129309,
-        "title": "test(clawhub): deduplicate lifecycle fixtures",
-        "url": "https://github.com/openclaw/openclaw/pull/129309",
+        "number": 129395,
+        "title": "fix(qa): reject incomplete manual lane responses",
+        "url": "https://github.com/openclaw/openclaw/pull/129395",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-25T13:09:29Z"
+        "updatedAt": "2026-08-25T15:03:05Z"
       },
       {
         "kind": "pr",
-        "number": 129283,
-        "title": "fix(cli): preserve active target in plugin install hints",
-        "url": "https://github.com/openclaw/openclaw/pull/129283",
+        "number": 129393,
+        "title": "fix(plugins): exclude scaffold tests from published packages",
+        "url": "https://github.com/openclaw/openclaw/pull/129393",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-25T13:09:28Z"
+        "updatedAt": "2026-08-25T15:03:00Z"
       },
       {
         "kind": "pr",
-        "number": 122631,
-        "title": "fix(agents): detect sustained same-target write churn",
-        "url": "https://github.com/openclaw/openclaw/pull/122631",
+        "number": 129394,
+        "title": "fix(browser): detect selected profile executable consistently",
+        "url": "https://github.com/openclaw/openclaw/pull/129394",
         "state": "open",
-        "author": "SweetSophia",
-        "updatedAt": "2026-08-25T13:09:18Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-25T15:03:08Z"
+      },
+      {
+        "kind": "pr",
+        "number": 128905,
+        "title": "fix(sessions): retain completed summaries on multi-store cleanup partial failure (#127583)",
+        "url": "https://github.com/openclaw/openclaw/pull/128905",
+        "state": "open",
+        "author": "MasterSwords1",
+        "updatedAt": "2026-08-25T15:03:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123535,
+        "title": "fix(ui): avoid session catalog refresh storms",
+        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-25T15:02:55Z"
+      },
+      {
+        "kind": "pr",
+        "number": 129392,
+        "title": "fix(cli): match hook info and mutation selector precedence",
+        "url": "https://github.com/openclaw/openclaw/pull/129392",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-25T15:02:48Z"
       }
     ]
   }

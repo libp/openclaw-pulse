@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-25T17:44:25.588Z",
+  "generatedAt": "2026-08-25T18:55:25.968Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -666,18 +666,18 @@
     },
     {
       "capturedOn": "2026-08-25",
-      "capturedAt": "2026-08-25T17:44:25.588Z",
-      "issueOpen": 3656,
-      "issueClosed": 45011,
-      "prOpen": 2321,
-      "prClosed": 75984,
-      "prMerged": 27912,
+      "capturedAt": "2026-08-25T18:55:25.968Z",
+      "issueOpen": 3655,
+      "issueClosed": 45016,
+      "prOpen": 2345,
+      "prClosed": 76006,
+      "prMerged": 27928,
       "workflowRuns": 40000,
-      "stars": 387579,
-      "forks": 81365,
+      "stars": 387588,
+      "forks": 81363,
       "subscribers": 1755,
-      "commits": 82378,
-      "contributors": 3147,
+      "commits": 82394,
+      "contributors": 3148,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -893,88 +893,97 @@
     },
     {
       "capturedOn": "2026-08-25",
-      "stars": 387579,
-      "forks": 81365,
+      "stars": 387588,
+      "forks": 81363,
       "subscribers": 1755,
-      "commits": 82378,
-      "contributors": 3147
+      "commits": 82394,
+      "contributors": 3148
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 129353,
-        "title": "[Bug]: UI tests can finish while lazy sidebar modules are still loading",
-        "url": "https://github.com/openclaw/openclaw/issues/129353",
-        "state": "closed",
-        "author": "shakkernerd",
-        "updatedAt": "2026-08-25T17:43:55Z"
+        "number": 128473,
+        "title": "[Bug] Native Codex session discovery (sessionCatalog) leaks one `codex app-server` process per poll cycle — exhausts fork/process table in ~12h (2026.8.1-beta.2)",
+        "url": "https://github.com/openclaw/openclaw/issues/128473",
+        "state": "open",
+        "author": "vmanuelort-sys",
+        "updatedAt": "2026-08-25T18:55:18Z"
       },
       {
         "kind": "issue",
-        "number": 125802,
-        "title": "[Bug]: successful provider streams can skip response hooks",
-        "url": "https://github.com/openclaw/openclaw/issues/125802",
-        "state": "closed",
-        "author": "osolmaz",
-        "updatedAt": "2026-08-25T17:43:53Z"
+        "number": 129521,
+        "title": "[Bug]: Codex Computer Use fails after managed marketplace source upgrade",
+        "url": "https://github.com/openclaw/openclaw/issues/129521",
+        "state": "open",
+        "author": "jalehman",
+        "updatedAt": "2026-08-25T18:55:06Z"
+      },
+      {
+        "kind": "issue",
+        "number": 129547,
+        "title": "SQLite migration: decide retention for retired commitments rows",
+        "url": "https://github.com/openclaw/openclaw/issues/129547",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-25T18:54:35Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 126547,
-        "title": "fix(gateway): keep channels working after plugin reloads",
-        "url": "https://github.com/openclaw/openclaw/pull/126547",
+        "number": 129481,
+        "title": "fix(agents): make terminal CLI failures diagnosable",
+        "url": "https://github.com/openclaw/openclaw/pull/129481",
         "state": "open",
-        "author": "NianJiuZst",
-        "updatedAt": "2026-08-25T17:44:19Z"
+        "author": "Alix-007",
+        "updatedAt": "2026-08-25T18:55:15Z"
       },
       {
         "kind": "pr",
-        "number": 129395,
-        "title": "fix(qa): reject incomplete manual lane responses",
-        "url": "https://github.com/openclaw/openclaw/pull/129395",
+        "number": 129482,
+        "title": "fix(ui): usage filters hide sessions when multiple providers are selected",
+        "url": "https://github.com/openclaw/openclaw/pull/129482",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-25T17:44:13Z"
+        "updatedAt": "2026-08-25T18:55:14Z"
       },
       {
         "kind": "pr",
-        "number": 121484,
-        "title": "fix(text): preserve leading whitespace in stripped reasoning message body",
-        "url": "https://github.com/openclaw/openclaw/pull/121484",
+        "number": 129523,
+        "title": "refactor(tool-display): compact generated metadata",
+        "url": "https://github.com/openclaw/openclaw/pull/129523",
         "state": "open",
-        "author": "ruel225",
-        "updatedAt": "2026-08-25T17:44:13Z"
-      },
-      {
-        "kind": "pr",
-        "number": 129281,
-        "title": "fix(whatsapp): avoid mentions inside unterminated inline code",
-        "url": "https://github.com/openclaw/openclaw/pull/129281",
-        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-25T17:44:09Z"
+        "updatedAt": "2026-08-25T18:55:21Z"
       },
       {
         "kind": "pr",
-        "number": 129375,
-        "title": "fix: clean retired Claude auth before Doctor health",
-        "url": "https://github.com/openclaw/openclaw/pull/129375",
-        "state": "closed",
-        "author": "shakkernerd",
-        "updatedAt": "2026-08-25T17:44:06Z"
+        "number": 129490,
+        "title": "fix(sessions): isolate maintenance from channel plugin resolvers",
+        "url": "https://github.com/openclaw/openclaw/pull/129490",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-25T18:55:12Z"
       },
       {
         "kind": "pr",
-        "number": 129382,
-        "title": "test: remove stale Claude ambient discovery fixture",
-        "url": "https://github.com/openclaw/openclaw/pull/129382",
-        "state": "closed",
-        "author": "shakkernerd",
-        "updatedAt": "2026-08-25T17:44:02Z"
+        "number": 127076,
+        "title": "fix(ui): structure chat transcript attachments by kind",
+        "url": "https://github.com/openclaw/openclaw/pull/127076",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-25T18:55:10Z"
+      },
+      {
+        "kind": "pr",
+        "number": 128863,
+        "title": "fix(plugins): scope runtime catalog discovery by provider",
+        "url": "https://github.com/openclaw/openclaw/pull/128863",
+        "state": "open",
+        "author": "ekinnee",
+        "updatedAt": "2026-08-25T18:55:09Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-25T11:41:44.578Z",
+  "generatedAt": "2026-08-25T13:09:40.022Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -666,17 +666,17 @@
     },
     {
       "capturedOn": "2026-08-25",
-      "capturedAt": "2026-08-25T11:41:44.578Z",
-      "issueOpen": 3637,
-      "issueClosed": 44984,
-      "prOpen": 2243,
-      "prClosed": 75892,
-      "prMerged": 27841,
+      "capturedAt": "2026-08-25T13:09:40.022Z",
+      "issueOpen": 3643,
+      "issueClosed": 44990,
+      "prOpen": 2249,
+      "prClosed": 75929,
+      "prMerged": 27869,
       "workflowRuns": 40000,
-      "stars": 387554,
-      "forks": 81353,
+      "stars": 387556,
+      "forks": 81356,
       "subscribers": 1755,
-      "commits": 82309,
+      "commits": 82336,
       "contributors": 3147,
       "source": "github-actions",
       "approximateDate": false
@@ -893,79 +893,69 @@
     },
     {
       "capturedOn": "2026-08-25",
-      "stars": 387554,
-      "forks": 81353,
+      "stars": 387556,
+      "forks": 81356,
       "subscribers": 1755,
-      "commits": 82309,
+      "commits": 82336,
       "contributors": 3147
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 128385,
-        "title": "No-op write/edit terminator (#97044) can never surface its terminal presentation — replay-safety gate is poisoned by the mutating tool itself, yielding a repeatable generic-error dead end",
-        "url": "https://github.com/openclaw/openclaw/issues/128385",
-        "state": "open",
-        "author": "aspalagin",
-        "updatedAt": "2026-08-25T11:40:08Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 129284,
-        "title": "docs(himalaya): update configuration.md to v2.1.0 schema",
-        "url": "https://github.com/openclaw/openclaw/pull/129284",
+        "number": 113115,
+        "title": "feat(matrix): intelligent multi-agent communication via fast AI-guided participation control and fresh-message redrafting",
+        "url": "https://github.com/openclaw/openclaw/pull/113115",
         "state": "open",
-        "author": "KhanCold",
-        "updatedAt": "2026-08-25T11:41:41Z"
+        "author": "bdjben",
+        "updatedAt": "2026-08-25T13:09:35Z"
       },
       {
         "kind": "pr",
-        "number": 129214,
-        "title": "fix(heartbeat): preserve cron wakes across clock jumps and handler replacement",
-        "url": "https://github.com/openclaw/openclaw/pull/129214",
+        "number": 129265,
+        "title": "fix(mac): prevent network discovery crashes on addressless interfaces",
+        "url": "https://github.com/openclaw/openclaw/pull/129265",
         "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-25T11:41:40Z"
+        "updatedAt": "2026-08-25T13:09:32Z"
       },
       {
         "kind": "pr",
-        "number": 112623,
-        "title": "feat(agents): inject Recently Completed Subagents into parent prompt",
-        "url": "https://github.com/openclaw/openclaw/pull/112623",
+        "number": 120305,
+        "title": "feat(models): add auth cooldown recovery command",
+        "url": "https://github.com/openclaw/openclaw/pull/120305",
         "state": "open",
-        "author": "ericcaiwx-star",
-        "updatedAt": "2026-08-25T11:41:38Z"
+        "author": "jsasson",
+        "updatedAt": "2026-08-25T13:09:32Z"
       },
       {
         "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "number": 129309,
+        "title": "test(clawhub): deduplicate lifecycle fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/129309",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-25T11:41:36Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-25T13:09:29Z"
       },
       {
         "kind": "pr",
-        "number": 128457,
-        "title": "fix(models): allow headless device-code login",
-        "url": "https://github.com/openclaw/openclaw/pull/128457",
+        "number": 129283,
+        "title": "fix(cli): preserve active target in plugin install hints",
+        "url": "https://github.com/openclaw/openclaw/pull/129283",
         "state": "open",
-        "author": "gaoanze888",
-        "updatedAt": "2026-08-25T11:41:35Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-25T13:09:28Z"
       },
       {
         "kind": "pr",
-        "number": 128371,
-        "title": "fix(release): authorize focused beta evidence",
-        "url": "https://github.com/openclaw/openclaw/pull/128371",
-        "state": "closed",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-25T11:41:35Z"
+        "number": 122631,
+        "title": "fix(agents): detect sustained same-target write churn",
+        "url": "https://github.com/openclaw/openclaw/pull/122631",
+        "state": "open",
+        "author": "SweetSophia",
+        "updatedAt": "2026-08-25T13:09:18Z"
       }
     ]
   }

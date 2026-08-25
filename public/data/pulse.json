@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-25T03:57:48.851Z",
+  "generatedAt": "2026-08-25T05:46:13.168Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -666,17 +666,17 @@
     },
     {
       "capturedOn": "2026-08-25",
-      "capturedAt": "2026-08-25T03:57:48.851Z",
-      "issueOpen": 3667,
-      "issueClosed": 44903,
-      "prOpen": 2250,
-      "prClosed": 75649,
-      "prMerged": 27626,
+      "capturedAt": "2026-08-25T05:46:13.168Z",
+      "issueOpen": 3665,
+      "issueClosed": 44915,
+      "prOpen": 2258,
+      "prClosed": 75665,
+      "prMerged": 27637,
       "workflowRuns": 40000,
-      "stars": 387469,
+      "stars": 387486,
       "forks": 81350,
       "subscribers": 1754,
-      "commits": 82093,
+      "commits": 82104,
       "contributors": 3140,
       "source": "github-actions",
       "approximateDate": false
@@ -893,10 +893,10 @@
     },
     {
       "capturedOn": "2026-08-25",
-      "stars": 387469,
+      "stars": 387486,
       "forks": 81350,
       "subscribers": 1754,
-      "commits": 82093,
+      "commits": 82104,
       "contributors": 3140
     }
   ],
@@ -904,95 +904,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 128883,
-        "title": "Codex dynamic sessions_spawn loses Gateway resolver, preventing yielded parent wake",
-        "url": "https://github.com/openclaw/openclaw/issues/128883",
-        "state": "open",
-        "author": "bill492",
-        "updatedAt": "2026-08-25T03:57:37Z"
+        "number": 128877,
+        "title": "[Bug]: llama-cpp plugin validateInstalledServer regex rejects the pinned b10453 llama-server --version output",
+        "url": "https://github.com/openclaw/openclaw/issues/128877",
+        "state": "closed",
+        "author": "NovaUnboundAi",
+        "updatedAt": "2026-08-25T05:46:07Z"
       },
       {
         "kind": "issue",
-        "number": 128993,
-        "title": "[Bug]: Telegram richMessages — outbound core chunks Markdown at 4096 and cuts rich HTML media blocks (galleries/headings lost)",
-        "url": "https://github.com/openclaw/openclaw/issues/128993",
+        "number": 116964,
+        "title": "[Bug]: Docker-sandboxed session: apply_patch fails on rw-mounted workspace paths with empty failure payload (git apply/write succeed); failure masks real cron error",
+        "url": "https://github.com/openclaw/openclaw/issues/116964",
         "state": "open",
-        "author": "aspalagin",
-        "updatedAt": "2026-08-25T03:56:21Z"
+        "author": "c-g14",
+        "updatedAt": "2026-08-25T05:45:06Z"
       },
       {
         "kind": "issue",
-        "number": 128992,
-        "title": "[Feature]: Telegram rich messages — embed local files via InputRichMessage.media (tg://photo?id=), route text+attachments through sendPayload",
-        "url": "https://github.com/openclaw/openclaw/issues/128992",
+        "number": 128617,
+        "title": "Control UI message cuts overwrite replacement state after reconnect",
+        "url": "https://github.com/openclaw/openclaw/issues/128617",
         "state": "open",
-        "author": "aspalagin",
-        "updatedAt": "2026-08-25T03:56:14Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-25T05:43:55Z"
       },
       {
         "kind": "issue",
-        "number": 128984,
-        "title": "Docs feedback: /platforms/macos",
-        "url": "https://github.com/openclaw/openclaw/issues/128984",
+        "number": 125773,
+        "title": "[Feature]: Make Control UI goal actions transcript-free",
+        "url": "https://github.com/openclaw/openclaw/issues/125773",
         "state": "open",
-        "author": "lkanowski",
-        "updatedAt": "2026-08-25T03:55:36Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-25T05:43:42Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127512,
+        "title": "Late terminal.attach completion recreates streams after connection disposal",
+        "url": "https://github.com/openclaw/openclaw/issues/127512",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-25T05:46:09Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 128249,
-        "title": "fix(chat): show inherited reasoning in transcripts",
-        "url": "https://github.com/openclaw/openclaw/pull/128249",
+        "number": 119153,
+        "title": "test(telegram): cover reply and selected-quote inbound contracts",
+        "url": "https://github.com/openclaw/openclaw/pull/119153",
         "state": "open",
-        "author": "gaoanze888",
-        "updatedAt": "2026-08-25T03:57:42Z"
+        "author": "jamesachurchill",
+        "updatedAt": "2026-08-25T05:46:06Z"
       },
       {
         "kind": "pr",
-        "number": 128904,
-        "title": "fix(config): channel schema ownership follows the declared preferOver replacement",
-        "url": "https://github.com/openclaw/openclaw/pull/128904",
+        "number": 126986,
+        "title": "fix(codex): preserve agent workspace instructions",
+        "url": "https://github.com/openclaw/openclaw/pull/126986",
         "state": "open",
-        "author": "marmar9615-cloud",
-        "updatedAt": "2026-08-25T03:57:36Z"
+        "author": "jason-allen-oneal",
+        "updatedAt": "2026-08-25T05:45:54Z"
       },
       {
         "kind": "pr",
-        "number": 128907,
-        "title": "fix(matrix): let follow-ups steer active turns",
-        "url": "https://github.com/openclaw/openclaw/pull/128907",
+        "number": 129019,
+        "title": "fix(ui): update the new-session model picker when catalogs load",
+        "url": "https://github.com/openclaw/openclaw/pull/129019",
         "state": "open",
-        "author": "bdjben",
-        "updatedAt": "2026-08-25T03:57:35Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-25T05:45:41Z"
       },
       {
         "kind": "pr",
-        "number": 125471,
-        "title": "fix(models): keep Claude CLI OAuth available in Control UI",
-        "url": "https://github.com/openclaw/openclaw/pull/125471",
-        "state": "closed",
-        "author": "VACInc",
-        "updatedAt": "2026-08-25T03:57:33Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-25T03:57:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 128994,
-        "title": "feat(gateway): add suspension preflight and plugin participants",
-        "url": "https://github.com/openclaw/openclaw/pull/128994",
+        "number": 119061,
+        "title": "fix(memory): show canonical-session migration recovery instead of provider error",
+        "url": "https://github.com/openclaw/openclaw/pull/119061",
         "state": "open",
-        "author": "gauravprasadgp",
-        "updatedAt": "2026-08-25T03:57:08Z"
+        "author": "ZYV5ge",
+        "updatedAt": "2026-08-25T05:45:37Z"
+      },
+      {
+        "kind": "pr",
+        "number": 129001,
+        "title": "fix(auto-reply): queue instead of steering after a terminal source-reply receipt",
+        "url": "https://github.com/openclaw/openclaw/pull/129001",
+        "state": "open",
+        "author": "Finn763",
+        "updatedAt": "2026-08-25T05:45:20Z"
+      },
+      {
+        "kind": "pr",
+        "number": 129028,
+        "title": "refactor(infra): reuse canonical PATH prepend normalization",
+        "url": "https://github.com/openclaw/openclaw/pull/129028",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-25T05:45:18Z"
       }
     ]
   }

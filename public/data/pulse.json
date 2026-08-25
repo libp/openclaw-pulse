@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-25T03:11:28.477Z",
+  "generatedAt": "2026-08-25T03:57:48.851Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -666,17 +666,17 @@
     },
     {
       "capturedOn": "2026-08-25",
-      "capturedAt": "2026-08-25T03:11:28.477Z",
+      "capturedAt": "2026-08-25T03:57:48.851Z",
       "issueOpen": 3667,
-      "issueClosed": 44898,
-      "prOpen": 2249,
-      "prClosed": 75642,
-      "prMerged": 27623,
+      "issueClosed": 44903,
+      "prOpen": 2250,
+      "prClosed": 75649,
+      "prMerged": 27626,
       "workflowRuns": 40000,
-      "stars": 387455,
-      "forks": 81348,
+      "stars": 387469,
+      "forks": 81350,
       "subscribers": 1754,
-      "commits": 82090,
+      "commits": 82093,
       "contributors": 3140,
       "source": "github-actions",
       "approximateDate": false
@@ -893,10 +893,10 @@
     },
     {
       "capturedOn": "2026-08-25",
-      "stars": 387455,
-      "forks": 81348,
+      "stars": 387469,
+      "forks": 81350,
       "subscribers": 1754,
-      "commits": 82090,
+      "commits": 82093,
       "contributors": 3140
     }
   ],
@@ -904,113 +904,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 128593,
-        "title": "[Bug]: Gateway never becomes stably ready with Discord enabled on Windows (2026.7.1-2) — WS opening handshake starved by startup, unbounded retry in waitForGatewayReady",
-        "url": "https://github.com/openclaw/openclaw/issues/128593",
+        "number": 128883,
+        "title": "Codex dynamic sessions_spawn loses Gateway resolver, preventing yielded parent wake",
+        "url": "https://github.com/openclaw/openclaw/issues/128883",
         "state": "open",
-        "author": "wijehdude",
-        "updatedAt": "2026-08-25T03:11:15Z"
+        "author": "bill492",
+        "updatedAt": "2026-08-25T03:57:37Z"
       },
       {
         "kind": "issue",
-        "number": 127535,
-        "title": "Mattermost reaction add reports failure after an accepted 201 when its unused body read fails",
-        "url": "https://github.com/openclaw/openclaw/issues/127535",
+        "number": 128993,
+        "title": "[Bug]: Telegram richMessages — outbound core chunks Markdown at 4096 and cuts rich HTML media blocks (galleries/headings lost)",
+        "url": "https://github.com/openclaw/openclaw/issues/128993",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-25T03:11:06Z"
+        "author": "aspalagin",
+        "updatedAt": "2026-08-25T03:56:21Z"
       },
       {
         "kind": "issue",
-        "number": 128962,
-        "title": "Subagent result discarded and parent session hangs forever when an announce run compacts (`Cannot continue from message role: assistant`)",
-        "url": "https://github.com/openclaw/openclaw/issues/128962",
+        "number": 128992,
+        "title": "[Feature]: Telegram rich messages — embed local files via InputRichMessage.media (tg://photo?id=), route text+attachments through sendPayload",
+        "url": "https://github.com/openclaw/openclaw/issues/128992",
         "state": "open",
-        "author": "carakessler",
-        "updatedAt": "2026-08-25T03:10:42Z"
+        "author": "aspalagin",
+        "updatedAt": "2026-08-25T03:56:14Z"
       },
       {
         "kind": "issue",
-        "number": 127647,
-        "title": "Closing the macOS Dashboard does not retire queued native commands and navigation",
-        "url": "https://github.com/openclaw/openclaw/issues/127647",
+        "number": 128984,
+        "title": "Docs feedback: /platforms/macos",
+        "url": "https://github.com/openclaw/openclaw/issues/128984",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-25T03:10:37Z"
-      },
-      {
-        "kind": "issue",
-        "number": 128509,
-        "title": "[Bug]: beta.3 durable context-engine commit mixes full-transcript positions with closed-turn messages",
-        "url": "https://github.com/openclaw/openclaw/issues/128509",
-        "state": "open",
-        "author": "lamkan0210",
-        "updatedAt": "2026-08-25T03:10:08Z"
-      },
-      {
-        "kind": "issue",
-        "number": 116295,
-        "title": "Plugin daemon health check is shallow (PID-only, no liveness probe) — stuck daemons go undetected for 21+ hours",
-        "url": "https://github.com/openclaw/openclaw/issues/116295",
-        "state": "open",
-        "author": "xiaov1024",
-        "updatedAt": "2026-08-25T03:09:01Z"
+        "author": "lkanowski",
+        "updatedAt": "2026-08-25T03:55:36Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 116354,
-        "title": "fix(gateway): enforce OpenAI-compatible response contracts",
-        "url": "https://github.com/openclaw/openclaw/pull/116354",
+        "number": 128249,
+        "title": "fix(chat): show inherited reasoning in transcripts",
+        "url": "https://github.com/openclaw/openclaw/pull/128249",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-25T03:11:13Z"
+        "author": "gaoanze888",
+        "updatedAt": "2026-08-25T03:57:42Z"
       },
       {
         "kind": "pr",
-        "number": 128742,
-        "title": "fix(codex): let /codex bind transfer the current session",
-        "url": "https://github.com/openclaw/openclaw/pull/128742",
+        "number": 128904,
+        "title": "fix(config): channel schema ownership follows the declared preferOver replacement",
+        "url": "https://github.com/openclaw/openclaw/pull/128904",
         "state": "open",
-        "author": "libaojiang",
-        "updatedAt": "2026-08-25T03:10:43Z"
+        "author": "marmar9615-cloud",
+        "updatedAt": "2026-08-25T03:57:36Z"
       },
       {
         "kind": "pr",
-        "number": 128508,
-        "title": "fix(codex): preserve child hooks across turns",
-        "url": "https://github.com/openclaw/openclaw/pull/128508",
+        "number": 128907,
+        "title": "fix(matrix): let follow-ups steer active turns",
+        "url": "https://github.com/openclaw/openclaw/pull/128907",
         "state": "open",
-        "author": "bek91",
-        "updatedAt": "2026-08-25T03:10:43Z"
+        "author": "bdjben",
+        "updatedAt": "2026-08-25T03:57:35Z"
       },
       {
         "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
+        "number": 125471,
+        "title": "fix(models): keep Claude CLI OAuth available in Control UI",
+        "url": "https://github.com/openclaw/openclaw/pull/125471",
+        "state": "closed",
+        "author": "VACInc",
+        "updatedAt": "2026-08-25T03:57:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120900,
+        "title": "feat(ui): review install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/120900",
         "state": "closed",
         "author": "jesse-merhi",
-        "updatedAt": "2026-08-25T03:10:13Z"
+        "updatedAt": "2026-08-25T03:57:20Z"
       },
       {
         "kind": "pr",
-        "number": 116337,
-        "title": "fix(gateway): media preprocessing continues after client disconnect",
-        "url": "https://github.com/openclaw/openclaw/pull/116337",
+        "number": 128994,
+        "title": "feat(gateway): add suspension preflight and plugin participants",
+        "url": "https://github.com/openclaw/openclaw/pull/128994",
         "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-08-25T03:10:13Z"
-      },
-      {
-        "kind": "pr",
-        "number": 128286,
-        "title": "feat: pin sessions within groups",
-        "url": "https://github.com/openclaw/openclaw/pull/128286",
-        "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-08-25T03:10:04Z"
+        "author": "gauravprasadgp",
+        "updatedAt": "2026-08-25T03:57:08Z"
       }
     ]
   }

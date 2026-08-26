@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-26T03:16:42.233Z",
+  "generatedAt": "2026-08-26T04:04:26.237Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -683,17 +683,17 @@
     },
     {
       "capturedOn": "2026-08-26",
-      "capturedAt": "2026-08-26T03:16:42.233Z",
-      "issueOpen": 3627,
-      "issueClosed": 45075,
-      "prOpen": 2283,
-      "prClosed": 76299,
-      "prMerged": 28158,
+      "capturedAt": "2026-08-26T04:04:26.237Z",
+      "issueOpen": 3617,
+      "issueClosed": 45087,
+      "prOpen": 2278,
+      "prClosed": 76337,
+      "prMerged": 28184,
       "workflowRuns": 40000,
-      "stars": 387624,
+      "stars": 387631,
       "forks": 81377,
-      "subscribers": 1754,
-      "commits": 82623,
+      "subscribers": 1753,
+      "commits": 82649,
       "contributors": 3153,
       "source": "github-actions",
       "approximateDate": false
@@ -918,124 +918,69 @@
     },
     {
       "capturedOn": "2026-08-26",
-      "stars": 387624,
+      "stars": 387631,
       "forks": 81377,
-      "subscribers": 1754,
-      "commits": 82623,
+      "subscribers": 1753,
+      "commits": 82649,
       "contributors": 3153
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 7379,
-        "title": "Feature Request: Add premium request % to /usage footer",
-        "url": "https://github.com/openclaw/openclaw/issues/7379",
-        "state": "open",
-        "author": "mauk1us",
-        "updatedAt": "2026-08-26T03:16:32Z"
-      },
-      {
-        "kind": "issue",
-        "number": 115041,
-        "title": "Direct/user_request turn drops to silence when it terminates on bare NO_REPLY after a completed draft — good assistant text is discarded",
-        "url": "https://github.com/openclaw/openclaw/issues/115041",
-        "state": "open",
-        "author": "dom521",
-        "updatedAt": "2026-08-26T03:16:31Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127571,
-        "title": "macOS camera and screen recording failures can leave generated MP4s in temp",
-        "url": "https://github.com/openclaw/openclaw/issues/127571",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-26T03:16:25Z"
-      },
-      {
-        "kind": "issue",
-        "number": 115337,
-        "title": "[Bug]: Skills from shared Agent Skills roots ignore Codex invocation policy",
-        "url": "https://github.com/openclaw/openclaw/issues/115337",
-        "state": "open",
-        "author": "hannesrudolph",
-        "updatedAt": "2026-08-26T03:16:23Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119583,
-        "title": "CLI one-shot read commands open state/openclaw.sqlite read-write and auto-migrate, contending with the live gateway",
-        "url": "https://github.com/openclaw/openclaw/issues/119583",
-        "state": "open",
-        "author": "Jackten",
-        "updatedAt": "2026-08-26T03:16:20Z"
-      },
-      {
-        "kind": "issue",
-        "number": 84983,
-        "title": "Native cron agent-turn fire saturates the gateway event loop (chat transports unresponsive for minutes)",
-        "url": "https://github.com/openclaw/openclaw/issues/84983",
-        "state": "open",
-        "author": "levineam",
-        "updatedAt": "2026-08-26T03:16:16Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 129313,
-        "title": "fix(gateway): project canonical session events",
-        "url": "https://github.com/openclaw/openclaw/pull/129313",
+        "number": 129849,
+        "title": "refactor(gateway): speed up GitHub publication security tests",
+        "url": "https://github.com/openclaw/openclaw/pull/129849",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-26T03:16:32Z"
+        "updatedAt": "2026-08-26T04:04:19Z"
       },
       {
         "kind": "pr",
-        "number": 129813,
-        "title": "fix(ui): clarify the sidebar update action",
-        "url": "https://github.com/openclaw/openclaw/pull/129813",
+        "number": 129784,
+        "title": "fix(release): bind prerelease plugins into package Telegram QA",
+        "url": "https://github.com/openclaw/openclaw/pull/129784",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-08-26T03:16:31Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-26T04:04:18Z"
       },
       {
         "kind": "pr",
-        "number": 129815,
-        "title": "feat: bring Linux desktop onboarding to macOS parity",
-        "url": "https://github.com/openclaw/openclaw/pull/129815",
+        "number": 124953,
+        "title": "fix(agents): record interrupted trajectory ending for restart-marked sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/124953",
+        "state": "open",
+        "author": "xialonglee",
+        "updatedAt": "2026-08-26T04:04:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112375,
+        "title": "feat(cron): shell precheck gate to skip LLM when no work",
+        "url": "https://github.com/openclaw/openclaw/pull/112375",
+        "state": "open",
+        "author": "Bartok9",
+        "updatedAt": "2026-08-26T04:04:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123535,
+        "title": "fix(ui): avoid session catalog refresh storms",
+        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-26T04:04:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 128442,
+        "title": "fix(ui): pool reply-less wake activity into one chat rollup",
+        "url": "https://github.com/openclaw/openclaw/pull/128442",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-26T03:16:29Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125969,
-        "title": "fix(gateway): scope image capability discovery",
-        "url": "https://github.com/openclaw/openclaw/pull/125969",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-26T03:16:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123405,
-        "title": "fix(ci): keep exact-main test shards isolated",
-        "url": "https://github.com/openclaw/openclaw/pull/123405",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-26T03:16:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 129402,
-        "title": "fix(codex): preserve authenticated sender context in prompt hooks",
-        "url": "https://github.com/openclaw/openclaw/pull/129402",
-        "state": "open",
-        "author": "ashawwal",
-        "updatedAt": "2026-08-26T03:16:07Z"
+        "updatedAt": "2026-08-26T04:04:08Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-26T09:00:43.547Z",
+  "generatedAt": "2026-08-26T11:43:08.411Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -683,18 +683,18 @@
     },
     {
       "capturedOn": "2026-08-26",
-      "capturedAt": "2026-08-26T09:00:43.547Z",
-      "issueOpen": 3519,
-      "issueClosed": 45211,
-      "prOpen": 2228,
-      "prClosed": 76546,
-      "prMerged": 28370,
+      "capturedAt": "2026-08-26T11:43:08.411Z",
+      "issueOpen": 3515,
+      "issueClosed": 45231,
+      "prOpen": 2206,
+      "prClosed": 76610,
+      "prMerged": 28423,
       "workflowRuns": 40000,
-      "stars": 387673,
-      "forks": 81391,
+      "stars": 387684,
+      "forks": 81394,
       "subscribers": 1752,
-      "commits": 82835,
-      "contributors": 3157,
+      "commits": 82888,
+      "contributors": 3160,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -918,88 +918,124 @@
     },
     {
       "capturedOn": "2026-08-26",
-      "stars": 387673,
-      "forks": 81391,
+      "stars": 387684,
+      "forks": 81394,
       "subscribers": 1752,
-      "commits": 82835,
-      "contributors": 3157
+      "commits": 82888,
+      "contributors": 3160
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 102807,
-        "title": "Usage/cost attribution is provider-keyed: mixed API+subscription and multi-account setups show wrong billing mode/quota",
-        "url": "https://github.com/openclaw/openclaw/issues/102807",
+        "number": 42106,
+        "title": "[Bug]: Block streaming can drop paragraph separators across streamed updates",
+        "url": "https://github.com/openclaw/openclaw/issues/42106",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-26T08:59:47Z"
+        "author": "wbxl2000",
+        "updatedAt": "2026-08-26T11:41:38Z"
       },
       {
         "kind": "issue",
-        "number": 115904,
-        "title": "[Bug]: SQLite compaction re-counts and replays history before the latest compaction boundary",
-        "url": "https://github.com/openclaw/openclaw/issues/115904",
+        "number": 130044,
+        "title": "[Bug]: Send button disappears after setting a session goal",
+        "url": "https://github.com/openclaw/openclaw/issues/130044",
         "state": "open",
-        "author": "Cuttingwater",
-        "updatedAt": "2026-08-26T08:59:40Z"
+        "author": "methylester",
+        "updatedAt": "2026-08-26T11:41:37Z"
+      },
+      {
+        "kind": "issue",
+        "number": 111821,
+        "title": "[Bug]: Discord reply pings bypass bot mention-only gating",
+        "url": "https://github.com/openclaw/openclaw/issues/111821",
+        "state": "open",
+        "author": "ooiuuii",
+        "updatedAt": "2026-08-26T11:41:21Z"
+      },
+      {
+        "kind": "issue",
+        "number": 130092,
+        "title": "Feature: treat empty turn as silent when message tool send succeeded",
+        "url": "https://github.com/openclaw/openclaw/issues/130092",
+        "state": "open",
+        "author": "yfysnp",
+        "updatedAt": "2026-08-26T11:41:09Z"
+      },
+      {
+        "kind": "issue",
+        "number": 130093,
+        "title": "Feature: treat empty turn as silent when message tool send succeeded",
+        "url": "https://github.com/openclaw/openclaw/issues/130093",
+        "state": "open",
+        "author": "yfysnp",
+        "updatedAt": "2026-08-26T11:41:06Z"
+      },
+      {
+        "kind": "issue",
+        "number": 106569,
+        "title": "[Bug] False-Positive Message Merge/Collapse Bug in resolveResponsesMessageSnapshotCollapse",
+        "url": "https://github.com/openclaw/openclaw/issues/106569",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-08-26T11:41:05Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123432,
-        "title": "fix(agents): default agent-run admissions to static catalog mode",
-        "url": "https://github.com/openclaw/openclaw/pull/123432",
-        "state": "open",
-        "author": "xialonglee",
-        "updatedAt": "2026-08-26T09:00:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 129413,
-        "title": "fix(agents): worktree sessions inject shared AGENTS.md bootstrap instead of worktree files",
-        "url": "https://github.com/openclaw/openclaw/pull/129413",
-        "state": "open",
-        "author": "krell11",
-        "updatedAt": "2026-08-26T09:00:28Z"
-      },
-      {
-        "kind": "pr",
-        "number": 122679,
-        "title": "fix(skills): concurrent sandboxed runs omit skills from available_skills",
-        "url": "https://github.com/openclaw/openclaw/pull/122679",
-        "state": "open",
-        "author": "eightHundreds",
-        "updatedAt": "2026-08-26T09:00:39Z"
-      },
-      {
-        "kind": "pr",
-        "number": 130034,
-        "title": "chore(qa): make OpenAI native web search primary coverage",
-        "url": "https://github.com/openclaw/openclaw/pull/130034",
+        "number": 130081,
+        "title": "fix(agents): interactive process prompts stall during timed polls",
+        "url": "https://github.com/openclaw/openclaw/pull/130081",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-26T09:00:26Z"
+        "updatedAt": "2026-08-26T11:42:59Z"
       },
       {
         "kind": "pr",
-        "number": 111873,
-        "title": "feat(ui): thumb-reachable mobile navigation and touch ergonomics for the dashboard",
-        "url": "https://github.com/openclaw/openclaw/pull/111873",
+        "number": 120900,
+        "title": "feat(ui): review install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/120900",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-26T11:42:58Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123975,
+        "title": "fix(scripts): clean up tsgo process trees on timeout or signal",
+        "url": "https://github.com/openclaw/openclaw/pull/123975",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-26T11:42:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123356,
+        "title": "improve(control-ui): stage slash command arguments in the composer",
+        "url": "https://github.com/openclaw/openclaw/pull/123356",
         "state": "open",
-        "author": "Zeus-Deus",
-        "updatedAt": "2026-08-26T09:00:26Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-26T11:42:57Z"
       },
       {
         "kind": "pr",
-        "number": 130016,
-        "title": "fix(memory): preserve session recall when upgrading from QMD",
-        "url": "https://github.com/openclaw/openclaw/pull/130016",
+        "number": 130071,
+        "title": "fix(gateway): keep loaded conversations responsive under heavy load",
+        "url": "https://github.com/openclaw/openclaw/pull/130071",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-26T09:00:23Z"
+        "updatedAt": "2026-08-26T11:42:46Z"
+      },
+      {
+        "kind": "pr",
+        "number": 130087,
+        "title": "feat(crabbox): opt-in profile warm images for cloud workers",
+        "url": "https://github.com/openclaw/openclaw/pull/130087",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-26T11:42:33Z"
       }
     ]
   }

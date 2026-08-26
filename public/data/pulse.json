@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-26T13:14:52.089Z",
+  "generatedAt": "2026-08-26T15:51:06.896Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -683,17 +683,17 @@
     },
     {
       "capturedOn": "2026-08-26",
-      "capturedAt": "2026-08-26T13:14:52.089Z",
-      "issueOpen": 3509,
-      "issueClosed": 45244,
-      "prOpen": 2201,
-      "prClosed": 76639,
-      "prMerged": 28449,
+      "capturedAt": "2026-08-26T15:51:06.896Z",
+      "issueOpen": 3524,
+      "issueClosed": 45254,
+      "prOpen": 2195,
+      "prClosed": 76702,
+      "prMerged": 28498,
       "workflowRuns": 40000,
-      "stars": 387693,
+      "stars": 387705,
       "forks": 81398,
-      "subscribers": 1752,
-      "commits": 82914,
+      "subscribers": 1750,
+      "commits": 82963,
       "contributors": 3161,
       "source": "github-actions",
       "approximateDate": false
@@ -918,10 +918,10 @@
     },
     {
       "capturedOn": "2026-08-26",
-      "stars": 387693,
+      "stars": 387705,
       "forks": 81398,
-      "subscribers": 1752,
-      "commits": 82914,
+      "subscribers": 1750,
+      "commits": 82963,
       "contributors": 3161
     }
   ],
@@ -929,95 +929,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 70266,
-        "title": "[Feature]: Use assistant avatar in macOS Talk Mode overlay",
-        "url": "https://github.com/openclaw/openclaw/issues/70266",
+        "number": 130194,
+        "title": "[Bug]: /new cannot reset a channel after restart recovery exhaustion",
+        "url": "https://github.com/openclaw/openclaw/issues/130194",
         "state": "open",
-        "author": "awaker72",
-        "updatedAt": "2026-08-26T13:14:27Z"
+        "author": "bdjben",
+        "updatedAt": "2026-08-26T15:50:54Z"
       },
       {
         "kind": "issue",
-        "number": 130044,
-        "title": "[Bug]: Send button disappears after setting a session goal",
-        "url": "https://github.com/openclaw/openclaw/issues/130044",
+        "number": 78537,
+        "title": "[Docs]: `allowInsecurePath` Linux uid-check behavior is undocumented; users on Linux cannot use system-package binaries (e.g. /usr/bin/op) without it",
+        "url": "https://github.com/openclaw/openclaw/issues/78537",
         "state": "open",
-        "author": "methylester",
-        "updatedAt": "2026-08-26T13:14:15Z"
+        "author": "esqandil",
+        "updatedAt": "2026-08-26T15:50:15Z"
       },
       {
         "kind": "issue",
-        "number": 130059,
-        "title": "voice-call: final status callback creates a phantom zero-duration call record under the default agent (live record never persists providerCallId) (2026.7.1)",
-        "url": "https://github.com/openclaw/openclaw/issues/130059",
+        "number": 97616,
+        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
+        "url": "https://github.com/openclaw/openclaw/issues/97616",
         "state": "open",
-        "author": "jackatagenticforce",
-        "updatedAt": "2026-08-26T13:14:09Z"
+        "author": "avp717",
+        "updatedAt": "2026-08-26T15:50:14Z"
       },
       {
         "kind": "issue",
-        "number": 128509,
-        "title": "[Bug]: beta.3 durable context-engine commit mixes full-transcript positions with closed-turn messages",
-        "url": "https://github.com/openclaw/openclaw/issues/128509",
+        "number": 130193,
+        "title": "Sandboxed read tool rejects paths in the agent's own sandbox.docker.binds when workspaceOnly is true (guard mount table ignores binds)",
+        "url": "https://github.com/openclaw/openclaw/issues/130193",
         "state": "open",
-        "author": "lamkan0210",
-        "updatedAt": "2026-08-26T13:13:50Z"
+        "author": "akmad",
+        "updatedAt": "2026-08-26T15:50:05Z"
+      },
+      {
+        "kind": "issue",
+        "number": 6625,
+        "title": "Feature: Graceful sub-agent timeout (pre-timeout warning)",
+        "url": "https://github.com/openclaw/openclaw/issues/6625",
+        "state": "open",
+        "author": "jekard",
+        "updatedAt": "2026-08-26T15:49:44Z"
+      },
+      {
+        "kind": "issue",
+        "number": 6599,
+        "title": "Feature: Add /models test-fallback command to verify fallback chain",
+        "url": "https://github.com/openclaw/openclaw/issues/6599",
+        "state": "open",
+        "author": "jonwiley",
+        "updatedAt": "2026-08-26T15:49:43Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 130124,
-        "title": "fix(gateway): pin git config for session-diff and worker workspace paths",
-        "url": "https://github.com/openclaw/openclaw/pull/130124",
+        "number": 130206,
+        "title": "fix(ai): carry the Responses system prompt via instructions, not input[0]",
+        "url": "https://github.com/openclaw/openclaw/pull/130206",
+        "state": "open",
+        "author": "hartmark",
+        "updatedAt": "2026-08-26T15:50:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 130105,
+        "title": "feat(portals): expose portals to sessions on node-backed cloud workers",
+        "url": "https://github.com/openclaw/openclaw/pull/130105",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-26T13:14:43Z"
+        "updatedAt": "2026-08-26T15:50:12Z"
       },
       {
         "kind": "pr",
-        "number": 130112,
-        "title": "fix: dashboard tools target the wrong Gateway after admission",
-        "url": "https://github.com/openclaw/openclaw/pull/130112",
-        "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-08-26T13:14:39Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123737,
-        "title": "fix(compaction): reject summaries foregrounding superseded tasks",
-        "url": "https://github.com/openclaw/openclaw/pull/123737",
-        "state": "open",
-        "author": "wangyan2026",
-        "updatedAt": "2026-08-26T13:14:35Z"
-      },
-      {
-        "kind": "pr",
-        "number": 130123,
-        "title": "fix(matrix): preserve attachment markers in room history",
-        "url": "https://github.com/openclaw/openclaw/pull/130123",
+        "number": 130192,
+        "title": "fix(ui): show sessions while remote projects clone",
+        "url": "https://github.com/openclaw/openclaw/pull/130192",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-26T13:14:28Z"
+        "updatedAt": "2026-08-26T15:50:01Z"
       },
       {
         "kind": "pr",
-        "number": 129904,
-        "title": "fix(webchat): document attachments disappear after refresh",
-        "url": "https://github.com/openclaw/openclaw/pull/129904",
+        "number": 129993,
+        "title": "fix(subagents): a completed subagent does not wake an idle parent until someone sends a message",
+        "url": "https://github.com/openclaw/openclaw/pull/129993",
         "state": "open",
-        "author": "xudongcc",
-        "updatedAt": "2026-08-26T13:14:28Z"
+        "author": "Marvinthebored",
+        "updatedAt": "2026-08-26T15:49:57Z"
       },
       {
         "kind": "pr",
-        "number": 130103,
-        "title": "feat(channels): post a grounded introduction when the bot joins a group room",
-        "url": "https://github.com/openclaw/openclaw/pull/130103",
-        "state": "open",
+        "number": 129957,
+        "title": "fix(android): load chat images, audio, and video behind proxy paths",
+        "url": "https://github.com/openclaw/openclaw/pull/129957",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-26T13:14:18Z"
+        "updatedAt": "2026-08-26T15:49:52Z"
+      },
+      {
+        "kind": "pr",
+        "number": 129949,
+        "title": "fix(ui): preserve chat URL state during session draft cleanup",
+        "url": "https://github.com/openclaw/openclaw/pull/129949",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-26T15:49:51Z"
       }
     ]
   }

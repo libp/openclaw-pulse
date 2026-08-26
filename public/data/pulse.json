@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-26T07:07:05.684Z",
+  "generatedAt": "2026-08-26T09:00:43.547Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -683,18 +683,18 @@
     },
     {
       "capturedOn": "2026-08-26",
-      "capturedAt": "2026-08-26T07:07:05.684Z",
-      "issueOpen": 3533,
-      "issueClosed": 45183,
-      "prOpen": 2244,
-      "prClosed": 76465,
-      "prMerged": 28299,
+      "capturedAt": "2026-08-26T09:00:43.547Z",
+      "issueOpen": 3519,
+      "issueClosed": 45211,
+      "prOpen": 2228,
+      "prClosed": 76546,
+      "prMerged": 28370,
       "workflowRuns": 40000,
-      "stars": 387660,
-      "forks": 81387,
-      "subscribers": 1753,
-      "commits": 82764,
-      "contributors": 3155,
+      "stars": 387673,
+      "forks": 81391,
+      "subscribers": 1752,
+      "commits": 82835,
+      "contributors": 3157,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -918,106 +918,88 @@
     },
     {
       "capturedOn": "2026-08-26",
-      "stars": 387660,
-      "forks": 81387,
-      "subscribers": 1753,
-      "commits": 82764,
-      "contributors": 3155
+      "stars": 387673,
+      "forks": 81391,
+      "subscribers": 1752,
+      "commits": 82835,
+      "contributors": 3157
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 118373,
-        "title": "Scheduled automations agentTurn: exec bridge fails immediately, run + failure notification both undelivered",
-        "url": "https://github.com/openclaw/openclaw/issues/118373",
+        "number": 102807,
+        "title": "Usage/cost attribution is provider-keyed: mixed API+subscription and multi-account setups show wrong billing mode/quota",
+        "url": "https://github.com/openclaw/openclaw/issues/102807",
         "state": "open",
-        "author": "peterkaynie",
-        "updatedAt": "2026-08-26T07:06:56Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-26T08:59:47Z"
       },
       {
         "kind": "issue",
-        "number": 115478,
-        "title": "WeChat plugin (@tencent-weixin/openclaw-weixin 2.4.6) fails to load: missing openclaw/plugin-sdk/channel-runtime export",
-        "url": "https://github.com/openclaw/openclaw/issues/115478",
+        "number": 115904,
+        "title": "[Bug]: SQLite compaction re-counts and replays history before the latest compaction boundary",
+        "url": "https://github.com/openclaw/openclaw/issues/115904",
         "state": "open",
-        "author": "QQSHI13",
-        "updatedAt": "2026-08-26T07:06:53Z"
-      },
-      {
-        "kind": "issue",
-        "number": 101145,
-        "title": "Dashboard: agent activity/status widgets",
-        "url": "https://github.com/openclaw/openclaw/issues/101145",
-        "state": "closed",
-        "author": "100yenadmin",
-        "updatedAt": "2026-08-26T07:06:47Z"
-      },
-      {
-        "kind": "issue",
-        "number": 9637,
-        "title": "Add accessibility config option to disable emojis and unicode symbols in TUI",
-        "url": "https://github.com/openclaw/openclaw/issues/9637",
-        "state": "open",
-        "author": "robin24",
-        "updatedAt": "2026-08-26T07:06:31Z"
+        "author": "Cuttingwater",
+        "updatedAt": "2026-08-26T08:59:40Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 129957,
-        "title": "fix(android): load chat images, audio, and video behind proxy paths",
-        "url": "https://github.com/openclaw/openclaw/pull/129957",
+        "number": 123432,
+        "title": "fix(agents): default agent-run admissions to static catalog mode",
+        "url": "https://github.com/openclaw/openclaw/pull/123432",
+        "state": "open",
+        "author": "xialonglee",
+        "updatedAt": "2026-08-26T09:00:32Z"
+      },
+      {
+        "kind": "pr",
+        "number": 129413,
+        "title": "fix(agents): worktree sessions inject shared AGENTS.md bootstrap instead of worktree files",
+        "url": "https://github.com/openclaw/openclaw/pull/129413",
+        "state": "open",
+        "author": "krell11",
+        "updatedAt": "2026-08-26T09:00:28Z"
+      },
+      {
+        "kind": "pr",
+        "number": 122679,
+        "title": "fix(skills): concurrent sandboxed runs omit skills from available_skills",
+        "url": "https://github.com/openclaw/openclaw/pull/122679",
+        "state": "open",
+        "author": "eightHundreds",
+        "updatedAt": "2026-08-26T09:00:39Z"
+      },
+      {
+        "kind": "pr",
+        "number": 130034,
+        "title": "chore(qa): make OpenAI native web search primary coverage",
+        "url": "https://github.com/openclaw/openclaw/pull/130034",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-26T07:07:00Z"
+        "updatedAt": "2026-08-26T09:00:26Z"
       },
       {
         "kind": "pr",
-        "number": 128594,
-        "title": "fix(skills): show byte-aware errors for long descriptions",
-        "url": "https://github.com/openclaw/openclaw/pull/128594",
+        "number": 111873,
+        "title": "feat(ui): thumb-reachable mobile navigation and touch ergonomics for the dashboard",
+        "url": "https://github.com/openclaw/openclaw/pull/111873",
         "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-08-26T07:07:00Z"
+        "author": "Zeus-Deus",
+        "updatedAt": "2026-08-26T09:00:26Z"
       },
       {
         "kind": "pr",
-        "number": 129956,
-        "title": "fix(gateway): preserve target context in suspension resume hints",
-        "url": "https://github.com/openclaw/openclaw/pull/129956",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-26T07:06:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 129952,
-        "title": "fix(tui): make provider-specific thinking labels selectable",
-        "url": "https://github.com/openclaw/openclaw/pull/129952",
+        "number": 130016,
+        "title": "fix(memory): preserve session recall when upgrading from QMD",
+        "url": "https://github.com/openclaw/openclaw/pull/130016",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-26T07:07:01Z"
-      },
-      {
-        "kind": "pr",
-        "number": 129955,
-        "title": "fix(ci): maturity scorecard update stalls when main advances",
-        "url": "https://github.com/openclaw/openclaw/pull/129955",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-26T07:06:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 129953,
-        "title": "fix(agents): stop suggesting unavailable automation tools",
-        "url": "https://github.com/openclaw/openclaw/pull/129953",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-26T07:06:55Z"
+        "updatedAt": "2026-08-26T09:00:23Z"
       }
     ]
   }

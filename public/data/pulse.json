@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-26T04:04:26.237Z",
+  "generatedAt": "2026-08-26T05:48:57.265Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -683,18 +683,18 @@
     },
     {
       "capturedOn": "2026-08-26",
-      "capturedAt": "2026-08-26T04:04:26.237Z",
-      "issueOpen": 3617,
-      "issueClosed": 45087,
-      "prOpen": 2278,
-      "prClosed": 76337,
-      "prMerged": 28184,
+      "capturedAt": "2026-08-26T05:48:57.265Z",
+      "issueOpen": 3608,
+      "issueClosed": 45105,
+      "prOpen": 2248,
+      "prClosed": 76415,
+      "prMerged": 28254,
       "workflowRuns": 40000,
-      "stars": 387631,
-      "forks": 81377,
-      "subscribers": 1753,
-      "commits": 82649,
-      "contributors": 3153,
+      "stars": 387644,
+      "forks": 81381,
+      "subscribers": 1752,
+      "commits": 82719,
+      "contributors": 3154,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -918,69 +918,124 @@
     },
     {
       "capturedOn": "2026-08-26",
-      "stars": 387631,
-      "forks": 81377,
-      "subscribers": 1753,
-      "commits": 82649,
-      "contributors": 3153
+      "stars": 387644,
+      "forks": 81381,
+      "subscribers": 1752,
+      "commits": 82719,
+      "contributors": 3154
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 128714,
+        "title": "Duplicate tool call in one turn silently dropped, turn surfaced as incomplete despite unused retry budget",
+        "url": "https://github.com/openclaw/openclaw/issues/128714",
+        "state": "open",
+        "author": "zackchiutw",
+        "updatedAt": "2026-08-26T05:48:49Z"
+      },
+      {
+        "kind": "issue",
+        "number": 128055,
+        "title": "[Bug]: Control UI deletes immutable assets while WebKit tabs still reference them",
+        "url": "https://github.com/openclaw/openclaw/issues/128055",
+        "state": "open",
+        "author": "hannesrudolph",
+        "updatedAt": "2026-08-26T05:48:51Z"
+      },
+      {
+        "kind": "issue",
+        "number": 129429,
+        "title": "[Bug]: Stop button does nothing",
+        "url": "https://github.com/openclaw/openclaw/issues/129429",
+        "state": "open",
+        "author": "DigitalCharon",
+        "updatedAt": "2026-08-26T05:48:39Z"
+      },
+      {
+        "kind": "issue",
+        "number": 119335,
+        "title": "[Bug]: docs say local `openclaw` browser profiles auto-assign `cdpPort`/`cdpUrl`, but the schema rejects any declared profile that sets neither",
+        "url": "https://github.com/openclaw/openclaw/issues/119335",
+        "state": "open",
+        "author": "abacha",
+        "updatedAt": "2026-08-26T05:48:27Z"
+      },
+      {
+        "kind": "issue",
+        "number": 128416,
+        "title": "[Bug]: tool calls batched with sessions_yield are killed and report \"sessions_yield\" as their error",
+        "url": "https://github.com/openclaw/openclaw/issues/128416",
+        "state": "open",
+        "author": "jailbirt",
+        "updatedAt": "2026-08-26T05:48:18Z"
+      },
+      {
+        "kind": "issue",
+        "number": 33975,
+        "title": "[Feature]: Fallback approval mode + model attribution in messages",
+        "url": "https://github.com/openclaw/openclaw/issues/33975",
+        "state": "open",
+        "author": "ruhasoft",
+        "updatedAt": "2026-08-26T05:48:07Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 129849,
-        "title": "refactor(gateway): speed up GitHub publication security tests",
-        "url": "https://github.com/openclaw/openclaw/pull/129849",
+        "number": 129873,
+        "title": "fix(tasks): stop completed TaskFlows from accumulating",
+        "url": "https://github.com/openclaw/openclaw/pull/129873",
+        "state": "open",
+        "author": "galiniliev",
+        "updatedAt": "2026-08-26T05:48:50Z"
+      },
+      {
+        "kind": "pr",
+        "number": 129907,
+        "title": "fix(gateway): bound the publication attribute scan by listing size, not the command cap",
+        "url": "https://github.com/openclaw/openclaw/pull/129907",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-26T04:04:19Z"
+        "updatedAt": "2026-08-26T05:48:44Z"
       },
       {
         "kind": "pr",
-        "number": 129784,
-        "title": "fix(release): bind prerelease plugins into package Telegram QA",
-        "url": "https://github.com/openclaw/openclaw/pull/129784",
+        "number": 129818,
+        "title": "fix(talk): make relay playback completion idempotent",
+        "url": "https://github.com/openclaw/openclaw/pull/129818",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-26T05:48:44Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123774,
+        "title": "fix(daemon): keep hidden Windows launcher alive for the daemon's lifetime",
+        "url": "https://github.com/openclaw/openclaw/pull/123774",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-26T04:04:18Z"
+        "author": "bmorenmiami-droid",
+        "updatedAt": "2026-08-26T05:48:52Z"
       },
       {
         "kind": "pr",
-        "number": 124953,
-        "title": "fix(agents): record interrupted trajectory ending for restart-marked sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/124953",
+        "number": 129705,
+        "title": "chore(deps): bump the actions group across 1 directory with 7 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/129705",
         "state": "open",
-        "author": "xialonglee",
-        "updatedAt": "2026-08-26T04:04:17Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-08-26T05:48:42Z"
       },
       {
         "kind": "pr",
-        "number": 112375,
-        "title": "feat(cron): shell precheck gate to skip LLM when no work",
-        "url": "https://github.com/openclaw/openclaw/pull/112375",
-        "state": "open",
-        "author": "Bartok9",
-        "updatedAt": "2026-08-26T04:04:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-26T04:04:16Z"
-      },
-      {
-        "kind": "pr",
-        "number": 128442,
-        "title": "fix(ui): pool reply-less wake activity into one chat rollup",
-        "url": "https://github.com/openclaw/openclaw/pull/128442",
+        "number": 114552,
+        "title": "fix(slack): dispatch independently routed threads concurrently",
+        "url": "https://github.com/openclaw/openclaw/pull/114552",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-26T04:04:08Z"
+        "updatedAt": "2026-08-26T05:48:31Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-25T18:55:25.968Z",
+  "generatedAt": "2026-08-26T01:56:52.760Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -680,6 +680,23 @@
       "contributors": 3148,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-26",
+      "capturedAt": "2026-08-26T01:56:52.760Z",
+      "issueOpen": 3633,
+      "issueClosed": 45061,
+      "prOpen": 2282,
+      "prClosed": 76254,
+      "prMerged": 28126,
+      "workflowRuns": 40000,
+      "stars": 387611,
+      "forks": 81373,
+      "subscribers": 1754,
+      "commits": 82591,
+      "contributors": 3151,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -898,92 +915,82 @@
       "subscribers": 1755,
       "commits": 82394,
       "contributors": 3148
+    },
+    {
+      "capturedOn": "2026-08-26",
+      "stars": 387611,
+      "forks": 81373,
+      "subscribers": 1754,
+      "commits": 82591,
+      "contributors": 3151
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 128473,
-        "title": "[Bug] Native Codex session discovery (sessionCatalog) leaks one `codex app-server` process per poll cycle — exhausts fork/process table in ~12h (2026.8.1-beta.2)",
-        "url": "https://github.com/openclaw/openclaw/issues/128473",
+        "number": 129749,
+        "title": "[Bug]: Memory CLI omits provider API-key SecretRefs from its command target scope",
+        "url": "https://github.com/openclaw/openclaw/issues/129749",
         "state": "open",
-        "author": "vmanuelort-sys",
-        "updatedAt": "2026-08-25T18:55:18Z"
-      },
-      {
-        "kind": "issue",
-        "number": 129521,
-        "title": "[Bug]: Codex Computer Use fails after managed marketplace source upgrade",
-        "url": "https://github.com/openclaw/openclaw/issues/129521",
-        "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-08-25T18:55:06Z"
-      },
-      {
-        "kind": "issue",
-        "number": 129547,
-        "title": "SQLite migration: decide retention for retired commitments rows",
-        "url": "https://github.com/openclaw/openclaw/issues/129547",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-25T18:54:35Z"
+        "author": "mxw19831107-bot",
+        "updatedAt": "2026-08-26T01:55:21Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 129481,
-        "title": "fix(agents): make terminal CLI failures diagnosable",
-        "url": "https://github.com/openclaw/openclaw/pull/129481",
+        "number": 129761,
+        "title": "fix(ci): type release validation GitHub client",
+        "url": "https://github.com/openclaw/openclaw/pull/129761",
         "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-08-25T18:55:15Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-26T01:56:46Z"
       },
       {
         "kind": "pr",
-        "number": 129482,
-        "title": "fix(ui): usage filters hide sessions when multiple providers are selected",
-        "url": "https://github.com/openclaw/openclaw/pull/129482",
+        "number": 121484,
+        "title": "fix(text): preserve leading whitespace in stripped reasoning message body",
+        "url": "https://github.com/openclaw/openclaw/pull/121484",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-25T18:55:14Z"
+        "author": "ruel225",
+        "updatedAt": "2026-08-26T01:56:46Z"
       },
       {
         "kind": "pr",
-        "number": 129523,
-        "title": "refactor(tool-display): compact generated metadata",
-        "url": "https://github.com/openclaw/openclaw/pull/129523",
+        "number": 123535,
+        "title": "fix(ui): avoid session catalog refresh storms",
+        "url": "https://github.com/openclaw/openclaw/pull/123535",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-25T18:55:21Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-26T01:56:41Z"
       },
       {
         "kind": "pr",
-        "number": 129490,
-        "title": "fix(sessions): isolate maintenance from channel plugin resolvers",
-        "url": "https://github.com/openclaw/openclaw/pull/129490",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-25T18:55:12Z"
-      },
-      {
-        "kind": "pr",
-        "number": 127076,
-        "title": "fix(ui): structure chat transcript attachments by kind",
-        "url": "https://github.com/openclaw/openclaw/pull/127076",
+        "number": 123356,
+        "title": "improve(control-ui): stage slash command arguments in the composer",
+        "url": "https://github.com/openclaw/openclaw/pull/123356",
         "state": "open",
         "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-25T18:55:10Z"
+        "updatedAt": "2026-08-26T01:56:39Z"
       },
       {
         "kind": "pr",
-        "number": 128863,
-        "title": "fix(plugins): scope runtime catalog discovery by provider",
-        "url": "https://github.com/openclaw/openclaw/pull/128863",
+        "number": 128249,
+        "title": "fix(chat): show inherited reasoning in transcripts",
+        "url": "https://github.com/openclaw/openclaw/pull/128249",
         "state": "open",
-        "author": "ekinnee",
-        "updatedAt": "2026-08-25T18:55:09Z"
+        "author": "gaoanze888",
+        "updatedAt": "2026-08-26T01:56:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-26T01:56:27Z"
       }
     ]
   }

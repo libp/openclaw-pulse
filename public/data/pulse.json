@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-26T05:48:57.265Z",
+  "generatedAt": "2026-08-26T07:07:05.684Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -683,18 +683,18 @@
     },
     {
       "capturedOn": "2026-08-26",
-      "capturedAt": "2026-08-26T05:48:57.265Z",
-      "issueOpen": 3608,
-      "issueClosed": 45105,
-      "prOpen": 2248,
-      "prClosed": 76415,
-      "prMerged": 28254,
+      "capturedAt": "2026-08-26T07:07:05.684Z",
+      "issueOpen": 3533,
+      "issueClosed": 45183,
+      "prOpen": 2244,
+      "prClosed": 76465,
+      "prMerged": 28299,
       "workflowRuns": 40000,
-      "stars": 387644,
-      "forks": 81381,
-      "subscribers": 1752,
-      "commits": 82719,
-      "contributors": 3154,
+      "stars": 387660,
+      "forks": 81387,
+      "subscribers": 1753,
+      "commits": 82764,
+      "contributors": 3155,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -918,124 +918,106 @@
     },
     {
       "capturedOn": "2026-08-26",
-      "stars": 387644,
-      "forks": 81381,
-      "subscribers": 1752,
-      "commits": 82719,
-      "contributors": 3154
+      "stars": 387660,
+      "forks": 81387,
+      "subscribers": 1753,
+      "commits": 82764,
+      "contributors": 3155
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 128714,
-        "title": "Duplicate tool call in one turn silently dropped, turn surfaced as incomplete despite unused retry budget",
-        "url": "https://github.com/openclaw/openclaw/issues/128714",
+        "number": 118373,
+        "title": "Scheduled automations agentTurn: exec bridge fails immediately, run + failure notification both undelivered",
+        "url": "https://github.com/openclaw/openclaw/issues/118373",
         "state": "open",
-        "author": "zackchiutw",
-        "updatedAt": "2026-08-26T05:48:49Z"
+        "author": "peterkaynie",
+        "updatedAt": "2026-08-26T07:06:56Z"
       },
       {
         "kind": "issue",
-        "number": 128055,
-        "title": "[Bug]: Control UI deletes immutable assets while WebKit tabs still reference them",
-        "url": "https://github.com/openclaw/openclaw/issues/128055",
+        "number": 115478,
+        "title": "WeChat plugin (@tencent-weixin/openclaw-weixin 2.4.6) fails to load: missing openclaw/plugin-sdk/channel-runtime export",
+        "url": "https://github.com/openclaw/openclaw/issues/115478",
         "state": "open",
-        "author": "hannesrudolph",
-        "updatedAt": "2026-08-26T05:48:51Z"
+        "author": "QQSHI13",
+        "updatedAt": "2026-08-26T07:06:53Z"
       },
       {
         "kind": "issue",
-        "number": 129429,
-        "title": "[Bug]: Stop button does nothing",
-        "url": "https://github.com/openclaw/openclaw/issues/129429",
-        "state": "open",
-        "author": "DigitalCharon",
-        "updatedAt": "2026-08-26T05:48:39Z"
+        "number": 101145,
+        "title": "Dashboard: agent activity/status widgets",
+        "url": "https://github.com/openclaw/openclaw/issues/101145",
+        "state": "closed",
+        "author": "100yenadmin",
+        "updatedAt": "2026-08-26T07:06:47Z"
       },
       {
         "kind": "issue",
-        "number": 119335,
-        "title": "[Bug]: docs say local `openclaw` browser profiles auto-assign `cdpPort`/`cdpUrl`, but the schema rejects any declared profile that sets neither",
-        "url": "https://github.com/openclaw/openclaw/issues/119335",
+        "number": 9637,
+        "title": "Add accessibility config option to disable emojis and unicode symbols in TUI",
+        "url": "https://github.com/openclaw/openclaw/issues/9637",
         "state": "open",
-        "author": "abacha",
-        "updatedAt": "2026-08-26T05:48:27Z"
-      },
-      {
-        "kind": "issue",
-        "number": 128416,
-        "title": "[Bug]: tool calls batched with sessions_yield are killed and report \"sessions_yield\" as their error",
-        "url": "https://github.com/openclaw/openclaw/issues/128416",
-        "state": "open",
-        "author": "jailbirt",
-        "updatedAt": "2026-08-26T05:48:18Z"
-      },
-      {
-        "kind": "issue",
-        "number": 33975,
-        "title": "[Feature]: Fallback approval mode + model attribution in messages",
-        "url": "https://github.com/openclaw/openclaw/issues/33975",
-        "state": "open",
-        "author": "ruhasoft",
-        "updatedAt": "2026-08-26T05:48:07Z"
+        "author": "robin24",
+        "updatedAt": "2026-08-26T07:06:31Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 129873,
-        "title": "fix(tasks): stop completed TaskFlows from accumulating",
-        "url": "https://github.com/openclaw/openclaw/pull/129873",
-        "state": "open",
-        "author": "galiniliev",
-        "updatedAt": "2026-08-26T05:48:50Z"
-      },
-      {
-        "kind": "pr",
-        "number": 129907,
-        "title": "fix(gateway): bound the publication attribute scan by listing size, not the command cap",
-        "url": "https://github.com/openclaw/openclaw/pull/129907",
+        "number": 129957,
+        "title": "fix(android): load chat images, audio, and video behind proxy paths",
+        "url": "https://github.com/openclaw/openclaw/pull/129957",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-26T05:48:44Z"
+        "updatedAt": "2026-08-26T07:07:00Z"
       },
       {
         "kind": "pr",
-        "number": 129818,
-        "title": "fix(talk): make relay playback completion idempotent",
-        "url": "https://github.com/openclaw/openclaw/pull/129818",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-26T05:48:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123774,
-        "title": "fix(daemon): keep hidden Windows launcher alive for the daemon's lifetime",
-        "url": "https://github.com/openclaw/openclaw/pull/123774",
+        "number": 128594,
+        "title": "fix(skills): show byte-aware errors for long descriptions",
+        "url": "https://github.com/openclaw/openclaw/pull/128594",
         "state": "open",
-        "author": "bmorenmiami-droid",
-        "updatedAt": "2026-08-26T05:48:52Z"
+        "author": "Alix-007",
+        "updatedAt": "2026-08-26T07:07:00Z"
       },
       {
         "kind": "pr",
-        "number": 129705,
-        "title": "chore(deps): bump the actions group across 1 directory with 7 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/129705",
-        "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-08-26T05:48:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 114552,
-        "title": "fix(slack): dispatch independently routed threads concurrently",
-        "url": "https://github.com/openclaw/openclaw/pull/114552",
+        "number": 129956,
+        "title": "fix(gateway): preserve target context in suspension resume hints",
+        "url": "https://github.com/openclaw/openclaw/pull/129956",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-26T05:48:31Z"
+        "updatedAt": "2026-08-26T07:06:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 129952,
+        "title": "fix(tui): make provider-specific thinking labels selectable",
+        "url": "https://github.com/openclaw/openclaw/pull/129952",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-26T07:07:01Z"
+      },
+      {
+        "kind": "pr",
+        "number": 129955,
+        "title": "fix(ci): maturity scorecard update stalls when main advances",
+        "url": "https://github.com/openclaw/openclaw/pull/129955",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-26T07:06:55Z"
+      },
+      {
+        "kind": "pr",
+        "number": 129953,
+        "title": "fix(agents): stop suggesting unavailable automation tools",
+        "url": "https://github.com/openclaw/openclaw/pull/129953",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-26T07:06:55Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-28T05:22:10.555Z",
+  "generatedAt": "2026-08-28T18:39:12.676Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -700,18 +700,18 @@
     },
     {
       "capturedOn": "2026-08-28",
-      "capturedAt": "2026-08-28T05:22:10.555Z",
-      "issueOpen": 3556,
-      "issueClosed": 45592,
-      "prOpen": 2187,
-      "prClosed": 77687,
-      "prMerged": 29357,
+      "capturedAt": "2026-08-28T18:39:12.676Z",
+      "issueOpen": 3592,
+      "issueClosed": 45707,
+      "prOpen": 2223,
+      "prClosed": 77960,
+      "prMerged": 29600,
       "workflowRuns": 40000,
-      "stars": 387861,
-      "forks": 81429,
+      "stars": 387928,
+      "forks": 81451,
       "subscribers": 1748,
-      "commits": 83821,
-      "contributors": 3171,
+      "commits": 84065,
+      "contributors": 3183,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -943,97 +943,88 @@
     },
     {
       "capturedOn": "2026-08-28",
-      "stars": 387861,
-      "forks": 81429,
+      "stars": 387928,
+      "forks": 81451,
       "subscribers": 1748,
-      "commits": 83821,
-      "contributors": 3171
+      "commits": 84065,
+      "contributors": 3183
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 28300,
-        "title": "Theme Customization System — Preset Themes + Custom Theme Studio",
-        "url": "https://github.com/openclaw/openclaw/issues/28300",
+        "number": 132019,
+        "title": "[Bug]: Mobile session More menu is oversized and splits visibility controls",
+        "url": "https://github.com/openclaw/openclaw/issues/132019",
         "state": "open",
-        "author": "xingzihai",
-        "updatedAt": "2026-08-28T05:21:58Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-28T18:38:08Z"
       },
       {
         "kind": "issue",
-        "number": 129349,
-        "title": "[Bug]: LINE /card action splits URLs containing commas into extra buttons",
-        "url": "https://github.com/openclaw/openclaw/issues/129349",
+        "number": 132021,
+        "title": "Tool-loop detection interrupts long local-model turns with \"stopped making progress\"; thresholds not configurable",
+        "url": "https://github.com/openclaw/openclaw/issues/132021",
         "state": "open",
-        "author": "edenfunf",
-        "updatedAt": "2026-08-28T05:21:45Z"
-      },
-      {
-        "kind": "issue",
-        "number": 131536,
-        "title": "Worktree tasks override the configured execution permission default",
-        "url": "https://github.com/openclaw/openclaw/issues/131536",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-28T05:21:17Z"
+        "author": "davidxu00",
+        "updatedAt": "2026-08-28T18:37:08Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 117432,
-        "title": "fix(system-agent): tell messaging users a delegated approval can't be applied from chat (#116519)",
-        "url": "https://github.com/openclaw/openclaw/pull/117432",
+        "number": 131866,
+        "title": "fix(ci): unblock macOS Swift test discovery",
+        "url": "https://github.com/openclaw/openclaw/pull/131866",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-08-28T05:21:59Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-28T18:38:59Z"
       },
       {
         "kind": "pr",
-        "number": 122899,
-        "title": "feat(agents): discover workspace files without shell access",
-        "url": "https://github.com/openclaw/openclaw/pull/122899",
-        "state": "open",
-        "author": "ceckert",
-        "updatedAt": "2026-08-28T05:21:52Z"
-      },
-      {
-        "kind": "pr",
-        "number": 130465,
-        "title": "fix(openshell): allow managed host gateway ranges in E2E",
-        "url": "https://github.com/openclaw/openclaw/pull/130465",
-        "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-08-28T05:21:49Z"
-      },
-      {
-        "kind": "pr",
-        "number": 128223,
-        "title": "fix(cli): resolve alias targets from the write snapshot",
-        "url": "https://github.com/openclaw/openclaw/pull/128223",
+        "number": 128995,
+        "title": "feat: make full session actions available from chat header",
+        "url": "https://github.com/openclaw/openclaw/pull/128995",
         "state": "closed",
-        "author": "8exgh",
-        "updatedAt": "2026-08-28T05:21:43Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-08-28T18:38:57Z"
       },
       {
         "kind": "pr",
-        "number": 131504,
-        "title": "fix(ui): keep new automations internal by default",
-        "url": "https://github.com/openclaw/openclaw/pull/131504",
+        "number": 127670,
+        "title": "RFC 0029 CM1: add Control Model session foundation",
+        "url": "https://github.com/openclaw/openclaw/pull/127670",
         "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-08-28T05:21:35Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-08-28T18:38:57Z"
       },
       {
         "kind": "pr",
-        "number": 131376,
-        "title": "fix(ci): route frozen FRV lint to matrix runner",
-        "url": "https://github.com/openclaw/openclaw/pull/131376",
+        "number": 120900,
+        "title": "feat(ui): review install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/120900",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-28T18:38:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 131939,
+        "title": "fix: native fs-safe opt-in fails in bundled installs",
+        "url": "https://github.com/openclaw/openclaw/pull/131939",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-28T05:21:33Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-28T18:38:55Z"
+      },
+      {
+        "kind": "pr",
+        "number": 132012,
+        "title": "docs: reframe docs for teams and soften group-chat guidance",
+        "url": "https://github.com/openclaw/openclaw/pull/132012",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-28T18:38:53Z"
       }
     ]
   }

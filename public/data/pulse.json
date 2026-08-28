@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-26T15:51:06.896Z",
+  "generatedAt": "2026-08-28T05:22:10.555Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -697,6 +697,23 @@
       "contributors": 3161,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-28",
+      "capturedAt": "2026-08-28T05:22:10.555Z",
+      "issueOpen": 3556,
+      "issueClosed": 45592,
+      "prOpen": 2187,
+      "prClosed": 77687,
+      "prMerged": 29357,
+      "workflowRuns": 40000,
+      "stars": 387861,
+      "forks": 81429,
+      "subscribers": 1748,
+      "commits": 83821,
+      "contributors": 3171,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -923,119 +940,100 @@
       "subscribers": 1750,
       "commits": 82963,
       "contributors": 3161
+    },
+    {
+      "capturedOn": "2026-08-28",
+      "stars": 387861,
+      "forks": 81429,
+      "subscribers": 1748,
+      "commits": 83821,
+      "contributors": 3171
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 130194,
-        "title": "[Bug]: /new cannot reset a channel after restart recovery exhaustion",
-        "url": "https://github.com/openclaw/openclaw/issues/130194",
+        "number": 28300,
+        "title": "Theme Customization System — Preset Themes + Custom Theme Studio",
+        "url": "https://github.com/openclaw/openclaw/issues/28300",
         "state": "open",
-        "author": "bdjben",
-        "updatedAt": "2026-08-26T15:50:54Z"
+        "author": "xingzihai",
+        "updatedAt": "2026-08-28T05:21:58Z"
       },
       {
         "kind": "issue",
-        "number": 78537,
-        "title": "[Docs]: `allowInsecurePath` Linux uid-check behavior is undocumented; users on Linux cannot use system-package binaries (e.g. /usr/bin/op) without it",
-        "url": "https://github.com/openclaw/openclaw/issues/78537",
+        "number": 129349,
+        "title": "[Bug]: LINE /card action splits URLs containing commas into extra buttons",
+        "url": "https://github.com/openclaw/openclaw/issues/129349",
         "state": "open",
-        "author": "esqandil",
-        "updatedAt": "2026-08-26T15:50:15Z"
+        "author": "edenfunf",
+        "updatedAt": "2026-08-28T05:21:45Z"
       },
       {
         "kind": "issue",
-        "number": 97616,
-        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
-        "url": "https://github.com/openclaw/openclaw/issues/97616",
-        "state": "open",
-        "author": "avp717",
-        "updatedAt": "2026-08-26T15:50:14Z"
-      },
-      {
-        "kind": "issue",
-        "number": 130193,
-        "title": "Sandboxed read tool rejects paths in the agent's own sandbox.docker.binds when workspaceOnly is true (guard mount table ignores binds)",
-        "url": "https://github.com/openclaw/openclaw/issues/130193",
-        "state": "open",
-        "author": "akmad",
-        "updatedAt": "2026-08-26T15:50:05Z"
-      },
-      {
-        "kind": "issue",
-        "number": 6625,
-        "title": "Feature: Graceful sub-agent timeout (pre-timeout warning)",
-        "url": "https://github.com/openclaw/openclaw/issues/6625",
-        "state": "open",
-        "author": "jekard",
-        "updatedAt": "2026-08-26T15:49:44Z"
-      },
-      {
-        "kind": "issue",
-        "number": 6599,
-        "title": "Feature: Add /models test-fallback command to verify fallback chain",
-        "url": "https://github.com/openclaw/openclaw/issues/6599",
-        "state": "open",
-        "author": "jonwiley",
-        "updatedAt": "2026-08-26T15:49:43Z"
+        "number": 131536,
+        "title": "Worktree tasks override the configured execution permission default",
+        "url": "https://github.com/openclaw/openclaw/issues/131536",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-28T05:21:17Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 130206,
-        "title": "fix(ai): carry the Responses system prompt via instructions, not input[0]",
-        "url": "https://github.com/openclaw/openclaw/pull/130206",
+        "number": 117432,
+        "title": "fix(system-agent): tell messaging users a delegated approval can't be applied from chat (#116519)",
+        "url": "https://github.com/openclaw/openclaw/pull/117432",
         "state": "open",
-        "author": "hartmark",
-        "updatedAt": "2026-08-26T15:50:18Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-08-28T05:21:59Z"
       },
       {
         "kind": "pr",
-        "number": 130105,
-        "title": "feat(portals): expose portals to sessions on node-backed cloud workers",
-        "url": "https://github.com/openclaw/openclaw/pull/130105",
+        "number": 122899,
+        "title": "feat(agents): discover workspace files without shell access",
+        "url": "https://github.com/openclaw/openclaw/pull/122899",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-26T15:50:12Z"
+        "author": "ceckert",
+        "updatedAt": "2026-08-28T05:21:52Z"
       },
       {
         "kind": "pr",
-        "number": 130192,
-        "title": "fix(ui): show sessions while remote projects clone",
-        "url": "https://github.com/openclaw/openclaw/pull/130192",
+        "number": 130465,
+        "title": "fix(openshell): allow managed host gateway ranges in E2E",
+        "url": "https://github.com/openclaw/openclaw/pull/130465",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-26T15:50:01Z"
+        "author": "jalehman",
+        "updatedAt": "2026-08-28T05:21:49Z"
       },
       {
         "kind": "pr",
-        "number": 129993,
-        "title": "fix(subagents): a completed subagent does not wake an idle parent until someone sends a message",
-        "url": "https://github.com/openclaw/openclaw/pull/129993",
-        "state": "open",
-        "author": "Marvinthebored",
-        "updatedAt": "2026-08-26T15:49:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 129957,
-        "title": "fix(android): load chat images, audio, and video behind proxy paths",
-        "url": "https://github.com/openclaw/openclaw/pull/129957",
+        "number": 128223,
+        "title": "fix(cli): resolve alias targets from the write snapshot",
+        "url": "https://github.com/openclaw/openclaw/pull/128223",
         "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-26T15:49:52Z"
+        "author": "8exgh",
+        "updatedAt": "2026-08-28T05:21:43Z"
       },
       {
         "kind": "pr",
-        "number": 129949,
-        "title": "fix(ui): preserve chat URL state during session draft cleanup",
-        "url": "https://github.com/openclaw/openclaw/pull/129949",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-26T15:49:51Z"
+        "number": 131504,
+        "title": "fix(ui): keep new automations internal by default",
+        "url": "https://github.com/openclaw/openclaw/pull/131504",
+        "state": "open",
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-08-28T05:21:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 131376,
+        "title": "fix(ci): route frozen FRV lint to matrix runner",
+        "url": "https://github.com/openclaw/openclaw/pull/131376",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-28T05:21:33Z"
       }
     ]
   }

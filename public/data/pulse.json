@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-28T18:39:12.676Z",
+  "generatedAt": "2026-08-29T02:09:42.519Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -714,6 +714,23 @@
       "contributors": 3183,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-29",
+      "capturedAt": "2026-08-29T02:09:42.519Z",
+      "issueOpen": 3559,
+      "issueClosed": 45813,
+      "prOpen": 2178,
+      "prClosed": 78190,
+      "prMerged": 29813,
+      "workflowRuns": 40000,
+      "stars": 387941,
+      "forks": 81458,
+      "subscribers": 1748,
+      "commits": 84277,
+      "contributors": 3187,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -948,83 +965,100 @@
       "subscribers": 1748,
       "commits": 84065,
       "contributors": 3183
+    },
+    {
+      "capturedOn": "2026-08-29",
+      "stars": 387941,
+      "forks": 81458,
+      "subscribers": 1748,
+      "commits": 84277,
+      "contributors": 3187
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 132019,
-        "title": "[Bug]: Mobile session More menu is oversized and splits visibility controls",
-        "url": "https://github.com/openclaw/openclaw/issues/132019",
+        "number": 88594,
+        "title": "[Bug]: Telegram outbound local media still buffers whole local files into RAM outside the Local Bot API loopback fast-path",
+        "url": "https://github.com/openclaw/openclaw/issues/88594",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-28T18:38:08Z"
+        "author": "pilpel-dobby",
+        "updatedAt": "2026-08-29T02:09:18Z"
       },
       {
         "kind": "issue",
-        "number": 132021,
-        "title": "Tool-loop detection interrupts long local-model turns with \"stopped making progress\"; thresholds not configurable",
-        "url": "https://github.com/openclaw/openclaw/issues/132021",
+        "number": 132187,
+        "title": "[Bug]: Explicit hidden Codex models fail bounded turns",
+        "url": "https://github.com/openclaw/openclaw/issues/132187",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-29T02:08:50Z"
+      },
+      {
+        "kind": "issue",
+        "number": 49251,
+        "title": "[Feature] Queue prompts when API limits prevent an immediate response",
+        "url": "https://github.com/openclaw/openclaw/issues/49251",
         "state": "open",
-        "author": "davidxu00",
-        "updatedAt": "2026-08-28T18:37:08Z"
+        "author": "apoapostolov",
+        "updatedAt": "2026-08-29T02:08:12Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 131866,
-        "title": "fix(ci): unblock macOS Swift test discovery",
-        "url": "https://github.com/openclaw/openclaw/pull/131866",
+        "number": 132279,
+        "title": "fix(daemon): explain unsafe service publication failures",
+        "url": "https://github.com/openclaw/openclaw/pull/132279",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-28T18:38:59Z"
+        "updatedAt": "2026-08-29T02:09:39Z"
       },
       {
         "kind": "pr",
-        "number": 128995,
-        "title": "feat: make full session actions available from chat header",
-        "url": "https://github.com/openclaw/openclaw/pull/128995",
+        "number": 131285,
+        "title": "fix(line): a permanently refused message is replayed instead of settling",
+        "url": "https://github.com/openclaw/openclaw/pull/131285",
+        "state": "open",
+        "author": "edenfunf",
+        "updatedAt": "2026-08-29T02:09:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 128757,
+        "title": "fix(ollama): support adaptive thinking level for Ollama models",
+        "url": "https://github.com/openclaw/openclaw/pull/128757",
+        "state": "open",
+        "author": "MasterSwords1",
+        "updatedAt": "2026-08-29T02:09:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 132076,
+        "title": "fix(macos): reject broken bundled filesystem payloads",
+        "url": "https://github.com/openclaw/openclaw/pull/132076",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-29T02:09:30Z"
+      },
+      {
+        "kind": "pr",
+        "number": 132179,
+        "title": "fix(ui): chat stays blocked after model credentials recover",
+        "url": "https://github.com/openclaw/openclaw/pull/132179",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-29T02:09:20Z"
+      },
+      {
+        "kind": "pr",
+        "number": 132189,
+        "title": "fix(codex): explicitly selected hidden models fail bounded turns",
+        "url": "https://github.com/openclaw/openclaw/pull/132189",
         "state": "closed",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-08-28T18:38:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 127670,
-        "title": "RFC 0029 CM1: add Control Model session foundation",
-        "url": "https://github.com/openclaw/openclaw/pull/127670",
-        "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-08-28T18:38:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-28T18:38:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 131939,
-        "title": "fix: native fs-safe opt-in fails in bundled installs",
-        "url": "https://github.com/openclaw/openclaw/pull/131939",
-        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-28T18:38:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 132012,
-        "title": "docs: reframe docs for teams and soften group-chat guidance",
-        "url": "https://github.com/openclaw/openclaw/pull/132012",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-28T18:38:53Z"
+        "updatedAt": "2026-08-29T02:08:59Z"
       }
     ]
   }

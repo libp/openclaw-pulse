@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-29T02:09:42.519Z",
+  "generatedAt": "2026-08-29T09:00:33.666Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -717,18 +717,18 @@
     },
     {
       "capturedOn": "2026-08-29",
-      "capturedAt": "2026-08-29T02:09:42.519Z",
-      "issueOpen": 3559,
-      "issueClosed": 45813,
-      "prOpen": 2178,
-      "prClosed": 78190,
-      "prMerged": 29813,
+      "capturedAt": "2026-08-29T09:00:33.666Z",
+      "issueOpen": 3539,
+      "issueClosed": 45884,
+      "prOpen": 2181,
+      "prClosed": 78369,
+      "prMerged": 29976,
       "workflowRuns": 40000,
-      "stars": 387941,
-      "forks": 81458,
-      "subscribers": 1748,
-      "commits": 84277,
-      "contributors": 3187,
+      "stars": 387955,
+      "forks": 81466,
+      "subscribers": 1750,
+      "commits": 84439,
+      "contributors": 3190,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -968,97 +968,97 @@
     },
     {
       "capturedOn": "2026-08-29",
-      "stars": 387941,
-      "forks": 81458,
-      "subscribers": 1748,
-      "commits": 84277,
-      "contributors": 3187
+      "stars": 387955,
+      "forks": 81466,
+      "subscribers": 1750,
+      "commits": 84439,
+      "contributors": 3190
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 88594,
-        "title": "[Bug]: Telegram outbound local media still buffers whole local files into RAM outside the Local Bot API loopback fast-path",
-        "url": "https://github.com/openclaw/openclaw/issues/88594",
-        "state": "open",
-        "author": "pilpel-dobby",
-        "updatedAt": "2026-08-29T02:09:18Z"
-      },
-      {
-        "kind": "issue",
-        "number": 132187,
-        "title": "[Bug]: Explicit hidden Codex models fail bounded turns",
-        "url": "https://github.com/openclaw/openclaw/issues/132187",
+        "number": 130063,
+        "title": "[Bug]: Webchat dashboard sessions reset without explicit /reset — same-day, non-idle sessions silently lost (4 of 11 reset events unexplained)",
+        "url": "https://github.com/openclaw/openclaw/issues/130063",
         "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-29T02:08:50Z"
+        "author": "umggcsh",
+        "updatedAt": "2026-08-29T09:00:28Z"
       },
       {
         "kind": "issue",
-        "number": 49251,
-        "title": "[Feature] Queue prompts when API limits prevent an immediate response",
-        "url": "https://github.com/openclaw/openclaw/issues/49251",
+        "number": 127341,
+        "title": "[Bug]: Advanced Config clones and serializes the full document on every keystroke",
+        "url": "https://github.com/openclaw/openclaw/issues/127341",
         "state": "open",
-        "author": "apoapostolov",
-        "updatedAt": "2026-08-29T02:08:12Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-29T09:00:19Z"
+      },
+      {
+        "kind": "issue",
+        "number": 112196,
+        "title": "memory_search: transient sync timeout masks as persistent provider failure / \"database is not open\"",
+        "url": "https://github.com/openclaw/openclaw/issues/112196",
+        "state": "open",
+        "author": "leiouhe",
+        "updatedAt": "2026-08-29T08:59:32Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 132279,
-        "title": "fix(daemon): explain unsafe service publication failures",
-        "url": "https://github.com/openclaw/openclaw/pull/132279",
+        "number": 132453,
+        "title": "feat(gateway): expose per-account provider usage",
+        "url": "https://github.com/openclaw/openclaw/pull/132453",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-29T02:09:39Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-29T09:00:26Z"
       },
       {
         "kind": "pr",
-        "number": 131285,
-        "title": "fix(line): a permanently refused message is replayed instead of settling",
-        "url": "https://github.com/openclaw/openclaw/pull/131285",
+        "number": 132503,
+        "title": "feat(macos): show session in exec approval prompt",
+        "url": "https://github.com/openclaw/openclaw/pull/132503",
         "state": "open",
-        "author": "edenfunf",
-        "updatedAt": "2026-08-29T02:09:35Z"
+        "author": "Leon-SK668",
+        "updatedAt": "2026-08-29T09:00:22Z"
       },
       {
         "kind": "pr",
-        "number": 128757,
-        "title": "fix(ollama): support adaptive thinking level for Ollama models",
-        "url": "https://github.com/openclaw/openclaw/pull/128757",
-        "state": "open",
-        "author": "MasterSwords1",
-        "updatedAt": "2026-08-29T02:09:35Z"
-      },
-      {
-        "kind": "pr",
-        "number": 132076,
-        "title": "fix(macos): reject broken bundled filesystem payloads",
-        "url": "https://github.com/openclaw/openclaw/pull/132076",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-29T02:09:30Z"
-      },
-      {
-        "kind": "pr",
-        "number": 132179,
-        "title": "fix(ui): chat stays blocked after model credentials recover",
-        "url": "https://github.com/openclaw/openclaw/pull/132179",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-29T02:09:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 132189,
-        "title": "fix(codex): explicitly selected hidden models fail bounded turns",
-        "url": "https://github.com/openclaw/openclaw/pull/132189",
+        "number": 123535,
+        "title": "fix(ui): avoid session catalog refresh storms",
+        "url": "https://github.com/openclaw/openclaw/pull/123535",
         "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-29T09:00:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117434,
+        "title": "fix(doctor): fail visibly on contradictory lint selectors",
+        "url": "https://github.com/openclaw/openclaw/pull/117434",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-29T02:08:59Z"
+        "updatedAt": "2026-08-29T09:00:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 132439,
+        "title": "perf(gateway): reduce session-event delivery filesystem work",
+        "url": "https://github.com/openclaw/openclaw/pull/132439",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-29T09:00:15Z"
+      },
+      {
+        "kind": "pr",
+        "number": 102636,
+        "title": "fix(handoff): skip orchestrator framing for solo agents without subagents",
+        "url": "https://github.com/openclaw/openclaw/pull/102636",
+        "state": "open",
+        "author": "Gary-Jia-new",
+        "updatedAt": "2026-08-29T09:00:14Z"
       }
     ]
   }

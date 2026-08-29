@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-29T14:27:13.256Z",
+  "generatedAt": "2026-08-29T18:26:47.622Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -717,18 +717,18 @@
     },
     {
       "capturedOn": "2026-08-29",
-      "capturedAt": "2026-08-29T14:27:13.256Z",
-      "issueOpen": 3530,
-      "issueClosed": 45922,
-      "prOpen": 2171,
-      "prClosed": 78467,
-      "prMerged": 30066,
+      "capturedAt": "2026-08-29T18:26:47.622Z",
+      "issueOpen": 3534,
+      "issueClosed": 45948,
+      "prOpen": 2192,
+      "prClosed": 78552,
+      "prMerged": 30146,
       "workflowRuns": 40000,
-      "stars": 387974,
-      "forks": 81474,
-      "subscribers": 1751,
-      "commits": 84530,
-      "contributors": 3190,
+      "stars": 388000,
+      "forks": 81473,
+      "subscribers": 1752,
+      "commits": 84612,
+      "contributors": 3195,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -968,124 +968,97 @@
     },
     {
       "capturedOn": "2026-08-29",
-      "stars": 387974,
-      "forks": 81474,
-      "subscribers": 1751,
-      "commits": 84530,
-      "contributors": 3190
+      "stars": 388000,
+      "forks": 81473,
+      "subscribers": 1752,
+      "commits": 84612,
+      "contributors": 3195
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 129034,
-        "title": "bundled himalaya skill docs use pre-2.1.0 config.toml schema, breaks silently on current himalaya",
-        "url": "https://github.com/openclaw/openclaw/issues/129034",
-        "state": "open",
-        "author": "brandonperfetti",
-        "updatedAt": "2026-08-29T14:27:04Z"
+        "number": 132764,
+        "title": "Subagent completion announce fails on both delivery paths when requester is yield-parked (queue: no_active_run, direct: active turn claim)",
+        "url": "https://github.com/openclaw/openclaw/issues/132764",
+        "state": "closed",
+        "author": "jeongdonguk",
+        "updatedAt": "2026-08-29T18:26:20Z"
       },
       {
         "kind": "issue",
-        "number": 121795,
-        "title": "[Feature]: Include usage in infer model run gateway JSON envelope",
-        "url": "https://github.com/openclaw/openclaw/issues/121795",
+        "number": 132766,
+        "title": "Outbound delivery mirror takes its transcript writer fence with no arguments, so cross-session mirrors into a rebound target session are silently dropped",
+        "url": "https://github.com/openclaw/openclaw/issues/132766",
         "state": "open",
-        "author": "aleps001",
-        "updatedAt": "2026-08-29T14:27:09Z"
+        "author": "abacha",
+        "updatedAt": "2026-08-29T18:26:12Z"
       },
       {
         "kind": "issue",
-        "number": 102534,
-        "title": "Cron scheduler timer permanently stops firing after heavy timeouts (v2026.6.5)",
-        "url": "https://github.com/openclaw/openclaw/issues/102534",
+        "number": 132767,
+        "title": "Generic CLI host omits \"assemble-before-prompt\", so a context engine's systemPromptAddition only reaches the model one turn late (and never on single-turn sessions)",
+        "url": "https://github.com/openclaw/openclaw/issues/132767",
         "state": "open",
-        "author": "chimentowy-tech",
-        "updatedAt": "2026-08-29T14:27:01Z"
-      },
-      {
-        "kind": "issue",
-        "number": 54565,
-        "title": "Feature request: per-group debounceMs for WhatsApp (and other channels)",
-        "url": "https://github.com/openclaw/openclaw/issues/54565",
-        "state": "open",
-        "author": "pa-marcopereira",
-        "updatedAt": "2026-08-29T14:26:56Z"
-      },
-      {
-        "kind": "issue",
-        "number": 87440,
-        "title": "bug: Duplicate messages sent to Slack",
-        "url": "https://github.com/openclaw/openclaw/issues/87440",
-        "state": "open",
-        "author": "VeroPwr",
-        "updatedAt": "2026-08-29T14:26:42Z"
-      },
-      {
-        "kind": "issue",
-        "number": 72504,
-        "title": "Feishu: bot strips its own <at> mention causing NO_REPLY in multi-bot groups",
-        "url": "https://github.com/openclaw/openclaw/issues/72504",
-        "state": "open",
-        "author": "AxelHu",
-        "updatedAt": "2026-08-29T14:26:39Z"
+        "author": "abacha",
+        "updatedAt": "2026-08-29T18:26:08Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 130349,
-        "title": "fix(tui): reload auth store ownership after login",
-        "url": "https://github.com/openclaw/openclaw/pull/130349",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-29T14:27:07Z"
+        "number": 116489,
+        "title": "feat(security): require acknowledgement for install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/116489",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-29T18:26:40Z"
       },
       {
         "kind": "pr",
-        "number": 120472,
-        "title": "fix(scripts): reject non-decimal hosted-gate PR numbers",
-        "url": "https://github.com/openclaw/openclaw/pull/120472",
+        "number": 132727,
+        "title": "fix(docs): ignore links inside fenced code",
+        "url": "https://github.com/openclaw/openclaw/pull/132727",
         "state": "open",
         "author": "qingminglong",
-        "updatedAt": "2026-08-29T14:27:06Z"
+        "updatedAt": "2026-08-29T18:26:38Z"
       },
       {
         "kind": "pr",
-        "number": 128371,
-        "title": "fix(release): authorize focused beta evidence",
-        "url": "https://github.com/openclaw/openclaw/pull/128371",
-        "state": "closed",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-29T14:27:05Z"
-      },
-      {
-        "kind": "pr",
-        "number": 131956,
-        "title": "fix(heartbeat): admit restart-sentinel in isTargetedUnscheduledWake",
-        "url": "https://github.com/openclaw/openclaw/pull/131956",
+        "number": 130993,
+        "title": "fix: Responses sessions compact before reaching context limit",
+        "url": "https://github.com/openclaw/openclaw/pull/130993",
         "state": "open",
-        "author": "emberb170d",
-        "updatedAt": "2026-08-29T14:27:04Z"
+        "author": "VACInc",
+        "updatedAt": "2026-08-29T18:26:35Z"
       },
       {
         "kind": "pr",
-        "number": 97485,
-        "title": "feat(agents): add iteration budget for agent loop safety",
-        "url": "https://github.com/openclaw/openclaw/pull/97485",
+        "number": 132771,
+        "title": "test: share HTTP rejection resource cleanup proof",
+        "url": "https://github.com/openclaw/openclaw/pull/132771",
         "state": "open",
-        "author": "alexm-redhat",
-        "updatedAt": "2026-08-29T14:27:04Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-29T18:26:44Z"
       },
       {
         "kind": "pr",
-        "number": 132626,
-        "title": "fix(logging): preserve newly written stability bundles",
-        "url": "https://github.com/openclaw/openclaw/pull/132626",
+        "number": 115184,
+        "title": "fix: recover ACP sessions when reset cleanup times out",
+        "url": "https://github.com/openclaw/openclaw/pull/115184",
+        "state": "open",
+        "author": "JackS1237",
+        "updatedAt": "2026-08-29T18:26:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125130,
+        "title": "fix(agents): warn when fallback recovers subagent delivery",
+        "url": "https://github.com/openclaw/openclaw/pull/125130",
         "state": "open",
         "author": "Alix-007",
-        "updatedAt": "2026-08-29T14:26:59Z"
+        "updatedAt": "2026-08-29T18:26:32Z"
       }
     ]
   }

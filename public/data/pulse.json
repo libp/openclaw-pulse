@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-29T09:00:33.666Z",
+  "generatedAt": "2026-08-29T14:27:13.256Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -717,17 +717,17 @@
     },
     {
       "capturedOn": "2026-08-29",
-      "capturedAt": "2026-08-29T09:00:33.666Z",
-      "issueOpen": 3539,
-      "issueClosed": 45884,
-      "prOpen": 2181,
-      "prClosed": 78369,
-      "prMerged": 29976,
+      "capturedAt": "2026-08-29T14:27:13.256Z",
+      "issueOpen": 3530,
+      "issueClosed": 45922,
+      "prOpen": 2171,
+      "prClosed": 78467,
+      "prMerged": 30066,
       "workflowRuns": 40000,
-      "stars": 387955,
-      "forks": 81466,
-      "subscribers": 1750,
-      "commits": 84439,
+      "stars": 387974,
+      "forks": 81474,
+      "subscribers": 1751,
+      "commits": 84530,
       "contributors": 3190,
       "source": "github-actions",
       "approximateDate": false
@@ -968,10 +968,10 @@
     },
     {
       "capturedOn": "2026-08-29",
-      "stars": 387955,
-      "forks": 81466,
-      "subscribers": 1750,
-      "commits": 84439,
+      "stars": 387974,
+      "forks": 81474,
+      "subscribers": 1751,
+      "commits": 84530,
       "contributors": 3190
     }
   ],
@@ -979,86 +979,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 130063,
-        "title": "[Bug]: Webchat dashboard sessions reset without explicit /reset — same-day, non-idle sessions silently lost (4 of 11 reset events unexplained)",
-        "url": "https://github.com/openclaw/openclaw/issues/130063",
-        "state": "closed",
-        "author": "umggcsh",
-        "updatedAt": "2026-08-29T09:00:28Z"
+        "number": 129034,
+        "title": "bundled himalaya skill docs use pre-2.1.0 config.toml schema, breaks silently on current himalaya",
+        "url": "https://github.com/openclaw/openclaw/issues/129034",
+        "state": "open",
+        "author": "brandonperfetti",
+        "updatedAt": "2026-08-29T14:27:04Z"
       },
       {
         "kind": "issue",
-        "number": 127341,
-        "title": "[Bug]: Advanced Config clones and serializes the full document on every keystroke",
-        "url": "https://github.com/openclaw/openclaw/issues/127341",
+        "number": 121795,
+        "title": "[Feature]: Include usage in infer model run gateway JSON envelope",
+        "url": "https://github.com/openclaw/openclaw/issues/121795",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-29T09:00:19Z"
+        "author": "aleps001",
+        "updatedAt": "2026-08-29T14:27:09Z"
       },
       {
         "kind": "issue",
-        "number": 112196,
-        "title": "memory_search: transient sync timeout masks as persistent provider failure / \"database is not open\"",
-        "url": "https://github.com/openclaw/openclaw/issues/112196",
+        "number": 102534,
+        "title": "Cron scheduler timer permanently stops firing after heavy timeouts (v2026.6.5)",
+        "url": "https://github.com/openclaw/openclaw/issues/102534",
         "state": "open",
-        "author": "leiouhe",
-        "updatedAt": "2026-08-29T08:59:32Z"
+        "author": "chimentowy-tech",
+        "updatedAt": "2026-08-29T14:27:01Z"
+      },
+      {
+        "kind": "issue",
+        "number": 54565,
+        "title": "Feature request: per-group debounceMs for WhatsApp (and other channels)",
+        "url": "https://github.com/openclaw/openclaw/issues/54565",
+        "state": "open",
+        "author": "pa-marcopereira",
+        "updatedAt": "2026-08-29T14:26:56Z"
+      },
+      {
+        "kind": "issue",
+        "number": 87440,
+        "title": "bug: Duplicate messages sent to Slack",
+        "url": "https://github.com/openclaw/openclaw/issues/87440",
+        "state": "open",
+        "author": "VeroPwr",
+        "updatedAt": "2026-08-29T14:26:42Z"
+      },
+      {
+        "kind": "issue",
+        "number": 72504,
+        "title": "Feishu: bot strips its own <at> mention causing NO_REPLY in multi-bot groups",
+        "url": "https://github.com/openclaw/openclaw/issues/72504",
+        "state": "open",
+        "author": "AxelHu",
+        "updatedAt": "2026-08-29T14:26:39Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 132453,
-        "title": "feat(gateway): expose per-account provider usage",
-        "url": "https://github.com/openclaw/openclaw/pull/132453",
+        "number": 130349,
+        "title": "fix(tui): reload auth store ownership after login",
+        "url": "https://github.com/openclaw/openclaw/pull/130349",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-29T09:00:26Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-29T14:27:07Z"
       },
       {
         "kind": "pr",
-        "number": 132503,
-        "title": "feat(macos): show session in exec approval prompt",
-        "url": "https://github.com/openclaw/openclaw/pull/132503",
+        "number": 120472,
+        "title": "fix(scripts): reject non-decimal hosted-gate PR numbers",
+        "url": "https://github.com/openclaw/openclaw/pull/120472",
         "state": "open",
-        "author": "Leon-SK668",
-        "updatedAt": "2026-08-29T09:00:22Z"
+        "author": "qingminglong",
+        "updatedAt": "2026-08-29T14:27:06Z"
       },
       {
         "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "number": 128371,
+        "title": "fix(release): authorize focused beta evidence",
+        "url": "https://github.com/openclaw/openclaw/pull/128371",
         "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-29T09:00:16Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-29T14:27:05Z"
       },
       {
         "kind": "pr",
-        "number": 117434,
-        "title": "fix(doctor): fail visibly on contradictory lint selectors",
-        "url": "https://github.com/openclaw/openclaw/pull/117434",
+        "number": 131956,
+        "title": "fix(heartbeat): admit restart-sentinel in isTargetedUnscheduledWake",
+        "url": "https://github.com/openclaw/openclaw/pull/131956",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-29T09:00:16Z"
+        "author": "emberb170d",
+        "updatedAt": "2026-08-29T14:27:04Z"
       },
       {
         "kind": "pr",
-        "number": 132439,
-        "title": "perf(gateway): reduce session-event delivery filesystem work",
-        "url": "https://github.com/openclaw/openclaw/pull/132439",
+        "number": 97485,
+        "title": "feat(agents): add iteration budget for agent loop safety",
+        "url": "https://github.com/openclaw/openclaw/pull/97485",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-29T09:00:15Z"
+        "author": "alexm-redhat",
+        "updatedAt": "2026-08-29T14:27:04Z"
       },
       {
         "kind": "pr",
-        "number": 102636,
-        "title": "fix(handoff): skip orchestrator framing for solo agents without subagents",
-        "url": "https://github.com/openclaw/openclaw/pull/102636",
+        "number": 132626,
+        "title": "fix(logging): preserve newly written stability bundles",
+        "url": "https://github.com/openclaw/openclaw/pull/132626",
         "state": "open",
-        "author": "Gary-Jia-new",
-        "updatedAt": "2026-08-29T09:00:14Z"
+        "author": "Alix-007",
+        "updatedAt": "2026-08-29T14:26:59Z"
       }
     ]
   }

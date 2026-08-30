@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-30T06:37:35.478Z",
+  "generatedAt": "2026-08-30T21:02:51.327Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -734,18 +734,18 @@
     },
     {
       "capturedOn": "2026-08-30",
-      "capturedAt": "2026-08-30T06:37:35.478Z",
-      "issueOpen": 3543,
-      "issueClosed": 46039,
-      "prOpen": 2188,
-      "prClosed": 78807,
-      "prMerged": 30376,
+      "capturedAt": "2026-08-30T21:02:51.327Z",
+      "issueOpen": 3556,
+      "issueClosed": 46147,
+      "prOpen": 2213,
+      "prClosed": 79080,
+      "prMerged": 30624,
       "workflowRuns": 40000,
-      "stars": 388032,
-      "forks": 81473,
-      "subscribers": 1751,
-      "commits": 84841,
-      "contributors": 3197,
+      "stars": 388079,
+      "forks": 81483,
+      "subscribers": 1750,
+      "commits": 85088,
+      "contributors": 3201,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -993,11 +993,11 @@
     },
     {
       "capturedOn": "2026-08-30",
-      "stars": 388032,
-      "forks": 81473,
-      "subscribers": 1751,
-      "commits": 84841,
-      "contributors": 3197
+      "stars": 388079,
+      "forks": 81483,
+      "subscribers": 1750,
+      "commits": 85088,
+      "contributors": 3201
     }
   ],
   "activity": {
@@ -1009,63 +1009,81 @@
         "url": "https://github.com/openclaw/openclaw/issues/53763",
         "state": "open",
         "author": "luoziyan100",
-        "updatedAt": "2026-08-30T06:37:29Z"
+        "updatedAt": "2026-08-30T21:02:39Z"
+      },
+      {
+        "kind": "issue",
+        "number": 133534,
+        "title": "[Feature]: Show delayed member skeletons in session sharing",
+        "url": "https://github.com/openclaw/openclaw/issues/133534",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-30T21:02:21Z"
+      },
+      {
+        "kind": "issue",
+        "number": 133538,
+        "title": "[Feature]: Preview pending GitHub project search results",
+        "url": "https://github.com/openclaw/openclaw/issues/133538",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-08-30T21:01:06Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 119850,
-        "title": "fix(macos): recover onboarding and prove packaged bootstrap",
-        "url": "https://github.com/openclaw/openclaw/pull/119850",
-        "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-08-30T06:37:28Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120618,
-        "title": "fix(codex): agents ignore AGENTS.md on sandboxed app-server runs [AI]",
-        "url": "https://github.com/openclaw/openclaw/pull/120618",
-        "state": "open",
-        "author": "sercada",
-        "updatedAt": "2026-08-30T06:37:27Z"
-      },
-      {
-        "kind": "pr",
-        "number": 133111,
-        "title": "fix(codex): avoid startup failures from unrelated unreadable processes",
-        "url": "https://github.com/openclaw/openclaw/pull/133111",
+        "number": 133542,
+        "title": "fix: prevent duplicate queued user messages in chat clients",
+        "url": "https://github.com/openclaw/openclaw/pull/133542",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-30T06:37:25Z"
+        "updatedAt": "2026-08-30T21:02:46Z"
       },
       {
         "kind": "pr",
-        "number": 110714,
-        "title": "fix(oc-path): bound config file reads with size cap",
-        "url": "https://github.com/openclaw/openclaw/pull/110714",
+        "number": 126887,
+        "title": "fix(release): isolate plugin security scanning",
+        "url": "https://github.com/openclaw/openclaw/pull/126887",
         "state": "open",
-        "author": "cxbAsDev",
-        "updatedAt": "2026-08-30T06:37:19Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-08-30T21:02:37Z"
       },
       {
         "kind": "pr",
-        "number": 133000,
-        "title": "chore: prepare extended-stable 2026.7.33",
-        "url": "https://github.com/openclaw/openclaw/pull/133000",
+        "number": 133499,
+        "title": "fix(imessage): keep replies in the current conversation",
+        "url": "https://github.com/openclaw/openclaw/pull/133499",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-30T06:37:17Z"
+        "author": "omarshahine",
+        "updatedAt": "2026-08-30T21:02:35Z"
       },
       {
         "kind": "pr",
-        "number": 124188,
-        "title": "docs: add Browser Use as a direct CDP provider",
-        "url": "https://github.com/openclaw/openclaw/pull/124188",
+        "number": 130993,
+        "title": "fix: Responses sessions compact before reaching context limit",
+        "url": "https://github.com/openclaw/openclaw/pull/130993",
+        "state": "closed",
+        "author": "VACInc",
+        "updatedAt": "2026-08-30T21:02:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120900,
+        "title": "feat(ui): review install policy warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/120900",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-08-30T21:02:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120008,
+        "title": "fix(ai): mark interrupted stream usage as unavailable",
+        "url": "https://github.com/openclaw/openclaw/pull/120008",
         "state": "open",
-        "author": "MagMueller",
-        "updatedAt": "2026-08-30T06:37:16Z"
+        "author": "OWWZO",
+        "updatedAt": "2026-08-30T21:02:30Z"
       }
     ]
   }

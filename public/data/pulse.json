@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-29T18:26:47.622Z",
+  "generatedAt": "2026-08-30T06:37:35.478Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -731,6 +731,23 @@
       "contributors": 3195,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-08-30",
+      "capturedAt": "2026-08-30T06:37:35.478Z",
+      "issueOpen": 3543,
+      "issueClosed": 46039,
+      "prOpen": 2188,
+      "prClosed": 78807,
+      "prMerged": 30376,
+      "workflowRuns": 40000,
+      "stars": 388032,
+      "forks": 81473,
+      "subscribers": 1751,
+      "commits": 84841,
+      "contributors": 3197,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -973,92 +990,82 @@
       "subscribers": 1752,
       "commits": 84612,
       "contributors": 3195
+    },
+    {
+      "capturedOn": "2026-08-30",
+      "stars": 388032,
+      "forks": 81473,
+      "subscribers": 1751,
+      "commits": 84841,
+      "contributors": 3197
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 132764,
-        "title": "Subagent completion announce fails on both delivery paths when requester is yield-parked (queue: no_active_run, direct: active turn claim)",
-        "url": "https://github.com/openclaw/openclaw/issues/132764",
-        "state": "closed",
-        "author": "jeongdonguk",
-        "updatedAt": "2026-08-29T18:26:20Z"
-      },
-      {
-        "kind": "issue",
-        "number": 132766,
-        "title": "Outbound delivery mirror takes its transcript writer fence with no arguments, so cross-session mirrors into a rebound target session are silently dropped",
-        "url": "https://github.com/openclaw/openclaw/issues/132766",
+        "number": 53763,
+        "title": "[Feature]: Built-in headless browser for reliable web access without external dependencies",
+        "url": "https://github.com/openclaw/openclaw/issues/53763",
         "state": "open",
-        "author": "abacha",
-        "updatedAt": "2026-08-29T18:26:12Z"
-      },
-      {
-        "kind": "issue",
-        "number": 132767,
-        "title": "Generic CLI host omits \"assemble-before-prompt\", so a context engine's systemPromptAddition only reaches the model one turn late (and never on single-turn sessions)",
-        "url": "https://github.com/openclaw/openclaw/issues/132767",
-        "state": "open",
-        "author": "abacha",
-        "updatedAt": "2026-08-29T18:26:08Z"
+        "author": "luoziyan100",
+        "updatedAt": "2026-08-30T06:37:29Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 116489,
-        "title": "feat(security): require acknowledgement for install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/116489",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-29T18:26:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 132727,
-        "title": "fix(docs): ignore links inside fenced code",
-        "url": "https://github.com/openclaw/openclaw/pull/132727",
+        "number": 119850,
+        "title": "fix(macos): recover onboarding and prove packaged bootstrap",
+        "url": "https://github.com/openclaw/openclaw/pull/119850",
         "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-08-29T18:26:38Z"
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-08-30T06:37:28Z"
       },
       {
         "kind": "pr",
-        "number": 130993,
-        "title": "fix: Responses sessions compact before reaching context limit",
-        "url": "https://github.com/openclaw/openclaw/pull/130993",
+        "number": 120618,
+        "title": "fix(codex): agents ignore AGENTS.md on sandboxed app-server runs [AI]",
+        "url": "https://github.com/openclaw/openclaw/pull/120618",
         "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-08-29T18:26:35Z"
+        "author": "sercada",
+        "updatedAt": "2026-08-30T06:37:27Z"
       },
       {
         "kind": "pr",
-        "number": 132771,
-        "title": "test: share HTTP rejection resource cleanup proof",
-        "url": "https://github.com/openclaw/openclaw/pull/132771",
+        "number": 133111,
+        "title": "fix(codex): avoid startup failures from unrelated unreadable processes",
+        "url": "https://github.com/openclaw/openclaw/pull/133111",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-29T18:26:44Z"
+        "updatedAt": "2026-08-30T06:37:25Z"
       },
       {
         "kind": "pr",
-        "number": 115184,
-        "title": "fix: recover ACP sessions when reset cleanup times out",
-        "url": "https://github.com/openclaw/openclaw/pull/115184",
+        "number": 110714,
+        "title": "fix(oc-path): bound config file reads with size cap",
+        "url": "https://github.com/openclaw/openclaw/pull/110714",
         "state": "open",
-        "author": "JackS1237",
-        "updatedAt": "2026-08-29T18:26:33Z"
+        "author": "cxbAsDev",
+        "updatedAt": "2026-08-30T06:37:19Z"
       },
       {
         "kind": "pr",
-        "number": 125130,
-        "title": "fix(agents): warn when fallback recovers subagent delivery",
-        "url": "https://github.com/openclaw/openclaw/pull/125130",
+        "number": 133000,
+        "title": "chore: prepare extended-stable 2026.7.33",
+        "url": "https://github.com/openclaw/openclaw/pull/133000",
         "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-08-29T18:26:32Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-30T06:37:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 124188,
+        "title": "docs: add Browser Use as a direct CDP provider",
+        "url": "https://github.com/openclaw/openclaw/pull/124188",
+        "state": "open",
+        "author": "MagMueller",
+        "updatedAt": "2026-08-30T06:37:16Z"
       }
     ]
   }

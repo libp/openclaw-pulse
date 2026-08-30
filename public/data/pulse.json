@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-30T21:02:51.327Z",
+  "generatedAt": "2026-08-30T23:28:30.786Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -734,17 +734,17 @@
     },
     {
       "capturedOn": "2026-08-30",
-      "capturedAt": "2026-08-30T21:02:51.327Z",
-      "issueOpen": 3556,
-      "issueClosed": 46147,
-      "prOpen": 2213,
-      "prClosed": 79080,
-      "prMerged": 30624,
+      "capturedAt": "2026-08-30T23:28:30.786Z",
+      "issueOpen": 3564,
+      "issueClosed": 46162,
+      "prOpen": 2205,
+      "prClosed": 79139,
+      "prMerged": 30680,
       "workflowRuns": 40000,
-      "stars": 388079,
-      "forks": 81483,
+      "stars": 388088,
+      "forks": 81482,
       "subscribers": 1750,
-      "commits": 85088,
+      "commits": 85142,
       "contributors": 3201,
       "source": "github-actions",
       "approximateDate": false
@@ -993,10 +993,10 @@
     },
     {
       "capturedOn": "2026-08-30",
-      "stars": 388079,
-      "forks": 81483,
+      "stars": 388088,
+      "forks": 81482,
       "subscribers": 1750,
-      "commits": 85088,
+      "commits": 85142,
       "contributors": 3201
     }
   ],
@@ -1004,86 +1004,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 53763,
-        "title": "[Feature]: Built-in headless browser for reliable web access without external dependencies",
-        "url": "https://github.com/openclaw/openclaw/issues/53763",
+        "number": 133612,
+        "title": "[Bug]: Delayed ACP spawn admits work after the child session is reset or recreated",
+        "url": "https://github.com/openclaw/openclaw/issues/133612",
         "state": "open",
-        "author": "luoziyan100",
-        "updatedAt": "2026-08-30T21:02:39Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-30T23:27:34Z"
       },
       {
         "kind": "issue",
-        "number": 133534,
-        "title": "[Feature]: Show delayed member skeletons in session sharing",
-        "url": "https://github.com/openclaw/openclaw/issues/133534",
+        "number": 133608,
+        "title": "[Bug]: quoted input-file charset parameters silently corrupt text",
+        "url": "https://github.com/openclaw/openclaw/issues/133608",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-30T21:02:21Z"
-      },
-      {
-        "kind": "issue",
-        "number": 133538,
-        "title": "[Feature]: Preview pending GitHub project search results",
-        "url": "https://github.com/openclaw/openclaw/issues/133538",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-08-30T21:01:06Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-30T23:27:32Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 133542,
-        "title": "fix: prevent duplicate queued user messages in chat clients",
-        "url": "https://github.com/openclaw/openclaw/pull/133542",
+        "number": 133611,
+        "title": "improve: reduce legacy transcript scanning overhead",
+        "url": "https://github.com/openclaw/openclaw/pull/133611",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-30T21:02:46Z"
+        "updatedAt": "2026-08-30T23:28:21Z"
       },
       {
         "kind": "pr",
-        "number": 126887,
-        "title": "fix(release): isolate plugin security scanning",
-        "url": "https://github.com/openclaw/openclaw/pull/126887",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-08-30T21:02:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 133499,
-        "title": "fix(imessage): keep replies in the current conversation",
-        "url": "https://github.com/openclaw/openclaw/pull/133499",
+        "number": 133563,
+        "title": "fix(state): fence automatic agent database migrations",
+        "url": "https://github.com/openclaw/openclaw/pull/133563",
         "state": "open",
         "author": "omarshahine",
-        "updatedAt": "2026-08-30T21:02:35Z"
+        "updatedAt": "2026-08-30T23:28:21Z"
       },
       {
         "kind": "pr",
-        "number": 130993,
-        "title": "fix: Responses sessions compact before reaching context limit",
-        "url": "https://github.com/openclaw/openclaw/pull/130993",
-        "state": "closed",
-        "author": "VACInc",
-        "updatedAt": "2026-08-30T21:02:35Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120900,
-        "title": "feat(ui): review install policy warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/120900",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-08-30T21:02:35Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120008,
-        "title": "fix(ai): mark interrupted stream usage as unavailable",
-        "url": "https://github.com/openclaw/openclaw/pull/120008",
+        "number": 132129,
+        "title": "fix(talk): bind steering to exact run authority",
+        "url": "https://github.com/openclaw/openclaw/pull/132129",
         "state": "open",
-        "author": "OWWZO",
-        "updatedAt": "2026-08-30T21:02:30Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-30T23:28:21Z"
+      },
+      {
+        "kind": "pr",
+        "number": 133536,
+        "title": "fix(ui): restore text selection and simplify GitHub code copying",
+        "url": "https://github.com/openclaw/openclaw/pull/133536",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-30T23:28:20Z"
+      },
+      {
+        "kind": "pr",
+        "number": 133596,
+        "title": "fix(auth): classify managed SecretRef API keys as static",
+        "url": "https://github.com/openclaw/openclaw/pull/133596",
+        "state": "open",
+        "author": "mateu",
+        "updatedAt": "2026-08-30T23:28:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 133616,
+        "title": "perf(qa): run isolated live transports with bounded concurrency",
+        "url": "https://github.com/openclaw/openclaw/pull/133616",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-30T23:28:16Z"
       }
     ]
   }

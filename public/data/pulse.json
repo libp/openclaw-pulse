@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-31T20:02:19.189Z",
+  "generatedAt": "2026-08-31T23:49:51.870Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -751,18 +751,18 @@
     },
     {
       "capturedOn": "2026-08-31",
-      "capturedAt": "2026-08-31T20:02:19.189Z",
-      "issueOpen": 3616,
-      "issueClosed": 46327,
-      "prOpen": 2274,
-      "prClosed": 79682,
-      "prMerged": 31155,
+      "capturedAt": "2026-08-31T23:49:51.870Z",
+      "issueOpen": 3630,
+      "issueClosed": 46345,
+      "prOpen": 2257,
+      "prClosed": 79767,
+      "prMerged": 31229,
       "workflowRuns": 40000,
-      "stars": 388275,
-      "forks": 81513,
+      "stars": 388288,
+      "forks": 81518,
       "subscribers": 1753,
-      "commits": 85618,
-      "contributors": 3207,
+      "commits": 85689,
+      "contributors": 3208,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1018,97 +1018,79 @@
     },
     {
       "capturedOn": "2026-08-31",
-      "stars": 388275,
-      "forks": 81513,
+      "stars": 388288,
+      "forks": 81518,
       "subscribers": 1753,
-      "commits": 85618,
-      "contributors": 3207
+      "commits": 85689,
+      "contributors": 3208
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 134446,
-        "title": "secrets: exec SecretRef rejects root-owned commands, making /usr/bin/security (macOS keychain) unusable in 2026.8.1",
-        "url": "https://github.com/openclaw/openclaw/issues/134446",
+        "number": 134544,
+        "title": "[Bug]: models.list drops authenticated providers after hot reload until explicit refresh",
+        "url": "https://github.com/openclaw/openclaw/issues/134544",
         "state": "open",
-        "author": "hchawla",
-        "updatedAt": "2026-08-31T20:01:34Z"
-      },
-      {
-        "kind": "issue",
-        "number": 134445,
-        "title": "[Bug]: doctor --fix never completes legacy workspace migration when a zero-byte attestation file exists (\"invalid header\"); agent channel hard-fails until file is removed manually",
-        "url": "https://github.com/openclaw/openclaw/issues/134445",
-        "state": "open",
-        "author": "rosssaunders",
-        "updatedAt": "2026-08-31T20:00:59Z"
-      },
-      {
-        "kind": "issue",
-        "number": 134444,
-        "title": "Browser extension installer rejects a trusted shared package owner",
-        "url": "https://github.com/openclaw/openclaw/issues/134444",
-        "state": "open",
-        "author": "jeanmonet",
-        "updatedAt": "2026-08-31T20:00:10Z"
+        "author": "goslingmanagment",
+        "updatedAt": "2026-08-31T23:49:34Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 129402,
-        "title": "fix(codex): channel-aware hooks reject authenticated users",
-        "url": "https://github.com/openclaw/openclaw/pull/129402",
+        "number": 134480,
+        "title": "fix(ui): skip explicit tab focus during passive browser follow",
+        "url": "https://github.com/openclaw/openclaw/pull/134480",
         "state": "open",
-        "author": "ashawwal",
-        "updatedAt": "2026-08-31T20:02:11Z"
+        "author": "scotthuang",
+        "updatedAt": "2026-08-31T23:49:34Z"
       },
       {
         "kind": "pr",
-        "number": 133980,
-        "title": "refactor: consolidate package inventory exclusions",
-        "url": "https://github.com/openclaw/openclaw/pull/133980",
+        "number": 128633,
+        "title": "fix(ai): reintroduce compat-endpoint HTTP continuation opt-in and fix store reachability",
+        "url": "https://github.com/openclaw/openclaw/pull/128633",
+        "state": "open",
+        "author": "hartmark",
+        "updatedAt": "2026-08-31T23:49:32Z"
+      },
+      {
+        "kind": "pr",
+        "number": 134519,
+        "title": "fix(release): use a frozen installer update baseline",
+        "url": "https://github.com/openclaw/openclaw/pull/134519",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-08-31T23:49:19Z"
+      },
+      {
+        "kind": "pr",
+        "number": 134546,
+        "title": "test(nostr): consolidate key validation under its owner",
+        "url": "https://github.com/openclaw/openclaw/pull/134546",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-08-31T23:49:11Z"
+      },
+      {
+        "kind": "pr",
+        "number": 133772,
+        "title": "chore(deps): refresh eligible seven-day npm dependencies",
+        "url": "https://github.com/openclaw/openclaw/pull/133772",
         "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-08-31T20:01:59Z"
+        "updatedAt": "2026-08-31T23:49:09Z"
       },
       {
         "kind": "pr",
-        "number": 134386,
-        "title": "fix(install): fall back to portable Node after package manager failure",
-        "url": "https://github.com/openclaw/openclaw/pull/134386",
+        "number": 134528,
+        "title": "perf(ci): shard UI checks and reuse SDK compiler inputs",
+        "url": "https://github.com/openclaw/openclaw/pull/134528",
         "state": "open",
-        "author": "ly85206559",
-        "updatedAt": "2026-08-31T20:01:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 134385,
-        "title": "fix(install): tolerate npm stderr warnings on Windows",
-        "url": "https://github.com/openclaw/openclaw/pull/134385",
-        "state": "open",
-        "author": "ly85206559",
-        "updatedAt": "2026-08-31T20:01:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 113517,
-        "title": "feat(approvals): add external verification contract",
-        "url": "https://github.com/openclaw/openclaw/pull/113517",
-        "state": "open",
-        "author": "Guardiola31337",
-        "updatedAt": "2026-08-31T20:01:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 133340,
-        "title": "fix(agents): reject bundle LSP calls after disposal",
-        "url": "https://github.com/openclaw/openclaw/pull/133340",
-        "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-08-31T20:01:44Z"
+        "author": "steipete",
+        "updatedAt": "2026-08-31T23:48:50Z"
       }
     ]
   }

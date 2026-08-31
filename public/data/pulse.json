@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-31T05:30:40.945Z",
+  "generatedAt": "2026-08-31T20:02:19.189Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -751,18 +751,18 @@
     },
     {
       "capturedOn": "2026-08-31",
-      "capturedAt": "2026-08-31T05:30:40.945Z",
-      "issueOpen": 3551,
-      "issueClosed": 46217,
-      "prOpen": 2203,
-      "prClosed": 79303,
-      "prMerged": 30825,
+      "capturedAt": "2026-08-31T20:02:19.189Z",
+      "issueOpen": 3616,
+      "issueClosed": 46327,
+      "prOpen": 2274,
+      "prClosed": 79682,
+      "prMerged": 31155,
       "workflowRuns": 40000,
-      "stars": 388117,
-      "forks": 81486,
-      "subscribers": 1752,
-      "commits": 85288,
-      "contributors": 3203,
+      "stars": 388275,
+      "forks": 81513,
+      "subscribers": 1753,
+      "commits": 85618,
+      "contributors": 3207,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1018,79 +1018,97 @@
     },
     {
       "capturedOn": "2026-08-31",
-      "stars": 388117,
-      "forks": 81486,
-      "subscribers": 1752,
-      "commits": 85288,
-      "contributors": 3203
+      "stars": 388275,
+      "forks": 81513,
+      "subscribers": 1753,
+      "commits": 85618,
+      "contributors": 3207
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 133820,
-        "title": "[Bug]: Gateway restart-loop (27 unclean boots) trips breaker and takes down all channels; health-monitor misclassifies as expected stopped, preventing self-healing",
-        "url": "https://github.com/openclaw/openclaw/issues/133820",
+        "number": 134446,
+        "title": "secrets: exec SecretRef rejects root-owned commands, making /usr/bin/security (macOS keychain) unusable in 2026.8.1",
+        "url": "https://github.com/openclaw/openclaw/issues/134446",
         "state": "open",
-        "author": "Enominera",
-        "updatedAt": "2026-08-31T05:30:02Z"
+        "author": "hchawla",
+        "updatedAt": "2026-08-31T20:01:34Z"
+      },
+      {
+        "kind": "issue",
+        "number": 134445,
+        "title": "[Bug]: doctor --fix never completes legacy workspace migration when a zero-byte attestation file exists (\"invalid header\"); agent channel hard-fails until file is removed manually",
+        "url": "https://github.com/openclaw/openclaw/issues/134445",
+        "state": "open",
+        "author": "rosssaunders",
+        "updatedAt": "2026-08-31T20:00:59Z"
+      },
+      {
+        "kind": "issue",
+        "number": 134444,
+        "title": "Browser extension installer rejects a trusted shared package owner",
+        "url": "https://github.com/openclaw/openclaw/issues/134444",
+        "state": "open",
+        "author": "jeanmonet",
+        "updatedAt": "2026-08-31T20:00:10Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 133816,
-        "title": "test: await QA deadline unwind without sleeps",
-        "url": "https://github.com/openclaw/openclaw/pull/133816",
+        "number": 129402,
+        "title": "fix(codex): channel-aware hooks reject authenticated users",
+        "url": "https://github.com/openclaw/openclaw/pull/129402",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-31T05:30:35Z"
+        "author": "ashawwal",
+        "updatedAt": "2026-08-31T20:02:11Z"
       },
       {
         "kind": "pr",
-        "number": 133815,
-        "title": "fix(agents): preserve literal @-prefixed session paths",
-        "url": "https://github.com/openclaw/openclaw/pull/133815",
+        "number": 133980,
+        "title": "refactor: consolidate package inventory exclusions",
+        "url": "https://github.com/openclaw/openclaw/pull/133980",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-08-31T20:01:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 134386,
+        "title": "fix(install): fall back to portable Node after package manager failure",
+        "url": "https://github.com/openclaw/openclaw/pull/134386",
+        "state": "open",
+        "author": "ly85206559",
+        "updatedAt": "2026-08-31T20:01:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 134385,
+        "title": "fix(install): tolerate npm stderr warnings on Windows",
+        "url": "https://github.com/openclaw/openclaw/pull/134385",
+        "state": "open",
+        "author": "ly85206559",
+        "updatedAt": "2026-08-31T20:01:55Z"
+      },
+      {
+        "kind": "pr",
+        "number": 113517,
+        "title": "feat(approvals): add external verification contract",
+        "url": "https://github.com/openclaw/openclaw/pull/113517",
+        "state": "open",
+        "author": "Guardiola31337",
+        "updatedAt": "2026-08-31T20:01:55Z"
+      },
+      {
+        "kind": "pr",
+        "number": 133340,
+        "title": "fix(agents): reject bundle LSP calls after disposal",
+        "url": "https://github.com/openclaw/openclaw/pull/133340",
         "state": "open",
         "author": "qingminglong",
-        "updatedAt": "2026-08-31T05:30:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 131733,
-        "title": "fix(cron): scheduler-disabled CRUD no longer overwrites shared-store runtime state",
-        "url": "https://github.com/openclaw/openclaw/pull/131733",
-        "state": "open",
-        "author": "LiuwqGit",
-        "updatedAt": "2026-08-31T05:30:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 93842,
-        "title": "fix(plugins): report missing config clearly instead of misleading required-property errors",
-        "url": "https://github.com/openclaw/openclaw/pull/93842",
-        "state": "open",
-        "author": "bladin",
-        "updatedAt": "2026-08-31T05:30:31Z"
-      },
-      {
-        "kind": "pr",
-        "number": 121044,
-        "title": "fix: memory_search rebuilds the whole index after an ordinary zero-hit query",
-        "url": "https://github.com/openclaw/openclaw/pull/121044",
-        "state": "open",
-        "author": "IlyaKuprov",
-        "updatedAt": "2026-08-31T05:30:29Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120618,
-        "title": "fix(codex): agents ignore AGENTS.md on sandboxed app-server runs [AI]",
-        "url": "https://github.com/openclaw/openclaw/pull/120618",
-        "state": "open",
-        "author": "sercada",
-        "updatedAt": "2026-08-31T05:30:29Z"
+        "updatedAt": "2026-08-31T20:01:44Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-01T05:04:44.064Z",
+  "generatedAt": "2026-09-01T10:04:15.474Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -768,18 +768,18 @@
     },
     {
       "capturedOn": "2026-09-01",
-      "capturedAt": "2026-09-01T05:04:44.064Z",
-      "issueOpen": 3627,
-      "issueClosed": 46409,
-      "prOpen": 2293,
-      "prClosed": 79968,
-      "prMerged": 31403,
+      "capturedAt": "2026-09-01T10:04:15.474Z",
+      "issueOpen": 3644,
+      "issueClosed": 46443,
+      "prOpen": 2302,
+      "prClosed": 80142,
+      "prMerged": 31563,
       "workflowRuns": 40000,
-      "stars": 388369,
-      "forks": 81532,
-      "subscribers": 1755,
-      "commits": 85862,
-      "contributors": 3215,
+      "stars": 388420,
+      "forks": 81536,
+      "subscribers": 1754,
+      "commits": 86023,
+      "contributors": 3217,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1043,88 +1043,88 @@
     },
     {
       "capturedOn": "2026-09-01",
-      "stars": 388369,
-      "forks": 81532,
-      "subscribers": 1755,
-      "commits": 85862,
-      "contributors": 3215
+      "stars": 388420,
+      "forks": 81536,
+      "subscribers": 1754,
+      "commits": 86023,
+      "contributors": 3217
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 134748,
-        "title": "[Bug]: boot hook fails on every start after the session store migrates to SQLite",
-        "url": "https://github.com/openclaw/openclaw/issues/134748",
+        "number": 135079,
+        "title": "[Bug]: 2026.8.1 doctor persists unresolved model env references as API keys",
+        "url": "https://github.com/openclaw/openclaw/issues/135079",
         "state": "open",
-        "author": "miguelarios",
-        "updatedAt": "2026-09-01T05:04:25Z"
+        "author": "dannevang",
+        "updatedAt": "2026-09-01T10:03:58Z"
       },
       {
         "kind": "issue",
-        "number": 134834,
-        "title": "[Bug]: overlapping package jobs can remove the next package’s lifecycle marker",
-        "url": "https://github.com/openclaw/openclaw/issues/134834",
+        "number": 53763,
+        "title": "[Feature]: Built-in headless browser for reliable web access without external dependencies",
+        "url": "https://github.com/openclaw/openclaw/issues/53763",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-01T05:03:49Z"
+        "author": "luoziyan100",
+        "updatedAt": "2026-09-01T10:03:26Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 134843,
-        "title": "fix(agent): preserve silent inter-session handoffs",
-        "url": "https://github.com/openclaw/openclaw/pull/134843",
+        "number": 134740,
+        "title": "fix(infra): keep presence bounded under entry pressure",
+        "url": "https://github.com/openclaw/openclaw/pull/134740",
         "state": "open",
-        "author": "cmanrav",
-        "updatedAt": "2026-09-01T05:04:37Z"
+        "author": "lzhan011",
+        "updatedAt": "2026-09-01T10:04:07Z"
       },
       {
         "kind": "pr",
-        "number": 132487,
-        "title": "fix(xai): canonicalize OAuth model during setup verification",
-        "url": "https://github.com/openclaw/openclaw/pull/132487",
+        "number": 134060,
+        "title": "fix(channels): deleting an account leaves its stored inbound events behind",
+        "url": "https://github.com/openclaw/openclaw/pull/134060",
         "state": "open",
-        "author": "AndrewEAUS",
-        "updatedAt": "2026-09-01T05:04:37Z"
+        "author": "edenfunf",
+        "updatedAt": "2026-09-01T10:04:07Z"
       },
       {
         "kind": "pr",
-        "number": 133414,
-        "title": "fix(auto-reply): show real exit status for failed /bash commands",
-        "url": "https://github.com/openclaw/openclaw/pull/133414",
+        "number": 133806,
+        "title": "fix(cli): reject malformed approval grant lifetimes",
+        "url": "https://github.com/openclaw/openclaw/pull/133806",
         "state": "open",
-        "author": "MoerAI",
-        "updatedAt": "2026-09-01T05:04:36Z"
+        "author": "qingminglong",
+        "updatedAt": "2026-09-01T10:04:00Z"
       },
       {
         "kind": "pr",
-        "number": 127999,
-        "title": "fix(cron): refuse doctor store rewrites when another process committed after the snapshot",
-        "url": "https://github.com/openclaw/openclaw/pull/127999",
+        "number": 134744,
+        "title": "fix(memory): resolve profile auth for compatible embeddings",
+        "url": "https://github.com/openclaw/openclaw/pull/134744",
+        "state": "open",
+        "author": "0x-Parzival",
+        "updatedAt": "2026-09-01T10:03:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120105,
+        "title": "fix(scripts): stabilize Vitest shard timing keys",
+        "url": "https://github.com/openclaw/openclaw/pull/120105",
         "state": "closed",
-        "author": "yetval",
-        "updatedAt": "2026-09-01T05:04:34Z"
+        "author": "qingminglong",
+        "updatedAt": "2026-09-01T10:03:55Z"
       },
       {
         "kind": "pr",
-        "number": 134845,
-        "title": "refactor(doctor): simplify agent migration traversal",
-        "url": "https://github.com/openclaw/openclaw/pull/134845",
+        "number": 135031,
+        "title": "fix(talk): preserve consult ownership across clients",
+        "url": "https://github.com/openclaw/openclaw/pull/135031",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-01T05:04:33Z"
-      },
-      {
-        "kind": "pr",
-        "number": 133220,
-        "title": "fix(gateway): make defaultPersistDigest deliver its tri-state contract",
-        "url": "https://github.com/openclaw/openclaw/pull/133220",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-09-01T05:04:32Z"
+        "updatedAt": "2026-09-01T10:03:49Z"
       }
     ]
   }

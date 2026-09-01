@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-08-31T23:49:51.870Z",
+  "generatedAt": "2026-09-01T05:04:44.064Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -765,6 +765,23 @@
       "contributors": 3208,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-01",
+      "capturedAt": "2026-09-01T05:04:44.064Z",
+      "issueOpen": 3627,
+      "issueClosed": 46409,
+      "prOpen": 2293,
+      "prClosed": 79968,
+      "prMerged": 31403,
+      "workflowRuns": 40000,
+      "stars": 388369,
+      "forks": 81532,
+      "subscribers": 1755,
+      "commits": 85862,
+      "contributors": 3215,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1023,74 +1040,91 @@
       "subscribers": 1753,
       "commits": 85689,
       "contributors": 3208
+    },
+    {
+      "capturedOn": "2026-09-01",
+      "stars": 388369,
+      "forks": 81532,
+      "subscribers": 1755,
+      "commits": 85862,
+      "contributors": 3215
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 134544,
-        "title": "[Bug]: models.list drops authenticated providers after hot reload until explicit refresh",
-        "url": "https://github.com/openclaw/openclaw/issues/134544",
+        "number": 134748,
+        "title": "[Bug]: boot hook fails on every start after the session store migrates to SQLite",
+        "url": "https://github.com/openclaw/openclaw/issues/134748",
         "state": "open",
-        "author": "goslingmanagment",
-        "updatedAt": "2026-08-31T23:49:34Z"
+        "author": "miguelarios",
+        "updatedAt": "2026-09-01T05:04:25Z"
+      },
+      {
+        "kind": "issue",
+        "number": 134834,
+        "title": "[Bug]: overlapping package jobs can remove the next package’s lifecycle marker",
+        "url": "https://github.com/openclaw/openclaw/issues/134834",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-01T05:03:49Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 134480,
-        "title": "fix(ui): skip explicit tab focus during passive browser follow",
-        "url": "https://github.com/openclaw/openclaw/pull/134480",
+        "number": 134843,
+        "title": "fix(agent): preserve silent inter-session handoffs",
+        "url": "https://github.com/openclaw/openclaw/pull/134843",
         "state": "open",
-        "author": "scotthuang",
-        "updatedAt": "2026-08-31T23:49:34Z"
+        "author": "cmanrav",
+        "updatedAt": "2026-09-01T05:04:37Z"
       },
       {
         "kind": "pr",
-        "number": 128633,
-        "title": "fix(ai): reintroduce compat-endpoint HTTP continuation opt-in and fix store reachability",
-        "url": "https://github.com/openclaw/openclaw/pull/128633",
+        "number": 132487,
+        "title": "fix(xai): canonicalize OAuth model during setup verification",
+        "url": "https://github.com/openclaw/openclaw/pull/132487",
         "state": "open",
-        "author": "hartmark",
-        "updatedAt": "2026-08-31T23:49:32Z"
+        "author": "AndrewEAUS",
+        "updatedAt": "2026-09-01T05:04:37Z"
       },
       {
         "kind": "pr",
-        "number": 134519,
-        "title": "fix(release): use a frozen installer update baseline",
-        "url": "https://github.com/openclaw/openclaw/pull/134519",
+        "number": 133414,
+        "title": "fix(auto-reply): show real exit status for failed /bash commands",
+        "url": "https://github.com/openclaw/openclaw/pull/133414",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-08-31T23:49:19Z"
+        "author": "MoerAI",
+        "updatedAt": "2026-09-01T05:04:36Z"
       },
       {
         "kind": "pr",
-        "number": 134546,
-        "title": "test(nostr): consolidate key validation under its owner",
-        "url": "https://github.com/openclaw/openclaw/pull/134546",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-08-31T23:49:11Z"
-      },
-      {
-        "kind": "pr",
-        "number": 133772,
-        "title": "chore(deps): refresh eligible seven-day npm dependencies",
-        "url": "https://github.com/openclaw/openclaw/pull/133772",
+        "number": 127999,
+        "title": "fix(cron): refuse doctor store rewrites when another process committed after the snapshot",
+        "url": "https://github.com/openclaw/openclaw/pull/127999",
         "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-08-31T23:49:09Z"
+        "author": "yetval",
+        "updatedAt": "2026-09-01T05:04:34Z"
       },
       {
         "kind": "pr",
-        "number": 134528,
-        "title": "perf(ci): shard UI checks and reuse SDK compiler inputs",
-        "url": "https://github.com/openclaw/openclaw/pull/134528",
+        "number": 134845,
+        "title": "refactor(doctor): simplify agent migration traversal",
+        "url": "https://github.com/openclaw/openclaw/pull/134845",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-08-31T23:48:50Z"
+        "updatedAt": "2026-09-01T05:04:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 133220,
+        "title": "fix(gateway): make defaultPersistDigest deliver its tri-state contract",
+        "url": "https://github.com/openclaw/openclaw/pull/133220",
+        "state": "open",
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-09-01T05:04:32Z"
       }
     ]
   }

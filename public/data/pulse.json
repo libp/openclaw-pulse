@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-01T14:51:53.043Z",
+  "generatedAt": "2026-09-01T21:45:37.421Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -768,18 +768,18 @@
     },
     {
       "capturedOn": "2026-09-01",
-      "capturedAt": "2026-09-01T14:51:53.043Z",
-      "issueOpen": 3650,
-      "issueClosed": 46498,
-      "prOpen": 2313,
-      "prClosed": 80269,
-      "prMerged": 31682,
+      "capturedAt": "2026-09-01T21:45:37.421Z",
+      "issueOpen": 3677,
+      "issueClosed": 46549,
+      "prOpen": 2381,
+      "prClosed": 80419,
+      "prMerged": 31798,
       "workflowRuns": 40000,
-      "stars": 388478,
-      "forks": 81553,
-      "subscribers": 1755,
-      "commits": 86142,
-      "contributors": 3226,
+      "stars": 388510,
+      "forks": 81568,
+      "subscribers": 1754,
+      "commits": 86259,
+      "contributors": 3227,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1043,106 +1043,88 @@
     },
     {
       "capturedOn": "2026-09-01",
-      "stars": 388478,
-      "forks": 81553,
-      "subscribers": 1755,
-      "commits": 86142,
-      "contributors": 3226
+      "stars": 388510,
+      "forks": 81568,
+      "subscribers": 1754,
+      "commits": 86259,
+      "contributors": 3227
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 50205,
-        "title": "[Feature]: Support configurable request labels for Gemini API calls (GCP billing tracking)",
-        "url": "https://github.com/openclaw/openclaw/issues/50205",
+        "number": 135571,
+        "title": "[Bug]: Codex dynamic message_tool_only drops inbound-audio state before inbound TTS",
+        "url": "https://github.com/openclaw/openclaw/issues/135571",
         "state": "open",
-        "author": "ikujyh",
-        "updatedAt": "2026-09-01T14:51:38Z"
+        "author": "hyper-sdn",
+        "updatedAt": "2026-09-01T21:45:01Z"
       },
       {
         "kind": "issue",
-        "number": 52803,
-        "title": "[Feature]: Improve Control UI for Multi-Agent + Subagent Orchestration (Hierarchy, Bulk Ops, and Scalability)",
-        "url": "https://github.com/openclaw/openclaw/issues/52803",
+        "number": 135566,
+        "title": "[Bug]: Claude CLI Utility Model executes through Anthropic API and returns 401",
+        "url": "https://github.com/openclaw/openclaw/issues/135566",
         "state": "open",
-        "author": "Leeon-K",
-        "updatedAt": "2026-09-01T14:51:47Z"
-      },
-      {
-        "kind": "issue",
-        "number": 53531,
-        "title": "Compaction should use auth-profile rotation / failover within the same provider",
-        "url": "https://github.com/openclaw/openclaw/issues/53531",
-        "state": "open",
-        "author": "fertilejim",
-        "updatedAt": "2026-09-01T14:51:28Z"
-      },
-      {
-        "kind": "issue",
-        "number": 102907,
-        "title": "Azure OpenAI Responses throws 400 when prompt_cache_key is sent to endpoints that do not support it",
-        "url": "https://github.com/openclaw/openclaw/issues/102907",
-        "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-09-01T14:51:46Z"
+        "author": "goslingmanagment",
+        "updatedAt": "2026-09-01T21:44:48Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 123535,
-        "title": "fix(ui): avoid session catalog refresh storms",
-        "url": "https://github.com/openclaw/openclaw/pull/123535",
-        "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-09-01T14:51:45Z"
+        "number": 135564,
+        "title": "fix(ui): keep sidebar and chat fades off scrollbars",
+        "url": "https://github.com/openclaw/openclaw/pull/135564",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-09-01T21:45:27Z"
       },
       {
         "kind": "pr",
-        "number": 126457,
-        "title": "fix(gateway): prevent Tailscale orphan crash loops on launchd restart",
-        "url": "https://github.com/openclaw/openclaw/pull/126457",
+        "number": 131510,
+        "title": "feat(plugins): require package-local icon assets",
+        "url": "https://github.com/openclaw/openclaw/pull/131510",
         "state": "open",
-        "author": "PollyBot13",
-        "updatedAt": "2026-09-01T14:51:41Z"
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-09-01T21:45:23Z"
       },
       {
         "kind": "pr",
-        "number": 135276,
-        "title": "fix(ci): run Android tests for shared Talk config changes",
-        "url": "https://github.com/openclaw/openclaw/pull/135276",
+        "number": 117734,
+        "title": "fix(channels): add opt-in multi-bot storm protection",
+        "url": "https://github.com/openclaw/openclaw/pull/117734",
         "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-09-01T14:51:38Z"
+        "author": "zeroaltitude",
+        "updatedAt": "2026-09-01T21:45:20Z"
       },
       {
         "kind": "pr",
-        "number": 135270,
-        "title": "fix(cli): reject empty gateway suspend wait values",
-        "url": "https://github.com/openclaw/openclaw/pull/135270",
+        "number": 135541,
+        "title": "fix(update): preflight all agent database stores",
+        "url": "https://github.com/openclaw/openclaw/pull/135541",
         "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-09-01T14:51:38Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-01T21:45:15Z"
       },
       {
         "kind": "pr",
-        "number": 135229,
-        "title": "fix(line): give up a card LINE will refuse instead of losing the reply",
-        "url": "https://github.com/openclaw/openclaw/pull/135229",
+        "number": 117302,
+        "title": "fix(irc): config validation rejects the documented healthMonitor override",
+        "url": "https://github.com/openclaw/openclaw/pull/117302",
         "state": "open",
-        "author": "edenfunf",
-        "updatedAt": "2026-09-01T14:51:45Z"
+        "author": "ayaangazali",
+        "updatedAt": "2026-09-01T21:45:15Z"
       },
       {
         "kind": "pr",
-        "number": 125788,
-        "title": "fix(agents): keep the skills catalog when toolsAllow is not a narrow grant",
-        "url": "https://github.com/openclaw/openclaw/pull/125788",
+        "number": 135572,
+        "title": "test(tooling): reuse packed artifact identity fixture",
+        "url": "https://github.com/openclaw/openclaw/pull/135572",
         "state": "open",
-        "author": "interkelstar",
-        "updatedAt": "2026-09-01T14:51:37Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-01T21:45:13Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-01T10:04:15.474Z",
+  "generatedAt": "2026-09-01T14:51:53.043Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -768,18 +768,18 @@
     },
     {
       "capturedOn": "2026-09-01",
-      "capturedAt": "2026-09-01T10:04:15.474Z",
-      "issueOpen": 3644,
-      "issueClosed": 46443,
-      "prOpen": 2302,
-      "prClosed": 80142,
-      "prMerged": 31563,
+      "capturedAt": "2026-09-01T14:51:53.043Z",
+      "issueOpen": 3650,
+      "issueClosed": 46498,
+      "prOpen": 2313,
+      "prClosed": 80269,
+      "prMerged": 31682,
       "workflowRuns": 40000,
-      "stars": 388420,
-      "forks": 81536,
-      "subscribers": 1754,
-      "commits": 86023,
-      "contributors": 3217,
+      "stars": 388478,
+      "forks": 81553,
+      "subscribers": 1755,
+      "commits": 86142,
+      "contributors": 3226,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1043,88 +1043,106 @@
     },
     {
       "capturedOn": "2026-09-01",
-      "stars": 388420,
-      "forks": 81536,
-      "subscribers": 1754,
-      "commits": 86023,
-      "contributors": 3217
+      "stars": 388478,
+      "forks": 81553,
+      "subscribers": 1755,
+      "commits": 86142,
+      "contributors": 3226
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 135079,
-        "title": "[Bug]: 2026.8.1 doctor persists unresolved model env references as API keys",
-        "url": "https://github.com/openclaw/openclaw/issues/135079",
+        "number": 50205,
+        "title": "[Feature]: Support configurable request labels for Gemini API calls (GCP billing tracking)",
+        "url": "https://github.com/openclaw/openclaw/issues/50205",
         "state": "open",
-        "author": "dannevang",
-        "updatedAt": "2026-09-01T10:03:58Z"
+        "author": "ikujyh",
+        "updatedAt": "2026-09-01T14:51:38Z"
       },
       {
         "kind": "issue",
-        "number": 53763,
-        "title": "[Feature]: Built-in headless browser for reliable web access without external dependencies",
-        "url": "https://github.com/openclaw/openclaw/issues/53763",
+        "number": 52803,
+        "title": "[Feature]: Improve Control UI for Multi-Agent + Subagent Orchestration (Hierarchy, Bulk Ops, and Scalability)",
+        "url": "https://github.com/openclaw/openclaw/issues/52803",
         "state": "open",
-        "author": "luoziyan100",
-        "updatedAt": "2026-09-01T10:03:26Z"
+        "author": "Leeon-K",
+        "updatedAt": "2026-09-01T14:51:47Z"
+      },
+      {
+        "kind": "issue",
+        "number": 53531,
+        "title": "Compaction should use auth-profile rotation / failover within the same provider",
+        "url": "https://github.com/openclaw/openclaw/issues/53531",
+        "state": "open",
+        "author": "fertilejim",
+        "updatedAt": "2026-09-01T14:51:28Z"
+      },
+      {
+        "kind": "issue",
+        "number": 102907,
+        "title": "Azure OpenAI Responses throws 400 when prompt_cache_key is sent to endpoints that do not support it",
+        "url": "https://github.com/openclaw/openclaw/issues/102907",
+        "state": "open",
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-09-01T14:51:46Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 134740,
-        "title": "fix(infra): keep presence bounded under entry pressure",
-        "url": "https://github.com/openclaw/openclaw/pull/134740",
-        "state": "open",
-        "author": "lzhan011",
-        "updatedAt": "2026-09-01T10:04:07Z"
+        "number": 123535,
+        "title": "fix(ui): avoid session catalog refresh storms",
+        "url": "https://github.com/openclaw/openclaw/pull/123535",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-09-01T14:51:45Z"
       },
       {
         "kind": "pr",
-        "number": 134060,
-        "title": "fix(channels): deleting an account leaves its stored inbound events behind",
-        "url": "https://github.com/openclaw/openclaw/pull/134060",
+        "number": 126457,
+        "title": "fix(gateway): prevent Tailscale orphan crash loops on launchd restart",
+        "url": "https://github.com/openclaw/openclaw/pull/126457",
+        "state": "open",
+        "author": "PollyBot13",
+        "updatedAt": "2026-09-01T14:51:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 135276,
+        "title": "fix(ci): run Android tests for shared Talk config changes",
+        "url": "https://github.com/openclaw/openclaw/pull/135276",
+        "state": "open",
+        "author": "qingminglong",
+        "updatedAt": "2026-09-01T14:51:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 135270,
+        "title": "fix(cli): reject empty gateway suspend wait values",
+        "url": "https://github.com/openclaw/openclaw/pull/135270",
+        "state": "open",
+        "author": "qingminglong",
+        "updatedAt": "2026-09-01T14:51:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 135229,
+        "title": "fix(line): give up a card LINE will refuse instead of losing the reply",
+        "url": "https://github.com/openclaw/openclaw/pull/135229",
         "state": "open",
         "author": "edenfunf",
-        "updatedAt": "2026-09-01T10:04:07Z"
+        "updatedAt": "2026-09-01T14:51:45Z"
       },
       {
         "kind": "pr",
-        "number": 133806,
-        "title": "fix(cli): reject malformed approval grant lifetimes",
-        "url": "https://github.com/openclaw/openclaw/pull/133806",
+        "number": 125788,
+        "title": "fix(agents): keep the skills catalog when toolsAllow is not a narrow grant",
+        "url": "https://github.com/openclaw/openclaw/pull/125788",
         "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-09-01T10:04:00Z"
-      },
-      {
-        "kind": "pr",
-        "number": 134744,
-        "title": "fix(memory): resolve profile auth for compatible embeddings",
-        "url": "https://github.com/openclaw/openclaw/pull/134744",
-        "state": "open",
-        "author": "0x-Parzival",
-        "updatedAt": "2026-09-01T10:03:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120105,
-        "title": "fix(scripts): stabilize Vitest shard timing keys",
-        "url": "https://github.com/openclaw/openclaw/pull/120105",
-        "state": "closed",
-        "author": "qingminglong",
-        "updatedAt": "2026-09-01T10:03:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 135031,
-        "title": "fix(talk): preserve consult ownership across clients",
-        "url": "https://github.com/openclaw/openclaw/pull/135031",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-01T10:03:49Z"
+        "author": "interkelstar",
+        "updatedAt": "2026-09-01T14:51:37Z"
       }
     ]
   }

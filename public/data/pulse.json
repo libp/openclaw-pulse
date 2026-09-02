@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-02T18:40:19.466Z",
+  "generatedAt": "2026-09-02T21:48:03.825Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -785,18 +785,18 @@
     },
     {
       "capturedOn": "2026-09-02",
-      "capturedAt": "2026-09-02T18:40:19.466Z",
-      "issueOpen": 3707,
-      "issueClosed": 46815,
-      "prOpen": 2431,
-      "prClosed": 81021,
-      "prMerged": 32328,
+      "capturedAt": "2026-09-02T21:48:03.825Z",
+      "issueOpen": 3699,
+      "issueClosed": 46860,
+      "prOpen": 2408,
+      "prClosed": 81125,
+      "prMerged": 32422,
       "workflowRuns": 40000,
-      "stars": 388646,
-      "forks": 81608,
-      "subscribers": 1753,
-      "commits": 86773,
-      "contributors": 3245,
+      "stars": 388652,
+      "forks": 81617,
+      "subscribers": 1752,
+      "commits": 86868,
+      "contributors": 3246,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1068,88 +1068,79 @@
     },
     {
       "capturedOn": "2026-09-02",
-      "stars": 388646,
-      "forks": 81608,
-      "subscribers": 1753,
-      "commits": 86773,
-      "contributors": 3245
+      "stars": 388652,
+      "forks": 81617,
+      "subscribers": 1752,
+      "commits": 86868,
+      "contributors": 3246
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 97616,
-        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
-        "url": "https://github.com/openclaw/openclaw/issues/97616",
-        "state": "open",
-        "author": "avp717",
-        "updatedAt": "2026-09-02T18:40:09Z"
-      },
-      {
-        "kind": "issue",
-        "number": 135860,
-        "title": "[Bug]: Remote iMessage attachments can be dropped before agent execution",
-        "url": "https://github.com/openclaw/openclaw/issues/135860",
+        "number": 136630,
+        "title": "Environment-substituted remote CDP profile is omitted from browser registry",
+        "url": "https://github.com/openclaw/openclaw/issues/136630",
         "state": "closed",
-        "author": "zqchris",
-        "updatedAt": "2026-09-02T18:40:01Z"
+        "author": "jimmybrancaccio",
+        "updatedAt": "2026-09-02T21:47:04Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 136049,
-        "title": "fix: paired Mac cleanup fails and hides native errors",
-        "url": "https://github.com/openclaw/openclaw/pull/136049",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-02T18:40:11Z"
-      },
-      {
-        "kind": "pr",
-        "number": 136496,
-        "title": "fix(codex): explain legacy managed policy failures",
-        "url": "https://github.com/openclaw/openclaw/pull/136496",
-        "state": "open",
-        "author": "pfrederiksen",
-        "updatedAt": "2026-09-02T18:40:10Z"
-      },
-      {
-        "kind": "pr",
-        "number": 136460,
-        "title": "fix(slack): deliver short replies before progress finalization",
-        "url": "https://github.com/openclaw/openclaw/pull/136460",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-02T18:40:10Z"
-      },
-      {
-        "kind": "pr",
-        "number": 136413,
-        "title": "fix(android): recheck health when Refresh races a queued send",
-        "url": "https://github.com/openclaw/openclaw/pull/136413",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-02T18:40:00Z"
-      },
-      {
-        "kind": "pr",
-        "number": 136301,
-        "title": "fix: preserve remote iMessage attachments during materialization",
-        "url": "https://github.com/openclaw/openclaw/pull/136301",
+        "number": 136625,
+        "title": "chore(ui): refresh control ui locales",
+        "url": "https://github.com/openclaw/openclaw/pull/136625",
         "state": "closed",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-09-02T18:40:00Z"
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-09-02T21:48:00Z"
       },
       {
         "kind": "pr",
-        "number": 128995,
-        "title": "feat: make full session actions available from chat header",
-        "url": "https://github.com/openclaw/openclaw/pull/128995",
-        "state": "closed",
+        "number": 136639,
+        "title": "fix(sessions): preserve conversations under maintenance pressure",
+        "url": "https://github.com/openclaw/openclaw/pull/136639",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-02T21:47:55Z"
+      },
+      {
+        "kind": "pr",
+        "number": 134826,
+        "title": "fix(telegram): prioritize finals over CLI commentary",
+        "url": "https://github.com/openclaw/openclaw/pull/134826",
+        "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-09-02T18:39:58Z"
+        "updatedAt": "2026-09-02T21:47:55Z"
+      },
+      {
+        "kind": "pr",
+        "number": 135744,
+        "title": "refactor(feishu): share provider prefix stripping",
+        "url": "https://github.com/openclaw/openclaw/pull/135744",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-02T21:47:51Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120794,
+        "title": "fix(prompt): unbounded channel context arrays and objects flood the model prompt",
+        "url": "https://github.com/openclaw/openclaw/pull/120794",
+        "state": "open",
+        "author": "pacocartones",
+        "updatedAt": "2026-09-02T21:47:49Z"
+      },
+      {
+        "kind": "pr",
+        "number": 136587,
+        "title": "Let scheduled work use the agent's current tools",
+        "url": "https://github.com/openclaw/openclaw/pull/136587",
+        "state": "open",
+        "author": "pash-openai",
+        "updatedAt": "2026-09-02T21:47:48Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-02T14:27:45.864Z",
+  "generatedAt": "2026-09-02T18:40:19.466Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -785,18 +785,18 @@
     },
     {
       "capturedOn": "2026-09-02",
-      "capturedAt": "2026-09-02T14:27:45.864Z",
-      "issueOpen": 3680,
-      "issueClosed": 46790,
-      "prOpen": 2372,
-      "prClosed": 80967,
-      "prMerged": 32283,
+      "capturedAt": "2026-09-02T18:40:19.466Z",
+      "issueOpen": 3707,
+      "issueClosed": 46815,
+      "prOpen": 2431,
+      "prClosed": 81021,
+      "prMerged": 32328,
       "workflowRuns": 40000,
-      "stars": 388617,
-      "forks": 81603,
+      "stars": 388646,
+      "forks": 81608,
       "subscribers": 1753,
-      "commits": 86728,
-      "contributors": 3244,
+      "commits": 86773,
+      "contributors": 3245,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1068,88 +1068,88 @@
     },
     {
       "capturedOn": "2026-09-02",
-      "stars": 388617,
-      "forks": 81603,
+      "stars": 388646,
+      "forks": 81608,
       "subscribers": 1753,
-      "commits": 86728,
-      "contributors": 3244
+      "commits": 86773,
+      "contributors": 3245
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 133709,
-        "title": "Surface permission requests from background ACP sessions (Claude Code adapter) as approvals",
-        "url": "https://github.com/openclaw/openclaw/issues/133709",
+        "number": 97616,
+        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
+        "url": "https://github.com/openclaw/openclaw/issues/97616",
         "state": "open",
-        "author": "TheArchitectit",
-        "updatedAt": "2026-09-02T14:27:21Z"
+        "author": "avp717",
+        "updatedAt": "2026-09-02T18:40:09Z"
       },
       {
         "kind": "issue",
-        "number": 136360,
-        "title": "[Bug]: Internal runtime-context carrier (<<<BEGIN_OPENCLAW_INTERNAL_CONTEXT>>>) leaks as standalone visible turns on Microsoft Teams channel",
-        "url": "https://github.com/openclaw/openclaw/issues/136360",
-        "state": "open",
-        "author": "TrustPointCyber",
-        "updatedAt": "2026-09-02T14:27:09Z"
+        "number": 135860,
+        "title": "[Bug]: Remote iMessage attachments can be dropped before agent execution",
+        "url": "https://github.com/openclaw/openclaw/issues/135860",
+        "state": "closed",
+        "author": "zqchris",
+        "updatedAt": "2026-09-02T18:40:01Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 135553,
-        "title": "feat(telegram,message-tool): multi-media sends grouped into albums",
-        "url": "https://github.com/openclaw/openclaw/pull/135553",
+        "number": 136049,
+        "title": "fix: paired Mac cleanup fails and hides native errors",
+        "url": "https://github.com/openclaw/openclaw/pull/136049",
         "state": "open",
-        "author": "Mirr0ch1",
-        "updatedAt": "2026-09-02T14:27:40Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-02T18:40:11Z"
       },
       {
         "kind": "pr",
-        "number": 136309,
-        "title": "fix(ci): hydrate release ancestry within deadline",
-        "url": "https://github.com/openclaw/openclaw/pull/136309",
+        "number": 136496,
+        "title": "fix(codex): explain legacy managed policy failures",
+        "url": "https://github.com/openclaw/openclaw/pull/136496",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-09-02T14:27:26Z"
+        "author": "pfrederiksen",
+        "updatedAt": "2026-09-02T18:40:10Z"
       },
       {
         "kind": "pr",
-        "number": 136356,
-        "title": "fix(workspace): handle concurrent lock directory rename in readLock",
-        "url": "https://github.com/openclaw/openclaw/pull/136356",
+        "number": 136460,
+        "title": "fix(slack): deliver short replies before progress finalization",
+        "url": "https://github.com/openclaw/openclaw/pull/136460",
         "state": "open",
-        "author": "aniruddhaadak80",
-        "updatedAt": "2026-09-02T14:27:39Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-02T18:40:10Z"
       },
       {
         "kind": "pr",
-        "number": 135838,
-        "title": "fix(workers): stop provisioning after turn authority closes",
-        "url": "https://github.com/openclaw/openclaw/pull/135838",
+        "number": 136413,
+        "title": "fix(android): recheck health when Refresh races a queued send",
+        "url": "https://github.com/openclaw/openclaw/pull/136413",
         "state": "open",
-        "author": "sallyom",
-        "updatedAt": "2026-09-02T14:27:24Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-02T18:40:00Z"
       },
       {
         "kind": "pr",
-        "number": 131590,
-        "title": "fix(cron): make one-shot terminal disables visible instead of silently parking jobs",
-        "url": "https://github.com/openclaw/openclaw/pull/131590",
-        "state": "open",
-        "author": "lonexreb",
-        "updatedAt": "2026-09-02T14:27:24Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123975,
-        "title": "fix(scripts): clean up tsgo process trees on timeout or signal",
-        "url": "https://github.com/openclaw/openclaw/pull/123975",
+        "number": 136301,
+        "title": "fix: preserve remote iMessage attachments during materialization",
+        "url": "https://github.com/openclaw/openclaw/pull/136301",
         "state": "closed",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-09-02T14:27:15Z"
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-09-02T18:40:00Z"
+      },
+      {
+        "kind": "pr",
+        "number": 128995,
+        "title": "feat: make full session actions available from chat header",
+        "url": "https://github.com/openclaw/openclaw/pull/128995",
+        "state": "closed",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-02T18:39:58Z"
       }
     ]
   }

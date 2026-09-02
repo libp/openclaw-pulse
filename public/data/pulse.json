@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-01T21:45:37.421Z",
+  "generatedAt": "2026-09-02T00:11:45.896Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -782,6 +782,23 @@
       "contributors": 3227,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-02",
+      "capturedAt": "2026-09-02T00:11:45.896Z",
+      "issueOpen": 3701,
+      "issueClosed": 46573,
+      "prOpen": 2369,
+      "prClosed": 80508,
+      "prMerged": 31882,
+      "workflowRuns": 40000,
+      "stars": 388521,
+      "forks": 81568,
+      "subscribers": 1755,
+      "commits": 86330,
+      "contributors": 3227,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1048,83 +1065,100 @@
       "subscribers": 1754,
       "commits": 86259,
       "contributors": 3227
+    },
+    {
+      "capturedOn": "2026-09-02",
+      "stars": 388521,
+      "forks": 81568,
+      "subscribers": 1755,
+      "commits": 86330,
+      "contributors": 3227
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 135571,
-        "title": "[Bug]: Codex dynamic message_tool_only drops inbound-audio state before inbound TTS",
-        "url": "https://github.com/openclaw/openclaw/issues/135571",
+        "number": 135688,
+        "title": "[Bug]: Turn that fails its ReplyOperation after a settled run still reports 'completed' — status reactions, gateway HTTP mapping, and CLI exit code all mark a failed turn as done",
+        "url": "https://github.com/openclaw/openclaw/issues/135688",
         "state": "open",
-        "author": "hyper-sdn",
-        "updatedAt": "2026-09-01T21:45:01Z"
+        "author": "Grynn",
+        "updatedAt": "2026-09-02T00:11:34Z"
       },
       {
         "kind": "issue",
-        "number": 135566,
-        "title": "[Bug]: Claude CLI Utility Model executes through Anthropic API and returns 401",
-        "url": "https://github.com/openclaw/openclaw/issues/135566",
+        "number": 116783,
+        "title": "Make remote validation fast and workload-aware across Blacksmith and Crabbox",
+        "url": "https://github.com/openclaw/openclaw/issues/116783",
         "state": "open",
-        "author": "goslingmanagment",
-        "updatedAt": "2026-09-01T21:44:48Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-02T00:11:34Z"
+      },
+      {
+        "kind": "issue",
+        "number": 116048,
+        "title": "[Bug]: wiki.get scans the vault for an exact canonical page path",
+        "url": "https://github.com/openclaw/openclaw/issues/116048",
+        "state": "open",
+        "author": "BsnizND",
+        "updatedAt": "2026-09-02T00:11:01Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 135564,
-        "title": "fix(ui): keep sidebar and chat fades off scrollbars",
-        "url": "https://github.com/openclaw/openclaw/pull/135564",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-01T21:45:27Z"
-      },
-      {
-        "kind": "pr",
-        "number": 131510,
-        "title": "feat(plugins): require package-local icon assets",
-        "url": "https://github.com/openclaw/openclaw/pull/131510",
-        "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-09-01T21:45:23Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117734,
-        "title": "fix(channels): add opt-in multi-bot storm protection",
-        "url": "https://github.com/openclaw/openclaw/pull/117734",
-        "state": "open",
-        "author": "zeroaltitude",
-        "updatedAt": "2026-09-01T21:45:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 135541,
-        "title": "fix(update): preflight all agent database stores",
-        "url": "https://github.com/openclaw/openclaw/pull/135541",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-01T21:45:15Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117302,
-        "title": "fix(irc): config validation rejects the documented healthMonitor override",
-        "url": "https://github.com/openclaw/openclaw/pull/117302",
-        "state": "open",
-        "author": "ayaangazali",
-        "updatedAt": "2026-09-01T21:45:15Z"
-      },
-      {
-        "kind": "pr",
-        "number": 135572,
-        "title": "test(tooling): reuse packed artifact identity fixture",
-        "url": "https://github.com/openclaw/openclaw/pull/135572",
+        "number": 135639,
+        "title": "improve(release): prepare publication artifacts during validation",
+        "url": "https://github.com/openclaw/openclaw/pull/135639",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-01T21:45:13Z"
+        "updatedAt": "2026-09-02T00:11:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 135698,
+        "title": "test(bedrock): consolidate missing-credential selection coverage",
+        "url": "https://github.com/openclaw/openclaw/pull/135698",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-02T00:11:34Z"
+      },
+      {
+        "kind": "pr",
+        "number": 135599,
+        "title": "feat: manage and reload plugins without restarting the Gateway",
+        "url": "https://github.com/openclaw/openclaw/pull/135599",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-02T00:11:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 135394,
+        "title": "fix(tailscale): recover managed ingress after upgrades",
+        "url": "https://github.com/openclaw/openclaw/pull/135394",
+        "state": "open",
+        "author": "jjjhenriksen",
+        "updatedAt": "2026-09-02T00:11:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 135462,
+        "title": "fix(update): roll back npm candidate after Doctor failure",
+        "url": "https://github.com/openclaw/openclaw/pull/135462",
+        "state": "open",
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-09-02T00:11:29Z"
+      },
+      {
+        "kind": "pr",
+        "number": 135041,
+        "title": "fix(macos): replace misleading AI setup progress",
+        "url": "https://github.com/openclaw/openclaw/pull/135041",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-02T00:11:29Z"
       }
     ]
   }

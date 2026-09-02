@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-02T00:11:45.896Z",
+  "generatedAt": "2026-09-02T04:29:58.432Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -785,18 +785,18 @@
     },
     {
       "capturedOn": "2026-09-02",
-      "capturedAt": "2026-09-02T00:11:45.896Z",
-      "issueOpen": 3701,
-      "issueClosed": 46573,
-      "prOpen": 2369,
-      "prClosed": 80508,
-      "prMerged": 31882,
+      "capturedAt": "2026-09-02T04:29:58.432Z",
+      "issueOpen": 3681,
+      "issueClosed": 46651,
+      "prOpen": 2373,
+      "prClosed": 80662,
+      "prMerged": 32024,
       "workflowRuns": 40000,
-      "stars": 388521,
-      "forks": 81568,
-      "subscribers": 1755,
-      "commits": 86330,
-      "contributors": 3227,
+      "stars": 388544,
+      "forks": 81574,
+      "subscribers": 1754,
+      "commits": 86471,
+      "contributors": 3235,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1068,97 +1068,124 @@
     },
     {
       "capturedOn": "2026-09-02",
-      "stars": 388521,
-      "forks": 81568,
-      "subscribers": 1755,
-      "commits": 86330,
-      "contributors": 3227
+      "stars": 388544,
+      "forks": 81574,
+      "subscribers": 1754,
+      "commits": 86471,
+      "contributors": 3235
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 135688,
-        "title": "[Bug]: Turn that fails its ReplyOperation after a settled run still reports 'completed' — status reactions, gateway HTTP mapping, and CLI exit code all mark a failed turn as done",
-        "url": "https://github.com/openclaw/openclaw/issues/135688",
+        "number": 57284,
+        "title": "[Bug]: openclaw agent --deliver silently drops messages (exit 0, no delivery)",
+        "url": "https://github.com/openclaw/openclaw/issues/57284",
         "state": "open",
-        "author": "Grynn",
-        "updatedAt": "2026-09-02T00:11:34Z"
+        "author": "joeykrug",
+        "updatedAt": "2026-09-02T04:29:32Z"
       },
       {
         "kind": "issue",
-        "number": 116783,
-        "title": "Make remote validation fast and workload-aware across Blacksmith and Crabbox",
-        "url": "https://github.com/openclaw/openclaw/issues/116783",
+        "number": 135906,
+        "title": "[Feature]: Add directional Reef friendship permissions",
+        "url": "https://github.com/openclaw/openclaw/issues/135906",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-09-02T00:11:34Z"
+        "author": "jason-allen-oneal",
+        "updatedAt": "2026-09-02T04:29:31Z"
       },
       {
         "kind": "issue",
-        "number": 116048,
-        "title": "[Bug]: wiki.get scans the vault for an exact canonical page path",
-        "url": "https://github.com/openclaw/openclaw/issues/116048",
+        "number": 57592,
+        "title": "TUI: Support inline image display in iTerm2 / Kitty / Sixel terminals",
+        "url": "https://github.com/openclaw/openclaw/issues/57592",
         "state": "open",
-        "author": "BsnizND",
-        "updatedAt": "2026-09-02T00:11:01Z"
+        "author": "xunuoi",
+        "updatedAt": "2026-09-02T04:29:28Z"
+      },
+      {
+        "kind": "issue",
+        "number": 135545,
+        "title": "feat(message tool + Telegram): multi-media sends grouped into albums",
+        "url": "https://github.com/openclaw/openclaw/issues/135545",
+        "state": "open",
+        "author": "Mirr0ch1",
+        "updatedAt": "2026-09-02T04:29:19Z"
+      },
+      {
+        "kind": "issue",
+        "number": 135900,
+        "title": "[Bug]: 2026.8.2 session-manager regressions break interactive Telegram turns on /new reset boundaries & inbound message adoption",
+        "url": "https://github.com/openclaw/openclaw/issues/135900",
+        "state": "closed",
+        "author": "richddr",
+        "updatedAt": "2026-09-02T04:29:14Z"
+      },
+      {
+        "kind": "issue",
+        "number": 135899,
+        "title": "[Bug]: Control UI repeats a waiting receipt beside startup progress",
+        "url": "https://github.com/openclaw/openclaw/issues/135899",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-02T04:29:14Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 135639,
-        "title": "improve(release): prepare publication artifacts during validation",
-        "url": "https://github.com/openclaw/openclaw/pull/135639",
+        "number": 135898,
+        "title": "improve: avoid repeated JSON copies of Code Mode text results",
+        "url": "https://github.com/openclaw/openclaw/pull/135898",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-02T00:11:38Z"
+        "updatedAt": "2026-09-02T04:29:47Z"
       },
       {
         "kind": "pr",
-        "number": 135698,
-        "title": "test(bedrock): consolidate missing-credential selection coverage",
-        "url": "https://github.com/openclaw/openclaw/pull/135698",
+        "number": 135895,
+        "title": "feat(nextcloud-talk): support inbound attachments",
+        "url": "https://github.com/openclaw/openclaw/pull/135895",
+        "state": "open",
+        "author": "lordratner",
+        "updatedAt": "2026-09-02T04:29:43Z"
+      },
+      {
+        "kind": "pr",
+        "number": 135665,
+        "title": "fix: openclaw node worker never exits after a stop when stdin is held open or a plugin child pins the event loop",
+        "url": "https://github.com/openclaw/openclaw/pull/135665",
+        "state": "open",
+        "author": "Colton-Harris",
+        "updatedAt": "2026-09-02T04:29:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 135857,
+        "title": "fix(browser): enforce CDP policy for Chrome MCP argument endpoints",
+        "url": "https://github.com/openclaw/openclaw/pull/135857",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-02T00:11:34Z"
+        "updatedAt": "2026-09-02T04:29:35Z"
       },
       {
         "kind": "pr",
-        "number": 135599,
-        "title": "feat: manage and reload plugins without restarting the Gateway",
-        "url": "https://github.com/openclaw/openclaw/pull/135599",
+        "number": 135915,
+        "title": "refactor(claws): speed up lifecycle E2E checks",
+        "url": "https://github.com/openclaw/openclaw/pull/135915",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-02T00:11:33Z"
+        "updatedAt": "2026-09-02T04:29:34Z"
       },
       {
         "kind": "pr",
-        "number": 135394,
-        "title": "fix(tailscale): recover managed ingress after upgrades",
-        "url": "https://github.com/openclaw/openclaw/pull/135394",
+        "number": 135366,
+        "title": "fix(firecrawl): report an unresolvable self-hosted baseUrl as a DNS failure",
+        "url": "https://github.com/openclaw/openclaw/pull/135366",
         "state": "open",
-        "author": "jjjhenriksen",
-        "updatedAt": "2026-09-02T00:11:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 135462,
-        "title": "fix(update): roll back npm candidate after Doctor failure",
-        "url": "https://github.com/openclaw/openclaw/pull/135462",
-        "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-09-02T00:11:29Z"
-      },
-      {
-        "kind": "pr",
-        "number": 135041,
-        "title": "fix(macos): replace misleading AI setup progress",
-        "url": "https://github.com/openclaw/openclaw/pull/135041",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-02T00:11:29Z"
+        "author": "ruel225",
+        "updatedAt": "2026-09-02T04:29:34Z"
       }
     ]
   }

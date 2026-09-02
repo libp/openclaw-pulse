@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-02T09:35:43.216Z",
+  "generatedAt": "2026-09-02T14:27:45.864Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -785,18 +785,18 @@
     },
     {
       "capturedOn": "2026-09-02",
-      "capturedAt": "2026-09-02T09:35:43.216Z",
-      "issueOpen": 3695,
-      "issueClosed": 46734,
-      "prOpen": 2386,
-      "prClosed": 80855,
-      "prMerged": 32189,
+      "capturedAt": "2026-09-02T14:27:45.864Z",
+      "issueOpen": 3680,
+      "issueClosed": 46790,
+      "prOpen": 2372,
+      "prClosed": 80967,
+      "prMerged": 32283,
       "workflowRuns": 40000,
-      "stars": 388584,
-      "forks": 81594,
-      "subscribers": 1754,
-      "commits": 86632,
-      "contributors": 3239,
+      "stars": 388617,
+      "forks": 81603,
+      "subscribers": 1753,
+      "commits": 86728,
+      "contributors": 3244,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1068,88 +1068,88 @@
     },
     {
       "capturedOn": "2026-09-02",
-      "stars": 388584,
-      "forks": 81594,
-      "subscribers": 1754,
-      "commits": 86632,
-      "contributors": 3239
+      "stars": 388617,
+      "forks": 81603,
+      "subscribers": 1753,
+      "commits": 86728,
+      "contributors": 3244
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 136217,
-        "title": "[Bug]: identity-only SDK transcript operations ignore session.store",
-        "url": "https://github.com/openclaw/openclaw/issues/136217",
+        "number": 133709,
+        "title": "Surface permission requests from background ACP sessions (Claude Code adapter) as approvals",
+        "url": "https://github.com/openclaw/openclaw/issues/133709",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-02T09:34:49Z"
+        "author": "TheArchitectit",
+        "updatedAt": "2026-09-02T14:27:21Z"
       },
       {
         "kind": "issue",
-        "number": 136200,
-        "title": "[Bug]: Feishu quoted merged-forward messages expose only placeholder text",
-        "url": "https://github.com/openclaw/openclaw/issues/136200",
+        "number": 136360,
+        "title": "[Bug]: Internal runtime-context carrier (<<<BEGIN_OPENCLAW_INTERNAL_CONTEXT>>>) leaks as standalone visible turns on Microsoft Teams channel",
+        "url": "https://github.com/openclaw/openclaw/issues/136360",
         "state": "open",
-        "author": "heden9",
-        "updatedAt": "2026-09-02T09:34:34Z"
+        "author": "TrustPointCyber",
+        "updatedAt": "2026-09-02T14:27:09Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 136146,
-        "title": "fix(gateway): keep received work inside its state lifetime",
-        "url": "https://github.com/openclaw/openclaw/pull/136146",
+        "number": 135553,
+        "title": "feat(telegram,message-tool): multi-media sends grouped into albums",
+        "url": "https://github.com/openclaw/openclaw/pull/135553",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-02T09:35:27Z"
+        "author": "Mirr0ch1",
+        "updatedAt": "2026-09-02T14:27:40Z"
       },
       {
         "kind": "pr",
-        "number": 136072,
-        "title": "fix(ui): keep sent images visible during history handoff",
-        "url": "https://github.com/openclaw/openclaw/pull/136072",
+        "number": 136309,
+        "title": "fix(ci): hydrate release ancestry within deadline",
+        "url": "https://github.com/openclaw/openclaw/pull/136309",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-02T09:35:24Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-02T14:27:26Z"
       },
       {
         "kind": "pr",
-        "number": 136216,
-        "title": "refactor(ui): simplify shared message rendering",
-        "url": "https://github.com/openclaw/openclaw/pull/136216",
+        "number": 136356,
+        "title": "fix(workspace): handle concurrent lock directory rename in readLock",
+        "url": "https://github.com/openclaw/openclaw/pull/136356",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-02T09:35:15Z"
+        "author": "aniruddhaadak80",
+        "updatedAt": "2026-09-02T14:27:39Z"
       },
       {
         "kind": "pr",
-        "number": 136215,
-        "title": "fix(backup): stop failing backups on ACPX-generated codex-home symlinks",
-        "url": "https://github.com/openclaw/openclaw/pull/136215",
+        "number": 135838,
+        "title": "fix(workers): stop provisioning after turn authority closes",
+        "url": "https://github.com/openclaw/openclaw/pull/135838",
         "state": "open",
-        "author": "LiuwqGit",
-        "updatedAt": "2026-09-02T09:35:11Z"
+        "author": "sallyom",
+        "updatedAt": "2026-09-02T14:27:24Z"
       },
       {
         "kind": "pr",
-        "number": 132753,
-        "title": "fix(agents): keep plugin tools for namespaced allowlist entries",
-        "url": "https://github.com/openclaw/openclaw/pull/132753",
+        "number": 131590,
+        "title": "fix(cron): make one-shot terminal disables visible instead of silently parking jobs",
+        "url": "https://github.com/openclaw/openclaw/pull/131590",
         "state": "open",
-        "author": "tommyjoseph",
-        "updatedAt": "2026-09-02T09:35:07Z"
+        "author": "lonexreb",
+        "updatedAt": "2026-09-02T14:27:24Z"
       },
       {
         "kind": "pr",
-        "number": 128454,
-        "title": "feat(auto-reply): clean empty staged inbound media directories (#104358)",
-        "url": "https://github.com/openclaw/openclaw/pull/128454",
-        "state": "open",
-        "author": "MasterSwords1",
-        "updatedAt": "2026-09-02T09:35:07Z"
+        "number": 123975,
+        "title": "fix(scripts): clean up tsgo process trees on timeout or signal",
+        "url": "https://github.com/openclaw/openclaw/pull/123975",
+        "state": "closed",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-09-02T14:27:15Z"
       }
     ]
   }

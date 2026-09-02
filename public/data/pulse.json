@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-02T04:29:58.432Z",
+  "generatedAt": "2026-09-02T09:35:43.216Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -785,18 +785,18 @@
     },
     {
       "capturedOn": "2026-09-02",
-      "capturedAt": "2026-09-02T04:29:58.432Z",
-      "issueOpen": 3681,
-      "issueClosed": 46651,
-      "prOpen": 2373,
-      "prClosed": 80662,
-      "prMerged": 32024,
+      "capturedAt": "2026-09-02T09:35:43.216Z",
+      "issueOpen": 3695,
+      "issueClosed": 46734,
+      "prOpen": 2386,
+      "prClosed": 80855,
+      "prMerged": 32189,
       "workflowRuns": 40000,
-      "stars": 388544,
-      "forks": 81574,
+      "stars": 388584,
+      "forks": 81594,
       "subscribers": 1754,
-      "commits": 86471,
-      "contributors": 3235,
+      "commits": 86632,
+      "contributors": 3239,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1068,124 +1068,88 @@
     },
     {
       "capturedOn": "2026-09-02",
-      "stars": 388544,
-      "forks": 81574,
+      "stars": 388584,
+      "forks": 81594,
       "subscribers": 1754,
-      "commits": 86471,
-      "contributors": 3235
+      "commits": 86632,
+      "contributors": 3239
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 57284,
-        "title": "[Bug]: openclaw agent --deliver silently drops messages (exit 0, no delivery)",
-        "url": "https://github.com/openclaw/openclaw/issues/57284",
-        "state": "open",
-        "author": "joeykrug",
-        "updatedAt": "2026-09-02T04:29:32Z"
-      },
-      {
-        "kind": "issue",
-        "number": 135906,
-        "title": "[Feature]: Add directional Reef friendship permissions",
-        "url": "https://github.com/openclaw/openclaw/issues/135906",
-        "state": "open",
-        "author": "jason-allen-oneal",
-        "updatedAt": "2026-09-02T04:29:31Z"
-      },
-      {
-        "kind": "issue",
-        "number": 57592,
-        "title": "TUI: Support inline image display in iTerm2 / Kitty / Sixel terminals",
-        "url": "https://github.com/openclaw/openclaw/issues/57592",
-        "state": "open",
-        "author": "xunuoi",
-        "updatedAt": "2026-09-02T04:29:28Z"
-      },
-      {
-        "kind": "issue",
-        "number": 135545,
-        "title": "feat(message tool + Telegram): multi-media sends grouped into albums",
-        "url": "https://github.com/openclaw/openclaw/issues/135545",
-        "state": "open",
-        "author": "Mirr0ch1",
-        "updatedAt": "2026-09-02T04:29:19Z"
-      },
-      {
-        "kind": "issue",
-        "number": 135900,
-        "title": "[Bug]: 2026.8.2 session-manager regressions break interactive Telegram turns on /new reset boundaries & inbound message adoption",
-        "url": "https://github.com/openclaw/openclaw/issues/135900",
-        "state": "closed",
-        "author": "richddr",
-        "updatedAt": "2026-09-02T04:29:14Z"
-      },
-      {
-        "kind": "issue",
-        "number": 135899,
-        "title": "[Bug]: Control UI repeats a waiting receipt beside startup progress",
-        "url": "https://github.com/openclaw/openclaw/issues/135899",
+        "number": 136217,
+        "title": "[Bug]: identity-only SDK transcript operations ignore session.store",
+        "url": "https://github.com/openclaw/openclaw/issues/136217",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-02T04:29:14Z"
+        "updatedAt": "2026-09-02T09:34:49Z"
+      },
+      {
+        "kind": "issue",
+        "number": 136200,
+        "title": "[Bug]: Feishu quoted merged-forward messages expose only placeholder text",
+        "url": "https://github.com/openclaw/openclaw/issues/136200",
+        "state": "open",
+        "author": "heden9",
+        "updatedAt": "2026-09-02T09:34:34Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 135898,
-        "title": "improve: avoid repeated JSON copies of Code Mode text results",
-        "url": "https://github.com/openclaw/openclaw/pull/135898",
+        "number": 136146,
+        "title": "fix(gateway): keep received work inside its state lifetime",
+        "url": "https://github.com/openclaw/openclaw/pull/136146",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-02T04:29:47Z"
+        "updatedAt": "2026-09-02T09:35:27Z"
       },
       {
         "kind": "pr",
-        "number": 135895,
-        "title": "feat(nextcloud-talk): support inbound attachments",
-        "url": "https://github.com/openclaw/openclaw/pull/135895",
-        "state": "open",
-        "author": "lordratner",
-        "updatedAt": "2026-09-02T04:29:43Z"
-      },
-      {
-        "kind": "pr",
-        "number": 135665,
-        "title": "fix: openclaw node worker never exits after a stop when stdin is held open or a plugin child pins the event loop",
-        "url": "https://github.com/openclaw/openclaw/pull/135665",
-        "state": "open",
-        "author": "Colton-Harris",
-        "updatedAt": "2026-09-02T04:29:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 135857,
-        "title": "fix(browser): enforce CDP policy for Chrome MCP argument endpoints",
-        "url": "https://github.com/openclaw/openclaw/pull/135857",
+        "number": 136072,
+        "title": "fix(ui): keep sent images visible during history handoff",
+        "url": "https://github.com/openclaw/openclaw/pull/136072",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-02T04:29:35Z"
+        "updatedAt": "2026-09-02T09:35:24Z"
       },
       {
         "kind": "pr",
-        "number": 135915,
-        "title": "refactor(claws): speed up lifecycle E2E checks",
-        "url": "https://github.com/openclaw/openclaw/pull/135915",
+        "number": 136216,
+        "title": "refactor(ui): simplify shared message rendering",
+        "url": "https://github.com/openclaw/openclaw/pull/136216",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-02T04:29:34Z"
+        "updatedAt": "2026-09-02T09:35:15Z"
       },
       {
         "kind": "pr",
-        "number": 135366,
-        "title": "fix(firecrawl): report an unresolvable self-hosted baseUrl as a DNS failure",
-        "url": "https://github.com/openclaw/openclaw/pull/135366",
+        "number": 136215,
+        "title": "fix(backup): stop failing backups on ACPX-generated codex-home symlinks",
+        "url": "https://github.com/openclaw/openclaw/pull/136215",
         "state": "open",
-        "author": "ruel225",
-        "updatedAt": "2026-09-02T04:29:34Z"
+        "author": "LiuwqGit",
+        "updatedAt": "2026-09-02T09:35:11Z"
+      },
+      {
+        "kind": "pr",
+        "number": 132753,
+        "title": "fix(agents): keep plugin tools for namespaced allowlist entries",
+        "url": "https://github.com/openclaw/openclaw/pull/132753",
+        "state": "open",
+        "author": "tommyjoseph",
+        "updatedAt": "2026-09-02T09:35:07Z"
+      },
+      {
+        "kind": "pr",
+        "number": 128454,
+        "title": "feat(auto-reply): clean empty staged inbound media directories (#104358)",
+        "url": "https://github.com/openclaw/openclaw/pull/128454",
+        "state": "open",
+        "author": "MasterSwords1",
+        "updatedAt": "2026-09-02T09:35:07Z"
       }
     ]
   }

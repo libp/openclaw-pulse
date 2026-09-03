@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-03T14:32:41.202Z",
+  "generatedAt": "2026-09-03T18:36:46.053Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -802,17 +802,17 @@
     },
     {
       "capturedOn": "2026-09-03",
-      "capturedAt": "2026-09-03T14:32:41.202Z",
-      "issueOpen": 3705,
-      "issueClosed": 47044,
-      "prOpen": 2390,
-      "prClosed": 81657,
-      "prMerged": 32880,
+      "capturedAt": "2026-09-03T18:36:46.053Z",
+      "issueOpen": 3720,
+      "issueClosed": 47086,
+      "prOpen": 2408,
+      "prClosed": 81714,
+      "prMerged": 32927,
       "workflowRuns": 40000,
-      "stars": 388726,
-      "forks": 81628,
+      "stars": 388748,
+      "forks": 81635,
       "subscribers": 1754,
-      "commits": 87325,
+      "commits": 87372,
       "contributors": 3257,
       "source": "github-actions",
       "approximateDate": false
@@ -1093,10 +1093,10 @@
     },
     {
       "capturedOn": "2026-09-03",
-      "stars": 388726,
-      "forks": 81628,
+      "stars": 388748,
+      "forks": 81635,
       "subscribers": 1754,
-      "commits": 87325,
+      "commits": 87372,
       "contributors": 3257
     }
   ],
@@ -1104,95 +1104,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 127239,
-        "title": "Context window silently falls back to 200k (2e5) hardcoded default instead of real 1M catalog value for deepseek-v4-flash",
-        "url": "https://github.com/openclaw/openclaw/issues/127239",
+        "number": 122753,
+        "title": "CI: real Gateway network proof runs in the unit-fast suite",
+        "url": "https://github.com/openclaw/openclaw/issues/122753",
         "state": "open",
-        "author": "isaias210",
-        "updatedAt": "2026-09-03T14:32:13Z"
-      },
-      {
-        "kind": "issue",
-        "number": 123548,
-        "title": "[Bug]: message_tool_only requesters silently lose subagent results when the completion agent skips the message tool",
-        "url": "https://github.com/openclaw/openclaw/issues/123548",
-        "state": "open",
-        "author": "davenicoll",
-        "updatedAt": "2026-09-03T14:31:27Z"
-      },
-      {
-        "kind": "issue",
-        "number": 136940,
-        "title": "[Bug]: macOS primary gateway changes leave secondary dashboards on stale routes",
-        "url": "https://github.com/openclaw/openclaw/issues/136940",
-        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-09-03T14:30:44Z"
+        "updatedAt": "2026-09-03T18:36:20Z"
       },
       {
         "kind": "issue",
-        "number": 123086,
-        "title": "[Feature]: Provide a user-facing path to view generated Markdown documents (not just a raw file on disk)",
-        "url": "https://github.com/openclaw/openclaw/issues/123086",
+        "number": 122736,
+        "title": "[Feature]: Define xAI server-tool behavior when the default model is unavailable",
+        "url": "https://github.com/openclaw/openclaw/issues/122736",
         "state": "open",
-        "author": "Zhangbo-cn",
-        "updatedAt": "2026-09-03T14:30:31Z"
+        "author": "hannesrudolph",
+        "updatedAt": "2026-09-03T18:35:59Z"
+      },
+      {
+        "kind": "issue",
+        "number": 137473,
+        "title": "[Bug]: CRT/Phosphor composer drops parts of JetBrains Mono ligatures at the caret",
+        "url": "https://github.com/openclaw/openclaw/issues/137473",
+        "state": "open",
+        "author": "pavonis-martian",
+        "updatedAt": "2026-09-03T18:34:30Z"
+      },
+      {
+        "kind": "issue",
+        "number": 137479,
+        "title": "[Feature]: Show the effective runtime on session rows in the Control UI sidebar",
+        "url": "https://github.com/openclaw/openclaw/issues/137479",
+        "state": "open",
+        "author": "Verlbot",
+        "updatedAt": "2026-09-03T18:34:10Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 137344,
-        "title": "fix(subagents): settle terminal non-success requester wakes durably",
-        "url": "https://github.com/openclaw/openclaw/pull/137344",
+        "number": 137321,
+        "title": "improve(e2e): cover mobile pairing gateway upgrades",
+        "url": "https://github.com/openclaw/openclaw/pull/137321",
         "state": "open",
-        "author": "xydt-juyaohui",
-        "updatedAt": "2026-09-03T14:32:31Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-03T18:36:40Z"
       },
       {
         "kind": "pr",
-        "number": 126177,
-        "title": "feat(sessions): find sessions worth organizing",
-        "url": "https://github.com/openclaw/openclaw/pull/126177",
+        "number": 117302,
+        "title": "fix(irc): config validation rejects the documented healthMonitor override",
+        "url": "https://github.com/openclaw/openclaw/pull/117302",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-03T14:31:52Z"
+        "author": "ayaangazali",
+        "updatedAt": "2026-09-03T18:36:33Z"
       },
       {
         "kind": "pr",
-        "number": 131584,
-        "title": "fix(skills): allow foreground repair after explicit invocation",
-        "url": "https://github.com/openclaw/openclaw/pull/131584",
+        "number": 137300,
+        "title": "feat(reef): add host-approved remote session prompts",
+        "url": "https://github.com/openclaw/openclaw/pull/137300",
         "state": "open",
-        "author": "ashawwal",
-        "updatedAt": "2026-09-03T14:31:47Z"
+        "author": "jalehman",
+        "updatedAt": "2026-09-03T18:36:28Z"
       },
       {
         "kind": "pr",
-        "number": 115432,
-        "title": "fix(security): audit open Feishu and Teams DMs",
-        "url": "https://github.com/openclaw/openclaw/pull/115432",
-        "state": "open",
-        "author": "aspalagin",
-        "updatedAt": "2026-09-03T14:31:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 137347,
-        "title": "docs: name the workspace bootstrap files the doctor size check inspects",
-        "url": "https://github.com/openclaw/openclaw/pull/137347",
-        "state": "open",
-        "author": "ylcn91",
-        "updatedAt": "2026-09-03T14:31:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 137041,
-        "title": "fix(ui): show concrete model names in locked chats",
-        "url": "https://github.com/openclaw/openclaw/pull/137041",
+        "number": 137482,
+        "title": "test(plugins): reuse the shared cleanup timer call guard",
+        "url": "https://github.com/openclaw/openclaw/pull/137482",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-03T14:31:35Z"
+        "updatedAt": "2026-09-03T18:36:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 132116,
+        "title": "fix(acp): omit inherited max for maintained Codex ACP",
+        "url": "https://github.com/openclaw/openclaw/pull/132116",
+        "state": "open",
+        "author": "PollyBot13",
+        "updatedAt": "2026-09-03T18:36:15Z"
+      },
+      {
+        "kind": "pr",
+        "number": 137381,
+        "title": "fix: sessions_yield keeps long transcript history available",
+        "url": "https://github.com/openclaw/openclaw/pull/137381",
+        "state": "open",
+        "author": "jalehman",
+        "updatedAt": "2026-09-03T18:36:13Z"
       }
     ]
   }

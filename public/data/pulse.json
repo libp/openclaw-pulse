@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-03T04:32:35.463Z",
+  "generatedAt": "2026-09-03T14:32:41.202Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -802,18 +802,18 @@
     },
     {
       "capturedOn": "2026-09-03",
-      "capturedAt": "2026-09-03T04:32:35.463Z",
-      "issueOpen": 3714,
-      "issueClosed": 46936,
-      "prOpen": 2424,
-      "prClosed": 81361,
-      "prMerged": 32622,
+      "capturedAt": "2026-09-03T14:32:41.202Z",
+      "issueOpen": 3705,
+      "issueClosed": 47044,
+      "prOpen": 2390,
+      "prClosed": 81657,
+      "prMerged": 32880,
       "workflowRuns": 40000,
-      "stars": 388669,
-      "forks": 81620,
-      "subscribers": 1753,
-      "commits": 87067,
-      "contributors": 3247,
+      "stars": 388726,
+      "forks": 81628,
+      "subscribers": 1754,
+      "commits": 87325,
+      "contributors": 3257,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1093,88 +1093,106 @@
     },
     {
       "capturedOn": "2026-09-03",
-      "stars": 388669,
-      "forks": 81620,
-      "subscribers": 1753,
-      "commits": 87067,
-      "contributors": 3247
+      "stars": 388726,
+      "forks": 81628,
+      "subscribers": 1754,
+      "commits": 87325,
+      "contributors": 3257
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 124284,
-        "title": "Subagent spawn fails with vLLM openai-completions + thinking: malformed XML tool calls since v2026.8.1-beta.2",
-        "url": "https://github.com/openclaw/openclaw/issues/124284",
+        "number": 127239,
+        "title": "Context window silently falls back to 200k (2e5) hardcoded default instead of real 1M catalog value for deepseek-v4-flash",
+        "url": "https://github.com/openclaw/openclaw/issues/127239",
         "state": "open",
-        "author": "kiagentkronos-cell",
-        "updatedAt": "2026-09-03T04:32:10Z"
+        "author": "isaias210",
+        "updatedAt": "2026-09-03T14:32:13Z"
       },
       {
         "kind": "issue",
-        "number": 124125,
-        "title": "[Bug]: cron durable fence fails on Windows — getFileLockProcessStartTime has no win32 path",
-        "url": "https://github.com/openclaw/openclaw/issues/124125",
+        "number": 123548,
+        "title": "[Bug]: message_tool_only requesters silently lose subagent results when the completion agent skips the message tool",
+        "url": "https://github.com/openclaw/openclaw/issues/123548",
         "state": "open",
-        "author": "unknowbug",
-        "updatedAt": "2026-09-03T04:31:52Z"
+        "author": "davenicoll",
+        "updatedAt": "2026-09-03T14:31:27Z"
+      },
+      {
+        "kind": "issue",
+        "number": 136940,
+        "title": "[Bug]: macOS primary gateway changes leave secondary dashboards on stale routes",
+        "url": "https://github.com/openclaw/openclaw/issues/136940",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-09-03T14:30:44Z"
+      },
+      {
+        "kind": "issue",
+        "number": 123086,
+        "title": "[Feature]: Provide a user-facing path to view generated Markdown documents (not just a raw file on disk)",
+        "url": "https://github.com/openclaw/openclaw/issues/123086",
+        "state": "open",
+        "author": "Zhangbo-cn",
+        "updatedAt": "2026-09-03T14:30:31Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 136922,
-        "title": "perf(ui): load memory import copy with its views",
-        "url": "https://github.com/openclaw/openclaw/pull/136922",
+        "number": 137344,
+        "title": "fix(subagents): settle terminal non-success requester wakes durably",
+        "url": "https://github.com/openclaw/openclaw/pull/137344",
+        "state": "open",
+        "author": "xydt-juyaohui",
+        "updatedAt": "2026-09-03T14:32:31Z"
+      },
+      {
+        "kind": "pr",
+        "number": 126177,
+        "title": "feat(sessions): find sessions worth organizing",
+        "url": "https://github.com/openclaw/openclaw/pull/126177",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-09-03T14:31:52Z"
+      },
+      {
+        "kind": "pr",
+        "number": 131584,
+        "title": "fix(skills): allow foreground repair after explicit invocation",
+        "url": "https://github.com/openclaw/openclaw/pull/131584",
+        "state": "open",
+        "author": "ashawwal",
+        "updatedAt": "2026-09-03T14:31:47Z"
+      },
+      {
+        "kind": "pr",
+        "number": 115432,
+        "title": "fix(security): audit open Feishu and Teams DMs",
+        "url": "https://github.com/openclaw/openclaw/pull/115432",
+        "state": "open",
+        "author": "aspalagin",
+        "updatedAt": "2026-09-03T14:31:44Z"
+      },
+      {
+        "kind": "pr",
+        "number": 137347,
+        "title": "docs: name the workspace bootstrap files the doctor size check inspects",
+        "url": "https://github.com/openclaw/openclaw/pull/137347",
+        "state": "open",
+        "author": "ylcn91",
+        "updatedAt": "2026-09-03T14:31:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 137041,
+        "title": "fix(ui): show concrete model names in locked chats",
+        "url": "https://github.com/openclaw/openclaw/pull/137041",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-03T04:32:31Z"
-      },
-      {
-        "kind": "pr",
-        "number": 136990,
-        "title": "fix(agents): scope append-only runtime context to prefix-binding Claude models",
-        "url": "https://github.com/openclaw/openclaw/pull/136990",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-03T04:32:28Z"
-      },
-      {
-        "kind": "pr",
-        "number": 136981,
-        "title": "chore(ui): refresh control ui locales",
-        "url": "https://github.com/openclaw/openclaw/pull/136981",
-        "state": "open",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-09-03T04:32:27Z"
-      },
-      {
-        "kind": "pr",
-        "number": 136805,
-        "title": "fix(process): cap service-child control pipe pending line",
-        "url": "https://github.com/openclaw/openclaw/pull/136805",
-        "state": "open",
-        "author": "SebTardif",
-        "updatedAt": "2026-09-03T04:32:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 136158,
-        "title": "fix(cli): reject unknown proxy query presets",
-        "url": "https://github.com/openclaw/openclaw/pull/136158",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-03T04:32:23Z"
-      },
-      {
-        "kind": "pr",
-        "number": 136985,
-        "title": "improve(ui): lift sidebar section headers on hover and mark online owners",
-        "url": "https://github.com/openclaw/openclaw/pull/136985",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-03T04:32:22Z"
+        "updatedAt": "2026-09-03T14:31:35Z"
       }
     ]
   }

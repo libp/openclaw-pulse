@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-03T00:13:31.356Z",
+  "generatedAt": "2026-09-03T04:32:35.463Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -802,17 +802,17 @@
     },
     {
       "capturedOn": "2026-09-03",
-      "capturedAt": "2026-09-03T00:13:31.356Z",
-      "issueOpen": 3690,
-      "issueClosed": 46893,
-      "prOpen": 2397,
-      "prClosed": 81223,
-      "prMerged": 32513,
+      "capturedAt": "2026-09-03T04:32:35.463Z",
+      "issueOpen": 3714,
+      "issueClosed": 46936,
+      "prOpen": 2424,
+      "prClosed": 81361,
+      "prMerged": 32622,
       "workflowRuns": 40000,
-      "stars": 388660,
-      "forks": 81617,
-      "subscribers": 1752,
-      "commits": 86958,
+      "stars": 388669,
+      "forks": 81620,
+      "subscribers": 1753,
+      "commits": 87067,
       "contributors": 3247,
       "source": "github-actions",
       "approximateDate": false
@@ -1093,10 +1093,10 @@
     },
     {
       "capturedOn": "2026-09-03",
-      "stars": 388660,
-      "forks": 81617,
-      "subscribers": 1752,
-      "commits": 86958,
+      "stars": 388669,
+      "forks": 81620,
+      "subscribers": 1753,
+      "commits": 87067,
       "contributors": 3247
     }
   ],
@@ -1104,95 +1104,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 97616,
-        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
-        "url": "https://github.com/openclaw/openclaw/issues/97616",
+        "number": 124284,
+        "title": "Subagent spawn fails with vLLM openai-completions + thinking: malformed XML tool calls since v2026.8.1-beta.2",
+        "url": "https://github.com/openclaw/openclaw/issues/124284",
         "state": "open",
-        "author": "avp717",
-        "updatedAt": "2026-09-03T00:13:16Z"
+        "author": "kiagentkronos-cell",
+        "updatedAt": "2026-09-03T04:32:10Z"
       },
       {
         "kind": "issue",
-        "number": 136757,
-        "title": "2026.8.2 regression: openai-compatible memory embed adapter sends all chunks in one request; split-on-error retry does not catch provider batch-size 400",
-        "url": "https://github.com/openclaw/openclaw/issues/136757",
-        "state": "closed",
-        "author": "greggchen308",
-        "updatedAt": "2026-09-03T00:13:09Z"
-      },
-      {
-        "kind": "issue",
-        "number": 121823,
-        "title": "[Bug]: memory-core dreaming promotion parks the event loop (minutes on native FS, 90+ min on FUSE state): healthz dark, in-process guards starve; liveness monitor observes but cannot act",
-        "url": "https://github.com/openclaw/openclaw/issues/121823",
+        "number": 124125,
+        "title": "[Bug]: cron durable fence fails on Windows — getFileLockProcessStartTime has no win32 path",
+        "url": "https://github.com/openclaw/openclaw/issues/124125",
         "state": "open",
-        "author": "BMA-Aaron",
-        "updatedAt": "2026-09-03T00:12:39Z"
-      },
-      {
-        "kind": "issue",
-        "number": 121232,
-        "title": "memory-core dreaming: ranker nominates candidates the applier always rejects (\"Ranked N, Promoted 0\" forever)",
-        "url": "https://github.com/openclaw/openclaw/issues/121232",
-        "state": "open",
-        "author": "ctbritt",
-        "updatedAt": "2026-09-03T00:12:17Z"
+        "author": "unknowbug",
+        "updatedAt": "2026-09-03T04:31:52Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 136711,
-        "title": "fix(ui): align board menu labels and sizing",
-        "url": "https://github.com/openclaw/openclaw/pull/136711",
+        "number": 136922,
+        "title": "perf(ui): load memory import copy with its views",
+        "url": "https://github.com/openclaw/openclaw/pull/136922",
         "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-09-03T00:13:24Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-03T04:32:31Z"
       },
       {
         "kind": "pr",
-        "number": 136748,
-        "title": "fix(ui): use a Lucide draft visibility icon",
-        "url": "https://github.com/openclaw/openclaw/pull/136748",
+        "number": 136990,
+        "title": "fix(agents): scope append-only runtime context to prefix-binding Claude models",
+        "url": "https://github.com/openclaw/openclaw/pull/136990",
         "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-09-03T00:13:23Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-03T04:32:28Z"
       },
       {
         "kind": "pr",
-        "number": 136750,
-        "title": "fix(ui): move sharing into owner slot",
-        "url": "https://github.com/openclaw/openclaw/pull/136750",
+        "number": 136981,
+        "title": "chore(ui): refresh control ui locales",
+        "url": "https://github.com/openclaw/openclaw/pull/136981",
         "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-09-03T00:13:15Z"
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-09-03T04:32:27Z"
       },
       {
         "kind": "pr",
-        "number": 80532,
-        "title": "feat(exec): add allowSymlinkPath config option",
-        "url": "https://github.com/openclaw/openclaw/pull/80532",
+        "number": 136805,
+        "title": "fix(process): cap service-child control pipe pending line",
+        "url": "https://github.com/openclaw/openclaw/pull/136805",
         "state": "open",
-        "author": "TheArchitectit",
-        "updatedAt": "2026-09-03T00:13:03Z"
+        "author": "SebTardif",
+        "updatedAt": "2026-09-03T04:32:26Z"
       },
       {
         "kind": "pr",
-        "number": 99193,
-        "title": "docs(acpx): expose the Grok Build harness target",
-        "url": "https://github.com/openclaw/openclaw/pull/99193",
+        "number": 136158,
+        "title": "fix(cli): reject unknown proxy query presets",
+        "url": "https://github.com/openclaw/openclaw/pull/136158",
         "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-09-03T00:13:02Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-03T04:32:23Z"
       },
       {
         "kind": "pr",
-        "number": 128175,
-        "title": "fix(macos): resolve typed gateway auth refs",
-        "url": "https://github.com/openclaw/openclaw/pull/128175",
+        "number": 136985,
+        "title": "improve(ui): lift sidebar section headers on hover and mark online owners",
+        "url": "https://github.com/openclaw/openclaw/pull/136985",
         "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-09-03T00:12:53Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-03T04:32:22Z"
       }
     ]
   }

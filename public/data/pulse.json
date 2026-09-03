@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-03T18:36:46.053Z",
+  "generatedAt": "2026-09-03T21:41:42.894Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -802,17 +802,17 @@
     },
     {
       "capturedOn": "2026-09-03",
-      "capturedAt": "2026-09-03T18:36:46.053Z",
-      "issueOpen": 3720,
-      "issueClosed": 47086,
-      "prOpen": 2408,
-      "prClosed": 81714,
-      "prMerged": 32927,
+      "capturedAt": "2026-09-03T21:41:42.894Z",
+      "issueOpen": 3735,
+      "issueClosed": 47108,
+      "prOpen": 2414,
+      "prClosed": 81772,
+      "prMerged": 32979,
       "workflowRuns": 40000,
-      "stars": 388748,
-      "forks": 81635,
+      "stars": 388759,
+      "forks": 81637,
       "subscribers": 1754,
-      "commits": 87372,
+      "commits": 87422,
       "contributors": 3257,
       "source": "github-actions",
       "approximateDate": false
@@ -1093,10 +1093,10 @@
     },
     {
       "capturedOn": "2026-09-03",
-      "stars": 388748,
-      "forks": 81635,
+      "stars": 388759,
+      "forks": 81637,
       "subscribers": 1754,
-      "commits": 87372,
+      "commits": 87422,
       "contributors": 3257
     }
   ],
@@ -1104,95 +1104,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 122753,
-        "title": "CI: real Gateway network proof runs in the unit-fast suite",
-        "url": "https://github.com/openclaw/openclaw/issues/122753",
+        "number": 97616,
+        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
+        "url": "https://github.com/openclaw/openclaw/issues/97616",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-03T18:36:20Z"
+        "author": "avp717",
+        "updatedAt": "2026-09-03T21:41:31Z"
       },
       {
         "kind": "issue",
-        "number": 122736,
-        "title": "[Feature]: Define xAI server-tool behavior when the default model is unavailable",
-        "url": "https://github.com/openclaw/openclaw/issues/122736",
+        "number": 137584,
+        "title": "[Bug]: 2026.9.1 official plugin update can time out on npm metadata while direct npm view succeeds",
+        "url": "https://github.com/openclaw/openclaw/issues/137584",
         "state": "open",
-        "author": "hannesrudolph",
-        "updatedAt": "2026-09-03T18:35:59Z"
+        "author": "LifeViwer",
+        "updatedAt": "2026-09-03T21:39:55Z"
       },
       {
         "kind": "issue",
-        "number": 137473,
-        "title": "[Bug]: CRT/Phosphor composer drops parts of JetBrains Mono ligatures at the caret",
-        "url": "https://github.com/openclaw/openclaw/issues/137473",
-        "state": "open",
-        "author": "pavonis-martian",
-        "updatedAt": "2026-09-03T18:34:30Z"
+        "number": 137560,
+        "title": "[Bug]: memory-core reindex reports database or disk is full when container temp storage is undersized",
+        "url": "https://github.com/openclaw/openclaw/issues/137560",
+        "state": "closed",
+        "author": "kesslerio",
+        "updatedAt": "2026-09-03T21:39:40Z"
       },
       {
         "kind": "issue",
-        "number": 137479,
-        "title": "[Feature]: Show the effective runtime on session rows in the Control UI sidebar",
-        "url": "https://github.com/openclaw/openclaw/issues/137479",
+        "number": 137579,
+        "title": "[Docs]: the reload table documents a two-way contract; buildGatewayReloadPlan implements a three-way one",
+        "url": "https://github.com/openclaw/openclaw/issues/137579",
         "state": "open",
-        "author": "Verlbot",
-        "updatedAt": "2026-09-03T18:34:10Z"
+        "author": "abacha",
+        "updatedAt": "2026-09-03T21:39:36Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 137321,
-        "title": "improve(e2e): cover mobile pairing gateway upgrades",
-        "url": "https://github.com/openclaw/openclaw/pull/137321",
+        "number": 136761,
+        "title": "fix(release): qualify frozen Docker scenarios by target capabilities",
+        "url": "https://github.com/openclaw/openclaw/pull/136761",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-09-03T18:36:40Z"
+        "updatedAt": "2026-09-03T21:41:23Z"
       },
       {
         "kind": "pr",
-        "number": 117302,
-        "title": "fix(irc): config validation rejects the documented healthMonitor override",
-        "url": "https://github.com/openclaw/openclaw/pull/117302",
+        "number": 137411,
+        "title": "fix(cron): suggest configured announce recipients",
+        "url": "https://github.com/openclaw/openclaw/pull/137411",
         "state": "open",
-        "author": "ayaangazali",
-        "updatedAt": "2026-09-03T18:36:33Z"
+        "author": "zeroaltitude",
+        "updatedAt": "2026-09-03T21:41:16Z"
       },
       {
         "kind": "pr",
-        "number": 137300,
-        "title": "feat(reef): add host-approved remote session prompts",
-        "url": "https://github.com/openclaw/openclaw/pull/137300",
-        "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-09-03T18:36:28Z"
-      },
-      {
-        "kind": "pr",
-        "number": 137482,
-        "title": "test(plugins): reuse the shared cleanup timer call guard",
-        "url": "https://github.com/openclaw/openclaw/pull/137482",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-03T18:36:25Z"
-      },
-      {
-        "kind": "pr",
-        "number": 132116,
-        "title": "fix(acp): omit inherited max for maintained Codex ACP",
-        "url": "https://github.com/openclaw/openclaw/pull/132116",
-        "state": "open",
-        "author": "PollyBot13",
-        "updatedAt": "2026-09-03T18:36:15Z"
-      },
-      {
-        "kind": "pr",
-        "number": 137381,
-        "title": "fix: sessions_yield keeps long transcript history available",
-        "url": "https://github.com/openclaw/openclaw/pull/137381",
+        "number": 137571,
+        "title": "fix(ui): submit selected slash arguments in new sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/137571",
         "state": "open",
         "author": "jalehman",
-        "updatedAt": "2026-09-03T18:36:13Z"
+        "updatedAt": "2026-09-03T21:40:52Z"
+      },
+      {
+        "kind": "pr",
+        "number": 137527,
+        "title": "fix: make Doctor issue reporting private and recoverable",
+        "url": "https://github.com/openclaw/openclaw/pull/137527",
+        "state": "open",
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-09-03T21:40:30Z"
+      },
+      {
+        "kind": "pr",
+        "number": 137575,
+        "title": "fix(release): resolve first frozen baseline",
+        "url": "https://github.com/openclaw/openclaw/pull/137575",
+        "state": "closed",
+        "author": "RomneyDa",
+        "updatedAt": "2026-09-03T21:40:13Z"
+      },
+      {
+        "kind": "pr",
+        "number": 137583,
+        "title": "perf(workers): parallelize workspace manifest inspection",
+        "url": "https://github.com/openclaw/openclaw/pull/137583",
+        "state": "open",
+        "author": "jalehman",
+        "updatedAt": "2026-09-03T21:40:11Z"
       }
     ]
   }

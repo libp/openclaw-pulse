@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-02T21:48:03.825Z",
+  "generatedAt": "2026-09-03T00:13:31.356Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -799,6 +799,23 @@
       "contributors": 3246,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-03",
+      "capturedAt": "2026-09-03T00:13:31.356Z",
+      "issueOpen": 3690,
+      "issueClosed": 46893,
+      "prOpen": 2397,
+      "prClosed": 81223,
+      "prMerged": 32513,
+      "workflowRuns": 40000,
+      "stars": 388660,
+      "forks": 81617,
+      "subscribers": 1752,
+      "commits": 86958,
+      "contributors": 3247,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1073,74 +1090,109 @@
       "subscribers": 1752,
       "commits": 86868,
       "contributors": 3246
+    },
+    {
+      "capturedOn": "2026-09-03",
+      "stars": 388660,
+      "forks": 81617,
+      "subscribers": 1752,
+      "commits": 86958,
+      "contributors": 3247
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 136630,
-        "title": "Environment-substituted remote CDP profile is omitted from browser registry",
-        "url": "https://github.com/openclaw/openclaw/issues/136630",
+        "number": 97616,
+        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
+        "url": "https://github.com/openclaw/openclaw/issues/97616",
+        "state": "open",
+        "author": "avp717",
+        "updatedAt": "2026-09-03T00:13:16Z"
+      },
+      {
+        "kind": "issue",
+        "number": 136757,
+        "title": "2026.8.2 regression: openai-compatible memory embed adapter sends all chunks in one request; split-on-error retry does not catch provider batch-size 400",
+        "url": "https://github.com/openclaw/openclaw/issues/136757",
         "state": "closed",
-        "author": "jimmybrancaccio",
-        "updatedAt": "2026-09-02T21:47:04Z"
+        "author": "greggchen308",
+        "updatedAt": "2026-09-03T00:13:09Z"
+      },
+      {
+        "kind": "issue",
+        "number": 121823,
+        "title": "[Bug]: memory-core dreaming promotion parks the event loop (minutes on native FS, 90+ min on FUSE state): healthz dark, in-process guards starve; liveness monitor observes but cannot act",
+        "url": "https://github.com/openclaw/openclaw/issues/121823",
+        "state": "open",
+        "author": "BMA-Aaron",
+        "updatedAt": "2026-09-03T00:12:39Z"
+      },
+      {
+        "kind": "issue",
+        "number": 121232,
+        "title": "memory-core dreaming: ranker nominates candidates the applier always rejects (\"Ranked N, Promoted 0\" forever)",
+        "url": "https://github.com/openclaw/openclaw/issues/121232",
+        "state": "open",
+        "author": "ctbritt",
+        "updatedAt": "2026-09-03T00:12:17Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 136625,
-        "title": "chore(ui): refresh control ui locales",
-        "url": "https://github.com/openclaw/openclaw/pull/136625",
-        "state": "closed",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-09-02T21:48:00Z"
+        "number": 136711,
+        "title": "fix(ui): align board menu labels and sizing",
+        "url": "https://github.com/openclaw/openclaw/pull/136711",
+        "state": "open",
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-09-03T00:13:24Z"
       },
       {
         "kind": "pr",
-        "number": 136639,
-        "title": "fix(sessions): preserve conversations under maintenance pressure",
-        "url": "https://github.com/openclaw/openclaw/pull/136639",
+        "number": 136748,
+        "title": "fix(ui): use a Lucide draft visibility icon",
+        "url": "https://github.com/openclaw/openclaw/pull/136748",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-02T21:47:55Z"
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-09-03T00:13:23Z"
       },
       {
         "kind": "pr",
-        "number": 134826,
-        "title": "fix(telegram): prioritize finals over CLI commentary",
-        "url": "https://github.com/openclaw/openclaw/pull/134826",
+        "number": 136750,
+        "title": "fix(ui): move sharing into owner slot",
+        "url": "https://github.com/openclaw/openclaw/pull/136750",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-02T21:47:55Z"
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-09-03T00:13:15Z"
       },
       {
         "kind": "pr",
-        "number": 135744,
-        "title": "refactor(feishu): share provider prefix stripping",
-        "url": "https://github.com/openclaw/openclaw/pull/135744",
+        "number": 80532,
+        "title": "feat(exec): add allowSymlinkPath config option",
+        "url": "https://github.com/openclaw/openclaw/pull/80532",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-09-02T21:47:51Z"
+        "author": "TheArchitectit",
+        "updatedAt": "2026-09-03T00:13:03Z"
       },
       {
         "kind": "pr",
-        "number": 120794,
-        "title": "fix(prompt): unbounded channel context arrays and objects flood the model prompt",
-        "url": "https://github.com/openclaw/openclaw/pull/120794",
+        "number": 99193,
+        "title": "docs(acpx): expose the Grok Build harness target",
+        "url": "https://github.com/openclaw/openclaw/pull/99193",
         "state": "open",
-        "author": "pacocartones",
-        "updatedAt": "2026-09-02T21:47:49Z"
+        "author": "TheAngryPit",
+        "updatedAt": "2026-09-03T00:13:02Z"
       },
       {
         "kind": "pr",
-        "number": 136587,
-        "title": "Let scheduled work use the agent's current tools",
-        "url": "https://github.com/openclaw/openclaw/pull/136587",
+        "number": 128175,
+        "title": "fix(macos): resolve typed gateway auth refs",
+        "url": "https://github.com/openclaw/openclaw/pull/128175",
         "state": "open",
-        "author": "pash-openai",
-        "updatedAt": "2026-09-02T21:47:48Z"
+        "author": "TheAngryPit",
+        "updatedAt": "2026-09-03T00:12:53Z"
       }
     ]
   }

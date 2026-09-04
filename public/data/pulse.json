@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-03T21:41:42.894Z",
+  "generatedAt": "2026-09-04T04:29:05.716Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -816,6 +816,23 @@
       "contributors": 3257,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-04",
+      "capturedAt": "2026-09-04T04:29:05.716Z",
+      "issueOpen": 3765,
+      "issueClosed": 47143,
+      "prOpen": 2547,
+      "prClosed": 81894,
+      "prMerged": 33039,
+      "workflowRuns": 40000,
+      "stars": 388800,
+      "forks": 81643,
+      "subscribers": 1753,
+      "commits": 87480,
+      "contributors": 3257,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1098,101 +1115,100 @@
       "subscribers": 1754,
       "commits": 87422,
       "contributors": 3257
+    },
+    {
+      "capturedOn": "2026-09-04",
+      "stars": 388800,
+      "forks": 81643,
+      "subscribers": 1753,
+      "commits": 87480,
+      "contributors": 3257
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 97616,
-        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
-        "url": "https://github.com/openclaw/openclaw/issues/97616",
+        "number": 137905,
+        "title": "[Bug]: compound help can silently bypass a named test run",
+        "url": "https://github.com/openclaw/openclaw/issues/137905",
         "state": "open",
-        "author": "avp717",
-        "updatedAt": "2026-09-03T21:41:31Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-04T04:28:41Z"
       },
       {
         "kind": "issue",
-        "number": 137584,
-        "title": "[Bug]: 2026.9.1 official plugin update can time out on npm metadata while direct npm view succeeds",
-        "url": "https://github.com/openclaw/openclaw/issues/137584",
+        "number": 137904,
+        "title": "[Bug]: Heartbeat repeatedly re-executes the same successful tool call until timeout",
+        "url": "https://github.com/openclaw/openclaw/issues/137904",
         "state": "open",
-        "author": "LifeViwer",
-        "updatedAt": "2026-09-03T21:39:55Z"
+        "author": "Suidge",
+        "updatedAt": "2026-09-04T04:25:41Z"
       },
       {
         "kind": "issue",
-        "number": 137560,
-        "title": "[Bug]: memory-core reindex reports database or disk is full when container temp storage is undersized",
-        "url": "https://github.com/openclaw/openclaw/issues/137560",
-        "state": "closed",
-        "author": "kesslerio",
-        "updatedAt": "2026-09-03T21:39:40Z"
-      },
-      {
-        "kind": "issue",
-        "number": 137579,
-        "title": "[Docs]: the reload table documents a two-way contract; buildGatewayReloadPlan implements a three-way one",
-        "url": "https://github.com/openclaw/openclaw/issues/137579",
+        "number": 137903,
+        "title": "[Feature]: stop deriving modelPolicy.allow from model settings and login",
+        "url": "https://github.com/openclaw/openclaw/issues/137903",
         "state": "open",
-        "author": "abacha",
-        "updatedAt": "2026-09-03T21:39:36Z"
+        "author": "obviyus",
+        "updatedAt": "2026-09-04T04:24:46Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 136761,
-        "title": "fix(release): qualify frozen Docker scenarios by target capabilities",
-        "url": "https://github.com/openclaw/openclaw/pull/136761",
+        "number": 137875,
+        "title": "refactor(gateway): make system job reconciliation explicit",
+        "url": "https://github.com/openclaw/openclaw/pull/137875",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-09-03T21:41:23Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-04T04:28:06Z"
       },
       {
         "kind": "pr",
-        "number": 137411,
-        "title": "fix(cron): suggest configured announce recipients",
-        "url": "https://github.com/openclaw/openclaw/pull/137411",
+        "number": 119735,
+        "title": "fix(whatsapp): refresh activity for pending inbound work",
+        "url": "https://github.com/openclaw/openclaw/pull/119735",
         "state": "open",
-        "author": "zeroaltitude",
-        "updatedAt": "2026-09-03T21:41:16Z"
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-09-04T04:28:01Z"
       },
       {
         "kind": "pr",
-        "number": 137571,
-        "title": "fix(ui): submit selected slash arguments in new sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/137571",
+        "number": 137807,
+        "title": "fix(gateway): stop orphan PR refreshes and bound concurrent polling",
+        "url": "https://github.com/openclaw/openclaw/pull/137807",
         "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-09-03T21:40:52Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-04T04:27:52Z"
       },
       {
         "kind": "pr",
-        "number": 137527,
-        "title": "fix: make Doctor issue reporting private and recoverable",
-        "url": "https://github.com/openclaw/openclaw/pull/137527",
+        "number": 137880,
+        "title": "feat(plugins): let policy-bound hooks enumerate tools",
+        "url": "https://github.com/openclaw/openclaw/pull/137880",
         "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-09-03T21:40:30Z"
+        "author": "Colton-Harris",
+        "updatedAt": "2026-09-04T04:27:48Z"
       },
       {
         "kind": "pr",
-        "number": 137575,
-        "title": "fix(release): resolve first frozen baseline",
-        "url": "https://github.com/openclaw/openclaw/pull/137575",
-        "state": "closed",
-        "author": "RomneyDa",
-        "updatedAt": "2026-09-03T21:40:13Z"
+        "number": 137857,
+        "title": "fix(automations): let Control UI admins manage channel-created jobs",
+        "url": "https://github.com/openclaw/openclaw/pull/137857",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-04T04:27:47Z"
       },
       {
         "kind": "pr",
-        "number": 137583,
-        "title": "perf(workers): parallelize workspace manifest inspection",
-        "url": "https://github.com/openclaw/openclaw/pull/137583",
+        "number": 137659,
+        "title": "feat(ui): complete the ClawHub plugin catalog",
+        "url": "https://github.com/openclaw/openclaw/pull/137659",
         "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-09-03T21:40:11Z"
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-09-04T04:27:14Z"
       }
     ]
   }

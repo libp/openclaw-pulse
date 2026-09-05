@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-05T12:41:28.987Z",
+  "generatedAt": "2026-09-05T18:16:12.215Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -836,18 +836,18 @@
     },
     {
       "capturedOn": "2026-09-05",
-      "capturedAt": "2026-09-05T12:41:28.987Z",
-      "issueOpen": 3831,
-      "issueClosed": 47410,
-      "prOpen": 2398,
-      "prClosed": 82868,
-      "prMerged": 33780,
+      "capturedAt": "2026-09-05T18:16:12.215Z",
+      "issueOpen": 3848,
+      "issueClosed": 47447,
+      "prOpen": 2409,
+      "prClosed": 82988,
+      "prMerged": 33881,
       "workflowRuns": 40000,
-      "stars": 388930,
-      "forks": 81705,
-      "subscribers": 1751,
-      "commits": 88224,
-      "contributors": 3273,
+      "stars": 388953,
+      "forks": 81719,
+      "subscribers": 1749,
+      "commits": 88325,
+      "contributors": 3274,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1143,124 +1143,88 @@
     },
     {
       "capturedOn": "2026-09-05",
-      "stars": 388930,
-      "forks": 81705,
-      "subscribers": 1751,
-      "commits": 88224,
-      "contributors": 3273
+      "stars": 388953,
+      "forks": 81719,
+      "subscribers": 1749,
+      "commits": 88325,
+      "contributors": 3274
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 86963,
-        "title": "[Bug] Orphaned/oversized native Codex thread wedges a session permanently — chat.send returns started but no run executes, silently dropping messages",
-        "url": "https://github.com/openclaw/openclaw/issues/86963",
+        "number": 139263,
+        "title": "[Feature]: Native data reports for dashboards",
+        "url": "https://github.com/openclaw/openclaw/issues/139263",
         "state": "open",
-        "author": "btilus",
-        "updatedAt": "2026-09-05T12:41:21Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-05T18:15:45Z"
       },
       {
         "kind": "issue",
-        "number": 87402,
-        "title": "Gateway restart treats managed listener as port conflict; embedded Codex direct session can wedge during compaction/rebind",
-        "url": "https://github.com/openclaw/openclaw/issues/87402",
+        "number": 139262,
+        "title": "[Bug]: macOS desktop app opens Dashboard instead of downloading attachments from a remote Gateway",
+        "url": "https://github.com/openclaw/openclaw/issues/139262",
         "state": "open",
-        "author": "jamah007",
-        "updatedAt": "2026-09-05T12:41:19Z"
-      },
-      {
-        "kind": "issue",
-        "number": 85687,
-        "title": "Bug: heartbeat transcript repair artifacts can pollute later context",
-        "url": "https://github.com/openclaw/openclaw/issues/85687",
-        "state": "open",
-        "author": "nierclaw-sudo",
-        "updatedAt": "2026-09-05T12:41:16Z"
-      },
-      {
-        "kind": "issue",
-        "number": 132228,
-        "title": "[Feature]: Meta muse-image image generation (and editing) for the bundled meta provider",
-        "url": "https://github.com/openclaw/openclaw/issues/132228",
-        "state": "open",
-        "author": "mreso",
-        "updatedAt": "2026-09-05T12:41:15Z"
-      },
-      {
-        "kind": "issue",
-        "number": 92619,
-        "title": "Feature: Add option to disable streaming/typewriter animation in WebUI for instant text display",
-        "url": "https://github.com/openclaw/openclaw/issues/92619",
-        "state": "open",
-        "author": "a506488043",
-        "updatedAt": "2026-09-05T12:41:15Z"
-      },
-      {
-        "kind": "issue",
-        "number": 88570,
-        "title": "zh-CN localization coverage is still severely incomplete despite PR #18473 being merged",
-        "url": "https://github.com/openclaw/openclaw/issues/88570",
-        "state": "open",
-        "author": "Maziyang2",
-        "updatedAt": "2026-09-05T12:41:12Z"
+        "author": "z1panos-maker",
+        "updatedAt": "2026-09-05T18:15:10Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 137381,
-        "title": "fix: sessions_yield keeps long transcript history available",
-        "url": "https://github.com/openclaw/openclaw/pull/137381",
-        "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-09-05T12:41:24Z"
-      },
-      {
-        "kind": "pr",
-        "number": 138732,
-        "title": "fix(android): reduce repeated retries to unreachable gateways",
-        "url": "https://github.com/openclaw/openclaw/pull/138732",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-05T12:41:22Z"
-      },
-      {
-        "kind": "pr",
-        "number": 139059,
-        "title": "fix(ui): keep Home context current after dock reconnection",
-        "url": "https://github.com/openclaw/openclaw/pull/139059",
+        "number": 139273,
+        "title": "fix: reconcile selected-source dependencies before remote checks",
+        "url": "https://github.com/openclaw/openclaw/pull/139273",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-05T12:41:15Z"
+        "updatedAt": "2026-09-05T18:16:05Z"
       },
       {
         "kind": "pr",
-        "number": 137184,
-        "title": "perf(compaction): summarize in one pass when the history fits the summarizer window",
-        "url": "https://github.com/openclaw/openclaw/pull/137184",
+        "number": 139259,
+        "title": "fix(ci): unblock releases with different tooling package managers",
+        "url": "https://github.com/openclaw/openclaw/pull/139259",
         "state": "open",
-        "author": "linhongyu510",
-        "updatedAt": "2026-09-05T12:41:12Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-05T18:16:02Z"
       },
       {
         "kind": "pr",
-        "number": 137659,
-        "title": "feat(ui): complete the ClawHub plugin catalog",
-        "url": "https://github.com/openclaw/openclaw/pull/137659",
+        "number": 132409,
+        "title": "fix(channels): preserve messages stalled before adoption",
+        "url": "https://github.com/openclaw/openclaw/pull/132409",
         "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-09-05T12:41:10Z"
+        "author": "PollyBot13",
+        "updatedAt": "2026-09-05T18:16:00Z"
       },
       {
         "kind": "pr",
-        "number": 139042,
-        "title": "feat(plugins): add ClawHub discovery seam",
-        "url": "https://github.com/openclaw/openclaw/pull/139042",
+        "number": 139272,
+        "title": "fix: preserve complete Codex replies when previews stall",
+        "url": "https://github.com/openclaw/openclaw/pull/139272",
         "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-09-05T12:41:09Z"
+        "author": "johan-eilertsen",
+        "updatedAt": "2026-09-05T18:15:58Z"
+      },
+      {
+        "kind": "pr",
+        "number": 139269,
+        "title": "fix: preserve Swarm progress and simplify owner plumbing",
+        "url": "https://github.com/openclaw/openclaw/pull/139269",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-05T18:15:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 139244,
+        "title": "improve: reduce discovery overhead for small-context agents",
+        "url": "https://github.com/openclaw/openclaw/pull/139244",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-05T18:15:56Z"
       }
     ]
   }

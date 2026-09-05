@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-05T00:03:06.774Z",
+  "generatedAt": "2026-09-05T09:02:55.032Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -836,18 +836,18 @@
     },
     {
       "capturedOn": "2026-09-05",
-      "capturedAt": "2026-09-05T00:03:06.774Z",
-      "issueOpen": 3827,
-      "issueClosed": 47313,
-      "prOpen": 2487,
-      "prClosed": 82513,
-      "prMerged": 33530,
+      "capturedAt": "2026-09-05T09:02:55.032Z",
+      "issueOpen": 3830,
+      "issueClosed": 47384,
+      "prOpen": 2399,
+      "prClosed": 82792,
+      "prMerged": 33730,
       "workflowRuns": 40000,
-      "stars": 388867,
-      "forks": 81692,
-      "subscribers": 1750,
-      "commits": 87974,
-      "contributors": 3268,
+      "stars": 388913,
+      "forks": 81703,
+      "subscribers": 1751,
+      "commits": 88174,
+      "contributors": 3272,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1143,97 +1143,97 @@
     },
     {
       "capturedOn": "2026-09-05",
-      "stars": 388867,
-      "forks": 81692,
-      "subscribers": 1750,
-      "commits": 87974,
-      "contributors": 3268
+      "stars": 388913,
+      "forks": 81703,
+      "subscribers": 1751,
+      "commits": 88174,
+      "contributors": 3272
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 138706,
-        "title": "[Bug]: Windows Job anchor reintroduces a visible Gateway console despite the hidden VBS launcher",
-        "url": "https://github.com/openclaw/openclaw/issues/138706",
+        "number": 79223,
+        "title": "Feature request: configurable Dream Diary language / prompt",
+        "url": "https://github.com/openclaw/openclaw/issues/79223",
         "state": "open",
-        "author": "keith9681",
-        "updatedAt": "2026-09-05T00:02:37Z"
+        "author": "mtuwei",
+        "updatedAt": "2026-09-05T09:02:38Z"
       },
       {
         "kind": "issue",
-        "number": 114176,
-        "title": "[Bug]: ERR_INTERNAL_ASSERTION in openclaw agent with a custom openai-completions provider",
-        "url": "https://github.com/openclaw/openclaw/issues/114176",
+        "number": 138950,
+        "title": "Discord doctor: legacy TTS config migration walks __proto__ into Object.prototype",
+        "url": "https://github.com/openclaw/openclaw/issues/138950",
         "state": "open",
-        "author": "benjaml4",
-        "updatedAt": "2026-09-05T00:02:32Z"
+        "author": "lzhan011",
+        "updatedAt": "2026-09-05T09:02:36Z"
       },
       {
         "kind": "issue",
-        "number": 138661,
-        "title": "buzz: replies omit the NIP-10 p tag of the replied-to author, so Buzz mobile Activity never shows bot replies",
-        "url": "https://github.com/openclaw/openclaw/issues/138661",
+        "number": 101188,
+        "title": "[Bug]: Google vertex is now called Google Enterprise AI",
+        "url": "https://github.com/openclaw/openclaw/issues/101188",
         "state": "open",
-        "author": "chachi-max",
-        "updatedAt": "2026-09-05T00:02:19Z"
+        "author": "randompup",
+        "updatedAt": "2026-09-05T09:02:25Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 138655,
-        "title": "improve(gateway): reduce work for oversized chat history updates",
-        "url": "https://github.com/openclaw/openclaw/pull/138655",
+        "number": 138375,
+        "title": "fix(agents): keep descendant drains monotonic",
+        "url": "https://github.com/openclaw/openclaw/pull/138375",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-05T00:03:01Z"
+        "author": "qingminglong",
+        "updatedAt": "2026-09-05T09:02:47Z"
       },
       {
         "kind": "pr",
-        "number": 138693,
-        "title": "fix(claws): preserve active and shared agent data during removal",
-        "url": "https://github.com/openclaw/openclaw/pull/138693",
+        "number": 122846,
+        "title": "agent-core: add per-response tool-call block cap (maxCallsPerBlock)",
+        "url": "https://github.com/openclaw/openclaw/pull/122846",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-05T00:02:58Z"
+        "author": "psifunctiondev",
+        "updatedAt": "2026-09-05T09:02:47Z"
       },
       {
         "kind": "pr",
-        "number": 138603,
-        "title": "feat: navigate long chats with a previewable position rail",
-        "url": "https://github.com/openclaw/openclaw/pull/138603",
+        "number": 83178,
+        "title": "fix(memory-flush): fallback to estimatePromptTokensFromSessionTranscript when usage data is unavailable",
+        "url": "https://github.com/openclaw/openclaw/pull/83178",
         "state": "open",
-        "author": "brokemac79",
-        "updatedAt": "2026-09-05T00:02:57Z"
+        "author": "njuboy11",
+        "updatedAt": "2026-09-05T09:02:46Z"
       },
       {
         "kind": "pr",
-        "number": 138500,
-        "title": "chore(deps): update @openclaw/fs-safe to 0.8.1",
-        "url": "https://github.com/openclaw/openclaw/pull/138500",
+        "number": 85308,
+        "title": "fix(subagents): preserve requester wake on visible delivery failure",
+        "url": "https://github.com/openclaw/openclaw/pull/85308",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-05T00:02:57Z"
+        "author": "DolencLuka",
+        "updatedAt": "2026-09-05T09:02:45Z"
       },
       {
         "kind": "pr",
-        "number": 132591,
-        "title": "feat(ui): show exact active run IDs in debug overlay",
-        "url": "https://github.com/openclaw/openclaw/pull/132591",
+        "number": 138808,
+        "title": "fix(signal): keep prototype-named container styles unstyled",
+        "url": "https://github.com/openclaw/openclaw/pull/138808",
         "state": "open",
-        "author": "Leon-SK668",
-        "updatedAt": "2026-09-05T00:02:57Z"
+        "author": "teddytennant",
+        "updatedAt": "2026-09-05T09:02:38Z"
       },
       {
         "kind": "pr",
-        "number": 130175,
-        "title": "test(live): resolve thinking from prepared model",
-        "url": "https://github.com/openclaw/openclaw/pull/130175",
+        "number": 77891,
+        "title": "fix(sessions): unbind conversation bindings when missing transcripts are pruned",
+        "url": "https://github.com/openclaw/openclaw/pull/77891",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-09-05T00:02:56Z"
+        "author": "openperf",
+        "updatedAt": "2026-09-05T09:02:37Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-05T20:23:55.463Z",
+  "generatedAt": "2026-09-05T22:53:30.243Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -836,18 +836,18 @@
     },
     {
       "capturedOn": "2026-09-05",
-      "capturedAt": "2026-09-05T20:23:55.463Z",
-      "issueOpen": 3845,
-      "issueClosed": 47468,
-      "prOpen": 2405,
-      "prClosed": 83059,
-      "prMerged": 33943,
+      "capturedAt": "2026-09-05T22:53:30.243Z",
+      "issueOpen": 3846,
+      "issueClosed": 47487,
+      "prOpen": 2409,
+      "prClosed": 83160,
+      "prMerged": 34041,
       "workflowRuns": 40000,
-      "stars": 388967,
-      "forks": 81720,
-      "subscribers": 1749,
-      "commits": 88388,
-      "contributors": 3275,
+      "stars": 388970,
+      "forks": 81726,
+      "subscribers": 1751,
+      "commits": 88486,
+      "contributors": 3277,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1143,69 +1143,124 @@
     },
     {
       "capturedOn": "2026-09-05",
-      "stars": 388967,
-      "forks": 81720,
-      "subscribers": 1749,
-      "commits": 88388,
-      "contributors": 3275
+      "stars": 388970,
+      "forks": 81726,
+      "subscribers": 1751,
+      "commits": 88486,
+      "contributors": 3277
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 130038,
+        "title": "[Bug]: MSTeams ingress dedupe aliases route-distinct activities with the same activity id",
+        "url": "https://github.com/openclaw/openclaw/issues/130038",
+        "state": "open",
+        "author": "yunligou711-commits",
+        "updatedAt": "2026-09-05T22:53:19Z"
+      },
+      {
+        "kind": "issue",
+        "number": 98870,
+        "title": "[Bug]: Teams thread context omits newer replies when a channel thread has more than 50 replies",
+        "url": "https://github.com/openclaw/openclaw/issues/98870",
+        "state": "open",
+        "author": "qingminglong",
+        "updatedAt": "2026-09-05T22:53:18Z"
+      },
+      {
+        "kind": "issue",
+        "number": 139312,
+        "title": "Agent tasks stop on temporary rate limits after completed work",
+        "url": "https://github.com/openclaw/openclaw/issues/139312",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-09-05T22:53:14Z"
+      },
+      {
+        "kind": "issue",
+        "number": 128368,
+        "title": "Settled-tool-no-answer turns skip the tools-enabled continuation retries that reasoning-only/empty-response turns already have",
+        "url": "https://github.com/openclaw/openclaw/issues/128368",
+        "state": "open",
+        "author": "adinballew",
+        "updatedAt": "2026-09-05T22:53:09Z"
+      },
+      {
+        "kind": "issue",
+        "number": 93406,
+        "title": "feat(whatsapp): active connection-liveness verification so reconnects confirm the inbound path actually recovered",
+        "url": "https://github.com/openclaw/openclaw/issues/93406",
+        "state": "open",
+        "author": "rushindrasinha",
+        "updatedAt": "2026-09-05T22:53:09Z"
+      },
+      {
+        "kind": "issue",
+        "number": 104312,
+        "title": "[Feature]: Intent-scoped MCP activation for large MCP catalogs",
+        "url": "https://github.com/openclaw/openclaw/issues/104312",
+        "state": "open",
+        "author": "ssavitang",
+        "updatedAt": "2026-09-05T22:53:06Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 139345,
-        "title": "chore(ui): refresh control ui locales",
-        "url": "https://github.com/openclaw/openclaw/pull/139345",
+        "number": 139397,
+        "title": "fix: continue agent tasks after temporary rate limits",
+        "url": "https://github.com/openclaw/openclaw/pull/139397",
         "state": "closed",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-09-05T20:23:51Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-05T22:53:24Z"
       },
       {
         "kind": "pr",
-        "number": 139357,
-        "title": "fix(models): retain compatible catalogs after refresh failures",
-        "url": "https://github.com/openclaw/openclaw/pull/139357",
+        "number": 139482,
+        "title": "refactor(exec): share package-manager option scans",
+        "url": "https://github.com/openclaw/openclaw/pull/139482",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-09-05T20:23:41Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-05T22:53:22Z"
       },
       {
         "kind": "pr",
-        "number": 132607,
-        "title": "fix(agents): bypass trailing runtime-context carrier relocation for local providers",
-        "url": "https://github.com/openclaw/openclaw/pull/132607",
+        "number": 139381,
+        "title": "fix(ui): make subagent sessions view-only",
+        "url": "https://github.com/openclaw/openclaw/pull/139381",
         "state": "open",
-        "author": "shreyanshjain05",
-        "updatedAt": "2026-09-05T20:23:51Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-05T22:53:20Z"
       },
       {
         "kind": "pr",
-        "number": 139344,
-        "title": "fix(windows): keep scheduled gateway running after restart",
-        "url": "https://github.com/openclaw/openclaw/pull/139344",
+        "number": 138351,
+        "title": "perf(agents): skip redundant shared-provider config hashing",
+        "url": "https://github.com/openclaw/openclaw/pull/138351",
         "state": "open",
-        "author": "ly85206559",
-        "updatedAt": "2026-09-05T20:23:34Z"
+        "author": "holny",
+        "updatedAt": "2026-09-05T22:53:16Z"
       },
       {
         "kind": "pr",
-        "number": 139275,
-        "title": "fix(browser): recover Chrome relay target identities",
-        "url": "https://github.com/openclaw/openclaw/pull/139275",
+        "number": 139412,
+        "title": "fix(ci): keep hosted tooling growth within the job budget",
+        "url": "https://github.com/openclaw/openclaw/pull/139412",
         "state": "open",
-        "author": "esqandil",
-        "updatedAt": "2026-09-05T20:23:23Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-05T22:53:13Z"
       },
       {
         "kind": "pr",
-        "number": 138852,
-        "title": "feat(ui): rename paired devices from the Control UI devices page",
-        "url": "https://github.com/openclaw/openclaw/pull/138852",
+        "number": 137594,
+        "title": "fix(tools): name unavailable MCP servers in Tool Search instead of looping on misses",
+        "url": "https://github.com/openclaw/openclaw/pull/137594",
         "state": "open",
-        "author": "xialonglee",
-        "updatedAt": "2026-09-05T20:23:08Z"
+        "author": "ylcn91",
+        "updatedAt": "2026-09-05T22:53:09Z"
       }
     ]
   }

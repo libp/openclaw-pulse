@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-05T09:02:55.032Z",
+  "generatedAt": "2026-09-05T12:41:28.987Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -836,18 +836,18 @@
     },
     {
       "capturedOn": "2026-09-05",
-      "capturedAt": "2026-09-05T09:02:55.032Z",
-      "issueOpen": 3830,
-      "issueClosed": 47384,
-      "prOpen": 2399,
-      "prClosed": 82792,
-      "prMerged": 33730,
+      "capturedAt": "2026-09-05T12:41:28.987Z",
+      "issueOpen": 3831,
+      "issueClosed": 47410,
+      "prOpen": 2398,
+      "prClosed": 82868,
+      "prMerged": 33780,
       "workflowRuns": 40000,
-      "stars": 388913,
-      "forks": 81703,
+      "stars": 388930,
+      "forks": 81705,
       "subscribers": 1751,
-      "commits": 88174,
-      "contributors": 3272,
+      "commits": 88224,
+      "contributors": 3273,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1143,97 +1143,124 @@
     },
     {
       "capturedOn": "2026-09-05",
-      "stars": 388913,
-      "forks": 81703,
+      "stars": 388930,
+      "forks": 81705,
       "subscribers": 1751,
-      "commits": 88174,
-      "contributors": 3272
+      "commits": 88224,
+      "contributors": 3273
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 79223,
-        "title": "Feature request: configurable Dream Diary language / prompt",
-        "url": "https://github.com/openclaw/openclaw/issues/79223",
+        "number": 86963,
+        "title": "[Bug] Orphaned/oversized native Codex thread wedges a session permanently — chat.send returns started but no run executes, silently dropping messages",
+        "url": "https://github.com/openclaw/openclaw/issues/86963",
         "state": "open",
-        "author": "mtuwei",
-        "updatedAt": "2026-09-05T09:02:38Z"
+        "author": "btilus",
+        "updatedAt": "2026-09-05T12:41:21Z"
       },
       {
         "kind": "issue",
-        "number": 138950,
-        "title": "Discord doctor: legacy TTS config migration walks __proto__ into Object.prototype",
-        "url": "https://github.com/openclaw/openclaw/issues/138950",
+        "number": 87402,
+        "title": "Gateway restart treats managed listener as port conflict; embedded Codex direct session can wedge during compaction/rebind",
+        "url": "https://github.com/openclaw/openclaw/issues/87402",
         "state": "open",
-        "author": "lzhan011",
-        "updatedAt": "2026-09-05T09:02:36Z"
+        "author": "jamah007",
+        "updatedAt": "2026-09-05T12:41:19Z"
       },
       {
         "kind": "issue",
-        "number": 101188,
-        "title": "[Bug]: Google vertex is now called Google Enterprise AI",
-        "url": "https://github.com/openclaw/openclaw/issues/101188",
+        "number": 85687,
+        "title": "Bug: heartbeat transcript repair artifacts can pollute later context",
+        "url": "https://github.com/openclaw/openclaw/issues/85687",
         "state": "open",
-        "author": "randompup",
-        "updatedAt": "2026-09-05T09:02:25Z"
+        "author": "nierclaw-sudo",
+        "updatedAt": "2026-09-05T12:41:16Z"
+      },
+      {
+        "kind": "issue",
+        "number": 132228,
+        "title": "[Feature]: Meta muse-image image generation (and editing) for the bundled meta provider",
+        "url": "https://github.com/openclaw/openclaw/issues/132228",
+        "state": "open",
+        "author": "mreso",
+        "updatedAt": "2026-09-05T12:41:15Z"
+      },
+      {
+        "kind": "issue",
+        "number": 92619,
+        "title": "Feature: Add option to disable streaming/typewriter animation in WebUI for instant text display",
+        "url": "https://github.com/openclaw/openclaw/issues/92619",
+        "state": "open",
+        "author": "a506488043",
+        "updatedAt": "2026-09-05T12:41:15Z"
+      },
+      {
+        "kind": "issue",
+        "number": 88570,
+        "title": "zh-CN localization coverage is still severely incomplete despite PR #18473 being merged",
+        "url": "https://github.com/openclaw/openclaw/issues/88570",
+        "state": "open",
+        "author": "Maziyang2",
+        "updatedAt": "2026-09-05T12:41:12Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 138375,
-        "title": "fix(agents): keep descendant drains monotonic",
-        "url": "https://github.com/openclaw/openclaw/pull/138375",
+        "number": 137381,
+        "title": "fix: sessions_yield keeps long transcript history available",
+        "url": "https://github.com/openclaw/openclaw/pull/137381",
         "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-09-05T09:02:47Z"
+        "author": "jalehman",
+        "updatedAt": "2026-09-05T12:41:24Z"
       },
       {
         "kind": "pr",
-        "number": 122846,
-        "title": "agent-core: add per-response tool-call block cap (maxCallsPerBlock)",
-        "url": "https://github.com/openclaw/openclaw/pull/122846",
+        "number": 138732,
+        "title": "fix(android): reduce repeated retries to unreachable gateways",
+        "url": "https://github.com/openclaw/openclaw/pull/138732",
         "state": "open",
-        "author": "psifunctiondev",
-        "updatedAt": "2026-09-05T09:02:47Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-05T12:41:22Z"
       },
       {
         "kind": "pr",
-        "number": 83178,
-        "title": "fix(memory-flush): fallback to estimatePromptTokensFromSessionTranscript when usage data is unavailable",
-        "url": "https://github.com/openclaw/openclaw/pull/83178",
+        "number": 139059,
+        "title": "fix(ui): keep Home context current after dock reconnection",
+        "url": "https://github.com/openclaw/openclaw/pull/139059",
         "state": "open",
-        "author": "njuboy11",
-        "updatedAt": "2026-09-05T09:02:46Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-05T12:41:15Z"
       },
       {
         "kind": "pr",
-        "number": 85308,
-        "title": "fix(subagents): preserve requester wake on visible delivery failure",
-        "url": "https://github.com/openclaw/openclaw/pull/85308",
+        "number": 137184,
+        "title": "perf(compaction): summarize in one pass when the history fits the summarizer window",
+        "url": "https://github.com/openclaw/openclaw/pull/137184",
         "state": "open",
-        "author": "DolencLuka",
-        "updatedAt": "2026-09-05T09:02:45Z"
+        "author": "linhongyu510",
+        "updatedAt": "2026-09-05T12:41:12Z"
       },
       {
         "kind": "pr",
-        "number": 138808,
-        "title": "fix(signal): keep prototype-named container styles unstyled",
-        "url": "https://github.com/openclaw/openclaw/pull/138808",
+        "number": 137659,
+        "title": "feat(ui): complete the ClawHub plugin catalog",
+        "url": "https://github.com/openclaw/openclaw/pull/137659",
         "state": "open",
-        "author": "teddytennant",
-        "updatedAt": "2026-09-05T09:02:38Z"
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-09-05T12:41:10Z"
       },
       {
         "kind": "pr",
-        "number": 77891,
-        "title": "fix(sessions): unbind conversation bindings when missing transcripts are pruned",
-        "url": "https://github.com/openclaw/openclaw/pull/77891",
+        "number": 139042,
+        "title": "feat(plugins): add ClawHub discovery seam",
+        "url": "https://github.com/openclaw/openclaw/pull/139042",
         "state": "open",
-        "author": "openperf",
-        "updatedAt": "2026-09-05T09:02:37Z"
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-09-05T12:41:09Z"
       }
     ]
   }

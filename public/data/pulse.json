@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-05T18:16:12.215Z",
+  "generatedAt": "2026-09-05T20:23:55.463Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -836,18 +836,18 @@
     },
     {
       "capturedOn": "2026-09-05",
-      "capturedAt": "2026-09-05T18:16:12.215Z",
-      "issueOpen": 3848,
-      "issueClosed": 47447,
-      "prOpen": 2409,
-      "prClosed": 82988,
-      "prMerged": 33881,
+      "capturedAt": "2026-09-05T20:23:55.463Z",
+      "issueOpen": 3845,
+      "issueClosed": 47468,
+      "prOpen": 2405,
+      "prClosed": 83059,
+      "prMerged": 33943,
       "workflowRuns": 40000,
-      "stars": 388953,
-      "forks": 81719,
+      "stars": 388967,
+      "forks": 81720,
       "subscribers": 1749,
-      "commits": 88325,
-      "contributors": 3274,
+      "commits": 88388,
+      "contributors": 3275,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1143,88 +1143,69 @@
     },
     {
       "capturedOn": "2026-09-05",
-      "stars": 388953,
-      "forks": 81719,
+      "stars": 388967,
+      "forks": 81720,
       "subscribers": 1749,
-      "commits": 88325,
-      "contributors": 3274
+      "commits": 88388,
+      "contributors": 3275
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 139263,
-        "title": "[Feature]: Native data reports for dashboards",
-        "url": "https://github.com/openclaw/openclaw/issues/139263",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-05T18:15:45Z"
-      },
-      {
-        "kind": "issue",
-        "number": 139262,
-        "title": "[Bug]: macOS desktop app opens Dashboard instead of downloading attachments from a remote Gateway",
-        "url": "https://github.com/openclaw/openclaw/issues/139262",
-        "state": "open",
-        "author": "z1panos-maker",
-        "updatedAt": "2026-09-05T18:15:10Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 139273,
-        "title": "fix: reconcile selected-source dependencies before remote checks",
-        "url": "https://github.com/openclaw/openclaw/pull/139273",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-05T18:16:05Z"
+        "number": 139345,
+        "title": "chore(ui): refresh control ui locales",
+        "url": "https://github.com/openclaw/openclaw/pull/139345",
+        "state": "closed",
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-09-05T20:23:51Z"
       },
       {
         "kind": "pr",
-        "number": 139259,
-        "title": "fix(ci): unblock releases with different tooling package managers",
-        "url": "https://github.com/openclaw/openclaw/pull/139259",
+        "number": 139357,
+        "title": "fix(models): retain compatible catalogs after refresh failures",
+        "url": "https://github.com/openclaw/openclaw/pull/139357",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-05T18:16:02Z"
+        "author": "obviyus",
+        "updatedAt": "2026-09-05T20:23:41Z"
       },
       {
         "kind": "pr",
-        "number": 132409,
-        "title": "fix(channels): preserve messages stalled before adoption",
-        "url": "https://github.com/openclaw/openclaw/pull/132409",
+        "number": 132607,
+        "title": "fix(agents): bypass trailing runtime-context carrier relocation for local providers",
+        "url": "https://github.com/openclaw/openclaw/pull/132607",
         "state": "open",
-        "author": "PollyBot13",
-        "updatedAt": "2026-09-05T18:16:00Z"
+        "author": "shreyanshjain05",
+        "updatedAt": "2026-09-05T20:23:51Z"
       },
       {
         "kind": "pr",
-        "number": 139272,
-        "title": "fix: preserve complete Codex replies when previews stall",
-        "url": "https://github.com/openclaw/openclaw/pull/139272",
+        "number": 139344,
+        "title": "fix(windows): keep scheduled gateway running after restart",
+        "url": "https://github.com/openclaw/openclaw/pull/139344",
         "state": "open",
-        "author": "johan-eilertsen",
-        "updatedAt": "2026-09-05T18:15:58Z"
+        "author": "ly85206559",
+        "updatedAt": "2026-09-05T20:23:34Z"
       },
       {
         "kind": "pr",
-        "number": 139269,
-        "title": "fix: preserve Swarm progress and simplify owner plumbing",
-        "url": "https://github.com/openclaw/openclaw/pull/139269",
+        "number": 139275,
+        "title": "fix(browser): recover Chrome relay target identities",
+        "url": "https://github.com/openclaw/openclaw/pull/139275",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-05T18:15:57Z"
+        "author": "esqandil",
+        "updatedAt": "2026-09-05T20:23:23Z"
       },
       {
         "kind": "pr",
-        "number": 139244,
-        "title": "improve: reduce discovery overhead for small-context agents",
-        "url": "https://github.com/openclaw/openclaw/pull/139244",
+        "number": 138852,
+        "title": "feat(ui): rename paired devices from the Control UI devices page",
+        "url": "https://github.com/openclaw/openclaw/pull/138852",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-05T18:15:56Z"
+        "author": "xialonglee",
+        "updatedAt": "2026-09-05T20:23:08Z"
       }
     ]
   }

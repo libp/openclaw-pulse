@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-04T04:29:05.716Z",
+  "generatedAt": "2026-09-05T00:03:06.774Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -833,6 +833,23 @@
       "contributors": 3257,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-05",
+      "capturedAt": "2026-09-05T00:03:06.774Z",
+      "issueOpen": 3827,
+      "issueClosed": 47313,
+      "prOpen": 2487,
+      "prClosed": 82513,
+      "prMerged": 33530,
+      "workflowRuns": 40000,
+      "stars": 388867,
+      "forks": 81692,
+      "subscribers": 1750,
+      "commits": 87974,
+      "contributors": 3268,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1123,92 +1140,100 @@
       "subscribers": 1753,
       "commits": 87480,
       "contributors": 3257
+    },
+    {
+      "capturedOn": "2026-09-05",
+      "stars": 388867,
+      "forks": 81692,
+      "subscribers": 1750,
+      "commits": 87974,
+      "contributors": 3268
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 137905,
-        "title": "[Bug]: compound help can silently bypass a named test run",
-        "url": "https://github.com/openclaw/openclaw/issues/137905",
+        "number": 138706,
+        "title": "[Bug]: Windows Job anchor reintroduces a visible Gateway console despite the hidden VBS launcher",
+        "url": "https://github.com/openclaw/openclaw/issues/138706",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-04T04:28:41Z"
+        "author": "keith9681",
+        "updatedAt": "2026-09-05T00:02:37Z"
       },
       {
         "kind": "issue",
-        "number": 137904,
-        "title": "[Bug]: Heartbeat repeatedly re-executes the same successful tool call until timeout",
-        "url": "https://github.com/openclaw/openclaw/issues/137904",
+        "number": 114176,
+        "title": "[Bug]: ERR_INTERNAL_ASSERTION in openclaw agent with a custom openai-completions provider",
+        "url": "https://github.com/openclaw/openclaw/issues/114176",
         "state": "open",
-        "author": "Suidge",
-        "updatedAt": "2026-09-04T04:25:41Z"
+        "author": "benjaml4",
+        "updatedAt": "2026-09-05T00:02:32Z"
       },
       {
         "kind": "issue",
-        "number": 137903,
-        "title": "[Feature]: stop deriving modelPolicy.allow from model settings and login",
-        "url": "https://github.com/openclaw/openclaw/issues/137903",
+        "number": 138661,
+        "title": "buzz: replies omit the NIP-10 p tag of the replied-to author, so Buzz mobile Activity never shows bot replies",
+        "url": "https://github.com/openclaw/openclaw/issues/138661",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-09-04T04:24:46Z"
+        "author": "chachi-max",
+        "updatedAt": "2026-09-05T00:02:19Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 137875,
-        "title": "refactor(gateway): make system job reconciliation explicit",
-        "url": "https://github.com/openclaw/openclaw/pull/137875",
+        "number": 138655,
+        "title": "improve(gateway): reduce work for oversized chat history updates",
+        "url": "https://github.com/openclaw/openclaw/pull/138655",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-04T04:28:06Z"
+        "updatedAt": "2026-09-05T00:03:01Z"
       },
       {
         "kind": "pr",
-        "number": 119735,
-        "title": "fix(whatsapp): refresh activity for pending inbound work",
-        "url": "https://github.com/openclaw/openclaw/pull/119735",
-        "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-09-04T04:28:01Z"
-      },
-      {
-        "kind": "pr",
-        "number": 137807,
-        "title": "fix(gateway): stop orphan PR refreshes and bound concurrent polling",
-        "url": "https://github.com/openclaw/openclaw/pull/137807",
+        "number": 138693,
+        "title": "fix(claws): preserve active and shared agent data during removal",
+        "url": "https://github.com/openclaw/openclaw/pull/138693",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-04T04:27:52Z"
+        "updatedAt": "2026-09-05T00:02:58Z"
       },
       {
         "kind": "pr",
-        "number": 137880,
-        "title": "feat(plugins): let policy-bound hooks enumerate tools",
-        "url": "https://github.com/openclaw/openclaw/pull/137880",
+        "number": 138603,
+        "title": "feat: navigate long chats with a previewable position rail",
+        "url": "https://github.com/openclaw/openclaw/pull/138603",
         "state": "open",
-        "author": "Colton-Harris",
-        "updatedAt": "2026-09-04T04:27:48Z"
+        "author": "brokemac79",
+        "updatedAt": "2026-09-05T00:02:57Z"
       },
       {
         "kind": "pr",
-        "number": 137857,
-        "title": "fix(automations): let Control UI admins manage channel-created jobs",
-        "url": "https://github.com/openclaw/openclaw/pull/137857",
+        "number": 138500,
+        "title": "chore(deps): update @openclaw/fs-safe to 0.8.1",
+        "url": "https://github.com/openclaw/openclaw/pull/138500",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-04T04:27:47Z"
+        "updatedAt": "2026-09-05T00:02:57Z"
       },
       {
         "kind": "pr",
-        "number": 137659,
-        "title": "feat(ui): complete the ClawHub plugin catalog",
-        "url": "https://github.com/openclaw/openclaw/pull/137659",
+        "number": 132591,
+        "title": "feat(ui): show exact active run IDs in debug overlay",
+        "url": "https://github.com/openclaw/openclaw/pull/132591",
         "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-09-04T04:27:14Z"
+        "author": "Leon-SK668",
+        "updatedAt": "2026-09-05T00:02:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 130175,
+        "title": "test(live): resolve thinking from prepared model",
+        "url": "https://github.com/openclaw/openclaw/pull/130175",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-09-05T00:02:56Z"
       }
     ]
   }

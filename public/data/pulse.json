@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-06T00:55:01.582Z",
+  "generatedAt": "2026-09-06T10:53:26.815Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -853,18 +853,18 @@
     },
     {
       "capturedOn": "2026-09-06",
-      "capturedAt": "2026-09-06T00:55:01.582Z",
-      "issueOpen": 3858,
-      "issueClosed": 47496,
-      "prOpen": 2419,
-      "prClosed": 83225,
-      "prMerged": 34093,
+      "capturedAt": "2026-09-06T10:53:26.815Z",
+      "issueOpen": 3870,
+      "issueClosed": 47561,
+      "prOpen": 2388,
+      "prClosed": 83657,
+      "prMerged": 34466,
       "workflowRuns": 40000,
-      "stars": 388972,
-      "forks": 81728,
-      "subscribers": 1751,
-      "commits": 88538,
-      "contributors": 3277,
+      "stars": 389003,
+      "forks": 81739,
+      "subscribers": 1750,
+      "commits": 88910,
+      "contributors": 3280,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1168,106 +1168,115 @@
     },
     {
       "capturedOn": "2026-09-06",
-      "stars": 388972,
-      "forks": 81728,
-      "subscribers": 1751,
-      "commits": 88538,
-      "contributors": 3277
+      "stars": 389003,
+      "forks": 81739,
+      "subscribers": 1750,
+      "commits": 88910,
+      "contributors": 3280
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 139428,
-        "title": "Test audit: reduce redundant test code and full-suite runtime",
-        "url": "https://github.com/openclaw/openclaw/issues/139428",
+        "number": 109062,
+        "title": "[Bug]: Slack Socket Mode: connected + healthy, zero inbound events on 2026.5.28 (post-4.24)",
+        "url": "https://github.com/openclaw/openclaw/issues/109062",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-06T00:54:47Z"
+        "author": "UrosKovacevic",
+        "updatedAt": "2026-09-06T10:53:15Z"
       },
       {
         "kind": "issue",
-        "number": 139577,
-        "title": "[Bug]: llama.cpp managed EmbeddingGemma runs at server-default ubatch 512 in 2026.9.2 (regression from #134389 / c97c5b65e08d)",
-        "url": "https://github.com/openclaw/openclaw/issues/139577",
+        "number": 113481,
+        "title": "[Feature]: Add per-agent daily model spend alerts",
+        "url": "https://github.com/openclaw/openclaw/issues/113481",
         "state": "open",
-        "author": "Deregtx",
-        "updatedAt": "2026-09-06T00:54:30Z"
+        "author": "litang9",
+        "updatedAt": "2026-09-06T10:53:09Z"
       },
       {
         "kind": "issue",
-        "number": 113622,
-        "title": "Persistent \"database is locked\" SQLite errors spamming logs on every session/cron start",
-        "url": "https://github.com/openclaw/openclaw/issues/113622",
+        "number": 43235,
+        "title": "[Feature]:Support per-agent command lanes for multi-agent deployments",
+        "url": "https://github.com/openclaw/openclaw/issues/43235",
         "state": "open",
-        "author": "wlassalle724",
-        "updatedAt": "2026-09-06T00:54:56Z"
+        "author": "lijihua2017",
+        "updatedAt": "2026-09-06T10:52:59Z"
       },
       {
         "kind": "issue",
-        "number": 97616,
-        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
-        "url": "https://github.com/openclaw/openclaw/issues/97616",
+        "number": 130113,
+        "title": "[Bug]: macOS local Gateway duplicates Codex sessions through its own app node",
+        "url": "https://github.com/openclaw/openclaw/issues/130113",
         "state": "open",
-        "author": "avp717",
-        "updatedAt": "2026-09-06T00:52:42Z"
+        "author": "TheAngryPit",
+        "updatedAt": "2026-09-06T10:52:49Z"
+      },
+      {
+        "kind": "issue",
+        "number": 140053,
+        "title": "session.reset daily mode: freshness check skipped on several post-boundary messages, reset fires mid-conversation",
+        "url": "https://github.com/openclaw/openclaw/issues/140053",
+        "state": "open",
+        "author": "laurencebrown",
+        "updatedAt": "2026-09-06T10:52:38Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 139525,
-        "title": "fix(ui): show shimmer skeletons while loading Control UI",
-        "url": "https://github.com/openclaw/openclaw/pull/139525",
-        "state": "closed",
+        "number": 140046,
+        "title": "fix(diagnostics): preserve the local exporter flush window",
+        "url": "https://github.com/openclaw/openclaw/pull/140046",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-06T00:54:53Z"
+        "updatedAt": "2026-09-06T10:53:13Z"
       },
       {
         "kind": "pr",
-        "number": 139556,
-        "title": "fix(macos): prevent dashboard fixture loopback timeouts",
-        "url": "https://github.com/openclaw/openclaw/pull/139556",
+        "number": 140038,
+        "title": "fix: reduce task maintenance stalls with large histories",
+        "url": "https://github.com/openclaw/openclaw/pull/140038",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-06T00:54:48Z"
+        "updatedAt": "2026-09-06T10:53:22Z"
       },
       {
         "kind": "pr",
-        "number": 139571,
-        "title": "refactor(models): share selector reference traversal",
-        "url": "https://github.com/openclaw/openclaw/pull/139571",
+        "number": 140056,
+        "title": "refactor(cli): align resume with session resolution",
+        "url": "https://github.com/openclaw/openclaw/pull/140056",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-06T00:54:36Z"
+        "updatedAt": "2026-09-06T10:53:09Z"
       },
       {
         "kind": "pr",
-        "number": 139534,
-        "title": "fix(ai): prefer streamed tool-call arguments over stale output_item.done snapshot",
-        "url": "https://github.com/openclaw/openclaw/pull/139534",
+        "number": 126851,
+        "title": "fix(ui): clear stuck session run spinner on stale terminal projection",
+        "url": "https://github.com/openclaw/openclaw/pull/126851",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-09-06T00:54:29Z"
+        "author": "1MrazorT1",
+        "updatedAt": "2026-09-06T10:53:22Z"
       },
       {
         "kind": "pr",
-        "number": 139553,
-        "title": "perf(test): reuse transforms within owned scheduler slots",
-        "url": "https://github.com/openclaw/openclaw/pull/139553",
+        "number": 110608,
+        "title": "feat(matrix): add configurable read receipt timing",
+        "url": "https://github.com/openclaw/openclaw/pull/110608",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-06T00:54:25Z"
+        "author": "beezly",
+        "updatedAt": "2026-09-06T10:53:05Z"
       },
       {
         "kind": "pr",
-        "number": 138839,
-        "title": "fix(update): validate candidates before stopping the Gateway",
-        "url": "https://github.com/openclaw/openclaw/pull/138839",
+        "number": 140018,
+        "title": "fix(ci): preflight job outputs exceed 1 MiB on full-plan pull requests",
+        "url": "https://github.com/openclaw/openclaw/pull/140018",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-06T00:54:03Z"
+        "author": "ylcn91",
+        "updatedAt": "2026-09-06T10:53:03Z"
       }
     ]
   }

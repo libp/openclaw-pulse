@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-06T10:53:26.815Z",
+  "generatedAt": "2026-09-06T14:09:04.020Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -853,17 +853,17 @@
     },
     {
       "capturedOn": "2026-09-06",
-      "capturedAt": "2026-09-06T10:53:26.815Z",
-      "issueOpen": 3870,
-      "issueClosed": 47561,
-      "prOpen": 2388,
-      "prClosed": 83657,
-      "prMerged": 34466,
+      "capturedAt": "2026-09-06T14:09:04.020Z",
+      "issueOpen": 3871,
+      "issueClosed": 47574,
+      "prOpen": 2364,
+      "prClosed": 83767,
+      "prMerged": 34569,
       "workflowRuns": 40000,
-      "stars": 389003,
-      "forks": 81739,
-      "subscribers": 1750,
-      "commits": 88910,
+      "stars": 389013,
+      "forks": 81742,
+      "subscribers": 1749,
+      "commits": 89013,
       "contributors": 3280,
       "source": "github-actions",
       "approximateDate": false
@@ -1168,10 +1168,10 @@
     },
     {
       "capturedOn": "2026-09-06",
-      "stars": 389003,
-      "forks": 81739,
-      "subscribers": 1750,
-      "commits": 88910,
+      "stars": 389013,
+      "forks": 81742,
+      "subscribers": 1749,
+      "commits": 89013,
       "contributors": 3280
     }
   ],
@@ -1179,104 +1179,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 109062,
-        "title": "[Bug]: Slack Socket Mode: connected + healthy, zero inbound events on 2026.5.28 (post-4.24)",
-        "url": "https://github.com/openclaw/openclaw/issues/109062",
+        "number": 97886,
+        "title": "Feishu plugin WebSocket doesn't receive im.message.receive_v1 events",
+        "url": "https://github.com/openclaw/openclaw/issues/97886",
         "state": "open",
-        "author": "UrosKovacevic",
-        "updatedAt": "2026-09-06T10:53:15Z"
+        "author": "aheadwwwww",
+        "updatedAt": "2026-09-06T14:08:45Z"
       },
       {
         "kind": "issue",
-        "number": 113481,
-        "title": "[Feature]: Add per-agent daily model spend alerts",
-        "url": "https://github.com/openclaw/openclaw/issues/113481",
+        "number": 102078,
+        "title": "[Bug]: Compaction fails with 'Thread group size (1024) exceeds maximum threads per threadgroup (896)'",
+        "url": "https://github.com/openclaw/openclaw/issues/102078",
         "state": "open",
-        "author": "litang9",
-        "updatedAt": "2026-09-06T10:53:09Z"
+        "author": "caiklv",
+        "updatedAt": "2026-09-06T14:08:37Z"
       },
       {
         "kind": "issue",
-        "number": 43235,
-        "title": "[Feature]:Support per-agent command lanes for multi-agent deployments",
-        "url": "https://github.com/openclaw/openclaw/issues/43235",
+        "number": 78091,
+        "title": "[Bug]: Open-WebUI creates new session per message instead of reusing persistent session",
+        "url": "https://github.com/openclaw/openclaw/issues/78091",
         "state": "open",
-        "author": "lijihua2017",
-        "updatedAt": "2026-09-06T10:52:59Z"
+        "author": "wurdzy",
+        "updatedAt": "2026-09-06T14:08:26Z"
       },
       {
         "kind": "issue",
-        "number": 130113,
-        "title": "[Bug]: macOS local Gateway duplicates Codex sessions through its own app node",
-        "url": "https://github.com/openclaw/openclaw/issues/130113",
+        "number": 77378,
+        "title": "[Bug]: Session rotation creates duplicate sessions with broken delivery context",
+        "url": "https://github.com/openclaw/openclaw/issues/77378",
         "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-09-06T10:52:49Z"
+        "author": "wurdzy",
+        "updatedAt": "2026-09-06T14:08:26Z"
       },
       {
         "kind": "issue",
-        "number": 140053,
-        "title": "session.reset daily mode: freshness check skipped on several post-boundary messages, reset fires mid-conversation",
-        "url": "https://github.com/openclaw/openclaw/issues/140053",
+        "number": 82011,
+        "title": "[Feature]: 输入文本错别字检测",
+        "url": "https://github.com/openclaw/openclaw/issues/82011",
         "state": "open",
-        "author": "laurencebrown",
-        "updatedAt": "2026-09-06T10:52:38Z"
+        "author": "VossmanLeung",
+        "updatedAt": "2026-09-06T14:08:17Z"
+      },
+      {
+        "kind": "issue",
+        "number": 140153,
+        "title": "[Bug]: Static HTTP date validators depend on the Gateway timezone",
+        "url": "https://github.com/openclaw/openclaw/issues/140153",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-06T14:07:21Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 140046,
-        "title": "fix(diagnostics): preserve the local exporter flush window",
-        "url": "https://github.com/openclaw/openclaw/pull/140046",
+        "number": 139818,
+        "title": "fix(proxy): restore HTTPS support for strict TLS clients",
+        "url": "https://github.com/openclaw/openclaw/pull/139818",
+        "state": "open",
+        "author": "vortexopenclaw",
+        "updatedAt": "2026-09-06T14:08:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 137779,
+        "title": "fix(agents): pass durable session key as visible-spawn parent lineage",
+        "url": "https://github.com/openclaw/openclaw/pull/137779",
+        "state": "open",
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-09-06T14:08:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 140132,
+        "title": "fix(plugins): retain service cleanup through late startup",
+        "url": "https://github.com/openclaw/openclaw/pull/140132",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-06T10:53:13Z"
+        "updatedAt": "2026-09-06T14:08:57Z"
       },
       {
         "kind": "pr",
-        "number": 140038,
-        "title": "fix: reduce task maintenance stalls with large histories",
-        "url": "https://github.com/openclaw/openclaw/pull/140038",
+        "number": 123624,
+        "title": "fix(agents): stabilize delivery-mode prompt caching",
+        "url": "https://github.com/openclaw/openclaw/pull/123624",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-06T10:53:22Z"
+        "author": "yu-xin-c",
+        "updatedAt": "2026-09-06T14:08:44Z"
       },
       {
         "kind": "pr",
-        "number": 140056,
-        "title": "refactor(cli): align resume with session resolution",
-        "url": "https://github.com/openclaw/openclaw/pull/140056",
+        "number": 137934,
+        "title": "fix: Dispatched run completion announce should follow the requester's delivery context (voice-channel dispatches announce to stale internal sink) (#137488)",
+        "url": "https://github.com/openclaw/openclaw/pull/137934",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-06T10:53:09Z"
+        "author": "Finn763",
+        "updatedAt": "2026-09-06T14:08:30Z"
       },
       {
         "kind": "pr",
-        "number": 126851,
-        "title": "fix(ui): clear stuck session run spinner on stale terminal projection",
-        "url": "https://github.com/openclaw/openclaw/pull/126851",
+        "number": 137494,
+        "title": "feat(android): clarify context and latest run usage",
+        "url": "https://github.com/openclaw/openclaw/pull/137494",
         "state": "open",
-        "author": "1MrazorT1",
-        "updatedAt": "2026-09-06T10:53:22Z"
-      },
-      {
-        "kind": "pr",
-        "number": 110608,
-        "title": "feat(matrix): add configurable read receipt timing",
-        "url": "https://github.com/openclaw/openclaw/pull/110608",
-        "state": "open",
-        "author": "beezly",
-        "updatedAt": "2026-09-06T10:53:05Z"
-      },
-      {
-        "kind": "pr",
-        "number": 140018,
-        "title": "fix(ci): preflight job outputs exceed 1 MiB on full-plan pull requests",
-        "url": "https://github.com/openclaw/openclaw/pull/140018",
-        "state": "open",
-        "author": "ylcn91",
-        "updatedAt": "2026-09-06T10:53:03Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-06T14:08:21Z"
       }
     ]
   }

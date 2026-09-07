@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-06T14:09:04.020Z",
+  "generatedAt": "2026-09-07T04:36:45.433Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -867,6 +867,23 @@
       "contributors": 3280,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-07",
+      "capturedAt": "2026-09-07T04:36:45.433Z",
+      "issueOpen": 3899,
+      "issueClosed": 47675,
+      "prOpen": 2352,
+      "prClosed": 84287,
+      "prMerged": 35016,
+      "workflowRuns": 40000,
+      "stars": 389067,
+      "forks": 81763,
+      "subscribers": 1748,
+      "commits": 89461,
+      "contributors": 3293,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1173,119 +1190,91 @@
       "subscribers": 1749,
       "commits": 89013,
       "contributors": 3280
+    },
+    {
+      "capturedOn": "2026-09-07",
+      "stars": 389067,
+      "forks": 81763,
+      "subscribers": 1748,
+      "commits": 89461,
+      "contributors": 3293
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 97886,
-        "title": "Feishu plugin WebSocket doesn't receive im.message.receive_v1 events",
-        "url": "https://github.com/openclaw/openclaw/issues/97886",
-        "state": "open",
-        "author": "aheadwwwww",
-        "updatedAt": "2026-09-06T14:08:45Z"
-      },
-      {
-        "kind": "issue",
-        "number": 102078,
-        "title": "[Bug]: Compaction fails with 'Thread group size (1024) exceeds maximum threads per threadgroup (896)'",
-        "url": "https://github.com/openclaw/openclaw/issues/102078",
-        "state": "open",
-        "author": "caiklv",
-        "updatedAt": "2026-09-06T14:08:37Z"
-      },
-      {
-        "kind": "issue",
-        "number": 78091,
-        "title": "[Bug]: Open-WebUI creates new session per message instead of reusing persistent session",
-        "url": "https://github.com/openclaw/openclaw/issues/78091",
-        "state": "open",
-        "author": "wurdzy",
-        "updatedAt": "2026-09-06T14:08:26Z"
-      },
-      {
-        "kind": "issue",
-        "number": 77378,
-        "title": "[Bug]: Session rotation creates duplicate sessions with broken delivery context",
-        "url": "https://github.com/openclaw/openclaw/issues/77378",
-        "state": "open",
-        "author": "wurdzy",
-        "updatedAt": "2026-09-06T14:08:26Z"
-      },
-      {
-        "kind": "issue",
-        "number": 82011,
-        "title": "[Feature]: 输入文本错别字检测",
-        "url": "https://github.com/openclaw/openclaw/issues/82011",
-        "state": "open",
-        "author": "VossmanLeung",
-        "updatedAt": "2026-09-06T14:08:17Z"
-      },
-      {
-        "kind": "issue",
-        "number": 140153,
-        "title": "[Bug]: Static HTTP date validators depend on the Gateway timezone",
-        "url": "https://github.com/openclaw/openclaw/issues/140153",
+        "number": 140785,
+        "title": "HTML session exports display list Markdown literally",
+        "url": "https://github.com/openclaw/openclaw/issues/140785",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-06T14:07:21Z"
+        "updatedAt": "2026-09-07T04:36:40Z"
+      },
+      {
+        "kind": "issue",
+        "number": 140786,
+        "title": "Raw Slack and Teams uploads retain avoidable BufferSource copies",
+        "url": "https://github.com/openclaw/openclaw/issues/140786",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-07T04:36:15Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 139818,
-        "title": "fix(proxy): restore HTTPS support for strict TLS clients",
-        "url": "https://github.com/openclaw/openclaw/pull/139818",
-        "state": "open",
-        "author": "vortexopenclaw",
-        "updatedAt": "2026-09-06T14:08:59Z"
-      },
-      {
-        "kind": "pr",
-        "number": 137779,
-        "title": "fix(agents): pass durable session key as visible-spawn parent lineage",
-        "url": "https://github.com/openclaw/openclaw/pull/137779",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-09-06T14:08:59Z"
-      },
-      {
-        "kind": "pr",
-        "number": 140132,
-        "title": "fix(plugins): retain service cleanup through late startup",
-        "url": "https://github.com/openclaw/openclaw/pull/140132",
+        "number": 140790,
+        "title": "refactor(config): reuse channel migration traversal",
+        "url": "https://github.com/openclaw/openclaw/pull/140790",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-06T14:08:57Z"
+        "updatedAt": "2026-09-07T04:36:38Z"
       },
       {
         "kind": "pr",
-        "number": 123624,
-        "title": "fix(agents): stabilize delivery-mode prompt caching",
-        "url": "https://github.com/openclaw/openclaw/pull/123624",
+        "number": 129647,
+        "title": "fix(browser): cancelled tab creation leaves orphan browser tabs",
+        "url": "https://github.com/openclaw/openclaw/pull/129647",
         "state": "open",
-        "author": "yu-xin-c",
-        "updatedAt": "2026-09-06T14:08:44Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-07T04:36:38Z"
       },
       {
         "kind": "pr",
-        "number": 137934,
-        "title": "fix: Dispatched run completion announce should follow the requester's delivery context (voice-channel dispatches announce to stale internal sink) (#137488)",
-        "url": "https://github.com/openclaw/openclaw/pull/137934",
+        "number": 140793,
+        "title": "feat(sessions): split deleted archive retention",
+        "url": "https://github.com/openclaw/openclaw/pull/140793",
         "state": "open",
-        "author": "Finn763",
-        "updatedAt": "2026-09-06T14:08:30Z"
+        "author": "jjjhenriksen",
+        "updatedAt": "2026-09-07T04:36:39Z"
       },
       {
         "kind": "pr",
-        "number": 137494,
-        "title": "feat(android): clarify context and latest run usage",
-        "url": "https://github.com/openclaw/openclaw/pull/137494",
+        "number": 140789,
+        "title": "fix(cli): describe telemetry show as a local preview",
+        "url": "https://github.com/openclaw/openclaw/pull/140789",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-06T14:08:21Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-07T04:36:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 140777,
+        "title": "refactor(auth): share inline-key cooldown lookup",
+        "url": "https://github.com/openclaw/openclaw/pull/140777",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-07T04:36:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 136868,
+        "title": "fix(memory): split zhipu and bailian embedding batch-limit errors",
+        "url": "https://github.com/openclaw/openclaw/pull/136868",
+        "state": "open",
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-09-07T04:36:34Z"
       }
     ]
   }

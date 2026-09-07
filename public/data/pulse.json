@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-07T19:56:29.633Z",
+  "generatedAt": "2026-09-07T22:49:17.559Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -870,18 +870,18 @@
     },
     {
       "capturedOn": "2026-09-07",
-      "capturedAt": "2026-09-07T19:56:29.633Z",
-      "issueOpen": 3965,
-      "issueClosed": 47767,
-      "prOpen": 2365,
-      "prClosed": 84844,
-      "prMerged": 35481,
+      "capturedAt": "2026-09-07T22:49:17.559Z",
+      "issueOpen": 3972,
+      "issueClosed": 47789,
+      "prOpen": 2325,
+      "prClosed": 84963,
+      "prMerged": 35590,
       "workflowRuns": 40000,
-      "stars": 389126,
-      "forks": 81767,
+      "stars": 389136,
+      "forks": 81771,
       "subscribers": 1749,
-      "commits": 89925,
-      "contributors": 3296,
+      "commits": 90031,
+      "contributors": 3297,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1193,79 +1193,88 @@
     },
     {
       "capturedOn": "2026-09-07",
-      "stars": 389126,
-      "forks": 81767,
+      "stars": 389136,
+      "forks": 81771,
       "subscribers": 1749,
-      "commits": 89925,
-      "contributors": 3296
+      "commits": 90031,
+      "contributors": 3297
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 141472,
-        "title": "[Feature]: Make Workboard card notes and comments clickable",
-        "url": "https://github.com/openclaw/openclaw/issues/141472",
+        "number": 141625,
+        "title": "Google Chat: Markdown reaches conversational replies as raw text — reply-delivery path bypasses the working converter (see #49350)",
+        "url": "https://github.com/openclaw/openclaw/issues/141625",
         "state": "open",
-        "author": "schjonhaug",
-        "updatedAt": "2026-09-07T19:56:06Z"
+        "author": "pbreault",
+        "updatedAt": "2026-09-07T22:47:29Z"
+      },
+      {
+        "kind": "issue",
+        "number": 141604,
+        "title": "[Bug]: model fallback chain aborts on a non-final hop and logs nothing, skipping remaining candidates",
+        "url": "https://github.com/openclaw/openclaw/issues/141604",
+        "state": "open",
+        "author": "von8794",
+        "updatedAt": "2026-09-07T22:47:27Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 140392,
-        "title": "fix(system-agent): show inference verification failure causes",
-        "url": "https://github.com/openclaw/openclaw/pull/140392",
-        "state": "open",
-        "author": "ayaangazali",
-        "updatedAt": "2026-09-07T19:56:22Z"
-      },
-      {
-        "kind": "pr",
-        "number": 141491,
-        "title": "fix(codex): preserve turn context on reused sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/141491",
+        "number": 141630,
+        "title": "refactor: remove duplicate collapsed chat activity test",
+        "url": "https://github.com/openclaw/openclaw/pull/141630",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-07T19:56:13Z"
+        "updatedAt": "2026-09-07T22:49:09Z"
       },
       {
         "kind": "pr",
-        "number": 141104,
-        "title": "fix(memory): use fallback search when SQLite extensions are unavailable",
-        "url": "https://github.com/openclaw/openclaw/pull/141104",
+        "number": 141562,
+        "title": "fix(update): recover stale runs without stopping healthy gateways",
+        "url": "https://github.com/openclaw/openclaw/pull/141562",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-07T19:56:13Z"
+        "updatedAt": "2026-09-07T22:49:08Z"
       },
       {
         "kind": "pr",
-        "number": 125900,
-        "title": "fix(ui): avoid duplicate model auth reads on chat load",
-        "url": "https://github.com/openclaw/openclaw/pull/125900",
+        "number": 141628,
+        "title": "feat: retain TOOLS.md as an optional workspace file",
+        "url": "https://github.com/openclaw/openclaw/pull/141628",
         "state": "open",
-        "author": "Grynn",
-        "updatedAt": "2026-09-07T19:56:03Z"
+        "author": "jason-allen-oneal",
+        "updatedAt": "2026-09-07T22:48:36Z"
       },
       {
         "kind": "pr",
-        "number": 141481,
-        "title": "feat(workboard): make card note and comment URLs clickable",
-        "url": "https://github.com/openclaw/openclaw/pull/141481",
+        "number": 141602,
+        "title": "fix(sessions): keep yielded running main sessions reusable during sibling completion",
+        "url": "https://github.com/openclaw/openclaw/pull/141602",
         "state": "open",
-        "author": "schjonhaug",
-        "updatedAt": "2026-09-07T19:56:02Z"
+        "author": "ylcn91",
+        "updatedAt": "2026-09-07T22:48:24Z"
       },
       {
         "kind": "pr",
-        "number": 138697,
-        "title": "fix: recover stale Windows owners when exited PIDs return EPERM",
-        "url": "https://github.com/openclaw/openclaw/pull/138697",
+        "number": 138982,
+        "title": "fix(signal): configured account appears missing after ID normalization",
+        "url": "https://github.com/openclaw/openclaw/pull/138982",
         "state": "open",
-        "author": "Barry-886",
-        "updatedAt": "2026-09-07T19:55:53Z"
+        "author": "marmar9615-cloud",
+        "updatedAt": "2026-09-07T22:48:07Z"
+      },
+      {
+        "kind": "pr",
+        "number": 140579,
+        "title": "fix(config): preserve authored settings through updates and setup",
+        "url": "https://github.com/openclaw/openclaw/pull/140579",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-07T22:47:21Z"
       }
     ]
   }

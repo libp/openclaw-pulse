@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-07T10:14:48.515Z",
+  "generatedAt": "2026-09-07T19:56:29.633Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -870,18 +870,18 @@
     },
     {
       "capturedOn": "2026-09-07",
-      "capturedAt": "2026-09-07T10:14:48.515Z",
-      "issueOpen": 3935,
-      "issueClosed": 47709,
-      "prOpen": 2367,
-      "prClosed": 84545,
-      "prMerged": 35236,
+      "capturedAt": "2026-09-07T19:56:29.633Z",
+      "issueOpen": 3965,
+      "issueClosed": 47767,
+      "prOpen": 2365,
+      "prClosed": 84844,
+      "prMerged": 35481,
       "workflowRuns": 40000,
-      "stars": 389085,
-      "forks": 81758,
-      "subscribers": 1751,
-      "commits": 89680,
-      "contributors": 3293,
+      "stars": 389126,
+      "forks": 81767,
+      "subscribers": 1749,
+      "commits": 89925,
+      "contributors": 3296,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1193,79 +1193,79 @@
     },
     {
       "capturedOn": "2026-09-07",
-      "stars": 389085,
-      "forks": 81758,
-      "subscribers": 1751,
-      "commits": 89680,
-      "contributors": 3293
+      "stars": 389126,
+      "forks": 81767,
+      "subscribers": 1749,
+      "commits": 89925,
+      "contributors": 3296
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 141129,
-        "title": "[Bug]: SSH sessions SIGTSTP/SIGTERM on long-running commands since 8.x — regression from 7.1-2",
-        "url": "https://github.com/openclaw/openclaw/issues/141129",
+        "number": 141472,
+        "title": "[Feature]: Make Workboard card notes and comments clickable",
+        "url": "https://github.com/openclaw/openclaw/issues/141472",
         "state": "open",
-        "author": "th-m-vogel",
-        "updatedAt": "2026-09-07T10:14:31Z"
+        "author": "schjonhaug",
+        "updatedAt": "2026-09-07T19:56:06Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 140897,
-        "title": "improve(sessions): shorten disk-pressure cleanup",
-        "url": "https://github.com/openclaw/openclaw/pull/140897",
+        "number": 140392,
+        "title": "fix(system-agent): show inference verification failure causes",
+        "url": "https://github.com/openclaw/openclaw/pull/140392",
+        "state": "open",
+        "author": "ayaangazali",
+        "updatedAt": "2026-09-07T19:56:22Z"
+      },
+      {
+        "kind": "pr",
+        "number": 141491,
+        "title": "fix(codex): preserve turn context on reused sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/141491",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-07T10:14:43Z"
+        "updatedAt": "2026-09-07T19:56:13Z"
       },
       {
         "kind": "pr",
-        "number": 141125,
-        "title": "fix(mcp): keep session servers alive between turns",
-        "url": "https://github.com/openclaw/openclaw/pull/141125",
+        "number": 141104,
+        "title": "fix(memory): use fallback search when SQLite extensions are unavailable",
+        "url": "https://github.com/openclaw/openclaw/pull/141104",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-07T10:14:41Z"
+        "updatedAt": "2026-09-07T19:56:13Z"
       },
       {
         "kind": "pr",
-        "number": 140982,
-        "title": "refactor(perplexity): share search result envelope",
-        "url": "https://github.com/openclaw/openclaw/pull/140982",
+        "number": 125900,
+        "title": "fix(ui): avoid duplicate model auth reads on chat load",
+        "url": "https://github.com/openclaw/openclaw/pull/125900",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-07T10:14:39Z"
+        "author": "Grynn",
+        "updatedAt": "2026-09-07T19:56:03Z"
       },
       {
         "kind": "pr",
-        "number": 141069,
-        "title": "fix: node battery level reads as 1% at full charge because the 0.0-1.0 fraction is undocumented",
-        "url": "https://github.com/openclaw/openclaw/pull/141069",
+        "number": 141481,
+        "title": "feat(workboard): make card note and comment URLs clickable",
+        "url": "https://github.com/openclaw/openclaw/pull/141481",
         "state": "open",
-        "author": "NullArbitrage",
-        "updatedAt": "2026-09-07T10:14:36Z"
+        "author": "schjonhaug",
+        "updatedAt": "2026-09-07T19:56:02Z"
       },
       {
         "kind": "pr",
-        "number": 107693,
-        "title": "fix(ai): don't run repairJson on already-valid JSON",
-        "url": "https://github.com/openclaw/openclaw/pull/107693",
+        "number": 138697,
+        "title": "fix: recover stale Windows owners when exited PIDs return EPERM",
+        "url": "https://github.com/openclaw/openclaw/pull/138697",
         "state": "open",
-        "author": "ronaldwidha",
-        "updatedAt": "2026-09-07T10:14:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 141093,
-        "title": "test: make migration file checks portable across runtimes",
-        "url": "https://github.com/openclaw/openclaw/pull/141093",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-07T10:14:32Z"
+        "author": "Barry-886",
+        "updatedAt": "2026-09-07T19:55:53Z"
       }
     ]
   }

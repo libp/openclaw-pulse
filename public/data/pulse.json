@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-07T04:36:45.433Z",
+  "generatedAt": "2026-09-07T10:14:48.515Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -870,17 +870,17 @@
     },
     {
       "capturedOn": "2026-09-07",
-      "capturedAt": "2026-09-07T04:36:45.433Z",
-      "issueOpen": 3899,
-      "issueClosed": 47675,
-      "prOpen": 2352,
-      "prClosed": 84287,
-      "prMerged": 35016,
+      "capturedAt": "2026-09-07T10:14:48.515Z",
+      "issueOpen": 3935,
+      "issueClosed": 47709,
+      "prOpen": 2367,
+      "prClosed": 84545,
+      "prMerged": 35236,
       "workflowRuns": 40000,
-      "stars": 389067,
-      "forks": 81763,
-      "subscribers": 1748,
-      "commits": 89461,
+      "stars": 389085,
+      "forks": 81758,
+      "subscribers": 1751,
+      "commits": 89680,
       "contributors": 3293,
       "source": "github-actions",
       "approximateDate": false
@@ -1193,10 +1193,10 @@
     },
     {
       "capturedOn": "2026-09-07",
-      "stars": 389067,
-      "forks": 81763,
-      "subscribers": 1748,
-      "commits": 89461,
+      "stars": 389085,
+      "forks": 81758,
+      "subscribers": 1751,
+      "commits": 89680,
       "contributors": 3293
     }
   ],
@@ -1204,77 +1204,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 140785,
-        "title": "HTML session exports display list Markdown literally",
-        "url": "https://github.com/openclaw/openclaw/issues/140785",
+        "number": 141129,
+        "title": "[Bug]: SSH sessions SIGTSTP/SIGTERM on long-running commands since 8.x — regression from 7.1-2",
+        "url": "https://github.com/openclaw/openclaw/issues/141129",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-07T04:36:40Z"
-      },
-      {
-        "kind": "issue",
-        "number": 140786,
-        "title": "Raw Slack and Teams uploads retain avoidable BufferSource copies",
-        "url": "https://github.com/openclaw/openclaw/issues/140786",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-07T04:36:15Z"
+        "author": "th-m-vogel",
+        "updatedAt": "2026-09-07T10:14:31Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 140790,
-        "title": "refactor(config): reuse channel migration traversal",
-        "url": "https://github.com/openclaw/openclaw/pull/140790",
+        "number": 140897,
+        "title": "improve(sessions): shorten disk-pressure cleanup",
+        "url": "https://github.com/openclaw/openclaw/pull/140897",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-07T04:36:38Z"
+        "updatedAt": "2026-09-07T10:14:43Z"
       },
       {
         "kind": "pr",
-        "number": 129647,
-        "title": "fix(browser): cancelled tab creation leaves orphan browser tabs",
-        "url": "https://github.com/openclaw/openclaw/pull/129647",
+        "number": 141125,
+        "title": "fix(mcp): keep session servers alive between turns",
+        "url": "https://github.com/openclaw/openclaw/pull/141125",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-07T04:36:38Z"
+        "updatedAt": "2026-09-07T10:14:41Z"
       },
       {
         "kind": "pr",
-        "number": 140793,
-        "title": "feat(sessions): split deleted archive retention",
-        "url": "https://github.com/openclaw/openclaw/pull/140793",
-        "state": "open",
-        "author": "jjjhenriksen",
-        "updatedAt": "2026-09-07T04:36:39Z"
-      },
-      {
-        "kind": "pr",
-        "number": 140789,
-        "title": "fix(cli): describe telemetry show as a local preview",
-        "url": "https://github.com/openclaw/openclaw/pull/140789",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-09-07T04:36:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 140777,
-        "title": "refactor(auth): share inline-key cooldown lookup",
-        "url": "https://github.com/openclaw/openclaw/pull/140777",
+        "number": 140982,
+        "title": "refactor(perplexity): share search result envelope",
+        "url": "https://github.com/openclaw/openclaw/pull/140982",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-07T04:36:35Z"
+        "updatedAt": "2026-09-07T10:14:39Z"
       },
       {
         "kind": "pr",
-        "number": 136868,
-        "title": "fix(memory): split zhipu and bailian embedding batch-limit errors",
-        "url": "https://github.com/openclaw/openclaw/pull/136868",
+        "number": 141069,
+        "title": "fix: node battery level reads as 1% at full charge because the 0.0-1.0 fraction is undocumented",
+        "url": "https://github.com/openclaw/openclaw/pull/141069",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-09-07T04:36:34Z"
+        "author": "NullArbitrage",
+        "updatedAt": "2026-09-07T10:14:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 107693,
+        "title": "fix(ai): don't run repairJson on already-valid JSON",
+        "url": "https://github.com/openclaw/openclaw/pull/107693",
+        "state": "open",
+        "author": "ronaldwidha",
+        "updatedAt": "2026-09-07T10:14:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 141093,
+        "title": "test: make migration file checks portable across runtimes",
+        "url": "https://github.com/openclaw/openclaw/pull/141093",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-07T10:14:32Z"
       }
     ]
   }

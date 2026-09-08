@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-08T15:07:47.251Z",
+  "generatedAt": "2026-09-08T18:38:34.051Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -887,18 +887,18 @@
     },
     {
       "capturedOn": "2026-09-08",
-      "capturedAt": "2026-09-08T15:07:47.251Z",
-      "issueOpen": 4030,
-      "issueClosed": 47871,
-      "prOpen": 2383,
-      "prClosed": 85382,
-      "prMerged": 35972,
+      "capturedAt": "2026-09-08T18:38:34.051Z",
+      "issueOpen": 4044,
+      "issueClosed": 47904,
+      "prOpen": 2374,
+      "prClosed": 85512,
+      "prMerged": 36089,
       "workflowRuns": 40000,
-      "stars": 389212,
-      "forks": 81779,
+      "stars": 389229,
+      "forks": 81785,
       "subscribers": 1751,
-      "commits": 90399,
-      "contributors": 3306,
+      "commits": 90516,
+      "contributors": 3309,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1218,62 +1218,53 @@
     },
     {
       "capturedOn": "2026-09-08",
-      "stars": 389212,
-      "forks": 81779,
+      "stars": 389229,
+      "forks": 81785,
       "subscribers": 1751,
-      "commits": 90399,
-      "contributors": 3306
+      "commits": 90516,
+      "contributors": 3309
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 142223,
-        "title": "[Bug]: Control UI menu items use inconsistent hover colors across themes",
-        "url": "https://github.com/openclaw/openclaw/issues/142223",
+        "number": 142336,
+        "title": "[Bug]: Core /dashboard shadows Telegram Mini App launcher in 2026.9.2+",
+        "url": "https://github.com/openclaw/openclaw/issues/142336",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-08T15:07:34Z"
+        "author": "afromankenobi",
+        "updatedAt": "2026-09-08T18:37:52Z"
+      },
+      {
+        "kind": "issue",
+        "number": 120507,
+        "title": "claude-cli backend hangs indefinitely (no output, no error) when a long-lived stream connection drops mid model_call",
+        "url": "https://github.com/openclaw/openclaw/issues/120507",
+        "state": "open",
+        "author": "shudiehov1902",
+        "updatedAt": "2026-09-08T18:37:47Z"
+      },
+      {
+        "kind": "issue",
+        "number": 123143,
+        "title": "Suspected synchronous transcript-projection reconcile stalling embedded bootstrap-context",
+        "url": "https://github.com/openclaw/openclaw/issues/123143",
+        "state": "open",
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-09-08T18:37:17Z"
+      },
+      {
+        "kind": "issue",
+        "number": 142421,
+        "title": "[Bug]: models auth logout leaves plaintext credentials in plugin-model-catalog cache; doctor --fix resurrects them",
+        "url": "https://github.com/openclaw/openclaw/issues/142421",
+        "state": "open",
+        "author": "NovaUnboundAi",
+        "updatedAt": "2026-09-08T18:37:01Z"
       }
     ],
     "prs": [
-      {
-        "kind": "pr",
-        "number": 142154,
-        "title": "ci: avoid unrelated upgrade checks on test-only PRs",
-        "url": "https://github.com/openclaw/openclaw/pull/142154",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-08T15:07:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 142255,
-        "title": "fix: recognize shared picker empty-state locale alias",
-        "url": "https://github.com/openclaw/openclaw/pull/142255",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-08T15:07:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 142185,
-        "title": "fix(cli): explain environment-disabled automation scheduling",
-        "url": "https://github.com/openclaw/openclaw/pull/142185",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-08T15:07:39Z"
-      },
-      {
-        "kind": "pr",
-        "number": 141875,
-        "title": "fix(plugins): preserve prior install on staged-artifact update failure",
-        "url": "https://github.com/openclaw/openclaw/pull/141875",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-09-08T15:07:36Z"
-      },
       {
         "kind": "pr",
         "number": 138090,
@@ -1281,16 +1272,52 @@
         "url": "https://github.com/openclaw/openclaw/pull/138090",
         "state": "open",
         "author": "MoerAI",
-        "updatedAt": "2026-09-08T15:07:30Z"
+        "updatedAt": "2026-09-08T18:38:22Z"
       },
       {
         "kind": "pr",
-        "number": 119057,
-        "title": "feat(code-mode): send current replies without an extra turn",
-        "url": "https://github.com/openclaw/openclaw/pull/119057",
+        "number": 142424,
+        "title": "fix: ChatGPT OAuth tool payload keeps strict=null instead of false",
+        "url": "https://github.com/openclaw/openclaw/pull/142424",
+        "state": "open",
+        "author": "Fayupable",
+        "updatedAt": "2026-09-08T18:38:20Z"
+      },
+      {
+        "kind": "pr",
+        "number": 142418,
+        "title": "fix(android): keep branch picker inside fold panes",
+        "url": "https://github.com/openclaw/openclaw/pull/142418",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-09-08T15:07:30Z"
+        "updatedAt": "2026-09-08T18:38:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 142382,
+        "title": "fix: automations add fails under Codex when toolsAllow uses the catalog's namespaced tool names",
+        "url": "https://github.com/openclaw/openclaw/pull/142382",
+        "state": "open",
+        "author": "sercada",
+        "updatedAt": "2026-09-08T18:37:54Z"
+      },
+      {
+        "kind": "pr",
+        "number": 133421,
+        "title": "feat(line): let a LINE tap answer the question an agent asked",
+        "url": "https://github.com/openclaw/openclaw/pull/133421",
+        "state": "open",
+        "author": "edenfunf",
+        "updatedAt": "2026-09-08T18:37:48Z"
+      },
+      {
+        "kind": "pr",
+        "number": 142423,
+        "title": "fix(plugins): release one-shot exporter resources after cleanup",
+        "url": "https://github.com/openclaw/openclaw/pull/142423",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-08T18:37:47Z"
       }
     ]
   }

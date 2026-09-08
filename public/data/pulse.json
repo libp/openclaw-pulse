@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-08T18:38:34.051Z",
+  "generatedAt": "2026-09-08T21:49:57.125Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -887,18 +887,18 @@
     },
     {
       "capturedOn": "2026-09-08",
-      "capturedAt": "2026-09-08T18:38:34.051Z",
-      "issueOpen": 4044,
-      "issueClosed": 47904,
-      "prOpen": 2374,
-      "prClosed": 85512,
-      "prMerged": 36089,
+      "capturedAt": "2026-09-08T21:49:57.125Z",
+      "issueOpen": 4071,
+      "issueClosed": 47946,
+      "prOpen": 2352,
+      "prClosed": 85653,
+      "prMerged": 36221,
       "workflowRuns": 40000,
-      "stars": 389229,
-      "forks": 81785,
+      "stars": 389234,
+      "forks": 81794,
       "subscribers": 1751,
-      "commits": 90516,
-      "contributors": 3309,
+      "commits": 90639,
+      "contributors": 3312,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1218,106 +1218,106 @@
     },
     {
       "capturedOn": "2026-09-08",
-      "stars": 389229,
-      "forks": 81785,
+      "stars": 389234,
+      "forks": 81794,
       "subscribers": 1751,
-      "commits": 90516,
-      "contributors": 3309
+      "commits": 90639,
+      "contributors": 3312
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 142336,
-        "title": "[Bug]: Core /dashboard shadows Telegram Mini App launcher in 2026.9.2+",
-        "url": "https://github.com/openclaw/openclaw/issues/142336",
+        "number": 97616,
+        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
+        "url": "https://github.com/openclaw/openclaw/issues/97616",
         "state": "open",
-        "author": "afromankenobi",
-        "updatedAt": "2026-09-08T18:37:52Z"
+        "author": "avp717",
+        "updatedAt": "2026-09-08T21:49:33Z"
       },
       {
         "kind": "issue",
-        "number": 120507,
-        "title": "claude-cli backend hangs indefinitely (no output, no error) when a long-lived stream connection drops mid model_call",
-        "url": "https://github.com/openclaw/openclaw/issues/120507",
+        "number": 142610,
+        "title": "Meeting voice consult always fails with \"Gateway is draining\": inherits released root-work admission context",
+        "url": "https://github.com/openclaw/openclaw/issues/142610",
         "state": "open",
-        "author": "shudiehov1902",
-        "updatedAt": "2026-09-08T18:37:47Z"
+        "author": "jai-assistant",
+        "updatedAt": "2026-09-08T21:48:40Z"
       },
       {
         "kind": "issue",
-        "number": 123143,
-        "title": "Suspected synchronous transcript-projection reconcile stalling embedded bootstrap-context",
-        "url": "https://github.com/openclaw/openclaw/issues/123143",
+        "number": 142606,
+        "title": "[Bug]: Dashboard HTML widget links (target=\"_blank\") dead in native apps — host.open fails closed outside browser Control UI",
+        "url": "https://github.com/openclaw/openclaw/issues/142606",
         "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-09-08T18:37:17Z"
+        "author": "jutaz",
+        "updatedAt": "2026-09-08T21:48:17Z"
       },
       {
         "kind": "issue",
-        "number": 142421,
-        "title": "[Bug]: models auth logout leaves plaintext credentials in plugin-model-catalog cache; doctor --fix resurrects them",
-        "url": "https://github.com/openclaw/openclaw/issues/142421",
+        "number": 142511,
+        "title": "Import skill dialog stretches controls and exposes native file pickers",
+        "url": "https://github.com/openclaw/openclaw/issues/142511",
         "state": "open",
-        "author": "NovaUnboundAi",
-        "updatedAt": "2026-09-08T18:37:01Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-09-08T21:48:11Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 138090,
-        "title": "fix(wizard): preserve typed plugin enum values (#127577)",
-        "url": "https://github.com/openclaw/openclaw/pull/138090",
+        "number": 111676,
+        "title": "fix(fleet): keep replacement health checks within timeout",
+        "url": "https://github.com/openclaw/openclaw/pull/111676",
         "state": "open",
-        "author": "MoerAI",
-        "updatedAt": "2026-09-08T18:38:22Z"
+        "author": "ZengWen-DT",
+        "updatedAt": "2026-09-08T21:49:50Z"
       },
       {
         "kind": "pr",
-        "number": 142424,
-        "title": "fix: ChatGPT OAuth tool payload keeps strict=null instead of false",
-        "url": "https://github.com/openclaw/openclaw/pull/142424",
-        "state": "open",
-        "author": "Fayupable",
-        "updatedAt": "2026-09-08T18:38:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 142418,
-        "title": "fix(android): keep branch picker inside fold panes",
-        "url": "https://github.com/openclaw/openclaw/pull/142418",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-09-08T18:38:16Z"
-      },
-      {
-        "kind": "pr",
-        "number": 142382,
-        "title": "fix: automations add fails under Codex when toolsAllow uses the catalog's namespaced tool names",
-        "url": "https://github.com/openclaw/openclaw/pull/142382",
-        "state": "open",
-        "author": "sercada",
-        "updatedAt": "2026-09-08T18:37:54Z"
-      },
-      {
-        "kind": "pr",
-        "number": 133421,
-        "title": "feat(line): let a LINE tap answer the question an agent asked",
-        "url": "https://github.com/openclaw/openclaw/pull/133421",
-        "state": "open",
-        "author": "edenfunf",
-        "updatedAt": "2026-09-08T18:37:48Z"
-      },
-      {
-        "kind": "pr",
-        "number": 142423,
-        "title": "fix(plugins): release one-shot exporter resources after cleanup",
-        "url": "https://github.com/openclaw/openclaw/pull/142423",
+        "number": 142612,
+        "title": "fix: reduce cold presence work when viewing multiple sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/142612",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-08T18:37:47Z"
+        "updatedAt": "2026-09-08T21:49:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 142607,
+        "title": "docs(plugins): split the SDK migration guide by reader job",
+        "url": "https://github.com/openclaw/openclaw/pull/142607",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-08T21:49:50Z"
+      },
+      {
+        "kind": "pr",
+        "number": 111611,
+        "title": "fix(infra): use || for empty Claude session key fallback",
+        "url": "https://github.com/openclaw/openclaw/pull/111611",
+        "state": "open",
+        "author": "ljy-1351",
+        "updatedAt": "2026-09-08T21:49:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 141600,
+        "title": "fix: session titles fall back when labeling fails",
+        "url": "https://github.com/openclaw/openclaw/pull/141600",
+        "state": "open",
+        "author": "DonnieFi",
+        "updatedAt": "2026-09-08T21:49:32Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123236,
+        "title": "fix(worker): carry resolved exec authority across the launch boundary",
+        "url": "https://github.com/openclaw/openclaw/pull/123236",
+        "state": "open",
+        "author": "drobison00",
+        "updatedAt": "2026-09-08T21:49:32Z"
       }
     ]
   }

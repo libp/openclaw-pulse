@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-08T11:15:26.616Z",
+  "generatedAt": "2026-09-08T15:07:47.251Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -887,18 +887,18 @@
     },
     {
       "capturedOn": "2026-09-08",
-      "capturedAt": "2026-09-08T11:15:26.616Z",
-      "issueOpen": 4005,
-      "issueClosed": 47862,
-      "prOpen": 2355,
-      "prClosed": 85320,
-      "prMerged": 35918,
+      "capturedAt": "2026-09-08T15:07:47.251Z",
+      "issueOpen": 4030,
+      "issueClosed": 47871,
+      "prOpen": 2383,
+      "prClosed": 85382,
+      "prMerged": 35972,
       "workflowRuns": 40000,
-      "stars": 389194,
-      "forks": 81781,
-      "subscribers": 1750,
-      "commits": 90345,
-      "contributors": 3302,
+      "stars": 389212,
+      "forks": 81779,
+      "subscribers": 1751,
+      "commits": 90399,
+      "contributors": 3306,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1218,106 +1218,79 @@
     },
     {
       "capturedOn": "2026-09-08",
-      "stars": 389194,
-      "forks": 81781,
-      "subscribers": 1750,
-      "commits": 90345,
-      "contributors": 3302
+      "stars": 389212,
+      "forks": 81779,
+      "subscribers": 1751,
+      "commits": 90399,
+      "contributors": 3306
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 129366,
-        "title": "[Feature]: Model Request Rate Limiting (model specific or global specifc)",
-        "url": "https://github.com/openclaw/openclaw/issues/129366",
+        "number": 142223,
+        "title": "[Bug]: Control UI menu items use inconsistent hover colors across themes",
+        "url": "https://github.com/openclaw/openclaw/issues/142223",
         "state": "open",
-        "author": "raiyanu",
-        "updatedAt": "2026-09-08T11:15:09Z"
-      },
-      {
-        "kind": "issue",
-        "number": 43367,
-        "title": "Multi-agent orchestration is unstable: concurrent agents add/config overwrites, session-lock failures, and detached child work",
-        "url": "https://github.com/openclaw/openclaw/issues/43367",
-        "state": "open",
-        "author": "waliddafif",
-        "updatedAt": "2026-09-08T11:14:22Z"
-      },
-      {
-        "kind": "issue",
-        "number": 97616,
-        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
-        "url": "https://github.com/openclaw/openclaw/issues/97616",
-        "state": "open",
-        "author": "avp717",
-        "updatedAt": "2026-09-08T11:14:11Z"
-      },
-      {
-        "kind": "issue",
-        "number": 45503,
-        "title": "Manual context clearing for tool results",
-        "url": "https://github.com/openclaw/openclaw/issues/45503",
-        "state": "open",
-        "author": "tbertran",
-        "updatedAt": "2026-09-08T11:13:53Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-09-08T15:07:34Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 129419,
-        "title": "fix(plugins): replace stale source entries without breaking runtime order",
-        "url": "https://github.com/openclaw/openclaw/pull/129419",
+        "number": 142154,
+        "title": "ci: avoid unrelated upgrade checks on test-only PRs",
+        "url": "https://github.com/openclaw/openclaw/pull/142154",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-08T11:15:18Z"
+        "updatedAt": "2026-09-08T15:07:41Z"
       },
       {
         "kind": "pr",
-        "number": 142131,
-        "title": "fix(android): expose the selected connection security option",
-        "url": "https://github.com/openclaw/openclaw/pull/142131",
+        "number": 142255,
+        "title": "fix: recognize shared picker empty-state locale alias",
+        "url": "https://github.com/openclaw/openclaw/pull/142255",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-08T11:15:20Z"
+        "updatedAt": "2026-09-08T15:07:42Z"
       },
       {
         "kind": "pr",
-        "number": 142130,
-        "title": "fix(gateway): trash deleted-agent files from state dirs outside home and tmp",
-        "url": "https://github.com/openclaw/openclaw/pull/142130",
+        "number": 142185,
+        "title": "fix(cli): explain environment-disabled automation scheduling",
+        "url": "https://github.com/openclaw/openclaw/pull/142185",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-08T11:15:11Z"
+        "updatedAt": "2026-09-08T15:07:39Z"
       },
       {
         "kind": "pr",
-        "number": 142129,
-        "title": "fix(plugins): clarify Gateway restart guidance after installs",
-        "url": "https://github.com/openclaw/openclaw/pull/142129",
+        "number": 141875,
+        "title": "fix(plugins): preserve prior install on staged-artifact update failure",
+        "url": "https://github.com/openclaw/openclaw/pull/141875",
         "state": "open",
-        "author": "WOLIKIMCHENG",
-        "updatedAt": "2026-09-08T11:15:07Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-09-08T15:07:36Z"
       },
       {
         "kind": "pr",
-        "number": 142127,
-        "title": "refactor(gateway): remove unused lock handle config path",
-        "url": "https://github.com/openclaw/openclaw/pull/142127",
+        "number": 138090,
+        "title": "fix(wizard): preserve typed plugin enum values (#127577)",
+        "url": "https://github.com/openclaw/openclaw/pull/138090",
+        "state": "open",
+        "author": "MoerAI",
+        "updatedAt": "2026-09-08T15:07:30Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119057,
+        "title": "feat(code-mode): send current replies without an extra turn",
+        "url": "https://github.com/openclaw/openclaw/pull/119057",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-09-08T11:15:19Z"
-      },
-      {
-        "kind": "pr",
-        "number": 129844,
-        "title": "fix(gateway): report failed secondary account restart probes",
-        "url": "https://github.com/openclaw/openclaw/pull/129844",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-08T11:15:02Z"
+        "updatedAt": "2026-09-08T15:07:30Z"
       }
     ]
   }

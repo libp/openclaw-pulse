@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-08T01:11:08.551Z",
+  "generatedAt": "2026-09-08T05:56:52.814Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -887,18 +887,18 @@
     },
     {
       "capturedOn": "2026-09-08",
-      "capturedAt": "2026-09-08T01:11:08.551Z",
-      "issueOpen": 3980,
-      "issueClosed": 47807,
-      "prOpen": 2344,
-      "prClosed": 85015,
-      "prMerged": 35635,
+      "capturedAt": "2026-09-08T05:56:52.814Z",
+      "issueOpen": 3987,
+      "issueClosed": 47837,
+      "prOpen": 2337,
+      "prClosed": 85158,
+      "prMerged": 35766,
       "workflowRuns": 40000,
-      "stars": 389148,
-      "forks": 81775,
+      "stars": 389173,
+      "forks": 81773,
       "subscribers": 1749,
-      "commits": 90075,
-      "contributors": 3297,
+      "commits": 90201,
+      "contributors": 3298,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1218,79 +1218,79 @@
     },
     {
       "capturedOn": "2026-09-08",
-      "stars": 389148,
-      "forks": 81775,
+      "stars": 389173,
+      "forks": 81773,
       "subscribers": 1749,
-      "commits": 90075,
-      "contributors": 3297
+      "commits": 90201,
+      "contributors": 3298
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 141701,
-        "title": "[Bug]: Gateway crash-loops on bind=lan + --tailscale serve; shutdown hangs ignoring SIGTERM; \"No serve config\" from tailscale CLI misleads",
-        "url": "https://github.com/openclaw/openclaw/issues/141701",
-        "state": "open",
-        "author": "tomdailey55",
-        "updatedAt": "2026-09-08T01:07:45Z"
+        "number": 141897,
+        "title": "[Bug]: forced reply cleanup can report delivery settled before it finishes",
+        "url": "https://github.com/openclaw/openclaw/issues/141897",
+        "state": "closed",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-08T05:56:47Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 141726,
-        "title": "refactor(web): share HTML tag scanning",
-        "url": "https://github.com/openclaw/openclaw/pull/141726",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-08T01:10:53Z"
-      },
-      {
-        "kind": "pr",
-        "number": 141628,
-        "title": "feat: retain TOOLS.md as an optional workspace file",
-        "url": "https://github.com/openclaw/openclaw/pull/141628",
-        "state": "open",
-        "author": "jason-allen-oneal",
-        "updatedAt": "2026-09-08T01:10:48Z"
-      },
-      {
-        "kind": "pr",
-        "number": 141417,
-        "title": "fix(agents): preserve Code Mode data within context limits",
-        "url": "https://github.com/openclaw/openclaw/pull/141417",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-08T01:10:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 141679,
-        "title": "fix: prevent stale provider hooks and incorrect model alias selection",
-        "url": "https://github.com/openclaw/openclaw/pull/141679",
+        "number": 141900,
+        "title": "fix: keep reply delivery pending after forced slot release",
+        "url": "https://github.com/openclaw/openclaw/pull/141900",
         "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-09-08T01:10:23Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-08T05:56:49Z"
       },
       {
         "kind": "pr",
-        "number": 135648,
-        "title": "perf(browser): prepare profile defaults in one map",
-        "url": "https://github.com/openclaw/openclaw/pull/135648",
+        "number": 141836,
+        "title": "feat(deepgram): support Flux voice-note transcription",
+        "url": "https://github.com/openclaw/openclaw/pull/141836",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-08T01:10:23Z"
+        "author": "obviyus",
+        "updatedAt": "2026-09-08T05:56:40Z"
       },
       {
         "kind": "pr",
-        "number": 140339,
-        "title": "feat(update): integrate checkpoints and interrupted-update recovery",
-        "url": "https://github.com/openclaw/openclaw/pull/140339",
+        "number": 141825,
+        "title": "feat(auth): make cooldown bypass providers configurable",
+        "url": "https://github.com/openclaw/openclaw/pull/141825",
         "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-09-08T01:10:19Z"
+        "author": "clement-paradex",
+        "updatedAt": "2026-09-08T05:56:34Z"
+      },
+      {
+        "kind": "pr",
+        "number": 132453,
+        "title": "feat(gateway): expose per-account provider usage",
+        "url": "https://github.com/openclaw/openclaw/pull/132453",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-09-08T05:56:47Z"
+      },
+      {
+        "kind": "pr",
+        "number": 141885,
+        "title": "fix(models): report hosted catalogs pending a Gateway restart",
+        "url": "https://github.com/openclaw/openclaw/pull/141885",
+        "state": "open",
+        "author": "obviyus",
+        "updatedAt": "2026-09-08T05:56:28Z"
+      },
+      {
+        "kind": "pr",
+        "number": 141893,
+        "title": "fix(e2e): keep frozen onboarding fixtures aligned",
+        "url": "https://github.com/openclaw/openclaw/pull/141893",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-09-08T05:56:26Z"
       }
     ]
   }

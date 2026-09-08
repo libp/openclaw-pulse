@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-07T22:49:17.559Z",
+  "generatedAt": "2026-09-08T01:11:08.551Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -884,6 +884,23 @@
       "contributors": 3297,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-08",
+      "capturedAt": "2026-09-08T01:11:08.551Z",
+      "issueOpen": 3980,
+      "issueClosed": 47807,
+      "prOpen": 2344,
+      "prClosed": 85015,
+      "prMerged": 35635,
+      "workflowRuns": 40000,
+      "stars": 389148,
+      "forks": 81775,
+      "subscribers": 1749,
+      "commits": 90075,
+      "contributors": 3297,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1198,47 +1215,37 @@
       "subscribers": 1749,
       "commits": 90031,
       "contributors": 3297
+    },
+    {
+      "capturedOn": "2026-09-08",
+      "stars": 389148,
+      "forks": 81775,
+      "subscribers": 1749,
+      "commits": 90075,
+      "contributors": 3297
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 141625,
-        "title": "Google Chat: Markdown reaches conversational replies as raw text — reply-delivery path bypasses the working converter (see #49350)",
-        "url": "https://github.com/openclaw/openclaw/issues/141625",
+        "number": 141701,
+        "title": "[Bug]: Gateway crash-loops on bind=lan + --tailscale serve; shutdown hangs ignoring SIGTERM; \"No serve config\" from tailscale CLI misleads",
+        "url": "https://github.com/openclaw/openclaw/issues/141701",
         "state": "open",
-        "author": "pbreault",
-        "updatedAt": "2026-09-07T22:47:29Z"
-      },
-      {
-        "kind": "issue",
-        "number": 141604,
-        "title": "[Bug]: model fallback chain aborts on a non-final hop and logs nothing, skipping remaining candidates",
-        "url": "https://github.com/openclaw/openclaw/issues/141604",
-        "state": "open",
-        "author": "von8794",
-        "updatedAt": "2026-09-07T22:47:27Z"
+        "author": "tomdailey55",
+        "updatedAt": "2026-09-08T01:07:45Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 141630,
-        "title": "refactor: remove duplicate collapsed chat activity test",
-        "url": "https://github.com/openclaw/openclaw/pull/141630",
+        "number": 141726,
+        "title": "refactor(web): share HTML tag scanning",
+        "url": "https://github.com/openclaw/openclaw/pull/141726",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-07T22:49:09Z"
-      },
-      {
-        "kind": "pr",
-        "number": 141562,
-        "title": "fix(update): recover stale runs without stopping healthy gateways",
-        "url": "https://github.com/openclaw/openclaw/pull/141562",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-07T22:49:08Z"
+        "updatedAt": "2026-09-08T01:10:53Z"
       },
       {
         "kind": "pr",
@@ -1247,34 +1254,43 @@
         "url": "https://github.com/openclaw/openclaw/pull/141628",
         "state": "open",
         "author": "jason-allen-oneal",
-        "updatedAt": "2026-09-07T22:48:36Z"
+        "updatedAt": "2026-09-08T01:10:48Z"
       },
       {
         "kind": "pr",
-        "number": 141602,
-        "title": "fix(sessions): keep yielded running main sessions reusable during sibling completion",
-        "url": "https://github.com/openclaw/openclaw/pull/141602",
-        "state": "open",
-        "author": "ylcn91",
-        "updatedAt": "2026-09-07T22:48:24Z"
-      },
-      {
-        "kind": "pr",
-        "number": 138982,
-        "title": "fix(signal): configured account appears missing after ID normalization",
-        "url": "https://github.com/openclaw/openclaw/pull/138982",
-        "state": "open",
-        "author": "marmar9615-cloud",
-        "updatedAt": "2026-09-07T22:48:07Z"
-      },
-      {
-        "kind": "pr",
-        "number": 140579,
-        "title": "fix(config): preserve authored settings through updates and setup",
-        "url": "https://github.com/openclaw/openclaw/pull/140579",
+        "number": 141417,
+        "title": "fix(agents): preserve Code Mode data within context limits",
+        "url": "https://github.com/openclaw/openclaw/pull/141417",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-07T22:47:21Z"
+        "updatedAt": "2026-09-08T01:10:44Z"
+      },
+      {
+        "kind": "pr",
+        "number": 141679,
+        "title": "fix: prevent stale provider hooks and incorrect model alias selection",
+        "url": "https://github.com/openclaw/openclaw/pull/141679",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-09-08T01:10:23Z"
+      },
+      {
+        "kind": "pr",
+        "number": 135648,
+        "title": "perf(browser): prepare profile defaults in one map",
+        "url": "https://github.com/openclaw/openclaw/pull/135648",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-08T01:10:23Z"
+      },
+      {
+        "kind": "pr",
+        "number": 140339,
+        "title": "feat(update): integrate checkpoints and interrupted-update recovery",
+        "url": "https://github.com/openclaw/openclaw/pull/140339",
+        "state": "open",
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-09-08T01:10:19Z"
       }
     ]
   }

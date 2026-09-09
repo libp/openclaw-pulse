@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-09T04:39:27.030Z",
+  "generatedAt": "2026-09-09T18:34:03.933Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -904,18 +904,18 @@
     },
     {
       "capturedOn": "2026-09-09",
-      "capturedAt": "2026-09-09T04:39:27.030Z",
-      "issueOpen": 4082,
-      "issueClosed": 47991,
-      "prOpen": 2342,
-      "prClosed": 85827,
-      "prMerged": 36370,
+      "capturedAt": "2026-09-09T18:34:03.933Z",
+      "issueOpen": 4136,
+      "issueClosed": 48074,
+      "prOpen": 2360,
+      "prClosed": 86158,
+      "prMerged": 36662,
       "workflowRuns": 40000,
-      "stars": 389261,
-      "forks": 81800,
+      "stars": 389299,
+      "forks": 81816,
       "subscribers": 1751,
-      "commits": 90785,
-      "contributors": 3315,
+      "commits": 91077,
+      "contributors": 3321,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1243,88 +1243,69 @@
     },
     {
       "capturedOn": "2026-09-09",
-      "stars": 389261,
-      "forks": 81800,
+      "stars": 389299,
+      "forks": 81816,
       "subscribers": 1751,
-      "commits": 90785,
-      "contributors": 3315
+      "commits": 91077,
+      "contributors": 3321
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 142832,
-        "title": "[Bug]: Discord voice notes arrive without their words in ambient channels",
-        "url": "https://github.com/openclaw/openclaw/issues/142832",
-        "state": "open",
-        "author": "aatreya",
-        "updatedAt": "2026-09-09T04:38:09Z"
-      },
-      {
-        "kind": "issue",
-        "number": 142831,
-        "title": "User impact: corrections arrive after the work they were meant to change",
-        "url": "https://github.com/openclaw/openclaw/issues/142831",
-        "state": "open",
-        "author": "aatreya",
-        "updatedAt": "2026-09-09T04:38:00Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 142830,
-        "title": "fix(talk): deliver final answers after repeated delegation",
-        "url": "https://github.com/openclaw/openclaw/pull/142830",
+        "number": 143318,
+        "title": "refactor(test): remove duplicate flat usage-cost case",
+        "url": "https://github.com/openclaw/openclaw/pull/143318",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-09T04:39:21Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-09T18:33:57Z"
       },
       {
         "kind": "pr",
-        "number": 142833,
-        "title": "refactor: simplify Gateway session lifecycle test gates",
-        "url": "https://github.com/openclaw/openclaw/pull/142833",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-09T04:39:21Z"
-      },
-      {
-        "kind": "pr",
-        "number": 142522,
-        "title": "fix(state): repair dangling Skill Workshop review index",
-        "url": "https://github.com/openclaw/openclaw/pull/142522",
-        "state": "open",
-        "author": "jjjhenriksen",
-        "updatedAt": "2026-09-09T04:39:16Z"
-      },
-      {
-        "kind": "pr",
-        "number": 142824,
-        "title": "refactor: simplify interactive SDK forwarding",
-        "url": "https://github.com/openclaw/openclaw/pull/142824",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-09T04:39:12Z"
-      },
-      {
-        "kind": "pr",
-        "number": 142829,
-        "title": "feat(media): echo local Whisper transcripts",
-        "url": "https://github.com/openclaw/openclaw/pull/142829",
-        "state": "open",
-        "author": "dankarization",
-        "updatedAt": "2026-09-09T04:39:07Z"
-      },
-      {
-        "kind": "pr",
-        "number": 135468,
-        "title": "docs(memory-lancedb): clarify enforced compatibility ranges",
-        "url": "https://github.com/openclaw/openclaw/pull/135468",
+        "number": 143309,
+        "title": "refactor: share Docker harness timeout fixture text",
+        "url": "https://github.com/openclaw/openclaw/pull/143309",
         "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-09-09T18:33:52Z"
+      },
+      {
+        "kind": "pr",
+        "number": 142959,
+        "title": "fix(ui): hide stale git update prompts after refresh",
+        "url": "https://github.com/openclaw/openclaw/pull/142959",
+        "state": "open",
         "author": "ly85206559",
-        "updatedAt": "2026-09-09T04:38:40Z"
+        "updatedAt": "2026-09-09T18:33:52Z"
+      },
+      {
+        "kind": "pr",
+        "number": 142100,
+        "title": "fix: preserve exact model choices across reloads and fallbacks",
+        "url": "https://github.com/openclaw/openclaw/pull/142100",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-09T18:33:51Z"
+      },
+      {
+        "kind": "pr",
+        "number": 143264,
+        "title": "Google Chat: live-updating status message (parity with Slack/Telegram)",
+        "url": "https://github.com/openclaw/openclaw/pull/143264",
+        "state": "open",
+        "author": "Yeraze",
+        "updatedAt": "2026-09-09T18:33:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 143321,
+        "title": "fix(update): stop timing out long Doctor finalization",
+        "url": "https://github.com/openclaw/openclaw/pull/143321",
+        "state": "open",
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-09-09T18:33:44Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-08T21:49:57.125Z",
+  "generatedAt": "2026-09-09T00:12:33.931Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -901,6 +901,23 @@
       "contributors": 3312,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-09",
+      "capturedAt": "2026-09-09T00:12:33.931Z",
+      "issueOpen": 4075,
+      "issueClosed": 47963,
+      "prOpen": 2349,
+      "prClosed": 85724,
+      "prMerged": 36292,
+      "workflowRuns": 40000,
+      "stars": 389245,
+      "forks": 81795,
+      "subscribers": 1751,
+      "commits": 90709,
+      "contributors": 3313,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1223,101 +1240,82 @@
       "subscribers": 1751,
       "commits": 90639,
       "contributors": 3312
+    },
+    {
+      "capturedOn": "2026-09-09",
+      "stars": 389245,
+      "forks": 81795,
+      "subscribers": 1751,
+      "commits": 90709,
+      "contributors": 3313
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 97616,
-        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
-        "url": "https://github.com/openclaw/openclaw/issues/97616",
+        "number": 142701,
+        "title": "Gateway becomes unkillable during memory reindex; systemctl restart fails, sudo reboot required (lock files persist across restarts)",
+        "url": "https://github.com/openclaw/openclaw/issues/142701",
         "state": "open",
-        "author": "avp717",
-        "updatedAt": "2026-09-08T21:49:33Z"
-      },
-      {
-        "kind": "issue",
-        "number": 142610,
-        "title": "Meeting voice consult always fails with \"Gateway is draining\": inherits released root-work admission context",
-        "url": "https://github.com/openclaw/openclaw/issues/142610",
-        "state": "open",
-        "author": "jai-assistant",
-        "updatedAt": "2026-09-08T21:48:40Z"
-      },
-      {
-        "kind": "issue",
-        "number": 142606,
-        "title": "[Bug]: Dashboard HTML widget links (target=\"_blank\") dead in native apps — host.open fails closed outside browser Control UI",
-        "url": "https://github.com/openclaw/openclaw/issues/142606",
-        "state": "open",
-        "author": "jutaz",
-        "updatedAt": "2026-09-08T21:48:17Z"
-      },
-      {
-        "kind": "issue",
-        "number": 142511,
-        "title": "Import skill dialog stretches controls and exposes native file pickers",
-        "url": "https://github.com/openclaw/openclaw/issues/142511",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-08T21:48:11Z"
+        "author": "the-atlas-agent-web",
+        "updatedAt": "2026-09-09T00:10:52Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 111676,
-        "title": "fix(fleet): keep replacement health checks within timeout",
-        "url": "https://github.com/openclaw/openclaw/pull/111676",
+        "number": 142658,
+        "title": "fix: align chat composer attachments with draft text",
+        "url": "https://github.com/openclaw/openclaw/pull/142658",
         "state": "open",
-        "author": "ZengWen-DT",
-        "updatedAt": "2026-09-08T21:49:50Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-09-09T00:12:25Z"
       },
       {
         "kind": "pr",
-        "number": 142612,
-        "title": "fix: reduce cold presence work when viewing multiple sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/142612",
+        "number": 142155,
+        "title": "Doctorina/base v2026.6.6",
+        "url": "https://github.com/openclaw/openclaw/pull/142155",
+        "state": "open",
+        "author": "pavel-satalkin",
+        "updatedAt": "2026-09-09T00:12:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 141373,
+        "title": "fix(gateway): normalize padded managed-worktree IDs",
+        "url": "https://github.com/openclaw/openclaw/pull/141373",
+        "state": "open",
+        "author": "nocodet888-arch",
+        "updatedAt": "2026-09-09T00:12:21Z"
+      },
+      {
+        "kind": "pr",
+        "number": 142646,
+        "title": "fix(ui): stop guessing model thinking capabilities",
+        "url": "https://github.com/openclaw/openclaw/pull/142646",
+        "state": "open",
+        "author": "obviyus",
+        "updatedAt": "2026-09-09T00:12:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 135648,
+        "title": "perf(browser): prepare profile defaults in one map",
+        "url": "https://github.com/openclaw/openclaw/pull/135648",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-08T21:49:41Z"
+        "updatedAt": "2026-09-09T00:12:07Z"
       },
       {
         "kind": "pr",
-        "number": 142607,
-        "title": "docs(plugins): split the SDK migration guide by reader job",
-        "url": "https://github.com/openclaw/openclaw/pull/142607",
+        "number": 142692,
+        "title": "fix(meeting): own a fresh root admission for agent consults",
+        "url": "https://github.com/openclaw/openclaw/pull/142692",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-09-08T21:49:50Z"
-      },
-      {
-        "kind": "pr",
-        "number": 111611,
-        "title": "fix(infra): use || for empty Claude session key fallback",
-        "url": "https://github.com/openclaw/openclaw/pull/111611",
-        "state": "open",
-        "author": "ljy-1351",
-        "updatedAt": "2026-09-08T21:49:33Z"
-      },
-      {
-        "kind": "pr",
-        "number": 141600,
-        "title": "fix: session titles fall back when labeling fails",
-        "url": "https://github.com/openclaw/openclaw/pull/141600",
-        "state": "open",
-        "author": "DonnieFi",
-        "updatedAt": "2026-09-08T21:49:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 123236,
-        "title": "fix(worker): carry resolved exec authority across the launch boundary",
-        "url": "https://github.com/openclaw/openclaw/pull/123236",
-        "state": "open",
-        "author": "drobison00",
-        "updatedAt": "2026-09-08T21:49:32Z"
+        "author": "chelsealong",
+        "updatedAt": "2026-09-09T00:12:03Z"
       }
     ]
   }

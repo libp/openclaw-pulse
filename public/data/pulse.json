@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-10T14:24:47.136Z",
+  "generatedAt": "2026-09-10T21:36:27.601Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -921,18 +921,18 @@
     },
     {
       "capturedOn": "2026-09-10",
-      "capturedAt": "2026-09-10T14:24:47.136Z",
-      "issueOpen": 4204,
-      "issueClosed": 48171,
-      "prOpen": 2405,
-      "prClosed": 86728,
-      "prMerged": 37187,
+      "capturedAt": "2026-09-10T21:36:27.601Z",
+      "issueOpen": 4252,
+      "issueClosed": 48219,
+      "prOpen": 2427,
+      "prClosed": 86933,
+      "prMerged": 37375,
       "workflowRuns": 40000,
-      "stars": 389345,
-      "forks": 81828,
-      "subscribers": 1750,
-      "commits": 91589,
-      "contributors": 3336,
+      "stars": 389380,
+      "forks": 81833,
+      "subscribers": 1749,
+      "commits": 91774,
+      "contributors": 3339,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1268,70 +1268,70 @@
     },
     {
       "capturedOn": "2026-09-10",
-      "stars": 389345,
-      "forks": 81828,
-      "subscribers": 1750,
-      "commits": 91589,
-      "contributors": 3336
+      "stars": 389380,
+      "forks": 81833,
+      "subscribers": 1749,
+      "commits": 91774,
+      "contributors": 3339
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 97616,
-        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
-        "url": "https://github.com/openclaw/openclaw/issues/97616",
+        "number": 144424,
+        "title": "Concurrent heartbeat lanes on unrelated dashboard sessions collide, trip real Anthropic 429s, and the retry backoff isn't honored (self-sustaining storm)",
+        "url": "https://github.com/openclaw/openclaw/issues/144424",
         "state": "open",
-        "author": "avp717",
-        "updatedAt": "2026-09-10T14:24:24Z"
+        "author": "corvid-reads",
+        "updatedAt": "2026-09-10T21:35:58Z"
+      },
+      {
+        "kind": "issue",
+        "number": 12855,
+        "title": "[Feature]: Built-in auto-update with configurable schedule, confirmation, and post-update notification",
+        "url": "https://github.com/openclaw/openclaw/issues/12855",
+        "state": "open",
+        "author": "jarvislanou",
+        "updatedAt": "2026-09-10T21:34:02Z"
+      },
+      {
+        "kind": "issue",
+        "number": 144422,
+        "title": "Protect Gateway-initiated inline Git updates with an external recovery owner",
+        "url": "https://github.com/openclaw/openclaw/issues/144422",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-10T21:33:56Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 132454,
-        "title": "feat(ui): show Codex usage beside each login",
-        "url": "https://github.com/openclaw/openclaw/pull/132454",
+        "number": 144402,
+        "title": "fix(release): repair updates and warm CLI continuity",
+        "url": "https://github.com/openclaw/openclaw/pull/144402",
         "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-09-10T14:24:36Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-10T21:36:22Z"
       },
       {
         "kind": "pr",
-        "number": 143521,
-        "title": "fix(media): prevent sibling sandbox attachment reads",
-        "url": "https://github.com/openclaw/openclaw/pull/143521",
+        "number": 144425,
+        "title": "refactor(tests): exercise real IRC send utilities",
+        "url": "https://github.com/openclaw/openclaw/pull/144425",
         "state": "open",
-        "author": "eleqtrizit",
-        "updatedAt": "2026-09-10T14:24:33Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-10T21:36:20Z"
       },
       {
         "kind": "pr",
-        "number": 144046,
-        "title": "fix(gateway): report busctl-incompatible when busctl rejects --json",
-        "url": "https://github.com/openclaw/openclaw/pull/144046",
+        "number": 121622,
+        "title": "fix(macos): prevent discovered gateways from inheriting credentials",
+        "url": "https://github.com/openclaw/openclaw/pull/121622",
         "state": "open",
-        "author": "JamieJ5926",
-        "updatedAt": "2026-09-10T14:24:31Z"
-      },
-      {
-        "kind": "pr",
-        "number": 144048,
-        "title": "fix(media): remote attachments are skipped when the channel plugin is installed outside core",
-        "url": "https://github.com/openclaw/openclaw/pull/144048",
-        "state": "open",
-        "author": "LiuwqGit",
-        "updatedAt": "2026-09-10T14:24:30Z"
-      },
-      {
-        "kind": "pr",
-        "number": 132453,
-        "title": "feat(codex): expose usage for a saved login",
-        "url": "https://github.com/openclaw/openclaw/pull/132453",
-        "state": "open",
-        "author": "jesse-merhi",
-        "updatedAt": "2026-09-10T14:24:23Z"
+        "author": "jacobtomlinson",
+        "updatedAt": "2026-09-10T21:36:15Z"
       },
       {
         "kind": "pr",
@@ -1340,7 +1340,25 @@
         "url": "https://github.com/openclaw/openclaw/pull/142626",
         "state": "open",
         "author": "omarshahine",
-        "updatedAt": "2026-09-10T14:24:22Z"
+        "updatedAt": "2026-09-10T21:36:13Z"
+      },
+      {
+        "kind": "pr",
+        "number": 144390,
+        "title": "fix(docs): render parameter labels containing angle brackets",
+        "url": "https://github.com/openclaw/openclaw/pull/144390",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-09-10T21:36:09Z"
+      },
+      {
+        "kind": "pr",
+        "number": 144302,
+        "title": "fix(usage): keep total-only and cache-only footers",
+        "url": "https://github.com/openclaw/openclaw/pull/144302",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-09-10T21:36:07Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-10T04:40:56.874Z",
+  "generatedAt": "2026-09-10T14:24:47.136Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -921,18 +921,18 @@
     },
     {
       "capturedOn": "2026-09-10",
-      "capturedAt": "2026-09-10T04:40:56.874Z",
-      "issueOpen": 4173,
-      "issueClosed": 48121,
-      "prOpen": 2392,
-      "prClosed": 86414,
-      "prMerged": 36898,
+      "capturedAt": "2026-09-10T14:24:47.136Z",
+      "issueOpen": 4204,
+      "issueClosed": 48171,
+      "prOpen": 2405,
+      "prClosed": 86728,
+      "prMerged": 37187,
       "workflowRuns": 40000,
-      "stars": 389324,
-      "forks": 81817,
-      "subscribers": 1751,
-      "commits": 91308,
-      "contributors": 3328,
+      "stars": 389345,
+      "forks": 81828,
+      "subscribers": 1750,
+      "commits": 91589,
+      "contributors": 3336,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1268,70 +1268,70 @@
     },
     {
       "capturedOn": "2026-09-10",
-      "stars": 389324,
-      "forks": 81817,
-      "subscribers": 1751,
-      "commits": 91308,
-      "contributors": 3328
+      "stars": 389345,
+      "forks": 81828,
+      "subscribers": 1750,
+      "commits": 91589,
+      "contributors": 3336
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 143691,
-        "title": "Update failure: unexpected-error (2026.9.3)",
-        "url": "https://github.com/openclaw/openclaw/issues/143691",
+        "number": 97616,
+        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
+        "url": "https://github.com/openclaw/openclaw/issues/97616",
         "state": "open",
-        "author": "wuwb",
-        "updatedAt": "2026-09-10T04:39:54Z"
+        "author": "avp717",
+        "updatedAt": "2026-09-10T14:24:24Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 143693,
-        "title": "fix(backup): full backups omit required config includes",
-        "url": "https://github.com/openclaw/openclaw/pull/143693",
+        "number": 132454,
+        "title": "feat(ui): show Codex usage beside each login",
+        "url": "https://github.com/openclaw/openclaw/pull/132454",
         "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-09-10T04:40:52Z"
+        "author": "jesse-merhi",
+        "updatedAt": "2026-09-10T14:24:36Z"
       },
       {
         "kind": "pr",
-        "number": 143690,
-        "title": "refactor(tests): reuse remaining channel runtime spies",
-        "url": "https://github.com/openclaw/openclaw/pull/143690",
+        "number": 143521,
+        "title": "fix(media): prevent sibling sandbox attachment reads",
+        "url": "https://github.com/openclaw/openclaw/pull/143521",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-10T04:40:43Z"
+        "author": "eleqtrizit",
+        "updatedAt": "2026-09-10T14:24:33Z"
       },
       {
         "kind": "pr",
-        "number": 143538,
-        "title": "fix(update): report the built runtime instead of the unbuilt source version",
-        "url": "https://github.com/openclaw/openclaw/pull/143538",
+        "number": 144046,
+        "title": "fix(gateway): report busctl-incompatible when busctl rejects --json",
+        "url": "https://github.com/openclaw/openclaw/pull/144046",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-09-10T04:40:36Z"
+        "author": "JamieJ5926",
+        "updatedAt": "2026-09-10T14:24:31Z"
       },
       {
         "kind": "pr",
-        "number": 143692,
-        "title": "test(clawrouter): refresh catalog before asserting models",
-        "url": "https://github.com/openclaw/openclaw/pull/143692",
+        "number": 144048,
+        "title": "fix(media): remote attachments are skipped when the channel plugin is installed outside core",
+        "url": "https://github.com/openclaw/openclaw/pull/144048",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-09-10T04:40:22Z"
+        "author": "LiuwqGit",
+        "updatedAt": "2026-09-10T14:24:30Z"
       },
       {
         "kind": "pr",
-        "number": 143680,
-        "title": "refactor: simplify DeepInfra catalog test fixtures",
-        "url": "https://github.com/openclaw/openclaw/pull/143680",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-09-10T04:40:20Z"
+        "number": 132453,
+        "title": "feat(codex): expose usage for a saved login",
+        "url": "https://github.com/openclaw/openclaw/pull/132453",
+        "state": "open",
+        "author": "jesse-merhi",
+        "updatedAt": "2026-09-10T14:24:23Z"
       },
       {
         "kind": "pr",
@@ -1340,7 +1340,7 @@
         "url": "https://github.com/openclaw/openclaw/pull/142626",
         "state": "open",
         "author": "omarshahine",
-        "updatedAt": "2026-09-10T04:40:16Z"
+        "updatedAt": "2026-09-10T14:24:22Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-09T18:34:03.933Z",
+  "generatedAt": "2026-09-10T04:40:56.874Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -918,6 +918,23 @@
       "contributors": 3321,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-10",
+      "capturedAt": "2026-09-10T04:40:56.874Z",
+      "issueOpen": 4173,
+      "issueClosed": 48121,
+      "prOpen": 2392,
+      "prClosed": 86414,
+      "prMerged": 36898,
+      "workflowRuns": 40000,
+      "stars": 389324,
+      "forks": 81817,
+      "subscribers": 1751,
+      "commits": 91308,
+      "contributors": 3328,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1248,64 +1265,82 @@
       "subscribers": 1751,
       "commits": 91077,
       "contributors": 3321
+    },
+    {
+      "capturedOn": "2026-09-10",
+      "stars": 389324,
+      "forks": 81817,
+      "subscribers": 1751,
+      "commits": 91308,
+      "contributors": 3328
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 143691,
+        "title": "Update failure: unexpected-error (2026.9.3)",
+        "url": "https://github.com/openclaw/openclaw/issues/143691",
+        "state": "open",
+        "author": "wuwb",
+        "updatedAt": "2026-09-10T04:39:54Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 143318,
-        "title": "refactor(test): remove duplicate flat usage-cost case",
-        "url": "https://github.com/openclaw/openclaw/pull/143318",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-09-09T18:33:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 143309,
-        "title": "refactor: share Docker harness timeout fixture text",
-        "url": "https://github.com/openclaw/openclaw/pull/143309",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-09-09T18:33:52Z"
-      },
-      {
-        "kind": "pr",
-        "number": 142959,
-        "title": "fix(ui): hide stale git update prompts after refresh",
-        "url": "https://github.com/openclaw/openclaw/pull/142959",
-        "state": "open",
-        "author": "ly85206559",
-        "updatedAt": "2026-09-09T18:33:52Z"
-      },
-      {
-        "kind": "pr",
-        "number": 142100,
-        "title": "fix: preserve exact model choices across reloads and fallbacks",
-        "url": "https://github.com/openclaw/openclaw/pull/142100",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-09T18:33:51Z"
-      },
-      {
-        "kind": "pr",
-        "number": 143264,
-        "title": "Google Chat: live-updating status message (parity with Slack/Telegram)",
-        "url": "https://github.com/openclaw/openclaw/pull/143264",
-        "state": "open",
-        "author": "Yeraze",
-        "updatedAt": "2026-09-09T18:33:59Z"
-      },
-      {
-        "kind": "pr",
-        "number": 143321,
-        "title": "fix(update): stop timing out long Doctor finalization",
-        "url": "https://github.com/openclaw/openclaw/pull/143321",
+        "number": 143693,
+        "title": "fix(backup): full backups omit required config includes",
+        "url": "https://github.com/openclaw/openclaw/pull/143693",
         "state": "open",
         "author": "fuller-stack-dev",
-        "updatedAt": "2026-09-09T18:33:44Z"
+        "updatedAt": "2026-09-10T04:40:52Z"
+      },
+      {
+        "kind": "pr",
+        "number": 143690,
+        "title": "refactor(tests): reuse remaining channel runtime spies",
+        "url": "https://github.com/openclaw/openclaw/pull/143690",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-10T04:40:43Z"
+      },
+      {
+        "kind": "pr",
+        "number": 143538,
+        "title": "fix(update): report the built runtime instead of the unbuilt source version",
+        "url": "https://github.com/openclaw/openclaw/pull/143538",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-09-10T04:40:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 143692,
+        "title": "test(clawrouter): refresh catalog before asserting models",
+        "url": "https://github.com/openclaw/openclaw/pull/143692",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-09-10T04:40:22Z"
+      },
+      {
+        "kind": "pr",
+        "number": 143680,
+        "title": "refactor: simplify DeepInfra catalog test fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/143680",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-09-10T04:40:20Z"
+      },
+      {
+        "kind": "pr",
+        "number": 142626,
+        "title": "fix(imessage): restore feedback after bridge recovery",
+        "url": "https://github.com/openclaw/openclaw/pull/142626",
+        "state": "open",
+        "author": "omarshahine",
+        "updatedAt": "2026-09-10T04:40:16Z"
       }
     ]
   }

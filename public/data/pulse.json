@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-11T18:30:31.754Z",
+  "generatedAt": "2026-09-11T21:42:28.371Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -938,17 +938,17 @@
     },
     {
       "capturedOn": "2026-09-11",
-      "capturedAt": "2026-09-11T18:30:31.754Z",
-      "issueOpen": 4349,
-      "issueClosed": 48354,
-      "prOpen": 2480,
-      "prClosed": 87363,
-      "prMerged": 37748,
+      "capturedAt": "2026-09-11T21:42:28.371Z",
+      "issueOpen": 4386,
+      "issueClosed": 48381,
+      "prOpen": 2496,
+      "prClosed": 87456,
+      "prMerged": 37833,
       "workflowRuns": 40000,
-      "stars": 389452,
-      "forks": 81857,
+      "stars": 389457,
+      "forks": 81866,
       "subscribers": 1748,
-      "commits": 92143,
+      "commits": 92226,
       "contributors": 3350,
       "source": "github-actions",
       "approximateDate": false
@@ -1293,10 +1293,10 @@
     },
     {
       "capturedOn": "2026-09-11",
-      "stars": 389452,
-      "forks": 81857,
+      "stars": 389457,
+      "forks": 81866,
       "subscribers": 1748,
-      "commits": 92143,
+      "commits": 92226,
       "contributors": 3350
     }
   ],
@@ -1304,104 +1304,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 145137,
-        "title": "Small-model security block prevents local/Ollama models from using web_search and web_fetch tools",
-        "url": "https://github.com/openclaw/openclaw/issues/145137",
+        "number": 145309,
+        "title": "[Bug]: claude-cli backend looks for transcripts under $HOME/.claude and ignores CLAUDE_CONFIG_DIR — missing-transcript resets and cli_live_session_changed failover",
+        "url": "https://github.com/openclaw/openclaw/issues/145309",
         "state": "open",
-        "author": "lator57-gif",
-        "updatedAt": "2026-09-11T18:30:22Z"
+        "author": "treygoff24",
+        "updatedAt": "2026-09-11T21:42:17Z"
       },
       {
         "kind": "issue",
-        "number": 125333,
-        "title": "totalTokens inflation still reproduces on 2026.8.1-beta.2: #123065 fix only covers `api === \"cli\"`, and the memory-flush transcript path is an unguarded ratchet",
-        "url": "https://github.com/openclaw/openclaw/issues/125333",
+        "number": 145308,
+        "title": "Feature: lazy skill-catalog discovery to reduce startup context and remove prompt-count ceiling",
+        "url": "https://github.com/openclaw/openclaw/issues/145308",
         "state": "open",
-        "author": "Yuyorman",
-        "updatedAt": "2026-09-11T18:30:18Z"
-      },
-      {
-        "kind": "issue",
-        "number": 145138,
-        "title": "Update failure: validating (2026.9.3)",
-        "url": "https://github.com/openclaw/openclaw/issues/145138",
-        "state": "open",
-        "author": "jondanelarson-oss",
-        "updatedAt": "2026-09-11T18:30:01Z"
-      },
-      {
-        "kind": "issue",
-        "number": 130257,
-        "title": "Tasks ledger records no tokens or cost for delegated ACP runs, so a child run spend is unattributable (parent turn $0.04 vs child $14.14)",
-        "url": "https://github.com/openclaw/openclaw/issues/130257",
-        "state": "open",
-        "author": "geekforlife",
-        "updatedAt": "2026-09-11T18:29:58Z"
-      },
-      {
-        "kind": "issue",
-        "number": 145134,
-        "title": "[Bug]: codex settled-turn finalization rejects OpenClaw's own custom_message parts → unsupported_content",
-        "url": "https://github.com/openclaw/openclaw/issues/145134",
-        "state": "open",
-        "author": "balloobbot",
-        "updatedAt": "2026-09-11T18:29:42Z"
+        "author": "thomasmoenco",
+        "updatedAt": "2026-09-11T21:42:17Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 144564,
-        "title": "fix(ui): progress cards left by interrupted runs cannot be dismissed",
-        "url": "https://github.com/openclaw/openclaw/pull/144564",
+        "number": 137008,
+        "title": "fix: skip managed gateway stop on no-op openclaw update",
+        "url": "https://github.com/openclaw/openclaw/pull/137008",
         "state": "open",
-        "author": "griswomw2",
-        "updatedAt": "2026-09-11T18:30:23Z"
+        "author": "RaviTharuma",
+        "updatedAt": "2026-09-11T21:42:17Z"
       },
       {
         "kind": "pr",
-        "number": 144927,
-        "title": "fix(models): keep catalog refresh consistent without delaying startup",
-        "url": "https://github.com/openclaw/openclaw/pull/144927",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-09-11T18:30:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 144853,
-        "title": "fix: keep widget cards beside their progress messages",
-        "url": "https://github.com/openclaw/openclaw/pull/144853",
-        "state": "open",
-        "author": "JosephNatsu",
-        "updatedAt": "2026-09-11T18:30:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 145128,
-        "title": "fix(scripts): drop unverified local git identities from squash co-author credit",
-        "url": "https://github.com/openclaw/openclaw/pull/145128",
+        "number": 145215,
+        "title": "fix(update): promote Doctor config migrations after a successful repair",
+        "url": "https://github.com/openclaw/openclaw/pull/145215",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-11T18:30:11Z"
+        "updatedAt": "2026-09-11T21:42:16Z"
       },
       {
         "kind": "pr",
-        "number": 144694,
-        "title": "fix: allow cross-browser steering of active sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/144694",
+        "number": 145209,
+        "title": "refactor(usage): await database admission and retain cache ownership",
+        "url": "https://github.com/openclaw/openclaw/pull/145209",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-11T18:30:09Z"
+        "updatedAt": "2026-09-11T21:42:15Z"
       },
       {
         "kind": "pr",
-        "number": 144155,
-        "title": "fix(update): preserve compatible state when switching to npm stable",
-        "url": "https://github.com/openclaw/openclaw/pull/144155",
+        "number": 138338,
+        "title": "feat(browser): expose native extension tab IDs",
+        "url": "https://github.com/openclaw/openclaw/pull/138338",
+        "state": "open",
+        "author": "patryk-roguszewski",
+        "updatedAt": "2026-09-11T21:42:15Z"
+      },
+      {
+        "kind": "pr",
+        "number": 145294,
+        "title": "fix(usage): explain why a provider is missing from status --usage",
+        "url": "https://github.com/openclaw/openclaw/pull/145294",
+        "state": "open",
+        "author": "tooopa",
+        "updatedAt": "2026-09-11T21:42:03Z"
+      },
+      {
+        "kind": "pr",
+        "number": 145310,
+        "title": "test: reuse marketplace archive manifest fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/145310",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-11T18:30:06Z"
+        "updatedAt": "2026-09-11T21:41:58Z"
       }
     ]
   }

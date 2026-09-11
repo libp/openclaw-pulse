@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-11T00:08:23.513Z",
+  "generatedAt": "2026-09-11T04:36:44.372Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -938,18 +938,18 @@
     },
     {
       "capturedOn": "2026-09-11",
-      "capturedAt": "2026-09-11T00:08:23.513Z",
-      "issueOpen": 4258,
-      "issueClosed": 48228,
-      "prOpen": 2430,
-      "prClosed": 87002,
-      "prMerged": 37437,
+      "capturedAt": "2026-09-11T04:36:44.372Z",
+      "issueOpen": 4252,
+      "issueClosed": 48274,
+      "prOpen": 2402,
+      "prClosed": 87139,
+      "prMerged": 37547,
       "workflowRuns": 40000,
-      "stars": 389396,
-      "forks": 81838,
-      "subscribers": 1749,
-      "commits": 91834,
-      "contributors": 3339,
+      "stars": 389414,
+      "forks": 81850,
+      "subscribers": 1748,
+      "commits": 91944,
+      "contributors": 3342,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1293,69 +1293,97 @@
     },
     {
       "capturedOn": "2026-09-11",
-      "stars": 389396,
-      "forks": 81838,
-      "subscribers": 1749,
-      "commits": 91834,
-      "contributors": 3339
+      "stars": 389414,
+      "forks": 81850,
+      "subscribers": 1748,
+      "commits": 91944,
+      "contributors": 3342
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 144662,
+        "title": "[Bug]: screenshot and video uploads fail through protected egress with Bad Content-Length",
+        "url": "https://github.com/openclaw/openclaw/issues/144662",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-11T04:36:36Z"
+      },
+      {
+        "kind": "issue",
+        "number": 144610,
+        "title": "[Bug]: 2026.9.3 Skill Workshop relocation leaves cron command argv and trigger scripts pointing at the deleted workspace/skills path",
+        "url": "https://github.com/openclaw/openclaw/issues/144610",
+        "state": "open",
+        "author": "rayseling",
+        "updatedAt": "2026-09-11T04:35:05Z"
+      },
+      {
+        "kind": "issue",
+        "number": 144656,
+        "title": "Update failure: runtime-verification-failed (2026.9.3)",
+        "url": "https://github.com/openclaw/openclaw/issues/144656",
+        "state": "open",
+        "author": "Celaq",
+        "updatedAt": "2026-09-11T04:34:56Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 144491,
-        "title": "feat(auth): sign in to OpenRouter from private chat",
-        "url": "https://github.com/openclaw/openclaw/pull/144491",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-09-11T00:08:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 87764,
-        "title": "feat: support owner-scoped ClawHub skill refs",
-        "url": "https://github.com/openclaw/openclaw/pull/87764",
+        "number": 144651,
+        "title": "improve(ui): remove new session picker tooltips",
+        "url": "https://github.com/openclaw/openclaw/pull/144651",
         "state": "open",
         "author": "Patrick-Erichsen",
-        "updatedAt": "2026-09-11T00:08:14Z"
+        "updatedAt": "2026-09-11T04:36:36Z"
       },
       {
         "kind": "pr",
-        "number": 140902,
-        "title": "fix(agents): include tool schema tokens in context-overflow precheck",
-        "url": "https://github.com/openclaw/openclaw/pull/140902",
+        "number": 144661,
+        "title": "fix(ui): preserve plugin category navigation while searching",
+        "url": "https://github.com/openclaw/openclaw/pull/144661",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-09-11T00:08:08Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-11T04:36:33Z"
       },
       {
         "kind": "pr",
-        "number": 144320,
-        "title": "fix(sessions): sessions_send treats visible dashboard spawn children as foreign sessions and starts a stale announce run",
-        "url": "https://github.com/openclaw/openclaw/pull/144320",
+        "number": 144637,
+        "title": "fix(reef): park capacity-failed inbound delivery instead of unwinding the shared inbox",
+        "url": "https://github.com/openclaw/openclaw/pull/144637",
         "state": "open",
-        "author": "ylcn91",
-        "updatedAt": "2026-09-11T00:08:04Z"
+        "author": "eleqtrizit",
+        "updatedAt": "2026-09-11T04:36:31Z"
       },
       {
         "kind": "pr",
-        "number": 139534,
-        "title": "fix(ai): prefer streamed tool-call arguments over stale output_item.done snapshot",
-        "url": "https://github.com/openclaw/openclaw/pull/139534",
+        "number": 144659,
+        "title": "chore: gate startup upgrades against prior-release state",
+        "url": "https://github.com/openclaw/openclaw/pull/144659",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-09-11T00:08:02Z"
+        "author": "obviyus",
+        "updatedAt": "2026-09-11T04:36:27Z"
       },
       {
         "kind": "pr",
-        "number": 132409,
-        "title": "fix(channels): preserve messages stalled before adoption",
-        "url": "https://github.com/openclaw/openclaw/pull/132409",
+        "number": 134438,
+        "title": "fix(ci): security guard fails a PR when GitHub returns a transient 500",
+        "url": "https://github.com/openclaw/openclaw/pull/134438",
         "state": "open",
-        "author": "PollyBot13",
-        "updatedAt": "2026-09-11T00:08:02Z"
+        "author": "marmar9615-cloud",
+        "updatedAt": "2026-09-11T04:36:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 144622,
+        "title": "fix(memory): purge phase signals when forgetting sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/144622",
+        "state": "open",
+        "author": "jinliyl",
+        "updatedAt": "2026-09-11T04:36:19Z"
       }
     ]
   }

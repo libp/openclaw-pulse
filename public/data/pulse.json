@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-10T21:36:27.601Z",
+  "generatedAt": "2026-09-11T00:08:23.513Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -935,6 +935,23 @@
       "contributors": 3339,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-11",
+      "capturedAt": "2026-09-11T00:08:23.513Z",
+      "issueOpen": 4258,
+      "issueClosed": 48228,
+      "prOpen": 2430,
+      "prClosed": 87002,
+      "prMerged": 37437,
+      "workflowRuns": 40000,
+      "stars": 389396,
+      "forks": 81838,
+      "subscribers": 1749,
+      "commits": 91834,
+      "contributors": 3339,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1273,92 +1290,72 @@
       "subscribers": 1749,
       "commits": 91774,
       "contributors": 3339
+    },
+    {
+      "capturedOn": "2026-09-11",
+      "stars": 389396,
+      "forks": 81838,
+      "subscribers": 1749,
+      "commits": 91834,
+      "contributors": 3339
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 144424,
-        "title": "Concurrent heartbeat lanes on unrelated dashboard sessions collide, trip real Anthropic 429s, and the retry backoff isn't honored (self-sustaining storm)",
-        "url": "https://github.com/openclaw/openclaw/issues/144424",
-        "state": "open",
-        "author": "corvid-reads",
-        "updatedAt": "2026-09-10T21:35:58Z"
-      },
-      {
-        "kind": "issue",
-        "number": 12855,
-        "title": "[Feature]: Built-in auto-update with configurable schedule, confirmation, and post-update notification",
-        "url": "https://github.com/openclaw/openclaw/issues/12855",
-        "state": "open",
-        "author": "jarvislanou",
-        "updatedAt": "2026-09-10T21:34:02Z"
-      },
-      {
-        "kind": "issue",
-        "number": 144422,
-        "title": "Protect Gateway-initiated inline Git updates with an external recovery owner",
-        "url": "https://github.com/openclaw/openclaw/issues/144422",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-10T21:33:56Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 144402,
-        "title": "fix(release): repair updates and warm CLI continuity",
-        "url": "https://github.com/openclaw/openclaw/pull/144402",
+        "number": 144491,
+        "title": "feat(auth): sign in to OpenRouter from private chat",
+        "url": "https://github.com/openclaw/openclaw/pull/144491",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-10T21:36:22Z"
+        "author": "obviyus",
+        "updatedAt": "2026-09-11T00:08:17Z"
       },
       {
         "kind": "pr",
-        "number": 144425,
-        "title": "refactor(tests): exercise real IRC send utilities",
-        "url": "https://github.com/openclaw/openclaw/pull/144425",
+        "number": 87764,
+        "title": "feat: support owner-scoped ClawHub skill refs",
+        "url": "https://github.com/openclaw/openclaw/pull/87764",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-10T21:36:20Z"
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-09-11T00:08:14Z"
       },
       {
         "kind": "pr",
-        "number": 121622,
-        "title": "fix(macos): prevent discovered gateways from inheriting credentials",
-        "url": "https://github.com/openclaw/openclaw/pull/121622",
+        "number": 140902,
+        "title": "fix(agents): include tool schema tokens in context-overflow precheck",
+        "url": "https://github.com/openclaw/openclaw/pull/140902",
         "state": "open",
-        "author": "jacobtomlinson",
-        "updatedAt": "2026-09-10T21:36:15Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-09-11T00:08:08Z"
       },
       {
         "kind": "pr",
-        "number": 142626,
-        "title": "fix(imessage): restore feedback after bridge recovery",
-        "url": "https://github.com/openclaw/openclaw/pull/142626",
+        "number": 144320,
+        "title": "fix(sessions): sessions_send treats visible dashboard spawn children as foreign sessions and starts a stale announce run",
+        "url": "https://github.com/openclaw/openclaw/pull/144320",
         "state": "open",
-        "author": "omarshahine",
-        "updatedAt": "2026-09-10T21:36:13Z"
+        "author": "ylcn91",
+        "updatedAt": "2026-09-11T00:08:04Z"
       },
       {
         "kind": "pr",
-        "number": 144390,
-        "title": "fix(docs): render parameter labels containing angle brackets",
-        "url": "https://github.com/openclaw/openclaw/pull/144390",
+        "number": 139534,
+        "title": "fix(ai): prefer streamed tool-call arguments over stale output_item.done snapshot",
+        "url": "https://github.com/openclaw/openclaw/pull/139534",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-10T21:36:09Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-09-11T00:08:02Z"
       },
       {
         "kind": "pr",
-        "number": 144302,
-        "title": "fix(usage): keep total-only and cache-only footers",
-        "url": "https://github.com/openclaw/openclaw/pull/144302",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-09-10T21:36:07Z"
+        "number": 132409,
+        "title": "fix(channels): preserve messages stalled before adoption",
+        "url": "https://github.com/openclaw/openclaw/pull/132409",
+        "state": "open",
+        "author": "PollyBot13",
+        "updatedAt": "2026-09-11T00:08:02Z"
       }
     ]
   }

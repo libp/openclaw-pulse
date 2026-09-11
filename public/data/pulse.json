@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-11T09:38:57.349Z",
+  "generatedAt": "2026-09-11T18:30:31.754Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -938,18 +938,18 @@
     },
     {
       "capturedOn": "2026-09-11",
-      "capturedAt": "2026-09-11T09:38:57.349Z",
-      "issueOpen": 4279,
-      "issueClosed": 48296,
-      "prOpen": 2428,
-      "prClosed": 87222,
-      "prMerged": 37620,
+      "capturedAt": "2026-09-11T18:30:31.754Z",
+      "issueOpen": 4349,
+      "issueClosed": 48354,
+      "prOpen": 2480,
+      "prClosed": 87363,
+      "prMerged": 37748,
       "workflowRuns": 40000,
-      "stars": 389424,
-      "forks": 81855,
-      "subscribers": 1747,
-      "commits": 92017,
-      "contributors": 3344,
+      "stars": 389452,
+      "forks": 81857,
+      "subscribers": 1748,
+      "commits": 92143,
+      "contributors": 3350,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1293,97 +1293,115 @@
     },
     {
       "capturedOn": "2026-09-11",
-      "stars": 389424,
-      "forks": 81855,
-      "subscribers": 1747,
-      "commits": 92017,
-      "contributors": 3344
+      "stars": 389452,
+      "forks": 81857,
+      "subscribers": 1748,
+      "commits": 92143,
+      "contributors": 3350
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 144800,
-        "title": "Update failure: managed-service-handoff-cancelled (2026.9.4)",
-        "url": "https://github.com/openclaw/openclaw/issues/144800",
+        "number": 145137,
+        "title": "Small-model security block prevents local/Ollama models from using web_search and web_fetch tools",
+        "url": "https://github.com/openclaw/openclaw/issues/145137",
         "state": "open",
-        "author": "indiaglobaltoday-commits",
-        "updatedAt": "2026-09-11T09:38:29Z"
+        "author": "lator57-gif",
+        "updatedAt": "2026-09-11T18:30:22Z"
       },
       {
         "kind": "issue",
-        "number": 140821,
-        "title": "[Bug]: Gateway restart hangs after updating to 2026.9.2",
-        "url": "https://github.com/openclaw/openclaw/issues/140821",
-        "state": "closed",
-        "author": "rboy1",
-        "updatedAt": "2026-09-11T09:37:53Z"
+        "number": 125333,
+        "title": "totalTokens inflation still reproduces on 2026.8.1-beta.2: #123065 fix only covers `api === \"cli\"`, and the memory-flush transcript path is an unguarded ratchet",
+        "url": "https://github.com/openclaw/openclaw/issues/125333",
+        "state": "open",
+        "author": "Yuyorman",
+        "updatedAt": "2026-09-11T18:30:18Z"
       },
       {
         "kind": "issue",
-        "number": 140971,
-        "title": "[Bug]: All Feishu plugin tools are silently dropped in message-driven runs: `feishu_chat` host restriction blocks the entire plugin entry (regression between 2026.7.1-2 and 2026.8.1)",
-        "url": "https://github.com/openclaw/openclaw/issues/140971",
-        "state": "closed",
-        "author": "hayden-cc",
-        "updatedAt": "2026-09-11T09:37:51Z"
+        "number": 145138,
+        "title": "Update failure: validating (2026.9.3)",
+        "url": "https://github.com/openclaw/openclaw/issues/145138",
+        "state": "open",
+        "author": "jondanelarson-oss",
+        "updatedAt": "2026-09-11T18:30:01Z"
+      },
+      {
+        "kind": "issue",
+        "number": 130257,
+        "title": "Tasks ledger records no tokens or cost for delegated ACP runs, so a child run spend is unattributable (parent turn $0.04 vs child $14.14)",
+        "url": "https://github.com/openclaw/openclaw/issues/130257",
+        "state": "open",
+        "author": "geekforlife",
+        "updatedAt": "2026-09-11T18:29:58Z"
+      },
+      {
+        "kind": "issue",
+        "number": 145134,
+        "title": "[Bug]: codex settled-turn finalization rejects OpenClaw's own custom_message parts → unsupported_content",
+        "url": "https://github.com/openclaw/openclaw/issues/145134",
+        "state": "open",
+        "author": "balloobbot",
+        "updatedAt": "2026-09-11T18:29:42Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 144821,
-        "title": "build(plugins): emit declared private worker entries",
-        "url": "https://github.com/openclaw/openclaw/pull/144821",
+        "number": 144564,
+        "title": "fix(ui): progress cards left by interrupted runs cannot be dismissed",
+        "url": "https://github.com/openclaw/openclaw/pull/144564",
+        "state": "open",
+        "author": "griswomw2",
+        "updatedAt": "2026-09-11T18:30:23Z"
+      },
+      {
+        "kind": "pr",
+        "number": 144927,
+        "title": "fix(models): keep catalog refresh consistent without delaying startup",
+        "url": "https://github.com/openclaw/openclaw/pull/144927",
+        "state": "open",
+        "author": "obviyus",
+        "updatedAt": "2026-09-11T18:30:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 144853,
+        "title": "fix: keep widget cards beside their progress messages",
+        "url": "https://github.com/openclaw/openclaw/pull/144853",
+        "state": "open",
+        "author": "JosephNatsu",
+        "updatedAt": "2026-09-11T18:30:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 145128,
+        "title": "fix(scripts): drop unverified local git identities from squash co-author credit",
+        "url": "https://github.com/openclaw/openclaw/pull/145128",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-11T09:38:52Z"
+        "updatedAt": "2026-09-11T18:30:11Z"
       },
       {
         "kind": "pr",
-        "number": 144820,
-        "title": "refactor(web-fetch): remove private runtime cache reset",
-        "url": "https://github.com/openclaw/openclaw/pull/144820",
+        "number": 144694,
+        "title": "fix: allow cross-browser steering of active sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/144694",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-11T09:38:51Z"
+        "updatedAt": "2026-09-11T18:30:09Z"
       },
       {
         "kind": "pr",
-        "number": 137008,
-        "title": "fix: skip managed gateway stop on no-op openclaw update",
-        "url": "https://github.com/openclaw/openclaw/pull/137008",
-        "state": "open",
-        "author": "RaviTharuma",
-        "updatedAt": "2026-09-11T09:38:46Z"
-      },
-      {
-        "kind": "pr",
-        "number": 144764,
-        "title": "fix(gateway): skip restart sentinel for hot-applied config writes",
-        "url": "https://github.com/openclaw/openclaw/pull/144764",
-        "state": "open",
-        "author": "wangyan2026",
-        "updatedAt": "2026-09-11T09:38:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 144674,
-        "title": "refactor(tasks): await fresh owner reads in media and prompts",
-        "url": "https://github.com/openclaw/openclaw/pull/144674",
+        "number": 144155,
+        "title": "fix(update): preserve compatible state when switching to npm stable",
+        "url": "https://github.com/openclaw/openclaw/pull/144155",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-11T09:38:25Z"
-      },
-      {
-        "kind": "pr",
-        "number": 144736,
-        "title": "fix(auto-reply): bound the sandbox scp transfer with a deadline",
-        "url": "https://github.com/openclaw/openclaw/pull/144736",
-        "state": "open",
-        "author": "Finn763",
-        "updatedAt": "2026-09-11T09:38:24Z"
+        "updatedAt": "2026-09-11T18:30:06Z"
       }
     ]
   }

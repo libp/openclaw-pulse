@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-11T04:36:44.372Z",
+  "generatedAt": "2026-09-11T09:38:57.349Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -938,18 +938,18 @@
     },
     {
       "capturedOn": "2026-09-11",
-      "capturedAt": "2026-09-11T04:36:44.372Z",
-      "issueOpen": 4252,
-      "issueClosed": 48274,
-      "prOpen": 2402,
-      "prClosed": 87139,
-      "prMerged": 37547,
+      "capturedAt": "2026-09-11T09:38:57.349Z",
+      "issueOpen": 4279,
+      "issueClosed": 48296,
+      "prOpen": 2428,
+      "prClosed": 87222,
+      "prMerged": 37620,
       "workflowRuns": 40000,
-      "stars": 389414,
-      "forks": 81850,
-      "subscribers": 1748,
-      "commits": 91944,
-      "contributors": 3342,
+      "stars": 389424,
+      "forks": 81855,
+      "subscribers": 1747,
+      "commits": 92017,
+      "contributors": 3344,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1293,97 +1293,97 @@
     },
     {
       "capturedOn": "2026-09-11",
-      "stars": 389414,
-      "forks": 81850,
-      "subscribers": 1748,
-      "commits": 91944,
-      "contributors": 3342
+      "stars": 389424,
+      "forks": 81855,
+      "subscribers": 1747,
+      "commits": 92017,
+      "contributors": 3344
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 144662,
-        "title": "[Bug]: screenshot and video uploads fail through protected egress with Bad Content-Length",
-        "url": "https://github.com/openclaw/openclaw/issues/144662",
+        "number": 144800,
+        "title": "Update failure: managed-service-handoff-cancelled (2026.9.4)",
+        "url": "https://github.com/openclaw/openclaw/issues/144800",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-11T04:36:36Z"
+        "author": "indiaglobaltoday-commits",
+        "updatedAt": "2026-09-11T09:38:29Z"
       },
       {
         "kind": "issue",
-        "number": 144610,
-        "title": "[Bug]: 2026.9.3 Skill Workshop relocation leaves cron command argv and trigger scripts pointing at the deleted workspace/skills path",
-        "url": "https://github.com/openclaw/openclaw/issues/144610",
-        "state": "open",
-        "author": "rayseling",
-        "updatedAt": "2026-09-11T04:35:05Z"
+        "number": 140821,
+        "title": "[Bug]: Gateway restart hangs after updating to 2026.9.2",
+        "url": "https://github.com/openclaw/openclaw/issues/140821",
+        "state": "closed",
+        "author": "rboy1",
+        "updatedAt": "2026-09-11T09:37:53Z"
       },
       {
         "kind": "issue",
-        "number": 144656,
-        "title": "Update failure: runtime-verification-failed (2026.9.3)",
-        "url": "https://github.com/openclaw/openclaw/issues/144656",
-        "state": "open",
-        "author": "Celaq",
-        "updatedAt": "2026-09-11T04:34:56Z"
+        "number": 140971,
+        "title": "[Bug]: All Feishu plugin tools are silently dropped in message-driven runs: `feishu_chat` host restriction blocks the entire plugin entry (regression between 2026.7.1-2 and 2026.8.1)",
+        "url": "https://github.com/openclaw/openclaw/issues/140971",
+        "state": "closed",
+        "author": "hayden-cc",
+        "updatedAt": "2026-09-11T09:37:51Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 144651,
-        "title": "improve(ui): remove new session picker tooltips",
-        "url": "https://github.com/openclaw/openclaw/pull/144651",
-        "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-09-11T04:36:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 144661,
-        "title": "fix(ui): preserve plugin category navigation while searching",
-        "url": "https://github.com/openclaw/openclaw/pull/144661",
+        "number": 144821,
+        "title": "build(plugins): emit declared private worker entries",
+        "url": "https://github.com/openclaw/openclaw/pull/144821",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-11T04:36:33Z"
+        "updatedAt": "2026-09-11T09:38:52Z"
       },
       {
         "kind": "pr",
-        "number": 144637,
-        "title": "fix(reef): park capacity-failed inbound delivery instead of unwinding the shared inbox",
-        "url": "https://github.com/openclaw/openclaw/pull/144637",
+        "number": 144820,
+        "title": "refactor(web-fetch): remove private runtime cache reset",
+        "url": "https://github.com/openclaw/openclaw/pull/144820",
         "state": "open",
-        "author": "eleqtrizit",
-        "updatedAt": "2026-09-11T04:36:31Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-11T09:38:51Z"
       },
       {
         "kind": "pr",
-        "number": 144659,
-        "title": "chore: gate startup upgrades against prior-release state",
-        "url": "https://github.com/openclaw/openclaw/pull/144659",
+        "number": 137008,
+        "title": "fix: skip managed gateway stop on no-op openclaw update",
+        "url": "https://github.com/openclaw/openclaw/pull/137008",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-09-11T04:36:27Z"
+        "author": "RaviTharuma",
+        "updatedAt": "2026-09-11T09:38:46Z"
       },
       {
         "kind": "pr",
-        "number": 134438,
-        "title": "fix(ci): security guard fails a PR when GitHub returns a transient 500",
-        "url": "https://github.com/openclaw/openclaw/pull/134438",
+        "number": 144764,
+        "title": "fix(gateway): skip restart sentinel for hot-applied config writes",
+        "url": "https://github.com/openclaw/openclaw/pull/144764",
         "state": "open",
-        "author": "marmar9615-cloud",
-        "updatedAt": "2026-09-11T04:36:25Z"
+        "author": "wangyan2026",
+        "updatedAt": "2026-09-11T09:38:37Z"
       },
       {
         "kind": "pr",
-        "number": 144622,
-        "title": "fix(memory): purge phase signals when forgetting sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/144622",
+        "number": 144674,
+        "title": "refactor(tasks): await fresh owner reads in media and prompts",
+        "url": "https://github.com/openclaw/openclaw/pull/144674",
         "state": "open",
-        "author": "jinliyl",
-        "updatedAt": "2026-09-11T04:36:19Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-11T09:38:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 144736,
+        "title": "fix(auto-reply): bound the sandbox scp transfer with a deadline",
+        "url": "https://github.com/openclaw/openclaw/pull/144736",
+        "state": "open",
+        "author": "Finn763",
+        "updatedAt": "2026-09-11T09:38:24Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-12T04:39:10.846Z",
+  "generatedAt": "2026-09-12T09:18:53.751Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -955,18 +955,18 @@
     },
     {
       "capturedOn": "2026-09-12",
-      "capturedAt": "2026-09-12T04:39:10.846Z",
-      "issueOpen": 4383,
-      "issueClosed": 48441,
-      "prOpen": 2498,
-      "prClosed": 87675,
-      "prMerged": 38033,
+      "capturedAt": "2026-09-12T09:18:53.751Z",
+      "issueOpen": 4408,
+      "issueClosed": 48470,
+      "prOpen": 2519,
+      "prClosed": 87854,
+      "prMerged": 38205,
       "workflowRuns": 40000,
-      "stars": 389468,
-      "forks": 81870,
-      "subscribers": 1748,
-      "commits": 92425,
-      "contributors": 3351,
+      "stars": 389481,
+      "forks": 81875,
+      "subscribers": 1749,
+      "commits": 92596,
+      "contributors": 3353,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1318,15 +1318,24 @@
     },
     {
       "capturedOn": "2026-09-12",
-      "stars": 389468,
-      "forks": 81870,
-      "subscribers": 1748,
-      "commits": 92425,
-      "contributors": 3351
+      "stars": 389481,
+      "forks": 81875,
+      "subscribers": 1749,
+      "commits": 92596,
+      "contributors": 3353
     }
   ],
   "activity": {
     "issues": [
+      {
+        "kind": "issue",
+        "number": 145803,
+        "title": "[Bug]: Another plugin instance can invalidate live callbacks",
+        "url": "https://github.com/openclaw/openclaw/issues/145803",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-09-12T09:18:08Z"
+      },
       {
         "kind": "issue",
         "number": 97616,
@@ -1334,81 +1343,72 @@
         "url": "https://github.com/openclaw/openclaw/issues/97616",
         "state": "open",
         "author": "avp717",
-        "updatedAt": "2026-09-12T04:39:06Z"
+        "updatedAt": "2026-09-12T09:18:00Z"
       },
       {
         "kind": "issue",
-        "number": 145497,
-        "title": "Consolidate ACP session metadata reads",
-        "url": "https://github.com/openclaw/openclaw/issues/145497",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-09-12T04:37:37Z"
-      },
-      {
-        "kind": "issue",
-        "number": 145503,
-        "title": "[Bug]: skill_workshop tool not registered for agent turns after 2026.9.3 Workshop migration; doctor --fix recommends an alsoAllow fix its own resolver rejects",
-        "url": "https://github.com/openclaw/openclaw/issues/145503",
+        "number": 90499,
+        "title": "Bug: Discord message.read rejects allowlisted one-to-one DM channel targets",
+        "url": "https://github.com/openclaw/openclaw/issues/90499",
         "state": "open",
-        "author": "DeltaEcho3",
-        "updatedAt": "2026-09-12T04:34:57Z"
+        "author": "phenomenoner",
+        "updatedAt": "2026-09-12T09:17:50Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 145487,
-        "title": "fix(feishu): deliver captioned media with block streaming disabled",
-        "url": "https://github.com/openclaw/openclaw/pull/145487",
+        "number": 143489,
+        "title": "feat(ui): render session references as accent links with the claw icon",
+        "url": "https://github.com/openclaw/openclaw/pull/143489",
         "state": "open",
-        "author": "forrystudio",
-        "updatedAt": "2026-09-12T04:39:04Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-09-12T09:18:42Z"
       },
       {
         "kind": "pr",
-        "number": 145190,
-        "title": "fix(models): discover account models after sign-in",
-        "url": "https://github.com/openclaw/openclaw/pull/145190",
+        "number": 145838,
+        "title": "fix(auth): stop automatic session accounts from vetoing strict CLI routes",
+        "url": "https://github.com/openclaw/openclaw/pull/145838",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-09-12T04:39:02Z"
+        "author": "Finn763",
+        "updatedAt": "2026-09-12T09:18:41Z"
       },
       {
         "kind": "pr",
-        "number": 140897,
-        "title": "improve(sessions): shorten disk-pressure cleanup",
-        "url": "https://github.com/openclaw/openclaw/pull/140897",
+        "number": 145848,
+        "title": "fix: terminal subagent flows rewrite on every Gateway restart",
+        "url": "https://github.com/openclaw/openclaw/pull/145848",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-12T04:39:06Z"
+        "author": "Anusha0501",
+        "updatedAt": "2026-09-12T09:18:40Z"
       },
       {
         "kind": "pr",
-        "number": 145573,
-        "title": "fix(update): use the existing tool for owner update requests",
-        "url": "https://github.com/openclaw/openclaw/pull/145573",
+        "number": 142888,
+        "title": "fix(openai-completions): live assistant text doubles when a provider resends full content in one delta",
+        "url": "https://github.com/openclaw/openclaw/pull/142888",
+        "state": "open",
+        "author": "Richard355168",
+        "updatedAt": "2026-09-12T09:18:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 129120,
+        "title": "fix(agents): reject empty sessions_search query at schema, route temporal prompts",
+        "url": "https://github.com/openclaw/openclaw/pull/129120",
+        "state": "open",
+        "author": "ruel225",
+        "updatedAt": "2026-09-12T09:18:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 145804,
+        "title": "fix(plugins): keep live callbacks working after another instance retires",
+        "url": "https://github.com/openclaw/openclaw/pull/145804",
         "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-09-12T04:38:23Z"
-      },
-      {
-        "kind": "pr",
-        "number": 145408,
-        "title": "chore(ui): refresh control ui locales",
-        "url": "https://github.com/openclaw/openclaw/pull/145408",
-        "state": "closed",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-09-12T04:37:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 145498,
-        "title": "refactor(acp): share session metadata reads",
-        "url": "https://github.com/openclaw/openclaw/pull/145498",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-09-12T04:37:47Z"
+        "updatedAt": "2026-09-12T09:18:32Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-12T09:18:53.751Z",
+  "generatedAt": "2026-09-12T19:18:35.862Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -955,18 +955,18 @@
     },
     {
       "capturedOn": "2026-09-12",
-      "capturedAt": "2026-09-12T09:18:53.751Z",
-      "issueOpen": 4408,
-      "issueClosed": 48470,
-      "prOpen": 2519,
-      "prClosed": 87854,
-      "prMerged": 38205,
+      "capturedAt": "2026-09-12T19:18:35.862Z",
+      "issueOpen": 4472,
+      "issueClosed": 48529,
+      "prOpen": 2592,
+      "prClosed": 88165,
+      "prMerged": 38490,
       "workflowRuns": 40000,
-      "stars": 389481,
-      "forks": 81875,
-      "subscribers": 1749,
-      "commits": 92596,
-      "contributors": 3353,
+      "stars": 389508,
+      "forks": 81877,
+      "subscribers": 1746,
+      "commits": 92881,
+      "contributors": 3355,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1318,24 +1318,15 @@
     },
     {
       "capturedOn": "2026-09-12",
-      "stars": 389481,
-      "forks": 81875,
-      "subscribers": 1749,
-      "commits": 92596,
-      "contributors": 3353
+      "stars": 389508,
+      "forks": 81877,
+      "subscribers": 1746,
+      "commits": 92881,
+      "contributors": 3355
     }
   ],
   "activity": {
     "issues": [
-      {
-        "kind": "issue",
-        "number": 145803,
-        "title": "[Bug]: Another plugin instance can invalidate live callbacks",
-        "url": "https://github.com/openclaw/openclaw/issues/145803",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-09-12T09:18:08Z"
-      },
       {
         "kind": "issue",
         "number": 97616,
@@ -1343,72 +1334,72 @@
         "url": "https://github.com/openclaw/openclaw/issues/97616",
         "state": "open",
         "author": "avp717",
-        "updatedAt": "2026-09-12T09:18:00Z"
+        "updatedAt": "2026-09-12T19:17:35Z"
       },
       {
         "kind": "issue",
-        "number": 90499,
-        "title": "Bug: Discord message.read rejects allowlisted one-to-one DM channel targets",
-        "url": "https://github.com/openclaw/openclaw/issues/90499",
+        "number": 7406,
+        "title": "[Feature]: Human-readable Telegram topic names in session dropdown",
+        "url": "https://github.com/openclaw/openclaw/issues/7406",
         "state": "open",
-        "author": "phenomenoner",
-        "updatedAt": "2026-09-12T09:17:50Z"
+        "author": "Diaspar4u",
+        "updatedAt": "2026-09-12T19:17:21Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 143489,
-        "title": "feat(ui): render session references as accent links with the claw icon",
-        "url": "https://github.com/openclaw/openclaw/pull/143489",
+        "number": 146328,
+        "title": "improve(ai): prepare mixed tool results without unused serialization",
+        "url": "https://github.com/openclaw/openclaw/pull/146328",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-12T09:18:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 145838,
-        "title": "fix(auth): stop automatic session accounts from vetoing strict CLI routes",
-        "url": "https://github.com/openclaw/openclaw/pull/145838",
-        "state": "open",
-        "author": "Finn763",
-        "updatedAt": "2026-09-12T09:18:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 145848,
-        "title": "fix: terminal subagent flows rewrite on every Gateway restart",
-        "url": "https://github.com/openclaw/openclaw/pull/145848",
-        "state": "open",
-        "author": "Anusha0501",
-        "updatedAt": "2026-09-12T09:18:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 142888,
-        "title": "fix(openai-completions): live assistant text doubles when a provider resends full content in one delta",
-        "url": "https://github.com/openclaw/openclaw/pull/142888",
-        "state": "open",
-        "author": "Richard355168",
-        "updatedAt": "2026-09-12T09:18:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 129120,
-        "title": "fix(agents): reject empty sessions_search query at schema, route temporal prompts",
-        "url": "https://github.com/openclaw/openclaw/pull/129120",
-        "state": "open",
-        "author": "ruel225",
-        "updatedAt": "2026-09-12T09:18:33Z"
-      },
-      {
-        "kind": "pr",
-        "number": 145804,
-        "title": "fix(plugins): keep live callbacks working after another instance retires",
-        "url": "https://github.com/openclaw/openclaw/pull/145804",
-        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-09-12T09:18:32Z"
+        "updatedAt": "2026-09-12T19:18:27Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112811,
+        "title": "feat(msteams): support multiple bot accounts",
+        "url": "https://github.com/openclaw/openclaw/pull/112811",
+        "state": "open",
+        "author": "jimmypuckett",
+        "updatedAt": "2026-09-12T19:18:27Z"
+      },
+      {
+        "kind": "pr",
+        "number": 87764,
+        "title": "feat: support owner-scoped ClawHub skill refs",
+        "url": "https://github.com/openclaw/openclaw/pull/87764",
+        "state": "open",
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-09-12T19:18:24Z"
+      },
+      {
+        "kind": "pr",
+        "number": 67421,
+        "title": "feat: add per-agent web_fetch ssrf overrides",
+        "url": "https://github.com/openclaw/openclaw/pull/67421",
+        "state": "open",
+        "author": "Takhoffman",
+        "updatedAt": "2026-09-12T19:18:24Z"
+      },
+      {
+        "kind": "pr",
+        "number": 143649,
+        "title": "fix(agents): classify timeout error payloads as fallback-eligible",
+        "url": "https://github.com/openclaw/openclaw/pull/143649",
+        "state": "open",
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-09-12T19:18:29Z"
+      },
+      {
+        "kind": "pr",
+        "number": 146338,
+        "title": "feat(worktrees): share source storage with APFS clones",
+        "url": "https://github.com/openclaw/openclaw/pull/146338",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-12T19:18:14Z"
       }
     ]
   }

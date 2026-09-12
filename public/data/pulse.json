@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-12T00:16:28.385Z",
+  "generatedAt": "2026-09-12T04:39:10.846Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -955,18 +955,18 @@
     },
     {
       "capturedOn": "2026-09-12",
-      "capturedAt": "2026-09-12T00:16:28.385Z",
-      "issueOpen": 4373,
-      "issueClosed": 48415,
-      "prOpen": 2504,
-      "prClosed": 87547,
-      "prMerged": 37920,
+      "capturedAt": "2026-09-12T04:39:10.846Z",
+      "issueOpen": 4383,
+      "issueClosed": 48441,
+      "prOpen": 2498,
+      "prClosed": 87675,
+      "prMerged": 38033,
       "workflowRuns": 40000,
-      "stars": 389458,
-      "forks": 81866,
+      "stars": 389468,
+      "forks": 81870,
       "subscribers": 1748,
-      "commits": 92312,
-      "contributors": 3350,
+      "commits": 92425,
+      "contributors": 3351,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1318,69 +1318,97 @@
     },
     {
       "capturedOn": "2026-09-12",
-      "stars": 389458,
-      "forks": 81866,
+      "stars": 389468,
+      "forks": 81870,
       "subscribers": 1748,
-      "commits": 92312,
-      "contributors": 3350
+      "commits": 92425,
+      "contributors": 3351
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 97616,
+        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
+        "url": "https://github.com/openclaw/openclaw/issues/97616",
+        "state": "open",
+        "author": "avp717",
+        "updatedAt": "2026-09-12T04:39:06Z"
+      },
+      {
+        "kind": "issue",
+        "number": 145497,
+        "title": "Consolidate ACP session metadata reads",
+        "url": "https://github.com/openclaw/openclaw/issues/145497",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-09-12T04:37:37Z"
+      },
+      {
+        "kind": "issue",
+        "number": 145503,
+        "title": "[Bug]: skill_workshop tool not registered for agent turns after 2026.9.3 Workshop migration; doctor --fix recommends an alsoAllow fix its own resolver rejects",
+        "url": "https://github.com/openclaw/openclaw/issues/145503",
+        "state": "open",
+        "author": "DeltaEcho3",
+        "updatedAt": "2026-09-12T04:34:57Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 145435,
-        "title": "fix(macos): retire stale Gateway discovery callbacks",
-        "url": "https://github.com/openclaw/openclaw/pull/145435",
+        "number": 145487,
+        "title": "fix(feishu): deliver captioned media with block streaming disabled",
+        "url": "https://github.com/openclaw/openclaw/pull/145487",
+        "state": "open",
+        "author": "forrystudio",
+        "updatedAt": "2026-09-12T04:39:04Z"
+      },
+      {
+        "kind": "pr",
+        "number": 145190,
+        "title": "fix(models): discover account models after sign-in",
+        "url": "https://github.com/openclaw/openclaw/pull/145190",
+        "state": "open",
+        "author": "obviyus",
+        "updatedAt": "2026-09-12T04:39:02Z"
+      },
+      {
+        "kind": "pr",
+        "number": 140897,
+        "title": "improve(sessions): shorten disk-pressure cleanup",
+        "url": "https://github.com/openclaw/openclaw/pull/140897",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-12T00:16:19Z"
+        "updatedAt": "2026-09-12T04:39:06Z"
       },
       {
         "kind": "pr",
-        "number": 145433,
-        "title": "perf(models): index configured overrides per catalog projection",
-        "url": "https://github.com/openclaw/openclaw/pull/145433",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-12T00:16:14Z"
-      },
-      {
-        "kind": "pr",
-        "number": 145420,
-        "title": "refactor(channels): simplify progress rendering ownership",
-        "url": "https://github.com/openclaw/openclaw/pull/145420",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-12T00:16:13Z"
-      },
-      {
-        "kind": "pr",
-        "number": 145434,
-        "title": "refactor(ui): share hovercard keyboard handling",
-        "url": "https://github.com/openclaw/openclaw/pull/145434",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-12T00:16:12Z"
-      },
-      {
-        "kind": "pr",
-        "number": 145423,
-        "title": "fix(ui): remove ineffective confirmation-dialog build warning",
-        "url": "https://github.com/openclaw/openclaw/pull/145423",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-12T00:16:11Z"
-      },
-      {
-        "kind": "pr",
-        "number": 145421,
-        "title": "fix: stabilize native relay deadline test",
-        "url": "https://github.com/openclaw/openclaw/pull/145421",
+        "number": 145573,
+        "title": "fix(update): use the existing tool for owner update requests",
+        "url": "https://github.com/openclaw/openclaw/pull/145573",
         "state": "closed",
-        "author": "shakkernerd",
-        "updatedAt": "2026-09-12T00:16:09Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-12T04:38:23Z"
+      },
+      {
+        "kind": "pr",
+        "number": 145408,
+        "title": "chore(ui): refresh control ui locales",
+        "url": "https://github.com/openclaw/openclaw/pull/145408",
+        "state": "closed",
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-09-12T04:37:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 145498,
+        "title": "refactor(acp): share session metadata reads",
+        "url": "https://github.com/openclaw/openclaw/pull/145498",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-09-12T04:37:47Z"
       }
     ]
   }

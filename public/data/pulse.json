@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-11T21:42:28.371Z",
+  "generatedAt": "2026-09-12T00:16:28.385Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -952,6 +952,23 @@
       "contributors": 3350,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-12",
+      "capturedAt": "2026-09-12T00:16:28.385Z",
+      "issueOpen": 4373,
+      "issueClosed": 48415,
+      "prOpen": 2504,
+      "prClosed": 87547,
+      "prMerged": 37920,
+      "workflowRuns": 40000,
+      "stars": 389458,
+      "forks": 81866,
+      "subscribers": 1748,
+      "commits": 92312,
+      "contributors": 3350,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1298,83 +1315,72 @@
       "subscribers": 1748,
       "commits": 92226,
       "contributors": 3350
+    },
+    {
+      "capturedOn": "2026-09-12",
+      "stars": 389458,
+      "forks": 81866,
+      "subscribers": 1748,
+      "commits": 92312,
+      "contributors": 3350
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 145309,
-        "title": "[Bug]: claude-cli backend looks for transcripts under $HOME/.claude and ignores CLAUDE_CONFIG_DIR — missing-transcript resets and cli_live_session_changed failover",
-        "url": "https://github.com/openclaw/openclaw/issues/145309",
-        "state": "open",
-        "author": "treygoff24",
-        "updatedAt": "2026-09-11T21:42:17Z"
-      },
-      {
-        "kind": "issue",
-        "number": 145308,
-        "title": "Feature: lazy skill-catalog discovery to reduce startup context and remove prompt-count ceiling",
-        "url": "https://github.com/openclaw/openclaw/issues/145308",
-        "state": "open",
-        "author": "thomasmoenco",
-        "updatedAt": "2026-09-11T21:42:17Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 137008,
-        "title": "fix: skip managed gateway stop on no-op openclaw update",
-        "url": "https://github.com/openclaw/openclaw/pull/137008",
-        "state": "open",
-        "author": "RaviTharuma",
-        "updatedAt": "2026-09-11T21:42:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 145215,
-        "title": "fix(update): promote Doctor config migrations after a successful repair",
-        "url": "https://github.com/openclaw/openclaw/pull/145215",
+        "number": 145435,
+        "title": "fix(macos): retire stale Gateway discovery callbacks",
+        "url": "https://github.com/openclaw/openclaw/pull/145435",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-11T21:42:16Z"
+        "updatedAt": "2026-09-12T00:16:19Z"
       },
       {
         "kind": "pr",
-        "number": 145209,
-        "title": "refactor(usage): await database admission and retain cache ownership",
-        "url": "https://github.com/openclaw/openclaw/pull/145209",
+        "number": 145433,
+        "title": "perf(models): index configured overrides per catalog projection",
+        "url": "https://github.com/openclaw/openclaw/pull/145433",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-11T21:42:15Z"
+        "updatedAt": "2026-09-12T00:16:14Z"
       },
       {
         "kind": "pr",
-        "number": 138338,
-        "title": "feat(browser): expose native extension tab IDs",
-        "url": "https://github.com/openclaw/openclaw/pull/138338",
-        "state": "open",
-        "author": "patryk-roguszewski",
-        "updatedAt": "2026-09-11T21:42:15Z"
-      },
-      {
-        "kind": "pr",
-        "number": 145294,
-        "title": "fix(usage): explain why a provider is missing from status --usage",
-        "url": "https://github.com/openclaw/openclaw/pull/145294",
-        "state": "open",
-        "author": "tooopa",
-        "updatedAt": "2026-09-11T21:42:03Z"
-      },
-      {
-        "kind": "pr",
-        "number": 145310,
-        "title": "test: reuse marketplace archive manifest fixtures",
-        "url": "https://github.com/openclaw/openclaw/pull/145310",
+        "number": 145420,
+        "title": "refactor(channels): simplify progress rendering ownership",
+        "url": "https://github.com/openclaw/openclaw/pull/145420",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-11T21:41:58Z"
+        "updatedAt": "2026-09-12T00:16:13Z"
+      },
+      {
+        "kind": "pr",
+        "number": 145434,
+        "title": "refactor(ui): share hovercard keyboard handling",
+        "url": "https://github.com/openclaw/openclaw/pull/145434",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-12T00:16:12Z"
+      },
+      {
+        "kind": "pr",
+        "number": 145423,
+        "title": "fix(ui): remove ineffective confirmation-dialog build warning",
+        "url": "https://github.com/openclaw/openclaw/pull/145423",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-12T00:16:11Z"
+      },
+      {
+        "kind": "pr",
+        "number": 145421,
+        "title": "fix: stabilize native relay deadline test",
+        "url": "https://github.com/openclaw/openclaw/pull/145421",
+        "state": "closed",
+        "author": "shakkernerd",
+        "updatedAt": "2026-09-12T00:16:09Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-12T19:18:35.862Z",
+  "generatedAt": "2026-09-13T04:43:54.401Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -969,6 +969,23 @@
       "contributors": 3355,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-13",
+      "capturedAt": "2026-09-13T04:43:54.401Z",
+      "issueOpen": 4483,
+      "issueClosed": 48607,
+      "prOpen": 2602,
+      "prClosed": 88439,
+      "prMerged": 38730,
+      "workflowRuns": 40000,
+      "stars": 389539,
+      "forks": 81882,
+      "subscribers": 1747,
+      "commits": 93123,
+      "contributors": 3358,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1323,6 +1340,14 @@
       "subscribers": 1746,
       "commits": 92881,
       "contributors": 3355
+    },
+    {
+      "capturedOn": "2026-09-13",
+      "stars": 389539,
+      "forks": 81882,
+      "subscribers": 1747,
+      "commits": 93123,
+      "contributors": 3358
     }
   ],
   "activity": {
@@ -1334,72 +1359,72 @@
         "url": "https://github.com/openclaw/openclaw/issues/97616",
         "state": "open",
         "author": "avp717",
-        "updatedAt": "2026-09-12T19:17:35Z"
+        "updatedAt": "2026-09-13T04:42:44Z"
       },
       {
         "kind": "issue",
-        "number": 7406,
-        "title": "[Feature]: Human-readable Telegram topic names in session dropdown",
-        "url": "https://github.com/openclaw/openclaw/issues/7406",
+        "number": 145252,
+        "title": "[Tracking] 2026.9.3 / 2026.9.4 update, upgrade and recovery reliability",
+        "url": "https://github.com/openclaw/openclaw/issues/145252",
         "state": "open",
-        "author": "Diaspar4u",
-        "updatedAt": "2026-09-12T19:17:21Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-13T04:41:03Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 146328,
-        "title": "improve(ai): prepare mixed tool results without unused serialization",
-        "url": "https://github.com/openclaw/openclaw/pull/146328",
+        "number": 146714,
+        "title": "fix: let database workers finish during Doctor repair",
+        "url": "https://github.com/openclaw/openclaw/pull/146714",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-12T19:18:27Z"
+        "updatedAt": "2026-09-13T04:43:44Z"
       },
       {
         "kind": "pr",
-        "number": 112811,
-        "title": "feat(msteams): support multiple bot accounts",
-        "url": "https://github.com/openclaw/openclaw/pull/112811",
+        "number": 120138,
+        "title": "docs(secrets): keep SecretRef reference docs in sync",
+        "url": "https://github.com/openclaw/openclaw/pull/120138",
         "state": "open",
-        "author": "jimmypuckett",
-        "updatedAt": "2026-09-12T19:18:27Z"
+        "author": "goutamadwant",
+        "updatedAt": "2026-09-13T04:43:40Z"
       },
       {
         "kind": "pr",
-        "number": 87764,
-        "title": "feat: support owner-scoped ClawHub skill refs",
-        "url": "https://github.com/openclaw/openclaw/pull/87764",
+        "number": 145291,
+        "title": "feat(agents): retry cyber-refused embedded turns on Daybreak",
+        "url": "https://github.com/openclaw/openclaw/pull/145291",
         "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-09-12T19:18:24Z"
+        "author": "VACInc",
+        "updatedAt": "2026-09-13T04:43:38Z"
       },
       {
         "kind": "pr",
-        "number": 67421,
-        "title": "feat: add per-agent web_fetch ssrf overrides",
-        "url": "https://github.com/openclaw/openclaw/pull/67421",
+        "number": 146738,
+        "title": "fix(models): offer only allowed models and a true default in the picker",
+        "url": "https://github.com/openclaw/openclaw/pull/146738",
         "state": "open",
-        "author": "Takhoffman",
-        "updatedAt": "2026-09-12T19:18:24Z"
+        "author": "obviyus",
+        "updatedAt": "2026-09-13T04:43:27Z"
       },
       {
         "kind": "pr",
-        "number": 143649,
-        "title": "fix(agents): classify timeout error payloads as fallback-eligible",
-        "url": "https://github.com/openclaw/openclaw/pull/143649",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-09-12T19:18:29Z"
-      },
-      {
-        "kind": "pr",
-        "number": 146338,
-        "title": "feat(worktrees): share source storage with APFS clones",
-        "url": "https://github.com/openclaw/openclaw/pull/146338",
+        "number": 146728,
+        "title": "improve: speed up large model catalogs with automatic runtime selection",
+        "url": "https://github.com/openclaw/openclaw/pull/146728",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-12T19:18:14Z"
+        "updatedAt": "2026-09-13T04:43:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 146733,
+        "title": "fix: refresh model availability after quota recovery",
+        "url": "https://github.com/openclaw/openclaw/pull/146733",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-13T04:43:22Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-13T10:15:23.521Z",
+  "generatedAt": "2026-09-13T14:24:25.603Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -972,17 +972,17 @@
     },
     {
       "capturedOn": "2026-09-13",
-      "capturedAt": "2026-09-13T10:15:23.521Z",
-      "issueOpen": 4499,
-      "issueClosed": 48635,
-      "prOpen": 2600,
-      "prClosed": 88578,
-      "prMerged": 38845,
+      "capturedAt": "2026-09-13T14:24:25.603Z",
+      "issueOpen": 4507,
+      "issueClosed": 48659,
+      "prOpen": 2609,
+      "prClosed": 88695,
+      "prMerged": 38955,
       "workflowRuns": 40000,
-      "stars": 389561,
-      "forks": 81891,
-      "subscribers": 1746,
-      "commits": 93238,
+      "stars": 389582,
+      "forks": 81899,
+      "subscribers": 1747,
+      "commits": 93346,
       "contributors": 3359,
       "source": "github-actions",
       "approximateDate": false
@@ -1343,97 +1343,69 @@
     },
     {
       "capturedOn": "2026-09-13",
-      "stars": 389561,
-      "forks": 81891,
-      "subscribers": 1746,
-      "commits": 93238,
+      "stars": 389582,
+      "forks": 81899,
+      "subscribers": 1747,
+      "commits": 93346,
       "contributors": 3359
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 97616,
-        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
-        "url": "https://github.com/openclaw/openclaw/issues/97616",
-        "state": "open",
-        "author": "avp717",
-        "updatedAt": "2026-09-13T10:15:19Z"
-      },
-      {
-        "kind": "issue",
-        "number": 146921,
-        "title": "Gateway session ID resolution projects unrelated sessions before exact matching",
-        "url": "https://github.com/openclaw/openclaw/issues/146921",
-        "state": "open",
-        "author": "ly85206559",
-        "updatedAt": "2026-09-13T10:14:52Z"
-      },
-      {
-        "kind": "issue",
-        "number": 145252,
-        "title": "[Tracking] 2026.9.3 / 2026.9.4 update, upgrade and recovery reliability",
-        "url": "https://github.com/openclaw/openclaw/issues/145252",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-13T10:14:20Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 145718,
-        "title": "fix(retry): honor waits beyond the native timer limit",
-        "url": "https://github.com/openclaw/openclaw/pull/145718",
-        "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-09-13T10:15:16Z"
-      },
-      {
-        "kind": "pr",
-        "number": 146924,
-        "title": "chore(i18n): refresh native locales",
-        "url": "https://github.com/openclaw/openclaw/pull/146924",
-        "state": "open",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-09-13T10:15:14Z"
-      },
-      {
-        "kind": "pr",
-        "number": 146916,
-        "title": "fix(ci): balance slow runtime tests in complete PR checks",
-        "url": "https://github.com/openclaw/openclaw/pull/146916",
+        "number": 147082,
+        "title": "fix(test): prevent delegated Doctor refusal startup timeouts",
+        "url": "https://github.com/openclaw/openclaw/pull/147082",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-13T10:15:00Z"
+        "updatedAt": "2026-09-13T14:24:20Z"
       },
       {
         "kind": "pr",
-        "number": 146569,
-        "title": "fix(gateway): install despite stale Linux session bus addresses",
-        "url": "https://github.com/openclaw/openclaw/pull/146569",
+        "number": 147073,
+        "title": "fix(wear): Talk shows no error when the microphone fails to start",
+        "url": "https://github.com/openclaw/openclaw/pull/147073",
+        "state": "open",
+        "author": "IWhatsskill",
+        "updatedAt": "2026-09-13T14:24:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 143502,
+        "title": "improve(model-catalog): avoid duplicate manifest planning during preparation",
+        "url": "https://github.com/openclaw/openclaw/pull/143502",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-13T14:24:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 147076,
+        "title": "refactor(release): share agent turn retry lifecycle",
+        "url": "https://github.com/openclaw/openclaw/pull/147076",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-13T14:24:12Z"
+      },
+      {
+        "kind": "pr",
+        "number": 147078,
+        "title": "fix(google-meet): honor summary output paths",
+        "url": "https://github.com/openclaw/openclaw/pull/147078",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-13T10:15:18Z"
+        "updatedAt": "2026-09-13T14:24:07Z"
       },
       {
         "kind": "pr",
-        "number": 146515,
-        "title": "fix(auth): agent exec aborts when an unrelated store: secret is excluded by auth.order",
-        "url": "https://github.com/openclaw/openclaw/pull/146515",
+        "number": 146963,
+        "title": "fix: guard env: undefined in normalizeCronPayload to prevent SQLite persist crash",
+        "url": "https://github.com/openclaw/openclaw/pull/146963",
         "state": "open",
-        "author": "yangxiansheng",
-        "updatedAt": "2026-09-13T10:14:59Z"
-      },
-      {
-        "kind": "pr",
-        "number": 112811,
-        "title": "feat(msteams): support multiple bot accounts",
-        "url": "https://github.com/openclaw/openclaw/pull/112811",
-        "state": "open",
-        "author": "jimmypuckett",
-        "updatedAt": "2026-09-13T10:14:57Z"
+        "author": "galshm",
+        "updatedAt": "2026-09-13T14:24:04Z"
       }
     ]
   }

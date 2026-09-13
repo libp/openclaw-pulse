@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-13T14:24:25.603Z",
+  "generatedAt": "2026-09-13T18:11:51.192Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -972,17 +972,17 @@
     },
     {
       "capturedOn": "2026-09-13",
-      "capturedAt": "2026-09-13T14:24:25.603Z",
-      "issueOpen": 4507,
-      "issueClosed": 48659,
-      "prOpen": 2609,
-      "prClosed": 88695,
-      "prMerged": 38955,
+      "capturedAt": "2026-09-13T18:11:51.192Z",
+      "issueOpen": 4524,
+      "issueClosed": 48674,
+      "prOpen": 2629,
+      "prClosed": 88818,
+      "prMerged": 39061,
       "workflowRuns": 40000,
-      "stars": 389582,
-      "forks": 81899,
+      "stars": 389601,
+      "forks": 81901,
       "subscribers": 1747,
-      "commits": 93346,
+      "commits": 93452,
       "contributors": 3359,
       "source": "github-actions",
       "approximateDate": false
@@ -1343,69 +1343,124 @@
     },
     {
       "capturedOn": "2026-09-13",
-      "stars": 389582,
-      "forks": 81899,
+      "stars": 389601,
+      "forks": 81901,
       "subscribers": 1747,
-      "commits": 93346,
+      "commits": 93452,
       "contributors": 3359
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 101929,
+        "title": "[Bug]: context-overflow-midturn-precheck estimator over-counts ~2.3-2.6x vs billed usage (tool-result chars at 2 chars/token over the untruncated transcript)",
+        "url": "https://github.com/openclaw/openclaw/issues/101929",
+        "state": "open",
+        "author": "sercada",
+        "updatedAt": "2026-09-13T18:11:11Z"
+      },
+      {
+        "kind": "issue",
+        "number": 141969,
+        "title": "[Bug]: mid-turn overflow recovery and silent exec completion cause full-context LLM reruns",
+        "url": "https://github.com/openclaw/openclaw/issues/141969",
+        "state": "open",
+        "author": "wpu911",
+        "updatedAt": "2026-09-13T18:11:09Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113701,
+        "title": "Context Overflow: large tool outputs exceed context window, compaction can't recover, sessions enter failure loop",
+        "url": "https://github.com/openclaw/openclaw/issues/113701",
+        "state": "open",
+        "author": "ogilvymiles",
+        "updatedAt": "2026-09-13T18:11:06Z"
+      },
+      {
+        "kind": "issue",
+        "number": 69208,
+        "title": "Umbrella: duplicate transcript, replay, and context assembly across channels",
+        "url": "https://github.com/openclaw/openclaw/issues/69208",
+        "state": "open",
+        "author": "BradGroux",
+        "updatedAt": "2026-09-13T18:11:04Z"
+      },
+      {
+        "kind": "issue",
+        "number": 119720,
+        "title": "Synchronous agent persistence and transcript maintenance block the Gateway event loop at scale",
+        "url": "https://github.com/openclaw/openclaw/issues/119720",
+        "state": "open",
+        "author": "todddickerson",
+        "updatedAt": "2026-09-13T18:11:01Z"
+      },
+      {
+        "kind": "issue",
+        "number": 81182,
+        "title": "Overflow recovery should truncate tool results before waiting full auto-compaction timeout",
+        "url": "https://github.com/openclaw/openclaw/issues/81182",
+        "state": "open",
+        "author": "LLagoon3",
+        "updatedAt": "2026-09-13T18:10:59Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 147082,
-        "title": "fix(test): prevent delegated Doctor refusal startup timeouts",
-        "url": "https://github.com/openclaw/openclaw/pull/147082",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-13T14:24:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 147073,
-        "title": "fix(wear): Talk shows no error when the microphone fails to start",
-        "url": "https://github.com/openclaw/openclaw/pull/147073",
-        "state": "open",
-        "author": "IWhatsskill",
-        "updatedAt": "2026-09-13T14:24:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 143502,
-        "title": "improve(model-catalog): avoid duplicate manifest planning during preparation",
-        "url": "https://github.com/openclaw/openclaw/pull/143502",
+        "number": 147153,
+        "title": "refactor(acp): share option result construction",
+        "url": "https://github.com/openclaw/openclaw/pull/147153",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-09-13T14:24:16Z"
+        "updatedAt": "2026-09-13T18:11:38Z"
       },
       {
         "kind": "pr",
-        "number": 147076,
-        "title": "refactor(release): share agent turn retry lifecycle",
-        "url": "https://github.com/openclaw/openclaw/pull/147076",
+        "number": 143499,
+        "title": "improve(heartbeat): defer execution loading until a wake",
+        "url": "https://github.com/openclaw/openclaw/pull/143499",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-09-13T14:24:12Z"
+        "updatedAt": "2026-09-13T18:11:46Z"
       },
       {
         "kind": "pr",
-        "number": 147078,
-        "title": "fix(google-meet): honor summary output paths",
-        "url": "https://github.com/openclaw/openclaw/pull/147078",
+        "number": 147112,
+        "title": "fix: keep timing metadata tests independent of inherited settings",
+        "url": "https://github.com/openclaw/openclaw/pull/147112",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-13T14:24:07Z"
+        "updatedAt": "2026-09-13T18:11:36Z"
       },
       {
         "kind": "pr",
-        "number": 146963,
-        "title": "fix: guard env: undefined in normalizeCronPayload to prevent SQLite persist crash",
-        "url": "https://github.com/openclaw/openclaw/pull/146963",
+        "number": 147204,
+        "title": "fix(install): use system Node for FreeBSD CLI setup",
+        "url": "https://github.com/openclaw/openclaw/pull/147204",
         "state": "open",
-        "author": "galshm",
-        "updatedAt": "2026-09-13T14:24:04Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-13T18:11:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 147206,
+        "title": "feat(subagents): allow private parent completion handoffs",
+        "url": "https://github.com/openclaw/openclaw/pull/147206",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-13T18:11:34Z"
+      },
+      {
+        "kind": "pr",
+        "number": 145080,
+        "title": "fix: Gemini and Vertex AI turns fail instead of retrying when the response stream is cut mid-event",
+        "url": "https://github.com/openclaw/openclaw/pull/145080",
+        "state": "open",
+        "author": "masatohoshino",
+        "updatedAt": "2026-09-13T18:11:26Z"
       }
     ]
   }

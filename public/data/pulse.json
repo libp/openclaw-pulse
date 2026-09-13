@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-13T20:47:32.091Z",
+  "generatedAt": "2026-09-13T23:08:08.159Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -972,17 +972,17 @@
     },
     {
       "capturedOn": "2026-09-13",
-      "capturedAt": "2026-09-13T20:47:32.091Z",
-      "issueOpen": 4549,
-      "issueClosed": 48690,
-      "prOpen": 2605,
-      "prClosed": 88944,
-      "prMerged": 39177,
+      "capturedAt": "2026-09-13T23:08:08.159Z",
+      "issueOpen": 4550,
+      "issueClosed": 48717,
+      "prOpen": 2577,
+      "prClosed": 89066,
+      "prMerged": 39283,
       "workflowRuns": 40000,
-      "stars": 389615,
-      "forks": 81901,
+      "stars": 389618,
+      "forks": 81899,
       "subscribers": 1746,
-      "commits": 93569,
+      "commits": 93674,
       "contributors": 3361,
       "source": "github-actions",
       "approximateDate": false
@@ -1343,10 +1343,10 @@
     },
     {
       "capturedOn": "2026-09-13",
-      "stars": 389615,
-      "forks": 81901,
+      "stars": 389618,
+      "forks": 81899,
       "subscribers": 1746,
-      "commits": 93569,
+      "commits": 93674,
       "contributors": 3361
     }
   ],
@@ -1354,86 +1354,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 146879,
-        "title": "Update failure: not-git-install (2026.9.4)",
-        "url": "https://github.com/openclaw/openclaw/issues/146879",
-        "state": "closed",
-        "author": "TLAVA",
-        "updatedAt": "2026-09-13T20:46:29Z"
+        "number": 147509,
+        "title": "[Feature]: Let model fallback candidates use their own thinking level",
+        "url": "https://github.com/openclaw/openclaw/issues/147509",
+        "state": "open",
+        "author": "WilliamK6",
+        "updatedAt": "2026-09-13T23:07:40Z"
       },
       {
         "kind": "issue",
-        "number": 90499,
-        "title": "Bug: Discord message.read rejects allowlisted one-to-one DM channel targets",
-        "url": "https://github.com/openclaw/openclaw/issues/90499",
+        "number": 147511,
+        "title": "[Bug]: Control UI own messages flash left (peer) then snap right on refresh",
+        "url": "https://github.com/openclaw/openclaw/issues/147511",
         "state": "open",
-        "author": "phenomenoner",
-        "updatedAt": "2026-09-13T20:45:23Z"
+        "author": "keith9681",
+        "updatedAt": "2026-09-13T23:06:36Z"
       },
       {
         "kind": "issue",
-        "number": 145192,
-        "title": "2026.9.2 → 2026.9.4 managed update fails at candidate-Doctor on a live v1 handoff lease, then rolls back onto 9.4-migrated state (#144742 upgrade path)",
-        "url": "https://github.com/openclaw/openclaw/issues/145192",
+        "number": 147512,
+        "title": "[Bug]: Control UI theme flashes config default then restores profile appearance on refresh",
+        "url": "https://github.com/openclaw/openclaw/issues/147512",
         "state": "open",
-        "author": "samersaibot",
-        "updatedAt": "2026-09-13T20:45:15Z"
+        "author": "keith9681",
+        "updatedAt": "2026-09-13T23:06:19Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 147362,
-        "title": "fix(ui): selected chats appear empty during connection recovery",
-        "url": "https://github.com/openclaw/openclaw/pull/147362",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-09-13T20:47:27Z"
-      },
-      {
-        "kind": "pr",
-        "number": 147382,
-        "title": "test(qa): preserve task cancellation across process replacement",
-        "url": "https://github.com/openclaw/openclaw/pull/147382",
+        "number": 147515,
+        "title": "fix(workboard): clarify list group and row hover states",
+        "url": "https://github.com/openclaw/openclaw/pull/147515",
         "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-09-13T20:47:26Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-09-13T23:08:01Z"
       },
       {
         "kind": "pr",
-        "number": 147399,
-        "title": "fix(ui): keep automation history on the selected task",
-        "url": "https://github.com/openclaw/openclaw/pull/147399",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-13T20:47:25Z"
-      },
-      {
-        "kind": "pr",
-        "number": 147373,
-        "title": "fix: reduce repeated work while polling session pull requests",
-        "url": "https://github.com/openclaw/openclaw/pull/147373",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-13T20:47:25Z"
-      },
-      {
-        "kind": "pr",
-        "number": 147392,
-        "title": "improve(ui): make empty-group visibility explicit and personal",
-        "url": "https://github.com/openclaw/openclaw/pull/147392",
+        "number": 147521,
+        "title": "chore(i18n): complete Control UI locales for rebased 2026.9.5",
+        "url": "https://github.com/openclaw/openclaw/pull/147521",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-09-13T20:47:22Z"
+        "updatedAt": "2026-09-13T23:07:59Z"
       },
       {
         "kind": "pr",
-        "number": 147390,
-        "title": "fix(gateway): continue on Gateway with pending offline results",
-        "url": "https://github.com/openclaw/openclaw/pull/147390",
+        "number": 145335,
+        "title": "fix: complete Gateway upgrades after Node prefix changes",
+        "url": "https://github.com/openclaw/openclaw/pull/145335",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-09-13T20:47:15Z"
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-09-13T23:07:56Z"
+      },
+      {
+        "kind": "pr",
+        "number": 147522,
+        "title": "improve(sqlite): speed up snapshot worker startup",
+        "url": "https://github.com/openclaw/openclaw/pull/147522",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-13T23:08:03Z"
+      },
+      {
+        "kind": "pr",
+        "number": 145117,
+        "title": "fix(gateway): persist durable terminal receipts",
+        "url": "https://github.com/openclaw/openclaw/pull/145117",
+        "state": "open",
+        "author": "edward-lcl",
+        "updatedAt": "2026-09-13T23:07:49Z"
+      },
+      {
+        "kind": "pr",
+        "number": 147008,
+        "title": "fix(gateway): child sessions cannot inspect automation runs",
+        "url": "https://github.com/openclaw/openclaw/pull/147008",
+        "state": "open",
+        "author": "RamiNoodle733",
+        "updatedAt": "2026-09-13T23:07:43Z"
       }
     ]
   }

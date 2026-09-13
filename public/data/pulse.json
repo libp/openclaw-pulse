@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-13T04:43:54.401Z",
+  "generatedAt": "2026-09-13T10:15:23.521Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -972,18 +972,18 @@
     },
     {
       "capturedOn": "2026-09-13",
-      "capturedAt": "2026-09-13T04:43:54.401Z",
-      "issueOpen": 4483,
-      "issueClosed": 48607,
-      "prOpen": 2602,
-      "prClosed": 88439,
-      "prMerged": 38730,
+      "capturedAt": "2026-09-13T10:15:23.521Z",
+      "issueOpen": 4499,
+      "issueClosed": 48635,
+      "prOpen": 2600,
+      "prClosed": 88578,
+      "prMerged": 38845,
       "workflowRuns": 40000,
-      "stars": 389539,
-      "forks": 81882,
-      "subscribers": 1747,
-      "commits": 93123,
-      "contributors": 3358,
+      "stars": 389561,
+      "forks": 81891,
+      "subscribers": 1746,
+      "commits": 93238,
+      "contributors": 3359,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1343,11 +1343,11 @@
     },
     {
       "capturedOn": "2026-09-13",
-      "stars": 389539,
-      "forks": 81882,
-      "subscribers": 1747,
-      "commits": 93123,
-      "contributors": 3358
+      "stars": 389561,
+      "forks": 81891,
+      "subscribers": 1746,
+      "commits": 93238,
+      "contributors": 3359
     }
   ],
   "activity": {
@@ -1359,7 +1359,16 @@
         "url": "https://github.com/openclaw/openclaw/issues/97616",
         "state": "open",
         "author": "avp717",
-        "updatedAt": "2026-09-13T04:42:44Z"
+        "updatedAt": "2026-09-13T10:15:19Z"
+      },
+      {
+        "kind": "issue",
+        "number": 146921,
+        "title": "Gateway session ID resolution projects unrelated sessions before exact matching",
+        "url": "https://github.com/openclaw/openclaw/issues/146921",
+        "state": "open",
+        "author": "ly85206559",
+        "updatedAt": "2026-09-13T10:14:52Z"
       },
       {
         "kind": "issue",
@@ -1368,63 +1377,63 @@
         "url": "https://github.com/openclaw/openclaw/issues/145252",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-09-13T04:41:03Z"
+        "updatedAt": "2026-09-13T10:14:20Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 146714,
-        "title": "fix: let database workers finish during Doctor repair",
-        "url": "https://github.com/openclaw/openclaw/pull/146714",
+        "number": 145718,
+        "title": "fix(retry): honor waits beyond the native timer limit",
+        "url": "https://github.com/openclaw/openclaw/pull/145718",
+        "state": "open",
+        "author": "Alix-007",
+        "updatedAt": "2026-09-13T10:15:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 146924,
+        "title": "chore(i18n): refresh native locales",
+        "url": "https://github.com/openclaw/openclaw/pull/146924",
+        "state": "open",
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-09-13T10:15:14Z"
+      },
+      {
+        "kind": "pr",
+        "number": 146916,
+        "title": "fix(ci): balance slow runtime tests in complete PR checks",
+        "url": "https://github.com/openclaw/openclaw/pull/146916",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-13T04:43:44Z"
+        "updatedAt": "2026-09-13T10:15:00Z"
       },
       {
         "kind": "pr",
-        "number": 120138,
-        "title": "docs(secrets): keep SecretRef reference docs in sync",
-        "url": "https://github.com/openclaw/openclaw/pull/120138",
-        "state": "open",
-        "author": "goutamadwant",
-        "updatedAt": "2026-09-13T04:43:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 145291,
-        "title": "feat(agents): retry cyber-refused embedded turns on Daybreak",
-        "url": "https://github.com/openclaw/openclaw/pull/145291",
-        "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-09-13T04:43:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 146738,
-        "title": "fix(models): offer only allowed models and a true default in the picker",
-        "url": "https://github.com/openclaw/openclaw/pull/146738",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-09-13T04:43:27Z"
-      },
-      {
-        "kind": "pr",
-        "number": 146728,
-        "title": "improve: speed up large model catalogs with automatic runtime selection",
-        "url": "https://github.com/openclaw/openclaw/pull/146728",
+        "number": 146569,
+        "title": "fix(gateway): install despite stale Linux session bus addresses",
+        "url": "https://github.com/openclaw/openclaw/pull/146569",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-13T04:43:25Z"
+        "updatedAt": "2026-09-13T10:15:18Z"
       },
       {
         "kind": "pr",
-        "number": 146733,
-        "title": "fix: refresh model availability after quota recovery",
-        "url": "https://github.com/openclaw/openclaw/pull/146733",
+        "number": 146515,
+        "title": "fix(auth): agent exec aborts when an unrelated store: secret is excluded by auth.order",
+        "url": "https://github.com/openclaw/openclaw/pull/146515",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-13T04:43:22Z"
+        "author": "yangxiansheng",
+        "updatedAt": "2026-09-13T10:14:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 112811,
+        "title": "feat(msteams): support multiple bot accounts",
+        "url": "https://github.com/openclaw/openclaw/pull/112811",
+        "state": "open",
+        "author": "jimmypuckett",
+        "updatedAt": "2026-09-13T10:14:57Z"
       }
     ]
   }

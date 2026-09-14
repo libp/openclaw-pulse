@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-13T23:08:08.159Z",
+  "generatedAt": "2026-09-14T12:50:49.360Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -986,6 +986,23 @@
       "contributors": 3361,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-14",
+      "capturedAt": "2026-09-14T12:50:49.360Z",
+      "issueOpen": 4598,
+      "issueClosed": 48824,
+      "prOpen": 2700,
+      "prClosed": 89525,
+      "prMerged": 39659,
+      "workflowRuns": 40000,
+      "stars": 389653,
+      "forks": 81914,
+      "subscribers": 1746,
+      "commits": 94039,
+      "contributors": 3363,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1348,92 +1365,91 @@
       "subscribers": 1746,
       "commits": 93674,
       "contributors": 3361
+    },
+    {
+      "capturedOn": "2026-09-14",
+      "stars": 389653,
+      "forks": 81914,
+      "subscribers": 1746,
+      "commits": 94039,
+      "contributors": 3363
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 147509,
-        "title": "[Feature]: Let model fallback candidates use their own thinking level",
-        "url": "https://github.com/openclaw/openclaw/issues/147509",
+        "number": 148251,
+        "title": "[Bug]: Telegram chat-window context reintroduces messages excluded by Control UI rewind",
+        "url": "https://github.com/openclaw/openclaw/issues/148251",
         "state": "open",
-        "author": "WilliamK6",
-        "updatedAt": "2026-09-13T23:07:40Z"
+        "author": "xilopaint",
+        "updatedAt": "2026-09-14T12:50:45Z"
       },
       {
         "kind": "issue",
-        "number": 147511,
-        "title": "[Bug]: Control UI own messages flash left (peer) then snap right on refresh",
-        "url": "https://github.com/openclaw/openclaw/issues/147511",
+        "number": 148255,
+        "title": "Update failure: database-schema-preflight (2026.9.4)",
+        "url": "https://github.com/openclaw/openclaw/issues/148255",
         "state": "open",
-        "author": "keith9681",
-        "updatedAt": "2026-09-13T23:06:36Z"
-      },
-      {
-        "kind": "issue",
-        "number": 147512,
-        "title": "[Bug]: Control UI theme flashes config default then restores profile appearance on refresh",
-        "url": "https://github.com/openclaw/openclaw/issues/147512",
-        "state": "open",
-        "author": "keith9681",
-        "updatedAt": "2026-09-13T23:06:19Z"
+        "author": "mmhzlrj",
+        "updatedAt": "2026-09-14T12:49:45Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 147515,
-        "title": "fix(workboard): clarify list group and row hover states",
-        "url": "https://github.com/openclaw/openclaw/pull/147515",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-13T23:08:01Z"
-      },
-      {
-        "kind": "pr",
-        "number": 147521,
-        "title": "chore(i18n): complete Control UI locales for rebased 2026.9.5",
-        "url": "https://github.com/openclaw/openclaw/pull/147521",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-13T23:07:59Z"
-      },
-      {
-        "kind": "pr",
-        "number": 145335,
-        "title": "fix: complete Gateway upgrades after Node prefix changes",
-        "url": "https://github.com/openclaw/openclaw/pull/145335",
-        "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-09-13T23:07:56Z"
-      },
-      {
-        "kind": "pr",
-        "number": 147522,
-        "title": "improve(sqlite): speed up snapshot worker startup",
-        "url": "https://github.com/openclaw/openclaw/pull/147522",
+        "number": 148261,
+        "title": "refactor(sessions): prepare atomic compaction persistence",
+        "url": "https://github.com/openclaw/openclaw/pull/148261",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-13T23:08:03Z"
+        "updatedAt": "2026-09-14T12:50:44Z"
       },
       {
         "kind": "pr",
-        "number": 145117,
-        "title": "fix(gateway): persist durable terminal receipts",
-        "url": "https://github.com/openclaw/openclaw/pull/145117",
-        "state": "open",
-        "author": "edward-lcl",
-        "updatedAt": "2026-09-13T23:07:49Z"
+        "number": 148143,
+        "title": "fix(config): reload fresh drafts after stale-write rejection",
+        "url": "https://github.com/openclaw/openclaw/pull/148143",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-09-14T12:50:37Z"
       },
       {
         "kind": "pr",
-        "number": 147008,
-        "title": "fix(gateway): child sessions cannot inspect automation runs",
-        "url": "https://github.com/openclaw/openclaw/pull/147008",
+        "number": 148007,
+        "title": "improve: reduce repeated JSON log reconstruction",
+        "url": "https://github.com/openclaw/openclaw/pull/148007",
         "state": "open",
-        "author": "RamiNoodle733",
-        "updatedAt": "2026-09-13T23:07:43Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-14T12:50:34Z"
+      },
+      {
+        "kind": "pr",
+        "number": 148175,
+        "title": "fix(plugins): release startup-only service references",
+        "url": "https://github.com/openclaw/openclaw/pull/148175",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-14T12:50:20Z"
+      },
+      {
+        "kind": "pr",
+        "number": 147971,
+        "title": "refactor: speed up repeated schema validation",
+        "url": "https://github.com/openclaw/openclaw/pull/147971",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-14T12:50:12Z"
+      },
+      {
+        "kind": "pr",
+        "number": 148256,
+        "title": "fix(ui): recover repository sessions without workers",
+        "url": "https://github.com/openclaw/openclaw/pull/148256",
+        "state": "open",
+        "author": "zachisfine",
+        "updatedAt": "2026-09-14T12:50:09Z"
       }
     ]
   }

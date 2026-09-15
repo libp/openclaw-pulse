@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-15T13:31:26.510Z",
+  "generatedAt": "2026-09-15T21:18:23.125Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1006,18 +1006,18 @@
     },
     {
       "capturedOn": "2026-09-15",
-      "capturedAt": "2026-09-15T13:31:26.510Z",
-      "issueOpen": 4661,
-      "issueClosed": 48939,
-      "prOpen": 2731,
-      "prClosed": 90204,
-      "prMerged": 40204,
+      "capturedAt": "2026-09-15T21:18:23.125Z",
+      "issueOpen": 4681,
+      "issueClosed": 48975,
+      "prOpen": 2757,
+      "prClosed": 90423,
+      "prMerged": 40364,
       "workflowRuns": 40000,
-      "stars": 389745,
-      "forks": 81928,
-      "subscribers": 1745,
-      "commits": 94580,
-      "contributors": 3368,
+      "stars": 389782,
+      "forks": 81938,
+      "subscribers": 1746,
+      "commits": 94740,
+      "contributors": 3370,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1393,97 +1393,69 @@
     },
     {
       "capturedOn": "2026-09-15",
-      "stars": 389745,
-      "forks": 81928,
-      "subscribers": 1745,
-      "commits": 94580,
-      "contributors": 3368
+      "stars": 389782,
+      "forks": 81938,
+      "subscribers": 1746,
+      "commits": 94740,
+      "contributors": 3370
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 97616,
-        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
-        "url": "https://github.com/openclaw/openclaw/issues/97616",
-        "state": "open",
-        "author": "avp717",
-        "updatedAt": "2026-09-15T13:31:14Z"
-      },
-      {
-        "kind": "issue",
-        "number": 149115,
-        "title": "[Bug]:Non-main agents can't handle framework control commands via qqbot channel",
-        "url": "https://github.com/openclaw/openclaw/issues/149115",
-        "state": "open",
-        "author": "Naqahdiar",
-        "updatedAt": "2026-09-15T13:30:48Z"
-      },
-      {
-        "kind": "issue",
-        "number": 149126,
-        "title": "Resolved secret-entry cards remain fully rendered in Android app chat history (\"answered elsewhere\")",
-        "url": "https://github.com/openclaw/openclaw/issues/149126",
-        "state": "open",
-        "author": "Rayen719",
-        "updatedAt": "2026-09-15T13:30:32Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 149077,
-        "title": "fix: find Feishu peers beyond the first directory page",
-        "url": "https://github.com/openclaw/openclaw/pull/149077",
+        "number": 148525,
+        "title": "[AI-assisted] fix: rewound-away channel messages reappear in the next turn's context",
+        "url": "https://github.com/openclaw/openclaw/pull/148525",
         "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-09-15T13:31:18Z"
+        "author": "he-yufeng",
+        "updatedAt": "2026-09-15T21:18:13Z"
       },
       {
         "kind": "pr",
-        "number": 122679,
-        "title": "fix(skills): concurrent sandboxed runs omit skills from available_skills",
-        "url": "https://github.com/openclaw/openclaw/pull/122679",
-        "state": "open",
-        "author": "eightHundreds",
-        "updatedAt": "2026-09-15T13:31:13Z"
-      },
-      {
-        "kind": "pr",
-        "number": 148934,
-        "title": "refactor(memory-core): use atomic state comparisons for workspace lock deletion",
-        "url": "https://github.com/openclaw/openclaw/pull/148934",
+        "number": 149435,
+        "title": "fix(codex): stabilize turn completion regression tests",
+        "url": "https://github.com/openclaw/openclaw/pull/149435",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-15T13:30:53Z"
+        "updatedAt": "2026-09-15T21:18:11Z"
       },
       {
         "kind": "pr",
-        "number": 147756,
-        "title": "feat(qa): retain evidence across repeated scenarios and retries",
-        "url": "https://github.com/openclaw/openclaw/pull/147756",
-        "state": "closed",
-        "author": "vincentkoc",
-        "updatedAt": "2026-09-15T13:30:50Z"
-      },
-      {
-        "kind": "pr",
-        "number": 149067,
-        "title": "improve(sqlite): reuse scalar validity statements",
-        "url": "https://github.com/openclaw/openclaw/pull/149067",
+        "number": 149240,
+        "title": "fix(ui): include final request time in completed work summaries",
+        "url": "https://github.com/openclaw/openclaw/pull/149240",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-09-15T13:30:48Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-15T21:18:10Z"
       },
       {
         "kind": "pr",
-        "number": 148918,
-        "title": "fix: speed up session lists and transcript diagnostics",
-        "url": "https://github.com/openclaw/openclaw/pull/148918",
+        "number": 149419,
+        "title": "perf(agents): reuse subagent upsert values",
+        "url": "https://github.com/openclaw/openclaw/pull/149419",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-15T13:30:47Z"
+        "updatedAt": "2026-09-15T21:18:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 137831,
+        "title": "fix: preserve literal paths in Linux service units",
+        "url": "https://github.com/openclaw/openclaw/pull/137831",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-15T21:17:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 149245,
+        "title": "fix(cron): preserve CLI run ownership and cancellation",
+        "url": "https://github.com/openclaw/openclaw/pull/149245",
+        "state": "open",
+        "author": "DonnieFi",
+        "updatedAt": "2026-09-15T21:17:55Z"
       }
     ]
   }

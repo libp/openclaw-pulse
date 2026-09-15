@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-14T12:50:49.360Z",
+  "generatedAt": "2026-09-15T07:42:36.100Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1003,6 +1003,23 @@
       "contributors": 3363,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-15",
+      "capturedAt": "2026-09-15T07:42:36.100Z",
+      "issueOpen": 4636,
+      "issueClosed": 48923,
+      "prOpen": 2638,
+      "prClosed": 90077,
+      "prMerged": 40122,
+      "workflowRuns": 40000,
+      "stars": 389725,
+      "forks": 81927,
+      "subscribers": 1746,
+      "commits": 94502,
+      "contributors": 3367,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1373,83 +1390,91 @@
       "subscribers": 1746,
       "commits": 94039,
       "contributors": 3363
+    },
+    {
+      "capturedOn": "2026-09-15",
+      "stars": 389725,
+      "forks": 81927,
+      "subscribers": 1746,
+      "commits": 94502,
+      "contributors": 3367
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 148251,
-        "title": "[Bug]: Telegram chat-window context reintroduces messages excluded by Control UI rewind",
-        "url": "https://github.com/openclaw/openclaw/issues/148251",
+        "number": 148878,
+        "title": "[Bug]: sandbox.scope \"session\" makes gateway startup O(sessions x full table scan) - 1122 sessions = 219s, restart times out",
+        "url": "https://github.com/openclaw/openclaw/issues/148878",
         "state": "open",
-        "author": "xilopaint",
-        "updatedAt": "2026-09-14T12:50:45Z"
+        "author": "AMTLS-BBQ",
+        "updatedAt": "2026-09-15T07:42:28Z"
       },
       {
         "kind": "issue",
-        "number": 148255,
-        "title": "Update failure: database-schema-preflight (2026.9.4)",
-        "url": "https://github.com/openclaw/openclaw/issues/148255",
+        "number": 97616,
+        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
+        "url": "https://github.com/openclaw/openclaw/issues/97616",
         "state": "open",
-        "author": "mmhzlrj",
-        "updatedAt": "2026-09-14T12:49:45Z"
+        "author": "avp717",
+        "updatedAt": "2026-09-15T07:41:39Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 148261,
-        "title": "refactor(sessions): prepare atomic compaction persistence",
-        "url": "https://github.com/openclaw/openclaw/pull/148261",
+        "number": 148879,
+        "title": "fix(update): show failed finalize step instead of unknown reason",
+        "url": "https://github.com/openclaw/openclaw/pull/148879",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-14T12:50:44Z"
+        "author": "Navras98",
+        "updatedAt": "2026-09-15T07:42:24Z"
       },
       {
         "kind": "pr",
-        "number": 148143,
-        "title": "fix(config): reload fresh drafts after stale-write rejection",
-        "url": "https://github.com/openclaw/openclaw/pull/148143",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-09-14T12:50:37Z"
+        "number": 147793,
+        "title": "fix(memory): avoid memory spikes during session resets",
+        "url": "https://github.com/openclaw/openclaw/pull/147793",
+        "state": "open",
+        "author": "VACInc",
+        "updatedAt": "2026-09-15T07:42:31Z"
       },
       {
         "kind": "pr",
-        "number": 148007,
-        "title": "improve: reduce repeated JSON log reconstruction",
-        "url": "https://github.com/openclaw/openclaw/pull/148007",
+        "number": 148851,
+        "title": "improve: avoid legacy migration scans on fresh mDNS installs",
+        "url": "https://github.com/openclaw/openclaw/pull/148851",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-14T12:50:34Z"
+        "updatedAt": "2026-09-15T07:42:19Z"
       },
       {
         "kind": "pr",
-        "number": 148175,
-        "title": "fix(plugins): release startup-only service references",
-        "url": "https://github.com/openclaw/openclaw/pull/148175",
+        "number": 148703,
+        "title": "fix(ui): avoid optional discovery blocking new sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/148703",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-14T12:50:20Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-15T07:42:11Z"
       },
       {
         "kind": "pr",
-        "number": 147971,
-        "title": "refactor: speed up repeated schema validation",
-        "url": "https://github.com/openclaw/openclaw/pull/147971",
+        "number": 142954,
+        "title": "refactor(android): share the Gateway client with Wear OS",
+        "url": "https://github.com/openclaw/openclaw/pull/142954",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-14T12:50:12Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-15T07:42:10Z"
       },
       {
         "kind": "pr",
-        "number": 148256,
-        "title": "fix(ui): recover repository sessions without workers",
-        "url": "https://github.com/openclaw/openclaw/pull/148256",
+        "number": 148875,
+        "title": "feat(freebsd): inspect native rc.d service discovery",
+        "url": "https://github.com/openclaw/openclaw/pull/148875",
         "state": "open",
-        "author": "zachisfine",
-        "updatedAt": "2026-09-14T12:50:09Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-15T07:42:05Z"
       }
     ]
   }

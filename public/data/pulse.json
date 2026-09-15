@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-15T07:42:36.100Z",
+  "generatedAt": "2026-09-15T13:31:26.510Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1006,18 +1006,18 @@
     },
     {
       "capturedOn": "2026-09-15",
-      "capturedAt": "2026-09-15T07:42:36.100Z",
-      "issueOpen": 4636,
-      "issueClosed": 48923,
-      "prOpen": 2638,
-      "prClosed": 90077,
-      "prMerged": 40122,
+      "capturedAt": "2026-09-15T13:31:26.510Z",
+      "issueOpen": 4661,
+      "issueClosed": 48939,
+      "prOpen": 2731,
+      "prClosed": 90204,
+      "prMerged": 40204,
       "workflowRuns": 40000,
-      "stars": 389725,
-      "forks": 81927,
-      "subscribers": 1746,
-      "commits": 94502,
-      "contributors": 3367,
+      "stars": 389745,
+      "forks": 81928,
+      "subscribers": 1745,
+      "commits": 94580,
+      "contributors": 3368,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1393,24 +1393,15 @@
     },
     {
       "capturedOn": "2026-09-15",
-      "stars": 389725,
-      "forks": 81927,
-      "subscribers": 1746,
-      "commits": 94502,
-      "contributors": 3367
+      "stars": 389745,
+      "forks": 81928,
+      "subscribers": 1745,
+      "commits": 94580,
+      "contributors": 3368
     }
   ],
   "activity": {
     "issues": [
-      {
-        "kind": "issue",
-        "number": 148878,
-        "title": "[Bug]: sandbox.scope \"session\" makes gateway startup O(sessions x full table scan) - 1122 sessions = 219s, restart times out",
-        "url": "https://github.com/openclaw/openclaw/issues/148878",
-        "state": "open",
-        "author": "AMTLS-BBQ",
-        "updatedAt": "2026-09-15T07:42:28Z"
-      },
       {
         "kind": "issue",
         "number": 97616,
@@ -1418,63 +1409,81 @@
         "url": "https://github.com/openclaw/openclaw/issues/97616",
         "state": "open",
         "author": "avp717",
-        "updatedAt": "2026-09-15T07:41:39Z"
+        "updatedAt": "2026-09-15T13:31:14Z"
+      },
+      {
+        "kind": "issue",
+        "number": 149115,
+        "title": "[Bug]:Non-main agents can't handle framework control commands via qqbot channel",
+        "url": "https://github.com/openclaw/openclaw/issues/149115",
+        "state": "open",
+        "author": "Naqahdiar",
+        "updatedAt": "2026-09-15T13:30:48Z"
+      },
+      {
+        "kind": "issue",
+        "number": 149126,
+        "title": "Resolved secret-entry cards remain fully rendered in Android app chat history (\"answered elsewhere\")",
+        "url": "https://github.com/openclaw/openclaw/issues/149126",
+        "state": "open",
+        "author": "Rayen719",
+        "updatedAt": "2026-09-15T13:30:32Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 148879,
-        "title": "fix(update): show failed finalize step instead of unknown reason",
-        "url": "https://github.com/openclaw/openclaw/pull/148879",
+        "number": 149077,
+        "title": "fix: find Feishu peers beyond the first directory page",
+        "url": "https://github.com/openclaw/openclaw/pull/149077",
         "state": "open",
-        "author": "Navras98",
-        "updatedAt": "2026-09-15T07:42:24Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-09-15T13:31:18Z"
       },
       {
         "kind": "pr",
-        "number": 147793,
-        "title": "fix(memory): avoid memory spikes during session resets",
-        "url": "https://github.com/openclaw/openclaw/pull/147793",
+        "number": 122679,
+        "title": "fix(skills): concurrent sandboxed runs omit skills from available_skills",
+        "url": "https://github.com/openclaw/openclaw/pull/122679",
         "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-09-15T07:42:31Z"
+        "author": "eightHundreds",
+        "updatedAt": "2026-09-15T13:31:13Z"
       },
       {
         "kind": "pr",
-        "number": 148851,
-        "title": "improve: avoid legacy migration scans on fresh mDNS installs",
-        "url": "https://github.com/openclaw/openclaw/pull/148851",
+        "number": 148934,
+        "title": "refactor(memory-core): use atomic state comparisons for workspace lock deletion",
+        "url": "https://github.com/openclaw/openclaw/pull/148934",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-15T07:42:19Z"
+        "updatedAt": "2026-09-15T13:30:53Z"
       },
       {
         "kind": "pr",
-        "number": 148703,
-        "title": "fix(ui): avoid optional discovery blocking new sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/148703",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-15T07:42:11Z"
+        "number": 147756,
+        "title": "feat(qa): retain evidence across repeated scenarios and retries",
+        "url": "https://github.com/openclaw/openclaw/pull/147756",
+        "state": "closed",
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-15T13:30:50Z"
       },
       {
         "kind": "pr",
-        "number": 142954,
-        "title": "refactor(android): share the Gateway client with Wear OS",
-        "url": "https://github.com/openclaw/openclaw/pull/142954",
+        "number": 149067,
+        "title": "improve(sqlite): reuse scalar validity statements",
+        "url": "https://github.com/openclaw/openclaw/pull/149067",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-09-15T07:42:10Z"
+        "updatedAt": "2026-09-15T13:30:48Z"
       },
       {
         "kind": "pr",
-        "number": 148875,
-        "title": "feat(freebsd): inspect native rc.d service discovery",
-        "url": "https://github.com/openclaw/openclaw/pull/148875",
+        "number": 148918,
+        "title": "fix: speed up session lists and transcript diagnostics",
+        "url": "https://github.com/openclaw/openclaw/pull/148918",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-09-15T07:42:05Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-15T13:30:47Z"
       }
     ]
   }

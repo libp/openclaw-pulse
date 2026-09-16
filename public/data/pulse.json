@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-16T16:52:02.828Z",
+  "generatedAt": "2026-09-16T20:05:57.210Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1023,17 +1023,17 @@
     },
     {
       "capturedOn": "2026-09-16",
-      "capturedAt": "2026-09-16T16:52:02.828Z",
-      "issueOpen": 4731,
-      "issueClosed": 49081,
-      "prOpen": 2744,
-      "prClosed": 91017,
-      "prMerged": 40865,
+      "capturedAt": "2026-09-16T20:05:57.210Z",
+      "issueOpen": 4750,
+      "issueClosed": 49092,
+      "prOpen": 2746,
+      "prClosed": 91084,
+      "prMerged": 40926,
       "workflowRuns": 40000,
-      "stars": 389842,
-      "forks": 81947,
+      "stars": 389870,
+      "forks": 81953,
       "subscribers": 1747,
-      "commits": 95240,
+      "commits": 95301,
       "contributors": 3378,
       "source": "github-actions",
       "approximateDate": false
@@ -1418,10 +1418,10 @@
     },
     {
       "capturedOn": "2026-09-16",
-      "stars": 389842,
-      "forks": 81947,
+      "stars": 389870,
+      "forks": 81953,
       "subscribers": 1747,
-      "commits": 95240,
+      "commits": 95301,
       "contributors": 3378
     }
   ],
@@ -1429,39 +1429,12 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 150173,
-        "title": "[Bug]: OpenRouter usage provider omits exec SecretRef credentials",
-        "url": "https://github.com/openclaw/openclaw/issues/150173",
-        "state": "open",
-        "author": "alex-strattab",
-        "updatedAt": "2026-09-16T16:51:33Z"
-      },
-      {
-        "kind": "issue",
-        "number": 150126,
-        "title": "Browser target crash causes unhandled Playwright rejection that exits the entire Gateway (kills all in-flight agent runs and crons)",
-        "url": "https://github.com/openclaw/openclaw/issues/150126",
-        "state": "open",
-        "author": "tdvtoan",
-        "updatedAt": "2026-09-16T16:51:12Z"
-      },
-      {
-        "kind": "issue",
-        "number": 150174,
-        "title": "Feature request: grok-CLI agentRuntime harness (parity with google-gemini-cli)",
-        "url": "https://github.com/openclaw/openclaw/issues/150174",
-        "state": "open",
-        "author": "gcg-tech-admin",
-        "updatedAt": "2026-09-16T16:50:32Z"
-      },
-      {
-        "kind": "issue",
-        "number": 146365,
-        "title": "[Bug]: Discord /acp spawn thread never dispatches: \"prepared reply dispatch runtime owner was not published for claude\" under agents.ownership explicit",
-        "url": "https://github.com/openclaw/openclaw/issues/146365",
-        "state": "open",
-        "author": "vixenclawsastraagent",
-        "updatedAt": "2026-09-16T16:50:17Z"
+        "number": 137747,
+        "title": "[Bug]: Generated systemd scalar paths break on spaces",
+        "url": "https://github.com/openclaw/openclaw/issues/137747",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-09-16T20:05:39Z"
       },
       {
         "kind": "issue",
@@ -1470,63 +1443,72 @@
         "url": "https://github.com/openclaw/openclaw/issues/97616",
         "state": "open",
         "author": "avp717",
-        "updatedAt": "2026-09-16T16:50:07Z"
+        "updatedAt": "2026-09-16T20:05:28Z"
+      },
+      {
+        "kind": "issue",
+        "number": 150201,
+        "title": "Update failure: runtime-verification-failed (2026.9.3)Saved sanitized report: C:\\Users\\KarleeTDM\\.openclaw\\update-reports\\059edc047f369d09024d239c8273cff7c904fbbd587797587967d8acdb5794d5.bad9b41ee4b10a25efa2d3e98acf54ce5b18736d16582b9a26ae938b95bae3cd.md",
+        "url": "https://github.com/openclaw/openclaw/issues/150201",
+        "state": "open",
+        "author": "KarleeTDM",
+        "updatedAt": "2026-09-16T20:05:26Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 119291,
-        "title": "feat(plugins): add experimental FaceTime realtime voice bridge",
-        "url": "https://github.com/openclaw/openclaw/pull/119291",
+        "number": 135276,
+        "title": "fix(ci): run Android tests for shared Talk config changes",
+        "url": "https://github.com/openclaw/openclaw/pull/135276",
         "state": "open",
-        "author": "omarshahine",
-        "updatedAt": "2026-09-16T16:51:49Z"
+        "author": "qingminglong",
+        "updatedAt": "2026-09-16T20:05:50Z"
       },
       {
         "kind": "pr",
-        "number": 150172,
-        "title": "feat(browser): filter tab listings by title and URL",
-        "url": "https://github.com/openclaw/openclaw/pull/150172",
+        "number": 148960,
+        "title": "fix(auth): keep credential updates consistent during contention",
+        "url": "https://github.com/openclaw/openclaw/pull/148960",
         "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-09-16T16:51:39Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-16T20:05:45Z"
       },
       {
         "kind": "pr",
-        "number": 116050,
-        "title": "feat(rust): add shared gateway client and node host",
-        "url": "https://github.com/openclaw/openclaw/pull/116050",
-        "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-09-16T16:51:36Z"
+        "number": 137831,
+        "title": "fix: preserve literal paths in Linux service units",
+        "url": "https://github.com/openclaw/openclaw/pull/137831",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-09-16T20:05:44Z"
       },
       {
         "kind": "pr",
-        "number": 138263,
-        "title": "fix(mcp): fail clearly on cross-origin OAuth redirects",
-        "url": "https://github.com/openclaw/openclaw/pull/138263",
+        "number": 150092,
+        "title": "fix: agent switching leaves the session list waiting",
+        "url": "https://github.com/openclaw/openclaw/pull/150092",
         "state": "open",
-        "author": "mmaps",
-        "updatedAt": "2026-09-16T16:51:34Z"
+        "author": "jalehman",
+        "updatedAt": "2026-09-16T20:05:43Z"
       },
       {
         "kind": "pr",
-        "number": 116863,
-        "title": "feat(rust): add authenticated node sidecar bridge",
-        "url": "https://github.com/openclaw/openclaw/pull/116863",
+        "number": 142693,
+        "title": "fix: continue memory recall after optional trigger lookup times out",
+        "url": "https://github.com/openclaw/openclaw/pull/142693",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-09-16T16:51:33Z"
+        "author": "BsnizND",
+        "updatedAt": "2026-09-16T20:05:31Z"
       },
       {
         "kind": "pr",
-        "number": 138537,
-        "title": "fix(workboard): nest card in details to prevent isError on blocked status",
-        "url": "https://github.com/openclaw/openclaw/pull/138537",
+        "number": 150273,
+        "title": "fix(release): keep complete SDK reports within artifact limits",
+        "url": "https://github.com/openclaw/openclaw/pull/150273",
         "state": "open",
-        "author": "synthalorian",
-        "updatedAt": "2026-09-16T16:51:29Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-16T20:05:23Z"
       }
     ]
   }

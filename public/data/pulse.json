@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-16T05:59:01.180Z",
+  "generatedAt": "2026-09-16T11:28:47.115Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1023,18 +1023,18 @@
     },
     {
       "capturedOn": "2026-09-16",
-      "capturedAt": "2026-09-16T05:59:01.180Z",
-      "issueOpen": 4685,
-      "issueClosed": 49031,
-      "prOpen": 2761,
-      "prClosed": 90699,
-      "prMerged": 40590,
+      "capturedAt": "2026-09-16T11:28:47.115Z",
+      "issueOpen": 4703,
+      "issueClosed": 49069,
+      "prOpen": 2718,
+      "prClosed": 90918,
+      "prMerged": 40776,
       "workflowRuns": 40000,
-      "stars": 389816,
-      "forks": 81936,
+      "stars": 389830,
+      "forks": 81942,
       "subscribers": 1744,
-      "commits": 94966,
-      "contributors": 3377,
+      "commits": 95151,
+      "contributors": 3378,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1418,106 +1418,79 @@
     },
     {
       "capturedOn": "2026-09-16",
-      "stars": 389816,
-      "forks": 81936,
+      "stars": 389830,
+      "forks": 81942,
       "subscribers": 1744,
-      "commits": 94966,
-      "contributors": 3377
+      "commits": 95151,
+      "contributors": 3378
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 149619,
-        "title": "WebUI: older-history loading briefly shifts retained messages by 82.5 px",
-        "url": "https://github.com/openclaw/openclaw/issues/149619",
+        "number": 97616,
+        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
+        "url": "https://github.com/openclaw/openclaw/issues/97616",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-16T05:58:48Z"
-      },
-      {
-        "kind": "issue",
-        "number": 7406,
-        "title": "[Feature]: Human-readable Telegram topic names in session dropdown",
-        "url": "https://github.com/openclaw/openclaw/issues/7406",
-        "state": "open",
-        "author": "Diaspar4u",
-        "updatedAt": "2026-09-16T05:58:42Z"
-      },
-      {
-        "kind": "issue",
-        "number": 149361,
-        "title": "WebUI: continuous performance and stability study with real-Gateway evidence",
-        "url": "https://github.com/openclaw/openclaw/issues/149361",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-16T05:58:28Z"
-      },
-      {
-        "kind": "issue",
-        "number": 149768,
-        "title": "[Bug]: Template updates can prematurely complete pending workspace onboarding",
-        "url": "https://github.com/openclaw/openclaw/issues/149768",
-        "state": "open",
-        "author": "Dreamer-HIT",
-        "updatedAt": "2026-09-16T05:58:22Z"
+        "author": "avp717",
+        "updatedAt": "2026-09-16T11:28:22Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 149767,
-        "title": "fix(cron): retain completed prompt usage after retry errors",
-        "url": "https://github.com/openclaw/openclaw/pull/149767",
+        "number": 146503,
+        "title": "fix(codex): heartbeat response tool unavailable during scheduled checks",
+        "url": "https://github.com/openclaw/openclaw/pull/146503",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-16T05:58:51Z"
+        "author": "ycmjbot-bot",
+        "updatedAt": "2026-09-16T11:28:32Z"
       },
       {
         "kind": "pr",
-        "number": 149750,
-        "title": "improve(auth): reuse schema statements during credential loads",
-        "url": "https://github.com/openclaw/openclaw/pull/149750",
+        "number": 149849,
+        "title": "refactor(reef): move replay persistence to SQLite workers",
+        "url": "https://github.com/openclaw/openclaw/pull/149849",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-16T05:58:51Z"
+        "updatedAt": "2026-09-16T11:28:31Z"
       },
       {
         "kind": "pr",
-        "number": 149736,
-        "title": "fix(test): await settled verbosity settings",
-        "url": "https://github.com/openclaw/openclaw/pull/149736",
+        "number": 148770,
+        "title": "fix(gateway): retire node connection when pairing changed before dispatch",
+        "url": "https://github.com/openclaw/openclaw/pull/148770",
+        "state": "open",
+        "author": "holny",
+        "updatedAt": "2026-09-16T11:28:31Z"
+      },
+      {
+        "kind": "pr",
+        "number": 149826,
+        "title": "fix(ui): move queued-edit expressions to the session-controls owner (chat pane lint cap)",
+        "url": "https://github.com/openclaw/openclaw/pull/149826",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-16T11:28:30Z"
+      },
+      {
+        "kind": "pr",
+        "number": 150008,
+        "title": "fix(ui): keep keyboard focus while earlier history loads",
+        "url": "https://github.com/openclaw/openclaw/pull/150008",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-09-16T11:28:22Z"
+      },
+      {
+        "kind": "pr",
+        "number": 150007,
+        "title": "fix(codex): preserve side-question fixture errors during cleanup",
+        "url": "https://github.com/openclaw/openclaw/pull/150007",
         "state": "closed",
-        "author": "vincentkoc",
-        "updatedAt": "2026-09-16T05:58:51Z"
-      },
-      {
-        "kind": "pr",
-        "number": 149680,
-        "title": "improve(crabbox): avoid blocking the Gateway on warm-image storage",
-        "url": "https://github.com/openclaw/openclaw/pull/149680",
-        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-16T05:58:50Z"
-      },
-      {
-        "kind": "pr",
-        "number": 149097,
-        "title": "feat(plugins): add live visual provider seam",
-        "url": "https://github.com/openclaw/openclaw/pull/149097",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-09-16T05:58:47Z"
-      },
-      {
-        "kind": "pr",
-        "number": 149675,
-        "title": "fix(plugins): keep Lossless usable after settings reload",
-        "url": "https://github.com/openclaw/openclaw/pull/149675",
-        "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-09-16T05:58:46Z"
+        "updatedAt": "2026-09-16T11:28:20Z"
       }
     ]
   }

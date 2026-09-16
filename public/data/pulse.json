@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-16T11:28:47.115Z",
+  "generatedAt": "2026-09-16T16:52:02.828Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1023,17 +1023,17 @@
     },
     {
       "capturedOn": "2026-09-16",
-      "capturedAt": "2026-09-16T11:28:47.115Z",
-      "issueOpen": 4703,
-      "issueClosed": 49069,
-      "prOpen": 2718,
-      "prClosed": 90918,
-      "prMerged": 40776,
+      "capturedAt": "2026-09-16T16:52:02.828Z",
+      "issueOpen": 4731,
+      "issueClosed": 49081,
+      "prOpen": 2744,
+      "prClosed": 91017,
+      "prMerged": 40865,
       "workflowRuns": 40000,
-      "stars": 389830,
-      "forks": 81942,
-      "subscribers": 1744,
-      "commits": 95151,
+      "stars": 389842,
+      "forks": 81947,
+      "subscribers": 1747,
+      "commits": 95240,
       "contributors": 3378,
       "source": "github-actions",
       "approximateDate": false
@@ -1418,10 +1418,10 @@
     },
     {
       "capturedOn": "2026-09-16",
-      "stars": 389830,
-      "forks": 81942,
-      "subscribers": 1744,
-      "commits": 95151,
+      "stars": 389842,
+      "forks": 81947,
+      "subscribers": 1747,
+      "commits": 95240,
       "contributors": 3378
     }
   ],
@@ -1429,68 +1429,104 @@
     "issues": [
       {
         "kind": "issue",
+        "number": 150173,
+        "title": "[Bug]: OpenRouter usage provider omits exec SecretRef credentials",
+        "url": "https://github.com/openclaw/openclaw/issues/150173",
+        "state": "open",
+        "author": "alex-strattab",
+        "updatedAt": "2026-09-16T16:51:33Z"
+      },
+      {
+        "kind": "issue",
+        "number": 150126,
+        "title": "Browser target crash causes unhandled Playwright rejection that exits the entire Gateway (kills all in-flight agent runs and crons)",
+        "url": "https://github.com/openclaw/openclaw/issues/150126",
+        "state": "open",
+        "author": "tdvtoan",
+        "updatedAt": "2026-09-16T16:51:12Z"
+      },
+      {
+        "kind": "issue",
+        "number": 150174,
+        "title": "Feature request: grok-CLI agentRuntime harness (parity with google-gemini-cli)",
+        "url": "https://github.com/openclaw/openclaw/issues/150174",
+        "state": "open",
+        "author": "gcg-tech-admin",
+        "updatedAt": "2026-09-16T16:50:32Z"
+      },
+      {
+        "kind": "issue",
+        "number": 146365,
+        "title": "[Bug]: Discord /acp spawn thread never dispatches: \"prepared reply dispatch runtime owner was not published for claude\" under agents.ownership explicit",
+        "url": "https://github.com/openclaw/openclaw/issues/146365",
+        "state": "open",
+        "author": "vixenclawsastraagent",
+        "updatedAt": "2026-09-16T16:50:17Z"
+      },
+      {
+        "kind": "issue",
         "number": 97616,
         "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
         "url": "https://github.com/openclaw/openclaw/issues/97616",
         "state": "open",
         "author": "avp717",
-        "updatedAt": "2026-09-16T11:28:22Z"
+        "updatedAt": "2026-09-16T16:50:07Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 146503,
-        "title": "fix(codex): heartbeat response tool unavailable during scheduled checks",
-        "url": "https://github.com/openclaw/openclaw/pull/146503",
+        "number": 119291,
+        "title": "feat(plugins): add experimental FaceTime realtime voice bridge",
+        "url": "https://github.com/openclaw/openclaw/pull/119291",
         "state": "open",
-        "author": "ycmjbot-bot",
-        "updatedAt": "2026-09-16T11:28:32Z"
+        "author": "omarshahine",
+        "updatedAt": "2026-09-16T16:51:49Z"
       },
       {
         "kind": "pr",
-        "number": 149849,
-        "title": "refactor(reef): move replay persistence to SQLite workers",
-        "url": "https://github.com/openclaw/openclaw/pull/149849",
+        "number": 150172,
+        "title": "feat(browser): filter tab listings by title and URL",
+        "url": "https://github.com/openclaw/openclaw/pull/150172",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-16T11:28:31Z"
+        "author": "Alix-007",
+        "updatedAt": "2026-09-16T16:51:39Z"
       },
       {
         "kind": "pr",
-        "number": 148770,
-        "title": "fix(gateway): retire node connection when pairing changed before dispatch",
-        "url": "https://github.com/openclaw/openclaw/pull/148770",
+        "number": 116050,
+        "title": "feat(rust): add shared gateway client and node host",
+        "url": "https://github.com/openclaw/openclaw/pull/116050",
         "state": "open",
-        "author": "holny",
-        "updatedAt": "2026-09-16T11:28:31Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-09-16T16:51:36Z"
       },
       {
         "kind": "pr",
-        "number": 149826,
-        "title": "fix(ui): move queued-edit expressions to the session-controls owner (chat pane lint cap)",
-        "url": "https://github.com/openclaw/openclaw/pull/149826",
+        "number": 138263,
+        "title": "fix(mcp): fail clearly on cross-origin OAuth redirects",
+        "url": "https://github.com/openclaw/openclaw/pull/138263",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-16T11:28:30Z"
+        "author": "mmaps",
+        "updatedAt": "2026-09-16T16:51:34Z"
       },
       {
         "kind": "pr",
-        "number": 150008,
-        "title": "fix(ui): keep keyboard focus while earlier history loads",
-        "url": "https://github.com/openclaw/openclaw/pull/150008",
+        "number": 116863,
+        "title": "feat(rust): add authenticated node sidecar bridge",
+        "url": "https://github.com/openclaw/openclaw/pull/116863",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-16T11:28:22Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-09-16T16:51:33Z"
       },
       {
         "kind": "pr",
-        "number": 150007,
-        "title": "fix(codex): preserve side-question fixture errors during cleanup",
-        "url": "https://github.com/openclaw/openclaw/pull/150007",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-09-16T11:28:20Z"
+        "number": 138537,
+        "title": "fix(workboard): nest card in details to prevent isError on blocked status",
+        "url": "https://github.com/openclaw/openclaw/pull/138537",
+        "state": "open",
+        "author": "synthalorian",
+        "updatedAt": "2026-09-16T16:51:29Z"
       }
     ]
   }

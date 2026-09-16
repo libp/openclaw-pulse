@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-16T20:05:57.210Z",
+  "generatedAt": "2026-09-16T22:54:56.479Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1023,18 +1023,18 @@
     },
     {
       "capturedOn": "2026-09-16",
-      "capturedAt": "2026-09-16T20:05:57.210Z",
-      "issueOpen": 4750,
-      "issueClosed": 49092,
-      "prOpen": 2746,
-      "prClosed": 91084,
-      "prMerged": 40926,
+      "capturedAt": "2026-09-16T22:54:56.479Z",
+      "issueOpen": 4759,
+      "issueClosed": 49105,
+      "prOpen": 2767,
+      "prClosed": 91133,
+      "prMerged": 40971,
       "workflowRuns": 40000,
-      "stars": 389870,
-      "forks": 81953,
+      "stars": 389893,
+      "forks": 81955,
       "subscribers": 1747,
-      "commits": 95301,
-      "contributors": 3378,
+      "commits": 95346,
+      "contributors": 3379,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1418,97 +1418,97 @@
     },
     {
       "capturedOn": "2026-09-16",
-      "stars": 389870,
-      "forks": 81953,
+      "stars": 389893,
+      "forks": 81955,
       "subscribers": 1747,
-      "commits": 95301,
-      "contributors": 3378
+      "commits": 95346,
+      "contributors": 3379
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 137747,
-        "title": "[Bug]: Generated systemd scalar paths break on spaces",
-        "url": "https://github.com/openclaw/openclaw/issues/137747",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-09-16T20:05:39Z"
+        "number": 149361,
+        "title": "WebUI: continuous performance and stability study with real-Gateway evidence",
+        "url": "https://github.com/openclaw/openclaw/issues/149361",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-09-16T22:54:41Z"
       },
       {
         "kind": "issue",
-        "number": 97616,
-        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
-        "url": "https://github.com/openclaw/openclaw/issues/97616",
+        "number": 150366,
+        "title": "Update failure: not-git-install (2026.9.4)",
+        "url": "https://github.com/openclaw/openclaw/issues/150366",
         "state": "open",
-        "author": "avp717",
-        "updatedAt": "2026-09-16T20:05:28Z"
+        "author": "LuccaCaldas",
+        "updatedAt": "2026-09-16T22:54:30Z"
       },
       {
         "kind": "issue",
-        "number": 150201,
-        "title": "Update failure: runtime-verification-failed (2026.9.3)Saved sanitized report: C:\\Users\\KarleeTDM\\.openclaw\\update-reports\\059edc047f369d09024d239c8273cff7c904fbbd587797587967d8acdb5794d5.bad9b41ee4b10a25efa2d3e98acf54ce5b18736d16582b9a26ae938b95bae3cd.md",
-        "url": "https://github.com/openclaw/openclaw/issues/150201",
+        "number": 150363,
+        "title": "Chat: collapse forwarded session messages by default and flatten their attribution row",
+        "url": "https://github.com/openclaw/openclaw/issues/150363",
         "state": "open",
-        "author": "KarleeTDM",
-        "updatedAt": "2026-09-16T20:05:26Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-09-16T22:54:07Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 135276,
-        "title": "fix(ci): run Android tests for shared Talk config changes",
-        "url": "https://github.com/openclaw/openclaw/pull/135276",
+        "number": 146018,
+        "title": "fix: activate context engines with distinct plugin and engine IDs",
+        "url": "https://github.com/openclaw/openclaw/pull/146018",
         "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-09-16T20:05:50Z"
+        "author": "PollyBot13",
+        "updatedAt": "2026-09-16T22:54:46Z"
       },
       {
         "kind": "pr",
-        "number": 148960,
-        "title": "fix(auth): keep credential updates consistent during contention",
-        "url": "https://github.com/openclaw/openclaw/pull/148960",
+        "number": 150365,
+        "title": "fix(e2e): verify worktree repair stays in Doctor",
+        "url": "https://github.com/openclaw/openclaw/pull/150365",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-16T20:05:45Z"
+        "updatedAt": "2026-09-16T22:54:45Z"
       },
       {
         "kind": "pr",
-        "number": 137831,
-        "title": "fix: preserve literal paths in Linux service units",
-        "url": "https://github.com/openclaw/openclaw/pull/137831",
-        "state": "closed",
+        "number": 150236,
+        "title": "fix: prevent plugin state open failures after read-only inspection",
+        "url": "https://github.com/openclaw/openclaw/pull/150236",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-16T20:05:44Z"
+        "updatedAt": "2026-09-16T22:54:44Z"
       },
       {
         "kind": "pr",
-        "number": 150092,
-        "title": "fix: agent switching leaves the session list waiting",
-        "url": "https://github.com/openclaw/openclaw/pull/150092",
+        "number": 150169,
+        "title": "fix(discord): confirm delivered thread initial messages",
+        "url": "https://github.com/openclaw/openclaw/pull/150169",
         "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-09-16T20:05:43Z"
+        "author": "Alix-007",
+        "updatedAt": "2026-09-16T22:54:52Z"
       },
       {
         "kind": "pr",
-        "number": 142693,
-        "title": "fix: continue memory recall after optional trigger lookup times out",
-        "url": "https://github.com/openclaw/openclaw/pull/142693",
+        "number": 150357,
+        "title": "test(qa): serialize heavyweight TUI PTY scenarios",
+        "url": "https://github.com/openclaw/openclaw/pull/150357",
         "state": "open",
-        "author": "BsnizND",
-        "updatedAt": "2026-09-16T20:05:31Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-09-16T22:54:40Z"
       },
       {
         "kind": "pr",
-        "number": 150273,
-        "title": "fix(release): keep complete SDK reports within artifact limits",
-        "url": "https://github.com/openclaw/openclaw/pull/150273",
+        "number": 149029,
+        "title": "fix(talk): keep voice writes with their original session",
+        "url": "https://github.com/openclaw/openclaw/pull/149029",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-16T20:05:23Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-16T22:54:39Z"
       }
     ]
   }

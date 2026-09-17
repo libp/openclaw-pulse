@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-17T13:25:54.730Z",
+  "generatedAt": "2026-09-17T18:11:25.020Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1040,18 +1040,18 @@
     },
     {
       "capturedOn": "2026-09-17",
-      "capturedAt": "2026-09-17T13:25:54.730Z",
-      "issueOpen": 4835,
-      "issueClosed": 49174,
-      "prOpen": 2796,
-      "prClosed": 91512,
-      "prMerged": 41283,
+      "capturedAt": "2026-09-17T18:11:25.020Z",
+      "issueOpen": 4842,
+      "issueClosed": 49196,
+      "prOpen": 2771,
+      "prClosed": 91633,
+      "prMerged": 41386,
       "workflowRuns": 40000,
-      "stars": 389963,
-      "forks": 81971,
+      "stars": 389978,
+      "forks": 81976,
       "subscribers": 1745,
-      "commits": 95642,
-      "contributors": 3384,
+      "commits": 95741,
+      "contributors": 3385,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1443,97 +1443,79 @@
     },
     {
       "capturedOn": "2026-09-17",
-      "stars": 389963,
-      "forks": 81971,
+      "stars": 389978,
+      "forks": 81976,
       "subscribers": 1745,
-      "commits": 95642,
-      "contributors": 3384
+      "commits": 95741,
+      "contributors": 3385
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 150914,
-        "title": "[Feature]: Add plugin provider stream decorators",
-        "url": "https://github.com/openclaw/openclaw/issues/150914",
+        "number": 151047,
+        "title": "[Bug]: bold or italic GitHub PR references become issue links",
+        "url": "https://github.com/openclaw/openclaw/issues/151047",
         "state": "open",
-        "author": "nilskuehme",
-        "updatedAt": "2026-09-17T13:25:33Z"
-      },
-      {
-        "kind": "issue",
-        "number": 149361,
-        "title": "WebUI: continuous performance and stability study with real-Gateway evidence",
-        "url": "https://github.com/openclaw/openclaw/issues/149361",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-17T13:25:48Z"
-      },
-      {
-        "kind": "issue",
-        "number": 149557,
-        "title": "WebUI: chat-to-chat navigation repeats system chrome style synchronization",
-        "url": "https://github.com/openclaw/openclaw/issues/149557",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-17T13:25:04Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-17T18:11:15Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 150686,
-        "title": "feat(control-ui): add a setting to disable UI transition animations",
-        "url": "https://github.com/openclaw/openclaw/pull/150686",
-        "state": "open",
-        "author": "gbyteops",
-        "updatedAt": "2026-09-17T13:25:45Z"
-      },
-      {
-        "kind": "pr",
-        "number": 150816,
-        "title": "fix(state): reclaim interrupted SQLite staging copies",
-        "url": "https://github.com/openclaw/openclaw/pull/150816",
+        "number": 151003,
+        "title": "fix(update): restore Gateway and clear stale warnings after repair",
+        "url": "https://github.com/openclaw/openclaw/pull/151003",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-17T13:25:41Z"
+        "updatedAt": "2026-09-17T18:11:14Z"
       },
       {
         "kind": "pr",
-        "number": 150819,
-        "title": "fix(state): let image upgrades repair missing SQLite indexes",
-        "url": "https://github.com/openclaw/openclaw/pull/150819",
+        "number": 151042,
+        "title": "Respect deliberate silence after conversational read failures",
+        "url": "https://github.com/openclaw/openclaw/pull/151042",
+        "state": "closed",
+        "author": "pash-openai",
+        "updatedAt": "2026-09-17T18:11:03Z"
+      },
+      {
+        "kind": "pr",
+        "number": 136158,
+        "title": "fix(cli): reject unknown proxy query presets",
+        "url": "https://github.com/openclaw/openclaw/pull/136158",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-17T13:25:40Z"
+        "updatedAt": "2026-09-17T18:11:02Z"
       },
       {
         "kind": "pr",
-        "number": 150888,
-        "title": "test(gateway): cut fixture cost in the gateway server suites",
-        "url": "https://github.com/openclaw/openclaw/pull/150888",
+        "number": 151010,
+        "title": "perf(ui): reduce repeated archive projection work",
+        "url": "https://github.com/openclaw/openclaw/pull/151010",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-17T13:25:38Z"
+        "updatedAt": "2026-09-17T18:10:56Z"
       },
       {
         "kind": "pr",
-        "number": 150919,
-        "title": "fix: later tool rounds lose the current task after a stale replay fence",
-        "url": "https://github.com/openclaw/openclaw/pull/150919",
+        "number": 151046,
+        "title": "fix(e2e): oversized timer env values silently collapse to a 1 ms timeout",
+        "url": "https://github.com/openclaw/openclaw/pull/151046",
         "state": "open",
-        "author": "DonnieFi",
-        "updatedAt": "2026-09-17T13:25:37Z"
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-09-17T18:10:45Z"
       },
       {
         "kind": "pr",
-        "number": 150906,
-        "title": "fix: preserve guarded Cron mutation outcomes",
-        "url": "https://github.com/openclaw/openclaw/pull/150906",
-        "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-09-17T13:25:35Z"
+        "number": 150913,
+        "title": "chore(ui): refresh control ui locales",
+        "url": "https://github.com/openclaw/openclaw/pull/150913",
+        "state": "closed",
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-09-17T18:10:44Z"
       }
     ]
   }

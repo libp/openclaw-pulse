@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-17T07:36:54.024Z",
+  "generatedAt": "2026-09-17T13:25:54.730Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1040,17 +1040,17 @@
     },
     {
       "capturedOn": "2026-09-17",
-      "capturedAt": "2026-09-17T07:36:54.024Z",
-      "issueOpen": 4818,
-      "issueClosed": 49146,
-      "prOpen": 2775,
-      "prClosed": 91385,
-      "prMerged": 41178,
+      "capturedAt": "2026-09-17T13:25:54.730Z",
+      "issueOpen": 4835,
+      "issueClosed": 49174,
+      "prOpen": 2796,
+      "prClosed": 91512,
+      "prMerged": 41283,
       "workflowRuns": 40000,
-      "stars": 389933,
-      "forks": 81963,
-      "subscribers": 1747,
-      "commits": 95542,
+      "stars": 389963,
+      "forks": 81971,
+      "subscribers": 1745,
+      "commits": 95642,
       "contributors": 3384,
       "source": "github-actions",
       "approximateDate": false
@@ -1443,10 +1443,10 @@
     },
     {
       "capturedOn": "2026-09-17",
-      "stars": 389933,
-      "forks": 81963,
-      "subscribers": 1747,
-      "commits": 95542,
+      "stars": 389963,
+      "forks": 81971,
+      "subscribers": 1745,
+      "commits": 95642,
       "contributors": 3384
     }
   ],
@@ -1454,77 +1454,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 97616,
-        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
-        "url": "https://github.com/openclaw/openclaw/issues/97616",
+        "number": 150914,
+        "title": "[Feature]: Add plugin provider stream decorators",
+        "url": "https://github.com/openclaw/openclaw/issues/150914",
         "state": "open",
-        "author": "avp717",
-        "updatedAt": "2026-09-17T07:36:15Z"
+        "author": "nilskuehme",
+        "updatedAt": "2026-09-17T13:25:33Z"
       },
       {
         "kind": "issue",
-        "number": 110190,
-        "title": "Runtime context carrier positioned AFTER user message causes severe model confusion and reasoning token waste",
-        "url": "https://github.com/openclaw/openclaw/issues/110190",
+        "number": 149361,
+        "title": "WebUI: continuous performance and stability study with real-Gateway evidence",
+        "url": "https://github.com/openclaw/openclaw/issues/149361",
         "state": "open",
-        "author": "consoleaf",
-        "updatedAt": "2026-09-17T07:36:04Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-09-17T13:25:48Z"
+      },
+      {
+        "kind": "issue",
+        "number": 149557,
+        "title": "WebUI: chat-to-chat navigation repeats system chrome style synchronization",
+        "url": "https://github.com/openclaw/openclaw/issues/149557",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-09-17T13:25:04Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 149906,
-        "title": "fix(matrix): show reasoning when explicitly enabled",
-        "url": "https://github.com/openclaw/openclaw/pull/149906",
+        "number": 150686,
+        "title": "feat(control-ui): add a setting to disable UI transition animations",
+        "url": "https://github.com/openclaw/openclaw/pull/150686",
         "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-09-17T07:36:47Z"
+        "author": "gbyteops",
+        "updatedAt": "2026-09-17T13:25:45Z"
       },
       {
         "kind": "pr",
-        "number": 129649,
-        "title": "fix(gateway): discovered custom ports generate broken SSH tunnels",
-        "url": "https://github.com/openclaw/openclaw/pull/129649",
+        "number": 150816,
+        "title": "fix(state): reclaim interrupted SQLite staging copies",
+        "url": "https://github.com/openclaw/openclaw/pull/150816",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-17T07:36:46Z"
+        "updatedAt": "2026-09-17T13:25:41Z"
       },
       {
         "kind": "pr",
-        "number": 150638,
-        "title": "fix(google-meet): coalesce progressive captions and filter live notices",
-        "url": "https://github.com/openclaw/openclaw/pull/150638",
-        "state": "open",
-        "author": "onlyysaurabh",
-        "updatedAt": "2026-09-17T07:36:45Z"
-      },
-      {
-        "kind": "pr",
-        "number": 150691,
-        "title": "fix(agents): narrow compaction summary classification and treat context-engine idle as transient",
-        "url": "https://github.com/openclaw/openclaw/pull/150691",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-09-17T07:36:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 150727,
-        "title": "fix(ui): bind test harness callbacks safely",
-        "url": "https://github.com/openclaw/openclaw/pull/150727",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-09-17T07:36:35Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117369,
-        "title": "fix: reject malformed speech and video responses",
-        "url": "https://github.com/openclaw/openclaw/pull/117369",
+        "number": 150819,
+        "title": "fix(state): let image upgrades repair missing SQLite indexes",
+        "url": "https://github.com/openclaw/openclaw/pull/150819",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-17T07:36:32Z"
+        "updatedAt": "2026-09-17T13:25:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 150888,
+        "title": "test(gateway): cut fixture cost in the gateway server suites",
+        "url": "https://github.com/openclaw/openclaw/pull/150888",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-17T13:25:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 150919,
+        "title": "fix: later tool rounds lose the current task after a stale replay fence",
+        "url": "https://github.com/openclaw/openclaw/pull/150919",
+        "state": "open",
+        "author": "DonnieFi",
+        "updatedAt": "2026-09-17T13:25:37Z"
+      },
+      {
+        "kind": "pr",
+        "number": 150906,
+        "title": "fix: preserve guarded Cron mutation outcomes",
+        "url": "https://github.com/openclaw/openclaw/pull/150906",
+        "state": "open",
+        "author": "shakkernerd",
+        "updatedAt": "2026-09-17T13:25:35Z"
       }
     ]
   }

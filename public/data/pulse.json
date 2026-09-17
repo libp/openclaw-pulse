@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-17T01:23:37.286Z",
+  "generatedAt": "2026-09-17T07:36:54.024Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1040,18 +1040,18 @@
     },
     {
       "capturedOn": "2026-09-17",
-      "capturedAt": "2026-09-17T01:23:37.286Z",
-      "issueOpen": 4790,
-      "issueClosed": 49111,
-      "prOpen": 2765,
-      "prClosed": 91191,
-      "prMerged": 41022,
+      "capturedAt": "2026-09-17T07:36:54.024Z",
+      "issueOpen": 4818,
+      "issueClosed": 49146,
+      "prOpen": 2775,
+      "prClosed": 91385,
+      "prMerged": 41178,
       "workflowRuns": 40000,
-      "stars": 389908,
-      "forks": 81959,
+      "stars": 389933,
+      "forks": 81963,
       "subscribers": 1747,
-      "commits": 95397,
-      "contributors": 3380,
+      "commits": 95542,
+      "contributors": 3384,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1443,97 +1443,88 @@
     },
     {
       "capturedOn": "2026-09-17",
-      "stars": 389908,
-      "forks": 81959,
+      "stars": 389933,
+      "forks": 81963,
       "subscribers": 1747,
-      "commits": 95397,
-      "contributors": 3380
+      "commits": 95542,
+      "contributors": 3384
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 150450,
-        "title": "Chat header: with three trail levels and a project icon, let the icon stand for the project name",
-        "url": "https://github.com/openclaw/openclaw/issues/150450",
+        "number": 97616,
+        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
+        "url": "https://github.com/openclaw/openclaw/issues/97616",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-17T01:23:28Z"
+        "author": "avp717",
+        "updatedAt": "2026-09-17T07:36:15Z"
       },
       {
         "kind": "issue",
-        "number": 150456,
-        "title": "Sidebar: rebuild the session organization menu in the Workboard filter style",
-        "url": "https://github.com/openclaw/openclaw/issues/150456",
+        "number": 110190,
+        "title": "Runtime context carrier positioned AFTER user message causes severe model confusion and reasoning token waste",
+        "url": "https://github.com/openclaw/openclaw/issues/110190",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-17T01:22:56Z"
-      },
-      {
-        "kind": "issue",
-        "number": 150460,
-        "title": "computer-use: node-side execution lock has no idle expiry, so a dead owner locks the node permanently",
-        "url": "https://github.com/openclaw/openclaw/issues/150460",
-        "state": "open",
-        "author": "clatyceo",
-        "updatedAt": "2026-09-17T01:22:49Z"
+        "author": "consoleaf",
+        "updatedAt": "2026-09-17T07:36:04Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 148039,
-        "title": "fix(browser): cancel in-flight CDP commands after handshake",
-        "url": "https://github.com/openclaw/openclaw/pull/148039",
+        "number": 149906,
+        "title": "fix(matrix): show reasoning when explicitly enabled",
+        "url": "https://github.com/openclaw/openclaw/pull/149906",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-09-17T01:23:29Z"
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-09-17T07:36:47Z"
       },
       {
         "kind": "pr",
-        "number": 150196,
-        "title": "fix(gateway): keep session lists current in memory",
-        "url": "https://github.com/openclaw/openclaw/pull/150196",
+        "number": 129649,
+        "title": "fix(gateway): discovered custom ports generate broken SSH tunnels",
+        "url": "https://github.com/openclaw/openclaw/pull/129649",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-17T01:23:25Z"
+        "updatedAt": "2026-09-17T07:36:46Z"
       },
       {
         "kind": "pr",
-        "number": 150427,
-        "title": "fix: keep child cleanup failures from crashing the Gateway",
-        "url": "https://github.com/openclaw/openclaw/pull/150427",
+        "number": 150638,
+        "title": "fix(google-meet): coalesce progressive captions and filter live notices",
+        "url": "https://github.com/openclaw/openclaw/pull/150638",
+        "state": "open",
+        "author": "onlyysaurabh",
+        "updatedAt": "2026-09-17T07:36:45Z"
+      },
+      {
+        "kind": "pr",
+        "number": 150691,
+        "title": "fix(agents): narrow compaction summary classification and treat context-engine idle as transient",
+        "url": "https://github.com/openclaw/openclaw/pull/150691",
+        "state": "open",
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-09-17T07:36:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 150727,
+        "title": "fix(ui): bind test harness callbacks safely",
+        "url": "https://github.com/openclaw/openclaw/pull/150727",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-09-17T07:36:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 117369,
+        "title": "fix: reject malformed speech and video responses",
+        "url": "https://github.com/openclaw/openclaw/pull/117369",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-17T01:23:33Z"
-      },
-      {
-        "kind": "pr",
-        "number": 149330,
-        "title": "feat: add contextual plugin help to Ask OpenClaw",
-        "url": "https://github.com/openclaw/openclaw/pull/149330",
-        "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-09-17T01:23:33Z"
-      },
-      {
-        "kind": "pr",
-        "number": 109506,
-        "title": "fix(zalouser): recover when listener handshakes stall",
-        "url": "https://github.com/openclaw/openclaw/pull/109506",
-        "state": "open",
-        "author": "lsr911",
-        "updatedAt": "2026-09-17T01:23:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 91245,
-        "title": "fix(plugin-runtime): restore channel turn alias",
-        "url": "https://github.com/openclaw/openclaw/pull/91245",
-        "state": "open",
-        "author": "849261680",
-        "updatedAt": "2026-09-17T01:23:20Z"
+        "updatedAt": "2026-09-17T07:36:32Z"
       }
     ]
   }

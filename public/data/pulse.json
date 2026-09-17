@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-17T18:11:25.020Z",
+  "generatedAt": "2026-09-17T21:19:40.530Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1040,18 +1040,18 @@
     },
     {
       "capturedOn": "2026-09-17",
-      "capturedAt": "2026-09-17T18:11:25.020Z",
-      "issueOpen": 4842,
-      "issueClosed": 49196,
-      "prOpen": 2771,
-      "prClosed": 91633,
-      "prMerged": 41386,
+      "capturedAt": "2026-09-17T21:19:40.530Z",
+      "issueOpen": 4865,
+      "issueClosed": 49208,
+      "prOpen": 2790,
+      "prClosed": 91684,
+      "prMerged": 41435,
       "workflowRuns": 40000,
-      "stars": 389978,
-      "forks": 81976,
-      "subscribers": 1745,
-      "commits": 95741,
-      "contributors": 3385,
+      "stars": 389986,
+      "forks": 81978,
+      "subscribers": 1746,
+      "commits": 95787,
+      "contributors": 3386,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1443,44 +1443,71 @@
     },
     {
       "capturedOn": "2026-09-17",
-      "stars": 389978,
-      "forks": 81976,
-      "subscribers": 1745,
-      "commits": 95741,
-      "contributors": 3385
+      "stars": 389986,
+      "forks": 81978,
+      "subscribers": 1746,
+      "commits": 95787,
+      "contributors": 3386
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 151047,
-        "title": "[Bug]: bold or italic GitHub PR references become issue links",
-        "url": "https://github.com/openclaw/openclaw/issues/151047",
+        "number": 150345,
+        "title": "Control UI: Skills search inherits another group’s collapsed state",
+        "url": "https://github.com/openclaw/openclaw/issues/150345",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-17T18:11:15Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-09-17T21:19:24Z"
+      },
+      {
+        "kind": "issue",
+        "number": 150030,
+        "title": "[Bug]: Settings search targets remain off-screen after shell focus restoration",
+        "url": "https://github.com/openclaw/openclaw/issues/150030",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-09-17T21:19:22Z"
+      },
+      {
+        "kind": "issue",
+        "number": 150049,
+        "title": "[Bug]: Sidebar Pin/Unpin menu actions lose keyboard focus after Enter",
+        "url": "https://github.com/openclaw/openclaw/issues/150049",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-09-17T21:19:01Z"
+      },
+      {
+        "kind": "issue",
+        "number": 151145,
+        "title": "[Bug]: Mattermost continues a send after authority is lost during preparation",
+        "url": "https://github.com/openclaw/openclaw/issues/151145",
+        "state": "open",
+        "author": "shakkernerd",
+        "updatedAt": "2026-09-17T21:18:53Z"
+      },
+      {
+        "kind": "issue",
+        "number": 150021,
+        "title": "[Bug]: Control UI Session Sources collapse and re-expand when returning to Appearance",
+        "url": "https://github.com/openclaw/openclaw/issues/150021",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-09-17T21:18:49Z"
+      },
+      {
+        "kind": "issue",
+        "number": 149894,
+        "title": "WebUI: Home can end at the bottom after a staged older-history prepend",
+        "url": "https://github.com/openclaw/openclaw/issues/149894",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-09-17T21:18:46Z"
       }
     ],
     "prs": [
-      {
-        "kind": "pr",
-        "number": 151003,
-        "title": "fix(update): restore Gateway and clear stale warnings after repair",
-        "url": "https://github.com/openclaw/openclaw/pull/151003",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-17T18:11:14Z"
-      },
-      {
-        "kind": "pr",
-        "number": 151042,
-        "title": "Respect deliberate silence after conversational read failures",
-        "url": "https://github.com/openclaw/openclaw/pull/151042",
-        "state": "closed",
-        "author": "pash-openai",
-        "updatedAt": "2026-09-17T18:11:03Z"
-      },
       {
         "kind": "pr",
         "number": 136158,
@@ -1488,34 +1515,52 @@
         "url": "https://github.com/openclaw/openclaw/pull/136158",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-17T18:11:02Z"
+        "updatedAt": "2026-09-17T21:19:31Z"
       },
       {
         "kind": "pr",
-        "number": 151010,
-        "title": "perf(ui): reduce repeated archive projection work",
-        "url": "https://github.com/openclaw/openclaw/pull/151010",
+        "number": 146170,
+        "title": "fix(doctor): stop stamping config when the release backfill has no work",
+        "url": "https://github.com/openclaw/openclaw/pull/146170",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-17T21:19:21Z"
+      },
+      {
+        "kind": "pr",
+        "number": 150659,
+        "title": "fix(codex): keep session catalog queries in memory",
+        "url": "https://github.com/openclaw/openclaw/pull/150659",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-17T18:10:56Z"
+        "updatedAt": "2026-09-17T21:19:19Z"
       },
       {
         "kind": "pr",
-        "number": 151046,
-        "title": "fix(e2e): oversized timer env values silently collapse to a 1 ms timeout",
-        "url": "https://github.com/openclaw/openclaw/pull/151046",
+        "number": 151001,
+        "title": "fix(codex): preserve local native configuration across supervised turns",
+        "url": "https://github.com/openclaw/openclaw/pull/151001",
         "state": "open",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-09-17T18:10:45Z"
+        "author": "galiniliev",
+        "updatedAt": "2026-09-17T21:19:18Z"
       },
       {
         "kind": "pr",
-        "number": 150913,
-        "title": "chore(ui): refresh control ui locales",
-        "url": "https://github.com/openclaw/openclaw/pull/150913",
-        "state": "closed",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-09-17T18:10:44Z"
+        "number": 115670,
+        "title": "feat(claws): adopt an existing workspace directory in claws add",
+        "url": "https://github.com/openclaw/openclaw/pull/115670",
+        "state": "open",
+        "author": "sasan1200",
+        "updatedAt": "2026-09-17T21:19:05Z"
+      },
+      {
+        "kind": "pr",
+        "number": 150224,
+        "title": "feat: select and manage installed agents from Models",
+        "url": "https://github.com/openclaw/openclaw/pull/150224",
+        "state": "open",
+        "author": "obviyus",
+        "updatedAt": "2026-09-17T21:19:02Z"
       }
     ]
   }

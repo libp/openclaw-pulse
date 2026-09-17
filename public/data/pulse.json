@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-16T22:54:56.479Z",
+  "generatedAt": "2026-09-17T01:23:37.286Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1037,6 +1037,23 @@
       "contributors": 3379,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-17",
+      "capturedAt": "2026-09-17T01:23:37.286Z",
+      "issueOpen": 4790,
+      "issueClosed": 49111,
+      "prOpen": 2765,
+      "prClosed": 91191,
+      "prMerged": 41022,
+      "workflowRuns": 40000,
+      "stars": 389908,
+      "forks": 81959,
+      "subscribers": 1747,
+      "commits": 95397,
+      "contributors": 3380,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1423,92 +1440,100 @@
       "subscribers": 1747,
       "commits": 95346,
       "contributors": 3379
+    },
+    {
+      "capturedOn": "2026-09-17",
+      "stars": 389908,
+      "forks": 81959,
+      "subscribers": 1747,
+      "commits": 95397,
+      "contributors": 3380
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 149361,
-        "title": "WebUI: continuous performance and stability study with real-Gateway evidence",
-        "url": "https://github.com/openclaw/openclaw/issues/149361",
+        "number": 150450,
+        "title": "Chat header: with three trail levels and a project icon, let the icon stand for the project name",
+        "url": "https://github.com/openclaw/openclaw/issues/150450",
         "state": "open",
         "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-16T22:54:41Z"
+        "updatedAt": "2026-09-17T01:23:28Z"
       },
       {
         "kind": "issue",
-        "number": 150366,
-        "title": "Update failure: not-git-install (2026.9.4)",
-        "url": "https://github.com/openclaw/openclaw/issues/150366",
+        "number": 150456,
+        "title": "Sidebar: rebuild the session organization menu in the Workboard filter style",
+        "url": "https://github.com/openclaw/openclaw/issues/150456",
         "state": "open",
-        "author": "LuccaCaldas",
-        "updatedAt": "2026-09-16T22:54:30Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-09-17T01:22:56Z"
       },
       {
         "kind": "issue",
-        "number": 150363,
-        "title": "Chat: collapse forwarded session messages by default and flatten their attribution row",
-        "url": "https://github.com/openclaw/openclaw/issues/150363",
+        "number": 150460,
+        "title": "computer-use: node-side execution lock has no idle expiry, so a dead owner locks the node permanently",
+        "url": "https://github.com/openclaw/openclaw/issues/150460",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-16T22:54:07Z"
+        "author": "clatyceo",
+        "updatedAt": "2026-09-17T01:22:49Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 146018,
-        "title": "fix: activate context engines with distinct plugin and engine IDs",
-        "url": "https://github.com/openclaw/openclaw/pull/146018",
+        "number": 148039,
+        "title": "fix(browser): cancel in-flight CDP commands after handshake",
+        "url": "https://github.com/openclaw/openclaw/pull/148039",
         "state": "open",
-        "author": "PollyBot13",
-        "updatedAt": "2026-09-16T22:54:46Z"
+        "author": "sunlit-deng",
+        "updatedAt": "2026-09-17T01:23:29Z"
       },
       {
         "kind": "pr",
-        "number": 150365,
-        "title": "fix(e2e): verify worktree repair stays in Doctor",
-        "url": "https://github.com/openclaw/openclaw/pull/150365",
+        "number": 150196,
+        "title": "fix(gateway): keep session lists current in memory",
+        "url": "https://github.com/openclaw/openclaw/pull/150196",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-16T22:54:45Z"
+        "updatedAt": "2026-09-17T01:23:25Z"
       },
       {
         "kind": "pr",
-        "number": 150236,
-        "title": "fix: prevent plugin state open failures after read-only inspection",
-        "url": "https://github.com/openclaw/openclaw/pull/150236",
+        "number": 150427,
+        "title": "fix: keep child cleanup failures from crashing the Gateway",
+        "url": "https://github.com/openclaw/openclaw/pull/150427",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-16T22:54:44Z"
+        "updatedAt": "2026-09-17T01:23:33Z"
       },
       {
         "kind": "pr",
-        "number": 150169,
-        "title": "fix(discord): confirm delivered thread initial messages",
-        "url": "https://github.com/openclaw/openclaw/pull/150169",
+        "number": 149330,
+        "title": "feat: add contextual plugin help to Ask OpenClaw",
+        "url": "https://github.com/openclaw/openclaw/pull/149330",
         "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-09-16T22:54:52Z"
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-09-17T01:23:33Z"
       },
       {
         "kind": "pr",
-        "number": 150357,
-        "title": "test(qa): serialize heavyweight TUI PTY scenarios",
-        "url": "https://github.com/openclaw/openclaw/pull/150357",
+        "number": 109506,
+        "title": "fix(zalouser): recover when listener handshakes stall",
+        "url": "https://github.com/openclaw/openclaw/pull/109506",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-09-16T22:54:40Z"
+        "author": "lsr911",
+        "updatedAt": "2026-09-17T01:23:32Z"
       },
       {
         "kind": "pr",
-        "number": 149029,
-        "title": "fix(talk): keep voice writes with their original session",
-        "url": "https://github.com/openclaw/openclaw/pull/149029",
+        "number": 91245,
+        "title": "fix(plugin-runtime): restore channel turn alias",
+        "url": "https://github.com/openclaw/openclaw/pull/91245",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-16T22:54:39Z"
+        "author": "849261680",
+        "updatedAt": "2026-09-17T01:23:20Z"
       }
     ]
   }

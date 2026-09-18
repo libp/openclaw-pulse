@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-18T18:26:44.336Z",
+  "generatedAt": "2026-09-18T21:39:53.638Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1057,18 +1057,18 @@
     },
     {
       "capturedOn": "2026-09-18",
-      "capturedAt": "2026-09-18T18:26:44.336Z",
-      "issueOpen": 4997,
-      "issueClosed": 49326,
-      "prOpen": 2876,
-      "prClosed": 92259,
-      "prMerged": 41929,
+      "capturedAt": "2026-09-18T21:39:53.638Z",
+      "issueOpen": 5006,
+      "issueClosed": 49336,
+      "prOpen": 2856,
+      "prClosed": 92386,
+      "prMerged": 42040,
       "workflowRuns": 40000,
-      "stars": 390043,
+      "stars": 390052,
       "forks": 82001,
       "subscribers": 1745,
-      "commits": 96274,
-      "contributors": 3387,
+      "commits": 96384,
+      "contributors": 3388,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1468,79 +1468,69 @@
     },
     {
       "capturedOn": "2026-09-18",
-      "stars": 390043,
+      "stars": 390052,
       "forks": 82001,
       "subscribers": 1745,
-      "commits": 96274,
-      "contributors": 3387
+      "commits": 96384,
+      "contributors": 3388
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 152046,
-        "title": "[Feature]: Optional automatic equal-column session layout in Control UI",
-        "url": "https://github.com/openclaw/openclaw/issues/152046",
-        "state": "open",
-        "author": "buildsbyben",
-        "updatedAt": "2026-09-18T18:26:01Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 152020,
-        "title": "fix: preserve plugin restrictions during managed installation",
-        "url": "https://github.com/openclaw/openclaw/pull/152020",
+        "number": 152163,
+        "title": "fix(ui): reserve attachment tiles while files load",
+        "url": "https://github.com/openclaw/openclaw/pull/152163",
         "state": "open",
-        "author": "stevenlee-oai",
-        "updatedAt": "2026-09-18T18:26:40Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-09-18T21:39:47Z"
       },
       {
         "kind": "pr",
-        "number": 151581,
-        "title": "fix: keep gateway responsive during sqlite recovery load",
-        "url": "https://github.com/openclaw/openclaw/pull/151581",
-        "state": "open",
-        "author": "galiniliev",
-        "updatedAt": "2026-09-18T18:26:39Z"
-      },
-      {
-        "kind": "pr",
-        "number": 152049,
-        "title": "improve(gateway): reduce memory used by session relationships",
-        "url": "https://github.com/openclaw/openclaw/pull/152049",
+        "number": 152177,
+        "title": "test(talk): fail fast when native-action readiness is missed",
+        "url": "https://github.com/openclaw/openclaw/pull/152177",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-18T18:26:37Z"
+        "updatedAt": "2026-09-18T21:39:44Z"
       },
       {
         "kind": "pr",
-        "number": 151764,
-        "title": "fix(codex): settle sandbox processes and readiness probes",
-        "url": "https://github.com/openclaw/openclaw/pull/151764",
+        "number": 151303,
+        "title": "fix: await queued registry and task persistence",
+        "url": "https://github.com/openclaw/openclaw/pull/151303",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-18T18:26:36Z"
+        "updatedAt": "2026-09-18T21:39:40Z"
       },
       {
         "kind": "pr",
-        "number": 152017,
-        "title": "fix(ui): refresh plugin chat cards after installation",
-        "url": "https://github.com/openclaw/openclaw/pull/152017",
+        "number": 115670,
+        "title": "feat(claws): adopt an existing workspace directory in claws add",
+        "url": "https://github.com/openclaw/openclaw/pull/115670",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-18T18:26:34Z"
+        "author": "sasan1200",
+        "updatedAt": "2026-09-18T21:39:40Z"
       },
       {
         "kind": "pr",
-        "number": 152022,
-        "title": "refactor(config): share committed candidate projection",
-        "url": "https://github.com/openclaw/openclaw/pull/152022",
+        "number": 149282,
+        "title": "refactor(stream): share auxiliary queue overflow handling",
+        "url": "https://github.com/openclaw/openclaw/pull/149282",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-09-18T18:26:28Z"
+        "updatedAt": "2026-09-18T21:39:39Z"
+      },
+      {
+        "kind": "pr",
+        "number": 151218,
+        "title": "feat(active-memory): let plugins customize deep-recall escalation",
+        "url": "https://github.com/openclaw/openclaw/pull/151218",
+        "state": "open",
+        "author": "fransqaas",
+        "updatedAt": "2026-09-18T21:39:32Z"
       }
     ]
   }

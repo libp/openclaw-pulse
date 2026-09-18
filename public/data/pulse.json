@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-17T21:19:40.530Z",
+  "generatedAt": "2026-09-18T09:44:05.741Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1054,6 +1054,23 @@
       "contributors": 3386,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-18",
+      "capturedAt": "2026-09-18T09:44:05.741Z",
+      "issueOpen": 4956,
+      "issueClosed": 49297,
+      "prOpen": 2825,
+      "prClosed": 92011,
+      "prMerged": 41705,
+      "workflowRuns": 40000,
+      "stars": 390027,
+      "forks": 81998,
+      "subscribers": 1743,
+      "commits": 96051,
+      "contributors": 3387,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1448,119 +1465,72 @@
       "subscribers": 1746,
       "commits": 95787,
       "contributors": 3386
+    },
+    {
+      "capturedOn": "2026-09-18",
+      "stars": 390027,
+      "forks": 81998,
+      "subscribers": 1743,
+      "commits": 96051,
+      "contributors": 3387
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 150345,
-        "title": "Control UI: Skills search inherits another group’s collapsed state",
-        "url": "https://github.com/openclaw/openclaw/issues/150345",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-17T21:19:24Z"
-      },
-      {
-        "kind": "issue",
-        "number": 150030,
-        "title": "[Bug]: Settings search targets remain off-screen after shell focus restoration",
-        "url": "https://github.com/openclaw/openclaw/issues/150030",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-17T21:19:22Z"
-      },
-      {
-        "kind": "issue",
-        "number": 150049,
-        "title": "[Bug]: Sidebar Pin/Unpin menu actions lose keyboard focus after Enter",
-        "url": "https://github.com/openclaw/openclaw/issues/150049",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-17T21:19:01Z"
-      },
-      {
-        "kind": "issue",
-        "number": 151145,
-        "title": "[Bug]: Mattermost continues a send after authority is lost during preparation",
-        "url": "https://github.com/openclaw/openclaw/issues/151145",
-        "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-09-17T21:18:53Z"
-      },
-      {
-        "kind": "issue",
-        "number": 150021,
-        "title": "[Bug]: Control UI Session Sources collapse and re-expand when returning to Appearance",
-        "url": "https://github.com/openclaw/openclaw/issues/150021",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-17T21:18:49Z"
-      },
-      {
-        "kind": "issue",
-        "number": 149894,
-        "title": "WebUI: Home can end at the bottom after a staged older-history prepend",
-        "url": "https://github.com/openclaw/openclaw/issues/149894",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-17T21:18:46Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 136158,
-        "title": "fix(cli): reject unknown proxy query presets",
-        "url": "https://github.com/openclaw/openclaw/pull/136158",
+        "number": 151676,
+        "title": "fix(test): prevent fixture cleanup hangs after auth reads",
+        "url": "https://github.com/openclaw/openclaw/pull/151676",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-17T21:19:31Z"
+        "updatedAt": "2026-09-18T09:43:48Z"
       },
       {
         "kind": "pr",
-        "number": 146170,
-        "title": "fix(doctor): stop stamping config when the release backfill has no work",
-        "url": "https://github.com/openclaw/openclaw/pull/146170",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-17T21:19:21Z"
-      },
-      {
-        "kind": "pr",
-        "number": 150659,
-        "title": "fix(codex): keep session catalog queries in memory",
-        "url": "https://github.com/openclaw/openclaw/pull/150659",
+        "number": 151681,
+        "title": "improve: reduce database reads when listing shared sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/151681",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-17T21:19:19Z"
+        "updatedAt": "2026-09-18T09:43:46Z"
       },
       {
         "kind": "pr",
-        "number": 151001,
-        "title": "fix(codex): preserve local native configuration across supervised turns",
-        "url": "https://github.com/openclaw/openclaw/pull/151001",
+        "number": 146547,
+        "title": "refactor(transcripts): run stored lookups in the shared SQLite worker",
+        "url": "https://github.com/openclaw/openclaw/pull/146547",
         "state": "open",
-        "author": "galiniliev",
-        "updatedAt": "2026-09-17T21:19:18Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-18T09:43:37Z"
       },
       {
         "kind": "pr",
-        "number": 115670,
-        "title": "feat(claws): adopt an existing workspace directory in claws add",
-        "url": "https://github.com/openclaw/openclaw/pull/115670",
+        "number": 151656,
+        "title": "improve: avoid duplicate Workshop review status reads",
+        "url": "https://github.com/openclaw/openclaw/pull/151656",
         "state": "open",
-        "author": "sasan1200",
-        "updatedAt": "2026-09-17T21:19:05Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-18T09:43:36Z"
       },
       {
         "kind": "pr",
-        "number": 150224,
-        "title": "feat: select and manage installed agents from Models",
-        "url": "https://github.com/openclaw/openclaw/pull/150224",
+        "number": 151679,
+        "title": "perf(codex): bound rollout reads in the node session listing (openclaw-awaz)",
+        "url": "https://github.com/openclaw/openclaw/pull/151679",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-09-17T21:19:02Z"
+        "author": "zeroaltitude",
+        "updatedAt": "2026-09-18T09:43:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 151668,
+        "title": "improve: reduce worker setup in serial Workboard tests",
+        "url": "https://github.com/openclaw/openclaw/pull/151668",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-18T09:43:35Z"
       }
     ]
   }

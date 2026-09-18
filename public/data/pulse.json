@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-18T14:30:32.039Z",
+  "generatedAt": "2026-09-18T18:26:44.336Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1057,17 +1057,17 @@
     },
     {
       "capturedOn": "2026-09-18",
-      "capturedAt": "2026-09-18T14:30:32.039Z",
-      "issueOpen": 4981,
-      "issueClosed": 49311,
-      "prOpen": 2855,
-      "prClosed": 92129,
-      "prMerged": 41815,
+      "capturedAt": "2026-09-18T18:26:44.336Z",
+      "issueOpen": 4997,
+      "issueClosed": 49326,
+      "prOpen": 2876,
+      "prClosed": 92259,
+      "prMerged": 41929,
       "workflowRuns": 40000,
-      "stars": 390026,
-      "forks": 81999,
+      "stars": 390043,
+      "forks": 82001,
       "subscribers": 1745,
-      "commits": 96161,
+      "commits": 96274,
       "contributors": 3387,
       "source": "github-actions",
       "approximateDate": false
@@ -1468,10 +1468,10 @@
     },
     {
       "capturedOn": "2026-09-18",
-      "stars": 390026,
-      "forks": 81999,
+      "stars": 390043,
+      "forks": 82001,
       "subscribers": 1745,
-      "commits": 96161,
+      "commits": 96274,
       "contributors": 3387
     }
   ],
@@ -1479,86 +1479,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 97616,
-        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
-        "url": "https://github.com/openclaw/openclaw/issues/97616",
+        "number": 152046,
+        "title": "[Feature]: Optional automatic equal-column session layout in Control UI",
+        "url": "https://github.com/openclaw/openclaw/issues/152046",
         "state": "open",
-        "author": "avp717",
-        "updatedAt": "2026-09-18T14:30:11Z"
-      },
-      {
-        "kind": "issue",
-        "number": 150049,
-        "title": "[Bug]: Sidebar Pin/Unpin menu actions lose keyboard focus after Enter",
-        "url": "https://github.com/openclaw/openclaw/issues/150049",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-18T14:29:53Z"
-      },
-      {
-        "kind": "issue",
-        "number": 151861,
-        "title": "Provider-prefixed model reference is passed through verbatim => upstream API 400",
-        "url": "https://github.com/openclaw/openclaw/issues/151861",
-        "state": "open",
-        "author": "nnanli9803",
-        "updatedAt": "2026-09-18T14:29:35Z"
+        "author": "buildsbyben",
+        "updatedAt": "2026-09-18T18:26:01Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 133194,
-        "title": "fix: surface aborted partials that fail to persist",
-        "url": "https://github.com/openclaw/openclaw/pull/133194",
+        "number": 152020,
+        "title": "fix: preserve plugin restrictions during managed installation",
+        "url": "https://github.com/openclaw/openclaw/pull/152020",
         "state": "open",
-        "author": "ZengWen-DT",
-        "updatedAt": "2026-09-18T14:30:24Z"
+        "author": "stevenlee-oai",
+        "updatedAt": "2026-09-18T18:26:40Z"
       },
       {
         "kind": "pr",
-        "number": 151867,
-        "title": "improve(heartbeat): avoid unused config work in membership checks",
-        "url": "https://github.com/openclaw/openclaw/pull/151867",
+        "number": 151581,
+        "title": "fix: keep gateway responsive during sqlite recovery load",
+        "url": "https://github.com/openclaw/openclaw/pull/151581",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-09-18T14:30:23Z"
+        "author": "galiniliev",
+        "updatedAt": "2026-09-18T18:26:39Z"
       },
       {
         "kind": "pr",
-        "number": 151825,
-        "title": "feat(ci): profile installed Gateway startup",
-        "url": "https://github.com/openclaw/openclaw/pull/151825",
+        "number": 152049,
+        "title": "improve(gateway): reduce memory used by session relationships",
+        "url": "https://github.com/openclaw/openclaw/pull/152049",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-18T14:30:22Z"
+        "updatedAt": "2026-09-18T18:26:37Z"
       },
       {
         "kind": "pr",
-        "number": 151856,
-        "title": "fix(test): control catalog renewal before worker recovery",
-        "url": "https://github.com/openclaw/openclaw/pull/151856",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-09-18T14:30:27Z"
-      },
-      {
-        "kind": "pr",
-        "number": 151857,
-        "title": "fix(discord): replies to bot-posted notifications lose the quoted message text",
-        "url": "https://github.com/openclaw/openclaw/pull/151857",
-        "state": "open",
-        "author": "hanamizuki",
-        "updatedAt": "2026-09-18T14:30:14Z"
-      },
-      {
-        "kind": "pr",
-        "number": 151757,
-        "title": "fix(codex): align native plugin policy and cache ownership",
-        "url": "https://github.com/openclaw/openclaw/pull/151757",
+        "number": 151764,
+        "title": "fix(codex): settle sandbox processes and readiness probes",
+        "url": "https://github.com/openclaw/openclaw/pull/151764",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-18T14:30:14Z"
+        "updatedAt": "2026-09-18T18:26:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 152017,
+        "title": "fix(ui): refresh plugin chat cards after installation",
+        "url": "https://github.com/openclaw/openclaw/pull/152017",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-18T18:26:34Z"
+      },
+      {
+        "kind": "pr",
+        "number": 152022,
+        "title": "refactor(config): share committed candidate projection",
+        "url": "https://github.com/openclaw/openclaw/pull/152022",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-18T18:26:28Z"
       }
     ]
   }

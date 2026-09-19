@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-18T21:39:53.638Z",
+  "generatedAt": "2026-09-19T00:19:00.650Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1071,6 +1071,23 @@
       "contributors": 3388,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-19",
+      "capturedAt": "2026-09-19T00:19:00.650Z",
+      "issueOpen": 5017,
+      "issueClosed": 49351,
+      "prOpen": 2859,
+      "prClosed": 92479,
+      "prMerged": 42129,
+      "workflowRuns": 40000,
+      "stars": 390060,
+      "forks": 82006,
+      "subscribers": 1745,
+      "commits": 96470,
+      "contributors": 3388,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1473,64 +1490,91 @@
       "subscribers": 1745,
       "commits": 96384,
       "contributors": 3388
+    },
+    {
+      "capturedOn": "2026-09-19",
+      "stars": 390060,
+      "forks": 82006,
+      "subscribers": 1745,
+      "commits": 96470,
+      "contributors": 3388
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 149361,
+        "title": "Umbrella: WebUI performance and stability",
+        "url": "https://github.com/openclaw/openclaw/issues/149361",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-09-19T00:18:36Z"
+      },
+      {
+        "kind": "issue",
+        "number": 151843,
+        "title": "[Bug]: Chat composer context lets the landscape action bar cover typed text",
+        "url": "https://github.com/openclaw/openclaw/issues/151843",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-09-19T00:17:35Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 152163,
-        "title": "fix(ui): reserve attachment tiles while files load",
-        "url": "https://github.com/openclaw/openclaw/pull/152163",
+        "number": 152057,
+        "title": "feat(browser): unify local Chrome setup across desktop and terminal",
+        "url": "https://github.com/openclaw/openclaw/pull/152057",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-18T21:39:47Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-19T00:18:52Z"
       },
       {
         "kind": "pr",
-        "number": 152177,
-        "title": "test(talk): fail fast when native-action readiness is missed",
-        "url": "https://github.com/openclaw/openclaw/pull/152177",
-        "state": "open",
+        "number": 152143,
+        "title": "fix(test): use Gateway WebSocket transport in network fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/152143",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-09-18T21:39:44Z"
+        "updatedAt": "2026-09-19T00:18:45Z"
       },
       {
         "kind": "pr",
-        "number": 151303,
-        "title": "fix: await queued registry and task persistence",
-        "url": "https://github.com/openclaw/openclaw/pull/151303",
+        "number": 150995,
+        "title": "feat: show native child progress after parent yield",
+        "url": "https://github.com/openclaw/openclaw/pull/150995",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-18T21:39:40Z"
+        "author": "anyech",
+        "updatedAt": "2026-09-19T00:18:42Z"
       },
       {
         "kind": "pr",
-        "number": 115670,
-        "title": "feat(claws): adopt an existing workspace directory in claws add",
-        "url": "https://github.com/openclaw/openclaw/pull/115670",
+        "number": 152298,
+        "title": "feat(typesafe): bundle Jev typed judgment provider",
+        "url": "https://github.com/openclaw/openclaw/pull/152298",
         "state": "open",
-        "author": "sasan1200",
-        "updatedAt": "2026-09-18T21:39:40Z"
+        "author": "jalehman",
+        "updatedAt": "2026-09-19T00:18:39Z"
       },
       {
         "kind": "pr",
-        "number": 149282,
-        "title": "refactor(stream): share auxiliary queue overflow handling",
-        "url": "https://github.com/openclaw/openclaw/pull/149282",
+        "number": 150903,
+        "title": "fix(agents): emit plan events for CLI progress_card tool results",
+        "url": "https://github.com/openclaw/openclaw/pull/150903",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-09-18T21:39:39Z"
+        "author": "chelsealong",
+        "updatedAt": "2026-09-19T00:18:55Z"
       },
       {
         "kind": "pr",
-        "number": 151218,
-        "title": "feat(active-memory): let plugins customize deep-recall escalation",
-        "url": "https://github.com/openclaw/openclaw/pull/151218",
+        "number": 135296,
+        "title": "feat(agents): allow thinking overrides on visible sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/135296",
         "state": "open",
-        "author": "fransqaas",
-        "updatedAt": "2026-09-18T21:39:32Z"
+        "author": "sunlit-deng",
+        "updatedAt": "2026-09-19T00:18:31Z"
       }
     ]
   }

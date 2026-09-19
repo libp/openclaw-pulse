@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-19T10:55:19.019Z",
+  "generatedAt": "2026-09-19T14:23:15.911Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1074,18 +1074,18 @@
     },
     {
       "capturedOn": "2026-09-19",
-      "capturedAt": "2026-09-19T10:55:19.019Z",
-      "issueOpen": 5094,
-      "issueClosed": 49419,
-      "prOpen": 2912,
-      "prClosed": 92786,
-      "prMerged": 42381,
+      "capturedAt": "2026-09-19T14:23:15.911Z",
+      "issueOpen": 5126,
+      "issueClosed": 49443,
+      "prOpen": 2920,
+      "prClosed": 92850,
+      "prMerged": 42432,
       "workflowRuns": 40000,
-      "stars": 390068,
-      "forks": 82017,
-      "subscribers": 1746,
-      "commits": 96723,
-      "contributors": 3390,
+      "stars": 390078,
+      "forks": 82022,
+      "subscribers": 1744,
+      "commits": 96774,
+      "contributors": 3393,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1493,88 +1493,97 @@
     },
     {
       "capturedOn": "2026-09-19",
-      "stars": 390068,
-      "forks": 82017,
-      "subscribers": 1746,
-      "commits": 96723,
-      "contributors": 3390
+      "stars": 390078,
+      "forks": 82022,
+      "subscribers": 1744,
+      "commits": 96774,
+      "contributors": 3393
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 151659,
-        "title": "Control UI: changing Sessions filters collapses the loading table and resets page scroll",
-        "url": "https://github.com/openclaw/openclaw/issues/151659",
+        "number": 152931,
+        "title": "Update failure: plugin-target-unavailable (2026.9.4)",
+        "url": "https://github.com/openclaw/openclaw/issues/152931",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-19T10:55:10Z"
+        "author": "nomoneynofutre",
+        "updatedAt": "2026-09-19T14:22:50Z"
       },
       {
         "kind": "issue",
-        "number": 152791,
-        "title": "[Bug]: OPENCLAW_ALLOW_OLDER_BINARY_DESTRUCTIVE_ACTIONS=1 does not allow an older binary to start against newer-migrated config",
-        "url": "https://github.com/openclaw/openclaw/issues/152791",
+        "number": 149361,
+        "title": "Umbrella: WebUI performance and stability",
+        "url": "https://github.com/openclaw/openclaw/issues/149361",
         "state": "open",
-        "author": "kip-claw",
-        "updatedAt": "2026-09-19T10:53:57Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-09-19T14:21:28Z"
+      },
+      {
+        "kind": "issue",
+        "number": 152854,
+        "title": "WebUI: reconnecting Logs expands the stream and loses the reading position",
+        "url": "https://github.com/openclaw/openclaw/issues/152854",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-09-19T14:21:09Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 152727,
-        "title": "fix(update): bound interrupted-update settle probe and skip when service is unmanaged (#152542)",
-        "url": "https://github.com/openclaw/openclaw/pull/152727",
+        "number": 150982,
+        "title": "fix(agent): scope preflight token estimates to the compacted window",
+        "url": "https://github.com/openclaw/openclaw/pull/150982",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-09-19T10:55:13Z"
+        "author": "coaiMax",
+        "updatedAt": "2026-09-19T14:23:08Z"
       },
       {
         "kind": "pr",
-        "number": 146144,
-        "title": "fix(agents): clean up cancelled session reads",
-        "url": "https://github.com/openclaw/openclaw/pull/146144",
+        "number": 119702,
+        "title": "fix(security): guard patternProperties defaults with compileSafeRegex",
+        "url": "https://github.com/openclaw/openclaw/pull/119702",
         "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-09-19T10:55:12Z"
+        "author": "SebTardif",
+        "updatedAt": "2026-09-19T14:22:59Z"
       },
       {
         "kind": "pr",
-        "number": 152517,
-        "title": "fix: retain progress cards when delegated work outlives a turn",
-        "url": "https://github.com/openclaw/openclaw/pull/152517",
+        "number": 140995,
+        "title": "fix(openai): report applied image size and quality",
+        "url": "https://github.com/openclaw/openclaw/pull/140995",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-09-19T10:55:02Z"
+        "author": "ericcaiwx-star",
+        "updatedAt": "2026-09-19T14:22:49Z"
       },
       {
         "kind": "pr",
-        "number": 152793,
-        "title": "perf(doctor): reuse read-only worker for pending migrations",
-        "url": "https://github.com/openclaw/openclaw/pull/152793",
+        "number": 152915,
+        "title": "fix: crowded session skills overlap in the composer menu",
+        "url": "https://github.com/openclaw/openclaw/pull/152915",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-19T14:22:46Z"
+      },
+      {
+        "kind": "pr",
+        "number": 143295,
+        "title": "fix(memory): add reusable read-only search managers",
+        "url": "https://github.com/openclaw/openclaw/pull/143295",
+        "state": "open",
+        "author": "saladinyao-cyber",
+        "updatedAt": "2026-09-19T14:22:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 152691,
+        "title": "improve: keep project listings responsive during database reads",
+        "url": "https://github.com/openclaw/openclaw/pull/152691",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-19T10:55:00Z"
-      },
-      {
-        "kind": "pr",
-        "number": 145959,
-        "title": "fix(test): reject malformed PID receipts",
-        "url": "https://github.com/openclaw/openclaw/pull/145959",
-        "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-09-19T10:54:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 138358,
-        "title": "fix(cli): reject conflicting transcript artifact selectors",
-        "url": "https://github.com/openclaw/openclaw/pull/138358",
-        "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-09-19T10:54:40Z"
+        "updatedAt": "2026-09-19T14:22:34Z"
       }
     ]
   }

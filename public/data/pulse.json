@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-19T14:23:15.911Z",
+  "generatedAt": "2026-09-19T20:37:09.914Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1074,18 +1074,18 @@
     },
     {
       "capturedOn": "2026-09-19",
-      "capturedAt": "2026-09-19T14:23:15.911Z",
-      "issueOpen": 5126,
-      "issueClosed": 49443,
-      "prOpen": 2920,
-      "prClosed": 92850,
-      "prMerged": 42432,
+      "capturedAt": "2026-09-19T20:37:09.914Z",
+      "issueOpen": 5183,
+      "issueClosed": 49472,
+      "prOpen": 2927,
+      "prClosed": 92982,
+      "prMerged": 42551,
       "workflowRuns": 40000,
-      "stars": 390078,
-      "forks": 82022,
-      "subscribers": 1744,
-      "commits": 96774,
-      "contributors": 3393,
+      "stars": 390092,
+      "forks": 82028,
+      "subscribers": 1743,
+      "commits": 96891,
+      "contributors": 3395,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1493,97 +1493,88 @@
     },
     {
       "capturedOn": "2026-09-19",
-      "stars": 390078,
-      "forks": 82022,
-      "subscribers": 1744,
-      "commits": 96774,
-      "contributors": 3393
+      "stars": 390092,
+      "forks": 82028,
+      "subscribers": 1743,
+      "commits": 96891,
+      "contributors": 3395
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 152931,
-        "title": "Update failure: plugin-target-unavailable (2026.9.4)",
-        "url": "https://github.com/openclaw/openclaw/issues/152931",
+        "number": 121232,
+        "title": "memory-core dreaming: ranker nominates candidates the applier always rejects (\"Ranked N, Promoted 0\" forever)",
+        "url": "https://github.com/openclaw/openclaw/issues/121232",
         "state": "open",
-        "author": "nomoneynofutre",
-        "updatedAt": "2026-09-19T14:22:50Z"
+        "author": "ctbritt",
+        "updatedAt": "2026-09-19T20:36:25Z"
       },
       {
         "kind": "issue",
-        "number": 149361,
-        "title": "Umbrella: WebUI performance and stability",
-        "url": "https://github.com/openclaw/openclaw/issues/149361",
+        "number": 139428,
+        "title": "Test audit: reduce redundant test code and full-suite runtime",
+        "url": "https://github.com/openclaw/openclaw/issues/139428",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-19T14:21:28Z"
-      },
-      {
-        "kind": "issue",
-        "number": 152854,
-        "title": "WebUI: reconnecting Logs expands the stream and loses the reading position",
-        "url": "https://github.com/openclaw/openclaw/issues/152854",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-19T14:21:09Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-19T20:35:39Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 150982,
-        "title": "fix(agent): scope preflight token estimates to the compacted window",
-        "url": "https://github.com/openclaw/openclaw/pull/150982",
+        "number": 145025,
+        "title": "fix(cron): record skipped cron runs as cancelled, not failed",
+        "url": "https://github.com/openclaw/openclaw/pull/145025",
         "state": "open",
-        "author": "coaiMax",
-        "updatedAt": "2026-09-19T14:23:08Z"
+        "author": "tzy-17",
+        "updatedAt": "2026-09-19T20:37:01Z"
       },
       {
         "kind": "pr",
-        "number": 119702,
-        "title": "fix(security): guard patternProperties defaults with compileSafeRegex",
-        "url": "https://github.com/openclaw/openclaw/pull/119702",
+        "number": 152748,
+        "title": "feat(android): retain reply metrics and session-aware notifications",
+        "url": "https://github.com/openclaw/openclaw/pull/152748",
         "state": "open",
-        "author": "SebTardif",
-        "updatedAt": "2026-09-19T14:22:59Z"
+        "author": "pestelence2k",
+        "updatedAt": "2026-09-19T20:36:59Z"
       },
       {
         "kind": "pr",
-        "number": 140995,
-        "title": "fix(openai): report applied image size and quality",
-        "url": "https://github.com/openclaw/openclaw/pull/140995",
+        "number": 118750,
+        "title": "fix(memory-core): make dreaming timestamp comparators and recency NaN-safe",
+        "url": "https://github.com/openclaw/openclaw/pull/118750",
         "state": "open",
-        "author": "ericcaiwx-star",
-        "updatedAt": "2026-09-19T14:22:49Z"
+        "author": "tzy-17",
+        "updatedAt": "2026-09-19T20:36:58Z"
       },
       {
         "kind": "pr",
-        "number": 152915,
-        "title": "fix: crowded session skills overlap in the composer menu",
-        "url": "https://github.com/openclaw/openclaw/pull/152915",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-19T14:22:46Z"
-      },
-      {
-        "kind": "pr",
-        "number": 143295,
-        "title": "fix(memory): add reusable read-only search managers",
-        "url": "https://github.com/openclaw/openclaw/pull/143295",
-        "state": "open",
-        "author": "saladinyao-cyber",
-        "updatedAt": "2026-09-19T14:22:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 152691,
-        "title": "improve: keep project listings responsive during database reads",
-        "url": "https://github.com/openclaw/openclaw/pull/152691",
+        "number": 152374,
+        "title": "fix(auth): remove redundant host source lease",
+        "url": "https://github.com/openclaw/openclaw/pull/152374",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-19T14:22:34Z"
+        "updatedAt": "2026-09-19T20:36:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 150898,
+        "title": "fix(update): reconcile a managed service pinned to another install",
+        "url": "https://github.com/openclaw/openclaw/pull/150898",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-19T20:36:56Z"
+      },
+      {
+        "kind": "pr",
+        "number": 153158,
+        "title": "improve(cron): move recovery proposal reads off the caller thread",
+        "url": "https://github.com/openclaw/openclaw/pull/153158",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-19T20:37:04Z"
       }
     ]
   }

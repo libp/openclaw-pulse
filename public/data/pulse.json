@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-19T00:19:00.650Z",
+  "generatedAt": "2026-09-19T10:55:19.019Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1074,18 +1074,18 @@
     },
     {
       "capturedOn": "2026-09-19",
-      "capturedAt": "2026-09-19T00:19:00.650Z",
-      "issueOpen": 5017,
-      "issueClosed": 49351,
-      "prOpen": 2859,
-      "prClosed": 92479,
-      "prMerged": 42129,
+      "capturedAt": "2026-09-19T10:55:19.019Z",
+      "issueOpen": 5094,
+      "issueClosed": 49419,
+      "prOpen": 2912,
+      "prClosed": 92786,
+      "prMerged": 42381,
       "workflowRuns": 40000,
-      "stars": 390060,
-      "forks": 82006,
-      "subscribers": 1745,
-      "commits": 96470,
-      "contributors": 3388,
+      "stars": 390068,
+      "forks": 82017,
+      "subscribers": 1746,
+      "commits": 96723,
+      "contributors": 3390,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1493,88 +1493,88 @@
     },
     {
       "capturedOn": "2026-09-19",
-      "stars": 390060,
-      "forks": 82006,
-      "subscribers": 1745,
-      "commits": 96470,
-      "contributors": 3388
+      "stars": 390068,
+      "forks": 82017,
+      "subscribers": 1746,
+      "commits": 96723,
+      "contributors": 3390
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 149361,
-        "title": "Umbrella: WebUI performance and stability",
-        "url": "https://github.com/openclaw/openclaw/issues/149361",
+        "number": 151659,
+        "title": "Control UI: changing Sessions filters collapses the loading table and resets page scroll",
+        "url": "https://github.com/openclaw/openclaw/issues/151659",
         "state": "open",
         "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-19T00:18:36Z"
+        "updatedAt": "2026-09-19T10:55:10Z"
       },
       {
         "kind": "issue",
-        "number": 151843,
-        "title": "[Bug]: Chat composer context lets the landscape action bar cover typed text",
-        "url": "https://github.com/openclaw/openclaw/issues/151843",
+        "number": 152791,
+        "title": "[Bug]: OPENCLAW_ALLOW_OLDER_BINARY_DESTRUCTIVE_ACTIONS=1 does not allow an older binary to start against newer-migrated config",
+        "url": "https://github.com/openclaw/openclaw/issues/152791",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-09-19T00:17:35Z"
+        "author": "kip-claw",
+        "updatedAt": "2026-09-19T10:53:57Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 152057,
-        "title": "feat(browser): unify local Chrome setup across desktop and terminal",
-        "url": "https://github.com/openclaw/openclaw/pull/152057",
+        "number": 152727,
+        "title": "fix(update): bound interrupted-update settle probe and skip when service is unmanaged (#152542)",
+        "url": "https://github.com/openclaw/openclaw/pull/152727",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-19T00:18:52Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-09-19T10:55:13Z"
       },
       {
         "kind": "pr",
-        "number": 152143,
-        "title": "fix(test): use Gateway WebSocket transport in network fixtures",
-        "url": "https://github.com/openclaw/openclaw/pull/152143",
-        "state": "closed",
+        "number": 146144,
+        "title": "fix(agents): clean up cancelled session reads",
+        "url": "https://github.com/openclaw/openclaw/pull/146144",
+        "state": "open",
+        "author": "qingminglong",
+        "updatedAt": "2026-09-19T10:55:12Z"
+      },
+      {
+        "kind": "pr",
+        "number": 152517,
+        "title": "fix: retain progress cards when delegated work outlives a turn",
+        "url": "https://github.com/openclaw/openclaw/pull/152517",
+        "state": "open",
+        "author": "obviyus",
+        "updatedAt": "2026-09-19T10:55:02Z"
+      },
+      {
+        "kind": "pr",
+        "number": 152793,
+        "title": "perf(doctor): reuse read-only worker for pending migrations",
+        "url": "https://github.com/openclaw/openclaw/pull/152793",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-19T00:18:45Z"
+        "updatedAt": "2026-09-19T10:55:00Z"
       },
       {
         "kind": "pr",
-        "number": 150995,
-        "title": "feat: show native child progress after parent yield",
-        "url": "https://github.com/openclaw/openclaw/pull/150995",
+        "number": 145959,
+        "title": "fix(test): reject malformed PID receipts",
+        "url": "https://github.com/openclaw/openclaw/pull/145959",
         "state": "open",
-        "author": "anyech",
-        "updatedAt": "2026-09-19T00:18:42Z"
+        "author": "qingminglong",
+        "updatedAt": "2026-09-19T10:54:55Z"
       },
       {
         "kind": "pr",
-        "number": 152298,
-        "title": "feat(typesafe): bundle Jev typed judgment provider",
-        "url": "https://github.com/openclaw/openclaw/pull/152298",
+        "number": 138358,
+        "title": "fix(cli): reject conflicting transcript artifact selectors",
+        "url": "https://github.com/openclaw/openclaw/pull/138358",
         "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-09-19T00:18:39Z"
-      },
-      {
-        "kind": "pr",
-        "number": 150903,
-        "title": "fix(agents): emit plan events for CLI progress_card tool results",
-        "url": "https://github.com/openclaw/openclaw/pull/150903",
-        "state": "open",
-        "author": "chelsealong",
-        "updatedAt": "2026-09-19T00:18:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 135296,
-        "title": "feat(agents): allow thinking overrides on visible sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/135296",
-        "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-09-19T00:18:31Z"
+        "author": "qingminglong",
+        "updatedAt": "2026-09-19T10:54:40Z"
       }
     ]
   }

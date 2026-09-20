@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-20T06:13:28.797Z",
+  "generatedAt": "2026-09-20T21:31:15.808Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1091,18 +1091,18 @@
     },
     {
       "capturedOn": "2026-09-20",
-      "capturedAt": "2026-09-20T06:13:28.797Z",
-      "issueOpen": 5156,
-      "issueClosed": 49578,
-      "prOpen": 2892,
-      "prClosed": 93255,
-      "prMerged": 42794,
+      "capturedAt": "2026-09-20T21:31:15.808Z",
+      "issueOpen": 5254,
+      "issueClosed": 49665,
+      "prOpen": 2938,
+      "prClosed": 93637,
+      "prMerged": 43117,
       "workflowRuns": 40000,
-      "stars": 390113,
-      "forks": 82031,
-      "subscribers": 1741,
-      "commits": 97131,
-      "contributors": 3398,
+      "stars": 390157,
+      "forks": 82048,
+      "subscribers": 1740,
+      "commits": 97448,
+      "contributors": 3403,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1518,11 +1518,11 @@
     },
     {
       "capturedOn": "2026-09-20",
-      "stars": 390113,
-      "forks": 82031,
-      "subscribers": 1741,
-      "commits": 97131,
-      "contributors": 3398
+      "stars": 390157,
+      "forks": 82048,
+      "subscribers": 1740,
+      "commits": 97448,
+      "contributors": 3403
     }
   ],
   "activity": {
@@ -1530,57 +1530,57 @@
     "prs": [
       {
         "kind": "pr",
-        "number": 153476,
-        "title": "feat(onnx): add local decision models and provider guides",
-        "url": "https://github.com/openclaw/openclaw/pull/153476",
+        "number": 153916,
+        "title": "feat(agent-loop): trigger bounded replanning after semantic stall",
+        "url": "https://github.com/openclaw/openclaw/pull/153916",
+        "state": "open",
+        "author": "jason-allen-oneal",
+        "updatedAt": "2026-09-20T21:31:07Z"
+      },
+      {
+        "kind": "pr",
+        "number": 154079,
+        "title": "fix(release): qualify 2026.7.35 frozen contracts",
+        "url": "https://github.com/openclaw/openclaw/pull/154079",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-09-20T21:31:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 129341,
+        "title": "fix(ui): preserve composition while renaming sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/129341",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-20T06:13:23Z"
+        "updatedAt": "2026-09-20T21:31:09Z"
       },
       {
         "kind": "pr",
-        "number": 141309,
-        "title": "fix(infra): use a Git-readable null path for isolated GIT_CONFIG on Windows",
-        "url": "https://github.com/openclaw/openclaw/pull/141309",
+        "number": 154078,
+        "title": "fix(release): route frozen upgrade baselines",
+        "url": "https://github.com/openclaw/openclaw/pull/154078",
         "state": "open",
-        "author": "hugenshen",
-        "updatedAt": "2026-09-20T06:13:22Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-09-20T21:31:02Z"
       },
       {
         "kind": "pr",
-        "number": 153432,
-        "title": "refactor: prepare interrupted-turn replay asynchronously",
-        "url": "https://github.com/openclaw/openclaw/pull/153432",
+        "number": 153711,
+        "title": "fix(config): walk the $include read pre-scan on an explicit work stack",
+        "url": "https://github.com/openclaw/openclaw/pull/153711",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-20T06:13:21Z"
+        "author": "ruel225",
+        "updatedAt": "2026-09-20T21:31:02Z"
       },
       {
         "kind": "pr",
-        "number": 152161,
-        "title": "feat(secrets): optional plugin-enforced secret-assignment projection for exec",
-        "url": "https://github.com/openclaw/openclaw/pull/152161",
-        "state": "open",
-        "author": "ChrisCantwell",
-        "updatedAt": "2026-09-20T06:13:08Z"
-      },
-      {
-        "kind": "pr",
-        "number": 153458,
-        "title": "improve: reduce mobile gutter test setup time",
-        "url": "https://github.com/openclaw/openclaw/pull/153458",
+        "number": 154007,
+        "title": "perf(test): isolate and reuse Gateway and update fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/154007",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-20T06:13:06Z"
-      },
-      {
-        "kind": "pr",
-        "number": 150898,
-        "title": "fix(update): reconcile a managed service pinned to another install",
-        "url": "https://github.com/openclaw/openclaw/pull/150898",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-20T06:13:06Z"
+        "updatedAt": "2026-09-20T21:31:01Z"
       }
     ]
   }

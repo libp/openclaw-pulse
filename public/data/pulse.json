@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-20T01:06:19.727Z",
+  "generatedAt": "2026-09-20T06:13:28.797Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1091,18 +1091,18 @@
     },
     {
       "capturedOn": "2026-09-20",
-      "capturedAt": "2026-09-20T01:06:19.727Z",
-      "issueOpen": 5206,
-      "issueClosed": 49497,
-      "prOpen": 2929,
-      "prClosed": 93087,
-      "prMerged": 42645,
+      "capturedAt": "2026-09-20T06:13:28.797Z",
+      "issueOpen": 5156,
+      "issueClosed": 49578,
+      "prOpen": 2892,
+      "prClosed": 93255,
+      "prMerged": 42794,
       "workflowRuns": 40000,
-      "stars": 390104,
-      "forks": 82028,
-      "subscribers": 1743,
-      "commits": 96983,
-      "contributors": 3396,
+      "stars": 390113,
+      "forks": 82031,
+      "subscribers": 1741,
+      "commits": 97131,
+      "contributors": 3398,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1518,88 +1518,69 @@
     },
     {
       "capturedOn": "2026-09-20",
-      "stars": 390104,
-      "forks": 82028,
-      "subscribers": 1743,
-      "commits": 96983,
-      "contributors": 3396
+      "stars": 390113,
+      "forks": 82031,
+      "subscribers": 1741,
+      "commits": 97131,
+      "contributors": 3398
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 153313,
-        "title": "[Bug]: 2026.9.5 Gateway main thread livelocks in acquirePreparedModelRuntimeLeaseFromOwners when a runtime selection is \"auto\" (normalizePreparedModelRuntimeInput not idempotent)",
-        "url": "https://github.com/openclaw/openclaw/issues/153313",
-        "state": "open",
-        "author": "stackingrockss",
-        "updatedAt": "2026-09-20T01:06:08Z"
-      },
-      {
-        "kind": "issue",
-        "number": 7406,
-        "title": "[Feature]: Human-readable Telegram topic names in session dropdown",
-        "url": "https://github.com/openclaw/openclaw/issues/7406",
-        "state": "open",
-        "author": "Diaspar4u",
-        "updatedAt": "2026-09-20T01:05:21Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 153238,
-        "title": "feat(ui): paste images into command-palette sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/153238",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-20T01:06:12Z"
-      },
-      {
-        "kind": "pr",
-        "number": 153196,
-        "title": "refactor: reuse fs-safe for memory walks and artifact reads",
-        "url": "https://github.com/openclaw/openclaw/pull/153196",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-09-20T01:06:10Z"
-      },
-      {
-        "kind": "pr",
-        "number": 152859,
-        "title": "improve(agents): prepare stored profile labels once",
-        "url": "https://github.com/openclaw/openclaw/pull/152859",
+        "number": 153476,
+        "title": "feat(onnx): add local decision models and provider guides",
+        "url": "https://github.com/openclaw/openclaw/pull/153476",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-20T01:06:10Z"
+        "updatedAt": "2026-09-20T06:13:23Z"
       },
       {
         "kind": "pr",
-        "number": 119291,
-        "title": "feat(plugins): add experimental FaceTime realtime voice bridge",
-        "url": "https://github.com/openclaw/openclaw/pull/119291",
+        "number": 141309,
+        "title": "fix(infra): use a Git-readable null path for isolated GIT_CONFIG on Windows",
+        "url": "https://github.com/openclaw/openclaw/pull/141309",
         "state": "open",
-        "author": "omarshahine",
-        "updatedAt": "2026-09-20T01:06:10Z"
+        "author": "hugenshen",
+        "updatedAt": "2026-09-20T06:13:22Z"
       },
       {
         "kind": "pr",
-        "number": 150348,
-        "title": "fix(config): write mixed include-owned catalogs and agent entries without flattening",
-        "url": "https://github.com/openclaw/openclaw/pull/150348",
+        "number": 153432,
+        "title": "refactor: prepare interrupted-turn replay asynchronously",
+        "url": "https://github.com/openclaw/openclaw/pull/153432",
         "state": "open",
-        "author": "sasan1200",
-        "updatedAt": "2026-09-20T01:06:15Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-20T06:13:21Z"
       },
       {
         "kind": "pr",
-        "number": 142102,
-        "title": "test(update): preserve unverified restart outcomes after package swaps",
-        "url": "https://github.com/openclaw/openclaw/pull/142102",
+        "number": 152161,
+        "title": "feat(secrets): optional plugin-enforced secret-assignment projection for exec",
+        "url": "https://github.com/openclaw/openclaw/pull/152161",
         "state": "open",
-        "author": "baovo15",
-        "updatedAt": "2026-09-20T01:06:06Z"
+        "author": "ChrisCantwell",
+        "updatedAt": "2026-09-20T06:13:08Z"
+      },
+      {
+        "kind": "pr",
+        "number": 153458,
+        "title": "improve: reduce mobile gutter test setup time",
+        "url": "https://github.com/openclaw/openclaw/pull/153458",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-20T06:13:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 150898,
+        "title": "fix(update): reconcile a managed service pinned to another install",
+        "url": "https://github.com/openclaw/openclaw/pull/150898",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-20T06:13:06Z"
       }
     ]
   }

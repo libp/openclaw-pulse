@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-21T00:14:43.362Z",
+  "generatedAt": "2026-09-21T04:56:56.087Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1108,17 +1108,17 @@
     },
     {
       "capturedOn": "2026-09-21",
-      "capturedAt": "2026-09-21T00:14:43.362Z",
-      "issueOpen": 5259,
-      "issueClosed": 49682,
-      "prOpen": 2940,
-      "prClosed": 93717,
-      "prMerged": 43191,
+      "capturedAt": "2026-09-21T04:56:56.087Z",
+      "issueOpen": 5246,
+      "issueClosed": 49755,
+      "prOpen": 2956,
+      "prClosed": 93889,
+      "prMerged": 43326,
       "workflowRuns": 40000,
-      "stars": 390160,
-      "forks": 82049,
-      "subscribers": 1740,
-      "commits": 97523,
+      "stars": 390162,
+      "forks": 82052,
+      "subscribers": 1739,
+      "commits": 97664,
       "contributors": 3403,
       "source": "github-actions",
       "approximateDate": false
@@ -1543,69 +1543,79 @@
     },
     {
       "capturedOn": "2026-09-21",
-      "stars": 390160,
-      "forks": 82049,
-      "subscribers": 1740,
-      "commits": 97523,
+      "stars": 390162,
+      "forks": 82052,
+      "subscribers": 1739,
+      "commits": 97664,
       "contributors": 3403
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 97616,
+        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
+        "url": "https://github.com/openclaw/openclaw/issues/97616",
+        "state": "open",
+        "author": "avp717",
+        "updatedAt": "2026-09-21T04:56:10Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 154197,
-        "title": "chore: simplify bootstrap budget tests",
-        "url": "https://github.com/openclaw/openclaw/pull/154197",
+        "number": 154439,
+        "title": "fix(tests): synchronize worker supervisor lifetime assertions",
+        "url": "https://github.com/openclaw/openclaw/pull/154439",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-21T00:14:37Z"
+        "updatedAt": "2026-09-21T04:56:47Z"
       },
       {
         "kind": "pr",
-        "number": 154190,
-        "title": "fix: reduce serialized Swift test execution",
-        "url": "https://github.com/openclaw/openclaw/pull/154190",
+        "number": 154431,
+        "title": "fix(browser): repair native hosts after package relocation",
+        "url": "https://github.com/openclaw/openclaw/pull/154431",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-21T00:14:36Z"
+        "updatedAt": "2026-09-21T04:56:47Z"
       },
       {
         "kind": "pr",
-        "number": 154192,
-        "title": "feat(reports): show session links in each member report",
-        "url": "https://github.com/openclaw/openclaw/pull/154192",
+        "number": 154441,
+        "title": "fix(skills): stop quarantining safety guides for prompt keywords",
+        "url": "https://github.com/openclaw/openclaw/pull/154441",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-09-21T00:14:35Z"
+        "updatedAt": "2026-09-21T04:56:46Z"
       },
       {
         "kind": "pr",
-        "number": 154189,
-        "title": "docs(agents): database access belongs in worker threads",
-        "url": "https://github.com/openclaw/openclaw/pull/154189",
+        "number": 154394,
+        "title": "fix(codex): stop artifact capture after cancellation during file opening",
+        "url": "https://github.com/openclaw/openclaw/pull/154394",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-21T00:14:34Z"
+        "updatedAt": "2026-09-21T04:56:44Z"
       },
       {
         "kind": "pr",
-        "number": 154196,
-        "title": "refactor: make Feishu registration cancellation test deterministic",
-        "url": "https://github.com/openclaw/openclaw/pull/154196",
+        "number": 154389,
+        "title": "perf(logging): skip redundant log and transcript redaction work",
+        "url": "https://github.com/openclaw/openclaw/pull/154389",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-21T00:14:32Z"
+        "updatedAt": "2026-09-21T04:56:44Z"
       },
       {
         "kind": "pr",
-        "number": 154151,
-        "title": "fix: avoid claiming macOS has no login keychain",
-        "url": "https://github.com/openclaw/openclaw/pull/154151",
-        "state": "closed",
+        "number": 154442,
+        "title": "test(proxy): build authenticated fixture URLs at runtime",
+        "url": "https://github.com/openclaw/openclaw/pull/154442",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-21T00:14:17Z"
+        "updatedAt": "2026-09-21T04:56:41Z"
       }
     ]
   }

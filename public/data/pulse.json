@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-21T04:56:56.087Z",
+  "generatedAt": "2026-09-21T17:01:44.947Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1108,18 +1108,18 @@
     },
     {
       "capturedOn": "2026-09-21",
-      "capturedAt": "2026-09-21T04:56:56.087Z",
-      "issueOpen": 5246,
-      "issueClosed": 49755,
-      "prOpen": 2956,
-      "prClosed": 93889,
-      "prMerged": 43326,
+      "capturedAt": "2026-09-21T17:01:44.947Z",
+      "issueOpen": 5308,
+      "issueClosed": 49824,
+      "prOpen": 3032,
+      "prClosed": 94282,
+      "prMerged": 43650,
       "workflowRuns": 40000,
-      "stars": 390162,
-      "forks": 82052,
-      "subscribers": 1739,
-      "commits": 97664,
-      "contributors": 3403,
+      "stars": 390200,
+      "forks": 82079,
+      "subscribers": 1735,
+      "commits": 97999,
+      "contributors": 3405,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1543,79 +1543,88 @@
     },
     {
       "capturedOn": "2026-09-21",
-      "stars": 390162,
-      "forks": 82052,
-      "subscribers": 1739,
-      "commits": 97664,
-      "contributors": 3403
+      "stars": 390200,
+      "forks": 82079,
+      "subscribers": 1735,
+      "commits": 97999,
+      "contributors": 3405
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 97616,
-        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
-        "url": "https://github.com/openclaw/openclaw/issues/97616",
+        "number": 155021,
+        "title": "Session SQLite migration recovery report (session-sqlite-1790009117650-1d32d3bf)",
+        "url": "https://github.com/openclaw/openclaw/issues/155021",
+        "state": "closed",
+        "author": "bjornpj",
+        "updatedAt": "2026-09-21T17:01:26Z"
+      },
+      {
+        "kind": "issue",
+        "number": 152409,
+        "title": "[Bug]: protected secret egress does not substitute Meta API Bearer/query tokens",
+        "url": "https://github.com/openclaw/openclaw/issues/152409",
         "state": "open",
-        "author": "avp717",
-        "updatedAt": "2026-09-21T04:56:10Z"
+        "author": "edgardoalvarez100",
+        "updatedAt": "2026-09-21T17:00:46Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 154439,
-        "title": "fix(tests): synchronize worker supervisor lifetime assertions",
-        "url": "https://github.com/openclaw/openclaw/pull/154439",
+        "number": 155006,
+        "title": "fix(test): prevent premature startup authentication test failures",
+        "url": "https://github.com/openclaw/openclaw/pull/155006",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-21T04:56:47Z"
+        "updatedAt": "2026-09-21T17:01:39Z"
       },
       {
         "kind": "pr",
-        "number": 154431,
-        "title": "fix(browser): repair native hosts after package relocation",
-        "url": "https://github.com/openclaw/openclaw/pull/154431",
+        "number": 153962,
+        "title": "ci: defer maintainer tooling on product-only PRs",
+        "url": "https://github.com/openclaw/openclaw/pull/153962",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-21T04:56:47Z"
+        "updatedAt": "2026-09-21T17:01:38Z"
       },
       {
         "kind": "pr",
-        "number": 154441,
-        "title": "fix(skills): stop quarantining safety guides for prompt keywords",
-        "url": "https://github.com/openclaw/openclaw/pull/154441",
+        "number": 153628,
+        "title": "feat(swarm): bind verification contracts to complete candidate manifests",
+        "url": "https://github.com/openclaw/openclaw/pull/153628",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-21T04:56:46Z"
+        "author": "zozo123",
+        "updatedAt": "2026-09-21T17:01:38Z"
       },
       {
         "kind": "pr",
-        "number": 154394,
-        "title": "fix(codex): stop artifact capture after cancellation during file opening",
-        "url": "https://github.com/openclaw/openclaw/pull/154394",
+        "number": 154945,
+        "title": "fix(codex): keep inference bursts from failing turns",
+        "url": "https://github.com/openclaw/openclaw/pull/154945",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-21T04:56:44Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-21T17:01:33Z"
       },
       {
         "kind": "pr",
-        "number": 154389,
-        "title": "perf(logging): skip redundant log and transcript redaction work",
-        "url": "https://github.com/openclaw/openclaw/pull/154389",
+        "number": 155024,
+        "title": "fix: keep retained databases held when deletion history is lost",
+        "url": "https://github.com/openclaw/openclaw/pull/155024",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-21T04:56:44Z"
+        "updatedAt": "2026-09-21T17:01:32Z"
       },
       {
         "kind": "pr",
-        "number": 154442,
-        "title": "test(proxy): build authenticated fixture URLs at runtime",
-        "url": "https://github.com/openclaw/openclaw/pull/154442",
+        "number": 154892,
+        "title": "fix(update): distinguish config validation execution failures",
+        "url": "https://github.com/openclaw/openclaw/pull/154892",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-21T04:56:41Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-21T17:01:32Z"
       }
     ]
   }

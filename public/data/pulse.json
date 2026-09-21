@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-21T17:01:44.947Z",
+  "generatedAt": "2026-09-21T21:02:51.397Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1108,17 +1108,17 @@
     },
     {
       "capturedOn": "2026-09-21",
-      "capturedAt": "2026-09-21T17:01:44.947Z",
-      "issueOpen": 5308,
-      "issueClosed": 49824,
-      "prOpen": 3032,
-      "prClosed": 94282,
-      "prMerged": 43650,
+      "capturedAt": "2026-09-21T21:02:51.397Z",
+      "issueOpen": 5333,
+      "issueClosed": 49844,
+      "prOpen": 3035,
+      "prClosed": 94403,
+      "prMerged": 43744,
       "workflowRuns": 40000,
-      "stars": 390200,
-      "forks": 82079,
+      "stars": 390214,
+      "forks": 82083,
       "subscribers": 1735,
-      "commits": 97999,
+      "commits": 98111,
       "contributors": 3405,
       "source": "github-actions",
       "approximateDate": false
@@ -1543,10 +1543,10 @@
     },
     {
       "capturedOn": "2026-09-21",
-      "stars": 390200,
-      "forks": 82079,
+      "stars": 390214,
+      "forks": 82083,
       "subscribers": 1735,
-      "commits": 97999,
+      "commits": 98111,
       "contributors": 3405
     }
   ],
@@ -1554,77 +1554,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 155021,
-        "title": "Session SQLite migration recovery report (session-sqlite-1790009117650-1d32d3bf)",
-        "url": "https://github.com/openclaw/openclaw/issues/155021",
-        "state": "closed",
-        "author": "bjornpj",
-        "updatedAt": "2026-09-21T17:01:26Z"
+        "number": 155189,
+        "title": "[Bug]: iOS chat cannot open or download assistant document attachments that work on the web",
+        "url": "https://github.com/openclaw/openclaw/issues/155189",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-21T21:02:39Z"
       },
       {
         "kind": "issue",
-        "number": 152409,
-        "title": "[Bug]: protected secret egress does not substitute Meta API Bearer/query tokens",
-        "url": "https://github.com/openclaw/openclaw/issues/152409",
+        "number": 155191,
+        "title": "Native memory leak in 2026.9.5 — RSS grows ~1 GiB per 30 s while V8 heap stays stable",
+        "url": "https://github.com/openclaw/openclaw/issues/155191",
         "state": "open",
-        "author": "edgardoalvarez100",
-        "updatedAt": "2026-09-21T17:00:46Z"
+        "author": "leoas90",
+        "updatedAt": "2026-09-21T21:02:36Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 155006,
-        "title": "fix(test): prevent premature startup authentication test failures",
-        "url": "https://github.com/openclaw/openclaw/pull/155006",
+        "number": 154674,
+        "title": "perf(update): fit candidate validation inside the published updater's deadline",
+        "url": "https://github.com/openclaw/openclaw/pull/154674",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-21T17:01:39Z"
+        "updatedAt": "2026-09-21T21:02:42Z"
       },
       {
         "kind": "pr",
-        "number": 153962,
-        "title": "ci: defer maintainer tooling on product-only PRs",
-        "url": "https://github.com/openclaw/openclaw/pull/153962",
+        "number": 154522,
+        "title": "feat: run Code Mode on Node or isolated QuickJS",
+        "url": "https://github.com/openclaw/openclaw/pull/154522",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-21T17:01:38Z"
+        "updatedAt": "2026-09-21T21:02:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 155169,
+        "title": "fix(worktrees): preserve detached checkout state during retirement",
+        "url": "https://github.com/openclaw/openclaw/pull/155169",
+        "state": "open",
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-09-21T21:02:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 155139,
+        "title": "feat(control-ui): reorder team-sidebar agents with synced preferences",
+        "url": "https://github.com/openclaw/openclaw/pull/155139",
+        "state": "open",
+        "author": "stackingrockss",
+        "updatedAt": "2026-09-21T21:02:38Z"
       },
       {
         "kind": "pr",
         "number": 153628,
-        "title": "feat(swarm): bind verification contracts to complete candidate manifests",
+        "title": "feat(swarm): bind exact candidate manifests into verifier launches",
         "url": "https://github.com/openclaw/openclaw/pull/153628",
         "state": "open",
         "author": "zozo123",
-        "updatedAt": "2026-09-21T17:01:38Z"
+        "updatedAt": "2026-09-21T21:02:36Z"
       },
       {
         "kind": "pr",
-        "number": 154945,
-        "title": "fix(codex): keep inference bursts from failing turns",
-        "url": "https://github.com/openclaw/openclaw/pull/154945",
+        "number": 149882,
+        "title": "feat(update): support root-owned foreground FreeBSD updates",
+        "url": "https://github.com/openclaw/openclaw/pull/149882",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-09-21T17:01:33Z"
-      },
-      {
-        "kind": "pr",
-        "number": 155024,
-        "title": "fix: keep retained databases held when deletion history is lost",
-        "url": "https://github.com/openclaw/openclaw/pull/155024",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-21T17:01:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 154892,
-        "title": "fix(update): distinguish config validation execution failures",
-        "url": "https://github.com/openclaw/openclaw/pull/154892",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-09-21T17:01:32Z"
+        "updatedAt": "2026-09-21T21:02:36Z"
       }
     ]
   }

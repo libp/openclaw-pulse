@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-20T21:31:15.808Z",
+  "generatedAt": "2026-09-21T00:14:43.362Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1105,6 +1105,23 @@
       "contributors": 3403,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-21",
+      "capturedAt": "2026-09-21T00:14:43.362Z",
+      "issueOpen": 5259,
+      "issueClosed": 49682,
+      "prOpen": 2940,
+      "prClosed": 93717,
+      "prMerged": 43191,
+      "workflowRuns": 40000,
+      "stars": 390160,
+      "forks": 82049,
+      "subscribers": 1740,
+      "commits": 97523,
+      "contributors": 3403,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1523,6 +1540,14 @@
       "subscribers": 1740,
       "commits": 97448,
       "contributors": 3403
+    },
+    {
+      "capturedOn": "2026-09-21",
+      "stars": 390160,
+      "forks": 82049,
+      "subscribers": 1740,
+      "commits": 97523,
+      "contributors": 3403
     }
   ],
   "activity": {
@@ -1530,57 +1555,57 @@
     "prs": [
       {
         "kind": "pr",
-        "number": 153916,
-        "title": "feat(agent-loop): trigger bounded replanning after semantic stall",
-        "url": "https://github.com/openclaw/openclaw/pull/153916",
-        "state": "open",
-        "author": "jason-allen-oneal",
-        "updatedAt": "2026-09-20T21:31:07Z"
-      },
-      {
-        "kind": "pr",
-        "number": 154079,
-        "title": "fix(release): qualify 2026.7.35 frozen contracts",
-        "url": "https://github.com/openclaw/openclaw/pull/154079",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-09-20T21:31:06Z"
-      },
-      {
-        "kind": "pr",
-        "number": 129341,
-        "title": "fix(ui): preserve composition while renaming sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/129341",
+        "number": 154197,
+        "title": "chore: simplify bootstrap budget tests",
+        "url": "https://github.com/openclaw/openclaw/pull/154197",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-20T21:31:09Z"
+        "updatedAt": "2026-09-21T00:14:37Z"
       },
       {
         "kind": "pr",
-        "number": 154078,
-        "title": "fix(release): route frozen upgrade baselines",
-        "url": "https://github.com/openclaw/openclaw/pull/154078",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-09-20T21:31:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 153711,
-        "title": "fix(config): walk the $include read pre-scan on an explicit work stack",
-        "url": "https://github.com/openclaw/openclaw/pull/153711",
-        "state": "open",
-        "author": "ruel225",
-        "updatedAt": "2026-09-20T21:31:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 154007,
-        "title": "perf(test): isolate and reuse Gateway and update fixtures",
-        "url": "https://github.com/openclaw/openclaw/pull/154007",
+        "number": 154190,
+        "title": "fix: reduce serialized Swift test execution",
+        "url": "https://github.com/openclaw/openclaw/pull/154190",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-20T21:31:01Z"
+        "updatedAt": "2026-09-21T00:14:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 154192,
+        "title": "feat(reports): show session links in each member report",
+        "url": "https://github.com/openclaw/openclaw/pull/154192",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-21T00:14:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 154189,
+        "title": "docs(agents): database access belongs in worker threads",
+        "url": "https://github.com/openclaw/openclaw/pull/154189",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-21T00:14:34Z"
+      },
+      {
+        "kind": "pr",
+        "number": 154196,
+        "title": "refactor: make Feishu registration cancellation test deterministic",
+        "url": "https://github.com/openclaw/openclaw/pull/154196",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-21T00:14:32Z"
+      },
+      {
+        "kind": "pr",
+        "number": 154151,
+        "title": "fix: avoid claiming macOS has no login keychain",
+        "url": "https://github.com/openclaw/openclaw/pull/154151",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-09-21T00:14:17Z"
       }
     ]
   }

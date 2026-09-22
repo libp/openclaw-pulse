@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-22T04:51:51.098Z",
+  "generatedAt": "2026-09-22T09:55:49.589Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1125,18 +1125,18 @@
     },
     {
       "capturedOn": "2026-09-22",
-      "capturedAt": "2026-09-22T04:51:51.098Z",
-      "issueOpen": 5322,
-      "issueClosed": 49914,
-      "prOpen": 2986,
-      "prClosed": 94646,
-      "prMerged": 43940,
+      "capturedAt": "2026-09-22T09:55:49.589Z",
+      "issueOpen": 5335,
+      "issueClosed": 49949,
+      "prOpen": 2989,
+      "prClosed": 94785,
+      "prMerged": 44038,
       "workflowRuns": 40000,
-      "stars": 390228,
-      "forks": 82089,
+      "stars": 390236,
+      "forks": 82085,
       "subscribers": 1735,
-      "commits": 98313,
-      "contributors": 3408,
+      "commits": 98421,
+      "contributors": 3411,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1568,124 +1568,106 @@
     },
     {
       "capturedOn": "2026-09-22",
-      "stars": 390228,
-      "forks": 82089,
+      "stars": 390236,
+      "forks": 82085,
       "subscribers": 1735,
-      "commits": 98313,
-      "contributors": 3408
+      "commits": 98421,
+      "contributors": 3411
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 115904,
-        "title": "[Bug]: SQLite compaction re-counts and replays history before the latest compaction boundary",
-        "url": "https://github.com/openclaw/openclaw/issues/115904",
+        "number": 116691,
+        "title": "[Bug]: 使用openai-responses调用火山引擎，长对话出现The request failed because it is missing `input.status` parameter",
+        "url": "https://github.com/openclaw/openclaw/issues/116691",
         "state": "open",
-        "author": "Cuttingwater",
-        "updatedAt": "2026-09-22T04:51:38Z"
+        "author": "phoenixxie0",
+        "updatedAt": "2026-09-22T09:55:17Z"
       },
       {
         "kind": "issue",
-        "number": 139428,
-        "title": "Test audit: reduce redundant test code and full-suite runtime",
-        "url": "https://github.com/openclaw/openclaw/issues/139428",
+        "number": 116663,
+        "title": "xAI realtime resumption returns UNAVAILABLE after reconnect",
+        "url": "https://github.com/openclaw/openclaw/issues/116663",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-22T09:55:14Z"
+      },
+      {
+        "kind": "issue",
+        "number": 155633,
+        "title": "Add Databricks Unity Gateway as a native model provider",
+        "url": "https://github.com/openclaw/openclaw/issues/155633",
+        "state": "open",
+        "author": "zozo123",
+        "updatedAt": "2026-09-22T09:55:10Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127408,
+        "title": "Mattermost reactions bypass durable ingress and are lost on transient failure",
+        "url": "https://github.com/openclaw/openclaw/issues/127408",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-22T04:51:37Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119117,
-        "title": "[Bug]: Deferred turn maintenance has no timeout; resulting stale running rows cannot be cleared by any supported command",
-        "url": "https://github.com/openclaw/openclaw/issues/119117",
-        "state": "open",
-        "author": "brkastner",
-        "updatedAt": "2026-09-22T04:51:33Z"
-      },
-      {
-        "kind": "issue",
-        "number": 141809,
-        "title": "[Bug]: Control UI OpenAI sign-in auto-enables the Codex plugin without installing its managed runtime; observer logs \"Managed Codex app-server binary was not found\"",
-        "url": "https://github.com/openclaw/openclaw/issues/141809",
-        "state": "open",
-        "author": "dh-js",
-        "updatedAt": "2026-09-22T04:51:32Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119123,
-        "title": "Control UI: render audio attachments as chat-style voice bubbles (like WeChat/QQ)",
-        "url": "https://github.com/openclaw/openclaw/issues/119123",
-        "state": "open",
-        "author": "Tangqiu25",
-        "updatedAt": "2026-09-22T04:51:28Z"
-      },
-      {
-        "kind": "issue",
-        "number": 118587,
-        "title": "[Bug]: exec: processes killed by SIGKILL before timeout expires + session context loss",
-        "url": "https://github.com/openclaw/openclaw/issues/118587",
-        "state": "open",
-        "author": "mick-lu-lingyue",
-        "updatedAt": "2026-09-22T04:51:28Z"
+        "updatedAt": "2026-09-22T09:55:05Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 155422,
-        "title": "perf(diagnostics): filter stability events before cloning",
-        "url": "https://github.com/openclaw/openclaw/pull/155422",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-22T04:51:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 154534,
-        "title": "fix(exec): avoid approval prompts for read-only audit suppression searches",
-        "url": "https://github.com/openclaw/openclaw/pull/154534",
+        "number": 153907,
+        "title": "feat(control-ui): notify everyone with access to a shared chat",
+        "url": "https://github.com/openclaw/openclaw/pull/153907",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-09-22T04:51:44Z"
+        "updatedAt": "2026-09-22T09:55:40Z"
       },
       {
         "kind": "pr",
-        "number": 155448,
-        "title": "fix(codex): keep ordinary turns available without Computer Use",
-        "url": "https://github.com/openclaw/openclaw/pull/155448",
+        "number": 131387,
+        "title": "fix(sessions): stop deriving parent model overrides for Telegram DM topics",
+        "url": "https://github.com/openclaw/openclaw/pull/131387",
         "state": "open",
-        "author": "BsnizND",
-        "updatedAt": "2026-09-22T04:51:41Z"
+        "author": "aspalagin",
+        "updatedAt": "2026-09-22T09:55:39Z"
       },
       {
         "kind": "pr",
-        "number": 155378,
-        "title": "fix(webchat): retain failed-turn diagnostics for debugging",
-        "url": "https://github.com/openclaw/openclaw/pull/155378",
+        "number": 141287,
+        "title": "fix(gateway): flush plugin HTTP upgrade rejects before destroy",
+        "url": "https://github.com/openclaw/openclaw/pull/141287",
         "state": "open",
-        "author": "freeqaz-openai",
-        "updatedAt": "2026-09-22T04:51:37Z"
+        "author": "hugenshen",
+        "updatedAt": "2026-09-22T09:55:38Z"
       },
       {
         "kind": "pr",
-        "number": 155446,
-        "title": "improve: avoid redundant schema repair during Doctor preflight",
-        "url": "https://github.com/openclaw/openclaw/pull/155446",
+        "number": 155557,
+        "title": "fix(tests): reduce SQLite compile-cache fixture startup",
+        "url": "https://github.com/openclaw/openclaw/pull/155557",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-22T04:51:36Z"
+        "updatedAt": "2026-09-22T09:55:37Z"
       },
       {
         "kind": "pr",
-        "number": 154477,
-        "title": "fix: bind queued GitHub publication to its requester",
-        "url": "https://github.com/openclaw/openclaw/pull/154477",
+        "number": 147821,
+        "title": "test(update): verify first-hop config preservation",
+        "url": "https://github.com/openclaw/openclaw/pull/147821",
         "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-09-22T04:51:36Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-22T09:55:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 155638,
+        "title": "test(media): isolate base64 memory measurements",
+        "url": "https://github.com/openclaw/openclaw/pull/155638",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-22T09:55:40Z"
       }
     ]
   }

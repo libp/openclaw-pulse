@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-22T14:51:01.494Z",
+  "generatedAt": "2026-09-22T18:52:49.366Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1125,17 +1125,17 @@
     },
     {
       "capturedOn": "2026-09-22",
-      "capturedAt": "2026-09-22T14:51:01.494Z",
-      "issueOpen": 5334,
-      "issueClosed": 49985,
-      "prOpen": 2957,
-      "prClosed": 94923,
-      "prMerged": 44148,
+      "capturedAt": "2026-09-22T18:52:49.366Z",
+      "issueOpen": 5341,
+      "issueClosed": 50016,
+      "prOpen": 2954,
+      "prClosed": 95008,
+      "prMerged": 44213,
       "workflowRuns": 40000,
-      "stars": 390256,
+      "stars": 390259,
       "forks": 82086,
       "subscribers": 1736,
-      "commits": 98549,
+      "commits": 98614,
       "contributors": 3413,
       "source": "github-actions",
       "approximateDate": false
@@ -1568,10 +1568,10 @@
     },
     {
       "capturedOn": "2026-09-22",
-      "stars": 390256,
+      "stars": 390259,
       "forks": 82086,
       "subscribers": 1736,
-      "commits": 98549,
+      "commits": 98614,
       "contributors": 3413
     }
   ],
@@ -1579,68 +1579,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 84037,
-        "title": "Improve Codex app-server steady-state CPU and helper process overhead",
-        "url": "https://github.com/openclaw/openclaw/issues/84037",
+        "number": 139428,
+        "title": "Test audit: reduce redundant test code and full-suite runtime",
+        "url": "https://github.com/openclaw/openclaw/issues/139428",
         "state": "open",
-        "author": "ndj888",
-        "updatedAt": "2026-09-22T14:50:13Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-22T18:52:25Z"
+      },
+      {
+        "kind": "issue",
+        "number": 155896,
+        "title": "Worker authority checks repeatedly read placement SQLite on the Gateway thread",
+        "url": "https://github.com/openclaw/openclaw/issues/155896",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-22T18:51:48Z"
+      },
+      {
+        "kind": "issue",
+        "number": 155764,
+        "title": "[Bug]: OpenClaw 2026.9.5 update blocked by retained_plugin_source_conflict",
+        "url": "https://github.com/openclaw/openclaw/issues/155764",
+        "state": "open",
+        "author": "zhiyuan82-tech",
+        "updatedAt": "2026-09-22T18:51:44Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 143610,
-        "title": "feat(ios): add selected-conversation actions",
-        "url": "https://github.com/openclaw/openclaw/pull/143610",
+        "number": 155899,
+        "title": "fix(qa): make Telegram delivery-failure proof deterministic",
+        "url": "https://github.com/openclaw/openclaw/pull/155899",
+        "state": "open",
+        "author": "obviyus",
+        "updatedAt": "2026-09-22T18:52:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 155134,
+        "title": "feat: add provider-neutral decision evaluation tool",
+        "url": "https://github.com/openclaw/openclaw/pull/155134",
+        "state": "open",
+        "author": "jjjhenriksen",
+        "updatedAt": "2026-09-22T18:52:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 129476,
+        "title": "feat(memory): add governed lifecycle-aware retrieval",
+        "url": "https://github.com/openclaw/openclaw/pull/129476",
+        "state": "open",
+        "author": "michaelrlee01-sys",
+        "updatedAt": "2026-09-22T18:52:39Z"
+      },
+      {
+        "kind": "pr",
+        "number": 155830,
+        "title": "feat(test): share the measured Gateway host across plugin workloads",
+        "url": "https://github.com/openclaw/openclaw/pull/155830",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-09-22T14:50:56Z"
+        "updatedAt": "2026-09-22T18:52:38Z"
       },
       {
         "kind": "pr",
-        "number": 154923,
-        "title": "fix: continuation-skip injection never skips on a completed workspace",
-        "url": "https://github.com/openclaw/openclaw/pull/154923",
-        "state": "open",
-        "author": "sxh313",
-        "updatedAt": "2026-09-22T14:50:53Z"
-      },
-      {
-        "kind": "pr",
-        "number": 155632,
-        "title": "feat(update): let the candidate decide update admission",
-        "url": "https://github.com/openclaw/openclaw/pull/155632",
+        "number": 155389,
+        "title": "fix(update): report deferred repairs as warnings and clear resolved notices",
+        "url": "https://github.com/openclaw/openclaw/pull/155389",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-22T14:50:54Z"
+        "updatedAt": "2026-09-22T18:52:38Z"
       },
       {
         "kind": "pr",
-        "number": 120598,
-        "title": "feat(capability): add private model-run prompt files",
-        "url": "https://github.com/openclaw/openclaw/pull/120598",
+        "number": 155866,
+        "title": "fix(ci): expose Windows Testbox spawn failures",
+        "url": "https://github.com/openclaw/openclaw/pull/155866",
         "state": "open",
-        "author": "shad0wca7",
-        "updatedAt": "2026-09-22T14:50:51Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119686,
-        "title": "fix(media): retry against the original file when Wikimedia rejects a thumbnail width",
-        "url": "https://github.com/openclaw/openclaw/pull/119686",
-        "state": "open",
-        "author": "sappkevin",
-        "updatedAt": "2026-09-22T14:50:51Z"
-      },
-      {
-        "kind": "pr",
-        "number": 119289,
-        "title": "fix(imessage): thread replies with thread_originator_guid",
-        "url": "https://github.com/openclaw/openclaw/pull/119289",
-        "state": "open",
-        "author": "dkattan",
-        "updatedAt": "2026-09-22T14:50:51Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-22T18:52:32Z"
       }
     ]
   }

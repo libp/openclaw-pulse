@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-22T00:04:52.765Z",
+  "generatedAt": "2026-09-22T04:51:51.098Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1125,18 +1125,18 @@
     },
     {
       "capturedOn": "2026-09-22",
-      "capturedAt": "2026-09-22T00:04:52.765Z",
-      "issueOpen": 5325,
-      "issueClosed": 49868,
-      "prOpen": 3001,
-      "prClosed": 94513,
-      "prMerged": 43838,
+      "capturedAt": "2026-09-22T04:51:51.098Z",
+      "issueOpen": 5322,
+      "issueClosed": 49914,
+      "prOpen": 2986,
+      "prClosed": 94646,
+      "prMerged": 43940,
       "workflowRuns": 40000,
-      "stars": 390219,
-      "forks": 82085,
+      "stars": 390228,
+      "forks": 82089,
       "subscribers": 1735,
-      "commits": 98210,
-      "contributors": 3406,
+      "commits": 98313,
+      "contributors": 3408,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1568,69 +1568,124 @@
     },
     {
       "capturedOn": "2026-09-22",
-      "stars": 390219,
-      "forks": 82085,
+      "stars": 390228,
+      "forks": 82089,
       "subscribers": 1735,
-      "commits": 98210,
-      "contributors": 3406
+      "commits": 98313,
+      "contributors": 3408
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 115904,
+        "title": "[Bug]: SQLite compaction re-counts and replays history before the latest compaction boundary",
+        "url": "https://github.com/openclaw/openclaw/issues/115904",
+        "state": "open",
+        "author": "Cuttingwater",
+        "updatedAt": "2026-09-22T04:51:38Z"
+      },
+      {
+        "kind": "issue",
+        "number": 139428,
+        "title": "Test audit: reduce redundant test code and full-suite runtime",
+        "url": "https://github.com/openclaw/openclaw/issues/139428",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-22T04:51:37Z"
+      },
+      {
+        "kind": "issue",
+        "number": 119117,
+        "title": "[Bug]: Deferred turn maintenance has no timeout; resulting stale running rows cannot be cleared by any supported command",
+        "url": "https://github.com/openclaw/openclaw/issues/119117",
+        "state": "open",
+        "author": "brkastner",
+        "updatedAt": "2026-09-22T04:51:33Z"
+      },
+      {
+        "kind": "issue",
+        "number": 141809,
+        "title": "[Bug]: Control UI OpenAI sign-in auto-enables the Codex plugin without installing its managed runtime; observer logs \"Managed Codex app-server binary was not found\"",
+        "url": "https://github.com/openclaw/openclaw/issues/141809",
+        "state": "open",
+        "author": "dh-js",
+        "updatedAt": "2026-09-22T04:51:32Z"
+      },
+      {
+        "kind": "issue",
+        "number": 119123,
+        "title": "Control UI: render audio attachments as chat-style voice bubbles (like WeChat/QQ)",
+        "url": "https://github.com/openclaw/openclaw/issues/119123",
+        "state": "open",
+        "author": "Tangqiu25",
+        "updatedAt": "2026-09-22T04:51:28Z"
+      },
+      {
+        "kind": "issue",
+        "number": 118587,
+        "title": "[Bug]: exec: processes killed by SIGKILL before timeout expires + session context loss",
+        "url": "https://github.com/openclaw/openclaw/issues/118587",
+        "state": "open",
+        "author": "mick-lu-lingyue",
+        "updatedAt": "2026-09-22T04:51:28Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 155150,
-        "title": "fix: keep mobile task progress collapsed by default",
-        "url": "https://github.com/openclaw/openclaw/pull/155150",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-22T00:04:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 153856,
-        "title": "feat(plugins): expose atomic decision routing host contract",
-        "url": "https://github.com/openclaw/openclaw/pull/153856",
-        "state": "open",
-        "author": "jb510",
-        "updatedAt": "2026-09-22T00:04:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 154426,
-        "title": "improve(ci): run embedded agent tests in parallel",
-        "url": "https://github.com/openclaw/openclaw/pull/154426",
+        "number": 155422,
+        "title": "perf(diagnostics): filter stability events before cloning",
+        "url": "https://github.com/openclaw/openclaw/pull/155422",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-22T00:04:40Z"
+        "updatedAt": "2026-09-22T04:51:44Z"
       },
       {
         "kind": "pr",
-        "number": 153213,
-        "title": "improve(ui): coalesce progress card refreshes",
-        "url": "https://github.com/openclaw/openclaw/pull/153213",
+        "number": 154534,
+        "title": "fix(exec): avoid approval prompts for read-only audit suppression searches",
+        "url": "https://github.com/openclaw/openclaw/pull/154534",
         "state": "open",
-        "author": "jjjhenriksen",
-        "updatedAt": "2026-09-22T00:04:38Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-22T04:51:44Z"
       },
       {
         "kind": "pr",
-        "number": 149490,
-        "title": "fix(codex): preserve unconsumed native child results",
-        "url": "https://github.com/openclaw/openclaw/pull/149490",
+        "number": 155448,
+        "title": "fix(codex): keep ordinary turns available without Computer Use",
+        "url": "https://github.com/openclaw/openclaw/pull/155448",
         "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-09-22T00:04:30Z"
+        "author": "BsnizND",
+        "updatedAt": "2026-09-22T04:51:41Z"
       },
       {
         "kind": "pr",
-        "number": 155284,
-        "title": "fix(qa-lab): retain tab focus and scroll during polling",
-        "url": "https://github.com/openclaw/openclaw/pull/155284",
+        "number": 155378,
+        "title": "fix(webchat): retain failed-turn diagnostics for debugging",
+        "url": "https://github.com/openclaw/openclaw/pull/155378",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-09-22T00:04:28Z"
+        "author": "freeqaz-openai",
+        "updatedAt": "2026-09-22T04:51:37Z"
+      },
+      {
+        "kind": "pr",
+        "number": 155446,
+        "title": "improve: avoid redundant schema repair during Doctor preflight",
+        "url": "https://github.com/openclaw/openclaw/pull/155446",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-22T04:51:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 154477,
+        "title": "fix: bind queued GitHub publication to its requester",
+        "url": "https://github.com/openclaw/openclaw/pull/154477",
+        "state": "open",
+        "author": "shakkernerd",
+        "updatedAt": "2026-09-22T04:51:36Z"
       }
     ]
   }

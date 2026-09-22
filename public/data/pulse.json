@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-22T09:55:49.589Z",
+  "generatedAt": "2026-09-22T14:51:01.494Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1125,18 +1125,18 @@
     },
     {
       "capturedOn": "2026-09-22",
-      "capturedAt": "2026-09-22T09:55:49.589Z",
-      "issueOpen": 5335,
-      "issueClosed": 49949,
-      "prOpen": 2989,
-      "prClosed": 94785,
-      "prMerged": 44038,
+      "capturedAt": "2026-09-22T14:51:01.494Z",
+      "issueOpen": 5334,
+      "issueClosed": 49985,
+      "prOpen": 2957,
+      "prClosed": 94923,
+      "prMerged": 44148,
       "workflowRuns": 40000,
-      "stars": 390236,
-      "forks": 82085,
-      "subscribers": 1735,
-      "commits": 98421,
-      "contributors": 3411,
+      "stars": 390256,
+      "forks": 82086,
+      "subscribers": 1736,
+      "commits": 98549,
+      "contributors": 3413,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1568,106 +1568,79 @@
     },
     {
       "capturedOn": "2026-09-22",
-      "stars": 390236,
-      "forks": 82085,
-      "subscribers": 1735,
-      "commits": 98421,
-      "contributors": 3411
+      "stars": 390256,
+      "forks": 82086,
+      "subscribers": 1736,
+      "commits": 98549,
+      "contributors": 3413
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 116691,
-        "title": "[Bug]: 使用openai-responses调用火山引擎，长对话出现The request failed because it is missing `input.status` parameter",
-        "url": "https://github.com/openclaw/openclaw/issues/116691",
+        "number": 84037,
+        "title": "Improve Codex app-server steady-state CPU and helper process overhead",
+        "url": "https://github.com/openclaw/openclaw/issues/84037",
         "state": "open",
-        "author": "phoenixxie0",
-        "updatedAt": "2026-09-22T09:55:17Z"
-      },
-      {
-        "kind": "issue",
-        "number": 116663,
-        "title": "xAI realtime resumption returns UNAVAILABLE after reconnect",
-        "url": "https://github.com/openclaw/openclaw/issues/116663",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-09-22T09:55:14Z"
-      },
-      {
-        "kind": "issue",
-        "number": 155633,
-        "title": "Add Databricks Unity Gateway as a native model provider",
-        "url": "https://github.com/openclaw/openclaw/issues/155633",
-        "state": "open",
-        "author": "zozo123",
-        "updatedAt": "2026-09-22T09:55:10Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127408,
-        "title": "Mattermost reactions bypass durable ingress and are lost on transient failure",
-        "url": "https://github.com/openclaw/openclaw/issues/127408",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-22T09:55:05Z"
+        "author": "ndj888",
+        "updatedAt": "2026-09-22T14:50:13Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 153907,
-        "title": "feat(control-ui): notify everyone with access to a shared chat",
-        "url": "https://github.com/openclaw/openclaw/pull/153907",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-22T09:55:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 131387,
-        "title": "fix(sessions): stop deriving parent model overrides for Telegram DM topics",
-        "url": "https://github.com/openclaw/openclaw/pull/131387",
-        "state": "open",
-        "author": "aspalagin",
-        "updatedAt": "2026-09-22T09:55:39Z"
-      },
-      {
-        "kind": "pr",
-        "number": 141287,
-        "title": "fix(gateway): flush plugin HTTP upgrade rejects before destroy",
-        "url": "https://github.com/openclaw/openclaw/pull/141287",
-        "state": "open",
-        "author": "hugenshen",
-        "updatedAt": "2026-09-22T09:55:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 155557,
-        "title": "fix(tests): reduce SQLite compile-cache fixture startup",
-        "url": "https://github.com/openclaw/openclaw/pull/155557",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-22T09:55:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 147821,
-        "title": "test(update): verify first-hop config preservation",
-        "url": "https://github.com/openclaw/openclaw/pull/147821",
+        "number": 143610,
+        "title": "feat(ios): add selected-conversation actions",
+        "url": "https://github.com/openclaw/openclaw/pull/143610",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-09-22T09:55:36Z"
+        "updatedAt": "2026-09-22T14:50:56Z"
       },
       {
         "kind": "pr",
-        "number": 155638,
-        "title": "test(media): isolate base64 memory measurements",
-        "url": "https://github.com/openclaw/openclaw/pull/155638",
+        "number": 154923,
+        "title": "fix: continuation-skip injection never skips on a completed workspace",
+        "url": "https://github.com/openclaw/openclaw/pull/154923",
+        "state": "open",
+        "author": "sxh313",
+        "updatedAt": "2026-09-22T14:50:53Z"
+      },
+      {
+        "kind": "pr",
+        "number": 155632,
+        "title": "feat(update): let the candidate decide update admission",
+        "url": "https://github.com/openclaw/openclaw/pull/155632",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-22T09:55:40Z"
+        "updatedAt": "2026-09-22T14:50:54Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120598,
+        "title": "feat(capability): add private model-run prompt files",
+        "url": "https://github.com/openclaw/openclaw/pull/120598",
+        "state": "open",
+        "author": "shad0wca7",
+        "updatedAt": "2026-09-22T14:50:51Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119686,
+        "title": "fix(media): retry against the original file when Wikimedia rejects a thumbnail width",
+        "url": "https://github.com/openclaw/openclaw/pull/119686",
+        "state": "open",
+        "author": "sappkevin",
+        "updatedAt": "2026-09-22T14:50:51Z"
+      },
+      {
+        "kind": "pr",
+        "number": 119289,
+        "title": "fix(imessage): thread replies with thread_originator_guid",
+        "url": "https://github.com/openclaw/openclaw/pull/119289",
+        "state": "open",
+        "author": "dkattan",
+        "updatedAt": "2026-09-22T14:50:51Z"
       }
     ]
   }

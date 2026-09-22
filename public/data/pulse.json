@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-21T21:02:51.397Z",
+  "generatedAt": "2026-09-22T00:04:52.765Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1122,6 +1122,23 @@
       "contributors": 3405,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-22",
+      "capturedAt": "2026-09-22T00:04:52.765Z",
+      "issueOpen": 5325,
+      "issueClosed": 49868,
+      "prOpen": 3001,
+      "prClosed": 94513,
+      "prMerged": 43838,
+      "workflowRuns": 40000,
+      "stars": 390219,
+      "forks": 82085,
+      "subscribers": 1735,
+      "commits": 98210,
+      "contributors": 3406,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1548,83 +1565,72 @@
       "subscribers": 1735,
       "commits": 98111,
       "contributors": 3405
+    },
+    {
+      "capturedOn": "2026-09-22",
+      "stars": 390219,
+      "forks": 82085,
+      "subscribers": 1735,
+      "commits": 98210,
+      "contributors": 3406
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 155189,
-        "title": "[Bug]: iOS chat cannot open or download assistant document attachments that work on the web",
-        "url": "https://github.com/openclaw/openclaw/issues/155189",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-21T21:02:39Z"
-      },
-      {
-        "kind": "issue",
-        "number": 155191,
-        "title": "Native memory leak in 2026.9.5 — RSS grows ~1 GiB per 30 s while V8 heap stays stable",
-        "url": "https://github.com/openclaw/openclaw/issues/155191",
-        "state": "open",
-        "author": "leoas90",
-        "updatedAt": "2026-09-21T21:02:36Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 154674,
-        "title": "perf(update): fit candidate validation inside the published updater's deadline",
-        "url": "https://github.com/openclaw/openclaw/pull/154674",
+        "number": 155150,
+        "title": "fix: keep mobile task progress collapsed by default",
+        "url": "https://github.com/openclaw/openclaw/pull/155150",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-22T00:04:42Z"
+      },
+      {
+        "kind": "pr",
+        "number": 153856,
+        "title": "feat(plugins): expose atomic decision routing host contract",
+        "url": "https://github.com/openclaw/openclaw/pull/153856",
+        "state": "open",
+        "author": "jb510",
+        "updatedAt": "2026-09-22T00:04:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 154426,
+        "title": "improve(ci): run embedded agent tests in parallel",
+        "url": "https://github.com/openclaw/openclaw/pull/154426",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-21T21:02:42Z"
+        "updatedAt": "2026-09-22T00:04:40Z"
       },
       {
         "kind": "pr",
-        "number": 154522,
-        "title": "feat: run Code Mode on Node or isolated QuickJS",
-        "url": "https://github.com/openclaw/openclaw/pull/154522",
+        "number": 153213,
+        "title": "improve(ui): coalesce progress card refreshes",
+        "url": "https://github.com/openclaw/openclaw/pull/153213",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-21T21:02:40Z"
+        "author": "jjjhenriksen",
+        "updatedAt": "2026-09-22T00:04:38Z"
       },
       {
         "kind": "pr",
-        "number": 155169,
-        "title": "fix(worktrees): preserve detached checkout state during retirement",
-        "url": "https://github.com/openclaw/openclaw/pull/155169",
+        "number": 149490,
+        "title": "fix(codex): preserve unconsumed native child results",
+        "url": "https://github.com/openclaw/openclaw/pull/149490",
         "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-09-21T21:02:38Z"
+        "author": "jalehman",
+        "updatedAt": "2026-09-22T00:04:30Z"
       },
       {
         "kind": "pr",
-        "number": 155139,
-        "title": "feat(control-ui): reorder team-sidebar agents with synced preferences",
-        "url": "https://github.com/openclaw/openclaw/pull/155139",
-        "state": "open",
-        "author": "stackingrockss",
-        "updatedAt": "2026-09-21T21:02:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 153628,
-        "title": "feat(swarm): bind exact candidate manifests into verifier launches",
-        "url": "https://github.com/openclaw/openclaw/pull/153628",
-        "state": "open",
-        "author": "zozo123",
-        "updatedAt": "2026-09-21T21:02:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 149882,
-        "title": "feat(update): support root-owned foreground FreeBSD updates",
-        "url": "https://github.com/openclaw/openclaw/pull/149882",
+        "number": 155284,
+        "title": "fix(qa-lab): retain tab focus and scroll during polling",
+        "url": "https://github.com/openclaw/openclaw/pull/155284",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-09-21T21:02:36Z"
+        "updatedAt": "2026-09-22T00:04:28Z"
       }
     ]
   }

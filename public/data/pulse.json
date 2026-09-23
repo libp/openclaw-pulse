@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-23T11:31:54.549Z",
+  "generatedAt": "2026-09-23T23:40:35.959Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1142,18 +1142,18 @@
     },
     {
       "capturedOn": "2026-09-23",
-      "capturedAt": "2026-09-23T11:31:54.549Z",
-      "issueOpen": 5373,
-      "issueClosed": 50119,
-      "prOpen": 2977,
-      "prClosed": 95422,
-      "prMerged": 44551,
+      "capturedAt": "2026-09-23T23:40:35.959Z",
+      "issueOpen": 5394,
+      "issueClosed": 50202,
+      "prOpen": 3020,
+      "prClosed": 95664,
+      "prMerged": 44759,
       "workflowRuns": 40000,
-      "stars": 390313,
-      "forks": 82104,
-      "subscribers": 1735,
-      "commits": 98981,
-      "contributors": 3414,
+      "stars": 390346,
+      "forks": 82120,
+      "subscribers": 1733,
+      "commits": 99213,
+      "contributors": 3416,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1593,88 +1593,69 @@
     },
     {
       "capturedOn": "2026-09-23",
-      "stars": 390313,
-      "forks": 82104,
-      "subscribers": 1735,
-      "commits": 98981,
-      "contributors": 3414
+      "stars": 390346,
+      "forks": 82120,
+      "subscribers": 1733,
+      "commits": 99213,
+      "contributors": 3416
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 156448,
-        "title": "[Feature]: Reduce empty Gateway startup memory (~560 MiB footprint with plugins disabled, 2026.9.5)",
-        "url": "https://github.com/openclaw/openclaw/issues/156448",
-        "state": "open",
-        "author": "goslingmanagment",
-        "updatedAt": "2026-09-23T11:31:26Z"
-      },
-      {
-        "kind": "issue",
-        "number": 155728,
-        "title": "[Bug]: Plugin artifact capture double-buffers large binary assets (~544 MiB allocation burst for Codex)",
-        "url": "https://github.com/openclaw/openclaw/issues/155728",
-        "state": "open",
-        "author": "goslingmanagment",
-        "updatedAt": "2026-09-23T11:30:50Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 156366,
-        "title": "fix(update): inspect retained recovery sets safely",
-        "url": "https://github.com/openclaw/openclaw/pull/156366",
+        "number": 139260,
+        "title": "fix(codex): retain complete answers while previews are pending",
+        "url": "https://github.com/openclaw/openclaw/pull/139260",
         "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-09-23T11:31:44Z"
+        "author": "NianJiuZst",
+        "updatedAt": "2026-09-23T23:40:25Z"
       },
       {
         "kind": "pr",
-        "number": 156447,
-        "title": "fix(update): explain stale Git targets during dry-run",
-        "url": "https://github.com/openclaw/openclaw/pull/156447",
-        "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-09-23T11:31:34Z"
-      },
-      {
-        "kind": "pr",
-        "number": 156166,
-        "title": "fix(gateway): stop crash loop when a forwarded attachment has a non-ASCII filename",
-        "url": "https://github.com/openclaw/openclaw/pull/156166",
-        "state": "open",
-        "author": "siri1410",
-        "updatedAt": "2026-09-23T11:31:33Z"
-      },
-      {
-        "kind": "pr",
-        "number": 156436,
-        "title": "refactor(ui): deslop Control UI pages",
-        "url": "https://github.com/openclaw/openclaw/pull/156436",
+        "number": 156854,
+        "title": "fix: restore the Gateway after interrupted Doctor maintenance",
+        "url": "https://github.com/openclaw/openclaw/pull/156854",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-23T11:31:32Z"
+        "updatedAt": "2026-09-23T23:40:18Z"
       },
       {
         "kind": "pr",
-        "number": 156406,
-        "title": "refactor(media): deslop media",
-        "url": "https://github.com/openclaw/openclaw/pull/156406",
+        "number": 145839,
+        "title": "fix(cli): keep cached-only provider catalogs in isolated agent exec",
+        "url": "https://github.com/openclaw/openclaw/pull/145839",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-23T11:31:31Z"
+        "author": "Finn763",
+        "updatedAt": "2026-09-23T23:39:44Z"
       },
       {
         "kind": "pr",
-        "number": 156377,
-        "title": "refactor(auto-reply): deslop auto-reply",
-        "url": "https://github.com/openclaw/openclaw/pull/156377",
+        "number": 107671,
+        "title": "fix(models): clear stale auth cooldowns after early limit resets",
+        "url": "https://github.com/openclaw/openclaw/pull/107671",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-23T11:31:28Z"
+        "author": "Glucksberg",
+        "updatedAt": "2026-09-23T23:39:44Z"
+      },
+      {
+        "kind": "pr",
+        "number": 67820,
+        "title": "fix(whatsapp): reuse active QR and preserve runtime warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/67820",
+        "state": "open",
+        "author": "mcaxtr",
+        "updatedAt": "2026-09-23T23:39:42Z"
+      },
+      {
+        "kind": "pr",
+        "number": 156857,
+        "title": "perf(ci): skip dependency setup for npm lock no-ops",
+        "url": "https://github.com/openclaw/openclaw/pull/156857",
+        "state": "open",
+        "author": "freeqaz-openai",
+        "updatedAt": "2026-09-23T23:39:38Z"
       }
     ]
   }

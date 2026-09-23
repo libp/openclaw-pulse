@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-22T18:52:49.366Z",
+  "generatedAt": "2026-09-23T11:31:54.549Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1139,6 +1139,23 @@
       "contributors": 3413,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-23",
+      "capturedAt": "2026-09-23T11:31:54.549Z",
+      "issueOpen": 5373,
+      "issueClosed": 50119,
+      "prOpen": 2977,
+      "prClosed": 95422,
+      "prMerged": 44551,
+      "workflowRuns": 40000,
+      "stars": 390313,
+      "forks": 82104,
+      "subscribers": 1735,
+      "commits": 98981,
+      "contributors": 3414,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1573,92 +1590,91 @@
       "subscribers": 1736,
       "commits": 98614,
       "contributors": 3413
+    },
+    {
+      "capturedOn": "2026-09-23",
+      "stars": 390313,
+      "forks": 82104,
+      "subscribers": 1735,
+      "commits": 98981,
+      "contributors": 3414
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 139428,
-        "title": "Test audit: reduce redundant test code and full-suite runtime",
-        "url": "https://github.com/openclaw/openclaw/issues/139428",
+        "number": 156448,
+        "title": "[Feature]: Reduce empty Gateway startup memory (~560 MiB footprint with plugins disabled, 2026.9.5)",
+        "url": "https://github.com/openclaw/openclaw/issues/156448",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-22T18:52:25Z"
+        "author": "goslingmanagment",
+        "updatedAt": "2026-09-23T11:31:26Z"
       },
       {
         "kind": "issue",
-        "number": 155896,
-        "title": "Worker authority checks repeatedly read placement SQLite on the Gateway thread",
-        "url": "https://github.com/openclaw/openclaw/issues/155896",
+        "number": 155728,
+        "title": "[Bug]: Plugin artifact capture double-buffers large binary assets (~544 MiB allocation burst for Codex)",
+        "url": "https://github.com/openclaw/openclaw/issues/155728",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-22T18:51:48Z"
-      },
-      {
-        "kind": "issue",
-        "number": 155764,
-        "title": "[Bug]: OpenClaw 2026.9.5 update blocked by retained_plugin_source_conflict",
-        "url": "https://github.com/openclaw/openclaw/issues/155764",
-        "state": "open",
-        "author": "zhiyuan82-tech",
-        "updatedAt": "2026-09-22T18:51:44Z"
+        "author": "goslingmanagment",
+        "updatedAt": "2026-09-23T11:30:50Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 155899,
-        "title": "fix(qa): make Telegram delivery-failure proof deterministic",
-        "url": "https://github.com/openclaw/openclaw/pull/155899",
+        "number": 156366,
+        "title": "fix(update): inspect retained recovery sets safely",
+        "url": "https://github.com/openclaw/openclaw/pull/156366",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-09-22T18:52:41Z"
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-09-23T11:31:44Z"
       },
       {
         "kind": "pr",
-        "number": 155134,
-        "title": "feat: add provider-neutral decision evaluation tool",
-        "url": "https://github.com/openclaw/openclaw/pull/155134",
+        "number": 156447,
+        "title": "fix(update): explain stale Git targets during dry-run",
+        "url": "https://github.com/openclaw/openclaw/pull/156447",
         "state": "open",
-        "author": "jjjhenriksen",
-        "updatedAt": "2026-09-22T18:52:41Z"
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-09-23T11:31:34Z"
       },
       {
         "kind": "pr",
-        "number": 129476,
-        "title": "feat(memory): add governed lifecycle-aware retrieval",
-        "url": "https://github.com/openclaw/openclaw/pull/129476",
+        "number": 156166,
+        "title": "fix(gateway): stop crash loop when a forwarded attachment has a non-ASCII filename",
+        "url": "https://github.com/openclaw/openclaw/pull/156166",
         "state": "open",
-        "author": "michaelrlee01-sys",
-        "updatedAt": "2026-09-22T18:52:39Z"
+        "author": "siri1410",
+        "updatedAt": "2026-09-23T11:31:33Z"
       },
       {
         "kind": "pr",
-        "number": 155830,
-        "title": "feat(test): share the measured Gateway host across plugin workloads",
-        "url": "https://github.com/openclaw/openclaw/pull/155830",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-09-22T18:52:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 155389,
-        "title": "fix(update): report deferred repairs as warnings and clear resolved notices",
-        "url": "https://github.com/openclaw/openclaw/pull/155389",
+        "number": 156436,
+        "title": "refactor(ui): deslop Control UI pages",
+        "url": "https://github.com/openclaw/openclaw/pull/156436",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-22T18:52:38Z"
+        "updatedAt": "2026-09-23T11:31:32Z"
       },
       {
         "kind": "pr",
-        "number": 155866,
-        "title": "fix(ci): expose Windows Testbox spawn failures",
-        "url": "https://github.com/openclaw/openclaw/pull/155866",
+        "number": 156406,
+        "title": "refactor(media): deslop media",
+        "url": "https://github.com/openclaw/openclaw/pull/156406",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-09-22T18:52:32Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-23T11:31:31Z"
+      },
+      {
+        "kind": "pr",
+        "number": 156377,
+        "title": "refactor(auto-reply): deslop auto-reply",
+        "url": "https://github.com/openclaw/openclaw/pull/156377",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-23T11:31:28Z"
       }
     ]
   }

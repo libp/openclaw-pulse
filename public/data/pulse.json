@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-24T09:58:31.558Z",
+  "generatedAt": "2026-09-24T15:03:31.980Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1159,17 +1159,17 @@
     },
     {
       "capturedOn": "2026-09-24",
-      "capturedAt": "2026-09-24T09:58:31.558Z",
-      "issueOpen": 5433,
-      "issueClosed": 50245,
-      "prOpen": 3015,
-      "prClosed": 95914,
-      "prMerged": 44968,
+      "capturedAt": "2026-09-24T15:03:31.980Z",
+      "issueOpen": 5461,
+      "issueClosed": 50264,
+      "prOpen": 3048,
+      "prClosed": 95991,
+      "prMerged": 45031,
       "workflowRuns": 40000,
-      "stars": 390370,
-      "forks": 82124,
+      "stars": 390377,
+      "forks": 82129,
       "subscribers": 1730,
-      "commits": 99460,
+      "commits": 99529,
       "contributors": 3420,
       "source": "github-actions",
       "approximateDate": false
@@ -1618,10 +1618,10 @@
     },
     {
       "capturedOn": "2026-09-24",
-      "stars": 390370,
-      "forks": 82124,
+      "stars": 390377,
+      "forks": 82129,
       "subscribers": 1730,
-      "commits": 99460,
+      "commits": 99529,
       "contributors": 3420
     }
   ],
@@ -1629,68 +1629,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 157119,
-        "title": "Update failure: global-install-failed (2026.9.4)",
-        "url": "https://github.com/openclaw/openclaw/issues/157119",
+        "number": 139428,
+        "title": "Test audit: reduce redundant test code and full-suite runtime",
+        "url": "https://github.com/openclaw/openclaw/issues/139428",
         "state": "open",
-        "author": "Lendersmark",
-        "updatedAt": "2026-09-24T09:57:10Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-24T15:03:16Z"
+      },
+      {
+        "kind": "issue",
+        "number": 157346,
+        "title": "[Bug]: Android chat link preview cannot be collapsed after expansion",
+        "url": "https://github.com/openclaw/openclaw/issues/157346",
+        "state": "open",
+        "author": "IWhatsskill",
+        "updatedAt": "2026-09-24T15:03:09Z"
+      },
+      {
+        "kind": "issue",
+        "number": 157335,
+        "title": "[Bug]: subagents cancel cannot reach visible (persistent) subagent sessions — forbidden outside session tree",
+        "url": "https://github.com/openclaw/openclaw/issues/157335",
+        "state": "open",
+        "author": "gregb100",
+        "updatedAt": "2026-09-24T15:02:30Z"
+      },
+      {
+        "kind": "issue",
+        "number": 77717,
+        "title": "Feishu channel: bot identity recovery race condition causes permanent disconnection",
+        "url": "https://github.com/openclaw/openclaw/issues/77717",
+        "state": "open",
+        "author": "Enominera",
+        "updatedAt": "2026-09-24T15:02:19Z"
+      },
+      {
+        "kind": "issue",
+        "number": 97616,
+        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
+        "url": "https://github.com/openclaw/openclaw/issues/97616",
+        "state": "open",
+        "author": "avp717",
+        "updatedAt": "2026-09-24T15:02:08Z"
+      },
+      {
+        "kind": "issue",
+        "number": 156861,
+        "title": "fix(macos): update to 2026.9.6 leaves OpenClaw completely unlaunchable on both Macs",
+        "url": "https://github.com/openclaw/openclaw/issues/156861",
+        "state": "closed",
+        "author": "coygeek",
+        "updatedAt": "2026-09-24T15:01:44Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 157190,
-        "title": "fix(status): warn when the running Gateway Node path is gone",
-        "url": "https://github.com/openclaw/openclaw/pull/157190",
-        "state": "open",
-        "author": "Olli0103",
-        "updatedAt": "2026-09-24T09:58:22Z"
-      },
-      {
-        "kind": "pr",
-        "number": 156324,
-        "title": "fix(skills): refresh skills after watched directories are replaced",
-        "url": "https://github.com/openclaw/openclaw/pull/156324",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-09-24T09:58:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 157150,
-        "title": "fix(agents): show readable purposes for Code Mode execution",
-        "url": "https://github.com/openclaw/openclaw/pull/157150",
+        "number": 157047,
+        "title": "chore(windows): verify packaged repair worker lifecycle",
+        "url": "https://github.com/openclaw/openclaw/pull/157047",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-24T09:58:10Z"
+        "updatedAt": "2026-09-24T15:03:12Z"
       },
       {
         "kind": "pr",
-        "number": 138557,
-        "title": "fix(file-transfer): remove false channel-attachment promise from dir_fetch summary",
-        "url": "https://github.com/openclaw/openclaw/pull/138557",
+        "number": 157339,
+        "title": "fix: plugin reloads lose tool results and strand subagent settlement",
+        "url": "https://github.com/openclaw/openclaw/pull/157339",
         "state": "open",
-        "author": "synthalorian",
-        "updatedAt": "2026-09-24T09:58:10Z"
+        "author": "obviyus",
+        "updatedAt": "2026-09-24T15:03:07Z"
       },
       {
         "kind": "pr",
-        "number": 141309,
-        "title": "fix(infra): use a Git-readable null path for isolated GIT_CONFIG on Windows",
-        "url": "https://github.com/openclaw/openclaw/pull/141309",
+        "number": 157268,
+        "title": "fix: retain human co-author credit through delegation",
+        "url": "https://github.com/openclaw/openclaw/pull/157268",
         "state": "open",
-        "author": "hugenshen",
-        "updatedAt": "2026-09-24T09:58:09Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-24T15:02:58Z"
       },
       {
         "kind": "pr",
-        "number": 121156,
-        "title": "fix(plugins): preserve unreadable retained npm markers during cleanup",
-        "url": "https://github.com/openclaw/openclaw/pull/121156",
+        "number": 157233,
+        "title": "perf(llm-task): load task runtime on first execution",
+        "url": "https://github.com/openclaw/openclaw/pull/157233",
         "state": "open",
-        "author": "Leon-SK668",
-        "updatedAt": "2026-09-24T09:57:54Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-24T15:02:56Z"
+      },
+      {
+        "kind": "pr",
+        "number": 157317,
+        "title": "docs(android): describe the Wear OS companion and Tile in the Play listing",
+        "url": "https://github.com/openclaw/openclaw/pull/157317",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-24T15:02:54Z"
+      },
+      {
+        "kind": "pr",
+        "number": 149033,
+        "title": "docs: update maturity scorecard",
+        "url": "https://github.com/openclaw/openclaw/pull/149033",
+        "state": "open",
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-09-24T15:02:40Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-24T22:22:05.597Z",
+  "generatedAt": "2026-09-25T07:45:26.680Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1173,6 +1173,23 @@
       "contributors": 3421,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-25",
+      "capturedAt": "2026-09-25T07:45:26.680Z",
+      "issueOpen": 5517,
+      "issueClosed": 50438,
+      "prOpen": 3077,
+      "prClosed": 96442,
+      "prMerged": 45398,
+      "workflowRuns": 40000,
+      "stars": 390452,
+      "forks": 82137,
+      "subscribers": 1730,
+      "commits": 99925,
+      "contributors": 3424,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1623,74 +1640,82 @@
       "subscribers": 1729,
       "commits": 99707,
       "contributors": 3421
+    },
+    {
+      "capturedOn": "2026-09-25",
+      "stars": 390452,
+      "forks": 82137,
+      "subscribers": 1730,
+      "commits": 99925,
+      "contributors": 3424
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 81232,
-        "title": "[Feature] Discord: fetch a single message by channelId + messageId (or URL)",
-        "url": "https://github.com/openclaw/openclaw/issues/81232",
+        "number": 157974,
+        "title": "[Bug]: Dedicated /goal composer silently no-ops during initial history loading",
+        "url": "https://github.com/openclaw/openclaw/issues/157974",
         "state": "open",
-        "author": "yousan",
-        "updatedAt": "2026-09-24T22:21:13Z"
+        "author": "Matuno",
+        "updatedAt": "2026-09-25T07:44:36Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 157524,
-        "title": "refactor: reuse fs-safe and remove duplicate filesystem code",
-        "url": "https://github.com/openclaw/openclaw/pull/157524",
+        "number": 157970,
+        "title": "fix(update): prevent false cleanup failures and stale progress reports",
+        "url": "https://github.com/openclaw/openclaw/pull/157970",
+        "state": "open",
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-09-25T07:45:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 148326,
+        "title": "refactor(android): reuse TalkMode synthesis test fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/148326",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-25T07:45:15Z"
+      },
+      {
+        "kind": "pr",
+        "number": 139260,
+        "title": "fix(codex): retain complete answers while previews are pending",
+        "url": "https://github.com/openclaw/openclaw/pull/139260",
+        "state": "open",
+        "author": "NianJiuZst",
+        "updatedAt": "2026-09-25T07:45:11Z"
+      },
+      {
+        "kind": "pr",
+        "number": 158005,
+        "title": "test(tooling): repair release and upgrade fixture setup",
+        "url": "https://github.com/openclaw/openclaw/pull/158005",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-24T22:21:58Z"
+        "updatedAt": "2026-09-25T07:45:10Z"
       },
       {
         "kind": "pr",
-        "number": 157611,
-        "title": "chore(ci): move eight slow runtime tours to full release validation",
-        "url": "https://github.com/openclaw/openclaw/pull/157611",
+        "number": 157954,
+        "title": "fix(update): reduce macOS runtime-retention delays",
+        "url": "https://github.com/openclaw/openclaw/pull/157954",
+        "state": "open",
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-09-25T07:45:09Z"
+      },
+      {
+        "kind": "pr",
+        "number": 157740,
+        "title": "fix(ci): scope narrow PR checks to their inputs",
+        "url": "https://github.com/openclaw/openclaw/pull/157740",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-24T22:21:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 157549,
-        "title": "fix: explain rejected settings without losing edits",
-        "url": "https://github.com/openclaw/openclaw/pull/157549",
-        "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-09-24T22:21:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 156244,
-        "title": "test(parallels): tighten host teardown fixtures",
-        "url": "https://github.com/openclaw/openclaw/pull/156244",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-09-24T22:21:51Z"
-      },
-      {
-        "kind": "pr",
-        "number": 156919,
-        "title": "fix: return child followup results after yielding",
-        "url": "https://github.com/openclaw/openclaw/pull/156919",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-24T22:21:50Z"
-      },
-      {
-        "kind": "pr",
-        "number": 155089,
-        "title": "docs: explain Codex app approval precedence",
-        "url": "https://github.com/openclaw/openclaw/pull/155089",
-        "state": "open",
-        "author": "stevenlee-oai",
-        "updatedAt": "2026-09-24T22:21:49Z"
+        "updatedAt": "2026-09-25T07:45:09Z"
       }
     ]
   }

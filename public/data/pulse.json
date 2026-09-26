@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-26T19:49:57.942Z",
+  "generatedAt": "2026-09-26T22:47:36.773Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1193,17 +1193,17 @@
     },
     {
       "capturedOn": "2026-09-26",
-      "capturedAt": "2026-09-26T19:49:57.942Z",
-      "issueOpen": 5587,
-      "issueClosed": 50644,
-      "prOpen": 3100,
-      "prClosed": 97270,
-      "prMerged": 46142,
+      "capturedAt": "2026-09-26T22:47:36.773Z",
+      "issueOpen": 5594,
+      "issueClosed": 50655,
+      "prOpen": 3122,
+      "prClosed": 97322,
+      "prMerged": 46183,
       "workflowRuns": 40000,
-      "stars": 390573,
-      "forks": 82158,
-      "subscribers": 1730,
-      "commits": 100715,
+      "stars": 390582,
+      "forks": 82156,
+      "subscribers": 1731,
+      "commits": 100767,
       "contributors": 3433,
       "source": "github-actions",
       "approximateDate": false
@@ -1668,10 +1668,10 @@
     },
     {
       "capturedOn": "2026-09-26",
-      "stars": 390573,
-      "forks": 82158,
-      "subscribers": 1730,
-      "commits": 100715,
+      "stars": 390582,
+      "forks": 82156,
+      "subscribers": 1731,
+      "commits": 100767,
       "contributors": 3433
     }
   ],
@@ -1679,68 +1679,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 159112,
-        "title": "[Bug]: Doctor legacy capture cleanup blocked by unrelated macOS processes with unreadable argv",
-        "url": "https://github.com/openclaw/openclaw/issues/159112",
+        "number": 159217,
+        "title": "[Bug]: Delivered Discord sends appear as aborted by user in native Codex exec results",
+        "url": "https://github.com/openclaw/openclaw/issues/159217",
         "state": "open",
-        "author": "bdjben",
-        "updatedAt": "2026-09-26T19:47:29Z"
+        "author": "WG-Mojo",
+        "updatedAt": "2026-09-26T22:47:20Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 157713,
-        "title": "feat(channels): configure mentions in bot-created threads",
-        "url": "https://github.com/openclaw/openclaw/pull/157713",
+        "number": 159223,
+        "title": "fix(cli): never fall back to local state when a remote Gateway is unreachable",
+        "url": "https://github.com/openclaw/openclaw/pull/159223",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-26T19:49:47Z"
+        "updatedAt": "2026-09-26T22:47:28Z"
       },
       {
         "kind": "pr",
-        "number": 159132,
-        "title": "fix(channels): restore native system-agent approval reactions",
-        "url": "https://github.com/openclaw/openclaw/pull/159132",
+        "number": 159224,
+        "title": "fix(gateway): report actionable errors from the embeddings endpoint",
+        "url": "https://github.com/openclaw/openclaw/pull/159224",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-26T19:49:43Z"
+        "updatedAt": "2026-09-26T22:47:27Z"
       },
       {
         "kind": "pr",
-        "number": 159084,
-        "title": "refactor(acp): keep ordinary metadata work off the Gateway thread",
-        "url": "https://github.com/openclaw/openclaw/pull/159084",
+        "number": 159221,
+        "title": "fix: stop repeating HTTP 400 requests with transient inner codes",
+        "url": "https://github.com/openclaw/openclaw/pull/159221",
+        "state": "open",
+        "author": "obviyus",
+        "updatedAt": "2026-09-26T22:47:26Z"
+      },
+      {
+        "kind": "pr",
+        "number": 159218,
+        "title": "refactor(scripts): deslop tooling subdirectories and agent skill helpers",
+        "url": "https://github.com/openclaw/openclaw/pull/159218",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-26T19:49:26Z"
+        "updatedAt": "2026-09-26T22:47:29Z"
       },
       {
         "kind": "pr",
-        "number": 153208,
-        "title": "feat(compaction): observe semantic fidelity and shadow curation",
-        "url": "https://github.com/openclaw/openclaw/pull/153208",
+        "number": 134406,
+        "title": "fix(install): fail when OpenClaw is not on PATH",
+        "url": "https://github.com/openclaw/openclaw/pull/134406",
         "state": "open",
-        "author": "jason-allen-oneal",
-        "updatedAt": "2026-09-26T19:49:26Z"
+        "author": "ly85206559",
+        "updatedAt": "2026-09-26T22:47:26Z"
       },
       {
         "kind": "pr",
-        "number": 158903,
-        "title": "feat(workers): require configured worker placement for sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/158903",
+        "number": 159225,
+        "title": "refactor(codex): deslop codex harness fourth pass",
+        "url": "https://github.com/openclaw/openclaw/pull/159225",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-26T19:49:22Z"
-      },
-      {
-        "kind": "pr",
-        "number": 158901,
-        "title": "feat(workers): run native inference on paired workers",
-        "url": "https://github.com/openclaw/openclaw/pull/158901",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-26T19:49:22Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-26T22:47:25Z"
       }
     ]
   }

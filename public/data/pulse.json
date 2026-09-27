@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-26T22:47:36.773Z",
+  "generatedAt": "2026-09-27T01:25:07.292Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1207,6 +1207,23 @@
       "contributors": 3433,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-27",
+      "capturedAt": "2026-09-27T01:25:07.292Z",
+      "issueOpen": 5594,
+      "issueClosed": 50670,
+      "prOpen": 3117,
+      "prClosed": 97387,
+      "prMerged": 46230,
+      "workflowRuns": 40000,
+      "stars": 390594,
+      "forks": 82164,
+      "subscribers": 1731,
+      "commits": 100819,
+      "contributors": 3433,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1673,74 +1690,127 @@
       "subscribers": 1731,
       "commits": 100767,
       "contributors": 3433
+    },
+    {
+      "capturedOn": "2026-09-27",
+      "stars": 390594,
+      "forks": 82164,
+      "subscribers": 1731,
+      "commits": 100819,
+      "contributors": 3433
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 159217,
-        "title": "[Bug]: Delivered Discord sends appear as aborted by user in native Codex exec results",
-        "url": "https://github.com/openclaw/openclaw/issues/159217",
+        "number": 158922,
+        "title": "claude-cli models report `available: false` after Gateway restart on main, hiding the Control UI Effort picker (regression after #157459)",
+        "url": "https://github.com/openclaw/openclaw/issues/158922",
         "state": "open",
-        "author": "WG-Mojo",
-        "updatedAt": "2026-09-26T22:47:20Z"
+        "author": "LachieFREEDOM",
+        "updatedAt": "2026-09-27T01:24:43Z"
+      },
+      {
+        "kind": "issue",
+        "number": 128916,
+        "title": "[Bug]: Errored message-tool-only runs end silent: failure notice suppressed for non-interactive turns, no failure signal from failed finalization, no recorded reason",
+        "url": "https://github.com/openclaw/openclaw/issues/128916",
+        "state": "open",
+        "author": "scoootscooob",
+        "updatedAt": "2026-09-27T01:24:40Z"
+      },
+      {
+        "kind": "issue",
+        "number": 145134,
+        "title": "[Bug]: codex settled-turn finalization rejects OpenClaw's own custom_message parts → unsupported_content",
+        "url": "https://github.com/openclaw/openclaw/issues/145134",
+        "state": "open",
+        "author": "balloobbot",
+        "updatedAt": "2026-09-27T01:24:29Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107324,
+        "title": "2026.7.1: codex runs persist per-run usage but not the totalTokens aggregate — /status oscillates between ?/N and a number with each compaction (totalTokensFresh stuck false on plain turns)",
+        "url": "https://github.com/openclaw/openclaw/issues/107324",
+        "state": "open",
+        "author": "ikenraf",
+        "updatedAt": "2026-09-27T01:24:23Z"
+      },
+      {
+        "kind": "issue",
+        "number": 142781,
+        "title": "[Bug]: Auto-selected session account makes claude-cli models report missing-auth and locks the composer",
+        "url": "https://github.com/openclaw/openclaw/issues/142781",
+        "state": "open",
+        "author": "Tom-Notch",
+        "updatedAt": "2026-09-27T01:23:47Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107244,
+        "title": "WhatsApp group messages never reach inbound handling (LID groups?) — DMs work; repro across relink + 2026.6.11→2026.7.1",
+        "url": "https://github.com/openclaw/openclaw/issues/107244",
+        "state": "open",
+        "author": "kaluyckx",
+        "updatedAt": "2026-09-27T01:23:41Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 159223,
-        "title": "fix(cli): never fall back to local state when a remote Gateway is unreachable",
-        "url": "https://github.com/openclaw/openclaw/pull/159223",
+        "number": 107378,
+        "title": "feat(minimax): route /fast to MiniMax's faster paid lanes with correct pricing",
+        "url": "https://github.com/openclaw/openclaw/pull/107378",
+        "state": "open",
+        "author": "jzakirov",
+        "updatedAt": "2026-09-27T01:24:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 159219,
+        "title": "fix(telegram): prepare bot identity before webhook delivery",
+        "url": "https://github.com/openclaw/openclaw/pull/159219",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-26T22:47:28Z"
+        "updatedAt": "2026-09-27T01:24:57Z"
       },
       {
         "kind": "pr",
-        "number": 159224,
-        "title": "fix(gateway): report actionable errors from the embeddings endpoint",
-        "url": "https://github.com/openclaw/openclaw/pull/159224",
+        "number": 158749,
+        "title": "refactor(test): exercise real Zalo startup",
+        "url": "https://github.com/openclaw/openclaw/pull/158749",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-27T01:24:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 145639,
+        "title": "fix(bonjour): stop ENODEV log bursts when transient interfaces disappear",
+        "url": "https://github.com/openclaw/openclaw/pull/145639",
+        "state": "open",
+        "author": "tontoko",
+        "updatedAt": "2026-09-27T01:24:50Z"
+      },
+      {
+        "kind": "pr",
+        "number": 159246,
+        "title": "Support isolated sessions in the AgentsAPI and enable restricted dreaming sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/159246",
+        "state": "open",
+        "author": "sjf-oa",
+        "updatedAt": "2026-09-27T01:24:42Z"
+      },
+      {
+        "kind": "pr",
+        "number": 159239,
+        "title": "refactor(providers): deslop openai, anthropic and llama-cpp plugins",
+        "url": "https://github.com/openclaw/openclaw/pull/159239",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-26T22:47:27Z"
-      },
-      {
-        "kind": "pr",
-        "number": 159221,
-        "title": "fix: stop repeating HTTP 400 requests with transient inner codes",
-        "url": "https://github.com/openclaw/openclaw/pull/159221",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-09-26T22:47:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 159218,
-        "title": "refactor(scripts): deslop tooling subdirectories and agent skill helpers",
-        "url": "https://github.com/openclaw/openclaw/pull/159218",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-26T22:47:29Z"
-      },
-      {
-        "kind": "pr",
-        "number": 134406,
-        "title": "fix(install): fail when OpenClaw is not on PATH",
-        "url": "https://github.com/openclaw/openclaw/pull/134406",
-        "state": "open",
-        "author": "ly85206559",
-        "updatedAt": "2026-09-26T22:47:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 159225,
-        "title": "refactor(codex): deslop codex harness fourth pass",
-        "url": "https://github.com/openclaw/openclaw/pull/159225",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-26T22:47:25Z"
+        "updatedAt": "2026-09-27T01:24:39Z"
       }
     ]
   }

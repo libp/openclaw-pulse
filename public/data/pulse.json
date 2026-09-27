@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-27T13:56:12.631Z",
+  "generatedAt": "2026-09-27T18:21:39.381Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1210,17 +1210,17 @@
     },
     {
       "capturedOn": "2026-09-27",
-      "capturedAt": "2026-09-27T13:56:12.631Z",
-      "issueOpen": 5604,
-      "issueClosed": 50728,
-      "prOpen": 3125,
-      "prClosed": 97670,
-      "prMerged": 46470,
+      "capturedAt": "2026-09-27T18:21:39.381Z",
+      "issueOpen": 5632,
+      "issueClosed": 50743,
+      "prOpen": 3149,
+      "prClosed": 97744,
+      "prMerged": 46531,
       "workflowRuns": 40000,
-      "stars": 390633,
-      "forks": 82162,
-      "subscribers": 1729,
-      "commits": 101059,
+      "stars": 390652,
+      "forks": 82161,
+      "subscribers": 1730,
+      "commits": 101126,
       "contributors": 3435,
       "source": "github-actions",
       "approximateDate": false
@@ -1693,10 +1693,10 @@
     },
     {
       "capturedOn": "2026-09-27",
-      "stars": 390633,
-      "forks": 82162,
-      "subscribers": 1729,
-      "commits": 101059,
+      "stars": 390652,
+      "forks": 82161,
+      "subscribers": 1730,
+      "commits": 101126,
       "contributors": 3435
     }
   ],
@@ -1704,113 +1704,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 157702,
-        "title": "[Bug]: MSTeams progress status runs rows together in 1:1 chats (informative updates are single-line)",
-        "url": "https://github.com/openclaw/openclaw/issues/157702",
+        "number": 158550,
+        "title": "Plugin approval requests fail permanently after the first CLI-turn client disconnects (claude-cli backend, MCP loopback)",
+        "url": "https://github.com/openclaw/openclaw/issues/158550",
         "state": "open",
-        "author": "rdbartram",
-        "updatedAt": "2026-09-27T13:55:48Z"
+        "author": "hades77bks-max",
+        "updatedAt": "2026-09-27T18:21:06Z"
       },
       {
         "kind": "issue",
-        "number": 123918,
-        "title": "[Bug]: inline-button prompt guidance ignores chat type, so scoped Telegram configs advertise sends the runtime rejects",
-        "url": "https://github.com/openclaw/openclaw/issues/123918",
+        "number": 113306,
+        "title": "SQLite snapshot restore lacks end-to-end crash and identity guarantees",
+        "url": "https://github.com/openclaw/openclaw/issues/113306",
         "state": "open",
-        "author": "marmar9615-cloud",
-        "updatedAt": "2026-09-27T13:55:37Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-09-27T18:20:45Z"
       },
       {
         "kind": "issue",
-        "number": 123933,
-        "title": "ACP session spawned into its own thread never replies in-thread",
-        "url": "https://github.com/openclaw/openclaw/issues/123933",
+        "number": 112697,
+        "title": "[Bug]: Slack foreground fence drops earlier admitted final instead of committing finals in order",
+        "url": "https://github.com/openclaw/openclaw/issues/112697",
         "state": "open",
-        "author": "itsahedge",
-        "updatedAt": "2026-09-27T13:55:36Z"
+        "author": "jalehman",
+        "updatedAt": "2026-09-27T18:20:45Z"
       },
       {
         "kind": "issue",
-        "number": 154618,
-        "title": "Update failure: finalize:doctor (2026.9.5)",
-        "url": "https://github.com/openclaw/openclaw/issues/154618",
+        "number": 159820,
+        "title": "Feature: downloadable Lobsterdex coloring PDFs",
+        "url": "https://github.com/openclaw/openclaw/issues/159820",
         "state": "open",
-        "author": "saybanet",
-        "updatedAt": "2026-09-27T13:55:34Z"
-      },
-      {
-        "kind": "issue",
-        "number": 158890,
-        "title": "[Bug]: cron warning diagnostics are not recorded when an exec tool call fails input validation (the remedy cited when closing #121626 does not cover this path)",
-        "url": "https://github.com/openclaw/openclaw/issues/158890",
-        "state": "open",
-        "author": "elvisquirino",
-        "updatedAt": "2026-09-27T13:55:31Z"
-      },
-      {
-        "kind": "issue",
-        "number": 158875,
-        "title": "[Bug]: task_runs.source_id and task status name the first candidate provider, not the provider that produced the media",
-        "url": "https://github.com/openclaw/openclaw/issues/158875",
-        "state": "open",
-        "author": "kybrcore",
-        "updatedAt": "2026-09-27T13:55:21Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-27T18:20:18Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 159143,
-        "title": "fix(voice-call): store realtime caller turns in dialogue order",
-        "url": "https://github.com/openclaw/openclaw/pull/159143",
+        "number": 159803,
+        "title": "fix(test): UI tests warn about duplicate Lit after Web Awesome loads",
+        "url": "https://github.com/openclaw/openclaw/pull/159803",
         "state": "open",
-        "author": "mnowrot",
-        "updatedAt": "2026-09-27T13:56:06Z"
+        "author": "Ai-Eastern",
+        "updatedAt": "2026-09-27T18:21:33Z"
       },
       {
         "kind": "pr",
-        "number": 159651,
-        "title": "fix(codex): preserve conversation text within fork history window",
-        "url": "https://github.com/openclaw/openclaw/pull/159651",
+        "number": 159439,
+        "title": "chore(ci): catch Node spawns in Bun-only installs",
+        "url": "https://github.com/openclaw/openclaw/pull/159439",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-27T13:55:57Z"
+        "updatedAt": "2026-09-27T18:21:32Z"
       },
       {
         "kind": "pr",
-        "number": 159677,
-        "title": "test(gateway): share diagnostic profile dispatch fixtures",
-        "url": "https://github.com/openclaw/openclaw/pull/159677",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-09-27T13:55:50Z"
-      },
-      {
-        "kind": "pr",
-        "number": 159678,
-        "title": "fix(codex): use the available OpenClaw question tool",
-        "url": "https://github.com/openclaw/openclaw/pull/159678",
+        "number": 159806,
+        "title": "perf(ui): keep streaming chats responsive",
+        "url": "https://github.com/openclaw/openclaw/pull/159806",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-27T13:55:48Z"
+        "updatedAt": "2026-09-27T18:21:30Z"
       },
       {
         "kind": "pr",
-        "number": 123774,
-        "title": "fix(daemon): keep hidden Windows launcher alive for the daemon's lifetime",
-        "url": "https://github.com/openclaw/openclaw/pull/123774",
+        "number": 159785,
+        "title": "fix(active-memory): recognize Russian recall intent",
+        "url": "https://github.com/openclaw/openclaw/pull/159785",
         "state": "open",
-        "author": "bmorenmiami-droid",
-        "updatedAt": "2026-09-27T13:55:43Z"
+        "author": "ericcaiwx-star",
+        "updatedAt": "2026-09-27T18:21:27Z"
       },
       {
         "kind": "pr",
-        "number": 155494,
-        "title": "fix(google): stop excess citation requests after search cancellation",
-        "url": "https://github.com/openclaw/openclaw/pull/155494",
+        "number": 159688,
+        "title": "fix(sessions): resume the original conversation after restart recovery fails",
+        "url": "https://github.com/openclaw/openclaw/pull/159688",
         "state": "open",
-        "author": "mfurkanakinci",
-        "updatedAt": "2026-09-27T13:55:36Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-27T18:21:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 120889,
+        "title": "fix(memory): prevent duplicate Gemini batch jobs after timeouts",
+        "url": "https://github.com/openclaw/openclaw/pull/120889",
+        "state": "open",
+        "author": "fr-meyer",
+        "updatedAt": "2026-09-27T18:21:22Z"
       }
     ]
   }

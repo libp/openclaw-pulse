@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-27T01:25:07.292Z",
+  "generatedAt": "2026-09-27T08:06:38.805Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1210,18 +1210,18 @@
     },
     {
       "capturedOn": "2026-09-27",
-      "capturedAt": "2026-09-27T01:25:07.292Z",
-      "issueOpen": 5594,
-      "issueClosed": 50670,
-      "prOpen": 3117,
-      "prClosed": 97387,
-      "prMerged": 46230,
+      "capturedAt": "2026-09-27T08:06:38.805Z",
+      "issueOpen": 5599,
+      "issueClosed": 50696,
+      "prOpen": 3119,
+      "prClosed": 97566,
+      "prMerged": 46382,
       "workflowRuns": 40000,
-      "stars": 390594,
-      "forks": 82164,
-      "subscribers": 1731,
-      "commits": 100819,
-      "contributors": 3433,
+      "stars": 390619,
+      "forks": 82163,
+      "subscribers": 1730,
+      "commits": 100971,
+      "contributors": 3435,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1693,124 +1693,124 @@
     },
     {
       "capturedOn": "2026-09-27",
-      "stars": 390594,
-      "forks": 82164,
-      "subscribers": 1731,
-      "commits": 100819,
-      "contributors": 3433
+      "stars": 390619,
+      "forks": 82163,
+      "subscribers": 1730,
+      "commits": 100971,
+      "contributors": 3435
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 158922,
-        "title": "claude-cli models report `available: false` after Gateway restart on main, hiding the Control UI Effort picker (regression after #157459)",
-        "url": "https://github.com/openclaw/openclaw/issues/158922",
+        "number": 156985,
+        "title": "Kubernetes: /tmp emptyDir lacks sticky protection required by fs-safe, disabling session observer",
+        "url": "https://github.com/openclaw/openclaw/issues/156985",
         "state": "open",
-        "author": "LachieFREEDOM",
-        "updatedAt": "2026-09-27T01:24:43Z"
+        "author": "Conan-Scott",
+        "updatedAt": "2026-09-27T08:06:27Z"
       },
       {
         "kind": "issue",
-        "number": 128916,
-        "title": "[Bug]: Errored message-tool-only runs end silent: failure notice suppressed for non-interactive turns, no failure signal from failed finalization, no recorded reason",
-        "url": "https://github.com/openclaw/openclaw/issues/128916",
+        "number": 159339,
+        "title": "cron-setup DataCloneError blocks all 21 cron jobs after 9.6 upgrade (#156881 fix not in npm package)",
+        "url": "https://github.com/openclaw/openclaw/issues/159339",
         "state": "open",
-        "author": "scoootscooob",
-        "updatedAt": "2026-09-27T01:24:40Z"
+        "author": "hailongguo0530-alt",
+        "updatedAt": "2026-09-27T08:06:23Z"
       },
       {
         "kind": "issue",
-        "number": 145134,
-        "title": "[Bug]: codex settled-turn finalization rejects OpenClaw's own custom_message parts → unsupported_content",
-        "url": "https://github.com/openclaw/openclaw/issues/145134",
+        "number": 159059,
+        "title": "Direct subagent result mirror written between a wake's keyed user and its reply triggers 'keyed user is outside the current turn' (2026.9.6)",
+        "url": "https://github.com/openclaw/openclaw/issues/159059",
         "state": "open",
-        "author": "balloobbot",
-        "updatedAt": "2026-09-27T01:24:29Z"
+        "author": "rozenpl",
+        "updatedAt": "2026-09-27T08:06:16Z"
       },
       {
         "kind": "issue",
-        "number": 107324,
-        "title": "2026.7.1: codex runs persist per-run usage but not the totalTokens aggregate — /status oscillates between ?/N and a number with each compaction (totalTokensFresh stuck false on plain turns)",
-        "url": "https://github.com/openclaw/openclaw/issues/107324",
+        "number": 158966,
+        "title": "browser: credentialed CDP WebSocket URLs reach model-facing tab results",
+        "url": "https://github.com/openclaw/openclaw/issues/158966",
         "state": "open",
-        "author": "ikenraf",
-        "updatedAt": "2026-09-27T01:24:23Z"
+        "author": "yetval",
+        "updatedAt": "2026-09-27T08:06:28Z"
       },
       {
         "kind": "issue",
-        "number": 142781,
-        "title": "[Bug]: Auto-selected session account makes claude-cli models report missing-auth and locks the composer",
-        "url": "https://github.com/openclaw/openclaw/issues/142781",
+        "number": 157643,
+        "title": "Usage reports coincide with out-of-window cold restores and repeated refresh timeouts",
+        "url": "https://github.com/openclaw/openclaw/issues/157643",
         "state": "open",
-        "author": "Tom-Notch",
-        "updatedAt": "2026-09-27T01:23:47Z"
+        "author": "anyech",
+        "updatedAt": "2026-09-27T08:06:14Z"
       },
       {
         "kind": "issue",
-        "number": 107244,
-        "title": "WhatsApp group messages never reach inbound handling (LID groups?) — DMs work; repro across relink + 2026.6.11→2026.7.1",
-        "url": "https://github.com/openclaw/openclaw/issues/107244",
+        "number": 159523,
+        "title": "WebChat: difficult to select and copy text from chat messages",
+        "url": "https://github.com/openclaw/openclaw/issues/159523",
         "state": "open",
-        "author": "kaluyckx",
-        "updatedAt": "2026-09-27T01:23:41Z"
+        "author": "a506488043",
+        "updatedAt": "2026-09-27T08:06:06Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 107378,
-        "title": "feat(minimax): route /fast to MiniMax's faster paid lanes with correct pricing",
-        "url": "https://github.com/openclaw/openclaw/pull/107378",
+        "number": 158567,
+        "title": "feat(gateway): let operators disable client file and image uploads",
+        "url": "https://github.com/openclaw/openclaw/pull/158567",
         "state": "open",
-        "author": "jzakirov",
-        "updatedAt": "2026-09-27T01:24:59Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-27T08:06:30Z"
       },
       {
         "kind": "pr",
-        "number": 159219,
-        "title": "fix(telegram): prepare bot identity before webhook delivery",
-        "url": "https://github.com/openclaw/openclaw/pull/159219",
+        "number": 156769,
+        "title": "fix(cli): config patch refusals recommend flags config patch rejects",
+        "url": "https://github.com/openclaw/openclaw/pull/156769",
         "state": "open",
+        "author": "sxh313",
+        "updatedAt": "2026-09-27T08:06:26Z"
+      },
+      {
+        "kind": "pr",
+        "number": 159524,
+        "title": "fix(approvals): show expiry and cancellation on plugin approval cards",
+        "url": "https://github.com/openclaw/openclaw/pull/159524",
+        "state": "open",
+        "author": "holny",
+        "updatedAt": "2026-09-27T08:06:24Z"
+      },
+      {
+        "kind": "pr",
+        "number": 159475,
+        "title": "improve(gateway): prepare shared ancestor references once",
+        "url": "https://github.com/openclaw/openclaw/pull/159475",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-09-27T01:24:57Z"
+        "updatedAt": "2026-09-27T08:06:16Z"
       },
       {
         "kind": "pr",
-        "number": 158749,
-        "title": "refactor(test): exercise real Zalo startup",
-        "url": "https://github.com/openclaw/openclaw/pull/158749",
+        "number": 157803,
+        "title": "test: restore fixture state after assertion failures",
+        "url": "https://github.com/openclaw/openclaw/pull/157803",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-09-27T01:24:57Z"
+        "updatedAt": "2026-09-27T08:06:15Z"
       },
       {
         "kind": "pr",
-        "number": 145639,
-        "title": "fix(bonjour): stop ENODEV log bursts when transient interfaces disappear",
-        "url": "https://github.com/openclaw/openclaw/pull/145639",
+        "number": 64064,
+        "title": "feat(anthropic): add advisor tool support [AI-assisted]",
+        "url": "https://github.com/openclaw/openclaw/pull/64064",
         "state": "open",
-        "author": "tontoko",
-        "updatedAt": "2026-09-27T01:24:50Z"
-      },
-      {
-        "kind": "pr",
-        "number": 159246,
-        "title": "Support isolated sessions in the AgentsAPI and enable restricted dreaming sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/159246",
-        "state": "open",
-        "author": "sjf-oa",
-        "updatedAt": "2026-09-27T01:24:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 159239,
-        "title": "refactor(providers): deslop openai, anthropic and llama-cpp plugins",
-        "url": "https://github.com/openclaw/openclaw/pull/159239",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-27T01:24:39Z"
+        "author": "clearlift-paul",
+        "updatedAt": "2026-09-27T08:06:13Z"
       }
     ]
   }

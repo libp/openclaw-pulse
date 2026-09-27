@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-27T08:06:38.805Z",
+  "generatedAt": "2026-09-27T13:56:12.631Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1210,17 +1210,17 @@
     },
     {
       "capturedOn": "2026-09-27",
-      "capturedAt": "2026-09-27T08:06:38.805Z",
-      "issueOpen": 5599,
-      "issueClosed": 50696,
-      "prOpen": 3119,
-      "prClosed": 97566,
-      "prMerged": 46382,
+      "capturedAt": "2026-09-27T13:56:12.631Z",
+      "issueOpen": 5604,
+      "issueClosed": 50728,
+      "prOpen": 3125,
+      "prClosed": 97670,
+      "prMerged": 46470,
       "workflowRuns": 40000,
-      "stars": 390619,
-      "forks": 82163,
-      "subscribers": 1730,
-      "commits": 100971,
+      "stars": 390633,
+      "forks": 82162,
+      "subscribers": 1729,
+      "commits": 101059,
       "contributors": 3435,
       "source": "github-actions",
       "approximateDate": false
@@ -1693,10 +1693,10 @@
     },
     {
       "capturedOn": "2026-09-27",
-      "stars": 390619,
-      "forks": 82163,
-      "subscribers": 1730,
-      "commits": 100971,
+      "stars": 390633,
+      "forks": 82162,
+      "subscribers": 1729,
+      "commits": 101059,
       "contributors": 3435
     }
   ],
@@ -1704,113 +1704,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 156985,
-        "title": "Kubernetes: /tmp emptyDir lacks sticky protection required by fs-safe, disabling session observer",
-        "url": "https://github.com/openclaw/openclaw/issues/156985",
+        "number": 157702,
+        "title": "[Bug]: MSTeams progress status runs rows together in 1:1 chats (informative updates are single-line)",
+        "url": "https://github.com/openclaw/openclaw/issues/157702",
         "state": "open",
-        "author": "Conan-Scott",
-        "updatedAt": "2026-09-27T08:06:27Z"
+        "author": "rdbartram",
+        "updatedAt": "2026-09-27T13:55:48Z"
       },
       {
         "kind": "issue",
-        "number": 159339,
-        "title": "cron-setup DataCloneError blocks all 21 cron jobs after 9.6 upgrade (#156881 fix not in npm package)",
-        "url": "https://github.com/openclaw/openclaw/issues/159339",
+        "number": 123918,
+        "title": "[Bug]: inline-button prompt guidance ignores chat type, so scoped Telegram configs advertise sends the runtime rejects",
+        "url": "https://github.com/openclaw/openclaw/issues/123918",
         "state": "open",
-        "author": "hailongguo0530-alt",
-        "updatedAt": "2026-09-27T08:06:23Z"
+        "author": "marmar9615-cloud",
+        "updatedAt": "2026-09-27T13:55:37Z"
       },
       {
         "kind": "issue",
-        "number": 159059,
-        "title": "Direct subagent result mirror written between a wake's keyed user and its reply triggers 'keyed user is outside the current turn' (2026.9.6)",
-        "url": "https://github.com/openclaw/openclaw/issues/159059",
+        "number": 123933,
+        "title": "ACP session spawned into its own thread never replies in-thread",
+        "url": "https://github.com/openclaw/openclaw/issues/123933",
         "state": "open",
-        "author": "rozenpl",
-        "updatedAt": "2026-09-27T08:06:16Z"
+        "author": "itsahedge",
+        "updatedAt": "2026-09-27T13:55:36Z"
       },
       {
         "kind": "issue",
-        "number": 158966,
-        "title": "browser: credentialed CDP WebSocket URLs reach model-facing tab results",
-        "url": "https://github.com/openclaw/openclaw/issues/158966",
+        "number": 154618,
+        "title": "Update failure: finalize:doctor (2026.9.5)",
+        "url": "https://github.com/openclaw/openclaw/issues/154618",
         "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-09-27T08:06:28Z"
+        "author": "saybanet",
+        "updatedAt": "2026-09-27T13:55:34Z"
       },
       {
         "kind": "issue",
-        "number": 157643,
-        "title": "Usage reports coincide with out-of-window cold restores and repeated refresh timeouts",
-        "url": "https://github.com/openclaw/openclaw/issues/157643",
+        "number": 158890,
+        "title": "[Bug]: cron warning diagnostics are not recorded when an exec tool call fails input validation (the remedy cited when closing #121626 does not cover this path)",
+        "url": "https://github.com/openclaw/openclaw/issues/158890",
         "state": "open",
-        "author": "anyech",
-        "updatedAt": "2026-09-27T08:06:14Z"
+        "author": "elvisquirino",
+        "updatedAt": "2026-09-27T13:55:31Z"
       },
       {
         "kind": "issue",
-        "number": 159523,
-        "title": "WebChat: difficult to select and copy text from chat messages",
-        "url": "https://github.com/openclaw/openclaw/issues/159523",
+        "number": 158875,
+        "title": "[Bug]: task_runs.source_id and task status name the first candidate provider, not the provider that produced the media",
+        "url": "https://github.com/openclaw/openclaw/issues/158875",
         "state": "open",
-        "author": "a506488043",
-        "updatedAt": "2026-09-27T08:06:06Z"
+        "author": "kybrcore",
+        "updatedAt": "2026-09-27T13:55:21Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 158567,
-        "title": "feat(gateway): let operators disable client file and image uploads",
-        "url": "https://github.com/openclaw/openclaw/pull/158567",
+        "number": 159143,
+        "title": "fix(voice-call): store realtime caller turns in dialogue order",
+        "url": "https://github.com/openclaw/openclaw/pull/159143",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-27T08:06:30Z"
+        "author": "mnowrot",
+        "updatedAt": "2026-09-27T13:56:06Z"
       },
       {
         "kind": "pr",
-        "number": 156769,
-        "title": "fix(cli): config patch refusals recommend flags config patch rejects",
-        "url": "https://github.com/openclaw/openclaw/pull/156769",
+        "number": 159651,
+        "title": "fix(codex): preserve conversation text within fork history window",
+        "url": "https://github.com/openclaw/openclaw/pull/159651",
         "state": "open",
-        "author": "sxh313",
-        "updatedAt": "2026-09-27T08:06:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 159524,
-        "title": "fix(approvals): show expiry and cancellation on plugin approval cards",
-        "url": "https://github.com/openclaw/openclaw/pull/159524",
-        "state": "open",
-        "author": "holny",
-        "updatedAt": "2026-09-27T08:06:24Z"
-      },
-      {
-        "kind": "pr",
-        "number": 159475,
-        "title": "improve(gateway): prepare shared ancestor references once",
-        "url": "https://github.com/openclaw/openclaw/pull/159475",
-        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-09-27T08:06:16Z"
+        "updatedAt": "2026-09-27T13:55:57Z"
       },
       {
         "kind": "pr",
-        "number": 157803,
-        "title": "test: restore fixture state after assertion failures",
-        "url": "https://github.com/openclaw/openclaw/pull/157803",
+        "number": 159677,
+        "title": "test(gateway): share diagnostic profile dispatch fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/159677",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-09-27T08:06:15Z"
+        "updatedAt": "2026-09-27T13:55:50Z"
       },
       {
         "kind": "pr",
-        "number": 64064,
-        "title": "feat(anthropic): add advisor tool support [AI-assisted]",
-        "url": "https://github.com/openclaw/openclaw/pull/64064",
+        "number": 159678,
+        "title": "fix(codex): use the available OpenClaw question tool",
+        "url": "https://github.com/openclaw/openclaw/pull/159678",
         "state": "open",
-        "author": "clearlift-paul",
-        "updatedAt": "2026-09-27T08:06:13Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-27T13:55:48Z"
+      },
+      {
+        "kind": "pr",
+        "number": 123774,
+        "title": "fix(daemon): keep hidden Windows launcher alive for the daemon's lifetime",
+        "url": "https://github.com/openclaw/openclaw/pull/123774",
+        "state": "open",
+        "author": "bmorenmiami-droid",
+        "updatedAt": "2026-09-27T13:55:43Z"
+      },
+      {
+        "kind": "pr",
+        "number": 155494,
+        "title": "fix(google): stop excess citation requests after search cancellation",
+        "url": "https://github.com/openclaw/openclaw/pull/155494",
+        "state": "open",
+        "author": "mfurkanakinci",
+        "updatedAt": "2026-09-27T13:55:36Z"
       }
     ]
   }

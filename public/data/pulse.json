@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-28T06:50:48.785Z",
+  "generatedAt": "2026-09-28T15:24:58.696Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1227,17 +1227,17 @@
     },
     {
       "capturedOn": "2026-09-28",
-      "capturedAt": "2026-09-28T06:50:48.785Z",
-      "issueOpen": 5656,
-      "issueClosed": 50804,
-      "prOpen": 3205,
-      "prClosed": 98008,
-      "prMerged": 46749,
+      "capturedAt": "2026-09-28T15:24:58.696Z",
+      "issueOpen": 5706,
+      "issueClosed": 50826,
+      "prOpen": 3243,
+      "prClosed": 98189,
+      "prMerged": 46879,
       "workflowRuns": 40000,
-      "stars": 390676,
-      "forks": 82158,
-      "subscribers": 1730,
-      "commits": 101406,
+      "stars": 390714,
+      "forks": 82160,
+      "subscribers": 1727,
+      "commits": 101590,
       "contributors": 3435,
       "source": "github-actions",
       "approximateDate": false
@@ -1718,10 +1718,10 @@
     },
     {
       "capturedOn": "2026-09-28",
-      "stars": 390676,
-      "forks": 82158,
-      "subscribers": 1730,
-      "commits": 101406,
+      "stars": 390714,
+      "forks": 82160,
+      "subscribers": 1727,
+      "commits": 101590,
       "contributors": 3435
     }
   ],
@@ -1729,68 +1729,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 154529,
-        "title": "[Bug]: OpenRouter model-capabilities fetch aborts at 10s inside gateway while succeeding in ~360ms outside; cache never populates, warn loop every ~70-90s (2026.9.5)",
-        "url": "https://github.com/openclaw/openclaw/issues/154529",
+        "number": 156455,
+        "title": "[Bug]: 2026.9.5: 3+ concurrent agent turns stall the gateway event loop in ~5 s chunks (SQLite transaction admission was refused)",
+        "url": "https://github.com/openclaw/openclaw/issues/156455",
         "state": "open",
-        "author": "Truck0ff",
-        "updatedAt": "2026-09-28T06:49:57Z"
+        "author": "keramblock",
+        "updatedAt": "2026-09-28T15:24:44Z"
+      },
+      {
+        "kind": "issue",
+        "number": 159515,
+        "title": "Update failure: runtime-verification-failed (2026.9.4)",
+        "url": "https://github.com/openclaw/openclaw/issues/159515",
+        "state": "open",
+        "author": "kvlado80-create",
+        "updatedAt": "2026-09-28T15:24:41Z"
+      },
+      {
+        "kind": "issue",
+        "number": 114029,
+        "title": "deepseek provider: config apiKey 字段被静默忽略 + 默认 model 名 deepseek-chat 已被平台下线",
+        "url": "https://github.com/openclaw/openclaw/issues/114029",
+        "state": "open",
+        "author": "294z9wshsm-eng",
+        "updatedAt": "2026-09-28T15:24:36Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 160215,
-        "title": "perf(ui): reuse normalization and tool turns while loading older history",
-        "url": "https://github.com/openclaw/openclaw/pull/160215",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-28T06:50:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 160216,
-        "title": "perf(cron): narrow delivery-target session reads",
-        "url": "https://github.com/openclaw/openclaw/pull/160216",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-28T06:50:39Z"
-      },
-      {
-        "kind": "pr",
-        "number": 160224,
-        "title": "fix(plugins): npm-sourced plugins fail to install on Bun-only hosts",
-        "url": "https://github.com/openclaw/openclaw/pull/160224",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-28T06:50:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 160223,
-        "title": "test(agents,gateway,cron,infra): remove low-value tests (batch d082)",
-        "url": "https://github.com/openclaw/openclaw/pull/160223",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-28T06:50:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 158880,
-        "title": "fix(cli): config set writes null holes into arrays when setting a missing index",
-        "url": "https://github.com/openclaw/openclaw/pull/158880",
-        "state": "open",
-        "author": "YangManBOBO",
-        "updatedAt": "2026-09-28T06:50:35Z"
-      },
-      {
-        "kind": "pr",
-        "number": 160225,
-        "title": "fix(ui): keep pinned sessions in Pages when showing all agents",
-        "url": "https://github.com/openclaw/openclaw/pull/160225",
+        "number": 159688,
+        "title": "fix(sessions): resume the original conversation after restart recovery fails",
+        "url": "https://github.com/openclaw/openclaw/pull/159688",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-09-28T06:50:31Z"
+        "updatedAt": "2026-09-28T15:24:50Z"
+      },
+      {
+        "kind": "pr",
+        "number": 160277,
+        "title": "refactor(ui): deslop UI components, app shell and lib",
+        "url": "https://github.com/openclaw/openclaw/pull/160277",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-28T15:24:46Z"
+      },
+      {
+        "kind": "pr",
+        "number": 160455,
+        "title": "fix(feishu): preserve webhooks on supported 9.6 hosts",
+        "url": "https://github.com/openclaw/openclaw/pull/160455",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-28T15:24:44Z"
+      },
+      {
+        "kind": "pr",
+        "number": 150078,
+        "title": "fix(agents): keep claimed hook replies in conversation history",
+        "url": "https://github.com/openclaw/openclaw/pull/150078",
+        "state": "open",
+        "author": "herefindalex",
+        "updatedAt": "2026-09-28T15:24:44Z"
+      },
+      {
+        "kind": "pr",
+        "number": 160497,
+        "title": "fix: show verified profile identity in visitor lists",
+        "url": "https://github.com/openclaw/openclaw/pull/160497",
+        "state": "open",
+        "author": "shakkernerd",
+        "updatedAt": "2026-09-28T15:24:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 152052,
+        "title": "fix: config.patch rejects explicit keyed agent removals",
+        "url": "https://github.com/openclaw/openclaw/pull/152052",
+        "state": "open",
+        "author": "maximilien",
+        "updatedAt": "2026-09-28T15:24:41Z"
       }
     ]
   }

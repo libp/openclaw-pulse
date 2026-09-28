@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-27T22:08:22.812Z",
+  "generatedAt": "2026-09-28T06:50:48.785Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1224,6 +1224,23 @@
       "contributors": 3435,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-28",
+      "capturedAt": "2026-09-28T06:50:48.785Z",
+      "issueOpen": 5656,
+      "issueClosed": 50804,
+      "prOpen": 3205,
+      "prClosed": 98008,
+      "prMerged": 46749,
+      "workflowRuns": 40000,
+      "stars": 390676,
+      "forks": 82158,
+      "subscribers": 1730,
+      "commits": 101406,
+      "contributors": 3435,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1698,110 +1715,82 @@
       "subscribers": 1730,
       "commits": 101182,
       "contributors": 3435
+    },
+    {
+      "capturedOn": "2026-09-28",
+      "stars": 390676,
+      "forks": 82158,
+      "subscribers": 1730,
+      "commits": 101406,
+      "contributors": 3435
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 50185,
-        "title": "Telegram: unquarantine skipped sticker e2e tests",
-        "url": "https://github.com/openclaw/openclaw/issues/50185",
+        "number": 154529,
+        "title": "[Bug]: OpenRouter model-capabilities fetch aborts at 10s inside gateway while succeeding in ~360ms outside; cache never populates, warn loop every ~70-90s (2026.9.5)",
+        "url": "https://github.com/openclaw/openclaw/issues/154529",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-09-27T22:08:04Z"
-      },
-      {
-        "kind": "issue",
-        "number": 95821,
-        "title": "[Feature]: log memory-core-local-embedding-worker.js spawn/exit + per-call CPU time at INFO level for CPU-forensics traceability (2026.6.9)",
-        "url": "https://github.com/openclaw/openclaw/issues/95821",
-        "state": "open",
-        "author": "BryceMurray",
-        "updatedAt": "2026-09-27T22:07:56Z"
-      },
-      {
-        "kind": "issue",
-        "number": 159665,
-        "title": "DeepSeek DSML tool-call markup with kind `calls` leaks into delivered messages (whitelist misses `calls`)",
-        "url": "https://github.com/openclaw/openclaw/issues/159665",
-        "state": "open",
-        "author": "TOMUIV",
-        "updatedAt": "2026-09-27T22:07:50Z"
-      },
-      {
-        "kind": "issue",
-        "number": 156982,
-        "title": "[Bug]: Scheduled agentTurn (cron) runs intermittently fail with \"attempt disposed before transcript write\" while the gateway stays up (2026.9.5)",
-        "url": "https://github.com/openclaw/openclaw/issues/156982",
-        "state": "open",
-        "author": "yoyo837",
-        "updatedAt": "2026-09-27T22:07:49Z"
-      },
-      {
-        "kind": "issue",
-        "number": 158890,
-        "title": "[Bug]: cron warning diagnostics are not recorded when an exec tool call fails input validation (the remedy cited when closing #121626 does not cover this path)",
-        "url": "https://github.com/openclaw/openclaw/issues/158890",
-        "state": "open",
-        "author": "elvisquirino",
-        "updatedAt": "2026-09-27T22:07:44Z"
+        "author": "Truck0ff",
+        "updatedAt": "2026-09-28T06:49:57Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 157500,
-        "title": "feat(workers): authenticate stock GitHub clients on enterprise workers",
-        "url": "https://github.com/openclaw/openclaw/pull/157500",
+        "number": 160215,
+        "title": "perf(ui): reuse normalization and tool turns while loading older history",
+        "url": "https://github.com/openclaw/openclaw/pull/160215",
         "state": "open",
-        "author": "galiniliev",
-        "updatedAt": "2026-09-27T22:08:15Z"
+        "author": "steipete",
+        "updatedAt": "2026-09-28T06:50:41Z"
       },
       {
         "kind": "pr",
-        "number": 153922,
-        "title": "fix(ui): keep GitHub reference chips readable across themes",
-        "url": "https://github.com/openclaw/openclaw/pull/153922",
+        "number": 160216,
+        "title": "perf(cron): narrow delivery-target session reads",
+        "url": "https://github.com/openclaw/openclaw/pull/160216",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-28T06:50:39Z"
+      },
+      {
+        "kind": "pr",
+        "number": 160224,
+        "title": "fix(plugins): npm-sourced plugins fail to install on Bun-only hosts",
+        "url": "https://github.com/openclaw/openclaw/pull/160224",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-28T06:50:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 160223,
+        "title": "test(agents,gateway,cron,infra): remove low-value tests (batch d082)",
+        "url": "https://github.com/openclaw/openclaw/pull/160223",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-28T06:50:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 158880,
+        "title": "fix(cli): config set writes null holes into arrays when setting a missing index",
+        "url": "https://github.com/openclaw/openclaw/pull/158880",
+        "state": "open",
+        "author": "YangManBOBO",
+        "updatedAt": "2026-09-28T06:50:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 160225,
+        "title": "fix(ui): keep pinned sessions in Pages when showing all agents",
+        "url": "https://github.com/openclaw/openclaw/pull/160225",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-09-27T22:08:14Z"
-      },
-      {
-        "kind": "pr",
-        "number": 159844,
-        "title": "fix(telegram): preserve webhook delivery on 2026.9.6 hosts",
-        "url": "https://github.com/openclaw/openclaw/pull/159844",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-27T22:08:12Z"
-      },
-      {
-        "kind": "pr",
-        "number": 159879,
-        "title": "feat(slack-huddles): join Slack huddles as a signed-in Slack user",
-        "url": "https://github.com/openclaw/openclaw/pull/159879",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-27T22:08:05Z"
-      },
-      {
-        "kind": "pr",
-        "number": 159889,
-        "title": "feat(users): merge duplicate user profiles",
-        "url": "https://github.com/openclaw/openclaw/pull/159889",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-27T22:08:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 159896,
-        "title": "feat(github): bind Gateway native commands to run-scoped App credentials",
-        "url": "https://github.com/openclaw/openclaw/pull/159896",
-        "state": "open",
-        "author": "galiniliev",
-        "updatedAt": "2026-09-27T22:07:58Z"
+        "updatedAt": "2026-09-28T06:50:31Z"
       }
     ]
   }

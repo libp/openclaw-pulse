@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-29T08:26:37.581Z",
+  "generatedAt": "2026-09-29T15:48:48.166Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1244,17 +1244,17 @@
     },
     {
       "capturedOn": "2026-09-29",
-      "capturedAt": "2026-09-29T08:26:37.581Z",
-      "issueOpen": 5756,
-      "issueClosed": 50916,
-      "prOpen": 3191,
-      "prClosed": 98667,
-      "prMerged": 47306,
+      "capturedAt": "2026-09-29T15:48:48.166Z",
+      "issueOpen": 5791,
+      "issueClosed": 50935,
+      "prOpen": 3238,
+      "prClosed": 98744,
+      "prMerged": 47370,
       "workflowRuns": 40000,
-      "stars": 390753,
-      "forks": 82173,
-      "subscribers": 1727,
-      "commits": 102080,
+      "stars": 390778,
+      "forks": 82182,
+      "subscribers": 1726,
+      "commits": 102186,
       "contributors": 3439,
       "source": "github-actions",
       "approximateDate": false
@@ -1743,10 +1743,10 @@
     },
     {
       "capturedOn": "2026-09-29",
-      "stars": 390753,
-      "forks": 82173,
-      "subscribers": 1727,
-      "commits": 102080,
+      "stars": 390778,
+      "forks": 82182,
+      "subscribers": 1726,
+      "commits": 102186,
       "contributors": 3439
     }
   ],
@@ -1754,68 +1754,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 161081,
-        "title": "Update failure: global-install-failed (2026.9.4)",
-        "url": "https://github.com/openclaw/openclaw/issues/161081",
+        "number": 119484,
+        "title": "[Bug]: LF-only line endings in .cmd scripts (as written by AI editors) cause CMD to randomly drop characters / break nested blocks 鈥?silent corruption",
+        "url": "https://github.com/openclaw/openclaw/issues/119484",
         "state": "open",
-        "author": "qbeans",
-        "updatedAt": "2026-09-29T08:26:26Z"
+        "author": "saner-spec",
+        "updatedAt": "2026-09-29T15:48:18Z"
+      },
+      {
+        "kind": "issue",
+        "number": 152872,
+        "title": "[Bug]: 2026.9.5 on Windows — external channel plugin fails to register (\"Bundled companion is outside the plugin's captured module graph\"), and the staged copy then cannot resolve the host peer package",
+        "url": "https://github.com/openclaw/openclaw/issues/152872",
+        "state": "open",
+        "author": "desksk",
+        "updatedAt": "2026-09-29T15:47:16Z"
+      },
+      {
+        "kind": "issue",
+        "number": 159342,
+        "title": "[Bug]: one plugin failing on boot trips the crash-loop breaker and blacks out every channel; update proceeds with unavailable plugin targets",
+        "url": "https://github.com/openclaw/openclaw/issues/159342",
+        "state": "open",
+        "author": "keysersozeh",
+        "updatedAt": "2026-09-29T15:47:07Z"
+      },
+      {
+        "kind": "issue",
+        "number": 161259,
+        "title": "[Bug]: Control UI chat composer sends the draft on IME conversion-confirm in Safari",
+        "url": "https://github.com/openclaw/openclaw/issues/161259",
+        "state": "open",
+        "author": "stbtyx747",
+        "updatedAt": "2026-09-29T15:47:05Z"
+      },
+      {
+        "kind": "issue",
+        "number": 159334,
+        "title": "[Bug]: Runtime-bound Telegram conversations fail with AgentSelectionRequiredError on multi-agent installs",
+        "url": "https://github.com/openclaw/openclaw/issues/159334",
+        "state": "open",
+        "author": "superdiaodiao",
+        "updatedAt": "2026-09-29T15:47:03Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 158596,
-        "title": "fix(queue): allow plugin channel overrides",
-        "url": "https://github.com/openclaw/openclaw/pull/158596",
+        "number": 160620,
+        "title": "fix: cron jobs treat node policy denials as failures",
+        "url": "https://github.com/openclaw/openclaw/pull/160620",
         "state": "open",
-        "author": "Leon-SK668",
-        "updatedAt": "2026-09-29T08:26:30Z"
+        "author": "giodl73-repo",
+        "updatedAt": "2026-09-29T15:48:40Z"
       },
       {
         "kind": "pr",
-        "number": 146963,
-        "title": "fix: guard env: undefined in normalizeCronPayload to prevent SQLite persist crash",
-        "url": "https://github.com/openclaw/openclaw/pull/146963",
+        "number": 123774,
+        "title": "fix(daemon): keep hidden Windows launcher alive for the daemon's lifetime",
+        "url": "https://github.com/openclaw/openclaw/pull/123774",
         "state": "open",
-        "author": "galshm",
-        "updatedAt": "2026-09-29T08:26:27Z"
+        "author": "bmorenmiami-droid",
+        "updatedAt": "2026-09-29T15:48:36Z"
       },
       {
         "kind": "pr",
-        "number": 160886,
-        "title": "fix(macos): restored dashboards can stick on a failure page, and Dashboard tests flake on busy runners",
-        "url": "https://github.com/openclaw/openclaw/pull/160886",
+        "number": 161260,
+        "title": "fix(anthropic): release backgrounded Bash hold on task-notification result",
+        "url": "https://github.com/openclaw/openclaw/pull/161260",
+        "state": "open",
+        "author": "VACInc",
+        "updatedAt": "2026-09-29T15:48:22Z"
+      },
+      {
+        "kind": "pr",
+        "number": 161209,
+        "title": "fix(nodes): prevent disconnects during routine device updates",
+        "url": "https://github.com/openclaw/openclaw/pull/161209",
+        "state": "open",
+        "author": "gisk0",
+        "updatedAt": "2026-09-29T15:48:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 161129,
+        "title": "refactor(auto-reply): deslop auto-reply fifth pass",
+        "url": "https://github.com/openclaw/openclaw/pull/161129",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-29T08:26:26Z"
+        "updatedAt": "2026-09-29T15:48:13Z"
       },
       {
         "kind": "pr",
-        "number": 128848,
-        "title": "fix(ai): raise HTTP continuation idle TTL to a fixed 90 minutes, bound the cache",
-        "url": "https://github.com/openclaw/openclaw/pull/128848",
-        "state": "open",
-        "author": "hartmark",
-        "updatedAt": "2026-09-29T08:26:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 146493,
-        "title": "fix(approvals): resolved exec approval notices do not say which command was approved",
-        "url": "https://github.com/openclaw/openclaw/pull/146493",
-        "state": "open",
-        "author": "MakhBeth",
-        "updatedAt": "2026-09-29T08:26:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 161087,
-        "title": "test: plugin npm workflow test fails under pnpm test because the npm shim shadows npm",
-        "url": "https://github.com/openclaw/openclaw/pull/161087",
+        "number": 161262,
+        "title": "refactor(ui): deslop UI pages fifth pass",
+        "url": "https://github.com/openclaw/openclaw/pull/161262",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-29T08:26:16Z"
+        "updatedAt": "2026-09-29T15:47:40Z"
       }
     ]
   }

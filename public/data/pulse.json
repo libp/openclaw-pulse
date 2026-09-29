@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-28T15:24:58.696Z",
+  "generatedAt": "2026-09-29T08:26:37.581Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1241,6 +1241,23 @@
       "contributors": 3435,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-29",
+      "capturedAt": "2026-09-29T08:26:37.581Z",
+      "issueOpen": 5756,
+      "issueClosed": 50916,
+      "prOpen": 3191,
+      "prClosed": 98667,
+      "prMerged": 47306,
+      "workflowRuns": 40000,
+      "stars": 390753,
+      "forks": 82173,
+      "subscribers": 1727,
+      "commits": 102080,
+      "contributors": 3439,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1723,92 +1740,82 @@
       "subscribers": 1727,
       "commits": 101590,
       "contributors": 3435
+    },
+    {
+      "capturedOn": "2026-09-29",
+      "stars": 390753,
+      "forks": 82173,
+      "subscribers": 1727,
+      "commits": 102080,
+      "contributors": 3439
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 156455,
-        "title": "[Bug]: 2026.9.5: 3+ concurrent agent turns stall the gateway event loop in ~5 s chunks (SQLite transaction admission was refused)",
-        "url": "https://github.com/openclaw/openclaw/issues/156455",
+        "number": 161081,
+        "title": "Update failure: global-install-failed (2026.9.4)",
+        "url": "https://github.com/openclaw/openclaw/issues/161081",
         "state": "open",
-        "author": "keramblock",
-        "updatedAt": "2026-09-28T15:24:44Z"
-      },
-      {
-        "kind": "issue",
-        "number": 159515,
-        "title": "Update failure: runtime-verification-failed (2026.9.4)",
-        "url": "https://github.com/openclaw/openclaw/issues/159515",
-        "state": "open",
-        "author": "kvlado80-create",
-        "updatedAt": "2026-09-28T15:24:41Z"
-      },
-      {
-        "kind": "issue",
-        "number": 114029,
-        "title": "deepseek provider: config apiKey 字段被静默忽略 + 默认 model 名 deepseek-chat 已被平台下线",
-        "url": "https://github.com/openclaw/openclaw/issues/114029",
-        "state": "open",
-        "author": "294z9wshsm-eng",
-        "updatedAt": "2026-09-28T15:24:36Z"
+        "author": "qbeans",
+        "updatedAt": "2026-09-29T08:26:26Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 159688,
-        "title": "fix(sessions): resume the original conversation after restart recovery fails",
-        "url": "https://github.com/openclaw/openclaw/pull/159688",
+        "number": 158596,
+        "title": "fix(queue): allow plugin channel overrides",
+        "url": "https://github.com/openclaw/openclaw/pull/158596",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-09-28T15:24:50Z"
+        "author": "Leon-SK668",
+        "updatedAt": "2026-09-29T08:26:30Z"
       },
       {
         "kind": "pr",
-        "number": 160277,
-        "title": "refactor(ui): deslop UI components, app shell and lib",
-        "url": "https://github.com/openclaw/openclaw/pull/160277",
+        "number": 146963,
+        "title": "fix: guard env: undefined in normalizeCronPayload to prevent SQLite persist crash",
+        "url": "https://github.com/openclaw/openclaw/pull/146963",
+        "state": "open",
+        "author": "galshm",
+        "updatedAt": "2026-09-29T08:26:27Z"
+      },
+      {
+        "kind": "pr",
+        "number": 160886,
+        "title": "fix(macos): restored dashboards can stick on a failure page, and Dashboard tests flake on busy runners",
+        "url": "https://github.com/openclaw/openclaw/pull/160886",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-28T15:24:46Z"
+        "updatedAt": "2026-09-29T08:26:26Z"
       },
       {
         "kind": "pr",
-        "number": 160455,
-        "title": "fix(feishu): preserve webhooks on supported 9.6 hosts",
-        "url": "https://github.com/openclaw/openclaw/pull/160455",
+        "number": 128848,
+        "title": "fix(ai): raise HTTP continuation idle TTL to a fixed 90 minutes, bound the cache",
+        "url": "https://github.com/openclaw/openclaw/pull/128848",
+        "state": "open",
+        "author": "hartmark",
+        "updatedAt": "2026-09-29T08:26:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 146493,
+        "title": "fix(approvals): resolved exec approval notices do not say which command was approved",
+        "url": "https://github.com/openclaw/openclaw/pull/146493",
+        "state": "open",
+        "author": "MakhBeth",
+        "updatedAt": "2026-09-29T08:26:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 161087,
+        "title": "test: plugin npm workflow test fails under pnpm test because the npm shim shadows npm",
+        "url": "https://github.com/openclaw/openclaw/pull/161087",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-28T15:24:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 150078,
-        "title": "fix(agents): keep claimed hook replies in conversation history",
-        "url": "https://github.com/openclaw/openclaw/pull/150078",
-        "state": "open",
-        "author": "herefindalex",
-        "updatedAt": "2026-09-28T15:24:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 160497,
-        "title": "fix: show verified profile identity in visitor lists",
-        "url": "https://github.com/openclaw/openclaw/pull/160497",
-        "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-09-28T15:24:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 152052,
-        "title": "fix: config.patch rejects explicit keyed agent removals",
-        "url": "https://github.com/openclaw/openclaw/pull/152052",
-        "state": "open",
-        "author": "maximilien",
-        "updatedAt": "2026-09-28T15:24:41Z"
+        "updatedAt": "2026-09-29T08:26:16Z"
       }
     ]
   }

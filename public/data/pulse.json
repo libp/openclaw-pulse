@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-30T06:40:55.164Z",
+  "generatedAt": "2026-09-30T13:40:33.072Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1261,18 +1261,18 @@
     },
     {
       "capturedOn": "2026-09-30",
-      "capturedAt": "2026-09-30T06:40:55.164Z",
-      "issueOpen": 5808,
-      "issueClosed": 51010,
-      "prOpen": 3258,
-      "prClosed": 99057,
-      "prMerged": 47633,
+      "capturedAt": "2026-09-30T13:40:33.072Z",
+      "issueOpen": 5848,
+      "issueClosed": 51037,
+      "prOpen": 3238,
+      "prClosed": 99218,
+      "prMerged": 47786,
       "workflowRuns": 40000,
-      "stars": 390817,
-      "forks": 82203,
+      "stars": 390845,
+      "forks": 82207,
       "subscribers": 1725,
-      "commits": 102522,
-      "contributors": 3441,
+      "commits": 102704,
+      "contributors": 3443,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1768,69 +1768,97 @@
     },
     {
       "capturedOn": "2026-09-30",
-      "stars": 390817,
-      "forks": 82203,
+      "stars": 390845,
+      "forks": 82207,
       "subscribers": 1725,
-      "commits": 102522,
-      "contributors": 3441
+      "commits": 102704,
+      "contributors": 3443
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 161893,
+        "title": "[Feature]: Skip the per-turn persisted context-engine quarantine clear when nothing is quarantined",
+        "url": "https://github.com/openclaw/openclaw/issues/161893",
+        "state": "open",
+        "author": "boeingchoco",
+        "updatedAt": "2026-09-30T13:39:36Z"
+      },
+      {
+        "kind": "issue",
+        "number": 161892,
+        "title": "[Feature]: Reuse the previous normalization when merging streamed reasoning progress deltas",
+        "url": "https://github.com/openclaw/openclaw/issues/161892",
+        "state": "open",
+        "author": "boeingchoco",
+        "updatedAt": "2026-09-30T13:39:32Z"
+      },
+      {
+        "kind": "issue",
+        "number": 129314,
+        "title": "Hidden \"next-turn runtime context\" message occasionally dispatched as a standalone visible turn instead of staying attached to the next real user message",
+        "url": "https://github.com/openclaw/openclaw/issues/129314",
+        "state": "open",
+        "author": "JUSTINFORSOUND",
+        "updatedAt": "2026-09-30T13:40:24Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 161682,
-        "title": "fix(ios): qualify releases against the stable Gateway",
-        "url": "https://github.com/openclaw/openclaw/pull/161682",
+        "number": 161446,
+        "title": "fix: update managed Codex catalog and protocol to 0.159.1",
+        "url": "https://github.com/openclaw/openclaw/pull/161446",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-09-30T06:40:48Z"
+        "author": "IstiqlalBhat",
+        "updatedAt": "2026-09-30T13:40:25Z"
       },
       {
         "kind": "pr",
-        "number": 161693,
-        "title": "improve(tests): speed up live WAL snapshot checks",
-        "url": "https://github.com/openclaw/openclaw/pull/161693",
+        "number": 140609,
+        "title": "fix(secrets): fence lowercase exec proxy aliases",
+        "url": "https://github.com/openclaw/openclaw/pull/140609",
+        "state": "open",
+        "author": "saladinyao-cyber",
+        "updatedAt": "2026-09-30T13:40:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 141292,
+        "title": "fix(telegram): recognize images sent as documents",
+        "url": "https://github.com/openclaw/openclaw/pull/141292",
+        "state": "open",
+        "author": "ooiuuii",
+        "updatedAt": "2026-09-30T13:40:24Z"
+      },
+      {
+        "kind": "pr",
+        "number": 160442,
+        "title": "perf(nodes): load only what a worker turn needs",
+        "url": "https://github.com/openclaw/openclaw/pull/160442",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-30T06:40:47Z"
+        "updatedAt": "2026-09-30T13:40:23Z"
       },
       {
         "kind": "pr",
-        "number": 161513,
-        "title": "refactor(infra): deslop infra seventh pass",
-        "url": "https://github.com/openclaw/openclaw/pull/161513",
+        "number": 161890,
+        "title": "refactor(gateway): deslop worker environments",
+        "url": "https://github.com/openclaw/openclaw/pull/161890",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-30T06:40:47Z"
+        "updatedAt": "2026-09-30T13:40:15Z"
       },
       {
         "kind": "pr",
-        "number": 161421,
-        "title": "fix: paired clients time out behind queued connection metadata",
-        "url": "https://github.com/openclaw/openclaw/pull/161421",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-30T06:40:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 161595,
-        "title": "fix(agents): treat node-placed workspaces as opaque so the gateway stops mkdir'ing the paired node's home",
-        "url": "https://github.com/openclaw/openclaw/pull/161595",
-        "state": "open",
-        "author": "RerankerGuo",
-        "updatedAt": "2026-09-30T06:40:23Z"
-      },
-      {
-        "kind": "pr",
-        "number": 160352,
-        "title": "feat(ui): select Ultrafast for supported accounts",
-        "url": "https://github.com/openclaw/openclaw/pull/160352",
+        "number": 161880,
+        "title": "fix(test): Gateway fixtures overlap in parallel runs",
+        "url": "https://github.com/openclaw/openclaw/pull/161880",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-09-30T06:40:20Z"
+        "updatedAt": "2026-09-30T13:40:15Z"
       }
     ]
   }

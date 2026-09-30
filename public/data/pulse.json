@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-29T15:48:48.166Z",
+  "generatedAt": "2026-09-30T06:40:55.164Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1258,6 +1258,23 @@
       "contributors": 3439,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-09-30",
+      "capturedAt": "2026-09-30T06:40:55.164Z",
+      "issueOpen": 5808,
+      "issueClosed": 51010,
+      "prOpen": 3258,
+      "prClosed": 99057,
+      "prMerged": 47633,
+      "workflowRuns": 40000,
+      "stars": 390817,
+      "forks": 82203,
+      "subscribers": 1725,
+      "commits": 102522,
+      "contributors": 3441,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1748,110 +1765,72 @@
       "subscribers": 1726,
       "commits": 102186,
       "contributors": 3439
+    },
+    {
+      "capturedOn": "2026-09-30",
+      "stars": 390817,
+      "forks": 82203,
+      "subscribers": 1725,
+      "commits": 102522,
+      "contributors": 3441
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 119484,
-        "title": "[Bug]: LF-only line endings in .cmd scripts (as written by AI editors) cause CMD to randomly drop characters / break nested blocks 鈥?silent corruption",
-        "url": "https://github.com/openclaw/openclaw/issues/119484",
-        "state": "open",
-        "author": "saner-spec",
-        "updatedAt": "2026-09-29T15:48:18Z"
-      },
-      {
-        "kind": "issue",
-        "number": 152872,
-        "title": "[Bug]: 2026.9.5 on Windows — external channel plugin fails to register (\"Bundled companion is outside the plugin's captured module graph\"), and the staged copy then cannot resolve the host peer package",
-        "url": "https://github.com/openclaw/openclaw/issues/152872",
-        "state": "open",
-        "author": "desksk",
-        "updatedAt": "2026-09-29T15:47:16Z"
-      },
-      {
-        "kind": "issue",
-        "number": 159342,
-        "title": "[Bug]: one plugin failing on boot trips the crash-loop breaker and blacks out every channel; update proceeds with unavailable plugin targets",
-        "url": "https://github.com/openclaw/openclaw/issues/159342",
-        "state": "open",
-        "author": "keysersozeh",
-        "updatedAt": "2026-09-29T15:47:07Z"
-      },
-      {
-        "kind": "issue",
-        "number": 161259,
-        "title": "[Bug]: Control UI chat composer sends the draft on IME conversion-confirm in Safari",
-        "url": "https://github.com/openclaw/openclaw/issues/161259",
-        "state": "open",
-        "author": "stbtyx747",
-        "updatedAt": "2026-09-29T15:47:05Z"
-      },
-      {
-        "kind": "issue",
-        "number": 159334,
-        "title": "[Bug]: Runtime-bound Telegram conversations fail with AgentSelectionRequiredError on multi-agent installs",
-        "url": "https://github.com/openclaw/openclaw/issues/159334",
-        "state": "open",
-        "author": "superdiaodiao",
-        "updatedAt": "2026-09-29T15:47:03Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 160620,
-        "title": "fix: cron jobs treat node policy denials as failures",
-        "url": "https://github.com/openclaw/openclaw/pull/160620",
+        "number": 161682,
+        "title": "fix(ios): qualify releases against the stable Gateway",
+        "url": "https://github.com/openclaw/openclaw/pull/161682",
         "state": "open",
-        "author": "giodl73-repo",
-        "updatedAt": "2026-09-29T15:48:40Z"
+        "author": "joshavant",
+        "updatedAt": "2026-09-30T06:40:48Z"
       },
       {
         "kind": "pr",
-        "number": 123774,
-        "title": "fix(daemon): keep hidden Windows launcher alive for the daemon's lifetime",
-        "url": "https://github.com/openclaw/openclaw/pull/123774",
-        "state": "open",
-        "author": "bmorenmiami-droid",
-        "updatedAt": "2026-09-29T15:48:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 161260,
-        "title": "fix(anthropic): release backgrounded Bash hold on task-notification result",
-        "url": "https://github.com/openclaw/openclaw/pull/161260",
-        "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-09-29T15:48:22Z"
-      },
-      {
-        "kind": "pr",
-        "number": 161209,
-        "title": "fix(nodes): prevent disconnects during routine device updates",
-        "url": "https://github.com/openclaw/openclaw/pull/161209",
-        "state": "open",
-        "author": "gisk0",
-        "updatedAt": "2026-09-29T15:48:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 161129,
-        "title": "refactor(auto-reply): deslop auto-reply fifth pass",
-        "url": "https://github.com/openclaw/openclaw/pull/161129",
+        "number": 161693,
+        "title": "improve(tests): speed up live WAL snapshot checks",
+        "url": "https://github.com/openclaw/openclaw/pull/161693",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-29T15:48:13Z"
+        "updatedAt": "2026-09-30T06:40:47Z"
       },
       {
         "kind": "pr",
-        "number": 161262,
-        "title": "refactor(ui): deslop UI pages fifth pass",
-        "url": "https://github.com/openclaw/openclaw/pull/161262",
+        "number": 161513,
+        "title": "refactor(infra): deslop infra seventh pass",
+        "url": "https://github.com/openclaw/openclaw/pull/161513",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-09-29T15:47:40Z"
+        "updatedAt": "2026-09-30T06:40:47Z"
+      },
+      {
+        "kind": "pr",
+        "number": 161421,
+        "title": "fix: paired clients time out behind queued connection metadata",
+        "url": "https://github.com/openclaw/openclaw/pull/161421",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-09-30T06:40:32Z"
+      },
+      {
+        "kind": "pr",
+        "number": 161595,
+        "title": "fix(agents): treat node-placed workspaces as opaque so the gateway stops mkdir'ing the paired node's home",
+        "url": "https://github.com/openclaw/openclaw/pull/161595",
+        "state": "open",
+        "author": "RerankerGuo",
+        "updatedAt": "2026-09-30T06:40:23Z"
+      },
+      {
+        "kind": "pr",
+        "number": 160352,
+        "title": "feat(ui): select Ultrafast for supported accounts",
+        "url": "https://github.com/openclaw/openclaw/pull/160352",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-09-30T06:40:20Z"
       }
     ]
   }

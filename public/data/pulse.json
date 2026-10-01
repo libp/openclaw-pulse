@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-01T08:53:27.714Z",
+  "generatedAt": "2026-10-01T16:25:16.779Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1278,18 +1278,18 @@
     },
     {
       "capturedOn": "2026-10-01",
-      "capturedAt": "2026-10-01T08:53:27.714Z",
-      "issueOpen": 5860,
-      "issueClosed": 51193,
-      "prOpen": 3292,
-      "prClosed": 99673,
-      "prMerged": 48171,
+      "capturedAt": "2026-10-01T16:25:16.779Z",
+      "issueOpen": 5878,
+      "issueClosed": 51245,
+      "prOpen": 3259,
+      "prClosed": 99907,
+      "prMerged": 48380,
       "workflowRuns": 40000,
-      "stars": 391076,
-      "forks": 82233,
-      "subscribers": 1724,
-      "commits": 103160,
-      "contributors": 3454,
+      "stars": 391130,
+      "forks": 82234,
+      "subscribers": 1722,
+      "commits": 103395,
+      "contributors": 3463,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1793,97 +1793,69 @@
     },
     {
       "capturedOn": "2026-10-01",
-      "stars": 391076,
-      "forks": 82233,
-      "subscribers": 1724,
-      "commits": 103160,
-      "contributors": 3454
+      "stars": 391130,
+      "forks": 82234,
+      "subscribers": 1722,
+      "commits": 103395,
+      "contributors": 3463
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 162562,
-        "title": "chat.send rejects `__controlUiReconnectResume` \"at root\" although the 9.7 build has a handler for it — wedges the desktop app on every reconnect (restart required)",
-        "url": "https://github.com/openclaw/openclaw/issues/162562",
-        "state": "open",
-        "author": "kamstorm-hub",
-        "updatedAt": "2026-10-01T08:51:18Z"
-      },
-      {
-        "kind": "issue",
-        "number": 136714,
-        "title": "[Bug]: 2026.8.2 — every Codex sub-agent spawned via sessions_spawn is policy-restricted (loses native shell/read/apply_patch) because the built-in sub-agent deny list is outside the Codex safe-deny set",
-        "url": "https://github.com/openclaw/openclaw/issues/136714",
-        "state": "open",
-        "author": "jonnys87",
-        "updatedAt": "2026-10-01T08:51:18Z"
-      },
-      {
-        "kind": "issue",
-        "number": 162561,
-        "title": "sessions_spawn from a claude-cli parent drops natively-provided coding tools from the child's tool ceiling",
-        "url": "https://github.com/openclaw/openclaw/issues/162561",
-        "state": "open",
-        "author": "dprev",
-        "updatedAt": "2026-10-01T08:51:12Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 162559,
-        "title": "fix: native prebuild repair and launcher/JSON recovery misbehave on Bun",
-        "url": "https://github.com/openclaw/openclaw/pull/162559",
+        "number": 159712,
+        "title": "fix(agents): guide users after HTTP 400 prompt-size rejection",
+        "url": "https://github.com/openclaw/openclaw/pull/159712",
+        "state": "open",
+        "author": "sunlit-deng",
+        "updatedAt": "2026-10-01T16:25:09Z"
+      },
+      {
+        "kind": "pr",
+        "number": 162827,
+        "title": "refactor(channels): move repeated contract boilerplate onto shared helpers",
+        "url": "https://github.com/openclaw/openclaw/pull/162827",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-10-01T16:24:58Z"
+      },
+      {
+        "kind": "pr",
+        "number": 162098,
+        "title": "fix(update): await progress receipts before advancing commands",
+        "url": "https://github.com/openclaw/openclaw/pull/162098",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-01T08:53:16Z"
+        "updatedAt": "2026-10-01T16:25:09Z"
       },
       {
         "kind": "pr",
-        "number": 162428,
-        "title": "fix(ui): keep chat and drafts usable when connections fail",
-        "url": "https://github.com/openclaw/openclaw/pull/162428",
+        "number": 162825,
+        "title": "refactor(sessions): consolidate captured read sources",
+        "url": "https://github.com/openclaw/openclaw/pull/162825",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-01T16:24:53Z"
+      },
+      {
+        "kind": "pr",
+        "number": 162833,
+        "title": "test(gateway): remove low-value tests (batch d134)",
+        "url": "https://github.com/openclaw/openclaw/pull/162833",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-01T16:24:48Z"
+      },
+      {
+        "kind": "pr",
+        "number": 162832,
+        "title": "fix(ui): typing after opening the model picker edits the chat draft",
+        "url": "https://github.com/openclaw/openclaw/pull/162832",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-10-01T08:53:09Z"
-      },
-      {
-        "kind": "pr",
-        "number": 162369,
-        "title": "fix(ui): Cmd+K fails inside dashboard widgets",
-        "url": "https://github.com/openclaw/openclaw/pull/162369",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-10-01T08:53:06Z"
-      },
-      {
-        "kind": "pr",
-        "number": 149725,
-        "title": "feat(macos): use shared Rust sidecar for node sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/149725",
-        "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-10-01T08:53:03Z"
-      },
-      {
-        "kind": "pr",
-        "number": 162124,
-        "title": "fix: preserve underlying failures in worker disposal errors",
-        "url": "https://github.com/openclaw/openclaw/pull/162124",
-        "state": "open",
-        "author": "michaelswissa",
-        "updatedAt": "2026-10-01T08:53:00Z"
-      },
-      {
-        "kind": "pr",
-        "number": 162335,
-        "title": "feat(agentsapi): support custom native tool lists with defaults",
-        "url": "https://github.com/openclaw/openclaw/pull/162335",
-        "state": "closed",
-        "author": "sjf-oa",
-        "updatedAt": "2026-10-01T08:52:49Z"
+        "updatedAt": "2026-10-01T16:24:47Z"
       }
     ]
   }

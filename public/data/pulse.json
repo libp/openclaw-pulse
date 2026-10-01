@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-09-30T23:02:39.718Z",
+  "generatedAt": "2026-10-01T08:53:27.714Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1275,6 +1275,23 @@
       "contributors": 3444,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-01",
+      "capturedAt": "2026-10-01T08:53:27.714Z",
+      "issueOpen": 5860,
+      "issueClosed": 51193,
+      "prOpen": 3292,
+      "prClosed": 99673,
+      "prMerged": 48171,
+      "workflowRuns": 40000,
+      "stars": 391076,
+      "forks": 82233,
+      "subscribers": 1724,
+      "commits": 103160,
+      "contributors": 3454,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1773,92 +1790,100 @@
       "subscribers": 1723,
       "commits": 102888,
       "contributors": 3444
+    },
+    {
+      "capturedOn": "2026-10-01",
+      "stars": 391076,
+      "forks": 82233,
+      "subscribers": 1724,
+      "commits": 103160,
+      "contributors": 3454
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 162193,
-        "title": "[Bug]: doctor --fix truncates existing shared-state SQLite DB and then aborts with Existing shared-state database generation changed",
-        "url": "https://github.com/openclaw/openclaw/issues/162193",
+        "number": 162562,
+        "title": "chat.send rejects `__controlUiReconnectResume` \"at root\" although the 9.7 build has a handler for it — wedges the desktop app on every reconnect (restart required)",
+        "url": "https://github.com/openclaw/openclaw/issues/162562",
         "state": "open",
-        "author": "mightymike1978",
-        "updatedAt": "2026-09-30T23:02:09Z"
+        "author": "kamstorm-hub",
+        "updatedAt": "2026-10-01T08:51:18Z"
       },
       {
         "kind": "issue",
-        "number": 162189,
-        "title": "[Bug]: Discord accounts still wedge in READY-wait loop after DNS outage on 2026.9.4 (regression/incomplete fix of #125813)",
-        "url": "https://github.com/openclaw/openclaw/issues/162189",
+        "number": 136714,
+        "title": "[Bug]: 2026.8.2 — every Codex sub-agent spawned via sessions_spawn is policy-restricted (loses native shell/read/apply_patch) because the built-in sub-agent deny list is outside the Codex safe-deny set",
+        "url": "https://github.com/openclaw/openclaw/issues/136714",
         "state": "open",
-        "author": "mattreyes0824",
-        "updatedAt": "2026-09-30T22:59:54Z"
+        "author": "jonnys87",
+        "updatedAt": "2026-10-01T08:51:18Z"
       },
       {
         "kind": "issue",
-        "number": 162130,
-        "title": "[Bug]: 9.6 to 9.7 Windows update rolls back at Doctor; numeric/bigint lease-directory identities disagree",
-        "url": "https://github.com/openclaw/openclaw/issues/162130",
+        "number": 162561,
+        "title": "sessions_spawn from a claude-cli parent drops natively-provided coding tools from the child's tool ceiling",
+        "url": "https://github.com/openclaw/openclaw/issues/162561",
         "state": "open",
-        "author": "WG-Mojo",
-        "updatedAt": "2026-09-30T22:59:14Z"
+        "author": "dprev",
+        "updatedAt": "2026-10-01T08:51:12Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 162188,
-        "title": "docs: publish release notes for v2026.9.7",
-        "url": "https://github.com/openclaw/openclaw/pull/162188",
+        "number": 162559,
+        "title": "fix: native prebuild repair and launcher/JSON recovery misbehave on Bun",
+        "url": "https://github.com/openclaw/openclaw/pull/162559",
         "state": "open",
-        "author": "hannesrudolph",
-        "updatedAt": "2026-09-30T23:02:33Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-01T08:53:16Z"
       },
       {
         "kind": "pr",
-        "number": 162187,
-        "title": "docs: publish release notes for v2026.9.6",
-        "url": "https://github.com/openclaw/openclaw/pull/162187",
+        "number": 162428,
+        "title": "fix(ui): keep chat and drafts usable when connections fail",
+        "url": "https://github.com/openclaw/openclaw/pull/162428",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-10-01T08:53:09Z"
+      },
+      {
+        "kind": "pr",
+        "number": 162369,
+        "title": "fix(ui): Cmd+K fails inside dashboard widgets",
+        "url": "https://github.com/openclaw/openclaw/pull/162369",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-10-01T08:53:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 149725,
+        "title": "feat(macos): use shared Rust sidecar for node sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/149725",
+        "state": "open",
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-10-01T08:53:03Z"
+      },
+      {
+        "kind": "pr",
+        "number": 162124,
+        "title": "fix: preserve underlying failures in worker disposal errors",
+        "url": "https://github.com/openclaw/openclaw/pull/162124",
+        "state": "open",
+        "author": "michaelswissa",
+        "updatedAt": "2026-10-01T08:53:00Z"
+      },
+      {
+        "kind": "pr",
+        "number": 162335,
+        "title": "feat(agentsapi): support custom native tool lists with defaults",
+        "url": "https://github.com/openclaw/openclaw/pull/162335",
         "state": "closed",
-        "author": "hannesrudolph",
-        "updatedAt": "2026-09-30T23:02:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 157851,
-        "title": "build(deps): bump the actions group across 1 directory with 4 updates",
-        "url": "https://github.com/openclaw/openclaw/pull/157851",
-        "state": "open",
-        "author": "dependabot[bot]",
-        "updatedAt": "2026-09-30T23:02:29Z"
-      },
-      {
-        "kind": "pr",
-        "number": 162174,
-        "title": "refactor(channels): finish shared draft-stream ownership",
-        "url": "https://github.com/openclaw/openclaw/pull/162174",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-09-30T23:02:25Z"
-      },
-      {
-        "kind": "pr",
-        "number": 162167,
-        "title": "refactor(agents): share CLI candidate binding lifecycle",
-        "url": "https://github.com/openclaw/openclaw/pull/162167",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-30T23:02:21Z"
-      },
-      {
-        "kind": "pr",
-        "number": 161779,
-        "title": "feat(macos): add Gateway hosting controls and Node migration",
-        "url": "https://github.com/openclaw/openclaw/pull/161779",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-09-30T23:02:12Z"
+        "author": "sjf-oa",
+        "updatedAt": "2026-10-01T08:52:49Z"
       }
     ]
   }

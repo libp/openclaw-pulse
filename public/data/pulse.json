@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-01T16:25:16.779Z",
+  "generatedAt": "2026-10-02T01:40:56.367Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1292,6 +1292,23 @@
       "contributors": 3463,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-02",
+      "capturedAt": "2026-10-02T01:40:56.367Z",
+      "issueOpen": 5896,
+      "issueClosed": 51287,
+      "prOpen": 3254,
+      "prClosed": 100169,
+      "prMerged": 48624,
+      "workflowRuns": 40000,
+      "stars": 391167,
+      "forks": 82239,
+      "subscribers": 1722,
+      "commits": 103656,
+      "contributors": 3468,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1798,64 +1815,100 @@
       "subscribers": 1722,
       "commits": 103395,
       "contributors": 3463
+    },
+    {
+      "capturedOn": "2026-10-02",
+      "stars": 391167,
+      "forks": 82239,
+      "subscribers": 1722,
+      "commits": 103656,
+      "contributors": 3468
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 121232,
+        "title": "memory-core dreaming: ranker nominates candidates the applier always rejects (\"Ranked N, Promoted 0\" forever)",
+        "url": "https://github.com/openclaw/openclaw/issues/121232",
+        "state": "open",
+        "author": "ctbritt",
+        "updatedAt": "2026-10-02T01:40:00Z"
+      },
+      {
+        "kind": "issue",
+        "number": 114414,
+        "title": "Dated TODO sweep",
+        "url": "https://github.com/openclaw/openclaw/issues/114414",
+        "state": "open",
+        "author": "openclaw-barnacle[bot]",
+        "updatedAt": "2026-10-02T01:39:51Z"
+      },
+      {
+        "kind": "issue",
+        "number": 121795,
+        "title": "[Feature]: Include usage in infer model run gateway JSON envelope",
+        "url": "https://github.com/openclaw/openclaw/issues/121795",
+        "state": "open",
+        "author": "aleps001",
+        "updatedAt": "2026-10-02T01:39:42Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 159712,
-        "title": "fix(agents): guide users after HTTP 400 prompt-size rejection",
-        "url": "https://github.com/openclaw/openclaw/pull/159712",
-        "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-10-01T16:25:09Z"
-      },
-      {
-        "kind": "pr",
-        "number": 162827,
-        "title": "refactor(channels): move repeated contract boilerplate onto shared helpers",
-        "url": "https://github.com/openclaw/openclaw/pull/162827",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-10-01T16:24:58Z"
-      },
-      {
-        "kind": "pr",
-        "number": 162098,
-        "title": "fix(update): await progress receipts before advancing commands",
-        "url": "https://github.com/openclaw/openclaw/pull/162098",
+        "number": 163018,
+        "title": "test(ui): prove usage overview release deterministically",
+        "url": "https://github.com/openclaw/openclaw/pull/163018",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-01T16:25:09Z"
+        "updatedAt": "2026-10-02T01:40:48Z"
       },
       {
         "kind": "pr",
-        "number": 162825,
-        "title": "refactor(sessions): consolidate captured read sources",
-        "url": "https://github.com/openclaw/openclaw/pull/162825",
+        "number": 141004,
+        "title": "feat(audit): record observed runtime skill usage",
+        "url": "https://github.com/openclaw/openclaw/pull/141004",
+        "state": "open",
+        "author": "wiecon-dev",
+        "updatedAt": "2026-10-02T01:40:45Z"
+      },
+      {
+        "kind": "pr",
+        "number": 163157,
+        "title": "refactor(mattermost): pass media facts directly to ingress",
+        "url": "https://github.com/openclaw/openclaw/pull/163157",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-01T16:24:53Z"
+        "updatedAt": "2026-10-02T01:40:44Z"
       },
       {
         "kind": "pr",
-        "number": 162833,
-        "title": "test(gateway): remove low-value tests (batch d134)",
-        "url": "https://github.com/openclaw/openclaw/pull/162833",
+        "number": 157860,
+        "title": "fix: keep container dashboard origins current after public origin changes",
+        "url": "https://github.com/openclaw/openclaw/pull/157860",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-01T16:24:48Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-10-02T01:40:42Z"
       },
       {
         "kind": "pr",
-        "number": 162832,
-        "title": "fix(ui): typing after opening the model picker edits the chat draft",
-        "url": "https://github.com/openclaw/openclaw/pull/162832",
+        "number": 163037,
+        "title": "fix(agents): wait for owned resources before finishing a run",
+        "url": "https://github.com/openclaw/openclaw/pull/163037",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-10-01T16:24:47Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-10-02T01:40:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 163035,
+        "title": "fix(crabbox): start remote checks from code-only worktrees",
+        "url": "https://github.com/openclaw/openclaw/pull/163035",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-10-02T01:40:39Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-02T08:29:31.412Z",
+  "generatedAt": "2026-10-02T20:42:36.299Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1295,18 +1295,18 @@
     },
     {
       "capturedOn": "2026-10-02",
-      "capturedAt": "2026-10-02T08:29:31.412Z",
-      "issueOpen": 5895,
-      "issueClosed": 51319,
+      "capturedAt": "2026-10-02T20:42:36.299Z",
+      "issueOpen": 5929,
+      "issueClosed": 51332,
       "prOpen": 3253,
-      "prClosed": 100368,
-      "prMerged": 48810,
+      "prClosed": 100658,
+      "prMerged": 49071,
       "workflowRuns": 40000,
-      "stars": 391187,
-      "forks": 82246,
-      "subscribers": 1723,
-      "commits": 103854,
-      "contributors": 3471,
+      "stars": 391186,
+      "forks": 82221,
+      "subscribers": 1721,
+      "commits": 104146,
+      "contributors": 3474,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1818,79 +1818,79 @@
     },
     {
       "capturedOn": "2026-10-02",
-      "stars": 391187,
-      "forks": 82246,
-      "subscribers": 1723,
-      "commits": 103854,
-      "contributors": 3471
+      "stars": 391186,
+      "forks": 82221,
+      "subscribers": 1721,
+      "commits": 104146,
+      "contributors": 3474
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 117210,
-        "title": "Feature: expose canonical session key to outbound plugin adapters",
-        "url": "https://github.com/openclaw/openclaw/issues/117210",
+        "number": 155992,
+        "title": "Feature request: `workboard_board_move` — move a card between boards without changing status",
+        "url": "https://github.com/openclaw/openclaw/issues/155992",
         "state": "open",
-        "author": "usedhonda",
-        "updatedAt": "2026-10-02T08:29:17Z"
+        "author": "asikorskiy",
+        "updatedAt": "2026-10-02T20:39:38Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 163387,
-        "title": "test(codex): include model catalog reads in context checks",
-        "url": "https://github.com/openclaw/openclaw/pull/163387",
+        "number": 162176,
+        "title": "feat(memory): resolve the memory audience in the host",
+        "url": "https://github.com/openclaw/openclaw/pull/162176",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-10-02T08:29:22Z"
+        "author": "jalehman",
+        "updatedAt": "2026-10-02T20:42:29Z"
       },
       {
         "kind": "pr",
-        "number": 141994,
-        "title": "fix(gateway): retire pending GitHub publication confirmations on archived sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/141994",
-        "state": "open",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-10-02T08:29:21Z"
-      },
-      {
-        "kind": "pr",
-        "number": 163369,
-        "title": "fix(doctor): prevent slow archive migrations during maintenance",
-        "url": "https://github.com/openclaw/openclaw/pull/163369",
-        "state": "open",
-        "author": "victor-gurbani",
-        "updatedAt": "2026-10-02T08:29:16Z"
-      },
-      {
-        "kind": "pr",
-        "number": 163381,
-        "title": "fix: make common error messages short and helpful",
-        "url": "https://github.com/openclaw/openclaw/pull/163381",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-10-02T08:29:15Z"
-      },
-      {
-        "kind": "pr",
-        "number": 117230,
-        "title": "fix(ui): preserve workboard session capture ownership",
-        "url": "https://github.com/openclaw/openclaw/pull/117230",
+        "number": 163767,
+        "title": "refactor(plugins): deslop imessage, mattermost, and voice-call",
+        "url": "https://github.com/openclaw/openclaw/pull/163767",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-02T08:29:15Z"
+        "updatedAt": "2026-10-02T20:42:26Z"
       },
       {
         "kind": "pr",
-        "number": 163229,
-        "title": "refactor(gateway): scope Mention Inbox scheduling and disposal",
-        "url": "https://github.com/openclaw/openclaw/pull/163229",
+        "number": 163769,
+        "title": "fix: avoid false delivery warnings after rejected replies",
+        "url": "https://github.com/openclaw/openclaw/pull/163769",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-02T08:29:12Z"
+        "updatedAt": "2026-10-02T20:42:23Z"
+      },
+      {
+        "kind": "pr",
+        "number": 163765,
+        "title": "feat: use personal Tailscale identity in iOS chat and Dashboard",
+        "url": "https://github.com/openclaw/openclaw/pull/163765",
+        "state": "open",
+        "author": "TheAngryPit",
+        "updatedAt": "2026-10-02T20:42:20Z"
+      },
+      {
+        "kind": "pr",
+        "number": 163766,
+        "title": "fix(test): exec approval Gateway e2e fails at startup on its legacy agents.list fixture",
+        "url": "https://github.com/openclaw/openclaw/pull/163766",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-02T20:42:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 143216,
+        "title": "feat(wear): add direct Gateway conversations and approvals",
+        "url": "https://github.com/openclaw/openclaw/pull/143216",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-10-02T20:42:15Z"
       }
     ]
   }

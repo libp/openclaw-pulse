@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-02T20:42:36.299Z",
+  "generatedAt": "2026-10-03T06:30:13.965Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1309,6 +1309,23 @@
       "contributors": 3474,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-03",
+      "capturedAt": "2026-10-03T06:30:13.965Z",
+      "issueOpen": 5923,
+      "issueClosed": 51395,
+      "prOpen": 3226,
+      "prClosed": 100947,
+      "prMerged": 49306,
+      "workflowRuns": 40000,
+      "stars": 391199,
+      "forks": 82231,
+      "subscribers": 1721,
+      "commits": 104414,
+      "contributors": 3479,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1823,74 +1840,82 @@
       "subscribers": 1721,
       "commits": 104146,
       "contributors": 3474
+    },
+    {
+      "capturedOn": "2026-10-03",
+      "stars": 391199,
+      "forks": 82231,
+      "subscribers": 1721,
+      "commits": 104414,
+      "contributors": 3479
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 155992,
-        "title": "Feature request: `workboard_board_move` — move a card between boards without changing status",
-        "url": "https://github.com/openclaw/openclaw/issues/155992",
+        "number": 164090,
+        "title": "Update failure: global-install-failed (2026.9.4)",
+        "url": "https://github.com/openclaw/openclaw/issues/164090",
         "state": "open",
-        "author": "asikorskiy",
-        "updatedAt": "2026-10-02T20:39:38Z"
+        "author": "douglasdollars",
+        "updatedAt": "2026-10-03T06:28:57Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 162176,
-        "title": "feat(memory): resolve the memory audience in the host",
-        "url": "https://github.com/openclaw/openclaw/pull/162176",
-        "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-10-02T20:42:29Z"
-      },
-      {
-        "kind": "pr",
-        "number": 163767,
-        "title": "refactor(plugins): deslop imessage, mattermost, and voice-call",
-        "url": "https://github.com/openclaw/openclaw/pull/163767",
+        "number": 163815,
+        "title": "perf(sessions): keep session lifecycle mutations off the main thread and name them in diagnostics",
+        "url": "https://github.com/openclaw/openclaw/pull/163815",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-02T20:42:26Z"
+        "updatedAt": "2026-10-03T06:30:06Z"
       },
       {
         "kind": "pr",
-        "number": 163769,
-        "title": "fix: avoid false delivery warnings after rejected replies",
-        "url": "https://github.com/openclaw/openclaw/pull/163769",
+        "number": 163535,
+        "title": "refactor(channels): require canonical private-network settings",
+        "url": "https://github.com/openclaw/openclaw/pull/163535",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-02T20:42:23Z"
+        "updatedAt": "2026-10-03T06:30:05Z"
       },
       {
         "kind": "pr",
-        "number": 163765,
-        "title": "feat: use personal Tailscale identity in iOS chat and Dashboard",
-        "url": "https://github.com/openclaw/openclaw/pull/163765",
-        "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-10-02T20:42:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 163766,
-        "title": "fix(test): exec approval Gateway e2e fails at startup on its legacy agents.list fixture",
-        "url": "https://github.com/openclaw/openclaw/pull/163766",
+        "number": 163799,
+        "title": "feat(update): adopt immutable installations and prepare sealed generations without activating them",
+        "url": "https://github.com/openclaw/openclaw/pull/163799",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-02T20:42:17Z"
+        "updatedAt": "2026-10-03T06:30:09Z"
       },
       {
         "kind": "pr",
-        "number": 143216,
-        "title": "feat(wear): add direct Gateway conversations and approvals",
-        "url": "https://github.com/openclaw/openclaw/pull/143216",
+        "number": 164089,
+        "title": "fix(memory): preserve inline notes during MEMORY.md compaction",
+        "url": "https://github.com/openclaw/openclaw/pull/164089",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-10-02T20:42:15Z"
+        "author": "GoldArowana",
+        "updatedAt": "2026-10-03T06:29:43Z"
+      },
+      {
+        "kind": "pr",
+        "number": 164035,
+        "title": "perf(gateway): share session pull-request git facts across subscribers",
+        "url": "https://github.com/openclaw/openclaw/pull/164035",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-03T06:29:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 164088,
+        "title": "improve: reuse model validation runtime per agent",
+        "url": "https://github.com/openclaw/openclaw/pull/164088",
+        "state": "open",
+        "author": "zyz619963502zyz",
+        "updatedAt": "2026-10-03T06:30:09Z"
       }
     ]
   }

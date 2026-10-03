@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-03T06:30:13.965Z",
+  "generatedAt": "2026-10-03T17:14:55.165Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1312,18 +1312,18 @@
     },
     {
       "capturedOn": "2026-10-03",
-      "capturedAt": "2026-10-03T06:30:13.965Z",
-      "issueOpen": 5923,
-      "issueClosed": 51395,
-      "prOpen": 3226,
-      "prClosed": 100947,
-      "prMerged": 49306,
+      "capturedAt": "2026-10-03T17:14:55.165Z",
+      "issueOpen": 5976,
+      "issueClosed": 51437,
+      "prOpen": 3233,
+      "prClosed": 101172,
+      "prMerged": 49516,
       "workflowRuns": 40000,
-      "stars": 391199,
-      "forks": 82231,
-      "subscribers": 1721,
-      "commits": 104414,
-      "contributors": 3479,
+      "stars": 391233,
+      "forks": 82240,
+      "subscribers": 1720,
+      "commits": 104661,
+      "contributors": 3481,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1843,79 +1843,97 @@
     },
     {
       "capturedOn": "2026-10-03",
-      "stars": 391199,
-      "forks": 82231,
-      "subscribers": 1721,
-      "commits": 104414,
-      "contributors": 3479
+      "stars": 391233,
+      "forks": 82240,
+      "subscribers": 1720,
+      "commits": 104661,
+      "contributors": 3481
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 164090,
-        "title": "Update failure: global-install-failed (2026.9.4)",
-        "url": "https://github.com/openclaw/openclaw/issues/164090",
+        "number": 164404,
+        "title": "[Bug]: config validate, plugin list, and doctor --lint all abort with \"read failed: TypeError: reading 'trim'\" on a config that health reports as healthy",
+        "url": "https://github.com/openclaw/openclaw/issues/164404",
         "state": "open",
-        "author": "douglasdollars",
-        "updatedAt": "2026-10-03T06:28:57Z"
+        "author": "nnljl2003",
+        "updatedAt": "2026-10-03T17:14:01Z"
+      },
+      {
+        "kind": "issue",
+        "number": 164416,
+        "title": "DataCloneError permanently poisons a session: every later message on \\\u0007gent:main:main\\ fails in under 7 seconds",
+        "url": "https://github.com/openclaw/openclaw/issues/164416",
+        "state": "open",
+        "author": "JacquesLFR8",
+        "updatedAt": "2026-10-03T17:12:56Z"
+      },
+      {
+        "kind": "issue",
+        "number": 162880,
+        "title": "Plugin API: make runContext set/get/clear late-callable for runtime hooks",
+        "url": "https://github.com/openclaw/openclaw/issues/162880",
+        "state": "closed",
+        "author": "forceworks",
+        "updatedAt": "2026-10-03T17:09:47Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 163815,
-        "title": "perf(sessions): keep session lifecycle mutations off the main thread and name them in diagnostics",
-        "url": "https://github.com/openclaw/openclaw/pull/163815",
+        "number": 164391,
+        "title": "refactor(plugins): settle native session bindings in the executing worker (compound 2a)",
+        "url": "https://github.com/openclaw/openclaw/pull/164391",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-10-03T17:14:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 164417,
+        "title": "fix(talk): voice consults end with no reply when the primary model cannot run",
+        "url": "https://github.com/openclaw/openclaw/pull/164417",
+        "state": "open",
+        "author": "scarabone",
+        "updatedAt": "2026-10-03T17:13:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 142888,
+        "title": "fix(openai-completions): live assistant text doubles when a provider resends full content in one delta",
+        "url": "https://github.com/openclaw/openclaw/pull/142888",
+        "state": "open",
+        "author": "Richard355168",
+        "updatedAt": "2026-10-03T17:13:48Z"
+      },
+      {
+        "kind": "pr",
+        "number": 162929,
+        "title": "chore(deps): update OpenAI SDK to 7.23.0",
+        "url": "https://github.com/openclaw/openclaw/pull/162929",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-10-03T17:13:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 164413,
+        "title": "chore(db): reclassify worker-only inventory sites with evidence (round 4)",
+        "url": "https://github.com/openclaw/openclaw/pull/164413",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-03T06:30:06Z"
+        "updatedAt": "2026-10-03T17:13:31Z"
       },
       {
         "kind": "pr",
-        "number": 163535,
-        "title": "refactor(channels): require canonical private-network settings",
-        "url": "https://github.com/openclaw/openclaw/pull/163535",
-        "state": "open",
+        "number": 164378,
+        "title": "fix: retain CLI conversations when child completions arrive",
+        "url": "https://github.com/openclaw/openclaw/pull/164378",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-10-03T06:30:05Z"
-      },
-      {
-        "kind": "pr",
-        "number": 163799,
-        "title": "feat(update): adopt immutable installations and prepare sealed generations without activating them",
-        "url": "https://github.com/openclaw/openclaw/pull/163799",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-03T06:30:09Z"
-      },
-      {
-        "kind": "pr",
-        "number": 164089,
-        "title": "fix(memory): preserve inline notes during MEMORY.md compaction",
-        "url": "https://github.com/openclaw/openclaw/pull/164089",
-        "state": "open",
-        "author": "GoldArowana",
-        "updatedAt": "2026-10-03T06:29:43Z"
-      },
-      {
-        "kind": "pr",
-        "number": 164035,
-        "title": "perf(gateway): share session pull-request git facts across subscribers",
-        "url": "https://github.com/openclaw/openclaw/pull/164035",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-03T06:29:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 164088,
-        "title": "improve: reuse model validation runtime per agent",
-        "url": "https://github.com/openclaw/openclaw/pull/164088",
-        "state": "open",
-        "author": "zyz619963502zyz",
-        "updatedAt": "2026-10-03T06:30:09Z"
+        "updatedAt": "2026-10-03T17:13:21Z"
       }
     ]
   }

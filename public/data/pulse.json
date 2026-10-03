@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-03T17:14:55.165Z",
+  "generatedAt": "2026-10-03T19:51:19.128Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1312,17 +1312,17 @@
     },
     {
       "capturedOn": "2026-10-03",
-      "capturedAt": "2026-10-03T17:14:55.165Z",
-      "issueOpen": 5976,
-      "issueClosed": 51437,
-      "prOpen": 3233,
-      "prClosed": 101172,
-      "prMerged": 49516,
+      "capturedAt": "2026-10-03T19:51:19.128Z",
+      "issueOpen": 5987,
+      "issueClosed": 51445,
+      "prOpen": 3253,
+      "prClosed": 101217,
+      "prMerged": 49559,
       "workflowRuns": 40000,
-      "stars": 391233,
-      "forks": 82240,
+      "stars": 391239,
+      "forks": 82242,
       "subscribers": 1720,
-      "commits": 104661,
+      "commits": 104706,
       "contributors": 3481,
       "source": "github-actions",
       "approximateDate": false
@@ -1843,10 +1843,10 @@
     },
     {
       "capturedOn": "2026-10-03",
-      "stars": 391233,
-      "forks": 82240,
+      "stars": 391239,
+      "forks": 82242,
       "subscribers": 1720,
-      "commits": 104661,
+      "commits": 104706,
       "contributors": 3481
     }
   ],
@@ -1854,86 +1854,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 164404,
-        "title": "[Bug]: config validate, plugin list, and doctor --lint all abort with \"read failed: TypeError: reading 'trim'\" on a config that health reports as healthy",
-        "url": "https://github.com/openclaw/openclaw/issues/164404",
+        "number": 122834,
+        "title": "Windows gateway restart path unreliable after active-turn crash",
+        "url": "https://github.com/openclaw/openclaw/issues/122834",
         "state": "open",
-        "author": "nnljl2003",
-        "updatedAt": "2026-10-03T17:14:01Z"
+        "author": "SimonSteggles",
+        "updatedAt": "2026-10-03T19:50:32Z"
       },
       {
         "kind": "issue",
-        "number": 164416,
-        "title": "DataCloneError permanently poisons a session: every later message on \\\u0007gent:main:main\\ fails in under 7 seconds",
-        "url": "https://github.com/openclaw/openclaw/issues/164416",
+        "number": 164499,
+        "title": "[Bug]: Retained AWS runner ownership points to a temporary checkout",
+        "url": "https://github.com/openclaw/openclaw/issues/164499",
         "state": "open",
-        "author": "JacquesLFR8",
-        "updatedAt": "2026-10-03T17:12:56Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-10-03T19:50:31Z"
       },
       {
         "kind": "issue",
-        "number": 162880,
-        "title": "Plugin API: make runContext set/get/clear late-callable for runtime hooks",
-        "url": "https://github.com/openclaw/openclaw/issues/162880",
-        "state": "closed",
-        "author": "forceworks",
-        "updatedAt": "2026-10-03T17:09:47Z"
+        "number": 122805,
+        "title": "Sidebar group created from pinned session shows \"No sessions found for this agent\"",
+        "url": "https://github.com/openclaw/openclaw/issues/122805",
+        "state": "open",
+        "author": "clawsweeper",
+        "updatedAt": "2026-10-03T19:50:28Z"
+      },
+      {
+        "kind": "issue",
+        "number": 122794,
+        "title": "iMessage: distinct-GUID self-chat messages can be dropped by pending echo markers",
+        "url": "https://github.com/openclaw/openclaw/issues/122794",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-03T19:50:11Z"
+      },
+      {
+        "kind": "issue",
+        "number": 120978,
+        "title": "Hook requests can execute after client disconnects during admission",
+        "url": "https://github.com/openclaw/openclaw/issues/120978",
+        "state": "open",
+        "author": "litang9",
+        "updatedAt": "2026-10-03T19:50:07Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 164391,
-        "title": "refactor(plugins): settle native session bindings in the executing worker (compound 2a)",
-        "url": "https://github.com/openclaw/openclaw/pull/164391",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-10-03T17:14:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 164417,
-        "title": "fix(talk): voice consults end with no reply when the primary model cannot run",
-        "url": "https://github.com/openclaw/openclaw/pull/164417",
+        "number": 164500,
+        "title": "fix(gateway): show startup failure when cleanup also fails",
+        "url": "https://github.com/openclaw/openclaw/pull/164500",
         "state": "open",
-        "author": "scarabone",
-        "updatedAt": "2026-10-03T17:13:57Z"
+        "author": "sunlit-deng",
+        "updatedAt": "2026-10-03T19:51:08Z"
       },
       {
         "kind": "pr",
-        "number": 142888,
-        "title": "fix(openai-completions): live assistant text doubles when a provider resends full content in one delta",
-        "url": "https://github.com/openclaw/openclaw/pull/142888",
+        "number": 164501,
+        "title": "feat: preview upgrade requirements without changing installations",
+        "url": "https://github.com/openclaw/openclaw/pull/164501",
         "state": "open",
-        "author": "Richard355168",
-        "updatedAt": "2026-10-03T17:13:48Z"
+        "author": "jason-allen-oneal",
+        "updatedAt": "2026-10-03T19:50:58Z"
       },
       {
         "kind": "pr",
-        "number": 162929,
-        "title": "chore(deps): update OpenAI SDK to 7.23.0",
-        "url": "https://github.com/openclaw/openclaw/pull/162929",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-10-03T17:13:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 164413,
-        "title": "chore(db): reclassify worker-only inventory sites with evidence (round 4)",
-        "url": "https://github.com/openclaw/openclaw/pull/164413",
+        "number": 164286,
+        "title": "refactor(schema): deslop duplicated schema types",
+        "url": "https://github.com/openclaw/openclaw/pull/164286",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-03T17:13:31Z"
+        "updatedAt": "2026-10-03T19:50:46Z"
       },
       {
         "kind": "pr",
-        "number": 164378,
-        "title": "fix: retain CLI conversations when child completions arrive",
-        "url": "https://github.com/openclaw/openclaw/pull/164378",
-        "state": "closed",
+        "number": 164476,
+        "title": "refactor(channels): read pairing allowlists through the shared-state reader",
+        "url": "https://github.com/openclaw/openclaw/pull/164476",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-03T17:13:21Z"
+        "updatedAt": "2026-10-03T19:50:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 163471,
+        "title": "fix: prevent internal runtime context from appearing in replies",
+        "url": "https://github.com/openclaw/openclaw/pull/163471",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-10-03T19:50:22Z"
+      },
+      {
+        "kind": "pr",
+        "number": 164488,
+        "title": "fix: preserve explicit live model coverage",
+        "url": "https://github.com/openclaw/openclaw/pull/164488",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-03T19:50:14Z"
       }
     ]
   }

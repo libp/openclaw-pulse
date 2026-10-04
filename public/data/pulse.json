@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-04T02:36:32.257Z",
+  "generatedAt": "2026-10-04T19:35:18.460Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1329,18 +1329,18 @@
     },
     {
       "capturedOn": "2026-10-04",
-      "capturedAt": "2026-10-04T02:36:32.257Z",
-      "issueOpen": 6008,
-      "issueClosed": 51480,
-      "prOpen": 3277,
-      "prClosed": 101354,
-      "prMerged": 49686,
+      "capturedAt": "2026-10-04T19:35:18.460Z",
+      "issueOpen": 6033,
+      "issueClosed": 51568,
+      "prOpen": 3276,
+      "prClosed": 101587,
+      "prMerged": 49883,
       "workflowRuns": 40000,
-      "stars": 391248,
-      "forks": 82244,
+      "stars": 391309,
+      "forks": 82264,
       "subscribers": 1718,
-      "commits": 104864,
-      "contributors": 3485,
+      "commits": 105102,
+      "contributors": 3487,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1868,106 +1868,106 @@
     },
     {
       "capturedOn": "2026-10-04",
-      "stars": 391248,
-      "forks": 82244,
+      "stars": 391309,
+      "forks": 82264,
       "subscribers": 1718,
-      "commits": 104864,
-      "contributors": 3485
+      "commits": 105102,
+      "contributors": 3487
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 164704,
-        "title": "[Bug]: Optional-question number shortcuts redirect focus to the chat composer",
-        "url": "https://github.com/openclaw/openclaw/issues/164704",
+        "number": 165062,
+        "title": "[Bug]: 2026.9.8 fails on Synology: unstable birthtime breaks SQLite migration and agent execution",
+        "url": "https://github.com/openclaw/openclaw/issues/165062",
         "state": "open",
-        "author": "ooiuuii",
-        "updatedAt": "2026-10-04T02:32:28Z"
+        "author": "stunt4711",
+        "updatedAt": "2026-10-04T19:34:49Z"
       },
       {
         "kind": "issue",
-        "number": 164712,
-        "title": "[Bug]: Worker deployment fixtures omit required artifacts",
-        "url": "https://github.com/openclaw/openclaw/issues/164712",
+        "number": 165061,
+        "title": "Chat keeps its working timer and Stop button after a resumed run completes",
+        "url": "https://github.com/openclaw/openclaw/issues/165061",
         "state": "open",
         "author": "shakkernerd",
-        "updatedAt": "2026-10-04T02:32:20Z"
+        "updatedAt": "2026-10-04T19:33:56Z"
       },
       {
         "kind": "issue",
-        "number": 164713,
-        "title": "Swift progress-card bootstrap test can assert before error publication",
-        "url": "https://github.com/openclaw/openclaw/issues/164713",
+        "number": 165059,
+        "title": "[Bug]: [2026.9.8] Codex plugin reload times out with retained work; prepared runtime generation superseded",
+        "url": "https://github.com/openclaw/openclaw/issues/165059",
         "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-10-04T02:31:37Z"
+        "author": "g8nphvmmtj-ai",
+        "updatedAt": "2026-10-04T19:27:31Z"
       },
       {
         "kind": "issue",
-        "number": 164709,
-        "title": "Android model-selection test can lose its availability fixture during catalog refresh",
-        "url": "https://github.com/openclaw/openclaw/issues/164709",
-        "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-10-04T02:31:01Z"
+        "number": 143701,
+        "title": "2026.9.2: background exec completion receives silent-delivery instructions while user task remains unfinished",
+        "url": "https://github.com/openclaw/openclaw/issues/143701",
+        "state": "closed",
+        "author": "SparcleAI",
+        "updatedAt": "2026-10-04T19:26:49Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 164717,
-        "title": "fix: wait for the Swift progress upgrade error before bootstrap",
-        "url": "https://github.com/openclaw/openclaw/pull/164717",
-        "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-10-04T02:36:11Z"
-      },
-      {
-        "kind": "pr",
-        "number": 164718,
-        "title": "test(core): remove low-value tests (batch d186)",
-        "url": "https://github.com/openclaw/openclaw/pull/164718",
+        "number": 165063,
+        "title": "fix(plugins): allow every loaded plugin to use its own state and ingress queues",
+        "url": "https://github.com/openclaw/openclaw/pull/165063",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-04T02:36:06Z"
+        "updatedAt": "2026-10-04T19:35:11Z"
       },
       {
         "kind": "pr",
-        "number": 164716,
-        "title": "fix: restore required worker artifacts in test fixtures",
-        "url": "https://github.com/openclaw/openclaw/pull/164716",
+        "number": 160695,
+        "title": "feat(release): qualify frozen candidates with their own harness",
+        "url": "https://github.com/openclaw/openclaw/pull/160695",
         "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-10-04T02:36:04Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-10-04T19:34:57Z"
       },
       {
         "kind": "pr",
-        "number": 164710,
-        "title": "refactor(agents): deslop agents",
-        "url": "https://github.com/openclaw/openclaw/pull/164710",
+        "number": 164756,
+        "title": "fix(heartbeat): let a conversation's chained command completions skip the interval wait",
+        "url": "https://github.com/openclaw/openclaw/pull/164756",
         "state": "open",
+        "author": "obviyus",
+        "updatedAt": "2026-10-04T19:33:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 157068,
+        "title": "fix: remove stale sidebar child counts after archiving",
+        "url": "https://github.com/openclaw/openclaw/pull/157068",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-10-04T02:35:49Z"
+        "updatedAt": "2026-10-04T19:33:46Z"
       },
       {
         "kind": "pr",
-        "number": 164708,
-        "title": "refactor(core): deslop small core subsystems",
-        "url": "https://github.com/openclaw/openclaw/pull/164708",
+        "number": 144046,
+        "title": "fix(gateway): report busctl-incompatible when busctl rejects --json",
+        "url": "https://github.com/openclaw/openclaw/pull/144046",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-04T02:35:39Z"
+        "author": "JamieJ5926",
+        "updatedAt": "2026-10-04T19:31:51Z"
       },
       {
         "kind": "pr",
-        "number": 163592,
-        "title": "refactor: migrate historical compaction state with Doctor",
-        "url": "https://github.com/openclaw/openclaw/pull/163592",
-        "state": "open",
+        "number": 165044,
+        "title": "fix(macos): fence Gateway recovery installs with the observed runtime pin",
+        "url": "https://github.com/openclaw/openclaw/pull/165044",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-10-04T02:35:34Z"
+        "updatedAt": "2026-10-04T19:31:18Z"
       }
     ]
   }

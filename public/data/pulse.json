@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-03T19:51:19.128Z",
+  "generatedAt": "2026-10-04T02:36:32.257Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1326,6 +1326,23 @@
       "contributors": 3481,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-04",
+      "capturedAt": "2026-10-04T02:36:32.257Z",
+      "issueOpen": 6008,
+      "issueClosed": 51480,
+      "prOpen": 3277,
+      "prClosed": 101354,
+      "prMerged": 49686,
+      "workflowRuns": 40000,
+      "stars": 391248,
+      "forks": 82244,
+      "subscribers": 1718,
+      "commits": 104864,
+      "contributors": 3485,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1848,110 +1865,109 @@
       "subscribers": 1720,
       "commits": 104706,
       "contributors": 3481
+    },
+    {
+      "capturedOn": "2026-10-04",
+      "stars": 391248,
+      "forks": 82244,
+      "subscribers": 1718,
+      "commits": 104864,
+      "contributors": 3485
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 122834,
-        "title": "Windows gateway restart path unreliable after active-turn crash",
-        "url": "https://github.com/openclaw/openclaw/issues/122834",
+        "number": 164704,
+        "title": "[Bug]: Optional-question number shortcuts redirect focus to the chat composer",
+        "url": "https://github.com/openclaw/openclaw/issues/164704",
         "state": "open",
-        "author": "SimonSteggles",
-        "updatedAt": "2026-10-03T19:50:32Z"
+        "author": "ooiuuii",
+        "updatedAt": "2026-10-04T02:32:28Z"
       },
       {
         "kind": "issue",
-        "number": 164499,
-        "title": "[Bug]: Retained AWS runner ownership points to a temporary checkout",
-        "url": "https://github.com/openclaw/openclaw/issues/164499",
+        "number": 164712,
+        "title": "[Bug]: Worker deployment fixtures omit required artifacts",
+        "url": "https://github.com/openclaw/openclaw/issues/164712",
         "state": "open",
         "author": "shakkernerd",
-        "updatedAt": "2026-10-03T19:50:31Z"
+        "updatedAt": "2026-10-04T02:32:20Z"
       },
       {
         "kind": "issue",
-        "number": 122805,
-        "title": "Sidebar group created from pinned session shows \"No sessions found for this agent\"",
-        "url": "https://github.com/openclaw/openclaw/issues/122805",
+        "number": 164713,
+        "title": "Swift progress-card bootstrap test can assert before error publication",
+        "url": "https://github.com/openclaw/openclaw/issues/164713",
         "state": "open",
-        "author": "clawsweeper",
-        "updatedAt": "2026-10-03T19:50:28Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-10-04T02:31:37Z"
       },
       {
         "kind": "issue",
-        "number": 122794,
-        "title": "iMessage: distinct-GUID self-chat messages can be dropped by pending echo markers",
-        "url": "https://github.com/openclaw/openclaw/issues/122794",
+        "number": 164709,
+        "title": "Android model-selection test can lose its availability fixture during catalog refresh",
+        "url": "https://github.com/openclaw/openclaw/issues/164709",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-03T19:50:11Z"
-      },
-      {
-        "kind": "issue",
-        "number": 120978,
-        "title": "Hook requests can execute after client disconnects during admission",
-        "url": "https://github.com/openclaw/openclaw/issues/120978",
-        "state": "open",
-        "author": "litang9",
-        "updatedAt": "2026-10-03T19:50:07Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-10-04T02:31:01Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 164500,
-        "title": "fix(gateway): show startup failure when cleanup also fails",
-        "url": "https://github.com/openclaw/openclaw/pull/164500",
+        "number": 164717,
+        "title": "fix: wait for the Swift progress upgrade error before bootstrap",
+        "url": "https://github.com/openclaw/openclaw/pull/164717",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-10-03T19:51:08Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-10-04T02:36:11Z"
       },
       {
         "kind": "pr",
-        "number": 164501,
-        "title": "feat: preview upgrade requirements without changing installations",
-        "url": "https://github.com/openclaw/openclaw/pull/164501",
-        "state": "open",
-        "author": "jason-allen-oneal",
-        "updatedAt": "2026-10-03T19:50:58Z"
-      },
-      {
-        "kind": "pr",
-        "number": 164286,
-        "title": "refactor(schema): deslop duplicated schema types",
-        "url": "https://github.com/openclaw/openclaw/pull/164286",
+        "number": 164718,
+        "title": "test(core): remove low-value tests (batch d186)",
+        "url": "https://github.com/openclaw/openclaw/pull/164718",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-03T19:50:46Z"
+        "updatedAt": "2026-10-04T02:36:06Z"
       },
       {
         "kind": "pr",
-        "number": 164476,
-        "title": "refactor(channels): read pairing allowlists through the shared-state reader",
-        "url": "https://github.com/openclaw/openclaw/pull/164476",
+        "number": 164716,
+        "title": "fix: restore required worker artifacts in test fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/164716",
+        "state": "open",
+        "author": "shakkernerd",
+        "updatedAt": "2026-10-04T02:36:04Z"
+      },
+      {
+        "kind": "pr",
+        "number": 164710,
+        "title": "refactor(agents): deslop agents",
+        "url": "https://github.com/openclaw/openclaw/pull/164710",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-03T19:50:36Z"
+        "updatedAt": "2026-10-04T02:35:49Z"
       },
       {
         "kind": "pr",
-        "number": 163471,
-        "title": "fix: prevent internal runtime context from appearing in replies",
-        "url": "https://github.com/openclaw/openclaw/pull/163471",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-10-03T19:50:22Z"
-      },
-      {
-        "kind": "pr",
-        "number": 164488,
-        "title": "fix: preserve explicit live model coverage",
-        "url": "https://github.com/openclaw/openclaw/pull/164488",
+        "number": 164708,
+        "title": "refactor(core): deslop small core subsystems",
+        "url": "https://github.com/openclaw/openclaw/pull/164708",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-03T19:50:14Z"
+        "updatedAt": "2026-10-04T02:35:39Z"
+      },
+      {
+        "kind": "pr",
+        "number": 163592,
+        "title": "refactor: migrate historical compaction state with Doctor",
+        "url": "https://github.com/openclaw/openclaw/pull/163592",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-04T02:35:34Z"
       }
     ]
   }

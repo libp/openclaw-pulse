@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-04T19:35:18.460Z",
+  "generatedAt": "2026-10-05T01:58:37.232Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1343,6 +1343,23 @@
       "contributors": 3487,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-05",
+      "capturedAt": "2026-10-05T01:58:37.232Z",
+      "issueOpen": 6033,
+      "issueClosed": 51614,
+      "prOpen": 3305,
+      "prClosed": 101714,
+      "prMerged": 49997,
+      "workflowRuns": 40000,
+      "stars": 391328,
+      "forks": 82267,
+      "subscribers": 1719,
+      "commits": 105221,
+      "contributors": 3489,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1873,101 +1890,109 @@
       "subscribers": 1718,
       "commits": 105102,
       "contributors": 3487
+    },
+    {
+      "capturedOn": "2026-10-05",
+      "stars": 391328,
+      "forks": 82267,
+      "subscribers": 1719,
+      "commits": 105221,
+      "contributors": 3489
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 165062,
-        "title": "[Bug]: 2026.9.8 fails on Synology: unstable birthtime breaks SQLite migration and agent execution",
-        "url": "https://github.com/openclaw/openclaw/issues/165062",
+        "number": 165262,
+        "title": "Update failure: clean-check (2026.9.6)",
+        "url": "https://github.com/openclaw/openclaw/issues/165262",
         "state": "open",
-        "author": "stunt4711",
-        "updatedAt": "2026-10-04T19:34:49Z"
+        "author": "Alrpaz",
+        "updatedAt": "2026-10-05T01:58:01Z"
       },
       {
         "kind": "issue",
-        "number": 165061,
-        "title": "Chat keeps its working timer and Stop button after a resumed run completes",
-        "url": "https://github.com/openclaw/openclaw/issues/165061",
+        "number": 161885,
+        "title": "[Bug]: Talk realtime consults ignore per-model agentRuntime (claude-cli) and fallbacks, fail with 'No API key found for provider anthropic'",
+        "url": "https://github.com/openclaw/openclaw/issues/161885",
+        "state": "open",
+        "author": "scarabone",
+        "updatedAt": "2026-10-05T01:57:57Z"
+      },
+      {
+        "kind": "issue",
+        "number": 165246,
+        "title": "[Bug]: queued followup idle-bound E2E test fails before terminal work settles",
+        "url": "https://github.com/openclaw/openclaw/issues/165246",
+        "state": "closed",
+        "author": "shakkernerd",
+        "updatedAt": "2026-10-05T01:56:23Z"
+      },
+      {
+        "kind": "issue",
+        "number": 165260,
+        "title": "[Bug]: legacy upgrade fixture selects unused bundled plugins",
+        "url": "https://github.com/openclaw/openclaw/issues/165260",
         "state": "open",
         "author": "shakkernerd",
-        "updatedAt": "2026-10-04T19:33:56Z"
-      },
-      {
-        "kind": "issue",
-        "number": 165059,
-        "title": "[Bug]: [2026.9.8] Codex plugin reload times out with retained work; prepared runtime generation superseded",
-        "url": "https://github.com/openclaw/openclaw/issues/165059",
-        "state": "open",
-        "author": "g8nphvmmtj-ai",
-        "updatedAt": "2026-10-04T19:27:31Z"
-      },
-      {
-        "kind": "issue",
-        "number": 143701,
-        "title": "2026.9.2: background exec completion receives silent-delivery instructions while user task remains unfinished",
-        "url": "https://github.com/openclaw/openclaw/issues/143701",
-        "state": "closed",
-        "author": "SparcleAI",
-        "updatedAt": "2026-10-04T19:26:49Z"
+        "updatedAt": "2026-10-05T01:56:10Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 165063,
-        "title": "fix(plugins): allow every loaded plugin to use its own state and ingress queues",
-        "url": "https://github.com/openclaw/openclaw/pull/165063",
+        "number": 164659,
+        "title": "fix(browser): start Chromium from relative and hermetic Playwright caches",
+        "url": "https://github.com/openclaw/openclaw/pull/164659",
+        "state": "open",
+        "author": "ly85206559",
+        "updatedAt": "2026-10-05T01:58:28Z"
+      },
+      {
+        "kind": "pr",
+        "number": 165028,
+        "title": "perf(sessions): serve remaining per-turn session authority reads from workers",
+        "url": "https://github.com/openclaw/openclaw/pull/165028",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-04T19:35:11Z"
+        "updatedAt": "2026-10-05T01:58:05Z"
       },
       {
         "kind": "pr",
-        "number": 160695,
-        "title": "feat(release): qualify frozen candidates with their own harness",
-        "url": "https://github.com/openclaw/openclaw/pull/160695",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-10-04T19:34:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 164756,
-        "title": "fix(heartbeat): let a conversation's chained command completions skip the interval wait",
-        "url": "https://github.com/openclaw/openclaw/pull/164756",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-10-04T19:33:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 157068,
-        "title": "fix: remove stale sidebar child counts after archiving",
-        "url": "https://github.com/openclaw/openclaw/pull/157068",
+        "number": 165251,
+        "title": "fix: classify X runtime API in plugin guardrails",
+        "url": "https://github.com/openclaw/openclaw/pull/165251",
         "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-10-04T19:33:46Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-10-05T01:58:07Z"
       },
       {
         "kind": "pr",
-        "number": 144046,
-        "title": "fix(gateway): report busctl-incompatible when busctl rejects --json",
-        "url": "https://github.com/openclaw/openclaw/pull/144046",
+        "number": 164825,
+        "title": "feat: choose a profile name during Control UI setup",
+        "url": "https://github.com/openclaw/openclaw/pull/164825",
         "state": "open",
-        "author": "JamieJ5926",
-        "updatedAt": "2026-10-04T19:31:51Z"
+        "author": "TheAngryPit",
+        "updatedAt": "2026-10-05T01:57:56Z"
       },
       {
         "kind": "pr",
-        "number": 165044,
-        "title": "fix(macos): fence Gateway recovery installs with the observed runtime pin",
-        "url": "https://github.com/openclaw/openclaw/pull/165044",
-        "state": "closed",
+        "number": 165261,
+        "title": "fix: replace running Windows services safely on reinstall",
+        "url": "https://github.com/openclaw/openclaw/pull/165261",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-04T19:31:18Z"
+        "updatedAt": "2026-10-05T01:57:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 164501,
+        "title": "feat: add versioned upgrade recipes",
+        "url": "https://github.com/openclaw/openclaw/pull/164501",
+        "state": "open",
+        "author": "jason-allen-oneal",
+        "updatedAt": "2026-10-05T01:57:04Z"
       }
     ]
   }

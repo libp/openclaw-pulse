@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-05T01:58:37.232Z",
+  "generatedAt": "2026-10-05T18:24:51.347Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1346,18 +1346,18 @@
     },
     {
       "capturedOn": "2026-10-05",
-      "capturedAt": "2026-10-05T01:58:37.232Z",
-      "issueOpen": 6033,
-      "issueClosed": 51614,
-      "prOpen": 3305,
-      "prClosed": 101714,
-      "prMerged": 49997,
+      "capturedAt": "2026-10-05T18:24:51.347Z",
+      "issueOpen": 6047,
+      "issueClosed": 51722,
+      "prOpen": 3327,
+      "prClosed": 102028,
+      "prMerged": 50272,
       "workflowRuns": 40000,
-      "stars": 391328,
-      "forks": 82267,
-      "subscribers": 1719,
-      "commits": 105221,
-      "contributors": 3489,
+      "stars": 391434,
+      "forks": 82275,
+      "subscribers": 1720,
+      "commits": 105548,
+      "contributors": 3493,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1893,106 +1893,124 @@
     },
     {
       "capturedOn": "2026-10-05",
-      "stars": 391328,
-      "forks": 82267,
-      "subscribers": 1719,
-      "commits": 105221,
-      "contributors": 3489
+      "stars": 391434,
+      "forks": 82275,
+      "subscribers": 1720,
+      "commits": 105548,
+      "contributors": 3493
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 165262,
-        "title": "Update failure: clean-check (2026.9.6)",
-        "url": "https://github.com/openclaw/openclaw/issues/165262",
+        "number": 164241,
+        "title": "[Bug]: Yielded subagent completion handoff remains pending with zero wake attempts after an aborted requester announce (2026.9.8)",
+        "url": "https://github.com/openclaw/openclaw/issues/164241",
         "state": "open",
-        "author": "Alrpaz",
-        "updatedAt": "2026-10-05T01:58:01Z"
+        "author": "SiskoYU",
+        "updatedAt": "2026-10-05T18:24:23Z"
       },
       {
         "kind": "issue",
-        "number": 161885,
-        "title": "[Bug]: Talk realtime consults ignore per-model agentRuntime (claude-cli) and fallbacks, fail with 'No API key found for provider anthropic'",
-        "url": "https://github.com/openclaw/openclaw/issues/161885",
+        "number": 97616,
+        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
+        "url": "https://github.com/openclaw/openclaw/issues/97616",
         "state": "open",
-        "author": "scarabone",
-        "updatedAt": "2026-10-05T01:57:57Z"
+        "author": "avp717",
+        "updatedAt": "2026-10-05T18:23:19Z"
       },
       {
         "kind": "issue",
-        "number": 165246,
-        "title": "[Bug]: queued followup idle-bound E2E test fails before terminal work settles",
-        "url": "https://github.com/openclaw/openclaw/issues/165246",
-        "state": "closed",
-        "author": "shakkernerd",
-        "updatedAt": "2026-10-05T01:56:23Z"
+        "number": 165717,
+        "title": "[Bug]: Windows 2026.9.8 plugin install and rollback time out after replacement applied, with multi-minute event-loop stalls",
+        "url": "https://github.com/openclaw/openclaw/issues/165717",
+        "state": "open",
+        "author": "Yuyorman",
+        "updatedAt": "2026-10-05T18:23:12Z"
       },
       {
         "kind": "issue",
-        "number": 165260,
-        "title": "[Bug]: legacy upgrade fixture selects unused bundled plugins",
-        "url": "https://github.com/openclaw/openclaw/issues/165260",
+        "number": 165714,
+        "title": "[Bug]: Control UI drops one assistant reply from view after claude-cli session resume; next reply stored twice",
+        "url": "https://github.com/openclaw/openclaw/issues/165714",
         "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-10-05T01:56:10Z"
+        "author": "cbhawthorne84",
+        "updatedAt": "2026-10-05T18:20:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 164074,
+        "title": "Native update recovery stuck at publication-complete when retained previous package fingerprint changes",
+        "url": "https://github.com/openclaw/openclaw/issues/164074",
+        "state": "open",
+        "author": "dankarization",
+        "updatedAt": "2026-10-05T18:20:48Z"
+      },
+      {
+        "kind": "issue",
+        "number": 165709,
+        "title": "[Bug]: Control UI: parent session keeps an unread dot from hidden subagent runs that cannot be marked read",
+        "url": "https://github.com/openclaw/openclaw/issues/165709",
+        "state": "open",
+        "author": "holgergruenhagen",
+        "updatedAt": "2026-10-05T18:17:51Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 164659,
-        "title": "fix(browser): start Chromium from relative and hermetic Playwright caches",
-        "url": "https://github.com/openclaw/openclaw/pull/164659",
+        "number": 165334,
+        "title": "fix(ui): revert Slack and Discord session return buttons",
+        "url": "https://github.com/openclaw/openclaw/pull/165334",
         "state": "open",
-        "author": "ly85206559",
-        "updatedAt": "2026-10-05T01:58:28Z"
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-10-05T18:24:40Z"
       },
       {
         "kind": "pr",
-        "number": 165028,
-        "title": "perf(sessions): serve remaining per-turn session authority reads from workers",
-        "url": "https://github.com/openclaw/openclaw/pull/165028",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-05T01:58:05Z"
-      },
-      {
-        "kind": "pr",
-        "number": 165251,
-        "title": "fix: classify X runtime API in plugin guardrails",
-        "url": "https://github.com/openclaw/openclaw/pull/165251",
-        "state": "closed",
-        "author": "shakkernerd",
-        "updatedAt": "2026-10-05T01:58:07Z"
-      },
-      {
-        "kind": "pr",
-        "number": 164825,
-        "title": "feat: choose a profile name during Control UI setup",
-        "url": "https://github.com/openclaw/openclaw/pull/164825",
-        "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-10-05T01:57:56Z"
-      },
-      {
-        "kind": "pr",
-        "number": 165261,
-        "title": "fix: replace running Windows services safely on reinstall",
-        "url": "https://github.com/openclaw/openclaw/pull/165261",
+        "number": 165696,
+        "title": "refactor(commands): deslop commands",
+        "url": "https://github.com/openclaw/openclaw/pull/165696",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-05T01:57:41Z"
+        "updatedAt": "2026-10-05T18:24:13Z"
       },
       {
         "kind": "pr",
-        "number": 164501,
-        "title": "feat: add versioned upgrade recipes",
-        "url": "https://github.com/openclaw/openclaw/pull/164501",
+        "number": 165205,
+        "title": "perf(sessions): serve session observer authority reads from workers",
+        "url": "https://github.com/openclaw/openclaw/pull/165205",
         "state": "open",
-        "author": "jason-allen-oneal",
-        "updatedAt": "2026-10-05T01:57:04Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-05T18:23:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 165718,
+        "title": "refactor(channels): deslop channels",
+        "url": "https://github.com/openclaw/openclaw/pull/165718",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-05T18:23:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 164305,
+        "title": "fix(slack): Socket Mode logs a warning for every ping from another undici copy",
+        "url": "https://github.com/openclaw/openclaw/pull/164305",
+        "state": "open",
+        "author": "jayzhou2309",
+        "updatedAt": "2026-10-05T18:23:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 164687,
+        "title": "fix(media): keep declared text MIME for UTF-16 attachments with a BOM",
+        "url": "https://github.com/openclaw/openclaw/pull/164687",
+        "state": "open",
+        "author": "yetval",
+        "updatedAt": "2026-10-05T18:23:32Z"
       }
     ]
   }

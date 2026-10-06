@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-05T18:24:51.347Z",
+  "generatedAt": "2026-10-06T15:08:31.969Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1360,6 +1360,23 @@
       "contributors": 3493,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-06",
+      "capturedAt": "2026-10-06T15:08:31.969Z",
+      "issueOpen": 6084,
+      "issueClosed": 51811,
+      "prOpen": 3369,
+      "prClosed": 102315,
+      "prMerged": 50509,
+      "workflowRuns": 40000,
+      "stars": 391501,
+      "forks": 82292,
+      "subscribers": 1721,
+      "commits": 105820,
+      "contributors": 3494,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1898,119 +1915,127 @@
       "subscribers": 1720,
       "commits": 105548,
       "contributors": 3493
+    },
+    {
+      "capturedOn": "2026-10-06",
+      "stars": 391501,
+      "forks": 82292,
+      "subscribers": 1721,
+      "commits": 105820,
+      "contributors": 3494
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 164241,
-        "title": "[Bug]: Yielded subagent completion handoff remains pending with zero wake attempts after an aborted requester announce (2026.9.8)",
-        "url": "https://github.com/openclaw/openclaw/issues/164241",
+        "number": 166156,
+        "title": "[Feature]: Talk: owner opt-out for the extra spoken confirmation (talk.voiceConfirmation: \"off\", default unchanged)",
+        "url": "https://github.com/openclaw/openclaw/issues/166156",
         "state": "open",
-        "author": "SiskoYU",
-        "updatedAt": "2026-10-05T18:24:23Z"
+        "author": "jacobomatadev",
+        "updatedAt": "2026-10-06T15:05:58Z"
       },
       {
         "kind": "issue",
-        "number": 97616,
-        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
-        "url": "https://github.com/openclaw/openclaw/issues/97616",
+        "number": 152560,
+        "title": "[Bug]: Late command catalog response reopens New Session slash menu after Escape",
+        "url": "https://github.com/openclaw/openclaw/issues/152560",
         "state": "open",
-        "author": "avp717",
-        "updatedAt": "2026-10-05T18:23:19Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-10-06T15:05:49Z"
       },
       {
         "kind": "issue",
-        "number": 165717,
-        "title": "[Bug]: Windows 2026.9.8 plugin install and rollback time out after replacement applied, with multi-minute event-loop stalls",
-        "url": "https://github.com/openclaw/openclaw/issues/165717",
+        "number": 152564,
+        "title": "config: nested Discord and Slack dm.policy / dm.allowFrom are rejected as invalid config, blocking the documented upgrade path",
+        "url": "https://github.com/openclaw/openclaw/issues/152564",
         "state": "open",
-        "author": "Yuyorman",
-        "updatedAt": "2026-10-05T18:23:12Z"
+        "author": "yetval",
+        "updatedAt": "2026-10-06T15:05:45Z"
       },
       {
         "kind": "issue",
-        "number": 165714,
-        "title": "[Bug]: Control UI drops one assistant reply from view after claude-cli session resume; next reply stored twice",
-        "url": "https://github.com/openclaw/openclaw/issues/165714",
+        "number": 152556,
+        "title": "Keep main-chat indicators compact in agent roster headers",
+        "url": "https://github.com/openclaw/openclaw/issues/152556",
         "state": "open",
-        "author": "cbhawthorne84",
-        "updatedAt": "2026-10-05T18:20:55Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-10-06T15:08:13Z"
       },
       {
         "kind": "issue",
-        "number": 164074,
-        "title": "Native update recovery stuck at publication-complete when retained previous package fingerprint changes",
-        "url": "https://github.com/openclaw/openclaw/issues/164074",
+        "number": 166160,
+        "title": "[Feature]: Plugin approval approvers for channels beyond Slack, and fail fast when no approver can resolve a card",
+        "url": "https://github.com/openclaw/openclaw/issues/166160",
         "state": "open",
-        "author": "dankarization",
-        "updatedAt": "2026-10-05T18:20:48Z"
+        "author": "saftall",
+        "updatedAt": "2026-10-06T15:05:25Z"
       },
       {
         "kind": "issue",
-        "number": 165709,
-        "title": "[Bug]: Control UI: parent session keeps an unread dot from hidden subagent runs that cannot be marked read",
-        "url": "https://github.com/openclaw/openclaw/issues/165709",
+        "number": 166158,
+        "title": "[Feature]: Expose host-resolved `message` destinations (`derivedTargets`) to `before_tool_call` hooks",
+        "url": "https://github.com/openclaw/openclaw/issues/166158",
         "state": "open",
-        "author": "holgergruenhagen",
-        "updatedAt": "2026-10-05T18:17:51Z"
+        "author": "saftall",
+        "updatedAt": "2026-10-06T15:04:51Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 165334,
-        "title": "fix(ui): revert Slack and Discord session return buttons",
-        "url": "https://github.com/openclaw/openclaw/pull/165334",
-        "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-10-05T18:24:40Z"
+        "number": 166142,
+        "title": "feat: open the Subagents panel from the chat's subagent count and names",
+        "url": "https://github.com/openclaw/openclaw/pull/166142",
+        "state": "closed",
+        "author": "shakkernerd",
+        "updatedAt": "2026-10-06T15:07:46Z"
       },
       {
         "kind": "pr",
-        "number": 165696,
-        "title": "refactor(commands): deslop commands",
-        "url": "https://github.com/openclaw/openclaw/pull/165696",
+        "number": 166163,
+        "title": "fix(auto-reply): settle active run before compacting instead of unconditional abort",
+        "url": "https://github.com/openclaw/openclaw/pull/166163",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-05T18:24:13Z"
+        "author": "holny",
+        "updatedAt": "2026-10-06T15:07:54Z"
       },
       {
         "kind": "pr",
-        "number": 165205,
-        "title": "perf(sessions): serve session observer authority reads from workers",
-        "url": "https://github.com/openclaw/openclaw/pull/165205",
+        "number": 147244,
+        "title": "feat(ios): connect Gateway through native Cloudflare Access",
+        "url": "https://github.com/openclaw/openclaw/pull/147244",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-05T18:23:59Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-10-06T15:07:08Z"
       },
       {
         "kind": "pr",
-        "number": 165718,
-        "title": "refactor(channels): deslop channels",
-        "url": "https://github.com/openclaw/openclaw/pull/165718",
+        "number": 166155,
+        "title": "fix: follow chat login in real Gateway UI tests",
+        "url": "https://github.com/openclaw/openclaw/pull/166155",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-05T18:23:38Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-10-06T15:06:42Z"
       },
       {
         "kind": "pr",
-        "number": 164305,
-        "title": "fix(slack): Socket Mode logs a warning for every ping from another undici copy",
-        "url": "https://github.com/openclaw/openclaw/pull/164305",
+        "number": 166152,
+        "title": "fix(agents): gpt-6-astra runs without the GPT behavior contract",
+        "url": "https://github.com/openclaw/openclaw/pull/166152",
         "state": "open",
-        "author": "jayzhou2309",
-        "updatedAt": "2026-10-05T18:23:35Z"
+        "author": "obviyus",
+        "updatedAt": "2026-10-06T15:07:02Z"
       },
       {
         "kind": "pr",
-        "number": 164687,
-        "title": "fix(media): keep declared text MIME for UTF-16 attachments with a BOM",
-        "url": "https://github.com/openclaw/openclaw/pull/164687",
+        "number": 166157,
+        "title": "fix: wait for Buzz recovery fixture deliveries",
+        "url": "https://github.com/openclaw/openclaw/pull/166157",
         "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-10-05T18:23:32Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-10-06T15:06:10Z"
       }
     ]
   }

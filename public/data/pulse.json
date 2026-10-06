@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-06T15:08:31.969Z",
+  "generatedAt": "2026-10-06T23:51:13.893Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1363,18 +1363,18 @@
     },
     {
       "capturedOn": "2026-10-06",
-      "capturedAt": "2026-10-06T15:08:31.969Z",
-      "issueOpen": 6084,
-      "issueClosed": 51811,
-      "prOpen": 3369,
-      "prClosed": 102315,
-      "prMerged": 50509,
+      "capturedAt": "2026-10-06T23:51:13.893Z",
+      "issueOpen": 6112,
+      "issueClosed": 51856,
+      "prOpen": 3377,
+      "prClosed": 102419,
+      "prMerged": 50590,
       "workflowRuns": 40000,
-      "stars": 391501,
-      "forks": 82292,
+      "stars": 391518,
+      "forks": 82288,
       "subscribers": 1721,
-      "commits": 105820,
-      "contributors": 3494,
+      "commits": 105894,
+      "contributors": 3496,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1918,124 +1918,115 @@
     },
     {
       "capturedOn": "2026-10-06",
-      "stars": 391501,
-      "forks": 82292,
+      "stars": 391518,
+      "forks": 82288,
       "subscribers": 1721,
-      "commits": 105820,
-      "contributors": 3494
+      "commits": 105894,
+      "contributors": 3496
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 166156,
-        "title": "[Feature]: Talk: owner opt-out for the extra spoken confirmation (talk.voiceConfirmation: \"off\", default unchanged)",
-        "url": "https://github.com/openclaw/openclaw/issues/166156",
+        "number": 166349,
+        "title": "Codex native children: define parent wake and restart recovery semantics",
+        "url": "https://github.com/openclaw/openclaw/issues/166349",
         "state": "open",
-        "author": "jacobomatadev",
-        "updatedAt": "2026-10-06T15:05:58Z"
+        "author": "Kimiyu-186",
+        "updatedAt": "2026-10-06T23:51:01Z"
       },
       {
         "kind": "issue",
-        "number": 152560,
-        "title": "[Bug]: Late command catalog response reopens New Session slash menu after Escape",
-        "url": "https://github.com/openclaw/openclaw/issues/152560",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-10-06T15:05:49Z"
+        "number": 127500,
+        "title": "Switching exec-approvals target silently discards a dirty policy draft",
+        "url": "https://github.com/openclaw/openclaw/issues/127500",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-10-06T23:49:55Z"
       },
       {
         "kind": "issue",
-        "number": 152564,
-        "title": "config: nested Discord and Slack dm.policy / dm.allowFrom are rejected as invalid config, blocking the documented upgrade path",
-        "url": "https://github.com/openclaw/openclaw/issues/152564",
+        "number": 166350,
+        "title": "Codex native children: define persistent activity in chat history",
+        "url": "https://github.com/openclaw/openclaw/issues/166350",
         "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-10-06T15:05:45Z"
+        "author": "Kimiyu-186",
+        "updatedAt": "2026-10-06T23:51:07Z"
       },
       {
         "kind": "issue",
-        "number": 152556,
-        "title": "Keep main-chat indicators compact in agent roster headers",
-        "url": "https://github.com/openclaw/openclaw/issues/152556",
+        "number": 154605,
+        "title": "Improve upgrade stability: version mismatches and cascading failures",
+        "url": "https://github.com/openclaw/openclaw/issues/154605",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-10-06T15:08:13Z"
+        "author": "JIRBOY",
+        "updatedAt": "2026-10-06T23:48:40Z"
       },
       {
         "kind": "issue",
-        "number": 166160,
-        "title": "[Feature]: Plugin approval approvers for channels beyond Slack, and fail fast when no approver can resolve a card",
-        "url": "https://github.com/openclaw/openclaw/issues/166160",
+        "number": 154549,
+        "title": "[Bug]: Plain status waits a minute when the local Gateway is deliberately absent",
+        "url": "https://github.com/openclaw/openclaw/issues/154549",
         "state": "open",
-        "author": "saftall",
-        "updatedAt": "2026-10-06T15:05:25Z"
-      },
-      {
-        "kind": "issue",
-        "number": 166158,
-        "title": "[Feature]: Expose host-resolved `message` destinations (`derivedTargets`) to `before_tool_call` hooks",
-        "url": "https://github.com/openclaw/openclaw/issues/166158",
-        "state": "open",
-        "author": "saftall",
-        "updatedAt": "2026-10-06T15:04:51Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-10-06T23:48:28Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 166142,
-        "title": "feat: open the Subagents panel from the chat's subagent count and names",
-        "url": "https://github.com/openclaw/openclaw/pull/166142",
-        "state": "closed",
-        "author": "shakkernerd",
-        "updatedAt": "2026-10-06T15:07:46Z"
-      },
-      {
-        "kind": "pr",
-        "number": 166163,
-        "title": "fix(auto-reply): settle active run before compacting instead of unconditional abort",
-        "url": "https://github.com/openclaw/openclaw/pull/166163",
-        "state": "open",
-        "author": "holny",
-        "updatedAt": "2026-10-06T15:07:54Z"
-      },
-      {
-        "kind": "pr",
-        "number": 147244,
-        "title": "feat(ios): connect Gateway through native Cloudflare Access",
-        "url": "https://github.com/openclaw/openclaw/pull/147244",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-10-06T15:07:08Z"
-      },
-      {
-        "kind": "pr",
-        "number": 166155,
-        "title": "fix: follow chat login in real Gateway UI tests",
-        "url": "https://github.com/openclaw/openclaw/pull/166155",
-        "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-10-06T15:06:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 166152,
-        "title": "fix(agents): gpt-6-astra runs without the GPT behavior contract",
-        "url": "https://github.com/openclaw/openclaw/pull/166152",
+        "number": 166311,
+        "title": "fix(models): list each Claude CLI model once in the model picker",
+        "url": "https://github.com/openclaw/openclaw/pull/166311",
         "state": "open",
         "author": "obviyus",
-        "updatedAt": "2026-10-06T15:07:02Z"
+        "updatedAt": "2026-10-06T23:50:56Z"
       },
       {
         "kind": "pr",
-        "number": 166157,
-        "title": "fix: wait for Buzz recovery fixture deliveries",
-        "url": "https://github.com/openclaw/openclaw/pull/166157",
+        "number": 163553,
+        "title": "fix(config-form): typed map entries shard across config tiers and break collection drafts",
+        "url": "https://github.com/openclaw/openclaw/pull/163553",
         "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-10-06T15:06:10Z"
+        "author": "neilnyn",
+        "updatedAt": "2026-10-06T23:50:52Z"
+      },
+      {
+        "kind": "pr",
+        "number": 161057,
+        "title": "refactor(skills): make Skill Workshop a direct, versioned self-learning loop",
+        "url": "https://github.com/openclaw/openclaw/pull/161057",
+        "state": "open",
+        "author": "obviyus",
+        "updatedAt": "2026-10-06T23:50:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 162124,
+        "title": "fix: preserve underlying failures in worker disposal errors",
+        "url": "https://github.com/openclaw/openclaw/pull/162124",
+        "state": "open",
+        "author": "michaelswissa",
+        "updatedAt": "2026-10-06T23:50:24Z"
+      },
+      {
+        "kind": "pr",
+        "number": 166338,
+        "title": "fix(models): keep logged-out Claude CLI models listed with a login reason",
+        "url": "https://github.com/openclaw/openclaw/pull/166338",
+        "state": "open",
+        "author": "obviyus",
+        "updatedAt": "2026-10-06T23:50:21Z"
+      },
+      {
+        "kind": "pr",
+        "number": 166294,
+        "title": "fix(agents): clear empty uncharged recovery residue",
+        "url": "https://github.com/openclaw/openclaw/pull/166294",
+        "state": "open",
+        "author": "sunlit-deng",
+        "updatedAt": "2026-10-06T23:50:15Z"
       }
     ]
   }

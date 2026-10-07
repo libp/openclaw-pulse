@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-06T23:51:13.893Z",
+  "generatedAt": "2026-10-07T05:55:44.092Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1377,6 +1377,23 @@
       "contributors": 3496,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-07",
+      "capturedAt": "2026-10-07T05:55:44.092Z",
+      "issueOpen": 6072,
+      "issueClosed": 51922,
+      "prOpen": 3327,
+      "prClosed": 102558,
+      "prMerged": 50701,
+      "workflowRuns": 40000,
+      "stars": 391524,
+      "forks": 82286,
+      "subscribers": 1720,
+      "commits": 106019,
+      "contributors": 3504,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1923,110 +1940,127 @@
       "subscribers": 1721,
       "commits": 105894,
       "contributors": 3496
+    },
+    {
+      "capturedOn": "2026-10-07",
+      "stars": 391524,
+      "forks": 82286,
+      "subscribers": 1720,
+      "commits": 106019,
+      "contributors": 3504
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 166349,
-        "title": "Codex native children: define parent wake and restart recovery semantics",
-        "url": "https://github.com/openclaw/openclaw/issues/166349",
+        "number": 127578,
+        "title": "Plugin wizard enabled inventory bypasses canonical effective activation",
+        "url": "https://github.com/openclaw/openclaw/issues/127578",
         "state": "open",
-        "author": "Kimiyu-186",
-        "updatedAt": "2026-10-06T23:51:01Z"
-      },
-      {
-        "kind": "issue",
-        "number": 127500,
-        "title": "Switching exec-approvals target silently discards a dirty policy draft",
-        "url": "https://github.com/openclaw/openclaw/issues/127500",
-        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-10-06T23:49:55Z"
+        "updatedAt": "2026-10-07T05:55:30Z"
       },
       {
         "kind": "issue",
-        "number": 166350,
-        "title": "Codex native children: define persistent activity in chat history",
-        "url": "https://github.com/openclaw/openclaw/issues/166350",
+        "number": 127481,
+        "title": "Mattermost native model-picker slash callbacks bypass replay ownership",
+        "url": "https://github.com/openclaw/openclaw/issues/127481",
         "state": "open",
-        "author": "Kimiyu-186",
-        "updatedAt": "2026-10-06T23:51:07Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-07T05:55:37Z"
       },
       {
         "kind": "issue",
-        "number": 154605,
-        "title": "Improve upgrade stability: version mismatches and cascading failures",
-        "url": "https://github.com/openclaw/openclaw/issues/154605",
+        "number": 127616,
+        "title": "Rapid macOS Browser Control toggles race independent CAS transactions and lose the latest intent",
+        "url": "https://github.com/openclaw/openclaw/issues/127616",
         "state": "open",
-        "author": "JIRBOY",
-        "updatedAt": "2026-10-06T23:48:40Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-07T05:55:35Z"
       },
       {
         "kind": "issue",
-        "number": 154549,
-        "title": "[Bug]: Plain status waits a minute when the local Gateway is deliberately absent",
-        "url": "https://github.com/openclaw/openclaw/issues/154549",
+        "number": 127580,
+        "title": "Duplicate pairing actions can render failure after approval succeeded",
+        "url": "https://github.com/openclaw/openclaw/issues/127580",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-10-06T23:48:28Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-07T05:55:36Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127465,
+        "title": "Android process-global math render queue has no count or aggregate-byte bound",
+        "url": "https://github.com/openclaw/openclaw/issues/127465",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-07T05:55:36Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127579,
+        "title": "Approval page visibility refreshes fan out unretired approval.get requests",
+        "url": "https://github.com/openclaw/openclaw/issues/127579",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-07T05:55:20Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 166311,
-        "title": "fix(models): list each Claude CLI model once in the model picker",
-        "url": "https://github.com/openclaw/openclaw/pull/166311",
+        "number": 154702,
+        "title": "fix(google): share request timeout with credential preparation in image generation",
+        "url": "https://github.com/openclaw/openclaw/pull/154702",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-10-06T23:50:56Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-10-07T05:55:33Z"
       },
       {
         "kind": "pr",
-        "number": 163553,
-        "title": "fix(config-form): typed map entries shard across config tiers and break collection drafts",
-        "url": "https://github.com/openclaw/openclaw/pull/163553",
+        "number": 166252,
+        "title": "refactor(state): move restart preflight into inspection worker",
+        "url": "https://github.com/openclaw/openclaw/pull/166252",
         "state": "open",
-        "author": "neilnyn",
-        "updatedAt": "2026-10-06T23:50:52Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-07T05:55:27Z"
       },
       {
         "kind": "pr",
-        "number": 161057,
-        "title": "refactor(skills): make Skill Workshop a direct, versioned self-learning loop",
-        "url": "https://github.com/openclaw/openclaw/pull/161057",
+        "number": 166183,
+        "title": "perf(auth-profiles): offload peer settlement and catalog reads",
+        "url": "https://github.com/openclaw/openclaw/pull/166183",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-10-06T23:50:41Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-07T05:55:05Z"
       },
       {
         "kind": "pr",
-        "number": 162124,
-        "title": "fix: preserve underlying failures in worker disposal errors",
-        "url": "https://github.com/openclaw/openclaw/pull/162124",
-        "state": "open",
-        "author": "michaelswissa",
-        "updatedAt": "2026-10-06T23:50:24Z"
+        "number": 166425,
+        "title": "fix(doctor): write the pre-repair state capture on filesystems that reject RENAME_NOREPLACE",
+        "url": "https://github.com/openclaw/openclaw/pull/166425",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-10-07T05:55:01Z"
       },
       {
         "kind": "pr",
-        "number": 166338,
-        "title": "fix(models): keep logged-out Claude CLI models listed with a login reason",
-        "url": "https://github.com/openclaw/openclaw/pull/166338",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-10-06T23:50:21Z"
+        "number": 166253,
+        "title": "fix(agent-db): stop repeated schema admission on warm turns",
+        "url": "https://github.com/openclaw/openclaw/pull/166253",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-10-07T05:54:57Z"
       },
       {
         "kind": "pr",
-        "number": 166294,
-        "title": "fix(agents): clear empty uncharged recovery residue",
-        "url": "https://github.com/openclaw/openclaw/pull/166294",
-        "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-10-06T23:50:15Z"
+        "number": 166409,
+        "title": "fix(doctor): avoid inherited state maintenance during repair",
+        "url": "https://github.com/openclaw/openclaw/pull/166409",
+        "state": "closed",
+        "author": "openclaw-agent-man",
+        "updatedAt": "2026-10-07T05:54:55Z"
       }
     ]
   }

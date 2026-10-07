@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-07T13:18:36.943Z",
+  "generatedAt": "2026-10-07T19:58:15.867Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1380,17 +1380,17 @@
     },
     {
       "capturedOn": "2026-10-07",
-      "capturedAt": "2026-10-07T13:18:36.943Z",
-      "issueOpen": 6088,
-      "issueClosed": 51960,
-      "prOpen": 3321,
-      "prClosed": 102639,
-      "prMerged": 50766,
+      "capturedAt": "2026-10-07T19:58:15.867Z",
+      "issueOpen": 6109,
+      "issueClosed": 51982,
+      "prOpen": 3331,
+      "prClosed": 102706,
+      "prMerged": 50829,
       "workflowRuns": 40000,
-      "stars": 391558,
-      "forks": 82294,
-      "subscribers": 1720,
-      "commits": 106097,
+      "stars": 391591,
+      "forks": 82285,
+      "subscribers": 1719,
+      "commits": 106168,
       "contributors": 3507,
       "source": "github-actions",
       "approximateDate": false
@@ -1943,10 +1943,10 @@
     },
     {
       "capturedOn": "2026-10-07",
-      "stars": 391558,
-      "forks": 82294,
-      "subscribers": 1720,
-      "commits": 106097,
+      "stars": 391591,
+      "forks": 82285,
+      "subscribers": 1719,
+      "commits": 106168,
       "contributors": 3507
     }
   ],
@@ -1954,113 +1954,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 45233,
-        "title": "[Feature]: FreeBSD",
-        "url": "https://github.com/openclaw/openclaw/issues/45233",
+        "number": 142336,
+        "title": "[Bug]: Core /dashboard shadows Telegram Mini App launcher in 2026.9.2+",
+        "url": "https://github.com/openclaw/openclaw/issues/142336",
         "state": "open",
-        "author": "lucarinaorg",
-        "updatedAt": "2026-10-07T13:18:13Z"
+        "author": "afromankenobi",
+        "updatedAt": "2026-10-07T19:56:14Z"
       },
       {
         "kind": "issue",
-        "number": 166595,
-        "title": "claude-cli: bare NO_REPLY on a user-triggered (inter-session) turn is treated as an empty response and fails over",
-        "url": "https://github.com/openclaw/openclaw/issues/166595",
+        "number": 156118,
+        "title": "Update failure: unexpected-error (2026.9.4)",
+        "url": "https://github.com/openclaw/openclaw/issues/156118",
         "state": "open",
-        "author": "Shaqiel75",
-        "updatedAt": "2026-10-07T13:18:12Z"
+        "author": "ksteward",
+        "updatedAt": "2026-10-07T19:56:00Z"
       },
       {
         "kind": "issue",
-        "number": 88032,
-        "title": "[Feature]: Telegram quote/reply context should be a first-class, durable inbound contract instead of a split prompt/runtime patch surface",
-        "url": "https://github.com/openclaw/openclaw/issues/88032",
+        "number": 48709,
+        "title": "Gemini 2.5 Pro: textSignature bloat + think tags + mixed text/tool causes session failures",
+        "url": "https://github.com/openclaw/openclaw/issues/48709",
         "state": "open",
-        "author": "jamesachurchill",
-        "updatedAt": "2026-10-07T13:18:09Z"
+        "author": "jarvis-playrockets",
+        "updatedAt": "2026-10-07T19:55:56Z"
       },
       {
         "kind": "issue",
-        "number": 155908,
-        "title": "[Bug]: memory-wiki compiled-cache cleanup exceeds the lifecycle timeout and leaves the wiki corpus unavailable",
-        "url": "https://github.com/openclaw/openclaw/issues/155908",
+        "number": 136271,
+        "title": "[Feature]: msteams: resolve team SharePoint site dynamically for channel file uploads",
+        "url": "https://github.com/openclaw/openclaw/issues/136271",
         "state": "open",
-        "author": "Nickfost",
-        "updatedAt": "2026-10-07T13:17:29Z"
+        "author": "a-tokyo",
+        "updatedAt": "2026-10-07T19:55:50Z"
       },
       {
         "kind": "issue",
-        "number": 89278,
-        "title": "[Bug]: Codex OAuth refresh succeeds but cron/heartbeat fail with 10s auth refresh timeout",
-        "url": "https://github.com/openclaw/openclaw/issues/89278",
+        "number": 156112,
+        "title": "openclaw update fails at \"global install swap\" while a direct npm install -g of the same version succeeds (npm global, 2026.9.4 → 2026.9.5)",
+        "url": "https://github.com/openclaw/openclaw/issues/156112",
         "state": "open",
-        "author": "kopl-blip",
-        "updatedAt": "2026-10-07T13:17:19Z"
+        "author": "shadesurgeon",
+        "updatedAt": "2026-10-07T19:55:48Z"
       },
       {
         "kind": "issue",
-        "number": 155909,
-        "title": "Gateway CI: active-request lifetime assertions fail by one on main",
-        "url": "https://github.com/openclaw/openclaw/issues/155909",
+        "number": 156099,
+        "title": "[robustness] Gateway silently stops dispatching and never self-heals when the host runs a memory/CPU-heavy app - observed on a mainstream 32 GB machine (2026.9.5, Windows)",
+        "url": "https://github.com/openclaw/openclaw/issues/156099",
         "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-10-07T13:17:16Z"
+        "author": "Damonling",
+        "updatedAt": "2026-10-07T19:55:45Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 165921,
-        "title": "refactor(transcripts): move locked writes onto the worker owner",
-        "url": "https://github.com/openclaw/openclaw/pull/165921",
+        "number": 166706,
+        "title": "feat(anthropic): support Claude Haiku 5.5",
+        "url": "https://github.com/openclaw/openclaw/pull/166706",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-07T13:18:18Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-10-07T19:58:09Z"
       },
       {
         "kind": "pr",
-        "number": 166539,
-        "title": "refactor(device-identity): admit runtime identities through the shared worker",
-        "url": "https://github.com/openclaw/openclaw/pull/166539",
+        "number": 161057,
+        "title": "refactor(skills): make Skill Workshop a direct, versioned self-learning loop",
+        "url": "https://github.com/openclaw/openclaw/pull/161057",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-07T13:18:09Z"
+        "author": "obviyus",
+        "updatedAt": "2026-10-07T19:58:04Z"
       },
       {
         "kind": "pr",
-        "number": 166575,
-        "title": "refactor(codex): consolidate internal lifecycle and adapter paths",
-        "url": "https://github.com/openclaw/openclaw/pull/166575",
+        "number": 166284,
+        "title": "test(config): authorize intentional warning reset write",
+        "url": "https://github.com/openclaw/openclaw/pull/166284",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-07T13:16:55Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-10-07T19:58:02Z"
       },
       {
         "kind": "pr",
-        "number": 164265,
-        "title": "refactor(automations): retire heartbeat into ordinary jobs",
-        "url": "https://github.com/openclaw/openclaw/pull/164265",
+        "number": 136482,
+        "title": "fix(memory): prevent search contention and reindex leaks",
+        "url": "https://github.com/openclaw/openclaw/pull/136482",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-07T13:16:54Z"
+        "author": "jason-oc-agents",
+        "updatedAt": "2026-10-07T19:57:46Z"
       },
       {
         "kind": "pr",
-        "number": 166591,
-        "title": "perf(gateway): reuse session row publication encoding",
-        "url": "https://github.com/openclaw/openclaw/pull/166591",
+        "number": 166611,
+        "title": "feat: enforce required worker policy before local inference",
+        "url": "https://github.com/openclaw/openclaw/pull/166611",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-07T13:16:51Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-10-07T19:57:45Z"
       },
       {
         "kind": "pr",
-        "number": 166464,
-        "title": "fix(gateway): keep service credentials referenced only by auth profiles",
-        "url": "https://github.com/openclaw/openclaw/pull/166464",
+        "number": 158057,
+        "title": "fix(runtime): Windows respawn reports wrong exit code for Ctrl-Break, sometimes wrong code for Ctrl-C/terminate too",
+        "url": "https://github.com/openclaw/openclaw/pull/158057",
         "state": "open",
-        "author": "alkor2000",
-        "updatedAt": "2026-10-07T13:16:38Z"
+        "author": "NoelDavies",
+        "updatedAt": "2026-10-07T19:57:30Z"
       }
     ]
   }

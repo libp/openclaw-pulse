@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-07T05:55:44.092Z",
+  "generatedAt": "2026-10-07T13:18:36.943Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1380,18 +1380,18 @@
     },
     {
       "capturedOn": "2026-10-07",
-      "capturedAt": "2026-10-07T05:55:44.092Z",
-      "issueOpen": 6072,
-      "issueClosed": 51922,
-      "prOpen": 3327,
-      "prClosed": 102558,
-      "prMerged": 50701,
+      "capturedAt": "2026-10-07T13:18:36.943Z",
+      "issueOpen": 6088,
+      "issueClosed": 51960,
+      "prOpen": 3321,
+      "prClosed": 102639,
+      "prMerged": 50766,
       "workflowRuns": 40000,
-      "stars": 391524,
-      "forks": 82286,
+      "stars": 391558,
+      "forks": 82294,
       "subscribers": 1720,
-      "commits": 106019,
-      "contributors": 3504,
+      "commits": 106097,
+      "contributors": 3507,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1943,124 +1943,124 @@
     },
     {
       "capturedOn": "2026-10-07",
-      "stars": 391524,
-      "forks": 82286,
+      "stars": 391558,
+      "forks": 82294,
       "subscribers": 1720,
-      "commits": 106019,
-      "contributors": 3504
+      "commits": 106097,
+      "contributors": 3507
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 127578,
-        "title": "Plugin wizard enabled inventory bypasses canonical effective activation",
-        "url": "https://github.com/openclaw/openclaw/issues/127578",
+        "number": 45233,
+        "title": "[Feature]: FreeBSD",
+        "url": "https://github.com/openclaw/openclaw/issues/45233",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-07T05:55:30Z"
+        "author": "lucarinaorg",
+        "updatedAt": "2026-10-07T13:18:13Z"
       },
       {
         "kind": "issue",
-        "number": 127481,
-        "title": "Mattermost native model-picker slash callbacks bypass replay ownership",
-        "url": "https://github.com/openclaw/openclaw/issues/127481",
+        "number": 166595,
+        "title": "claude-cli: bare NO_REPLY on a user-triggered (inter-session) turn is treated as an empty response and fails over",
+        "url": "https://github.com/openclaw/openclaw/issues/166595",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-07T05:55:37Z"
+        "author": "Shaqiel75",
+        "updatedAt": "2026-10-07T13:18:12Z"
       },
       {
         "kind": "issue",
-        "number": 127616,
-        "title": "Rapid macOS Browser Control toggles race independent CAS transactions and lose the latest intent",
-        "url": "https://github.com/openclaw/openclaw/issues/127616",
+        "number": 88032,
+        "title": "[Feature]: Telegram quote/reply context should be a first-class, durable inbound contract instead of a split prompt/runtime patch surface",
+        "url": "https://github.com/openclaw/openclaw/issues/88032",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-07T05:55:35Z"
+        "author": "jamesachurchill",
+        "updatedAt": "2026-10-07T13:18:09Z"
       },
       {
         "kind": "issue",
-        "number": 127580,
-        "title": "Duplicate pairing actions can render failure after approval succeeded",
-        "url": "https://github.com/openclaw/openclaw/issues/127580",
+        "number": 155908,
+        "title": "[Bug]: memory-wiki compiled-cache cleanup exceeds the lifecycle timeout and leaves the wiki corpus unavailable",
+        "url": "https://github.com/openclaw/openclaw/issues/155908",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-07T05:55:36Z"
+        "author": "Nickfost",
+        "updatedAt": "2026-10-07T13:17:29Z"
       },
       {
         "kind": "issue",
-        "number": 127465,
-        "title": "Android process-global math render queue has no count or aggregate-byte bound",
-        "url": "https://github.com/openclaw/openclaw/issues/127465",
+        "number": 89278,
+        "title": "[Bug]: Codex OAuth refresh succeeds but cron/heartbeat fail with 10s auth refresh timeout",
+        "url": "https://github.com/openclaw/openclaw/issues/89278",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-07T05:55:36Z"
+        "author": "kopl-blip",
+        "updatedAt": "2026-10-07T13:17:19Z"
       },
       {
         "kind": "issue",
-        "number": 127579,
-        "title": "Approval page visibility refreshes fan out unretired approval.get requests",
-        "url": "https://github.com/openclaw/openclaw/issues/127579",
+        "number": 155909,
+        "title": "Gateway CI: active-request lifetime assertions fail by one on main",
+        "url": "https://github.com/openclaw/openclaw/issues/155909",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-07T05:55:20Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-10-07T13:17:16Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 154702,
-        "title": "fix(google): share request timeout with credential preparation in image generation",
-        "url": "https://github.com/openclaw/openclaw/pull/154702",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-10-07T05:55:33Z"
-      },
-      {
-        "kind": "pr",
-        "number": 166252,
-        "title": "refactor(state): move restart preflight into inspection worker",
-        "url": "https://github.com/openclaw/openclaw/pull/166252",
+        "number": 165921,
+        "title": "refactor(transcripts): move locked writes onto the worker owner",
+        "url": "https://github.com/openclaw/openclaw/pull/165921",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-07T05:55:27Z"
+        "updatedAt": "2026-10-07T13:18:18Z"
       },
       {
         "kind": "pr",
-        "number": 166183,
-        "title": "perf(auth-profiles): offload peer settlement and catalog reads",
-        "url": "https://github.com/openclaw/openclaw/pull/166183",
+        "number": 166539,
+        "title": "refactor(device-identity): admit runtime identities through the shared worker",
+        "url": "https://github.com/openclaw/openclaw/pull/166539",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-07T05:55:05Z"
+        "updatedAt": "2026-10-07T13:18:09Z"
       },
       {
         "kind": "pr",
-        "number": 166425,
-        "title": "fix(doctor): write the pre-repair state capture on filesystems that reject RENAME_NOREPLACE",
-        "url": "https://github.com/openclaw/openclaw/pull/166425",
-        "state": "closed",
+        "number": 166575,
+        "title": "refactor(codex): consolidate internal lifecycle and adapter paths",
+        "url": "https://github.com/openclaw/openclaw/pull/166575",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-07T05:55:01Z"
+        "updatedAt": "2026-10-07T13:16:55Z"
       },
       {
         "kind": "pr",
-        "number": 166253,
-        "title": "fix(agent-db): stop repeated schema admission on warm turns",
-        "url": "https://github.com/openclaw/openclaw/pull/166253",
-        "state": "closed",
+        "number": 164265,
+        "title": "refactor(automations): retire heartbeat into ordinary jobs",
+        "url": "https://github.com/openclaw/openclaw/pull/164265",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-07T05:54:57Z"
+        "updatedAt": "2026-10-07T13:16:54Z"
       },
       {
         "kind": "pr",
-        "number": 166409,
-        "title": "fix(doctor): avoid inherited state maintenance during repair",
-        "url": "https://github.com/openclaw/openclaw/pull/166409",
-        "state": "closed",
-        "author": "openclaw-agent-man",
-        "updatedAt": "2026-10-07T05:54:55Z"
+        "number": 166591,
+        "title": "perf(gateway): reuse session row publication encoding",
+        "url": "https://github.com/openclaw/openclaw/pull/166591",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-07T13:16:51Z"
+      },
+      {
+        "kind": "pr",
+        "number": 166464,
+        "title": "fix(gateway): keep service credentials referenced only by auth profiles",
+        "url": "https://github.com/openclaw/openclaw/pull/166464",
+        "state": "open",
+        "author": "alkor2000",
+        "updatedAt": "2026-10-07T13:16:38Z"
       }
     ]
   }

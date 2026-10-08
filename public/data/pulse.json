@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-07T19:58:15.867Z",
+  "generatedAt": "2026-10-08T19:55:56.491Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1394,6 +1394,23 @@
       "contributors": 3507,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-08",
+      "capturedAt": "2026-10-08T19:55:56.491Z",
+      "issueOpen": 6205,
+      "issueClosed": 52122,
+      "prOpen": 3358,
+      "prClosed": 103159,
+      "prMerged": 51204,
+      "workflowRuns": 40000,
+      "stars": 391463,
+      "forks": 82299,
+      "subscribers": 1716,
+      "commits": 106570,
+      "contributors": 3515,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1948,27 +1965,62 @@
       "subscribers": 1719,
       "commits": 106168,
       "contributors": 3507
+    },
+    {
+      "capturedOn": "2026-10-08",
+      "stars": 391463,
+      "forks": 82299,
+      "subscribers": 1716,
+      "commits": 106570,
+      "contributors": 3515
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 142336,
-        "title": "[Bug]: Core /dashboard shadows Telegram Mini App launcher in 2026.9.2+",
-        "url": "https://github.com/openclaw/openclaw/issues/142336",
+        "number": 42373,
+        "title": "Feature: Add costCurrency config option to customize cost display currency",
+        "url": "https://github.com/openclaw/openclaw/issues/42373",
         "state": "open",
-        "author": "afromankenobi",
-        "updatedAt": "2026-10-07T19:56:14Z"
+        "author": "lizhihong114",
+        "updatedAt": "2026-10-08T19:55:46Z"
       },
       {
         "kind": "issue",
-        "number": 156118,
-        "title": "Update failure: unexpected-error (2026.9.4)",
-        "url": "https://github.com/openclaw/openclaw/issues/156118",
+        "number": 93741,
+        "title": "Allow the `agent` RPC to offload images to `imageModel` for text-only models (opt-in)",
+        "url": "https://github.com/openclaw/openclaw/issues/93741",
         "state": "open",
-        "author": "ksteward",
-        "updatedAt": "2026-10-07T19:56:00Z"
+        "author": "clemenshelm",
+        "updatedAt": "2026-10-08T19:55:37Z"
+      },
+      {
+        "kind": "issue",
+        "number": 97616,
+        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
+        "url": "https://github.com/openclaw/openclaw/issues/97616",
+        "state": "open",
+        "author": "avp717",
+        "updatedAt": "2026-10-08T19:55:36Z"
+      },
+      {
+        "kind": "issue",
+        "number": 157062,
+        "title": "[Bug]: bundle-mcp permanently leaks a live runtime slot when MCP session cleanup is \"uncertain\" (streamable-http DELETE 404)",
+        "url": "https://github.com/openclaw/openclaw/issues/157062",
+        "state": "open",
+        "author": "AmesGit",
+        "updatedAt": "2026-10-08T19:55:32Z"
+      },
+      {
+        "kind": "issue",
+        "number": 127526,
+        "title": "Logbook stop closes its store while detached capture and model work remain live",
+        "url": "https://github.com/openclaw/openclaw/issues/127526",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-08T19:55:32Z"
       },
       {
         "kind": "issue",
@@ -1977,90 +2029,63 @@
         "url": "https://github.com/openclaw/openclaw/issues/48709",
         "state": "open",
         "author": "jarvis-playrockets",
-        "updatedAt": "2026-10-07T19:55:56Z"
-      },
-      {
-        "kind": "issue",
-        "number": 136271,
-        "title": "[Feature]: msteams: resolve team SharePoint site dynamically for channel file uploads",
-        "url": "https://github.com/openclaw/openclaw/issues/136271",
-        "state": "open",
-        "author": "a-tokyo",
-        "updatedAt": "2026-10-07T19:55:50Z"
-      },
-      {
-        "kind": "issue",
-        "number": 156112,
-        "title": "openclaw update fails at \"global install swap\" while a direct npm install -g of the same version succeeds (npm global, 2026.9.4 → 2026.9.5)",
-        "url": "https://github.com/openclaw/openclaw/issues/156112",
-        "state": "open",
-        "author": "shadesurgeon",
-        "updatedAt": "2026-10-07T19:55:48Z"
-      },
-      {
-        "kind": "issue",
-        "number": 156099,
-        "title": "[robustness] Gateway silently stops dispatching and never self-heals when the host runs a memory/CPU-heavy app - observed on a mainstream 32 GB machine (2026.9.5, Windows)",
-        "url": "https://github.com/openclaw/openclaw/issues/156099",
-        "state": "open",
-        "author": "Damonling",
-        "updatedAt": "2026-10-07T19:55:45Z"
+        "updatedAt": "2026-10-08T19:55:29Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 166706,
-        "title": "feat(anthropic): support Claude Haiku 5.5",
-        "url": "https://github.com/openclaw/openclaw/pull/166706",
+        "number": 167429,
+        "title": "docs: propose personal identity for native local connections",
+        "url": "https://github.com/openclaw/openclaw/pull/167429",
+        "state": "open",
+        "author": "TheAngryPit",
+        "updatedAt": "2026-10-08T19:55:49Z"
+      },
+      {
+        "kind": "pr",
+        "number": 157054,
+        "title": "test: tighten QA channel and tooling regression checks",
+        "url": "https://github.com/openclaw/openclaw/pull/157054",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-10-08T19:55:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 167358,
+        "title": "fix: completed recovery history blocks future updates",
+        "url": "https://github.com/openclaw/openclaw/pull/167358",
         "state": "open",
         "author": "RomneyDa",
-        "updatedAt": "2026-10-07T19:58:09Z"
+        "updatedAt": "2026-10-08T19:55:31Z"
       },
       {
         "kind": "pr",
-        "number": 161057,
-        "title": "refactor(skills): make Skill Workshop a direct, versioned self-learning loop",
-        "url": "https://github.com/openclaw/openclaw/pull/161057",
+        "number": 166248,
+        "title": "fix: show native Telegram portraits in Home",
+        "url": "https://github.com/openclaw/openclaw/pull/166248",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-10-07T19:58:04Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-10-08T19:55:31Z"
       },
       {
         "kind": "pr",
-        "number": 166284,
-        "title": "test(config): authorize intentional warning reset write",
-        "url": "https://github.com/openclaw/openclaw/pull/166284",
+        "number": 152205,
+        "title": "fix(agents): steer background-exec completions into busy sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/152205",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-10-07T19:58:02Z"
+        "author": "azuretek",
+        "updatedAt": "2026-10-08T19:55:29Z"
       },
       {
         "kind": "pr",
-        "number": 136482,
-        "title": "fix(memory): prevent search contention and reindex leaks",
-        "url": "https://github.com/openclaw/openclaw/pull/136482",
+        "number": 87247,
+        "title": "docs: clarify LanceDB dreaming settings vs vector-native plugins",
+        "url": "https://github.com/openclaw/openclaw/pull/87247",
         "state": "open",
-        "author": "jason-oc-agents",
-        "updatedAt": "2026-10-07T19:57:46Z"
-      },
-      {
-        "kind": "pr",
-        "number": 166611,
-        "title": "feat: enforce required worker policy before local inference",
-        "url": "https://github.com/openclaw/openclaw/pull/166611",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-10-07T19:57:45Z"
-      },
-      {
-        "kind": "pr",
-        "number": 158057,
-        "title": "fix(runtime): Windows respawn reports wrong exit code for Ctrl-Break, sometimes wrong code for Ctrl-C/terminate too",
-        "url": "https://github.com/openclaw/openclaw/pull/158057",
-        "state": "open",
-        "author": "NoelDavies",
-        "updatedAt": "2026-10-07T19:57:30Z"
+        "author": "airbing11",
+        "updatedAt": "2026-10-08T19:55:29Z"
       }
     ]
   }

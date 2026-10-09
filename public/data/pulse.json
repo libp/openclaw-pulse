@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-09T15:16:42.655Z",
+  "generatedAt": "2026-10-09T20:07:53.166Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1414,17 +1414,17 @@
     },
     {
       "capturedOn": "2026-10-09",
-      "capturedAt": "2026-10-09T15:16:42.655Z",
-      "issueOpen": 6071,
-      "issueClosed": 52396,
-      "prOpen": 3297,
-      "prClosed": 103489,
-      "prMerged": 51427,
+      "capturedAt": "2026-10-09T20:07:53.166Z",
+      "issueOpen": 6080,
+      "issueClosed": 52419,
+      "prOpen": 3308,
+      "prClosed": 103517,
+      "prMerged": 51468,
       "workflowRuns": 40000,
-      "stars": 391540,
-      "forks": 82308,
+      "stars": 391518,
+      "forks": 82294,
       "subscribers": 1716,
-      "commits": 106859,
+      "commits": 106916,
       "contributors": 3517,
       "source": "github-actions",
       "approximateDate": false
@@ -1993,10 +1993,10 @@
     },
     {
       "capturedOn": "2026-10-09",
-      "stars": 391540,
-      "forks": 82308,
+      "stars": 391518,
+      "forks": 82294,
       "subscribers": 1716,
-      "commits": 106859,
+      "commits": 106916,
       "contributors": 3517
     }
   ],
@@ -2004,104 +2004,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 167840,
-        "title": "Update failure: doctor-failed (2026.9.4)",
-        "url": "https://github.com/openclaw/openclaw/issues/167840",
-        "state": "open",
-        "author": "macsiah",
-        "updatedAt": "2026-10-09T15:14:34Z"
+        "number": 167914,
+        "title": "[Bug]: memory-wiki: `wiki.status` (and the `wiki_status` tool) run `syncMemoryWikiImportedSources` first and can start a full vault compile even when the published compiled cache is current",
+        "url": "https://github.com/openclaw/openclaw/issues/167914",
+        "state": "closed",
+        "author": "etzelm",
+        "updatedAt": "2026-10-09T20:07:36Z"
       },
       {
         "kind": "issue",
-        "number": 13634,
-        "title": "Feature: Slack workspace file injection + global systemPrompt (parity with Telegram)",
-        "url": "https://github.com/openclaw/openclaw/issues/13634",
-        "state": "open",
-        "author": "visshehi",
-        "updatedAt": "2026-10-09T15:12:43Z"
+        "number": 167912,
+        "title": "[Bug]: diagnostics-prometheus: duration histograms end at 600 s, so per-model p95 of agent run, harness and model-turn durations is pinned at 600",
+        "url": "https://github.com/openclaw/openclaw/issues/167912",
+        "state": "closed",
+        "author": "etzelm",
+        "updatedAt": "2026-10-09T20:07:32Z"
       },
       {
         "kind": "issue",
-        "number": 13615,
-        "title": "Add rate limiting and throttling for external API calls",
-        "url": "https://github.com/openclaw/openclaw/issues/13615",
+        "number": 167911,
+        "title": "[Feature]: diagnostics-prometheus: export session.stalled and session.long_running (stalled-session warnings have no metric)",
+        "url": "https://github.com/openclaw/openclaw/issues/167911",
         "state": "open",
-        "author": "trevorgordon981",
-        "updatedAt": "2026-10-09T15:12:20Z"
+        "author": "etzelm",
+        "updatedAt": "2026-10-09T20:06:30Z"
       },
       {
         "kind": "issue",
-        "number": 97616,
-        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
-        "url": "https://github.com/openclaw/openclaw/issues/97616",
+        "number": 38721,
+        "title": "[Bug] gateway shutdown timed out: node report shows active child process handle; leaves dirty shutdown + lane wait",
+        "url": "https://github.com/openclaw/openclaw/issues/38721",
         "state": "open",
-        "author": "avp717",
-        "updatedAt": "2026-10-09T15:12:14Z"
+        "author": "carlosrenatoy",
+        "updatedAt": "2026-10-09T20:04:51Z"
       },
       {
         "kind": "issue",
-        "number": 167835,
-        "title": "[Windows] gateway.cmd hardcodes the pnpm version path, so any package update leaves the Scheduled Task unstartable",
-        "url": "https://github.com/openclaw/openclaw/issues/167835",
+        "number": 48709,
+        "title": "Gemini 2.5 Pro: textSignature bloat + think tags + mixed text/tool causes session failures",
+        "url": "https://github.com/openclaw/openclaw/issues/48709",
         "state": "open",
-        "author": "SMF12138",
-        "updatedAt": "2026-10-09T15:12:06Z"
+        "author": "jarvis-playrockets",
+        "updatedAt": "2026-10-09T20:04:38Z"
+      },
+      {
+        "kind": "issue",
+        "number": 42986,
+        "title": "[Feature Request] Telegram Channel: Support Thread Binding for Subagent Sessions",
+        "url": "https://github.com/openclaw/openclaw/issues/42986",
+        "state": "open",
+        "author": "JackpotHan",
+        "updatedAt": "2026-10-09T20:04:38Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 167842,
-        "title": "fix(cron): reject empty Code Mode fallback tool catalogs",
-        "url": "https://github.com/openclaw/openclaw/pull/167842",
+        "number": 132955,
+        "title": "fix: recreate agent database after explicit close",
+        "url": "https://github.com/openclaw/openclaw/pull/132955",
         "state": "open",
-        "author": "DasX",
-        "updatedAt": "2026-10-09T15:16:29Z"
+        "author": "jerrodcodes",
+        "updatedAt": "2026-10-09T20:07:36Z"
       },
       {
         "kind": "pr",
-        "number": 167843,
-        "title": "fix(skills): detect inline child_process exec in security scanner",
-        "url": "https://github.com/openclaw/openclaw/pull/167843",
+        "number": 167947,
+        "title": "test(core,plugins,tooling): remove low-value tests (batch d036)",
+        "url": "https://github.com/openclaw/openclaw/pull/167947",
         "state": "open",
-        "author": "YangManBOBO",
-        "updatedAt": "2026-10-09T15:16:27Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-09T20:07:35Z"
       },
       {
         "kind": "pr",
-        "number": 158013,
-        "title": "fix(ui): Skill Workshop misgroups yesterday's proposals as Earlier across DST transitions",
-        "url": "https://github.com/openclaw/openclaw/pull/158013",
+        "number": 167720,
+        "title": "refactor(agent-executor): move voice-session writes into worker commands",
+        "url": "https://github.com/openclaw/openclaw/pull/167720",
         "state": "open",
-        "author": "kvnloo",
-        "updatedAt": "2026-10-09T15:16:22Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-09T20:06:24Z"
       },
       {
         "kind": "pr",
-        "number": 166321,
-        "title": "fix(ios): task list shows raw progress tags instead of bars",
-        "url": "https://github.com/openclaw/openclaw/pull/166321",
+        "number": 167944,
+        "title": "perf(worktrees): speed up concurrent partial-clone creation",
+        "url": "https://github.com/openclaw/openclaw/pull/167944",
         "state": "open",
-        "author": "Marvinthebored",
-        "updatedAt": "2026-10-09T15:15:56Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-09T20:06:20Z"
       },
       {
         "kind": "pr",
-        "number": 167841,
-        "title": "docs: clarify session run status before replacing work",
-        "url": "https://github.com/openclaw/openclaw/pull/167841",
+        "number": 167928,
+        "title": "fix: wiki status recompiles after an external vault compile",
+        "url": "https://github.com/openclaw/openclaw/pull/167928",
         "state": "open",
-        "author": "ZengWen-DT",
-        "updatedAt": "2026-10-09T15:15:42Z"
+        "author": "ericcaiwx-star",
+        "updatedAt": "2026-10-09T20:06:20Z"
       },
       {
         "kind": "pr",
-        "number": 141309,
-        "title": "fix(infra): use a Git-readable null path for isolated GIT_CONFIG on Windows",
-        "url": "https://github.com/openclaw/openclaw/pull/141309",
+        "number": 167942,
+        "title": "fix(anthropic): stop listing API-only models as Claude CLI models",
+        "url": "https://github.com/openclaw/openclaw/pull/167942",
         "state": "open",
-        "author": "hugenshen",
-        "updatedAt": "2026-10-09T15:15:34Z"
+        "author": "obviyus",
+        "updatedAt": "2026-10-09T20:06:00Z"
       }
     ]
   }

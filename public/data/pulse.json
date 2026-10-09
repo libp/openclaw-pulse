@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-08T19:55:56.491Z",
+  "generatedAt": "2026-10-09T00:21:18.120Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1411,6 +1411,23 @@
       "contributors": 3515,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-09",
+      "capturedAt": "2026-10-09T00:21:18.120Z",
+      "issueOpen": 6201,
+      "issueClosed": 52158,
+      "prOpen": 3360,
+      "prClosed": 103230,
+      "prMerged": 51267,
+      "workflowRuns": 40000,
+      "stars": 391478,
+      "forks": 82297,
+      "subscribers": 1716,
+      "commits": 106646,
+      "contributors": 3515,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -1973,119 +1990,127 @@
       "subscribers": 1716,
       "commits": 106570,
       "contributors": 3515
+    },
+    {
+      "capturedOn": "2026-10-09",
+      "stars": 391478,
+      "forks": 82297,
+      "subscribers": 1716,
+      "commits": 106646,
+      "contributors": 3515
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 42373,
-        "title": "Feature: Add costCurrency config option to customize cost display currency",
-        "url": "https://github.com/openclaw/openclaw/issues/42373",
+        "number": 167537,
+        "title": "Issue on docs",
+        "url": "https://github.com/openclaw/openclaw/issues/167537",
         "state": "open",
-        "author": "lizhihong114",
-        "updatedAt": "2026-10-08T19:55:46Z"
+        "author": "organizacionseguridadleon-delsex",
+        "updatedAt": "2026-10-09T00:20:31Z"
       },
       {
         "kind": "issue",
-        "number": 93741,
-        "title": "Allow the `agent` RPC to offload images to `imageModel` for text-only models (opt-in)",
-        "url": "https://github.com/openclaw/openclaw/issues/93741",
+        "number": 167536,
+        "title": "[Docs Bug]: Documentation issue on /plugins/reference/a2a ",
+        "url": "https://github.com/openclaw/openclaw/issues/167536",
         "state": "open",
-        "author": "clemenshelm",
-        "updatedAt": "2026-10-08T19:55:37Z"
+        "author": "organizacionseguridadleon-delsex",
+        "updatedAt": "2026-10-09T00:20:23Z"
       },
       {
         "kind": "issue",
-        "number": 97616,
-        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
-        "url": "https://github.com/openclaw/openclaw/issues/97616",
-        "state": "open",
-        "author": "avp717",
-        "updatedAt": "2026-10-08T19:55:36Z"
+        "number": 164977,
+        "title": "[Bug]: aborted claude-cli completion turn persists raw tool-protocol text that the normal path refuses (2026.9.7)",
+        "url": "https://github.com/openclaw/openclaw/issues/164977",
+        "state": "closed",
+        "author": "ndakota79",
+        "updatedAt": "2026-10-09T00:20:20Z"
       },
       {
         "kind": "issue",
-        "number": 157062,
-        "title": "[Bug]: bundle-mcp permanently leaks a live runtime slot when MCP session cleanup is \"uncertain\" (streamable-http DELETE 404)",
-        "url": "https://github.com/openclaw/openclaw/issues/157062",
+        "number": 166594,
+        "title": "[Bug]: WhatsApp reply silently dropped when openai-completions model emits visible text before reasoning_content (textPhaseRequiresTerminal seals it as commentary)",
+        "url": "https://github.com/openclaw/openclaw/issues/166594",
         "state": "open",
-        "author": "AmesGit",
-        "updatedAt": "2026-10-08T19:55:32Z"
+        "author": "OuiOui33",
+        "updatedAt": "2026-10-09T00:18:47Z"
       },
       {
         "kind": "issue",
-        "number": 127526,
-        "title": "Logbook stop closes its store while detached capture and model work remain live",
-        "url": "https://github.com/openclaw/openclaw/issues/127526",
+        "number": 44309,
+        "title": "[Feature]: Add one-way dispatch mode for A2A handoffs without reply-back ping-pong",
+        "url": "https://github.com/openclaw/openclaw/issues/44309",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-08T19:55:32Z"
+        "author": "Kaze310",
+        "updatedAt": "2026-10-09T00:18:16Z"
       },
       {
         "kind": "issue",
-        "number": 48709,
-        "title": "Gemini 2.5 Pro: textSignature bloat + think tags + mixed text/tool causes session failures",
-        "url": "https://github.com/openclaw/openclaw/issues/48709",
+        "number": 111405,
+        "title": "Cron: agent runs that self-report ===DONE_ERR=== are recorded as ok — failureAlert never fires",
+        "url": "https://github.com/openclaw/openclaw/issues/111405",
         "state": "open",
-        "author": "jarvis-playrockets",
-        "updatedAt": "2026-10-08T19:55:29Z"
+        "author": "MrNozz",
+        "updatedAt": "2026-10-09T00:17:26Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 167429,
-        "title": "docs: propose personal identity for native local connections",
-        "url": "https://github.com/openclaw/openclaw/pull/167429",
+        "number": 159037,
+        "title": "fix(video): report unrecognized size overrides instead of dropping them silently",
+        "url": "https://github.com/openclaw/openclaw/pull/159037",
         "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-10-08T19:55:49Z"
+        "author": "YangManBOBO",
+        "updatedAt": "2026-10-09T00:21:06Z"
       },
       {
         "kind": "pr",
-        "number": 157054,
-        "title": "test: tighten QA channel and tooling regression checks",
-        "url": "https://github.com/openclaw/openclaw/pull/157054",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-10-08T19:55:33Z"
+        "number": 167463,
+        "title": "fix(ollama): models pulled after setup never appear in model pickers",
+        "url": "https://github.com/openclaw/openclaw/pull/167463",
+        "state": "closed",
+        "author": "obviyus",
+        "updatedAt": "2026-10-09T00:21:00Z"
       },
       {
         "kind": "pr",
-        "number": 167358,
-        "title": "fix: completed recovery history blocks future updates",
-        "url": "https://github.com/openclaw/openclaw/pull/167358",
+        "number": 82540,
+        "title": "fix(wechat): preserve existing accounts across hot reload",
+        "url": "https://github.com/openclaw/openclaw/pull/82540",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-10-08T19:55:31Z"
+        "author": "NewdlDewdl",
+        "updatedAt": "2026-10-09T00:21:00Z"
       },
       {
         "kind": "pr",
-        "number": 166248,
-        "title": "fix: show native Telegram portraits in Home",
-        "url": "https://github.com/openclaw/openclaw/pull/166248",
+        "number": 156636,
+        "title": "fix(agents): context budget stays at Copilot synthetic 128k fallback after discovery",
+        "url": "https://github.com/openclaw/openclaw/pull/156636",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-10-08T19:55:31Z"
+        "author": "saju01",
+        "updatedAt": "2026-10-09T00:20:50Z"
       },
       {
         "kind": "pr",
-        "number": 152205,
-        "title": "fix(agents): steer background-exec completions into busy sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/152205",
-        "state": "open",
-        "author": "azuretek",
-        "updatedAt": "2026-10-08T19:55:29Z"
+        "number": 165031,
+        "title": "fix: keep aborted Claude CLI tool markup out of chat history",
+        "url": "https://github.com/openclaw/openclaw/pull/165031",
+        "state": "closed",
+        "author": "jayzhou2309",
+        "updatedAt": "2026-10-09T00:20:24Z"
       },
       {
         "kind": "pr",
-        "number": 87247,
-        "title": "docs: clarify LanceDB dreaming settings vs vector-native plugins",
-        "url": "https://github.com/openclaw/openclaw/pull/87247",
+        "number": 167267,
+        "title": "fix(models): repair a persisted generated catalog's partial cost",
+        "url": "https://github.com/openclaw/openclaw/pull/167267",
         "state": "open",
-        "author": "airbing11",
-        "updatedAt": "2026-10-08T19:55:29Z"
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-10-09T00:20:13Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-09T00:21:18.120Z",
+  "generatedAt": "2026-10-09T07:22:11.276Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1414,18 +1414,18 @@
     },
     {
       "capturedOn": "2026-10-09",
-      "capturedAt": "2026-10-09T00:21:18.120Z",
-      "issueOpen": 6201,
-      "issueClosed": 52158,
-      "prOpen": 3360,
-      "prClosed": 103230,
-      "prMerged": 51267,
+      "capturedAt": "2026-10-09T07:22:11.276Z",
+      "issueOpen": 6054,
+      "issueClosed": 52352,
+      "prOpen": 3280,
+      "prClosed": 103406,
+      "prMerged": 51357,
       "workflowRuns": 40000,
-      "stars": 391478,
-      "forks": 82297,
-      "subscribers": 1716,
-      "commits": 106646,
-      "contributors": 3515,
+      "stars": 391503,
+      "forks": 82299,
+      "subscribers": 1715,
+      "commits": 106753,
+      "contributors": 3517,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -1993,124 +1993,115 @@
     },
     {
       "capturedOn": "2026-10-09",
-      "stars": 391478,
-      "forks": 82297,
-      "subscribers": 1716,
-      "commits": 106646,
-      "contributors": 3515
+      "stars": 391503,
+      "forks": 82299,
+      "subscribers": 1715,
+      "commits": 106753,
+      "contributors": 3517
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 167537,
-        "title": "Issue on docs",
-        "url": "https://github.com/openclaw/openclaw/issues/167537",
+        "number": 167668,
+        "title": "Control UI: session list empty & archive section missing after gateway token rotation (sessions intact per API)",
+        "url": "https://github.com/openclaw/openclaw/issues/167668",
         "state": "open",
-        "author": "organizacionseguridadleon-delsex",
-        "updatedAt": "2026-10-09T00:20:31Z"
+        "author": "LoveCraftCCC",
+        "updatedAt": "2026-10-09T07:21:27Z"
       },
       {
         "kind": "issue",
-        "number": 167536,
-        "title": "[Docs Bug]: Documentation issue on /plugins/reference/a2a ",
-        "url": "https://github.com/openclaw/openclaw/issues/167536",
+        "number": 167678,
+        "title": "[Feature]: Codex harness: start a fresh native thread without the continuity projection (plugin or turn opt-out)",
+        "url": "https://github.com/openclaw/openclaw/issues/167678",
         "state": "open",
-        "author": "organizacionseguridadleon-delsex",
-        "updatedAt": "2026-10-09T00:20:23Z"
+        "author": "Oldrich333",
+        "updatedAt": "2026-10-09T07:20:23Z"
       },
       {
         "kind": "issue",
-        "number": 164977,
-        "title": "[Bug]: aborted claude-cli completion turn persists raw tool-protocol text that the normal path refuses (2026.9.7)",
-        "url": "https://github.com/openclaw/openclaw/issues/164977",
+        "number": 167661,
+        "title": "[Bug]: openclaw update failed during package-swap: \"Package publication recovery permissions are unsafe\" (2026.9.8 -> 2026.9.9)",
+        "url": "https://github.com/openclaw/openclaw/issues/167661",
+        "state": "open",
+        "author": "bondskin",
+        "updatedAt": "2026-10-09T07:19:49Z"
+      },
+      {
+        "kind": "issue",
+        "number": 167675,
+        "title": "[Bug]: macOS status stays silent when isolated HOME selects an unrelated native service",
+        "url": "https://github.com/openclaw/openclaw/issues/167675",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-10-09T07:19:02Z"
+      },
+      {
+        "kind": "issue",
+        "number": 166377,
+        "title": "[Bug]: Package recovery record stuck in `prepared` — `repair` refuses (publication object changed) and `retire` refuses (cannot retire `prepared`)",
+        "url": "https://github.com/openclaw/openclaw/issues/166377",
         "state": "closed",
-        "author": "ndakota79",
-        "updatedAt": "2026-10-09T00:20:20Z"
-      },
-      {
-        "kind": "issue",
-        "number": 166594,
-        "title": "[Bug]: WhatsApp reply silently dropped when openai-completions model emits visible text before reasoning_content (textPhaseRequiresTerminal seals it as commentary)",
-        "url": "https://github.com/openclaw/openclaw/issues/166594",
-        "state": "open",
-        "author": "OuiOui33",
-        "updatedAt": "2026-10-09T00:18:47Z"
-      },
-      {
-        "kind": "issue",
-        "number": 44309,
-        "title": "[Feature]: Add one-way dispatch mode for A2A handoffs without reply-back ping-pong",
-        "url": "https://github.com/openclaw/openclaw/issues/44309",
-        "state": "open",
-        "author": "Kaze310",
-        "updatedAt": "2026-10-09T00:18:16Z"
-      },
-      {
-        "kind": "issue",
-        "number": 111405,
-        "title": "Cron: agent runs that self-report ===DONE_ERR=== are recorded as ok — failureAlert never fires",
-        "url": "https://github.com/openclaw/openclaw/issues/111405",
-        "state": "open",
-        "author": "MrNozz",
-        "updatedAt": "2026-10-09T00:17:26Z"
+        "author": "cbhawthorne84",
+        "updatedAt": "2026-10-09T07:18:55Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 159037,
-        "title": "fix(video): report unrecognized size overrides instead of dropping them silently",
-        "url": "https://github.com/openclaw/openclaw/pull/159037",
+        "number": 167672,
+        "title": "fix: keep subagent wait counts pending through overlapping reads",
+        "url": "https://github.com/openclaw/openclaw/pull/167672",
         "state": "open",
-        "author": "YangManBOBO",
-        "updatedAt": "2026-10-09T00:21:06Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-10-09T07:22:01Z"
       },
       {
         "kind": "pr",
-        "number": 167463,
-        "title": "fix(ollama): models pulled after setup never appear in model pickers",
-        "url": "https://github.com/openclaw/openclaw/pull/167463",
-        "state": "closed",
-        "author": "obviyus",
-        "updatedAt": "2026-10-09T00:21:00Z"
-      },
-      {
-        "kind": "pr",
-        "number": 82540,
-        "title": "fix(wechat): preserve existing accounts across hot reload",
-        "url": "https://github.com/openclaw/openclaw/pull/82540",
+        "number": 137883,
+        "title": "fix(memory-core): split embedding batches on provider batch size limit errors",
+        "url": "https://github.com/openclaw/openclaw/pull/137883",
         "state": "open",
-        "author": "NewdlDewdl",
-        "updatedAt": "2026-10-09T00:21:00Z"
+        "author": "loulanyue",
+        "updatedAt": "2026-10-09T07:21:52Z"
       },
       {
         "kind": "pr",
-        "number": 156636,
-        "title": "fix(agents): context budget stays at Copilot synthetic 128k fallback after discovery",
-        "url": "https://github.com/openclaw/openclaw/pull/156636",
+        "number": 126404,
+        "title": "fix(agent): retry transient settled finalization",
+        "url": "https://github.com/openclaw/openclaw/pull/126404",
         "state": "open",
-        "author": "saju01",
-        "updatedAt": "2026-10-09T00:20:50Z"
+        "author": "MagMueller",
+        "updatedAt": "2026-10-09T07:21:46Z"
       },
       {
         "kind": "pr",
-        "number": 165031,
-        "title": "fix: keep aborted Claude CLI tool markup out of chat history",
-        "url": "https://github.com/openclaw/openclaw/pull/165031",
-        "state": "closed",
-        "author": "jayzhou2309",
-        "updatedAt": "2026-10-09T00:20:24Z"
-      },
-      {
-        "kind": "pr",
-        "number": 167267,
-        "title": "fix(models): repair a persisted generated catalog's partial cost",
-        "url": "https://github.com/openclaw/openclaw/pull/167267",
+        "number": 167680,
+        "title": "test(agents,ui,plugins): remove low-value tests (batch d029)",
+        "url": "https://github.com/openclaw/openclaw/pull/167680",
         "state": "open",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-10-09T00:20:13Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-09T07:21:30Z"
+      },
+      {
+        "kind": "pr",
+        "number": 106110,
+        "title": "feat(goals): continue active session goals while idle",
+        "url": "https://github.com/openclaw/openclaw/pull/106110",
+        "state": "open",
+        "author": "100yenadmin",
+        "updatedAt": "2026-10-09T07:21:28Z"
+      },
+      {
+        "kind": "pr",
+        "number": 167547,
+        "title": "perf(agents): reduce main-thread SQLite during retirement",
+        "url": "https://github.com/openclaw/openclaw/pull/167547",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-09T07:21:27Z"
       }
     ]
   }

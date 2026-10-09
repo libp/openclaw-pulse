@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-09T07:22:11.276Z",
+  "generatedAt": "2026-10-09T15:16:42.655Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1414,17 +1414,17 @@
     },
     {
       "capturedOn": "2026-10-09",
-      "capturedAt": "2026-10-09T07:22:11.276Z",
-      "issueOpen": 6054,
-      "issueClosed": 52352,
-      "prOpen": 3280,
-      "prClosed": 103406,
-      "prMerged": 51357,
+      "capturedAt": "2026-10-09T15:16:42.655Z",
+      "issueOpen": 6071,
+      "issueClosed": 52396,
+      "prOpen": 3297,
+      "prClosed": 103489,
+      "prMerged": 51427,
       "workflowRuns": 40000,
-      "stars": 391503,
-      "forks": 82299,
-      "subscribers": 1715,
-      "commits": 106753,
+      "stars": 391540,
+      "forks": 82308,
+      "subscribers": 1716,
+      "commits": 106859,
       "contributors": 3517,
       "source": "github-actions",
       "approximateDate": false
@@ -1993,10 +1993,10 @@
     },
     {
       "capturedOn": "2026-10-09",
-      "stars": 391503,
-      "forks": 82299,
-      "subscribers": 1715,
-      "commits": 106753,
+      "stars": 391540,
+      "forks": 82308,
+      "subscribers": 1716,
+      "commits": 106859,
       "contributors": 3517
     }
   ],
@@ -2004,104 +2004,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 167668,
-        "title": "Control UI: session list empty & archive section missing after gateway token rotation (sessions intact per API)",
-        "url": "https://github.com/openclaw/openclaw/issues/167668",
+        "number": 167840,
+        "title": "Update failure: doctor-failed (2026.9.4)",
+        "url": "https://github.com/openclaw/openclaw/issues/167840",
         "state": "open",
-        "author": "LoveCraftCCC",
-        "updatedAt": "2026-10-09T07:21:27Z"
+        "author": "macsiah",
+        "updatedAt": "2026-10-09T15:14:34Z"
       },
       {
         "kind": "issue",
-        "number": 167678,
-        "title": "[Feature]: Codex harness: start a fresh native thread without the continuity projection (plugin or turn opt-out)",
-        "url": "https://github.com/openclaw/openclaw/issues/167678",
+        "number": 13634,
+        "title": "Feature: Slack workspace file injection + global systemPrompt (parity with Telegram)",
+        "url": "https://github.com/openclaw/openclaw/issues/13634",
         "state": "open",
-        "author": "Oldrich333",
-        "updatedAt": "2026-10-09T07:20:23Z"
+        "author": "visshehi",
+        "updatedAt": "2026-10-09T15:12:43Z"
       },
       {
         "kind": "issue",
-        "number": 167661,
-        "title": "[Bug]: openclaw update failed during package-swap: \"Package publication recovery permissions are unsafe\" (2026.9.8 -> 2026.9.9)",
-        "url": "https://github.com/openclaw/openclaw/issues/167661",
+        "number": 13615,
+        "title": "Add rate limiting and throttling for external API calls",
+        "url": "https://github.com/openclaw/openclaw/issues/13615",
         "state": "open",
-        "author": "bondskin",
-        "updatedAt": "2026-10-09T07:19:49Z"
+        "author": "trevorgordon981",
+        "updatedAt": "2026-10-09T15:12:20Z"
       },
       {
         "kind": "issue",
-        "number": 167675,
-        "title": "[Bug]: macOS status stays silent when isolated HOME selects an unrelated native service",
-        "url": "https://github.com/openclaw/openclaw/issues/167675",
+        "number": 97616,
+        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
+        "url": "https://github.com/openclaw/openclaw/issues/97616",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-10-09T07:19:02Z"
+        "author": "avp717",
+        "updatedAt": "2026-10-09T15:12:14Z"
       },
       {
         "kind": "issue",
-        "number": 166377,
-        "title": "[Bug]: Package recovery record stuck in `prepared` — `repair` refuses (publication object changed) and `retire` refuses (cannot retire `prepared`)",
-        "url": "https://github.com/openclaw/openclaw/issues/166377",
-        "state": "closed",
-        "author": "cbhawthorne84",
-        "updatedAt": "2026-10-09T07:18:55Z"
+        "number": 167835,
+        "title": "[Windows] gateway.cmd hardcodes the pnpm version path, so any package update leaves the Scheduled Task unstartable",
+        "url": "https://github.com/openclaw/openclaw/issues/167835",
+        "state": "open",
+        "author": "SMF12138",
+        "updatedAt": "2026-10-09T15:12:06Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 167672,
-        "title": "fix: keep subagent wait counts pending through overlapping reads",
-        "url": "https://github.com/openclaw/openclaw/pull/167672",
+        "number": 167842,
+        "title": "fix(cron): reject empty Code Mode fallback tool catalogs",
+        "url": "https://github.com/openclaw/openclaw/pull/167842",
         "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-10-09T07:22:01Z"
+        "author": "DasX",
+        "updatedAt": "2026-10-09T15:16:29Z"
       },
       {
         "kind": "pr",
-        "number": 137883,
-        "title": "fix(memory-core): split embedding batches on provider batch size limit errors",
-        "url": "https://github.com/openclaw/openclaw/pull/137883",
+        "number": 167843,
+        "title": "fix(skills): detect inline child_process exec in security scanner",
+        "url": "https://github.com/openclaw/openclaw/pull/167843",
         "state": "open",
-        "author": "loulanyue",
-        "updatedAt": "2026-10-09T07:21:52Z"
+        "author": "YangManBOBO",
+        "updatedAt": "2026-10-09T15:16:27Z"
       },
       {
         "kind": "pr",
-        "number": 126404,
-        "title": "fix(agent): retry transient settled finalization",
-        "url": "https://github.com/openclaw/openclaw/pull/126404",
+        "number": 158013,
+        "title": "fix(ui): Skill Workshop misgroups yesterday's proposals as Earlier across DST transitions",
+        "url": "https://github.com/openclaw/openclaw/pull/158013",
         "state": "open",
-        "author": "MagMueller",
-        "updatedAt": "2026-10-09T07:21:46Z"
+        "author": "kvnloo",
+        "updatedAt": "2026-10-09T15:16:22Z"
       },
       {
         "kind": "pr",
-        "number": 167680,
-        "title": "test(agents,ui,plugins): remove low-value tests (batch d029)",
-        "url": "https://github.com/openclaw/openclaw/pull/167680",
+        "number": 166321,
+        "title": "fix(ios): task list shows raw progress tags instead of bars",
+        "url": "https://github.com/openclaw/openclaw/pull/166321",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-09T07:21:30Z"
+        "author": "Marvinthebored",
+        "updatedAt": "2026-10-09T15:15:56Z"
       },
       {
         "kind": "pr",
-        "number": 106110,
-        "title": "feat(goals): continue active session goals while idle",
-        "url": "https://github.com/openclaw/openclaw/pull/106110",
+        "number": 167841,
+        "title": "docs: clarify session run status before replacing work",
+        "url": "https://github.com/openclaw/openclaw/pull/167841",
         "state": "open",
-        "author": "100yenadmin",
-        "updatedAt": "2026-10-09T07:21:28Z"
+        "author": "ZengWen-DT",
+        "updatedAt": "2026-10-09T15:15:42Z"
       },
       {
         "kind": "pr",
-        "number": 167547,
-        "title": "perf(agents): reduce main-thread SQLite during retirement",
-        "url": "https://github.com/openclaw/openclaw/pull/167547",
+        "number": 141309,
+        "title": "fix(infra): use a Git-readable null path for isolated GIT_CONFIG on Windows",
+        "url": "https://github.com/openclaw/openclaw/pull/141309",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-09T07:21:27Z"
+        "author": "hugenshen",
+        "updatedAt": "2026-10-09T15:15:34Z"
       }
     ]
   }

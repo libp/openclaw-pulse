@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-10T17:50:43.538Z",
+  "generatedAt": "2026-10-10T21:41:30.082Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1431,18 +1431,18 @@
     },
     {
       "capturedOn": "2026-10-10",
-      "capturedAt": "2026-10-10T17:50:43.538Z",
-      "issueOpen": 6113,
-      "issueClosed": 52536,
-      "prOpen": 3324,
-      "prClosed": 103981,
-      "prMerged": 51844,
+      "capturedAt": "2026-10-10T21:41:30.082Z",
+      "issueOpen": 6108,
+      "issueClosed": 52561,
+      "prOpen": 3299,
+      "prClosed": 104070,
+      "prMerged": 51915,
       "workflowRuns": 40000,
-      "stars": 391588,
-      "forks": 82318,
+      "stars": 391605,
+      "forks": 82325,
       "subscribers": 1716,
-      "commits": 107363,
-      "contributors": 3522,
+      "commits": 107456,
+      "contributors": 3527,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2018,88 +2018,88 @@
     },
     {
       "capturedOn": "2026-10-10",
-      "stars": 391588,
-      "forks": 82318,
+      "stars": 391605,
+      "forks": 82325,
       "subscribers": 1716,
-      "commits": 107363,
-      "contributors": 3522
+      "commits": 107456,
+      "contributors": 3527
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 97616,
-        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
-        "url": "https://github.com/openclaw/openclaw/issues/97616",
+        "number": 168662,
+        "title": "[Feature]: Large-state 2026.9.4 installation cannot upgrade: candidate validation killed near 299 seconds",
+        "url": "https://github.com/openclaw/openclaw/issues/168662",
         "state": "open",
-        "author": "avp717",
-        "updatedAt": "2026-10-10T17:50:02Z"
+        "author": "jt7852chsg-ux",
+        "updatedAt": "2026-10-10T21:40:24Z"
       },
       {
         "kind": "issue",
-        "number": 48709,
-        "title": "Gemini 2.5 Pro: textSignature bloat + think tags + mixed text/tool causes session failures",
-        "url": "https://github.com/openclaw/openclaw/issues/48709",
+        "number": 160959,
+        "title": "[Bug]: Gateway blocks for minutes while capturing large external plugins (2026.9.6 regression)",
+        "url": "https://github.com/openclaw/openclaw/issues/160959",
         "state": "open",
-        "author": "jarvis-playrockets",
-        "updatedAt": "2026-10-10T17:49:18Z"
+        "author": "obviyus",
+        "updatedAt": "2026-10-10T21:38:51Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 168417,
-        "title": "fix: keep agent and config database writes with the Gateway owner",
-        "url": "https://github.com/openclaw/openclaw/pull/168417",
+        "number": 168635,
+        "title": "improve: reuse plugin state observations during turns",
+        "url": "https://github.com/openclaw/openclaw/pull/168635",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-10T17:50:34Z"
+        "updatedAt": "2026-10-10T21:41:23Z"
       },
       {
         "kind": "pr",
-        "number": 168401,
-        "title": "feat(agents): compact ChatGPT sign-in sessions server-side (remote compaction V2)",
-        "url": "https://github.com/openclaw/openclaw/pull/168401",
+        "number": 163521,
+        "title": "fix(gateway): keep routed CLI prompts off the owner's side in chat history",
+        "url": "https://github.com/openclaw/openclaw/pull/163521",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-10-10T17:50:34Z"
+        "author": "rogeriochaves",
+        "updatedAt": "2026-10-10T21:41:12Z"
       },
       {
         "kind": "pr",
-        "number": 168210,
-        "title": "fix(update): ride out state database contention instead of failing the update",
-        "url": "https://github.com/openclaw/openclaw/pull/168210",
+        "number": 139260,
+        "title": "fix(codex): retain complete answers while previews are pending",
+        "url": "https://github.com/openclaw/openclaw/pull/139260",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-10T17:50:31Z"
+        "author": "NianJiuZst",
+        "updatedAt": "2026-10-10T21:41:12Z"
       },
       {
         "kind": "pr",
-        "number": 167996,
-        "title": "feat(skills): Learned notice row with one-press Undo",
-        "url": "https://github.com/openclaw/openclaw/pull/167996",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-10-10T17:50:09Z"
-      },
-      {
-        "kind": "pr",
-        "number": 168410,
-        "title": "fix(agents): re-admit runs on the configured generation after a catalog publication",
-        "url": "https://github.com/openclaw/openclaw/pull/168410",
+        "number": 168280,
+        "title": "fix(release): separate publication inventory from upgrade admission",
+        "url": "https://github.com/openclaw/openclaw/pull/168280",
         "state": "open",
         "author": "RomneyDa",
-        "updatedAt": "2026-10-10T17:50:06Z"
+        "updatedAt": "2026-10-10T21:41:05Z"
       },
       {
         "kind": "pr",
-        "number": 162798,
-        "title": "fix(onboarding): OpenRouter API-key setup rejects a valid key with a route mismatch",
-        "url": "https://github.com/openclaw/openclaw/pull/162798",
+        "number": 168606,
+        "title": "refactor(workboard): render the browser UI with Solid 2",
+        "url": "https://github.com/openclaw/openclaw/pull/168606",
         "state": "open",
-        "author": "chandraveshchaudhari",
-        "updatedAt": "2026-10-10T17:50:02Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-10T21:41:04Z"
+      },
+      {
+        "kind": "pr",
+        "number": 168596,
+        "title": "fix: recover native commands from archived sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/168596",
+        "state": "open",
+        "author": "PollyBot13",
+        "updatedAt": "2026-10-10T21:40:58Z"
       }
     ]
   }

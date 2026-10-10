@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-10T05:48:41.209Z",
+  "generatedAt": "2026-10-10T12:28:09.958Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1431,18 +1431,18 @@
     },
     {
       "capturedOn": "2026-10-10",
-      "capturedAt": "2026-10-10T05:48:41.209Z",
-      "issueOpen": 6097,
-      "issueClosed": 52466,
-      "prOpen": 3310,
-      "prClosed": 103755,
-      "prMerged": 51656,
+      "capturedAt": "2026-10-10T12:28:09.958Z",
+      "issueOpen": 6102,
+      "issueClosed": 52507,
+      "prOpen": 3311,
+      "prClosed": 103899,
+      "prMerged": 51783,
       "workflowRuns": 40000,
-      "stars": 391554,
-      "forks": 82295,
+      "stars": 391578,
+      "forks": 82311,
       "subscribers": 1716,
-      "commits": 107122,
-      "contributors": 3519,
+      "commits": 107276,
+      "contributors": 3521,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2018,88 +2018,88 @@
     },
     {
       "capturedOn": "2026-10-10",
-      "stars": 391554,
-      "forks": 82295,
+      "stars": 391578,
+      "forks": 82311,
       "subscribers": 1716,
-      "commits": 107122,
-      "contributors": 3519
+      "commits": 107276,
+      "contributors": 3521
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 168251,
-        "title": "[Bug] App Update button fails with managed-service-preflight when Gateway runs as launchd service with custom npm plugins",
-        "url": "https://github.com/openclaw/openclaw/issues/168251",
+        "number": 168443,
+        "title": "[Bug]: strict overflow checks miss the completions builder's own \"Context window exceeded\" refusal",
+        "url": "https://github.com/openclaw/openclaw/issues/168443",
         "state": "open",
-        "author": "jiumkk",
-        "updatedAt": "2026-10-10T05:47:43Z"
+        "author": "amittell",
+        "updatedAt": "2026-10-10T12:27:37Z"
       },
       {
         "kind": "issue",
-        "number": 168231,
-        "title": "[Bug]: Bounded Codex turns do not rotate auth profiles after usage-limit failure",
-        "url": "https://github.com/openclaw/openclaw/issues/168231",
+        "number": 168440,
+        "title": "macOS app appears under \"Connected without pairing\" in Devices",
+        "url": "https://github.com/openclaw/openclaw/issues/168440",
         "state": "open",
-        "author": "clawSean",
-        "updatedAt": "2026-10-10T05:47:09Z"
+        "author": "edosulai",
+        "updatedAt": "2026-10-10T12:27:22Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 162316,
-        "title": "feat: choose when sessions can send and receive messages",
-        "url": "https://github.com/openclaw/openclaw/pull/162316",
+        "number": 168418,
+        "title": "fix(ui): preserve CSS audit coverage for JSX",
+        "url": "https://github.com/openclaw/openclaw/pull/168418",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-10-10T05:48:24Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-10T12:28:01Z"
       },
       {
         "kind": "pr",
-        "number": 168241,
-        "title": "fix(ci): main dead-code and env-name gates fail and block beta release validation",
-        "url": "https://github.com/openclaw/openclaw/pull/168241",
+        "number": 119160,
+        "title": "fix(bedrock): honor Opus 5 maxTokens when reasoning is off",
+        "url": "https://github.com/openclaw/openclaw/pull/119160",
+        "state": "open",
+        "author": "clawsweeper[bot]",
+        "updatedAt": "2026-10-10T12:27:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 162505,
+        "title": "fix(heartbeat): keep flood guard correct across backward clock steps",
+        "url": "https://github.com/openclaw/openclaw/pull/162505",
+        "state": "open",
+        "author": "kvnloo",
+        "updatedAt": "2026-10-10T12:27:55Z"
+      },
+      {
+        "kind": "pr",
+        "number": 168442,
+        "title": "refactor(agents): prepare incognito subagent lifetimes",
+        "url": "https://github.com/openclaw/openclaw/pull/168442",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-10T12:27:54Z"
+      },
+      {
+        "kind": "pr",
+        "number": 168441,
+        "title": "fix: macOS app listed as connected without pairing in Devices",
+        "url": "https://github.com/openclaw/openclaw/pull/168441",
+        "state": "open",
+        "author": "edosulai",
+        "updatedAt": "2026-10-10T12:27:50Z"
+      },
+      {
+        "kind": "pr",
+        "number": 168399,
+        "title": "feat: preserve native question custody and recovery across Gateway restarts",
+        "url": "https://github.com/openclaw/openclaw/pull/168399",
         "state": "open",
         "author": "RomneyDa",
-        "updatedAt": "2026-10-10T05:48:22Z"
-      },
-      {
-        "kind": "pr",
-        "number": 168132,
-        "title": "fix: CLI failure narration loses authored command titles",
-        "url": "https://github.com/openclaw/openclaw/pull/168132",
-        "state": "open",
-        "author": "ly85206559",
-        "updatedAt": "2026-10-10T05:48:34Z"
-      },
-      {
-        "kind": "pr",
-        "number": 168250,
-        "title": "fix: live chat output jumps above worker updates",
-        "url": "https://github.com/openclaw/openclaw/pull/168250",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-10-10T05:48:16Z"
-      },
-      {
-        "kind": "pr",
-        "number": 168244,
-        "title": "fix(agents): session-less CLI backends forget the conversation until the first compaction",
-        "url": "https://github.com/openclaw/openclaw/pull/168244",
-        "state": "open",
-        "author": "masatohoshino",
-        "updatedAt": "2026-10-10T05:48:12Z"
-      },
-      {
-        "kind": "pr",
-        "number": 154721,
-        "title": "fix(gateway): report real token usage from the OpenAI-compatible embeddings endpoint",
-        "url": "https://github.com/openclaw/openclaw/pull/154721",
-        "state": "closed",
-        "author": "xialonglee",
-        "updatedAt": "2026-10-10T05:48:11Z"
+        "updatedAt": "2026-10-10T12:27:43Z"
       }
     ]
   }

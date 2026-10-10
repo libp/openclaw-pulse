@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-10T12:28:09.958Z",
+  "generatedAt": "2026-10-10T17:50:43.538Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1431,18 +1431,18 @@
     },
     {
       "capturedOn": "2026-10-10",
-      "capturedAt": "2026-10-10T12:28:09.958Z",
-      "issueOpen": 6102,
-      "issueClosed": 52507,
-      "prOpen": 3311,
-      "prClosed": 103899,
-      "prMerged": 51783,
+      "capturedAt": "2026-10-10T17:50:43.538Z",
+      "issueOpen": 6113,
+      "issueClosed": 52536,
+      "prOpen": 3324,
+      "prClosed": 103981,
+      "prMerged": 51844,
       "workflowRuns": 40000,
-      "stars": 391578,
-      "forks": 82311,
+      "stars": 391588,
+      "forks": 82318,
       "subscribers": 1716,
-      "commits": 107276,
-      "contributors": 3521,
+      "commits": 107363,
+      "contributors": 3522,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2018,88 +2018,88 @@
     },
     {
       "capturedOn": "2026-10-10",
-      "stars": 391578,
-      "forks": 82311,
+      "stars": 391588,
+      "forks": 82318,
       "subscribers": 1716,
-      "commits": 107276,
-      "contributors": 3521
+      "commits": 107363,
+      "contributors": 3522
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 168443,
-        "title": "[Bug]: strict overflow checks miss the completions builder's own \"Context window exceeded\" refusal",
-        "url": "https://github.com/openclaw/openclaw/issues/168443",
+        "number": 97616,
+        "title": "[Bug]: OpenClaw leaks unreaped hook/tool child processes, causing zombie accumulation and runtime degradation",
+        "url": "https://github.com/openclaw/openclaw/issues/97616",
         "state": "open",
-        "author": "amittell",
-        "updatedAt": "2026-10-10T12:27:37Z"
+        "author": "avp717",
+        "updatedAt": "2026-10-10T17:50:02Z"
       },
       {
         "kind": "issue",
-        "number": 168440,
-        "title": "macOS app appears under \"Connected without pairing\" in Devices",
-        "url": "https://github.com/openclaw/openclaw/issues/168440",
+        "number": 48709,
+        "title": "Gemini 2.5 Pro: textSignature bloat + think tags + mixed text/tool causes session failures",
+        "url": "https://github.com/openclaw/openclaw/issues/48709",
         "state": "open",
-        "author": "edosulai",
-        "updatedAt": "2026-10-10T12:27:22Z"
+        "author": "jarvis-playrockets",
+        "updatedAt": "2026-10-10T17:49:18Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 168418,
-        "title": "fix(ui): preserve CSS audit coverage for JSX",
-        "url": "https://github.com/openclaw/openclaw/pull/168418",
+        "number": 168417,
+        "title": "fix: keep agent and config database writes with the Gateway owner",
+        "url": "https://github.com/openclaw/openclaw/pull/168417",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-10T12:28:01Z"
+        "updatedAt": "2026-10-10T17:50:34Z"
       },
       {
         "kind": "pr",
-        "number": 119160,
-        "title": "fix(bedrock): honor Opus 5 maxTokens when reasoning is off",
-        "url": "https://github.com/openclaw/openclaw/pull/119160",
+        "number": 168401,
+        "title": "feat(agents): compact ChatGPT sign-in sessions server-side (remote compaction V2)",
+        "url": "https://github.com/openclaw/openclaw/pull/168401",
         "state": "open",
-        "author": "clawsweeper[bot]",
-        "updatedAt": "2026-10-10T12:27:59Z"
+        "author": "obviyus",
+        "updatedAt": "2026-10-10T17:50:34Z"
       },
       {
         "kind": "pr",
-        "number": 162505,
-        "title": "fix(heartbeat): keep flood guard correct across backward clock steps",
-        "url": "https://github.com/openclaw/openclaw/pull/162505",
-        "state": "open",
-        "author": "kvnloo",
-        "updatedAt": "2026-10-10T12:27:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 168442,
-        "title": "refactor(agents): prepare incognito subagent lifetimes",
-        "url": "https://github.com/openclaw/openclaw/pull/168442",
+        "number": 168210,
+        "title": "fix(update): ride out state database contention instead of failing the update",
+        "url": "https://github.com/openclaw/openclaw/pull/168210",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-10T12:27:54Z"
+        "updatedAt": "2026-10-10T17:50:31Z"
       },
       {
         "kind": "pr",
-        "number": 168441,
-        "title": "fix: macOS app listed as connected without pairing in Devices",
-        "url": "https://github.com/openclaw/openclaw/pull/168441",
+        "number": 167996,
+        "title": "feat(skills): Learned notice row with one-press Undo",
+        "url": "https://github.com/openclaw/openclaw/pull/167996",
         "state": "open",
-        "author": "edosulai",
-        "updatedAt": "2026-10-10T12:27:50Z"
+        "author": "obviyus",
+        "updatedAt": "2026-10-10T17:50:09Z"
       },
       {
         "kind": "pr",
-        "number": 168399,
-        "title": "feat: preserve native question custody and recovery across Gateway restarts",
-        "url": "https://github.com/openclaw/openclaw/pull/168399",
+        "number": 168410,
+        "title": "fix(agents): re-admit runs on the configured generation after a catalog publication",
+        "url": "https://github.com/openclaw/openclaw/pull/168410",
         "state": "open",
         "author": "RomneyDa",
-        "updatedAt": "2026-10-10T12:27:43Z"
+        "updatedAt": "2026-10-10T17:50:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 162798,
+        "title": "fix(onboarding): OpenRouter API-key setup rejects a valid key with a route mismatch",
+        "url": "https://github.com/openclaw/openclaw/pull/162798",
+        "state": "open",
+        "author": "chandraveshchaudhari",
+        "updatedAt": "2026-10-10T17:50:02Z"
       }
     ]
   }

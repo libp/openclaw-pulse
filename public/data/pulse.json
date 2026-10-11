@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-10T21:41:30.082Z",
+  "generatedAt": "2026-10-11T07:10:22.198Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1445,6 +1445,23 @@
       "contributors": 3527,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-11",
+      "capturedAt": "2026-10-11T07:10:22.198Z",
+      "issueOpen": 6117,
+      "issueClosed": 52602,
+      "prOpen": 3349,
+      "prClosed": 104255,
+      "prMerged": 52066,
+      "workflowRuns": 40000,
+      "stars": 391657,
+      "forks": 82338,
+      "subscribers": 1717,
+      "commits": 107669,
+      "contributors": 3528,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2023,83 +2040,91 @@
       "subscribers": 1716,
       "commits": 107456,
       "contributors": 3527
+    },
+    {
+      "capturedOn": "2026-10-11",
+      "stars": 391657,
+      "forks": 82338,
+      "subscribers": 1717,
+      "commits": 107669,
+      "contributors": 3528
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 168662,
-        "title": "[Feature]: Large-state 2026.9.4 installation cannot upgrade: candidate validation killed near 299 seconds",
-        "url": "https://github.com/openclaw/openclaw/issues/168662",
+        "number": 168959,
+        "title": "[Bug]: doctor --fix deletes a sidecar-backed OAuth profile when the legacy auth store is unreadable",
+        "url": "https://github.com/openclaw/openclaw/issues/168959",
         "state": "open",
-        "author": "jt7852chsg-ux",
-        "updatedAt": "2026-10-10T21:40:24Z"
+        "author": "Yolo521-bot",
+        "updatedAt": "2026-10-11T07:07:53Z"
       },
       {
         "kind": "issue",
-        "number": 160959,
-        "title": "[Bug]: Gateway blocks for minutes while capturing large external plugins (2026.9.6 regression)",
-        "url": "https://github.com/openclaw/openclaw/issues/160959",
+        "number": 168963,
+        "title": "Update failure: updater-runtime-retention (2026.9.9)",
+        "url": "https://github.com/openclaw/openclaw/issues/168963",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-10-10T21:38:51Z"
+        "author": "samaumos-png",
+        "updatedAt": "2026-10-11T07:07:43Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 168635,
-        "title": "improve: reuse plugin state observations during turns",
-        "url": "https://github.com/openclaw/openclaw/pull/168635",
+        "number": 168964,
+        "title": "test(workers): reuse launcher readers across cases",
+        "url": "https://github.com/openclaw/openclaw/pull/168964",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-10T21:41:23Z"
+        "updatedAt": "2026-10-11T07:10:07Z"
       },
       {
         "kind": "pr",
-        "number": 163521,
-        "title": "fix(gateway): keep routed CLI prompts off the owner's side in chat history",
-        "url": "https://github.com/openclaw/openclaw/pull/163521",
+        "number": 163405,
+        "title": "feat(sandbox): add lightweight local SRT backend",
+        "url": "https://github.com/openclaw/openclaw/pull/163405",
         "state": "open",
-        "author": "rogeriochaves",
-        "updatedAt": "2026-10-10T21:41:12Z"
+        "author": "Jerry-Xin",
+        "updatedAt": "2026-10-11T07:10:02Z"
       },
       {
         "kind": "pr",
-        "number": 139260,
-        "title": "fix(codex): retain complete answers while previews are pending",
-        "url": "https://github.com/openclaw/openclaw/pull/139260",
+        "number": 156636,
+        "title": "fix(copilot): replace synthetic 128K estimates with accepted context limits",
+        "url": "https://github.com/openclaw/openclaw/pull/156636",
         "state": "open",
-        "author": "NianJiuZst",
-        "updatedAt": "2026-10-10T21:41:12Z"
+        "author": "saju01",
+        "updatedAt": "2026-10-11T07:10:02Z"
       },
       {
         "kind": "pr",
-        "number": 168280,
-        "title": "fix(release): separate publication inventory from upgrade admission",
-        "url": "https://github.com/openclaw/openclaw/pull/168280",
+        "number": 168957,
+        "title": "fix: OAuth catalog refresh fails with historical agent stores",
+        "url": "https://github.com/openclaw/openclaw/pull/168957",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-10-10T21:41:05Z"
+        "author": "obviyus",
+        "updatedAt": "2026-10-11T07:09:49Z"
       },
       {
         "kind": "pr",
-        "number": 168606,
-        "title": "refactor(workboard): render the browser UI with Solid 2",
-        "url": "https://github.com/openclaw/openclaw/pull/168606",
+        "number": 168941,
+        "title": "fix(ui): recover updated chats through the serving document",
+        "url": "https://github.com/openclaw/openclaw/pull/168941",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-10T21:41:04Z"
+        "updatedAt": "2026-10-11T07:09:45Z"
       },
       {
         "kind": "pr",
-        "number": 168596,
-        "title": "fix: recover native commands from archived sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/168596",
+        "number": 168790,
+        "title": "refactor(ui): migrate shared viewers to Solid",
+        "url": "https://github.com/openclaw/openclaw/pull/168790",
         "state": "open",
-        "author": "PollyBot13",
-        "updatedAt": "2026-10-10T21:40:58Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-11T07:09:03Z"
       }
     ]
   }

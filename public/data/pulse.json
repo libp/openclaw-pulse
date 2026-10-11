@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-11T07:10:22.198Z",
+  "generatedAt": "2026-10-11T22:52:39.227Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1448,18 +1448,18 @@
     },
     {
       "capturedOn": "2026-10-11",
-      "capturedAt": "2026-10-11T07:10:22.198Z",
-      "issueOpen": 6117,
-      "issueClosed": 52602,
-      "prOpen": 3349,
-      "prClosed": 104255,
-      "prMerged": 52066,
+      "capturedAt": "2026-10-11T22:52:39.227Z",
+      "issueOpen": 6179,
+      "issueClosed": 52667,
+      "prOpen": 3356,
+      "prClosed": 104586,
+      "prMerged": 52358,
       "workflowRuns": 40000,
-      "stars": 391657,
-      "forks": 82338,
+      "stars": 391696,
+      "forks": 82363,
       "subscribers": 1717,
-      "commits": 107669,
-      "contributors": 3528,
+      "commits": 108071,
+      "contributors": 3539,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2043,88 +2043,79 @@
     },
     {
       "capturedOn": "2026-10-11",
-      "stars": 391657,
-      "forks": 82338,
+      "stars": 391696,
+      "forks": 82363,
       "subscribers": 1717,
-      "commits": 107669,
-      "contributors": 3528
+      "commits": 108071,
+      "contributors": 3539
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 168959,
-        "title": "[Bug]: doctor --fix deletes a sidecar-backed OAuth profile when the legacy auth store is unreadable",
-        "url": "https://github.com/openclaw/openclaw/issues/168959",
+        "number": 169428,
+        "title": "Usage footer template: expose the auth profile (model.auth_label) that /status already shows",
+        "url": "https://github.com/openclaw/openclaw/issues/169428",
         "state": "open",
-        "author": "Yolo521-bot",
-        "updatedAt": "2026-10-11T07:07:53Z"
-      },
-      {
-        "kind": "issue",
-        "number": 168963,
-        "title": "Update failure: updater-runtime-retention (2026.9.9)",
-        "url": "https://github.com/openclaw/openclaw/issues/168963",
-        "state": "open",
-        "author": "samaumos-png",
-        "updatedAt": "2026-10-11T07:07:43Z"
+        "author": "abacha",
+        "updatedAt": "2026-10-11T22:50:40Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 168964,
-        "title": "test(workers): reuse launcher readers across cases",
-        "url": "https://github.com/openclaw/openclaw/pull/168964",
+        "number": 169424,
+        "title": "perf(state): reuse retained database admission identity",
+        "url": "https://github.com/openclaw/openclaw/pull/169424",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-11T07:10:07Z"
+        "updatedAt": "2026-10-11T22:52:30Z"
       },
       {
         "kind": "pr",
-        "number": 163405,
-        "title": "feat(sandbox): add lightweight local SRT backend",
-        "url": "https://github.com/openclaw/openclaw/pull/163405",
-        "state": "open",
-        "author": "Jerry-Xin",
-        "updatedAt": "2026-10-11T07:10:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 156636,
-        "title": "fix(copilot): replace synthetic 128K estimates with accepted context limits",
-        "url": "https://github.com/openclaw/openclaw/pull/156636",
-        "state": "open",
-        "author": "saju01",
-        "updatedAt": "2026-10-11T07:10:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 168957,
-        "title": "fix: OAuth catalog refresh fails with historical agent stores",
-        "url": "https://github.com/openclaw/openclaw/pull/168957",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-10-11T07:09:49Z"
-      },
-      {
-        "kind": "pr",
-        "number": 168941,
-        "title": "fix(ui): recover updated chats through the serving document",
-        "url": "https://github.com/openclaw/openclaw/pull/168941",
+        "number": 169430,
+        "title": "refactor(plugins): consolidate state and transport paths",
+        "url": "https://github.com/openclaw/openclaw/pull/169430",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-11T07:09:45Z"
+        "updatedAt": "2026-10-11T22:52:25Z"
       },
       {
         "kind": "pr",
-        "number": 168790,
-        "title": "refactor(ui): migrate shared viewers to Solid",
-        "url": "https://github.com/openclaw/openclaw/pull/168790",
+        "number": 169340,
+        "title": "refactor(sessions): move target preparation callers into workers",
+        "url": "https://github.com/openclaw/openclaw/pull/169340",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-11T07:09:03Z"
+        "updatedAt": "2026-10-11T22:52:23Z"
+      },
+      {
+        "kind": "pr",
+        "number": 168961,
+        "title": "fix: Gateway regression tests fail after runtime context labeling changes",
+        "url": "https://github.com/openclaw/openclaw/pull/168961",
+        "state": "open",
+        "author": "sunlit-deng",
+        "updatedAt": "2026-10-11T22:52:20Z"
+      },
+      {
+        "kind": "pr",
+        "number": 164408,
+        "title": "improve(channels): report unsupported probes in status",
+        "url": "https://github.com/openclaw/openclaw/pull/164408",
+        "state": "open",
+        "author": "Ayushdevo",
+        "updatedAt": "2026-10-11T22:52:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 169425,
+        "title": "fix(auto-reply): internal reasoning ending in NO_REPLY is delivered when the closing line is padded",
+        "url": "https://github.com/openclaw/openclaw/pull/169425",
+        "state": "open",
+        "author": "vildevev",
+        "updatedAt": "2026-10-11T22:52:06Z"
       }
     ]
   }

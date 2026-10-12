@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-11T22:52:39.227Z",
+  "generatedAt": "2026-10-12T02:22:27.155Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1462,6 +1462,23 @@
       "contributors": 3539,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-12",
+      "capturedAt": "2026-10-12T02:22:27.155Z",
+      "issueOpen": 6187,
+      "issueClosed": 52675,
+      "prOpen": 3345,
+      "prClosed": 104689,
+      "prMerged": 52436,
+      "workflowRuns": 40000,
+      "stars": 391700,
+      "forks": 82363,
+      "subscribers": 1717,
+      "commits": 108169,
+      "contributors": 3539,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2048,74 +2065,82 @@
       "subscribers": 1717,
       "commits": 108071,
       "contributors": 3539
+    },
+    {
+      "capturedOn": "2026-10-12",
+      "stars": 391700,
+      "forks": 82363,
+      "subscribers": 1717,
+      "commits": 108169,
+      "contributors": 3539
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 169428,
-        "title": "Usage footer template: expose the auth profile (model.auth_label) that /status already shows",
-        "url": "https://github.com/openclaw/openclaw/issues/169428",
+        "number": 169533,
+        "title": "[Bug]: gateway \"agent\" runs never persist a third-party agent harness's final reply to the transcript (post-run persists only runner \"cli\")",
+        "url": "https://github.com/openclaw/openclaw/issues/169533",
         "state": "open",
-        "author": "abacha",
-        "updatedAt": "2026-10-11T22:50:40Z"
+        "author": "JBWortley",
+        "updatedAt": "2026-10-12T02:20:47Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 169424,
-        "title": "perf(state): reuse retained database admission identity",
-        "url": "https://github.com/openclaw/openclaw/pull/169424",
+        "number": 136474,
+        "title": "fix(plugins): surface blocked hook registrations in health views",
+        "url": "https://github.com/openclaw/openclaw/pull/136474",
+        "state": "open",
+        "author": "zeroaltitude",
+        "updatedAt": "2026-10-12T02:22:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 168779,
+        "title": "refactor(ui): port the chat composer to Solid",
+        "url": "https://github.com/openclaw/openclaw/pull/168779",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-10-12T02:22:15Z"
+      },
+      {
+        "kind": "pr",
+        "number": 169527,
+        "title": "feat: show session-specific previews for public links",
+        "url": "https://github.com/openclaw/openclaw/pull/169527",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-11T22:52:30Z"
+        "updatedAt": "2026-10-12T02:22:13Z"
       },
       {
         "kind": "pr",
-        "number": 169430,
-        "title": "refactor(plugins): consolidate state and transport paths",
-        "url": "https://github.com/openclaw/openclaw/pull/169430",
+        "number": 169539,
+        "title": "fix: resolve plugin-discovered models outside the agent workspace",
+        "url": "https://github.com/openclaw/openclaw/pull/169539",
+        "state": "open",
+        "author": "ericcaiwx-star",
+        "updatedAt": "2026-10-12T02:22:08Z"
+      },
+      {
+        "kind": "pr",
+        "number": 169304,
+        "title": "fix(control-ui): keep inline widgets steady on chat reload",
+        "url": "https://github.com/openclaw/openclaw/pull/169304",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-11T22:52:25Z"
+        "updatedAt": "2026-10-12T02:22:08Z"
       },
       {
         "kind": "pr",
-        "number": 169340,
-        "title": "refactor(sessions): move target preparation callers into workers",
-        "url": "https://github.com/openclaw/openclaw/pull/169340",
+        "number": 163267,
+        "title": "feat(sessions): allow same-channel thread recall without agent-wide visibility",
+        "url": "https://github.com/openclaw/openclaw/pull/163267",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-11T22:52:23Z"
-      },
-      {
-        "kind": "pr",
-        "number": 168961,
-        "title": "fix: Gateway regression tests fail after runtime context labeling changes",
-        "url": "https://github.com/openclaw/openclaw/pull/168961",
-        "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-10-11T22:52:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 164408,
-        "title": "improve(channels): report unsupported probes in status",
-        "url": "https://github.com/openclaw/openclaw/pull/164408",
-        "state": "open",
-        "author": "Ayushdevo",
-        "updatedAt": "2026-10-11T22:52:16Z"
-      },
-      {
-        "kind": "pr",
-        "number": 169425,
-        "title": "fix(auto-reply): internal reasoning ending in NO_REPLY is delivered when the closing line is padded",
-        "url": "https://github.com/openclaw/openclaw/pull/169425",
-        "state": "open",
-        "author": "vildevev",
-        "updatedAt": "2026-10-11T22:52:06Z"
+        "author": "shannon0430",
+        "updatedAt": "2026-10-12T02:22:07Z"
       }
     ]
   }

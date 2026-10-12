@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-12T02:22:27.155Z",
+  "generatedAt": "2026-10-12T20:16:49.920Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1465,18 +1465,18 @@
     },
     {
       "capturedOn": "2026-10-12",
-      "capturedAt": "2026-10-12T02:22:27.155Z",
-      "issueOpen": 6187,
-      "issueClosed": 52675,
-      "prOpen": 3345,
-      "prClosed": 104689,
-      "prMerged": 52436,
+      "capturedAt": "2026-10-12T20:16:49.920Z",
+      "issueOpen": 6240,
+      "issueClosed": 52782,
+      "prOpen": 3362,
+      "prClosed": 105177,
+      "prMerged": 52855,
       "workflowRuns": 40000,
-      "stars": 391700,
-      "forks": 82363,
-      "subscribers": 1717,
-      "commits": 108169,
-      "contributors": 3539,
+      "stars": 391784,
+      "forks": 82377,
+      "subscribers": 1714,
+      "commits": 108793,
+      "contributors": 3542,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2068,79 +2068,69 @@
     },
     {
       "capturedOn": "2026-10-12",
-      "stars": 391700,
-      "forks": 82363,
-      "subscribers": 1717,
-      "commits": 108169,
-      "contributors": 3539
+      "stars": 391784,
+      "forks": 82377,
+      "subscribers": 1714,
+      "commits": 108793,
+      "contributors": 3542
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 169533,
-        "title": "[Bug]: gateway \"agent\" runs never persist a third-party agent harness's final reply to the transcript (post-run persists only runner \"cli\")",
-        "url": "https://github.com/openclaw/openclaw/issues/169533",
-        "state": "open",
-        "author": "JBWortley",
-        "updatedAt": "2026-10-12T02:20:47Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 136474,
-        "title": "fix(plugins): surface blocked hook registrations in health views",
-        "url": "https://github.com/openclaw/openclaw/pull/136474",
+        "number": 169843,
+        "title": "fix: chat turns fail when session receipts exceed transport limits",
+        "url": "https://github.com/openclaw/openclaw/pull/169843",
         "state": "open",
-        "author": "zeroaltitude",
-        "updatedAt": "2026-10-12T02:22:16Z"
+        "author": "TheAngryPit",
+        "updatedAt": "2026-10-12T20:16:40Z"
       },
       {
         "kind": "pr",
-        "number": 168779,
-        "title": "refactor(ui): port the chat composer to Solid",
-        "url": "https://github.com/openclaw/openclaw/pull/168779",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-10-12T02:22:15Z"
-      },
-      {
-        "kind": "pr",
-        "number": 169527,
-        "title": "feat: show session-specific previews for public links",
-        "url": "https://github.com/openclaw/openclaw/pull/169527",
+        "number": 170202,
+        "title": "perf(config): avoid state bootstrap for previews and no-op edits",
+        "url": "https://github.com/openclaw/openclaw/pull/170202",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-12T02:22:13Z"
+        "updatedAt": "2026-10-12T20:16:38Z"
       },
       {
         "kind": "pr",
-        "number": 169539,
-        "title": "fix: resolve plugin-discovered models outside the agent workspace",
-        "url": "https://github.com/openclaw/openclaw/pull/169539",
-        "state": "open",
-        "author": "ericcaiwx-star",
-        "updatedAt": "2026-10-12T02:22:08Z"
-      },
-      {
-        "kind": "pr",
-        "number": 169304,
-        "title": "fix(control-ui): keep inline widgets steady on chat reload",
-        "url": "https://github.com/openclaw/openclaw/pull/169304",
+        "number": 170197,
+        "title": "refactor(tests): remove redundant worker probe self-tests",
+        "url": "https://github.com/openclaw/openclaw/pull/170197",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-12T02:22:08Z"
+        "updatedAt": "2026-10-12T20:16:37Z"
       },
       {
         "kind": "pr",
-        "number": 163267,
-        "title": "feat(sessions): allow same-channel thread recall without agent-wide visibility",
-        "url": "https://github.com/openclaw/openclaw/pull/163267",
+        "number": 168846,
+        "title": "feat(sessions): opt in to sessions_send thread targets",
+        "url": "https://github.com/openclaw/openclaw/pull/168846",
         "state": "open",
-        "author": "shannon0430",
-        "updatedAt": "2026-10-12T02:22:07Z"
+        "author": "VACInc",
+        "updatedAt": "2026-10-12T20:16:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 170205,
+        "title": "refactor(tests): remove dead single-case fixture branches",
+        "url": "https://github.com/openclaw/openclaw/pull/170205",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-12T20:16:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 170161,
+        "title": "fix: recover interrupted worker claims before turn admission",
+        "url": "https://github.com/openclaw/openclaw/pull/170161",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-12T20:16:33Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-13T02:02:47.446Z",
+  "generatedAt": "2026-10-13T22:42:10.892Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1482,18 +1482,18 @@
     },
     {
       "capturedOn": "2026-10-13",
-      "capturedAt": "2026-10-13T02:02:47.446Z",
-      "issueOpen": 6249,
-      "issueClosed": 52820,
-      "prOpen": 3371,
-      "prClosed": 105434,
-      "prMerged": 53093,
+      "capturedAt": "2026-10-13T22:42:10.892Z",
+      "issueOpen": 6262,
+      "issueClosed": 52989,
+      "prOpen": 3284,
+      "prClosed": 106319,
+      "prMerged": 53821,
       "workflowRuns": 40000,
-      "stars": 391810,
-      "forks": 82382,
-      "subscribers": 1714,
-      "commits": 109073,
-      "contributors": 3546,
+      "stars": 391902,
+      "forks": 82416,
+      "subscribers": 1710,
+      "commits": 109905,
+      "contributors": 3559,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2093,11 +2093,11 @@
     },
     {
       "capturedOn": "2026-10-13",
-      "stars": 391810,
-      "forks": 82382,
-      "subscribers": 1714,
-      "commits": 109073,
-      "contributors": 3546
+      "stars": 391902,
+      "forks": 82416,
+      "subscribers": 1710,
+      "commits": 109905,
+      "contributors": 3559
     }
   ],
   "activity": {
@@ -2105,57 +2105,57 @@
     "prs": [
       {
         "kind": "pr",
-        "number": 170280,
-        "title": "refactor(storage): make shared-state identities portable (v22)",
-        "url": "https://github.com/openclaw/openclaw/pull/170280",
+        "number": 171336,
+        "title": "perf(usage): bound session reports and retain visible results",
+        "url": "https://github.com/openclaw/openclaw/pull/171336",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-13T02:02:38Z"
+        "updatedAt": "2026-10-13T22:41:55Z"
       },
       {
         "kind": "pr",
-        "number": 170498,
-        "title": "fix(cron): retain app access when owners replace allowed tools",
-        "url": "https://github.com/openclaw/openclaw/pull/170498",
+        "number": 171425,
+        "title": "fix(gateway,ai): raise session-observer budget and reserve tokens for adaptive thinking",
+        "url": "https://github.com/openclaw/openclaw/pull/171425",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-13T02:02:37Z"
+        "author": "trukhinyuri",
+        "updatedAt": "2026-10-13T22:41:50Z"
       },
       {
         "kind": "pr",
-        "number": 168537,
-        "title": "fix(webchat): stage offloaded images for file tools",
-        "url": "https://github.com/openclaw/openclaw/pull/168537",
+        "number": 158087,
+        "title": "fix: drain accepted QA Lab suites before shutdown",
+        "url": "https://github.com/openclaw/openclaw/pull/158087",
         "state": "open",
-        "author": "synthalorian",
-        "updatedAt": "2026-10-13T02:02:32Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-10-13T22:41:48Z"
       },
       {
         "kind": "pr",
-        "number": 168509,
-        "title": "fix(agents): cron fallback fails when the primary model times out",
-        "url": "https://github.com/openclaw/openclaw/pull/168509",
+        "number": 166320,
+        "title": "feat(openai): support typed Decisions API evaluations",
+        "url": "https://github.com/openclaw/openclaw/pull/166320",
         "state": "open",
-        "author": "synthalorian",
-        "updatedAt": "2026-10-13T02:02:32Z"
+        "author": "jjjhenriksen",
+        "updatedAt": "2026-10-13T22:41:47Z"
       },
       {
         "kind": "pr",
-        "number": 170518,
-        "title": "feat(database): add verified offline port foundations",
-        "url": "https://github.com/openclaw/openclaw/pull/170518",
+        "number": 170210,
+        "title": "fix(telegram): inline-button taps are timestamped with the card's send time instead of the tap",
+        "url": "https://github.com/openclaw/openclaw/pull/170210",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-13T02:02:30Z"
+        "author": "maliv2",
+        "updatedAt": "2026-10-13T22:41:44Z"
       },
       {
         "kind": "pr",
-        "number": 170505,
-        "title": "fix(gateway): preserve stall capture with quoted script names",
-        "url": "https://github.com/openclaw/openclaw/pull/170505",
+        "number": 120577,
+        "title": "fix(codex): render dynamic tool images in chat",
+        "url": "https://github.com/openclaw/openclaw/pull/120577",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-13T02:02:41Z"
+        "author": "f-trycua",
+        "updatedAt": "2026-10-13T22:41:44Z"
       }
     ]
   }

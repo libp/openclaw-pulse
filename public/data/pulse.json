@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-12T20:16:49.920Z",
+  "generatedAt": "2026-10-13T02:02:47.446Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1479,6 +1479,23 @@
       "contributors": 3542,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-13",
+      "capturedAt": "2026-10-13T02:02:47.446Z",
+      "issueOpen": 6249,
+      "issueClosed": 52820,
+      "prOpen": 3371,
+      "prClosed": 105434,
+      "prMerged": 53093,
+      "workflowRuns": 40000,
+      "stars": 391810,
+      "forks": 82382,
+      "subscribers": 1714,
+      "commits": 109073,
+      "contributors": 3546,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2073,6 +2090,14 @@
       "subscribers": 1714,
       "commits": 108793,
       "contributors": 3542
+    },
+    {
+      "capturedOn": "2026-10-13",
+      "stars": 391810,
+      "forks": 82382,
+      "subscribers": 1714,
+      "commits": 109073,
+      "contributors": 3546
     }
   ],
   "activity": {
@@ -2080,57 +2105,57 @@
     "prs": [
       {
         "kind": "pr",
-        "number": 169843,
-        "title": "fix: chat turns fail when session receipts exceed transport limits",
-        "url": "https://github.com/openclaw/openclaw/pull/169843",
-        "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-10-12T20:16:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 170202,
-        "title": "perf(config): avoid state bootstrap for previews and no-op edits",
-        "url": "https://github.com/openclaw/openclaw/pull/170202",
+        "number": 170280,
+        "title": "refactor(storage): make shared-state identities portable (v22)",
+        "url": "https://github.com/openclaw/openclaw/pull/170280",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-12T20:16:38Z"
+        "updatedAt": "2026-10-13T02:02:38Z"
       },
       {
         "kind": "pr",
-        "number": 170197,
-        "title": "refactor(tests): remove redundant worker probe self-tests",
-        "url": "https://github.com/openclaw/openclaw/pull/170197",
+        "number": 170498,
+        "title": "fix(cron): retain app access when owners replace allowed tools",
+        "url": "https://github.com/openclaw/openclaw/pull/170498",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-12T20:16:37Z"
+        "updatedAt": "2026-10-13T02:02:37Z"
       },
       {
         "kind": "pr",
-        "number": 168846,
-        "title": "feat(sessions): opt in to sessions_send thread targets",
-        "url": "https://github.com/openclaw/openclaw/pull/168846",
+        "number": 168537,
+        "title": "fix(webchat): stage offloaded images for file tools",
+        "url": "https://github.com/openclaw/openclaw/pull/168537",
         "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-10-12T20:16:35Z"
+        "author": "synthalorian",
+        "updatedAt": "2026-10-13T02:02:32Z"
       },
       {
         "kind": "pr",
-        "number": 170205,
-        "title": "refactor(tests): remove dead single-case fixture branches",
-        "url": "https://github.com/openclaw/openclaw/pull/170205",
+        "number": 168509,
+        "title": "fix(agents): cron fallback fails when the primary model times out",
+        "url": "https://github.com/openclaw/openclaw/pull/168509",
+        "state": "open",
+        "author": "synthalorian",
+        "updatedAt": "2026-10-13T02:02:32Z"
+      },
+      {
+        "kind": "pr",
+        "number": 170518,
+        "title": "feat(database): add verified offline port foundations",
+        "url": "https://github.com/openclaw/openclaw/pull/170518",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-12T20:16:33Z"
+        "updatedAt": "2026-10-13T02:02:30Z"
       },
       {
         "kind": "pr",
-        "number": 170161,
-        "title": "fix: recover interrupted worker claims before turn admission",
-        "url": "https://github.com/openclaw/openclaw/pull/170161",
+        "number": 170505,
+        "title": "fix(gateway): preserve stall capture with quoted script names",
+        "url": "https://github.com/openclaw/openclaw/pull/170505",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-12T20:16:33Z"
+        "updatedAt": "2026-10-13T02:02:41Z"
       }
     ]
   }

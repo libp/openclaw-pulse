@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-13T22:42:10.892Z",
+  "generatedAt": "2026-10-14T07:35:21.821Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1496,6 +1496,23 @@
       "contributors": 3559,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-14",
+      "capturedAt": "2026-10-14T07:35:21.821Z",
+      "issueOpen": 6242,
+      "issueClosed": 53066,
+      "prOpen": 3367,
+      "prClosed": 106660,
+      "prMerged": 54112,
+      "workflowRuns": 40000,
+      "stars": 391938,
+      "forks": 82428,
+      "subscribers": 1710,
+      "commits": 110262,
+      "contributors": 3568,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2098,64 +2115,82 @@
       "subscribers": 1710,
       "commits": 109905,
       "contributors": 3559
+    },
+    {
+      "capturedOn": "2026-10-14",
+      "stars": 391938,
+      "forks": 82428,
+      "subscribers": 1710,
+      "commits": 110262,
+      "contributors": 3568
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 171918,
+        "title": "[Bug]: Safari 27.0.1 intermittently rejects the Control UI entry graph (42 KB synthetic module repro)",
+        "url": "https://github.com/openclaw/openclaw/issues/171918",
+        "state": "open",
+        "author": "jcxmt125",
+        "updatedAt": "2026-10-14T07:33:58Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 171336,
-        "title": "perf(usage): bound session reports and retain visible results",
-        "url": "https://github.com/openclaw/openclaw/pull/171336",
+        "number": 171875,
+        "title": "perf(sessions): stop refreezing internal transcript snapshots",
+        "url": "https://github.com/openclaw/openclaw/pull/171875",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-10-14T07:35:13Z"
+      },
+      {
+        "kind": "pr",
+        "number": 171189,
+        "title": "fix(feishu): restore responsive streaming feedback for long tasks",
+        "url": "https://github.com/openclaw/openclaw/pull/171189",
+        "state": "open",
+        "author": "dabuside",
+        "updatedAt": "2026-10-14T07:35:11Z"
+      },
+      {
+        "kind": "pr",
+        "number": 171588,
+        "title": "fix: keep lean local-model Tool Search prompts compact",
+        "url": "https://github.com/openclaw/openclaw/pull/171588",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-13T22:41:55Z"
+        "updatedAt": "2026-10-14T07:35:10Z"
       },
       {
         "kind": "pr",
-        "number": 171425,
-        "title": "fix(gateway,ai): raise session-observer budget and reserve tokens for adaptive thinking",
-        "url": "https://github.com/openclaw/openclaw/pull/171425",
+        "number": 141004,
+        "title": "feat(audit): record observed runtime skill usage",
+        "url": "https://github.com/openclaw/openclaw/pull/141004",
         "state": "open",
-        "author": "trukhinyuri",
-        "updatedAt": "2026-10-13T22:41:50Z"
+        "author": "wiecon-dev",
+        "updatedAt": "2026-10-14T07:35:14Z"
       },
       {
         "kind": "pr",
-        "number": 158087,
-        "title": "fix: drain accepted QA Lab suites before shutdown",
-        "url": "https://github.com/openclaw/openclaw/pull/158087",
+        "number": 171921,
+        "title": "fix(ui): align New Session E2E with accepted draft cleanup",
+        "url": "https://github.com/openclaw/openclaw/pull/171921",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-10-13T22:41:48Z"
+        "author": "obviyus",
+        "updatedAt": "2026-10-14T07:35:06Z"
       },
       {
         "kind": "pr",
-        "number": 166320,
-        "title": "feat(openai): support typed Decisions API evaluations",
-        "url": "https://github.com/openclaw/openclaw/pull/166320",
+        "number": 171881,
+        "title": "perf: reduce retained cron history index work",
+        "url": "https://github.com/openclaw/openclaw/pull/171881",
         "state": "open",
-        "author": "jjjhenriksen",
-        "updatedAt": "2026-10-13T22:41:47Z"
-      },
-      {
-        "kind": "pr",
-        "number": 170210,
-        "title": "fix(telegram): inline-button taps are timestamped with the card's send time instead of the tap",
-        "url": "https://github.com/openclaw/openclaw/pull/170210",
-        "state": "open",
-        "author": "maliv2",
-        "updatedAt": "2026-10-13T22:41:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 120577,
-        "title": "fix(codex): render dynamic tool images in chat",
-        "url": "https://github.com/openclaw/openclaw/pull/120577",
-        "state": "open",
-        "author": "f-trycua",
-        "updatedAt": "2026-10-13T22:41:44Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-14T07:35:03Z"
       }
     ]
   }

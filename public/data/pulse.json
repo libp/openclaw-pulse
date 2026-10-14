@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-14T07:35:21.821Z",
+  "generatedAt": "2026-10-14T18:36:02.628Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1499,18 +1499,18 @@
     },
     {
       "capturedOn": "2026-10-14",
-      "capturedAt": "2026-10-14T07:35:21.821Z",
-      "issueOpen": 6242,
-      "issueClosed": 53066,
-      "prOpen": 3367,
-      "prClosed": 106660,
-      "prMerged": 54112,
+      "capturedAt": "2026-10-14T18:36:02.628Z",
+      "issueOpen": 6283,
+      "issueClosed": 53140,
+      "prOpen": 3363,
+      "prClosed": 107076,
+      "prMerged": 54410,
       "workflowRuns": 40000,
-      "stars": 391938,
-      "forks": 82428,
+      "stars": 391992,
+      "forks": 82421,
       "subscribers": 1710,
-      "commits": 110262,
-      "contributors": 3568,
+      "commits": 110621,
+      "contributors": 3580,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2118,79 +2118,88 @@
     },
     {
       "capturedOn": "2026-10-14",
-      "stars": 391938,
-      "forks": 82428,
+      "stars": 391992,
+      "forks": 82421,
       "subscribers": 1710,
-      "commits": 110262,
-      "contributors": 3568
+      "commits": 110621,
+      "contributors": 3580
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 171918,
-        "title": "[Bug]: Safari 27.0.1 intermittently rejects the Control UI entry graph (42 KB synthetic module repro)",
-        "url": "https://github.com/openclaw/openclaw/issues/171918",
+        "number": 172434,
+        "title": "[Bug]: session-send recovery swallows fatal configuration-change errors as per-input \"delivery admission was unavailable\"",
+        "url": "https://github.com/openclaw/openclaw/issues/172434",
+        "state": "closed",
+        "author": "Yolo521-bot",
+        "updatedAt": "2026-10-14T18:35:41Z"
+      },
+      {
+        "kind": "issue",
+        "number": 172446,
+        "title": "[Bug]: Plugin host cleanup failures during session reset/delete are only logged at verbose level and never reported",
+        "url": "https://github.com/openclaw/openclaw/issues/172446",
         "state": "open",
-        "author": "jcxmt125",
-        "updatedAt": "2026-10-14T07:33:58Z"
+        "author": "Yolo521-bot",
+        "updatedAt": "2026-10-14T18:34:20Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 171875,
-        "title": "perf(sessions): stop refreezing internal transcript snapshots",
-        "url": "https://github.com/openclaw/openclaw/pull/171875",
+        "number": 172427,
+        "title": "fix(ci): allow more time for cold SDK declarations",
+        "url": "https://github.com/openclaw/openclaw/pull/172427",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-14T18:35:54Z"
+      },
+      {
+        "kind": "pr",
+        "number": 172418,
+        "title": "perf(ui): retain unrelated agent model catalogs",
+        "url": "https://github.com/openclaw/openclaw/pull/172418",
         "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-10-14T07:35:13Z"
+        "updatedAt": "2026-10-14T18:35:47Z"
       },
       {
         "kind": "pr",
-        "number": 171189,
-        "title": "fix(feishu): restore responsive streaming feedback for long tasks",
-        "url": "https://github.com/openclaw/openclaw/pull/171189",
+        "number": 172431,
+        "title": "fix(tui): forward /reset soft to the gateway instead of hard-resetting the session",
+        "url": "https://github.com/openclaw/openclaw/pull/172431",
         "state": "open",
-        "author": "dabuside",
-        "updatedAt": "2026-10-14T07:35:11Z"
+        "author": "yetval",
+        "updatedAt": "2026-10-14T18:35:45Z"
       },
       {
         "kind": "pr",
-        "number": 171588,
-        "title": "fix: keep lean local-model Tool Search prompts compact",
-        "url": "https://github.com/openclaw/openclaw/pull/171588",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-14T07:35:10Z"
-      },
-      {
-        "kind": "pr",
-        "number": 141004,
-        "title": "feat(audit): record observed runtime skill usage",
-        "url": "https://github.com/openclaw/openclaw/pull/141004",
-        "state": "open",
-        "author": "wiecon-dev",
-        "updatedAt": "2026-10-14T07:35:14Z"
-      },
-      {
-        "kind": "pr",
-        "number": 171921,
-        "title": "fix(ui): align New Session E2E with accepted draft cleanup",
-        "url": "https://github.com/openclaw/openclaw/pull/171921",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-10-14T07:35:06Z"
-      },
-      {
-        "kind": "pr",
-        "number": 171881,
-        "title": "perf: reduce retained cron history index work",
-        "url": "https://github.com/openclaw/openclaw/pull/171881",
+        "number": 172081,
+        "title": "test(ui): cover person links and isolate sidebar keyboard checks",
+        "url": "https://github.com/openclaw/openclaw/pull/172081",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-14T07:35:03Z"
+        "updatedAt": "2026-10-14T18:35:45Z"
+      },
+      {
+        "kind": "pr",
+        "number": 172412,
+        "title": "fix: preserve unfinished replies across Gateway restarts",
+        "url": "https://github.com/openclaw/openclaw/pull/172412",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-10-14T18:35:43Z"
+      },
+      {
+        "kind": "pr",
+        "number": 157806,
+        "title": "fix(sessions): preserve requester identity at execution admission",
+        "url": "https://github.com/openclaw/openclaw/pull/157806",
+        "state": "open",
+        "author": "joshavant",
+        "updatedAt": "2026-10-14T18:35:43Z"
       }
     ]
   }

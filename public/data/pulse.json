@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-14T18:36:02.628Z",
+  "generatedAt": "2026-10-14T22:16:57.713Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1499,18 +1499,18 @@
     },
     {
       "capturedOn": "2026-10-14",
-      "capturedAt": "2026-10-14T18:36:02.628Z",
-      "issueOpen": 6283,
-      "issueClosed": 53140,
-      "prOpen": 3363,
-      "prClosed": 107076,
-      "prMerged": 54410,
+      "capturedAt": "2026-10-14T22:16:57.713Z",
+      "issueOpen": 6282,
+      "issueClosed": 53161,
+      "prOpen": 3339,
+      "prClosed": 107224,
+      "prMerged": 54545,
       "workflowRuns": 40000,
-      "stars": 391992,
-      "forks": 82421,
+      "stars": 392022,
+      "forks": 82425,
       "subscribers": 1710,
-      "commits": 110621,
-      "contributors": 3580,
+      "commits": 110767,
+      "contributors": 3584,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2118,88 +2118,79 @@
     },
     {
       "capturedOn": "2026-10-14",
-      "stars": 391992,
-      "forks": 82421,
+      "stars": 392022,
+      "forks": 82425,
       "subscribers": 1710,
-      "commits": 110621,
-      "contributors": 3580
+      "commits": 110767,
+      "contributors": 3584
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 172434,
-        "title": "[Bug]: session-send recovery swallows fatal configuration-change errors as per-input \"delivery admission was unavailable\"",
-        "url": "https://github.com/openclaw/openclaw/issues/172434",
-        "state": "closed",
-        "author": "Yolo521-bot",
-        "updatedAt": "2026-10-14T18:35:41Z"
-      },
-      {
-        "kind": "issue",
-        "number": 172446,
-        "title": "[Bug]: Plugin host cleanup failures during session reset/delete are only logged at verbose level and never reported",
-        "url": "https://github.com/openclaw/openclaw/issues/172446",
+        "number": 164972,
+        "title": "[Bug]: claude-cli multi-agent teams: end-to-end matrix under visibility agent/tree/all (clarification, follow-up and parent context all break; failures look like success)",
+        "url": "https://github.com/openclaw/openclaw/issues/164972",
         "state": "open",
-        "author": "Yolo521-bot",
-        "updatedAt": "2026-10-14T18:34:20Z"
+        "author": "holgergruenhagen",
+        "updatedAt": "2026-10-14T22:16:35Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 172427,
-        "title": "fix(ci): allow more time for cold SDK declarations",
-        "url": "https://github.com/openclaw/openclaw/pull/172427",
+        "number": 172574,
+        "title": "fix(ci): clear stale dependency exports after owner migrations",
+        "url": "https://github.com/openclaw/openclaw/pull/172574",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-14T18:35:54Z"
+        "updatedAt": "2026-10-14T22:16:51Z"
       },
       {
         "kind": "pr",
-        "number": 172418,
-        "title": "perf(ui): retain unrelated agent model catalogs",
-        "url": "https://github.com/openclaw/openclaw/pull/172418",
+        "number": 172560,
+        "title": "test(agents): align pinned rate-limit reply-entry test with exhaustion copy",
+        "url": "https://github.com/openclaw/openclaw/pull/172560",
         "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-10-14T18:35:47Z"
+        "author": "obviyus",
+        "updatedAt": "2026-10-14T22:16:44Z"
       },
       {
         "kind": "pr",
-        "number": 172431,
-        "title": "fix(tui): forward /reset soft to the gateway instead of hard-resetting the session",
-        "url": "https://github.com/openclaw/openclaw/pull/172431",
-        "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-10-14T18:35:45Z"
-      },
-      {
-        "kind": "pr",
-        "number": 172081,
-        "title": "test(ui): cover person links and isolate sidebar keyboard checks",
-        "url": "https://github.com/openclaw/openclaw/pull/172081",
+        "number": 171301,
+        "title": "refactor(ui): replace Web Awesome chat pickers",
+        "url": "https://github.com/openclaw/openclaw/pull/171301",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-14T18:35:45Z"
+        "updatedAt": "2026-10-14T22:16:39Z"
       },
       {
         "kind": "pr",
-        "number": 172412,
-        "title": "fix: preserve unfinished replies across Gateway restarts",
-        "url": "https://github.com/openclaw/openclaw/pull/172412",
+        "number": 171783,
+        "title": "fix: keep speed selectable with configured defaults",
+        "url": "https://github.com/openclaw/openclaw/pull/171783",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-10-14T18:35:43Z"
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-10-14T22:16:29Z"
       },
       {
         "kind": "pr",
-        "number": 157806,
-        "title": "fix(sessions): preserve requester identity at execution admission",
-        "url": "https://github.com/openclaw/openclaw/pull/157806",
+        "number": 172513,
+        "title": "fix: warn when plugin cleanup fails during session reset or deletion",
+        "url": "https://github.com/openclaw/openclaw/pull/172513",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-10-14T18:35:43Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-14T22:16:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 172511,
+        "title": "fix(agents): deletion hangs when embedded runs do not stop",
+        "url": "https://github.com/openclaw/openclaw/pull/172511",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-14T22:16:10Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-15T20:19:44.385Z",
+  "generatedAt": "2026-10-15T23:40:41.818Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1516,18 +1516,18 @@
     },
     {
       "capturedOn": "2026-10-15",
-      "capturedAt": "2026-10-15T20:19:44.385Z",
-      "issueOpen": 6247,
-      "issueClosed": 53338,
-      "prOpen": 3279,
-      "prClosed": 107995,
-      "prMerged": 55191,
+      "capturedAt": "2026-10-15T23:40:41.818Z",
+      "issueOpen": 6240,
+      "issueClosed": 53361,
+      "prOpen": 3247,
+      "prClosed": 108123,
+      "prMerged": 55314,
       "workflowRuns": 40000,
-      "stars": 392110,
-      "forks": 82457,
-      "subscribers": 1708,
-      "commits": 111477,
-      "contributors": 3593,
+      "stars": 392122,
+      "forks": 82458,
+      "subscribers": 1709,
+      "commits": 111617,
+      "contributors": 3599,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2143,79 +2143,97 @@
     },
     {
       "capturedOn": "2026-10-15",
-      "stars": 392110,
-      "forks": 82457,
-      "subscribers": 1708,
-      "commits": 111477,
-      "contributors": 3593
+      "stars": 392122,
+      "forks": 82458,
+      "subscribers": 1709,
+      "commits": 111617,
+      "contributors": 3599
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 164113,
-        "title": "[Bug]: update fails at updater-runtime-retention with FICLONE EPERM inside an unprivileged LXC container (seccomp blocks ioctl)",
-        "url": "https://github.com/openclaw/openclaw/issues/164113",
-        "state": "closed",
-        "author": "MrJanvar",
-        "updatedAt": "2026-10-15T20:17:59Z"
+        "number": 165787,
+        "title": "[Bug]: Ollama tool calls emitted as plain text, never execute (NO_REPLY), no gateway errors — 2026.9.8",
+        "url": "https://github.com/openclaw/openclaw/issues/165787",
+        "state": "open",
+        "author": "shailaja-bot",
+        "updatedAt": "2026-10-15T23:38:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 79183,
+        "title": "[Feature] sessions_list displayName 应优先使用 account name 而非 open_id",
+        "url": "https://github.com/openclaw/openclaw/issues/79183",
+        "state": "open",
+        "author": "911jidi-source",
+        "updatedAt": "2026-10-15T23:38:25Z"
+      },
+      {
+        "kind": "issue",
+        "number": 79252,
+        "title": "globalCircuitBreakerThreshold is per-tool-type, not session-global — allows cross-tool loop evasion",
+        "url": "https://github.com/openclaw/openclaw/issues/79252",
+        "state": "open",
+        "author": "xiachuncheng",
+        "updatedAt": "2026-10-15T23:38:24Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 173232,
-        "title": "refactor: simplify board core widget property updates",
-        "url": "https://github.com/openclaw/openclaw/pull/173232",
+        "number": 173432,
+        "title": "fix(gateway): omit core web_search from tools.effective when the saved session override disables it",
+        "url": "https://github.com/openclaw/openclaw/pull/173432",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-15T20:19:33Z"
+        "author": "LiuwqGit",
+        "updatedAt": "2026-10-15T23:40:26Z"
       },
       {
         "kind": "pr",
-        "number": 173420,
-        "title": "refactor(channels): reuse prepared transport and runtime owners",
-        "url": "https://github.com/openclaw/openclaw/pull/173420",
-        "state": "open",
+        "number": 171827,
+        "title": "refactor(ui): port chat metadata rendering to Solid",
+        "url": "https://github.com/openclaw/openclaw/pull/171827",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-10-15T20:19:36Z"
+        "updatedAt": "2026-10-15T23:40:03Z"
       },
       {
         "kind": "pr",
-        "number": 172358,
-        "title": "test(ui): migrate provider icon coverage off Lit",
-        "url": "https://github.com/openclaw/openclaw/pull/172358",
+        "number": 173486,
+        "title": "fix(browser): preserve network settings during allowed navigation",
+        "url": "https://github.com/openclaw/openclaw/pull/173486",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-15T20:19:23Z"
+        "author": "LiuwqGit",
+        "updatedAt": "2026-10-15T23:39:56Z"
       },
       {
         "kind": "pr",
-        "number": 173411,
-        "title": "fix(cron): keep legacy env/config-key automations running without fallback",
-        "url": "https://github.com/openclaw/openclaw/pull/173411",
+        "number": 172784,
+        "title": "fix(update): recover stopped gateways after unverified service activation",
+        "url": "https://github.com/openclaw/openclaw/pull/172784",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-10-15T20:19:20Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-15T23:39:44Z"
       },
       {
         "kind": "pr",
-        "number": 173225,
-        "title": "fix(state): retain failed native lease cleanup for canonical close",
-        "url": "https://github.com/openclaw/openclaw/pull/173225",
+        "number": 173551,
+        "title": "perf(gateway): reuse prewarmed bytecode without main-thread flushes",
+        "url": "https://github.com/openclaw/openclaw/pull/173551",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-15T20:19:11Z"
+        "updatedAt": "2026-10-15T23:39:43Z"
       },
       {
         "kind": "pr",
-        "number": 172365,
-        "title": "refactor(ui): use Solid loading skeleton adapters and settings harness",
-        "url": "https://github.com/openclaw/openclaw/pull/172365",
+        "number": 173273,
+        "title": "fix: allow quoted callback URLs through node exec approvals",
+        "url": "https://github.com/openclaw/openclaw/pull/173273",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-15T20:19:11Z"
+        "author": "fionn77",
+        "updatedAt": "2026-10-15T23:39:43Z"
       }
     ]
   }

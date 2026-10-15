@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-14T22:16:57.713Z",
+  "generatedAt": "2026-10-15T05:53:07.850Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1513,6 +1513,23 @@
       "contributors": 3584,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-15",
+      "capturedAt": "2026-10-15T05:53:07.850Z",
+      "issueOpen": 6235,
+      "issueClosed": 53248,
+      "prOpen": 3326,
+      "prClosed": 107438,
+      "prMerged": 54740,
+      "workflowRuns": 40000,
+      "stars": 392047,
+      "forks": 82434,
+      "subscribers": 1710,
+      "commits": 110966,
+      "contributors": 3585,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2123,74 +2140,91 @@
       "subscribers": 1710,
       "commits": 110767,
       "contributors": 3584
+    },
+    {
+      "capturedOn": "2026-10-15",
+      "stars": 392047,
+      "forks": 82434,
+      "subscribers": 1710,
+      "commits": 110966,
+      "contributors": 3585
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 164972,
-        "title": "[Bug]: claude-cli multi-agent teams: end-to-end matrix under visibility agent/tree/all (clarification, follow-up and parent context all break; failures look like success)",
-        "url": "https://github.com/openclaw/openclaw/issues/164972",
+        "number": 172831,
+        "title": "Update failure: validating (2026.9.5)",
+        "url": "https://github.com/openclaw/openclaw/issues/172831",
         "state": "open",
-        "author": "holgergruenhagen",
-        "updatedAt": "2026-10-14T22:16:35Z"
+        "author": "flyhackbase",
+        "updatedAt": "2026-10-15T05:52:33Z"
+      },
+      {
+        "kind": "issue",
+        "number": 172829,
+        "title": "[Bug]: Plugin install forces --ignore-scripts; packages with postinstall-downloaded native binaries silently break (Matrix E2EE media ENOENT)",
+        "url": "https://github.com/openclaw/openclaw/issues/172829",
+        "state": "open",
+        "author": "beeven",
+        "updatedAt": "2026-10-15T05:52:00Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 172574,
-        "title": "fix(ci): clear stale dependency exports after owner migrations",
-        "url": "https://github.com/openclaw/openclaw/pull/172574",
+        "number": 172338,
+        "title": "fix(canvas): send inline A2UI widget actions through the prompt channel",
+        "url": "https://github.com/openclaw/openclaw/pull/172338",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-14T22:16:51Z"
+        "author": "wr-web",
+        "updatedAt": "2026-10-15T05:52:50Z"
       },
       {
         "kind": "pr",
-        "number": 172560,
-        "title": "test(agents): align pinned rate-limit reply-entry test with exhaustion copy",
-        "url": "https://github.com/openclaw/openclaw/pull/172560",
-        "state": "closed",
-        "author": "obviyus",
-        "updatedAt": "2026-10-14T22:16:44Z"
+        "number": 172238,
+        "title": "fix(agents): refuse recovery-instruction echoes in settled-turn finalization",
+        "url": "https://github.com/openclaw/openclaw/pull/172238",
+        "state": "open",
+        "author": "xiaopan-xydt",
+        "updatedAt": "2026-10-15T05:52:37Z"
       },
       {
         "kind": "pr",
-        "number": 171301,
-        "title": "refactor(ui): replace Web Awesome chat pickers",
-        "url": "https://github.com/openclaw/openclaw/pull/171301",
+        "number": 163267,
+        "title": "feat(sessions): allow same-channel thread recall without agent-wide visibility",
+        "url": "https://github.com/openclaw/openclaw/pull/163267",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-14T22:16:39Z"
+        "author": "shannon0430",
+        "updatedAt": "2026-10-15T05:52:37Z"
       },
       {
         "kind": "pr",
-        "number": 171783,
-        "title": "fix: keep speed selectable with configured defaults",
-        "url": "https://github.com/openclaw/openclaw/pull/171783",
+        "number": 172814,
+        "title": "fix(agents): preserve whitespace in node-host exec workdir paths",
+        "url": "https://github.com/openclaw/openclaw/pull/172814",
         "state": "open",
-        "author": "fuller-stack-dev",
-        "updatedAt": "2026-10-14T22:16:29Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-10-15T05:52:27Z"
       },
       {
         "kind": "pr",
-        "number": 172513,
-        "title": "fix: warn when plugin cleanup fails during session reset or deletion",
-        "url": "https://github.com/openclaw/openclaw/pull/172513",
+        "number": 163266,
+        "title": "refactor(slack): share chart and table fallback rendering",
+        "url": "https://github.com/openclaw/openclaw/pull/163266",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-14T22:16:17Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-10-15T05:52:17Z"
       },
       {
         "kind": "pr",
-        "number": 172511,
-        "title": "fix(agents): deletion hangs when embedded runs do not stop",
-        "url": "https://github.com/openclaw/openclaw/pull/172511",
+        "number": 172539,
+        "title": "fix: preserve automation management for queued owner messages",
+        "url": "https://github.com/openclaw/openclaw/pull/172539",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-14T22:16:10Z"
+        "author": "johan-eilertsen",
+        "updatedAt": "2026-10-15T05:52:16Z"
       }
     ]
   }

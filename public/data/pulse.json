@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-15T16:57:49.401Z",
+  "generatedAt": "2026-10-15T20:19:44.385Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1516,18 +1516,18 @@
     },
     {
       "capturedOn": "2026-10-15",
-      "capturedAt": "2026-10-15T16:57:49.401Z",
-      "issueOpen": 6243,
-      "issueClosed": 53316,
-      "prOpen": 3309,
-      "prClosed": 107854,
-      "prMerged": 55073,
+      "capturedAt": "2026-10-15T20:19:44.385Z",
+      "issueOpen": 6247,
+      "issueClosed": 53338,
+      "prOpen": 3279,
+      "prClosed": 107995,
+      "prMerged": 55191,
       "workflowRuns": 40000,
-      "stars": 392098,
-      "forks": 82453,
+      "stars": 392110,
+      "forks": 82457,
       "subscribers": 1708,
-      "commits": 111340,
-      "contributors": 3589,
+      "commits": 111477,
+      "contributors": 3593,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2143,97 +2143,79 @@
     },
     {
       "capturedOn": "2026-10-15",
-      "stars": 392098,
-      "forks": 82453,
+      "stars": 392110,
+      "forks": 82457,
       "subscribers": 1708,
-      "commits": 111340,
-      "contributors": 3589
+      "commits": 111477,
+      "contributors": 3593
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 48709,
-        "title": "Gemini 2.5 Pro: textSignature bloat + think tags + mixed text/tool causes session failures",
-        "url": "https://github.com/openclaw/openclaw/issues/48709",
-        "state": "open",
-        "author": "jarvis-playrockets",
-        "updatedAt": "2026-10-15T16:57:34Z"
-      },
-      {
-        "kind": "issue",
-        "number": 173172,
-        "title": "[Bug]: Control UI \"Gateway busy, retrying…\" page polls /healthz forever after a WebSocket drop but never re-attempts the WS handshake — only a manual reload recovers",
-        "url": "https://github.com/openclaw/openclaw/issues/173172",
-        "state": "open",
-        "author": "fbec76",
-        "updatedAt": "2026-10-15T16:56:49Z"
-      },
-      {
-        "kind": "issue",
-        "number": 173308,
-        "title": "formatCliCommand mangles version-suffixed openclaw invocations when a container hint or profile is set",
-        "url": "https://github.com/openclaw/openclaw/issues/173308",
-        "state": "open",
-        "author": "YangManBOBO",
-        "updatedAt": "2026-10-15T16:56:24Z"
+        "number": 164113,
+        "title": "[Bug]: update fails at updater-runtime-retention with FICLONE EPERM inside an unprivileged LXC container (seccomp blocks ioctl)",
+        "url": "https://github.com/openclaw/openclaw/issues/164113",
+        "state": "closed",
+        "author": "MrJanvar",
+        "updatedAt": "2026-10-15T20:17:59Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 171806,
-        "title": "refactor(ui): render shared avatars and session decorations with Solid",
-        "url": "https://github.com/openclaw/openclaw/pull/171806",
+        "number": 173232,
+        "title": "refactor: simplify board core widget property updates",
+        "url": "https://github.com/openclaw/openclaw/pull/173232",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-15T16:57:43Z"
+        "updatedAt": "2026-10-15T20:19:33Z"
       },
       {
         "kind": "pr",
-        "number": 117360,
-        "title": "fix(cli): preserve inherited TaskFlow command options",
-        "url": "https://github.com/openclaw/openclaw/pull/117360",
+        "number": 173420,
+        "title": "refactor(channels): reuse prepared transport and runtime owners",
+        "url": "https://github.com/openclaw/openclaw/pull/173420",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-15T16:57:34Z"
+        "updatedAt": "2026-10-15T20:19:36Z"
       },
       {
         "kind": "pr",
-        "number": 170534,
-        "title": "fix: honor silent turn endings without fabricated answers",
-        "url": "https://github.com/openclaw/openclaw/pull/170534",
+        "number": 172358,
+        "title": "test(ui): migrate provider icon coverage off Lit",
+        "url": "https://github.com/openclaw/openclaw/pull/172358",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-15T20:19:23Z"
+      },
+      {
+        "kind": "pr",
+        "number": 173411,
+        "title": "fix(cron): keep legacy env/config-key automations running without fallback",
+        "url": "https://github.com/openclaw/openclaw/pull/173411",
         "state": "open",
         "author": "obviyus",
-        "updatedAt": "2026-10-15T16:57:29Z"
+        "updatedAt": "2026-10-15T20:19:20Z"
       },
       {
         "kind": "pr",
-        "number": 173295,
-        "title": "fix(github): avoid repeated avatar downloads for unchanged previews",
-        "url": "https://github.com/openclaw/openclaw/pull/173295",
+        "number": 173225,
+        "title": "fix(state): retain failed native lease cleanup for canonical close",
+        "url": "https://github.com/openclaw/openclaw/pull/173225",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-15T16:57:20Z"
+        "updatedAt": "2026-10-15T20:19:11Z"
       },
       {
         "kind": "pr",
-        "number": 173309,
-        "title": "fix(cli): stop mangling version-suffixed invocations in command hints",
-        "url": "https://github.com/openclaw/openclaw/pull/173309",
+        "number": 172365,
+        "title": "refactor(ui): use Solid loading skeleton adapters and settings harness",
+        "url": "https://github.com/openclaw/openclaw/pull/172365",
         "state": "open",
-        "author": "YangManBOBO",
-        "updatedAt": "2026-10-15T16:57:16Z"
-      },
-      {
-        "kind": "pr",
-        "number": 165692,
-        "title": "fix: WhatsApp final replies dropped after a plugin reload",
-        "url": "https://github.com/openclaw/openclaw/pull/165692",
-        "state": "closed",
-        "author": "Jackten",
-        "updatedAt": "2026-10-15T16:57:13Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-15T20:19:11Z"
       }
     ]
   }

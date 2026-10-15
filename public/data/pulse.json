@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-15T05:53:07.850Z",
+  "generatedAt": "2026-10-15T11:24:40.773Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1516,18 +1516,18 @@
     },
     {
       "capturedOn": "2026-10-15",
-      "capturedAt": "2026-10-15T05:53:07.850Z",
-      "issueOpen": 6235,
-      "issueClosed": 53248,
-      "prOpen": 3326,
-      "prClosed": 107438,
-      "prMerged": 54740,
+      "capturedAt": "2026-10-15T11:24:40.773Z",
+      "issueOpen": 6234,
+      "issueClosed": 53283,
+      "prOpen": 3318,
+      "prClosed": 107658,
+      "prMerged": 54928,
       "workflowRuns": 40000,
-      "stars": 392047,
-      "forks": 82434,
-      "subscribers": 1710,
-      "commits": 110966,
-      "contributors": 3585,
+      "stars": 392060,
+      "forks": 82449,
+      "subscribers": 1708,
+      "commits": 111168,
+      "contributors": 3589,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2143,88 +2143,88 @@
     },
     {
       "capturedOn": "2026-10-15",
-      "stars": 392047,
-      "forks": 82434,
-      "subscribers": 1710,
-      "commits": 110966,
-      "contributors": 3585
+      "stars": 392060,
+      "forks": 82449,
+      "subscribers": 1708,
+      "commits": 111168,
+      "contributors": 3589
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 172831,
-        "title": "Update failure: validating (2026.9.5)",
-        "url": "https://github.com/openclaw/openclaw/issues/172831",
+        "number": 173077,
+        "title": "[Bug]: Cron failure alerts are silently dropped when the transport rejects before settling",
+        "url": "https://github.com/openclaw/openclaw/issues/173077",
         "state": "open",
-        "author": "flyhackbase",
-        "updatedAt": "2026-10-15T05:52:33Z"
+        "author": "Yolo521-bot",
+        "updatedAt": "2026-10-15T11:24:04Z"
       },
       {
         "kind": "issue",
-        "number": 172829,
-        "title": "[Bug]: Plugin install forces --ignore-scripts; packages with postinstall-downloaded native binaries silently break (Matrix E2EE media ENOENT)",
-        "url": "https://github.com/openclaw/openclaw/issues/172829",
+        "number": 173076,
+        "title": "[Bug]: Skill upload lease-renewal heartbeat swallows renew failures and reports success",
+        "url": "https://github.com/openclaw/openclaw/issues/173076",
         "state": "open",
-        "author": "beeven",
-        "updatedAt": "2026-10-15T05:52:00Z"
+        "author": "Yolo521-bot",
+        "updatedAt": "2026-10-15T11:23:30Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 172338,
-        "title": "fix(canvas): send inline A2UI widget actions through the prompt channel",
-        "url": "https://github.com/openclaw/openclaw/pull/172338",
+        "number": 172152,
+        "title": "fix: custom endpoint setup fails auth-less servers outside loopback, leaving half-applied provider config",
+        "url": "https://github.com/openclaw/openclaw/pull/172152",
         "state": "open",
-        "author": "wr-web",
-        "updatedAt": "2026-10-15T05:52:50Z"
+        "author": "rubencu",
+        "updatedAt": "2026-10-15T11:24:31Z"
       },
       {
         "kind": "pr",
-        "number": 172238,
-        "title": "fix(agents): refuse recovery-instruction echoes in settled-turn finalization",
-        "url": "https://github.com/openclaw/openclaw/pull/172238",
+        "number": 173038,
+        "title": "fix: remote model catalogs stop refreshing on newer modalities",
+        "url": "https://github.com/openclaw/openclaw/pull/173038",
         "state": "open",
-        "author": "xiaopan-xydt",
-        "updatedAt": "2026-10-15T05:52:37Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-15T11:24:28Z"
       },
       {
         "kind": "pr",
-        "number": 163267,
-        "title": "feat(sessions): allow same-channel thread recall without agent-wide visibility",
-        "url": "https://github.com/openclaw/openclaw/pull/163267",
+        "number": 167880,
+        "title": "fix(gateway): avoid startup restart loops while Tailscale needs login",
+        "url": "https://github.com/openclaw/openclaw/pull/167880",
         "state": "open",
-        "author": "shannon0430",
-        "updatedAt": "2026-10-15T05:52:37Z"
+        "author": "TheAngryPit",
+        "updatedAt": "2026-10-15T11:24:26Z"
       },
       {
         "kind": "pr",
-        "number": 172814,
-        "title": "fix(agents): preserve whitespace in node-host exec workdir paths",
-        "url": "https://github.com/openclaw/openclaw/pull/172814",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-10-15T05:52:27Z"
-      },
-      {
-        "kind": "pr",
-        "number": 163266,
-        "title": "refactor(slack): share chart and table fallback rendering",
-        "url": "https://github.com/openclaw/openclaw/pull/163266",
+        "number": 173069,
+        "title": "fix(gateway): avoid workspace waits for configured assistant names",
+        "url": "https://github.com/openclaw/openclaw/pull/173069",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-10-15T05:52:17Z"
+        "updatedAt": "2026-10-15T11:24:25Z"
       },
       {
         "kind": "pr",
-        "number": 172539,
-        "title": "fix: preserve automation management for queued owner messages",
-        "url": "https://github.com/openclaw/openclaw/pull/172539",
+        "number": 172951,
+        "title": "fix: show live waits for local model responses",
+        "url": "https://github.com/openclaw/openclaw/pull/172951",
         "state": "open",
-        "author": "johan-eilertsen",
-        "updatedAt": "2026-10-15T05:52:16Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-15T11:24:24Z"
+      },
+      {
+        "kind": "pr",
+        "number": 167421,
+        "title": "fix: restore PowerShell completion for quoted option values",
+        "url": "https://github.com/openclaw/openclaw/pull/167421",
+        "state": "closed",
+        "author": "LinzeShi",
+        "updatedAt": "2026-10-15T11:24:18Z"
       }
     ]
   }

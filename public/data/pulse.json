@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-15T11:24:40.773Z",
+  "generatedAt": "2026-10-15T16:57:49.401Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1516,17 +1516,17 @@
     },
     {
       "capturedOn": "2026-10-15",
-      "capturedAt": "2026-10-15T11:24:40.773Z",
-      "issueOpen": 6234,
-      "issueClosed": 53283,
-      "prOpen": 3318,
-      "prClosed": 107658,
-      "prMerged": 54928,
+      "capturedAt": "2026-10-15T16:57:49.401Z",
+      "issueOpen": 6243,
+      "issueClosed": 53316,
+      "prOpen": 3309,
+      "prClosed": 107854,
+      "prMerged": 55073,
       "workflowRuns": 40000,
-      "stars": 392060,
-      "forks": 82449,
+      "stars": 392098,
+      "forks": 82453,
       "subscribers": 1708,
-      "commits": 111168,
+      "commits": 111340,
       "contributors": 3589,
       "source": "github-actions",
       "approximateDate": false
@@ -2143,10 +2143,10 @@
     },
     {
       "capturedOn": "2026-10-15",
-      "stars": 392060,
-      "forks": 82449,
+      "stars": 392098,
+      "forks": 82453,
       "subscribers": 1708,
-      "commits": 111168,
+      "commits": 111340,
       "contributors": 3589
     }
   ],
@@ -2154,77 +2154,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 173077,
-        "title": "[Bug]: Cron failure alerts are silently dropped when the transport rejects before settling",
-        "url": "https://github.com/openclaw/openclaw/issues/173077",
+        "number": 48709,
+        "title": "Gemini 2.5 Pro: textSignature bloat + think tags + mixed text/tool causes session failures",
+        "url": "https://github.com/openclaw/openclaw/issues/48709",
         "state": "open",
-        "author": "Yolo521-bot",
-        "updatedAt": "2026-10-15T11:24:04Z"
+        "author": "jarvis-playrockets",
+        "updatedAt": "2026-10-15T16:57:34Z"
       },
       {
         "kind": "issue",
-        "number": 173076,
-        "title": "[Bug]: Skill upload lease-renewal heartbeat swallows renew failures and reports success",
-        "url": "https://github.com/openclaw/openclaw/issues/173076",
+        "number": 173172,
+        "title": "[Bug]: Control UI \"Gateway busy, retrying…\" page polls /healthz forever after a WebSocket drop but never re-attempts the WS handshake — only a manual reload recovers",
+        "url": "https://github.com/openclaw/openclaw/issues/173172",
         "state": "open",
-        "author": "Yolo521-bot",
-        "updatedAt": "2026-10-15T11:23:30Z"
+        "author": "fbec76",
+        "updatedAt": "2026-10-15T16:56:49Z"
+      },
+      {
+        "kind": "issue",
+        "number": 173308,
+        "title": "formatCliCommand mangles version-suffixed openclaw invocations when a container hint or profile is set",
+        "url": "https://github.com/openclaw/openclaw/issues/173308",
+        "state": "open",
+        "author": "YangManBOBO",
+        "updatedAt": "2026-10-15T16:56:24Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 172152,
-        "title": "fix: custom endpoint setup fails auth-less servers outside loopback, leaving half-applied provider config",
-        "url": "https://github.com/openclaw/openclaw/pull/172152",
-        "state": "open",
-        "author": "rubencu",
-        "updatedAt": "2026-10-15T11:24:31Z"
-      },
-      {
-        "kind": "pr",
-        "number": 173038,
-        "title": "fix: remote model catalogs stop refreshing on newer modalities",
-        "url": "https://github.com/openclaw/openclaw/pull/173038",
+        "number": 171806,
+        "title": "refactor(ui): render shared avatars and session decorations with Solid",
+        "url": "https://github.com/openclaw/openclaw/pull/171806",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-15T11:24:28Z"
+        "updatedAt": "2026-10-15T16:57:43Z"
       },
       {
         "kind": "pr",
-        "number": 167880,
-        "title": "fix(gateway): avoid startup restart loops while Tailscale needs login",
-        "url": "https://github.com/openclaw/openclaw/pull/167880",
-        "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-10-15T11:24:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 173069,
-        "title": "fix(gateway): avoid workspace waits for configured assistant names",
-        "url": "https://github.com/openclaw/openclaw/pull/173069",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-10-15T11:24:25Z"
-      },
-      {
-        "kind": "pr",
-        "number": 172951,
-        "title": "fix: show live waits for local model responses",
-        "url": "https://github.com/openclaw/openclaw/pull/172951",
+        "number": 117360,
+        "title": "fix(cli): preserve inherited TaskFlow command options",
+        "url": "https://github.com/openclaw/openclaw/pull/117360",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-15T11:24:24Z"
+        "updatedAt": "2026-10-15T16:57:34Z"
       },
       {
         "kind": "pr",
-        "number": 167421,
-        "title": "fix: restore PowerShell completion for quoted option values",
-        "url": "https://github.com/openclaw/openclaw/pull/167421",
+        "number": 170534,
+        "title": "fix: honor silent turn endings without fabricated answers",
+        "url": "https://github.com/openclaw/openclaw/pull/170534",
+        "state": "open",
+        "author": "obviyus",
+        "updatedAt": "2026-10-15T16:57:29Z"
+      },
+      {
+        "kind": "pr",
+        "number": 173295,
+        "title": "fix(github): avoid repeated avatar downloads for unchanged previews",
+        "url": "https://github.com/openclaw/openclaw/pull/173295",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-15T16:57:20Z"
+      },
+      {
+        "kind": "pr",
+        "number": 173309,
+        "title": "fix(cli): stop mangling version-suffixed invocations in command hints",
+        "url": "https://github.com/openclaw/openclaw/pull/173309",
+        "state": "open",
+        "author": "YangManBOBO",
+        "updatedAt": "2026-10-15T16:57:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 165692,
+        "title": "fix: WhatsApp final replies dropped after a plugin reload",
+        "url": "https://github.com/openclaw/openclaw/pull/165692",
         "state": "closed",
-        "author": "LinzeShi",
-        "updatedAt": "2026-10-15T11:24:18Z"
+        "author": "Jackten",
+        "updatedAt": "2026-10-15T16:57:13Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-16T04:27:58.260Z",
+  "generatedAt": "2026-10-16T09:46:13.683Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1533,18 +1533,18 @@
     },
     {
       "capturedOn": "2026-10-16",
-      "capturedAt": "2026-10-16T04:27:58.260Z",
-      "issueOpen": 6212,
-      "issueClosed": 53418,
-      "prOpen": 3259,
-      "prClosed": 108320,
-      "prMerged": 55483,
+      "capturedAt": "2026-10-16T09:46:13.683Z",
+      "issueOpen": 6191,
+      "issueClosed": 53463,
+      "prOpen": 3204,
+      "prClosed": 108624,
+      "prMerged": 55714,
       "workflowRuns": 40000,
-      "stars": 392131,
-      "forks": 82459,
+      "stars": 392148,
+      "forks": 82461,
       "subscribers": 1708,
-      "commits": 111795,
-      "contributors": 3601,
+      "commits": 112042,
+      "contributors": 3604,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2168,69 +2168,124 @@
     },
     {
       "capturedOn": "2026-10-16",
-      "stars": 392131,
-      "forks": 82459,
+      "stars": 392148,
+      "forks": 82461,
       "subscribers": 1708,
-      "commits": 111795,
-      "contributors": 3601
+      "commits": 112042,
+      "contributors": 3604
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 107218,
+        "title": "feature request: `chat.history` should support a visible-only filter so `limit` can count conversation messages instead of transcript rows",
+        "url": "https://github.com/openclaw/openclaw/issues/107218",
+        "state": "open",
+        "author": "rodja",
+        "updatedAt": "2026-10-16T09:46:02Z"
+      },
+      {
+        "kind": "issue",
+        "number": 106704,
+        "title": "[Bug]: sessions_yield on a subagent's first turn (no children, no wake source) silently finalizes the run as ok with an empty result — tool descriptions invite the misuse",
+        "url": "https://github.com/openclaw/openclaw/issues/106704",
+        "state": "open",
+        "author": "Cyb3rb1ade",
+        "updatedAt": "2026-10-16T09:46:01Z"
+      },
+      {
+        "kind": "issue",
+        "number": 106696,
+        "title": "ACP run-mode one-shots do not resume completed backend sessions",
+        "url": "https://github.com/openclaw/openclaw/issues/106696",
+        "state": "open",
+        "author": "henkterharmsel",
+        "updatedAt": "2026-10-16T09:45:56Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107082,
+        "title": "[Feature]: Support non-durable native dreaming mode / explicit phase controls",
+        "url": "https://github.com/openclaw/openclaw/issues/107082",
+        "state": "open",
+        "author": "jamesachurchill",
+        "updatedAt": "2026-10-16T09:45:54Z"
+      },
+      {
+        "kind": "issue",
+        "number": 106703,
+        "title": "Bug: browser screenshot fallback injects raw base64 into session, contaminating all subsequent tool results",
+        "url": "https://github.com/openclaw/openclaw/issues/106703",
+        "state": "open",
+        "author": "zfxl123",
+        "updatedAt": "2026-10-16T09:45:49Z"
+      },
+      {
+        "kind": "issue",
+        "number": 110702,
+        "title": "Codex app-server stall (item/completed, no turn/completed, recovery=none) still occurs on stable 2026.6.11; corroborates logs_2.sqlite bloat root cause (refs #84076 #89974 #71127)",
+        "url": "https://github.com/openclaw/openclaw/issues/110702",
+        "state": "open",
+        "author": "farrellyobvious",
+        "updatedAt": "2026-10-16T09:45:47Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 173798,
-        "title": "fix(reply): avoid missing-answer notices after streamed delivery",
-        "url": "https://github.com/openclaw/openclaw/pull/173798",
+        "number": 174067,
+        "title": "perf(memory): bound derived worker snapshot and pricing retention",
+        "url": "https://github.com/openclaw/openclaw/pull/174067",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-16T04:27:49Z"
+        "updatedAt": "2026-10-16T09:46:04Z"
       },
       {
         "kind": "pr",
-        "number": 173797,
-        "title": "fix(docs): align Swedish plugin guide navigation",
-        "url": "https://github.com/openclaw/openclaw/pull/173797",
+        "number": 174062,
+        "title": "refactor(codex): share lifecycle preflight fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/174062",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-10-16T09:46:02Z"
+      },
+      {
+        "kind": "pr",
+        "number": 174061,
+        "title": "chore: remove redundant production comments",
+        "url": "https://github.com/openclaw/openclaw/pull/174061",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-16T04:27:49Z"
+        "updatedAt": "2026-10-16T09:46:01Z"
       },
       {
         "kind": "pr",
-        "number": 173779,
-        "title": "fix(telegram): render lists cleanly in Control UI for rich replies (#173396)",
-        "url": "https://github.com/openclaw/openclaw/pull/173779",
+        "number": 157151,
+        "title": "fix(sqlite): preserve transaction outcomes when warnings throw",
+        "url": "https://github.com/openclaw/openclaw/pull/157151",
         "state": "open",
-        "author": "xuilen",
-        "updatedAt": "2026-10-16T04:27:44Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-10-16T09:45:47Z"
       },
       {
         "kind": "pr",
-        "number": 173731,
-        "title": "refactor: avoid redundant session bookkeeping reads",
-        "url": "https://github.com/openclaw/openclaw/pull/173731",
+        "number": 174066,
+        "title": "fix(ci): avoid draft validation and unrelated installer lanes",
+        "url": "https://github.com/openclaw/openclaw/pull/174066",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-16T04:27:43Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-10-16T09:45:40Z"
       },
       {
         "kind": "pr",
-        "number": 173669,
-        "title": "feat(plugins): default package installs to ClawHub",
-        "url": "https://github.com/openclaw/openclaw/pull/173669",
-        "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-10-16T04:27:43Z"
-      },
-      {
-        "kind": "pr",
-        "number": 173728,
-        "title": "refactor(ui): move new-session view lifecycles into Solid",
-        "url": "https://github.com/openclaw/openclaw/pull/173728",
+        "number": 174063,
+        "title": "refactor(agents): trust admitted facts and simplify metadata bookkeeping",
+        "url": "https://github.com/openclaw/openclaw/pull/174063",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-16T04:27:35Z"
+        "updatedAt": "2026-10-16T09:46:07Z"
       }
     ]
   }

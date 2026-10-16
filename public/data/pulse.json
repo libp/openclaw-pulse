@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-16T18:47:41.533Z",
+  "generatedAt": "2026-10-16T22:04:36.569Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1533,18 +1533,18 @@
     },
     {
       "capturedOn": "2026-10-16",
-      "capturedAt": "2026-10-16T18:47:41.533Z",
-      "issueOpen": 6199,
-      "issueClosed": 53511,
-      "prOpen": 3217,
-      "prClosed": 109029,
-      "prMerged": 56088,
+      "capturedAt": "2026-10-16T22:04:36.569Z",
+      "issueOpen": 6205,
+      "issueClosed": 53525,
+      "prOpen": 3235,
+      "prClosed": 109174,
+      "prMerged": 56221,
       "workflowRuns": 40000,
-      "stars": 392184,
+      "stars": 392192,
       "forks": 82461,
       "subscribers": 1707,
-      "commits": 112444,
-      "contributors": 3608,
+      "commits": 112586,
+      "contributors": 3611,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2168,51 +2168,52 @@
     },
     {
       "capturedOn": "2026-10-16",
-      "stars": 392184,
+      "stars": 392192,
       "forks": 82461,
       "subscribers": 1707,
-      "commits": 112444,
-      "contributors": 3608
+      "commits": 112586,
+      "contributors": 3611
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 174730,
+        "title": "[Bug]: Control UI fork of long conversation fails with size-limit toast and no recovery action",
+        "url": "https://github.com/openclaw/openclaw/issues/174730",
+        "state": "open",
+        "author": "hannesrudolph",
+        "updatedAt": "2026-10-16T22:03:52Z"
+      },
+      {
+        "kind": "issue",
+        "number": 174733,
+        "title": "[Bug]: OpenAI image generation is offered on Free ChatGPT plans but always fails with HTTP 400",
+        "url": "https://github.com/openclaw/openclaw/issues/174733",
+        "state": "open",
+        "author": "davisonio",
+        "updatedAt": "2026-10-16T22:03:04Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 174381,
-        "title": "refactor(system-agent): call real command owners directly",
-        "url": "https://github.com/openclaw/openclaw/pull/174381",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-10-16T18:47:34Z"
+        "number": 174736,
+        "title": "fix(ui): align keyboard shortcuts across menu rows",
+        "url": "https://github.com/openclaw/openclaw/pull/174736",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-10-16T22:04:30Z"
       },
       {
         "kind": "pr",
-        "number": 173337,
-        "title": "refactor(ui): trust canonical state owners (area 1)",
-        "url": "https://github.com/openclaw/openclaw/pull/173337",
+        "number": 174230,
+        "title": "refactor(state): simplify read and worker lease lifecycles",
+        "url": "https://github.com/openclaw/openclaw/pull/174230",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-16T18:47:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 170000,
-        "title": "feat(voice-call): add LiveKit SIP and native RTC provider",
-        "url": "https://github.com/openclaw/openclaw/pull/170000",
-        "state": "open",
-        "author": "evaldass",
-        "updatedAt": "2026-10-16T18:47:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 174539,
-        "title": "perf(streaming): avoid cumulative assistant text work per delta",
-        "url": "https://github.com/openclaw/openclaw/pull/174539",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-16T18:47:30Z"
+        "updatedAt": "2026-10-16T22:04:26Z"
       },
       {
         "kind": "pr",
@@ -2221,16 +2222,34 @@
         "url": "https://github.com/openclaw/openclaw/pull/174083",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-16T18:47:30Z"
+        "updatedAt": "2026-10-16T22:04:24Z"
       },
       {
         "kind": "pr",
-        "number": 173626,
-        "title": "fix(gateway): main thread blocks after sign-in, sign-out or plugin settings changes",
-        "url": "https://github.com/openclaw/openclaw/pull/173626",
+        "number": 174732,
+        "title": "fix(plugins): keep entry pairs aligned when rebuilding metadata",
+        "url": "https://github.com/openclaw/openclaw/pull/174732",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-10-16T18:47:24Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-10-16T22:04:23Z"
+      },
+      {
+        "kind": "pr",
+        "number": 174735,
+        "title": "fix(gateway): keep unavailable worker environments out of the admission budget",
+        "url": "https://github.com/openclaw/openclaw/pull/174735",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-16T22:04:22Z"
+      },
+      {
+        "kind": "pr",
+        "number": 174719,
+        "title": "refactor(agents): use execution error and cleanup owners directly",
+        "url": "https://github.com/openclaw/openclaw/pull/174719",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-16T22:04:19Z"
       }
     ]
   }

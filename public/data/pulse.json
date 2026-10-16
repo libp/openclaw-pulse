@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-16T09:46:13.683Z",
+  "generatedAt": "2026-10-16T14:49:50.704Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1533,18 +1533,18 @@
     },
     {
       "capturedOn": "2026-10-16",
-      "capturedAt": "2026-10-16T09:46:13.683Z",
-      "issueOpen": 6191,
-      "issueClosed": 53463,
-      "prOpen": 3204,
-      "prClosed": 108624,
-      "prMerged": 55714,
+      "capturedAt": "2026-10-16T14:49:50.704Z",
+      "issueOpen": 6188,
+      "issueClosed": 53492,
+      "prOpen": 3206,
+      "prClosed": 108855,
+      "prMerged": 55927,
       "workflowRuns": 40000,
-      "stars": 392148,
-      "forks": 82461,
-      "subscribers": 1708,
-      "commits": 112042,
-      "contributors": 3604,
+      "stars": 392169,
+      "forks": 82459,
+      "subscribers": 1707,
+      "commits": 112266,
+      "contributors": 3607,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2168,124 +2168,115 @@
     },
     {
       "capturedOn": "2026-10-16",
-      "stars": 392148,
-      "forks": 82461,
-      "subscribers": 1708,
-      "commits": 112042,
-      "contributors": 3604
+      "stars": 392169,
+      "forks": 82459,
+      "subscribers": 1707,
+      "commits": 112266,
+      "contributors": 3607
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 107218,
-        "title": "feature request: `chat.history` should support a visible-only filter so `limit` can count conversation messages instead of transcript rows",
-        "url": "https://github.com/openclaw/openclaw/issues/107218",
+        "number": 173952,
+        "title": "[Bug]: IMAP hook run with deliver: true ends status=error \"This operation was aborted\" after the reader finishes; same run is ok with deliver: false",
+        "url": "https://github.com/openclaw/openclaw/issues/173952",
         "state": "open",
-        "author": "rodja",
-        "updatedAt": "2026-10-16T09:46:02Z"
+        "author": "karljamoralin",
+        "updatedAt": "2026-10-16T14:49:42Z"
       },
       {
         "kind": "issue",
-        "number": 106704,
-        "title": "[Bug]: sessions_yield on a subagent's first turn (no children, no wake source) silently finalizes the run as ok with an empty result — tool descriptions invite the misuse",
-        "url": "https://github.com/openclaw/openclaw/issues/106704",
+        "number": 143524,
+        "title": "[Bug]: Agent SQLite WAL grows to 1.4–2.8 GB in days despite wal_autocheckpoint=1000; blocks gateway startup (Windows, 2026.9.2/9.3)",
+        "url": "https://github.com/openclaw/openclaw/issues/143524",
         "state": "open",
-        "author": "Cyb3rb1ade",
-        "updatedAt": "2026-10-16T09:46:01Z"
+        "author": "desksk",
+        "updatedAt": "2026-10-16T14:49:19Z"
       },
       {
         "kind": "issue",
-        "number": 106696,
-        "title": "ACP run-mode one-shots do not resume completed backend sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/106696",
+        "number": 174319,
+        "title": "Update failure: gateway-recovery-verification (2026.10.2)",
+        "url": "https://github.com/openclaw/openclaw/issues/174319",
         "state": "open",
-        "author": "henkterharmsel",
-        "updatedAt": "2026-10-16T09:45:56Z"
+        "author": "janetlaharnar-ux",
+        "updatedAt": "2026-10-16T14:48:46Z"
       },
       {
         "kind": "issue",
-        "number": 107082,
-        "title": "[Feature]: Support non-durable native dreaming mode / explicit phase controls",
-        "url": "https://github.com/openclaw/openclaw/issues/107082",
+        "number": 174326,
+        "title": "fix(cli): worktrees retire-snapshot --removed-at silently coerces invalid values",
+        "url": "https://github.com/openclaw/openclaw/issues/174326",
         "state": "open",
-        "author": "jamesachurchill",
-        "updatedAt": "2026-10-16T09:45:54Z"
+        "author": "YangManBOBO",
+        "updatedAt": "2026-10-16T14:48:39Z"
       },
       {
         "kind": "issue",
-        "number": 106703,
-        "title": "Bug: browser screenshot fallback injects raw base64 into session, contaminating all subsequent tool results",
-        "url": "https://github.com/openclaw/openclaw/issues/106703",
+        "number": 141295,
+        "title": "TTL or manual clear for interrupted/cancelled pending inputs — prevents model confusion (ref #140243)",
+        "url": "https://github.com/openclaw/openclaw/issues/141295",
         "state": "open",
-        "author": "zfxl123",
-        "updatedAt": "2026-10-16T09:45:49Z"
-      },
-      {
-        "kind": "issue",
-        "number": 110702,
-        "title": "Codex app-server stall (item/completed, no turn/completed, recovery=none) still occurs on stable 2026.6.11; corroborates logs_2.sqlite bloat root cause (refs #84076 #89974 #71127)",
-        "url": "https://github.com/openclaw/openclaw/issues/110702",
-        "state": "open",
-        "author": "farrellyobvious",
-        "updatedAt": "2026-10-16T09:45:47Z"
+        "author": "Pondsi",
+        "updatedAt": "2026-10-16T14:48:24Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 174067,
-        "title": "perf(memory): bound derived worker snapshot and pricing retention",
-        "url": "https://github.com/openclaw/openclaw/pull/174067",
+        "number": 174330,
+        "title": "refactor(logging): remove redundant native success traces",
+        "url": "https://github.com/openclaw/openclaw/pull/174330",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-16T09:46:04Z"
+        "updatedAt": "2026-10-16T14:49:39Z"
       },
       {
         "kind": "pr",
-        "number": 174062,
-        "title": "refactor(codex): share lifecycle preflight fixtures",
-        "url": "https://github.com/openclaw/openclaw/pull/174062",
+        "number": 138120,
+        "title": "fix(imap): deliver results in multi-channel setups",
+        "url": "https://github.com/openclaw/openclaw/pull/138120",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-10-16T09:46:02Z"
+        "author": "haiyu614",
+        "updatedAt": "2026-10-16T14:49:38Z"
       },
       {
         "kind": "pr",
-        "number": 174061,
-        "title": "chore: remove redundant production comments",
-        "url": "https://github.com/openclaw/openclaw/pull/174061",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-16T09:46:01Z"
-      },
-      {
-        "kind": "pr",
-        "number": 157151,
-        "title": "fix(sqlite): preserve transaction outcomes when warnings throw",
-        "url": "https://github.com/openclaw/openclaw/pull/157151",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-10-16T09:45:47Z"
-      },
-      {
-        "kind": "pr",
-        "number": 174066,
-        "title": "fix(ci): avoid draft validation and unrelated installer lanes",
-        "url": "https://github.com/openclaw/openclaw/pull/174066",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-10-16T09:45:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 174063,
-        "title": "refactor(agents): trust admitted facts and simplify metadata bookkeeping",
-        "url": "https://github.com/openclaw/openclaw/pull/174063",
+        "number": 174331,
+        "title": "test(gateway,plugins,ui): remove low-value tests (batch d174)",
+        "url": "https://github.com/openclaw/openclaw/pull/174331",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-16T09:46:07Z"
+        "updatedAt": "2026-10-16T14:49:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 174315,
+        "title": "feat(matrix): account-root state databases follow the selected engine",
+        "url": "https://github.com/openclaw/openclaw/pull/174315",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-16T14:49:22Z"
+      },
+      {
+        "kind": "pr",
+        "number": 174278,
+        "title": "fix(sessions): stop retrying replaced delivery endpoints on every restart",
+        "url": "https://github.com/openclaw/openclaw/pull/174278",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-16T14:49:15Z"
+      },
+      {
+        "kind": "pr",
+        "number": 174036,
+        "title": "perf: reduce database write amplification with bundled layouts",
+        "url": "https://github.com/openclaw/openclaw/pull/174036",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-16T14:48:59Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-16T14:49:50.704Z",
+  "generatedAt": "2026-10-16T18:47:41.533Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1533,18 +1533,18 @@
     },
     {
       "capturedOn": "2026-10-16",
-      "capturedAt": "2026-10-16T14:49:50.704Z",
-      "issueOpen": 6188,
-      "issueClosed": 53492,
-      "prOpen": 3206,
-      "prClosed": 108855,
-      "prMerged": 55927,
+      "capturedAt": "2026-10-16T18:47:41.533Z",
+      "issueOpen": 6199,
+      "issueClosed": 53511,
+      "prOpen": 3217,
+      "prClosed": 109029,
+      "prMerged": 56088,
       "workflowRuns": 40000,
-      "stars": 392169,
-      "forks": 82459,
+      "stars": 392184,
+      "forks": 82461,
       "subscribers": 1707,
-      "commits": 112266,
-      "contributors": 3607,
+      "commits": 112444,
+      "contributors": 3608,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2168,115 +2168,69 @@
     },
     {
       "capturedOn": "2026-10-16",
-      "stars": 392169,
-      "forks": 82459,
+      "stars": 392184,
+      "forks": 82461,
       "subscribers": 1707,
-      "commits": 112266,
-      "contributors": 3607
+      "commits": 112444,
+      "contributors": 3608
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 173952,
-        "title": "[Bug]: IMAP hook run with deliver: true ends status=error \"This operation was aborted\" after the reader finishes; same run is ok with deliver: false",
-        "url": "https://github.com/openclaw/openclaw/issues/173952",
-        "state": "open",
-        "author": "karljamoralin",
-        "updatedAt": "2026-10-16T14:49:42Z"
-      },
-      {
-        "kind": "issue",
-        "number": 143524,
-        "title": "[Bug]: Agent SQLite WAL grows to 1.4–2.8 GB in days despite wal_autocheckpoint=1000; blocks gateway startup (Windows, 2026.9.2/9.3)",
-        "url": "https://github.com/openclaw/openclaw/issues/143524",
-        "state": "open",
-        "author": "desksk",
-        "updatedAt": "2026-10-16T14:49:19Z"
-      },
-      {
-        "kind": "issue",
-        "number": 174319,
-        "title": "Update failure: gateway-recovery-verification (2026.10.2)",
-        "url": "https://github.com/openclaw/openclaw/issues/174319",
-        "state": "open",
-        "author": "janetlaharnar-ux",
-        "updatedAt": "2026-10-16T14:48:46Z"
-      },
-      {
-        "kind": "issue",
-        "number": 174326,
-        "title": "fix(cli): worktrees retire-snapshot --removed-at silently coerces invalid values",
-        "url": "https://github.com/openclaw/openclaw/issues/174326",
-        "state": "open",
-        "author": "YangManBOBO",
-        "updatedAt": "2026-10-16T14:48:39Z"
-      },
-      {
-        "kind": "issue",
-        "number": 141295,
-        "title": "TTL or manual clear for interrupted/cancelled pending inputs — prevents model confusion (ref #140243)",
-        "url": "https://github.com/openclaw/openclaw/issues/141295",
-        "state": "open",
-        "author": "Pondsi",
-        "updatedAt": "2026-10-16T14:48:24Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 174330,
-        "title": "refactor(logging): remove redundant native success traces",
-        "url": "https://github.com/openclaw/openclaw/pull/174330",
-        "state": "open",
+        "number": 174381,
+        "title": "refactor(system-agent): call real command owners directly",
+        "url": "https://github.com/openclaw/openclaw/pull/174381",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-10-16T14:49:39Z"
+        "updatedAt": "2026-10-16T18:47:34Z"
       },
       {
         "kind": "pr",
-        "number": 138120,
-        "title": "fix(imap): deliver results in multi-channel setups",
-        "url": "https://github.com/openclaw/openclaw/pull/138120",
+        "number": 173337,
+        "title": "refactor(ui): trust canonical state owners (area 1)",
+        "url": "https://github.com/openclaw/openclaw/pull/173337",
         "state": "open",
-        "author": "haiyu614",
-        "updatedAt": "2026-10-16T14:49:38Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-16T18:47:32Z"
       },
       {
         "kind": "pr",
-        "number": 174331,
-        "title": "test(gateway,plugins,ui): remove low-value tests (batch d174)",
-        "url": "https://github.com/openclaw/openclaw/pull/174331",
+        "number": 170000,
+        "title": "feat(voice-call): add LiveKit SIP and native RTC provider",
+        "url": "https://github.com/openclaw/openclaw/pull/170000",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-16T14:49:33Z"
+        "author": "evaldass",
+        "updatedAt": "2026-10-16T18:47:32Z"
       },
       {
         "kind": "pr",
-        "number": 174315,
-        "title": "feat(matrix): account-root state databases follow the selected engine",
-        "url": "https://github.com/openclaw/openclaw/pull/174315",
+        "number": 174539,
+        "title": "perf(streaming): avoid cumulative assistant text work per delta",
+        "url": "https://github.com/openclaw/openclaw/pull/174539",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-16T14:49:22Z"
+        "updatedAt": "2026-10-16T18:47:30Z"
       },
       {
         "kind": "pr",
-        "number": 174278,
-        "title": "fix(sessions): stop retrying replaced delivery endpoints on every restart",
-        "url": "https://github.com/openclaw/openclaw/pull/174278",
+        "number": 174083,
+        "title": "refactor(gateway): simplify lifecycle bookkeeping owners",
+        "url": "https://github.com/openclaw/openclaw/pull/174083",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-16T14:49:15Z"
+        "updatedAt": "2026-10-16T18:47:30Z"
       },
       {
         "kind": "pr",
-        "number": 174036,
-        "title": "perf: reduce database write amplification with bundled layouts",
-        "url": "https://github.com/openclaw/openclaw/pull/174036",
+        "number": 173626,
+        "title": "fix(gateway): main thread blocks after sign-in, sign-out or plugin settings changes",
+        "url": "https://github.com/openclaw/openclaw/pull/173626",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-16T14:48:59Z"
+        "author": "obviyus",
+        "updatedAt": "2026-10-16T18:47:24Z"
       }
     ]
   }

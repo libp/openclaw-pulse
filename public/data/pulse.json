@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-17T17:08:30.366Z",
+  "generatedAt": "2026-10-17T19:22:16.893Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1550,17 +1550,17 @@
     },
     {
       "capturedOn": "2026-10-17",
-      "capturedAt": "2026-10-17T17:08:30.366Z",
-      "issueOpen": 6200,
-      "issueClosed": 53644,
-      "prOpen": 3167,
-      "prClosed": 110103,
-      "prMerged": 56997,
+      "capturedAt": "2026-10-17T19:22:16.893Z",
+      "issueOpen": 6198,
+      "issueClosed": 53657,
+      "prOpen": 3171,
+      "prClosed": 110163,
+      "prMerged": 57051,
       "workflowRuns": 40000,
-      "stars": 392272,
-      "forks": 82457,
+      "stars": 392279,
+      "forks": 82462,
       "subscribers": 1707,
-      "commits": 113430,
+      "commits": 113488,
       "contributors": 3616,
       "source": "github-actions",
       "approximateDate": false
@@ -2193,10 +2193,10 @@
     },
     {
       "capturedOn": "2026-10-17",
-      "stars": 392272,
-      "forks": 82457,
+      "stars": 392279,
+      "forks": 82462,
       "subscribers": 1707,
-      "commits": 113430,
+      "commits": 113488,
       "contributors": 3616
     }
   ],
@@ -2204,113 +2204,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 118774,
-        "title": "A spawned sub-agent cannot honor its own configured thinking level",
-        "url": "https://github.com/openclaw/openclaw/issues/118774",
+        "number": 175791,
+        "title": "Update failure: global-install-failed (2026.9.4)",
+        "url": "https://github.com/openclaw/openclaw/issues/175791",
         "state": "open",
-        "author": "aleps001",
-        "updatedAt": "2026-10-17T17:08:17Z"
+        "author": "sigiunison",
+        "updatedAt": "2026-10-17T19:21:53Z"
       },
       {
         "kind": "issue",
-        "number": 118793,
-        "title": "Claude CLI \"session limit\" error dies with surface_error instead of triggering the model fallback chain",
-        "url": "https://github.com/openclaw/openclaw/issues/118793",
+        "number": 119707,
+        "title": "[Feature]: Same-provider auth profile rotation for media generation tools (image/video) on rate-limit errors",
+        "url": "https://github.com/openclaw/openclaw/issues/119707",
         "state": "open",
-        "author": "germankovacevic-lab",
-        "updatedAt": "2026-10-17T17:07:51Z"
+        "author": "tsume-workflow",
+        "updatedAt": "2026-10-17T19:20:35Z"
       },
       {
         "kind": "issue",
-        "number": 118673,
-        "title": "`model.completed` trajectory event omits assistant `stopReason`, making silent truncation undiagnosable",
-        "url": "https://github.com/openclaw/openclaw/issues/118673",
+        "number": 119711,
+        "title": "[Bug]: Intermittently degraded primary is retried across turns despite cooldown state",
+        "url": "https://github.com/openclaw/openclaw/issues/119711",
         "state": "open",
-        "author": "markcallow-jpg",
-        "updatedAt": "2026-10-17T17:07:35Z"
+        "author": "rishitamrakar",
+        "updatedAt": "2026-10-17T19:20:31Z"
       },
       {
         "kind": "issue",
-        "number": 118560,
-        "title": "[Bug]: WebChat canvas hides earlier messages after main session reset",
-        "url": "https://github.com/openclaw/openclaw/issues/118560",
+        "number": 119720,
+        "title": "Synchronous agent persistence and transcript maintenance block the Gateway event loop at scale",
+        "url": "https://github.com/openclaw/openclaw/issues/119720",
         "state": "open",
-        "author": "RAnnaars",
-        "updatedAt": "2026-10-17T17:07:32Z"
-      },
-      {
-        "kind": "issue",
-        "number": 118490,
-        "title": "[Feature]: Android: Add fullscreen chat mode (hide tabs/chrome, chat content + input only)",
-        "url": "https://github.com/openclaw/openclaw/issues/118490",
-        "state": "open",
-        "author": "FkyBird1982",
-        "updatedAt": "2026-10-17T17:07:29Z"
-      },
-      {
-        "kind": "issue",
-        "number": 118705,
-        "title": "[Bug]: sessions.patch stamps every model override as modelOverrideSource \"user\", disabling failover, heartbeat self-heal, and reset clearing",
-        "url": "https://github.com/openclaw/openclaw/issues/118705",
-        "state": "open",
-        "author": "trevorotts1",
-        "updatedAt": "2026-10-17T17:07:14Z"
+        "author": "todddickerson",
+        "updatedAt": "2026-10-17T19:20:11Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 174046,
-        "title": "fix(ui): keep panels and terminals through reconnects",
-        "url": "https://github.com/openclaw/openclaw/pull/174046",
+        "number": 175729,
+        "title": "feat(deepseek): search the web with the standalone Search API",
+        "url": "https://github.com/openclaw/openclaw/pull/175729",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-10-17T19:22:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 175779,
+        "title": "test(agents,gateway,channels): remove low-value tests (batch d233)",
+        "url": "https://github.com/openclaw/openclaw/pull/175779",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-17T17:08:16Z"
+        "updatedAt": "2026-10-17T19:22:00Z"
       },
       {
         "kind": "pr",
-        "number": 175709,
-        "title": "fix(daemon): retain native errors through systemd diagnostic fallback",
-        "url": "https://github.com/openclaw/openclaw/pull/175709",
+        "number": 175655,
+        "title": "fix(cli): interactive setup works on PostgreSQL",
+        "url": "https://github.com/openclaw/openclaw/pull/175655",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-17T17:08:07Z"
+        "updatedAt": "2026-10-17T19:21:57Z"
       },
       {
         "kind": "pr",
-        "number": 175638,
-        "title": "fix: managed media E2E races streaming retirement",
-        "url": "https://github.com/openclaw/openclaw/pull/175638",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-17T17:08:07Z"
-      },
-      {
-        "kind": "pr",
-        "number": 175715,
-        "title": "refactor(test): remove dead sessions CLI fixture branches",
-        "url": "https://github.com/openclaw/openclaw/pull/175715",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-10-17T17:08:05Z"
-      },
-      {
-        "kind": "pr",
-        "number": 175604,
-        "title": "refactor(subagents): simplify prepared registry postimages",
-        "url": "https://github.com/openclaw/openclaw/pull/175604",
+        "number": 175780,
+        "title": "refactor(test): remove dead Startup inventory fixture branches",
+        "url": "https://github.com/openclaw/openclaw/pull/175780",
         "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-10-17T17:07:54Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-10-17T19:21:50Z"
       },
       {
         "kind": "pr",
-        "number": 175679,
-        "title": "refactor(ui): publish chat metadata without redraw callbacks",
-        "url": "https://github.com/openclaw/openclaw/pull/175679",
+        "number": 175732,
+        "title": "fix: refresh SQLite schema snapshots and stabilize Bun tests",
+        "url": "https://github.com/openclaw/openclaw/pull/175732",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-17T17:07:40Z"
+        "updatedAt": "2026-10-17T19:21:49Z"
+      },
+      {
+        "kind": "pr",
+        "number": 175792,
+        "title": "refactor(ai): retire obsolete Bun environment recovery",
+        "url": "https://github.com/openclaw/openclaw/pull/175792",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-17T19:21:48Z"
       }
     ]
   }

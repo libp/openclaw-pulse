@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-17T00:27:12.912Z",
+  "generatedAt": "2026-10-17T17:08:30.366Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1550,18 +1550,18 @@
     },
     {
       "capturedOn": "2026-10-17",
-      "capturedAt": "2026-10-17T00:27:12.912Z",
-      "issueOpen": 6201,
-      "issueClosed": 53538,
-      "prOpen": 3234,
-      "prClosed": 109312,
-      "prMerged": 56341,
+      "capturedAt": "2026-10-17T17:08:30.366Z",
+      "issueOpen": 6200,
+      "issueClosed": 53644,
+      "prOpen": 3167,
+      "prClosed": 110103,
+      "prMerged": 56997,
       "workflowRuns": 40000,
-      "stars": 392198,
-      "forks": 82458,
+      "stars": 392272,
+      "forks": 82457,
       "subscribers": 1707,
-      "commits": 112713,
-      "contributors": 3612,
+      "commits": 113430,
+      "contributors": 3616,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2193,79 +2193,124 @@
     },
     {
       "capturedOn": "2026-10-17",
-      "stars": 392198,
-      "forks": 82458,
+      "stars": 392272,
+      "forks": 82457,
       "subscribers": 1707,
-      "commits": 112713,
-      "contributors": 3612
+      "commits": 113430,
+      "contributors": 3616
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 174879,
-        "title": "[Bug]: Android Talk ends agent runs after 30 seconds and never speaks slower answers",
-        "url": "https://github.com/openclaw/openclaw/issues/174879",
+        "number": 118774,
+        "title": "A spawned sub-agent cannot honor its own configured thinking level",
+        "url": "https://github.com/openclaw/openclaw/issues/118774",
         "state": "open",
-        "author": "masatohoshino",
-        "updatedAt": "2026-10-17T00:25:21Z"
+        "author": "aleps001",
+        "updatedAt": "2026-10-17T17:08:17Z"
+      },
+      {
+        "kind": "issue",
+        "number": 118793,
+        "title": "Claude CLI \"session limit\" error dies with surface_error instead of triggering the model fallback chain",
+        "url": "https://github.com/openclaw/openclaw/issues/118793",
+        "state": "open",
+        "author": "germankovacevic-lab",
+        "updatedAt": "2026-10-17T17:07:51Z"
+      },
+      {
+        "kind": "issue",
+        "number": 118673,
+        "title": "`model.completed` trajectory event omits assistant `stopReason`, making silent truncation undiagnosable",
+        "url": "https://github.com/openclaw/openclaw/issues/118673",
+        "state": "open",
+        "author": "markcallow-jpg",
+        "updatedAt": "2026-10-17T17:07:35Z"
+      },
+      {
+        "kind": "issue",
+        "number": 118560,
+        "title": "[Bug]: WebChat canvas hides earlier messages after main session reset",
+        "url": "https://github.com/openclaw/openclaw/issues/118560",
+        "state": "open",
+        "author": "RAnnaars",
+        "updatedAt": "2026-10-17T17:07:32Z"
+      },
+      {
+        "kind": "issue",
+        "number": 118490,
+        "title": "[Feature]: Android: Add fullscreen chat mode (hide tabs/chrome, chat content + input only)",
+        "url": "https://github.com/openclaw/openclaw/issues/118490",
+        "state": "open",
+        "author": "FkyBird1982",
+        "updatedAt": "2026-10-17T17:07:29Z"
+      },
+      {
+        "kind": "issue",
+        "number": 118705,
+        "title": "[Bug]: sessions.patch stamps every model override as modelOverrideSource \"user\", disabling failover, heartbeat self-heal, and reset clearing",
+        "url": "https://github.com/openclaw/openclaw/issues/118705",
+        "state": "open",
+        "author": "trevorotts1",
+        "updatedAt": "2026-10-17T17:07:14Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 174884,
-        "title": "fix(telegram): a reply to an image sent as a file reaches the agent as an unsupported document",
-        "url": "https://github.com/openclaw/openclaw/pull/174884",
+        "number": 174046,
+        "title": "fix(ui): keep panels and terminals through reconnects",
+        "url": "https://github.com/openclaw/openclaw/pull/174046",
         "state": "open",
-        "author": "amittell",
-        "updatedAt": "2026-10-17T00:27:06Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-17T17:08:16Z"
       },
       {
         "kind": "pr",
-        "number": 174874,
-        "title": "perf(memory): batch chunk writes across indexed sources",
-        "url": "https://github.com/openclaw/openclaw/pull/174874",
+        "number": 175709,
+        "title": "fix(daemon): retain native errors through systemd diagnostic fallback",
+        "url": "https://github.com/openclaw/openclaw/pull/175709",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-17T00:26:59Z"
+        "updatedAt": "2026-10-17T17:08:07Z"
       },
       {
         "kind": "pr",
-        "number": 174855,
-        "title": "fix(subagents): legacy results block reply recovery after restarts",
-        "url": "https://github.com/openclaw/openclaw/pull/174855",
+        "number": 175638,
+        "title": "fix: managed media E2E races streaming retirement",
+        "url": "https://github.com/openclaw/openclaw/pull/175638",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-17T00:27:06Z"
+        "updatedAt": "2026-10-17T17:08:07Z"
       },
       {
         "kind": "pr",
-        "number": 174867,
-        "title": "fix(update): prevent missing-module failures during source updates",
-        "url": "https://github.com/openclaw/openclaw/pull/174867",
+        "number": 175715,
+        "title": "refactor(test): remove dead sessions CLI fixture branches",
+        "url": "https://github.com/openclaw/openclaw/pull/175715",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-17T00:27:07Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-10-17T17:08:05Z"
       },
       {
         "kind": "pr",
-        "number": 174859,
-        "title": "refactor: centralize small helper owners and core callers",
-        "url": "https://github.com/openclaw/openclaw/pull/174859",
-        "state": "open",
+        "number": 175604,
+        "title": "refactor(subagents): simplify prepared registry postimages",
+        "url": "https://github.com/openclaw/openclaw/pull/175604",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-10-17T00:26:52Z"
+        "updatedAt": "2026-10-17T17:07:54Z"
       },
       {
         "kind": "pr",
-        "number": 174685,
-        "title": "perf(control-ui): share artifact source downloads",
-        "url": "https://github.com/openclaw/openclaw/pull/174685",
+        "number": 175679,
+        "title": "refactor(ui): publish chat metadata without redraw callbacks",
+        "url": "https://github.com/openclaw/openclaw/pull/175679",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-17T00:26:52Z"
+        "updatedAt": "2026-10-17T17:07:40Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-16T22:04:36.569Z",
+  "generatedAt": "2026-10-17T00:27:12.912Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1547,6 +1547,23 @@
       "contributors": 3611,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-17",
+      "capturedAt": "2026-10-17T00:27:12.912Z",
+      "issueOpen": 6201,
+      "issueClosed": 53538,
+      "prOpen": 3234,
+      "prClosed": 109312,
+      "prMerged": 56341,
+      "workflowRuns": 40000,
+      "stars": 392198,
+      "forks": 82458,
+      "subscribers": 1707,
+      "commits": 112713,
+      "contributors": 3612,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2173,83 +2190,82 @@
       "subscribers": 1707,
       "commits": 112586,
       "contributors": 3611
+    },
+    {
+      "capturedOn": "2026-10-17",
+      "stars": 392198,
+      "forks": 82458,
+      "subscribers": 1707,
+      "commits": 112713,
+      "contributors": 3612
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 174730,
-        "title": "[Bug]: Control UI fork of long conversation fails with size-limit toast and no recovery action",
-        "url": "https://github.com/openclaw/openclaw/issues/174730",
+        "number": 174879,
+        "title": "[Bug]: Android Talk ends agent runs after 30 seconds and never speaks slower answers",
+        "url": "https://github.com/openclaw/openclaw/issues/174879",
         "state": "open",
-        "author": "hannesrudolph",
-        "updatedAt": "2026-10-16T22:03:52Z"
-      },
-      {
-        "kind": "issue",
-        "number": 174733,
-        "title": "[Bug]: OpenAI image generation is offered on Free ChatGPT plans but always fails with HTTP 400",
-        "url": "https://github.com/openclaw/openclaw/issues/174733",
-        "state": "open",
-        "author": "davisonio",
-        "updatedAt": "2026-10-16T22:03:04Z"
+        "author": "masatohoshino",
+        "updatedAt": "2026-10-17T00:25:21Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 174736,
-        "title": "fix(ui): align keyboard shortcuts across menu rows",
-        "url": "https://github.com/openclaw/openclaw/pull/174736",
+        "number": 174884,
+        "title": "fix(telegram): a reply to an image sent as a file reaches the agent as an unsupported document",
+        "url": "https://github.com/openclaw/openclaw/pull/174884",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-10-16T22:04:30Z"
+        "author": "amittell",
+        "updatedAt": "2026-10-17T00:27:06Z"
       },
       {
         "kind": "pr",
-        "number": 174230,
-        "title": "refactor(state): simplify read and worker lease lifecycles",
-        "url": "https://github.com/openclaw/openclaw/pull/174230",
+        "number": 174874,
+        "title": "perf(memory): batch chunk writes across indexed sources",
+        "url": "https://github.com/openclaw/openclaw/pull/174874",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-16T22:04:26Z"
+        "updatedAt": "2026-10-17T00:26:59Z"
       },
       {
         "kind": "pr",
-        "number": 174083,
-        "title": "refactor(gateway): simplify lifecycle bookkeeping owners",
-        "url": "https://github.com/openclaw/openclaw/pull/174083",
+        "number": 174855,
+        "title": "fix(subagents): legacy results block reply recovery after restarts",
+        "url": "https://github.com/openclaw/openclaw/pull/174855",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-16T22:04:24Z"
+        "updatedAt": "2026-10-17T00:27:06Z"
       },
       {
         "kind": "pr",
-        "number": 174732,
-        "title": "fix(plugins): keep entry pairs aligned when rebuilding metadata",
-        "url": "https://github.com/openclaw/openclaw/pull/174732",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-10-16T22:04:23Z"
-      },
-      {
-        "kind": "pr",
-        "number": 174735,
-        "title": "fix(gateway): keep unavailable worker environments out of the admission budget",
-        "url": "https://github.com/openclaw/openclaw/pull/174735",
+        "number": 174867,
+        "title": "fix(update): prevent missing-module failures during source updates",
+        "url": "https://github.com/openclaw/openclaw/pull/174867",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-16T22:04:22Z"
+        "updatedAt": "2026-10-17T00:27:07Z"
       },
       {
         "kind": "pr",
-        "number": 174719,
-        "title": "refactor(agents): use execution error and cleanup owners directly",
-        "url": "https://github.com/openclaw/openclaw/pull/174719",
+        "number": 174859,
+        "title": "refactor: centralize small helper owners and core callers",
+        "url": "https://github.com/openclaw/openclaw/pull/174859",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-16T22:04:19Z"
+        "updatedAt": "2026-10-17T00:26:52Z"
+      },
+      {
+        "kind": "pr",
+        "number": 174685,
+        "title": "perf(control-ui): share artifact source downloads",
+        "url": "https://github.com/openclaw/openclaw/pull/174685",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-17T00:26:52Z"
       }
     ]
   }

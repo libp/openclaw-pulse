@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-18T04:28:12.444Z",
+  "generatedAt": "2026-10-18T20:38:55.845Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1567,18 +1567,18 @@
     },
     {
       "capturedOn": "2026-10-18",
-      "capturedAt": "2026-10-18T04:28:12.444Z",
-      "issueOpen": 6195,
-      "issueClosed": 53713,
-      "prOpen": 3162,
-      "prClosed": 110390,
-      "prMerged": 57256,
+      "capturedAt": "2026-10-18T20:38:55.845Z",
+      "issueOpen": 6228,
+      "issueClosed": 53779,
+      "prOpen": 3245,
+      "prClosed": 110589,
+      "prMerged": 57407,
       "workflowRuns": 40000,
-      "stars": 392298,
-      "forks": 82459,
+      "stars": 392382,
+      "forks": 82480,
       "subscribers": 1708,
-      "commits": 113712,
-      "contributors": 3616,
+      "commits": 113870,
+      "contributors": 3618,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2218,124 +2218,69 @@
     },
     {
       "capturedOn": "2026-10-18",
-      "stars": 392298,
-      "forks": 82459,
+      "stars": 392382,
+      "forks": 82480,
       "subscribers": 1708,
-      "commits": 113712,
-      "contributors": 3616
+      "commits": 113870,
+      "contributors": 3618
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 126149,
-        "title": "pdf tool: imageModel fallback is not capability-checked - a non-PDF vision model silently breaks PDF reading",
-        "url": "https://github.com/openclaw/openclaw/issues/126149",
-        "state": "open",
-        "author": "geekforlife",
-        "updatedAt": "2026-10-18T04:27:06Z"
-      },
-      {
-        "kind": "issue",
-        "number": 126246,
-        "title": "[Bug]: Telegram durable outbound deliveries remain stuck in send_attempt_started and are lost on restart",
-        "url": "https://github.com/openclaw/openclaw/issues/126246",
-        "state": "open",
-        "author": "MAG-Linares-Andalucia",
-        "updatedAt": "2026-10-18T04:26:54Z"
-      },
-      {
-        "kind": "issue",
-        "number": 126227,
-        "title": "[Bug]: `toRetryError` declares a return type of `Error` but `Object.assign` lets an own `__proto__` key strip the Error identity",
-        "url": "https://github.com/openclaw/openclaw/issues/126227",
-        "state": "open",
-        "author": "RabbitDong-on",
-        "updatedAt": "2026-10-18T04:26:42Z"
-      },
-      {
-        "kind": "issue",
-        "number": 125910,
-        "title": "[Bug]: Codex app-server-thread-bindings namespace hard-fails all runs at hardcoded 50k-row cap (reject-new, no TTL, no config) under one-shot OpenResponses workloads",
-        "url": "https://github.com/openclaw/openclaw/issues/125910",
-        "state": "open",
-        "author": "chenjackle45",
-        "updatedAt": "2026-10-18T04:26:31Z"
-      },
-      {
-        "kind": "issue",
-        "number": 126012,
-        "title": "Feature: pre-turn context gate — forced /compact at configurable threshold before model submission",
-        "url": "https://github.com/openclaw/openclaw/issues/126012",
-        "state": "open",
-        "author": "vanmurray-hub",
-        "updatedAt": "2026-10-18T04:26:28Z"
-      },
-      {
-        "kind": "issue",
-        "number": 176063,
-        "title": "doctor/update: plugin npm-root walks enumerate stale generation trees — O(all roots) not O(active plugins); slow doctor on plugin-heavy installs",
-        "url": "https://github.com/openclaw/openclaw/issues/176063",
-        "state": "open",
-        "author": "patelmm79",
-        "updatedAt": "2026-10-18T04:26:26Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 176058,
-        "title": "fix(test): restore MCP App conformance mounting",
-        "url": "https://github.com/openclaw/openclaw/pull/176058",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-10-18T04:27:51Z"
-      },
-      {
-        "kind": "pr",
-        "number": 174152,
-        "title": "feat(android): photo + voice note keep one message shape through send and transcription",
-        "url": "https://github.com/openclaw/openclaw/pull/174152",
-        "state": "open",
-        "author": "dankarization",
-        "updatedAt": "2026-10-18T04:27:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 101441,
-        "title": "fix(zalouser): sanitize outbound tool traces",
-        "url": "https://github.com/openclaw/openclaw/pull/101441",
-        "state": "open",
-        "author": "clawSean",
-        "updatedAt": "2026-10-18T04:26:51Z"
-      },
-      {
-        "kind": "pr",
-        "number": 157625,
-        "title": "feat(streaming): allow a separate command progress limit",
-        "url": "https://github.com/openclaw/openclaw/pull/157625",
-        "state": "open",
-        "author": "clawSean",
-        "updatedAt": "2026-10-18T04:26:49Z"
-      },
-      {
-        "kind": "pr",
-        "number": 176038,
-        "title": "fix(update): never publish over a live Gateway when service probes fail",
-        "url": "https://github.com/openclaw/openclaw/pull/176038",
+        "number": 176449,
+        "title": "refactor(ui): own tooltip and lightbox interaction lifetimes",
+        "url": "https://github.com/openclaw/openclaw/pull/176449",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-18T04:26:08Z"
+        "updatedAt": "2026-10-18T20:38:48Z"
       },
       {
         "kind": "pr",
-        "number": 176060,
-        "title": "fix(ui): let MCP apps save before frame teardown",
-        "url": "https://github.com/openclaw/openclaw/pull/176060",
-        "state": "closed",
+        "number": 176408,
+        "title": "refactor(browser): remove unselected private upload and screenshot options",
+        "url": "https://github.com/openclaw/openclaw/pull/176408",
+        "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-18T04:25:30Z"
+        "updatedAt": "2026-10-18T20:38:47Z"
+      },
+      {
+        "kind": "pr",
+        "number": 176392,
+        "title": "refactor(ui): centralize control lifetimes and register focus targets",
+        "url": "https://github.com/openclaw/openclaw/pull/176392",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-18T20:38:47Z"
+      },
+      {
+        "kind": "pr",
+        "number": 176328,
+        "title": "fix(security): avoid host-env scanner false positives on comparisons",
+        "url": "https://github.com/openclaw/openclaw/pull/176328",
+        "state": "open",
+        "author": "TheRealUnknownSoldier",
+        "updatedAt": "2026-10-18T20:38:47Z"
+      },
+      {
+        "kind": "pr",
+        "number": 175107,
+        "title": "fix: clean up Docker MCP containers after disconnects and crashes",
+        "url": "https://github.com/openclaw/openclaw/pull/175107",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-18T20:38:47Z"
+      },
+      {
+        "kind": "pr",
+        "number": 176450,
+        "title": "perf(subagents): omit redundant registry writes and transaction envelopes",
+        "url": "https://github.com/openclaw/openclaw/pull/176450",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-18T20:38:45Z"
       }
     ]
   }

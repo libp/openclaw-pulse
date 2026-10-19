@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-18T20:38:55.845Z",
+  "generatedAt": "2026-10-19T01:14:08.064Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1581,6 +1581,23 @@
       "contributors": 3618,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-19",
+      "capturedAt": "2026-10-19T01:14:08.064Z",
+      "issueOpen": 6227,
+      "issueClosed": 53797,
+      "prOpen": 3281,
+      "prClosed": 110820,
+      "prMerged": 57620,
+      "workflowRuns": 40000,
+      "stars": 392401,
+      "forks": 82485,
+      "subscribers": 1708,
+      "commits": 114092,
+      "contributors": 3620,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2223,6 +2240,14 @@
       "subscribers": 1708,
       "commits": 113870,
       "contributors": 3618
+    },
+    {
+      "capturedOn": "2026-10-19",
+      "stars": 392401,
+      "forks": 82485,
+      "subscribers": 1708,
+      "commits": 114092,
+      "contributors": 3620
     }
   ],
   "activity": {
@@ -2230,57 +2255,57 @@
     "prs": [
       {
         "kind": "pr",
-        "number": 176449,
-        "title": "refactor(ui): own tooltip and lightbox interaction lifetimes",
-        "url": "https://github.com/openclaw/openclaw/pull/176449",
+        "number": 176621,
+        "title": "refactor(gateway): let the session patch own initial reuse",
+        "url": "https://github.com/openclaw/openclaw/pull/176621",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-18T20:38:48Z"
+        "updatedAt": "2026-10-19T01:13:57Z"
       },
       {
         "kind": "pr",
-        "number": 176408,
-        "title": "refactor(browser): remove unselected private upload and screenshot options",
-        "url": "https://github.com/openclaw/openclaw/pull/176408",
+        "number": 176574,
+        "title": "refactor(ui): own shell lifetimes and native host references",
+        "url": "https://github.com/openclaw/openclaw/pull/176574",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-18T20:38:47Z"
+        "updatedAt": "2026-10-19T01:13:53Z"
       },
       {
         "kind": "pr",
-        "number": 176392,
-        "title": "refactor(ui): centralize control lifetimes and register focus targets",
-        "url": "https://github.com/openclaw/openclaw/pull/176392",
+        "number": 176734,
+        "title": "refactor(ui): use mount lifetime for Agents Home",
+        "url": "https://github.com/openclaw/openclaw/pull/176734",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-18T20:38:47Z"
+        "updatedAt": "2026-10-19T01:14:01Z"
       },
       {
         "kind": "pr",
-        "number": 176328,
-        "title": "fix(security): avoid host-env scanner false positives on comparisons",
-        "url": "https://github.com/openclaw/openclaw/pull/176328",
+        "number": 176721,
+        "title": "perf(state): reuse cold admission reads",
+        "url": "https://github.com/openclaw/openclaw/pull/176721",
         "state": "open",
-        "author": "TheRealUnknownSoldier",
-        "updatedAt": "2026-10-18T20:38:47Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-19T01:13:45Z"
       },
       {
         "kind": "pr",
-        "number": 175107,
-        "title": "fix: clean up Docker MCP containers after disconnects and crashes",
-        "url": "https://github.com/openclaw/openclaw/pull/175107",
+        "number": 176535,
+        "title": "fix: show delegated task PRs in session previews",
+        "url": "https://github.com/openclaw/openclaw/pull/176535",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-18T20:38:47Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-10-19T01:13:42Z"
       },
       {
         "kind": "pr",
-        "number": 176450,
-        "title": "perf(subagents): omit redundant registry writes and transaction envelopes",
-        "url": "https://github.com/openclaw/openclaw/pull/176450",
+        "number": 176716,
+        "title": "refactor(ui): use owners for login focus and portal updates",
+        "url": "https://github.com/openclaw/openclaw/pull/176716",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-18T20:38:45Z"
+        "updatedAt": "2026-10-19T01:13:39Z"
       }
     ]
   }

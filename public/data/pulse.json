@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-19T13:09:48.147Z",
+  "generatedAt": "2026-10-19T19:19:09.518Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1584,18 +1584,18 @@
     },
     {
       "capturedOn": "2026-10-19",
-      "capturedAt": "2026-10-19T13:09:48.147Z",
-      "issueOpen": 6240,
-      "issueClosed": 53869,
-      "prOpen": 3223,
-      "prClosed": 111378,
-      "prMerged": 58133,
+      "capturedAt": "2026-10-19T19:19:09.518Z",
+      "issueOpen": 6273,
+      "issueClosed": 53897,
+      "prOpen": 3271,
+      "prClosed": 111573,
+      "prMerged": 58302,
       "workflowRuns": 40000,
-      "stars": 392449,
-      "forks": 82497,
-      "subscribers": 1707,
-      "commits": 114659,
-      "contributors": 3624,
+      "stars": 392468,
+      "forks": 82508,
+      "subscribers": 1710,
+      "commits": 114845,
+      "contributors": 3625,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2243,106 +2243,88 @@
     },
     {
       "capturedOn": "2026-10-19",
-      "stars": 392449,
-      "forks": 82497,
-      "subscribers": 1707,
-      "commits": 114659,
-      "contributors": 3624
+      "stars": 392468,
+      "forks": 82508,
+      "subscribers": 1710,
+      "commits": 114845,
+      "contributors": 3625
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 177335,
-        "title": "[Bug]: Anthropic 400 role 'system' placement poisons Telegram main session on 2026.10.4 (subagent announces / requester-settle / after fallback)",
-        "url": "https://github.com/openclaw/openclaw/issues/177335",
+        "number": 177239,
+        "title": "Update failure: global-install-foreign-destination (2026.10.4)",
+        "url": "https://github.com/openclaw/openclaw/issues/177239",
         "state": "open",
-        "author": "unitedyachtclubs",
-        "updatedAt": "2026-10-19T13:08:51Z"
+        "author": "lukejmorrison",
+        "updatedAt": "2026-10-19T19:19:00Z"
       },
       {
         "kind": "issue",
-        "number": 160494,
-        "title": "[Bug]: a cron run bound to a persistent session is rejected at admission on session rotation instead of waiting for the window, and every scheduler retry re-enters the same rejection",
-        "url": "https://github.com/openclaw/openclaw/issues/160494",
+        "number": 177622,
+        "title": "Manual /compact still launches Claude Code with bypassPermissions (fails on root-run gateways)",
+        "url": "https://github.com/openclaw/openclaw/issues/177622",
         "state": "open",
-        "author": "abacha",
-        "updatedAt": "2026-10-19T13:05:42Z"
-      },
-      {
-        "kind": "issue",
-        "number": 138528,
-        "title": "Stuck-session recovery discards the blocked_tool_call classification at abort(), so a cron run killed by the exec-approval gate reports no cause (run history: \"cron isolated agent run aborted\"; chat alert: \"Check automation history for details.\")",
-        "url": "https://github.com/openclaw/openclaw/issues/138528",
-        "state": "open",
-        "author": "abacha",
-        "updatedAt": "2026-10-19T13:05:32Z"
-      },
-      {
-        "kind": "issue",
-        "number": 139468,
-        "title": "[Bug]: Windows + Norton 360: task-launched gateway killed at start — PowerShell Add-Type ACL step flagged as IDP.HELU.PSE90 (2026.9.1 and 2026.9.2; 2026.7.1-2 unaffected)",
-        "url": "https://github.com/openclaw/openclaw/issues/139468",
-        "state": "open",
-        "author": "LegendaryAdventures",
-        "updatedAt": "2026-10-19T13:05:29Z"
+        "author": "eliavb43",
+        "updatedAt": "2026-10-19T19:17:39Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 177328,
-        "title": "perf(ui): avoid redundant session list reads during activity",
-        "url": "https://github.com/openclaw/openclaw/pull/177328",
+        "number": 177639,
+        "title": "refactor(ui): reuse canonical cron validation",
+        "url": "https://github.com/openclaw/openclaw/pull/177639",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-19T13:09:37Z"
+        "updatedAt": "2026-10-19T19:19:02Z"
       },
       {
         "kind": "pr",
-        "number": 177334,
-        "title": "refactor(gateway): share control RPC validation",
-        "url": "https://github.com/openclaw/openclaw/pull/177334",
+        "number": 177608,
+        "title": "refactor(state): trust correlated read replies in consumers",
+        "url": "https://github.com/openclaw/openclaw/pull/177608",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-19T13:09:32Z"
+        "updatedAt": "2026-10-19T19:18:59Z"
       },
       {
         "kind": "pr",
-        "number": 177333,
-        "title": "fix(agents): retain committed nested-tool evidence after cancellation",
-        "url": "https://github.com/openclaw/openclaw/pull/177333",
+        "number": 177606,
+        "title": "refactor(integrations): reuse async effect owners",
+        "url": "https://github.com/openclaw/openclaw/pull/177606",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-19T13:08:48Z"
+        "updatedAt": "2026-10-19T19:18:58Z"
       },
       {
         "kind": "pr",
-        "number": 169684,
-        "title": "fix: Cron repair shows a false empty-response error in WebChat",
-        "url": "https://github.com/openclaw/openclaw/pull/169684",
+        "number": 176165,
+        "title": "fix(context): /context map shows same-named bootstrap files as identical tiles",
+        "url": "https://github.com/openclaw/openclaw/pull/176165",
         "state": "open",
-        "author": "huyengiang101086-spec",
-        "updatedAt": "2026-10-19T13:08:39Z"
+        "author": "Yigtwxx",
+        "updatedAt": "2026-10-19T19:18:55Z"
       },
       {
         "kind": "pr",
-        "number": 177329,
-        "title": "perf(sessions): share concurrent checkout revision checks",
-        "url": "https://github.com/openclaw/openclaw/pull/177329",
+        "number": 177635,
+        "title": "refactor(runtime): rely on canonical async lifecycle owners",
+        "url": "https://github.com/openclaw/openclaw/pull/177635",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-19T13:08:14Z"
+        "updatedAt": "2026-10-19T19:18:54Z"
       },
       {
         "kind": "pr",
-        "number": 177330,
-        "title": "refactor: remove unused private infrastructure arguments",
-        "url": "https://github.com/openclaw/openclaw/pull/177330",
+        "number": 177637,
+        "title": "refactor: remove unread runtime and maintenance reports",
+        "url": "https://github.com/openclaw/openclaw/pull/177637",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-19T13:07:44Z"
+        "updatedAt": "2026-10-19T19:18:51Z"
       }
     ]
   }

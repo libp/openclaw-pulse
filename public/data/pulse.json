@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-19T01:14:08.064Z",
+  "generatedAt": "2026-10-19T06:12:40.206Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1584,18 +1584,18 @@
     },
     {
       "capturedOn": "2026-10-19",
-      "capturedAt": "2026-10-19T01:14:08.064Z",
-      "issueOpen": 6227,
-      "issueClosed": 53797,
-      "prOpen": 3281,
-      "prClosed": 110820,
-      "prMerged": 57620,
+      "capturedAt": "2026-10-19T06:12:40.206Z",
+      "issueOpen": 6220,
+      "issueClosed": 53839,
+      "prOpen": 3271,
+      "prClosed": 111075,
+      "prMerged": 57857,
       "workflowRuns": 40000,
-      "stars": 392401,
-      "forks": 82485,
+      "stars": 392422,
+      "forks": 82488,
       "subscribers": 1708,
-      "commits": 114092,
-      "contributors": 3620,
+      "commits": 114355,
+      "contributors": 3624,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2243,69 +2243,106 @@
     },
     {
       "capturedOn": "2026-10-19",
-      "stars": 392401,
-      "forks": 82485,
+      "stars": 392422,
+      "forks": 82488,
       "subscribers": 1708,
-      "commits": 114092,
-      "contributors": 3620
+      "commits": 114355,
+      "contributors": 3624
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 139361,
+        "title": "gateway/slack: healthState removal silently broke external health monitors; incident exposed missing ingress backpressure visibility and mid-turn kill replay",
+        "url": "https://github.com/openclaw/openclaw/issues/139361",
+        "state": "open",
+        "author": "certivpaul",
+        "updatedAt": "2026-10-19T06:11:47Z"
+      },
+      {
+        "kind": "issue",
+        "number": 139472,
+        "title": "Realtime voice: no asynchronous delegation - every agent-backed turn blocks the conversation (serial consults + autoRespondToAudio off)",
+        "url": "https://github.com/openclaw/openclaw/issues/139472",
+        "state": "open",
+        "author": "destinedenergy",
+        "updatedAt": "2026-10-19T06:11:42Z"
+      },
+      {
+        "kind": "issue",
+        "number": 139444,
+        "title": "[feishu] Persistent collapsible panels for reasoning + tool calls in reply/streaming cards (follow-up to #75113)",
+        "url": "https://github.com/openclaw/openclaw/issues/139444",
+        "state": "open",
+        "author": "Simon2256928",
+        "updatedAt": "2026-10-19T06:11:26Z"
+      },
+      {
+        "kind": "issue",
+        "number": 139340,
+        "title": "MCP loopback server singleton cached with no liveness check — all MCP tool calls fail permanently after listener dies",
+        "url": "https://github.com/openclaw/openclaw/issues/139340",
+        "state": "open",
+        "author": "eli-pavlov",
+        "updatedAt": "2026-10-19T06:11:26Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 176621,
-        "title": "refactor(gateway): let the session patch own initial reuse",
-        "url": "https://github.com/openclaw/openclaw/pull/176621",
+        "number": 175358,
+        "title": "fix(message): status replies do not open ClawHub cards",
+        "url": "https://github.com/openclaw/openclaw/pull/175358",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-19T01:13:57Z"
+        "author": "fr-meyer",
+        "updatedAt": "2026-10-19T06:12:33Z"
       },
       {
         "kind": "pr",
-        "number": 176574,
-        "title": "refactor(ui): own shell lifetimes and native host references",
-        "url": "https://github.com/openclaw/openclaw/pull/176574",
+        "number": 177014,
+        "title": "refactor(chat): use mounted refs for transcript geometry",
+        "url": "https://github.com/openclaw/openclaw/pull/177014",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-19T01:13:53Z"
+        "updatedAt": "2026-10-19T06:12:31Z"
       },
       {
         "kind": "pr",
-        "number": 176734,
-        "title": "refactor(ui): use mount lifetime for Agents Home",
-        "url": "https://github.com/openclaw/openclaw/pull/176734",
+        "number": 176976,
+        "title": "perf(config): reuse committed health observations during boot",
+        "url": "https://github.com/openclaw/openclaw/pull/176976",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-19T01:14:01Z"
+        "updatedAt": "2026-10-19T06:12:31Z"
       },
       {
         "kind": "pr",
-        "number": 176721,
-        "title": "perf(state): reuse cold admission reads",
-        "url": "https://github.com/openclaw/openclaw/pull/176721",
+        "number": 176982,
+        "title": "perf(sessions): avoid redundant bounded transcript size probes",
+        "url": "https://github.com/openclaw/openclaw/pull/176982",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-19T01:13:45Z"
+        "updatedAt": "2026-10-19T06:12:30Z"
       },
       {
         "kind": "pr",
-        "number": 176535,
-        "title": "fix: show delegated task PRs in session previews",
-        "url": "https://github.com/openclaw/openclaw/pull/176535",
+        "number": 176999,
+        "title": "fix: keep guest review available after background exec",
+        "url": "https://github.com/openclaw/openclaw/pull/176999",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-10-19T01:13:42Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-10-19T06:12:24Z"
       },
       {
         "kind": "pr",
-        "number": 176716,
-        "title": "refactor(ui): use owners for login focus and portal updates",
-        "url": "https://github.com/openclaw/openclaw/pull/176716",
+        "number": 176939,
+        "title": "fix(workboard): archived worker sessions block card dispatch",
+        "url": "https://github.com/openclaw/openclaw/pull/176939",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-19T01:13:39Z"
+        "updatedAt": "2026-10-19T06:12:22Z"
       }
     ]
   }

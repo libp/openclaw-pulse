@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-20T04:45:57.608Z",
+  "generatedAt": "2026-10-20T15:02:58.759Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1601,18 +1601,18 @@
     },
     {
       "capturedOn": "2026-10-20",
-      "capturedAt": "2026-10-20T04:45:57.608Z",
-      "issueOpen": 6296,
-      "issueClosed": 53948,
-      "prOpen": 3299,
-      "prClosed": 111883,
-      "prMerged": 58580,
+      "capturedAt": "2026-10-20T15:02:58.759Z",
+      "issueOpen": 6338,
+      "issueClosed": 54006,
+      "prOpen": 3325,
+      "prClosed": 112196,
+      "prMerged": 58840,
       "workflowRuns": 40000,
-      "stars": 392877,
-      "forks": 82537,
-      "subscribers": 1724,
-      "commits": 115163,
-      "contributors": 3625,
+      "stars": 392969,
+      "forks": 82550,
+      "subscribers": 1723,
+      "commits": 115450,
+      "contributors": 3627,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2268,69 +2268,88 @@
     },
     {
       "capturedOn": "2026-10-20",
-      "stars": 392877,
-      "forks": 82537,
-      "subscribers": 1724,
-      "commits": 115163,
-      "contributors": 3625
+      "stars": 392969,
+      "forks": 82550,
+      "subscribers": 1723,
+      "commits": 115450,
+      "contributors": 3627
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 178491,
+        "title": "[Bug]: backup record --bytes silently coerces hex/octal/binary/exponent values",
+        "url": "https://github.com/openclaw/openclaw/issues/178491",
+        "state": "open",
+        "author": "YangManBOBO",
+        "updatedAt": "2026-10-20T15:01:39Z"
+      },
+      {
+        "kind": "issue",
+        "number": 60748,
+        "title": "[Feature]: [Feishu] Card header/footer customization: hide agent label, show elapsed time & completion status, support reply-to context",
+        "url": "https://github.com/openclaw/openclaw/issues/60748",
+        "state": "open",
+        "author": "FrEaSoNt",
+        "updatedAt": "2026-10-20T14:58:43Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 177939,
-        "title": "fix(sessions): preserve durable input and current execution authority",
-        "url": "https://github.com/openclaw/openclaw/pull/177939",
-        "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-10-20T04:45:48Z"
-      },
-      {
-        "kind": "pr",
-        "number": 178057,
-        "title": "fix: show Gateway failure messages in ACP clients",
-        "url": "https://github.com/openclaw/openclaw/pull/178057",
-        "state": "open",
-        "author": "huyengiang101086-spec",
-        "updatedAt": "2026-10-20T04:45:46Z"
-      },
-      {
-        "kind": "pr",
-        "number": 178055,
-        "title": "feat: inspect existing own pull requests",
-        "url": "https://github.com/openclaw/openclaw/pull/178055",
+        "number": 178494,
+        "title": "fix: shorten mention lookup errors",
+        "url": "https://github.com/openclaw/openclaw/pull/178494",
         "state": "open",
         "author": "shakkernerd",
-        "updatedAt": "2026-10-20T04:45:43Z"
+        "updatedAt": "2026-10-20T15:02:50Z"
       },
       {
         "kind": "pr",
-        "number": 178056,
-        "title": "refactor(ui): deduplicate Usage page CSS declarations",
-        "url": "https://github.com/openclaw/openclaw/pull/178056",
+        "number": 178459,
+        "title": "refactor(agents): narrow private runtime call contracts",
+        "url": "https://github.com/openclaw/openclaw/pull/178459",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-20T04:45:40Z"
+        "updatedAt": "2026-10-20T15:02:44Z"
       },
       {
         "kind": "pr",
-        "number": 178043,
-        "title": "fix: MCP Apps cannot be pinned by their signed-in owner",
-        "url": "https://github.com/openclaw/openclaw/pull/178043",
+        "number": 178487,
+        "title": "fix(macos): settle core repair on successful repair warnings",
+        "url": "https://github.com/openclaw/openclaw/pull/178487",
         "state": "open",
-        "author": "McgAtom",
-        "updatedAt": "2026-10-20T04:45:40Z"
+        "author": "HeZ2z",
+        "updatedAt": "2026-10-20T15:02:42Z"
       },
       {
         "kind": "pr",
-        "number": 178039,
-        "title": "fix: allow guest mentions in new conversations",
-        "url": "https://github.com/openclaw/openclaw/pull/178039",
+        "number": 178486,
+        "title": "test(core,ui): remove low-value tests (batch d326)",
+        "url": "https://github.com/openclaw/openclaw/pull/178486",
         "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-10-20T04:45:40Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-20T15:02:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 177968,
+        "title": "fix(plugins): Doctor fails with EXDEV when home is on another filesystem",
+        "url": "https://github.com/openclaw/openclaw/pull/177968",
+        "state": "open",
+        "author": "ceckert",
+        "updatedAt": "2026-10-20T15:02:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 178496,
+        "title": "fix(memory-core): filter German pronoun \"ich\" from concept themes",
+        "url": "https://github.com/openclaw/openclaw/pull/178496",
+        "state": "open",
+        "author": "coaiMax",
+        "updatedAt": "2026-10-20T15:02:25Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-20T15:02:58.759Z",
+  "generatedAt": "2026-10-20T19:13:32.283Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1601,18 +1601,18 @@
     },
     {
       "capturedOn": "2026-10-20",
-      "capturedAt": "2026-10-20T15:02:58.759Z",
-      "issueOpen": 6338,
-      "issueClosed": 54006,
-      "prOpen": 3325,
-      "prClosed": 112196,
-      "prMerged": 58840,
+      "capturedAt": "2026-10-20T19:13:32.283Z",
+      "issueOpen": 6357,
+      "issueClosed": 54029,
+      "prOpen": 3372,
+      "prClosed": 112313,
+      "prMerged": 58941,
       "workflowRuns": 40000,
-      "stars": 392969,
-      "forks": 82550,
-      "subscribers": 1723,
-      "commits": 115450,
-      "contributors": 3627,
+      "stars": 392854,
+      "forks": 82549,
+      "subscribers": 1718,
+      "commits": 115555,
+      "contributors": 3628,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2268,88 +2268,79 @@
     },
     {
       "capturedOn": "2026-10-20",
-      "stars": 392969,
-      "forks": 82550,
-      "subscribers": 1723,
-      "commits": 115450,
-      "contributors": 3627
+      "stars": 392854,
+      "forks": 82549,
+      "subscribers": 1718,
+      "commits": 115555,
+      "contributors": 3628
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 178491,
-        "title": "[Bug]: backup record --bytes silently coerces hex/octal/binary/exponent values",
-        "url": "https://github.com/openclaw/openclaw/issues/178491",
+        "number": 177656,
+        "title": "Native host exec returns shared-state integrity-admission error on 2026.10.5 without a child result",
+        "url": "https://github.com/openclaw/openclaw/issues/177656",
         "state": "open",
-        "author": "YangManBOBO",
-        "updatedAt": "2026-10-20T15:01:39Z"
-      },
-      {
-        "kind": "issue",
-        "number": 60748,
-        "title": "[Feature]: [Feishu] Card header/footer customization: hide agent label, show elapsed time & completion status, support reply-to context",
-        "url": "https://github.com/openclaw/openclaw/issues/60748",
-        "state": "open",
-        "author": "FrEaSoNt",
-        "updatedAt": "2026-10-20T14:58:43Z"
+        "author": "pfrederiksen",
+        "updatedAt": "2026-10-20T19:12:33Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 178494,
-        "title": "fix: shorten mention lookup errors",
-        "url": "https://github.com/openclaw/openclaw/pull/178494",
-        "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-10-20T15:02:50Z"
-      },
-      {
-        "kind": "pr",
-        "number": 178459,
-        "title": "refactor(agents): narrow private runtime call contracts",
-        "url": "https://github.com/openclaw/openclaw/pull/178459",
+        "number": 178691,
+        "title": "test: remove low-value tests (batch d337)",
+        "url": "https://github.com/openclaw/openclaw/pull/178691",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-20T15:02:44Z"
+        "updatedAt": "2026-10-20T19:13:25Z"
       },
       {
         "kind": "pr",
-        "number": 178487,
-        "title": "fix(macos): settle core repair on successful repair warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/178487",
+        "number": 173437,
+        "title": "fix(release): keep waivers in tooling and require passing validation",
+        "url": "https://github.com/openclaw/openclaw/pull/173437",
         "state": "open",
-        "author": "HeZ2z",
-        "updatedAt": "2026-10-20T15:02:42Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-10-20T19:13:24Z"
       },
       {
         "kind": "pr",
-        "number": 178486,
-        "title": "test(core,ui): remove low-value tests (batch d326)",
-        "url": "https://github.com/openclaw/openclaw/pull/178486",
+        "number": 178699,
+        "title": "fix(qa-lab): stop report failures leaving self-checks running",
+        "url": "https://github.com/openclaw/openclaw/pull/178699",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-20T15:02:36Z"
+        "updatedAt": "2026-10-20T19:13:23Z"
       },
       {
         "kind": "pr",
-        "number": 177968,
-        "title": "fix(plugins): Doctor fails with EXDEV when home is on another filesystem",
-        "url": "https://github.com/openclaw/openclaw/pull/177968",
+        "number": 178648,
+        "title": "fix: interactive widgets missing from public conversation links",
+        "url": "https://github.com/openclaw/openclaw/pull/178648",
         "state": "open",
-        "author": "ceckert",
-        "updatedAt": "2026-10-20T15:02:35Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-20T19:13:21Z"
       },
       {
         "kind": "pr",
-        "number": 178496,
-        "title": "fix(memory-core): filter German pronoun \"ich\" from concept themes",
-        "url": "https://github.com/openclaw/openclaw/pull/178496",
+        "number": 178684,
+        "title": "fix(doctor): agents lose inherited logins after doctor when the auth inheritance owner is not main",
+        "url": "https://github.com/openclaw/openclaw/pull/178684",
         "state": "open",
-        "author": "coaiMax",
-        "updatedAt": "2026-10-20T15:02:25Z"
+        "author": "sukhdeepjohar",
+        "updatedAt": "2026-10-20T19:13:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 178702,
+        "title": "fix(update): warn when short deadlines reduce validation time",
+        "url": "https://github.com/openclaw/openclaw/pull/178702",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-20T19:13:13Z"
       }
     ]
   }

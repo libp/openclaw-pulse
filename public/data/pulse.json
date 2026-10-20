@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-19T19:19:09.518Z",
+  "generatedAt": "2026-10-20T04:45:57.608Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1598,6 +1598,23 @@
       "contributors": 3625,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-20",
+      "capturedAt": "2026-10-20T04:45:57.608Z",
+      "issueOpen": 6296,
+      "issueClosed": 53948,
+      "prOpen": 3299,
+      "prClosed": 111883,
+      "prMerged": 58580,
+      "workflowRuns": 40000,
+      "stars": 392877,
+      "forks": 82537,
+      "subscribers": 1724,
+      "commits": 115163,
+      "contributors": 3625,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2248,83 +2265,72 @@
       "subscribers": 1710,
       "commits": 114845,
       "contributors": 3625
+    },
+    {
+      "capturedOn": "2026-10-20",
+      "stars": 392877,
+      "forks": 82537,
+      "subscribers": 1724,
+      "commits": 115163,
+      "contributors": 3625
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 177239,
-        "title": "Update failure: global-install-foreign-destination (2026.10.4)",
-        "url": "https://github.com/openclaw/openclaw/issues/177239",
-        "state": "open",
-        "author": "lukejmorrison",
-        "updatedAt": "2026-10-19T19:19:00Z"
-      },
-      {
-        "kind": "issue",
-        "number": 177622,
-        "title": "Manual /compact still launches Claude Code with bypassPermissions (fails on root-run gateways)",
-        "url": "https://github.com/openclaw/openclaw/issues/177622",
-        "state": "open",
-        "author": "eliavb43",
-        "updatedAt": "2026-10-19T19:17:39Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 177639,
-        "title": "refactor(ui): reuse canonical cron validation",
-        "url": "https://github.com/openclaw/openclaw/pull/177639",
+        "number": 177939,
+        "title": "fix(sessions): preserve durable input and current execution authority",
+        "url": "https://github.com/openclaw/openclaw/pull/177939",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-19T19:19:02Z"
+        "author": "joshavant",
+        "updatedAt": "2026-10-20T04:45:48Z"
       },
       {
         "kind": "pr",
-        "number": 177608,
-        "title": "refactor(state): trust correlated read replies in consumers",
-        "url": "https://github.com/openclaw/openclaw/pull/177608",
+        "number": 178057,
+        "title": "fix: show Gateway failure messages in ACP clients",
+        "url": "https://github.com/openclaw/openclaw/pull/178057",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-19T19:18:59Z"
+        "author": "huyengiang101086-spec",
+        "updatedAt": "2026-10-20T04:45:46Z"
       },
       {
         "kind": "pr",
-        "number": 177606,
-        "title": "refactor(integrations): reuse async effect owners",
-        "url": "https://github.com/openclaw/openclaw/pull/177606",
+        "number": 178055,
+        "title": "feat: inspect existing own pull requests",
+        "url": "https://github.com/openclaw/openclaw/pull/178055",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-19T19:18:58Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-10-20T04:45:43Z"
       },
       {
         "kind": "pr",
-        "number": 176165,
-        "title": "fix(context): /context map shows same-named bootstrap files as identical tiles",
-        "url": "https://github.com/openclaw/openclaw/pull/176165",
+        "number": 178056,
+        "title": "refactor(ui): deduplicate Usage page CSS declarations",
+        "url": "https://github.com/openclaw/openclaw/pull/178056",
         "state": "open",
-        "author": "Yigtwxx",
-        "updatedAt": "2026-10-19T19:18:55Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-20T04:45:40Z"
       },
       {
         "kind": "pr",
-        "number": 177635,
-        "title": "refactor(runtime): rely on canonical async lifecycle owners",
-        "url": "https://github.com/openclaw/openclaw/pull/177635",
+        "number": 178043,
+        "title": "fix: MCP Apps cannot be pinned by their signed-in owner",
+        "url": "https://github.com/openclaw/openclaw/pull/178043",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-19T19:18:54Z"
+        "author": "McgAtom",
+        "updatedAt": "2026-10-20T04:45:40Z"
       },
       {
         "kind": "pr",
-        "number": 177637,
-        "title": "refactor: remove unread runtime and maintenance reports",
-        "url": "https://github.com/openclaw/openclaw/pull/177637",
+        "number": 178039,
+        "title": "fix: allow guest mentions in new conversations",
+        "url": "https://github.com/openclaw/openclaw/pull/178039",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-19T19:18:51Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-10-20T04:45:40Z"
       }
     ]
   }

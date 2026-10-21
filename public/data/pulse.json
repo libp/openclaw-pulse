@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-21T01:33:07.841Z",
+  "generatedAt": "2026-10-21T13:45:01.423Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1618,18 +1618,18 @@
     },
     {
       "capturedOn": "2026-10-21",
-      "capturedAt": "2026-10-21T01:33:07.841Z",
-      "issueOpen": 6361,
-      "issueClosed": 54070,
-      "prOpen": 3321,
-      "prClosed": 112542,
-      "prMerged": 59121,
+      "capturedAt": "2026-10-21T13:45:01.423Z",
+      "issueOpen": 6282,
+      "issueClosed": 54233,
+      "prOpen": 3338,
+      "prClosed": 113046,
+      "prMerged": 59509,
       "workflowRuns": 40000,
-      "stars": 392686,
+      "stars": 392652,
       "forks": 82539,
-      "subscribers": 1713,
-      "commits": 115753,
-      "contributors": 3628,
+      "subscribers": 1703,
+      "commits": 116197,
+      "contributors": 3637,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2293,69 +2293,79 @@
     },
     {
       "capturedOn": "2026-10-21",
-      "stars": 392686,
+      "stars": 392652,
       "forks": 82539,
-      "subscribers": 1713,
-      "commits": 115753,
-      "contributors": 3628
+      "subscribers": 1703,
+      "commits": 116197,
+      "contributors": 3637
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 179492,
+        "title": "[Bug]: Message steered into a run that before_agent_run blocks waits the full 120 s transcript-commit timeout",
+        "url": "https://github.com/openclaw/openclaw/issues/179492",
+        "state": "open",
+        "author": "clemenshelm",
+        "updatedAt": "2026-10-21T13:43:50Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 176339,
-        "title": "feat(ui): add file reader controls and preserve preview lifecycle",
-        "url": "https://github.com/openclaw/openclaw/pull/176339",
-        "state": "closed",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-10-21T01:32:48Z"
-      },
-      {
-        "kind": "pr",
-        "number": 178889,
-        "title": "fix(doctor): warnings check the wrong model when the primary model is an alias",
-        "url": "https://github.com/openclaw/openclaw/pull/178889",
-        "state": "open",
-        "author": "KrasimirKralev",
-        "updatedAt": "2026-10-21T01:32:46Z"
-      },
-      {
-        "kind": "pr",
-        "number": 175291,
-        "title": "feat: open new agent chats instantly and simplify agent selection",
-        "url": "https://github.com/openclaw/openclaw/pull/175291",
-        "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-10-21T01:32:46Z"
-      },
-      {
-        "kind": "pr",
-        "number": 176343,
-        "title": "feat(ui): add resizable catalog to file readers",
-        "url": "https://github.com/openclaw/openclaw/pull/176343",
+        "number": 179218,
+        "title": "fix: open navigation rail menus beside their controls",
+        "url": "https://github.com/openclaw/openclaw/pull/179218",
         "state": "open",
         "author": "vyctorbrzezowski",
-        "updatedAt": "2026-10-21T01:32:25Z"
+        "updatedAt": "2026-10-21T13:44:53Z"
       },
       {
         "kind": "pr",
-        "number": 178776,
-        "title": "fix(memory): restore memory search on multi-agent gateways",
-        "url": "https://github.com/openclaw/openclaw/pull/178776",
-        "state": "open",
-        "author": "VOiDProXy",
-        "updatedAt": "2026-10-21T01:32:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 178921,
-        "title": "fix(sessions): recover after worker exits before command admission",
-        "url": "https://github.com/openclaw/openclaw/pull/178921",
+        "number": 179375,
+        "title": "refactor(ui): use native lifetimes for app setup",
+        "url": "https://github.com/openclaw/openclaw/pull/179375",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-21T01:32:04Z"
+        "updatedAt": "2026-10-21T13:44:51Z"
+      },
+      {
+        "kind": "pr",
+        "number": 179525,
+        "title": "refactor(ui): use Solid actions for dream diary maintenance",
+        "url": "https://github.com/openclaw/openclaw/pull/179525",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-21T13:44:48Z"
+      },
+      {
+        "kind": "pr",
+        "number": 179505,
+        "title": "fix(feishu): dedupe overlapping streaming deltas",
+        "url": "https://github.com/openclaw/openclaw/pull/179505",
+        "state": "open",
+        "author": "xiaopan-xydt",
+        "updatedAt": "2026-10-21T13:44:48Z"
+      },
+      {
+        "kind": "pr",
+        "number": 179512,
+        "title": "refactor(ui): present native locale edits with Solid actions",
+        "url": "https://github.com/openclaw/openclaw/pull/179512",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-21T13:44:42Z"
+      },
+      {
+        "kind": "pr",
+        "number": 179526,
+        "title": "refactor(automations): retire the heartbeat executor",
+        "url": "https://github.com/openclaw/openclaw/pull/179526",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-21T13:44:55Z"
       }
     ]
   }

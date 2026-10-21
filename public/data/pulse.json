@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-20T22:17:12.423Z",
+  "generatedAt": "2026-10-21T01:33:07.841Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1615,6 +1615,23 @@
       "contributors": 3628,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-21",
+      "capturedAt": "2026-10-21T01:33:07.841Z",
+      "issueOpen": 6361,
+      "issueClosed": 54070,
+      "prOpen": 3321,
+      "prClosed": 112542,
+      "prMerged": 59121,
+      "workflowRuns": 40000,
+      "stars": 392686,
+      "forks": 82539,
+      "subscribers": 1713,
+      "commits": 115753,
+      "contributors": 3628,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2273,119 +2290,72 @@
       "subscribers": 1713,
       "commits": 115632,
       "contributors": 3628
+    },
+    {
+      "capturedOn": "2026-10-21",
+      "stars": 392686,
+      "forks": 82539,
+      "subscribers": 1713,
+      "commits": 115753,
+      "contributors": 3628
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 178815,
-        "title": "[Feature]: Consolidate authority inheritance for spawned child sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/178815",
-        "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-10-20T22:16:53Z"
-      },
-      {
-        "kind": "issue",
-        "number": 178814,
-        "title": "[Bug]: sessionTarget \"current\" runs in a detached cron session since #98236",
-        "url": "https://github.com/openclaw/openclaw/issues/178814",
-        "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-10-20T22:16:51Z"
-      },
-      {
-        "kind": "issue",
-        "number": 178813,
-        "title": "[Bug]: Scheduled agent turns get different owner-only tools on embedded and CLI runtimes",
-        "url": "https://github.com/openclaw/openclaw/issues/178813",
-        "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-10-20T22:16:50Z"
-      },
-      {
-        "kind": "issue",
-        "number": 178812,
-        "title": "[Feature]: Resolve scheduled-run authority into one per-occurrence execution context",
-        "url": "https://github.com/openclaw/openclaw/issues/178812",
-        "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-10-20T22:16:48Z"
-      },
-      {
-        "kind": "issue",
-        "number": 178811,
-        "title": "[Feature]: Run scheduled automations as children of the conversation that creates them (tracking)",
-        "url": "https://github.com/openclaw/openclaw/issues/178811",
-        "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-10-20T22:16:47Z"
-      },
-      {
-        "kind": "issue",
-        "number": 178808,
-        "title": "Voice call (Telnyx realtime): end_call fires before final TTS audio finishes — mid-sentence hangups",
-        "url": "https://github.com/openclaw/openclaw/issues/178808",
-        "state": "open",
-        "author": "toralux",
-        "updatedAt": "2026-10-20T22:17:02Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 178770,
-        "title": "fix(gateway): session titles show the model's explanation instead of the title",
-        "url": "https://github.com/openclaw/openclaw/pull/178770",
-        "state": "open",
-        "author": "holgergruenhagen",
-        "updatedAt": "2026-10-20T22:17:03Z"
+        "number": 176339,
+        "title": "feat(ui): add file reader controls and preserve preview lifecycle",
+        "url": "https://github.com/openclaw/openclaw/pull/176339",
+        "state": "closed",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-10-21T01:32:48Z"
       },
       {
         "kind": "pr",
-        "number": 178055,
-        "title": "feat: inspect existing own pull requests",
-        "url": "https://github.com/openclaw/openclaw/pull/178055",
+        "number": 178889,
+        "title": "fix(doctor): warnings check the wrong model when the primary model is an alias",
+        "url": "https://github.com/openclaw/openclaw/pull/178889",
         "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-10-20T22:17:02Z"
+        "author": "KrasimirKralev",
+        "updatedAt": "2026-10-21T01:32:46Z"
       },
       {
         "kind": "pr",
-        "number": 178793,
-        "title": "test(runtime,ui): remove low-value tests (batch d342)",
-        "url": "https://github.com/openclaw/openclaw/pull/178793",
+        "number": 175291,
+        "title": "feat: open new agent chats instantly and simplify agent selection",
+        "url": "https://github.com/openclaw/openclaw/pull/175291",
+        "state": "open",
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-10-21T01:32:46Z"
+      },
+      {
+        "kind": "pr",
+        "number": 176343,
+        "title": "feat(ui): add resizable catalog to file readers",
+        "url": "https://github.com/openclaw/openclaw/pull/176343",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-10-21T01:32:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 178776,
+        "title": "fix(memory): restore memory search on multi-agent gateways",
+        "url": "https://github.com/openclaw/openclaw/pull/178776",
+        "state": "open",
+        "author": "VOiDProXy",
+        "updatedAt": "2026-10-21T01:32:20Z"
+      },
+      {
+        "kind": "pr",
+        "number": 178921,
+        "title": "fix(sessions): recover after worker exits before command admission",
+        "url": "https://github.com/openclaw/openclaw/pull/178921",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-20T22:16:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 178816,
-        "title": "improve: make official support discoverable across OpenClaw",
-        "url": "https://github.com/openclaw/openclaw/pull/178816",
-        "state": "open",
-        "author": "hannesrudolph",
-        "updatedAt": "2026-10-20T22:16:43Z"
-      },
-      {
-        "kind": "pr",
-        "number": 178802,
-        "title": "perf(agents): coalesce unchanged workspace attestations",
-        "url": "https://github.com/openclaw/openclaw/pull/178802",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-20T22:16:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 178773,
-        "title": "test(codex,discord,plugins,gateway,ui): remove low-value tests (batch d340)",
-        "url": "https://github.com/openclaw/openclaw/pull/178773",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-20T22:16:41Z"
+        "updatedAt": "2026-10-21T01:32:04Z"
       }
     ]
   }

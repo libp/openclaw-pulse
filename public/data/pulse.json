@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-22T07:31:41.507Z",
+  "generatedAt": "2026-10-22T13:45:18.075Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1635,18 +1635,18 @@
     },
     {
       "capturedOn": "2026-10-22",
-      "capturedAt": "2026-10-22T07:31:41.507Z",
-      "issueOpen": 6255,
-      "issueClosed": 54361,
-      "prOpen": 3201,
-      "prClosed": 113961,
-      "prMerged": 60163,
+      "capturedAt": "2026-10-22T13:45:18.075Z",
+      "issueOpen": 6275,
+      "issueClosed": 54388,
+      "prOpen": 3119,
+      "prClosed": 114254,
+      "prMerged": 60354,
       "workflowRuns": 40000,
-      "stars": 392718,
-      "forks": 82549,
-      "subscribers": 1703,
-      "commits": 116860,
-      "contributors": 3641,
+      "stars": 392752,
+      "forks": 82550,
+      "subscribers": 1704,
+      "commits": 117051,
+      "contributors": 3642,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2318,79 +2318,88 @@
     },
     {
       "capturedOn": "2026-10-22",
-      "stars": 392718,
-      "forks": 82549,
-      "subscribers": 1703,
-      "commits": 116860,
-      "contributors": 3641
+      "stars": 392752,
+      "forks": 82550,
+      "subscribers": 1704,
+      "commits": 117051,
+      "contributors": 3642
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 157989,
-        "title": "[Bug]: Plugin source capture rewrites ~1.1–1.4 GB per CLI command and ~6.5 GB per Gateway start (no reuse, bundled native binaries): severe SSD wear",
-        "url": "https://github.com/openclaw/openclaw/issues/157989",
+        "number": 180664,
+        "title": "Interrupted child work lacks read-only agent receipt and placement discovery",
+        "url": "https://github.com/openclaw/openclaw/issues/180664",
         "state": "open",
-        "author": "jeanmonet",
-        "updatedAt": "2026-10-22T07:29:26Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-10-22T13:44:50Z"
+      },
+      {
+        "kind": "issue",
+        "number": 180662,
+        "title": "[Bug] reloadAndResume retains a write-only host continuation then rejects its admin reload",
+        "url": "https://github.com/openclaw/openclaw/issues/180662",
+        "state": "open",
+        "author": "lisandromachado",
+        "updatedAt": "2026-10-22T13:43:34Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 180399,
-        "title": "fix: keep project preparation fixtures on real Node",
-        "url": "https://github.com/openclaw/openclaw/pull/180399",
-        "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-10-22T07:31:31Z"
-      },
-      {
-        "kind": "pr",
-        "number": 180365,
-        "title": "test(core,plugins): remove low-value tests (batch d436)",
-        "url": "https://github.com/openclaw/openclaw/pull/180365",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-10-22T07:31:31Z"
-      },
-      {
-        "kind": "pr",
-        "number": 156412,
-        "title": "feat(stepfun): default to Step 5 Preview with USD usage pricing",
-        "url": "https://github.com/openclaw/openclaw/pull/156412",
-        "state": "open",
-        "author": "NianJiuZst",
-        "updatedAt": "2026-10-22T07:31:29Z"
-      },
-      {
-        "kind": "pr",
-        "number": 174075,
-        "title": "fix(model-selection): stop Codex legacy cleanup from resetting self-origin automatic selections",
-        "url": "https://github.com/openclaw/openclaw/pull/174075",
-        "state": "open",
-        "author": "LiuwqGit",
-        "updatedAt": "2026-10-22T07:31:28Z"
-      },
-      {
-        "kind": "pr",
-        "number": 156256,
-        "title": "fix(memory): memory search misses session turns stored as input_text/output_text blocks",
-        "url": "https://github.com/openclaw/openclaw/pull/156256",
-        "state": "open",
-        "author": "namest504",
-        "updatedAt": "2026-10-22T07:31:25Z"
-      },
-      {
-        "kind": "pr",
-        "number": 180388,
-        "title": "refactor(ui): present profile identity saves with Solid actions",
-        "url": "https://github.com/openclaw/openclaw/pull/180388",
+        "number": 180623,
+        "title": "fix(ui): keep chat actions and draft restores with current panes",
+        "url": "https://github.com/openclaw/openclaw/pull/180623",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-22T07:31:24Z"
+        "updatedAt": "2026-10-22T13:45:09Z"
+      },
+      {
+        "kind": "pr",
+        "number": 180621,
+        "title": "refactor(ui): centralize sidebar session window selection",
+        "url": "https://github.com/openclaw/openclaw/pull/180621",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-22T13:45:08Z"
+      },
+      {
+        "kind": "pr",
+        "number": 125913,
+        "title": "fix(codex): shed abandoned cleared bindings at namespace capacity",
+        "url": "https://github.com/openclaw/openclaw/pull/125913",
+        "state": "open",
+        "author": "he-yufeng",
+        "updatedAt": "2026-10-22T13:45:05Z"
+      },
+      {
+        "kind": "pr",
+        "number": 180647,
+        "title": "refactor(ui): use completion boundaries for search test feedback",
+        "url": "https://github.com/openclaw/openclaw/pull/180647",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-22T13:44:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 180641,
+        "title": "refactor: consolidate single-consumer internal surfaces",
+        "url": "https://github.com/openclaw/openclaw/pull/180641",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-22T13:44:58Z"
+      },
+      {
+        "kind": "pr",
+        "number": 180603,
+        "title": "fix: main-session automations fail before the model call when the main session is used from a DM",
+        "url": "https://github.com/openclaw/openclaw/pull/180603",
+        "state": "open",
+        "author": "masatohoshino",
+        "updatedAt": "2026-10-22T13:44:58Z"
       }
     ]
   }

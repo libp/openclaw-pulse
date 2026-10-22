@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-22T13:45:18.075Z",
+  "generatedAt": "2026-10-22T18:30:29.987Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1635,18 +1635,18 @@
     },
     {
       "capturedOn": "2026-10-22",
-      "capturedAt": "2026-10-22T13:45:18.075Z",
-      "issueOpen": 6275,
-      "issueClosed": 54388,
-      "prOpen": 3119,
-      "prClosed": 114254,
-      "prMerged": 60354,
+      "capturedAt": "2026-10-22T18:30:29.987Z",
+      "issueOpen": 5908,
+      "issueClosed": 54793,
+      "prOpen": 3089,
+      "prClosed": 114466,
+      "prMerged": 60487,
       "workflowRuns": 40000,
-      "stars": 392752,
-      "forks": 82550,
-      "subscribers": 1704,
-      "commits": 117051,
-      "contributors": 3642,
+      "stars": 392772,
+      "forks": 82557,
+      "subscribers": 1703,
+      "commits": 117184,
+      "contributors": 3643,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2318,88 +2318,88 @@
     },
     {
       "capturedOn": "2026-10-22",
-      "stars": 392752,
-      "forks": 82550,
-      "subscribers": 1704,
-      "commits": 117051,
-      "contributors": 3642
+      "stars": 392772,
+      "forks": 82557,
+      "subscribers": 1703,
+      "commits": 117184,
+      "contributors": 3643
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 180664,
-        "title": "Interrupted child work lacks read-only agent receipt and placement discovery",
-        "url": "https://github.com/openclaw/openclaw/issues/180664",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-10-22T13:44:50Z"
+        "number": 180874,
+        "title": "[Bug]: Background skill-review notice is delivered as an independent message and can displace the agent's reply",
+        "url": "https://github.com/openclaw/openclaw/issues/180874",
+        "state": "closed",
+        "author": "shoes70",
+        "updatedAt": "2026-10-22T18:30:05Z"
       },
       {
         "kind": "issue",
-        "number": 180662,
-        "title": "[Bug] reloadAndResume retains a write-only host continuation then rejects its admin reload",
-        "url": "https://github.com/openclaw/openclaw/issues/180662",
+        "number": 178300,
+        "title": "Settled-turn finalization after a 1-token `length` stop delivers a false success (no task in view, terminal error overwritten with ok)",
+        "url": "https://github.com/openclaw/openclaw/issues/178300",
         "state": "open",
-        "author": "lisandromachado",
-        "updatedAt": "2026-10-22T13:43:34Z"
+        "author": "ablake4427",
+        "updatedAt": "2026-10-22T18:29:34Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 180623,
-        "title": "fix(ui): keep chat actions and draft restores with current panes",
-        "url": "https://github.com/openclaw/openclaw/pull/180623",
+        "number": 180878,
+        "title": "fix(slack): stop replies when their parent is deleted",
+        "url": "https://github.com/openclaw/openclaw/pull/180878",
+        "state": "open",
+        "author": "Kimiyu-186",
+        "updatedAt": "2026-10-22T18:30:13Z"
+      },
+      {
+        "kind": "pr",
+        "number": 171870,
+        "title": "fix: avoid false failures during node session discovery",
+        "url": "https://github.com/openclaw/openclaw/pull/171870",
+        "state": "open",
+        "author": "TheAngryPit",
+        "updatedAt": "2026-10-22T18:30:12Z"
+      },
+      {
+        "kind": "pr",
+        "number": 179924,
+        "title": "fix: let members edit their own profile without general write access",
+        "url": "https://github.com/openclaw/openclaw/pull/179924",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-10-22T18:30:08Z"
+      },
+      {
+        "kind": "pr",
+        "number": 180864,
+        "title": "fix(ui): name the focusable transcript log region for screen readers",
+        "url": "https://github.com/openclaw/openclaw/pull/180864",
+        "state": "open",
+        "author": "carlopignatari-boop",
+        "updatedAt": "2026-10-22T18:29:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 180869,
+        "title": "fix(agents): media task status names the wrong provider after fallback",
+        "url": "https://github.com/openclaw/openclaw/pull/180869",
+        "state": "open",
+        "author": "yinx65588-boop",
+        "updatedAt": "2026-10-22T18:29:54Z"
+      },
+      {
+        "kind": "pr",
+        "number": 180800,
+        "title": "refactor(ui): use explicit raw config command flags",
+        "url": "https://github.com/openclaw/openclaw/pull/180800",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-22T13:45:09Z"
-      },
-      {
-        "kind": "pr",
-        "number": 180621,
-        "title": "refactor(ui): centralize sidebar session window selection",
-        "url": "https://github.com/openclaw/openclaw/pull/180621",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-22T13:45:08Z"
-      },
-      {
-        "kind": "pr",
-        "number": 125913,
-        "title": "fix(codex): shed abandoned cleared bindings at namespace capacity",
-        "url": "https://github.com/openclaw/openclaw/pull/125913",
-        "state": "open",
-        "author": "he-yufeng",
-        "updatedAt": "2026-10-22T13:45:05Z"
-      },
-      {
-        "kind": "pr",
-        "number": 180647,
-        "title": "refactor(ui): use completion boundaries for search test feedback",
-        "url": "https://github.com/openclaw/openclaw/pull/180647",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-22T13:44:59Z"
-      },
-      {
-        "kind": "pr",
-        "number": 180641,
-        "title": "refactor: consolidate single-consumer internal surfaces",
-        "url": "https://github.com/openclaw/openclaw/pull/180641",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-22T13:44:58Z"
-      },
-      {
-        "kind": "pr",
-        "number": 180603,
-        "title": "fix: main-session automations fail before the model call when the main session is used from a DM",
-        "url": "https://github.com/openclaw/openclaw/pull/180603",
-        "state": "open",
-        "author": "masatohoshino",
-        "updatedAt": "2026-10-22T13:44:58Z"
+        "updatedAt": "2026-10-22T18:29:53Z"
       }
     ]
   }

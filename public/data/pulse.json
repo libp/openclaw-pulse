@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-22T01:28:51.805Z",
+  "generatedAt": "2026-10-22T07:31:41.507Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1635,18 +1635,18 @@
     },
     {
       "capturedOn": "2026-10-22",
-      "capturedAt": "2026-10-22T01:28:51.805Z",
-      "issueOpen": 6303,
-      "issueClosed": 54269,
-      "prOpen": 3210,
-      "prClosed": 113717,
-      "prMerged": 59960,
+      "capturedAt": "2026-10-22T07:31:41.507Z",
+      "issueOpen": 6255,
+      "issueClosed": 54361,
+      "prOpen": 3201,
+      "prClosed": 113961,
+      "prMerged": 60163,
       "workflowRuns": 40000,
-      "stars": 392702,
-      "forks": 82542,
+      "stars": 392718,
+      "forks": 82549,
       "subscribers": 1703,
-      "commits": 116657,
-      "contributors": 3640,
+      "commits": 116860,
+      "contributors": 3641,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2318,79 +2318,79 @@
     },
     {
       "capturedOn": "2026-10-22",
-      "stars": 392702,
-      "forks": 82542,
+      "stars": 392718,
+      "forks": 82549,
       "subscribers": 1703,
-      "commits": 116657,
-      "contributors": 3640
+      "commits": 116860,
+      "contributors": 3641
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 180126,
-        "title": "[Feature]: Shared model defaults in configure for explicit multi-agent fleets",
-        "url": "https://github.com/openclaw/openclaw/issues/180126",
+        "number": 157989,
+        "title": "[Bug]: Plugin source capture rewrites ~1.1–1.4 GB per CLI command and ~6.5 GB per Gateway start (no reuse, bundled native binaries): severe SSD wear",
+        "url": "https://github.com/openclaw/openclaw/issues/157989",
         "state": "open",
-        "author": "sasan1200",
-        "updatedAt": "2026-10-22T01:28:27Z"
+        "author": "jeanmonet",
+        "updatedAt": "2026-10-22T07:29:26Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 179875,
-        "title": "refactor(ui): adopt native async Skills catalog search",
-        "url": "https://github.com/openclaw/openclaw/pull/179875",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-22T01:28:45Z"
-      },
-      {
-        "kind": "pr",
-        "number": 180005,
-        "title": "fix: let Doctor finish media repairs after version upgrades",
-        "url": "https://github.com/openclaw/openclaw/pull/180005",
+        "number": 180399,
+        "title": "fix: keep project preparation fixtures on real Node",
+        "url": "https://github.com/openclaw/openclaw/pull/180399",
         "state": "open",
         "author": "shakkernerd",
-        "updatedAt": "2026-10-22T01:28:43Z"
+        "updatedAt": "2026-10-22T07:31:31Z"
       },
       {
         "kind": "pr",
-        "number": 169126,
-        "title": "fix: keep ordinary tests from reaching GitHub",
-        "url": "https://github.com/openclaw/openclaw/pull/169126",
+        "number": 180365,
+        "title": "test(core,plugins): remove low-value tests (batch d436)",
+        "url": "https://github.com/openclaw/openclaw/pull/180365",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-10-22T07:31:31Z"
+      },
+      {
+        "kind": "pr",
+        "number": 156412,
+        "title": "feat(stepfun): default to Step 5 Preview with USD usage pricing",
+        "url": "https://github.com/openclaw/openclaw/pull/156412",
         "state": "open",
-        "author": "huntharo",
-        "updatedAt": "2026-10-22T01:28:43Z"
+        "author": "NianJiuZst",
+        "updatedAt": "2026-10-22T07:31:29Z"
       },
       {
         "kind": "pr",
-        "number": 179992,
-        "title": "fix(security): require patched Node and native pnpm runtimes",
-        "url": "https://github.com/openclaw/openclaw/pull/179992",
+        "number": 174075,
+        "title": "fix(model-selection): stop Codex legacy cleanup from resetting self-origin automatic selections",
+        "url": "https://github.com/openclaw/openclaw/pull/174075",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-10-22T01:28:39Z"
+        "author": "LiuwqGit",
+        "updatedAt": "2026-10-22T07:31:28Z"
       },
       {
         "kind": "pr",
-        "number": 180102,
-        "title": "test(core,ui,plugins): remove low-value tests (batch d419)",
-        "url": "https://github.com/openclaw/openclaw/pull/180102",
+        "number": 156256,
+        "title": "fix(memory): memory search misses session turns stored as input_text/output_text blocks",
+        "url": "https://github.com/openclaw/openclaw/pull/156256",
+        "state": "open",
+        "author": "namest504",
+        "updatedAt": "2026-10-22T07:31:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 180388,
+        "title": "refactor(ui): present profile identity saves with Solid actions",
+        "url": "https://github.com/openclaw/openclaw/pull/180388",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-22T01:28:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 180127,
-        "title": "fix(ui): retain schema readiness and expose retry",
-        "url": "https://github.com/openclaw/openclaw/pull/180127",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-22T01:28:30Z"
+        "updatedAt": "2026-10-22T07:31:24Z"
       }
     ]
   }

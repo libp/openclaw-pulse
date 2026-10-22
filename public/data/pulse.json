@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-21T13:45:01.423Z",
+  "generatedAt": "2026-10-22T01:28:51.805Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1632,6 +1632,23 @@
       "contributors": 3637,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-22",
+      "capturedAt": "2026-10-22T01:28:51.805Z",
+      "issueOpen": 6303,
+      "issueClosed": 54269,
+      "prOpen": 3210,
+      "prClosed": 113717,
+      "prMerged": 59960,
+      "workflowRuns": 40000,
+      "stars": 392702,
+      "forks": 82542,
+      "subscribers": 1703,
+      "commits": 116657,
+      "contributors": 3640,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2298,74 +2315,82 @@
       "subscribers": 1703,
       "commits": 116197,
       "contributors": 3637
+    },
+    {
+      "capturedOn": "2026-10-22",
+      "stars": 392702,
+      "forks": 82542,
+      "subscribers": 1703,
+      "commits": 116657,
+      "contributors": 3640
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 179492,
-        "title": "[Bug]: Message steered into a run that before_agent_run blocks waits the full 120 s transcript-commit timeout",
-        "url": "https://github.com/openclaw/openclaw/issues/179492",
+        "number": 180126,
+        "title": "[Feature]: Shared model defaults in configure for explicit multi-agent fleets",
+        "url": "https://github.com/openclaw/openclaw/issues/180126",
         "state": "open",
-        "author": "clemenshelm",
-        "updatedAt": "2026-10-21T13:43:50Z"
+        "author": "sasan1200",
+        "updatedAt": "2026-10-22T01:28:27Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 179218,
-        "title": "fix: open navigation rail menus beside their controls",
-        "url": "https://github.com/openclaw/openclaw/pull/179218",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-10-21T13:44:53Z"
-      },
-      {
-        "kind": "pr",
-        "number": 179375,
-        "title": "refactor(ui): use native lifetimes for app setup",
-        "url": "https://github.com/openclaw/openclaw/pull/179375",
+        "number": 179875,
+        "title": "refactor(ui): adopt native async Skills catalog search",
+        "url": "https://github.com/openclaw/openclaw/pull/179875",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-21T13:44:51Z"
+        "updatedAt": "2026-10-22T01:28:45Z"
       },
       {
         "kind": "pr",
-        "number": 179525,
-        "title": "refactor(ui): use Solid actions for dream diary maintenance",
-        "url": "https://github.com/openclaw/openclaw/pull/179525",
+        "number": 180005,
+        "title": "fix: let Doctor finish media repairs after version upgrades",
+        "url": "https://github.com/openclaw/openclaw/pull/180005",
+        "state": "open",
+        "author": "shakkernerd",
+        "updatedAt": "2026-10-22T01:28:43Z"
+      },
+      {
+        "kind": "pr",
+        "number": 169126,
+        "title": "fix: keep ordinary tests from reaching GitHub",
+        "url": "https://github.com/openclaw/openclaw/pull/169126",
+        "state": "open",
+        "author": "huntharo",
+        "updatedAt": "2026-10-22T01:28:43Z"
+      },
+      {
+        "kind": "pr",
+        "number": 179992,
+        "title": "fix(security): require patched Node and native pnpm runtimes",
+        "url": "https://github.com/openclaw/openclaw/pull/179992",
+        "state": "open",
+        "author": "joshavant",
+        "updatedAt": "2026-10-22T01:28:39Z"
+      },
+      {
+        "kind": "pr",
+        "number": 180102,
+        "title": "test(core,ui,plugins): remove low-value tests (batch d419)",
+        "url": "https://github.com/openclaw/openclaw/pull/180102",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-21T13:44:48Z"
+        "updatedAt": "2026-10-22T01:28:44Z"
       },
       {
         "kind": "pr",
-        "number": 179505,
-        "title": "fix(feishu): dedupe overlapping streaming deltas",
-        "url": "https://github.com/openclaw/openclaw/pull/179505",
-        "state": "open",
-        "author": "xiaopan-xydt",
-        "updatedAt": "2026-10-21T13:44:48Z"
-      },
-      {
-        "kind": "pr",
-        "number": 179512,
-        "title": "refactor(ui): present native locale edits with Solid actions",
-        "url": "https://github.com/openclaw/openclaw/pull/179512",
+        "number": 180127,
+        "title": "fix(ui): retain schema readiness and expose retry",
+        "url": "https://github.com/openclaw/openclaw/pull/180127",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-21T13:44:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 179526,
-        "title": "refactor(automations): retire the heartbeat executor",
-        "url": "https://github.com/openclaw/openclaw/pull/179526",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-21T13:44:55Z"
+        "updatedAt": "2026-10-22T01:28:30Z"
       }
     ]
   }

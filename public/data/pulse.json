@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-23T01:28:35.853Z",
+  "generatedAt": "2026-10-23T07:28:34.181Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1652,18 +1652,18 @@
     },
     {
       "capturedOn": "2026-10-23",
-      "capturedAt": "2026-10-23T01:28:35.853Z",
-      "issueOpen": 5932,
-      "issueClosed": 54821,
-      "prOpen": 3033,
-      "prClosed": 114746,
-      "prMerged": 60696,
+      "capturedAt": "2026-10-23T07:28:34.181Z",
+      "issueOpen": 5877,
+      "issueClosed": 54928,
+      "prOpen": 2976,
+      "prClosed": 115050,
+      "prMerged": 60956,
       "workflowRuns": 40000,
-      "stars": 392791,
-      "forks": 82557,
-      "subscribers": 1703,
-      "commits": 117393,
-      "contributors": 3644,
+      "stars": 392807,
+      "forks": 82566,
+      "subscribers": 1704,
+      "commits": 117653,
+      "contributors": 3652,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2343,115 +2343,88 @@
     },
     {
       "capturedOn": "2026-10-23",
-      "stars": 392791,
-      "forks": 82557,
-      "subscribers": 1703,
-      "commits": 117393,
-      "contributors": 3644
+      "stars": 392807,
+      "forks": 82566,
+      "subscribers": 1704,
+      "commits": 117653,
+      "contributors": 3652
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 181125,
-        "title": "Doctor media migration rewrites corrupt transcript archives with replacement characters",
-        "url": "https://github.com/openclaw/openclaw/issues/181125",
-        "state": "closed",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-10-23T01:28:19Z"
+        "number": 181459,
+        "title": "[Bug]: 3.5 GB agent DB makes startup a gamble on 2026.10.6 — 18 s open, 4–6 min startup, agent left UNAVAILABLE with 'commit checkpoint expired'; embeddings stored 3× (re: #166634)",
+        "url": "https://github.com/openclaw/openclaw/issues/181459",
+        "state": "open",
+        "author": "davidcittadini",
+        "updatedAt": "2026-10-23T07:28:21Z"
       },
       {
         "kind": "issue",
-        "number": 181155,
-        "title": "[Feature]: Let sessions list show which workspace or worktree a session is bound to",
-        "url": "https://github.com/openclaw/openclaw/issues/181155",
+        "number": 113895,
+        "title": "feat: add opt-in Nephesh dream provenance integration",
+        "url": "https://github.com/openclaw/openclaw/issues/113895",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-10-23T01:27:59Z"
-      },
-      {
-        "kind": "issue",
-        "number": 181160,
-        "title": "[Feature]: Add a label filter to openclaw sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/181160",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-10-23T01:26:46Z"
-      },
-      {
-        "kind": "issue",
-        "number": 160959,
-        "title": "[Bug]: Gateway blocks for minutes while capturing large external plugins (2026.9.6 regression)",
-        "url": "https://github.com/openclaw/openclaw/issues/160959",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-10-23T01:26:40Z"
-      },
-      {
-        "kind": "issue",
-        "number": 181158,
-        "title": "[Feature]: Add a bundled-only skill filter to openclaw skills list",
-        "url": "https://github.com/openclaw/openclaw/issues/181158",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-10-23T01:26:29Z"
+        "author": "GaiusJocundus",
+        "updatedAt": "2026-10-23T07:26:10Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 181162,
-        "title": "perf(gateway): share session event delivery plans across viewers",
-        "url": "https://github.com/openclaw/openclaw/pull/181162",
+        "number": 181255,
+        "title": "perf(ui): consolidate chat and New Session route CSS",
+        "url": "https://github.com/openclaw/openclaw/pull/181255",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-23T01:28:28Z"
+        "updatedAt": "2026-10-23T07:28:24Z"
       },
       {
         "kind": "pr",
-        "number": 181150,
-        "title": "perf(infra): reuse immutable worker reply facts",
-        "url": "https://github.com/openclaw/openclaw/pull/181150",
+        "number": 181446,
+        "title": "feat(release): publish Gateway MSIX to Microsoft Store after stable releases",
+        "url": "https://github.com/openclaw/openclaw/pull/181446",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-10-23T07:28:23Z"
+      },
+      {
+        "kind": "pr",
+        "number": 181355,
+        "title": "perf(ui): defer optional Chat boot dependencies and page copy",
+        "url": "https://github.com/openclaw/openclaw/pull/181355",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-23T01:28:21Z"
+        "updatedAt": "2026-10-23T07:28:16Z"
       },
       {
         "kind": "pr",
-        "number": 172741,
-        "title": "fix(gateway): reject FIFO TLS material without blocking validation",
-        "url": "https://github.com/openclaw/openclaw/pull/172741",
-        "state": "open",
-        "author": "Leon-SK668",
-        "updatedAt": "2026-10-23T01:28:13Z"
-      },
-      {
-        "kind": "pr",
-        "number": 181151,
-        "title": "perf(agents): reuse prompt size records and fork options",
-        "url": "https://github.com/openclaw/openclaw/pull/181151",
+        "number": 181453,
+        "title": "refactor: narrow private runtime argument and request modes",
+        "url": "https://github.com/openclaw/openclaw/pull/181453",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-23T01:28:12Z"
+        "updatedAt": "2026-10-23T07:28:15Z"
       },
       {
         "kind": "pr",
-        "number": 178282,
-        "title": "fix(ios): authenticate embedded Settings behind Basic proxies",
-        "url": "https://github.com/openclaw/openclaw/pull/178282",
-        "state": "closed",
-        "author": "brianmcguire",
-        "updatedAt": "2026-10-23T01:28:10Z"
-      },
-      {
-        "kind": "pr",
-        "number": 181154,
-        "title": "perf(gateway): reuse issued authority facts during retained work",
-        "url": "https://github.com/openclaw/openclaw/pull/181154",
+        "number": 169179,
+        "title": "fix: internal memory and skill reviews omit usage diagnostics",
+        "url": "https://github.com/openclaw/openclaw/pull/169179",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-23T01:28:09Z"
+        "author": "PratikRai0101",
+        "updatedAt": "2026-10-23T07:28:28Z"
+      },
+      {
+        "kind": "pr",
+        "number": 180936,
+        "title": "fix(ui): preserve keyboard focus when an audio preview fails",
+        "url": "https://github.com/openclaw/openclaw/pull/180936",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-10-23T07:27:55Z"
       }
     ]
   }

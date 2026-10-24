@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-23T07:28:34.181Z",
+  "generatedAt": "2026-10-24T05:49:07.251Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1666,6 +1666,23 @@
       "contributors": 3652,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-24",
+      "capturedAt": "2026-10-24T05:49:07.251Z",
+      "issueOpen": 5061,
+      "issueClosed": 55895,
+      "prOpen": 2863,
+      "prClosed": 115830,
+      "prMerged": 61466,
+      "workflowRuns": 40000,
+      "stars": 392894,
+      "forks": 82573,
+      "subscribers": 1703,
+      "commits": 118140,
+      "contributors": 3661,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2348,83 +2365,127 @@
       "subscribers": 1704,
       "commits": 117653,
       "contributors": 3652
+    },
+    {
+      "capturedOn": "2026-10-24",
+      "stars": 392894,
+      "forks": 82573,
+      "subscribers": 1703,
+      "commits": 118140,
+      "contributors": 3661
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 181459,
-        "title": "[Bug]: 3.5 GB agent DB makes startup a gamble on 2026.10.6 — 18 s open, 4–6 min startup, agent left UNAVAILABLE with 'commit checkpoint expired'; embeddings stored 3× (re: #166634)",
-        "url": "https://github.com/openclaw/openclaw/issues/181459",
-        "state": "open",
-        "author": "davidcittadini",
-        "updatedAt": "2026-10-23T07:28:21Z"
+        "number": 122450,
+        "title": "[Bug]: Use link-blue tokens for Control UI transcript links",
+        "url": "https://github.com/openclaw/openclaw/issues/122450",
+        "state": "closed",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-10-24T05:48:50Z"
       },
       {
         "kind": "issue",
-        "number": 113895,
-        "title": "feat: add opt-in Nephesh dream provenance integration",
-        "url": "https://github.com/openclaw/openclaw/issues/113895",
-        "state": "open",
-        "author": "GaiusJocundus",
-        "updatedAt": "2026-10-23T07:26:10Z"
+        "number": 119679,
+        "title": "fix(qa): make release auth seeding state-explicit and patch writes atomic",
+        "url": "https://github.com/openclaw/openclaw/issues/119679",
+        "state": "closed",
+        "author": "vincentkoc",
+        "updatedAt": "2026-10-24T05:48:36Z"
+      },
+      {
+        "kind": "issue",
+        "number": 119459,
+        "title": "Codex-backed skill catalog refers to a nonexistent OpenClaw read tool",
+        "url": "https://github.com/openclaw/openclaw/issues/119459",
+        "state": "closed",
+        "author": "bek91",
+        "updatedAt": "2026-10-24T05:48:24Z"
+      },
+      {
+        "kind": "issue",
+        "number": 117178,
+        "title": "[Feature]: Confirm disruptive lifecycle actions in Control UI and apps",
+        "url": "https://github.com/openclaw/openclaw/issues/117178",
+        "state": "closed",
+        "author": "VACInc",
+        "updatedAt": "2026-10-24T05:48:10Z"
+      },
+      {
+        "kind": "issue",
+        "number": 114772,
+        "title": "Refactor guarded fetch to isolate one manual-redirect network hop",
+        "url": "https://github.com/openclaw/openclaw/issues/114772",
+        "state": "closed",
+        "author": "giodl73-repo",
+        "updatedAt": "2026-10-24T05:47:45Z"
+      },
+      {
+        "kind": "issue",
+        "number": 107661,
+        "title": "Security: agents.defaults.tools/sandbox are inert — an agent resolved without an agents.list entry runs with the full tool profile and no sandbox",
+        "url": "https://github.com/openclaw/openclaw/issues/107661",
+        "state": "closed",
+        "author": "fvadicamo",
+        "updatedAt": "2026-10-24T05:47:17Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 181255,
-        "title": "perf(ui): consolidate chat and New Session route CSS",
-        "url": "https://github.com/openclaw/openclaw/pull/181255",
+        "number": 182276,
+        "title": "perf(gateway): trust producer diagnostic records and reuse provider projections",
+        "url": "https://github.com/openclaw/openclaw/pull/182276",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-23T07:28:24Z"
+        "updatedAt": "2026-10-24T05:48:51Z"
       },
       {
         "kind": "pr",
-        "number": 181446,
-        "title": "feat(release): publish Gateway MSIX to Microsoft Store after stable releases",
-        "url": "https://github.com/openclaw/openclaw/pull/181446",
+        "number": 182273,
+        "title": "fix: room-event turns no longer reset claude-cli sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/182273",
         "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-10-23T07:28:23Z"
+        "author": "xiaopan-xydt",
+        "updatedAt": "2026-10-24T05:48:48Z"
       },
       {
         "kind": "pr",
-        "number": 181355,
-        "title": "perf(ui): defer optional Chat boot dependencies and page copy",
-        "url": "https://github.com/openclaw/openclaw/pull/181355",
+        "number": 182223,
+        "title": "fix(agents): keep child completion results verbatim for requesters",
+        "url": "https://github.com/openclaw/openclaw/pull/182223",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-23T07:28:16Z"
+        "author": "fuller-stack-dev",
+        "updatedAt": "2026-10-24T05:48:45Z"
       },
       {
         "kind": "pr",
-        "number": 181453,
-        "title": "refactor: narrow private runtime argument and request modes",
-        "url": "https://github.com/openclaw/openclaw/pull/181453",
+        "number": 181549,
+        "title": "fix(ollama): normalize tool_name on converted tool results",
+        "url": "https://github.com/openclaw/openclaw/pull/181549",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-23T07:28:15Z"
+        "author": "xpeng5278-web",
+        "updatedAt": "2026-10-24T05:48:55Z"
       },
       {
         "kind": "pr",
-        "number": 169179,
-        "title": "fix: internal memory and skill reviews omit usage diagnostics",
-        "url": "https://github.com/openclaw/openclaw/pull/169179",
-        "state": "open",
-        "author": "PratikRai0101",
-        "updatedAt": "2026-10-23T07:28:28Z"
-      },
-      {
-        "kind": "pr",
-        "number": 180936,
-        "title": "fix(ui): preserve keyboard focus when an audio preview fails",
-        "url": "https://github.com/openclaw/openclaw/pull/180936",
+        "number": 182281,
+        "title": "fix(dev): preserve active replies when stopping the Gateway",
+        "url": "https://github.com/openclaw/openclaw/pull/182281",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-10-23T07:27:55Z"
+        "updatedAt": "2026-10-24T05:48:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 182214,
+        "title": "perf(gateway): unblock dashboard reads during reconnect",
+        "url": "https://github.com/openclaw/openclaw/pull/182214",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-24T05:48:07Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-24T18:06:48.995Z",
+  "generatedAt": "2026-10-24T23:11:01.155Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1669,18 +1669,18 @@
     },
     {
       "capturedOn": "2026-10-24",
-      "capturedAt": "2026-10-24T18:06:48.995Z",
-      "issueOpen": 5000,
-      "issueClosed": 56045,
-      "prOpen": 2780,
-      "prClosed": 116298,
-      "prMerged": 61819,
+      "capturedAt": "2026-10-24T23:11:01.155Z",
+      "issueOpen": 5002,
+      "issueClosed": 56073,
+      "prOpen": 2824,
+      "prClosed": 116469,
+      "prMerged": 61966,
       "workflowRuns": 40000,
-      "stars": 392941,
-      "forks": 82592,
-      "subscribers": 1706,
-      "commits": 118507,
-      "contributors": 3664,
+      "stars": 392954,
+      "forks": 82597,
+      "subscribers": 1701,
+      "commits": 118656,
+      "contributors": 3668,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2368,88 +2368,69 @@
     },
     {
       "capturedOn": "2026-10-24",
-      "stars": 392941,
-      "forks": 82592,
-      "subscribers": 1706,
-      "commits": 118507,
-      "contributors": 3664
+      "stars": 392954,
+      "forks": 82597,
+      "subscribers": 1701,
+      "commits": 118656,
+      "contributors": 3668
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 182757,
-        "title": "[Bug]: claude-cli runner persists the final reply twice when the turn has text before a tool call",
-        "url": "https://github.com/openclaw/openclaw/issues/182757",
-        "state": "closed",
-        "author": "atxy2k",
-        "updatedAt": "2026-10-24T18:05:32Z"
-      },
-      {
-        "kind": "issue",
-        "number": 182712,
-        "title": "[Feature]: Limit-aware model fallback — skip candidates on an exhausted provider account and prefer a different provider",
-        "url": "https://github.com/openclaw/openclaw/issues/182712",
-        "state": "open",
-        "author": "najef1979-code",
-        "updatedAt": "2026-10-24T18:04:06Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 182752,
-        "title": "perf(gateway): keep input replay metadata off the chat wire",
-        "url": "https://github.com/openclaw/openclaw/pull/182752",
+        "number": 180832,
+        "title": "fix(setup): preserve the current model when activating saved auth",
+        "url": "https://github.com/openclaw/openclaw/pull/180832",
+        "state": "open",
+        "author": "xiaopan-xydt",
+        "updatedAt": "2026-10-24T23:10:47Z"
+      },
+      {
+        "kind": "pr",
+        "number": 182988,
+        "title": "perf(ui): share row observers and avatar subscriptions",
+        "url": "https://github.com/openclaw/openclaw/pull/182988",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-24T18:06:38Z"
+        "updatedAt": "2026-10-24T23:10:28Z"
       },
       {
         "kind": "pr",
-        "number": 165809,
-        "title": "fix(codex): native subagent completions dropped after parent thread rotation",
-        "url": "https://github.com/openclaw/openclaw/pull/165809",
+        "number": 182426,
+        "title": "fix(codex): accept managed loopback proxy defaults",
+        "url": "https://github.com/openclaw/openclaw/pull/182426",
         "state": "open",
-        "author": "mmartoccia",
-        "updatedAt": "2026-10-24T18:06:37Z"
+        "author": "indra622",
+        "updatedAt": "2026-10-24T23:10:08Z"
       },
       {
         "kind": "pr",
-        "number": 181775,
-        "title": "fix(logging): preserve literal diagnostics export output paths",
-        "url": "https://github.com/openclaw/openclaw/pull/181775",
+        "number": 182996,
+        "title": "fix: restore isolated interactive setup runtime",
+        "url": "https://github.com/openclaw/openclaw/pull/182996",
         "state": "open",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-10-24T18:06:14Z"
-      },
-      {
-        "kind": "pr",
-        "number": 182732,
-        "title": "refactor: deslop browser, provider and channel fixtures",
-        "url": "https://github.com/openclaw/openclaw/pull/182732",
-        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-10-24T18:05:35Z"
+        "updatedAt": "2026-10-24T23:09:58Z"
       },
       {
         "kind": "pr",
-        "number": 182753,
-        "title": "fix(infra): keep astral ClawHub MCP display text whole at the metadata caps",
-        "url": "https://github.com/openclaw/openclaw/pull/182753",
+        "number": 182994,
+        "title": "test(sessions): avoid duplicate conformance executions",
+        "url": "https://github.com/openclaw/openclaw/pull/182994",
         "state": "open",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-10-24T18:05:25Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-24T23:09:58Z"
       },
       {
         "kind": "pr",
-        "number": 175600,
-        "title": "fix(plugins): stop executing escape sequences embedded in plugin manifest metadata",
-        "url": "https://github.com/openclaw/openclaw/pull/175600",
+        "number": 182836,
+        "title": "perf(gateway): release archived page budget after reads",
+        "url": "https://github.com/openclaw/openclaw/pull/182836",
         "state": "open",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-10-24T18:05:15Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-24T23:09:55Z"
       }
     ]
   }

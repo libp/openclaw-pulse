@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-24T14:29:53.207Z",
+  "generatedAt": "2026-10-24T18:06:48.995Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1669,18 +1669,18 @@
     },
     {
       "capturedOn": "2026-10-24",
-      "capturedAt": "2026-10-24T14:29:53.207Z",
-      "issueOpen": 4993,
-      "issueClosed": 56020,
-      "prOpen": 2809,
-      "prClosed": 116193,
-      "prMerged": 61735,
+      "capturedAt": "2026-10-24T18:06:48.995Z",
+      "issueOpen": 5000,
+      "issueClosed": 56045,
+      "prOpen": 2780,
+      "prClosed": 116298,
+      "prMerged": 61819,
       "workflowRuns": 40000,
-      "stars": 392925,
-      "forks": 82585,
-      "subscribers": 1705,
-      "commits": 118420,
-      "contributors": 3663,
+      "stars": 392941,
+      "forks": 82592,
+      "subscribers": 1706,
+      "commits": 118507,
+      "contributors": 3664,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2368,106 +2368,88 @@
     },
     {
       "capturedOn": "2026-10-24",
-      "stars": 392925,
-      "forks": 82585,
-      "subscribers": 1705,
-      "commits": 118420,
-      "contributors": 3663
+      "stars": 392941,
+      "forks": 82592,
+      "subscribers": 1706,
+      "commits": 118507,
+      "contributors": 3664
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 182642,
-        "title": "Feature: `openclaw sessions processes list|stop` (expose sessions.processes.*)",
-        "url": "https://github.com/openclaw/openclaw/issues/182642",
-        "state": "open",
-        "author": "nocodet888-arch",
-        "updatedAt": "2026-10-24T14:29:20Z"
+        "number": 182757,
+        "title": "[Bug]: claude-cli runner persists the final reply twice when the turn has text before a tool call",
+        "url": "https://github.com/openclaw/openclaw/issues/182757",
+        "state": "closed",
+        "author": "atxy2k",
+        "updatedAt": "2026-10-24T18:05:32Z"
       },
       {
         "kind": "issue",
-        "number": 182647,
-        "title": "Cloud-worker turns fail before inference: \"Session capability metadata requires worker preparation\"",
-        "url": "https://github.com/openclaw/openclaw/issues/182647",
+        "number": 182712,
+        "title": "[Feature]: Limit-aware model fallback — skip candidates on an exhausted provider account and prefer a different provider",
+        "url": "https://github.com/openclaw/openclaw/issues/182712",
         "state": "open",
-        "author": "migelizaga-rgb",
-        "updatedAt": "2026-10-24T14:28:48Z"
-      },
-      {
-        "kind": "issue",
-        "number": 182649,
-        "title": "Current-session cron completions are invisible to CLI runtimes (claude-cli)",
-        "url": "https://github.com/openclaw/openclaw/issues/182649",
-        "state": "open",
-        "author": "scarabone",
-        "updatedAt": "2026-10-24T14:28:22Z"
-      },
-      {
-        "kind": "issue",
-        "number": 182043,
-        "title": "[Bug]: Pending subagent completion loses requester source after a Gateway crash",
-        "url": "https://github.com/openclaw/openclaw/issues/182043",
-        "state": "open",
-        "author": "ericcaiwx-star",
-        "updatedAt": "2026-10-24T14:26:47Z"
+        "author": "najef1979-code",
+        "updatedAt": "2026-10-24T18:04:06Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 182575,
-        "title": "fix(validators): validate fixed schemas without runtime code generation",
-        "url": "https://github.com/openclaw/openclaw/pull/182575",
+        "number": 182752,
+        "title": "perf(gateway): keep input replay metadata off the chat wire",
+        "url": "https://github.com/openclaw/openclaw/pull/182752",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-24T18:06:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 165809,
+        "title": "fix(codex): native subagent completions dropped after parent thread rotation",
+        "url": "https://github.com/openclaw/openclaw/pull/165809",
+        "state": "open",
+        "author": "mmartoccia",
+        "updatedAt": "2026-10-24T18:06:37Z"
+      },
+      {
+        "kind": "pr",
+        "number": 181775,
+        "title": "fix(logging): preserve literal diagnostics export output paths",
+        "url": "https://github.com/openclaw/openclaw/pull/181775",
+        "state": "open",
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-10-24T18:06:14Z"
+      },
+      {
+        "kind": "pr",
+        "number": 182732,
+        "title": "refactor: deslop browser, provider and channel fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/182732",
         "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-10-24T14:29:33Z"
+        "updatedAt": "2026-10-24T18:05:35Z"
       },
       {
         "kind": "pr",
-        "number": 182343,
-        "title": "fix(update): fence readiness credentials at transport send",
-        "url": "https://github.com/openclaw/openclaw/pull/182343",
+        "number": 182753,
+        "title": "fix(infra): keep astral ClawHub MCP display text whole at the metadata caps",
+        "url": "https://github.com/openclaw/openclaw/pull/182753",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-24T14:29:28Z"
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-10-24T18:05:25Z"
       },
       {
         "kind": "pr",
-        "number": 182643,
-        "title": "test(gateway,agents,ui): remove low-value tests (batch d472)",
-        "url": "https://github.com/openclaw/openclaw/pull/182643",
+        "number": 175600,
+        "title": "fix(plugins): stop executing escape sequences embedded in plugin manifest metadata",
+        "url": "https://github.com/openclaw/openclaw/pull/175600",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-24T14:29:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 182645,
-        "title": "refactor(ui): remove unused chat receipt reader",
-        "url": "https://github.com/openclaw/openclaw/pull/182645",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-10-24T14:28:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 182627,
-        "title": "fix(ui): use monotonic clock for native conversation bridge response deadline",
-        "url": "https://github.com/openclaw/openclaw/pull/182627",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-10-24T14:28:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 141004,
-        "title": "feat(audit): record observed runtime skill usage",
-        "url": "https://github.com/openclaw/openclaw/pull/141004",
-        "state": "open",
-        "author": "wiecon-dev",
-        "updatedAt": "2026-10-24T14:28:30Z"
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-10-24T18:05:15Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-25T01:07:45.889Z",
+  "generatedAt": "2026-10-25T06:04:50.449Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1686,18 +1686,18 @@
     },
     {
       "capturedOn": "2026-10-25",
-      "capturedAt": "2026-10-25T01:07:45.889Z",
-      "issueOpen": 5001,
-      "issueClosed": 56082,
-      "prOpen": 2816,
-      "prClosed": 116551,
-      "prMerged": 62041,
+      "capturedAt": "2026-10-25T06:04:50.449Z",
+      "issueOpen": 5015,
+      "issueClosed": 56099,
+      "prOpen": 2806,
+      "prClosed": 116760,
+      "prMerged": 62226,
       "workflowRuns": 40000,
-      "stars": 392961,
-      "forks": 82599,
+      "stars": 392976,
+      "forks": 82606,
       "subscribers": 1701,
-      "commits": 118732,
-      "contributors": 3668,
+      "commits": 118924,
+      "contributors": 3669,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2393,11 +2393,11 @@
     },
     {
       "capturedOn": "2026-10-25",
-      "stars": 392961,
-      "forks": 82599,
+      "stars": 392976,
+      "forks": 82606,
       "subscribers": 1701,
-      "commits": 118732,
-      "contributors": 3668
+      "commits": 118924,
+      "contributors": 3669
     }
   ],
   "activity": {
@@ -2405,57 +2405,57 @@
     "prs": [
       {
         "kind": "pr",
-        "number": 183084,
-        "title": "ci: update shared Bun pin for pre-connect TLS SNI",
-        "url": "https://github.com/openclaw/openclaw/pull/183084",
+        "number": 183320,
+        "title": "experiment(control-ui): archive views under sustained list churn [do not merge]",
+        "url": "https://github.com/openclaw/openclaw/pull/183320",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-25T01:07:39Z"
+        "updatedAt": "2026-10-25T06:04:43Z"
       },
       {
         "kind": "pr",
-        "number": 182730,
-        "title": "fix: session avatars return 404 for data URL identities",
-        "url": "https://github.com/openclaw/openclaw/pull/182730",
+        "number": 183319,
+        "title": "fix(ui): distinguish hover and selection surfaces",
+        "url": "https://github.com/openclaw/openclaw/pull/183319",
         "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-10-25T01:07:37Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-10-25T06:04:44Z"
       },
       {
         "kind": "pr",
-        "number": 182593,
-        "title": "fix(macos): oversized recordings disconnect the node instead of erroring",
-        "url": "https://github.com/openclaw/openclaw/pull/182593",
-        "state": "open",
-        "author": "anmol0b",
-        "updatedAt": "2026-10-25T01:07:34Z"
-      },
-      {
-        "kind": "pr",
-        "number": 179016,
-        "title": "fix(memory-core): reject invalid UTF-8 when reading workspace text",
-        "url": "https://github.com/openclaw/openclaw/pull/179016",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-10-25T01:07:34Z"
-      },
-      {
-        "kind": "pr",
-        "number": 181752,
-        "title": "fix(migrate-claude): reject pipe-backed source files without blocking",
-        "url": "https://github.com/openclaw/openclaw/pull/181752",
-        "state": "open",
-        "author": "Leon-SK668",
-        "updatedAt": "2026-10-25T01:07:33Z"
-      },
-      {
-        "kind": "pr",
-        "number": 183070,
-        "title": "perf(gateway): park unavailable orphan workspace lookups until owner changes",
-        "url": "https://github.com/openclaw/openclaw/pull/183070",
+        "number": 183318,
+        "title": "perf(ui): share remaining presentation clocks",
+        "url": "https://github.com/openclaw/openclaw/pull/183318",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-25T01:07:32Z"
+        "updatedAt": "2026-10-25T06:04:39Z"
+      },
+      {
+        "kind": "pr",
+        "number": 183317,
+        "title": "ci: share Control UI test setup across fewer shards",
+        "url": "https://github.com/openclaw/openclaw/pull/183317",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-25T06:04:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 179898,
+        "title": "fix(macos): stop trusting the stale /etc/ssl/cert.pem bundle in services",
+        "url": "https://github.com/openclaw/openclaw/pull/179898",
+        "state": "open",
+        "author": "eleqtrizit",
+        "updatedAt": "2026-10-25T06:04:43Z"
+      },
+      {
+        "kind": "pr",
+        "number": 174317,
+        "title": "fix(naming): refine generated Dashboard titles once",
+        "url": "https://github.com/openclaw/openclaw/pull/174317",
+        "state": "open",
+        "author": "dankarization",
+        "updatedAt": "2026-10-25T06:04:15Z"
       }
     ]
   }

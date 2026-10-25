@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-25T19:02:26.858Z",
+  "generatedAt": "2026-10-25T21:45:13.681Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1686,17 +1686,17 @@
     },
     {
       "capturedOn": "2026-10-25",
-      "capturedAt": "2026-10-25T19:02:26.858Z",
-      "issueOpen": 5058,
-      "issueClosed": 56134,
-      "prOpen": 2818,
-      "prClosed": 117133,
-      "prMerged": 62562,
+      "capturedAt": "2026-10-25T21:45:13.681Z",
+      "issueOpen": 5065,
+      "issueClosed": 56140,
+      "prOpen": 2826,
+      "prClosed": 117200,
+      "prMerged": 62623,
       "workflowRuns": 40000,
-      "stars": 393038,
-      "forks": 82612,
-      "subscribers": 1702,
-      "commits": 119273,
+      "stars": 393046,
+      "forks": 82614,
+      "subscribers": 1701,
+      "commits": 119334,
       "contributors": 3675,
       "source": "github-actions",
       "approximateDate": false
@@ -2393,10 +2393,10 @@
     },
     {
       "capturedOn": "2026-10-25",
-      "stars": 393038,
-      "forks": 82612,
-      "subscribers": 1702,
-      "commits": 119273,
+      "stars": 393046,
+      "forks": 82614,
+      "subscribers": 1701,
+      "commits": 119334,
       "contributors": 3675
     }
   ],
@@ -2404,68 +2404,104 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 183780,
-        "title": "Update failure: package-install-omit-optional (2026.10.4)",
-        "url": "https://github.com/openclaw/openclaw/issues/183780",
+        "number": 183863,
+        "title": "Heartbeat runner reports \"Worker placement inventory changed\" on the first placement change, even though the turn usually proceeds; error status and backoff are applied anyway",
+        "url": "https://github.com/openclaw/openclaw/issues/183863",
         "state": "open",
-        "author": "rmarr",
-        "updatedAt": "2026-10-25T19:02:21Z"
+        "author": "aevgeniou",
+        "updatedAt": "2026-10-25T21:44:57Z"
+      },
+      {
+        "kind": "issue",
+        "number": 163564,
+        "title": "[Bug]: Completed terminal assistant reply can render without Reply/Copy actions",
+        "url": "https://github.com/openclaw/openclaw/issues/163564",
+        "state": "open",
+        "author": "samiralibabic",
+        "updatedAt": "2026-10-25T21:43:18Z"
+      },
+      {
+        "kind": "issue",
+        "number": 183858,
+        "title": "[Bug]: Ordinary plugin-capture sweep in a short-lived CLI process reclaims the live Gateway's capture instance when POSIX locks aren't honored (Docker Desktop macOS bind mount) → Codex harness ENOENT until restart",
+        "url": "https://github.com/openclaw/openclaw/issues/183858",
+        "state": "open",
+        "author": "Fealves0",
+        "updatedAt": "2026-10-25T21:42:57Z"
+      },
+      {
+        "kind": "issue",
+        "number": 155953,
+        "title": "[Bug]: [UX] Sidebar information architecture: \"Home\" labeling, and \"Groups\" backed by three unrelated mechanisms",
+        "url": "https://github.com/openclaw/openclaw/issues/155953",
+        "state": "open",
+        "author": "myradon",
+        "updatedAt": "2026-10-25T21:42:31Z"
+      },
+      {
+        "kind": "issue",
+        "number": 163125,
+        "title": "Classic (non-add-on) Google Chat app: webhook always returns 403, no log output",
+        "url": "https://github.com/openclaw/openclaw/issues/163125",
+        "state": "open",
+        "author": "brad783",
+        "updatedAt": "2026-10-25T21:42:24Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 183595,
-        "title": "experiment(control-ui): settle cached transcript row footprints [do not merge]",
-        "url": "https://github.com/openclaw/openclaw/pull/183595",
+        "number": 183869,
+        "title": "perf(sessions): avoid allocations in replica byte accounting",
+        "url": "https://github.com/openclaw/openclaw/pull/183869",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-25T19:02:15Z"
+        "updatedAt": "2026-10-25T21:45:02Z"
       },
       {
         "kind": "pr",
-        "number": 177812,
-        "title": "fix: make Daybreak independent of retiring model aliases",
-        "url": "https://github.com/openclaw/openclaw/pull/177812",
+        "number": 183871,
+        "title": "perf(models): skip unused source projection for known route overrides",
+        "url": "https://github.com/openclaw/openclaw/pull/183871",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-25T21:44:58Z"
+      },
+      {
+        "kind": "pr",
+        "number": 183816,
+        "title": "perf(chat): keep large code blocks responsive while highlighting",
+        "url": "https://github.com/openclaw/openclaw/pull/183816",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-25T21:44:58Z"
+      },
+      {
+        "kind": "pr",
+        "number": 183870,
+        "title": "perf(gateway): reuse session PR watcher currency",
+        "url": "https://github.com/openclaw/openclaw/pull/183870",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-25T21:44:50Z"
+      },
+      {
+        "kind": "pr",
+        "number": 183854,
+        "title": "fix(ui): preview PDFs opened from session file links",
+        "url": "https://github.com/openclaw/openclaw/pull/183854",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-10-25T19:02:05Z"
+        "updatedAt": "2026-10-25T21:44:49Z"
       },
       {
         "kind": "pr",
-        "number": 183766,
-        "title": "perf(chat): avoid rendering hidden tool details",
-        "url": "https://github.com/openclaw/openclaw/pull/183766",
+        "number": 183866,
+        "title": "perf(agents): reuse published schema facts when pinning tools",
+        "url": "https://github.com/openclaw/openclaw/pull/183866",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-25T19:02:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 183783,
-        "title": "perf(llm): detach rate-limit observers and recovery timers",
-        "url": "https://github.com/openclaw/openclaw/pull/183783",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-25T19:01:53Z"
-      },
-      {
-        "kind": "pr",
-        "number": 183768,
-        "title": "test(agents,gateway,plugins,ui): remove low-value tests (batch d553)",
-        "url": "https://github.com/openclaw/openclaw/pull/183768",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-25T19:01:50Z"
-      },
-      {
-        "kind": "pr",
-        "number": 183781,
-        "title": "fix: stale plugin types after copying declaration caches",
-        "url": "https://github.com/openclaw/openclaw/pull/183781",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-25T19:01:46Z"
+        "updatedAt": "2026-10-25T21:44:33Z"
       }
     ]
   }

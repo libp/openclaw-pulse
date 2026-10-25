@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-24T23:11:01.155Z",
+  "generatedAt": "2026-10-25T01:07:45.889Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1683,6 +1683,23 @@
       "contributors": 3668,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-25",
+      "capturedAt": "2026-10-25T01:07:45.889Z",
+      "issueOpen": 5001,
+      "issueClosed": 56082,
+      "prOpen": 2816,
+      "prClosed": 116551,
+      "prMerged": 62041,
+      "workflowRuns": 40000,
+      "stars": 392961,
+      "forks": 82599,
+      "subscribers": 1701,
+      "commits": 118732,
+      "contributors": 3668,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2373,6 +2390,14 @@
       "subscribers": 1701,
       "commits": 118656,
       "contributors": 3668
+    },
+    {
+      "capturedOn": "2026-10-25",
+      "stars": 392961,
+      "forks": 82599,
+      "subscribers": 1701,
+      "commits": 118732,
+      "contributors": 3668
     }
   ],
   "activity": {
@@ -2380,57 +2405,57 @@
     "prs": [
       {
         "kind": "pr",
-        "number": 180832,
-        "title": "fix(setup): preserve the current model when activating saved auth",
-        "url": "https://github.com/openclaw/openclaw/pull/180832",
-        "state": "open",
-        "author": "xiaopan-xydt",
-        "updatedAt": "2026-10-24T23:10:47Z"
-      },
-      {
-        "kind": "pr",
-        "number": 182988,
-        "title": "perf(ui): share row observers and avatar subscriptions",
-        "url": "https://github.com/openclaw/openclaw/pull/182988",
+        "number": 183084,
+        "title": "ci: update shared Bun pin for pre-connect TLS SNI",
+        "url": "https://github.com/openclaw/openclaw/pull/183084",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-24T23:10:28Z"
+        "updatedAt": "2026-10-25T01:07:39Z"
       },
       {
         "kind": "pr",
-        "number": 182426,
-        "title": "fix(codex): accept managed loopback proxy defaults",
-        "url": "https://github.com/openclaw/openclaw/pull/182426",
+        "number": 182730,
+        "title": "fix: session avatars return 404 for data URL identities",
+        "url": "https://github.com/openclaw/openclaw/pull/182730",
         "state": "open",
-        "author": "indra622",
-        "updatedAt": "2026-10-24T23:10:08Z"
+        "author": "sunlit-deng",
+        "updatedAt": "2026-10-25T01:07:37Z"
       },
       {
         "kind": "pr",
-        "number": 182996,
-        "title": "fix: restore isolated interactive setup runtime",
-        "url": "https://github.com/openclaw/openclaw/pull/182996",
+        "number": 182593,
+        "title": "fix(macos): oversized recordings disconnect the node instead of erroring",
+        "url": "https://github.com/openclaw/openclaw/pull/182593",
+        "state": "open",
+        "author": "anmol0b",
+        "updatedAt": "2026-10-25T01:07:34Z"
+      },
+      {
+        "kind": "pr",
+        "number": 179016,
+        "title": "fix(memory-core): reject invalid UTF-8 when reading workspace text",
+        "url": "https://github.com/openclaw/openclaw/pull/179016",
+        "state": "open",
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-10-25T01:07:34Z"
+      },
+      {
+        "kind": "pr",
+        "number": 181752,
+        "title": "fix(migrate-claude): reject pipe-backed source files without blocking",
+        "url": "https://github.com/openclaw/openclaw/pull/181752",
+        "state": "open",
+        "author": "Leon-SK668",
+        "updatedAt": "2026-10-25T01:07:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 183070,
+        "title": "perf(gateway): park unavailable orphan workspace lookups until owner changes",
+        "url": "https://github.com/openclaw/openclaw/pull/183070",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-24T23:09:58Z"
-      },
-      {
-        "kind": "pr",
-        "number": 182994,
-        "title": "test(sessions): avoid duplicate conformance executions",
-        "url": "https://github.com/openclaw/openclaw/pull/182994",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-24T23:09:58Z"
-      },
-      {
-        "kind": "pr",
-        "number": 182836,
-        "title": "perf(gateway): release archived page budget after reads",
-        "url": "https://github.com/openclaw/openclaw/pull/182836",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-24T23:09:55Z"
+        "updatedAt": "2026-10-25T01:07:32Z"
       }
     ]
   }

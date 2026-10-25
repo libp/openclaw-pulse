@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-25T16:13:28.171Z",
+  "generatedAt": "2026-10-25T19:02:26.858Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1686,18 +1686,18 @@
     },
     {
       "capturedOn": "2026-10-25",
-      "capturedAt": "2026-10-25T16:13:28.171Z",
-      "issueOpen": 5044,
-      "issueClosed": 56128,
-      "prOpen": 2814,
-      "prClosed": 117073,
-      "prMerged": 62509,
+      "capturedAt": "2026-10-25T19:02:26.858Z",
+      "issueOpen": 5058,
+      "issueClosed": 56134,
+      "prOpen": 2818,
+      "prClosed": 117133,
+      "prMerged": 62562,
       "workflowRuns": 40000,
-      "stars": 393021,
-      "forks": 82607,
+      "stars": 393038,
+      "forks": 82612,
       "subscribers": 1702,
-      "commits": 119215,
-      "contributors": 3674,
+      "commits": 119273,
+      "contributors": 3675,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2393,115 +2393,79 @@
     },
     {
       "capturedOn": "2026-10-25",
-      "stars": 393021,
-      "forks": 82607,
+      "stars": 393038,
+      "forks": 82612,
       "subscribers": 1702,
-      "commits": 119215,
-      "contributors": 3674
+      "commits": 119273,
+      "contributors": 3675
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 183699,
-        "title": "[Bug]: Broker workers >2 stall writers ~10–15 s: idle-executor eviction terminates emptied workers and reopens pile onto cold ones",
-        "url": "https://github.com/openclaw/openclaw/issues/183699",
+        "number": 183780,
+        "title": "Update failure: package-install-omit-optional (2026.10.4)",
+        "url": "https://github.com/openclaw/openclaw/issues/183780",
         "state": "open",
-        "author": "etzelm",
-        "updatedAt": "2026-10-25T16:12:43Z"
-      },
-      {
-        "kind": "issue",
-        "number": 183698,
-        "title": "[Feature]: PostgreSQL bridge re-parses and re-plans every statement; reuse named statements per connection",
-        "url": "https://github.com/openclaw/openclaw/issues/183698",
-        "state": "open",
-        "author": "etzelm",
-        "updatedAt": "2026-10-25T16:12:05Z"
-      },
-      {
-        "kind": "issue",
-        "number": 183697,
-        "title": "[Bug]: Memory temporal decay skips keyword-only hits on SQLite but applies them on PostgreSQL, so the two engines rank the same index differently",
-        "url": "https://github.com/openclaw/openclaw/issues/183697",
-        "state": "open",
-        "author": "etzelm",
-        "updatedAt": "2026-10-25T16:12:00Z"
-      },
-      {
-        "kind": "issue",
-        "number": 126950,
-        "title": "Telegram: opaque callback payloads (tgcb1:) silently dropped for non-plugin callers",
-        "url": "https://github.com/openclaw/openclaw/issues/126950",
-        "state": "open",
-        "author": "kkernan",
-        "updatedAt": "2026-10-25T16:11:11Z"
-      },
-      {
-        "kind": "issue",
-        "number": 183625,
-        "title": "tools.elevated: allowFrom gate denies all senders on webchat - even [\"*\"] (config matches docs)",
-        "url": "https://github.com/openclaw/openclaw/issues/183625",
-        "state": "open",
-        "author": "Andy-Xie-1145",
-        "updatedAt": "2026-10-25T16:09:03Z"
+        "author": "rmarr",
+        "updatedAt": "2026-10-25T19:02:21Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 173026,
-        "title": "fix(telegram): keep progress and final replies after delegation",
-        "url": "https://github.com/openclaw/openclaw/pull/173026",
-        "state": "open",
-        "author": "johan-eilertsen",
-        "updatedAt": "2026-10-25T16:13:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 183689,
-        "title": "fix(standalone): make source AOT type boundaries explicit",
-        "url": "https://github.com/openclaw/openclaw/pull/183689",
+        "number": 183595,
+        "title": "experiment(control-ui): settle cached transcript row footprints [do not merge]",
+        "url": "https://github.com/openclaw/openclaw/pull/183595",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-25T16:13:12Z"
+        "updatedAt": "2026-10-25T19:02:15Z"
       },
       {
         "kind": "pr",
-        "number": 183690,
-        "title": "fix(ci): recognize Control UI projection benchmark entrypoints",
-        "url": "https://github.com/openclaw/openclaw/pull/183690",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-10-25T16:12:50Z"
-      },
-      {
-        "kind": "pr",
-        "number": 183350,
-        "title": "improve(ui): simplify command approval cards",
-        "url": "https://github.com/openclaw/openclaw/pull/183350",
+        "number": 177812,
+        "title": "fix: make Daybreak independent of retiring model aliases",
+        "url": "https://github.com/openclaw/openclaw/pull/177812",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-10-25T16:12:39Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-10-25T19:02:05Z"
       },
       {
         "kind": "pr",
-        "number": 183685,
-        "title": "test(gateway,agents,ui): remove low-value tests (batch d546)",
-        "url": "https://github.com/openclaw/openclaw/pull/183685",
+        "number": 183766,
+        "title": "perf(chat): avoid rendering hidden tool details",
+        "url": "https://github.com/openclaw/openclaw/pull/183766",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-25T16:12:16Z"
+        "updatedAt": "2026-10-25T19:02:02Z"
       },
       {
         "kind": "pr",
-        "number": 183694,
-        "title": "fix(ui): show official badge on ClawHub skill detail dialog",
-        "url": "https://github.com/openclaw/openclaw/pull/183694",
+        "number": 183783,
+        "title": "perf(llm): detach rate-limit observers and recovery timers",
+        "url": "https://github.com/openclaw/openclaw/pull/183783",
         "state": "open",
-        "author": "anmol0b",
-        "updatedAt": "2026-10-25T16:12:13Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-25T19:01:53Z"
+      },
+      {
+        "kind": "pr",
+        "number": 183768,
+        "title": "test(agents,gateway,plugins,ui): remove low-value tests (batch d553)",
+        "url": "https://github.com/openclaw/openclaw/pull/183768",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-25T19:01:50Z"
+      },
+      {
+        "kind": "pr",
+        "number": 183781,
+        "title": "fix: stale plugin types after copying declaration caches",
+        "url": "https://github.com/openclaw/openclaw/pull/183781",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-25T19:01:46Z"
       }
     ]
   }

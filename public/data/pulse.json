@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-25T06:04:50.449Z",
+  "generatedAt": "2026-10-25T16:13:28.171Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1686,18 +1686,18 @@
     },
     {
       "capturedOn": "2026-10-25",
-      "capturedAt": "2026-10-25T06:04:50.449Z",
-      "issueOpen": 5015,
-      "issueClosed": 56099,
-      "prOpen": 2806,
-      "prClosed": 116760,
-      "prMerged": 62226,
+      "capturedAt": "2026-10-25T16:13:28.171Z",
+      "issueOpen": 5044,
+      "issueClosed": 56128,
+      "prOpen": 2814,
+      "prClosed": 117073,
+      "prMerged": 62509,
       "workflowRuns": 40000,
-      "stars": 392976,
-      "forks": 82606,
-      "subscribers": 1701,
-      "commits": 118924,
-      "contributors": 3669,
+      "stars": 393021,
+      "forks": 82607,
+      "subscribers": 1702,
+      "commits": 119215,
+      "contributors": 3674,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2393,69 +2393,115 @@
     },
     {
       "capturedOn": "2026-10-25",
-      "stars": 392976,
-      "forks": 82606,
-      "subscribers": 1701,
-      "commits": 118924,
-      "contributors": 3669
+      "stars": 393021,
+      "forks": 82607,
+      "subscribers": 1702,
+      "commits": 119215,
+      "contributors": 3674
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 183699,
+        "title": "[Bug]: Broker workers >2 stall writers ~10–15 s: idle-executor eviction terminates emptied workers and reopens pile onto cold ones",
+        "url": "https://github.com/openclaw/openclaw/issues/183699",
+        "state": "open",
+        "author": "etzelm",
+        "updatedAt": "2026-10-25T16:12:43Z"
+      },
+      {
+        "kind": "issue",
+        "number": 183698,
+        "title": "[Feature]: PostgreSQL bridge re-parses and re-plans every statement; reuse named statements per connection",
+        "url": "https://github.com/openclaw/openclaw/issues/183698",
+        "state": "open",
+        "author": "etzelm",
+        "updatedAt": "2026-10-25T16:12:05Z"
+      },
+      {
+        "kind": "issue",
+        "number": 183697,
+        "title": "[Bug]: Memory temporal decay skips keyword-only hits on SQLite but applies them on PostgreSQL, so the two engines rank the same index differently",
+        "url": "https://github.com/openclaw/openclaw/issues/183697",
+        "state": "open",
+        "author": "etzelm",
+        "updatedAt": "2026-10-25T16:12:00Z"
+      },
+      {
+        "kind": "issue",
+        "number": 126950,
+        "title": "Telegram: opaque callback payloads (tgcb1:) silently dropped for non-plugin callers",
+        "url": "https://github.com/openclaw/openclaw/issues/126950",
+        "state": "open",
+        "author": "kkernan",
+        "updatedAt": "2026-10-25T16:11:11Z"
+      },
+      {
+        "kind": "issue",
+        "number": 183625,
+        "title": "tools.elevated: allowFrom gate denies all senders on webchat - even [\"*\"] (config matches docs)",
+        "url": "https://github.com/openclaw/openclaw/issues/183625",
+        "state": "open",
+        "author": "Andy-Xie-1145",
+        "updatedAt": "2026-10-25T16:09:03Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 183320,
-        "title": "experiment(control-ui): archive views under sustained list churn [do not merge]",
-        "url": "https://github.com/openclaw/openclaw/pull/183320",
+        "number": 173026,
+        "title": "fix(telegram): keep progress and final replies after delegation",
+        "url": "https://github.com/openclaw/openclaw/pull/173026",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-25T06:04:43Z"
+        "author": "johan-eilertsen",
+        "updatedAt": "2026-10-25T16:13:20Z"
       },
       {
         "kind": "pr",
-        "number": 183319,
-        "title": "fix(ui): distinguish hover and selection surfaces",
-        "url": "https://github.com/openclaw/openclaw/pull/183319",
+        "number": 183689,
+        "title": "fix(standalone): make source AOT type boundaries explicit",
+        "url": "https://github.com/openclaw/openclaw/pull/183689",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-25T16:13:12Z"
+      },
+      {
+        "kind": "pr",
+        "number": 183690,
+        "title": "fix(ci): recognize Control UI projection benchmark entrypoints",
+        "url": "https://github.com/openclaw/openclaw/pull/183690",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-10-25T16:12:50Z"
+      },
+      {
+        "kind": "pr",
+        "number": 183350,
+        "title": "improve(ui): simplify command approval cards",
+        "url": "https://github.com/openclaw/openclaw/pull/183350",
         "state": "open",
         "author": "vyctorbrzezowski",
-        "updatedAt": "2026-10-25T06:04:44Z"
+        "updatedAt": "2026-10-25T16:12:39Z"
       },
       {
         "kind": "pr",
-        "number": 183318,
-        "title": "perf(ui): share remaining presentation clocks",
-        "url": "https://github.com/openclaw/openclaw/pull/183318",
+        "number": 183685,
+        "title": "test(gateway,agents,ui): remove low-value tests (batch d546)",
+        "url": "https://github.com/openclaw/openclaw/pull/183685",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-25T06:04:39Z"
+        "updatedAt": "2026-10-25T16:12:16Z"
       },
       {
         "kind": "pr",
-        "number": 183317,
-        "title": "ci: share Control UI test setup across fewer shards",
-        "url": "https://github.com/openclaw/openclaw/pull/183317",
+        "number": 183694,
+        "title": "fix(ui): show official badge on ClawHub skill detail dialog",
+        "url": "https://github.com/openclaw/openclaw/pull/183694",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-25T06:04:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 179898,
-        "title": "fix(macos): stop trusting the stale /etc/ssl/cert.pem bundle in services",
-        "url": "https://github.com/openclaw/openclaw/pull/179898",
-        "state": "open",
-        "author": "eleqtrizit",
-        "updatedAt": "2026-10-25T06:04:43Z"
-      },
-      {
-        "kind": "pr",
-        "number": 174317,
-        "title": "fix(naming): refine generated Dashboard titles once",
-        "url": "https://github.com/openclaw/openclaw/pull/174317",
-        "state": "open",
-        "author": "dankarization",
-        "updatedAt": "2026-10-25T06:04:15Z"
+        "author": "anmol0b",
+        "updatedAt": "2026-10-25T16:12:13Z"
       }
     ]
   }

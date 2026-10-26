@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-25T21:45:13.681Z",
+  "generatedAt": "2026-10-26T00:20:03.251Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1700,6 +1700,23 @@
       "contributors": 3675,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-26",
+      "capturedAt": "2026-10-26T00:20:03.251Z",
+      "issueOpen": 5076,
+      "issueClosed": 56142,
+      "prOpen": 2830,
+      "prClosed": 117305,
+      "prMerged": 62724,
+      "workflowRuns": 40000,
+      "stars": 393051,
+      "forks": 82617,
+      "subscribers": 1701,
+      "commits": 119435,
+      "contributors": 3675,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2398,110 +2415,82 @@
       "subscribers": 1701,
       "commits": 119334,
       "contributors": 3675
+    },
+    {
+      "capturedOn": "2026-10-26",
+      "stars": 393051,
+      "forks": 82617,
+      "subscribers": 1701,
+      "commits": 119435,
+      "contributors": 3675
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 183863,
-        "title": "Heartbeat runner reports \"Worker placement inventory changed\" on the first placement change, even though the turn usually proceeds; error status and backoff are applied anyway",
-        "url": "https://github.com/openclaw/openclaw/issues/183863",
-        "state": "open",
-        "author": "aevgeniou",
-        "updatedAt": "2026-10-25T21:44:57Z"
-      },
-      {
-        "kind": "issue",
-        "number": 163564,
-        "title": "[Bug]: Completed terminal assistant reply can render without Reply/Copy actions",
-        "url": "https://github.com/openclaw/openclaw/issues/163564",
-        "state": "open",
-        "author": "samiralibabic",
-        "updatedAt": "2026-10-25T21:43:18Z"
-      },
-      {
-        "kind": "issue",
-        "number": 183858,
-        "title": "[Bug]: Ordinary plugin-capture sweep in a short-lived CLI process reclaims the live Gateway's capture instance when POSIX locks aren't honored (Docker Desktop macOS bind mount) → Codex harness ENOENT until restart",
-        "url": "https://github.com/openclaw/openclaw/issues/183858",
-        "state": "open",
-        "author": "Fealves0",
-        "updatedAt": "2026-10-25T21:42:57Z"
-      },
-      {
-        "kind": "issue",
-        "number": 155953,
-        "title": "[Bug]: [UX] Sidebar information architecture: \"Home\" labeling, and \"Groups\" backed by three unrelated mechanisms",
-        "url": "https://github.com/openclaw/openclaw/issues/155953",
-        "state": "open",
-        "author": "myradon",
-        "updatedAt": "2026-10-25T21:42:31Z"
-      },
-      {
-        "kind": "issue",
-        "number": 163125,
-        "title": "Classic (non-add-on) Google Chat app: webhook always returns 403, no log output",
-        "url": "https://github.com/openclaw/openclaw/issues/163125",
-        "state": "open",
-        "author": "brad783",
-        "updatedAt": "2026-10-25T21:42:24Z"
+        "number": 166496,
+        "title": "Killed sub-agent strands its yield batch: settle wake gives up after 10 deferrals and drops successful siblings' results",
+        "url": "https://github.com/openclaw/openclaw/issues/166496",
+        "state": "closed",
+        "author": "vinsew",
+        "updatedAt": "2026-10-26T00:18:38Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 183869,
-        "title": "perf(sessions): avoid allocations in replica byte accounting",
-        "url": "https://github.com/openclaw/openclaw/pull/183869",
+        "number": 183970,
+        "title": "perf(worker): count transcript batch bytes incrementally",
+        "url": "https://github.com/openclaw/openclaw/pull/183970",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-25T21:45:02Z"
+        "updatedAt": "2026-10-26T00:19:55Z"
       },
       {
         "kind": "pr",
-        "number": 183871,
-        "title": "perf(models): skip unused source projection for known route overrides",
-        "url": "https://github.com/openclaw/openclaw/pull/183871",
+        "number": 183968,
+        "title": "perf(agents): avoid repeated Code Mode result serialization",
+        "url": "https://github.com/openclaw/openclaw/pull/183968",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-25T21:44:58Z"
+        "updatedAt": "2026-10-26T00:19:54Z"
       },
       {
         "kind": "pr",
-        "number": 183816,
-        "title": "perf(chat): keep large code blocks responsive while highlighting",
-        "url": "https://github.com/openclaw/openclaw/pull/183816",
+        "number": 166352,
+        "title": "fix: tilde-fenced code crowds out session preview text",
+        "url": "https://github.com/openclaw/openclaw/pull/166352",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-25T21:44:58Z"
+        "author": "LinzeShi",
+        "updatedAt": "2026-10-26T00:19:50Z"
       },
       {
         "kind": "pr",
-        "number": 183870,
-        "title": "perf(gateway): reuse session PR watcher currency",
-        "url": "https://github.com/openclaw/openclaw/pull/183870",
+        "number": 183993,
+        "title": "test(providers, storage): remove low-value tests (batch d578)",
+        "url": "https://github.com/openclaw/openclaw/pull/183993",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-25T21:44:50Z"
+        "updatedAt": "2026-10-26T00:19:48Z"
       },
       {
         "kind": "pr",
-        "number": 183854,
-        "title": "fix(ui): preview PDFs opened from session file links",
-        "url": "https://github.com/openclaw/openclaw/pull/183854",
+        "number": 158051,
+        "title": "fix(ios): open embedded Dashboard after Cloudflare Access sign-in",
+        "url": "https://github.com/openclaw/openclaw/pull/158051",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-10-25T21:44:49Z"
+        "author": "TheAngryPit",
+        "updatedAt": "2026-10-26T00:19:47Z"
       },
       {
         "kind": "pr",
-        "number": 183866,
-        "title": "perf(agents): reuse published schema facts when pinning tools",
-        "url": "https://github.com/openclaw/openclaw/pull/183866",
+        "number": 183800,
+        "title": "perf(ui): open large completed chat runs faster",
+        "url": "https://github.com/openclaw/openclaw/pull/183800",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-25T21:44:33Z"
+        "updatedAt": "2026-10-26T00:19:46Z"
       }
     ]
   }

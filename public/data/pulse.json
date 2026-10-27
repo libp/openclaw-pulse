@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-27T20:04:08.712Z",
+  "generatedAt": "2026-10-27T23:45:38.295Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1720,18 +1720,18 @@
     },
     {
       "capturedOn": "2026-10-27",
-      "capturedAt": "2026-10-27T20:04:08.712Z",
-      "issueOpen": 4940,
-      "issueClosed": 56605,
-      "prOpen": 2834,
-      "prClosed": 119242,
-      "prMerged": 64455,
+      "capturedAt": "2026-10-27T23:45:38.295Z",
+      "issueOpen": 4914,
+      "issueClosed": 56647,
+      "prOpen": 2805,
+      "prClosed": 119380,
+      "prMerged": 64584,
       "workflowRuns": 40000,
-      "stars": 393202,
+      "stars": 393221,
       "forks": 82661,
       "subscribers": 1696,
-      "commits": 121181,
-      "contributors": 3707,
+      "commits": 121314,
+      "contributors": 3709,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2443,115 +2443,124 @@
     },
     {
       "capturedOn": "2026-10-27",
-      "stars": 393202,
+      "stars": 393221,
       "forks": 82661,
       "subscribers": 1696,
-      "commits": 121181,
-      "contributors": 3707
+      "commits": 121314,
+      "contributors": 3709
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 186257,
-        "title": "Block-streaming previews briefly show plain-text tool-call text before deleting it",
-        "url": "https://github.com/openclaw/openclaw/issues/186257",
+        "number": 185361,
+        "title": "[Bug]: Telegram sendMediaGroup network failure leaves album outcome ambiguous; bounded transport diagnostics needed",
+        "url": "https://github.com/openclaw/openclaw/issues/185361",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-10-27T20:03:44Z"
+        "author": "youngdrew28",
+        "updatedAt": "2026-10-27T23:45:14Z"
       },
       {
         "kind": "issue",
-        "number": 186253,
-        "title": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting `@dependabot ignore this major version` or `@dependabot ignore this minor version`. You can also ignore all major, minor, or patch releases for a dependency by adding an [`ignore` condition](https://docs.github.com/en/code-security/supply-chain-security/configuration-options-for-dependency-updates#ignore) with the desired `update_types` to your config file.",
-        "url": "https://github.com/openclaw/openclaw/issues/186253",
+        "number": 185092,
+        "title": "Windows node paired but browser control fails with listener ownership/authentication error",
+        "url": "https://github.com/openclaw/openclaw/issues/185092",
+        "state": "open",
+        "author": "santoshadogg-arch",
+        "updatedAt": "2026-10-27T23:45:14Z"
+      },
+      {
+        "kind": "issue",
+        "number": 183537,
+        "title": "Request: consider ShieldCortex and multi-clawd for the official plugin catalog or a verified-publisher listing",
+        "url": "https://github.com/openclaw/openclaw/issues/183537",
+        "state": "open",
+        "author": "jarvis-drakon",
+        "updatedAt": "2026-10-27T23:45:12Z"
+      },
+      {
+        "kind": "issue",
+        "number": 185819,
+        "title": "[Bug]: Windows quick-start Codex onboarding completes device authorization, then fails activation with inactive harness runtime artifact (2026.10.7)",
+        "url": "https://github.com/openclaw/openclaw/issues/185819",
+        "state": "open",
+        "author": "DonnieFi",
+        "updatedAt": "2026-10-27T23:45:10Z"
+      },
+      {
+        "kind": "issue",
+        "number": 121232,
+        "title": "memory-core dreaming: ranker nominates candidates the applier always rejects (\"Ranked N, Promoted 0\" forever)",
+        "url": "https://github.com/openclaw/openclaw/issues/121232",
+        "state": "open",
+        "author": "ctbritt",
+        "updatedAt": "2026-10-27T23:44:51Z"
+      },
+      {
+        "kind": "issue",
+        "number": 98193,
+        "title": "MCP toolFilter (mcp tools --include/--exclude) silently drops ALL of a server's tools when using probe's namespaced names",
+        "url": "https://github.com/openclaw/openclaw/issues/98193",
         "state": "closed",
-        "author": "atalanrafael-jpg",
-        "updatedAt": "2026-10-27T20:03:33Z"
-      },
-      {
-        "kind": "issue",
-        "number": 186263,
-        "title": "[Feature]: Configurable primary + fallback chain for realtime Talk voice providers and models",
-        "url": "https://github.com/openclaw/openclaw/issues/186263",
-        "state": "open",
-        "author": "dankarization",
-        "updatedAt": "2026-10-27T20:02:49Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119455,
-        "title": "[Bug]: cron tool add: blank-field assert runs before normalization and impossible triggers are forwarded — schema-eager models can never create a reminder",
-        "url": "https://github.com/openclaw/openclaw/issues/119455",
-        "state": "open",
-        "author": "TobyQu",
-        "updatedAt": "2026-10-27T20:02:44Z"
-      },
-      {
-        "kind": "issue",
-        "number": 119360,
-        "title": "[Bug]: Transient restart-required config write still restarts after revert to identical config",
-        "url": "https://github.com/openclaw/openclaw/issues/119360",
-        "state": "open",
-        "author": "ape-deft",
-        "updatedAt": "2026-10-27T20:02:12Z"
+        "author": "Stegallo",
+        "updatedAt": "2026-10-27T23:44:16Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 186268,
-        "title": "perf(sessions): reuse message envelopes for append reload decisions",
-        "url": "https://github.com/openclaw/openclaw/pull/186268",
+        "number": 181914,
+        "title": "fix(release): bind reuse plans by artifact digest",
+        "url": "https://github.com/openclaw/openclaw/pull/181914",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-27T20:04:03Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-10-27T23:45:31Z"
       },
       {
         "kind": "pr",
-        "number": 186254,
-        "title": "fix(discord): voice autoJoin flaps in and out when joining keeps failing",
-        "url": "https://github.com/openclaw/openclaw/pull/186254",
+        "number": 186371,
+        "title": "fix(ci): restore October backport CI coverage",
+        "url": "https://github.com/openclaw/openclaw/pull/186371",
+        "state": "open",
+        "author": "Kimiyu-186",
+        "updatedAt": "2026-10-27T23:45:30Z"
+      },
+      {
+        "kind": "pr",
+        "number": 183519,
+        "title": "feat(gateway): echo resolved session key on chat completion responses",
+        "url": "https://github.com/openclaw/openclaw/pull/183519",
+        "state": "open",
+        "author": "ggoowlgns",
+        "updatedAt": "2026-10-27T23:45:17Z"
+      },
+      {
+        "kind": "pr",
+        "number": 186288,
+        "title": "fix(agents): avoid oversized raw history in final answers",
+        "url": "https://github.com/openclaw/openclaw/pull/186288",
+        "state": "open",
+        "author": "ericcaiwx-star",
+        "updatedAt": "2026-10-27T23:45:09Z"
+      },
+      {
+        "kind": "pr",
+        "number": 186378,
+        "title": "fix: same-requester guidance queues after reconnecting",
+        "url": "https://github.com/openclaw/openclaw/pull/186378",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-10-27T20:03:48Z"
+        "updatedAt": "2026-10-27T23:45:08Z"
       },
       {
         "kind": "pr",
-        "number": 185966,
-        "title": "fix(update): npm preinstall runs on the shell's older Node after the updater selects the managed Gateway Node",
-        "url": "https://github.com/openclaw/openclaw/pull/185966",
+        "number": 186384,
+        "title": "chore(agents): cover final system prompt hook context",
+        "url": "https://github.com/openclaw/openclaw/pull/186384",
         "state": "open",
-        "author": "sukhdeepjohar",
-        "updatedAt": "2026-10-27T20:03:43Z"
-      },
-      {
-        "kind": "pr",
-        "number": 185237,
-        "title": "improve(database): rebuild ported memory indexes concurrently",
-        "url": "https://github.com/openclaw/openclaw/pull/185237",
-        "state": "closed",
-        "author": "etzelm",
-        "updatedAt": "2026-10-27T20:03:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 186267,
-        "title": "feat(knowledge): reloading Knowledge no longer waits for running agent turns",
-        "url": "https://github.com/openclaw/openclaw/pull/186267",
-        "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-10-27T20:03:29Z"
-      },
-      {
-        "kind": "pr",
-        "number": 185293,
-        "title": "fix: long streamed HTML/JSX replies no longer re-project the whole reply at every partial tag",
-        "url": "https://github.com/openclaw/openclaw/pull/185293",
-        "state": "open",
-        "author": "JasonBuildAI",
-        "updatedAt": "2026-10-27T20:03:26Z"
+        "author": "clawSean",
+        "updatedAt": "2026-10-27T23:45:05Z"
       }
     ]
   }

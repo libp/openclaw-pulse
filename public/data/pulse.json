@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-27T14:28:09.204Z",
+  "generatedAt": "2026-10-27T20:04:08.712Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1720,18 +1720,18 @@
     },
     {
       "capturedOn": "2026-10-27",
-      "capturedAt": "2026-10-27T14:28:09.204Z",
-      "issueOpen": 4913,
-      "issueClosed": 56574,
-      "prOpen": 2826,
-      "prClosed": 119041,
-      "prMerged": 64281,
+      "capturedAt": "2026-10-27T20:04:08.712Z",
+      "issueOpen": 4940,
+      "issueClosed": 56605,
+      "prOpen": 2834,
+      "prClosed": 119242,
+      "prMerged": 64455,
       "workflowRuns": 40000,
-      "stars": 393200,
-      "forks": 82662,
-      "subscribers": 1697,
-      "commits": 121008,
-      "contributors": 3702,
+      "stars": 393202,
+      "forks": 82661,
+      "subscribers": 1696,
+      "commits": 121181,
+      "contributors": 3707,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2443,88 +2443,115 @@
     },
     {
       "capturedOn": "2026-10-27",
-      "stars": 393200,
-      "forks": 82662,
-      "subscribers": 1697,
-      "commits": 121008,
-      "contributors": 3702
+      "stars": 393202,
+      "forks": 82661,
+      "subscribers": 1696,
+      "commits": 121181,
+      "contributors": 3707
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 185578,
-        "title": "[Bug]: Gateway heap floor only ratchets up - per-run system prompt/skills strings stay reachable after runs (~25 MiB/h until the V8 cap aborts)",
-        "url": "https://github.com/openclaw/openclaw/issues/185578",
+        "number": 186257,
+        "title": "Block-streaming previews briefly show plain-text tool-call text before deleting it",
+        "url": "https://github.com/openclaw/openclaw/issues/186257",
         "state": "open",
-        "author": "xmoxmo",
-        "updatedAt": "2026-10-27T14:27:04Z"
+        "author": "obviyus",
+        "updatedAt": "2026-10-27T20:03:44Z"
       },
       {
         "kind": "issue",
-        "number": 166634,
-        "title": "[Bug]: Late reclamation commit checkpoint failure leaves agent unavailable after crash recovery",
-        "url": "https://github.com/openclaw/openclaw/issues/166634",
+        "number": 186253,
+        "title": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting `@dependabot ignore this major version` or `@dependabot ignore this minor version`. You can also ignore all major, minor, or patch releases for a dependency by adding an [`ignore` condition](https://docs.github.com/en/code-security/supply-chain-security/configuration-options-for-dependency-updates#ignore) with the desired `update_types` to your config file.",
+        "url": "https://github.com/openclaw/openclaw/issues/186253",
+        "state": "closed",
+        "author": "atalanrafael-jpg",
+        "updatedAt": "2026-10-27T20:03:33Z"
+      },
+      {
+        "kind": "issue",
+        "number": 186263,
+        "title": "[Feature]: Configurable primary + fallback chain for realtime Talk voice providers and models",
+        "url": "https://github.com/openclaw/openclaw/issues/186263",
         "state": "open",
-        "author": "jlapenna",
-        "updatedAt": "2026-10-27T14:27:01Z"
+        "author": "dankarization",
+        "updatedAt": "2026-10-27T20:02:49Z"
+      },
+      {
+        "kind": "issue",
+        "number": 119455,
+        "title": "[Bug]: cron tool add: blank-field assert runs before normalization and impossible triggers are forwarded — schema-eager models can never create a reminder",
+        "url": "https://github.com/openclaw/openclaw/issues/119455",
+        "state": "open",
+        "author": "TobyQu",
+        "updatedAt": "2026-10-27T20:02:44Z"
+      },
+      {
+        "kind": "issue",
+        "number": 119360,
+        "title": "[Bug]: Transient restart-required config write still restarts after revert to identical config",
+        "url": "https://github.com/openclaw/openclaw/issues/119360",
+        "state": "open",
+        "author": "ape-deft",
+        "updatedAt": "2026-10-27T20:02:12Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 185907,
-        "title": "test(code-mode): add engine attribution and matched executor probes",
-        "url": "https://github.com/openclaw/openclaw/pull/185907",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-10-27T14:28:05Z"
-      },
-      {
-        "kind": "pr",
-        "number": 141004,
-        "title": "feat(audit): record observed runtime skill usage",
-        "url": "https://github.com/openclaw/openclaw/pull/141004",
-        "state": "open",
-        "author": "wiecon-dev",
-        "updatedAt": "2026-10-27T14:27:58Z"
-      },
-      {
-        "kind": "pr",
-        "number": 185990,
-        "title": "perf(ui): retain agent selector rows and retire selection routes",
-        "url": "https://github.com/openclaw/openclaw/pull/185990",
+        "number": 186268,
+        "title": "perf(sessions): reuse message envelopes for append reload decisions",
+        "url": "https://github.com/openclaw/openclaw/pull/186268",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-27T14:27:51Z"
+        "updatedAt": "2026-10-27T20:04:03Z"
       },
       {
         "kind": "pr",
-        "number": 185988,
-        "title": "fix(ui): prevent duplicate widgets during streamed answers",
-        "url": "https://github.com/openclaw/openclaw/pull/185988",
+        "number": 186254,
+        "title": "fix(discord): voice autoJoin flaps in and out when joining keeps failing",
+        "url": "https://github.com/openclaw/openclaw/pull/186254",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-10-27T14:27:40Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-10-27T20:03:48Z"
       },
       {
         "kind": "pr",
-        "number": 165078,
-        "title": "fix(telegram): sibling bot's deleted stream previews corrupt group history",
-        "url": "https://github.com/openclaw/openclaw/pull/165078",
+        "number": 185966,
+        "title": "fix(update): npm preinstall runs on the shell's older Node after the updater selects the managed Gateway Node",
+        "url": "https://github.com/openclaw/openclaw/pull/185966",
         "state": "open",
-        "author": "he-yufeng",
-        "updatedAt": "2026-10-27T14:27:37Z"
+        "author": "sukhdeepjohar",
+        "updatedAt": "2026-10-27T20:03:43Z"
       },
       {
         "kind": "pr",
-        "number": 185987,
-        "title": "fix(ui): allow dashboards in supported WebKit views",
-        "url": "https://github.com/openclaw/openclaw/pull/185987",
+        "number": 185237,
+        "title": "improve(database): rebuild ported memory indexes concurrently",
+        "url": "https://github.com/openclaw/openclaw/pull/185237",
+        "state": "closed",
+        "author": "etzelm",
+        "updatedAt": "2026-10-27T20:03:32Z"
+      },
+      {
+        "kind": "pr",
+        "number": 186267,
+        "title": "feat(knowledge): reloading Knowledge no longer waits for running agent turns",
+        "url": "https://github.com/openclaw/openclaw/pull/186267",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-27T14:27:32Z"
+        "author": "jalehman",
+        "updatedAt": "2026-10-27T20:03:29Z"
+      },
+      {
+        "kind": "pr",
+        "number": 185293,
+        "title": "fix: long streamed HTML/JSX replies no longer re-project the whole reply at every partial tag",
+        "url": "https://github.com/openclaw/openclaw/pull/185293",
+        "state": "open",
+        "author": "JasonBuildAI",
+        "updatedAt": "2026-10-27T20:03:26Z"
       }
     ]
   }

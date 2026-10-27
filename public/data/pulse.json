@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-27T07:48:33.420Z",
+  "generatedAt": "2026-10-27T14:28:09.204Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1720,18 +1720,18 @@
     },
     {
       "capturedOn": "2026-10-27",
-      "capturedAt": "2026-10-27T07:48:33.420Z",
-      "issueOpen": 4894,
-      "issueClosed": 56541,
-      "prOpen": 2791,
-      "prClosed": 118786,
-      "prMerged": 64046,
+      "capturedAt": "2026-10-27T14:28:09.204Z",
+      "issueOpen": 4913,
+      "issueClosed": 56574,
+      "prOpen": 2826,
+      "prClosed": 119041,
+      "prMerged": 64281,
       "workflowRuns": 40000,
-      "stars": 393176,
-      "forks": 82663,
+      "stars": 393200,
+      "forks": 82662,
       "subscribers": 1697,
-      "commits": 120766,
-      "contributors": 3701,
+      "commits": 121008,
+      "contributors": 3702,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2443,79 +2443,88 @@
     },
     {
       "capturedOn": "2026-10-27",
-      "stars": 393176,
-      "forks": 82663,
+      "stars": 393200,
+      "forks": 82662,
       "subscribers": 1697,
-      "commits": 120766,
-      "contributors": 3701
+      "commits": 121008,
+      "contributors": 3702
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 185656,
-        "title": "[Bug]: Large zstd transcript archive still exceeds Node string limit in media-persistence migration on 2026.10.5 (regression of #170847), blocks update",
-        "url": "https://github.com/openclaw/openclaw/issues/185656",
+        "number": 185578,
+        "title": "[Bug]: Gateway heap floor only ratchets up - per-run system prompt/skills strings stay reachable after runs (~25 MiB/h until the V8 cap aborts)",
+        "url": "https://github.com/openclaw/openclaw/issues/185578",
         "state": "open",
-        "author": "5kgv4dvwhb-stack",
-        "updatedAt": "2026-10-27T07:48:01Z"
+        "author": "xmoxmo",
+        "updatedAt": "2026-10-27T14:27:04Z"
+      },
+      {
+        "kind": "issue",
+        "number": 166634,
+        "title": "[Bug]: Late reclamation commit checkpoint failure leaves agent unavailable after crash recovery",
+        "url": "https://github.com/openclaw/openclaw/issues/166634",
+        "state": "open",
+        "author": "jlapenna",
+        "updatedAt": "2026-10-27T14:27:01Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 185581,
-        "title": "fix(ai): validate local tool input against the canonical schema",
-        "url": "https://github.com/openclaw/openclaw/pull/185581",
-        "state": "open",
-        "author": "yy19971996",
-        "updatedAt": "2026-10-27T07:48:24Z"
-      },
-      {
-        "kind": "pr",
-        "number": 185654,
-        "title": "fix: resolve native Windows Git plugin paths",
-        "url": "https://github.com/openclaw/openclaw/pull/185654",
-        "state": "open",
-        "author": "AmelioMansour",
-        "updatedAt": "2026-10-27T07:48:23Z"
-      },
-      {
-        "kind": "pr",
-        "number": 185353,
-        "title": "fix: retain WebChat participants when reply admission is busy",
-        "url": "https://github.com/openclaw/openclaw/pull/185353",
-        "state": "open",
-        "author": "SC-10749",
-        "updatedAt": "2026-10-27T07:48:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 185284,
-        "title": "fix(queue): stop exposing ignored timeout options",
-        "url": "https://github.com/openclaw/openclaw/pull/185284",
-        "state": "open",
-        "author": "SC-10749",
-        "updatedAt": "2026-10-27T07:48:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 185649,
-        "title": "fix(pr): preserve failed lock-check diagnostics",
-        "url": "https://github.com/openclaw/openclaw/pull/185649",
+        "number": 185907,
+        "title": "test(code-mode): add engine attribution and matched executor probes",
+        "url": "https://github.com/openclaw/openclaw/pull/185907",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-10-27T07:48:13Z"
+        "updatedAt": "2026-10-27T14:28:05Z"
       },
       {
         "kind": "pr",
-        "number": 185642,
-        "title": "refactor(usage): share deferred cache metadata projection",
-        "url": "https://github.com/openclaw/openclaw/pull/185642",
+        "number": 141004,
+        "title": "feat(audit): record observed runtime skill usage",
+        "url": "https://github.com/openclaw/openclaw/pull/141004",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-10-27T07:48:13Z"
+        "author": "wiecon-dev",
+        "updatedAt": "2026-10-27T14:27:58Z"
+      },
+      {
+        "kind": "pr",
+        "number": 185990,
+        "title": "perf(ui): retain agent selector rows and retire selection routes",
+        "url": "https://github.com/openclaw/openclaw/pull/185990",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-27T14:27:51Z"
+      },
+      {
+        "kind": "pr",
+        "number": 185988,
+        "title": "fix(ui): prevent duplicate widgets during streamed answers",
+        "url": "https://github.com/openclaw/openclaw/pull/185988",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-10-27T14:27:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 165078,
+        "title": "fix(telegram): sibling bot's deleted stream previews corrupt group history",
+        "url": "https://github.com/openclaw/openclaw/pull/165078",
+        "state": "open",
+        "author": "he-yufeng",
+        "updatedAt": "2026-10-27T14:27:37Z"
+      },
+      {
+        "kind": "pr",
+        "number": 185987,
+        "title": "fix(ui): allow dashboards in supported WebKit views",
+        "url": "https://github.com/openclaw/openclaw/pull/185987",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-27T14:27:32Z"
       }
     ]
   }

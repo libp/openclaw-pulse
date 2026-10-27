@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-26T00:20:03.251Z",
+  "generatedAt": "2026-10-27T07:48:33.420Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1717,6 +1717,23 @@
       "contributors": 3675,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-27",
+      "capturedAt": "2026-10-27T07:48:33.420Z",
+      "issueOpen": 4894,
+      "issueClosed": 56541,
+      "prOpen": 2791,
+      "prClosed": 118786,
+      "prMerged": 64046,
+      "workflowRuns": 40000,
+      "stars": 393176,
+      "forks": 82663,
+      "subscribers": 1697,
+      "commits": 120766,
+      "contributors": 3701,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2423,74 +2440,82 @@
       "subscribers": 1701,
       "commits": 119435,
       "contributors": 3675
+    },
+    {
+      "capturedOn": "2026-10-27",
+      "stars": 393176,
+      "forks": 82663,
+      "subscribers": 1697,
+      "commits": 120766,
+      "contributors": 3701
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 166496,
-        "title": "Killed sub-agent strands its yield batch: settle wake gives up after 10 deferrals and drops successful siblings' results",
-        "url": "https://github.com/openclaw/openclaw/issues/166496",
-        "state": "closed",
-        "author": "vinsew",
-        "updatedAt": "2026-10-26T00:18:38Z"
+        "number": 185656,
+        "title": "[Bug]: Large zstd transcript archive still exceeds Node string limit in media-persistence migration on 2026.10.5 (regression of #170847), blocks update",
+        "url": "https://github.com/openclaw/openclaw/issues/185656",
+        "state": "open",
+        "author": "5kgv4dvwhb-stack",
+        "updatedAt": "2026-10-27T07:48:01Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 183970,
-        "title": "perf(worker): count transcript batch bytes incrementally",
-        "url": "https://github.com/openclaw/openclaw/pull/183970",
+        "number": 185581,
+        "title": "fix(ai): validate local tool input against the canonical schema",
+        "url": "https://github.com/openclaw/openclaw/pull/185581",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-26T00:19:55Z"
+        "author": "yy19971996",
+        "updatedAt": "2026-10-27T07:48:24Z"
       },
       {
         "kind": "pr",
-        "number": 183968,
-        "title": "perf(agents): avoid repeated Code Mode result serialization",
-        "url": "https://github.com/openclaw/openclaw/pull/183968",
+        "number": 185654,
+        "title": "fix: resolve native Windows Git plugin paths",
+        "url": "https://github.com/openclaw/openclaw/pull/185654",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-26T00:19:54Z"
+        "author": "AmelioMansour",
+        "updatedAt": "2026-10-27T07:48:23Z"
       },
       {
         "kind": "pr",
-        "number": 166352,
-        "title": "fix: tilde-fenced code crowds out session preview text",
-        "url": "https://github.com/openclaw/openclaw/pull/166352",
+        "number": 185353,
+        "title": "fix: retain WebChat participants when reply admission is busy",
+        "url": "https://github.com/openclaw/openclaw/pull/185353",
         "state": "open",
-        "author": "LinzeShi",
-        "updatedAt": "2026-10-26T00:19:50Z"
+        "author": "SC-10749",
+        "updatedAt": "2026-10-27T07:48:20Z"
       },
       {
         "kind": "pr",
-        "number": 183993,
-        "title": "test(providers, storage): remove low-value tests (batch d578)",
-        "url": "https://github.com/openclaw/openclaw/pull/183993",
+        "number": 185284,
+        "title": "fix(queue): stop exposing ignored timeout options",
+        "url": "https://github.com/openclaw/openclaw/pull/185284",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-26T00:19:48Z"
+        "author": "SC-10749",
+        "updatedAt": "2026-10-27T07:48:20Z"
       },
       {
         "kind": "pr",
-        "number": 158051,
-        "title": "fix(ios): open embedded Dashboard after Cloudflare Access sign-in",
-        "url": "https://github.com/openclaw/openclaw/pull/158051",
+        "number": 185649,
+        "title": "fix(pr): preserve failed lock-check diagnostics",
+        "url": "https://github.com/openclaw/openclaw/pull/185649",
         "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-10-26T00:19:47Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-10-27T07:48:13Z"
       },
       {
         "kind": "pr",
-        "number": 183800,
-        "title": "perf(ui): open large completed chat runs faster",
-        "url": "https://github.com/openclaw/openclaw/pull/183800",
+        "number": 185642,
+        "title": "refactor(usage): share deferred cache metadata projection",
+        "url": "https://github.com/openclaw/openclaw/pull/185642",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-26T00:19:46Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-10-27T07:48:13Z"
       }
     ]
   }

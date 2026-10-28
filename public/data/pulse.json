@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-28T12:49:30.371Z",
+  "generatedAt": "2026-10-28T18:50:17.245Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1737,18 +1737,18 @@
     },
     {
       "capturedOn": "2026-10-28",
-      "capturedAt": "2026-10-28T12:49:30.371Z",
-      "issueOpen": 4935,
-      "issueClosed": 56726,
-      "prOpen": 2773,
-      "prClosed": 119675,
-      "prMerged": 64806,
+      "capturedAt": "2026-10-28T18:50:17.245Z",
+      "issueOpen": 4952,
+      "issueClosed": 56775,
+      "prOpen": 2796,
+      "prClosed": 119806,
+      "prMerged": 64911,
       "workflowRuns": 40000,
-      "stars": 393249,
-      "forks": 82667,
+      "stars": 393282,
+      "forks": 82668,
       "subscribers": 1697,
-      "commits": 121558,
-      "contributors": 3714,
+      "commits": 121663,
+      "contributors": 3715,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2468,124 +2468,115 @@
     },
     {
       "capturedOn": "2026-10-28",
-      "stars": 393249,
-      "forks": 82667,
+      "stars": 393282,
+      "forks": 82668,
       "subscribers": 1697,
-      "commits": 121558,
-      "contributors": 3714
+      "commits": 121663,
+      "contributors": 3715
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 124843,
-        "title": "[Bug]: ACP control sync hard-fails a custom harness on a derived 'thinking' default (and pushes OpenClaw's own model ref) — ACP_BACKEND_UNSUPPORTED_CONTROL",
-        "url": "https://github.com/openclaw/openclaw/issues/124843",
+        "number": 136733,
+        "title": "USER.md bootstrap injection capped at 4,000 chars in 2026.8.2; bootstrapMaxChars cannot raise it",
+        "url": "https://github.com/openclaw/openclaw/issues/136733",
         "state": "open",
-        "author": "jhgaylor",
-        "updatedAt": "2026-10-28T12:48:28Z"
+        "author": "Majik360",
+        "updatedAt": "2026-10-28T18:49:14Z"
       },
       {
         "kind": "issue",
-        "number": 181084,
-        "title": "Very large main session (35k events / 228 MB) causes multi-second SQLite snapshot reads; sessions compact fails with \"admission is closed\", also right after a gateway restart",
-        "url": "https://github.com/openclaw/openclaw/issues/181084",
+        "number": 183786,
+        "title": "[Bug]: Windows beta upgrade repeatedly queries stopped foreground Gateway PID after successful npm staging",
+        "url": "https://github.com/openclaw/openclaw/issues/183786",
         "state": "open",
-        "author": "docNeptun",
-        "updatedAt": "2026-10-28T12:48:19Z"
+        "author": "DonnieFi",
+        "updatedAt": "2026-10-28T18:49:12Z"
       },
       {
         "kind": "issue",
-        "number": 186753,
-        "title": "Bedrock tool-returned images fail on GPT-6/6.1 Sol and Kimi K3; workaround only covers GPT-5.6 Sol",
-        "url": "https://github.com/openclaw/openclaw/issues/186753",
+        "number": 186974,
+        "title": "[Bug]: Legacy config-audit recovery refuses permanently when a raw-archive checkpoint exists but its sanitized companion is missing (blocks update finalization and later migrations)",
+        "url": "https://github.com/openclaw/openclaw/issues/186974",
         "state": "open",
-        "author": "beezly",
-        "updatedAt": "2026-10-28T12:47:12Z"
+        "author": "AlyaKoni",
+        "updatedAt": "2026-10-28T18:47:34Z"
       },
       {
         "kind": "issue",
-        "number": 186754,
-        "title": "[Bug]: 2026.10.4→10.8 managed update spends 33 min activating, then cannot stop Gateway due to offline-maintenance state",
-        "url": "https://github.com/openclaw/openclaw/issues/186754",
+        "number": 186973,
+        "title": "[Bug]: Chat /clear state check keeps rendering a stale update-history banner (weeks-old run, retired codex warning) across gateway restart and full reboot; CLI doctor renders correctly",
+        "url": "https://github.com/openclaw/openclaw/issues/186973",
         "state": "open",
-        "author": "ndirazar",
-        "updatedAt": "2026-10-28T12:46:54Z"
+        "author": "AlyaKoni",
+        "updatedAt": "2026-10-28T18:47:34Z"
       },
       {
         "kind": "issue",
-        "number": 186695,
-        "title": "Annotation-only messages briefly collapse to Loading when revisited",
-        "url": "https://github.com/openclaw/openclaw/issues/186695",
+        "number": 184709,
+        "title": "[Feature]: Support keyterm prompting in ElevenLabs batch transcription",
+        "url": "https://github.com/openclaw/openclaw/issues/184709",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-10-28T12:46:32Z"
-      },
-      {
-        "kind": "issue",
-        "number": 168624,
-        "title": "[Feature]: Explore safety-first Android Auto support for explicit-turn assistant messaging",
-        "url": "https://github.com/openclaw/openclaw/issues/168624",
-        "state": "open",
-        "author": "pestelence2k",
-        "updatedAt": "2026-10-28T12:46:12Z"
+        "author": "ml12580",
+        "updatedAt": "2026-10-28T18:46:11Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 186750,
-        "title": "fix(cron): stop waiting for run completion when interrupted",
-        "url": "https://github.com/openclaw/openclaw/pull/186750",
+        "number": 186953,
+        "title": "fix(backup): redact bundled plugin credentials from Git exports",
+        "url": "https://github.com/openclaw/openclaw/pull/186953",
         "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-10-28T12:49:25Z"
+        "author": "art22s",
+        "updatedAt": "2026-10-28T18:50:08Z"
       },
       {
         "kind": "pr",
-        "number": 171426,
-        "title": "fix(agents): treat cron_failure_repair turns on WebChat as optional reply",
-        "url": "https://github.com/openclaw/openclaw/pull/171426",
-        "state": "closed",
-        "author": "trukhinyuri",
-        "updatedAt": "2026-10-28T12:48:29Z"
+        "number": 186963,
+        "title": "fix(memory-wiki): avoid repeated full scans during compilation",
+        "url": "https://github.com/openclaw/openclaw/pull/186963",
+        "state": "open",
+        "author": "Baumus",
+        "updatedAt": "2026-10-28T18:50:07Z"
       },
       {
         "kind": "pr",
-        "number": 186755,
-        "title": "test: probe doctor sandbox-prune e2e on main (do not merge)",
-        "url": "https://github.com/openclaw/openclaw/pull/186755",
+        "number": 185730,
+        "title": "refactor: resume running sessions after graceful restarts",
+        "url": "https://github.com/openclaw/openclaw/pull/185730",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-28T12:48:27Z"
+        "updatedAt": "2026-10-28T18:50:04Z"
       },
       {
         "kind": "pr",
-        "number": 186649,
-        "title": "feat(memory): opt topic files into per-entry chunking with a marker",
-        "url": "https://github.com/openclaw/openclaw/pull/186649",
+        "number": 186905,
+        "title": "fix(voice-call): stop continue polling when interrupted",
+        "url": "https://github.com/openclaw/openclaw/pull/186905",
         "state": "open",
-        "author": "NovaeonStudio",
-        "updatedAt": "2026-10-28T12:48:25Z"
+        "author": "Alix-007",
+        "updatedAt": "2026-10-28T18:50:03Z"
       },
       {
         "kind": "pr",
-        "number": 186751,
-        "title": "fix(telegram): keep reply text when delivery-time media loading fails",
-        "url": "https://github.com/openclaw/openclaw/pull/186751",
+        "number": 186893,
+        "title": "feat(mattermost): message actions and multi-file sends",
+        "url": "https://github.com/openclaw/openclaw/pull/186893",
         "state": "open",
-        "author": "wr-web",
-        "updatedAt": "2026-10-28T12:47:21Z"
+        "author": "ceckert",
+        "updatedAt": "2026-10-28T18:50:00Z"
       },
       {
         "kind": "pr",
-        "number": 186642,
-        "title": "fix: workspace Markdown evidence links open missing conversations",
-        "url": "https://github.com/openclaw/openclaw/pull/186642",
+        "number": 186971,
+        "title": "fix(update): stop a newer CLI from migrating state the Gateway service still runs",
+        "url": "https://github.com/openclaw/openclaw/pull/186971",
         "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-10-28T12:47:13Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-28T18:49:46Z"
       }
     ]
   }

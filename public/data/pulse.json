@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-27T23:45:38.295Z",
+  "generatedAt": "2026-10-28T05:37:40.886Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1734,6 +1734,23 @@
       "contributors": 3709,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-28",
+      "capturedAt": "2026-10-28T05:37:40.886Z",
+      "issueOpen": 4915,
+      "issueClosed": 56681,
+      "prOpen": 2750,
+      "prClosed": 119568,
+      "prMerged": 64720,
+      "workflowRuns": 40000,
+      "stars": 393234,
+      "forks": 82664,
+      "subscribers": 1696,
+      "commits": 121461,
+      "contributors": 3711,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2448,18 +2465,26 @@
       "subscribers": 1696,
       "commits": 121314,
       "contributors": 3709
+    },
+    {
+      "capturedOn": "2026-10-28",
+      "stars": 393234,
+      "forks": 82664,
+      "subscribers": 1696,
+      "commits": 121461,
+      "contributors": 3711
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 185361,
-        "title": "[Bug]: Telegram sendMediaGroup network failure leaves album outcome ambiguous; bounded transport diagnostics needed",
-        "url": "https://github.com/openclaw/openclaw/issues/185361",
+        "number": 184709,
+        "title": "[Feature]: Support keyterm prompting in ElevenLabs batch transcription",
+        "url": "https://github.com/openclaw/openclaw/issues/184709",
         "state": "open",
-        "author": "youngdrew28",
-        "updatedAt": "2026-10-27T23:45:14Z"
+        "author": "ml12580",
+        "updatedAt": "2026-10-28T05:36:18Z"
       },
       {
         "kind": "issue",
@@ -2468,99 +2493,81 @@
         "url": "https://github.com/openclaw/openclaw/issues/185092",
         "state": "open",
         "author": "santoshadogg-arch",
-        "updatedAt": "2026-10-27T23:45:14Z"
+        "updatedAt": "2026-10-28T05:36:07Z"
       },
       {
         "kind": "issue",
-        "number": 183537,
-        "title": "Request: consider ShieldCortex and multi-clawd for the official plugin catalog or a verified-publisher listing",
-        "url": "https://github.com/openclaw/openclaw/issues/183537",
+        "number": 184474,
+        "title": "[Feature]: Create single-use Discord channel invites with the message tool",
+        "url": "https://github.com/openclaw/openclaw/issues/184474",
         "state": "open",
-        "author": "jarvis-drakon",
-        "updatedAt": "2026-10-27T23:45:12Z"
+        "author": "ml12580",
+        "updatedAt": "2026-10-28T05:36:03Z"
       },
       {
         "kind": "issue",
-        "number": 185819,
-        "title": "[Bug]: Windows quick-start Codex onboarding completes device authorization, then fails activation with inactive harness runtime artifact (2026.10.7)",
-        "url": "https://github.com/openclaw/openclaw/issues/185819",
+        "number": 186553,
+        "title": "feat: allow role-granted cloud dispatch without administrator access",
+        "url": "https://github.com/openclaw/openclaw/issues/186553",
         "state": "open",
-        "author": "DonnieFi",
-        "updatedAt": "2026-10-27T23:45:10Z"
-      },
-      {
-        "kind": "issue",
-        "number": 121232,
-        "title": "memory-core dreaming: ranker nominates candidates the applier always rejects (\"Ranked N, Promoted 0\" forever)",
-        "url": "https://github.com/openclaw/openclaw/issues/121232",
-        "state": "open",
-        "author": "ctbritt",
-        "updatedAt": "2026-10-27T23:44:51Z"
-      },
-      {
-        "kind": "issue",
-        "number": 98193,
-        "title": "MCP toolFilter (mcp tools --include/--exclude) silently drops ALL of a server's tools when using probe's namespaced names",
-        "url": "https://github.com/openclaw/openclaw/issues/98193",
-        "state": "closed",
-        "author": "Stegallo",
-        "updatedAt": "2026-10-27T23:44:16Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-10-28T05:34:50Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 181914,
-        "title": "fix(release): bind reuse plans by artifact digest",
-        "url": "https://github.com/openclaw/openclaw/pull/181914",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-10-27T23:45:31Z"
+        "number": 186479,
+        "title": "fix: keep active workspaces usable after personal Hide or Show",
+        "url": "https://github.com/openclaw/openclaw/pull/186479",
+        "state": "closed",
+        "author": "shakkernerd",
+        "updatedAt": "2026-10-28T05:37:35Z"
       },
       {
         "kind": "pr",
-        "number": 186371,
-        "title": "fix(ci): restore October backport CI coverage",
-        "url": "https://github.com/openclaw/openclaw/pull/186371",
+        "number": 186524,
+        "title": "fix: resume goals in existing local Codex sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/186524",
         "state": "open",
-        "author": "Kimiyu-186",
-        "updatedAt": "2026-10-27T23:45:30Z"
+        "author": "jjjhenriksen",
+        "updatedAt": "2026-10-28T05:37:30Z"
       },
       {
         "kind": "pr",
-        "number": 183519,
-        "title": "feat(gateway): echo resolved session key on chat completion responses",
-        "url": "https://github.com/openclaw/openclaw/pull/183519",
+        "number": 184447,
+        "title": "chore(deps): bump the actions group across 1 directory with 7 updates",
+        "url": "https://github.com/openclaw/openclaw/pull/184447",
         "state": "open",
-        "author": "ggoowlgns",
-        "updatedAt": "2026-10-27T23:45:17Z"
+        "author": "dependabot[bot]",
+        "updatedAt": "2026-10-28T05:37:30Z"
       },
       {
         "kind": "pr",
-        "number": 186288,
-        "title": "fix(agents): avoid oversized raw history in final answers",
-        "url": "https://github.com/openclaw/openclaw/pull/186288",
-        "state": "open",
-        "author": "ericcaiwx-star",
-        "updatedAt": "2026-10-27T23:45:09Z"
-      },
-      {
-        "kind": "pr",
-        "number": 186378,
-        "title": "fix: same-requester guidance queues after reconnecting",
-        "url": "https://github.com/openclaw/openclaw/pull/186378",
+        "number": 186271,
+        "title": "fix(macos): prevent duplicate voice sends and false sent feedback",
+        "url": "https://github.com/openclaw/openclaw/pull/186271",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-10-27T23:45:08Z"
+        "updatedAt": "2026-10-28T05:37:29Z"
       },
       {
         "kind": "pr",
-        "number": 186384,
-        "title": "chore(agents): cover final system prompt hook context",
-        "url": "https://github.com/openclaw/openclaw/pull/186384",
+        "number": 186515,
+        "title": "fix: preserve native exec failure diagnostics in Code Mode",
+        "url": "https://github.com/openclaw/openclaw/pull/186515",
         "state": "open",
-        "author": "clawSean",
-        "updatedAt": "2026-10-27T23:45:05Z"
+        "author": "shakkernerd",
+        "updatedAt": "2026-10-28T05:37:05Z"
+      },
+      {
+        "kind": "pr",
+        "number": 186528,
+        "title": "fix(gateway): keep long probe timeouts from failing immediately",
+        "url": "https://github.com/openclaw/openclaw/pull/186528",
+        "state": "open",
+        "author": "Alix-007",
+        "updatedAt": "2026-10-28T05:37:03Z"
       }
     ]
   }

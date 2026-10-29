@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-29T16:55:06.372Z",
+  "generatedAt": "2026-10-29T21:47:34.214Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1754,18 +1754,18 @@
     },
     {
       "capturedOn": "2026-10-29",
-      "capturedAt": "2026-10-29T16:55:06.372Z",
-      "issueOpen": 5002,
-      "issueClosed": 56941,
-      "prOpen": 2865,
-      "prClosed": 120343,
-      "prMerged": 65378,
+      "capturedAt": "2026-10-29T21:47:34.214Z",
+      "issueOpen": 5025,
+      "issueClosed": 56963,
+      "prOpen": 2868,
+      "prClosed": 120419,
+      "prMerged": 65443,
       "workflowRuns": 40000,
-      "stars": 393359,
-      "forks": 82690,
-      "subscribers": 1693,
-      "commits": 122051,
-      "contributors": 3718,
+      "stars": 393377,
+      "forks": 82688,
+      "subscribers": 1696,
+      "commits": 122114,
+      "contributors": 3720,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2493,106 +2493,124 @@
     },
     {
       "capturedOn": "2026-10-29",
-      "stars": 393359,
-      "forks": 82690,
-      "subscribers": 1693,
-      "commits": 122051,
-      "contributors": 3718
+      "stars": 393377,
+      "forks": 82688,
+      "subscribers": 1696,
+      "commits": 122114,
+      "contributors": 3720
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 184709,
-        "title": "[Feature]: Support keyterm prompting in ElevenLabs batch transcription",
-        "url": "https://github.com/openclaw/openclaw/issues/184709",
+        "number": 172969,
+        "title": "[Bug]: registerCliBackend without modelProvider is silently dropped, and the failure surfaces as \"Invalid URL: must be http or https\"",
+        "url": "https://github.com/openclaw/openclaw/issues/172969",
         "state": "open",
-        "author": "ml12580",
-        "updatedAt": "2026-10-29T16:54:58Z"
+        "author": "xtimor",
+        "updatedAt": "2026-10-29T21:47:22Z"
       },
       {
         "kind": "issue",
-        "number": 150250,
-        "title": "[Feature]: Skill Workshop — verify learning coverage and behavioral reuse",
-        "url": "https://github.com/openclaw/openclaw/issues/150250",
+        "number": 167762,
+        "title": "[Bug]: direct anthropic/claude-opus-5-5 exposes no selectable context windows; sessions.patch rejects contextWindow \"200k\"",
+        "url": "https://github.com/openclaw/openclaw/issues/167762",
+        "state": "open",
+        "author": "alexph-dev",
+        "updatedAt": "2026-10-29T21:47:19Z"
+      },
+      {
+        "kind": "issue",
+        "number": 187919,
+        "title": "[Bug]: upgrade to 2026.10.9 healed only 1 of 12 tombstoned main sessions — the other 11 still reject every turn",
+        "url": "https://github.com/openclaw/openclaw/issues/187919",
+        "state": "open",
+        "author": "najef1979-code",
+        "updatedAt": "2026-10-29T21:47:01Z"
+      },
+      {
+        "kind": "issue",
+        "number": 187917,
+        "title": "Update failure: updater-runtime-retention (2026.10.8)",
+        "url": "https://github.com/openclaw/openclaw/issues/187917",
+        "state": "open",
+        "author": "mdredz",
+        "updatedAt": "2026-10-29T21:46:45Z"
+      },
+      {
+        "kind": "issue",
+        "number": 187774,
+        "title": "[Feature]: Add an optional Cua Spaces worker provider",
+        "url": "https://github.com/openclaw/openclaw/issues/187774",
         "state": "open",
         "author": "TheAngryPit",
-        "updatedAt": "2026-10-29T16:53:57Z"
+        "updatedAt": "2026-10-29T21:45:58Z"
       },
       {
         "kind": "issue",
-        "number": 187796,
-        "title": "Android: app.launch node command (open an app or a deep link by package)",
-        "url": "https://github.com/openclaw/openclaw/issues/187796",
+        "number": 181954,
+        "title": "[Feature]: decision-model rerank provider for memory_search (and optionally wiki_search)",
+        "url": "https://github.com/openclaw/openclaw/issues/181954",
         "state": "open",
-        "author": "smoke0leg",
-        "updatedAt": "2026-10-29T16:53:27Z"
-      },
-      {
-        "kind": "issue",
-        "number": 156635,
-        "title": "Context budget stays at Copilot synthetic 128k fallback after account discovery publishes a larger limit",
-        "url": "https://github.com/openclaw/openclaw/issues/156635",
-        "state": "closed",
-        "author": "saju01",
-        "updatedAt": "2026-10-29T16:49:42Z"
+        "author": "corvid-reads",
+        "updatedAt": "2026-10-29T21:43:43Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 186080,
-        "title": "fix(cli): prevent missing-cache errors after state uninstall (#112625)",
-        "url": "https://github.com/openclaw/openclaw/pull/186080",
+        "number": 187318,
+        "title": "[2026.9.36] Avoid repeated native-reference namespace validation",
+        "url": "https://github.com/openclaw/openclaw/pull/187318",
         "state": "open",
-        "author": "MoerAI",
-        "updatedAt": "2026-10-29T16:54:53Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-10-29T21:47:28Z"
       },
       {
         "kind": "pr",
-        "number": 187418,
-        "title": "fix(ui): show a pending Connect action while the login handshake runs",
-        "url": "https://github.com/openclaw/openclaw/pull/187418",
+        "number": 187317,
+        "title": "[2026.9.36] Escape terminal controls in gateway discovery",
+        "url": "https://github.com/openclaw/openclaw/pull/187317",
         "state": "open",
-        "author": "Yuaneen",
-        "updatedAt": "2026-10-29T16:54:48Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-10-29T21:47:26Z"
       },
       {
         "kind": "pr",
-        "number": 177888,
-        "title": "fix(ui): offer desktop setup instead of Retry when Host Desktop is off",
-        "url": "https://github.com/openclaw/openclaw/pull/177888",
-        "state": "closed",
-        "author": "etzelm",
-        "updatedAt": "2026-10-29T16:54:40Z"
+        "number": 187252,
+        "title": "[2026.9.36] fix(ai): backport stateless reasoning replay guard to extended-stable",
+        "url": "https://github.com/openclaw/openclaw/pull/187252",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-10-29T21:47:23Z"
       },
       {
         "kind": "pr",
-        "number": 178405,
-        "title": "fix(ui): recover focused Gateway desktops when Host Desktop is off",
-        "url": "https://github.com/openclaw/openclaw/pull/178405",
+        "number": 187260,
+        "title": "[2026.9.36] fix(agents): preserve Claude parent replies on extended-stable",
+        "url": "https://github.com/openclaw/openclaw/pull/187260",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-10-29T16:54:24Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-10-29T21:47:21Z"
       },
       {
         "kind": "pr",
-        "number": 187797,
-        "title": "fix(memory): indexing still fails when a gateway truncates the embedding batch-limit error",
-        "url": "https://github.com/openclaw/openclaw/pull/187797",
+        "number": 187710,
+        "title": "[2026.10.10-beta.5] test: align Node runtime fixtures; drop false OPENCLAW_ env-name",
+        "url": "https://github.com/openclaw/openclaw/pull/187710",
         "state": "open",
-        "author": "fredtanxo",
-        "updatedAt": "2026-10-29T16:53:55Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-10-29T21:47:12Z"
       },
       {
         "kind": "pr",
-        "number": 187417,
-        "title": "fix(test): preserve RFB stream finalization ownership",
-        "url": "https://github.com/openclaw/openclaw/pull/187417",
+        "number": 187921,
+        "title": "perf(update): read candidate state inventory without copying the shared database",
+        "url": "https://github.com/openclaw/openclaw/pull/187921",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-10-29T16:53:44Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-29T21:47:09Z"
       }
     ]
   }

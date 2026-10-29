@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-29T02:25:09.356Z",
+  "generatedAt": "2026-10-29T09:54:32.125Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1754,18 +1754,18 @@
     },
     {
       "capturedOn": "2026-10-29",
-      "capturedAt": "2026-10-29T02:25:09.356Z",
-      "issueOpen": 4964,
-      "issueClosed": 56821,
-      "prOpen": 2795,
-      "prClosed": 119953,
-      "prMerged": 65033,
+      "capturedAt": "2026-10-29T09:54:32.125Z",
+      "issueOpen": 4995,
+      "issueClosed": 56884,
+      "prOpen": 2820,
+      "prClosed": 120217,
+      "prMerged": 65261,
       "workflowRuns": 40000,
-      "stars": 393296,
-      "forks": 82673,
-      "subscribers": 1697,
-      "commits": 121785,
-      "contributors": 3718,
+      "stars": 393321,
+      "forks": 82685,
+      "subscribers": 1696,
+      "commits": 121952,
+      "contributors": 3719,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2493,115 +2493,79 @@
     },
     {
       "capturedOn": "2026-10-29",
-      "stars": 393296,
-      "forks": 82673,
-      "subscribers": 1697,
-      "commits": 121785,
-      "contributors": 3718
+      "stars": 393321,
+      "forks": 82685,
+      "subscribers": 1696,
+      "commits": 121952,
+      "contributors": 3719
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 150250,
-        "title": "[Feature]: Skill Workshop — verify learning coverage and behavioral reuse",
-        "url": "https://github.com/openclaw/openclaw/issues/150250",
+        "number": 150743,
+        "title": "[Discussion] QQ channel sustainability: the Tencent handoff has stalled — please clarify the long-term support plan",
+        "url": "https://github.com/openclaw/openclaw/issues/150743",
         "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-10-29T02:24:39Z"
-      },
-      {
-        "kind": "issue",
-        "number": 145949,
-        "title": "CRITICAL: Heartbeat disabled state not persisting — re-enables automatically after 1–10 days",
-        "url": "https://github.com/openclaw/openclaw/issues/145949",
-        "state": "open",
-        "author": "lepraque",
-        "updatedAt": "2026-10-29T02:24:28Z"
-      },
-      {
-        "kind": "issue",
-        "number": 184474,
-        "title": "[Feature]: Create single-use Discord channel invites with the message tool",
-        "url": "https://github.com/openclaw/openclaw/issues/184474",
-        "state": "open",
-        "author": "ml12580",
-        "updatedAt": "2026-10-29T02:23:49Z"
-      },
-      {
-        "kind": "issue",
-        "number": 144765,
-        "title": "[Bug]: Control UI WebChat body text never streams - agent/thinking delivers 346 delta frames per turn, agent/assistant delivers 2",
-        "url": "https://github.com/openclaw/openclaw/issues/144765",
-        "state": "open",
-        "author": "GITChunmei",
-        "updatedAt": "2026-10-29T02:23:43Z"
-      },
-      {
-        "kind": "issue",
-        "number": 185092,
-        "title": "Windows node paired but browser control fails with listener ownership/authentication error",
-        "url": "https://github.com/openclaw/openclaw/issues/185092",
-        "state": "open",
-        "author": "santoshadogg-arch",
-        "updatedAt": "2026-10-29T02:23:38Z"
+        "author": "itanyplus",
+        "updatedAt": "2026-10-29T09:52:59Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 177373,
-        "title": "fix(msteams): Teams messages with an emoji report phantom unavailable attachments",
-        "url": "https://github.com/openclaw/openclaw/pull/177373",
+        "number": 173026,
+        "title": "fix(telegram): keep progress and final replies after delegation",
+        "url": "https://github.com/openclaw/openclaw/pull/173026",
         "state": "open",
-        "author": "LiuwqGit",
-        "updatedAt": "2026-10-29T02:25:01Z"
+        "author": "johan-eilertsen",
+        "updatedAt": "2026-10-29T09:54:21Z"
       },
       {
         "kind": "pr",
-        "number": 169820,
-        "title": "fix(line): quoting a bot message sent before a Gateway restart no longer addresses the bot",
-        "url": "https://github.com/openclaw/openclaw/pull/169820",
+        "number": 187497,
+        "title": "fix(telegram): album fetch failure warning always says \"images\"",
+        "url": "https://github.com/openclaw/openclaw/pull/187497",
         "state": "open",
-        "author": "yousan",
-        "updatedAt": "2026-10-29T02:25:01Z"
+        "author": "xialonglee",
+        "updatedAt": "2026-10-29T09:54:14Z"
       },
       {
         "kind": "pr",
-        "number": 187168,
-        "title": "fix: isolate registry maintenance preview fixtures",
-        "url": "https://github.com/openclaw/openclaw/pull/187168",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-10-29T02:24:59Z"
+        "number": 187504,
+        "title": "fix(system): stop interrupted presence and heartbeat queries",
+        "url": "https://github.com/openclaw/openclaw/pull/187504",
+        "state": "open",
+        "author": "Alix-007",
+        "updatedAt": "2026-10-29T09:54:09Z"
       },
       {
         "kind": "pr",
-        "number": 187164,
-        "title": "fix(ci): let independent test budgets merge",
-        "url": "https://github.com/openclaw/openclaw/pull/187164",
+        "number": 187556,
+        "title": "refactor(test): remove unused restart-sentinel assertions",
+        "url": "https://github.com/openclaw/openclaw/pull/187556",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-10-29T02:24:58Z"
+        "updatedAt": "2026-10-29T09:54:04Z"
       },
       {
         "kind": "pr",
-        "number": 187174,
-        "title": "fix(voice-call): refuse brief files that would corrupt call instructions",
-        "url": "https://github.com/openclaw/openclaw/pull/187174",
+        "number": 187523,
+        "title": "fix: Vertex models use the wrong location with mixed endpoints",
+        "url": "https://github.com/openclaw/openclaw/pull/187523",
         "state": "open",
-        "author": "Leon-SK668",
-        "updatedAt": "2026-10-29T02:25:02Z"
+        "author": "wyf027",
+        "updatedAt": "2026-10-29T09:53:53Z"
       },
       {
         "kind": "pr",
-        "number": 186486,
-        "title": "fix(browser): omit unparsable gateway hint from extension pairing",
-        "url": "https://github.com/openclaw/openclaw/pull/186486",
+        "number": 166464,
+        "title": "fix(gateway): keep service credentials referenced only by auth profiles",
+        "url": "https://github.com/openclaw/openclaw/pull/166464",
         "state": "open",
-        "author": "Yuaneen",
-        "updatedAt": "2026-10-29T02:24:49Z"
+        "author": "alkor2000",
+        "updatedAt": "2026-10-29T09:53:37Z"
       }
     ]
   }

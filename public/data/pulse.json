@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-28T18:50:17.245Z",
+  "generatedAt": "2026-10-29T02:25:09.356Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1751,6 +1751,23 @@
       "contributors": 3715,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-29",
+      "capturedAt": "2026-10-29T02:25:09.356Z",
+      "issueOpen": 4964,
+      "issueClosed": 56821,
+      "prOpen": 2795,
+      "prClosed": 119953,
+      "prMerged": 65033,
+      "workflowRuns": 40000,
+      "stars": 393296,
+      "forks": 82673,
+      "subscribers": 1697,
+      "commits": 121785,
+      "contributors": 3718,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2473,110 +2490,118 @@
       "subscribers": 1697,
       "commits": 121663,
       "contributors": 3715
+    },
+    {
+      "capturedOn": "2026-10-29",
+      "stars": 393296,
+      "forks": 82673,
+      "subscribers": 1697,
+      "commits": 121785,
+      "contributors": 3718
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 136733,
-        "title": "USER.md bootstrap injection capped at 4,000 chars in 2026.8.2; bootstrapMaxChars cannot raise it",
-        "url": "https://github.com/openclaw/openclaw/issues/136733",
+        "number": 150250,
+        "title": "[Feature]: Skill Workshop — verify learning coverage and behavioral reuse",
+        "url": "https://github.com/openclaw/openclaw/issues/150250",
         "state": "open",
-        "author": "Majik360",
-        "updatedAt": "2026-10-28T18:49:14Z"
+        "author": "TheAngryPit",
+        "updatedAt": "2026-10-29T02:24:39Z"
       },
       {
         "kind": "issue",
-        "number": 183786,
-        "title": "[Bug]: Windows beta upgrade repeatedly queries stopped foreground Gateway PID after successful npm staging",
-        "url": "https://github.com/openclaw/openclaw/issues/183786",
+        "number": 145949,
+        "title": "CRITICAL: Heartbeat disabled state not persisting — re-enables automatically after 1–10 days",
+        "url": "https://github.com/openclaw/openclaw/issues/145949",
         "state": "open",
-        "author": "DonnieFi",
-        "updatedAt": "2026-10-28T18:49:12Z"
+        "author": "lepraque",
+        "updatedAt": "2026-10-29T02:24:28Z"
       },
       {
         "kind": "issue",
-        "number": 186974,
-        "title": "[Bug]: Legacy config-audit recovery refuses permanently when a raw-archive checkpoint exists but its sanitized companion is missing (blocks update finalization and later migrations)",
-        "url": "https://github.com/openclaw/openclaw/issues/186974",
-        "state": "open",
-        "author": "AlyaKoni",
-        "updatedAt": "2026-10-28T18:47:34Z"
-      },
-      {
-        "kind": "issue",
-        "number": 186973,
-        "title": "[Bug]: Chat /clear state check keeps rendering a stale update-history banner (weeks-old run, retired codex warning) across gateway restart and full reboot; CLI doctor renders correctly",
-        "url": "https://github.com/openclaw/openclaw/issues/186973",
-        "state": "open",
-        "author": "AlyaKoni",
-        "updatedAt": "2026-10-28T18:47:34Z"
-      },
-      {
-        "kind": "issue",
-        "number": 184709,
-        "title": "[Feature]: Support keyterm prompting in ElevenLabs batch transcription",
-        "url": "https://github.com/openclaw/openclaw/issues/184709",
+        "number": 184474,
+        "title": "[Feature]: Create single-use Discord channel invites with the message tool",
+        "url": "https://github.com/openclaw/openclaw/issues/184474",
         "state": "open",
         "author": "ml12580",
-        "updatedAt": "2026-10-28T18:46:11Z"
+        "updatedAt": "2026-10-29T02:23:49Z"
+      },
+      {
+        "kind": "issue",
+        "number": 144765,
+        "title": "[Bug]: Control UI WebChat body text never streams - agent/thinking delivers 346 delta frames per turn, agent/assistant delivers 2",
+        "url": "https://github.com/openclaw/openclaw/issues/144765",
+        "state": "open",
+        "author": "GITChunmei",
+        "updatedAt": "2026-10-29T02:23:43Z"
+      },
+      {
+        "kind": "issue",
+        "number": 185092,
+        "title": "Windows node paired but browser control fails with listener ownership/authentication error",
+        "url": "https://github.com/openclaw/openclaw/issues/185092",
+        "state": "open",
+        "author": "santoshadogg-arch",
+        "updatedAt": "2026-10-29T02:23:38Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 186953,
-        "title": "fix(backup): redact bundled plugin credentials from Git exports",
-        "url": "https://github.com/openclaw/openclaw/pull/186953",
+        "number": 177373,
+        "title": "fix(msteams): Teams messages with an emoji report phantom unavailable attachments",
+        "url": "https://github.com/openclaw/openclaw/pull/177373",
         "state": "open",
-        "author": "art22s",
-        "updatedAt": "2026-10-28T18:50:08Z"
+        "author": "LiuwqGit",
+        "updatedAt": "2026-10-29T02:25:01Z"
       },
       {
         "kind": "pr",
-        "number": 186963,
-        "title": "fix(memory-wiki): avoid repeated full scans during compilation",
-        "url": "https://github.com/openclaw/openclaw/pull/186963",
+        "number": 169820,
+        "title": "fix(line): quoting a bot message sent before a Gateway restart no longer addresses the bot",
+        "url": "https://github.com/openclaw/openclaw/pull/169820",
         "state": "open",
-        "author": "Baumus",
-        "updatedAt": "2026-10-28T18:50:07Z"
+        "author": "yousan",
+        "updatedAt": "2026-10-29T02:25:01Z"
       },
       {
         "kind": "pr",
-        "number": 185730,
-        "title": "refactor: resume running sessions after graceful restarts",
-        "url": "https://github.com/openclaw/openclaw/pull/185730",
-        "state": "open",
+        "number": 187168,
+        "title": "fix: isolate registry maintenance preview fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/187168",
+        "state": "closed",
         "author": "steipete",
-        "updatedAt": "2026-10-28T18:50:04Z"
+        "updatedAt": "2026-10-29T02:24:59Z"
       },
       {
         "kind": "pr",
-        "number": 186905,
-        "title": "fix(voice-call): stop continue polling when interrupted",
-        "url": "https://github.com/openclaw/openclaw/pull/186905",
+        "number": 187164,
+        "title": "fix(ci): let independent test budgets merge",
+        "url": "https://github.com/openclaw/openclaw/pull/187164",
         "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-10-28T18:50:03Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-10-29T02:24:58Z"
       },
       {
         "kind": "pr",
-        "number": 186893,
-        "title": "feat(mattermost): message actions and multi-file sends",
-        "url": "https://github.com/openclaw/openclaw/pull/186893",
+        "number": 187174,
+        "title": "fix(voice-call): refuse brief files that would corrupt call instructions",
+        "url": "https://github.com/openclaw/openclaw/pull/187174",
         "state": "open",
-        "author": "ceckert",
-        "updatedAt": "2026-10-28T18:50:00Z"
+        "author": "Leon-SK668",
+        "updatedAt": "2026-10-29T02:25:02Z"
       },
       {
         "kind": "pr",
-        "number": 186971,
-        "title": "fix(update): stop a newer CLI from migrating state the Gateway service still runs",
-        "url": "https://github.com/openclaw/openclaw/pull/186971",
+        "number": 186486,
+        "title": "fix(browser): omit unparsable gateway hint from extension pairing",
+        "url": "https://github.com/openclaw/openclaw/pull/186486",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-28T18:49:46Z"
+        "author": "Yuaneen",
+        "updatedAt": "2026-10-29T02:24:49Z"
       }
     ]
   }

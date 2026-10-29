@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-29T09:54:32.125Z",
+  "generatedAt": "2026-10-29T16:55:06.372Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1754,18 +1754,18 @@
     },
     {
       "capturedOn": "2026-10-29",
-      "capturedAt": "2026-10-29T09:54:32.125Z",
-      "issueOpen": 4995,
-      "issueClosed": 56884,
-      "prOpen": 2820,
-      "prClosed": 120217,
-      "prMerged": 65261,
+      "capturedAt": "2026-10-29T16:55:06.372Z",
+      "issueOpen": 5002,
+      "issueClosed": 56941,
+      "prOpen": 2865,
+      "prClosed": 120343,
+      "prMerged": 65378,
       "workflowRuns": 40000,
-      "stars": 393321,
-      "forks": 82685,
-      "subscribers": 1696,
-      "commits": 121952,
-      "contributors": 3719,
+      "stars": 393359,
+      "forks": 82690,
+      "subscribers": 1693,
+      "commits": 122051,
+      "contributors": 3718,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2493,79 +2493,106 @@
     },
     {
       "capturedOn": "2026-10-29",
-      "stars": 393321,
-      "forks": 82685,
-      "subscribers": 1696,
-      "commits": 121952,
-      "contributors": 3719
+      "stars": 393359,
+      "forks": 82690,
+      "subscribers": 1693,
+      "commits": 122051,
+      "contributors": 3718
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 150743,
-        "title": "[Discussion] QQ channel sustainability: the Tencent handoff has stalled — please clarify the long-term support plan",
-        "url": "https://github.com/openclaw/openclaw/issues/150743",
+        "number": 184709,
+        "title": "[Feature]: Support keyterm prompting in ElevenLabs batch transcription",
+        "url": "https://github.com/openclaw/openclaw/issues/184709",
         "state": "open",
-        "author": "itanyplus",
-        "updatedAt": "2026-10-29T09:52:59Z"
+        "author": "ml12580",
+        "updatedAt": "2026-10-29T16:54:58Z"
+      },
+      {
+        "kind": "issue",
+        "number": 150250,
+        "title": "[Feature]: Skill Workshop — verify learning coverage and behavioral reuse",
+        "url": "https://github.com/openclaw/openclaw/issues/150250",
+        "state": "open",
+        "author": "TheAngryPit",
+        "updatedAt": "2026-10-29T16:53:57Z"
+      },
+      {
+        "kind": "issue",
+        "number": 187796,
+        "title": "Android: app.launch node command (open an app or a deep link by package)",
+        "url": "https://github.com/openclaw/openclaw/issues/187796",
+        "state": "open",
+        "author": "smoke0leg",
+        "updatedAt": "2026-10-29T16:53:27Z"
+      },
+      {
+        "kind": "issue",
+        "number": 156635,
+        "title": "Context budget stays at Copilot synthetic 128k fallback after account discovery publishes a larger limit",
+        "url": "https://github.com/openclaw/openclaw/issues/156635",
+        "state": "closed",
+        "author": "saju01",
+        "updatedAt": "2026-10-29T16:49:42Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 173026,
-        "title": "fix(telegram): keep progress and final replies after delegation",
-        "url": "https://github.com/openclaw/openclaw/pull/173026",
+        "number": 186080,
+        "title": "fix(cli): prevent missing-cache errors after state uninstall (#112625)",
+        "url": "https://github.com/openclaw/openclaw/pull/186080",
         "state": "open",
-        "author": "johan-eilertsen",
-        "updatedAt": "2026-10-29T09:54:21Z"
+        "author": "MoerAI",
+        "updatedAt": "2026-10-29T16:54:53Z"
       },
       {
         "kind": "pr",
-        "number": 187497,
-        "title": "fix(telegram): album fetch failure warning always says \"images\"",
-        "url": "https://github.com/openclaw/openclaw/pull/187497",
+        "number": 187418,
+        "title": "fix(ui): show a pending Connect action while the login handshake runs",
+        "url": "https://github.com/openclaw/openclaw/pull/187418",
         "state": "open",
-        "author": "xialonglee",
-        "updatedAt": "2026-10-29T09:54:14Z"
+        "author": "Yuaneen",
+        "updatedAt": "2026-10-29T16:54:48Z"
       },
       {
         "kind": "pr",
-        "number": 187504,
-        "title": "fix(system): stop interrupted presence and heartbeat queries",
-        "url": "https://github.com/openclaw/openclaw/pull/187504",
-        "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-10-29T09:54:09Z"
+        "number": 177888,
+        "title": "fix(ui): offer desktop setup instead of Retry when Host Desktop is off",
+        "url": "https://github.com/openclaw/openclaw/pull/177888",
+        "state": "closed",
+        "author": "etzelm",
+        "updatedAt": "2026-10-29T16:54:40Z"
       },
       {
         "kind": "pr",
-        "number": 187556,
-        "title": "refactor(test): remove unused restart-sentinel assertions",
-        "url": "https://github.com/openclaw/openclaw/pull/187556",
+        "number": 178405,
+        "title": "fix(ui): recover focused Gateway desktops when Host Desktop is off",
+        "url": "https://github.com/openclaw/openclaw/pull/178405",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-10-29T16:54:24Z"
+      },
+      {
+        "kind": "pr",
+        "number": 187797,
+        "title": "fix(memory): indexing still fails when a gateway truncates the embedding batch-limit error",
+        "url": "https://github.com/openclaw/openclaw/pull/187797",
+        "state": "open",
+        "author": "fredtanxo",
+        "updatedAt": "2026-10-29T16:53:55Z"
+      },
+      {
+        "kind": "pr",
+        "number": 187417,
+        "title": "fix(test): preserve RFB stream finalization ownership",
+        "url": "https://github.com/openclaw/openclaw/pull/187417",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-10-29T09:54:04Z"
-      },
-      {
-        "kind": "pr",
-        "number": 187523,
-        "title": "fix: Vertex models use the wrong location with mixed endpoints",
-        "url": "https://github.com/openclaw/openclaw/pull/187523",
-        "state": "open",
-        "author": "wyf027",
-        "updatedAt": "2026-10-29T09:53:53Z"
-      },
-      {
-        "kind": "pr",
-        "number": 166464,
-        "title": "fix(gateway): keep service credentials referenced only by auth profiles",
-        "url": "https://github.com/openclaw/openclaw/pull/166464",
-        "state": "open",
-        "author": "alkor2000",
-        "updatedAt": "2026-10-29T09:53:37Z"
+        "updatedAt": "2026-10-29T16:53:44Z"
       }
     ]
   }

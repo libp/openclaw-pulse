@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-30T08:36:15.031Z",
+  "generatedAt": "2026-10-30T15:54:39.720Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1771,17 +1771,17 @@
     },
     {
       "capturedOn": "2026-10-30",
-      "capturedAt": "2026-10-30T08:36:15.031Z",
-      "issueOpen": 5021,
-      "issueClosed": 57032,
-      "prOpen": 2825,
-      "prClosed": 120662,
-      "prMerged": 65626,
+      "capturedAt": "2026-10-30T15:54:39.720Z",
+      "issueOpen": 5032,
+      "issueClosed": 57079,
+      "prOpen": 2874,
+      "prClosed": 120861,
+      "prMerged": 65790,
       "workflowRuns": 40000,
-      "stars": 393413,
-      "forks": 82693,
-      "subscribers": 1698,
-      "commits": 122291,
+      "stars": 393448,
+      "forks": 82698,
+      "subscribers": 1697,
+      "commits": 122455,
       "contributors": 3722,
       "source": "github-actions",
       "approximateDate": false
@@ -2518,10 +2518,10 @@
     },
     {
       "capturedOn": "2026-10-30",
-      "stars": 393413,
-      "forks": 82693,
-      "subscribers": 1698,
-      "commits": 122291,
+      "stars": 393448,
+      "forks": 82698,
+      "subscribers": 1697,
+      "commits": 122455,
       "contributors": 3722
     }
   ],
@@ -2529,95 +2529,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 172628,
-        "title": "[Bug]: Fresh 2026.10.3 Gateway start can leave main-agent admission superseded until restart",
-        "url": "https://github.com/openclaw/openclaw/issues/172628",
-        "state": "closed",
-        "author": "dlmccoy",
-        "updatedAt": "2026-10-30T08:34:54Z"
-      },
-      {
-        "kind": "issue",
-        "number": 126533,
-        "title": "Drop MESSAGE_CREATE event when receiving-bot-account has isDefault=true AND a more-specific-scoped binding matches for the target channel",
-        "url": "https://github.com/openclaw/openclaw/issues/126533",
-        "state": "open",
-        "author": "hedwig-lgtm",
-        "updatedAt": "2026-10-30T08:34:00Z"
-      },
-      {
-        "kind": "issue",
-        "number": 187774,
-        "title": "[Feature]: Add an optional Cua Spaces worker provider",
-        "url": "https://github.com/openclaw/openclaw/issues/187774",
-        "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-10-30T08:33:45Z"
-      },
-      {
-        "kind": "issue",
-        "number": 188186,
-        "title": "[Bug]: Control UI development shell import failures require manual reload despite a reachable server",
-        "url": "https://github.com/openclaw/openclaw/issues/188186",
+        "number": 188489,
+        "title": "fix: positive browser fixtures omit required method advertisements",
+        "url": "https://github.com/openclaw/openclaw/issues/188489",
         "state": "open",
         "author": "shakkernerd",
-        "updatedAt": "2026-10-30T08:33:04Z"
+        "updatedAt": "2026-10-30T15:53:11Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 188182,
-        "title": "test(update): make artifact fallback ancestors private",
-        "url": "https://github.com/openclaw/openclaw/pull/188182",
+        "number": 188495,
+        "title": "fix: show recovery steps when Doctor repair is interrupted",
+        "url": "https://github.com/openclaw/openclaw/pull/188495",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-10-30T15:54:30Z"
+      },
+      {
+        "kind": "pr",
+        "number": 188473,
+        "title": "fix(ci): preserve artifact expiry verification failures",
+        "url": "https://github.com/openclaw/openclaw/pull/188473",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-10-30T08:36:05Z"
+        "updatedAt": "2026-10-30T15:54:28Z"
       },
       {
         "kind": "pr",
-        "number": 187804,
-        "title": "fix(supervisor): service-child anchors abort on Node 26 when stdin is /dev/null (2026.10.10 backport)",
-        "url": "https://github.com/openclaw/openclaw/pull/187804",
-        "state": "closed",
-        "author": "RomneyDa",
-        "updatedAt": "2026-10-30T08:36:03Z"
-      },
-      {
-        "kind": "pr",
-        "number": 188173,
-        "title": "fix: keep scheduled global work in its existing conversation",
-        "url": "https://github.com/openclaw/openclaw/pull/188173",
-        "state": "closed",
-        "author": "shakkernerd",
-        "updatedAt": "2026-10-30T08:35:56Z"
-      },
-      {
-        "kind": "pr",
-        "number": 188187,
-        "title": "fix(plugins): preserve update failure codes",
-        "url": "https://github.com/openclaw/openclaw/pull/188187",
+        "number": 188454,
+        "title": "test(media): remove synthetic HTTP from image tool replies",
+        "url": "https://github.com/openclaw/openclaw/pull/188454",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-10-30T08:35:44Z"
+        "updatedAt": "2026-10-30T15:54:26Z"
       },
       {
         "kind": "pr",
-        "number": 188189,
-        "title": "refactor(update): reuse selected admission environment",
-        "url": "https://github.com/openclaw/openclaw/pull/188189",
+        "number": 188459,
+        "title": "perf(state): keep agent startup inspection proportionate",
+        "url": "https://github.com/openclaw/openclaw/pull/188459",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-10-30T08:35:39Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-30T15:54:25Z"
       },
       {
         "kind": "pr",
-        "number": 188184,
-        "title": "feat(sessions): show a session's checkout changes from the CLI",
-        "url": "https://github.com/openclaw/openclaw/pull/188184",
+        "number": 188456,
+        "title": "improve(ios): reuse screenshot build manifests",
+        "url": "https://github.com/openclaw/openclaw/pull/188456",
         "state": "open",
-        "author": "lsr911",
-        "updatedAt": "2026-10-30T08:35:08Z"
+        "author": "joshavant",
+        "updatedAt": "2026-10-30T15:54:21Z"
+      },
+      {
+        "kind": "pr",
+        "number": 188470,
+        "title": "fix(ui): prevent resize errors when scrolling chat images",
+        "url": "https://github.com/openclaw/openclaw/pull/188470",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-30T15:54:19Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-30T01:56:44.671Z",
+  "generatedAt": "2026-10-30T08:36:15.031Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1771,18 +1771,18 @@
     },
     {
       "capturedOn": "2026-10-30",
-      "capturedAt": "2026-10-30T01:56:44.671Z",
-      "issueOpen": 5017,
-      "issueClosed": 57003,
-      "prOpen": 2864,
-      "prClosed": 120506,
-      "prMerged": 65517,
+      "capturedAt": "2026-10-30T08:36:15.031Z",
+      "issueOpen": 5021,
+      "issueClosed": 57032,
+      "prOpen": 2825,
+      "prClosed": 120662,
+      "prMerged": 65626,
       "workflowRuns": 40000,
-      "stars": 393387,
-      "forks": 82690,
-      "subscribers": 1697,
-      "commits": 122186,
-      "contributors": 3721,
+      "stars": 393413,
+      "forks": 82693,
+      "subscribers": 1698,
+      "commits": 122291,
+      "contributors": 3722,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2518,97 +2518,106 @@
     },
     {
       "capturedOn": "2026-10-30",
-      "stars": 393387,
-      "forks": 82690,
-      "subscribers": 1697,
-      "commits": 122186,
-      "contributors": 3721
+      "stars": 393413,
+      "forks": 82693,
+      "subscribers": 1698,
+      "commits": 122291,
+      "contributors": 3722
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 188031,
-        "title": "[Bug]: Plugin tool catalog discovery freezes the Gateway event loop",
-        "url": "https://github.com/openclaw/openclaw/issues/188031",
-        "state": "open",
-        "author": "ctbritt",
-        "updatedAt": "2026-10-30T01:56:14Z"
+        "number": 172628,
+        "title": "[Bug]: Fresh 2026.10.3 Gateway start can leave main-agent admission superseded until restart",
+        "url": "https://github.com/openclaw/openclaw/issues/172628",
+        "state": "closed",
+        "author": "dlmccoy",
+        "updatedAt": "2026-10-30T08:34:54Z"
       },
       {
         "kind": "issue",
-        "number": 188032,
-        "title": "[Bug]: Tool previews advertise tools excluded by required sandbox policy",
-        "url": "https://github.com/openclaw/openclaw/issues/188032",
+        "number": 126533,
+        "title": "Drop MESSAGE_CREATE event when receiving-bot-account has isDefault=true AND a more-specific-scoped binding matches for the target channel",
+        "url": "https://github.com/openclaw/openclaw/issues/126533",
+        "state": "open",
+        "author": "hedwig-lgtm",
+        "updatedAt": "2026-10-30T08:34:00Z"
+      },
+      {
+        "kind": "issue",
+        "number": 187774,
+        "title": "[Feature]: Add an optional Cua Spaces worker provider",
+        "url": "https://github.com/openclaw/openclaw/issues/187774",
+        "state": "open",
+        "author": "TheAngryPit",
+        "updatedAt": "2026-10-30T08:33:45Z"
+      },
+      {
+        "kind": "issue",
+        "number": 188186,
+        "title": "[Bug]: Control UI development shell import failures require manual reload despite a reachable server",
+        "url": "https://github.com/openclaw/openclaw/issues/188186",
         "state": "open",
         "author": "shakkernerd",
-        "updatedAt": "2026-10-30T01:54:36Z"
-      },
-      {
-        "kind": "issue",
-        "number": 188028,
-        "title": "CI flakes seen during 2026.10.10-beta.5 release validation (gateway-server-parallel lanes, Doctor recovery, tooling cache)",
-        "url": "https://github.com/openclaw/openclaw/issues/188028",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-10-30T01:54:00Z"
+        "updatedAt": "2026-10-30T08:33:04Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 187856,
-        "title": "fix(codex): omit unavailable question-tool and redundant mode guidance",
-        "url": "https://github.com/openclaw/openclaw/pull/187856",
-        "state": "open",
-        "author": "lastguru-net",
-        "updatedAt": "2026-10-30T01:56:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 188036,
-        "title": "chore(ui): refresh control ui locales",
-        "url": "https://github.com/openclaw/openclaw/pull/188036",
-        "state": "open",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-10-30T01:56:34Z"
-      },
-      {
-        "kind": "pr",
-        "number": 188027,
-        "title": "fix(update): read named recovery through its primary key",
-        "url": "https://github.com/openclaw/openclaw/pull/188027",
+        "number": 188182,
+        "title": "test(update): make artifact fallback ancestors private",
+        "url": "https://github.com/openclaw/openclaw/pull/188182",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-10-30T01:56:28Z"
+        "updatedAt": "2026-10-30T08:36:05Z"
       },
       {
         "kind": "pr",
-        "number": 110102,
-        "title": "feat: let sandboxed plugin tabs invoke declared session actions",
-        "url": "https://github.com/openclaw/openclaw/pull/110102",
-        "state": "open",
-        "author": "Ittiz",
-        "updatedAt": "2026-10-30T01:56:23Z"
+        "number": 187804,
+        "title": "fix(supervisor): service-child anchors abort on Node 26 when stdin is /dev/null (2026.10.10 backport)",
+        "url": "https://github.com/openclaw/openclaw/pull/187804",
+        "state": "closed",
+        "author": "RomneyDa",
+        "updatedAt": "2026-10-30T08:36:03Z"
       },
       {
         "kind": "pr",
-        "number": 153042,
-        "title": "fix(acp): tolerate owner-repair verdicts on discarding close with clearMeta (#151859)",
-        "url": "https://github.com/openclaw/openclaw/pull/153042",
-        "state": "open",
-        "author": "MasterSwords1",
-        "updatedAt": "2026-10-30T01:55:49Z"
+        "number": 188173,
+        "title": "fix: keep scheduled global work in its existing conversation",
+        "url": "https://github.com/openclaw/openclaw/pull/188173",
+        "state": "closed",
+        "author": "shakkernerd",
+        "updatedAt": "2026-10-30T08:35:56Z"
       },
       {
         "kind": "pr",
-        "number": 188035,
-        "title": "refactor(tests): share standalone metadata minification",
-        "url": "https://github.com/openclaw/openclaw/pull/188035",
+        "number": 188187,
+        "title": "fix(plugins): preserve update failure codes",
+        "url": "https://github.com/openclaw/openclaw/pull/188187",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-10-30T01:55:40Z"
+        "updatedAt": "2026-10-30T08:35:44Z"
+      },
+      {
+        "kind": "pr",
+        "number": 188189,
+        "title": "refactor(update): reuse selected admission environment",
+        "url": "https://github.com/openclaw/openclaw/pull/188189",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-10-30T08:35:39Z"
+      },
+      {
+        "kind": "pr",
+        "number": 188184,
+        "title": "feat(sessions): show a session's checkout changes from the CLI",
+        "url": "https://github.com/openclaw/openclaw/pull/188184",
+        "state": "open",
+        "author": "lsr911",
+        "updatedAt": "2026-10-30T08:35:08Z"
       }
     ]
   }

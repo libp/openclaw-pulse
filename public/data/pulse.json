@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-31T00:45:56.602Z",
+  "generatedAt": "2026-10-31T06:58:25.680Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1788,17 +1788,17 @@
     },
     {
       "capturedOn": "2026-10-31",
-      "capturedAt": "2026-10-31T00:45:56.602Z",
-      "issueOpen": 5043,
-      "issueClosed": 57130,
-      "prOpen": 2876,
-      "prClosed": 121199,
-      "prMerged": 66084,
+      "capturedAt": "2026-10-31T06:58:25.680Z",
+      "issueOpen": 5047,
+      "issueClosed": 57161,
+      "prOpen": 2868,
+      "prClosed": 121441,
+      "prMerged": 66286,
       "workflowRuns": 40000,
-      "stars": 393480,
-      "forks": 82701,
+      "stars": 393502,
+      "forks": 82709,
       "subscribers": 1697,
-      "commits": 122718,
+      "commits": 122910,
       "contributors": 3726,
       "source": "github-actions",
       "approximateDate": false
@@ -2543,69 +2543,106 @@
     },
     {
       "capturedOn": "2026-10-31",
-      "stars": 393480,
-      "forks": 82701,
+      "stars": 393502,
+      "forks": 82709,
       "subscribers": 1697,
-      "commits": 122718,
+      "commits": 122910,
       "contributors": 3726
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 189159,
+        "title": "Collector group sweep races agent startup: sessions.delete fails with 'Agent main has not completed startup inspection and preparation'",
+        "url": "https://github.com/openclaw/openclaw/issues/189159",
+        "state": "open",
+        "author": "RweSmarter",
+        "updatedAt": "2026-10-31T06:58:13Z"
+      },
+      {
+        "kind": "issue",
+        "number": 187774,
+        "title": "[Feature]: Add an optional Cua Spaces worker provider",
+        "url": "https://github.com/openclaw/openclaw/issues/187774",
+        "state": "open",
+        "author": "TheAngryPit",
+        "updatedAt": "2026-10-31T06:58:04Z"
+      },
+      {
+        "kind": "issue",
+        "number": 126533,
+        "title": "Drop MESSAGE_CREATE event when receiving-bot-account has isDefault=true AND a more-specific-scoped binding matches for the target channel",
+        "url": "https://github.com/openclaw/openclaw/issues/126533",
+        "state": "open",
+        "author": "hedwig-lgtm",
+        "updatedAt": "2026-10-31T06:57:48Z"
+      },
+      {
+        "kind": "issue",
+        "number": 128719,
+        "title": "[Bug]: /codex bind self-blocks on the current session's active command run",
+        "url": "https://github.com/openclaw/openclaw/issues/128719",
+        "state": "closed",
+        "author": "alexph-dev",
+        "updatedAt": "2026-10-31T06:57:26Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 188890,
-        "title": "fix(doctor): prepare plugin contracts off the main thread",
-        "url": "https://github.com/openclaw/openclaw/pull/188890",
+        "number": 189131,
+        "title": "fix: find saved chats with Greek sigma searches",
+        "url": "https://github.com/openclaw/openclaw/pull/189131",
+        "state": "open",
+        "author": "shakkernerd",
+        "updatedAt": "2026-10-31T06:58:19Z"
+      },
+      {
+        "kind": "pr",
+        "number": 189150,
+        "title": "feat(acpx): select Qoder models in native chat",
+        "url": "https://github.com/openclaw/openclaw/pull/189150",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-10-31T06:58:18Z"
+      },
+      {
+        "kind": "pr",
+        "number": 189157,
+        "title": "refactor(ci): share balanced test target chunking",
+        "url": "https://github.com/openclaw/openclaw/pull/189157",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-10-31T06:58:14Z"
+      },
+      {
+        "kind": "pr",
+        "number": 189024,
+        "title": "perf(ui): defer hidden long-tail page rendering and add route census",
+        "url": "https://github.com/openclaw/openclaw/pull/189024",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-31T00:45:43Z"
+        "updatedAt": "2026-10-31T06:58:14Z"
       },
       {
         "kind": "pr",
-        "number": 188865,
-        "title": "chore(deps): update fs-safe to 0.27.0",
-        "url": "https://github.com/openclaw/openclaw/pull/188865",
+        "number": 188695,
+        "title": "improve(ui): speed up Board tab navigation",
+        "url": "https://github.com/openclaw/openclaw/pull/188695",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-31T00:45:42Z"
+        "updatedAt": "2026-10-31T06:58:06Z"
       },
       {
         "kind": "pr",
-        "number": 188877,
-        "title": "perf(gateway): release unrelated session index snapshots",
-        "url": "https://github.com/openclaw/openclaw/pull/188877",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-31T00:45:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 188778,
-        "title": "fix(release): drain shared-state leases before retirement",
-        "url": "https://github.com/openclaw/openclaw/pull/188778",
+        "number": 128742,
+        "title": "fix(codex): let /codex bind transfer the current session",
+        "url": "https://github.com/openclaw/openclaw/pull/128742",
         "state": "closed",
-        "author": "RomneyDa",
-        "updatedAt": "2026-10-31T00:45:35Z"
-      },
-      {
-        "kind": "pr",
-        "number": 188765,
-        "title": "fix(gateway): resume fallback after output-limited replies",
-        "url": "https://github.com/openclaw/openclaw/pull/188765",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-10-31T00:45:33Z"
-      },
-      {
-        "kind": "pr",
-        "number": 188750,
-        "title": "fix(release): remove ACP backport import collision",
-        "url": "https://github.com/openclaw/openclaw/pull/188750",
-        "state": "closed",
-        "author": "RomneyDa",
-        "updatedAt": "2026-10-31T00:45:31Z"
+        "author": "libaojiang",
+        "updatedAt": "2026-10-31T06:57:59Z"
       }
     ]
   }

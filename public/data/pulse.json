@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-31T06:58:25.680Z",
+  "generatedAt": "2026-10-31T18:31:10.050Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1788,18 +1788,18 @@
     },
     {
       "capturedOn": "2026-10-31",
-      "capturedAt": "2026-10-31T06:58:25.680Z",
-      "issueOpen": 5047,
-      "issueClosed": 57161,
-      "prOpen": 2868,
-      "prClosed": 121441,
-      "prMerged": 66286,
+      "capturedAt": "2026-10-31T18:31:10.050Z",
+      "issueOpen": 5066,
+      "issueClosed": 57209,
+      "prOpen": 2846,
+      "prClosed": 121892,
+      "prMerged": 66653,
       "workflowRuns": 40000,
-      "stars": 393502,
-      "forks": 82709,
-      "subscribers": 1697,
-      "commits": 122910,
-      "contributors": 3726,
+      "stars": 393551,
+      "forks": 82712,
+      "subscribers": 1696,
+      "commits": 123280,
+      "contributors": 3730,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2543,106 +2543,124 @@
     },
     {
       "capturedOn": "2026-10-31",
-      "stars": 393502,
-      "forks": 82709,
-      "subscribers": 1697,
-      "commits": 122910,
-      "contributors": 3726
+      "stars": 393551,
+      "forks": 82712,
+      "subscribers": 1696,
+      "commits": 123280,
+      "contributors": 3730
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 189159,
-        "title": "Collector group sweep races agent startup: sessions.delete fails with 'Agent main has not completed startup inspection and preparation'",
-        "url": "https://github.com/openclaw/openclaw/issues/189159",
+        "number": 141806,
+        "title": "Unselected memory-core shadows custom memory plugins recall tools",
+        "url": "https://github.com/openclaw/openclaw/issues/141806",
         "state": "open",
-        "author": "RweSmarter",
-        "updatedAt": "2026-10-31T06:58:13Z"
+        "author": "bill492",
+        "updatedAt": "2026-10-31T18:30:55Z"
       },
       {
         "kind": "issue",
-        "number": 187774,
-        "title": "[Feature]: Add an optional Cua Spaces worker provider",
-        "url": "https://github.com/openclaw/openclaw/issues/187774",
+        "number": 167778,
+        "title": "Service-definition reconciliation reports permanent `unknown-edit` drift for fields that Windows Task Scheduler itself forces/canonicalizes (`UseUnifiedSchedulingEngine`, `LogonTrigger/UserId`)",
+        "url": "https://github.com/openclaw/openclaw/issues/167778",
         "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-10-31T06:58:04Z"
+        "author": "GallardoGH",
+        "updatedAt": "2026-10-31T18:30:39Z"
       },
       {
         "kind": "issue",
-        "number": 126533,
-        "title": "Drop MESSAGE_CREATE event when receiving-bot-account has isDefault=true AND a more-specific-scoped binding matches for the target channel",
-        "url": "https://github.com/openclaw/openclaw/issues/126533",
+        "number": 189649,
+        "title": "[Bug]: Telegram slash commands typed by a linked operator never receive plugin runtime capabilities",
+        "url": "https://github.com/openclaw/openclaw/issues/189649",
         "state": "open",
-        "author": "hedwig-lgtm",
-        "updatedAt": "2026-10-31T06:57:48Z"
+        "author": "nxmxbbd",
+        "updatedAt": "2026-10-31T18:30:24Z"
       },
       {
         "kind": "issue",
-        "number": 128719,
-        "title": "[Bug]: /codex bind self-blocks on the current session's active command run",
-        "url": "https://github.com/openclaw/openclaw/issues/128719",
-        "state": "closed",
-        "author": "alexph-dev",
-        "updatedAt": "2026-10-31T06:57:26Z"
+        "number": 189620,
+        "title": "Update failure: gateway-recovery-verification (2026.10.9)",
+        "url": "https://github.com/openclaw/openclaw/issues/189620",
+        "state": "open",
+        "author": "stephen3303",
+        "updatedAt": "2026-10-31T18:29:27Z"
+      },
+      {
+        "kind": "issue",
+        "number": 189648,
+        "title": "[Bug]: Configured context engine is silently dropped from Codex app-server attempts when the model is native-model-owned (2026.9.36)",
+        "url": "https://github.com/openclaw/openclaw/issues/189648",
+        "state": "open",
+        "author": "rsposton",
+        "updatedAt": "2026-10-31T18:29:13Z"
+      },
+      {
+        "kind": "issue",
+        "number": 189643,
+        "title": "Update failure: git-clone (2026.10.4)",
+        "url": "https://github.com/openclaw/openclaw/issues/189643",
+        "state": "open",
+        "author": "xordroyd",
+        "updatedAt": "2026-10-31T18:28:48Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 189131,
-        "title": "fix: find saved chats with Greek sigma searches",
-        "url": "https://github.com/openclaw/openclaw/pull/189131",
+        "number": 189650,
+        "title": "fix(telegram): typed plugin slash commands get no runtime capabilities",
+        "url": "https://github.com/openclaw/openclaw/pull/189650",
         "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-10-31T06:58:19Z"
+        "author": "nxmxbbd",
+        "updatedAt": "2026-10-31T18:31:04Z"
       },
       {
         "kind": "pr",
-        "number": 189150,
-        "title": "feat(acpx): select Qoder models in native chat",
-        "url": "https://github.com/openclaw/openclaw/pull/189150",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-10-31T06:58:18Z"
-      },
-      {
-        "kind": "pr",
-        "number": 189157,
-        "title": "refactor(ci): share balanced test target chunking",
-        "url": "https://github.com/openclaw/openclaw/pull/189157",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-10-31T06:58:14Z"
-      },
-      {
-        "kind": "pr",
-        "number": 189024,
-        "title": "perf(ui): defer hidden long-tail page rendering and add route census",
-        "url": "https://github.com/openclaw/openclaw/pull/189024",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-31T06:58:14Z"
-      },
-      {
-        "kind": "pr",
-        "number": 188695,
-        "title": "improve(ui): speed up Board tab navigation",
-        "url": "https://github.com/openclaw/openclaw/pull/188695",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-10-31T06:58:06Z"
-      },
-      {
-        "kind": "pr",
-        "number": 128742,
-        "title": "fix(codex): let /codex bind transfer the current session",
-        "url": "https://github.com/openclaw/openclaw/pull/128742",
+        "number": 189574,
+        "title": "perf(ui): reduce bytes transferred during chat startup",
+        "url": "https://github.com/openclaw/openclaw/pull/189574",
         "state": "closed",
-        "author": "libaojiang",
-        "updatedAt": "2026-10-31T06:57:59Z"
+        "author": "steipete",
+        "updatedAt": "2026-10-31T18:31:02Z"
+      },
+      {
+        "kind": "pr",
+        "number": 189641,
+        "title": "test(ui): expect healthy worker placement in dispatch coverage",
+        "url": "https://github.com/openclaw/openclaw/pull/189641",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-10-31T18:30:54Z"
+      },
+      {
+        "kind": "pr",
+        "number": 189646,
+        "title": "perf(cron): batch preview source generation reads",
+        "url": "https://github.com/openclaw/openclaw/pull/189646",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-31T18:30:53Z"
+      },
+      {
+        "kind": "pr",
+        "number": 189563,
+        "title": "fix(normalization-core): restore the dropped one-day rung in relative time labels",
+        "url": "https://github.com/openclaw/openclaw/pull/189563",
+        "state": "open",
+        "author": "xydt-juyaohui",
+        "updatedAt": "2026-10-31T18:30:50Z"
+      },
+      {
+        "kind": "pr",
+        "number": 189612,
+        "title": "chore(test): remove redundant and orphaned plugin fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/189612",
+        "state": "closed",
+        "author": "vincentkoc",
+        "updatedAt": "2026-10-31T18:30:25Z"
       }
     ]
   }

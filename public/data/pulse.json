@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-10-30T15:54:39.720Z",
+  "generatedAt": "2026-10-31T00:45:56.602Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1785,6 +1785,23 @@
       "contributors": 3722,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-10-31",
+      "capturedAt": "2026-10-31T00:45:56.602Z",
+      "issueOpen": 5043,
+      "issueClosed": 57130,
+      "prOpen": 2876,
+      "prClosed": 121199,
+      "prMerged": 66084,
+      "workflowRuns": 40000,
+      "stars": 393480,
+      "forks": 82701,
+      "subscribers": 1697,
+      "commits": 122718,
+      "contributors": 3726,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2523,74 +2540,72 @@
       "subscribers": 1697,
       "commits": 122455,
       "contributors": 3722
+    },
+    {
+      "capturedOn": "2026-10-31",
+      "stars": 393480,
+      "forks": 82701,
+      "subscribers": 1697,
+      "commits": 122718,
+      "contributors": 3726
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 188489,
-        "title": "fix: positive browser fixtures omit required method advertisements",
-        "url": "https://github.com/openclaw/openclaw/issues/188489",
-        "state": "open",
-        "author": "shakkernerd",
-        "updatedAt": "2026-10-30T15:53:11Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 188495,
-        "title": "fix: show recovery steps when Doctor repair is interrupted",
-        "url": "https://github.com/openclaw/openclaw/pull/188495",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-10-30T15:54:30Z"
-      },
-      {
-        "kind": "pr",
-        "number": 188473,
-        "title": "fix(ci): preserve artifact expiry verification failures",
-        "url": "https://github.com/openclaw/openclaw/pull/188473",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-10-30T15:54:28Z"
-      },
-      {
-        "kind": "pr",
-        "number": 188454,
-        "title": "test(media): remove synthetic HTTP from image tool replies",
-        "url": "https://github.com/openclaw/openclaw/pull/188454",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-10-30T15:54:26Z"
-      },
-      {
-        "kind": "pr",
-        "number": 188459,
-        "title": "perf(state): keep agent startup inspection proportionate",
-        "url": "https://github.com/openclaw/openclaw/pull/188459",
+        "number": 188890,
+        "title": "fix(doctor): prepare plugin contracts off the main thread",
+        "url": "https://github.com/openclaw/openclaw/pull/188890",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-30T15:54:25Z"
+        "updatedAt": "2026-10-31T00:45:43Z"
       },
       {
         "kind": "pr",
-        "number": 188456,
-        "title": "improve(ios): reuse screenshot build manifests",
-        "url": "https://github.com/openclaw/openclaw/pull/188456",
-        "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-10-30T15:54:21Z"
-      },
-      {
-        "kind": "pr",
-        "number": 188470,
-        "title": "fix(ui): prevent resize errors when scrolling chat images",
-        "url": "https://github.com/openclaw/openclaw/pull/188470",
+        "number": 188865,
+        "title": "chore(deps): update fs-safe to 0.27.0",
+        "url": "https://github.com/openclaw/openclaw/pull/188865",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-10-30T15:54:19Z"
+        "updatedAt": "2026-10-31T00:45:42Z"
+      },
+      {
+        "kind": "pr",
+        "number": 188877,
+        "title": "perf(gateway): release unrelated session index snapshots",
+        "url": "https://github.com/openclaw/openclaw/pull/188877",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-10-31T00:45:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 188778,
+        "title": "fix(release): drain shared-state leases before retirement",
+        "url": "https://github.com/openclaw/openclaw/pull/188778",
+        "state": "closed",
+        "author": "RomneyDa",
+        "updatedAt": "2026-10-31T00:45:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 188765,
+        "title": "fix(gateway): resume fallback after output-limited replies",
+        "url": "https://github.com/openclaw/openclaw/pull/188765",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-10-31T00:45:33Z"
+      },
+      {
+        "kind": "pr",
+        "number": 188750,
+        "title": "fix(release): remove ACP backport import collision",
+        "url": "https://github.com/openclaw/openclaw/pull/188750",
+        "state": "closed",
+        "author": "RomneyDa",
+        "updatedAt": "2026-10-31T00:45:31Z"
       }
     ]
   }

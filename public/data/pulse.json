@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-01T02:11:50.612Z",
+  "generatedAt": "2026-11-01T16:00:05.579Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1805,18 +1805,18 @@
     },
     {
       "capturedOn": "2026-11-01",
-      "capturedAt": "2026-11-01T02:11:50.612Z",
-      "issueOpen": 5067,
-      "issueClosed": 57238,
-      "prOpen": 2828,
-      "prClosed": 122197,
-      "prMerged": 66884,
+      "capturedAt": "2026-11-01T16:00:05.579Z",
+      "issueOpen": 4997,
+      "issueClosed": 57384,
+      "prOpen": 2804,
+      "prClosed": 122664,
+      "prMerged": 67213,
       "workflowRuns": 40000,
-      "stars": 393565,
-      "forks": 82715,
-      "subscribers": 1696,
-      "commits": 123511,
-      "contributors": 3732,
+      "stars": 393625,
+      "forks": 82731,
+      "subscribers": 1698,
+      "commits": 123840,
+      "contributors": 3735,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2568,124 +2568,115 @@
     },
     {
       "capturedOn": "2026-11-01",
-      "stars": 393565,
-      "forks": 82715,
-      "subscribers": 1696,
-      "commits": 123511,
-      "contributors": 3732
+      "stars": 393625,
+      "forks": 82731,
+      "subscribers": 1698,
+      "commits": 123840,
+      "contributors": 3735
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 187774,
-        "title": "[Feature]: Add an optional Cua Spaces worker provider",
-        "url": "https://github.com/openclaw/openclaw/issues/187774",
+        "number": 190474,
+        "title": "[Bug]: macOS primary UI/node auth fails with trusted-proxy + managed Tailscale Serve despite allowTailscale",
+        "url": "https://github.com/openclaw/openclaw/issues/190474",
         "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-11-01T02:11:02Z"
+        "author": "TommyFive",
+        "updatedAt": "2026-11-01T15:59:12Z"
       },
       {
         "kind": "issue",
-        "number": 189332,
-        "title": "[Bug]: exec (zsh) — heredoc on non-first pipeline stage receives upstream pipe output ⊕ heredoc body instead of overriding the pipe → false \"Exec failed\" NameError alerts",
-        "url": "https://github.com/openclaw/openclaw/issues/189332",
+        "number": 190479,
+        "title": "discord: edit action sends raw Markdown (tables, __bold__, mention aliases) while send of the same text is rendered",
+        "url": "https://github.com/openclaw/openclaw/issues/190479",
         "state": "open",
-        "author": "feiniaoivp",
-        "updatedAt": "2026-11-01T02:10:52Z"
+        "author": "yetval",
+        "updatedAt": "2026-11-01T15:58:31Z"
       },
       {
         "kind": "issue",
-        "number": 160959,
-        "title": "[Bug]: Gateway blocks for minutes while capturing large external plugins (2026.9.6 regression)",
-        "url": "https://github.com/openclaw/openclaw/issues/160959",
+        "number": 190476,
+        "title": "memory-wiki: refreshing a synthesis without --status resets a curated status to active",
+        "url": "https://github.com/openclaw/openclaw/issues/190476",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-11-01T02:10:28Z"
+        "author": "yetval",
+        "updatedAt": "2026-11-01T15:58:31Z"
       },
       {
         "kind": "issue",
-        "number": 189354,
-        "title": "[Feature]: Search and send native Zalo stickers through the existing zalouser channel",
-        "url": "https://github.com/openclaw/openclaw/issues/189354",
+        "number": 190481,
+        "title": "telegram: sticker action ignores silent: true, sendSticker still notifies recipients",
+        "url": "https://github.com/openclaw/openclaw/issues/190481",
         "state": "open",
-        "author": "ml12580",
-        "updatedAt": "2026-11-01T02:09:34Z"
+        "author": "yetval",
+        "updatedAt": "2026-11-01T15:58:09Z"
       },
       {
         "kind": "issue",
-        "number": 183537,
-        "title": "Request: consider ShieldCortex and multi-clawd for the official plugin catalog or a verified-publisher listing",
-        "url": "https://github.com/openclaw/openclaw/issues/183537",
+        "number": 190485,
+        "title": "[Bug]: ask_user question card: valid answer rejected by parser (snake_case ids) and fallback options render unnumbered",
+        "url": "https://github.com/openclaw/openclaw/issues/190485",
         "state": "open",
-        "author": "jarvis-drakon",
-        "updatedAt": "2026-11-01T02:09:23Z"
-      },
-      {
-        "kind": "issue",
-        "number": 184709,
-        "title": "[Feature]: Support keyterm prompting in ElevenLabs batch transcription",
-        "url": "https://github.com/openclaw/openclaw/issues/184709",
-        "state": "open",
-        "author": "ml12580",
-        "updatedAt": "2026-11-01T02:09:13Z"
+        "author": "amittell",
+        "updatedAt": "2026-11-01T15:57:56Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 189942,
-        "title": "feat(google): use the Interactions API for all Gemini text models",
-        "url": "https://github.com/openclaw/openclaw/pull/189942",
+        "number": 190488,
+        "title": "fix(agents): let the sessions tool clear a thinking override",
+        "url": "https://github.com/openclaw/openclaw/pull/190488",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-11-01T02:11:33Z"
+        "author": "yetval",
+        "updatedAt": "2026-11-01T15:59:58Z"
       },
       {
         "kind": "pr",
-        "number": 189967,
-        "title": "docs(logging): describe metadata-only provider failure warnings",
-        "url": "https://github.com/openclaw/openclaw/pull/189967",
+        "number": 189769,
+        "title": "fix(control-ui): keep cached Details progress until live facts differ",
+        "url": "https://github.com/openclaw/openclaw/pull/189769",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-11-01T02:10:36Z"
+        "author": "steipete",
+        "updatedAt": "2026-11-01T15:59:57Z"
       },
       {
         "kind": "pr",
-        "number": 147902,
-        "title": "fix(browser): avoid shutdown delays from new start requests",
-        "url": "https://github.com/openclaw/openclaw/pull/147902",
+        "number": 190473,
+        "title": "fix(sandbox): unblock tool-free model setup with browser enabled",
+        "url": "https://github.com/openclaw/openclaw/pull/190473",
         "state": "open",
-        "author": "harjothkhara",
-        "updatedAt": "2026-11-01T02:10:29Z"
+        "author": "alkor2000",
+        "updatedAt": "2026-11-01T15:59:47Z"
       },
       {
         "kind": "pr",
-        "number": 189956,
-        "title": "fix(memory-lancedb): auto-capture stores OpenClaw's own [System] retry turns as user memories",
-        "url": "https://github.com/openclaw/openclaw/pull/189956",
+        "number": 190477,
+        "title": "fix(policy): refuse special files before conformance reads",
+        "url": "https://github.com/openclaw/openclaw/pull/190477",
         "state": "open",
-        "author": "amittell",
-        "updatedAt": "2026-11-01T02:10:22Z"
+        "author": "Leon-SK668",
+        "updatedAt": "2026-11-01T15:59:45Z"
       },
       {
         "kind": "pr",
-        "number": 189939,
-        "title": "fix(cron): missing-account refusal suggests doctor --fix for jobs Doctor skips",
-        "url": "https://github.com/openclaw/openclaw/pull/189939",
+        "number": 186140,
+        "title": "fix(matrix): forget cached credentials when an account is removed",
+        "url": "https://github.com/openclaw/openclaw/pull/186140",
         "state": "open",
-        "author": "Satoshi-Kusumoto",
-        "updatedAt": "2026-11-01T02:10:16Z"
+        "author": "wr-web",
+        "updatedAt": "2026-11-01T15:59:41Z"
       },
       {
         "kind": "pr",
-        "number": 189893,
-        "title": "refactor(runtime): defer unused model pricing lookup",
-        "url": "https://github.com/openclaw/openclaw/pull/189893",
-        "state": "closed",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-01T02:10:03Z"
+        "number": 182668,
+        "title": "build(release): stop releases shipping a Codex plugin floor that admits broken plugins",
+        "url": "https://github.com/openclaw/openclaw/pull/182668",
+        "state": "open",
+        "author": "sukhdeepjohar",
+        "updatedAt": "2026-11-01T15:59:38Z"
       }
     ]
   }

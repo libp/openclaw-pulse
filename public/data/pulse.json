@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-01T16:00:05.579Z",
+  "generatedAt": "2026-11-02T00:41:18.300Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1819,6 +1819,23 @@
       "contributors": 3735,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-02",
+      "capturedAt": "2026-11-02T00:41:18.300Z",
+      "issueOpen": 4955,
+      "issueClosed": 57470,
+      "prOpen": 2780,
+      "prClosed": 122894,
+      "prMerged": 67378,
+      "workflowRuns": 40000,
+      "stars": 393645,
+      "forks": 82731,
+      "subscribers": 1699,
+      "commits": 123999,
+      "contributors": 3737,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2573,110 +2590,100 @@
       "subscribers": 1698,
       "commits": 123840,
       "contributors": 3735
+    },
+    {
+      "capturedOn": "2026-11-02",
+      "stars": 393645,
+      "forks": 82731,
+      "subscribers": 1699,
+      "commits": 123999,
+      "contributors": 3737
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 190474,
-        "title": "[Bug]: macOS primary UI/node auth fails with trusted-proxy + managed Tailscale Serve despite allowTailscale",
-        "url": "https://github.com/openclaw/openclaw/issues/190474",
+        "number": 190737,
+        "title": "[Bug]: Agent read-modify-write replaced .env credentials with redaction markers on 2026.10.9",
+        "url": "https://github.com/openclaw/openclaw/issues/190737",
         "state": "open",
-        "author": "TommyFive",
-        "updatedAt": "2026-11-01T15:59:12Z"
+        "author": "akessel56",
+        "updatedAt": "2026-11-02T00:41:08Z"
       },
       {
         "kind": "issue",
-        "number": 190479,
-        "title": "discord: edit action sends raw Markdown (tables, __bold__, mention aliases) while send of the same text is rendered",
-        "url": "https://github.com/openclaw/openclaw/issues/190479",
+        "number": 190732,
+        "title": "[Feature]: Browser control: per-profile opt-in to open that profile's own password-manager page (chrome://password-manager)",
+        "url": "https://github.com/openclaw/openclaw/issues/190732",
         "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-11-01T15:58:31Z"
+        "author": "jonathanlindsay",
+        "updatedAt": "2026-11-02T00:37:04Z"
       },
       {
         "kind": "issue",
-        "number": 190476,
-        "title": "memory-wiki: refreshing a synthesis without --status resets a curated status to active",
-        "url": "https://github.com/openclaw/openclaw/issues/190476",
-        "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-11-01T15:58:31Z"
-      },
-      {
-        "kind": "issue",
-        "number": 190481,
-        "title": "telegram: sticker action ignores silent: true, sendSticker still notifies recipients",
-        "url": "https://github.com/openclaw/openclaw/issues/190481",
-        "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-11-01T15:58:09Z"
-      },
-      {
-        "kind": "issue",
-        "number": 190485,
-        "title": "[Bug]: ask_user question card: valid answer rejected by parser (snake_case ids) and fallback options render unnumbered",
-        "url": "https://github.com/openclaw/openclaw/issues/190485",
-        "state": "open",
-        "author": "amittell",
-        "updatedAt": "2026-11-01T15:57:56Z"
+        "number": 187604,
+        "title": "[Bug]: macOS node screen.record reports the requested durationMs/fps instead of the clamped values it recorded",
+        "url": "https://github.com/openclaw/openclaw/issues/187604",
+        "state": "closed",
+        "author": "anmol0b",
+        "updatedAt": "2026-11-02T00:29:25Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 190488,
-        "title": "fix(agents): let the sessions tool clear a thinking override",
-        "url": "https://github.com/openclaw/openclaw/pull/190488",
+        "number": 190365,
+        "title": "refactor(skill-workshop): move Workshop settings into the plugin config",
+        "url": "https://github.com/openclaw/openclaw/pull/190365",
         "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-11-01T15:59:58Z"
+        "author": "obviyus",
+        "updatedAt": "2026-11-02T00:41:08Z"
       },
       {
         "kind": "pr",
-        "number": 189769,
-        "title": "fix(control-ui): keep cached Details progress until live facts differ",
-        "url": "https://github.com/openclaw/openclaw/pull/189769",
+        "number": 190432,
+        "title": "improve(ui): reveal Usage session details on phone row taps",
+        "url": "https://github.com/openclaw/openclaw/pull/190432",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-11-01T15:59:57Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-11-02T00:40:55Z"
       },
       {
         "kind": "pr",
-        "number": 190473,
-        "title": "fix(sandbox): unblock tool-free model setup with browser enabled",
-        "url": "https://github.com/openclaw/openclaw/pull/190473",
+        "number": 190723,
+        "title": "fix(gateway): explain Tailscale ingress loss during recovery",
+        "url": "https://github.com/openclaw/openclaw/pull/190723",
         "state": "open",
-        "author": "alkor2000",
-        "updatedAt": "2026-11-01T15:59:47Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-02T00:40:05Z"
       },
       {
         "kind": "pr",
-        "number": 190477,
-        "title": "fix(policy): refuse special files before conformance reads",
-        "url": "https://github.com/openclaw/openclaw/pull/190477",
+        "number": 190738,
+        "title": "improve(ui): keep the phone new-session draft still across Incognito",
+        "url": "https://github.com/openclaw/openclaw/pull/190738",
         "state": "open",
-        "author": "Leon-SK668",
-        "updatedAt": "2026-11-01T15:59:45Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-11-02T00:39:32Z"
       },
       {
         "kind": "pr",
-        "number": 186140,
-        "title": "fix(matrix): forget cached credentials when an account is removed",
-        "url": "https://github.com/openclaw/openclaw/pull/186140",
+        "number": 190731,
+        "title": "refactor: reuse pending promise owner in runner lanes",
+        "url": "https://github.com/openclaw/openclaw/pull/190731",
         "state": "open",
-        "author": "wr-web",
-        "updatedAt": "2026-11-01T15:59:41Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-02T00:37:56Z"
       },
       {
         "kind": "pr",
-        "number": 182668,
-        "title": "build(release): stop releases shipping a Codex plugin floor that admits broken plugins",
-        "url": "https://github.com/openclaw/openclaw/pull/182668",
+        "number": 190735,
+        "title": "fix(queue): stop advertising ignored execution timeouts",
+        "url": "https://github.com/openclaw/openclaw/pull/190735",
         "state": "open",
-        "author": "sukhdeepjohar",
-        "updatedAt": "2026-11-01T15:59:38Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-02T00:37:13Z"
       }
     ]
   }

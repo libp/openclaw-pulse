@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-03T17:49:29.773Z",
+  "generatedAt": "2026-11-03T23:18:47.293Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1839,18 +1839,18 @@
     },
     {
       "capturedOn": "2026-11-03",
-      "capturedAt": "2026-11-03T17:49:29.773Z",
-      "issueOpen": 4853,
-      "issueClosed": 57830,
-      "prOpen": 2809,
-      "prClosed": 124012,
-      "prMerged": 68219,
+      "capturedAt": "2026-11-03T23:18:47.293Z",
+      "issueOpen": 4873,
+      "issueClosed": 57843,
+      "prOpen": 2880,
+      "prClosed": 124133,
+      "prMerged": 68315,
       "workflowRuns": 40000,
-      "stars": 393843,
-      "forks": 82789,
+      "stars": 393862,
+      "forks": 82783,
       "subscribers": 1698,
-      "commits": 124892,
-      "contributors": 3743,
+      "commits": 125002,
+      "contributors": 3744,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2618,88 +2618,69 @@
     },
     {
       "capturedOn": "2026-11-03",
-      "stars": 393843,
-      "forks": 82789,
+      "stars": 393862,
+      "forks": 82783,
       "subscribers": 1698,
-      "commits": 124892,
-      "contributors": 3743
+      "commits": 125002,
+      "contributors": 3744
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 170328,
-        "title": "Daily session reset keeps the sessionId (boundary only), contrary to schema.md — chat transcripts grow without bound",
-        "url": "https://github.com/openclaw/openclaw/issues/170328",
-        "state": "open",
-        "author": "mrschaal",
-        "updatedAt": "2026-11-03T17:47:32Z"
-      },
-      {
-        "kind": "issue",
-        "number": 192141,
-        "title": "Interrupted-turn continuation delivers boilerplate without original user message text (assistant misjudges real messages as empty)",
-        "url": "https://github.com/openclaw/openclaw/issues/192141",
-        "state": "open",
-        "author": "xuruiix-stack",
-        "updatedAt": "2026-11-03T17:46:23Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 192147,
-        "title": "fix(google): bind explicit router continuation to its original request",
-        "url": "https://github.com/openclaw/openclaw/pull/192147",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-03T17:49:17Z"
-      },
-      {
-        "kind": "pr",
-        "number": 192128,
-        "title": "fix(ui): refocus the rejected channel wizard step input",
-        "url": "https://github.com/openclaw/openclaw/pull/192128",
-        "state": "closed",
-        "author": "xiaopan-xydt",
-        "updatedAt": "2026-11-03T17:49:04Z"
-      },
-      {
-        "kind": "pr",
-        "number": 191915,
-        "title": "fix(doctor): report supervised launch risk when native reaping is unavailable",
-        "url": "https://github.com/openclaw/openclaw/pull/191915",
-        "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-11-03T17:49:04Z"
-      },
-      {
-        "kind": "pr",
-        "number": 192103,
-        "title": "test(ui): detect ignored thinking override clearing",
-        "url": "https://github.com/openclaw/openclaw/pull/192103",
-        "state": "closed",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-03T17:48:59Z"
-      },
-      {
-        "kind": "pr",
-        "number": 192129,
-        "title": "fix(update): reclaim retained updater runtimes on Windows",
-        "url": "https://github.com/openclaw/openclaw/pull/192129",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-11-03T17:48:56Z"
-      },
-      {
-        "kind": "pr",
-        "number": 192136,
-        "title": "fix(ci): remove retired chat duration formatter",
-        "url": "https://github.com/openclaw/openclaw/pull/192136",
+        "number": 192373,
+        "title": "fix(ui): preserve error identity at presentation boundaries",
+        "url": "https://github.com/openclaw/openclaw/pull/192373",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-11-03T17:48:50Z"
+        "updatedAt": "2026-11-03T23:18:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 192358,
+        "title": "fix: avoid Gateway stalls while archiving large worktrees",
+        "url": "https://github.com/openclaw/openclaw/pull/192358",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-11-03T23:18:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 192362,
+        "title": "fix(agents): stop retaining completed tool calls",
+        "url": "https://github.com/openclaw/openclaw/pull/192362",
+        "state": "closed",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-03T23:18:28Z"
+      },
+      {
+        "kind": "pr",
+        "number": 192363,
+        "title": "fix(models): avoid redundant inspection of remote catalog snapshots",
+        "url": "https://github.com/openclaw/openclaw/pull/192363",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-03T23:18:24Z"
+      },
+      {
+        "kind": "pr",
+        "number": 191562,
+        "title": "test(agents): pin a local Codex owner refusal to a run-local failure",
+        "url": "https://github.com/openclaw/openclaw/pull/191562",
+        "state": "open",
+        "author": "Linux2010",
+        "updatedAt": "2026-11-03T23:18:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 192311,
+        "title": "fix(memory-wiki): searches ending with a period return no pages",
+        "url": "https://github.com/openclaw/openclaw/pull/192311",
+        "state": "open",
+        "author": "Yigtwxx",
+        "updatedAt": "2026-11-03T23:18:05Z"
       }
     ]
   }

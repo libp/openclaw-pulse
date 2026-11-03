@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-03T09:29:16.031Z",
+  "generatedAt": "2026-11-03T17:49:29.773Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1839,17 +1839,17 @@
     },
     {
       "capturedOn": "2026-11-03",
-      "capturedAt": "2026-11-03T09:29:16.031Z",
-      "issueOpen": 4900,
-      "issueClosed": 57724,
-      "prOpen": 2833,
-      "prClosed": 123710,
-      "prMerged": 67974,
+      "capturedAt": "2026-11-03T17:49:29.773Z",
+      "issueOpen": 4853,
+      "issueClosed": 57830,
+      "prOpen": 2809,
+      "prClosed": 124012,
+      "prMerged": 68219,
       "workflowRuns": 40000,
-      "stars": 393793,
-      "forks": 82771,
+      "stars": 393843,
+      "forks": 82789,
       "subscribers": 1698,
-      "commits": 124628,
+      "commits": 124892,
       "contributors": 3743,
       "source": "github-actions",
       "approximateDate": false
@@ -2618,10 +2618,10 @@
     },
     {
       "capturedOn": "2026-11-03",
-      "stars": 393793,
-      "forks": 82771,
+      "stars": 393843,
+      "forks": 82789,
       "subscribers": 1698,
-      "commits": 124628,
+      "commits": 124892,
       "contributors": 3743
     }
   ],
@@ -2629,95 +2629,77 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 153430,
-        "title": "[Bug]: a deep $include config that passes include resolution crashes later load stages (deep-merge, env substitution, migration probes) with RangeError",
-        "url": "https://github.com/openclaw/openclaw/issues/153430",
+        "number": 170328,
+        "title": "Daily session reset keeps the sessionId (boundary only), contrary to schema.md — chat transcripts grow without bound",
+        "url": "https://github.com/openclaw/openclaw/issues/170328",
         "state": "open",
-        "author": "ruel225",
-        "updatedAt": "2026-11-03T09:28:52Z"
+        "author": "mrschaal",
+        "updatedAt": "2026-11-03T17:47:32Z"
       },
       {
         "kind": "issue",
-        "number": 151962,
-        "title": "Phantom user messages: internal runtime strings (heartbeat poll / async command completion / queued user message) submitted as user prompts, not persisted to transcript_events",
-        "url": "https://github.com/openclaw/openclaw/issues/151962",
+        "number": 192141,
+        "title": "Interrupted-turn continuation delivers boilerplate without original user message text (assistant misjudges real messages as empty)",
+        "url": "https://github.com/openclaw/openclaw/issues/192141",
         "state": "open",
-        "author": "AlwaysTwig",
-        "updatedAt": "2026-11-03T09:27:38Z"
-      },
-      {
-        "kind": "issue",
-        "number": 191082,
-        "title": "PostgreSQL conformance: measure unnecessary migration fixture work",
-        "url": "https://github.com/openclaw/openclaw/issues/191082",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-03T09:27:17Z"
-      },
-      {
-        "kind": "issue",
-        "number": 191803,
-        "title": "[Bug]: Control UI still hides reasoningDefault-based reasoning on 2026.10.10 (fix #173524 missing from release)",
-        "url": "https://github.com/openclaw/openclaw/issues/191803",
-        "state": "open",
-        "author": "weng5040",
-        "updatedAt": "2026-11-03T09:26:59Z"
+        "author": "xuruiix-stack",
+        "updatedAt": "2026-11-03T17:46:23Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 130115,
-        "title": "fix(mac): avoid duplicate Codex sessions with a local Gateway",
-        "url": "https://github.com/openclaw/openclaw/pull/130115",
+        "number": 192147,
+        "title": "fix(google): bind explicit router continuation to its original request",
+        "url": "https://github.com/openclaw/openclaw/pull/192147",
         "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-11-03T09:29:04Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-03T17:49:17Z"
       },
       {
         "kind": "pr",
-        "number": 191797,
-        "title": "fix(imessage): preserve Unicode remote attachment filenames",
-        "url": "https://github.com/openclaw/openclaw/pull/191797",
-        "state": "open",
-        "author": "chelsealong",
-        "updatedAt": "2026-11-03T09:28:52Z"
+        "number": 192128,
+        "title": "fix(ui): refocus the rejected channel wizard step input",
+        "url": "https://github.com/openclaw/openclaw/pull/192128",
+        "state": "closed",
+        "author": "xiaopan-xydt",
+        "updatedAt": "2026-11-03T17:49:04Z"
       },
       {
         "kind": "pr",
-        "number": 191774,
-        "title": "fix(ui): chat account picker ignores clicks during a background history refresh",
-        "url": "https://github.com/openclaw/openclaw/pull/191774",
+        "number": 191915,
+        "title": "fix(doctor): report supervised launch risk when native reaping is unavailable",
+        "url": "https://github.com/openclaw/openclaw/pull/191915",
         "state": "open",
-        "author": "masatohoshino",
-        "updatedAt": "2026-11-03T09:28:52Z"
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-11-03T17:49:04Z"
       },
       {
         "kind": "pr",
-        "number": 191802,
-        "title": "fix(macos): wait for HTTP before interrupting test navigation",
-        "url": "https://github.com/openclaw/openclaw/pull/191802",
+        "number": 192103,
+        "title": "test(ui): detect ignored thinking override clearing",
+        "url": "https://github.com/openclaw/openclaw/pull/192103",
+        "state": "closed",
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-03T17:48:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 192129,
+        "title": "fix(update): reclaim retained updater runtimes on Windows",
+        "url": "https://github.com/openclaw/openclaw/pull/192129",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-11-03T17:48:56Z"
+      },
+      {
+        "kind": "pr",
+        "number": 192136,
+        "title": "fix(ci): remove retired chat duration formatter",
+        "url": "https://github.com/openclaw/openclaw/pull/192136",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-11-03T09:28:47Z"
-      },
-      {
-        "kind": "pr",
-        "number": 179145,
-        "title": "fix(plugins): keep adopted tools and hooks on one service owner",
-        "url": "https://github.com/openclaw/openclaw/pull/179145",
-        "state": "open",
-        "author": "igs-rogenlo",
-        "updatedAt": "2026-11-03T09:28:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 191799,
-        "title": "fix(gateway): reduce session list overhead with background processes",
-        "url": "https://github.com/openclaw/openclaw/pull/191799",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-11-03T09:28:41Z"
+        "updatedAt": "2026-11-03T17:48:50Z"
       }
     ]
   }

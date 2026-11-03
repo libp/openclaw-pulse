@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-02T07:39:17.802Z",
+  "generatedAt": "2026-11-03T01:33:19.673Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1836,6 +1836,23 @@
       "contributors": 3737,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-03",
+      "capturedAt": "2026-11-03T01:33:19.673Z",
+      "issueOpen": 4887,
+      "issueClosed": 57693,
+      "prOpen": 2860,
+      "prClosed": 123508,
+      "prMerged": 67828,
+      "workflowRuns": 40000,
+      "stars": 393756,
+      "forks": 82761,
+      "subscribers": 1698,
+      "commits": 124481,
+      "contributors": 3743,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2598,64 +2615,82 @@
       "subscribers": 1699,
       "commits": 124110,
       "contributors": 3737
+    },
+    {
+      "capturedOn": "2026-11-03",
+      "stars": 393756,
+      "forks": 82761,
+      "subscribers": 1698,
+      "commits": 124481,
+      "contributors": 3743
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 182143,
+        "title": "[Bug]: memory search sqlite-vec KNN recomputes vec_distance_cosine per candidate (~1 s per query on a 650-vector index)",
+        "url": "https://github.com/openclaw/openclaw/issues/182143",
+        "state": "open",
+        "author": "Jackten",
+        "updatedAt": "2026-11-03T01:31:47Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 158429,
-        "title": "fix(msteams): streamed reply is sent again when Teams rejects the formatted final",
-        "url": "https://github.com/openclaw/openclaw/pull/158429",
+        "number": 141276,
+        "title": "feat(prometheus): expose provider usage windows",
+        "url": "https://github.com/openclaw/openclaw/pull/141276",
         "state": "open",
-        "author": "ericcaiwx-star",
-        "updatedAt": "2026-11-02T07:39:07Z"
+        "author": "jguin",
+        "updatedAt": "2026-11-03T01:33:11Z"
       },
       {
         "kind": "pr",
-        "number": 142190,
-        "title": "fix(tts): speak an answer that carries a picture instead of dropping its voice",
-        "url": "https://github.com/openclaw/openclaw/pull/142190",
+        "number": 191580,
+        "title": "feat(sessions): choose how many recent messages an automatic reset keeps",
+        "url": "https://github.com/openclaw/openclaw/pull/191580",
         "state": "open",
-        "author": "Shagrat2",
-        "updatedAt": "2026-11-02T07:39:07Z"
+        "author": "fransqaas",
+        "updatedAt": "2026-11-03T01:33:09Z"
       },
       {
         "kind": "pr",
-        "number": 190944,
-        "title": "fix(clickclack): block redirects to unrelated private services",
-        "url": "https://github.com/openclaw/openclaw/pull/190944",
+        "number": 191587,
+        "title": "fix(auth): cron fallback fails with another provider’s session pin",
+        "url": "https://github.com/openclaw/openclaw/pull/191587",
         "state": "open",
-        "author": "pgondhi987",
-        "updatedAt": "2026-11-02T07:39:03Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-03T01:33:07Z"
       },
       {
         "kind": "pr",
-        "number": 190940,
-        "title": "fix(file-transfer): preserve literal node target paths",
-        "url": "https://github.com/openclaw/openclaw/pull/190940",
+        "number": 188477,
+        "title": "fix(control-ui): keep a lone leftover model inline",
+        "url": "https://github.com/openclaw/openclaw/pull/188477",
         "state": "open",
-        "author": "Leon-SK668",
-        "updatedAt": "2026-11-02T07:39:00Z"
+        "author": "yy19971996",
+        "updatedAt": "2026-11-03T01:33:04Z"
       },
       {
         "kind": "pr",
-        "number": 190938,
-        "title": "fix: avoid repeated full reads for recorded usage and unchanged workspaces",
-        "url": "https://github.com/openclaw/openclaw/pull/190938",
+        "number": 191513,
+        "title": "feat(pairing): pair a browser with a short code approved on the host",
+        "url": "https://github.com/openclaw/openclaw/pull/191513",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-11-02T07:39:00Z"
+        "author": "daniel-lxs",
+        "updatedAt": "2026-11-03T01:32:27Z"
       },
       {
         "kind": "pr",
-        "number": 149408,
-        "title": "fix(workboard): treat empty proofId as omitted for OpenAI strict schemas",
-        "url": "https://github.com/openclaw/openclaw/pull/149408",
+        "number": 191581,
+        "title": "fix(imessage): fail closed when pairing store read fails",
+        "url": "https://github.com/openclaw/openclaw/pull/191581",
         "state": "open",
-        "author": "Bartok9",
-        "updatedAt": "2026-11-02T07:38:36Z"
+        "author": "Yuaneen",
+        "updatedAt": "2026-11-03T01:32:20Z"
       }
     ]
   }

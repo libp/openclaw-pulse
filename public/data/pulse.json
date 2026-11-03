@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-03T01:33:19.673Z",
+  "generatedAt": "2026-11-03T09:29:16.031Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1839,17 +1839,17 @@
     },
     {
       "capturedOn": "2026-11-03",
-      "capturedAt": "2026-11-03T01:33:19.673Z",
-      "issueOpen": 4887,
-      "issueClosed": 57693,
-      "prOpen": 2860,
-      "prClosed": 123508,
-      "prMerged": 67828,
+      "capturedAt": "2026-11-03T09:29:16.031Z",
+      "issueOpen": 4900,
+      "issueClosed": 57724,
+      "prOpen": 2833,
+      "prClosed": 123710,
+      "prMerged": 67974,
       "workflowRuns": 40000,
-      "stars": 393756,
-      "forks": 82761,
+      "stars": 393793,
+      "forks": 82771,
       "subscribers": 1698,
-      "commits": 124481,
+      "commits": 124628,
       "contributors": 3743,
       "source": "github-actions",
       "approximateDate": false
@@ -2618,10 +2618,10 @@
     },
     {
       "capturedOn": "2026-11-03",
-      "stars": 393756,
-      "forks": 82761,
+      "stars": 393793,
+      "forks": 82771,
       "subscribers": 1698,
-      "commits": 124481,
+      "commits": 124628,
       "contributors": 3743
     }
   ],
@@ -2629,68 +2629,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 182143,
-        "title": "[Bug]: memory search sqlite-vec KNN recomputes vec_distance_cosine per candidate (~1 s per query on a 650-vector index)",
-        "url": "https://github.com/openclaw/openclaw/issues/182143",
+        "number": 153430,
+        "title": "[Bug]: a deep $include config that passes include resolution crashes later load stages (deep-merge, env substitution, migration probes) with RangeError",
+        "url": "https://github.com/openclaw/openclaw/issues/153430",
         "state": "open",
-        "author": "Jackten",
-        "updatedAt": "2026-11-03T01:31:47Z"
+        "author": "ruel225",
+        "updatedAt": "2026-11-03T09:28:52Z"
+      },
+      {
+        "kind": "issue",
+        "number": 151962,
+        "title": "Phantom user messages: internal runtime strings (heartbeat poll / async command completion / queued user message) submitted as user prompts, not persisted to transcript_events",
+        "url": "https://github.com/openclaw/openclaw/issues/151962",
+        "state": "open",
+        "author": "AlwaysTwig",
+        "updatedAt": "2026-11-03T09:27:38Z"
+      },
+      {
+        "kind": "issue",
+        "number": 191082,
+        "title": "PostgreSQL conformance: measure unnecessary migration fixture work",
+        "url": "https://github.com/openclaw/openclaw/issues/191082",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-03T09:27:17Z"
+      },
+      {
+        "kind": "issue",
+        "number": 191803,
+        "title": "[Bug]: Control UI still hides reasoningDefault-based reasoning on 2026.10.10 (fix #173524 missing from release)",
+        "url": "https://github.com/openclaw/openclaw/issues/191803",
+        "state": "open",
+        "author": "weng5040",
+        "updatedAt": "2026-11-03T09:26:59Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 141276,
-        "title": "feat(prometheus): expose provider usage windows",
-        "url": "https://github.com/openclaw/openclaw/pull/141276",
+        "number": 130115,
+        "title": "fix(mac): avoid duplicate Codex sessions with a local Gateway",
+        "url": "https://github.com/openclaw/openclaw/pull/130115",
         "state": "open",
-        "author": "jguin",
-        "updatedAt": "2026-11-03T01:33:11Z"
+        "author": "TheAngryPit",
+        "updatedAt": "2026-11-03T09:29:04Z"
       },
       {
         "kind": "pr",
-        "number": 191580,
-        "title": "feat(sessions): choose how many recent messages an automatic reset keeps",
-        "url": "https://github.com/openclaw/openclaw/pull/191580",
+        "number": 191797,
+        "title": "fix(imessage): preserve Unicode remote attachment filenames",
+        "url": "https://github.com/openclaw/openclaw/pull/191797",
         "state": "open",
-        "author": "fransqaas",
-        "updatedAt": "2026-11-03T01:33:09Z"
+        "author": "chelsealong",
+        "updatedAt": "2026-11-03T09:28:52Z"
       },
       {
         "kind": "pr",
-        "number": 191587,
-        "title": "fix(auth): cron fallback fails with another provider’s session pin",
-        "url": "https://github.com/openclaw/openclaw/pull/191587",
+        "number": 191774,
+        "title": "fix(ui): chat account picker ignores clicks during a background history refresh",
+        "url": "https://github.com/openclaw/openclaw/pull/191774",
+        "state": "open",
+        "author": "masatohoshino",
+        "updatedAt": "2026-11-03T09:28:52Z"
+      },
+      {
+        "kind": "pr",
+        "number": 191802,
+        "title": "fix(macos): wait for HTTP before interrupting test navigation",
+        "url": "https://github.com/openclaw/openclaw/pull/191802",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-11-03T01:33:07Z"
+        "updatedAt": "2026-11-03T09:28:47Z"
       },
       {
         "kind": "pr",
-        "number": 188477,
-        "title": "fix(control-ui): keep a lone leftover model inline",
-        "url": "https://github.com/openclaw/openclaw/pull/188477",
+        "number": 179145,
+        "title": "fix(plugins): keep adopted tools and hooks on one service owner",
+        "url": "https://github.com/openclaw/openclaw/pull/179145",
         "state": "open",
-        "author": "yy19971996",
-        "updatedAt": "2026-11-03T01:33:04Z"
+        "author": "igs-rogenlo",
+        "updatedAt": "2026-11-03T09:28:44Z"
       },
       {
         "kind": "pr",
-        "number": 191513,
-        "title": "feat(pairing): pair a browser with a short code approved on the host",
-        "url": "https://github.com/openclaw/openclaw/pull/191513",
-        "state": "open",
-        "author": "daniel-lxs",
-        "updatedAt": "2026-11-03T01:32:27Z"
-      },
-      {
-        "kind": "pr",
-        "number": 191581,
-        "title": "fix(imessage): fail closed when pairing store read fails",
-        "url": "https://github.com/openclaw/openclaw/pull/191581",
-        "state": "open",
-        "author": "Yuaneen",
-        "updatedAt": "2026-11-03T01:32:20Z"
+        "number": 191799,
+        "title": "fix(gateway): reduce session list overhead with background processes",
+        "url": "https://github.com/openclaw/openclaw/pull/191799",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-11-03T09:28:41Z"
       }
     ]
   }

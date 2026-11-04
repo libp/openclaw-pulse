@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-04T06:13:00.698Z",
+  "generatedAt": "2026-11-04T14:29:29.075Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1856,18 +1856,18 @@
     },
     {
       "capturedOn": "2026-11-04",
-      "capturedAt": "2026-11-04T06:13:00.698Z",
-      "issueOpen": 4902,
-      "issueClosed": 57857,
-      "prOpen": 2889,
-      "prClosed": 124297,
-      "prMerged": 68434,
+      "capturedAt": "2026-11-04T14:29:29.075Z",
+      "issueOpen": 4887,
+      "issueClosed": 57933,
+      "prOpen": 2888,
+      "prClosed": 124466,
+      "prMerged": 68579,
       "workflowRuns": 40000,
-      "stars": 393866,
+      "stars": 393887,
       "forks": 82782,
-      "subscribers": 1696,
-      "commits": 125138,
-      "contributors": 3745,
+      "subscribers": 1695,
+      "commits": 125292,
+      "contributors": 3747,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2643,32 +2643,41 @@
     },
     {
       "capturedOn": "2026-11-04",
-      "stars": 393866,
+      "stars": 393887,
       "forks": 82782,
-      "subscribers": 1696,
-      "commits": 125138,
-      "contributors": 3745
+      "subscribers": 1695,
+      "commits": 125292,
+      "contributors": 3747
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 192524,
-        "title": "[Bug]: 2026.10.10 refuses every scheduled agentTurn routed through an auth: \"aws-sdk\" provider (Bedrock instance role) — no model@profile or Doctor path to bind it",
-        "url": "https://github.com/openclaw/openclaw/issues/192524",
+        "number": 190941,
+        "title": "Replace Blacksmith CI and remote proof with Boat",
+        "url": "https://github.com/openclaw/openclaw/issues/190941",
         "state": "open",
-        "author": "yubingjiaocn",
-        "updatedAt": "2026-11-04T06:12:36Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-04T14:28:39Z"
       },
       {
         "kind": "issue",
-        "number": 189354,
-        "title": "[Feature]: Search and send native Zalo stickers through the existing zalouser channel",
-        "url": "https://github.com/openclaw/openclaw/issues/189354",
+        "number": 192819,
+        "title": "[Feature]: Android: unify new chat button styling with web highlighted plus",
+        "url": "https://github.com/openclaw/openclaw/issues/192819",
         "state": "open",
-        "author": "ml12580",
-        "updatedAt": "2026-11-04T06:10:17Z"
+        "author": "DonnieFi",
+        "updatedAt": "2026-11-04T14:26:46Z"
+      },
+      {
+        "kind": "issue",
+        "number": 186844,
+        "title": "[Bug]: New Session projects disappear silently when projects.list repeatedly rejects a stale session projection",
+        "url": "https://github.com/openclaw/openclaw/issues/186844",
+        "state": "closed",
+        "author": "rtfcv",
+        "updatedAt": "2026-11-04T14:26:12Z"
       },
       {
         "kind": "issue",
@@ -2677,63 +2686,36 @@
         "url": "https://github.com/openclaw/openclaw/issues/184709",
         "state": "open",
         "author": "ml12580",
-        "updatedAt": "2026-11-04T06:10:00Z"
-      },
-      {
-        "kind": "issue",
-        "number": 191008,
-        "title": "ClawHub skill offer: Company Research Job, a paid research job for when the free search tier runs dry",
-        "url": "https://github.com/openclaw/openclaw/issues/191008",
-        "state": "open",
-        "author": "judomanmk19xx-bot",
-        "updatedAt": "2026-11-04T06:09:49Z"
-      },
-      {
-        "kind": "issue",
-        "number": 183537,
-        "title": "Request: consider ShieldCortex and multi-clawd for the official plugin catalog or a verified-publisher listing",
-        "url": "https://github.com/openclaw/openclaw/issues/183537",
-        "state": "open",
-        "author": "jarvis-drakon",
-        "updatedAt": "2026-11-04T06:09:32Z"
+        "updatedAt": "2026-11-04T14:25:07Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 191906,
-        "title": "fix(gateway): keep peer connection metadata on one console line",
-        "url": "https://github.com/openclaw/openclaw/pull/191906",
-        "state": "closed",
-        "author": "pgondhi987",
-        "updatedAt": "2026-11-04T06:12:53Z"
+        "number": 192816,
+        "title": "fix(windows): preserve reused PIDs during stale Gateway cleanup",
+        "url": "https://github.com/openclaw/openclaw/pull/192816",
+        "state": "open",
+        "author": "ooiuuii",
+        "updatedAt": "2026-11-04T14:29:14Z"
       },
       {
         "kind": "pr",
-        "number": 192574,
-        "title": "feat(ci): capture owned tree rankings before test execution",
-        "url": "https://github.com/openclaw/openclaw/pull/192574",
+        "number": 192587,
+        "title": "fix(release): exit FRV continue on repeat child failure and flag ghost jobs",
+        "url": "https://github.com/openclaw/openclaw/pull/192587",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-04T06:12:51Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-11-04T14:28:51Z"
       },
       {
         "kind": "pr",
-        "number": 192443,
-        "title": "fix(ui): composer reply strip names the author with the inline avatar span",
-        "url": "https://github.com/openclaw/openclaw/pull/192443",
+        "number": 192590,
+        "title": "fix(release): print core npm resume and report required candidate flags together",
+        "url": "https://github.com/openclaw/openclaw/pull/192590",
         "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-11-04T06:12:47Z"
-      },
-      {
-        "kind": "pr",
-        "number": 192580,
-        "title": "fix(test): isolate expected conversation receipts from returned values",
-        "url": "https://github.com/openclaw/openclaw/pull/192580",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-04T06:12:41Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-11-04T14:28:50Z"
       },
       {
         "kind": "pr",
@@ -2742,16 +2724,25 @@
         "url": "https://github.com/openclaw/openclaw/pull/192589",
         "state": "open",
         "author": "RomneyDa",
-        "updatedAt": "2026-11-04T06:12:29Z"
+        "updatedAt": "2026-11-04T14:28:49Z"
       },
       {
         "kind": "pr",
-        "number": 192550,
-        "title": "fix(cron): stopped session turns trigger failure alerts",
-        "url": "https://github.com/openclaw/openclaw/pull/192550",
+        "number": 192813,
+        "title": "fix(ci): align Workshop CLI stderr fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/192813",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-11-04T06:12:25Z"
+        "updatedAt": "2026-11-04T14:28:04Z"
+      },
+      {
+        "kind": "pr",
+        "number": 192418,
+        "title": "fix(ui): match quota summaries to the selected account",
+        "url": "https://github.com/openclaw/openclaw/pull/192418",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-04T14:28:01Z"
       }
     ]
   }

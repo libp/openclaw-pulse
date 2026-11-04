@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-03T23:18:47.293Z",
+  "generatedAt": "2026-11-04T06:13:00.698Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1853,6 +1853,23 @@
       "contributors": 3744,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-04",
+      "capturedAt": "2026-11-04T06:13:00.698Z",
+      "issueOpen": 4902,
+      "issueClosed": 57857,
+      "prOpen": 2889,
+      "prClosed": 124297,
+      "prMerged": 68434,
+      "workflowRuns": 40000,
+      "stars": 393866,
+      "forks": 82782,
+      "subscribers": 1696,
+      "commits": 125138,
+      "contributors": 3745,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2623,64 +2640,118 @@
       "subscribers": 1698,
       "commits": 125002,
       "contributors": 3744
+    },
+    {
+      "capturedOn": "2026-11-04",
+      "stars": 393866,
+      "forks": 82782,
+      "subscribers": 1696,
+      "commits": 125138,
+      "contributors": 3745
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 192524,
+        "title": "[Bug]: 2026.10.10 refuses every scheduled agentTurn routed through an auth: \"aws-sdk\" provider (Bedrock instance role) — no model@profile or Doctor path to bind it",
+        "url": "https://github.com/openclaw/openclaw/issues/192524",
+        "state": "open",
+        "author": "yubingjiaocn",
+        "updatedAt": "2026-11-04T06:12:36Z"
+      },
+      {
+        "kind": "issue",
+        "number": 189354,
+        "title": "[Feature]: Search and send native Zalo stickers through the existing zalouser channel",
+        "url": "https://github.com/openclaw/openclaw/issues/189354",
+        "state": "open",
+        "author": "ml12580",
+        "updatedAt": "2026-11-04T06:10:17Z"
+      },
+      {
+        "kind": "issue",
+        "number": 184709,
+        "title": "[Feature]: Support keyterm prompting in ElevenLabs batch transcription",
+        "url": "https://github.com/openclaw/openclaw/issues/184709",
+        "state": "open",
+        "author": "ml12580",
+        "updatedAt": "2026-11-04T06:10:00Z"
+      },
+      {
+        "kind": "issue",
+        "number": 191008,
+        "title": "ClawHub skill offer: Company Research Job, a paid research job for when the free search tier runs dry",
+        "url": "https://github.com/openclaw/openclaw/issues/191008",
+        "state": "open",
+        "author": "judomanmk19xx-bot",
+        "updatedAt": "2026-11-04T06:09:49Z"
+      },
+      {
+        "kind": "issue",
+        "number": 183537,
+        "title": "Request: consider ShieldCortex and multi-clawd for the official plugin catalog or a verified-publisher listing",
+        "url": "https://github.com/openclaw/openclaw/issues/183537",
+        "state": "open",
+        "author": "jarvis-drakon",
+        "updatedAt": "2026-11-04T06:09:32Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 192373,
-        "title": "fix(ui): preserve error identity at presentation boundaries",
-        "url": "https://github.com/openclaw/openclaw/pull/192373",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-03T23:18:38Z"
-      },
-      {
-        "kind": "pr",
-        "number": 192358,
-        "title": "fix: avoid Gateway stalls while archiving large worktrees",
-        "url": "https://github.com/openclaw/openclaw/pull/192358",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-11-03T23:18:35Z"
-      },
-      {
-        "kind": "pr",
-        "number": 192362,
-        "title": "fix(agents): stop retaining completed tool calls",
-        "url": "https://github.com/openclaw/openclaw/pull/192362",
+        "number": 191906,
+        "title": "fix(gateway): keep peer connection metadata on one console line",
+        "url": "https://github.com/openclaw/openclaw/pull/191906",
         "state": "closed",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-03T23:18:28Z"
+        "author": "pgondhi987",
+        "updatedAt": "2026-11-04T06:12:53Z"
       },
       {
         "kind": "pr",
-        "number": 192363,
-        "title": "fix(models): avoid redundant inspection of remote catalog snapshots",
-        "url": "https://github.com/openclaw/openclaw/pull/192363",
+        "number": 192574,
+        "title": "feat(ci): capture owned tree rankings before test execution",
+        "url": "https://github.com/openclaw/openclaw/pull/192574",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-11-03T23:18:24Z"
+        "updatedAt": "2026-11-04T06:12:51Z"
       },
       {
         "kind": "pr",
-        "number": 191562,
-        "title": "test(agents): pin a local Codex owner refusal to a run-local failure",
-        "url": "https://github.com/openclaw/openclaw/pull/191562",
+        "number": 192443,
+        "title": "fix(ui): composer reply strip names the author with the inline avatar span",
+        "url": "https://github.com/openclaw/openclaw/pull/192443",
         "state": "open",
-        "author": "Linux2010",
-        "updatedAt": "2026-11-03T23:18:06Z"
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-11-04T06:12:47Z"
       },
       {
         "kind": "pr",
-        "number": 192311,
-        "title": "fix(memory-wiki): searches ending with a period return no pages",
-        "url": "https://github.com/openclaw/openclaw/pull/192311",
+        "number": 192580,
+        "title": "fix(test): isolate expected conversation receipts from returned values",
+        "url": "https://github.com/openclaw/openclaw/pull/192580",
         "state": "open",
-        "author": "Yigtwxx",
-        "updatedAt": "2026-11-03T23:18:05Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-04T06:12:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 192589,
+        "title": "fix(release): retry EPIPE readbacks and reject gated ClawHub children on cleanup",
+        "url": "https://github.com/openclaw/openclaw/pull/192589",
+        "state": "open",
+        "author": "RomneyDa",
+        "updatedAt": "2026-11-04T06:12:29Z"
+      },
+      {
+        "kind": "pr",
+        "number": 192550,
+        "title": "fix(cron): stopped session turns trigger failure alerts",
+        "url": "https://github.com/openclaw/openclaw/pull/192550",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-04T06:12:25Z"
       }
     ]
   }

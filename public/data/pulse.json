@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-05T10:49:01.213Z",
+  "generatedAt": "2026-11-05T18:42:43.340Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1873,18 +1873,18 @@
     },
     {
       "capturedOn": "2026-11-05",
-      "capturedAt": "2026-11-05T10:49:01.213Z",
-      "issueOpen": 4791,
-      "issueClosed": 58148,
-      "prOpen": 2866,
-      "prClosed": 124980,
-      "prMerged": 68977,
+      "capturedAt": "2026-11-05T18:42:43.340Z",
+      "issueOpen": 4756,
+      "issueClosed": 58232,
+      "prOpen": 2874,
+      "prClosed": 125182,
+      "prMerged": 69126,
       "workflowRuns": 40000,
-      "stars": 393940,
-      "forks": 82786,
-      "subscribers": 1697,
-      "commits": 125701,
-      "contributors": 3756,
+      "stars": 393978,
+      "forks": 82788,
+      "subscribers": 1696,
+      "commits": 125857,
+      "contributors": 3757,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2668,88 +2668,88 @@
     },
     {
       "capturedOn": "2026-11-05",
-      "stars": 393940,
-      "forks": 82786,
-      "subscribers": 1697,
-      "commits": 125701,
-      "contributors": 3756
+      "stars": 393978,
+      "forks": 82788,
+      "subscribers": 1696,
+      "commits": 125857,
+      "contributors": 3757
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 191008,
-        "title": "ClawHub skill offer: Company Research Job, a paid research job for when the free search tier runs dry",
-        "url": "https://github.com/openclaw/openclaw/issues/191008",
+        "number": 191763,
+        "title": "[Bug]: remote iMessage outbound attachments lose non-ASCII filenames — sanitizeTempFileName collapses CJK to stubs (中文.txt arrives as _-.txt)",
+        "url": "https://github.com/openclaw/openclaw/issues/191763",
         "state": "open",
-        "author": "judomanmk19xx-bot",
-        "updatedAt": "2026-11-05T10:47:47Z"
+        "author": "beeven",
+        "updatedAt": "2026-11-05T18:41:14Z"
       },
       {
         "kind": "issue",
-        "number": 189354,
-        "title": "[Feature]: Search and send native Zalo stickers through the existing zalouser channel",
-        "url": "https://github.com/openclaw/openclaw/issues/189354",
+        "number": 193673,
+        "title": "[Bug]: Windows update backup capture stops on EBUSY without identifying file",
+        "url": "https://github.com/openclaw/openclaw/issues/193673",
         "state": "open",
-        "author": "ml12580",
-        "updatedAt": "2026-11-05T10:47:41Z"
+        "author": "WG-Mojo",
+        "updatedAt": "2026-11-05T18:40:46Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 193410,
-        "title": "fix(imessage): expire cached chat snapshots on elapsed time",
-        "url": "https://github.com/openclaw/openclaw/pull/193410",
-        "state": "open",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-11-05T10:48:54Z"
-      },
-      {
-        "kind": "pr",
-        "number": 190541,
-        "title": "test(ci): reuse fixtures and cover prepared Decision owners on Node and Bun",
-        "url": "https://github.com/openclaw/openclaw/pull/190541",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-05T10:48:53Z"
-      },
-      {
-        "kind": "pr",
-        "number": 157114,
-        "title": "refactor(gateway): make fixture teardown wait for owned work",
-        "url": "https://github.com/openclaw/openclaw/pull/157114",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-05T10:48:52Z"
-      },
-      {
-        "kind": "pr",
-        "number": 193338,
-        "title": "perf(control-ui): skip unchanged appearance reconciliation",
-        "url": "https://github.com/openclaw/openclaw/pull/193338",
+        "number": 193558,
+        "title": "fix: preserve crash recovery across chat turns and commands",
+        "url": "https://github.com/openclaw/openclaw/pull/193558",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-11-05T10:48:41Z"
+        "updatedAt": "2026-11-05T18:42:35Z"
       },
       {
         "kind": "pr",
-        "number": 178512,
-        "title": "fix(gateway): recover session previews past long hidden transcript tails",
-        "url": "https://github.com/openclaw/openclaw/pull/178512",
+        "number": 193068,
+        "title": "fix(browser): navigation fails with Invalid InterceptionId when a page cancels a document request",
+        "url": "https://github.com/openclaw/openclaw/pull/193068",
         "state": "open",
-        "author": "HeZ2z",
-        "updatedAt": "2026-11-05T10:48:41Z"
+        "author": "jalehman",
+        "updatedAt": "2026-11-05T18:42:35Z"
       },
       {
         "kind": "pr",
-        "number": 192881,
-        "title": "fix: avoid repeating Telegram reply text already in context",
-        "url": "https://github.com/openclaw/openclaw/pull/192881",
+        "number": 193676,
+        "title": "fix: completed task worktrees and artifacts remain after merge",
+        "url": "https://github.com/openclaw/openclaw/pull/193676",
         "state": "open",
-        "author": "sobolevbel",
-        "updatedAt": "2026-11-05T10:48:55Z"
+        "author": "joshavant",
+        "updatedAt": "2026-11-05T18:42:34Z"
+      },
+      {
+        "kind": "pr",
+        "number": 193658,
+        "title": "fix: enable dictation for session-scoped guests",
+        "url": "https://github.com/openclaw/openclaw/pull/193658",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-05T18:42:34Z"
+      },
+      {
+        "kind": "pr",
+        "number": 193672,
+        "title": "feat(ui): switch failed chats to an available same-provider default",
+        "url": "https://github.com/openclaw/openclaw/pull/193672",
+        "state": "open",
+        "author": "TheAngryPit",
+        "updatedAt": "2026-11-05T18:42:31Z"
+      },
+      {
+        "kind": "pr",
+        "number": 193661,
+        "title": "experiment(control-ui): attribute cached sidebar parity cost [do not merge]",
+        "url": "https://github.com/openclaw/openclaw/pull/193661",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-11-05T18:42:21Z"
       }
     ]
   }

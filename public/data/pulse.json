@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-04T21:17:45.713Z",
+  "generatedAt": "2026-11-05T02:24:12.959Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1870,6 +1870,23 @@
       "contributors": 3749,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-05",
+      "capturedAt": "2026-11-05T02:24:12.959Z",
+      "issueOpen": 4864,
+      "issueClosed": 58010,
+      "prOpen": 2866,
+      "prClosed": 124767,
+      "prMerged": 68805,
+      "workflowRuns": 40000,
+      "stars": 393924,
+      "forks": 82786,
+      "subscribers": 1697,
+      "commits": 125517,
+      "contributors": 3752,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2648,37 +2665,18 @@
       "subscribers": 1697,
       "commits": 125425,
       "contributors": 3749
+    },
+    {
+      "capturedOn": "2026-11-05",
+      "stars": 393924,
+      "forks": 82786,
+      "subscribers": 1697,
+      "commits": 125517,
+      "contributors": 3752
     }
   ],
   "activity": {
     "issues": [
-      {
-        "kind": "issue",
-        "number": 193013,
-        "title": "doctor / status --deep hang indefinitely: read-only SQLite snapshot workers are never reaped, which also breaks the upstream process census",
-        "url": "https://github.com/openclaw/openclaw/issues/193013",
-        "state": "open",
-        "author": "wangsheng520520",
-        "updatedAt": "2026-11-04T21:17:30Z"
-      },
-      {
-        "kind": "issue",
-        "number": 187774,
-        "title": "[Feature]: Add an optional Cua Spaces worker provider",
-        "url": "https://github.com/openclaw/openclaw/issues/187774",
-        "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-11-04T21:16:50Z"
-      },
-      {
-        "kind": "issue",
-        "number": 184709,
-        "title": "[Feature]: Support keyterm prompting in ElevenLabs batch transcription",
-        "url": "https://github.com/openclaw/openclaw/issues/184709",
-        "state": "open",
-        "author": "ml12580",
-        "updatedAt": "2026-11-04T21:16:12Z"
-      },
       {
         "kind": "issue",
         "number": 189354,
@@ -2686,7 +2684,7 @@
         "url": "https://github.com/openclaw/openclaw/issues/189354",
         "state": "open",
         "author": "ml12580",
-        "updatedAt": "2026-11-04T21:15:44Z"
+        "updatedAt": "2026-11-05T02:23:42Z"
       },
       {
         "kind": "issue",
@@ -2695,72 +2693,72 @@
         "url": "https://github.com/openclaw/openclaw/issues/191008",
         "state": "open",
         "author": "judomanmk19xx-bot",
-        "updatedAt": "2026-11-04T21:15:33Z"
+        "updatedAt": "2026-11-05T02:23:30Z"
       },
       {
         "kind": "issue",
-        "number": 183537,
-        "title": "Request: consider ShieldCortex and multi-clawd for the official plugin catalog or a verified-publisher listing",
-        "url": "https://github.com/openclaw/openclaw/issues/183537",
+        "number": 193133,
+        "title": "[Feature]: Public session lifecycle capability for channel plugins",
+        "url": "https://github.com/openclaw/openclaw/issues/193133",
         "state": "open",
-        "author": "jarvis-drakon",
-        "updatedAt": "2026-11-04T21:15:20Z"
+        "author": "xmoxmo",
+        "updatedAt": "2026-11-05T02:18:30Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 193007,
-        "title": "fix(outbound): deliver implicit replies through action-only plugins",
-        "url": "https://github.com/openclaw/openclaw/pull/193007",
+        "number": 192806,
+        "title": "fix: stop line-limit checks from blocking release branches",
+        "url": "https://github.com/openclaw/openclaw/pull/192806",
         "state": "open",
-        "author": "alkor2000",
-        "updatedAt": "2026-11-04T21:16:59Z"
+        "author": "tideclaw-bot",
+        "updatedAt": "2026-11-05T02:23:33Z"
       },
       {
         "kind": "pr",
-        "number": 193006,
-        "title": "fix(agents): forward hook-stamped _meta on bundle-mcp tool calls",
-        "url": "https://github.com/openclaw/openclaw/pull/193006",
+        "number": 193130,
+        "title": "fix: deliver background replies after a reload retires the turn registry",
+        "url": "https://github.com/openclaw/openclaw/pull/193130",
         "state": "open",
-        "author": "igorjpimenta",
-        "updatedAt": "2026-11-04T21:16:18Z"
+        "author": "VACInc",
+        "updatedAt": "2026-11-05T02:23:26Z"
       },
       {
         "kind": "pr",
-        "number": 192945,
-        "title": "refactor(agents): separate Tool Search protocol contracts",
-        "url": "https://github.com/openclaw/openclaw/pull/192945",
-        "state": "closed",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-04T21:16:04Z"
+        "number": 193100,
+        "title": "fix(plugins): invalid feature ids leave directories and block retries",
+        "url": "https://github.com/openclaw/openclaw/pull/193100",
+        "state": "open",
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-11-05T02:23:24Z"
       },
       {
         "kind": "pr",
-        "number": 193011,
-        "title": "fix(ci): keep Doctor fixtures independent of Workshop migration",
-        "url": "https://github.com/openclaw/openclaw/pull/193011",
+        "number": 191562,
+        "title": "fix(agents): keep a local Codex owner refusal from cooling the shared credential",
+        "url": "https://github.com/openclaw/openclaw/pull/191562",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-04T21:15:35Z"
+        "author": "Linux2010",
+        "updatedAt": "2026-11-05T02:23:23Z"
       },
       {
         "kind": "pr",
-        "number": 192791,
-        "title": "fix(feishu): streaming cards repeat the reply so far when preview and block streaming are both on",
-        "url": "https://github.com/openclaw/openclaw/pull/192791",
+        "number": 185848,
+        "title": "feat(cron): configurable default delivery and failure destinations",
+        "url": "https://github.com/openclaw/openclaw/pull/185848",
         "state": "open",
-        "author": "MarMarLabs",
-        "updatedAt": "2026-11-04T21:15:03Z"
+        "author": "VACInc",
+        "updatedAt": "2026-11-05T02:22:42Z"
       },
       {
         "kind": "pr",
-        "number": 193012,
-        "title": "fix(ui): restore the Skills heading and align embedded Settings headers",
-        "url": "https://github.com/openclaw/openclaw/pull/193012",
+        "number": 192331,
+        "title": "fix(onboarding): keep npx Gateway services running after cache cleanup",
+        "url": "https://github.com/openclaw/openclaw/pull/192331",
         "state": "open",
-        "author": "ellibbe",
-        "updatedAt": "2026-11-04T21:13:53Z"
+        "author": "daniel-lxs",
+        "updatedAt": "2026-11-05T02:22:37Z"
       }
     ]
   }

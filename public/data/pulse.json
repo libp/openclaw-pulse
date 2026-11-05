@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-05T02:24:12.959Z",
+  "generatedAt": "2026-11-05T10:49:01.213Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1873,18 +1873,18 @@
     },
     {
       "capturedOn": "2026-11-05",
-      "capturedAt": "2026-11-05T02:24:12.959Z",
-      "issueOpen": 4864,
-      "issueClosed": 58010,
+      "capturedAt": "2026-11-05T10:49:01.213Z",
+      "issueOpen": 4791,
+      "issueClosed": 58148,
       "prOpen": 2866,
-      "prClosed": 124767,
-      "prMerged": 68805,
+      "prClosed": 124980,
+      "prMerged": 68977,
       "workflowRuns": 40000,
-      "stars": 393924,
+      "stars": 393940,
       "forks": 82786,
       "subscribers": 1697,
-      "commits": 125517,
-      "contributors": 3752,
+      "commits": 125701,
+      "contributors": 3756,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2668,24 +2668,15 @@
     },
     {
       "capturedOn": "2026-11-05",
-      "stars": 393924,
+      "stars": 393940,
       "forks": 82786,
       "subscribers": 1697,
-      "commits": 125517,
-      "contributors": 3752
+      "commits": 125701,
+      "contributors": 3756
     }
   ],
   "activity": {
     "issues": [
-      {
-        "kind": "issue",
-        "number": 189354,
-        "title": "[Feature]: Search and send native Zalo stickers through the existing zalouser channel",
-        "url": "https://github.com/openclaw/openclaw/issues/189354",
-        "state": "open",
-        "author": "ml12580",
-        "updatedAt": "2026-11-05T02:23:42Z"
-      },
       {
         "kind": "issue",
         "number": 191008,
@@ -2693,72 +2684,72 @@
         "url": "https://github.com/openclaw/openclaw/issues/191008",
         "state": "open",
         "author": "judomanmk19xx-bot",
-        "updatedAt": "2026-11-05T02:23:30Z"
+        "updatedAt": "2026-11-05T10:47:47Z"
       },
       {
         "kind": "issue",
-        "number": 193133,
-        "title": "[Feature]: Public session lifecycle capability for channel plugins",
-        "url": "https://github.com/openclaw/openclaw/issues/193133",
+        "number": 189354,
+        "title": "[Feature]: Search and send native Zalo stickers through the existing zalouser channel",
+        "url": "https://github.com/openclaw/openclaw/issues/189354",
         "state": "open",
-        "author": "xmoxmo",
-        "updatedAt": "2026-11-05T02:18:30Z"
+        "author": "ml12580",
+        "updatedAt": "2026-11-05T10:47:41Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 192806,
-        "title": "fix: stop line-limit checks from blocking release branches",
-        "url": "https://github.com/openclaw/openclaw/pull/192806",
+        "number": 193410,
+        "title": "fix(imessage): expire cached chat snapshots on elapsed time",
+        "url": "https://github.com/openclaw/openclaw/pull/193410",
         "state": "open",
-        "author": "tideclaw-bot",
-        "updatedAt": "2026-11-05T02:23:33Z"
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-11-05T10:48:54Z"
       },
       {
         "kind": "pr",
-        "number": 193130,
-        "title": "fix: deliver background replies after a reload retires the turn registry",
-        "url": "https://github.com/openclaw/openclaw/pull/193130",
+        "number": 190541,
+        "title": "test(ci): reuse fixtures and cover prepared Decision owners on Node and Bun",
+        "url": "https://github.com/openclaw/openclaw/pull/190541",
         "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-11-05T02:23:26Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-05T10:48:53Z"
       },
       {
         "kind": "pr",
-        "number": 193100,
-        "title": "fix(plugins): invalid feature ids leave directories and block retries",
-        "url": "https://github.com/openclaw/openclaw/pull/193100",
+        "number": 157114,
+        "title": "refactor(gateway): make fixture teardown wait for owned work",
+        "url": "https://github.com/openclaw/openclaw/pull/157114",
         "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-11-05T02:23:24Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-05T10:48:52Z"
       },
       {
         "kind": "pr",
-        "number": 191562,
-        "title": "fix(agents): keep a local Codex owner refusal from cooling the shared credential",
-        "url": "https://github.com/openclaw/openclaw/pull/191562",
+        "number": 193338,
+        "title": "perf(control-ui): skip unchanged appearance reconciliation",
+        "url": "https://github.com/openclaw/openclaw/pull/193338",
         "state": "open",
-        "author": "Linux2010",
-        "updatedAt": "2026-11-05T02:23:23Z"
+        "author": "steipete",
+        "updatedAt": "2026-11-05T10:48:41Z"
       },
       {
         "kind": "pr",
-        "number": 185848,
-        "title": "feat(cron): configurable default delivery and failure destinations",
-        "url": "https://github.com/openclaw/openclaw/pull/185848",
+        "number": 178512,
+        "title": "fix(gateway): recover session previews past long hidden transcript tails",
+        "url": "https://github.com/openclaw/openclaw/pull/178512",
         "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-11-05T02:22:42Z"
+        "author": "HeZ2z",
+        "updatedAt": "2026-11-05T10:48:41Z"
       },
       {
         "kind": "pr",
-        "number": 192331,
-        "title": "fix(onboarding): keep npx Gateway services running after cache cleanup",
-        "url": "https://github.com/openclaw/openclaw/pull/192331",
+        "number": 192881,
+        "title": "fix: avoid repeating Telegram reply text already in context",
+        "url": "https://github.com/openclaw/openclaw/pull/192881",
         "state": "open",
-        "author": "daniel-lxs",
-        "updatedAt": "2026-11-05T02:22:37Z"
+        "author": "sobolevbel",
+        "updatedAt": "2026-11-05T10:48:55Z"
       }
     ]
   }

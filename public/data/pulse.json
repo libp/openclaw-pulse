@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-05T18:42:43.340Z",
+  "generatedAt": "2026-11-06T14:59:37.999Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1887,6 +1887,23 @@
       "contributors": 3757,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-06",
+      "capturedAt": "2026-11-06T14:59:37.999Z",
+      "issueOpen": 4713,
+      "issueClosed": 58369,
+      "prOpen": 2932,
+      "prClosed": 125526,
+      "prMerged": 69406,
+      "workflowRuns": 40000,
+      "stars": 394041,
+      "forks": 82805,
+      "subscribers": 1693,
+      "commits": 126143,
+      "contributors": 3758,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2673,83 +2690,100 @@
       "subscribers": 1696,
       "commits": 125857,
       "contributors": 3757
+    },
+    {
+      "capturedOn": "2026-11-06",
+      "stars": 394041,
+      "forks": 82805,
+      "subscribers": 1693,
+      "commits": 126143,
+      "contributors": 3758
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 191763,
-        "title": "[Bug]: remote iMessage outbound attachments lose non-ASCII filenames — sanitizeTempFileName collapses CJK to stubs (中文.txt arrives as _-.txt)",
-        "url": "https://github.com/openclaw/openclaw/issues/191763",
+        "number": 183537,
+        "title": "Request: consider ShieldCortex and multi-clawd for the official plugin catalog or a verified-publisher listing",
+        "url": "https://github.com/openclaw/openclaw/issues/183537",
         "state": "open",
-        "author": "beeven",
-        "updatedAt": "2026-11-05T18:41:14Z"
+        "author": "jarvis-drakon",
+        "updatedAt": "2026-11-06T14:59:07Z"
       },
       {
         "kind": "issue",
-        "number": 193673,
-        "title": "[Bug]: Windows update backup capture stops on EBUSY without identifying file",
-        "url": "https://github.com/openclaw/openclaw/issues/193673",
+        "number": 191008,
+        "title": "ClawHub skill offer: Company Research Job, a paid research job for when the free search tier runs dry",
+        "url": "https://github.com/openclaw/openclaw/issues/191008",
         "state": "open",
-        "author": "WG-Mojo",
-        "updatedAt": "2026-11-05T18:40:46Z"
+        "author": "judomanmk19xx-bot",
+        "updatedAt": "2026-11-06T14:56:19Z"
+      },
+      {
+        "kind": "issue",
+        "number": 189354,
+        "title": "[Feature]: Search and send native Zalo stickers through the existing zalouser channel",
+        "url": "https://github.com/openclaw/openclaw/issues/189354",
+        "state": "open",
+        "author": "ml12580",
+        "updatedAt": "2026-11-06T14:55:58Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 193558,
-        "title": "fix: preserve crash recovery across chat turns and commands",
-        "url": "https://github.com/openclaw/openclaw/pull/193558",
+        "number": 177230,
+        "title": "feat(research): expose authorized retained job views",
+        "url": "https://github.com/openclaw/openclaw/pull/177230",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-11-05T18:42:35Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-06T14:58:51Z"
       },
       {
         "kind": "pr",
-        "number": 193068,
-        "title": "fix(browser): navigation fails with Invalid InterceptionId when a page cancels a document request",
-        "url": "https://github.com/openclaw/openclaw/pull/193068",
+        "number": 194176,
+        "title": "perf(ci): price selected tooling from measured files",
+        "url": "https://github.com/openclaw/openclaw/pull/194176",
         "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-11-05T18:42:35Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-06T14:57:52Z"
       },
       {
         "kind": "pr",
-        "number": 193676,
-        "title": "fix: completed task worktrees and artifacts remain after merge",
-        "url": "https://github.com/openclaw/openclaw/pull/193676",
-        "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-11-05T18:42:34Z"
-      },
-      {
-        "kind": "pr",
-        "number": 193658,
-        "title": "fix: enable dictation for session-scoped guests",
-        "url": "https://github.com/openclaw/openclaw/pull/193658",
+        "number": 194166,
+        "title": "fix(update): skip unreadable foreign directories during update capture",
+        "url": "https://github.com/openclaw/openclaw/pull/194166",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-11-05T18:42:34Z"
+        "updatedAt": "2026-11-06T14:57:40Z"
       },
       {
         "kind": "pr",
-        "number": 193672,
-        "title": "feat(ui): switch failed chats to an available same-provider default",
-        "url": "https://github.com/openclaw/openclaw/pull/193672",
+        "number": 191344,
+        "title": "feat(codex): use OpenClaw's base prompt for ordinary threads",
+        "url": "https://github.com/openclaw/openclaw/pull/191344",
         "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-11-05T18:42:31Z"
+        "author": "daniel-lxs",
+        "updatedAt": "2026-11-06T14:57:27Z"
       },
       {
         "kind": "pr",
-        "number": 193661,
-        "title": "experiment(control-ui): attribute cached sidebar parity cost [do not merge]",
-        "url": "https://github.com/openclaw/openclaw/pull/193661",
+        "number": 194088,
+        "title": "fix(oc-path): block frontmatter values resolve as empty strings",
+        "url": "https://github.com/openclaw/openclaw/pull/194088",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-11-05T18:42:21Z"
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-11-06T14:56:20Z"
+      },
+      {
+        "kind": "pr",
+        "number": 194175,
+        "title": "refactor(agents): separate tool outcome observation types",
+        "url": "https://github.com/openclaw/openclaw/pull/194175",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-06T14:56:15Z"
       }
     ]
   }

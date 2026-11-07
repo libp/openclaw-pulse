@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-07T07:05:46.036Z",
+  "generatedAt": "2026-11-07T13:58:34.421Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1907,17 +1907,17 @@
     },
     {
       "capturedOn": "2026-11-07",
-      "capturedAt": "2026-11-07T07:05:46.036Z",
-      "issueOpen": 4700,
-      "issueClosed": 58466,
-      "prOpen": 2965,
-      "prClosed": 125758,
-      "prMerged": 69584,
+      "capturedAt": "2026-11-07T13:58:34.421Z",
+      "issueOpen": 4680,
+      "issueClosed": 58503,
+      "prOpen": 2964,
+      "prClosed": 125843,
+      "prMerged": 69661,
       "workflowRuns": 40000,
-      "stars": 394093,
+      "stars": 394109,
       "forks": 82818,
-      "subscribers": 1691,
-      "commits": 126336,
+      "subscribers": 1692,
+      "commits": 126412,
       "contributors": 3761,
       "source": "github-actions",
       "approximateDate": false
@@ -2718,10 +2718,10 @@
     },
     {
       "capturedOn": "2026-11-07",
-      "stars": 394093,
+      "stars": 394109,
       "forks": 82818,
-      "subscribers": 1691,
-      "commits": 126336,
+      "subscribers": 1692,
+      "commits": 126412,
       "contributors": 3761
     }
   ],
@@ -2729,113 +2729,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 193962,
-        "title": "[Bug]: Fix for the SQLite header-probe timeout (#187197) can't be reached from 2026.10.10: package-update runs the installed updater's 10 s probe",
-        "url": "https://github.com/openclaw/openclaw/issues/193962",
+        "number": 194626,
+        "title": "[Bug]: Workboard ported to PostgreSQL on 2026.11.1 makes the config unreadable after upgrading to 2026.11.5-beta.1",
+        "url": "https://github.com/openclaw/openclaw/issues/194626",
         "state": "open",
-        "author": "karam2022",
-        "updatedAt": "2026-11-07T07:04:26Z"
+        "author": "ylcn91",
+        "updatedAt": "2026-11-07T13:56:24Z"
       },
       {
         "kind": "issue",
-        "number": 192981,
-        "title": "Empty (0-byte) lock file is never considered stale: WhatsApp channel stays down with `file_lock_timeout` after a hard reset",
-        "url": "https://github.com/openclaw/openclaw/issues/192981",
-        "state": "open",
-        "author": "chrislro",
-        "updatedAt": "2026-11-07T07:04:25Z"
+        "number": 194627,
+        "title": "[Bug]: 2026.11.1 macOS app: minimal functions.exec fails; Codex host has hardened runtime but no entitlements",
+        "url": "https://github.com/openclaw/openclaw/issues/194627",
+        "state": "closed",
+        "author": "kazuyuki-eguchi",
+        "updatedAt": "2026-11-07T13:55:02Z"
       },
       {
         "kind": "issue",
-        "number": 193262,
-        "title": "[Bug]: Docker startup fails when the state dir is bind-mounted from a Windows drive (ENOENT fstat after atomic write)",
-        "url": "https://github.com/openclaw/openclaw/issues/193262",
+        "number": 184709,
+        "title": "[Feature]: Support keyterm prompting in ElevenLabs batch transcription",
+        "url": "https://github.com/openclaw/openclaw/issues/184709",
         "state": "open",
-        "author": "om49967588",
-        "updatedAt": "2026-11-07T07:04:23Z"
+        "author": "ml12580",
+        "updatedAt": "2026-11-07T13:54:40Z"
       },
       {
         "kind": "issue",
-        "number": 194451,
-        "title": "[Bug]: /think (and other directives) sent during an agent turn still kill the turn with SqliteTranscriptMutationConflictError — #192585 only covered /status",
-        "url": "https://github.com/openclaw/openclaw/issues/194451",
+        "number": 182369,
+        "title": "Gateway RSS grows ~0.1 GiB/h off-heap until restart; internal rss_threshold monitor never fires on it (2026.9.8 and 2026.10.6)",
+        "url": "https://github.com/openclaw/openclaw/issues/182369",
         "state": "open",
-        "author": "alexph-dev",
-        "updatedAt": "2026-11-07T07:04:06Z"
+        "author": "jablated",
+        "updatedAt": "2026-11-07T13:49:37Z"
       },
       {
         "kind": "issue",
-        "number": 194453,
-        "title": "[Bug]: Plugin hooks on CLI-backed turns (claude-cli) get no memory audience",
-        "url": "https://github.com/openclaw/openclaw/issues/194453",
+        "number": 194625,
+        "title": "[Bug]: github_publish read succeeds in WebChat but rejects the same linked Telegram administrator as missing GitHub identity",
+        "url": "https://github.com/openclaw/openclaw/issues/194625",
         "state": "open",
-        "author": "etzelm",
-        "updatedAt": "2026-11-07T07:04:05Z"
+        "author": "dankarization",
+        "updatedAt": "2026-11-07T13:48:06Z"
       },
       {
         "kind": "issue",
-        "number": 191242,
-        "title": "[Bug]: Slow SQLite commits block interactive startup history reads until reply watchdog aborts",
-        "url": "https://github.com/openclaw/openclaw/issues/191242",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-07T07:00:23Z"
+        "number": 192851,
+        "title": "[Bug]: 2026.10.10 macOS app re-signs codex-code-mode-host without JIT entitlements, so every Codex tool call fails (V8 \"Failed to reserve virtual memory for CodeRange\")",
+        "url": "https://github.com/openclaw/openclaw/issues/192851",
+        "state": "closed",
+        "author": "h6y3",
+        "updatedAt": "2026-11-07T13:44:23Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 191316,
-        "title": "fix(android): say when a chat file is outside the allowlist",
-        "url": "https://github.com/openclaw/openclaw/pull/191316",
-        "state": "open",
-        "author": "saariuslystoned",
-        "updatedAt": "2026-11-07T07:05:36Z"
-      },
-      {
-        "kind": "pr",
-        "number": 194522,
-        "title": "fix(ui): enable New Session after the Gateway connects",
-        "url": "https://github.com/openclaw/openclaw/pull/194522",
+        "number": 194624,
+        "title": "fix(ui): avoid the extra remount when opening General settings",
+        "url": "https://github.com/openclaw/openclaw/pull/194624",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-11-07T07:05:13Z"
+        "updatedAt": "2026-11-07T13:57:55Z"
       },
       {
         "kind": "pr",
-        "number": 194106,
-        "title": "fix(daemon): consult native coalition reader when launchctl omits the header",
-        "url": "https://github.com/openclaw/openclaw/pull/194106",
+        "number": 193621,
+        "title": "fix(ui): keep composer visible with round corners",
+        "url": "https://github.com/openclaw/openclaw/pull/193621",
+        "state": "closed",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-11-07T13:57:44Z"
+      },
+      {
+        "kind": "pr",
+        "number": 192845,
+        "title": "fix: preserve child results when the parent continuation stalls",
+        "url": "https://github.com/openclaw/openclaw/pull/192845",
         "state": "open",
-        "author": "Wang-MuFF",
-        "updatedAt": "2026-11-07T07:04:59Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-07T13:57:06Z"
       },
       {
         "kind": "pr",
-        "number": 194494,
-        "title": "fix(llama-cpp): isolate each caller's abort signal across shared model loads",
-        "url": "https://github.com/openclaw/openclaw/pull/194494",
+        "number": 194614,
+        "title": "fix(skills): package sources with normalized timestamps",
+        "url": "https://github.com/openclaw/openclaw/pull/194614",
         "state": "open",
-        "author": "shuisadev",
-        "updatedAt": "2026-11-07T07:04:42Z"
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-11-07T13:55:03Z"
       },
       {
         "kind": "pr",
-        "number": 194526,
-        "title": "fix(ui): restore boot composer selection after its DOM commit",
-        "url": "https://github.com/openclaw/openclaw/pull/194526",
+        "number": 194622,
+        "title": "fix(ui): Approvals/Labs show raw subtitle keys and parity captures are incomplete",
+        "url": "https://github.com/openclaw/openclaw/pull/194622",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-11-07T07:04:04Z"
+        "updatedAt": "2026-11-07T13:53:38Z"
       },
       {
         "kind": "pr",
-        "number": 194393,
-        "title": "improve(ui): open Channels without loading Chat",
-        "url": "https://github.com/openclaw/openclaw/pull/194393",
+        "number": 194623,
+        "title": "perf(ui): speed up model picker and sidebar layout",
+        "url": "https://github.com/openclaw/openclaw/pull/194623",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-11-07T07:03:30Z"
+        "updatedAt": "2026-11-07T13:53:26Z"
       }
     ]
   }

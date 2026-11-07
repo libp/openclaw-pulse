@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-06T14:59:37.999Z",
+  "generatedAt": "2026-11-07T07:05:46.036Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1904,6 +1904,23 @@
       "contributors": 3758,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-07",
+      "capturedAt": "2026-11-07T07:05:46.036Z",
+      "issueOpen": 4700,
+      "issueClosed": 58466,
+      "prOpen": 2965,
+      "prClosed": 125758,
+      "prMerged": 69584,
+      "workflowRuns": 40000,
+      "stars": 394093,
+      "forks": 82818,
+      "subscribers": 1691,
+      "commits": 126336,
+      "contributors": 3761,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2698,92 +2715,127 @@
       "subscribers": 1693,
       "commits": 126143,
       "contributors": 3758
+    },
+    {
+      "capturedOn": "2026-11-07",
+      "stars": 394093,
+      "forks": 82818,
+      "subscribers": 1691,
+      "commits": 126336,
+      "contributors": 3761
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 183537,
-        "title": "Request: consider ShieldCortex and multi-clawd for the official plugin catalog or a verified-publisher listing",
-        "url": "https://github.com/openclaw/openclaw/issues/183537",
+        "number": 193962,
+        "title": "[Bug]: Fix for the SQLite header-probe timeout (#187197) can't be reached from 2026.10.10: package-update runs the installed updater's 10 s probe",
+        "url": "https://github.com/openclaw/openclaw/issues/193962",
         "state": "open",
-        "author": "jarvis-drakon",
-        "updatedAt": "2026-11-06T14:59:07Z"
+        "author": "karam2022",
+        "updatedAt": "2026-11-07T07:04:26Z"
       },
       {
         "kind": "issue",
-        "number": 191008,
-        "title": "ClawHub skill offer: Company Research Job, a paid research job for when the free search tier runs dry",
-        "url": "https://github.com/openclaw/openclaw/issues/191008",
+        "number": 192981,
+        "title": "Empty (0-byte) lock file is never considered stale: WhatsApp channel stays down with `file_lock_timeout` after a hard reset",
+        "url": "https://github.com/openclaw/openclaw/issues/192981",
         "state": "open",
-        "author": "judomanmk19xx-bot",
-        "updatedAt": "2026-11-06T14:56:19Z"
+        "author": "chrislro",
+        "updatedAt": "2026-11-07T07:04:25Z"
       },
       {
         "kind": "issue",
-        "number": 189354,
-        "title": "[Feature]: Search and send native Zalo stickers through the existing zalouser channel",
-        "url": "https://github.com/openclaw/openclaw/issues/189354",
+        "number": 193262,
+        "title": "[Bug]: Docker startup fails when the state dir is bind-mounted from a Windows drive (ENOENT fstat after atomic write)",
+        "url": "https://github.com/openclaw/openclaw/issues/193262",
         "state": "open",
-        "author": "ml12580",
-        "updatedAt": "2026-11-06T14:55:58Z"
+        "author": "om49967588",
+        "updatedAt": "2026-11-07T07:04:23Z"
+      },
+      {
+        "kind": "issue",
+        "number": 194451,
+        "title": "[Bug]: /think (and other directives) sent during an agent turn still kill the turn with SqliteTranscriptMutationConflictError — #192585 only covered /status",
+        "url": "https://github.com/openclaw/openclaw/issues/194451",
+        "state": "open",
+        "author": "alexph-dev",
+        "updatedAt": "2026-11-07T07:04:06Z"
+      },
+      {
+        "kind": "issue",
+        "number": 194453,
+        "title": "[Bug]: Plugin hooks on CLI-backed turns (claude-cli) get no memory audience",
+        "url": "https://github.com/openclaw/openclaw/issues/194453",
+        "state": "open",
+        "author": "etzelm",
+        "updatedAt": "2026-11-07T07:04:05Z"
+      },
+      {
+        "kind": "issue",
+        "number": 191242,
+        "title": "[Bug]: Slow SQLite commits block interactive startup history reads until reply watchdog aborts",
+        "url": "https://github.com/openclaw/openclaw/issues/191242",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-07T07:00:23Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 177230,
-        "title": "feat(research): expose authorized retained job views",
-        "url": "https://github.com/openclaw/openclaw/pull/177230",
+        "number": 191316,
+        "title": "fix(android): say when a chat file is outside the allowlist",
+        "url": "https://github.com/openclaw/openclaw/pull/191316",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-06T14:58:51Z"
+        "author": "saariuslystoned",
+        "updatedAt": "2026-11-07T07:05:36Z"
       },
       {
         "kind": "pr",
-        "number": 194176,
-        "title": "perf(ci): price selected tooling from measured files",
-        "url": "https://github.com/openclaw/openclaw/pull/194176",
+        "number": 194522,
+        "title": "fix(ui): enable New Session after the Gateway connects",
+        "url": "https://github.com/openclaw/openclaw/pull/194522",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-06T14:57:52Z"
+        "author": "steipete",
+        "updatedAt": "2026-11-07T07:05:13Z"
       },
       {
         "kind": "pr",
-        "number": 194166,
-        "title": "fix(update): skip unreadable foreign directories during update capture",
-        "url": "https://github.com/openclaw/openclaw/pull/194166",
+        "number": 194106,
+        "title": "fix(daemon): consult native coalition reader when launchctl omits the header",
+        "url": "https://github.com/openclaw/openclaw/pull/194106",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-06T14:57:40Z"
+        "author": "Wang-MuFF",
+        "updatedAt": "2026-11-07T07:04:59Z"
       },
       {
         "kind": "pr",
-        "number": 191344,
-        "title": "feat(codex): use OpenClaw's base prompt for ordinary threads",
-        "url": "https://github.com/openclaw/openclaw/pull/191344",
+        "number": 194494,
+        "title": "fix(llama-cpp): isolate each caller's abort signal across shared model loads",
+        "url": "https://github.com/openclaw/openclaw/pull/194494",
         "state": "open",
-        "author": "daniel-lxs",
-        "updatedAt": "2026-11-06T14:57:27Z"
+        "author": "shuisadev",
+        "updatedAt": "2026-11-07T07:04:42Z"
       },
       {
         "kind": "pr",
-        "number": 194088,
-        "title": "fix(oc-path): block frontmatter values resolve as empty strings",
-        "url": "https://github.com/openclaw/openclaw/pull/194088",
+        "number": 194526,
+        "title": "fix(ui): restore boot composer selection after its DOM commit",
+        "url": "https://github.com/openclaw/openclaw/pull/194526",
         "state": "open",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-11-06T14:56:20Z"
+        "author": "steipete",
+        "updatedAt": "2026-11-07T07:04:04Z"
       },
       {
         "kind": "pr",
-        "number": 194175,
-        "title": "refactor(agents): separate tool outcome observation types",
-        "url": "https://github.com/openclaw/openclaw/pull/194175",
+        "number": 194393,
+        "title": "improve(ui): open Channels without loading Chat",
+        "url": "https://github.com/openclaw/openclaw/pull/194393",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-06T14:56:15Z"
+        "author": "steipete",
+        "updatedAt": "2026-11-07T07:03:30Z"
       }
     ]
   }

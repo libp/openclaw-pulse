@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-07T18:45:00.803Z",
+  "generatedAt": "2026-11-08T02:26:03.824Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1921,6 +1921,23 @@
       "contributors": 3761,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-08",
+      "capturedAt": "2026-11-08T02:26:03.824Z",
+      "issueOpen": 4711,
+      "issueClosed": 58547,
+      "prOpen": 3049,
+      "prClosed": 126018,
+      "prMerged": 69808,
+      "workflowRuns": 40000,
+      "stars": 394149,
+      "forks": 82829,
+      "subscribers": 1693,
+      "commits": 126561,
+      "contributors": 3762,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2723,119 +2740,72 @@
       "subscribers": 1693,
       "commits": 126465,
       "contributors": 3761
+    },
+    {
+      "capturedOn": "2026-11-08",
+      "stars": 394149,
+      "forks": 82829,
+      "subscribers": 1693,
+      "commits": 126561,
+      "contributors": 3762
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 81892,
-        "title": "[Bug]: Reasoning not delivered on Matrix channel (/reasoning on has no effect)",
-        "url": "https://github.com/openclaw/openclaw/issues/81892",
-        "state": "open",
-        "author": "bronson",
-        "updatedAt": "2026-11-07T18:44:47Z"
-      },
-      {
-        "kind": "issue",
-        "number": 81182,
-        "title": "Overflow recovery should truncate tool results before waiting full auto-compaction timeout",
-        "url": "https://github.com/openclaw/openclaw/issues/81182",
-        "state": "open",
-        "author": "LLagoon3",
-        "updatedAt": "2026-11-07T18:44:39Z"
-      },
-      {
-        "kind": "issue",
-        "number": 79458,
-        "title": "feat: add i18n fields for slash command descriptions",
-        "url": "https://github.com/openclaw/openclaw/issues/79458",
-        "state": "open",
-        "author": "ghost",
-        "updatedAt": "2026-11-07T18:44:21Z"
-      },
-      {
-        "kind": "issue",
-        "number": 194737,
-        "title": "[Bug]: main-chat task progress card drops elapsed times for running subagents",
-        "url": "https://github.com/openclaw/openclaw/issues/194737",
-        "state": "open",
-        "author": "tre1d",
-        "updatedAt": "2026-11-07T18:44:16Z"
-      },
-      {
-        "kind": "issue",
-        "number": 77717,
-        "title": "Feishu channel: bot identity recovery race condition causes permanent disconnection",
-        "url": "https://github.com/openclaw/openclaw/issues/77717",
-        "state": "open",
-        "author": "Enominera",
-        "updatedAt": "2026-11-07T18:44:03Z"
-      },
-      {
-        "kind": "issue",
-        "number": 77343,
-        "title": "[Bug]:  openclaw-barnacle bot doesn't update labels after switching PR from draft to ready",
-        "url": "https://github.com/openclaw/openclaw/issues/77343",
-        "state": "open",
-        "author": "dchekmarev",
-        "updatedAt": "2026-11-07T18:43:44Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 194700,
-        "title": "fix(skills): package sources with normalized timestamps",
-        "url": "https://github.com/openclaw/openclaw/pull/194700",
+        "number": 194960,
+        "title": "fix(compaction): classify metadata-backed cuts by message boundary",
+        "url": "https://github.com/openclaw/openclaw/pull/194960",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-11-07T18:44:51Z"
+        "author": "goutamadwant",
+        "updatedAt": "2026-11-08T02:25:58Z"
       },
       {
         "kind": "pr",
-        "number": 194733,
-        "title": "fix(test): unblock Outputs loading after cached Details prewarm",
-        "url": "https://github.com/openclaw/openclaw/pull/194733",
+        "number": 194864,
+        "title": "fix: chat links return 404 with unknown query parameters",
+        "url": "https://github.com/openclaw/openclaw/pull/194864",
+        "state": "open",
+        "author": "daniel-lxs",
+        "updatedAt": "2026-11-08T02:25:54Z"
+      },
+      {
+        "kind": "pr",
+        "number": 189391,
+        "title": "fix: subagent Stop waits out its own queued drain and reports success",
+        "url": "https://github.com/openclaw/openclaw/pull/189391",
+        "state": "open",
+        "author": "Linux2010",
+        "updatedAt": "2026-11-08T02:25:53Z"
+      },
+      {
+        "kind": "pr",
+        "number": 194950,
+        "title": "feat: add optional Phoneuse iPhone plugin",
+        "url": "https://github.com/openclaw/openclaw/pull/194950",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-11-07T18:44:50Z"
+        "updatedAt": "2026-11-08T02:25:52Z"
       },
       {
         "kind": "pr",
-        "number": 194703,
-        "title": "fix(state): defer agent PostgreSQL migrations on SQLite startup",
-        "url": "https://github.com/openclaw/openclaw/pull/194703",
+        "number": 194877,
+        "title": "fix(code-mode): publish canonical tool inputs",
+        "url": "https://github.com/openclaw/openclaw/pull/194877",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-07T18:44:48Z"
+        "author": "sasan1200",
+        "updatedAt": "2026-11-08T02:25:52Z"
       },
       {
         "kind": "pr",
-        "number": 194722,
-        "title": "fix(agents): preserve foreground watchdog during nested compaction",
-        "url": "https://github.com/openclaw/openclaw/pull/194722",
+        "number": 194920,
+        "title": "fix(bench): record Usage worker tasks on stock Bun",
+        "url": "https://github.com/openclaw/openclaw/pull/194920",
         "state": "open",
-        "author": "VACInc",
-        "updatedAt": "2026-11-07T18:44:46Z"
-      },
-      {
-        "kind": "pr",
-        "number": 194716,
-        "title": "fix(ui): drop generic \"Loading…\" label above the chat composer",
-        "url": "https://github.com/openclaw/openclaw/pull/194716",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-07T18:44:34Z"
-      },
-      {
-        "kind": "pr",
-        "number": 180525,
-        "title": "feat(claws): add offline packages from local build archives",
-        "url": "https://github.com/openclaw/openclaw/pull/180525",
-        "state": "open",
-        "author": "Leon-SK668",
-        "updatedAt": "2026-11-07T18:44:27Z"
+        "author": "steipete",
+        "updatedAt": "2026-11-08T02:25:51Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-08T02:26:03.824Z",
+  "generatedAt": "2026-11-08T10:15:35.954Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1924,18 +1924,18 @@
     },
     {
       "capturedOn": "2026-11-08",
-      "capturedAt": "2026-11-08T02:26:03.824Z",
-      "issueOpen": 4711,
-      "issueClosed": 58547,
-      "prOpen": 3049,
-      "prClosed": 126018,
-      "prMerged": 69808,
+      "capturedAt": "2026-11-08T10:15:35.954Z",
+      "issueOpen": 4740,
+      "issueClosed": 58561,
+      "prOpen": 3078,
+      "prClosed": 126150,
+      "prMerged": 69914,
       "workflowRuns": 40000,
-      "stars": 394149,
-      "forks": 82829,
-      "subscribers": 1693,
-      "commits": 126561,
-      "contributors": 3762,
+      "stars": 394171,
+      "forks": 82830,
+      "subscribers": 1691,
+      "commits": 126667,
+      "contributors": 3763,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2743,69 +2743,115 @@
     },
     {
       "capturedOn": "2026-11-08",
-      "stars": 394149,
-      "forks": 82829,
-      "subscribers": 1693,
-      "commits": 126561,
-      "contributors": 3762
+      "stars": 394171,
+      "forks": 82830,
+      "subscribers": 1691,
+      "commits": 126667,
+      "contributors": 3763
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 28300,
+        "title": "Theme Customization System — Preset Themes + Custom Theme Studio",
+        "url": "https://github.com/openclaw/openclaw/issues/28300",
+        "state": "open",
+        "author": "xingzihai",
+        "updatedAt": "2026-11-08T10:14:00Z"
+      },
+      {
+        "kind": "issue",
+        "number": 38327,
+        "title": "[Bug] \"Cannot convert undefined or null to object\" in 2026.3.2 with google-vertex/gemini-3.1-pro-preview",
+        "url": "https://github.com/openclaw/openclaw/issues/38327",
+        "state": "open",
+        "author": "SUBA666",
+        "updatedAt": "2026-11-08T10:13:48Z"
+      },
+      {
+        "kind": "issue",
+        "number": 25222,
+        "title": "[Feature]: Session busy status reply + cancel option during long-running model responses",
+        "url": "https://github.com/openclaw/openclaw/issues/25222",
+        "state": "open",
+        "author": "SHAREN",
+        "updatedAt": "2026-11-08T10:13:32Z"
+      },
+      {
+        "kind": "issue",
+        "number": 38721,
+        "title": "[Bug] gateway shutdown timed out: node report shows active child process handle; leaves dirty shutdown + lane wait",
+        "url": "https://github.com/openclaw/openclaw/issues/38721",
+        "state": "open",
+        "author": "carlosrenatoy",
+        "updatedAt": "2026-11-08T10:13:03Z"
+      },
+      {
+        "kind": "issue",
+        "number": 14785,
+        "title": "Reduce tool schema token overhead (~3,500 tok/session)",
+        "url": "https://github.com/openclaw/openclaw/issues/14785",
+        "state": "open",
+        "author": "seans-openclawbot",
+        "updatedAt": "2026-11-08T10:12:36Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 194960,
-        "title": "fix(compaction): classify metadata-backed cuts by message boundary",
-        "url": "https://github.com/openclaw/openclaw/pull/194960",
+        "number": 195154,
+        "title": "fix(ci): reuse verified Bun for docs and boundary parity",
+        "url": "https://github.com/openclaw/openclaw/pull/195154",
         "state": "open",
-        "author": "goutamadwant",
-        "updatedAt": "2026-11-08T02:25:58Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-08T10:15:13Z"
       },
       {
         "kind": "pr",
-        "number": 194864,
-        "title": "fix: chat links return 404 with unknown query parameters",
-        "url": "https://github.com/openclaw/openclaw/pull/194864",
-        "state": "open",
-        "author": "daniel-lxs",
-        "updatedAt": "2026-11-08T02:25:54Z"
-      },
-      {
-        "kind": "pr",
-        "number": 189391,
-        "title": "fix: subagent Stop waits out its own queued drain and reports success",
-        "url": "https://github.com/openclaw/openclaw/pull/189391",
-        "state": "open",
-        "author": "Linux2010",
-        "updatedAt": "2026-11-08T02:25:53Z"
-      },
-      {
-        "kind": "pr",
-        "number": 194950,
-        "title": "feat: add optional Phoneuse iPhone plugin",
-        "url": "https://github.com/openclaw/openclaw/pull/194950",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-08T02:25:52Z"
-      },
-      {
-        "kind": "pr",
-        "number": 194877,
-        "title": "fix(code-mode): publish canonical tool inputs",
-        "url": "https://github.com/openclaw/openclaw/pull/194877",
-        "state": "open",
-        "author": "sasan1200",
-        "updatedAt": "2026-11-08T02:25:52Z"
-      },
-      {
-        "kind": "pr",
-        "number": 194920,
-        "title": "fix(bench): record Usage worker tasks on stock Bun",
-        "url": "https://github.com/openclaw/openclaw/pull/194920",
+        "number": 195161,
+        "title": "fix: reduce Markdown reparsing during streamed tool-call checks",
+        "url": "https://github.com/openclaw/openclaw/pull/195161",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-11-08T02:25:51Z"
+        "updatedAt": "2026-11-08T10:15:11Z"
+      },
+      {
+        "kind": "pr",
+        "number": 195155,
+        "title": "fix(ci): reuse verified Bun across lint parity checks",
+        "url": "https://github.com/openclaw/openclaw/pull/195155",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-08T10:14:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 195164,
+        "title": "fix(agents): preserve streamed replies across Gateway restarts",
+        "url": "https://github.com/openclaw/openclaw/pull/195164",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-11-08T10:14:45Z"
+      },
+      {
+        "kind": "pr",
+        "number": 195138,
+        "title": "fix(secrets): unblock protected CONNECT requests on Bun",
+        "url": "https://github.com/openclaw/openclaw/pull/195138",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-11-08T10:14:41Z"
+      },
+      {
+        "kind": "pr",
+        "number": 193032,
+        "title": "fix(ios): Learn more links do nothing in embedded Settings",
+        "url": "https://github.com/openclaw/openclaw/pull/193032",
+        "state": "open",
+        "author": "llbohacll",
+        "updatedAt": "2026-11-08T10:14:40Z"
       }
     ]
   }

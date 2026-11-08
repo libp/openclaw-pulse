@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-08T10:15:35.954Z",
+  "generatedAt": "2026-11-08T16:40:55.917Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1924,18 +1924,18 @@
     },
     {
       "capturedOn": "2026-11-08",
-      "capturedAt": "2026-11-08T10:15:35.954Z",
-      "issueOpen": 4740,
-      "issueClosed": 58561,
-      "prOpen": 3078,
-      "prClosed": 126150,
-      "prMerged": 69914,
+      "capturedAt": "2026-11-08T16:40:55.917Z",
+      "issueOpen": 4724,
+      "issueClosed": 58618,
+      "prOpen": 3061,
+      "prClosed": 126272,
+      "prMerged": 70012,
       "workflowRuns": 40000,
-      "stars": 394171,
-      "forks": 82830,
-      "subscribers": 1691,
-      "commits": 126667,
-      "contributors": 3763,
+      "stars": 394186,
+      "forks": 82838,
+      "subscribers": 1692,
+      "commits": 126769,
+      "contributors": 3767,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2743,115 +2743,115 @@
     },
     {
       "capturedOn": "2026-11-08",
-      "stars": 394171,
-      "forks": 82830,
-      "subscribers": 1691,
-      "commits": 126667,
-      "contributors": 3763
+      "stars": 394186,
+      "forks": 82838,
+      "subscribers": 1692,
+      "commits": 126769,
+      "contributors": 3767
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 28300,
-        "title": "Theme Customization System — Preset Themes + Custom Theme Studio",
-        "url": "https://github.com/openclaw/openclaw/issues/28300",
+        "number": 195309,
+        "title": "`openclaw memory status` refusal tells operators to \"fix authentication\" although the Gateway is healthy and owns the state (by design)",
+        "url": "https://github.com/openclaw/openclaw/issues/195309",
         "state": "open",
-        "author": "xingzihai",
-        "updatedAt": "2026-11-08T10:14:00Z"
+        "author": "JoernHoppe",
+        "updatedAt": "2026-11-08T16:40:32Z"
       },
       {
         "kind": "issue",
-        "number": 38327,
-        "title": "[Bug] \"Cannot convert undefined or null to object\" in 2026.3.2 with google-vertex/gemini-3.1-pro-preview",
-        "url": "https://github.com/openclaw/openclaw/issues/38327",
+        "number": 183802,
+        "title": "Agent SQLite transaction completion stalls 35–61s with short callbacks and admission waits",
+        "url": "https://github.com/openclaw/openclaw/issues/183802",
         "state": "open",
-        "author": "SUBA666",
-        "updatedAt": "2026-11-08T10:13:48Z"
+        "author": "dankarization",
+        "updatedAt": "2026-11-08T16:40:21Z"
       },
       {
         "kind": "issue",
-        "number": 25222,
-        "title": "[Feature]: Session busy status reply + cancel option during long-running model responses",
-        "url": "https://github.com/openclaw/openclaw/issues/25222",
+        "number": 195306,
+        "title": "Parallel source checkouts on one profile block each other's rebuilds on the Gateway service lifecycle lock",
+        "url": "https://github.com/openclaw/openclaw/issues/195306",
         "state": "open",
-        "author": "SHAREN",
-        "updatedAt": "2026-11-08T10:13:32Z"
+        "author": "saariuslystoned",
+        "updatedAt": "2026-11-08T16:40:04Z"
       },
       {
         "kind": "issue",
-        "number": 38721,
-        "title": "[Bug] gateway shutdown timed out: node report shows active child process handle; leaves dirty shutdown + lane wait",
-        "url": "https://github.com/openclaw/openclaw/issues/38721",
+        "number": 166526,
+        "title": "Idempotent Doctor takes ~473 s on large state; sqlite-volume upgrade-survivor fails its 60 s budget",
+        "url": "https://github.com/openclaw/openclaw/issues/166526",
         "state": "open",
-        "author": "carlosrenatoy",
-        "updatedAt": "2026-11-08T10:13:03Z"
+        "author": "steipete",
+        "updatedAt": "2026-11-08T16:38:05Z"
       },
       {
         "kind": "issue",
-        "number": 14785,
-        "title": "Reduce tool schema token overhead (~3,500 tok/session)",
-        "url": "https://github.com/openclaw/openclaw/issues/14785",
+        "number": 193962,
+        "title": "[Bug]: Fix for the SQLite header-probe timeout (#187197) can't be reached from 2026.10.10: package-update runs the installed updater's 10 s probe",
+        "url": "https://github.com/openclaw/openclaw/issues/193962",
         "state": "open",
-        "author": "seans-openclawbot",
-        "updatedAt": "2026-11-08T10:12:36Z"
+        "author": "karam2022",
+        "updatedAt": "2026-11-08T16:38:04Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 195154,
-        "title": "fix(ci): reuse verified Bun for docs and boundary parity",
-        "url": "https://github.com/openclaw/openclaw/pull/195154",
+        "number": 195304,
+        "title": "fix: node workers fail to start when the workspace path contains a comma",
+        "url": "https://github.com/openclaw/openclaw/pull/195304",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-08T10:15:13Z"
+        "author": "shuisadev",
+        "updatedAt": "2026-11-08T16:40:49Z"
       },
       {
         "kind": "pr",
-        "number": 195161,
-        "title": "fix: reduce Markdown reparsing during streamed tool-call checks",
-        "url": "https://github.com/openclaw/openclaw/pull/195161",
+        "number": 179635,
+        "title": "fix(codex): cold web-search support verdicts no longer rotate bound threads",
+        "url": "https://github.com/openclaw/openclaw/pull/179635",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-11-08T10:15:11Z"
+        "author": "mushuiyu886",
+        "updatedAt": "2026-11-08T16:40:49Z"
       },
       {
         "kind": "pr",
-        "number": 195155,
-        "title": "fix(ci): reuse verified Bun across lint parity checks",
-        "url": "https://github.com/openclaw/openclaw/pull/195155",
+        "number": 195124,
+        "title": "fix(skills): validate SKILL.md frontmatter like the loader",
+        "url": "https://github.com/openclaw/openclaw/pull/195124",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-08T10:14:57Z"
+        "author": "mushuiyu886",
+        "updatedAt": "2026-11-08T16:40:41Z"
       },
       {
         "kind": "pr",
-        "number": 195164,
-        "title": "fix(agents): preserve streamed replies across Gateway restarts",
-        "url": "https://github.com/openclaw/openclaw/pull/195164",
+        "number": 195301,
+        "title": "fix: preserve outbound replies when a chunk limit is NaN",
+        "url": "https://github.com/openclaw/openclaw/pull/195301",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-11-08T10:14:45Z"
+        "author": "chelsealong",
+        "updatedAt": "2026-11-08T16:40:40Z"
       },
       {
         "kind": "pr",
-        "number": 195138,
-        "title": "fix(secrets): unblock protected CONNECT requests on Bun",
-        "url": "https://github.com/openclaw/openclaw/pull/195138",
+        "number": 195224,
+        "title": "fix(message): keep accepted message ids when a send fails partway",
+        "url": "https://github.com/openclaw/openclaw/pull/195224",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-11-08T10:14:41Z"
+        "author": "ccclucky",
+        "updatedAt": "2026-11-08T16:40:37Z"
       },
       {
         "kind": "pr",
-        "number": 193032,
-        "title": "fix(ios): Learn more links do nothing in embedded Settings",
-        "url": "https://github.com/openclaw/openclaw/pull/193032",
+        "number": 191336,
+        "title": "fix(macos): use recognition language for Talk pause timing",
+        "url": "https://github.com/openclaw/openclaw/pull/191336",
         "state": "open",
-        "author": "llbohacll",
-        "updatedAt": "2026-11-08T10:14:40Z"
+        "author": "brianmcguire",
+        "updatedAt": "2026-11-08T16:40:30Z"
       }
     ]
   }

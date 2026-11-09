@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-08T16:40:55.917Z",
+  "generatedAt": "2026-11-09T00:51:05.552Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1938,6 +1938,23 @@
       "contributors": 3767,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-09",
+      "capturedAt": "2026-11-09T00:51:05.552Z",
+      "issueOpen": 4722,
+      "issueClosed": 58658,
+      "prOpen": 3082,
+      "prClosed": 126389,
+      "prMerged": 70103,
+      "workflowRuns": 40000,
+      "stars": 394214,
+      "forks": 82845,
+      "subscribers": 1691,
+      "commits": 126861,
+      "contributors": 3769,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2748,110 +2765,91 @@
       "subscribers": 1692,
       "commits": 126769,
       "contributors": 3767
+    },
+    {
+      "capturedOn": "2026-11-09",
+      "stars": 394214,
+      "forks": 82845,
+      "subscribers": 1691,
+      "commits": 126861,
+      "contributors": 3769
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 195309,
-        "title": "`openclaw memory status` refusal tells operators to \"fix authentication\" although the Gateway is healthy and owns the state (by design)",
-        "url": "https://github.com/openclaw/openclaw/issues/195309",
-        "state": "open",
-        "author": "JoernHoppe",
-        "updatedAt": "2026-11-08T16:40:32Z"
+        "number": 195396,
+        "title": "[Bug]: 2026.11.x can't run with the state directory on NFS — Doctor and Gateway fail on SQLite snapshot cleanup (rmdir ENOTEMPTY)",
+        "url": "https://github.com/openclaw/openclaw/issues/195396",
+        "state": "closed",
+        "author": "tianping",
+        "updatedAt": "2026-11-09T00:45:10Z"
       },
       {
         "kind": "issue",
-        "number": 183802,
-        "title": "Agent SQLite transaction completion stalls 35–61s with short callbacks and admission waits",
-        "url": "https://github.com/openclaw/openclaw/issues/183802",
+        "number": 164580,
+        "title": "[Bug]: Personal profile created by a one-off Tailscale sign-in cannot be removed or merged on a single-owner Gateway",
+        "url": "https://github.com/openclaw/openclaw/issues/164580",
         "state": "open",
-        "author": "dankarization",
-        "updatedAt": "2026-11-08T16:40:21Z"
-      },
-      {
-        "kind": "issue",
-        "number": 195306,
-        "title": "Parallel source checkouts on one profile block each other's rebuilds on the Gateway service lifecycle lock",
-        "url": "https://github.com/openclaw/openclaw/issues/195306",
-        "state": "open",
-        "author": "saariuslystoned",
-        "updatedAt": "2026-11-08T16:40:04Z"
-      },
-      {
-        "kind": "issue",
-        "number": 166526,
-        "title": "Idempotent Doctor takes ~473 s on large state; sqlite-volume upgrade-survivor fails its 60 s budget",
-        "url": "https://github.com/openclaw/openclaw/issues/166526",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-11-08T16:38:05Z"
-      },
-      {
-        "kind": "issue",
-        "number": 193962,
-        "title": "[Bug]: Fix for the SQLite header-probe timeout (#187197) can't be reached from 2026.10.10: package-update runs the installed updater's 10 s probe",
-        "url": "https://github.com/openclaw/openclaw/issues/193962",
-        "state": "open",
-        "author": "karam2022",
-        "updatedAt": "2026-11-08T16:38:04Z"
+        "author": "holgergruenhagen",
+        "updatedAt": "2026-11-09T00:44:06Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 195304,
-        "title": "fix: node workers fail to start when the workspace path contains a comma",
-        "url": "https://github.com/openclaw/openclaw/pull/195304",
-        "state": "open",
-        "author": "shuisadev",
-        "updatedAt": "2026-11-08T16:40:49Z"
-      },
-      {
-        "kind": "pr",
-        "number": 179635,
-        "title": "fix(codex): cold web-search support verdicts no longer rotate bound threads",
-        "url": "https://github.com/openclaw/openclaw/pull/179635",
-        "state": "open",
-        "author": "mushuiyu886",
-        "updatedAt": "2026-11-08T16:40:49Z"
-      },
-      {
-        "kind": "pr",
-        "number": 195124,
-        "title": "fix(skills): validate SKILL.md frontmatter like the loader",
-        "url": "https://github.com/openclaw/openclaw/pull/195124",
-        "state": "open",
-        "author": "mushuiyu886",
-        "updatedAt": "2026-11-08T16:40:41Z"
-      },
-      {
-        "kind": "pr",
-        "number": 195301,
-        "title": "fix: preserve outbound replies when a chunk limit is NaN",
-        "url": "https://github.com/openclaw/openclaw/pull/195301",
-        "state": "open",
-        "author": "chelsealong",
-        "updatedAt": "2026-11-08T16:40:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 195224,
-        "title": "fix(message): keep accepted message ids when a send fails partway",
-        "url": "https://github.com/openclaw/openclaw/pull/195224",
+        "number": 194682,
+        "title": "fix(browser): report crashed tabs as tab-scoped failures",
+        "url": "https://github.com/openclaw/openclaw/pull/194682",
         "state": "open",
         "author": "ccclucky",
-        "updatedAt": "2026-11-08T16:40:37Z"
+        "updatedAt": "2026-11-09T00:50:06Z"
       },
       {
         "kind": "pr",
-        "number": 191336,
-        "title": "fix(macos): use recognition language for Talk pause timing",
-        "url": "https://github.com/openclaw/openclaw/pull/191336",
+        "number": 195485,
+        "title": "chore(perf): avoid redundant synthetic fixture scans",
+        "url": "https://github.com/openclaw/openclaw/pull/195485",
         "state": "open",
-        "author": "brianmcguire",
-        "updatedAt": "2026-11-08T16:40:30Z"
+        "author": "steipete",
+        "updatedAt": "2026-11-09T00:49:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 195319,
+        "title": "fix: native models keep 200k for larger catalog windows",
+        "url": "https://github.com/openclaw/openclaw/pull/195319",
+        "state": "open",
+        "author": "sunlit-deng",
+        "updatedAt": "2026-11-09T00:48:21Z"
+      },
+      {
+        "kind": "pr",
+        "number": 194909,
+        "title": "fix: keep filesystem fixtures valid across fs-safe upgrades",
+        "url": "https://github.com/openclaw/openclaw/pull/194909",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-11-09T00:46:46Z"
+      },
+      {
+        "kind": "pr",
+        "number": 194906,
+        "title": "fix(crabbox): recognize Boat in cloud worker OS discovery",
+        "url": "https://github.com/openclaw/openclaw/pull/194906",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-09T00:46:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 195480,
+        "title": "fix(ci): leave PostgreSQL shard 1 headroom for PG16 smoke",
+        "url": "https://github.com/openclaw/openclaw/pull/195480",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-09T00:46:23Z"
       }
     ]
   }

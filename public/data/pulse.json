@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-09T00:51:05.552Z",
+  "generatedAt": "2026-11-09T07:55:43.643Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1941,18 +1941,18 @@
     },
     {
       "capturedOn": "2026-11-09",
-      "capturedAt": "2026-11-09T00:51:05.552Z",
-      "issueOpen": 4722,
-      "issueClosed": 58658,
-      "prOpen": 3082,
-      "prClosed": 126389,
-      "prMerged": 70103,
+      "capturedAt": "2026-11-09T07:55:43.643Z",
+      "issueOpen": 4819,
+      "issueClosed": 58684,
+      "prOpen": 3183,
+      "prClosed": 126496,
+      "prMerged": 70185,
       "workflowRuns": 40000,
-      "stars": 394214,
-      "forks": 82845,
-      "subscribers": 1691,
-      "commits": 126861,
-      "contributors": 3769,
+      "stars": 394221,
+      "forks": 82840,
+      "subscribers": 1690,
+      "commits": 126944,
+      "contributors": 3771,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2768,88 +2768,115 @@
     },
     {
       "capturedOn": "2026-11-09",
-      "stars": 394214,
-      "forks": 82845,
-      "subscribers": 1691,
-      "commits": 126861,
-      "contributors": 3769
+      "stars": 394221,
+      "forks": 82840,
+      "subscribers": 1690,
+      "commits": 126944,
+      "contributors": 3771
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 195396,
-        "title": "[Bug]: 2026.11.x can't run with the state directory on NFS — Doctor and Gateway fail on SQLite snapshot cleanup (rmdir ENOTEMPTY)",
-        "url": "https://github.com/openclaw/openclaw/issues/195396",
+        "number": 187608,
+        "title": "[Bug]: macOS Agent Events window keys rows by per-run seq, so rows from different runs collide",
+        "url": "https://github.com/openclaw/openclaw/issues/187608",
         "state": "closed",
-        "author": "tianping",
-        "updatedAt": "2026-11-09T00:45:10Z"
+        "author": "anmol0b",
+        "updatedAt": "2026-11-09T07:54:56Z"
       },
       {
         "kind": "issue",
-        "number": 164580,
-        "title": "[Bug]: Personal profile created by a one-off Tailscale sign-in cannot be removed or merged on a single-owner Gateway",
-        "url": "https://github.com/openclaw/openclaw/issues/164580",
+        "number": 195815,
+        "title": "android: recorded-source preview cards do not expose selected state to accessibility",
+        "url": "https://github.com/openclaw/openclaw/issues/195815",
         "state": "open",
-        "author": "holgergruenhagen",
-        "updatedAt": "2026-11-09T00:44:06Z"
+        "author": "saariuslystoned",
+        "updatedAt": "2026-11-09T07:54:48Z"
+      },
+      {
+        "kind": "issue",
+        "number": 195816,
+        "title": "android: native Talk and PTT retry speech-service quota errors after 600ms instead of 15s cooldown",
+        "url": "https://github.com/openclaw/openclaw/issues/195816",
+        "state": "open",
+        "author": "saariuslystoned",
+        "updatedAt": "2026-11-09T07:53:37Z"
+      },
+      {
+        "kind": "issue",
+        "number": 156774,
+        "title": "[Feature]: Admit an opt-in model + reasoning-effort choice per turn",
+        "url": "https://github.com/openclaw/openclaw/issues/156774",
+        "state": "open",
+        "author": "TheAngryPit",
+        "updatedAt": "2026-11-09T07:51:33Z"
+      },
+      {
+        "kind": "issue",
+        "number": 183537,
+        "title": "Request: consider ShieldCortex and multi-clawd for the official plugin catalog or a verified-publisher listing",
+        "url": "https://github.com/openclaw/openclaw/issues/183537",
+        "state": "open",
+        "author": "jarvis-drakon",
+        "updatedAt": "2026-11-09T07:51:30Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 194682,
-        "title": "fix(browser): report crashed tabs as tab-scoped failures",
-        "url": "https://github.com/openclaw/openclaw/pull/194682",
+        "number": 194204,
+        "title": "fix(ios): match the task list card width to the composer",
+        "url": "https://github.com/openclaw/openclaw/pull/194204",
         "state": "open",
-        "author": "ccclucky",
-        "updatedAt": "2026-11-09T00:50:06Z"
+        "author": "Marvinthebored",
+        "updatedAt": "2026-11-09T07:55:29Z"
       },
       {
         "kind": "pr",
-        "number": 195485,
-        "title": "chore(perf): avoid redundant synthetic fixture scans",
-        "url": "https://github.com/openclaw/openclaw/pull/195485",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-11-09T00:49:40Z"
+        "number": 188827,
+        "title": "fix(macos): key Agent Events rows by globally unique id",
+        "url": "https://github.com/openclaw/openclaw/pull/188827",
+        "state": "closed",
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-11-09T07:55:00Z"
       },
       {
         "kind": "pr",
-        "number": 195319,
-        "title": "fix: native models keep 200k for larger catalog windows",
-        "url": "https://github.com/openclaw/openclaw/pull/195319",
-        "state": "open",
-        "author": "sunlit-deng",
-        "updatedAt": "2026-11-09T00:48:21Z"
-      },
-      {
-        "kind": "pr",
-        "number": 194909,
-        "title": "fix: keep filesystem fixtures valid across fs-safe upgrades",
-        "url": "https://github.com/openclaw/openclaw/pull/194909",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-11-09T00:46:46Z"
-      },
-      {
-        "kind": "pr",
-        "number": 194906,
-        "title": "fix(crabbox): recognize Boat in cloud worker OS discovery",
-        "url": "https://github.com/openclaw/openclaw/pull/194906",
+        "number": 195724,
+        "title": "fix(docs): reduce redundant work in link checks",
+        "url": "https://github.com/openclaw/openclaw/pull/195724",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-11-09T00:46:36Z"
+        "updatedAt": "2026-11-09T07:54:40Z"
       },
       {
         "kind": "pr",
-        "number": 195480,
-        "title": "fix(ci): leave PostgreSQL shard 1 headroom for PG16 smoke",
-        "url": "https://github.com/openclaw/openclaw/pull/195480",
+        "number": 192633,
+        "title": "fix: stop goal continuation while awaiting a human decision",
+        "url": "https://github.com/openclaw/openclaw/pull/192633",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-09T00:46:23Z"
+        "author": "Baumus",
+        "updatedAt": "2026-11-09T07:54:34Z"
+      },
+      {
+        "kind": "pr",
+        "number": 188229,
+        "title": "fix(codex): recognize native completion handoff after explicit yield",
+        "url": "https://github.com/openclaw/openclaw/pull/188229",
+        "state": "open",
+        "author": "Baumus",
+        "updatedAt": "2026-11-09T07:54:29Z"
+      },
+      {
+        "kind": "pr",
+        "number": 195651,
+        "title": "fix(whatsapp): recognize linked administrators as automation owners",
+        "url": "https://github.com/openclaw/openclaw/pull/195651",
+        "state": "open",
+        "author": "brandon-julio-t",
+        "updatedAt": "2026-11-09T07:54:15Z"
       }
     ]
   }

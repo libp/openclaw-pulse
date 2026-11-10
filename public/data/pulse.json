@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-09T07:55:43.643Z",
+  "generatedAt": "2026-11-10T17:47:12.248Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1955,6 +1955,23 @@
       "contributors": 3771,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-10",
+      "capturedAt": "2026-11-10T17:47:12.248Z",
+      "issueOpen": 4821,
+      "issueClosed": 58942,
+      "prOpen": 3320,
+      "prClosed": 127056,
+      "prMerged": 70612,
+      "workflowRuns": 40000,
+      "stars": 394302,
+      "forks": 82858,
+      "subscribers": 1687,
+      "commits": 127369,
+      "contributors": 3780,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2773,110 +2790,72 @@
       "subscribers": 1690,
       "commits": 126944,
       "contributors": 3771
+    },
+    {
+      "capturedOn": "2026-11-10",
+      "stars": 394302,
+      "forks": 82858,
+      "subscribers": 1687,
+      "commits": 127369,
+      "contributors": 3780
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 187608,
-        "title": "[Bug]: macOS Agent Events window keys rows by per-run seq, so rows from different runs collide",
-        "url": "https://github.com/openclaw/openclaw/issues/187608",
-        "state": "closed",
-        "author": "anmol0b",
-        "updatedAt": "2026-11-09T07:54:56Z"
-      },
-      {
-        "kind": "issue",
-        "number": 195815,
-        "title": "android: recorded-source preview cards do not expose selected state to accessibility",
-        "url": "https://github.com/openclaw/openclaw/issues/195815",
-        "state": "open",
-        "author": "saariuslystoned",
-        "updatedAt": "2026-11-09T07:54:48Z"
-      },
-      {
-        "kind": "issue",
-        "number": 195816,
-        "title": "android: native Talk and PTT retry speech-service quota errors after 600ms instead of 15s cooldown",
-        "url": "https://github.com/openclaw/openclaw/issues/195816",
-        "state": "open",
-        "author": "saariuslystoned",
-        "updatedAt": "2026-11-09T07:53:37Z"
-      },
-      {
-        "kind": "issue",
-        "number": 156774,
-        "title": "[Feature]: Admit an opt-in model + reasoning-effort choice per turn",
-        "url": "https://github.com/openclaw/openclaw/issues/156774",
-        "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-11-09T07:51:33Z"
-      },
-      {
-        "kind": "issue",
-        "number": 183537,
-        "title": "Request: consider ShieldCortex and multi-clawd for the official plugin catalog or a verified-publisher listing",
-        "url": "https://github.com/openclaw/openclaw/issues/183537",
-        "state": "open",
-        "author": "jarvis-drakon",
-        "updatedAt": "2026-11-09T07:51:30Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 194204,
-        "title": "fix(ios): match the task list card width to the composer",
-        "url": "https://github.com/openclaw/openclaw/pull/194204",
+        "number": 196760,
+        "title": "fix: require exec permission for delegated automatic changes",
+        "url": "https://github.com/openclaw/openclaw/pull/196760",
         "state": "open",
-        "author": "Marvinthebored",
-        "updatedAt": "2026-11-09T07:55:29Z"
+        "author": "mmaps",
+        "updatedAt": "2026-11-10T17:47:02Z"
       },
       {
         "kind": "pr",
-        "number": 188827,
-        "title": "fix(macos): key Agent Events rows by globally unique id",
-        "url": "https://github.com/openclaw/openclaw/pull/188827",
+        "number": 196778,
+        "title": "fix(browser): start Chromium with long Linux temp paths",
+        "url": "https://github.com/openclaw/openclaw/pull/196778",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-10T17:47:00Z"
+      },
+      {
+        "kind": "pr",
+        "number": 196388,
+        "title": "feat(openclaw-id): move a claw to new keys with its recovery kit (openclaw id rebind)",
+        "url": "https://github.com/openclaw/openclaw/pull/196388",
+        "state": "open",
+        "author": "jalehman",
+        "updatedAt": "2026-11-10T17:46:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 196770,
+        "title": "improve(ui): show a single claw in halftone share QR codes",
+        "url": "https://github.com/openclaw/openclaw/pull/196770",
         "state": "closed",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-11-09T07:55:00Z"
-      },
-      {
-        "kind": "pr",
-        "number": 195724,
-        "title": "fix(docs): reduce redundant work in link checks",
-        "url": "https://github.com/openclaw/openclaw/pull/195724",
-        "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-11-09T07:54:40Z"
+        "updatedAt": "2026-11-10T17:46:32Z"
       },
       {
         "kind": "pr",
-        "number": 192633,
-        "title": "fix: stop goal continuation while awaiting a human decision",
-        "url": "https://github.com/openclaw/openclaw/pull/192633",
+        "number": 196711,
+        "title": "fix(mcp): mcp add and configure print a literal \"\\n\" before \"Configuration was not saved.\" when the server check fails",
+        "url": "https://github.com/openclaw/openclaw/pull/196711",
         "state": "open",
-        "author": "Baumus",
-        "updatedAt": "2026-11-09T07:54:34Z"
+        "author": "yxshee",
+        "updatedAt": "2026-11-10T17:46:32Z"
       },
       {
         "kind": "pr",
-        "number": 188229,
-        "title": "fix(codex): recognize native completion handoff after explicit yield",
-        "url": "https://github.com/openclaw/openclaw/pull/188229",
+        "number": 196764,
+        "title": "refactor(test): share attachment session-change regression setup",
+        "url": "https://github.com/openclaw/openclaw/pull/196764",
         "state": "open",
-        "author": "Baumus",
-        "updatedAt": "2026-11-09T07:54:29Z"
-      },
-      {
-        "kind": "pr",
-        "number": 195651,
-        "title": "fix(whatsapp): recognize linked administrators as automation owners",
-        "url": "https://github.com/openclaw/openclaw/pull/195651",
-        "state": "open",
-        "author": "brandon-julio-t",
-        "updatedAt": "2026-11-09T07:54:15Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-10T17:46:18Z"
       }
     ]
   }

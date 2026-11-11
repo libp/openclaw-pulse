@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-11T02:49:49.926Z",
+  "generatedAt": "2026-11-11T10:52:24.548Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1975,18 +1975,18 @@
     },
     {
       "capturedOn": "2026-11-11",
-      "capturedAt": "2026-11-11T02:49:49.926Z",
-      "issueOpen": 4854,
-      "issueClosed": 58975,
-      "prOpen": 3329,
-      "prClosed": 127201,
-      "prMerged": 70749,
+      "capturedAt": "2026-11-11T10:52:24.548Z",
+      "issueOpen": 4830,
+      "issueClosed": 59050,
+      "prOpen": 3315,
+      "prClosed": 127358,
+      "prMerged": 70876,
       "workflowRuns": 40000,
-      "stars": 394301,
-      "forks": 82861,
-      "subscribers": 1687,
-      "commits": 127507,
-      "contributors": 3780,
+      "stars": 394320,
+      "forks": 82858,
+      "subscribers": 1686,
+      "commits": 127633,
+      "contributors": 3783,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2818,79 +2818,124 @@
     },
     {
       "capturedOn": "2026-11-11",
-      "stars": 394301,
-      "forks": 82861,
-      "subscribers": 1687,
-      "commits": 127507,
-      "contributors": 3780
+      "stars": 394320,
+      "forks": 82858,
+      "subscribers": 1686,
+      "commits": 127633,
+      "contributors": 3783
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 196987,
-        "title": "Update 2026.9.9 → 2026.11.3 fails: candidate-gateway-startup exits code 1 (runtime-verification-failed), auto-rolls-back",
-        "url": "https://github.com/openclaw/openclaw/issues/196987",
+        "number": 197132,
+        "title": "Update failure: package-install (2026.10.10-beta.2)",
+        "url": "https://github.com/openclaw/openclaw/issues/197132",
         "state": "open",
-        "author": "masakingroup",
-        "updatedAt": "2026-11-11T02:48:10Z"
+        "author": "methylester",
+        "updatedAt": "2026-11-11T10:51:46Z"
+      },
+      {
+        "kind": "issue",
+        "number": 197184,
+        "title": "[Feature]: Browser-only authorization path for browser.proxy without broad operator.admin",
+        "url": "https://github.com/openclaw/openclaw/issues/197184",
+        "state": "open",
+        "author": "guyhen93-debug",
+        "updatedAt": "2026-11-11T10:51:04Z"
+      },
+      {
+        "kind": "issue",
+        "number": 197182,
+        "title": "Update failure: unexpected-error (2026.9.4)",
+        "url": "https://github.com/openclaw/openclaw/issues/197182",
+        "state": "open",
+        "author": "antoninocanale-create",
+        "updatedAt": "2026-11-11T10:52:14Z"
+      },
+      {
+        "kind": "issue",
+        "number": 197180,
+        "title": "Feature: group workboard board links under the Workboard nav item instead of flat top-level Pages entries",
+        "url": "https://github.com/openclaw/openclaw/issues/197180",
+        "state": "open",
+        "author": "najef1979-code",
+        "updatedAt": "2026-11-11T10:50:05Z"
+      },
+      {
+        "kind": "issue",
+        "number": 197181,
+        "title": "[Bug]: 2026.11.5-beta.1 `message` tool always fails with \"turn capability is no longer active\" in scheduled heartbeat runs bound to the main session",
+        "url": "https://github.com/openclaw/openclaw/issues/197181",
+        "state": "open",
+        "author": "Suiah98",
+        "updatedAt": "2026-11-11T10:50:02Z"
+      },
+      {
+        "kind": "issue",
+        "number": 173095,
+        "title": "Control UI: session sidebar stays empty on cold start that restores the last chat route (sessions.list never requested)",
+        "url": "https://github.com/openclaw/openclaw/issues/173095",
+        "state": "open",
+        "author": "toby996icu-arch",
+        "updatedAt": "2026-11-11T10:49:58Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 188294,
-        "title": "feat(memory): let workspaces exclude generated files from search",
-        "url": "https://github.com/openclaw/openclaw/pull/188294",
+        "number": 195837,
+        "title": "docs: document the vLLM and SGLang flags that report prompt-cache hits",
+        "url": "https://github.com/openclaw/openclaw/pull/195837",
         "state": "open",
-        "author": "serg0x",
-        "updatedAt": "2026-11-11T02:49:38Z"
+        "author": "yupengtang",
+        "updatedAt": "2026-11-11T10:52:13Z"
       },
       {
         "kind": "pr",
-        "number": 196984,
-        "title": "fix: require approval for delegated changes without effective authority",
-        "url": "https://github.com/openclaw/openclaw/pull/196984",
+        "number": 197176,
+        "title": "fix(cli): claude-cli runs that fail after a message-tool send log no cause",
+        "url": "https://github.com/openclaw/openclaw/pull/197176",
         "state": "open",
-        "author": "joshavant",
-        "updatedAt": "2026-11-11T02:49:27Z"
+        "author": "obviyus",
+        "updatedAt": "2026-11-11T10:52:08Z"
       },
       {
         "kind": "pr",
-        "number": 173124,
-        "title": "fix(agents): persona disappears after large inline avatar updates",
-        "url": "https://github.com/openclaw/openclaw/pull/173124",
+        "number": 184821,
+        "title": "fix(telegram): name DM topics from the first real message, not commands",
+        "url": "https://github.com/openclaw/openclaw/pull/184821",
         "state": "open",
-        "author": "zhangguiping-xydt",
-        "updatedAt": "2026-11-11T02:49:08Z"
+        "author": "dankarization",
+        "updatedAt": "2026-11-11T10:52:00Z"
       },
       {
         "kind": "pr",
-        "number": 75225,
-        "title": "feat(agents): expose configured descriptions in agents_list",
-        "url": "https://github.com/openclaw/openclaw/pull/75225",
+        "number": 197177,
+        "title": "fix(claude-cli): /status Compactions and compaction events miss Claude Code's native compactions",
+        "url": "https://github.com/openclaw/openclaw/pull/197177",
         "state": "open",
-        "author": "shannon0430",
-        "updatedAt": "2026-11-11T02:48:38Z"
+        "author": "obviyus",
+        "updatedAt": "2026-11-11T10:51:51Z"
       },
       {
         "kind": "pr",
-        "number": 196200,
-        "title": "fix(ui): manage agent GitHub accounts in Profile",
-        "url": "https://github.com/openclaw/openclaw/pull/196200",
+        "number": 197183,
+        "title": "fix(media): deliver generated media without waiting for unrelated turns",
+        "url": "https://github.com/openclaw/openclaw/pull/197183",
         "state": "open",
-        "author": "daniel-lxs",
-        "updatedAt": "2026-11-11T02:48:35Z"
+        "author": "obviyus",
+        "updatedAt": "2026-11-11T10:51:15Z"
       },
       {
         "kind": "pr",
-        "number": 196456,
-        "title": "feat(openclaw-id): Move to new keys and key warnings in the Control UI",
-        "url": "https://github.com/openclaw/openclaw/pull/196456",
+        "number": 197174,
+        "title": "fix(models): stop interrupted catalog reads across CLI diagnostics",
+        "url": "https://github.com/openclaw/openclaw/pull/197174",
         "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-11-11T02:48:31Z"
+        "author": "Alix-007",
+        "updatedAt": "2026-11-11T10:50:55Z"
       }
     ]
   }

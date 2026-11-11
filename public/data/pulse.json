@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-11T10:52:24.548Z",
+  "generatedAt": "2026-11-11T18:40:36.188Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1975,18 +1975,18 @@
     },
     {
       "capturedOn": "2026-11-11",
-      "capturedAt": "2026-11-11T10:52:24.548Z",
-      "issueOpen": 4830,
-      "issueClosed": 59050,
-      "prOpen": 3315,
-      "prClosed": 127358,
-      "prMerged": 70876,
+      "capturedAt": "2026-11-11T18:40:36.188Z",
+      "issueOpen": 4794,
+      "issueClosed": 59119,
+      "prOpen": 3311,
+      "prClosed": 127478,
+      "prMerged": 70968,
       "workflowRuns": 40000,
-      "stars": 394320,
-      "forks": 82858,
+      "stars": 394352,
+      "forks": 82861,
       "subscribers": 1686,
-      "commits": 127633,
-      "contributors": 3783,
+      "commits": 127726,
+      "contributors": 3784,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2818,124 +2818,106 @@
     },
     {
       "capturedOn": "2026-11-11",
-      "stars": 394320,
-      "forks": 82858,
+      "stars": 394352,
+      "forks": 82861,
       "subscribers": 1686,
-      "commits": 127633,
-      "contributors": 3783
+      "commits": 127726,
+      "contributors": 3784
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 197132,
-        "title": "Update failure: package-install (2026.10.10-beta.2)",
-        "url": "https://github.com/openclaw/openclaw/issues/197132",
+        "number": 197333,
+        "title": "[Bug]: GPT-5/6 answer only the newest message when two messages are steered into one turn",
+        "url": "https://github.com/openclaw/openclaw/issues/197333",
         "state": "open",
-        "author": "methylester",
-        "updatedAt": "2026-11-11T10:51:46Z"
+        "author": "mycarrysun",
+        "updatedAt": "2026-11-11T18:39:26Z"
       },
       {
         "kind": "issue",
-        "number": 197184,
-        "title": "[Feature]: Browser-only authorization path for browser.proxy without broad operator.admin",
-        "url": "https://github.com/openclaw/openclaw/issues/197184",
-        "state": "open",
-        "author": "guyhen93-debug",
-        "updatedAt": "2026-11-11T10:51:04Z"
+        "number": 197241,
+        "title": "Device-worker turns always fail: \"prepared model runtime plugin generation was superseded\" (2026.10.10)",
+        "url": "https://github.com/openclaw/openclaw/issues/197241",
+        "state": "closed",
+        "author": "bautheac",
+        "updatedAt": "2026-11-11T18:38:10Z"
       },
       {
         "kind": "issue",
-        "number": 197182,
-        "title": "Update failure: unexpected-error (2026.9.4)",
-        "url": "https://github.com/openclaw/openclaw/issues/197182",
+        "number": 197331,
+        "title": "2026.10.10: each sessions.delete can leave a ~150 MB SQLite reclamation worker alive for 30 min; bulk deletes exhaust host memory",
+        "url": "https://github.com/openclaw/openclaw/issues/197331",
         "state": "open",
-        "author": "antoninocanale-create",
-        "updatedAt": "2026-11-11T10:52:14Z"
+        "author": "609NFT",
+        "updatedAt": "2026-11-11T18:37:08Z"
       },
       {
         "kind": "issue",
-        "number": 197180,
-        "title": "Feature: group workboard board links under the Workboard nav item instead of flat top-level Pages entries",
-        "url": "https://github.com/openclaw/openclaw/issues/197180",
-        "state": "open",
-        "author": "najef1979-code",
-        "updatedAt": "2026-11-11T10:50:05Z"
-      },
-      {
-        "kind": "issue",
-        "number": 197181,
-        "title": "[Bug]: 2026.11.5-beta.1 `message` tool always fails with \"turn capability is no longer active\" in scheduled heartbeat runs bound to the main session",
-        "url": "https://github.com/openclaw/openclaw/issues/197181",
-        "state": "open",
-        "author": "Suiah98",
-        "updatedAt": "2026-11-11T10:50:02Z"
-      },
-      {
-        "kind": "issue",
-        "number": 173095,
-        "title": "Control UI: session sidebar stays empty on cold start that restores the last chat route (sessions.list never requested)",
-        "url": "https://github.com/openclaw/openclaw/issues/173095",
-        "state": "open",
-        "author": "toby996icu-arch",
-        "updatedAt": "2026-11-11T10:49:58Z"
+        "number": 197289,
+        "title": "Control UI shows a download card for assistant audio/video published without playback metadata",
+        "url": "https://github.com/openclaw/openclaw/issues/197289",
+        "state": "closed",
+        "author": "masatohoshino",
+        "updatedAt": "2026-11-11T18:34:45Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 195837,
-        "title": "docs: document the vLLM and SGLang flags that report prompt-cache hits",
-        "url": "https://github.com/openclaw/openclaw/pull/195837",
-        "state": "open",
-        "author": "yupengtang",
-        "updatedAt": "2026-11-11T10:52:13Z"
+        "number": 196856,
+        "title": "feat(auth): preserve delegated OCE user profiles and permissions",
+        "url": "https://github.com/openclaw/openclaw/pull/196856",
+        "state": "closed",
+        "author": "kevinlin-openai",
+        "updatedAt": "2026-11-11T18:40:30Z"
       },
       {
         "kind": "pr",
-        "number": 197176,
-        "title": "fix(cli): claude-cli runs that fail after a message-tool send log no cause",
-        "url": "https://github.com/openclaw/openclaw/pull/197176",
+        "number": 197326,
+        "title": "fix(models): keep typed-only models out of chat pickers",
+        "url": "https://github.com/openclaw/openclaw/pull/197326",
         "state": "open",
         "author": "obviyus",
-        "updatedAt": "2026-11-11T10:52:08Z"
+        "updatedAt": "2026-11-11T18:40:16Z"
       },
       {
         "kind": "pr",
-        "number": 184821,
-        "title": "fix(telegram): name DM topics from the first real message, not commands",
-        "url": "https://github.com/openclaw/openclaw/pull/184821",
+        "number": 194484,
+        "title": "fix: avoid agent database stalls after worker retirement",
+        "url": "https://github.com/openclaw/openclaw/pull/194484",
         "state": "open",
-        "author": "dankarization",
-        "updatedAt": "2026-11-11T10:52:00Z"
+        "author": "steipete",
+        "updatedAt": "2026-11-11T18:40:08Z"
       },
       {
         "kind": "pr",
-        "number": 197177,
-        "title": "fix(claude-cli): /status Compactions and compaction events miss Claude Code's native compactions",
-        "url": "https://github.com/openclaw/openclaw/pull/197177",
+        "number": 197332,
+        "title": "chore(ui): refresh control ui locales",
+        "url": "https://github.com/openclaw/openclaw/pull/197332",
+        "state": "closed",
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-11-11T18:40:00Z"
+      },
+      {
+        "kind": "pr",
+        "number": 197329,
+        "title": "fix(compaction): budget the summary floor with the tools the session sends",
+        "url": "https://github.com/openclaw/openclaw/pull/197329",
         "state": "open",
         "author": "obviyus",
-        "updatedAt": "2026-11-11T10:51:51Z"
+        "updatedAt": "2026-11-11T18:39:10Z"
       },
       {
         "kind": "pr",
-        "number": 197183,
-        "title": "fix(media): deliver generated media without waiting for unrelated turns",
-        "url": "https://github.com/openclaw/openclaw/pull/197183",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-11-11T10:51:15Z"
-      },
-      {
-        "kind": "pr",
-        "number": 197174,
-        "title": "fix(models): stop interrupted catalog reads across CLI diagnostics",
-        "url": "https://github.com/openclaw/openclaw/pull/197174",
-        "state": "open",
-        "author": "Alix-007",
-        "updatedAt": "2026-11-11T10:50:55Z"
+        "number": 197318,
+        "title": "fix(test): wait for the stable connecting state during warm reload",
+        "url": "https://github.com/openclaw/openclaw/pull/197318",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-11-11T18:38:54Z"
       }
     ]
   }

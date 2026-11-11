@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-10T17:47:12.248Z",
+  "generatedAt": "2026-11-11T02:49:49.926Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1972,6 +1972,23 @@
       "contributors": 3780,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-11",
+      "capturedAt": "2026-11-11T02:49:49.926Z",
+      "issueOpen": 4854,
+      "issueClosed": 58975,
+      "prOpen": 3329,
+      "prClosed": 127201,
+      "prMerged": 70749,
+      "workflowRuns": 40000,
+      "stars": 394301,
+      "forks": 82861,
+      "subscribers": 1687,
+      "commits": 127507,
+      "contributors": 3780,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2798,64 +2815,82 @@
       "subscribers": 1687,
       "commits": 127369,
       "contributors": 3780
+    },
+    {
+      "capturedOn": "2026-11-11",
+      "stars": 394301,
+      "forks": 82861,
+      "subscribers": 1687,
+      "commits": 127507,
+      "contributors": 3780
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 196987,
+        "title": "Update 2026.9.9 → 2026.11.3 fails: candidate-gateway-startup exits code 1 (runtime-verification-failed), auto-rolls-back",
+        "url": "https://github.com/openclaw/openclaw/issues/196987",
+        "state": "open",
+        "author": "masakingroup",
+        "updatedAt": "2026-11-11T02:48:10Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 196760,
-        "title": "fix: require exec permission for delegated automatic changes",
-        "url": "https://github.com/openclaw/openclaw/pull/196760",
+        "number": 188294,
+        "title": "feat(memory): let workspaces exclude generated files from search",
+        "url": "https://github.com/openclaw/openclaw/pull/188294",
         "state": "open",
-        "author": "mmaps",
-        "updatedAt": "2026-11-10T17:47:02Z"
+        "author": "serg0x",
+        "updatedAt": "2026-11-11T02:49:38Z"
       },
       {
         "kind": "pr",
-        "number": 196778,
-        "title": "fix(browser): start Chromium with long Linux temp paths",
-        "url": "https://github.com/openclaw/openclaw/pull/196778",
+        "number": 196984,
+        "title": "fix: require approval for delegated changes without effective authority",
+        "url": "https://github.com/openclaw/openclaw/pull/196984",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-10T17:47:00Z"
+        "author": "joshavant",
+        "updatedAt": "2026-11-11T02:49:27Z"
       },
       {
         "kind": "pr",
-        "number": 196388,
-        "title": "feat(openclaw-id): move a claw to new keys with its recovery kit (openclaw id rebind)",
-        "url": "https://github.com/openclaw/openclaw/pull/196388",
+        "number": 173124,
+        "title": "fix(agents): persona disappears after large inline avatar updates",
+        "url": "https://github.com/openclaw/openclaw/pull/173124",
+        "state": "open",
+        "author": "zhangguiping-xydt",
+        "updatedAt": "2026-11-11T02:49:08Z"
+      },
+      {
+        "kind": "pr",
+        "number": 75225,
+        "title": "feat(agents): expose configured descriptions in agents_list",
+        "url": "https://github.com/openclaw/openclaw/pull/75225",
+        "state": "open",
+        "author": "shannon0430",
+        "updatedAt": "2026-11-11T02:48:38Z"
+      },
+      {
+        "kind": "pr",
+        "number": 196200,
+        "title": "fix(ui): manage agent GitHub accounts in Profile",
+        "url": "https://github.com/openclaw/openclaw/pull/196200",
+        "state": "open",
+        "author": "daniel-lxs",
+        "updatedAt": "2026-11-11T02:48:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 196456,
+        "title": "feat(openclaw-id): Move to new keys and key warnings in the Control UI",
+        "url": "https://github.com/openclaw/openclaw/pull/196456",
         "state": "open",
         "author": "jalehman",
-        "updatedAt": "2026-11-10T17:46:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 196770,
-        "title": "improve(ui): show a single claw in halftone share QR codes",
-        "url": "https://github.com/openclaw/openclaw/pull/196770",
-        "state": "closed",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-10T17:46:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 196711,
-        "title": "fix(mcp): mcp add and configure print a literal \"\\n\" before \"Configuration was not saved.\" when the server check fails",
-        "url": "https://github.com/openclaw/openclaw/pull/196711",
-        "state": "open",
-        "author": "yxshee",
-        "updatedAt": "2026-11-10T17:46:32Z"
-      },
-      {
-        "kind": "pr",
-        "number": 196764,
-        "title": "refactor(test): share attachment session-change regression setup",
-        "url": "https://github.com/openclaw/openclaw/pull/196764",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-10T17:46:18Z"
+        "updatedAt": "2026-11-11T02:48:31Z"
       }
     ]
   }

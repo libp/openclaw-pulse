@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-12T18:16:24.943Z",
+  "generatedAt": "2026-11-12T23:40:24.345Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1992,17 +1992,17 @@
     },
     {
       "capturedOn": "2026-11-12",
-      "capturedAt": "2026-11-12T18:16:24.943Z",
-      "issueOpen": 4714,
-      "issueClosed": 59302,
-      "prOpen": 3325,
-      "prClosed": 127805,
-      "prMerged": 71271,
+      "capturedAt": "2026-11-12T23:40:24.345Z",
+      "issueOpen": 4730,
+      "issueClosed": 59320,
+      "prOpen": 3327,
+      "prClosed": 127886,
+      "prMerged": 71339,
       "workflowRuns": 40000,
-      "stars": 394406,
-      "forks": 82883,
+      "stars": 394409,
+      "forks": 82886,
       "subscribers": 1685,
-      "commits": 128028,
+      "commits": 128096,
       "contributors": 3787,
       "source": "github-actions",
       "approximateDate": false
@@ -2843,10 +2843,10 @@
     },
     {
       "capturedOn": "2026-11-12",
-      "stars": 394406,
-      "forks": 82883,
+      "stars": 394409,
+      "forks": 82886,
       "subscribers": 1685,
-      "commits": 128028,
+      "commits": 128096,
       "contributors": 3787
     }
   ],
@@ -2854,104 +2854,68 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 196836,
-        "title": "[Bug]: Windows Node does not advertise computer.act despite Screen Capture being enabled",
-        "url": "https://github.com/openclaw/openclaw/issues/196836",
+        "number": 197938,
+        "title": "[Docs Bug]: How is the heartbeat checklist supposed to stay up to date?",
+        "url": "https://github.com/openclaw/openclaw/issues/197938",
         "state": "open",
-        "author": "krutpik",
-        "updatedAt": "2026-11-12T18:14:06Z"
-      },
-      {
-        "kind": "issue",
-        "number": 197855,
-        "title": "Outbound media loader doesn't apply tools.web.fetch.ssrfPolicy (blockedHostnames)",
-        "url": "https://github.com/openclaw/openclaw/issues/197855",
-        "state": "open",
-        "author": "tommyjoseph",
-        "updatedAt": "2026-11-12T18:12:45Z"
-      },
-      {
-        "kind": "issue",
-        "number": 197857,
-        "title": "Control UI: “Discovering more models” makes a saved default model look stuck",
-        "url": "https://github.com/openclaw/openclaw/issues/197857",
-        "state": "open",
-        "author": "daniel-lxs",
-        "updatedAt": "2026-11-12T18:12:30Z"
-      },
-      {
-        "kind": "issue",
-        "number": 192609,
-        "title": "Reduce duplicated benchmark calculations and isolate runtime decision boundaries",
-        "url": "https://github.com/openclaw/openclaw/issues/192609",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-12T18:12:21Z"
-      },
-      {
-        "kind": "issue",
-        "number": 197741,
-        "title": "[Bug]: macOS orphaned SSH git-upload-pack processes consume GBs of bandwidth; originating caller unknown",
-        "url": "https://github.com/openclaw/openclaw/issues/197741",
-        "state": "open",
-        "author": "zhanghui026",
-        "updatedAt": "2026-11-12T18:11:16Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-12T23:34:49Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 197853,
-        "title": "fix(acp): relay exec approvals when Claude CLI and MCP tool call IDs differ",
-        "url": "https://github.com/openclaw/openclaw/pull/197853",
-        "state": "open",
-        "author": "gulagala001",
-        "updatedAt": "2026-11-12T18:16:13Z"
-      },
-      {
-        "kind": "pr",
-        "number": 197851,
-        "title": "fix(update): roll back activated releases that fail Doctor or Gateway startup",
-        "url": "https://github.com/openclaw/openclaw/pull/197851",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-11-12T18:16:11Z"
-      },
-      {
-        "kind": "pr",
-        "number": 197814,
-        "title": "feat(agents): inspect workspace documents from the CLI",
-        "url": "https://github.com/openclaw/openclaw/pull/197814",
-        "state": "open",
-        "author": "lsr911",
-        "updatedAt": "2026-11-12T18:16:06Z"
-      },
-      {
-        "kind": "pr",
-        "number": 197852,
-        "title": "fix(ui): keep dictated text when the window loses focus",
-        "url": "https://github.com/openclaw/openclaw/pull/197852",
-        "state": "open",
-        "author": "wr-web",
-        "updatedAt": "2026-11-12T18:16:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 197510,
-        "title": "fix: move session path checks off the Gateway thread",
-        "url": "https://github.com/openclaw/openclaw/pull/197510",
+        "number": 197965,
+        "title": "improve(gateway): reduce Control UI PR subscription allocation",
+        "url": "https://github.com/openclaw/openclaw/pull/197965",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-11-12T18:15:28Z"
+        "updatedAt": "2026-11-12T23:40:10Z"
       },
       {
         "kind": "pr",
-        "number": 196867,
-        "title": "feat(identity): accept co-author credit from trusted-proxy headers",
-        "url": "https://github.com/openclaw/openclaw/pull/196867",
+        "number": 167173,
+        "title": "feat(ios): manage session groups directly from the group header",
+        "url": "https://github.com/openclaw/openclaw/pull/167173",
         "state": "open",
-        "author": "russellb",
-        "updatedAt": "2026-11-12T18:15:24Z"
+        "author": "Marvinthebored",
+        "updatedAt": "2026-11-12T23:40:04Z"
+      },
+      {
+        "kind": "pr",
+        "number": 197975,
+        "title": "fix: keep Gateway runtime checks off the main thread",
+        "url": "https://github.com/openclaw/openclaw/pull/197975",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-11-12T23:39:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 197969,
+        "title": "fix(status): Ctrl-C does not stop openclaw status during the Gateway probe",
+        "url": "https://github.com/openclaw/openclaw/pull/197969",
+        "state": "open",
+        "author": "masatohoshino",
+        "updatedAt": "2026-11-12T23:40:07Z"
+      },
+      {
+        "kind": "pr",
+        "number": 197941,
+        "title": "fix: reclaim older scratch before fresh worktrees after restart",
+        "url": "https://github.com/openclaw/openclaw/pull/197941",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-11-12T23:39:15Z"
+      },
+      {
+        "kind": "pr",
+        "number": 197572,
+        "title": "feat(rapid-mlx): support local chat and memory embeddings",
+        "url": "https://github.com/openclaw/openclaw/pull/197572",
+        "state": "open",
+        "author": "raullenchai",
+        "updatedAt": "2026-11-12T23:39:01Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-11T18:40:36.188Z",
+  "generatedAt": "2026-11-12T18:16:24.943Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -1989,6 +1989,23 @@
       "contributors": 3784,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-12",
+      "capturedAt": "2026-11-12T18:16:24.943Z",
+      "issueOpen": 4714,
+      "issueClosed": 59302,
+      "prOpen": 3325,
+      "prClosed": 127805,
+      "prMerged": 71271,
+      "workflowRuns": 40000,
+      "stars": 394406,
+      "forks": 82883,
+      "subscribers": 1685,
+      "commits": 128028,
+      "contributors": 3787,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2823,101 +2840,118 @@
       "subscribers": 1686,
       "commits": 127726,
       "contributors": 3784
+    },
+    {
+      "capturedOn": "2026-11-12",
+      "stars": 394406,
+      "forks": 82883,
+      "subscribers": 1685,
+      "commits": 128028,
+      "contributors": 3787
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 197333,
-        "title": "[Bug]: GPT-5/6 answer only the newest message when two messages are steered into one turn",
-        "url": "https://github.com/openclaw/openclaw/issues/197333",
+        "number": 196836,
+        "title": "[Bug]: Windows Node does not advertise computer.act despite Screen Capture being enabled",
+        "url": "https://github.com/openclaw/openclaw/issues/196836",
         "state": "open",
-        "author": "mycarrysun",
-        "updatedAt": "2026-11-11T18:39:26Z"
+        "author": "krutpik",
+        "updatedAt": "2026-11-12T18:14:06Z"
       },
       {
         "kind": "issue",
-        "number": 197241,
-        "title": "Device-worker turns always fail: \"prepared model runtime plugin generation was superseded\" (2026.10.10)",
-        "url": "https://github.com/openclaw/openclaw/issues/197241",
-        "state": "closed",
-        "author": "bautheac",
-        "updatedAt": "2026-11-11T18:38:10Z"
-      },
-      {
-        "kind": "issue",
-        "number": 197331,
-        "title": "2026.10.10: each sessions.delete can leave a ~150 MB SQLite reclamation worker alive for 30 min; bulk deletes exhaust host memory",
-        "url": "https://github.com/openclaw/openclaw/issues/197331",
+        "number": 197855,
+        "title": "Outbound media loader doesn't apply tools.web.fetch.ssrfPolicy (blockedHostnames)",
+        "url": "https://github.com/openclaw/openclaw/issues/197855",
         "state": "open",
-        "author": "609NFT",
-        "updatedAt": "2026-11-11T18:37:08Z"
+        "author": "tommyjoseph",
+        "updatedAt": "2026-11-12T18:12:45Z"
       },
       {
         "kind": "issue",
-        "number": 197289,
-        "title": "Control UI shows a download card for assistant audio/video published without playback metadata",
-        "url": "https://github.com/openclaw/openclaw/issues/197289",
-        "state": "closed",
-        "author": "masatohoshino",
-        "updatedAt": "2026-11-11T18:34:45Z"
+        "number": 197857,
+        "title": "Control UI: “Discovering more models” makes a saved default model look stuck",
+        "url": "https://github.com/openclaw/openclaw/issues/197857",
+        "state": "open",
+        "author": "daniel-lxs",
+        "updatedAt": "2026-11-12T18:12:30Z"
+      },
+      {
+        "kind": "issue",
+        "number": 192609,
+        "title": "Reduce duplicated benchmark calculations and isolate runtime decision boundaries",
+        "url": "https://github.com/openclaw/openclaw/issues/192609",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-12T18:12:21Z"
+      },
+      {
+        "kind": "issue",
+        "number": 197741,
+        "title": "[Bug]: macOS orphaned SSH git-upload-pack processes consume GBs of bandwidth; originating caller unknown",
+        "url": "https://github.com/openclaw/openclaw/issues/197741",
+        "state": "open",
+        "author": "zhanghui026",
+        "updatedAt": "2026-11-12T18:11:16Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 196856,
-        "title": "feat(auth): preserve delegated OCE user profiles and permissions",
-        "url": "https://github.com/openclaw/openclaw/pull/196856",
-        "state": "closed",
-        "author": "kevinlin-openai",
-        "updatedAt": "2026-11-11T18:40:30Z"
+        "number": 197853,
+        "title": "fix(acp): relay exec approvals when Claude CLI and MCP tool call IDs differ",
+        "url": "https://github.com/openclaw/openclaw/pull/197853",
+        "state": "open",
+        "author": "gulagala001",
+        "updatedAt": "2026-11-12T18:16:13Z"
       },
       {
         "kind": "pr",
-        "number": 197326,
-        "title": "fix(models): keep typed-only models out of chat pickers",
-        "url": "https://github.com/openclaw/openclaw/pull/197326",
+        "number": 197851,
+        "title": "fix(update): roll back activated releases that fail Doctor or Gateway startup",
+        "url": "https://github.com/openclaw/openclaw/pull/197851",
         "state": "open",
         "author": "obviyus",
-        "updatedAt": "2026-11-11T18:40:16Z"
+        "updatedAt": "2026-11-12T18:16:11Z"
       },
       {
         "kind": "pr",
-        "number": 194484,
-        "title": "fix: avoid agent database stalls after worker retirement",
-        "url": "https://github.com/openclaw/openclaw/pull/194484",
+        "number": 197814,
+        "title": "feat(agents): inspect workspace documents from the CLI",
+        "url": "https://github.com/openclaw/openclaw/pull/197814",
+        "state": "open",
+        "author": "lsr911",
+        "updatedAt": "2026-11-12T18:16:06Z"
+      },
+      {
+        "kind": "pr",
+        "number": 197852,
+        "title": "fix(ui): keep dictated text when the window loses focus",
+        "url": "https://github.com/openclaw/openclaw/pull/197852",
+        "state": "open",
+        "author": "wr-web",
+        "updatedAt": "2026-11-12T18:16:02Z"
+      },
+      {
+        "kind": "pr",
+        "number": 197510,
+        "title": "fix: move session path checks off the Gateway thread",
+        "url": "https://github.com/openclaw/openclaw/pull/197510",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-11-11T18:40:08Z"
+        "updatedAt": "2026-11-12T18:15:28Z"
       },
       {
         "kind": "pr",
-        "number": 197332,
-        "title": "chore(ui): refresh control ui locales",
-        "url": "https://github.com/openclaw/openclaw/pull/197332",
-        "state": "closed",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-11-11T18:40:00Z"
-      },
-      {
-        "kind": "pr",
-        "number": 197329,
-        "title": "fix(compaction): budget the summary floor with the tools the session sends",
-        "url": "https://github.com/openclaw/openclaw/pull/197329",
+        "number": 196867,
+        "title": "feat(identity): accept co-author credit from trusted-proxy headers",
+        "url": "https://github.com/openclaw/openclaw/pull/196867",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-11-11T18:39:10Z"
-      },
-      {
-        "kind": "pr",
-        "number": 197318,
-        "title": "fix(test): wait for the stable connecting state during warm reload",
-        "url": "https://github.com/openclaw/openclaw/pull/197318",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-11-11T18:38:54Z"
+        "author": "russellb",
+        "updatedAt": "2026-11-12T18:15:24Z"
       }
     ]
   }

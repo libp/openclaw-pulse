@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-13T15:21:43.748Z",
+  "generatedAt": "2026-11-13T21:57:52.009Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2009,18 +2009,18 @@
     },
     {
       "capturedOn": "2026-11-13",
-      "capturedAt": "2026-11-13T15:21:43.748Z",
-      "issueOpen": 4741,
-      "issueClosed": 59379,
-      "prOpen": 3388,
-      "prClosed": 128111,
-      "prMerged": 71528,
+      "capturedAt": "2026-11-13T21:57:52.009Z",
+      "issueOpen": 4752,
+      "issueClosed": 59428,
+      "prOpen": 3373,
+      "prClosed": 128213,
+      "prMerged": 71616,
       "workflowRuns": 40000,
-      "stars": 394443,
-      "forks": 82882,
+      "stars": 394397,
+      "forks": 82888,
       "subscribers": 1686,
-      "commits": 128288,
-      "contributors": 3791,
+      "commits": 128376,
+      "contributors": 3797,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2868,88 +2868,106 @@
     },
     {
       "capturedOn": "2026-11-13",
-      "stars": 394443,
-      "forks": 82882,
+      "stars": 394397,
+      "forks": 82888,
       "subscribers": 1686,
-      "commits": 128288,
-      "contributors": 3791
+      "commits": 128376,
+      "contributors": 3797
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 198334,
-        "title": "[Bug]: Update repair fails during Doctor finalization on 2026.11.1",
-        "url": "https://github.com/openclaw/openclaw/issues/198334",
+        "number": 198475,
+        "title": "[Bug]: Control UI Template Add fails on a completed agent deletion tombstone",
+        "url": "https://github.com/openclaw/openclaw/issues/198475",
         "state": "open",
-        "author": "mze2",
-        "updatedAt": "2026-11-13T15:19:54Z"
+        "author": "DonnieFi",
+        "updatedAt": "2026-11-13T21:56:47Z"
       },
       {
         "kind": "issue",
-        "number": 198285,
-        "title": "/compact fails on a sandboxed Claude CLI session that has a Skill Library skill selected",
-        "url": "https://github.com/openclaw/openclaw/issues/198285",
-        "state": "closed",
-        "author": "masatohoshino",
-        "updatedAt": "2026-11-13T15:18:29Z"
+        "number": 197741,
+        "title": "[Bug]: macOS orphaned SSH git-upload-pack processes consume GBs of bandwidth; originating caller unknown",
+        "url": "https://github.com/openclaw/openclaw/issues/197741",
+        "state": "open",
+        "author": "zhanghui026",
+        "updatedAt": "2026-11-13T21:56:02Z"
+      },
+      {
+        "kind": "issue",
+        "number": 136271,
+        "title": "[Feature]: msteams: resolve team SharePoint site dynamically for channel file uploads",
+        "url": "https://github.com/openclaw/openclaw/issues/136271",
+        "state": "open",
+        "author": "a-tokyo",
+        "updatedAt": "2026-11-13T21:55:49Z"
+      },
+      {
+        "kind": "issue",
+        "number": 196836,
+        "title": "[Bug]: Windows Node does not advertise computer.act despite Screen Capture being enabled",
+        "url": "https://github.com/openclaw/openclaw/issues/196836",
+        "state": "open",
+        "author": "krutpik",
+        "updatedAt": "2026-11-13T21:54:00Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 198319,
-        "title": "fix(worktrees): finish retention of empty retired checkouts",
-        "url": "https://github.com/openclaw/openclaw/pull/198319",
+        "number": 198471,
+        "title": "fix(cli): surface capability flag-guard remedies in --json failures",
+        "url": "https://github.com/openclaw/openclaw/pull/198471",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-11-13T15:21:37Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-11-13T21:57:46Z"
       },
       {
         "kind": "pr",
-        "number": 198322,
-        "title": "fix(message): return CLI sends once the Gateway has delivered them",
-        "url": "https://github.com/openclaw/openclaw/pull/198322",
+        "number": 198476,
+        "title": "chore(ui): refresh control ui locales",
+        "url": "https://github.com/openclaw/openclaw/pull/198476",
         "state": "open",
-        "author": "sukhdeepjohar",
-        "updatedAt": "2026-11-13T15:21:28Z"
+        "author": "openclaw-mantis[bot]",
+        "updatedAt": "2026-11-13T21:57:32Z"
       },
       {
         "kind": "pr",
-        "number": 198324,
-        "title": "fix: show provider reset times for long rate limits",
-        "url": "https://github.com/openclaw/openclaw/pull/198324",
+        "number": 197960,
+        "title": "fix(agents): auth refresh fails after its plugin call ends",
+        "url": "https://github.com/openclaw/openclaw/pull/197960",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-11-13T15:21:25Z"
+        "author": "dankarization",
+        "updatedAt": "2026-11-13T21:57:11Z"
       },
       {
         "kind": "pr",
-        "number": 198329,
-        "title": "fix(nodes): nodes approve and reject print \"The CLI command failed.\" for an unknown request id",
-        "url": "https://github.com/openclaw/openclaw/pull/198329",
+        "number": 198472,
+        "title": "fix(gateway): back off queued media ownership waits",
+        "url": "https://github.com/openclaw/openclaw/pull/198472",
         "state": "open",
-        "author": "yxshee",
-        "updatedAt": "2026-11-13T15:21:12Z"
+        "author": "wr-web",
+        "updatedAt": "2026-11-13T21:57:10Z"
       },
       {
         "kind": "pr",
-        "number": 198254,
-        "title": "fix(audit): stop interrupted audit reads when the CLI is cancelled",
-        "url": "https://github.com/openclaw/openclaw/pull/198254",
+        "number": 198470,
+        "title": "fix: Access page missing until restart after enabling OpenClaw ID",
+        "url": "https://github.com/openclaw/openclaw/pull/198470",
         "state": "open",
-        "author": "wangmiao0668000666",
-        "updatedAt": "2026-11-13T15:21:12Z"
+        "author": "jalehman",
+        "updatedAt": "2026-11-13T21:57:00Z"
       },
       {
         "kind": "pr",
-        "number": 198325,
-        "title": "fix(ci): include Gateway ownership PostgreSQL conformance suites",
-        "url": "https://github.com/openclaw/openclaw/pull/198325",
+        "number": 198438,
+        "title": "fix(active-memory): warning repeats on every turn when the memory provider lacks private transcript recall",
+        "url": "https://github.com/openclaw/openclaw/pull/198438",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-13T15:20:37Z"
+        "author": "etzelm",
+        "updatedAt": "2026-11-13T21:56:42Z"
       }
     ]
   }

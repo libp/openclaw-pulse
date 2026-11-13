@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-12T23:40:24.345Z",
+  "generatedAt": "2026-11-13T06:39:24.379Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2006,6 +2006,23 @@
       "contributors": 3787,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-13",
+      "capturedAt": "2026-11-13T06:39:24.379Z",
+      "issueOpen": 4735,
+      "issueClosed": 59350,
+      "prOpen": 3362,
+      "prClosed": 127981,
+      "prMerged": 71422,
+      "workflowRuns": 40000,
+      "stars": 394420,
+      "forks": 82881,
+      "subscribers": 1684,
+      "commits": 128181,
+      "contributors": 3787,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2848,74 +2865,100 @@
       "subscribers": 1685,
       "commits": 128096,
       "contributors": 3787
+    },
+    {
+      "capturedOn": "2026-11-13",
+      "stars": 394420,
+      "forks": 82881,
+      "subscribers": 1684,
+      "commits": 128181,
+      "contributors": 3787
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 197938,
-        "title": "[Docs Bug]: How is the heartbeat checklist supposed to stay up to date?",
-        "url": "https://github.com/openclaw/openclaw/issues/197938",
+        "number": 198142,
+        "title": "[Bug]: Plugins MCP switches show globally enabled servers as on despite per-agent namespace deny",
+        "url": "https://github.com/openclaw/openclaw/issues/198142",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-12T23:34:49Z"
+        "author": "ujjalcal",
+        "updatedAt": "2026-11-13T06:39:06Z"
+      },
+      {
+        "kind": "issue",
+        "number": 170956,
+        "title": "Windows: slow startup, unclean plugin shutdown, and schtasks permission error make restarts/updates unreliable",
+        "url": "https://github.com/openclaw/openclaw/issues/170956",
+        "state": "open",
+        "author": "Rene-F",
+        "updatedAt": "2026-11-13T06:32:27Z"
+      },
+      {
+        "kind": "issue",
+        "number": 198136,
+        "title": "Update failure: candidate-doctor (2026.11.3)",
+        "url": "https://github.com/openclaw/openclaw/issues/198136",
+        "state": "open",
+        "author": "changyogpt-code",
+        "updatedAt": "2026-11-13T06:32:11Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 197965,
-        "title": "improve(gateway): reduce Control UI PR subscription allocation",
-        "url": "https://github.com/openclaw/openclaw/pull/197965",
+        "number": 190362,
+        "title": "fix(cron): a job targeting another agent's session never runs",
+        "url": "https://github.com/openclaw/openclaw/pull/190362",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-11-12T23:40:10Z"
+        "author": "LiuwqGit",
+        "updatedAt": "2026-11-13T06:37:51Z"
       },
       {
         "kind": "pr",
-        "number": 167173,
-        "title": "feat(ios): manage session groups directly from the group header",
-        "url": "https://github.com/openclaw/openclaw/pull/167173",
+        "number": 198126,
+        "title": "fix(gateway): skipped media warnings hide why an attachment could not be prepared",
+        "url": "https://github.com/openclaw/openclaw/pull/198126",
         "state": "open",
-        "author": "Marvinthebored",
-        "updatedAt": "2026-11-12T23:40:04Z"
+        "author": "pseudo-usama",
+        "updatedAt": "2026-11-13T06:37:35Z"
       },
       {
         "kind": "pr",
-        "number": 197975,
-        "title": "fix: keep Gateway runtime checks off the main thread",
-        "url": "https://github.com/openclaw/openclaw/pull/197975",
+        "number": 198140,
+        "title": "fix(ci): keep fork pull requests on hosted runners",
+        "url": "https://github.com/openclaw/openclaw/pull/198140",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-11-12T23:39:57Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-13T06:37:26Z"
       },
       {
         "kind": "pr",
-        "number": 197969,
-        "title": "fix(status): Ctrl-C does not stop openclaw status during the Gateway probe",
-        "url": "https://github.com/openclaw/openclaw/pull/197969",
+        "number": 110102,
+        "title": "feat: let sandboxed plugin tabs invoke declared session actions",
+        "url": "https://github.com/openclaw/openclaw/pull/110102",
         "state": "open",
-        "author": "masatohoshino",
-        "updatedAt": "2026-11-12T23:40:07Z"
+        "author": "Ittiz",
+        "updatedAt": "2026-11-13T06:37:12Z"
       },
       {
         "kind": "pr",
-        "number": 197941,
-        "title": "fix: reclaim older scratch before fresh worktrees after restart",
-        "url": "https://github.com/openclaw/openclaw/pull/197941",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-11-12T23:39:15Z"
+        "number": 196377,
+        "title": "fix(state-migrations): allow OAuth dirs reached through a state-dir alias",
+        "url": "https://github.com/openclaw/openclaw/pull/196377",
+        "state": "open",
+        "author": "wangmiao0668000666",
+        "updatedAt": "2026-11-13T06:36:55Z"
       },
       {
         "kind": "pr",
-        "number": 197572,
-        "title": "feat(rapid-mlx): support local chat and memory embeddings",
-        "url": "https://github.com/openclaw/openclaw/pull/197572",
+        "number": 198144,
+        "title": "test(workers): wait for forced deletion queue handoff",
+        "url": "https://github.com/openclaw/openclaw/pull/198144",
         "state": "open",
-        "author": "raullenchai",
-        "updatedAt": "2026-11-12T23:39:01Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-13T06:36:46Z"
       }
     ]
   }

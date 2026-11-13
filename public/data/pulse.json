@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-13T06:39:24.379Z",
+  "generatedAt": "2026-11-13T15:21:43.748Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2009,18 +2009,18 @@
     },
     {
       "capturedOn": "2026-11-13",
-      "capturedAt": "2026-11-13T06:39:24.379Z",
-      "issueOpen": 4735,
-      "issueClosed": 59350,
-      "prOpen": 3362,
-      "prClosed": 127981,
-      "prMerged": 71422,
+      "capturedAt": "2026-11-13T15:21:43.748Z",
+      "issueOpen": 4741,
+      "issueClosed": 59379,
+      "prOpen": 3388,
+      "prClosed": 128111,
+      "prMerged": 71528,
       "workflowRuns": 40000,
-      "stars": 394420,
-      "forks": 82881,
-      "subscribers": 1684,
-      "commits": 128181,
-      "contributors": 3787,
+      "stars": 394443,
+      "forks": 82882,
+      "subscribers": 1686,
+      "commits": 128288,
+      "contributors": 3791,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2868,97 +2868,88 @@
     },
     {
       "capturedOn": "2026-11-13",
-      "stars": 394420,
-      "forks": 82881,
-      "subscribers": 1684,
-      "commits": 128181,
-      "contributors": 3787
+      "stars": 394443,
+      "forks": 82882,
+      "subscribers": 1686,
+      "commits": 128288,
+      "contributors": 3791
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 198142,
-        "title": "[Bug]: Plugins MCP switches show globally enabled servers as on despite per-agent namespace deny",
-        "url": "https://github.com/openclaw/openclaw/issues/198142",
+        "number": 198334,
+        "title": "[Bug]: Update repair fails during Doctor finalization on 2026.11.1",
+        "url": "https://github.com/openclaw/openclaw/issues/198334",
         "state": "open",
-        "author": "ujjalcal",
-        "updatedAt": "2026-11-13T06:39:06Z"
+        "author": "mze2",
+        "updatedAt": "2026-11-13T15:19:54Z"
       },
       {
         "kind": "issue",
-        "number": 170956,
-        "title": "Windows: slow startup, unclean plugin shutdown, and schtasks permission error make restarts/updates unreliable",
-        "url": "https://github.com/openclaw/openclaw/issues/170956",
-        "state": "open",
-        "author": "Rene-F",
-        "updatedAt": "2026-11-13T06:32:27Z"
-      },
-      {
-        "kind": "issue",
-        "number": 198136,
-        "title": "Update failure: candidate-doctor (2026.11.3)",
-        "url": "https://github.com/openclaw/openclaw/issues/198136",
-        "state": "open",
-        "author": "changyogpt-code",
-        "updatedAt": "2026-11-13T06:32:11Z"
+        "number": 198285,
+        "title": "/compact fails on a sandboxed Claude CLI session that has a Skill Library skill selected",
+        "url": "https://github.com/openclaw/openclaw/issues/198285",
+        "state": "closed",
+        "author": "masatohoshino",
+        "updatedAt": "2026-11-13T15:18:29Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 190362,
-        "title": "fix(cron): a job targeting another agent's session never runs",
-        "url": "https://github.com/openclaw/openclaw/pull/190362",
+        "number": 198319,
+        "title": "fix(worktrees): finish retention of empty retired checkouts",
+        "url": "https://github.com/openclaw/openclaw/pull/198319",
         "state": "open",
-        "author": "LiuwqGit",
-        "updatedAt": "2026-11-13T06:37:51Z"
+        "author": "steipete",
+        "updatedAt": "2026-11-13T15:21:37Z"
       },
       {
         "kind": "pr",
-        "number": 198126,
-        "title": "fix(gateway): skipped media warnings hide why an attachment could not be prepared",
-        "url": "https://github.com/openclaw/openclaw/pull/198126",
+        "number": 198322,
+        "title": "fix(message): return CLI sends once the Gateway has delivered them",
+        "url": "https://github.com/openclaw/openclaw/pull/198322",
         "state": "open",
-        "author": "pseudo-usama",
-        "updatedAt": "2026-11-13T06:37:35Z"
+        "author": "sukhdeepjohar",
+        "updatedAt": "2026-11-13T15:21:28Z"
       },
       {
         "kind": "pr",
-        "number": 198140,
-        "title": "fix(ci): keep fork pull requests on hosted runners",
-        "url": "https://github.com/openclaw/openclaw/pull/198140",
+        "number": 198324,
+        "title": "fix: show provider reset times for long rate limits",
+        "url": "https://github.com/openclaw/openclaw/pull/198324",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-13T06:37:26Z"
+        "author": "steipete",
+        "updatedAt": "2026-11-13T15:21:25Z"
       },
       {
         "kind": "pr",
-        "number": 110102,
-        "title": "feat: let sandboxed plugin tabs invoke declared session actions",
-        "url": "https://github.com/openclaw/openclaw/pull/110102",
+        "number": 198329,
+        "title": "fix(nodes): nodes approve and reject print \"The CLI command failed.\" for an unknown request id",
+        "url": "https://github.com/openclaw/openclaw/pull/198329",
         "state": "open",
-        "author": "Ittiz",
-        "updatedAt": "2026-11-13T06:37:12Z"
+        "author": "yxshee",
+        "updatedAt": "2026-11-13T15:21:12Z"
       },
       {
         "kind": "pr",
-        "number": 196377,
-        "title": "fix(state-migrations): allow OAuth dirs reached through a state-dir alias",
-        "url": "https://github.com/openclaw/openclaw/pull/196377",
+        "number": 198254,
+        "title": "fix(audit): stop interrupted audit reads when the CLI is cancelled",
+        "url": "https://github.com/openclaw/openclaw/pull/198254",
         "state": "open",
         "author": "wangmiao0668000666",
-        "updatedAt": "2026-11-13T06:36:55Z"
+        "updatedAt": "2026-11-13T15:21:12Z"
       },
       {
         "kind": "pr",
-        "number": 198144,
-        "title": "test(workers): wait for forced deletion queue handoff",
-        "url": "https://github.com/openclaw/openclaw/pull/198144",
+        "number": 198325,
+        "title": "fix(ci): include Gateway ownership PostgreSQL conformance suites",
+        "url": "https://github.com/openclaw/openclaw/pull/198325",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-11-13T06:36:46Z"
+        "updatedAt": "2026-11-13T15:20:37Z"
       }
     ]
   }

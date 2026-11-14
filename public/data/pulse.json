@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-13T21:57:52.009Z",
+  "generatedAt": "2026-11-14T21:27:13.679Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2023,6 +2023,23 @@
       "contributors": 3797,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-14",
+      "capturedAt": "2026-11-14T21:27:13.679Z",
+      "issueOpen": 4853,
+      "issueClosed": 59484,
+      "prOpen": 3542,
+      "prClosed": 128628,
+      "prMerged": 71961,
+      "workflowRuns": 40000,
+      "stars": 394456,
+      "forks": 82888,
+      "subscribers": 1686,
+      "commits": 128733,
+      "contributors": 3802,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2873,101 +2890,100 @@
       "subscribers": 1686,
       "commits": 128376,
       "contributors": 3797
+    },
+    {
+      "capturedOn": "2026-11-14",
+      "stars": 394456,
+      "forks": 82888,
+      "subscribers": 1686,
+      "commits": 128733,
+      "contributors": 3802
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 198475,
-        "title": "[Bug]: Control UI Template Add fails on a completed agent deletion tombstone",
-        "url": "https://github.com/openclaw/openclaw/issues/198475",
+        "number": 167290,
+        "title": "[Bug] Durable turn advancement never settles for runs that background exec — outbox rows stuck at 'admitted', context-engine afterTurn accounting silently frozen (2026.9.6)",
+        "url": "https://github.com/openclaw/openclaw/issues/167290",
         "state": "open",
-        "author": "DonnieFi",
-        "updatedAt": "2026-11-13T21:56:47Z"
+        "author": "setieroth",
+        "updatedAt": "2026-11-14T21:26:57Z"
       },
       {
         "kind": "issue",
-        "number": 197741,
-        "title": "[Bug]: macOS orphaned SSH git-upload-pack processes consume GBs of bandwidth; originating caller unknown",
-        "url": "https://github.com/openclaw/openclaw/issues/197741",
+        "number": 199207,
+        "title": "MCP tool manifest collapses to core-only tools (e.g. only message tool survives) on \"reuse=reusable-drift:system-prompt\" session reuse path; also causes \"no active tool authority snapshot\" errors",
+        "url": "https://github.com/openclaw/openclaw/issues/199207",
         "state": "open",
-        "author": "zhanghui026",
-        "updatedAt": "2026-11-13T21:56:02Z"
+        "author": "Raso90",
+        "updatedAt": "2026-11-14T21:26:07Z"
       },
       {
         "kind": "issue",
-        "number": 136271,
-        "title": "[Feature]: msteams: resolve team SharePoint site dynamically for channel file uploads",
-        "url": "https://github.com/openclaw/openclaw/issues/136271",
+        "number": 199209,
+        "title": "Use OpenClaw consistently for the app, reserving dashboards for the feature",
+        "url": "https://github.com/openclaw/openclaw/issues/199209",
         "state": "open",
-        "author": "a-tokyo",
-        "updatedAt": "2026-11-13T21:55:49Z"
-      },
-      {
-        "kind": "issue",
-        "number": 196836,
-        "title": "[Bug]: Windows Node does not advertise computer.act despite Screen Capture being enabled",
-        "url": "https://github.com/openclaw/openclaw/issues/196836",
-        "state": "open",
-        "author": "krutpik",
-        "updatedAt": "2026-11-13T21:54:00Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-14T21:26:02Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 198471,
-        "title": "fix(cli): surface capability flag-guard remedies in --json failures",
-        "url": "https://github.com/openclaw/openclaw/pull/198471",
+        "number": 199038,
+        "title": "feat(ios): load older chat history without losing your place",
+        "url": "https://github.com/openclaw/openclaw/pull/199038",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-11-13T21:57:46Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-14T21:27:04Z"
       },
       {
         "kind": "pr",
-        "number": 198476,
+        "number": 199128,
+        "title": "fix(usage): show model attribution without stored session metadata",
+        "url": "https://github.com/openclaw/openclaw/pull/199128",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-14T21:27:03Z"
+      },
+      {
+        "kind": "pr",
+        "number": 199186,
+        "title": "fix: cancel response bodies after headers with foreign signals",
+        "url": "https://github.com/openclaw/openclaw/pull/199186",
+        "state": "open",
+        "author": "llbohacll",
+        "updatedAt": "2026-11-14T21:26:58Z"
+      },
+      {
+        "kind": "pr",
+        "number": 199220,
         "title": "chore(ui): refresh control ui locales",
-        "url": "https://github.com/openclaw/openclaw/pull/198476",
+        "url": "https://github.com/openclaw/openclaw/pull/199220",
         "state": "open",
         "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-11-13T21:57:32Z"
+        "updatedAt": "2026-11-14T21:26:57Z"
       },
       {
         "kind": "pr",
-        "number": 197960,
-        "title": "fix(agents): auth refresh fails after its plugin call ends",
-        "url": "https://github.com/openclaw/openclaw/pull/197960",
+        "number": 199113,
+        "title": "fix(exec): agent gets one wake turn per command when background commands exit together",
+        "url": "https://github.com/openclaw/openclaw/pull/199113",
         "state": "open",
-        "author": "dankarization",
-        "updatedAt": "2026-11-13T21:57:11Z"
+        "author": "obviyus",
+        "updatedAt": "2026-11-14T21:26:57Z"
       },
       {
         "kind": "pr",
-        "number": 198472,
-        "title": "fix(gateway): back off queued media ownership waits",
-        "url": "https://github.com/openclaw/openclaw/pull/198472",
+        "number": 199219,
+        "title": "fix(ui): saving feedback fades like an unavailable control",
+        "url": "https://github.com/openclaw/openclaw/pull/199219",
         "state": "open",
-        "author": "wr-web",
-        "updatedAt": "2026-11-13T21:57:10Z"
-      },
-      {
-        "kind": "pr",
-        "number": 198470,
-        "title": "fix: Access page missing until restart after enabling OpenClaw ID",
-        "url": "https://github.com/openclaw/openclaw/pull/198470",
-        "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-11-13T21:57:00Z"
-      },
-      {
-        "kind": "pr",
-        "number": 198438,
-        "title": "fix(active-memory): warning repeats on every turn when the memory provider lacks private transcript recall",
-        "url": "https://github.com/openclaw/openclaw/pull/198438",
-        "state": "open",
-        "author": "etzelm",
-        "updatedAt": "2026-11-13T21:56:42Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-14T21:26:43Z"
       }
     ]
   }

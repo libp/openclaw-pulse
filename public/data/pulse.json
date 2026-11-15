@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-14T21:27:13.679Z",
+  "generatedAt": "2026-11-15T01:52:22.642Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2040,6 +2040,23 @@
       "contributors": 3802,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-15",
+      "capturedAt": "2026-11-15T01:52:22.642Z",
+      "issueOpen": 4869,
+      "issueClosed": 59491,
+      "prOpen": 3600,
+      "prClosed": 128698,
+      "prMerged": 72027,
+      "workflowRuns": 40000,
+      "stars": 394462,
+      "forks": 82891,
+      "subscribers": 1686,
+      "commits": 128801,
+      "contributors": 3802,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2898,92 +2915,100 @@
       "subscribers": 1686,
       "commits": 128733,
       "contributors": 3802
+    },
+    {
+      "capturedOn": "2026-11-15",
+      "stars": 394462,
+      "forks": 82891,
+      "subscribers": 1686,
+      "commits": 128801,
+      "contributors": 3802
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 167290,
-        "title": "[Bug] Durable turn advancement never settles for runs that background exec — outbox rows stuck at 'admitted', context-engine afterTurn accounting silently frozen (2026.9.6)",
-        "url": "https://github.com/openclaw/openclaw/issues/167290",
+        "number": 199364,
+        "title": "[Bug]: iOS dashboard view prevents opening the selected conversation chat",
+        "url": "https://github.com/openclaw/openclaw/issues/199364",
         "state": "open",
-        "author": "setieroth",
-        "updatedAt": "2026-11-14T21:26:57Z"
+        "author": "ajgrant6",
+        "updatedAt": "2026-11-15T01:50:30Z"
       },
       {
         "kind": "issue",
-        "number": 199207,
-        "title": "MCP tool manifest collapses to core-only tools (e.g. only message tool survives) on \"reuse=reusable-drift:system-prompt\" session reuse path; also causes \"no active tool authority snapshot\" errors",
-        "url": "https://github.com/openclaw/openclaw/issues/199207",
+        "number": 198554,
+        "title": "[Bug]: Invalid Template MCP declarations report only \"Invalid input\"",
+        "url": "https://github.com/openclaw/openclaw/issues/198554",
         "state": "open",
-        "author": "Raso90",
-        "updatedAt": "2026-11-14T21:26:07Z"
+        "author": "anmol0b",
+        "updatedAt": "2026-11-15T01:50:08Z"
       },
       {
         "kind": "issue",
-        "number": 199209,
-        "title": "Use OpenClaw consistently for the app, reserving dashboards for the feature",
-        "url": "https://github.com/openclaw/openclaw/issues/199209",
+        "number": 199030,
+        "title": "[Bug]: updater-runtime-retention hard-links nothing (linked 0, copied 162786) when an explicit temp dir is on another Btrfs subvolume",
+        "url": "https://github.com/openclaw/openclaw/issues/199030",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-14T21:26:02Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-15T01:48:43Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 199038,
-        "title": "feat(ios): load older chat history without losing your place",
-        "url": "https://github.com/openclaw/openclaw/pull/199038",
+        "number": 197429,
+        "title": "fix(ui): keep assistant answers out of the collapsed Worked fold",
+        "url": "https://github.com/openclaw/openclaw/pull/197429",
+        "state": "open",
+        "author": "Marvinthebored",
+        "updatedAt": "2026-11-15T01:52:02Z"
+      },
+      {
+        "kind": "pr",
+        "number": 199368,
+        "title": "fix(ui): GitHub help misstates agent accounts and cloud publishing",
+        "url": "https://github.com/openclaw/openclaw/pull/199368",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-11-14T21:27:04Z"
+        "updatedAt": "2026-11-15T01:51:55Z"
       },
       {
         "kind": "pr",
-        "number": 199128,
-        "title": "fix(usage): show model attribution without stored session metadata",
-        "url": "https://github.com/openclaw/openclaw/pull/199128",
+        "number": 199371,
+        "title": "fix(ci): serialize plugin reload product fixtures",
+        "url": "https://github.com/openclaw/openclaw/pull/199371",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-15T01:51:54Z"
+      },
+      {
+        "kind": "pr",
+        "number": 199369,
+        "title": "fix(cli): surface sandbox explain blank --agent remedy in --json failures",
+        "url": "https://github.com/openclaw/openclaw/pull/199369",
+        "state": "open",
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-11-15T01:51:04Z"
+      },
+      {
+        "kind": "pr",
+        "number": 199370,
+        "title": "fix(workboard): avoid empty results before cards load",
+        "url": "https://github.com/openclaw/openclaw/pull/199370",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-11-14T21:27:03Z"
+        "updatedAt": "2026-11-15T01:51:00Z"
       },
       {
         "kind": "pr",
-        "number": 199186,
-        "title": "fix: cancel response bodies after headers with foreign signals",
-        "url": "https://github.com/openclaw/openclaw/pull/199186",
+        "number": 199343,
+        "title": "fix: message from a scheduled run to a busy Claude CLI session fails once the run ends",
+        "url": "https://github.com/openclaw/openclaw/pull/199343",
         "state": "open",
-        "author": "llbohacll",
-        "updatedAt": "2026-11-14T21:26:58Z"
-      },
-      {
-        "kind": "pr",
-        "number": 199220,
-        "title": "chore(ui): refresh control ui locales",
-        "url": "https://github.com/openclaw/openclaw/pull/199220",
-        "state": "open",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-11-14T21:26:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 199113,
-        "title": "fix(exec): agent gets one wake turn per command when background commands exit together",
-        "url": "https://github.com/openclaw/openclaw/pull/199113",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-11-14T21:26:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 199219,
-        "title": "fix(ui): saving feedback fades like an unavailable control",
-        "url": "https://github.com/openclaw/openclaw/pull/199219",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-14T21:26:43Z"
+        "author": "etzelm",
+        "updatedAt": "2026-11-15T01:50:25Z"
       }
     ]
   }

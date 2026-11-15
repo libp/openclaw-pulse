@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-15T01:52:22.642Z",
+  "generatedAt": "2026-11-15T09:19:41.362Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2043,17 +2043,17 @@
     },
     {
       "capturedOn": "2026-11-15",
-      "capturedAt": "2026-11-15T01:52:22.642Z",
-      "issueOpen": 4869,
-      "issueClosed": 59491,
-      "prOpen": 3600,
-      "prClosed": 128698,
-      "prMerged": 72027,
+      "capturedAt": "2026-11-15T09:19:41.362Z",
+      "issueOpen": 4889,
+      "issueClosed": 59505,
+      "prOpen": 3579,
+      "prClosed": 128854,
+      "prMerged": 72157,
       "workflowRuns": 40000,
-      "stars": 394462,
-      "forks": 82891,
-      "subscribers": 1686,
-      "commits": 128801,
+      "stars": 394490,
+      "forks": 82898,
+      "subscribers": 1687,
+      "commits": 128934,
       "contributors": 3802,
       "source": "github-actions",
       "approximateDate": false
@@ -2918,10 +2918,10 @@
     },
     {
       "capturedOn": "2026-11-15",
-      "stars": 394462,
-      "forks": 82891,
-      "subscribers": 1686,
-      "commits": 128801,
+      "stars": 394490,
+      "forks": 82898,
+      "subscribers": 1687,
+      "commits": 128934,
       "contributors": 3802
     }
   ],
@@ -2929,86 +2929,86 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 199364,
-        "title": "[Bug]: iOS dashboard view prevents opening the selected conversation chat",
-        "url": "https://github.com/openclaw/openclaw/issues/199364",
+        "number": 199537,
+        "title": "[Bug]: Malformed tool call is not continued when the previous tool ran and returned an error (executionStarted: true)",
+        "url": "https://github.com/openclaw/openclaw/issues/199537",
         "state": "open",
-        "author": "ajgrant6",
-        "updatedAt": "2026-11-15T01:50:30Z"
+        "author": "jaxonparrott",
+        "updatedAt": "2026-11-15T09:17:41Z"
       },
       {
         "kind": "issue",
-        "number": 198554,
-        "title": "[Bug]: Invalid Template MCP declarations report only \"Invalid input\"",
-        "url": "https://github.com/openclaw/openclaw/issues/198554",
+        "number": 196836,
+        "title": "[Bug]: Windows Node does not advertise computer.act despite Screen Capture being enabled",
+        "url": "https://github.com/openclaw/openclaw/issues/196836",
         "state": "open",
-        "author": "anmol0b",
-        "updatedAt": "2026-11-15T01:50:08Z"
+        "author": "krutpik",
+        "updatedAt": "2026-11-15T09:16:39Z"
       },
       {
         "kind": "issue",
-        "number": 199030,
-        "title": "[Bug]: updater-runtime-retention hard-links nothing (linked 0, copied 162786) when an explicit temp dir is on another Btrfs subvolume",
-        "url": "https://github.com/openclaw/openclaw/issues/199030",
+        "number": 197741,
+        "title": "[Bug]: macOS orphaned SSH git-upload-pack processes consume GBs of bandwidth; originating caller unknown",
+        "url": "https://github.com/openclaw/openclaw/issues/197741",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-15T01:48:43Z"
+        "author": "zhanghui026",
+        "updatedAt": "2026-11-15T09:14:59Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 197429,
-        "title": "fix(ui): keep assistant answers out of the collapsed Worked fold",
-        "url": "https://github.com/openclaw/openclaw/pull/197429",
-        "state": "open",
-        "author": "Marvinthebored",
-        "updatedAt": "2026-11-15T01:52:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 199368,
-        "title": "fix(ui): GitHub help misstates agent accounts and cloud publishing",
-        "url": "https://github.com/openclaw/openclaw/pull/199368",
-        "state": "open",
+        "number": 199422,
+        "title": "fix(exec): keep worker-only code out of ordinary command startup",
+        "url": "https://github.com/openclaw/openclaw/pull/199422",
+        "state": "closed",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-11-15T01:51:55Z"
+        "updatedAt": "2026-11-15T09:18:31Z"
       },
       {
         "kind": "pr",
-        "number": 199371,
-        "title": "fix(ci): serialize plugin reload product fixtures",
-        "url": "https://github.com/openclaw/openclaw/pull/199371",
+        "number": 199541,
+        "title": "fix(ui): prevent session sidebar rows overlapping after layout changes",
+        "url": "https://github.com/openclaw/openclaw/pull/199541",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-11-15T01:51:54Z"
+        "updatedAt": "2026-11-15T09:17:33Z"
       },
       {
         "kind": "pr",
-        "number": 199369,
-        "title": "fix(cli): surface sandbox explain blank --agent remedy in --json failures",
-        "url": "https://github.com/openclaw/openclaw/pull/199369",
+        "number": 199526,
+        "title": "l10n(sv): translate shared UI labels",
+        "url": "https://github.com/openclaw/openclaw/pull/199526",
         "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-11-15T01:51:04Z"
+        "author": "yeager",
+        "updatedAt": "2026-11-15T09:17:09Z"
       },
       {
         "kind": "pr",
-        "number": 199370,
-        "title": "fix(workboard): avoid empty results before cards load",
-        "url": "https://github.com/openclaw/openclaw/pull/199370",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-15T01:51:00Z"
+        "number": 199532,
+        "title": "fix(exec): keep adopted commands tracked when process inspection fails",
+        "url": "https://github.com/openclaw/openclaw/pull/199532",
+        "state": "closed",
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-15T09:16:04Z"
       },
       {
         "kind": "pr",
-        "number": 199343,
-        "title": "fix: message from a scheduled run to a busy Claude CLI session fails once the run ends",
-        "url": "https://github.com/openclaw/openclaw/pull/199343",
+        "number": 199538,
+        "title": "fix(talk): allow fresh consultations after cancellation",
+        "url": "https://github.com/openclaw/openclaw/pull/199538",
         "state": "open",
-        "author": "etzelm",
-        "updatedAt": "2026-11-15T01:50:25Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-15T09:15:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 199395,
+        "title": "fix(memory): status --json keeps disabled agents visible instead of an empty array",
+        "url": "https://github.com/openclaw/openclaw/pull/199395",
+        "state": "open",
+        "author": "mushuiyu886",
+        "updatedAt": "2026-11-15T09:14:57Z"
       }
     ]
   }

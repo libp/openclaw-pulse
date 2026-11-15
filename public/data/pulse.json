@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-15T09:19:41.362Z",
+  "generatedAt": "2026-11-15T21:45:44.882Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2043,17 +2043,17 @@
     },
     {
       "capturedOn": "2026-11-15",
-      "capturedAt": "2026-11-15T09:19:41.362Z",
-      "issueOpen": 4889,
-      "issueClosed": 59505,
-      "prOpen": 3579,
-      "prClosed": 128854,
-      "prMerged": 72157,
+      "capturedAt": "2026-11-15T21:45:44.882Z",
+      "issueOpen": 4913,
+      "issueClosed": 59543,
+      "prOpen": 3603,
+      "prClosed": 128997,
+      "prMerged": 72274,
       "workflowRuns": 40000,
-      "stars": 394490,
-      "forks": 82898,
-      "subscribers": 1687,
-      "commits": 128934,
+      "stars": 394527,
+      "forks": 82894,
+      "subscribers": 1686,
+      "commits": 129051,
       "contributors": 3802,
       "source": "github-actions",
       "approximateDate": false
@@ -2918,10 +2918,10 @@
     },
     {
       "capturedOn": "2026-11-15",
-      "stars": 394490,
-      "forks": 82898,
-      "subscribers": 1687,
-      "commits": 128934,
+      "stars": 394527,
+      "forks": 82894,
+      "subscribers": 1686,
+      "commits": 129051,
       "contributors": 3802
     }
   ],
@@ -2929,86 +2929,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 199537,
-        "title": "[Bug]: Malformed tool call is not continued when the previous tool ran and returned an error (executionStarted: true)",
-        "url": "https://github.com/openclaw/openclaw/issues/199537",
+        "number": 153853,
+        "title": "[Bug]: Behavior bug (incorrect output/state without crash) — hang/timeout, no crash",
+        "url": "https://github.com/openclaw/openclaw/issues/153853",
         "state": "open",
-        "author": "jaxonparrott",
-        "updatedAt": "2026-11-15T09:17:41Z"
+        "author": "bbj8627pnt-cmd",
+        "updatedAt": "2026-11-15T21:43:04Z"
       },
       {
         "kind": "issue",
-        "number": 196836,
-        "title": "[Bug]: Windows Node does not advertise computer.act despite Screen Capture being enabled",
-        "url": "https://github.com/openclaw/openclaw/issues/196836",
+        "number": 159799,
+        "title": "[Bug] Byte-capped history hydration slides the transcript window by one event per turn, which busts local prefix caches on every turn and silently drops context below the token budget",
+        "url": "https://github.com/openclaw/openclaw/issues/159799",
         "state": "open",
-        "author": "krutpik",
-        "updatedAt": "2026-11-15T09:16:39Z"
+        "author": "8bitsforge",
+        "updatedAt": "2026-11-15T21:42:33Z"
       },
       {
         "kind": "issue",
-        "number": 197741,
-        "title": "[Bug]: macOS orphaned SSH git-upload-pack processes consume GBs of bandwidth; originating caller unknown",
-        "url": "https://github.com/openclaw/openclaw/issues/197741",
+        "number": 163564,
+        "title": "[Bug]: Completed terminal assistant reply can render without Reply/Copy actions",
+        "url": "https://github.com/openclaw/openclaw/issues/163564",
         "state": "open",
-        "author": "zhanghui026",
-        "updatedAt": "2026-11-15T09:14:59Z"
+        "author": "samiralibabic",
+        "updatedAt": "2026-11-15T21:42:09Z"
+      },
+      {
+        "kind": "issue",
+        "number": 199437,
+        "title": "[Bug]: BOOT.md echo guard materializes every 80/81-character window and throws above ~8 MiB",
+        "url": "https://github.com/openclaw/openclaw/issues/199437",
+        "state": "closed",
+        "author": "hpyhandsome",
+        "updatedAt": "2026-11-15T21:41:06Z"
+      },
+      {
+        "kind": "issue",
+        "number": 191476,
+        "title": "[Bug]: Matrix room stuck on \"Plugin matrix consumer is closed\" after image_generate completion run races a new inbound message",
+        "url": "https://github.com/openclaw/openclaw/issues/191476",
+        "state": "open",
+        "author": "hartmark",
+        "updatedAt": "2026-11-15T21:40:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 161158,
+        "title": "[Bug]: `gateway restart` reports failure and exits 0 on restarts that succeed — 60s readiness budget is hardcoded and not configurable",
+        "url": "https://github.com/openclaw/openclaw/issues/161158",
+        "state": "open",
+        "author": "Angelojiang11",
+        "updatedAt": "2026-11-15T21:40:54Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 199422,
-        "title": "fix(exec): keep worker-only code out of ordinary command startup",
-        "url": "https://github.com/openclaw/openclaw/pull/199422",
-        "state": "closed",
+        "number": 199210,
+        "title": "fix: prediction settings incorrectly promise no model fallback",
+        "url": "https://github.com/openclaw/openclaw/pull/199210",
+        "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-11-15T09:18:31Z"
+        "updatedAt": "2026-11-15T21:45:22Z"
       },
       {
         "kind": "pr",
-        "number": 199541,
-        "title": "fix(ui): prevent session sidebar rows overlapping after layout changes",
-        "url": "https://github.com/openclaw/openclaw/pull/199541",
+        "number": 141004,
+        "title": "feat(audit): record observed runtime skill usage",
+        "url": "https://github.com/openclaw/openclaw/pull/141004",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-15T09:17:33Z"
+        "author": "wiecon-dev",
+        "updatedAt": "2026-11-15T21:45:38Z"
       },
       {
         "kind": "pr",
-        "number": 199526,
-        "title": "l10n(sv): translate shared UI labels",
-        "url": "https://github.com/openclaw/openclaw/pull/199526",
+        "number": 199706,
+        "title": "feat(update): run Git checkout installs from releases behind the release link",
+        "url": "https://github.com/openclaw/openclaw/pull/199706",
         "state": "open",
-        "author": "yeager",
-        "updatedAt": "2026-11-15T09:17:09Z"
+        "author": "obviyus",
+        "updatedAt": "2026-11-15T21:43:55Z"
       },
       {
         "kind": "pr",
-        "number": 199532,
-        "title": "fix(exec): keep adopted commands tracked when process inspection fails",
-        "url": "https://github.com/openclaw/openclaw/pull/199532",
-        "state": "closed",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-15T09:16:04Z"
-      },
-      {
-        "kind": "pr",
-        "number": 199538,
-        "title": "fix(talk): allow fresh consultations after cancellation",
-        "url": "https://github.com/openclaw/openclaw/pull/199538",
+        "number": 199741,
+        "title": "feat(ios): add built-in theme and accent preferences",
+        "url": "https://github.com/openclaw/openclaw/pull/199741",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-15T09:15:59Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-15T21:42:30Z"
       },
       {
         "kind": "pr",
-        "number": 199395,
-        "title": "fix(memory): status --json keeps disabled agents visible instead of an empty array",
-        "url": "https://github.com/openclaw/openclaw/pull/199395",
+        "number": 199767,
+        "title": "feat(diagnostics): attribute session actor authority payload bytes",
+        "url": "https://github.com/openclaw/openclaw/pull/199767",
         "state": "open",
-        "author": "mushuiyu886",
-        "updatedAt": "2026-11-15T09:14:57Z"
+        "author": "steipete",
+        "updatedAt": "2026-11-15T21:42:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 199770,
+        "title": "fix(state): leave Git release installations out of the startup upgrade copy",
+        "url": "https://github.com/openclaw/openclaw/pull/199770",
+        "state": "open",
+        "author": "obviyus",
+        "updatedAt": "2026-11-15T21:42:15Z"
       }
     ]
   }

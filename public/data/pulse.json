@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-16T02:01:30.219Z",
+  "generatedAt": "2026-11-16T09:36:36.462Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2060,17 +2060,17 @@
     },
     {
       "capturedOn": "2026-11-16",
-      "capturedAt": "2026-11-16T02:01:30.219Z",
-      "issueOpen": 4908,
-      "issueClosed": 59568,
-      "prOpen": 3597,
-      "prClosed": 129103,
-      "prMerged": 72377,
+      "capturedAt": "2026-11-16T09:36:36.462Z",
+      "issueOpen": 4919,
+      "issueClosed": 59598,
+      "prOpen": 3367,
+      "prClosed": 129462,
+      "prMerged": 72463,
       "workflowRuns": 40000,
-      "stars": 394532,
-      "forks": 82893,
+      "stars": 394555,
+      "forks": 82901,
       "subscribers": 1687,
-      "commits": 129154,
+      "commits": 129243,
       "contributors": 3801,
       "source": "github-actions",
       "approximateDate": false
@@ -2943,10 +2943,10 @@
     },
     {
       "capturedOn": "2026-11-16",
-      "stars": 394532,
-      "forks": 82893,
+      "stars": 394555,
+      "forks": 82901,
       "subscribers": 1687,
-      "commits": 129154,
+      "commits": 129243,
       "contributors": 3801
     }
   ],
@@ -2954,113 +2954,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 199875,
-        "title": "Control UI: a connection that died while you were in another app is not replaced for 40 s or more",
-        "url": "https://github.com/openclaw/openclaw/issues/199875",
+        "number": 200045,
+        "title": "[Bug]: Slack: after a native progress stream expires (10-min limit), buffered progress narration posts as a separate message after the final reply",
+        "url": "https://github.com/openclaw/openclaw/issues/200045",
         "state": "open",
-        "author": "daniel-lxs",
-        "updatedAt": "2026-11-16T02:00:35Z"
+        "author": "atlas-kring",
+        "updatedAt": "2026-11-16T09:36:05Z"
       },
       {
         "kind": "issue",
-        "number": 199888,
-        "title": "Gateway memory import writes its pre-import backup to the Gateway's working directory",
-        "url": "https://github.com/openclaw/openclaw/issues/199888",
+        "number": 197741,
+        "title": "[Bug]: macOS orphaned SSH git-upload-pack processes consume GBs of bandwidth; originating caller unknown",
+        "url": "https://github.com/openclaw/openclaw/issues/197741",
         "state": "open",
-        "author": "daniel-lxs",
-        "updatedAt": "2026-11-16T02:00:14Z"
+        "author": "zhanghui026",
+        "updatedAt": "2026-11-16T09:35:46Z"
       },
       {
         "kind": "issue",
-        "number": 199883,
-        "title": "OpenRouter image provider drops aspectRatio/resolution for non-Gemini models (e.g. Seedream 5.5 always square)",
-        "url": "https://github.com/openclaw/openclaw/issues/199883",
+        "number": 200047,
+        "title": "[Feature]: bound cron run history by bytes and store each run's summary once",
+        "url": "https://github.com/openclaw/openclaw/issues/200047",
         "state": "open",
-        "author": "brettdaman",
-        "updatedAt": "2026-11-16T01:59:33Z"
+        "author": "nvoitovych",
+        "updatedAt": "2026-11-16T09:35:29Z"
       },
       {
         "kind": "issue",
-        "number": 199886,
-        "title": "[Bug]: Inbound Twilio call is accepted but returns only a silent 30-second pause",
-        "url": "https://github.com/openclaw/openclaw/issues/199886",
+        "number": 200055,
+        "title": "[Bug]: Feishu: two OpenClaw bots in one group loop forever (forced mention of bot sender + mention requires visible reply)",
+        "url": "https://github.com/openclaw/openclaw/issues/200055",
         "state": "open",
-        "author": "DonnieFi",
-        "updatedAt": "2026-11-16T01:59:08Z"
-      },
-      {
-        "kind": "issue",
-        "number": 199885,
-        "title": "Docs: make inbound Twilio setup explicit in Voice Call quick start",
-        "url": "https://github.com/openclaw/openclaw/issues/199885",
-        "state": "open",
-        "author": "DonnieFi",
-        "updatedAt": "2026-11-16T01:58:11Z"
-      },
-      {
-        "kind": "issue",
-        "number": 191104,
-        "title": "[Bug]: Prolonged event-loop starvation during multi-agent model publication despite progressing admission",
-        "url": "https://github.com/openclaw/openclaw/issues/191104",
-        "state": "open",
-        "author": "fr4nkastro",
-        "updatedAt": "2026-11-16T01:57:57Z"
+        "author": "phoenixyy",
+        "updatedAt": "2026-11-16T09:32:19Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 199884,
-        "title": "fix(cli): cancel interrupted approvals reads",
-        "url": "https://github.com/openclaw/openclaw/pull/199884",
-        "state": "open",
-        "author": "huwei-xydt",
-        "updatedAt": "2026-11-16T02:01:14Z"
+        "number": 200046,
+        "title": "fix(agents): keep a yielded subagent's command wakes on its task after a follow-up run",
+        "url": "https://github.com/openclaw/openclaw/pull/200046",
+        "state": "closed",
+        "author": "obviyus",
+        "updatedAt": "2026-11-16T09:36:30Z"
       },
       {
         "kind": "pr",
-        "number": 199709,
-        "title": "fix(cli): avoid slow help with empty plugin config",
-        "url": "https://github.com/openclaw/openclaw/pull/199709",
+        "number": 200053,
+        "title": "fix(discord): preserve user mentions inside code",
+        "url": "https://github.com/openclaw/openclaw/pull/200053",
         "state": "open",
-        "author": "hehuang139",
-        "updatedAt": "2026-11-16T02:00:16Z"
+        "author": "obviyus",
+        "updatedAt": "2026-11-16T09:36:22Z"
       },
       {
         "kind": "pr",
-        "number": 199890,
-        "title": "fix: load earlier chat messages when upward input interrupts Latest",
-        "url": "https://github.com/openclaw/openclaw/pull/199890",
+        "number": 200041,
+        "title": "fix(openrouter): non-Gemini image models ignore the requested aspect ratio",
+        "url": "https://github.com/openclaw/openclaw/pull/200041",
+        "state": "open",
+        "author": "brettdaman",
+        "updatedAt": "2026-11-16T09:36:31Z"
+      },
+      {
+        "kind": "pr",
+        "number": 200057,
+        "title": "fix: workspace retries create redundant recovery journals",
+        "url": "https://github.com/openclaw/openclaw/pull/200057",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-11-16T01:59:29Z"
+        "updatedAt": "2026-11-16T09:35:40Z"
       },
       {
         "kind": "pr",
-        "number": 199215,
-        "title": "fix(ui): publication status checks look idle while pending",
-        "url": "https://github.com/openclaw/openclaw/pull/199215",
-        "state": "closed",
+        "number": 197300,
+        "title": "docs: add v2026.11.4 patch release notes",
+        "url": "https://github.com/openclaw/openclaw/pull/197300",
+        "state": "open",
+        "author": "hannesrudolph",
+        "updatedAt": "2026-11-16T09:35:34Z"
+      },
+      {
+        "kind": "pr",
+        "number": 199677,
+        "title": "fix: keep iPad keyboard accessory clear of composer actions",
+        "url": "https://github.com/openclaw/openclaw/pull/199677",
+        "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-11-16T01:58:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 199869,
-        "title": "fix(cli): surface backup restore guard remedies in --json failures",
-        "url": "https://github.com/openclaw/openclaw/pull/199869",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-11-16T01:58:42Z"
-      },
-      {
-        "kind": "pr",
-        "number": 199700,
-        "title": "fix(plugins): prevent SDK replies from using retired runtime state",
-        "url": "https://github.com/openclaw/openclaw/pull/199700",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-16T01:58:12Z"
+        "updatedAt": "2026-11-16T09:35:25Z"
       }
     ]
   }

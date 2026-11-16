@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-16T09:36:36.462Z",
+  "generatedAt": "2026-11-16T20:26:16.842Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2060,18 +2060,18 @@
     },
     {
       "capturedOn": "2026-11-16",
-      "capturedAt": "2026-11-16T09:36:36.462Z",
+      "capturedAt": "2026-11-16T20:26:16.842Z",
       "issueOpen": 4919,
-      "issueClosed": 59598,
-      "prOpen": 3367,
-      "prClosed": 129462,
-      "prMerged": 72463,
+      "issueClosed": 59644,
+      "prOpen": 3330,
+      "prClosed": 129631,
+      "prMerged": 72577,
       "workflowRuns": 40000,
-      "stars": 394555,
-      "forks": 82901,
-      "subscribers": 1687,
-      "commits": 129243,
-      "contributors": 3801,
+      "stars": 394595,
+      "forks": 82908,
+      "subscribers": 1686,
+      "commits": 129358,
+      "contributors": 3802,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2943,106 +2943,88 @@
     },
     {
       "capturedOn": "2026-11-16",
-      "stars": 394555,
-      "forks": 82901,
-      "subscribers": 1687,
-      "commits": 129243,
-      "contributors": 3801
+      "stars": 394595,
+      "forks": 82908,
+      "subscribers": 1686,
+      "commits": 129358,
+      "contributors": 3802
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 200045,
-        "title": "[Bug]: Slack: after a native progress stream expires (10-min limit), buffered progress narration posts as a separate message after the final reply",
-        "url": "https://github.com/openclaw/openclaw/issues/200045",
+        "number": 200248,
+        "title": "[Bug]: 2026.11.3 and 2026.11.4 lack the merged fix #180692 — Dreaming light phase fails nightly with 'worker task timed out'",
+        "url": "https://github.com/openclaw/openclaw/issues/200248",
         "state": "open",
-        "author": "atlas-kring",
-        "updatedAt": "2026-11-16T09:36:05Z"
+        "author": "alexph-dev",
+        "updatedAt": "2026-11-16T20:26:02Z"
       },
       {
         "kind": "issue",
-        "number": 197741,
-        "title": "[Bug]: macOS orphaned SSH git-upload-pack processes consume GBs of bandwidth; originating caller unknown",
-        "url": "https://github.com/openclaw/openclaw/issues/197741",
-        "state": "open",
-        "author": "zhanghui026",
-        "updatedAt": "2026-11-16T09:35:46Z"
-      },
-      {
-        "kind": "issue",
-        "number": 200047,
-        "title": "[Feature]: bound cron run history by bytes and store each run's summary once",
-        "url": "https://github.com/openclaw/openclaw/issues/200047",
-        "state": "open",
-        "author": "nvoitovych",
-        "updatedAt": "2026-11-16T09:35:29Z"
-      },
-      {
-        "kind": "issue",
-        "number": 200055,
-        "title": "[Bug]: Feishu: two OpenClaw bots in one group loop forever (forced mention of bot sender + mention requires visible reply)",
-        "url": "https://github.com/openclaw/openclaw/issues/200055",
-        "state": "open",
-        "author": "phoenixyy",
-        "updatedAt": "2026-11-16T09:32:19Z"
+        "number": 199107,
+        "title": "Signal: links with non-English characters are shown twice",
+        "url": "https://github.com/openclaw/openclaw/issues/199107",
+        "state": "closed",
+        "author": "udsy19",
+        "updatedAt": "2026-11-16T20:23:46Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 200046,
-        "title": "fix(agents): keep a yielded subagent's command wakes on its task after a follow-up run",
-        "url": "https://github.com/openclaw/openclaw/pull/200046",
-        "state": "closed",
-        "author": "obviyus",
-        "updatedAt": "2026-11-16T09:36:30Z"
-      },
-      {
-        "kind": "pr",
-        "number": 200053,
-        "title": "fix(discord): preserve user mentions inside code",
-        "url": "https://github.com/openclaw/openclaw/pull/200053",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-11-16T09:36:22Z"
-      },
-      {
-        "kind": "pr",
-        "number": 200041,
-        "title": "fix(openrouter): non-Gemini image models ignore the requested aspect ratio",
-        "url": "https://github.com/openclaw/openclaw/pull/200041",
-        "state": "open",
-        "author": "brettdaman",
-        "updatedAt": "2026-11-16T09:36:31Z"
-      },
-      {
-        "kind": "pr",
-        "number": 200057,
-        "title": "fix: workspace retries create redundant recovery journals",
-        "url": "https://github.com/openclaw/openclaw/pull/200057",
-        "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-11-16T09:35:40Z"
-      },
-      {
-        "kind": "pr",
-        "number": 197300,
-        "title": "docs: add v2026.11.4 patch release notes",
-        "url": "https://github.com/openclaw/openclaw/pull/197300",
-        "state": "open",
-        "author": "hannesrudolph",
-        "updatedAt": "2026-11-16T09:35:34Z"
-      },
-      {
-        "kind": "pr",
-        "number": 199677,
-        "title": "fix: keep iPad keyboard accessory clear of composer actions",
-        "url": "https://github.com/openclaw/openclaw/pull/199677",
+        "number": 197402,
+        "title": "feat: recommend agent tasks during template setup and new chats",
+        "url": "https://github.com/openclaw/openclaw/pull/197402",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-11-16T09:35:25Z"
+        "updatedAt": "2026-11-16T20:26:08Z"
+      },
+      {
+        "kind": "pr",
+        "number": 198550,
+        "title": "fix(tavily): allow a baseUrl override on a private or internal host",
+        "url": "https://github.com/openclaw/openclaw/pull/198550",
+        "state": "open",
+        "author": "n1hility",
+        "updatedAt": "2026-11-16T20:25:10Z"
+      },
+      {
+        "kind": "pr",
+        "number": 200245,
+        "title": "test(research): expect lifecycle-only changes to keep transcript jobs",
+        "url": "https://github.com/openclaw/openclaw/pull/200245",
+        "state": "open",
+        "author": "jalehman",
+        "updatedAt": "2026-11-16T20:24:34Z"
+      },
+      {
+        "kind": "pr",
+        "number": 199109,
+        "title": "fix(signal): links with non-English characters are shown twice",
+        "url": "https://github.com/openclaw/openclaw/pull/199109",
+        "state": "closed",
+        "author": "udsy19",
+        "updatedAt": "2026-11-16T20:23:48Z"
+      },
+      {
+        "kind": "pr",
+        "number": 200236,
+        "title": "fix(github): let PR contributors continue work across sessions",
+        "url": "https://github.com/openclaw/openclaw/pull/200236",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-16T20:23:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 200235,
+        "title": "fix(ui): show dictation progress and preserve pending transcripts",
+        "url": "https://github.com/openclaw/openclaw/pull/200235",
+        "state": "open",
+        "author": "daniel-lxs",
+        "updatedAt": "2026-11-16T20:23:19Z"
       }
     ]
   }

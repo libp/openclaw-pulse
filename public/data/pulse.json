@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-15T21:45:44.882Z",
+  "generatedAt": "2026-11-16T02:01:30.219Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2057,6 +2057,23 @@
       "contributors": 3802,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-16",
+      "capturedAt": "2026-11-16T02:01:30.219Z",
+      "issueOpen": 4908,
+      "issueClosed": 59568,
+      "prOpen": 3597,
+      "prClosed": 129103,
+      "prMerged": 72377,
+      "workflowRuns": 40000,
+      "stars": 394532,
+      "forks": 82893,
+      "subscribers": 1687,
+      "commits": 129154,
+      "contributors": 3801,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2923,119 +2940,127 @@
       "subscribers": 1686,
       "commits": 129051,
       "contributors": 3802
+    },
+    {
+      "capturedOn": "2026-11-16",
+      "stars": 394532,
+      "forks": 82893,
+      "subscribers": 1687,
+      "commits": 129154,
+      "contributors": 3801
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 153853,
-        "title": "[Bug]: Behavior bug (incorrect output/state without crash) — hang/timeout, no crash",
-        "url": "https://github.com/openclaw/openclaw/issues/153853",
+        "number": 199875,
+        "title": "Control UI: a connection that died while you were in another app is not replaced for 40 s or more",
+        "url": "https://github.com/openclaw/openclaw/issues/199875",
         "state": "open",
-        "author": "bbj8627pnt-cmd",
-        "updatedAt": "2026-11-15T21:43:04Z"
+        "author": "daniel-lxs",
+        "updatedAt": "2026-11-16T02:00:35Z"
       },
       {
         "kind": "issue",
-        "number": 159799,
-        "title": "[Bug] Byte-capped history hydration slides the transcript window by one event per turn, which busts local prefix caches on every turn and silently drops context below the token budget",
-        "url": "https://github.com/openclaw/openclaw/issues/159799",
+        "number": 199888,
+        "title": "Gateway memory import writes its pre-import backup to the Gateway's working directory",
+        "url": "https://github.com/openclaw/openclaw/issues/199888",
         "state": "open",
-        "author": "8bitsforge",
-        "updatedAt": "2026-11-15T21:42:33Z"
+        "author": "daniel-lxs",
+        "updatedAt": "2026-11-16T02:00:14Z"
       },
       {
         "kind": "issue",
-        "number": 163564,
-        "title": "[Bug]: Completed terminal assistant reply can render without Reply/Copy actions",
-        "url": "https://github.com/openclaw/openclaw/issues/163564",
+        "number": 199883,
+        "title": "OpenRouter image provider drops aspectRatio/resolution for non-Gemini models (e.g. Seedream 5.5 always square)",
+        "url": "https://github.com/openclaw/openclaw/issues/199883",
         "state": "open",
-        "author": "samiralibabic",
-        "updatedAt": "2026-11-15T21:42:09Z"
+        "author": "brettdaman",
+        "updatedAt": "2026-11-16T01:59:33Z"
       },
       {
         "kind": "issue",
-        "number": 199437,
-        "title": "[Bug]: BOOT.md echo guard materializes every 80/81-character window and throws above ~8 MiB",
-        "url": "https://github.com/openclaw/openclaw/issues/199437",
-        "state": "closed",
-        "author": "hpyhandsome",
-        "updatedAt": "2026-11-15T21:41:06Z"
+        "number": 199886,
+        "title": "[Bug]: Inbound Twilio call is accepted but returns only a silent 30-second pause",
+        "url": "https://github.com/openclaw/openclaw/issues/199886",
+        "state": "open",
+        "author": "DonnieFi",
+        "updatedAt": "2026-11-16T01:59:08Z"
       },
       {
         "kind": "issue",
-        "number": 191476,
-        "title": "[Bug]: Matrix room stuck on \"Plugin matrix consumer is closed\" after image_generate completion run races a new inbound message",
-        "url": "https://github.com/openclaw/openclaw/issues/191476",
+        "number": 199885,
+        "title": "Docs: make inbound Twilio setup explicit in Voice Call quick start",
+        "url": "https://github.com/openclaw/openclaw/issues/199885",
         "state": "open",
-        "author": "hartmark",
-        "updatedAt": "2026-11-15T21:40:55Z"
+        "author": "DonnieFi",
+        "updatedAt": "2026-11-16T01:58:11Z"
       },
       {
         "kind": "issue",
-        "number": 161158,
-        "title": "[Bug]: `gateway restart` reports failure and exits 0 on restarts that succeed — 60s readiness budget is hardcoded and not configurable",
-        "url": "https://github.com/openclaw/openclaw/issues/161158",
+        "number": 191104,
+        "title": "[Bug]: Prolonged event-loop starvation during multi-agent model publication despite progressing admission",
+        "url": "https://github.com/openclaw/openclaw/issues/191104",
         "state": "open",
-        "author": "Angelojiang11",
-        "updatedAt": "2026-11-15T21:40:54Z"
+        "author": "fr4nkastro",
+        "updatedAt": "2026-11-16T01:57:57Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 199210,
-        "title": "fix: prediction settings incorrectly promise no model fallback",
-        "url": "https://github.com/openclaw/openclaw/pull/199210",
+        "number": 199884,
+        "title": "fix(cli): cancel interrupted approvals reads",
+        "url": "https://github.com/openclaw/openclaw/pull/199884",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-15T21:45:22Z"
+        "author": "huwei-xydt",
+        "updatedAt": "2026-11-16T02:01:14Z"
       },
       {
         "kind": "pr",
-        "number": 141004,
-        "title": "feat(audit): record observed runtime skill usage",
-        "url": "https://github.com/openclaw/openclaw/pull/141004",
+        "number": 199709,
+        "title": "fix(cli): avoid slow help with empty plugin config",
+        "url": "https://github.com/openclaw/openclaw/pull/199709",
         "state": "open",
-        "author": "wiecon-dev",
-        "updatedAt": "2026-11-15T21:45:38Z"
+        "author": "hehuang139",
+        "updatedAt": "2026-11-16T02:00:16Z"
       },
       {
         "kind": "pr",
-        "number": 199706,
-        "title": "feat(update): run Git checkout installs from releases behind the release link",
-        "url": "https://github.com/openclaw/openclaw/pull/199706",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-11-15T21:43:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 199741,
-        "title": "feat(ios): add built-in theme and accent preferences",
-        "url": "https://github.com/openclaw/openclaw/pull/199741",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-15T21:42:30Z"
-      },
-      {
-        "kind": "pr",
-        "number": 199767,
-        "title": "feat(diagnostics): attribute session actor authority payload bytes",
-        "url": "https://github.com/openclaw/openclaw/pull/199767",
+        "number": 199890,
+        "title": "fix: load earlier chat messages when upward input interrupts Latest",
+        "url": "https://github.com/openclaw/openclaw/pull/199890",
         "state": "open",
         "author": "steipete",
-        "updatedAt": "2026-11-15T21:42:25Z"
+        "updatedAt": "2026-11-16T01:59:29Z"
       },
       {
         "kind": "pr",
-        "number": 199770,
-        "title": "fix(state): leave Git release installations out of the startup upgrade copy",
-        "url": "https://github.com/openclaw/openclaw/pull/199770",
+        "number": 199215,
+        "title": "fix(ui): publication status checks look idle while pending",
+        "url": "https://github.com/openclaw/openclaw/pull/199215",
+        "state": "closed",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-16T01:58:57Z"
+      },
+      {
+        "kind": "pr",
+        "number": 199869,
+        "title": "fix(cli): surface backup restore guard remedies in --json failures",
+        "url": "https://github.com/openclaw/openclaw/pull/199869",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-11-15T21:42:15Z"
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-11-16T01:58:42Z"
+      },
+      {
+        "kind": "pr",
+        "number": 199700,
+        "title": "fix(plugins): prevent SDK replies from using retired runtime state",
+        "url": "https://github.com/openclaw/openclaw/pull/199700",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-16T01:58:12Z"
       }
     ]
   }

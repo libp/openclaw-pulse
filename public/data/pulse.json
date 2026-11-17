@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-17T03:49:14.490Z",
+  "generatedAt": "2026-11-17T22:18:29.942Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2077,18 +2077,18 @@
     },
     {
       "capturedOn": "2026-11-17",
-      "capturedAt": "2026-11-17T03:49:14.490Z",
-      "issueOpen": 4935,
-      "issueClosed": 59659,
-      "prOpen": 3318,
-      "prClosed": 129759,
-      "prMerged": 72663,
+      "capturedAt": "2026-11-17T22:18:29.942Z",
+      "issueOpen": 4965,
+      "issueClosed": 59747,
+      "prOpen": 3298,
+      "prClosed": 130083,
+      "prMerged": 72932,
       "workflowRuns": 40000,
-      "stars": 394609,
-      "forks": 82910,
-      "subscribers": 1686,
-      "commits": 129440,
-      "contributors": 3802,
+      "stars": 394681,
+      "forks": 82922,
+      "subscribers": 1688,
+      "commits": 129710,
+      "contributors": 3804,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -2968,69 +2968,79 @@
     },
     {
       "capturedOn": "2026-11-17",
-      "stars": 394609,
-      "forks": 82910,
-      "subscribers": 1686,
-      "commits": 129440,
-      "contributors": 3802
+      "stars": 394681,
+      "forks": 82922,
+      "subscribers": 1688,
+      "commits": 129710,
+      "contributors": 3804
     }
   ],
   "activity": {
-    "issues": [],
+    "issues": [
+      {
+        "kind": "issue",
+        "number": 200815,
+        "title": "Update failure: package-update (2026.11.2)",
+        "url": "https://github.com/openclaw/openclaw/issues/200815",
+        "state": "open",
+        "author": "patrickschiller",
+        "updatedAt": "2026-11-17T22:14:22Z"
+      }
+    ],
     "prs": [
       {
         "kind": "pr",
-        "number": 200383,
-        "title": "fix: let agents move back from PostgreSQL to SQLite after an update",
-        "url": "https://github.com/openclaw/openclaw/pull/200383",
+        "number": 200329,
+        "title": "fix(ui): guide Chat to setup when no model is connected",
+        "url": "https://github.com/openclaw/openclaw/pull/200329",
         "state": "open",
-        "author": "etzelm",
-        "updatedAt": "2026-11-17T03:49:04Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-17T22:18:18Z"
       },
       {
         "kind": "pr",
-        "number": 184515,
-        "title": "feat(auth): enable guests to access sessions through selected mentions",
-        "url": "https://github.com/openclaw/openclaw/pull/184515",
+        "number": 187360,
+        "title": "fix: show provider usage for model API key SecretRefs",
+        "url": "https://github.com/openclaw/openclaw/pull/187360",
+        "state": "open",
+        "author": "wyf027",
+        "updatedAt": "2026-11-17T22:18:13Z"
+      },
+      {
+        "kind": "pr",
+        "number": 200814,
+        "title": "fix(ui): align empty model setup beside Dictate",
+        "url": "https://github.com/openclaw/openclaw/pull/200814",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-11-17T03:48:56Z"
+        "updatedAt": "2026-11-17T22:18:05Z"
       },
       {
         "kind": "pr",
-        "number": 200343,
-        "title": "improve(ui): show plugin card installation and connection states",
-        "url": "https://github.com/openclaw/openclaw/pull/200343",
+        "number": 200813,
+        "title": "fix: let nightly validation admit its bundle client",
+        "url": "https://github.com/openclaw/openclaw/pull/200813",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-17T22:18:05Z"
+      },
+      {
+        "kind": "pr",
+        "number": 199833,
+        "title": "fix(ui): give Systems its own sidebar header",
+        "url": "https://github.com/openclaw/openclaw/pull/199833",
+        "state": "open",
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-11-17T22:17:59Z"
+      },
+      {
+        "kind": "pr",
+        "number": 200784,
+        "title": "fix: update bundled Codex for newer ChatGPT models",
+        "url": "https://github.com/openclaw/openclaw/pull/200784",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-11-17T03:48:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 200372,
-        "title": "fix(agents): preserve published catalog in setup probes",
-        "url": "https://github.com/openclaw/openclaw/pull/200372",
-        "state": "open",
-        "author": "RomneyDa",
-        "updatedAt": "2026-11-17T03:48:46Z"
-      },
-      {
-        "kind": "pr",
-        "number": 200392,
-        "title": "fix: chat plugin installs reject Git and third-party npm sources",
-        "url": "https://github.com/openclaw/openclaw/pull/200392",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-17T03:48:33Z"
-      },
-      {
-        "kind": "pr",
-        "number": 200382,
-        "title": "refactor: retire obsolete agent command policy mocks",
-        "url": "https://github.com/openclaw/openclaw/pull/200382",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-17T03:48:19Z"
+        "updatedAt": "2026-11-17T22:17:48Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-16T20:26:16.842Z",
+  "generatedAt": "2026-11-17T03:49:14.490Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2074,6 +2074,23 @@
       "contributors": 3802,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-17",
+      "capturedAt": "2026-11-17T03:49:14.490Z",
+      "issueOpen": 4935,
+      "issueClosed": 59659,
+      "prOpen": 3318,
+      "prClosed": 129759,
+      "prMerged": 72663,
+      "workflowRuns": 40000,
+      "stars": 394609,
+      "forks": 82910,
+      "subscribers": 1686,
+      "commits": 129440,
+      "contributors": 3802,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2948,83 +2965,72 @@
       "subscribers": 1686,
       "commits": 129358,
       "contributors": 3802
+    },
+    {
+      "capturedOn": "2026-11-17",
+      "stars": 394609,
+      "forks": 82910,
+      "subscribers": 1686,
+      "commits": 129440,
+      "contributors": 3802
     }
   ],
   "activity": {
-    "issues": [
-      {
-        "kind": "issue",
-        "number": 200248,
-        "title": "[Bug]: 2026.11.3 and 2026.11.4 lack the merged fix #180692 — Dreaming light phase fails nightly with 'worker task timed out'",
-        "url": "https://github.com/openclaw/openclaw/issues/200248",
-        "state": "open",
-        "author": "alexph-dev",
-        "updatedAt": "2026-11-16T20:26:02Z"
-      },
-      {
-        "kind": "issue",
-        "number": 199107,
-        "title": "Signal: links with non-English characters are shown twice",
-        "url": "https://github.com/openclaw/openclaw/issues/199107",
-        "state": "closed",
-        "author": "udsy19",
-        "updatedAt": "2026-11-16T20:23:46Z"
-      }
-    ],
+    "issues": [],
     "prs": [
       {
         "kind": "pr",
-        "number": 197402,
-        "title": "feat: recommend agent tasks during template setup and new chats",
-        "url": "https://github.com/openclaw/openclaw/pull/197402",
+        "number": 200383,
+        "title": "fix: let agents move back from PostgreSQL to SQLite after an update",
+        "url": "https://github.com/openclaw/openclaw/pull/200383",
+        "state": "open",
+        "author": "etzelm",
+        "updatedAt": "2026-11-17T03:49:04Z"
+      },
+      {
+        "kind": "pr",
+        "number": 184515,
+        "title": "feat(auth): enable guests to access sessions through selected mentions",
+        "url": "https://github.com/openclaw/openclaw/pull/184515",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-17T03:48:56Z"
+      },
+      {
+        "kind": "pr",
+        "number": 200343,
+        "title": "improve(ui): show plugin card installation and connection states",
+        "url": "https://github.com/openclaw/openclaw/pull/200343",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-11-16T20:26:08Z"
+        "updatedAt": "2026-11-17T03:48:55Z"
       },
       {
         "kind": "pr",
-        "number": 198550,
-        "title": "fix(tavily): allow a baseUrl override on a private or internal host",
-        "url": "https://github.com/openclaw/openclaw/pull/198550",
+        "number": 200372,
+        "title": "fix(agents): preserve published catalog in setup probes",
+        "url": "https://github.com/openclaw/openclaw/pull/200372",
         "state": "open",
-        "author": "n1hility",
-        "updatedAt": "2026-11-16T20:25:10Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-11-17T03:48:46Z"
       },
       {
         "kind": "pr",
-        "number": 200245,
-        "title": "test(research): expect lifecycle-only changes to keep transcript jobs",
-        "url": "https://github.com/openclaw/openclaw/pull/200245",
-        "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-11-16T20:24:34Z"
-      },
-      {
-        "kind": "pr",
-        "number": 199109,
-        "title": "fix(signal): links with non-English characters are shown twice",
-        "url": "https://github.com/openclaw/openclaw/pull/199109",
-        "state": "closed",
-        "author": "udsy19",
-        "updatedAt": "2026-11-16T20:23:48Z"
-      },
-      {
-        "kind": "pr",
-        "number": 200236,
-        "title": "fix(github): let PR contributors continue work across sessions",
-        "url": "https://github.com/openclaw/openclaw/pull/200236",
+        "number": 200392,
+        "title": "fix: chat plugin installs reject Git and third-party npm sources",
+        "url": "https://github.com/openclaw/openclaw/pull/200392",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-11-16T20:23:36Z"
+        "updatedAt": "2026-11-17T03:48:33Z"
       },
       {
         "kind": "pr",
-        "number": 200235,
-        "title": "fix(ui): show dictation progress and preserve pending transcripts",
-        "url": "https://github.com/openclaw/openclaw/pull/200235",
+        "number": 200382,
+        "title": "refactor: retire obsolete agent command policy mocks",
+        "url": "https://github.com/openclaw/openclaw/pull/200382",
         "state": "open",
-        "author": "daniel-lxs",
-        "updatedAt": "2026-11-16T20:23:19Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-17T03:48:19Z"
       }
     ]
   }

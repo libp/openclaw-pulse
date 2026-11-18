@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-17T22:18:29.942Z",
+  "generatedAt": "2026-11-18T21:24:50.042Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2091,6 +2091,23 @@
       "contributors": 3804,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-18",
+      "capturedAt": "2026-11-18T21:24:50.042Z",
+      "issueOpen": 5016,
+      "issueClosed": 59831,
+      "prOpen": 3379,
+      "prClosed": 130503,
+      "prMerged": 73308,
+      "workflowRuns": 40000,
+      "stars": 394756,
+      "forks": 82925,
+      "subscribers": 1691,
+      "commits": 130091,
+      "contributors": 3810,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2973,74 +2990,109 @@
       "subscribers": 1688,
       "commits": 129710,
       "contributors": 3804
+    },
+    {
+      "capturedOn": "2026-11-18",
+      "stars": 394756,
+      "forks": 82925,
+      "subscribers": 1691,
+      "commits": 130091,
+      "contributors": 3810
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 200815,
-        "title": "Update failure: package-update (2026.11.2)",
-        "url": "https://github.com/openclaw/openclaw/issues/200815",
+        "number": 188956,
+        "title": "[Feature]: chat.history on PostgreSQL queues behind two history workers under concurrent reads",
+        "url": "https://github.com/openclaw/openclaw/issues/188956",
+        "state": "closed",
+        "author": "etzelm",
+        "updatedAt": "2026-11-18T21:24:23Z"
+      },
+      {
+        "kind": "issue",
+        "number": 165278,
+        "title": "[Bug]: Automations schema grows under Control UI admin management=also on the same session",
+        "url": "https://github.com/openclaw/openclaw/issues/165278",
+        "state": "closed",
+        "author": "ensignwesley",
+        "updatedAt": "2026-11-18T21:24:21Z"
+      },
+      {
+        "kind": "issue",
+        "number": 201461,
+        "title": "Control UI: Files panel should browse to the parent folder of the opened file",
+        "url": "https://github.com/openclaw/openclaw/issues/201461",
         "state": "open",
-        "author": "patrickschiller",
-        "updatedAt": "2026-11-17T22:14:22Z"
+        "author": "MsDeevy",
+        "updatedAt": "2026-11-18T21:21:23Z"
+      },
+      {
+        "kind": "issue",
+        "number": 201249,
+        "title": "[Bug]: `database port --to postgres`: transcript projection rebuild sends one INSERT per row, so ports over WAN take hours",
+        "url": "https://github.com/openclaw/openclaw/issues/201249",
+        "state": "closed",
+        "author": "evemorgen",
+        "updatedAt": "2026-11-18T21:17:51Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 200329,
-        "title": "fix(ui): guide Chat to setup when no model is connected",
-        "url": "https://github.com/openclaw/openclaw/pull/200329",
+        "number": 201411,
+        "title": "feat: offer Sign in with ChatGPT first when connecting OpenAI",
+        "url": "https://github.com/openclaw/openclaw/pull/201411",
+        "state": "open",
+        "author": "daniel-lxs",
+        "updatedAt": "2026-11-18T21:24:40Z"
+      },
+      {
+        "kind": "pr",
+        "number": 167275,
+        "title": "fix(usage): Usage tab double-counts prompts that older Codex runs mirrored twice",
+        "url": "https://github.com/openclaw/openclaw/pull/167275",
+        "state": "open",
+        "author": "awss1i",
+        "updatedAt": "2026-11-18T21:24:36Z"
+      },
+      {
+        "kind": "pr",
+        "number": 201465,
+        "title": "fix(discord): reduce copying during voice capture",
+        "url": "https://github.com/openclaw/openclaw/pull/201465",
+        "state": "open",
+        "author": "steipete",
+        "updatedAt": "2026-11-18T21:24:29Z"
+      },
+      {
+        "kind": "pr",
+        "number": 190129,
+        "title": "fix(postgres): chat history slows under concurrent reads",
+        "url": "https://github.com/openclaw/openclaw/pull/190129",
+        "state": "closed",
+        "author": "etzelm",
+        "updatedAt": "2026-11-18T21:24:25Z"
+      },
+      {
+        "kind": "pr",
+        "number": 201459,
+        "title": "refactor(diagnostics): share profile artifact writing and cleanup",
+        "url": "https://github.com/openclaw/openclaw/pull/201459",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-11-17T22:18:18Z"
+        "updatedAt": "2026-11-18T21:24:04Z"
       },
       {
         "kind": "pr",
-        "number": 187360,
-        "title": "fix: show provider usage for model API key SecretRefs",
-        "url": "https://github.com/openclaw/openclaw/pull/187360",
-        "state": "open",
-        "author": "wyf027",
-        "updatedAt": "2026-11-17T22:18:13Z"
-      },
-      {
-        "kind": "pr",
-        "number": 200814,
-        "title": "fix(ui): align empty model setup beside Dictate",
-        "url": "https://github.com/openclaw/openclaw/pull/200814",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-17T22:18:05Z"
-      },
-      {
-        "kind": "pr",
-        "number": 200813,
-        "title": "fix: let nightly validation admit its bundle client",
-        "url": "https://github.com/openclaw/openclaw/pull/200813",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-17T22:18:05Z"
-      },
-      {
-        "kind": "pr",
-        "number": 199833,
-        "title": "fix(ui): give Systems its own sidebar header",
-        "url": "https://github.com/openclaw/openclaw/pull/199833",
-        "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-11-17T22:17:59Z"
-      },
-      {
-        "kind": "pr",
-        "number": 200784,
-        "title": "fix: update bundled Codex for newer ChatGPT models",
-        "url": "https://github.com/openclaw/openclaw/pull/200784",
+        "number": 201458,
+        "title": "fix: show earlier attachments in Session files",
+        "url": "https://github.com/openclaw/openclaw/pull/201458",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-11-17T22:17:48Z"
+        "updatedAt": "2026-11-18T21:24:02Z"
       }
     ]
   }

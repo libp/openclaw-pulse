@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-18T21:24:50.042Z",
+  "generatedAt": "2026-11-20T11:31:21.929Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2108,6 +2108,23 @@
       "contributors": 3810,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-20",
+      "capturedAt": "2026-11-20T11:31:21.929Z",
+      "issueOpen": 5067,
+      "issueClosed": 60037,
+      "prOpen": 3530,
+      "prClosed": 131286,
+      "prMerged": 73824,
+      "workflowRuns": 40000,
+      "stars": 394878,
+      "forks": 82943,
+      "subscribers": 1691,
+      "commits": 130587,
+      "contributors": 3817,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -2998,101 +3015,91 @@
       "subscribers": 1691,
       "commits": 130091,
       "contributors": 3810
+    },
+    {
+      "capturedOn": "2026-11-20",
+      "stars": 394878,
+      "forks": 82943,
+      "subscribers": 1691,
+      "commits": 130587,
+      "contributors": 3817
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 188956,
-        "title": "[Feature]: chat.history on PostgreSQL queues behind two history workers under concurrent reads",
-        "url": "https://github.com/openclaw/openclaw/issues/188956",
-        "state": "closed",
-        "author": "etzelm",
-        "updatedAt": "2026-11-18T21:24:23Z"
-      },
-      {
-        "kind": "issue",
-        "number": 165278,
-        "title": "[Bug]: Automations schema grows under Control UI admin management=also on the same session",
-        "url": "https://github.com/openclaw/openclaw/issues/165278",
-        "state": "closed",
-        "author": "ensignwesley",
-        "updatedAt": "2026-11-18T21:24:21Z"
-      },
-      {
-        "kind": "issue",
-        "number": 201461,
-        "title": "Control UI: Files panel should browse to the parent folder of the opened file",
-        "url": "https://github.com/openclaw/openclaw/issues/201461",
+        "number": 202441,
+        "title": "Third-party WS channel needs a public way to detach transport authority from post-ACK turn work",
+        "url": "https://github.com/openclaw/openclaw/issues/202441",
         "state": "open",
-        "author": "MsDeevy",
-        "updatedAt": "2026-11-18T21:21:23Z"
+        "author": "xmoxmo",
+        "updatedAt": "2026-11-20T11:27:28Z"
       },
       {
         "kind": "issue",
-        "number": 201249,
-        "title": "[Bug]: `database port --to postgres`: transcript projection rebuild sends one INSERT per row, so ports over WAN take hours",
-        "url": "https://github.com/openclaw/openclaw/issues/201249",
-        "state": "closed",
-        "author": "evemorgen",
-        "updatedAt": "2026-11-18T21:17:51Z"
+        "number": 202440,
+        "title": "WhatsApp outbound send fails with 'No active WhatsApp Web listener' during an app-silent watchdog reconnect instead of waiting for the replacement listener",
+        "url": "https://github.com/openclaw/openclaw/issues/202440",
+        "state": "open",
+        "author": "abacha",
+        "updatedAt": "2026-11-20T11:24:06Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 201411,
-        "title": "feat: offer Sign in with ChatGPT first when connecting OpenAI",
-        "url": "https://github.com/openclaw/openclaw/pull/201411",
+        "number": 202439,
+        "title": "fix(ci): measure runtime-config test file volume",
+        "url": "https://github.com/openclaw/openclaw/pull/202439",
         "state": "open",
-        "author": "daniel-lxs",
-        "updatedAt": "2026-11-18T21:24:40Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-20T11:30:58Z"
       },
       {
         "kind": "pr",
-        "number": 167275,
-        "title": "fix(usage): Usage tab double-counts prompts that older Codex runs mirrored twice",
-        "url": "https://github.com/openclaw/openclaw/pull/167275",
+        "number": 202448,
+        "title": "refactor(transcripts): separate data contracts from provider control",
+        "url": "https://github.com/openclaw/openclaw/pull/202448",
         "state": "open",
-        "author": "awss1i",
-        "updatedAt": "2026-11-18T21:24:36Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-20T11:30:52Z"
       },
       {
         "kind": "pr",
-        "number": 201465,
-        "title": "fix(discord): reduce copying during voice capture",
-        "url": "https://github.com/openclaw/openclaw/pull/201465",
+        "number": 202444,
+        "title": "perf(test): avoid redundant Git fixture config commands",
+        "url": "https://github.com/openclaw/openclaw/pull/202444",
         "state": "open",
-        "author": "steipete",
-        "updatedAt": "2026-11-18T21:24:29Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-20T11:30:50Z"
       },
       {
         "kind": "pr",
-        "number": 190129,
-        "title": "fix(postgres): chat history slows under concurrent reads",
-        "url": "https://github.com/openclaw/openclaw/pull/190129",
+        "number": 202438,
+        "title": "perf(ci): skip unused inventories in core-only lint",
+        "url": "https://github.com/openclaw/openclaw/pull/202438",
         "state": "closed",
-        "author": "etzelm",
-        "updatedAt": "2026-11-18T21:24:25Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-20T11:30:34Z"
       },
       {
         "kind": "pr",
-        "number": 201459,
-        "title": "refactor(diagnostics): share profile artifact writing and cleanup",
-        "url": "https://github.com/openclaw/openclaw/pull/201459",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-18T21:24:04Z"
+        "number": 202420,
+        "title": "fix: deliver child results while restarted parents are preparing",
+        "url": "https://github.com/openclaw/openclaw/pull/202420",
+        "state": "closed",
+        "author": "steipete",
+        "updatedAt": "2026-11-20T11:29:44Z"
       },
       {
         "kind": "pr",
-        "number": 201458,
-        "title": "fix: show earlier attachments in Session files",
-        "url": "https://github.com/openclaw/openclaw/pull/201458",
+        "number": 202442,
+        "title": "refactor(gateway): delete in-run operator authority watchers",
+        "url": "https://github.com/openclaw/openclaw/pull/202442",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-18T21:24:02Z"
+        "author": "obviyus",
+        "updatedAt": "2026-11-20T11:29:17Z"
       }
     ]
   }

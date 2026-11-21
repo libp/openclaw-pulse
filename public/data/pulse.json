@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-20T11:31:21.929Z",
+  "generatedAt": "2026-11-21T01:29:26.368Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2125,6 +2125,23 @@
       "contributors": 3817,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-21",
+      "capturedAt": "2026-11-21T01:29:26.368Z",
+      "issueOpen": 5111,
+      "issueClosed": 60083,
+      "prOpen": 3565,
+      "prClosed": 131549,
+      "prMerged": 74049,
+      "workflowRuns": 40000,
+      "stars": 394928,
+      "forks": 82931,
+      "subscribers": 1693,
+      "commits": 130812,
+      "contributors": 3822,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -3023,83 +3040,127 @@
       "subscribers": 1691,
       "commits": 130587,
       "contributors": 3817
+    },
+    {
+      "capturedOn": "2026-11-21",
+      "stars": 394928,
+      "forks": 82931,
+      "subscribers": 1693,
+      "commits": 130812,
+      "contributors": 3822
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 202441,
-        "title": "Third-party WS channel needs a public way to detach transport authority from post-ACK turn work",
-        "url": "https://github.com/openclaw/openclaw/issues/202441",
+        "number": 186631,
+        "title": "Every fresh shared-state opener (CLI process or new Gateway worker thread) runs a full `PRAGMA integrity_check` in `state.admission.fast-path`; a writer error forces a foreground full check of a 727 MB agent DB (269 s), stalling that agent",
+        "url": "https://github.com/openclaw/openclaw/issues/186631",
         "state": "open",
-        "author": "xmoxmo",
-        "updatedAt": "2026-11-20T11:27:28Z"
+        "author": "jaxonparrott",
+        "updatedAt": "2026-11-21T01:29:06Z"
       },
       {
         "kind": "issue",
-        "number": 202440,
-        "title": "WhatsApp outbound send fails with 'No active WhatsApp Web listener' during an app-silent watchdog reconnect instead of waiting for the replacement listener",
-        "url": "https://github.com/openclaw/openclaw/issues/202440",
+        "number": 202830,
+        "title": "Adding a manifest without activation.onStartup silently stops an enabled standalone plugin file from starting with the Gateway",
+        "url": "https://github.com/openclaw/openclaw/issues/202830",
         "state": "open",
-        "author": "abacha",
-        "updatedAt": "2026-11-20T11:24:06Z"
+        "author": "warm-cloth",
+        "updatedAt": "2026-11-21T01:27:45Z"
+      },
+      {
+        "kind": "issue",
+        "number": 202378,
+        "title": "Expose the resource profile to plugins; Knowledge lazy start for lean",
+        "url": "https://github.com/openclaw/openclaw/issues/202378",
+        "state": "closed",
+        "author": "jalehman",
+        "updatedAt": "2026-11-21T01:27:10Z"
+      },
+      {
+        "kind": "issue",
+        "number": 202822,
+        "title": "[Bug]: Onboarding run through npx prints bare `openclaw` next-step commands, which fail with \"command not found\"",
+        "url": "https://github.com/openclaw/openclaw/issues/202822",
+        "state": "open",
+        "author": "Satoshi-Kusumoto",
+        "updatedAt": "2026-11-21T01:26:56Z"
+      },
+      {
+        "kind": "issue",
+        "number": 202818,
+        "title": "refactor(android): separate shared app policies from feature owners",
+        "url": "https://github.com/openclaw/openclaw/issues/202818",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-21T01:26:33Z"
+      },
+      {
+        "kind": "issue",
+        "number": 202827,
+        "title": "Test iOS speech segmentation without constructing the Talk manager",
+        "url": "https://github.com/openclaw/openclaw/issues/202827",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-21T01:26:12Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 202439,
-        "title": "fix(ci): measure runtime-config test file volume",
-        "url": "https://github.com/openclaw/openclaw/pull/202439",
+        "number": 202829,
+        "title": "fix(templates): preserve Unicode in template draft inventory",
+        "url": "https://github.com/openclaw/openclaw/pull/202829",
+        "state": "open",
+        "author": "wahaha1223",
+        "updatedAt": "2026-11-21T01:29:20Z"
+      },
+      {
+        "kind": "pr",
+        "number": 201478,
+        "title": "fix: preserve memory trust after Claude CLI file edits",
+        "url": "https://github.com/openclaw/openclaw/pull/201478",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-21T01:29:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 199699,
+        "title": "feat(gateway): connect approved trusted-proxy CLI and TUI devices within their grant",
+        "url": "https://github.com/openclaw/openclaw/pull/199699",
+        "state": "open",
+        "author": "daniel-lxs",
+        "updatedAt": "2026-11-21T01:29:11Z"
+      },
+      {
+        "kind": "pr",
+        "number": 202825,
+        "title": "refactor(ios): decouple device service contracts from controllers",
+        "url": "https://github.com/openclaw/openclaw/pull/202825",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-11-20T11:30:58Z"
+        "updatedAt": "2026-11-21T01:28:48Z"
       },
       {
         "kind": "pr",
-        "number": 202448,
-        "title": "refactor(transcripts): separate data contracts from provider control",
-        "url": "https://github.com/openclaw/openclaw/pull/202448",
+        "number": 202214,
+        "title": "feat: dismiss browser completion notifications after viewing replies",
+        "url": "https://github.com/openclaw/openclaw/pull/202214",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-20T11:30:52Z"
+        "author": "pestelence2k",
+        "updatedAt": "2026-11-21T01:28:22Z"
       },
       {
         "kind": "pr",
-        "number": 202444,
-        "title": "perf(test): avoid redundant Git fixture config commands",
-        "url": "https://github.com/openclaw/openclaw/pull/202444",
+        "number": 202824,
+        "title": "fix: make onboarding next steps runnable when OpenClaw runs from npx",
+        "url": "https://github.com/openclaw/openclaw/pull/202824",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-20T11:30:50Z"
-      },
-      {
-        "kind": "pr",
-        "number": 202438,
-        "title": "perf(ci): skip unused inventories in core-only lint",
-        "url": "https://github.com/openclaw/openclaw/pull/202438",
-        "state": "closed",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-20T11:30:34Z"
-      },
-      {
-        "kind": "pr",
-        "number": 202420,
-        "title": "fix: deliver child results while restarted parents are preparing",
-        "url": "https://github.com/openclaw/openclaw/pull/202420",
-        "state": "closed",
-        "author": "steipete",
-        "updatedAt": "2026-11-20T11:29:44Z"
-      },
-      {
-        "kind": "pr",
-        "number": 202442,
-        "title": "refactor(gateway): delete in-run operator authority watchers",
-        "url": "https://github.com/openclaw/openclaw/pull/202442",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-11-20T11:29:17Z"
+        "author": "Satoshi-Kusumoto",
+        "updatedAt": "2026-11-21T01:28:03Z"
       }
     ]
   }

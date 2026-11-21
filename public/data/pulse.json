@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-21T01:29:26.368Z",
+  "generatedAt": "2026-11-21T09:45:02.893Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2128,17 +2128,17 @@
     },
     {
       "capturedOn": "2026-11-21",
-      "capturedAt": "2026-11-21T01:29:26.368Z",
-      "issueOpen": 5111,
-      "issueClosed": 60083,
-      "prOpen": 3565,
-      "prClosed": 131549,
-      "prMerged": 74049,
+      "capturedAt": "2026-11-21T09:45:02.893Z",
+      "issueOpen": 5122,
+      "issueClosed": 60129,
+      "prOpen": 3567,
+      "prClosed": 131685,
+      "prMerged": 74177,
       "workflowRuns": 40000,
-      "stars": 394928,
-      "forks": 82931,
+      "stars": 394947,
+      "forks": 82932,
       "subscribers": 1693,
-      "commits": 130812,
+      "commits": 130940,
       "contributors": 3822,
       "source": "github-actions",
       "approximateDate": false
@@ -3043,10 +3043,10 @@
     },
     {
       "capturedOn": "2026-11-21",
-      "stars": 394928,
-      "forks": 82931,
+      "stars": 394947,
+      "forks": 82932,
       "subscribers": 1693,
-      "commits": 130812,
+      "commits": 130940,
       "contributors": 3822
     }
   ],
@@ -3054,113 +3054,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 186631,
-        "title": "Every fresh shared-state opener (CLI process or new Gateway worker thread) runs a full `PRAGMA integrity_check` in `state.admission.fast-path`; a writer error forces a foreground full check of a 727 MB agent DB (269 s), stalling that agent",
-        "url": "https://github.com/openclaw/openclaw/issues/186631",
+        "number": 203027,
+        "title": "[Bug]: WebKit-wide Control UI bug in the 11.6 bundle",
+        "url": "https://github.com/openclaw/openclaw/issues/203027",
         "state": "open",
-        "author": "jaxonparrott",
-        "updatedAt": "2026-11-21T01:29:06Z"
+        "author": "minopop",
+        "updatedAt": "2026-11-21T09:44:30Z"
       },
       {
         "kind": "issue",
-        "number": 202830,
-        "title": "Adding a manifest without activation.onStartup silently stops an enabled standalone plugin file from starting with the Gateway",
-        "url": "https://github.com/openclaw/openclaw/issues/202830",
+        "number": 202379,
+        "title": "Lean: measure and ship further lean-only memory reductions",
+        "url": "https://github.com/openclaw/openclaw/issues/202379",
         "state": "open",
-        "author": "warm-cloth",
-        "updatedAt": "2026-11-21T01:27:45Z"
-      },
-      {
-        "kind": "issue",
-        "number": 202378,
-        "title": "Expose the resource profile to plugins; Knowledge lazy start for lean",
-        "url": "https://github.com/openclaw/openclaw/issues/202378",
-        "state": "closed",
         "author": "jalehman",
-        "updatedAt": "2026-11-21T01:27:10Z"
+        "updatedAt": "2026-11-21T09:43:57Z"
       },
       {
         "kind": "issue",
-        "number": 202822,
-        "title": "[Bug]: Onboarding run through npx prints bare `openclaw` next-step commands, which fail with \"command not found\"",
-        "url": "https://github.com/openclaw/openclaw/issues/202822",
-        "state": "open",
-        "author": "Satoshi-Kusumoto",
-        "updatedAt": "2026-11-21T01:26:56Z"
+        "number": 202172,
+        "title": "[Bug]: byte-triggered compaction counts the saved system prompt and tool schemas, so it fires early and latches on a freshly compacted chat",
+        "url": "https://github.com/openclaw/openclaw/issues/202172",
+        "state": "closed",
+        "author": "garrytan",
+        "updatedAt": "2026-11-21T09:41:49Z"
       },
       {
         "kind": "issue",
-        "number": 202818,
-        "title": "refactor(android): separate shared app policies from feature owners",
-        "url": "https://github.com/openclaw/openclaw/issues/202818",
+        "number": 201397,
+        "title": "Compaction safeguard hard-caps summary reserve at 20k, overriding configured reserveTokens",
+        "url": "https://github.com/openclaw/openclaw/issues/201397",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-21T01:26:33Z"
+        "author": "nikolay-bratanov",
+        "updatedAt": "2026-11-21T09:41:30Z"
       },
       {
         "kind": "issue",
-        "number": 202827,
-        "title": "Test iOS speech segmentation without constructing the Talk manager",
-        "url": "https://github.com/openclaw/openclaw/issues/202827",
+        "number": 137110,
+        "title": "[Feature]: Telegram sendDice support for the message tool",
+        "url": "https://github.com/openclaw/openclaw/issues/137110",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-21T01:26:12Z"
+        "author": "adeepn",
+        "updatedAt": "2026-11-21T09:41:22Z"
+      },
+      {
+        "kind": "issue",
+        "number": 113159,
+        "title": "[Bug]: Usage-limit cooldown ignores the real reset time for all providers except OpenAI/Codex",
+        "url": "https://github.com/openclaw/openclaw/issues/113159",
+        "state": "open",
+        "author": "Jeehut",
+        "updatedAt": "2026-11-21T09:41:21Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 202829,
-        "title": "fix(templates): preserve Unicode in template draft inventory",
-        "url": "https://github.com/openclaw/openclaw/pull/202829",
-        "state": "open",
-        "author": "wahaha1223",
-        "updatedAt": "2026-11-21T01:29:20Z"
-      },
-      {
-        "kind": "pr",
-        "number": 201478,
-        "title": "fix: preserve memory trust after Claude CLI file edits",
-        "url": "https://github.com/openclaw/openclaw/pull/201478",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-21T01:29:16Z"
-      },
-      {
-        "kind": "pr",
-        "number": 199699,
-        "title": "feat(gateway): connect approved trusted-proxy CLI and TUI devices within their grant",
-        "url": "https://github.com/openclaw/openclaw/pull/199699",
-        "state": "open",
-        "author": "daniel-lxs",
-        "updatedAt": "2026-11-21T01:29:11Z"
-      },
-      {
-        "kind": "pr",
-        "number": 202825,
-        "title": "refactor(ios): decouple device service contracts from controllers",
-        "url": "https://github.com/openclaw/openclaw/pull/202825",
+        "number": 203009,
+        "title": "refactor(media): separate attachment marker formatting",
+        "url": "https://github.com/openclaw/openclaw/pull/203009",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-11-21T01:28:48Z"
+        "updatedAt": "2026-11-21T09:44:36Z"
       },
       {
         "kind": "pr",
-        "number": 202214,
-        "title": "feat: dismiss browser completion notifications after viewing replies",
-        "url": "https://github.com/openclaw/openclaw/pull/202214",
+        "number": 203024,
+        "title": "fix(update): let Doctor finish after a package rollback",
+        "url": "https://github.com/openclaw/openclaw/pull/203024",
         "state": "open",
-        "author": "pestelence2k",
-        "updatedAt": "2026-11-21T01:28:22Z"
+        "author": "daniel-lxs",
+        "updatedAt": "2026-11-21T09:44:03Z"
       },
       {
         "kind": "pr",
-        "number": 202824,
-        "title": "fix: make onboarding next steps runnable when OpenClaw runs from npx",
-        "url": "https://github.com/openclaw/openclaw/pull/202824",
+        "number": 201971,
+        "title": "fix(ui): avoid duplicate history reads with inline commands",
+        "url": "https://github.com/openclaw/openclaw/pull/201971",
         "state": "open",
-        "author": "Satoshi-Kusumoto",
-        "updatedAt": "2026-11-21T01:28:03Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-21T09:42:44Z"
+      },
+      {
+        "kind": "pr",
+        "number": 202053,
+        "title": "feat(sessions): mark forwarded channel messages in the transcript",
+        "url": "https://github.com/openclaw/openclaw/pull/202053",
+        "state": "closed",
+        "author": "garrytan",
+        "updatedAt": "2026-11-21T09:42:35Z"
+      },
+      {
+        "kind": "pr",
+        "number": 201503,
+        "title": "fix(plugins): tell hooks which turn started the command a completion run reports",
+        "url": "https://github.com/openclaw/openclaw/pull/201503",
+        "state": "closed",
+        "author": "garrytan",
+        "updatedAt": "2026-11-21T09:42:34Z"
+      },
+      {
+        "kind": "pr",
+        "number": 203028,
+        "title": "refactor(test): remove duplicate media URL regression case",
+        "url": "https://github.com/openclaw/openclaw/pull/203028",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-21T09:42:19Z"
       }
     ]
   }

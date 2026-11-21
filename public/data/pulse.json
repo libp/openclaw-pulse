@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-21T17:28:08.005Z",
+  "generatedAt": "2026-11-21T23:11:19.660Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2128,17 +2128,17 @@
     },
     {
       "capturedOn": "2026-11-21",
-      "capturedAt": "2026-11-21T17:28:08.005Z",
-      "issueOpen": 5129,
-      "issueClosed": 60175,
-      "prOpen": 3591,
-      "prClosed": 131789,
-      "prMerged": 74267,
+      "capturedAt": "2026-11-21T23:11:19.660Z",
+      "issueOpen": 5137,
+      "issueClosed": 60189,
+      "prOpen": 3598,
+      "prClosed": 131893,
+      "prMerged": 74361,
       "workflowRuns": 40000,
-      "stars": 394969,
-      "forks": 82942,
+      "stars": 394988,
+      "forks": 82949,
       "subscribers": 1692,
-      "commits": 131030,
+      "commits": 131124,
       "contributors": 3822,
       "source": "github-actions",
       "approximateDate": false
@@ -3043,10 +3043,10 @@
     },
     {
       "capturedOn": "2026-11-21",
-      "stars": 394969,
-      "forks": 82942,
+      "stars": 394988,
+      "forks": 82949,
       "subscribers": 1692,
-      "commits": 131030,
+      "commits": 131124,
       "contributors": 3822
     }
   ],
@@ -3054,113 +3054,95 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 203209,
-        "title": "Windows MSIX: plugin install confirmation immediately cancels",
-        "url": "https://github.com/openclaw/openclaw/issues/203209",
+        "number": 203326,
+        "title": "[Bug]: Talk realtime consults fail with \"No route-compatible authentication source is configured for openai\" when OpenAI is only available via Codex subscription OAuth",
+        "url": "https://github.com/openclaw/openclaw/issues/203326",
         "state": "open",
-        "author": "pisakaron17-create",
-        "updatedAt": "2026-11-21T17:27:47Z"
+        "author": "jasons2000",
+        "updatedAt": "2026-11-21T23:10:49Z"
       },
       {
         "kind": "issue",
-        "number": 203210,
-        "title": "[Bug]: feishu_chat silently missing from agent tools for ClawHub installs — host-restricted gate drops it with no log",
-        "url": "https://github.com/openclaw/openclaw/issues/203210",
+        "number": 165663,
+        "title": "Gateway-spawned workers (Codex app-server, MCP service groups) not cleaned up after session/diagnostic work → high CPU/RSS, SQLite lock contention, WhatsApp pending-delivery notices",
+        "url": "https://github.com/openclaw/openclaw/issues/165663",
         "state": "open",
-        "author": "yeliccc",
-        "updatedAt": "2026-11-21T17:25:57Z"
+        "author": "valkyriweb",
+        "updatedAt": "2026-11-21T23:10:46Z"
       },
       {
         "kind": "issue",
-        "number": 203208,
-        "title": "[Bug]: feishu_drive create_folder always fails with 1061002 — root token lookup uses unauthenticated httpInstance",
-        "url": "https://github.com/openclaw/openclaw/issues/203208",
+        "number": 203341,
+        "title": "[Docs Bug]: local-models guide has no way to verify a two-step tool task",
+        "url": "https://github.com/openclaw/openclaw/issues/203341",
         "state": "open",
-        "author": "yeliccc",
-        "updatedAt": "2026-11-21T17:25:51Z"
+        "author": "etzelm",
+        "updatedAt": "2026-11-21T23:10:41Z"
       },
       {
         "kind": "issue",
-        "number": 203191,
-        "title": "[Bug]: iOS app dream diary (Traumtagebuch) text does not wrap or scroll horizontally, cutting off text",
-        "url": "https://github.com/openclaw/openclaw/issues/203191",
+        "number": 203342,
+        "title": "[Feature]: test Chat Completions tool-result replay before a dependent tool call",
+        "url": "https://github.com/openclaw/openclaw/issues/203342",
         "state": "open",
-        "author": "bondskin",
-        "updatedAt": "2026-11-21T17:25:29Z"
-      },
-      {
-        "kind": "issue",
-        "number": 195497,
-        "title": "Memory growth to ~3G in 17h on gateway process (v2026.11.1)",
-        "url": "https://github.com/openclaw/openclaw/issues/195497",
-        "state": "open",
-        "author": "JIRBOY",
-        "updatedAt": "2026-11-21T17:24:57Z"
-      },
-      {
-        "kind": "issue",
-        "number": 192547,
-        "title": "Reduce Gateway startup memory on constrained ARM64 hosts",
-        "url": "https://github.com/openclaw/openclaw/issues/192547",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-21T17:24:56Z"
+        "author": "etzelm",
+        "updatedAt": "2026-11-21T23:10:38Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 202513,
-        "title": "refactor(gateway): admit saved requesters once when work starts",
-        "url": "https://github.com/openclaw/openclaw/pull/202513",
+        "number": 202733,
+        "title": "fix(ui): keep the right-docked Home actions clear of the window controls",
+        "url": "https://github.com/openclaw/openclaw/pull/202733",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-11-21T17:27:57Z"
+        "author": "AyhamJo7",
+        "updatedAt": "2026-11-21T23:11:07Z"
       },
       {
         "kind": "pr",
-        "number": 203203,
-        "title": "fix: recover Linux cloud workers with stale process IDs",
-        "url": "https://github.com/openclaw/openclaw/pull/203203",
+        "number": 203188,
+        "title": "fix: keep neighboring chats apart when a sidebar group expands",
+        "url": "https://github.com/openclaw/openclaw/pull/203188",
         "state": "open",
-        "author": "WlnJBrn09",
-        "updatedAt": "2026-11-21T17:27:48Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-21T23:10:20Z"
       },
       {
         "kind": "pr",
-        "number": 193214,
-        "title": "fix(worktrees): explain cold template refresh decisions",
-        "url": "https://github.com/openclaw/openclaw/pull/193214",
+        "number": 201342,
+        "title": "fix(cli): reject non-decimal tool usage limits",
+        "url": "https://github.com/openclaw/openclaw/pull/201342",
+        "state": "open",
+        "author": "qingminglong",
+        "updatedAt": "2026-11-21T23:09:30Z"
+      },
+      {
+        "kind": "pr",
+        "number": 203265,
+        "title": "fix: align selected sessions and their details on phones",
+        "url": "https://github.com/openclaw/openclaw/pull/203265",
         "state": "closed",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-11-21T17:27:47Z"
+        "updatedAt": "2026-11-21T23:09:21Z"
       },
       {
         "kind": "pr",
-        "number": 202512,
-        "title": "fix(cli-runner): let steering join an agent-command CLI turn",
-        "url": "https://github.com/openclaw/openclaw/pull/202512",
+        "number": 202689,
+        "title": "fix: keep dismissed automation failures out of the Inbox",
+        "url": "https://github.com/openclaw/openclaw/pull/202689",
         "state": "open",
-        "author": "warm-cloth",
-        "updatedAt": "2026-11-21T17:27:40Z"
+        "author": "daniel-lxs",
+        "updatedAt": "2026-11-21T23:08:56Z"
       },
       {
         "kind": "pr",
-        "number": 203178,
-        "title": "feat: add per-account proxy credentials with Shellgate",
-        "url": "https://github.com/openclaw/openclaw/pull/203178",
-        "state": "open",
+        "number": 203297,
+        "title": "fix: replace the blocked chat composer with a workspace restore prompt",
+        "url": "https://github.com/openclaw/openclaw/pull/203297",
+        "state": "closed",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-11-21T17:27:35Z"
-      },
-      {
-        "kind": "pr",
-        "number": 203201,
-        "title": "test(ui): include Code Mode in localized settings search",
-        "url": "https://github.com/openclaw/openclaw/pull/203201",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-21T17:27:27Z"
+        "updatedAt": "2026-11-21T23:08:16Z"
       }
     ]
   }

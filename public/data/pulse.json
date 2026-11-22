@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-21T23:11:19.660Z",
+  "generatedAt": "2026-11-22T18:32:06.853Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2142,6 +2142,23 @@
       "contributors": 3822,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-22",
+      "capturedAt": "2026-11-22T18:32:06.853Z",
+      "issueOpen": 5192,
+      "issueClosed": 60233,
+      "prOpen": 3607,
+      "prClosed": 132030,
+      "prMerged": 74475,
+      "workflowRuns": 40000,
+      "stars": 395046,
+      "forks": 82951,
+      "subscribers": 1695,
+      "commits": 131238,
+      "contributors": 3822,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -3048,101 +3065,127 @@
       "subscribers": 1692,
       "commits": 131124,
       "contributors": 3822
+    },
+    {
+      "capturedOn": "2026-11-22",
+      "stars": 395046,
+      "forks": 82951,
+      "subscribers": 1695,
+      "commits": 131238,
+      "contributors": 3822
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 203326,
-        "title": "[Bug]: Talk realtime consults fail with \"No route-compatible authentication source is configured for openai\" when OpenAI is only available via Codex subscription OAuth",
-        "url": "https://github.com/openclaw/openclaw/issues/203326",
+        "number": 158912,
+        "title": "MEMORY.md no longer injected at bootstrap on 2026.9.6 — docs still say loaded at session start",
+        "url": "https://github.com/openclaw/openclaw/issues/158912",
         "state": "open",
-        "author": "jasons2000",
-        "updatedAt": "2026-11-21T23:10:49Z"
+        "author": "rybing7",
+        "updatedAt": "2026-11-22T18:30:30Z"
       },
       {
         "kind": "issue",
-        "number": 165663,
-        "title": "Gateway-spawned workers (Codex app-server, MCP service groups) not cleaned up after session/diagnostic work → high CPU/RSS, SQLite lock contention, WhatsApp pending-delivery notices",
-        "url": "https://github.com/openclaw/openclaw/issues/165663",
+        "number": 203589,
+        "title": "path find matches the wrong JSON record for large integer IDs",
+        "url": "https://github.com/openclaw/openclaw/issues/203589",
         "state": "open",
-        "author": "valkyriweb",
-        "updatedAt": "2026-11-21T23:10:46Z"
+        "author": "LinzeShi",
+        "updatedAt": "2026-11-22T18:29:27Z"
       },
       {
         "kind": "issue",
-        "number": 203341,
-        "title": "[Docs Bug]: local-models guide has no way to verify a two-step tool task",
-        "url": "https://github.com/openclaw/openclaw/issues/203341",
+        "number": 186978,
+        "title": "[Bug]: iOS native Talk splits ElevenLabs speech mid-sentence at a hardcoded 72-character soft boundary",
+        "url": "https://github.com/openclaw/openclaw/issues/186978",
         "state": "open",
-        "author": "etzelm",
-        "updatedAt": "2026-11-21T23:10:41Z"
+        "author": "psionic73",
+        "updatedAt": "2026-11-22T18:29:13Z"
       },
       {
         "kind": "issue",
-        "number": 203342,
-        "title": "[Feature]: test Chat Completions tool-result replay before a dependent tool call",
-        "url": "https://github.com/openclaw/openclaw/issues/203342",
+        "number": 196505,
+        "title": "memory index aborts with \"worker task capacity reached\" instead of retrying: a ~864 MiB corpus never completes, while the same build indexes ~205 MiB in 1.6 min",
+        "url": "https://github.com/openclaw/openclaw/issues/196505",
         "state": "open",
-        "author": "etzelm",
-        "updatedAt": "2026-11-21T23:10:38Z"
+        "author": "tre1d",
+        "updatedAt": "2026-11-22T18:28:38Z"
+      },
+      {
+        "kind": "issue",
+        "number": 195270,
+        "title": "[Bug]: Usage cost projection refreshes every agent at once; at a few hundred agents it overflows the refresh lane and starves agent admission",
+        "url": "https://github.com/openclaw/openclaw/issues/195270",
+        "state": "open",
+        "author": "609NFT",
+        "updatedAt": "2026-11-22T18:28:35Z"
+      },
+      {
+        "kind": "issue",
+        "number": 186808,
+        "title": "Feature: precise duration formatter rounds inconsistently on .005 float noise",
+        "url": "https://github.com/openclaw/openclaw/issues/186808",
+        "state": "open",
+        "author": "YangManBOBO",
+        "updatedAt": "2026-11-22T18:27:59Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 202733,
-        "title": "fix(ui): keep the right-docked Home actions clear of the window controls",
-        "url": "https://github.com/openclaw/openclaw/pull/202733",
+        "number": 203585,
+        "title": "fix: show HEIC photos in Control UI chat previews",
+        "url": "https://github.com/openclaw/openclaw/pull/203585",
         "state": "open",
-        "author": "AyhamJo7",
-        "updatedAt": "2026-11-21T23:11:07Z"
+        "author": "brianmcguire",
+        "updatedAt": "2026-11-22T18:31:57Z"
       },
       {
         "kind": "pr",
-        "number": 203188,
-        "title": "fix: keep neighboring chats apart when a sidebar group expands",
-        "url": "https://github.com/openclaw/openclaw/pull/203188",
+        "number": 203584,
+        "title": "fix(telegram): send one notice for an unconfirmed reply",
+        "url": "https://github.com/openclaw/openclaw/pull/203584",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-21T23:10:20Z"
+        "author": "brianmcguire",
+        "updatedAt": "2026-11-22T18:31:53Z"
       },
       {
         "kind": "pr",
-        "number": 201342,
-        "title": "fix(cli): reject non-decimal tool usage limits",
-        "url": "https://github.com/openclaw/openclaw/pull/201342",
+        "number": 202622,
+        "title": "fix: let people choose an AI connection while local discovery runs",
+        "url": "https://github.com/openclaw/openclaw/pull/202622",
         "state": "open",
-        "author": "qingminglong",
-        "updatedAt": "2026-11-21T23:09:30Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-11-22T18:31:19Z"
       },
       {
         "kind": "pr",
-        "number": 203265,
-        "title": "fix: align selected sessions and their details on phones",
-        "url": "https://github.com/openclaw/openclaw/pull/203265",
+        "number": 202601,
+        "title": "fix: connect AI without being asked about conversation history or memory",
+        "url": "https://github.com/openclaw/openclaw/pull/202601",
         "state": "closed",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-21T23:09:21Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-11-22T18:30:12Z"
       },
       {
         "kind": "pr",
-        "number": 202689,
-        "title": "fix: keep dismissed automation failures out of the Inbox",
-        "url": "https://github.com/openclaw/openclaw/pull/202689",
-        "state": "open",
-        "author": "daniel-lxs",
-        "updatedAt": "2026-11-21T23:08:56Z"
-      },
-      {
-        "kind": "pr",
-        "number": 203297,
-        "title": "fix: replace the blocked chat composer with a workspace restore prompt",
-        "url": "https://github.com/openclaw/openclaw/pull/203297",
+        "number": 202614,
+        "title": "fix: stop asking for Local Network access when setting up OpenClaw on this Mac",
+        "url": "https://github.com/openclaw/openclaw/pull/202614",
         "state": "closed",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-21T23:08:16Z"
+        "author": "vyctorbrzezowski",
+        "updatedAt": "2026-11-22T18:27:39Z"
+      },
+      {
+        "kind": "pr",
+        "number": 188294,
+        "title": "feat(memory): let workspaces exclude generated files from search",
+        "url": "https://github.com/openclaw/openclaw/pull/188294",
+        "state": "open",
+        "author": "serg0x",
+        "updatedAt": "2026-11-22T18:27:23Z"
       }
     ]
   }

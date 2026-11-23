@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-22T18:32:06.853Z",
+  "generatedAt": "2026-11-23T00:17:19.090Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2159,6 +2159,23 @@
       "contributors": 3822,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-23",
+      "capturedAt": "2026-11-23T00:17:19.090Z",
+      "issueOpen": 5217,
+      "issueClosed": 60256,
+      "prOpen": 3681,
+      "prClosed": 132162,
+      "prMerged": 74579,
+      "workflowRuns": 40000,
+      "stars": 395058,
+      "forks": 82957,
+      "subscribers": 1694,
+      "commits": 131342,
+      "contributors": 3822,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -3073,119 +3090,127 @@
       "subscribers": 1695,
       "commits": 131238,
       "contributors": 3822
+    },
+    {
+      "capturedOn": "2026-11-23",
+      "stars": 395058,
+      "forks": 82957,
+      "subscribers": 1694,
+      "commits": 131342,
+      "contributors": 3822
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 158912,
-        "title": "MEMORY.md no longer injected at bootstrap on 2026.9.6 — docs still say loaded at session start",
-        "url": "https://github.com/openclaw/openclaw/issues/158912",
+        "number": 203840,
+        "title": "Inter-session replies leak back into the source session queue (echo) and announce envelopes arrive empty — duplicate delivery in session messaging",
+        "url": "https://github.com/openclaw/openclaw/issues/203840",
         "state": "open",
-        "author": "rybing7",
-        "updatedAt": "2026-11-22T18:30:30Z"
+        "author": "SabaTech-dev",
+        "updatedAt": "2026-11-23T00:17:05Z"
       },
       {
         "kind": "issue",
-        "number": 203589,
-        "title": "path find matches the wrong JSON record for large integer IDs",
-        "url": "https://github.com/openclaw/openclaw/issues/203589",
+        "number": 203842,
+        "title": "[Bug]: Downloads always cancel when the Gateway runs in WSL2 and attaches to Windows Chrome over CDP (Linux downloadPath)",
+        "url": "https://github.com/openclaw/openclaw/issues/203842",
         "state": "open",
-        "author": "LinzeShi",
-        "updatedAt": "2026-11-22T18:29:27Z"
+        "author": "Muuu520",
+        "updatedAt": "2026-11-23T00:16:08Z"
       },
       {
         "kind": "issue",
-        "number": 186978,
-        "title": "[Bug]: iOS native Talk splits ElevenLabs speech mid-sentence at a hardcoded 72-character soft boundary",
-        "url": "https://github.com/openclaw/openclaw/issues/186978",
+        "number": 203782,
+        "title": "[Feature]: Focus Week 5: one birth for every new agent, and setup without dead ends",
+        "url": "https://github.com/openclaw/openclaw/issues/203782",
         "state": "open",
-        "author": "psionic73",
-        "updatedAt": "2026-11-22T18:29:13Z"
+        "author": "TheAngryPit",
+        "updatedAt": "2026-11-23T00:15:40Z"
       },
       {
         "kind": "issue",
-        "number": 196505,
-        "title": "memory index aborts with \"worker task capacity reached\" instead of retrying: a ~864 MiB corpus never completes, while the same build indexes ~205 MiB in 1.6 min",
-        "url": "https://github.com/openclaw/openclaw/issues/196505",
-        "state": "open",
-        "author": "tre1d",
-        "updatedAt": "2026-11-22T18:28:38Z"
+        "number": 202661,
+        "title": "Remember dismissed automation failures for the same operator across clients",
+        "url": "https://github.com/openclaw/openclaw/issues/202661",
+        "state": "closed",
+        "author": "daniel-lxs",
+        "updatedAt": "2026-11-23T00:14:28Z"
       },
       {
         "kind": "issue",
-        "number": 195270,
-        "title": "[Bug]: Usage cost projection refreshes every agent at once; at a few hundred agents it overflows the refresh lane and starves agent admission",
-        "url": "https://github.com/openclaw/openclaw/issues/195270",
-        "state": "open",
-        "author": "609NFT",
-        "updatedAt": "2026-11-22T18:28:35Z"
+        "number": 202653,
+        "title": "Two Inbox tabs can overwrite each other's dismissals",
+        "url": "https://github.com/openclaw/openclaw/issues/202653",
+        "state": "closed",
+        "author": "daniel-lxs",
+        "updatedAt": "2026-11-23T00:14:26Z"
       },
       {
         "kind": "issue",
-        "number": 186808,
-        "title": "Feature: precise duration formatter rounds inconsistently on .005 float noise",
-        "url": "https://github.com/openclaw/openclaw/issues/186808",
-        "state": "open",
-        "author": "YangManBOBO",
-        "updatedAt": "2026-11-22T18:27:59Z"
+        "number": 202652,
+        "title": "Enabling a paused automation puts its already-dismissed failure back in the Inbox",
+        "url": "https://github.com/openclaw/openclaw/issues/202652",
+        "state": "closed",
+        "author": "daniel-lxs",
+        "updatedAt": "2026-11-23T00:14:25Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 203585,
-        "title": "fix: show HEIC photos in Control UI chat previews",
-        "url": "https://github.com/openclaw/openclaw/pull/203585",
+        "number": 203739,
+        "title": "fix: keep the Agents menu usable after copying an ID",
+        "url": "https://github.com/openclaw/openclaw/pull/203739",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-23T00:17:11Z"
+      },
+      {
+        "kind": "pr",
+        "number": 202715,
+        "title": "fix: keep Skills discovery within its request limit and show the installed count",
+        "url": "https://github.com/openclaw/openclaw/pull/202715",
+        "state": "open",
+        "author": "Patrick-Erichsen",
+        "updatedAt": "2026-11-23T00:17:07Z"
+      },
+      {
+        "kind": "pr",
+        "number": 192278,
+        "title": "improve(ios): prototype visible follow-up send options",
+        "url": "https://github.com/openclaw/openclaw/pull/192278",
         "state": "open",
         "author": "brianmcguire",
-        "updatedAt": "2026-11-22T18:31:57Z"
+        "updatedAt": "2026-11-23T00:17:01Z"
       },
       {
         "kind": "pr",
-        "number": 203584,
-        "title": "fix(telegram): send one notice for an unconfirmed reply",
-        "url": "https://github.com/openclaw/openclaw/pull/203584",
+        "number": 192285,
+        "title": "feat(ios): prototype device-local native chat text sizing",
+        "url": "https://github.com/openclaw/openclaw/pull/192285",
         "state": "open",
         "author": "brianmcguire",
-        "updatedAt": "2026-11-22T18:31:53Z"
+        "updatedAt": "2026-11-23T00:16:56Z"
       },
       {
         "kind": "pr",
-        "number": 202622,
-        "title": "fix: let people choose an AI connection while local discovery runs",
-        "url": "https://github.com/openclaw/openclaw/pull/202622",
+        "number": 203843,
+        "title": "fix(ci): prepare the Android SDK for scheduled CodeQL scans",
+        "url": "https://github.com/openclaw/openclaw/pull/203843",
         "state": "open",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-11-22T18:31:19Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-23T00:16:49Z"
       },
       {
         "kind": "pr",
-        "number": 202601,
-        "title": "fix: connect AI without being asked about conversation history or memory",
-        "url": "https://github.com/openclaw/openclaw/pull/202601",
-        "state": "closed",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-11-22T18:30:12Z"
-      },
-      {
-        "kind": "pr",
-        "number": 202614,
-        "title": "fix: stop asking for Local Network access when setting up OpenClaw on this Mac",
-        "url": "https://github.com/openclaw/openclaw/pull/202614",
-        "state": "closed",
-        "author": "vyctorbrzezowski",
-        "updatedAt": "2026-11-22T18:27:39Z"
-      },
-      {
-        "kind": "pr",
-        "number": 188294,
-        "title": "feat(memory): let workspaces exclude generated files from search",
-        "url": "https://github.com/openclaw/openclaw/pull/188294",
+        "number": 203841,
+        "title": "fix(agents): release deleted agents’ catalog contexts",
+        "url": "https://github.com/openclaw/openclaw/pull/203841",
         "state": "open",
-        "author": "serg0x",
-        "updatedAt": "2026-11-22T18:27:23Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-23T00:15:34Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-23T00:17:19.090Z",
+  "generatedAt": "2026-11-23T07:46:10.846Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2162,17 +2162,17 @@
     },
     {
       "capturedOn": "2026-11-23",
-      "capturedAt": "2026-11-23T00:17:19.090Z",
-      "issueOpen": 5217,
-      "issueClosed": 60256,
-      "prOpen": 3681,
-      "prClosed": 132162,
-      "prMerged": 74579,
+      "capturedAt": "2026-11-23T07:46:10.846Z",
+      "issueOpen": 5240,
+      "issueClosed": 60273,
+      "prOpen": 3692,
+      "prClosed": 132258,
+      "prMerged": 74657,
       "workflowRuns": 40000,
-      "stars": 395058,
-      "forks": 82957,
-      "subscribers": 1694,
-      "commits": 131342,
+      "stars": 395070,
+      "forks": 82959,
+      "subscribers": 1695,
+      "commits": 131418,
       "contributors": 3822,
       "source": "github-actions",
       "approximateDate": false
@@ -3093,10 +3093,10 @@
     },
     {
       "capturedOn": "2026-11-23",
-      "stars": 395058,
-      "forks": 82957,
-      "subscribers": 1694,
-      "commits": 131342,
+      "stars": 395070,
+      "forks": 82959,
+      "subscribers": 1695,
+      "commits": 131418,
       "contributors": 3822
     }
   ],
@@ -3104,113 +3104,113 @@
     "issues": [
       {
         "kind": "issue",
-        "number": 203840,
-        "title": "Inter-session replies leak back into the source session queue (echo) and announce envelopes arrive empty — duplicate delivery in session messaging",
-        "url": "https://github.com/openclaw/openclaw/issues/203840",
-        "state": "open",
-        "author": "SabaTech-dev",
-        "updatedAt": "2026-11-23T00:17:05Z"
-      },
-      {
-        "kind": "issue",
-        "number": 203842,
-        "title": "[Bug]: Downloads always cancel when the Gateway runs in WSL2 and attaches to Windows Chrome over CDP (Linux downloadPath)",
-        "url": "https://github.com/openclaw/openclaw/issues/203842",
-        "state": "open",
-        "author": "Muuu520",
-        "updatedAt": "2026-11-23T00:16:08Z"
-      },
-      {
-        "kind": "issue",
-        "number": 203782,
-        "title": "[Feature]: Focus Week 5: one birth for every new agent, and setup without dead ends",
-        "url": "https://github.com/openclaw/openclaw/issues/203782",
-        "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-11-23T00:15:40Z"
-      },
-      {
-        "kind": "issue",
-        "number": 202661,
-        "title": "Remember dismissed automation failures for the same operator across clients",
-        "url": "https://github.com/openclaw/openclaw/issues/202661",
+        "number": 202553,
+        "title": "Web chat should explain when a session reaches its subagent limit",
+        "url": "https://github.com/openclaw/openclaw/issues/202553",
         "state": "closed",
         "author": "daniel-lxs",
-        "updatedAt": "2026-11-23T00:14:28Z"
+        "updatedAt": "2026-11-23T07:44:18Z"
       },
       {
         "kind": "issue",
-        "number": 202653,
-        "title": "Two Inbox tabs can overwrite each other's dismissals",
-        "url": "https://github.com/openclaw/openclaw/issues/202653",
-        "state": "closed",
-        "author": "daniel-lxs",
-        "updatedAt": "2026-11-23T00:14:26Z"
+        "number": 203989,
+        "title": "`closeOpenClawAgentDatabasesAsync` closes the writer before readers when the state dir is reached through a symlink, leaving `-wal`/`-shm` behind (2026.10.33)",
+        "url": "https://github.com/openclaw/openclaw/issues/203989",
+        "state": "open",
+        "author": "prashantkamani",
+        "updatedAt": "2026-11-23T07:44:04Z"
       },
       {
         "kind": "issue",
-        "number": 202652,
-        "title": "Enabling a paused automation puts its already-dismissed failure back in the Inbox",
-        "url": "https://github.com/openclaw/openclaw/issues/202652",
+        "number": 203988,
+        "title": "checks-ui (1/3) and (3/3) fail on unrelated PRs (toast, board-view, chat-attachment-handoff browser tests)",
+        "url": "https://github.com/openclaw/openclaw/issues/203988",
+        "state": "open",
+        "author": "obviyus",
+        "updatedAt": "2026-11-23T07:43:45Z"
+      },
+      {
+        "kind": "issue",
+        "number": 203985,
+        "title": "claude-cli backend: final assistant reply recorded twice (imported CLI record + gateway `cli` record), webchat shows two bubbles",
+        "url": "https://github.com/openclaw/openclaw/issues/203985",
         "state": "closed",
-        "author": "daniel-lxs",
-        "updatedAt": "2026-11-23T00:14:25Z"
+        "author": "jhirschheydt",
+        "updatedAt": "2026-11-23T07:42:55Z"
+      },
+      {
+        "kind": "issue",
+        "number": 203984,
+        "title": "[Feature]: Zalo: allow specific groups by group ID (channels.zalo.groups)",
+        "url": "https://github.com/openclaw/openclaw/issues/203984",
+        "state": "open",
+        "author": "tiennm99",
+        "updatedAt": "2026-11-23T07:41:13Z"
+      },
+      {
+        "kind": "issue",
+        "number": 203979,
+        "title": "[Bug]: 2026.11.6 Telegram DM lane blocked up to 24 h: cancelled pending input makes every redelivery fail with 'Pending input idempotency key conflicts'",
+        "url": "https://github.com/openclaw/openclaw/issues/203979",
+        "state": "open",
+        "author": "vitoleonessa",
+        "updatedAt": "2026-11-23T07:38:29Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 203739,
-        "title": "fix: keep the Agents menu usable after copying an ID",
-        "url": "https://github.com/openclaw/openclaw/pull/203739",
+        "number": 203978,
+        "title": "fix(ci): keep the database-worker ratchet under its heap cap and stream ratchet output",
+        "url": "https://github.com/openclaw/openclaw/pull/203978",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-23T00:17:11Z"
+        "author": "obviyus",
+        "updatedAt": "2026-11-23T07:45:58Z"
       },
       {
         "kind": "pr",
-        "number": 202715,
-        "title": "fix: keep Skills discovery within its request limit and show the installed count",
-        "url": "https://github.com/openclaw/openclaw/pull/202715",
+        "number": 203990,
+        "title": "fix(update): restore the previous version sooner after stalled startup",
+        "url": "https://github.com/openclaw/openclaw/pull/203990",
         "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-11-23T00:17:07Z"
+        "author": "obviyus",
+        "updatedAt": "2026-11-23T07:45:51Z"
       },
       {
         "kind": "pr",
-        "number": 192278,
-        "title": "improve(ios): prototype visible follow-up send options",
-        "url": "https://github.com/openclaw/openclaw/pull/192278",
+        "number": 193837,
+        "title": "feat(gateway): keep agent questions answerable across Gateway restarts",
+        "url": "https://github.com/openclaw/openclaw/pull/193837",
         "state": "open",
-        "author": "brianmcguire",
-        "updatedAt": "2026-11-23T00:17:01Z"
+        "author": "RomneyDa",
+        "updatedAt": "2026-11-23T07:45:37Z"
       },
       {
         "kind": "pr",
-        "number": 192285,
-        "title": "feat(ios): prototype device-local native chat text sizing",
-        "url": "https://github.com/openclaw/openclaw/pull/192285",
+        "number": 203558,
+        "title": "fix: stop treating direct chat in a visible spawned session as a delegated run",
+        "url": "https://github.com/openclaw/openclaw/pull/203558",
         "state": "open",
-        "author": "brianmcguire",
-        "updatedAt": "2026-11-23T00:16:56Z"
+        "author": "jzmudzinski",
+        "updatedAt": "2026-11-23T07:44:42Z"
       },
       {
         "kind": "pr",
-        "number": 203843,
-        "title": "fix(ci): prepare the Android SDK for scheduled CodeQL scans",
-        "url": "https://github.com/openclaw/openclaw/pull/203843",
+        "number": 188327,
+        "title": "fix(workboard): scope lifecycle hydration to linked cards",
+        "url": "https://github.com/openclaw/openclaw/pull/188327",
         "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-23T00:16:49Z"
+        "author": "Yuaneen",
+        "updatedAt": "2026-11-23T07:44:38Z"
       },
       {
         "kind": "pr",
-        "number": 203841,
-        "title": "fix(agents): release deleted agents’ catalog contexts",
-        "url": "https://github.com/openclaw/openclaw/pull/203841",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-23T00:15:34Z"
+        "number": 202555,
+        "title": "fix: explain when a web chat session reaches its subagent limit",
+        "url": "https://github.com/openclaw/openclaw/pull/202555",
+        "state": "closed",
+        "author": "daniel-lxs",
+        "updatedAt": "2026-11-23T07:44:23Z"
       }
     ]
   }

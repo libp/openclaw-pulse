@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-25T00:40:43.166Z",
+  "generatedAt": "2026-11-25T19:55:41.657Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2196,18 +2196,18 @@
     },
     {
       "capturedOn": "2026-11-25",
-      "capturedAt": "2026-11-25T00:40:43.166Z",
-      "issueOpen": 5322,
-      "issueClosed": 60495,
-      "prOpen": 3818,
-      "prClosed": 132837,
-      "prMerged": 75150,
+      "capturedAt": "2026-11-25T19:55:41.657Z",
+      "issueOpen": 5377,
+      "issueClosed": 60562,
+      "prOpen": 3828,
+      "prClosed": 133236,
+      "prMerged": 75518,
       "workflowRuns": 40000,
-      "stars": 395168,
-      "forks": 82958,
+      "stars": 395201,
+      "forks": 82976,
       "subscribers": 1693,
-      "commits": 131911,
-      "contributors": 3825,
+      "commits": 132278,
+      "contributors": 3838,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -3143,124 +3143,106 @@
     },
     {
       "capturedOn": "2026-11-25",
-      "stars": 395168,
-      "forks": 82958,
+      "stars": 395201,
+      "forks": 82976,
       "subscribers": 1693,
-      "commits": 131911,
-      "contributors": 3825
+      "commits": 132278,
+      "contributors": 3838
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 204997,
-        "title": "whatsapp: security audit --fix seeds every account's groupAllowFrom from the default account's pairing store",
-        "url": "https://github.com/openclaw/openclaw/issues/204997",
+        "number": 196069,
+        "title": "fix(android): wrap chat turn recap duration and token summary on compact widths",
+        "url": "https://github.com/openclaw/openclaw/issues/196069",
         "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-11-25T00:40:29Z"
+        "author": "saariuslystoned",
+        "updatedAt": "2026-11-25T19:50:35Z"
       },
       {
         "kind": "issue",
-        "number": 204999,
-        "title": "Signal: blockquote continuation lines, nested quote lines, and later chunks lose the > marker",
-        "url": "https://github.com/openclaw/openclaw/issues/204999",
+        "number": 205527,
+        "title": "[TUI] Persisted run-error notifications re-render as fresh failures after gateway restart/reconnect",
+        "url": "https://github.com/openclaw/openclaw/issues/205527",
         "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-11-25T00:40:37Z"
+        "author": "compoodment",
+        "updatedAt": "2026-11-25T19:49:56Z"
       },
       {
         "kind": "issue",
-        "number": 205000,
-        "title": "mcp: openclaw-tools bridge ignores tools.deny, agent tools.deny, and profile for ACP sessions",
-        "url": "https://github.com/openclaw/openclaw/issues/205000",
+        "number": 198634,
+        "title": "The provider request array is not append-only: it diverges from the previous request on the first call of many turns",
+        "url": "https://github.com/openclaw/openclaw/issues/198634",
         "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-11-25T00:40:38Z"
+        "author": "Deregtx",
+        "updatedAt": "2026-11-25T19:48:23Z"
       },
       {
         "kind": "issue",
-        "number": 204996,
-        "title": "models CLI: fallbacks list and image-fallbacks list ignore --agent and print global defaults",
-        "url": "https://github.com/openclaw/openclaw/issues/204996",
+        "number": 198802,
+        "title": "[Bug]: Gateway heap grows ~90 MB/h: process plugin cache keeps every generation's native namespace member maps (incl. disabled plugins)",
+        "url": "https://github.com/openclaw/openclaw/issues/198802",
         "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-11-25T00:40:06Z"
-      },
-      {
-        "kind": "issue",
-        "number": 204994,
-        "title": "exec-policy show: mixed-case agents.entries key splits one agent into two policy scopes and understates its ask policy",
-        "url": "https://github.com/openclaw/openclaw/issues/204994",
-        "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-11-25T00:40:04Z"
-      },
-      {
-        "kind": "issue",
-        "number": 204995,
-        "title": "sessions tail: unqualified or mixed-case --session-key (main, Agent:Main:Main) fails instead of tailing agent:main:main",
-        "url": "https://github.com/openclaw/openclaw/issues/204995",
-        "state": "open",
-        "author": "yetval",
-        "updatedAt": "2026-11-25T00:40:03Z"
+        "author": "jaxonparrott",
+        "updatedAt": "2026-11-25T19:47:34Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 172439,
-        "title": "fix(whatsapp): seed each account's groupAllowFrom from its own pairing store in security audit --fix",
-        "url": "https://github.com/openclaw/openclaw/pull/172439",
-        "state": "closed",
-        "author": "yetval",
-        "updatedAt": "2026-11-25T00:40:11Z"
+        "number": 205528,
+        "title": "fix(android): keep the turn recap when returning to a conversation",
+        "url": "https://github.com/openclaw/openclaw/pull/205528",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-25T19:55:17Z"
       },
       {
         "kind": "pr",
-        "number": 172393,
-        "title": "fix(mcp): apply configured tool policy to the openclaw-tools MCP bridge",
-        "url": "https://github.com/openclaw/openclaw/pull/172393",
-        "state": "closed",
-        "author": "yetval",
-        "updatedAt": "2026-11-25T00:40:10Z"
+        "number": 204804,
+        "title": "fix(ui): show the author's avatar on pending suggestions, like queued messages",
+        "url": "https://github.com/openclaw/openclaw/pull/204804",
+        "state": "open",
+        "author": "jalehman",
+        "updatedAt": "2026-11-25T19:55:02Z"
       },
       {
         "kind": "pr",
-        "number": 189996,
-        "title": "fix(hooks): resolve mapping header templates case-insensitively",
-        "url": "https://github.com/openclaw/openclaw/pull/189996",
-        "state": "closed",
-        "author": "yetval",
-        "updatedAt": "2026-11-25T00:40:08Z"
+        "number": 205533,
+        "title": "fix: fit PDF previews to the available pane width",
+        "url": "https://github.com/openclaw/openclaw/pull/205533",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-25T19:54:52Z"
       },
       {
         "kind": "pr",
-        "number": 190470,
-        "title": "fix(channels): resolve dead-letters --channel case and aliases",
-        "url": "https://github.com/openclaw/openclaw/pull/190470",
-        "state": "closed",
-        "author": "yetval",
-        "updatedAt": "2026-11-25T00:40:06Z"
+        "number": 205478,
+        "title": "fix: idle Gateway burns CPU scanning folders a shallow memory extraPaths pattern can never match",
+        "url": "https://github.com/openclaw/openclaw/pull/205478",
+        "state": "open",
+        "author": "Israel-Kli",
+        "updatedAt": "2026-11-25T19:54:37Z"
       },
       {
         "kind": "pr",
-        "number": 190482,
-        "title": "fix(cli): reject --agent for models fallbacks list and image-fallbacks list",
-        "url": "https://github.com/openclaw/openclaw/pull/190482",
-        "state": "closed",
-        "author": "yetval",
-        "updatedAt": "2026-11-25T00:40:04Z"
+        "number": 205522,
+        "title": "test: trim redundant state and Cron fixture metadata",
+        "url": "https://github.com/openclaw/openclaw/pull/205522",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-25T19:54:09Z"
       },
       {
         "kind": "pr",
-        "number": 190483,
-        "title": "fix(cli): resolve unqualified session keys in sessions tail",
-        "url": "https://github.com/openclaw/openclaw/pull/190483",
-        "state": "closed",
-        "author": "yetval",
-        "updatedAt": "2026-11-25T00:40:03Z"
+        "number": 205523,
+        "title": "fix(ui): include the first day of Activity charts after spring forward",
+        "url": "https://github.com/openclaw/openclaw/pull/205523",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-25T19:54:02Z"
       }
     ]
   }

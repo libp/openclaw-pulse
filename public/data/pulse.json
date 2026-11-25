@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-24T04:45:53.608Z",
+  "generatedAt": "2026-11-25T00:40:43.166Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2193,6 +2193,23 @@
       "contributors": 3823,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-25",
+      "capturedAt": "2026-11-25T00:40:43.166Z",
+      "issueOpen": 5322,
+      "issueClosed": 60495,
+      "prOpen": 3818,
+      "prClosed": 132837,
+      "prMerged": 75150,
+      "workflowRuns": 40000,
+      "stars": 395168,
+      "forks": 82958,
+      "subscribers": 1693,
+      "commits": 131911,
+      "contributors": 3825,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -3123,92 +3140,127 @@
       "subscribers": 1693,
       "commits": 131599,
       "contributors": 3823
+    },
+    {
+      "capturedOn": "2026-11-25",
+      "stars": 395168,
+      "forks": 82958,
+      "subscribers": 1693,
+      "commits": 131911,
+      "contributors": 3825
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 204387,
-        "title": "[Bug]: Embedded runtime replaces an earlier, still-loadable image with \"could not be loaded … ask them to resend\" on every later turn",
-        "url": "https://github.com/openclaw/openclaw/issues/204387",
+        "number": 204997,
+        "title": "whatsapp: security audit --fix seeds every account's groupAllowFrom from the default account's pairing store",
+        "url": "https://github.com/openclaw/openclaw/issues/204997",
         "state": "open",
-        "author": "withlightsg",
-        "updatedAt": "2026-11-24T04:43:44Z"
+        "author": "yetval",
+        "updatedAt": "2026-11-25T00:40:29Z"
       },
       {
         "kind": "issue",
-        "number": 204390,
-        "title": "Browser split Talk can go silent when the audio unlock clip stalls",
-        "url": "https://github.com/openclaw/openclaw/issues/204390",
+        "number": 204999,
+        "title": "Signal: blockquote continuation lines, nested quote lines, and later chunks lose the > marker",
+        "url": "https://github.com/openclaw/openclaw/issues/204999",
         "state": "open",
-        "author": "Marvinthebored",
-        "updatedAt": "2026-11-24T04:43:34Z"
+        "author": "yetval",
+        "updatedAt": "2026-11-25T00:40:37Z"
       },
       {
         "kind": "issue",
-        "number": 204386,
-        "title": "[Bug]: Native video never reaches Gemini: `PROVIDER_CONTEXT_HANDOFF` is defined twice in the published build",
-        "url": "https://github.com/openclaw/openclaw/issues/204386",
+        "number": 205000,
+        "title": "mcp: openclaw-tools bridge ignores tools.deny, agent tools.deny, and profile for ACP sessions",
+        "url": "https://github.com/openclaw/openclaw/issues/205000",
         "state": "open",
-        "author": "withlightsg",
-        "updatedAt": "2026-11-24T04:37:26Z"
+        "author": "yetval",
+        "updatedAt": "2026-11-25T00:40:38Z"
+      },
+      {
+        "kind": "issue",
+        "number": 204996,
+        "title": "models CLI: fallbacks list and image-fallbacks list ignore --agent and print global defaults",
+        "url": "https://github.com/openclaw/openclaw/issues/204996",
+        "state": "open",
+        "author": "yetval",
+        "updatedAt": "2026-11-25T00:40:06Z"
+      },
+      {
+        "kind": "issue",
+        "number": 204994,
+        "title": "exec-policy show: mixed-case agents.entries key splits one agent into two policy scopes and understates its ask policy",
+        "url": "https://github.com/openclaw/openclaw/issues/204994",
+        "state": "open",
+        "author": "yetval",
+        "updatedAt": "2026-11-25T00:40:04Z"
+      },
+      {
+        "kind": "issue",
+        "number": 204995,
+        "title": "sessions tail: unqualified or mixed-case --session-key (main, Agent:Main:Main) fails instead of tailing agent:main:main",
+        "url": "https://github.com/openclaw/openclaw/issues/204995",
+        "state": "open",
+        "author": "yetval",
+        "updatedAt": "2026-11-25T00:40:03Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 204364,
-        "title": "fix: show a Template's image as soon as its new agent's chat opens",
-        "url": "https://github.com/openclaw/openclaw/pull/204364",
-        "state": "open",
-        "author": "Patrick-Erichsen",
-        "updatedAt": "2026-11-24T04:45:37Z"
+        "number": 172439,
+        "title": "fix(whatsapp): seed each account's groupAllowFrom from its own pairing store in security audit --fix",
+        "url": "https://github.com/openclaw/openclaw/pull/172439",
+        "state": "closed",
+        "author": "yetval",
+        "updatedAt": "2026-11-25T00:40:11Z"
       },
       {
         "kind": "pr",
-        "number": 204301,
-        "title": "feat: let agents post approved GitHub comments",
-        "url": "https://github.com/openclaw/openclaw/pull/204301",
-        "state": "open",
-        "author": "daniel-lxs",
-        "updatedAt": "2026-11-24T04:45:33Z"
+        "number": 172393,
+        "title": "fix(mcp): apply configured tool policy to the openclaw-tools MCP bridge",
+        "url": "https://github.com/openclaw/openclaw/pull/172393",
+        "state": "closed",
+        "author": "yetval",
+        "updatedAt": "2026-11-25T00:40:10Z"
       },
       {
         "kind": "pr",
-        "number": 204389,
-        "title": "fix(ci): model every Solid lazy named-export loader in the UI for Knip",
-        "url": "https://github.com/openclaw/openclaw/pull/204389",
-        "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-11-24T04:45:19Z"
+        "number": 189996,
+        "title": "fix(hooks): resolve mapping header templates case-insensitively",
+        "url": "https://github.com/openclaw/openclaw/pull/189996",
+        "state": "closed",
+        "author": "yetval",
+        "updatedAt": "2026-11-25T00:40:08Z"
       },
       {
         "kind": "pr",
-        "number": 204369,
-        "title": "chore(ui): refresh control ui locales",
-        "url": "https://github.com/openclaw/openclaw/pull/204369",
-        "state": "open",
-        "author": "openclaw-mantis[bot]",
-        "updatedAt": "2026-11-24T04:45:14Z"
+        "number": 190470,
+        "title": "fix(channels): resolve dead-letters --channel case and aliases",
+        "url": "https://github.com/openclaw/openclaw/pull/190470",
+        "state": "closed",
+        "author": "yetval",
+        "updatedAt": "2026-11-25T00:40:06Z"
       },
       {
         "kind": "pr",
-        "number": 204133,
-        "title": "feat: send compact chat context to models on the small profile",
-        "url": "https://github.com/openclaw/openclaw/pull/204133",
-        "state": "open",
-        "author": "etzelm",
-        "updatedAt": "2026-11-24T04:44:43Z"
+        "number": 190482,
+        "title": "fix(cli): reject --agent for models fallbacks list and image-fallbacks list",
+        "url": "https://github.com/openclaw/openclaw/pull/190482",
+        "state": "closed",
+        "author": "yetval",
+        "updatedAt": "2026-11-25T00:40:04Z"
       },
       {
         "kind": "pr",
-        "number": 203364,
-        "title": "fix: count settled model tokens toward Goal budgets",
-        "url": "https://github.com/openclaw/openclaw/pull/203364",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-24T04:44:35Z"
+        "number": 190483,
+        "title": "fix(cli): resolve unqualified session keys in sessions tail",
+        "url": "https://github.com/openclaw/openclaw/pull/190483",
+        "state": "closed",
+        "author": "yetval",
+        "updatedAt": "2026-11-25T00:40:03Z"
       }
     ]
   }

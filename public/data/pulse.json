@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-26T12:25:13.464Z",
+  "generatedAt": "2026-11-26T22:19:12.194Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2213,18 +2213,18 @@
     },
     {
       "capturedOn": "2026-11-26",
-      "capturedAt": "2026-11-26T12:25:13.464Z",
-      "issueOpen": 5415,
-      "issueClosed": 60641,
-      "prOpen": 3797,
-      "prClosed": 133567,
-      "prMerged": 75803,
+      "capturedAt": "2026-11-26T22:19:12.194Z",
+      "issueOpen": 5469,
+      "issueClosed": 60673,
+      "prOpen": 3792,
+      "prClosed": 133731,
+      "prMerged": 75945,
       "workflowRuns": 40000,
-      "stars": 395268,
-      "forks": 82986,
-      "subscribers": 1693,
-      "commits": 132556,
-      "contributors": 3844,
+      "stars": 395296,
+      "forks": 82997,
+      "subscribers": 1691,
+      "commits": 132698,
+      "contributors": 3846,
       "source": "github-actions",
       "approximateDate": false
     }
@@ -3168,115 +3168,124 @@
     },
     {
       "capturedOn": "2026-11-26",
-      "stars": 395268,
-      "forks": 82986,
-      "subscribers": 1693,
-      "commits": 132556,
-      "contributors": 3844
+      "stars": 395296,
+      "forks": 82997,
+      "subscribers": 1691,
+      "commits": 132698,
+      "contributors": 3846
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 205946,
-        "title": "[Feature]: No supported way to share one canonical USER.md across agent workspaces — symlinks escape the root, hardlinks are rejected, only duplicated copies work",
-        "url": "https://github.com/openclaw/openclaw/issues/205946",
-        "state": "open",
-        "author": "waynegault",
-        "updatedAt": "2026-11-26T12:24:58Z"
+        "number": 206190,
+        "title": "[Feature]: Terminate processes manually, or clear everything out using /new",
+        "url": "https://github.com/openclaw/openclaw/issues/206190",
+        "state": "closed",
+        "author": "LupusPluvia",
+        "updatedAt": "2026-11-26T22:18:59Z"
       },
       {
         "kind": "issue",
-        "number": 204775,
-        "title": "Design: prepared-release updates (state, ownership and plan)",
-        "url": "https://github.com/openclaw/openclaw/issues/204775",
+        "number": 197512,
+        "title": "spawn-broker: session MCP groups (service-child-group-anchor + stdio servers) not reaped after session end -> ~1GB/h leak",
+        "url": "https://github.com/openclaw/openclaw/issues/197512",
         "state": "open",
-        "author": "obviyus",
-        "updatedAt": "2026-11-26T12:24:13Z"
+        "author": "RweSmarter",
+        "updatedAt": "2026-11-26T22:17:34Z"
       },
       {
         "kind": "issue",
-        "number": 204614,
-        "title": "[Feature]: Localize browser Web Push notification text (hardcoded English)",
-        "url": "https://github.com/openclaw/openclaw/issues/204614",
+        "number": 196820,
+        "title": "[Bug]: Control UI locks up at ~100% CPU in a `Element.getAnimations()` loop (macOS app WebContent and Edge)",
+        "url": "https://github.com/openclaw/openclaw/issues/196820",
         "state": "open",
-        "author": "p1nkyPi6",
-        "updatedAt": "2026-11-26T12:21:44Z"
+        "author": "erik-toc",
+        "updatedAt": "2026-11-26T22:17:23Z"
       },
       {
         "kind": "issue",
-        "number": 205938,
-        "title": "[Bug]: Control UI silently ignores queued-edit Enter while reconnect history loads",
-        "url": "https://github.com/openclaw/openclaw/issues/205938",
-        "state": "open",
+        "number": 206146,
+        "title": "session_project is offered to runs working outside the agent's default workspace",
+        "url": "https://github.com/openclaw/openclaw/issues/206146",
+        "state": "closed",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-11-26T12:21:28Z"
+        "updatedAt": "2026-11-26T22:16:41Z"
       },
       {
         "kind": "issue",
-        "number": 205939,
-        "title": "[Bug]: 2026.9.37 Git updates launch the new schema worker under the old updater’s maintenance lease",
-        "url": "https://github.com/openclaw/openclaw/issues/205939",
+        "number": 196817,
+        "title": "[Bug]: Setup inference loses published subscription routes and rejects usable OAuth",
+        "url": "https://github.com/openclaw/openclaw/issues/196817",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-26T12:25:05Z"
+        "author": "TheAngryPit",
+        "updatedAt": "2026-11-26T22:16:37Z"
+      },
+      {
+        "kind": "issue",
+        "number": 206021,
+        "title": "[Bug]: Teams 1:1 chat: a file sent from the iOS app never reaches the agent (activity has no attachments)",
+        "url": "https://github.com/openclaw/openclaw/issues/206021",
+        "state": "open",
+        "author": "colton-octaria",
+        "updatedAt": "2026-11-26T22:14:31Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 205947,
-        "title": "fix(gateway): retain Linux foreground installation identity",
-        "url": "https://github.com/openclaw/openclaw/pull/205947",
-        "state": "open",
-        "author": "tideclaw-bot",
-        "updatedAt": "2026-11-26T12:24:52Z"
-      },
-      {
-        "kind": "pr",
-        "number": 205932,
-        "title": "fix: show confirmed attachment sends in chat history",
-        "url": "https://github.com/openclaw/openclaw/pull/205932",
-        "state": "open",
-        "author": "RaphLorr",
-        "updatedAt": "2026-11-26T12:24:34Z"
-      },
-      {
-        "kind": "pr",
-        "number": 205937,
-        "title": "docs(macos): explain which Dashboard the Dock icon restores",
-        "url": "https://github.com/openclaw/openclaw/pull/205937",
-        "state": "open",
-        "author": "1052326311",
-        "updatedAt": "2026-11-26T12:24:30Z"
-      },
-      {
-        "kind": "pr",
-        "number": 205795,
-        "title": "fix(feishu): route p2p chat ids to the sender session",
-        "url": "https://github.com/openclaw/openclaw/pull/205795",
-        "state": "open",
-        "author": "SunnyShu0925",
-        "updatedAt": "2026-11-26T12:23:29Z"
-      },
-      {
-        "kind": "pr",
-        "number": 205940,
-        "title": "refactor(subagents): check a Stop's caller authority once, then let the admitted kill finish",
-        "url": "https://github.com/openclaw/openclaw/pull/205940",
+        "number": 205309,
+        "title": "fix(test): preserve live native watch selection ownership",
+        "url": "https://github.com/openclaw/openclaw/pull/205309",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-11-26T12:22:56Z"
+        "updatedAt": "2026-11-26T22:18:57Z"
       },
       {
         "kind": "pr",
-        "number": 205902,
-        "title": "fix(ui): keep the applied Workshop skill open after Retry",
-        "url": "https://github.com/openclaw/openclaw/pull/205902",
-        "state": "closed",
+        "number": 206193,
+        "title": "fix(agents): stabilize system-prompt suffix across normal and announce/yield turns",
+        "url": "https://github.com/openclaw/openclaw/pull/206193",
+        "state": "open",
+        "author": "sectrgt",
+        "updatedAt": "2026-11-26T22:18:55Z"
+      },
+      {
+        "kind": "pr",
+        "number": 205305,
+        "title": "test(ci): isolate direct-target volume policy cases",
+        "url": "https://github.com/openclaw/openclaw/pull/205305",
+        "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-11-26T12:22:16Z"
+        "updatedAt": "2026-11-26T22:18:24Z"
+      },
+      {
+        "kind": "pr",
+        "number": 196214,
+        "title": "fix(android): consolidate selection accessibility",
+        "url": "https://github.com/openclaw/openclaw/pull/196214",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-26T22:18:24Z"
+      },
+      {
+        "kind": "pr",
+        "number": 206148,
+        "title": "feat: show CSV attachments as a table in the chat file viewer",
+        "url": "https://github.com/openclaw/openclaw/pull/206148",
+        "state": "open",
+        "author": "daniel-lxs",
+        "updatedAt": "2026-11-26T22:18:16Z"
+      },
+      {
+        "kind": "pr",
+        "number": 206191,
+        "title": "improve: use less memory when reading workspace files",
+        "url": "https://github.com/openclaw/openclaw/pull/206191",
+        "state": "open",
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-26T22:17:18Z"
       }
     ]
   }

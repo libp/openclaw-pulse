@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-25T19:55:41.657Z",
+  "generatedAt": "2026-11-26T12:25:13.464Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2210,6 +2210,23 @@
       "contributors": 3838,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-26",
+      "capturedAt": "2026-11-26T12:25:13.464Z",
+      "issueOpen": 5415,
+      "issueClosed": 60641,
+      "prOpen": 3797,
+      "prClosed": 133567,
+      "prMerged": 75803,
+      "workflowRuns": 40000,
+      "stars": 395268,
+      "forks": 82986,
+      "subscribers": 1693,
+      "commits": 132556,
+      "contributors": 3844,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -3148,101 +3165,118 @@
       "subscribers": 1693,
       "commits": 132278,
       "contributors": 3838
+    },
+    {
+      "capturedOn": "2026-11-26",
+      "stars": 395268,
+      "forks": 82986,
+      "subscribers": 1693,
+      "commits": 132556,
+      "contributors": 3844
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 196069,
-        "title": "fix(android): wrap chat turn recap duration and token summary on compact widths",
-        "url": "https://github.com/openclaw/openclaw/issues/196069",
+        "number": 205946,
+        "title": "[Feature]: No supported way to share one canonical USER.md across agent workspaces — symlinks escape the root, hardlinks are rejected, only duplicated copies work",
+        "url": "https://github.com/openclaw/openclaw/issues/205946",
         "state": "open",
-        "author": "saariuslystoned",
-        "updatedAt": "2026-11-25T19:50:35Z"
+        "author": "waynegault",
+        "updatedAt": "2026-11-26T12:24:58Z"
       },
       {
         "kind": "issue",
-        "number": 205527,
-        "title": "[TUI] Persisted run-error notifications re-render as fresh failures after gateway restart/reconnect",
-        "url": "https://github.com/openclaw/openclaw/issues/205527",
+        "number": 204775,
+        "title": "Design: prepared-release updates (state, ownership and plan)",
+        "url": "https://github.com/openclaw/openclaw/issues/204775",
         "state": "open",
-        "author": "compoodment",
-        "updatedAt": "2026-11-25T19:49:56Z"
+        "author": "obviyus",
+        "updatedAt": "2026-11-26T12:24:13Z"
       },
       {
         "kind": "issue",
-        "number": 198634,
-        "title": "The provider request array is not append-only: it diverges from the previous request on the first call of many turns",
-        "url": "https://github.com/openclaw/openclaw/issues/198634",
+        "number": 204614,
+        "title": "[Feature]: Localize browser Web Push notification text (hardcoded English)",
+        "url": "https://github.com/openclaw/openclaw/issues/204614",
         "state": "open",
-        "author": "Deregtx",
-        "updatedAt": "2026-11-25T19:48:23Z"
+        "author": "p1nkyPi6",
+        "updatedAt": "2026-11-26T12:21:44Z"
       },
       {
         "kind": "issue",
-        "number": 198802,
-        "title": "[Bug]: Gateway heap grows ~90 MB/h: process plugin cache keeps every generation's native namespace member maps (incl. disabled plugins)",
-        "url": "https://github.com/openclaw/openclaw/issues/198802",
+        "number": 205938,
+        "title": "[Bug]: Control UI silently ignores queued-edit Enter while reconnect history loads",
+        "url": "https://github.com/openclaw/openclaw/issues/205938",
         "state": "open",
-        "author": "jaxonparrott",
-        "updatedAt": "2026-11-25T19:47:34Z"
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-26T12:21:28Z"
+      },
+      {
+        "kind": "issue",
+        "number": 205939,
+        "title": "[Bug]: 2026.9.37 Git updates launch the new schema worker under the old updater’s maintenance lease",
+        "url": "https://github.com/openclaw/openclaw/issues/205939",
+        "state": "open",
+        "author": "roboclaw-bot",
+        "updatedAt": "2026-11-26T12:25:05Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 205528,
-        "title": "fix(android): keep the turn recap when returning to a conversation",
-        "url": "https://github.com/openclaw/openclaw/pull/205528",
+        "number": 205947,
+        "title": "fix(gateway): retain Linux foreground installation identity",
+        "url": "https://github.com/openclaw/openclaw/pull/205947",
+        "state": "open",
+        "author": "tideclaw-bot",
+        "updatedAt": "2026-11-26T12:24:52Z"
+      },
+      {
+        "kind": "pr",
+        "number": 205932,
+        "title": "fix: show confirmed attachment sends in chat history",
+        "url": "https://github.com/openclaw/openclaw/pull/205932",
+        "state": "open",
+        "author": "RaphLorr",
+        "updatedAt": "2026-11-26T12:24:34Z"
+      },
+      {
+        "kind": "pr",
+        "number": 205937,
+        "title": "docs(macos): explain which Dashboard the Dock icon restores",
+        "url": "https://github.com/openclaw/openclaw/pull/205937",
+        "state": "open",
+        "author": "1052326311",
+        "updatedAt": "2026-11-26T12:24:30Z"
+      },
+      {
+        "kind": "pr",
+        "number": 205795,
+        "title": "fix(feishu): route p2p chat ids to the sender session",
+        "url": "https://github.com/openclaw/openclaw/pull/205795",
+        "state": "open",
+        "author": "SunnyShu0925",
+        "updatedAt": "2026-11-26T12:23:29Z"
+      },
+      {
+        "kind": "pr",
+        "number": 205940,
+        "title": "refactor(subagents): check a Stop's caller authority once, then let the admitted kill finish",
+        "url": "https://github.com/openclaw/openclaw/pull/205940",
         "state": "open",
         "author": "vincentkoc",
-        "updatedAt": "2026-11-25T19:55:17Z"
+        "updatedAt": "2026-11-26T12:22:56Z"
       },
       {
         "kind": "pr",
-        "number": 204804,
-        "title": "fix(ui): show the author's avatar on pending suggestions, like queued messages",
-        "url": "https://github.com/openclaw/openclaw/pull/204804",
-        "state": "open",
-        "author": "jalehman",
-        "updatedAt": "2026-11-25T19:55:02Z"
-      },
-      {
-        "kind": "pr",
-        "number": 205533,
-        "title": "fix: fit PDF previews to the available pane width",
-        "url": "https://github.com/openclaw/openclaw/pull/205533",
-        "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-25T19:54:52Z"
-      },
-      {
-        "kind": "pr",
-        "number": 205478,
-        "title": "fix: idle Gateway burns CPU scanning folders a shallow memory extraPaths pattern can never match",
-        "url": "https://github.com/openclaw/openclaw/pull/205478",
-        "state": "open",
-        "author": "Israel-Kli",
-        "updatedAt": "2026-11-25T19:54:37Z"
-      },
-      {
-        "kind": "pr",
-        "number": 205522,
-        "title": "test: trim redundant state and Cron fixture metadata",
-        "url": "https://github.com/openclaw/openclaw/pull/205522",
-        "state": "open",
+        "number": 205902,
+        "title": "fix(ui): keep the applied Workshop skill open after Retry",
+        "url": "https://github.com/openclaw/openclaw/pull/205902",
+        "state": "closed",
         "author": "vincentkoc",
-        "updatedAt": "2026-11-25T19:54:09Z"
-      },
-      {
-        "kind": "pr",
-        "number": 205523,
-        "title": "fix(ui): include the first day of Activity charts after spring forward",
-        "url": "https://github.com/openclaw/openclaw/pull/205523",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-25T19:54:02Z"
+        "updatedAt": "2026-11-26T12:22:16Z"
       }
     ]
   }

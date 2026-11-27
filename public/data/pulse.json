@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-26T22:19:12.194Z",
+  "generatedAt": "2026-11-27T15:01:15.657Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2227,6 +2227,23 @@
       "contributors": 3846,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-27",
+      "capturedAt": "2026-11-27T15:01:15.657Z",
+      "issueOpen": 5501,
+      "issueClosed": 60760,
+      "prOpen": 3814,
+      "prClosed": 134148,
+      "prMerged": 76324,
+      "workflowRuns": 40000,
+      "stars": 395334,
+      "forks": 83016,
+      "subscribers": 1692,
+      "commits": 133077,
+      "contributors": 3850,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -3173,119 +3190,109 @@
       "subscribers": 1691,
       "commits": 132698,
       "contributors": 3846
+    },
+    {
+      "capturedOn": "2026-11-27",
+      "stars": 395334,
+      "forks": 83016,
+      "subscribers": 1692,
+      "commits": 133077,
+      "contributors": 3850
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 206190,
-        "title": "[Feature]: Terminate processes manually, or clear everything out using /new",
-        "url": "https://github.com/openclaw/openclaw/issues/206190",
-        "state": "closed",
-        "author": "LupusPluvia",
-        "updatedAt": "2026-11-26T22:18:59Z"
-      },
-      {
-        "kind": "issue",
-        "number": 197512,
-        "title": "spawn-broker: session MCP groups (service-child-group-anchor + stdio servers) not reaped after session end -> ~1GB/h leak",
-        "url": "https://github.com/openclaw/openclaw/issues/197512",
+        "number": 206757,
+        "title": "Gateway drops an allowed manual restart when the restart-intent read times out",
+        "url": "https://github.com/openclaw/openclaw/issues/206757",
         "state": "open",
-        "author": "RweSmarter",
-        "updatedAt": "2026-11-26T22:17:34Z"
-      },
-      {
-        "kind": "issue",
-        "number": 196820,
-        "title": "[Bug]: Control UI locks up at ~100% CPU in a `Element.getAnimations()` loop (macOS app WebContent and Edge)",
-        "url": "https://github.com/openclaw/openclaw/issues/196820",
-        "state": "open",
-        "author": "erik-toc",
-        "updatedAt": "2026-11-26T22:17:23Z"
-      },
-      {
-        "kind": "issue",
-        "number": 206146,
-        "title": "session_project is offered to runs working outside the agent's default workspace",
-        "url": "https://github.com/openclaw/openclaw/issues/206146",
-        "state": "closed",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-11-26T22:16:41Z"
+        "updatedAt": "2026-11-27T14:59:55Z"
       },
       {
         "kind": "issue",
-        "number": 196817,
-        "title": "[Bug]: Setup inference loses published subscription routes and rejects usable OAuth",
-        "url": "https://github.com/openclaw/openclaw/issues/196817",
-        "state": "open",
-        "author": "TheAngryPit",
-        "updatedAt": "2026-11-26T22:16:37Z"
+        "number": 206421,
+        "title": "Codex harness: managed app-server's inference relay stops warm requests from reusing the prompt cache tail",
+        "url": "https://github.com/openclaw/openclaw/issues/206421",
+        "state": "closed",
+        "author": "brandon-julio-t",
+        "updatedAt": "2026-11-27T14:59:05Z"
       },
       {
         "kind": "issue",
-        "number": 206021,
-        "title": "[Bug]: Teams 1:1 chat: a file sent from the iOS app never reaches the agent (activity has no attachments)",
-        "url": "https://github.com/openclaw/openclaw/issues/206021",
+        "number": 167341,
+        "title": "[Feature]: Let operators override the user-facing copy for classified model-request failures",
+        "url": "https://github.com/openclaw/openclaw/issues/167341",
         "state": "open",
-        "author": "colton-octaria",
-        "updatedAt": "2026-11-26T22:14:31Z"
+        "author": "fransqaas",
+        "updatedAt": "2026-11-27T14:58:41Z"
+      },
+      {
+        "kind": "issue",
+        "number": 206751,
+        "title": "System events pile up on a main session that only receives internal turns; sessions_send notify then fails with a misleading \"Notification was not queued.\"",
+        "url": "https://github.com/openclaw/openclaw/issues/206751",
+        "state": "open",
+        "author": "jaimeehenry",
+        "updatedAt": "2026-11-27T14:58:34Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 205309,
-        "title": "fix(test): preserve live native watch selection ownership",
-        "url": "https://github.com/openclaw/openclaw/pull/205309",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-26T22:18:57Z"
-      },
-      {
-        "kind": "pr",
-        "number": 206193,
-        "title": "fix(agents): stabilize system-prompt suffix across normal and announce/yield turns",
-        "url": "https://github.com/openclaw/openclaw/pull/206193",
-        "state": "open",
-        "author": "sectrgt",
-        "updatedAt": "2026-11-26T22:18:55Z"
-      },
-      {
-        "kind": "pr",
-        "number": 205305,
-        "title": "test(ci): isolate direct-target volume policy cases",
-        "url": "https://github.com/openclaw/openclaw/pull/205305",
-        "state": "open",
-        "author": "vincentkoc",
-        "updatedAt": "2026-11-26T22:18:24Z"
-      },
-      {
-        "kind": "pr",
-        "number": 196214,
-        "title": "fix(android): consolidate selection accessibility",
-        "url": "https://github.com/openclaw/openclaw/pull/196214",
+        "number": 206695,
+        "title": "fix: keep Home in its workspace when starting project work",
+        "url": "https://github.com/openclaw/openclaw/pull/206695",
         "state": "open",
         "author": "roboclaw-bot",
-        "updatedAt": "2026-11-26T22:18:24Z"
+        "updatedAt": "2026-11-27T15:01:06Z"
       },
       {
         "kind": "pr",
-        "number": 206148,
-        "title": "feat: show CSV attachments as a table in the chat file viewer",
-        "url": "https://github.com/openclaw/openclaw/pull/206148",
+        "number": 206713,
+        "title": "test(subagents): consolidate completion boundary coverage",
+        "url": "https://github.com/openclaw/openclaw/pull/206713",
+        "state": "closed",
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-27T15:01:04Z"
+      },
+      {
+        "kind": "pr",
+        "number": 205443,
+        "title": "fix: let updates pass validation when the Gateway uses Tailscale Serve or Funnel",
+        "url": "https://github.com/openclaw/openclaw/pull/205443",
+        "state": "open",
+        "author": "e-jung",
+        "updatedAt": "2026-11-27T15:01:04Z"
+      },
+      {
+        "kind": "pr",
+        "number": 194682,
+        "title": "fix(browser): report crashed tabs as tab-scoped failures",
+        "url": "https://github.com/openclaw/openclaw/pull/194682",
+        "state": "open",
+        "author": "ccclucky",
+        "updatedAt": "2026-11-27T15:00:44Z"
+      },
+      {
+        "kind": "pr",
+        "number": 206758,
+        "title": "fix(imap): require the authenticated From mailbox to match the allowlisted sender",
+        "url": "https://github.com/openclaw/openclaw/pull/206758",
         "state": "open",
         "author": "daniel-lxs",
-        "updatedAt": "2026-11-26T22:18:16Z"
+        "updatedAt": "2026-11-27T15:00:40Z"
       },
       {
         "kind": "pr",
-        "number": 206191,
-        "title": "improve: use less memory when reading workspace files",
-        "url": "https://github.com/openclaw/openclaw/pull/206191",
-        "state": "open",
+        "number": 206733,
+        "title": "improve: use less memory when waiting for an agent reply",
+        "url": "https://github.com/openclaw/openclaw/pull/206733",
+        "state": "closed",
         "author": "vincentkoc",
-        "updatedAt": "2026-11-26T22:17:18Z"
+        "updatedAt": "2026-11-27T15:00:35Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "repository": "openclaw/openclaw",
-  "generatedAt": "2026-11-27T15:01:15.657Z",
+  "generatedAt": "2026-11-28T16:51:15.582Z",
   "snapshots": [
     {
       "capturedOn": "2026-03-10",
@@ -2244,6 +2244,23 @@
       "contributors": 3850,
       "source": "github-actions",
       "approximateDate": false
+    },
+    {
+      "capturedOn": "2026-11-28",
+      "capturedAt": "2026-11-28T16:51:15.582Z",
+      "issueOpen": 5541,
+      "issueClosed": 60858,
+      "prOpen": 3874,
+      "prClosed": 134785,
+      "prMerged": 76914,
+      "workflowRuns": 40000,
+      "stars": 395371,
+      "forks": 83010,
+      "subscribers": 1691,
+      "commits": 133667,
+      "contributors": 3862,
+      "source": "github-actions",
+      "approximateDate": false
     }
   ],
   "metrics": [
@@ -3198,101 +3215,82 @@
       "subscribers": 1692,
       "commits": 133077,
       "contributors": 3850
+    },
+    {
+      "capturedOn": "2026-11-28",
+      "stars": 395371,
+      "forks": 83010,
+      "subscribers": 1691,
+      "commits": 133667,
+      "contributors": 3862
     }
   ],
   "activity": {
     "issues": [
       {
         "kind": "issue",
-        "number": 206757,
-        "title": "Gateway drops an allowed manual restart when the restart-intent read times out",
-        "url": "https://github.com/openclaw/openclaw/issues/206757",
+        "number": 207608,
+        "title": "[Bug]: normalizeUsage double-counts cache for cache_read* keys, inflating context ratio ~2x",
+        "url": "https://github.com/openclaw/openclaw/issues/207608",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-27T14:59:55Z"
-      },
-      {
-        "kind": "issue",
-        "number": 206421,
-        "title": "Codex harness: managed app-server's inference relay stops warm requests from reusing the prompt cache tail",
-        "url": "https://github.com/openclaw/openclaw/issues/206421",
-        "state": "closed",
-        "author": "brandon-julio-t",
-        "updatedAt": "2026-11-27T14:59:05Z"
-      },
-      {
-        "kind": "issue",
-        "number": 167341,
-        "title": "[Feature]: Let operators override the user-facing copy for classified model-request failures",
-        "url": "https://github.com/openclaw/openclaw/issues/167341",
-        "state": "open",
-        "author": "fransqaas",
-        "updatedAt": "2026-11-27T14:58:41Z"
-      },
-      {
-        "kind": "issue",
-        "number": 206751,
-        "title": "System events pile up on a main session that only receives internal turns; sessions_send notify then fails with a misleading \"Notification was not queued.\"",
-        "url": "https://github.com/openclaw/openclaw/issues/206751",
-        "state": "open",
-        "author": "jaimeehenry",
-        "updatedAt": "2026-11-27T14:58:34Z"
+        "author": "xingkongxia1988",
+        "updatedAt": "2026-11-28T16:49:29Z"
       }
     ],
     "prs": [
       {
         "kind": "pr",
-        "number": 206695,
-        "title": "fix: keep Home in its workspace when starting project work",
-        "url": "https://github.com/openclaw/openclaw/pull/206695",
+        "number": 207604,
+        "title": "test(infra): remove unused approval fixture options",
+        "url": "https://github.com/openclaw/openclaw/pull/207604",
         "state": "open",
-        "author": "roboclaw-bot",
-        "updatedAt": "2026-11-27T15:01:06Z"
-      },
-      {
-        "kind": "pr",
-        "number": 206713,
-        "title": "test(subagents): consolidate completion boundary coverage",
-        "url": "https://github.com/openclaw/openclaw/pull/206713",
-        "state": "closed",
         "author": "vincentkoc",
-        "updatedAt": "2026-11-27T15:01:04Z"
+        "updatedAt": "2026-11-28T16:51:02Z"
       },
       {
         "kind": "pr",
-        "number": 205443,
-        "title": "fix: let updates pass validation when the Gateway uses Tailscale Serve or Funnel",
-        "url": "https://github.com/openclaw/openclaw/pull/205443",
+        "number": 207585,
+        "title": "refactor(update): remove native post-activation Doctor subprocess",
+        "url": "https://github.com/openclaw/openclaw/pull/207585",
         "state": "open",
-        "author": "e-jung",
-        "updatedAt": "2026-11-27T15:01:04Z"
+        "author": "obviyus",
+        "updatedAt": "2026-11-28T16:51:01Z"
       },
       {
         "kind": "pr",
-        "number": 194682,
-        "title": "fix(browser): report crashed tabs as tab-scoped failures",
-        "url": "https://github.com/openclaw/openclaw/pull/194682",
+        "number": 207605,
+        "title": "test(infra): isolate traceparent size rejection",
+        "url": "https://github.com/openclaw/openclaw/pull/207605",
         "state": "open",
-        "author": "ccclucky",
-        "updatedAt": "2026-11-27T15:00:44Z"
+        "author": "vincentkoc",
+        "updatedAt": "2026-11-28T16:50:58Z"
       },
       {
         "kind": "pr",
-        "number": 206758,
-        "title": "fix(imap): require the authenticated From mailbox to match the allowlisted sender",
-        "url": "https://github.com/openclaw/openclaw/pull/206758",
+        "number": 207578,
+        "title": "fix(codex): stop detached children during forced Linux shutdown",
+        "url": "https://github.com/openclaw/openclaw/pull/207578",
         "state": "open",
         "author": "daniel-lxs",
-        "updatedAt": "2026-11-27T15:00:40Z"
+        "updatedAt": "2026-11-28T16:50:37Z"
       },
       {
         "kind": "pr",
-        "number": 206733,
-        "title": "improve: use less memory when waiting for an agent reply",
-        "url": "https://github.com/openclaw/openclaw/pull/206733",
+        "number": 205753,
+        "title": "docs: add 2026.11.11 patch release notes",
+        "url": "https://github.com/openclaw/openclaw/pull/205753",
+        "state": "open",
+        "author": "hannesrudolph",
+        "updatedAt": "2026-11-28T16:50:30Z"
+      },
+      {
+        "kind": "pr",
+        "number": 207511,
+        "title": "test(agents): remove unused private fixture branches",
+        "url": "https://github.com/openclaw/openclaw/pull/207511",
         "state": "closed",
         "author": "vincentkoc",
-        "updatedAt": "2026-11-27T15:00:35Z"
+        "updatedAt": "2026-11-28T16:49:58Z"
       }
     ]
   }
